@@ -9601,7 +9601,7 @@ button.btn {
 
 .btn-outline-brand {
   color: #0961ae;
-  background-color:#ffed00;}
+  background-color:#dff4c1;}
   .btn-outline-brand:hover {
     color: #ffffff;
     background-color: #0961ae;
@@ -30542,7 +30542,7 @@ font-weight:400;
       border: 2px solid #0abb87; }
   .kt-badge.kt-badge--info {
     color: #ffffff;
-    background: #5578eb; }
+    background: #0e62ae; }
   .kt-badge.kt-badge--outline.kt-badge--info {
     background: transparent;
     color: #5578eb;

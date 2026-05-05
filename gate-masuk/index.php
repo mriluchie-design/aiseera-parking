@@ -771,6 +771,7 @@ function goBack() {
   </div>
   </div>
   </div>
+</div>
 
 									<!--end: Datatable -->
 								</div>

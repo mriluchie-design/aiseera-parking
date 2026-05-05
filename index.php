@@ -39,6 +39,7 @@
 													<!--begin: Grid Nav -->
 													<div class="kt-grid-nav kt-grid-nav--skin-light">
 														<div class="kt-grid-nav__row">
+															
 															<a href="./gate-masuk/" class="kt-grid-nav__item">
 																<span class="kt-grid-nav__icon">
 																	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--danger kt-svg-icon--lg">
@@ -100,7 +101,7 @@
 															
 															
 															
-															<a href="./parking-gate/crs.php" class="kt-grid-nav__item">
+															<a href="./monitoring/index.php" class="kt-grid-nav__item">
 																<span class="kt-grid-nav__icon">
 																	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--danger kt-svg-icon--lg">
    <defs></defs>
@@ -112,7 +113,7 @@
 </svg> </span>
 																<span class="kt-grid-nav__title">Monitoring</span>
 															</a>
-															<a href="./parking-gate/crs.php" class="kt-grid-nav__item">
+															<a href="./laporan-operasional/index.php" class="kt-grid-nav__item">
 																<span class="kt-grid-nav__icon">
 																	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--danger kt-svg-icon--lg">
    <defs></defs>
@@ -124,7 +125,7 @@
 </svg> </span>
 																<span class="kt-grid-nav__title">Laporan & Grafik</span>
 															</a>
-															<a href="./parking-gate/crs.php" class="kt-grid-nav__item">
+															<a href="./dashboard-operasional/index.php" class="kt-grid-nav__item">
 																<span class="kt-grid-nav__icon">
 																	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--danger kt-svg-icon--lg">
    <defs></defs>
