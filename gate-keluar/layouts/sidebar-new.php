@@ -39,7 +39,7 @@
 												</g>
                                 </svg></span><span class="kt-menu__link-text">Halaman Aplikasi</span></a></li>
 								<li class="kt-menu__section ">
-									<h4 class="kt-menu__section-text">Gate Masuk</h4>
+									<h4 class="kt-menu__section-text">Gate Keluar</h4>
 									<i class="kt-menu__section-icon flaticon-more-v2"></i>
 								</li>
 								<li class="kt-menu__item " aria-haspopup="true"><a href="./index.php" class="kt-menu__link "><span class="kt-menu__link-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">

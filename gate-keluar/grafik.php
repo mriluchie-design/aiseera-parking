@@ -17,7 +17,7 @@
 								<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Gate Masuk </span>
+											Gate Keluar </span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
 										</form>
@@ -62,7 +62,7 @@
 															Total
 														</h4>
 														<span class="kt-widget24__desc">
-															Kendaraan Masuk
+															Kendaraan Keluar
 														</span>
 													</div>
 													<span class="kt-widget24__stats kt-font-brand">
@@ -85,7 +85,7 @@
 															Bulan ini
 														</h4>
 														<span class="kt-widget24__desc">
-															Kendaraan Masuk
+															Kendaraan Keluar
 														</span>
 													</div>
 													<span class="kt-widget24__stats kt-font-success">
@@ -107,7 +107,7 @@
 															Hari ini
 														</h4>
 														<span class="kt-widget24__desc">
-															Kendaraan Masuk
+															Kendaraan Keluar
 														</span>
 													</div>
 													<span class="kt-widget24__stats kt-font-brand">
@@ -152,7 +152,7 @@
 										<div class="kt-portlet__head">
 											<div class="kt-portlet__head-label">
 												<h3 class="kt-portlet__head-title">
-													Transaksi Masuk
+													Transaksi Keluar
 												</h3>
 											</div>
 											<div class="kt-portlet__head-toolbar">

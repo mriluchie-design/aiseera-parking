@@ -29,7 +29,7 @@
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Jalur Mobil - 1</span>
+											Gate Masuk</span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
 										</form>
@@ -221,40 +221,46 @@ function goBack() {
 														<thead style="text-align:center">
 															<tr>
 															  <th width="1%" bgcolor="#f7fcff" rowspan="2">No</th>
-																<th width="3%" bgcolor="#f7fcff" rowspan="2">Petugas</th>
-																<th width="5%" bgcolor="#f7fcff" rowspan="2">Kartu Member</th>
-																<th colspan="2" bgcolor="#feffed">Waktu</th>
-																<th width="2%" rowspan="2" bgcolor="#feffed">Golongan</th>
-																<th width="4%" rowspan="2" bgcolor="#feffed">Jenis Kendaraan</th>
-																<th width="3%" rowspan="2" bgcolor="#feffed">Penumpang</th>
-																<th width="4%" rowspan="2" bgcolor="#feffed">Pengantar / Penjemput</th>
-																<th width="11%" rowspan="2" bgcolor="#feffed">Jumlah Pembayaran</th>
-																<th width="7%" rowspan="2" bgcolor="#f7fcff">Pembayaran</th>
-																<th width="3%" rowspan="2" bgcolor="#f7fcff">Status</th>
+																<th colspan="5" bgcolor="#f7fcff">Gate Masuk</th>
+																<th width="7%" rowspan="2" bgcolor="#feffed">Waktu Masuk</th>
+																<th colspan="6" bgcolor="#feffed">Data Kendaraan</th>
+																<th colspan="3" bgcolor="#feffed">Pembayaran</th>
 																<th width="1%" rowspan="2" bgcolor="#f7fcff">Foto</th>
 																<th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 															</tr>
 															<tr>
-															  <th width="6%" bgcolor="#feffed">Tanggal</th>
-															  <th width="5%" bgcolor="#feffed">Jam</th>
-															</tr>
+															  <th width="3%" bgcolor="#f7fcff">Petugas</th>
+															  <th width="1%" bgcolor="#f7fcff">Gate Masuk</th>
+															  <th width="1%" bgcolor="#f7fcff">Kendaraan</th>
+															  <th width="1%" bgcolor="#f7fcff">Type</th>
+															  <th width="1%" bgcolor="#f7fcff">Jalur</th>
+															  <th width="2%" bgcolor="#feffed">Member ID</th>
+															  <th width="5%" bgcolor="#feffed">No. Plat</th>
+															  <th width="2%" bgcolor="#feffed">Golongan</th>
+															  <th width="4%" bgcolor="#feffed">Jenis</th>
+															  <th width="3%" bgcolor="#feffed">Penumpang</th>
+															  <th width="4%" bgcolor="#feffed">Pengantar / Penjemput</th>
+															  <th width="5%" bgcolor="#feffed">Jumlah</th>
+															  <th width="7%" bgcolor="#feffed">Metode</th>
+															  <th width="3%" bgcolor="#feffed">Status</th>
+														    </tr>
 														</thead>
 														<tbody>
 															<tr>
 															  <td align="center" valign="middle" style="text-align:right">1</td>
 															  <td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par&lt;hr&gt;Bendahara Pengeluaran" data-html="true"><img src="../assets/media/users/100_10.jpg" alt="image" /></a></td>
-															  <td align="center" valign="middle" style="text-align:left">123123312323123</td>
-																<td><div style="display: flex; justify-content: space-between; align-items: center;"> 05 Mei 2026</div></td>
-																<td><div style="display: flex; justify-content: space-between; align-items: center;"> 07:49:00 WITA </div></td>
+															  <td align="center" valign="middle" style="text-align:left">I</td>
+															  <td align="center" valign="middle" style="text-align:left">Mobil</td>
+															  <td align="center" valign="middle" style="text-align:left">Masuk</td>
+															  <td align="center" valign="middle" style="text-align:left">1</td>
+															  <td nowrap="" style="text-align:center">05/05/2026<hr>06:00:00 WITA</td>
+																<td align="center" valign="middle" style="text-align:left">123123312323123</td>
+																<td>DD 1111 LU</td>
 																<td><div style="text-align:center"> I</div></td>
 																<td class="nilai">Mobil</td>
 																<td class="nilai">1</td>
 																<td class="nilai">1</td>
-																<td class="nilai"><div class="input-group input-group-sm">
-																  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-																  <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000" aria-describedby="basic-addon1" />
-																  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-																  </div></td>
+																<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>2.000.000,-</span> </div></td>
 															  <td class="text-center"><span class="btn btn-label-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">Tunai</span></td>
 															  
 </td>
@@ -283,18 +289,18 @@ function goBack() {
 															<tr>
 															  <td align="center" valign="middle" style="text-align:right">2</td>
 															  <td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par&lt;hr&gt;Bendahara Pengeluaran" data-html="true"><img src="../assets/media/users/100_10.jpg" alt="image" /></a></td>
-															  <td align="center" valign="middle" style="text-align:left">123123312323123</td>
-																<td><div style="display: flex; justify-content: space-between; align-items: center;"> 05 Mei 2026</div></td>
-																<td><div style="display: flex; justify-content: space-between; align-items: center;"> 07:49:00 WITA </div></td>
+															  <td align="center" valign="middle" style="text-align:left">II</td>
+															  <td align="center" valign="middle" style="text-align:left">Mobil</td>
+															  <td align="center" valign="middle" style="text-align:left">Masuk</td>
+															  <td align="center" valign="middle" style="text-align:left">2</td>
+															  <td nowrap="" style="text-align:center">05/05/2026<hr>06:00:00 WITA</td>
+																<td align="center" valign="middle" style="text-align:left">123123312323123</td>
+																<td>DD 1 LU</td>
 																<td><div style="text-align:center"> I</div></td>
 																<td class="nilai">Mobil</td>
 																<td class="nilai">1</td>
 																<td class="nilai">1</td>
-															  <td class="nilai"><div class="input-group input-group-sm">
-															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon3">Rp.</span></div>
-															    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000" aria-describedby="basic-addon1" />
-															    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon3">,-</span></div>
-															    </div></td>
+															  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>2.000.000,-</span> </div></td>
 															  <td class="text-center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355135&lt;hr&gt;e-Wallet&lt;hr&gt;Gopay" data-html="true">Non Tunai</span></td>
 															  <td class="text-center"><span class="btn btn-label-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">Lunas</span></td>
 															  <td style="text-align:center" nowrap>&nbsp;</td>

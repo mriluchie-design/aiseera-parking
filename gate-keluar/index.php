@@ -24,12 +24,12 @@
             <div class="kt-subheader__main">
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Gate Out
+                    Gate - 1
                 </h3>
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Jalur Mobil Keluar - 1</span>
+											Mobil - Keluar - 1</span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
 										</form>
@@ -63,7 +63,7 @@ function goBack() {
 			<div class="btn-group">
 				<button type="button" class="btn btn-label-success btn-sm">
 					<i class="fa fa-car"></i>
-					<span class="kt-hidden-mobile">Kendaraan Berangkat</span>
+					<span class="kt-hidden-mobile">Free Pass</span>
 				</button>
 				
 				
@@ -103,7 +103,7 @@ function goBack() {
 
           
 
-			<div class="kt-portlet kt-portlet--mobile ">
+			
 				<div class="kt-portlet__body">
 				
 					  <div class="form-group row">
@@ -174,9 +174,23 @@ function goBack() {
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Kendaraan Masuk</div><br><br>
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Kendaraan Keluar</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
+						<div class="col-lg-12" >
+                          <label>Scan Kartu / Karcis :</label>
+                          <div class="kt-input-icon kt-input-icon--right">
+        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
+        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
+    		                            <span><i class="la la-search"></i></span>
+    		                        </span>
+    		                    </div>
+                        </div>
+						
+						
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
 						<div class="col-lg-7" >
                           <label style="color:#a2050c">Tanggal Masuk :</label>
                           <div class="input-group date">
@@ -203,6 +217,77 @@ function goBack() {
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
+						<div class="col-lg-7" >
+                          <label style="color:#a2050c">Tanggal Keluar :</label>
+                          <div class="input-group date">
+													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" disabled>
+													<div class="input-group-append">
+														<span class="input-group-text">
+															<i class="la la-calendar-check-o"></i>
+														</span>
+													</div>
+												</div>
+                        </div>
+						
+						<div class="col-lg-5">
+                          <label class="">Jam Keluar :</label>
+                          <div class="input-group timepicker">
+													<input class="form-control form-control-sm" id="kt_timepicker_2" readonly="" placeholder="07:44:00" type="text" disabled>
+													<div class="input-group-append">
+														<span class="input-group-text">
+															<i class="la la-clock-o"></i>
+														</span>
+													</div>
+												</div>
+                        </div>
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-4" >
+                          <label style="color:#a2050c">Durasi Parkir :</label>
+                          <div class="input-group">
+													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="1" aria-describedby="basic-addon2" disabled>
+													<div class="input-group-append">
+														<span class="input-group-text" id="basic-addon2">Jam</span>
+													</div>
+												</div>
+                        </div>
+						<div class="col-lg-4" >
+                          <label style="color:#a2050c">&nbsp;</label>
+                          <div class="input-group">
+													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="30" aria-describedby="basic-addon2" disabled>
+													<div class="input-group-append">
+														<span class="input-group-text" id="basic-addon2">Menit</span>
+													</div>
+												</div>
+                        </div>
+						<div class="col-lg-4" >
+                          <label style="color:#a2050c">&nbsp;</label>
+                          <div class="input-group">
+													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="50" aria-describedby="basic-addon2" disabled>
+													<div class="input-group-append">
+														<span class="input-group-text" id="basic-addon2">Detik</span>
+													</div>
+												</div>
+                        </div>
+						
+						
+                        </div>
+						
+						
+						
+						  
+						
+                      </div>
+                      </div>
+                      </div>
+					  <div class="col-lg-4">
+
+									<!--begin::Portlet-->
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Transaksi</div><br><br>
+										 <div class="kt-portlet__body">
+										 <div class="form-group row">
 					  
 						
 					  
@@ -232,40 +317,6 @@ function goBack() {
 						
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						  <div class="form-group row">
-						  <div class="col-lg-7" >
-                          <label style="color:#a2050c">Pengantar / Penjemput :</label>
-                          <div class="input-group">
-													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="" aria-describedby="basic-addon2">
-													<div class="input-group-append">
-														<span class="input-group-text" id="basic-addon2">/Orang</span>
-													</div>
-												</div>
-                        </div>
-						<div class="col-lg-5" >
-                          <label style="color:#a2050c">Penumpang :</label>
-                          <div class="input-group">
-													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="" aria-describedby="basic-addon2">
-													<div class="input-group-append">
-														<span class="input-group-text" id="basic-addon2">/Orang</span>
-													</div>
-												</div>
-                        </div>
-						
-						
-						 </div>
-						 
-						  
-						
-                      </div>
-                      </div>
-                      </div>
-					  <div class="col-lg-4">
-
-									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Transaksi</div><br><br>
-										 <div class="kt-portlet__body">
 										 <div class="form-group row">
                       <div class="col-lg-6">
                           <label class="">ID Transaksi :</label>
@@ -402,7 +453,7 @@ function goBack() {
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="50">
                         </div>
 						<div class="col-lg-2">
-                          <label class="">IP Kasir :</label>
+                          <label class="">IP Petugas Gate - Keluar :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="192.168.88.100">
                         </div>
 						<div class="col-lg-1">
@@ -410,7 +461,7 @@ function goBack() {
                           <span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
                         </div>
 						<div class="col-lg-2">
-                          <label class="">IP Barrier Gate :</label>
+                          <label class="">IP Barrier Gate - Keluar :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="192.168.88.101">
                         </div>
 						<div class="col-lg-1">
@@ -440,61 +491,7 @@ function goBack() {
 					
                     <!--end: Datatable -->
 
-                    <!-- begin:: pageline -->
-					<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-					<div class="kt-pagination  kt-pagination--danger">
-						<select class="form-control kt-font-danger" style="width: 60px">
-								<option value="10">10</option>
-								<option value="20">20</option>
-								<option value="30">30</option>
-								<option value="50">50</option>
-								<option value="100">100</option>
-							</select>
-							<span class="pagination__desc">
-								Menampilkan 10 dari 230 Data
-							</span>
-							<div class="kt-pagination__toolbar">
-								<ul class="kt-pagination__links">
-								<li class="kt-pagination__link--first">
-									<a href="#"><i class="fa fa-angle-double-left kt-font-danger"></i></a>
-								</li>
-								<li class="kt-pagination__link--next">
-									<a href="#"><i class="fa fa-angle-left kt-font-danger"></i></a>
-								</li>
-								<li>
-									<a href="#">...</a>
-								</li>
-								<li>
-									<a href="#">29</a>
-								</li>
-								<li class="kt-pagination__link--active">
-									<a href="#">30</a>
-								</li>
-								<li>
-									<a href="#">31</a>
-								</li>
-								<li>
-									<a href="#">32</a>
-								</li>
-								<li>
-									<a href="#">33</a>
-								</li>
-								<li>
-									<a href="#">34</a>
-								</li>
-								<li>
-									<a href="#">...</a>
-								</li>
-								<li class="kt-pagination__link--prev">
-									<a href="#"><i class="fa fa-angle-right kt-font-danger"></i></a>
-								</li>
-								<li class="kt-pagination__link--last">
-									<a href="#"><i class="fa fa-angle-double-right kt-font-danger"></i></a>
-								</li>
-							</ul>
-							</div>
-						</div>
-                    <!-- end:: pageline -->
+                    
 <!--begin::Modal 1-->
 									<div class="modal fade" id="titik-parkir-tutup" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
@@ -826,7 +823,6 @@ function goBack() {
   </div>
   </div>
   </div>
-</div>
 
 									<!--end: Datatable -->
 								</div>

@@ -24,12 +24,12 @@
             <div class="kt-subheader__main">
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Gate 1
+                    Gate - 1
                 </h3>
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Jalur Mobil Masuk - 1</span>
+											Mobil - Masuk - 1</span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
 										</form>
@@ -103,7 +103,6 @@ function goBack() {
 
           
 
-			<div class="kt-portlet kt-portlet--mobile ">
 				<div class="kt-portlet__body">
 				
 					  <div class="form-group row">
@@ -238,7 +237,7 @@ function goBack() {
                           <div class="input-group">
 													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="" aria-describedby="basic-addon2">
 													<div class="input-group-append">
-														<span class="input-group-text" id="basic-addon2">/Orang</span>
+														<span class="input-group-text" id="basic-addon2">Orang</span>
 													</div>
 												</div>
                         </div>
@@ -247,7 +246,7 @@ function goBack() {
                           <div class="input-group">
 													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="" aria-describedby="basic-addon2">
 													<div class="input-group-append">
-														<span class="input-group-text" id="basic-addon2">/Orang</span>
+														<span class="input-group-text" id="basic-addon2">Orang</span>
 													</div>
 												</div>
                         </div>
@@ -440,61 +439,7 @@ function goBack() {
 					
                     <!--end: Datatable -->
 
-                    <!-- begin:: pageline -->
-					<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-					<div class="kt-pagination  kt-pagination--danger">
-						<select class="form-control kt-font-danger" style="width: 60px">
-								<option value="10">10</option>
-								<option value="20">20</option>
-								<option value="30">30</option>
-								<option value="50">50</option>
-								<option value="100">100</option>
-							</select>
-							<span class="pagination__desc">
-								Menampilkan 10 dari 230 Data
-							</span>
-							<div class="kt-pagination__toolbar">
-								<ul class="kt-pagination__links">
-								<li class="kt-pagination__link--first">
-									<a href="#"><i class="fa fa-angle-double-left kt-font-danger"></i></a>
-								</li>
-								<li class="kt-pagination__link--next">
-									<a href="#"><i class="fa fa-angle-left kt-font-danger"></i></a>
-								</li>
-								<li>
-									<a href="#">...</a>
-								</li>
-								<li>
-									<a href="#">29</a>
-								</li>
-								<li class="kt-pagination__link--active">
-									<a href="#">30</a>
-								</li>
-								<li>
-									<a href="#">31</a>
-								</li>
-								<li>
-									<a href="#">32</a>
-								</li>
-								<li>
-									<a href="#">33</a>
-								</li>
-								<li>
-									<a href="#">34</a>
-								</li>
-								<li>
-									<a href="#">...</a>
-								</li>
-								<li class="kt-pagination__link--prev">
-									<a href="#"><i class="fa fa-angle-right kt-font-danger"></i></a>
-								</li>
-								<li class="kt-pagination__link--last">
-									<a href="#"><i class="fa fa-angle-double-right kt-font-danger"></i></a>
-								</li>
-							</ul>
-							</div>
-						</div>
-                    <!-- end:: pageline -->
+                    
 <!--begin::Modal 1-->
 									<div class="modal fade" id="titik-parkir-tutup" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
@@ -826,7 +771,6 @@ function goBack() {
   </div>
   </div>
   </div>
-</div>
 
 									<!--end: Datatable -->
 								</div>
