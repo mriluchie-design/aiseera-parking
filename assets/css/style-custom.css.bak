@@ -1,0 +1,1276 @@
+td ol, ul, dl{
+margin-bottom:0 !important;
+}
+
+.bordered{
+    margin-top:.5rem;
+    margin-bottom:.5rem;
+    border:0;
+    border-top:2px solid #000;
+}
+
+.kt-font-ilu {
+    color: #ed3237 !important; }
+
+.kt-bg-ilu {
+    background: #c00000 !important;
+    color: #fff; }
+
+.upah thead tr th{
+	padding: 0.75rem 0.75rem;
+}
+
+.upah td{
+	border-bottom: 1px solid #000;
+	vertical-align: middle !important;
+	font-weight:normal;
+	color:#374163;
+	padding:0.5rem 0.5rem;
+}
+
+.page{
+	background: #fff;
+	height: 800px;
+}
+
+.mtb-3{
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+}
+
+.v-center{
+	display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pasal-6
+{
+	display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.h-center{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alert-im {
+	color: #fff !important;
+	background-color: #c00000;
+	border-color: #c00000
+}
+
+.page-2,
+.page-2-start,
+.page-2-end,
+.page-6 {
+	font-size: 10px !important;
+	margin: 5rem;
+}
+
+.judul{
+	font-weight:bold;
+	color:#4f81bd;
+	margin-left:10px;
+}
+
+.pasal-6-next{
+	display: none;
+}
+
+.pt-7{
+  padding-top: 7em !important;
+}
+
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.bootstrap-select .dropdown-menu.inner > li.active:not(.selected) > a {
+background: #ed1c24 !important;
+}
+
+.bootstrap-select .dropdown-menu li.active small {
+  color: #fff !important;
+}
+
+.bootstrap-select .dropdown-menu.inner > li > a .text small {
+  display:block !important;
+}
+
+.no-border td {
+  border-top: none !important;
+  border: none !important;
+}
+
+.hide {
+  display: none;
+}
+
+.input-group-addon, .input-group-btn {
+  width: 7%;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-align:center;
+}
+
+.input-group-addon {
+  padding: 8px 3px;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 1;
+  background-color: #eee;
+  border: 1px solid #ccc;
+}
+
+#foo.hide2 tr > *:nth-child(4),
+#foo.hide2 tr > *:nth-child(6) {
+    display: none;
+}
+
+datalist.none option {
+   font-style: italic !important;
+}
+
+.dropdown-menu label {
+  display: block;
+}
+
+.table-resizable.resizing, .table-resizable th::before {
+	 cursor: col-resize;
+	 user-select: none;
+}
+ .table-resizable th {
+	 position: relative;
+}
+ .table-resizable th::before {
+	 content: '';
+	 display: block;
+	 height: 100%;
+	 position: absolute;
+	 right: 0;
+	 top: 0;
+	 width: 1em;
+}
+ .table-resizable th:last-of-type::before {
+	 display: none;
+}
+ .table-resizable td {
+	 max-width: 0;
+	 overflow: hidden;
+	 text-overflow: ellipsis;
+	 white-space: nowrap;
+}
+
+
+#onboarding-personalised-container, #data-migration-personalised-container {
+  padding-bottom: 3em
+}
+
+#onboarding-personalised-container #sales-invoice, #data-migration-personalised-container #sales-invoice {
+  margin: 0;
+  padding-right: 0;
+  padding-left: 0;
+  border: none
+}
+
+#onboarding-personalised-container .video-section, #data-migration-personalised-container .video-section {
+  display: none
+}
+
+#onboarding-personalised-container .onboarding-card, #onboarding-personalised-container .data-migration-card, #data-migration-personalised-container .onboarding-card, #data-migration-personalised-container .data-migration-card {
+  margin: 13px 0px 0px 0px !important
+}
+
+#onboarding-container, #onboarding-personalised-container, #data-migration-container, #data-migration-personalised-container {
+  text-align: center
+}
+
+#onboarding-container .onboarding-card, #onboarding-container .data-migration-card, #onboarding-personalised-container .onboarding-card, #onboarding-personalised-container .data-migration-card, #data-migration-container .onboarding-card, #data-migration-container .data-migration-card, #data-migration-personalised-container .onboarding-card, #data-migration-personalised-container .data-migration-card {
+  background: white;
+  margin: 13px 0px 0px 0px;
+  height: 244px
+}
+
+#onboarding-container .onboarding-card .icon-img, #onboarding-container .data-migration-card .icon-img, #onboarding-personalised-container .onboarding-card .icon-img, #onboarding-personalised-container .data-migration-card .icon-img, #data-migration-container .onboarding-card .icon-img, #data-migration-container .data-migration-card .icon-img, #data-migration-personalised-container .onboarding-card .icon-img, #data-migration-personalised-container .data-migration-card .icon-img {
+  height: 80px;
+  width: 60px
+}
+
+#onboarding-container .onboarding-card .big-icon-img, #onboarding-container .data-migration-card .big-icon-img, #onboarding-personalised-container .onboarding-card .big-icon-img, #onboarding-personalised-container .data-migration-card .big-icon-img, #data-migration-container .onboarding-card .big-icon-img, #data-migration-container .data-migration-card .big-icon-img, #data-migration-personalised-container .onboarding-card .big-icon-img, #data-migration-personalised-container .data-migration-card .big-icon-img {
+  height: 130px;
+  width: auto
+}
+
+#onboarding-container .onboarding-card #manage-expense-table td, #onboarding-container .onboarding-card #manage-invoice-table td, #onboarding-container .onboarding-card #manage-report-table td, #onboarding-container .data-migration-card #manage-expense-table td, #onboarding-container .data-migration-card #manage-invoice-table td, #onboarding-container .data-migration-card #manage-report-table td, #onboarding-personalised-container .onboarding-card #manage-expense-table td, #onboarding-personalised-container .onboarding-card #manage-invoice-table td, #onboarding-personalised-container .onboarding-card #manage-report-table td, #onboarding-personalised-container .data-migration-card #manage-expense-table td, #onboarding-personalised-container .data-migration-card #manage-invoice-table td, #onboarding-personalised-container .data-migration-card #manage-report-table td, #data-migration-container .onboarding-card #manage-expense-table td, #data-migration-container .onboarding-card
+#manage-invoice-table td, #data-migration-container .onboarding-card #manage-report-table td, #data-migration-container .data-migration-card #manage-expense-table td, #data-migration-container .data-migration-card #manage-invoice-table td, #data-migration-container .data-migration-card #manage-report-table td, #data-migration-personalised-container .onboarding-card #manage-expense-table td, #data-migration-personalised-container .onboarding-card #manage-invoice-table td, #data-migration-personalised-container .onboarding-card #manage-report-table td, #data-migration-personalised-container .data-migration-card #manage-expense-table td, #data-migration-personalised-container .data-migration-card #manage-invoice-table td, #data-migration-personalised-container .data-migration-card #manage-report-table td {
+  text-align: center;
+  font-size: 12px;
+  vertical-align: middle;
+  border-top: none;
+  padding: 7px 20px;
+  width: 33.3333%
+}
+
+#onboarding-container .onboarding-card #manage-expense-table td.text-label, #onboarding-container .onboarding-card #manage-invoice-table td.text-label, #onboarding-container .onboarding-card #manage-report-table td.text-label, #onboarding-container .data-migration-card #manage-expense-table td.text-label, #onboarding-container .data-migration-card #manage-invoice-table td.text-label, #onboarding-container .data-migration-card #manage-report-table td.text-label, #onboarding-personalised-container .onboarding-card #manage-expense-table td.text-label, #onboarding-personalised-container
+.onboarding-card #manage-invoice-table td.text-label, #onboarding-personalised-container .onboarding-card #manage-report-table td.text-label, #onboarding-personalised-container .data-migration-card #manage-expense-table td.text-label, #onboarding-personalised-container .data-migration-card #manage-invoice-table td.text-label, #onboarding-personalised-container .data-migration-card #manage-report-
+table td.text-label, #data-migration-container .onboarding-card #manage-expense-table td.text-label, #data-migration-container .onboarding-card #manage-invoice-table td.text-label, #data-migration-container .onboarding-card #manage-report-table td.text-label, #data-migration-container .data-migration-card #manage-expense-table td.text-label, #data-migration-container .data-migration-card #manage-invoice-table td.text-label, #data-migration-container .data-migration-card #manage-report-table td.text-label, #data-migration-personalised-container .onboarding-card #manage-expense-table
+td.text-label, #data-migration-personalised-container .onboarding-card #manage-invoice-table td.text-label, #data-migration-personalised-container .onboarding-card #manage-report-table td.text-label, #data-migration-personalised-container .data-migration-card #manage-expense-table td.text-label, #data-migration-personalised-container .data-migration-card #manage-invoice-table td.text-label, #data-
+migration-personalised-container .data-migration-card #manage-report-table td.text-label {
+  vertical-align: top
+}
+
+#onboarding-container .onboarding-card #manage-expense-table td a, #onboarding-container .onboarding-card #manage-invoice-table td a, #onboarding-container .onboarding-card #manage-report-table td a, #onboarding-container .data-migration-card #manage-expense-table td a, #onboarding-container .data-migration-card #manage-invoice-table td a, #onboarding-container .data-migration-card #manage-report-table td a, #onboarding-personalised-container .onboarding-card #manage-expense-table td a, #onboarding-personalised-container
+.onboarding-card #manage-invoice-table td a, #onboarding-personalised-container .onboarding-card #manage-report-table td a, #onboarding-personalised-container .data-migration-card #manage-expense-table td a, #onboarding-personalised-container .data-migration-card #manage-invoice-table td a, #onboarding-personalised-container .data-migration-card #manage-report-table td a, #data-migration-container .onboarding-card #manage-expense-table td a, #data-migration-container .onboarding-card #manage-invoice-table td a, #data-migration-container .onboarding-card
+#manage-report-table td a, #data-migration-container .data-migration-card #manage-expense-table td a, #data-migration-container .data-migration-card #manage-invoice-table td a, #data-migration-container .data-migration-card #manage-report-table td a, #data-migration-personalised-container .onboarding-card #manage-expense-table td a, #data-migration-personalised-container .onboarding-card #manage-invoice-table td a, #data-migration-personalised-container .onboarding-card #manage-report-table td a, #data-migration-personalised-container .data-migration-card #manage-expense-table td a, #data-migration-personalised-container .data-migration-card #manage-invoice-table td a, #data-migration-personalised-container .data-migration-card #manage-report-table td a {
+  color: #009bde
+}
+
+#onboarding-container .onboarding-card .tab-container, #onboarding-container .data-migration-card .tab-container, #onboarding-personalised-container .onboarding-card .tab-container, #onboarding-personalised-container .data-migration-card .tab-container, #data-migration-container .onboarding-card .tab-container, #data-migration-container .data-migration-card .tab-container, #data-migration-personalised-container .onboarding-card .tab-container, #data-migration-personalised-container .data-migration-card .tab-container {
+  float: left;
+  background-color: white;
+  min-width: 175px;
+  width: 20%
+}
+
+#onboarding-container .onboarding-card .padding-x-2em, #onboarding-container .data-migration-card .padding-x-2em, #onboarding-personalised-container .onboarding-card .padding-x-2em, #onboarding-personalised-container .data-migration-card .padding-x-2em, #data-migration-container .onboarding-card .padding-x-2em, #data-migration-container .data-migration-card .padding-x-2em, #data-migration-personalised-container .onboarding-card .padding-x-2em, #data-migration-personalised-container .data-migration-card .padding-x-2em {
+  padding: 0 2em
+}
+
+#onboarding-container .onboarding-card .icon, #onboarding-container .data-migration-card .icon, #onboarding-personalised-container .onboarding-card .icon, #onboarding-personalised-container .data-migration-card .icon, #data-migration-container .onboarding-card .icon, #data-migration-container .data-migration-card .icon, #data-migration-personalised-container .onboarding-card .icon, #data-migration-personalised-container .data-migration-card .icon {
+  height: 15px;
+  margin-right: 10px
+}
+
+#onboarding-container .onboarding-card .tab button, #onboarding-container .data-migration-card .tab button, #onboarding-personalised-container .onboarding-card .tab button, #onboarding-personalised-container .data-migration-card .tab button, #data-migration-container .onboarding-card .tab button, #data-migration-container .data-migration-card .tab button, #data-migration-personalised-container .onboarding-card .tab button, #data-migration-personalised-container .data-migration-card .tab button {
+  display: block;
+  background-color: inherit;
+  padding: 10px;
+  border: 1px solid rgba(204, 204, 204, 0.31);
+  border-top: 0px;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  height: 48.8px;
+  width: 100%;
+  padding-left: 14px;
+  font-size: 12px
+}
+
+#onboarding-container .onboarding-card .tab button span.text-tab, #onboarding-container .data-migration-card .tab button span.text-tab, #onboarding-personalised-container .onboarding-card .tab button span.text-tab, #onboarding-personalised-container .data-migration-card .tab button span.text-tab, #data-migration-container .onboarding-card .tab button span.text-tab, #data-migration-container .data-migration-card .tab button span.text-tab, #data-migration-personalised-container .onboarding-card
+.tab button span.text-tab, #data-migration-personalised-container .data-migration-card .tab button span.text-tab {
+  color: #818285
+}
+
+#onboarding-container .onboarding-card .tab button:hover, #onboarding-container .data-migration-card .tab button:hover, #onboarding-personalised-container .onboarding-card .tab button:hover, #onboarding-personalised-container .data-migration-card .tab button:hover, #data-migration-container .onboarding-card .tab button:hover, #data-migration-container .data-migration-card .tab button:hover, #data-migration-personalised-container .onboarding-card .tab button:hover, #data-migration-personalised-container .data-migration-card .tab button:hover {
+  border-left-width: thick;
+  border-left-color: #009bde;
+  padding-left: 10px
+}
+
+#onboarding-container .onboarding-card .tab button:hover span.text-tab, #onboarding-container .data-migration-card .tab button:hover span.text-tab, #onboarding-personalised-container .onboarding-card .tab button:hover span.text-tab, #onboarding-personalised-container .data-migration-card .tab button:hover span.text-tab, #data-migration-container .onboarding-card .tab button:hover span.text-tab, #data-migration-container .data-migration-card .tab button:hover span.text-tab, #data-migration-
+personalised-container .onboarding-card .tab button:hover span.text-tab, #data-migration-personalised-container .data-migration-card .tab button:hover span.text-tab {
+  color: black
+}
+
+#onboarding-container .onboarding-card .tab button.active, #onboarding-container .data-migration-card .tab button.active, #onboarding-personalised-container .onboarding-card .tab button.active, #onboarding-personalised-container .data-migration-card .tab button.active, #data-migration-container .onboarding-card .tab button.active, #data-migration-container .data-migration-card .tab button.active, #data-migration-personalised-container .onboarding-card .tab button.active, #data-migration-personalised-container .data-migration-card .tab button.active {
+  border-left-width: thick;
+  border-left-color: #009bde;
+  padding-left: 10px
+}
+
+#onboarding-container .onboarding-card .tab button.active span.text-tab, #onboarding-container .data-migration-card .tab button.active span.text-tab, #onboarding-personalised-container .onboarding-card .tab button.active span.text-tab, #onboarding-personalised-container .data-migration-card .tab button.active span.text-tab, #data-migration-container .onboarding-card .tab button.active span.text-tab, #data-migration-container .data-migration-card .tab button.active span.text-tab, #data-migration-
+personalised-container .onboarding-card .tab button.active span.text-tab, #data-migration-personalised-container .data-migration-card .tab button.active span.text-tab {
+  color: black
+}
+
+#onboarding-container .onboarding-card .tab button.active:after, #onboarding-container .data-migration-card .tab button.active:after, #onboarding-personalised-container .onboarding-card .tab button.active:after, #onboarding-personalised-container .data-migration-card .tab button.active:after, #data-migration-container .onboarding-card .tab button.active:after, #data-migration-container .data-migration-card .tab button.active:after, #data-migration-personalised-container .onboarding-card .tab
+button.active:after, #data-migration-personalised-container .data-migration-card .tab button.active:after {
+  content: ' ';
+  height: 0;
+  position: absolute;
+  left: 20%;
+  margin-top: -2px;
+  margin-left: 2px;
+  border: 10px solid transparent;
+  border-left-color: white
+}
+
+#onboarding-container .onboarding-card .tab button.active:before, #onboarding-container .data-migration-card .tab button.active:before, #onboarding-personalised-container .onboarding-card .tab button.active:before, #onboarding-personalised-container .data-migration-card .tab button.active:before, #data-migration-container .onboarding-card .tab button.active:before, #data-migration-container .data-migration-card .tab button.active:before, #data-migration-personalised-container .onboarding-card
+.tab button.active:before, #data-migration-personalised-container .data-migration-card .tab button.active:before {
+  content: ' ';
+  height: 0;
+  position: absolute;
+  left: 20%;
+  margin-left: 6px;
+  border: 8px solid transparent;
+  border-left-color: rgba(204, 204, 204, 0.31)
+}
+
+#onboarding-container .onboarding-card .tab button:nth-child(5), #onboarding-container .data-migration-card .tab button:nth-child(5), #onboarding-personalised-container .onboarding-card .tab button:nth-child(5), #onboarding-personalised-container .data-migration-card .tab button:nth-child(5), #data-migration-container .onboarding-card .tab button:nth-child(5), #data-migration-container .data-migration-card .tab button:nth-child(5), #data-migration-personalised-container .onboarding-card .tab
+button:nth-child(5), #data-migration-personalised-container .data-migration-card .tab button:nth-child(5) {
+  border-bottom: 0px
+}
+
+#onboarding-container .onboarding-card .blue-migrate, #onboarding-container .data-migration-card .blue-migrate, #onboarding-personalised-container .onboarding-card .blue-migrate, #onboarding-personalised-container .data-migration-card .blue-migrate, #data-migration-container .onboarding-card .blue-migrate, #data-migration-container .data-migration-card .blue-migrate, #data-migration-personalised-container .onboarding-card .blue-migrate, #data-migration-personalised-container .data-migration-card .blue-migrate {
+  color: #009bde !important
+}
+
+#onboarding-container .onboarding-card .tab button.active.blue-migrate, #onboarding-container .data-migration-card .tab button.active.blue-migrate, #onboarding-personalised-container .onboarding-card .tab button.active.blue-migrate, #onboarding-personalised-container .data-migration-card .tab button.active.blue-migrate, #data-migration-container .onboarding-card .tab button.active.blue-migrate, #data-migration-container .data-migration-card .tab button.active.blue-migrate, #data-migration-personalised-container .onboarding-card
+.tab button.active.blue-migrate, #data-migration-personalised-container .data-migration-card .tab button.active.blue-migrate {
+  border-top: 0px;
+  border-left-width: thick;
+  border-left-color: white;
+  background: #009bde !important;
+  padding-left: 10px
+}
+
+#onboarding-container .onboarding-card .tab button.active.blue-migrate span, #onboarding-container .data-migration-card .tab button.active.blue-migrate span, #onboarding-personalised-container .onboarding-card .tab button.active.blue-migrate span, #onboarding-personalised-container .data-migration-card .tab button.active.blue-migrate span, #data-migration-container .onboarding-card .tab button.active.blue-migrate span, #data-migration-container .data-migration-card .tab button.active.blue-
+migrate span, #data-migration-personalised-container .onboarding-card .tab button.active.blue-migrate span, #data-migration-personalised-container .data-migration-card .tab button.active.blue-migrate span {
+  color: white !important
+}
+
+#onboarding-container .onboarding-card .tab button.active.blue-migrate:after, #onboarding-container .data-migration-card .tab button.active.blue-migrate:after, #onboarding-personalised-container .onboarding-card .tab button.active.blue-migrate:after, #onboarding-personalised-container .data-migration-card .tab button.active.blue-migrate:after, #data-migration-container .onboarding-card .tab button.active.blue-migrate:after, #data-migration-container .data-migration-card .tab button.active.blue-
+migrate:after, #data-migration-personalised-container .onboarding-card .tab button.active.blue-migrate:after, #data-migration-personalised-container .data-migration-card .tab button.active.blue-migrate:after {
+  content: ' ';
+  height: 0;
+  position: absolute;
+  left: 20%;
+  margin-top: 0px;
+  margin-left: 2px;
+  border: 10px solid transparent;
+  border-left-color: #009bde
+}
+
+#onboarding-container .onboarding-card .tab button.active.blue-migrate:before, #onboarding-container .data-migration-card .tab button.active.blue-migrate:before, #onboarding-personalised-container .onboarding-card .tab button.active.blue-migrate:before, #onboarding-personalised-container .data-migration-card .tab button.active.blue-migrate:before, #data-migration-container .onboarding-card .tab button.active.blue-migrate:before, #data-migration-container .data-migration-card .tab
+button.active.blue-migrate:before, #data-migration-personalised-container .onboarding-card .tab button.active.blue-migrate:before, #data-migration-personalised-container .data-migration-card .tab button.active.blue-migrate:before {
+  content: ' ';
+  height: 0;
+  position: absolute;
+  left: 20%;
+  margin-top: 3px;
+  margin-left: 6px;
+  border: 8px solid transparent;
+  border-left-color: #009bde
+}
+
+#onboarding-container .onboarding-card .tabcontent, #onboarding-container .data-migration-card .tabcontent, #onboarding-personalised-container .onboarding-card .tabcontent, #onboarding-personalised-container .data-migration-card .tabcontent, #data-migration-container .onboarding-card .tabcontent, #data-migration-container .data-migration-card .tabcontent, #data-migration-personalised-container .onboarding-card .tabcontent, #data-migration-personalised-container .data-migration-card .tabcontent {
+  float: left;
+  padding: 30px 12px;
+  border-right: 1px solid rgba(204, 204, 204, 0.31);
+  height: 246px;
+  min-width: 555px;
+  width: 80%
+}
+
+#onboarding-container .onboarding-card #advance-setup, #onboarding-container .data-migration-card #advance-setup, #onboarding-personalised-container .onboarding-card #advance-setup, #onboarding-personalised-container .data-migration-card #advance-setup, #data-migration-container .onboarding-card #advance-setup, #data-migration-container .data-migration-card #advance-setup, #data-migration-personalised-container .onboarding-card #advance-setup, #data-migration-personalised-container .data-migration-card #advance-setup {
+  padding: 40px 12px
+}
+
+#onboarding-container .onboarding-card #advance-setup .header-text-migrate, #onboarding-container .data-migration-card #advance-setup .header-text-migrate, #onboarding-personalised-container .onboarding-card #advance-setup .header-text-migrate, #onboarding-personalised-container .data-migration-card #advance-setup .header-text-migrate, #data-migration-container .onboarding-card #advance-setup .header-text-migrate, #data-migration-container .data-migration-card #advance-setup .header-text-migrate, #data-migration-personalised-container .onboarding-card #advance-setup .header-text-migrate, #data-migration-personalised-container .data-migration-card #advance-setup .header-text-migrate {
+  padding-bottom: 15px;
+  font-size: 16px;
+  font-family: "Gotham-Medium"
+}
+
+#onboarding-container .onboarding-card #advance-setup .desc-text-migrate, #onboarding-container .data-migration-card #advance-setup .desc-text-migrate, #onboarding-personalised-container .onboarding-card #advance-setup .desc-text-migrate, #onboarding-personalised-container .data-migration-card #advance-setup .desc-text-migrate, #data-migration-container .onboarding-card #advance-setup .desc-text-migrate, #data-migration-container .data-migration-card #advance-setup .desc-text-migrate, #data-migration-personalised-container .onboarding-card #advance-setup .desc-text-migrate, #data-migration-personalised-container .data-migration-card #advance-setup .desc-text-migrate {
+  padding-bottom: 20px
+}
+
+#onboarding-container .onboarding-card .video-section, #onboarding-container .data-migration-card .video-section, #onboarding-personalised-container .onboarding-card .video-section, #onboarding-personalised-container .data-migration-card .video-section, #data-migration-container .onboarding-card .video-section, #data-migration-container .data-migration-card .video-section, #data-migration-personalised-container .onboarding-card .video-section, #data-migration-personalised-container .data-migration-card .video-section {
+  float: left;
+  padding: 12px;
+  border-left: none;
+  height: 246px;
+  width: 30%;
+  font-size: 12px
+}
+
+#onboarding-container .onboarding-card a.try-now, #onboarding-container .data-migration-card a.try-now, #onboarding-personalised-container .onboarding-card a.try-now, #onboarding-personalised-container .data-migration-card a.try-now, #data-migration-container .onboarding-card a.try-now, #data-migration-container .data-migration-card a.try-now, #data-migration-personalised-container .onboarding-card a.try-now, #data-migration-personalised-container .data-migration-card a.try-now {
+  background: #FFFFFF;
+  color: #009bde;
+  border: 1px solid #009bde;
+  font-size: 12px
+}
+
+#onboarding-container .onboarding-card .try-now.blue, #onboarding-container .data-migration-card .try-now.blue, #onboarding-personalised-container .onboarding-card .try-now.blue, #onboarding-personalised-container .data-migration-card .try-now.blue, #data-migration-container .onboarding-card .try-now.blue, #data-migration-container .data-migration-card .try-now.blue, #data-migration-personalised-container .onboarding-card .try-now.blue, #data-migration-personalised-container .data-migration-card .try-now.blue {
+  background: #009bde;
+  color: #FFFFFF !important;
+  font-size: 12px
+}
+
+#onboarding-container .onboarding-card #onboarding-video, #onboarding-container .data-migration-card #onboarding-video, #onboarding-personalised-container .onboarding-card #onboarding-video, #onboarding-personalised-container .data-migration-card #onboarding-video, #data-migration-container .onboarding-card #onboarding-video, #data-migration-container .data-migration-card #onboarding-video, #data-migration-personalised-container .onboarding-card #onboarding-video, #data-migration-personalised-container .data-migration-card #onboarding-video {
+  cursor: pointer;
+  width: 290px;
+  height: 146px;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  border-radius: 3px
+}
+
+#onboarding-container .onboarding-card #onboarding-video #video-fake-box, #onboarding-container .data-migration-card #onboarding-video #video-fake-box, #onboarding-personalised-container .onboarding-card #onboarding-video #video-fake-box, #onboarding-personalised-container .data-migration-card #onboarding-video #video-fake-box, #data-migration-container .onboarding-card #onboarding-video #video-fake-box, #data-migration-container .data-migration-card #onboarding-video #video-fake-box, #data-migration-personalised-container .onboarding-card #onboarding-video #video-fake-box, #data-migration-personalised-container .data-migration-card #onboarding-video #video-fake-box {
+  position: absolute;
+  height: 44px;
+  top: 50px;
+  left: 125px
+}
+
+#onboarding-container .onboarding-card .video-container, #onboarding-container .data-migration-card .video-container, #onboarding-personalised-container .onboarding-card .video-container, #onboarding-personalised-container .data-migration-card .video-container, #data-migration-container .onboarding-card .video-container, #data-migration-container .data-migration-card .video-container, #data-migration-personalised-container .onboarding-card .video-container, #data-migration-personalised-container .data-migration-card .video-container {
+  text-align: center;
+  margin: 14px 20px 14px 20px
+}
+
+.data-migration-dashboard-title {
+  color: #414042;
+  font-size: 14px;
+  font-family: "Gotham-Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 10px
+}
+
+.data-migration-dashboard-desc {
+  color: #818285;
+  font-size: 12px;
+  font-family: "Gotham-Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin-top: 10px
+}
+
+.border-right-onboarding {
+  border-right: 1px solid #e2e2e2
+}
+
+.btn-orange {
+  color: #fff;
+  background-color: #f38b00;
+  border-color: #f38b00
+}
+
+.onboarding-video-close {
+  position: absolute;
+  right: -13px;
+  top: -13px;
+  width: 26px;
+  height: 26px;
+  background-color: white;
+  color: #666;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  font-size: 16px
+}
+
+.dont-show-onboarding-small {
+  display: none
+}
+
+@media screen and (max-width: 1340px) {
+  .video-section {
+    display: none
+  }
+
+  .tabcontent {
+    border: none;
+    width: 70% !important
+  }
+
+  .tab-container {
+    width: 30% !important
+  }
+
+  .tab button.active.blue-migrate:after {
+    margin-left: 0px !important;
+    left: 30% !important
+  }
+
+  .tab button.active.blue-migrate:before {
+    margin-left: 4px !important;
+    left: 30% !important
+  }
+
+  .tab button.active:after {
+    margin-left: 0px !important;
+    left: 30% !important
+  }
+
+  .tab button.active:before {
+    margin-left: 4px !important;
+    left: 30% !important
+  }
+
+  .dont-show-onboarding-small {
+    display: block
+  }
+
+  .dont-show-onboarding-small a {
+    color: #337ab7;
+    padding-right: 12px;
+    font-size: 0.833em
+  }
+
+  .modal .dont-show-onboarding-small {
+    display: none
+  }
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden !important
+}
+
+.btn-collapse-onboarding {
+  font-size: 10px;
+  padding: 3px 40px 3px 40px;
+  border-radius: 0px 0px 5px 5px;
+  background: #e6e7e8;
+  box-shadow: 0px 2px 3px 1px rgba(136, 136, 136, 0.49);
+  z-index: 3;
+  position: relative;
+  color: #000;
+}
+
+.period-labels {
+  display: inline-block;
+  margin-top: 0em;
+  color: #009bde;
+  font-size: 13px;
+  cursor: pointer;
+  cursor: hand
+}
+
+.btn-collapse-onboarding:focus, .btn-collapse-onboarding:active, .btn-collapse-onboarding:active:focus {
+  outline: none
+}
+
+.kt-notification .kt-notification__item.versi-2:after{
+  content:none !important;
+}
+
+.kt-widget2 .kt-widget2__item:hover{
+  -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  background-color: #f7f8fa;
+}
+
+.kt-widget2 .kt-widget2__item.versi-2{
+  border-bottom: 1px dashed #ebedf2;
+  margin-bottom: 0 !important;
+  padding: .5rem;
+}
+
+.kt-widget2 .kt-widget2__item.versi-2:last-child{
+  border-bottom: 1px solid transparent;
+}
+
+.kt-widget2 .kt-widget2__item.versi-2:before {
+  height: 70% !important;
+}
+
+.kt-index {
+    width: 40px !important;
+    height: 40px !important;
+}
+
+.kt-svg-icon g.icon-index [fill]{
+  fill: #ed1c24 !important;
+}
+
+.m-button-add {
+  margin-left:320px !important;
+}
+
+.nav-tabs .nav-item .nav-link.produk {
+  border-color: #dee2e6;
+}
+
+.nav-tabs .nav-item .nav-link.active, .nav-tabs .nav-item .nav-link:active, .nav-tabs .nav-item .nav-link:hover{
+  border-color: #0092dd #0092dd #fff;
+}
+
+.nav-tabs .nav-link.produk {
+  border-top-left-radius:0rem !important;
+  border-top-right-radius:0rem !important;
+}
+
+.treetable-indent
+{
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}
+.treetable-expander
+{
+    position: relative;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+}
+
+.table-warehouse {
+background:#ebedf2;
+padding-top:2px;
+padding-bottom:2px;
+text-align:center;
+}
+
+#container, #container2, #container3,#container4, #container5,#container8{
+    height: 300px;
+}
+
+.highcharts-data-table table {
+    font-family: Verdana, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #EBEBEB;
+    text-align: center;
+    width: 100%;
+}
+.highcharts-data-table caption {
+    padding: 1em 0;
+    font-size: 1.2em;
+    color: #555;
+}
+.highcharts-data-table th {
+	font-weight: 600;
+    padding: 0.5em;
+}
+.highcharts-data-table td, .highcharts-data-table th, .highcharts-data-table caption {
+    padding: 0.5em;
+}
+.highcharts-data-table thead tr, .highcharts-data-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+.highcharts-data-table tr:hover {
+    background: #f1f7ff;
+}
+
+tr.header
+{
+    cursor:pointer;
+}
+.header .sign:after{
+  content:"-";
+  display:inline-block;
+}
+.header.expand .sign:after{
+  content:"+";
+ }
+
+.d-grid {
+		display: grid !important;
+}
+
+.bg-hak-akses {
+	background: #f8f9fb !important;
+	border: 2px solid #f2f3f8 !important;
+}
+
+.img-comment {
+		width: 3.2rem;
+		border-radius: 50%;
+}
+
+.select-option-add {
+	border-top:2px solid #ebedf2;
+	background-color:#f2f3f8;
+}
+
+.kt-header .kt-header__topbar .kt-header__topbar-item-non-hover:hover.kt-header__topbar-item--user .kt-header__topbar-user, .kt-header .kt-header__topbar .kt-header__topbar-item.show.kt-header__topbar-item--user .kt-header__topbar-user {
+	-webkit-transition: all 0.3s;
+ transition: all 0.3s;
+background-color: #ffffff !important;
+}
+
+.tengah {
+margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+
+#colorNav > ul{
+	margin:0 25px;
+}
+
+#colorNav > ul > li{ /* will style only the top level li */
+  width: 150px;
+	list-style: none;
+	box-shadow: 0 0 10px rgba(100, 100, 100, 0.2) inset,1px 1px 1px #CCC;
+	display: inline-block;
+	line-height: 1;
+	margin: 25px;
+	border-radius: 3px;
+	position:relative;
+  padding:25px;
+}
+
+#colorNav > ul > li > a{
+	color:inherit;
+	text-decoration:none !important;
+	font-size:24px;
+}
+
+#colorNav li ul{
+	position:absolute;
+	list-style:none;
+	text-align:center;
+	width:180px;
+	left:50%;
+	margin-left:-90px;
+	top:70px;
+	font:bold 12px 'Open Sans Condensed', sans-serif;
+
+	/* This is important for the show/hide CSS animation */
+	max-height:0px;
+	overflow:hidden;
+
+	-webkit-transition:max-height 0.4s linear;
+	-moz-transition:max-height 0.4s linear;
+	transition:max-height 0.4s linear;
+  z-index: 2;
+}
+
+#colorNav li ul li{
+	background-color:#313131;
+}
+
+#colorNav li ul li a{
+	padding:12px;
+	color:#fff !important;
+	text-decoration:none !important;
+	display:block;
+}
+
+#colorNav li ul li:nth-child(odd){ /* zebra stripes */
+	background-color:#363636;
+}
+
+#colorNav li ul li:hover{
+	background-color:#444;
+}
+
+#colorNav li ul li:first-child{
+	border-radius:3px 3px 0 0;
+	margin-top:25px;
+	position:relative;
+}
+
+#colorNav li ul li:first-child:before{ /* the pointer tip */
+	content:'';
+	position:absolute;
+	width:1px;
+	height:1px;
+	border:5px solid transparent;
+	border-bottom-color:#313131;
+	left:50%;
+	top:-10px;
+	margin-left:-5px;
+}
+
+#colorNav li ul li:last-child{
+	border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px;
+}
+
+/* This will trigger the CSS */
+/* transition animation on hover */
+
+#colorNav li:hover ul{
+	max-height:200px; /* Increase when adding more dropdown items */
+}
+
+
+/*----------------------------
+	Color Themes
+-----------------------------*/
+
+
+#colorNav li.green{
+	/* This is the color of the menu item */
+	background-color:#00c08b;
+
+	/* This is the color of the icon */
+	color:#127a5d;
+}
+
+#colorNav li.red{		background-color:#ea5080;color:#aa2a52;}
+#colorNav li.blue{		background-color:#53bfe2;color:#2884a2;}
+#colorNav li.yellow{	background-color:#f8c54d;color:#ab8426;}
+#colorNav li.purple{	background-color:#df6dc2;color:#9f3c85;}
+#colorNav li.orange{	background-color:#ff9034;color:#ab8426;}
+#colorNav li.more{	background-color:#c8bf7d;color:#ab8426;}
+
+
+.nav-pills-notif.nav-pills-label .nav-item .nav-link:active, .nav-pills-notif.nav-pills-label .nav-item .nav-link.active, .nav-pills-notif.nav-pills-label .nav-item .nav-link.active:hover {
+  background: rgba(253, 57, 122, 0.1);
+  color:#ed1c24;
+}
+
+#login_Box_Div {
+    display: none;
+}
+
+.notif-active{
+margin-right: -25px !important;
+margin-left: -25px !important;
+background: #fff1f6;
+padding-left: 45px !important;
+padding-right: 45px !important;
+}
+
+.notif-button {
+  margin-left: 70%;
+  position:absolute;
+  margin-top: 2%;
+}
+
+.notif-button-employee {
+  margin-left: 20%;
+  position:absolute;
+  margin-top: .5%;
+}
+
+.notif-user-employee {
+  margin-left: 18%;
+  position:absolute;
+  margin-top: .5%;
+}
+
+.notif-user {
+  margin-left: 63%;
+  position:absolute;
+  margin-top: 2%;
+}
+
+.notif-button-deacline-employee {
+  margin-left: 16%;
+  position:absolute;
+  margin-top: .5%;
+}
+
+.notif-button-deacline {
+  margin-left: 57%;
+  position:absolute;
+  margin-top: 2%;
+}
+.notif-dashboard{
+margin-right: -25px !important;
+margin-left: -25px !important;
+padding-left: 45px !important;
+padding-right: 45px !important;
+}
+
+.kt-separator.kt-separator--border-dashed-2, .kt-separator.kt-separator--dashed {
+  border-bottom: 2px dashed #ebedf2
+}
+
+.deskripsi-pegawai {
+  font-style: italic;
+  margin-top:1rem;
+  margin-bottom:1rem;
+}
+
+.name {
+  color:#74788d;
+  font-weight: bold;
+}
+
+.hari {
+  border-bottom: none !important;
+  border-top: none !important;
+}
+
+.absen thead th{
+border-bottom-width: 0px !important;
+}
+
+.kt-timeline-v2-setup {
+  margin-left: -60px !important;
+}
+
+.ordered-item .ordered-item-number,
+.edit-item .edit-item-number {
+      float: left;
+      display: inline-block;
+      width: 40px; }
+
+.ordered-item .order-item-right {
+        float: left;
+        display: inline-block;
+        width: calc(100% - 40px); }
+
+        .edit-item .edit-item-right {
+                float: left;
+                display: inline-block;
+                width: calc(100% - 40px); }
+
+.ml-head {
+  margin-left:.8rem;
+}
+
+.tampil {
+  display: none;
+}
+
+.kt-wizard-v4 .kt-wizard-v4__nav .kt-wizard-v4__nav-items {
+  justify-content: flex-start !important;
+}
+
+.kt-wizard-v4 .kt-wizard-v4__nav .kt-wizard-v4__nav-items .kt-wizard-v4__nav-item{
+  margin-right: .4rem !important;
+}
+
+.show > .btn-secondary.dropdown-toggle, .btn-secondary:focus, .btn-secondary.active, .btn-secondary:active{
+  background-color: #5d78ff;
+  border-color: #5d78ff;
+  color: #ffffff;
+}
+
+.kt-widget2 .kt-widget2__item{
+  justify-content: start !important;
+}
+
+.kt-widget2 .kt-widget2__item .kt-widget2__checkbox{
+padding:2rem 1rem 0 2rem;
+}
+
+.shadowtabs {
+  -webkit-box-shadow: 0 7px 7px 0 rgba(0, 51, 90, .04);
+  		-moz-box-shadow: 0 7px 7px 0 rgba(0, 51, 90, .04);
+  		box-shadow: 0 7px 7px 0 rgba(0, 51, 90, .04);
+  		background: transparent !important;
+  		height: 50px;
+  		padding: 0px 37px !important;
+  		width: 105%;
+      margin: 0px -42px 25px -42px!important;
+}
+
+.shadowtabs3 {
+  -webkit-box-shadow: 0 7px 7px 0 rgba(0, 51, 90, .04);
+  		-moz-box-shadow: 0 7px 7px 0 rgba(0, 51, 90, .04);
+  		box-shadow: 0 7px 7px 0 rgba(0, 51, 90, .04);
+  		background: transparent !important;
+  		height: 50px;
+  		padding: 0px 37px !important;
+  		width: 108%;
+      margin: 0px -42px 25px -65px!important;
+}
+
+.kt-wizard-v4 .kt-wizard-v4__nav .kt-wizard-v4__nav-items .kt-wizard-v4__nav-item .kt-wizard-v4__nav-body .kt-wizard-v4__nav-icon{
+  font-size: 3rem;
+  font-weight: 600;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 2.75rem;
+  flex: 0 0 2.75rem;
+  height: 2.75rem;
+  width: 2.75rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+}
+
+.kt-wizard-v3 .kt-wizard-v3__nav .kt-wizard-v3__nav-items .kt-wizard-v3__nav-item .kt-wizard-v3__nav-body .kt-wizard-v3__nav-label span {
+  font-size: 2.5rem !important;
+  margin-right: 1rem !important;
+  color:#959cb6 !important;
+}
+
+.kt-wizard-v3 .kt-wizard-v3__nav .kt-wizard-v3__nav-items .kt-wizard-v3__nav-item .kt-wizard-v3__nav-body .kt-wizard-v3__nav-number {
+          font-size: 1.3rem;
+          font-weight: 600;
+          -webkit-box-flex: 0;
+          -ms-flex: 0 0 2.75rem;
+          flex: 0 0 2.75rem;
+          height: 2.75rem;
+          width: 2.75rem;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          background-color: rgba(34, 185, 255, 0.08);
+          color: #22b9ff;
+          margin-right: 1rem;
+          border-radius: 0.5rem
+}
+
+.kt-wizard-v3 .kt-wizard-v3__nav .kt-wizard-v3__nav-items .kt-wizard-v3__nav-item[data-ktwizard-state="current"] .kt-wizard-v3__nav-body .kt-wizard-v3__nav-number {
+  color: #ffffff;
+  background-color: #22b9ff;
+}
+
+.descript{
+  color:#959cb6 !important;
+}
+
+.fc-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.fc-header td {
+  padding: 10px 0px;
+}
+
+.fc-header h2 {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.fc-content {
+  color: #fff;
+}
+
+.fc-event {
+  background-color: #3584ff !important;
+  -webkit-box-shadow: 5px 5px 10px 0px #bdd4ff;
+          box-shadow: 5px 5px 10px 0px #bdd4ff;
+  border: none;
+  padding: 6px;
+  padding-left: 9px;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.fc-day-number {
+  color: #6B6862;
+}
+
+.fc-day-header {
+  font-weight: 300;
+  color: #6B6862;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.fc-other-month {
+  background-color: #eee;
+}
+
+.fc-unthemed .fc-event, .fc-unthemed .fc-event-dot{
+  background: #3584ff3b !important;
+  border-left: 4px solid #3584ff;
+}
+
+.fc-unthemed .fc-event .fc-time, .fc-unthemed .fc-event-dot .fc-time,
+.fc-unthemed .fc-event .fc-title, .fc-unthemed .fc-event-dot .fc-title{
+  color:#3584ff !important;
+  display: block !important;
+}
+
+.all-wrapper .fc-button {
+  padding: 5px 10px;
+  height: auto;
+  margin: 0px 5px;
+  background-image: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.all-wrapper .fc-button.fc-state-active {
+  outline: none;
+  text-shadow: none;
+}
+
+.io-header {
+  font-size: 1.2rem;
+  color: rgba(90, 99, 126, 0.49) !important;
+  margin: 2rem 0 1rem 0!important;
+  font-weight: 500;
+}
+
+.io-border-left {
+  border-left: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.io-img-circle {
+  border-radius: 50px;
+}
+
+
+.border-bottom{
+  border-bottom: 2px solid #28156e !important;
+}
+
+.m-footer {
+  display: block;
+	padding: 10px 30px;
+	min-height: 30px;
+	background: #28156e;
+	-webkit-box-shadow: -2px -8px 41px -14px rgba(41, 50, 66, 0.05);
+	box-shadow: -2px -8px 41px -14px rgba(41, 50, 66, 0.05);
+  font-size: .9rem;
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+}
+
+.border-form{
+  border-bottom : 1px dashed #ebedf2;
+  padding: 15px 0px;
+}
+
+.kt-portlet{
+  margin: 15px px 15px 15px;
+}
+
+.tab-contents{
+  background: #fff !important;
+  padding: 50px;
+}
+
+.my-input-class {
+           padding: 3px 6px;
+           border: 1px solid #ccc;
+           border-radius: 4px;
+       }
+
+       .my-confirm-class {
+           padding: 3px 6px;
+           font-size: 12px;
+           color: white;
+           text-align: center;
+           vertical-align: middle;
+           border-radius: 4px;
+           background-color: #337ab7;
+           text-decoration: none;
+       }
+
+       .my-cancel-class {
+           padding: 3px 6px;
+           font-size: 12px;
+           color: white;
+           text-align: center;
+           vertical-align: middle;
+           border-radius: 4px;
+           background-color: #a94442;
+           text-decoration: none;
+       }
+
+       .error {
+           border: solid 1px;
+           border-color: #a94442;
+       }
+
+       .destroy-button{
+           padding:5px 10px 5px 10px;
+           border: 1px blue solid;
+           background-color:lightgray;
+       }
+
+       .edit-drop{
+         width:100%;
+         border :none !important;
+         outline: none;
+       }
+       .bg-trans{
+         background: transparent !important;
+       }
+
+       .cursor-pointer{
+         cursor:pointer;
+       }
+
+       .label-table{
+         border:none;
+         background: transparent;
+         font-weight: bold;
+       }
+
+       .table th, .table td{
+        vertical-align: middle !important;
+				font-weight:normal;
+				font-size:11px;
+				color:#374163;
+        padding: 1.3rem 0.75rem !important;
+       }
+
+       .submit-tab{
+         margin-top: 25px;
+         text-align: center;
+       }
+
+       .bg-green{
+         background: #e1f8c9 !important;
+       }
+
+       .table thead th, .table thead td{
+         padding-top: .5rem;
+         padding-bottom: .5rem;
+       }
+
+       .background-sub{
+         background:#d2f5fa !important;
+       }
+
+       .bg-yellow {
+         background: #f8fae8 !important;
+       }
+
+       .bg-head-table{
+         background:#f9f9fc !important;
+         text-align: center;
+       }
+
+       .bg-subtotal{
+         background: #edf9ff !important
+       }
+
+       .notif{
+         position:absolute;
+         top:0;
+         right: 0;
+       }
+
+       .kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__heading .kt-menu__link-icon svg g [fill],
+       .kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__link .kt-menu__link-icon svg g [fill] {
+         -webkit-transition: fill 0.3s ease;
+         transition: fill 0.3s ease;
+         fill: #ed1c24;!important}
+
+         .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--here > .kt-menu__heading .kt-menu__link-icon svg g [fill], .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--here > .kt-menu__link .kt-menu__link-icon svg g [fill]
+         {
+           -webkit-transition: fill 0.3s ease;
+           transition: fill 0.3s ease;
+           fill: #ed1c24;!important}
+
+           .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--here > .kt-menu__heading .kt-menu__link-icon svg g [fill], .kt-aside-menu .kt-menu__nav > .kt-menu__item.kt-menu__item--here > .kt-menu__link .kt-menu__link-icon svg g [fill]{
+             -webkit-transition: fill 0.3s ease;
+             transition: fill 0.3s ease;
+             fill: #ed1c24;!important
+           }
+
+           .kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__heading .kt-menu__link-icon svg g [fill], .kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__link .kt-menu__link-icon svg g [fill] {
+             -webkit-transition: fill 0.3s ease;
+             transition: fill 0.3s ease;
+             fill: #ed1c24;!important}
