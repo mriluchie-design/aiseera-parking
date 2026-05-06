@@ -7,7 +7,7 @@
             <div class="kt-subheader__main">
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                   Online Monitoring Gate System
+                   MONITORING GATE MASUK
                 </h3>
             <span class="kt-subheader__separator kt-subheader__separator--v"></span>
 			<div class="kt-subheader__group" id="kt_subheader_search">
@@ -171,6 +171,7 @@
         											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
         												Printer
         											</div>
+													
         										</div>
         										<div class="kt-timeline-v2__item">
         											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>

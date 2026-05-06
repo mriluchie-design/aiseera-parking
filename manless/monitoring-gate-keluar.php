@@ -7,7 +7,7 @@
             <div class="kt-subheader__main">
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                   Online Monitoring Gate System
+                   MONITORING GATE KELUAR
                 </h3>
             <span class="kt-subheader__separator kt-subheader__separator--v"></span>
 			<div class="kt-subheader__group" id="kt_subheader_search">
@@ -104,7 +104,7 @@
 										
 										<span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">GATE - 1</span>
 										<a href="#" class="kt-widget__title">
-											<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MASUK - MOBIL - 1</span>
+											<span class="kt-badge kt-badge--warning kt-badge--md kt-badge--inline">KELUAR - MOBIL - 1</span>
 										</a>
 									</div>
 								</div>
@@ -310,7 +310,7 @@
 										
 										<span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">GATE - 1</span>
 										<a href="#" class="kt-widget__title">
-											<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MASUK - MOTOR - A</span>
+											<span class="kt-badge kt-badge--warning kt-badge--md kt-badge--inline">KELUAR - MOTOR - 1</span>
 										</a>
 									</div>
 								</div>
@@ -516,7 +516,7 @@
 										
 										<span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">GATE - 1</span>
 										<a href="#" class="kt-widget__title">
-											<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MASUK - MOTOR - B</span>
+											<span class="kt-badge kt-badge--warning kt-badge--md kt-badge--inline">KELUAR - MOTOR - 2</span>
 										</a>
 									</div>
 								</div>
@@ -728,7 +728,7 @@
 										
 										<span class="kt-badge kt-badge--brand kt-badge--md kt-badge--inline">GATE - 2</span>
 										<a href="#" class="kt-widget__title">
-											<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MASUK - MOBIL - 1</span>
+											<span class="kt-badge kt-badge--warning kt-badge--md kt-badge--inline">KELUAR - MOBIL - 1</span>
 										</a>
 									</div>
 								</div>
@@ -934,7 +934,7 @@
 										
 										<span class="kt-badge kt-badge--brand kt-badge--md kt-badge--inline">GATE - 2</span>
 										<a href="#" class="kt-widget__title">
-											<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MASUK - MOTOR - A</span>
+											<span class="kt-badge kt-badge--warning kt-badge--md kt-badge--inline">KELUAR - MOTOR - 1</span>
 										</a>
 									</div>
 								</div>
@@ -1140,7 +1140,7 @@
 										
 										<span class="kt-badge kt-badge--brand kt-badge--md kt-badge--inline">GATE - 2</span>
 										<a href="#" class="kt-widget__title">
-											<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MASUK - MOTOR - B</span>
+											<span class="kt-badge kt-badge--warning kt-badge--md kt-badge--inline">KELUAR - MOTOR - 2</span>
 										</a>
 									</div>
 								</div>
