@@ -199,7 +199,7 @@ function goBack() {
                         </div>
 						
 						<div class="col-lg-5">
-                          <label class="">Jam Masuk :</label>
+                          <label style="color:#a2050c">Jam Masuk :</label>
                           <div class="input-group timepicker">
 													<input class="form-control form-control-sm" id="kt_timepicker_2" readonly="" placeholder="07:44:00" type="text">
 													<div class="input-group-append">

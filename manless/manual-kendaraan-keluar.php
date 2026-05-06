@@ -222,7 +222,7 @@ function goBack() {
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
 						<div class="col-lg-7" >
-                          <label style="color:#a2050c">Tanggal Masuk :</label>
+                          <label>Tanggal Masuk :</label>
                           <div class="input-group date">
 													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" disabled>
 													<div class="input-group-append">
@@ -260,7 +260,7 @@ function goBack() {
                         </div>
 						
 						<div class="col-lg-5">
-                          <label class="">Jam Keluar :</label>
+                          <label style="color:#a2050c">Jam Keluar :</label>
                           <div class="input-group timepicker">
 													<input class="form-control form-control-sm" id="kt_timepicker_2" readonly="" placeholder="07:44:00" type="text" >
 													<div class="input-group-append">
@@ -274,7 +274,7 @@ function goBack() {
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
 						<div class="col-lg-4" >
-                          <label style="color:#a2050c">Durasi Parkir :</label>
+                          <label>Durasi Parkir :</label>
                           <div class="input-group">
 													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="1" aria-describedby="basic-addon2" disabled>
 													<div class="input-group-append">
@@ -325,7 +325,7 @@ function goBack() {
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="001TRTUGM0526">
 																  </div>
 						<div class="col-lg-6" >
-                          <label style="color:#a2050c">ID Pembayaran :</label>
+                          <label>ID Pembayaran :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="001PBNTGM0526">
                         </div>
                         </div>

@@ -232,7 +232,7 @@
 										</div>
 										<div class="kt-portlet__body">
 											<figure class="highcharts-figure">
-										    <div id="container-jukir" style="height:300"></div>
+										    <div id="container-kendaraan-masukvskeluar" style="height:300"></div>
 										</figure>
 										</div>
 									</div>
@@ -307,7 +307,7 @@
 						<script src="https://code.highcharts.com/modules/accessibility.js"></script>
 						<script src="../assets/js/chart/highchart.js" type="text/javascript"></script>
 						<script src="../assets/js/chart/highchart-tju-target-setoran.js" type="text/javascript"></script>
-						<script src="../assets/js/chart/highchart-jukir.js" type="text/javascript"></script>
+						<script src="../assets/js/chart/highchart-kendaraan-masukvskeluar.js" type="text/javascript"></script>
 						<script src="../assets/js/chart/highchart-mobilvsmotor.js" type="text/javascript"></script>
 						<script src="../assets/js/chart/highchart-setoran-kolektor.js" type="text/javascript"></script>
 						<?php require '../layouts/foot.php' ?>
