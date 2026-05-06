@@ -192,7 +192,6 @@
 								</div>
 								<div class="row">
 						
-						</div>
 						<div class="col-lg-6">
 							<div class="kt-portlet kt-portlet--height-fluid">
 										<div class="kt-portlet__head">
@@ -238,8 +237,52 @@
 										</div>
 									</div>
 						</div>
+						<div class="col-lg-6">
+							<div class="kt-portlet kt-portlet--height-fluid">
+										<div class="kt-portlet__head">
+											<div class="kt-portlet__head-label">
+												<h3 class="kt-portlet__head-title">
+													Mobil Vs Motor Masuk
+												</h3>
+											</div>
+											<div class="kt-portlet__head-toolbar">
+												<a href="#" class="btn btn-label-brand btn-sm dropdown-toggle" data-toggle="dropdown">
+													2026
+												</a>
+												<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+													<ul class="kt-nav">
+														
+														
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">2025</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">2024</span>
+															</a>
+															
+														</li>
+														
+														
+														
+													</ul>
+												</div>&nbsp;
+												
+										</div>
+										</div>
+										<div class="kt-portlet__body">
+											<figure class="highcharts-figure">
+										    <div id="container-mobilvsmotor" style="height:300"></div>
+										</figure>
+										</div>
+									</div>
+						</div>
 						
-					</div>
 					
 
 								
@@ -265,6 +308,7 @@
 						<script src="../assets/js/chart/highchart.js" type="text/javascript"></script>
 						<script src="../assets/js/chart/highchart-tju-target-setoran.js" type="text/javascript"></script>
 						<script src="../assets/js/chart/highchart-jukir.js" type="text/javascript"></script>
+						<script src="../assets/js/chart/highchart-mobilvsmotor.js" type="text/javascript"></script>
 						<script src="../assets/js/chart/highchart-setoran-kolektor.js" type="text/javascript"></script>
 						<?php require '../layouts/foot.php' ?>
 						<?php require './layouts/script.php' ?>
