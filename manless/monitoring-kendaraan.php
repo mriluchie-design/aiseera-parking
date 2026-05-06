@@ -242,7 +242,7 @@
 										<div class="kt-portlet__head">
 											<div class="kt-portlet__head-label">
 												<h3 class="kt-portlet__head-title">
-													Mobil Vs Motor Masuk
+													Kendaraan Masuk
 												</h3>
 											</div>
 											<div class="kt-portlet__head-toolbar">
