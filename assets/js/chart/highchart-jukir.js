@@ -25,7 +25,7 @@ Highcharts.chart('container-jukir', {
         }
     },
     tooltip: {
-        valueSuffix: ' (Jukir)'
+        valueSuffix: ' (Kendaraan)'
     },
     plotOptions: {
         column: {
@@ -36,11 +36,11 @@ Highcharts.chart('container-jukir', {
     series: [
         {
             name: 'Masuk',
-            data: [2, 0, 5, 0, 0, 0, 0, 0, 0, 0, 0, 0,]
+            data: [2500, 2600, 2700, 2400, 2300, 2200, 2800, 2900, 3000, 2800, 2900, 2700,]
         },
         {
             name: 'Keluar',
-            data: [10, 0, 5, 0, 10, 0, 5, 0, 2, 0, 7,0, ]
+            data: [2450, 2550, 2650, 2350, 2250, 2150, 2750, 2850, 2950, 2750, 2850, 2650,]
         }
     ]
 });

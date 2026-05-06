@@ -63,24 +63,24 @@
 										<ul class="kt-menu__subnav">
 											<li class="kt-menu__item  kt-menu__item--parent" aria-haspopup="true"><span class="kt-menu__link"><span class="kt-menu__link-text">Manajemen Absensi</span></span></li>
 
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-masuk.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Gate Masuk</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Gate Keluar</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pendapatan</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Monitoring</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Aktifitas Operator</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="monitoring-gate-masuk.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Gate Masuk</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="monitoring-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Gate Keluar</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="monitoring-pendapatan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pendapatan</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="monitoring-kendaraan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="monitoring-bantuan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Permintaan Bantuan</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="monitoring-operator.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Aktifitas Operator</span></a></li>
 											
 										</ul>
 									</div>
 								</li>
-<li class="kt-menu__item " aria-haspopup="true"><a href="./gate-masuk.php" class="kt-menu__link "><span class="kt-menu__link-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
+<li class="kt-menu__item " aria-haspopup="true"><a href="./buka-gerbang.php" class="kt-menu__link "><span class="kt-menu__link-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect x="0" y="0" width="24" height="24"/>
         <path d="M8,6 L20.5,6 C21.3284271,6 22,6.67157288 22,7.5 C22,8.32842712 21.3284271,9 20.5,9 L8,9 L8,19.5 C8,20.3284271 7.32842712,21 6.5,21 C5.67157288,21 5,20.3284271 5,19.5 L5,9 L3.5,9 C2.67157288,9 2,8.32842712 2,7.5 C2,6.67157288 2.67157288,6 3.5,6 L5,6 L5,4.5 C5,3.67157288 5.67157288,3 6.5,3 C7.32842712,3 8,3.67157288 8,4.5 L8,6 Z" fill="#000000"/>
         <path d="M10,11 L20.5,11 C21.3284271,11 22,11.6715729 22,12.5 L22,15 C22,17.209139 20.209139,19 18,19 L11.5,19 C10.6715729,19 10,18.3284271 10,17.5 L10,11 Z M20,12 C19.4477153,12 19,12.4477153 19,13 L19,16 C19,16.5522847 19.4477153,17 20,17 C20.5522847,17 21,16.5522847 21,16 L21,13 C21,12.4477153 20.5522847,12 20,12 Z" fill="#000000" opacity="0.3"/>
     </g>
 </svg></span><span class="kt-menu__link-text">Buka Gerbang</span></a></li>
-<li class="kt-menu__item " aria-haspopup="true"><a href="./gate-masuk.php" class="kt-menu__link "><span class="kt-menu__link-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
+<li class="kt-menu__item " aria-haspopup="true"><a href="./input-manual.php" class="kt-menu__link "><span class="kt-menu__link-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect x="0" y="0" width="24" height="24"/>
         <path d="M11,20 L11,17 C11,16.4477153 11.4477153,16 12,16 C12.5522847,16 13,16.4477153 13,17 L13,20 L15.5,20 C15.7761424,20 16,20.2238576 16,20.5 C16,20.7761424 15.7761424,21 15.5,21 L8.5,21 C8.22385763,21 8,20.7761424 8,20.5 C8,20.2238576 8.22385763,20 8.5,20 L11,20 Z" fill="#000000" opacity="0.3"/>
@@ -102,14 +102,14 @@
 </svg></span><span class="kt-menu__link-text">Grafik</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
 									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
 										<ul class="kt-menu__subnav">
-											<li class="kt-menu__item  kt-menu__item--parent" aria-haspopup="true"><span class="kt-menu__link"><span class="kt-menu__link-text">Manajemen Absensi</span></span></li>
+											<li class="kt-menu__item  kt-menu__item--parent" aria-haspopup="true"><span class="kt-menu__link"><span class="kt-menu__link-text">Grafik</span></span></li>
 
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-masuk.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Gate Masuk</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Gate Keluar</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pendapatan</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Monitoring</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Aktifitas Operator</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="grafik-gate-masuk.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Gate Masuk</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="grafik-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Gate Keluar</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="grafik-pendapatan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pendapatan</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="grafik-kendaraan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="grafik-monitoring.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Monitoring</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="grafik-operator.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Aktifitas Operator</span></a></li>
 											
 										</ul>
 									</div>
@@ -127,17 +127,17 @@
 										<ul class="kt-menu__subnav">
 											<li class="kt-menu__item  kt-menu__item--parent" aria-haspopup="true"><span class="kt-menu__link"><span class="kt-menu__link-text">Laporan</span></span></li>
 
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-masuk.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Masuk</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Keluar</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Sedang Parkir</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Hapus Kendaraan</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Produksi Keseluruhan</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Produksi Operator</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Keuangan</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Settelement</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Buka Gerbang</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Free Pass</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Tamu Keluar</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-kendaraan-masuk.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Masuk</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-kendaraan-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Keluar</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-kendaraan-parkir.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Sedang Parkir</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-hapus-kendaraan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Hapus Kendaraan</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-produksi-keseluruhan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Produksi Keseluruhan</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-produksi-operator.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Produksi Operator</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-keuangan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Keuangan</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-settelement.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Settelement</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-buka-gerbang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Buka Gerbang</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-free-pass.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Free Pass</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-tamu-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Tamu Keluar</span></a></li>
 											
 										</ul>
 									</div>
@@ -153,9 +153,9 @@
 										<ul class="kt-menu__subnav">
 											<li class="kt-menu__item  kt-menu__item--parent" aria-haspopup="true"><span class="kt-menu__link"><span class="kt-menu__link-text">Master Data</span></span></li>
 
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-masuk.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Tarif Kendaraan</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-masuk.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Tarif Member</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Instansi</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-tarif-kendaraan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Tarif Kendaraan</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-tarif-member.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Tarif Member</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-instansi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Instansi</span></a></li>
 											
 										</ul>
 									</div>
@@ -171,13 +171,13 @@
 										<ul class="kt-menu__subnav">
 											<li class="kt-menu__item  kt-menu__item--parent" aria-haspopup="true"><span class="kt-menu__link"><span class="kt-menu__link-text">Pengaturan</span></span></li>
 
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-masuk.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Gate Masuk</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Gate Keluar</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Jenis Tarif</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Tipe Tarif</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kantor</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Audio</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="pengaturan-gate-masuk.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Gate Masuk</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="pengaturan-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Gate Keluar</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="pengaturan-kendaraan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="pengaturan-jenis-tarif.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Jenis Tarif</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="pengaturan-tipe-tarif.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Tipe Tarif</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="pengaturan-kantor.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kantor</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="pengaturan-audio.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Audio</span></a></li>
 											
 										</ul>
 									</div>

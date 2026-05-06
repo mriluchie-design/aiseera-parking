@@ -27301,10 +27301,10 @@ strong {
       padding: 0.05rem 0 0 7.5rem;
       color: #0961ae; }
       .kt-timeline-v2 .kt-timeline-v2__items .kt-timeline-v2__item .kt-timeline-v2__item-text.kt-timeline-v2__item-text--bold {
-        font-size: .9rem;
-        font-weight: 600;
+        font-size: 1rem;
+        font-weight: 500;
         padding-top: 0.21rem;
-        color: #74788d; }
+        color: #0e62ae ; }
       .kt-timeline-v2 .kt-timeline-v2__items .kt-timeline-v2__item .kt-timeline-v2__item-text > span {
         font-weight: 700; }
     .kt-timeline-v2 .kt-timeline-v2__items .kt-timeline-v2__item .kt-list-pics {
