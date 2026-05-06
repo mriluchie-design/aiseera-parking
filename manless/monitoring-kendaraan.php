@@ -191,53 +191,7 @@
 								</div>
 								</div>
 								<div class="row">
-						<div class="col-lg-6">
-							<div class="kt-portlet kt-portlet--height-fluid">
-										<div class="kt-portlet__head">
-											<div class="kt-portlet__head-label">
-												<h3 class="kt-portlet__head-title">
-													Total Pendapatan
-												</h3>
-											</div>
-											<div class="kt-portlet__head-toolbar">
-												<a href="#" class="btn btn-label-brand btn-sm dropdown-toggle" data-toggle="dropdown">
-													2026
-												</a>
-												<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-													<ul class="kt-nav">
-														
-														
-														<li class="kt-nav__item">
-															<a href="#" class="kt-nav__link">
-																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
-																<span class="kt-nav__link-text">2025</span>
-															</a>
-															
-														</li>
-														<li class="kt-nav__item">
-															<a href="#" class="kt-nav__link">
-																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
-																<span class="kt-nav__link-text">2024</span>
-															</a>
-															
-														</li>
-														
-														
-														
-													</ul>
-												</div>&nbsp;
-												<a href="#" class="btn btn-secondary kt-btn kt-btn--custom kt-btn--icon btn-sm" data-toggle="dropdown">
-                    <i class="flaticon2-printer"></i> Export Data</button>
-                    <!--<i class="flaticon2-plus"></i>-->
-                </a>
-										</div>
-										</div>
-										<div class="kt-portlet__body"><br>
-											<figure class="highcharts-figure">
-													<div id="container"></div>
-											</figure>
-										</div>
-									</div>
+						
 						</div>
 						<div class="col-lg-6">
 							<div class="kt-portlet kt-portlet--height-fluid">
