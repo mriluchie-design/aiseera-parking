@@ -105,19 +105,19 @@ function goBack() {
 
 				<div class="kt-portlet__body">
 				
+					  
 					  <div class="form-group row">
 				
 					  
-					  <div class="col-lg-12">
+					  
+					  <div class="col-lg-4">
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Member</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
-					  
-						
-					  <div class="col-lg-3">
+						<div class="col-lg-7">
                           <label>Scan Kartu Member :</label>
                           <div class="kt-input-icon kt-input-icon--right">
         							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
@@ -126,7 +126,7 @@ function goBack() {
     		                        </span>
     		                    </div>
                         </div>
-						<div class="col-lg-1">
+						<div class="col-lg-3">
                           <label>&nbsp;</label>
                           <div><a href="#" class="btn btn-success btn-sm m-btn 	m-btn m-btn--icon">
 															<span>
@@ -136,50 +136,60 @@ function goBack() {
 														</a>
                         </div>
                         </div>
-						<div class="col-lg-2">
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+					  
+						
+					  
+						<div class="col-lg-7">
                           <label class="">Nama Member :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom">
                         </div>
-						<div class="col-lg-2">
+						<div class="col-lg-5">
                           <label class="">Status Member :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Aktif">
                         </div>
-						<div class="col-lg-2">
+						
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						  <div class="form-group row">
+						  <div class="col-lg-7">
                           <label class="">Tanggal Terdaftar :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="31 Desember 2026">
                         </div>
-						<div class="col-lg-2">
+						<div class="col-lg-5">
                           <label class="">Aktif Hingga :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="31 Desember 2026">
                         </div>
-                        </div>
 						
 						
-						
+						 </div>
+						 
+						  
 						
                       </div>
                       </div>
                       </div>
-					  
-					  
-					  
-					  
-                      </div>
-					  <div class="form-group row">
-				
-					  
-					  
 					  <div class="col-lg-4">
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Kendaraan Masuk</div><br><br>
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Transaksi</div><br><br>
 										 <div class="kt-portlet__body">
-                      <div class="form-group row">
+										 <div class="form-group row">
+                      <div class="col-lg-6">
+                          <label class="">ID Transaksi :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="001TRTUGM0526">
+																  </div>
+						
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
 						<div class="col-lg-7" >
                           <label style="color:#a2050c">Tanggal Masuk :</label>
                           <div class="input-group date">
-													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" disabled>
+													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2">
 													<div class="input-group-append">
 														<span class="input-group-text">
 															<i class="la la-calendar-check-o"></i>
@@ -191,7 +201,7 @@ function goBack() {
 						<div class="col-lg-5">
                           <label class="">Jam Masuk :</label>
                           <div class="input-group timepicker">
-													<input class="form-control form-control-sm" id="kt_timepicker_2" readonly="" placeholder="07:44:00" type="text" disabled>
+													<input class="form-control form-control-sm" id="kt_timepicker_2" readonly="" placeholder="07:44:00" type="text">
 													<div class="input-group-append">
 														<span class="input-group-text">
 															<i class="la la-clock-o"></i>
@@ -201,7 +211,7 @@ function goBack() {
                         </div>
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
+						  <div class="form-group row">
 					  
 						
 					  
@@ -227,91 +237,6 @@ function goBack() {
 						<div class="col-lg-5">
                           <label class="">Plat Kendaraan :</label>
                           <input type="text" class="form-control form-control-sm" placeholder="">
-                        </div>
-						
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						  <div class="form-group row">
-						  <div class="col-lg-7" >
-                          <label style="color:#a2050c">Pengantar / Penjemput :</label>
-                          <div class="input-group">
-													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="" aria-describedby="basic-addon2">
-													<div class="input-group-append">
-														<span class="input-group-text" id="basic-addon2">Orang</span>
-													</div>
-												</div>
-                        </div>
-						<div class="col-lg-5" >
-                          <label style="color:#a2050c">Penumpang :</label>
-                          <div class="input-group">
-													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="" aria-describedby="basic-addon2">
-													<div class="input-group-append">
-														<span class="input-group-text" id="basic-addon2">Orang</span>
-													</div>
-												</div>
-                        </div>
-						
-						
-						 </div>
-						 
-						  
-						
-                      </div>
-                      </div>
-                      </div>
-					  <div class="col-lg-4">
-
-									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Transaksi</div><br><br>
-										 <div class="kt-portlet__body">
-										 <div class="form-group row">
-                      <div class="col-lg-6">
-                          <label class="">ID Transaksi :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="001TRTUGM0526">
-																  </div>
-						<div class="col-lg-6" >
-                          <label style="color:#a2050c">ID Pembayaran :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="001PBNTGM0526">
-                        </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-                      <div class="col-lg-6">
-                          <label class="">Total Tagihan :</label>
-                          <div class="input-group input-group-sm">
-																  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-																  <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000" aria-describedby="basic-addon1">
-																  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-																  </div>
-																  </div>
-						<div class="col-lg-6" >
-                          <label style="color:#a2050c">Pembayaran :</label>
-                          <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2" selected="">Tunai</option>
-                                      <option value="2">Non Tunai</option>
-                                  </select>
-                        </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						  <div class="form-group row">
-                       
-						
-						<div class="col-lg-6">
-                          <label class="">Jumlah Pembayaran :</label>
-                          <div class="input-group input-group-sm">
-															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" style="border-color:#ff0000" id="basic-addon2">Rp.</span></div>
-															    <input style="text-align:right; border-color:#ff0000;" type="text" class="form-control form-control-sm" placeholder="2.000.000" aria-describedby="basic-addon1">
-															    <div class="input-group-append"><span class="input-group-text input-group-sm" style="border-color:#ff0000" id="basic-addon2">,-</span></div>
-															    </div>
-                        </div>
-						<div class="col-lg-6">
-                          <label class="">Kembalian :</label>
-                          <div class="input-group input-group-sm">
-																  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-																  <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000" aria-describedby="basic-addon1">
-																  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-																  </div>
                         </div>
 						
                         </div>
