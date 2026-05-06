@@ -24,6 +24,7 @@ Highcharts.chart('container', {
                 color: Highcharts.getOptions().colors[1]
             }
         },
+		
        
     }, { // Secondary yAxis
         title: {
@@ -36,9 +37,13 @@ Highcharts.chart('container', {
         opposite: true
     }],
     tooltip: {
-        shared: true
+        shared: true,
+		 valuePrefix: 'Rp. ',
+    valueDecimals: 0, // Jumlah angka di belakang koma
+    valueSuffix: ',-' // Tambahan opsional (contoh: ,-)
     },
     legend: {
+		
         layout: 'vertical',
         align: 'left',
         x: 350,
@@ -48,6 +53,7 @@ Highcharts.chart('container', {
         backgroundColor:
             Highcharts.defaultOptions.legend.backgroundColor || // theme
             'rgba(255,255,255,0.25)'
+		
     },
     series: [{
         name: 'Tunai',
@@ -70,26 +76,79 @@ Highcharts.chart('container', {
 
 var chart = Highcharts.chart('container2', {
 
+    chart: {
+        zoomType: 'xy'
+    },
     title: {
         text: ''
     },
-
-    subtitle: {
-        text: ''
+    
+    xAxis: [{
+        categories: ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun',
+            'Jul', 'Agu', 'Sep', 'Okt', 'Nov', 'Des'],
+        crosshair: true
+    }],
+    yAxis: [{ // Primary yAxis
+        title: {
+            text: 'Rupiah',
+            style: {
+                color: Highcharts.getOptions().colors[0]
+            }
+        },
+        labels: {
+            format: '{value}',
+            style: {
+                color: Highcharts.getOptions().colors[1]
+            }
+        },
+		
+       
+    }, { // Secondary yAxis
+        title: {
+            text: 'Rupiah',
+            style: {
+                color: Highcharts.getOptions().colors[0]
+            }
+        },
+       
+        opposite: true
+    }],
+    tooltip: {
+        shared: true,
+		 valuePrefix: 'Rp. ',
+    valueDecimals: 0, // Jumlah angka di belakang koma
+    valueSuffix: ',-' // Tambahan opsional (contoh: ,-)
     },
-
-    xAxis: {
-        categories: ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun', 'Jul', 'Agu', 'Sep', 'Okt', 'Nov', 'Des']
+    legend: {
+		
+        layout: 'vertical',
+        align: 'left',
+        x: 350,
+        verticalAlign: 'top',
+        y: -20,
+        floating: true,
+        backgroundColor:
+            Highcharts.defaultOptions.legend.backgroundColor || // theme
+            'rgba(255,255,255,0.25)'
+		
     },
-
     series: [{
-         name: 'Pendaftaran Member',
+        name: 'Tunai',
         type: 'column',
-        data: [10, 2, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        showInLegend: false
-    },
-]
+        yAxis: 1,
+        data: [50000000, 40000000, 30000000, 40000000, 55000000, 35000000, 50000000, 50000000, 50000000, 50000000, 50000000, 50000000],
+        tooltip: {
+            valueSuffix: ''
+        }
 
+    }, {
+        name: 'Non Tunai',
+        type: 'spline',
+        data: [250000000, 500000000, 600000000, 650000000, 1000000000, 750000000, 800000000, 850000000, 900000000, 960000000, 1000000000, 1200000000],
+        tooltip: {
+            valueSuffix: ''
+        }
+    }]
 });
 
 

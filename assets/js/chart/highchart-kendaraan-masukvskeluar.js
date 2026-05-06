@@ -38,6 +38,7 @@ Highcharts.chart('container-kendaraan-masukvskeluar', {
             name: 'Masuk',
             data: [4950, 5150, 5350, 4750, 4550, 4350, 5550, 5750, 5950, 5550, 5750, 5350,]
         },
+		
 		{
             name: 'Keluar',
             data: [4950, 5150, 5350, 4750, 4550, 4350, 5550, 5750, 5950, 5550, 5750, 5350,]
@@ -49,7 +50,12 @@ Highcharts.chart('container-kendaraan-masukvskeluar', {
         {
             name: 'Member Keluar',
             data: [1950, 2150, 2350, 1750, 1550, 1350, 2550, 2750, 2950, 2550, 2750, 2350,]
-        }
+        },
+		{
+            name: 'Free Pass',
+            data: [4950, 5150, 5350, 4750, 4550, 4350, 5550, 5750, 5950, 5550, 5750, 5350,]
+        },
+		
 
 		
     ]

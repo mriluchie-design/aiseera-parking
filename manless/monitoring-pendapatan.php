@@ -152,7 +152,7 @@
 										<div class="kt-portlet__head">
 											<div class="kt-portlet__head-label">
 												<h3 class="kt-portlet__head-title">
-													Total Pendapatan
+													Total Pendapatan Parkir
 												</h3>
 											</div>
 											<div class="kt-portlet__head-toolbar">
@@ -200,6 +200,51 @@
 										<div class="kt-portlet__head">
 											<div class="kt-portlet__head-label">
 												<h3 class="kt-portlet__head-title">
+													Pendapatan Pass Tahunan
+												</h3>
+											</div>
+											<div class="kt-portlet__head-toolbar">
+												<a href="#" class="btn btn-label-brand btn-sm dropdown-toggle" data-toggle="dropdown">
+													2026
+												</a>
+												<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+													<ul class="kt-nav">
+														
+														
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">2025</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">2024</span>
+															</a>
+															
+														</li>
+														
+														
+														
+													</ul>
+												</div>&nbsp;
+												
+										</div>
+										</div>
+										<div class="kt-portlet__body">
+											<figure class="highcharts-figure">
+										    <div id="container2" style="height:300"></div>
+										</figure>
+										</div>
+									</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="kt-portlet kt-portlet--height-fluid">
+										<div class="kt-portlet__head">
+											<div class="kt-portlet__head-label">
+												<h3 class="kt-portlet__head-title">
 													Kendaraan Masuk Vs Keluar
 												</h3>
 											</div>
@@ -235,13 +280,17 @@
 										</div>
 										<div class="kt-portlet__body">
 											<figure class="highcharts-figure">
-										    <div id="container-jukir" style="height:300"></div>
+										    <div id="container-kendaraan-masukvskeluar" style="height:300"></div>
 										</figure>
 										</div>
 									</div>
 						</div>
 						
+						
+						
 					</div>
+					<div>&nbsp;</div>
+					<div>&nbsp;</div>
 					
 
 								
@@ -265,9 +314,7 @@
 						<script src="https://code.highcharts.com/modules/export-data.js"></script>
 						<script src="https://code.highcharts.com/modules/accessibility.js"></script>
 						<script src="../assets/js/chart/highchart.js" type="text/javascript"></script>
-						<script src="../assets/js/chart/highchart-tju-target-setoran.js" type="text/javascript"></script>
-						<script src="../assets/js/chart/highchart-jukir.js" type="text/javascript"></script>
-						<script src="../assets/js/chart/highchart-setoran-kolektor.js" type="text/javascript"></script>
+						<script src="../assets/js/chart/highchart-kendaraan-masukvskeluar.js" type="text/javascript"></script>
 						<?php require '../layouts/foot.php' ?>
 						<?php require './layouts/script.php' ?>
 						<script>
