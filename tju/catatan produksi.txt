@@ -1,0 +1,4 @@
+TJU 
+- mekanisme permintaan karcis - flow
+- seri karcis
+- karcis di pegang oleh jukir

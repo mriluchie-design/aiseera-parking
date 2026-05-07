@@ -7,14 +7,14 @@
 -->
 						<div class="kt-header-menu-wrapper" id="kt_header_menu_wrapper">
 							<div id="kt_header_menu" class="kt-header-menu kt-header-menu-mobile  kt-header-menu--layout-default ">
-								<ul class="kt-menu__nav ">
+                                <ul class="kt-menu__nav ">
 									<li class="kt-menu__item  kt-menu__item--submenu kt-menu__item--rel kt-menu__item--active" data-ktmenu-submenu-toggle="click" aria-haspopup="true">
 										<div class="kt-subheader__main">
-                <span class="kt-subheader__title">
-                   
-                    <b>NAMA PERUSAHAAN</b><br>Alamat Perusahaan, Makassar 90121
+	                  <span class="kt-subheader__title">
+                    
+                    <b>[ NAMA PERUSAHAAN / CLIENT ]</b><br>Kompleks Villa Surya Mas J/6 - Makassar 90233
                 </span>
-            </div>
+	            </div>
 									</li>
 								</ul>
 							</div>
@@ -47,12 +47,12 @@
 							<!--end: Search -->
 
 							<!--end: Search -->
-							<div class="kt-header__topbar-item kt-header__topbar-item-non-hover kt-header__topbar-item--user">
+							<div class="kt-header__topbar-item kt-header__topbar-item--user">
 								<div class="kt-header__topbar-wrapper" data-toggle="dropdown" data-offset="0px,0px">
 									<div class="kt-header__topbar-user">
 										<a href="#" class="btn kt-subheader__btn-dateranger" style="background: #f2f3f7 !important;">
-														<i class="flaticon2-calendar-1" style="color: #5d78ff;"></i>
-														<span class="kt-subheader__btn-daterange-date" id="kt_dashboard_daterangepicker_date" style="color: #5d78ff;margin-right: 0.75rem;display: inline-block;">23 Agustus 2022</span>
+														<i class="flaticon2-calendar-1" style="color: #1b1864;"></i>
+														<span class="kt-subheader__btn-daterange-date" id="kt_dashboard_daterangepicker_date" style="color: #1b1864;margin-right: 0.75rem;display: inline-block;">22 Oktober 2025</span>
 														<span class="kt-subheader__btn-daterange-title" id="kt_dashboard_daterangepicker_title">9:45 AM</span>&nbsp;
 														
 													</a>
@@ -64,8 +64,8 @@
 								<div class="kt-header__topbar-wrapper" data-toggle="dropdown" data-offset="0px,0px">
 									<div class="kt-header__topbar-user">
 										<span class="kt-header__topbar-welcome kt-hidden-mobile">Hi,</span>
-										<span class="kt-header__topbar-username kt-hidden-mobile">iLugroup</span>
-										<img class="" alt="Pic" src="../assets/img/users/300_25.jpg" />
+										<span class="kt-header__topbar-username kt-hidden-mobile">Aiseera Parking</span>
+										<img class="" alt="Pic" src="../assets/img/logos/aiseera-parking-logo-2.png" />
 
 										<!--use below badge element instead the user avatar to display username's first letter(remove kt-hidden class to display it) -->
 									</div>
@@ -73,15 +73,15 @@
 								<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right dropdown-menu-anim dropdown-menu-top-unround dropdown-menu-xl">
 
 									<!--begin: Head -->
-											<div class="kt-user-card kt-user-card--skin-dark kt-notification-item-padding-x" style="background-image: url(../assets/media/misc/bg-1.jpg)">
+											<div class="kt-user-card kt-user-card--skin-dark kt-notification-item-padding-x" style="background-image: url(assets/media/misc/.jpg)">
 												<div class="kt-user-card__avatar">
-													<img class="kt-hidden-" alt="Pic" src="../assets/media/users/300_25.jpg" />
+													<img class="kt-hidden-" alt="Pic" src="../assets/img/logos/aiseera-parking-logo-2.png" />
 
 													<!--use below badge element instead the user avatar to display username's first letter(remove kt-hidden class to display it) -->
 													<span class="kt-badge kt-badge--username kt-badge--unified-success kt-badge--lg kt-badge--rounded kt-badge--bold kt-hidden">S</span>
 												</div>
 												<div class="kt-user-card__name">
-													iLugroup Multimedia Indonesia
+													IM Parking
 													<div class="small">Head IT Engineer</div>
 												</div>
 
@@ -91,38 +91,23 @@
 
 									<!--begin: Navigation -->
 									<div class="kt-notification">
-										<a href="../customer/index.php" class="kt-notification__item">
+										<a href="ubah-password.php" class="kt-notification__item">
 											<div class="kt-notification__item-icon">
 												<i class="flaticon2-calendar-3 kt-font-brand"></i>
 											</div>
 											<div class="kt-notification__item-details">
-												<div style="color:#0961ae";>
-													Customer Portal
-												</div>
-												<div class="kt-notification__item-time">
-													Setting Pengaturan dan Lainnya
-												</div>
-											</div>
-											
-										</a>
-										<a href="custom/apps/user/profile-1/personal-information.html" class="kt-notification__item">
-											<div class="kt-notification__item-icon">
-												<i class="flaticon2-calendar-3 kt-font-brand"></i>
-											</div>
-											<div class="kt-notification__item-details">
-												<div style="color:#0961ae";>
+												<div class="kt-notification__item-title kt-font-bold">
 													Ubah Password
 												</div>
 												<div class="kt-notification__item-time">
 													Setting Pengaturan dan Lainnya
 												</div>
 											</div>
-											
 										</a>
 
 										<div class="kt-notification__custom kt-space-between">
 											<a href="custom/user/login-v2.html" target="_blank" class=""></a>
-											<a href="custom/user/login-v2.html" target="_blank" class="btn btn-outline-brand btn-sm"><i class="fa fa-door-open"></i>Keluar Aplikasi</a>
+											<a href="custom/user/login-v2.html" target="_blank" class="btn btn-outline-info btn-sm"><i class="fa fa-door-open"></i>Keluar Aplikasi</a>
 										</div>
 									</div>
 
@@ -149,9 +134,7 @@
           					<li class="nav-item active">
           						<a class="nav-link active" data-toggle="tab" href="#kt_quick_panel_tab_notifications" role="tab">Notifications</a>
           					</li>
-          					<li class="nav-item">
-          						<a class="nav-link" data-toggle="tab" href="#kt_quick_panel_tab_logs" role="tab">Audit Logs</a>
-          					</li>
+          					
           					<li class="nav-item">
           						<a class="nav-link" data-toggle="tab" href="#kt_quick_panel_tab_settings" role="tab">Settings</a>
           					</li>
@@ -499,7 +482,7 @@
           								</div>
           							</div>
           							<div class="kt-separator kt-separator--space-md kt-separator--border-dashed"></div>
-          							<div class="kt-heading kt-heading--sm kt-heading--space-sm">Memebers</div>
+          							<div class="kt-heading kt-heading--sm kt-heading--space-sm">Members</div>
           							<div class="form-group form-group-xs row">
           								<label class="col-8 col-form-label">Enable Member singup:</label>
           								<div class="col-4 kt-align-right">
