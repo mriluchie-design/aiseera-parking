@@ -72,15 +72,14 @@
 																<span class="kt-grid-nav__icon" data-container="body" data-toggle="kt-popover" data-placement="top" data-content="Member Parkir">
 																	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--danger kt-svg-icon--lg">
     
-	<g id="Stockholm-icons-/-Devices-/-iMac" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+	<g id="Stockholm-icons-/-Layout-/-Layout-4-blocks" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect id="bound" x="0" y="0" width="24" height="24"></rect>
-        <path d="M5,5 L5,16 L19,16 L19,5 L5,5 Z M5,3 L19,3 C20.4201608,3 21,3.7163444 21,4.6 L21,17.4 C21,18.2836556 20.4201608,19 19,19 L5,19 C3.57983921,19 3,18.2836556 3,17.4 L3,4.6 C3,3.7163444 3.57983921,3 5,3 Z M12,18 C12.2761424,18 12.5,17.7761424 12.5,17.5 C12.5,17.2238576 12.2761424,17 12,17 C11.7238576,17 11.5,17.2238576 11.5,17.5 C11.5,17.7761424 11.7238576,18 12,18 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
-        <polygon id="Combined-Shape" fill="#000000" opacity="0.3" points="5 5 5 16 19 16 19 5"></polygon>
-        <rect id="Rectangle-4" fill="#000000" opacity="0.3" x="10" y="20" width="4" height="1" rx="0.5"></rect>
+        <rect id="Rectangle-7" fill="#000000" x="4" y="4" width="7" height="7" rx="1.5"></rect>
+        <path d="M5.5,13 L9.5,13 C10.3284271,13 11,13.6715729 11,14.5 L11,18.5 C11,19.3284271 10.3284271,20 9.5,20 L5.5,20 C4.67157288,20 4,19.3284271 4,18.5 L4,14.5 C4,13.6715729 4.67157288,13 5.5,13 Z M14.5,4 L18.5,4 C19.3284271,4 20,4.67157288 20,5.5 L20,9.5 C20,10.3284271 19.3284271,11 18.5,11 L14.5,11 C13.6715729,11 13,10.3284271 13,9.5 L13,5.5 C13,4.67157288 13.6715729,4 14.5,4 Z M14.5,13 L18.5,13 C19.3284271,13 20,13.6715729 20,14.5 L20,18.5 C20,19.3284271 19.3284271,20 18.5,20 L14.5,20 C13.6715729,20 13,19.3284271 13,18.5 L13,14.5 C13,13.6715729 13.6715729,13 14.5,13 Z" id="Combined-Shape" fill="#000000" opacity="0.3"></path>
     </g>
 	
 </svg> </span>
-																<span class="kt-grid-nav__title">Manual</span>
+																<span class="kt-grid-nav__title">Parkir Tepi Jalan</span>
 															</a>
 															<a href="./manless/dashboard.php" class="kt-grid-nav__item">
 																<span class="kt-grid-nav__icon" data-container="body" data-toggle="kt-popover" data-placement="top" data-content="Member Parkir">

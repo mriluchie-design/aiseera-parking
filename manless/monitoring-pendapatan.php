@@ -59,14 +59,14 @@
 												<div class="kt-widget24__details">
 													<div class="kt-widget24__info">
 														<h4 class="kt-widget24__title">
-															Total
+															Tahun ini
 														</h4>
 														<span class="kt-widget24__desc">
-															Pendapatan Tahun ini
+															Total Pendapatan 
 														</span>
 													</div>
 													<span class="kt-widget24__stats kt-font-brand">
-														Rp. 11.500.000.000,-
+														Rp. 6.061.188.514,-
 													</span>
 												</div>
 
@@ -82,14 +82,14 @@
 												<div class="kt-widget24__details">
 													<div class="kt-widget24__info">
 														<h4 class="kt-widget24__title">
-															Total
+															Bulan ini
 														</h4>
 														<span class="kt-widget24__desc">
-															Pendapatan Bulan ini
+															Total Pendapatan 
 														</span>
 													</div>
 													<span class="kt-widget24__stats kt-font-success">
-														Rp. 1.500.000.000,-
+														Rp. 303.125.743,-
 													</span>
 												</div>
 
@@ -104,14 +104,14 @@
 												<div class="kt-widget24__details">
 													<div class="kt-widget24__info">
 														<h4 class="kt-widget24__title">
-															Total
+															Minggu ini
 														</h4>
 														<span class="kt-widget24__desc">
-															Pendapatan Minggu ini
+															 Total Pendapatan 
 														</span>
 													</div>
 													<span class="kt-widget24__stats kt-font-brand">
-														Rp. 300.000.000,-
+														Rp. 75.750.000,-
 													</span>
 												</div>
 
@@ -126,14 +126,14 @@
 												<div class="kt-widget24__details">
 													<div class="kt-widget24__info">
 														<h4 class="kt-widget24__title">
-															Total
+															Hari ini
 														</h4>
 														<span class="kt-widget24__desc">
-															Pendapatan Hari ini
+															Total Pendapatan 
 														</span>
 													</div>
 													<span class="kt-widget24__stats kt-font-danger">
-														Rp. 5.000.000,-
+														Rp. 10.821.428,-
 													</span>
 												</div>
 
@@ -152,7 +152,7 @@
 										<div class="kt-portlet__head">
 											<div class="kt-portlet__head-label">
 												<h3 class="kt-portlet__head-title">
-													Total Pendapatan Parkir
+													Pendapatan Parkir
 												</h3>
 											</div>
 											<div class="kt-portlet__head-toolbar">
@@ -181,16 +181,13 @@
 														
 														
 													</ul>
-												</div>&nbsp;
-												<a href="#" class="btn btn-secondary kt-btn kt-btn--custom kt-btn--icon btn-sm" data-toggle="dropdown">
-                    <i class="flaticon2-printer"></i> Export Data</button>
-                    <!--<i class="flaticon2-plus"></i>-->
-                </a>
+												</div>
+												
 										</div>
 										</div>
 										<div class="kt-portlet__body"><br>
 											<figure class="highcharts-figure">
-													<div id="container"></div>
+													<div id="container" style="height:400px"></div>
 											</figure>
 										</div>
 									</div>
@@ -235,7 +232,7 @@
 										</div>
 										<div class="kt-portlet__body">
 											<figure class="highcharts-figure">
-										    <div id="container2" style="height:300"></div>
+										    <div id="container2" style="height:400px"></div>
 										</figure>
 										</div>
 									</div>

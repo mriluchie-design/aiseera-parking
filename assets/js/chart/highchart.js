@@ -1,78 +1,70 @@
+// Data retrieved from:
+// - https://en.as.com/soccer/which-teams-have-won-the-premier-league-the-most-times-n/
+// - https://www.statista.com/statistics/383679/fa-cup-wins-by-team/
+// - https://www.uefa.com/uefachampionsleague/history/winners/
 Highcharts.chart('container', {
     chart: {
-        zoomType: 'xy'
+        type: 'column'
     },
     title: {
-        text: ''
+        text: '',
+        align: ''
+    },
+    xAxis: {
+        categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep',
+            'Oct', 'Nov', 'Dec']
+            
     },
     
-    xAxis: [{
-        categories: ['Jan', 'Feb', 'Mar', 'Apr', 'Mei', 'Jun',
-            'Jul', 'Agu', 'Sep', 'Okt', 'Nov', 'Des'],
-        crosshair: true
-    }],
-    yAxis: [{ // Primary yAxis
+    yAxis: {
+        min: 0,
         title: {
-            text: 'Rupiah',
-            style: {
-                color: Highcharts.getOptions().colors[0]
-            }
+            text: 'Rupiah'
         },
-        labels: {
-            format: '{value}',
-            style: {
-                color: Highcharts.getOptions().colors[1]
-            }
-        },
-		
-       
-    }, { // Secondary yAxis
-        title: {
-            text: 'Rupiah',
-            style: {
-                color: Highcharts.getOptions().colors[0]
-            }
-        },
-       
-        opposite: true
-    }],
-    tooltip: {
-        shared: true,
-		 valuePrefix: 'Rp. ',
-    valueDecimals: 0, // Jumlah angka di belakang koma
-    valueSuffix: ',-' // Tambahan opsional (contoh: ,-)
+        stackLabels: {
+            enabled: true
+        }
     },
     legend: {
-		
-        layout: 'vertical',
-        align: 'left',
-        x: 350,
+        align: 'right',
+        x: -70,
         verticalAlign: 'top',
-        y: -20,
+        y: 0,
         floating: true,
-        backgroundColor:
-            Highcharts.defaultOptions.legend.backgroundColor || // theme
-            'rgba(255,255,255,0.25)'
-		
+        backgroundColor: 'var(--highcharts-background-color, #ffffff)',
+        borderColor: 'var(--highcharts-neutral-color-20, #cccccc)',
+        borderWidth: 1,
+        valuePrefix: 'Rp. ',
+        valueDecimals: 0, // Jumlah angka di belakang koma
+        valueSuffix: ',-', // Tambahan opsional (contoh: ,-)
+        shadow: false
     },
+    tooltip: {
+        headerFormat: '<b>{category}</b><br/>',
+        pointFormat: '{series.name}: {point.y}',
+        valuePrefix: 'Rp. ',
+        valueDecimals: 0, // Jumlah angka di belakang koma
+        valueSuffix: ',-' // Tambahan opsional (contoh: ,-)
+    },
+    plotOptions: {
+        column: {
+            stacking: 'normal',
+            dataLabels: {
+                enabled: true
+            }
+        }
+    },
+    
     series: [{
-        name: 'Tunai',
-        type: 'column',
-        yAxis: 1,
-        data: [50000000, 40000000, 30000000, 40000000, 55000000, 35000000, 50000000, 50000000, 50000000, 50000000, 50000000, 50000000],
-        tooltip: {
-            valueSuffix: ''
-        }
-
-    }, {
         name: 'Non Tunai',
-        type: 'spline',
-        data: [250000000, 500000000, 600000000, 650000000, 1000000000, 750000000, 800000000, 850000000, 900000000, 960000000, 1000000000, 1200000000],
-        tooltip: {
-            valueSuffix: ''
-        }
+        data: [1500000000, 1000000000, 300000000, 300000000, 200000000, 150000000, 300000000, 186119460, 200000000, 181850540, 150000000, 200000000],
+        
+    }, {
+        name: 'Tunai',
+        data: [73090473, 152720540, 55301419, 111151352, 103125743, 160832635, 104610945, 100000000, 197232568, 100000000, 24045271, 111107568]
     }]
 });
+
 
 var chart = Highcharts.chart('container2', {
 
