@@ -213,7 +213,7 @@
 													<div class="kt-grid-nav kt-grid-nav--skin-light">
 														<div class="kt-grid-nav__row">
 															
-															<a href="./accounting" class="kt-grid-nav__item">
+															<a href="./setoran-operator" class="kt-grid-nav__item">
 																<span class="kt-grid-nav__icon">
 																	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--danger kt-svg-icon--lg">
     <g id="Stockholm-icons-/-Shopping-/-Calculator" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -224,7 +224,7 @@
 </svg> </span>
 																<span class="kt-grid-nav__title">Setoran Operator</span>
 															</a>
-															<a href="./laporan-keuangan/" class="kt-grid-nav__item">
+															<a href="./laporan-keuangan" class="kt-grid-nav__item">
 																<span class="kt-grid-nav__icon">
 																	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--danger kt-svg-icon--lg">
     <g id="Stockholm-icons-/-Shopping-/-Wallet#3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
