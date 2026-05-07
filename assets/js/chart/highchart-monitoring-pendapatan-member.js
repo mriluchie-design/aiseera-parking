@@ -2,7 +2,16 @@
 // - https://en.as.com/soccer/which-teams-have-won-the-premier-league-the-most-times-n/
 // - https://www.statista.com/statistics/383679/fa-cup-wins-by-team/
 // - https://www.uefa.com/uefachampionsleague/history/winners/
-Highcharts.chart('container', {
+credits: {
+    enabled: false
+}
+Highcharts.setOptions({
+    lang: {
+        numericSymbols: [' ', ' ',' M']
+    }
+});
+Highcharts.chart('container-member', {
+    
     chart: {
         type: 'column'
     },
@@ -11,8 +20,8 @@ Highcharts.chart('container', {
         align: ''
     },
     xAxis: {
-        categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep',
-            'Oct', 'Nov', 'Dec']
+        categories: ['Makassar', 'Balikpapan', 'Samarinda', 'Ambon', 'Sorong', 'Bitung', 'Manado', 'Nunukan', 'Ternate',
+            'Tarakan', 'Kendari', 'Pare-Pare']
             
     },
     
@@ -57,11 +66,11 @@ Highcharts.chart('container', {
     
     series: [{
         name: 'Non Tunai',
-        data: [1500000000, 1000000000, 300000000, 300000000, 200000000, 150000000, 300000000, 186119460, 200000000, 181850540, 150000000, 200000000],
+        data: [4061188514, 534526000, 1081313000, 1573132229, 418063922, 0, 1000000000, 294107122, 2000000000, 1000000000, 134425132, 600000000],
         
     }, {
         name: 'Tunai',
-        data: [73090473, 152720540, 55301419, 111151352, 103125743, 160832635, 104610945, 100000000, 197232568, 100000000, 24045271, 111107568]
+        data: [2000000000, 200000000, 400000000, 300000000, 200000000, 0, 152962697, 100000000, 173512193, 265952000, 100000000, 26346150]
     }]
 });
 

@@ -375,8 +375,8 @@ License: You must have a valid license purchased only from themeforest(the above
 																13 Desember 2019 - <span>17:00:59 WITA</span>
 																</div>
 															</div>
-																<div onclick="window.location='#';" class="btn btn btn-outline-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																		<i class="fa fa-eye"></i>
+																<div onclick="window.location='#';" class="btn btn btn-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																		<i class="fa fa-check-circle"></i>
 																	</div>
 														</a>
 														<a href="#" class="kt-notification__item versi-2">
@@ -398,8 +398,8 @@ License: You must have a valid license purchased only from themeforest(the above
 																13 Desember 2019 - <span>17:00:59 WITA</span>
 																</div>
 															</div>
-															<div onclick="window.location='#';" class="btn btn btn-outline-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="fa fa-eye"></i>
+															<div onclick="window.location='#';" class="btn btn btn-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="fa fa-check-circle"></i>
 																</div>
 														</a>
 														<a href="#" class="kt-notification__item versi-2">
@@ -421,8 +421,8 @@ License: You must have a valid license purchased only from themeforest(the above
 																13 Desember 2019 - <span>17:00:59 WITA</span>
 																</div>
 															</div>
-															<div onclick="window.location='#';" class="btn btn btn-outline-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="fa fa-eye"></i>
+															<div onclick="window.location='#';" class="btn btn btn-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="fa fa-check-circle"></i>
 																</div>
 														</a>
 														
@@ -456,8 +456,8 @@ License: You must have a valid license purchased only from themeforest(the above
 																13 Desember 2019 - <span>17:00:59 WITA</span>
 																</div>
 															</div>
-															<div onclick="window.location='#';" class="btn btn btn-outline-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="fa fa-eye"></i>
+															<div onclick="window.location='#';" class="btn btn btn-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="fa fa-check-circle"></i>
 																</div>
 														</a>
 														<a href="#" class="kt-notification__item versi-2">
@@ -479,8 +479,8 @@ License: You must have a valid license purchased only from themeforest(the above
 																12 Desember 2019 - 15:00 WITA
 																</div>
 															</div>
-															<div onclick="window.location='#';" class="btn btn btn-outline-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="fa fa-eye"></i>
+															<div onclick="window.location='#';" class="btn btn btn-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="fa fa-check-circle"></i>
 																</div>
 														</a>
 														<a href="#" class="kt-notification__item versi-2">
@@ -501,8 +501,8 @@ License: You must have a valid license purchased only from themeforest(the above
 																11 Desember 2019 - 15:00 WITA
 																</div>
 															</div>
-															<div onclick="window.location='#';" class="btn btn btn-outline-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="fa fa-eye"></i>
+															<div onclick="window.location='#';" class="btn btn btn-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="fa fa-check-circle"></i>
 																</div>
 														</a>
 														
@@ -531,8 +531,8 @@ License: You must have a valid license purchased only from themeforest(the above
 																13 Desember 2019 - <span>17:00:59 WITA</span>
 																</div>
 															</div>
-															<div onclick="window.location='#';" class="btn btn btn-outline-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="fa fa-eye"></i>
+															<div onclick="window.location='#';" class="btn btn btn-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="fa fa-check-circle"></i>
 																</div>
 														</a>
 														<a href="#" class="kt-notification__item versi-2">
@@ -555,8 +555,8 @@ License: You must have a valid license purchased only from themeforest(the above
 																13 Desember 2019 - <span>17:00:59 WITA</span>
 																</div>
 															</div>
-															<div onclick="window.location='#';" class="btn btn btn-outline-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="fa fa-eye"></i>
+															<div onclick="window.location='#';" class="btn btn btn-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="fa fa-check-circle"></i>
 																</div>
 														</a>
 														<a href="#" class="kt-notification__item versi-2">
@@ -579,8 +579,8 @@ License: You must have a valid license purchased only from themeforest(the above
 																13 Desember 2019 - <span>17:00:59 WITA</span>
 																</div>
 															</div>
-															<div onclick="window.location='#';" class="btn btn btn-outline-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="fa fa-eye"></i>
+															<div onclick="window.location='#';" class="btn btn btn-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="fa fa-check-circle"></i>
 																</div>
 														</a>
 														
@@ -608,8 +608,8 @@ License: You must have a valid license purchased only from themeforest(the above
 																13 Desember 2019 - <span>17:00:59 WITA</span>
 																</div>
 															</div>
-															<div onclick="window.location='#';" class="btn btn btn-outline-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="fa fa-eye"></i>
+															<div onclick="window.location='#';" class="btn btn btn-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="fa fa-check-circle"></i>
 																</div>
 														</a>
 														<a href="#" class="kt-notification__item versi-2">
@@ -631,8 +631,8 @@ License: You must have a valid license purchased only from themeforest(the above
 																13 Desember 2019 - <span>17:00:59 WITA</span>
 																</div>
 															</div>
-															<div onclick="window.location='#';" class="btn btn btn-outline-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="fa fa-eye"></i>
+															<div onclick="window.location='#';" class="btn btn btn-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="fa fa-check-circle"></i>
 																</div>
 														</a>
 														<a href="#" class="kt-notification__item versi-2">
@@ -654,8 +654,8 @@ License: You must have a valid license purchased only from themeforest(the above
 																13 Desember 2019 - <span>17:00:59 WITA</span>
 																</div>
 															</div>
-															<div onclick="window.location='#';" class="btn btn btn-outline-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="fa fa-eye"></i>
+															<div onclick="window.location='#';" class="btn btn btn-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="fa fa-check-circle"></i>
 																</div>
 														</a>
 														
