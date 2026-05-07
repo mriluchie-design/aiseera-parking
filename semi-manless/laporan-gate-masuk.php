@@ -24,12 +24,12 @@
             <div class="kt-subheader__main">
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Input Manual
+                    Laporan
                 </h3>
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Kendaraan Keluar</span>
+											Gate Masuk</span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
 										</form>
@@ -49,35 +49,28 @@ function goBack() {
 </script>
 												<!--<i class="flaticon2-plus"></i>-->
 											</a>
-				&nbsp;
 			</div>
-			<div class="btn-group">
-				<button type="button" class="btn btn-label-danger btn-sm">
-					<i class="fa fa-door-open"></i>
-					<span class="kt-hidden-mobile">Buka Palang</span>
-				</button>
-				
-				
-			</div>
-			&nbsp;
-			<div class="btn-group">
-				<button type="button" class="btn btn-label-success btn-sm">
-					<i class="fa fa-car"></i>
-					<span class="kt-hidden-mobile">Free Pass</span>
-				</button>
-				
-				
-			</div>
-			
-			&nbsp;
-			<div class="btn-group">
-				<button type="button" class="btn btn-brand">
-					<i class="fa fa-check-circle"></i>
-					<span class="kt-hidden-mobile">Simpan & Cetak</span>
-				</button>
-				
-				
-			</div>
+			<button type="button" class="btn btn-label-danger btn-sm" id = "buttonLogin" onclick = "displayLoginBox()"><i class="flaticon-interface-6"></i> Filter Data</button>
+                <a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
+                    <i class="flaticon2-printer"></i> Export Data</button>
+                    <!--<i class="flaticon2-plus"></i>-->
+                </a>
+                <div class="dropdown-menu dropdown-menu-fit dropdown-menu-md dropdown-menu-right">
+                    <!--begin::Nav-->
+                    <ul class="kt-nav">
+                        <li class="kt-nav__item">
+                            <a href="#" class="kt-nav__link">
+                                <i class="kt-nav__link-icon fa fa-file-pdf"></i><span class="kt-nav__link-text">PDF</span>
+                            </a>
+                          </li>
+                        <li class="kt-nav__item">
+                            <a href="#" class="kt-nav__link">
+                                <i class="kt-nav__link-icon fa fa-file-excel"></i><span class="kt-nav__link-text">Excel</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!--end::Nav-->
+                </div>
 			
 				 
                
@@ -87,12 +80,13 @@ function goBack() {
     <!-- end:: Content Head -->
 
 	<!-- begin:: Content -->
+	<div class="row">
 		<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
             <!-- begin:: Alert -->
 			
             <div class="alert alert-elevate alert-solid-warning alert-bold" role="alert">
                 <div class="alert-icon"><i class="fa fa-info-circle"></i></div>
-                <div class="alert-text">CCTV Sedang Offline !</div>
+                <div class="alert-text">Notifikasi Sistem!</div>
                 <div class="alert-close">
                     <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                         <span aria-hidden="true"><i class="la la-close"></i></span>
@@ -100,400 +94,304 @@ function goBack() {
                 </div>
             </div>
             <!-- end:: Alert -->
+<!--begin::Filter-->
+			<div class="kt-portlet" id = "login_Box_Div" >
+				<div class="kt-portlet__head">
+					<div class="kt-portlet__head-label">
+						<h3 class="kt-portlet__head-title">
+							Filter Data
+						</h3>
+					</div>
+				</div>
 
-          
-
-			
-				<div class="kt-portlet__body">
-				
-					  <div class="form-group row">
-				
-					  
-					  <div class="col-lg-12">
-
-									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Member</div><br><br>
-										 <div class="kt-portlet__body">
-                      <div class="form-group row">
-					  
-						
-					  <div class="col-lg-3">
-                          <label>Scan Kartu Member :</label>
-                          <div class="kt-input-icon kt-input-icon--right">
+				<!--begin::Form-->
+				<form class="kt-form">
+					<div class="kt-portlet__body">
+                        <div class="form-group row">
+                            
+								<div class="col-lg-2">
+                                <label>Nama Petugas :</label>
+								
+                                <div class="kt-input-icon kt-input-icon--right">
         							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
         							<span class="kt-input-icon__icon kt-input-icon__icon--right">
     		                            <span><i class="la la-search"></i></span>
     		                        </span>
     		                    </div>
-                        </div>
-						<div class="col-lg-1">
-                          <label>&nbsp;</label>
-                          <div><a href="#" class="btn btn-success btn-sm m-btn 	m-btn m-btn--icon">
-															<span>
-																<i class="flaticon-search"></i>
-																<span>Cari Data</span>
-															</span>
-														</a>
-                        </div>
-                        </div>
-						<div class="col-lg-2">
-                          <label class="">Nama Member :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom">
-                        </div>
-						<div class="col-lg-2">
-                          <label class="">Status Member :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Aktif">
-                        </div>
-						<div class="col-lg-2">
-                          <label class="">Tanggal Terdaftar :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="31 Desember 2026">
-                        </div>
-						<div class="col-lg-2">
-                          <label class="">Aktif Hingga :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="31 Desember 2026">
-                        </div>
-                        </div>
-						
-						
-						
-						
-                      </div>
-                      </div>
-                      </div>
-					  
-					  
-					  
-					  
-                      </div>
-					  <div class="form-group row">
-				
-					  
-					  
-					  <div class="col-lg-4">
-
-									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Kendaraan Keluar</div><br><br>
-										 <div class="kt-portlet__body">
-                      <div class="form-group row">
-						<div class="col-lg-12" >
-                          <label>Scan Kartu e-Money / Karcis :</label>
-                          <div class="kt-input-icon kt-input-icon--right">
+    		                    </div>
+								<div class="col-lg-2">
+                                <label>Data Member :</label>
+								
+                                <div class="kt-input-icon kt-input-icon--right">
         							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
         							<span class="kt-input-icon__icon kt-input-icon__icon--right">
     		                            <span><i class="la la-search"></i></span>
     		                        </span>
     		                    </div>
-                        </div>
-						
-						
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-					  
-						
-					  
-						<div class="col-lg-3" >
-                          <label style="color:#a2050c">Gol :</label>
-                          <select class="form-control kt-selectpicker" data-live-search="true">
+    		                    </div>
+								
+								<div class="col-lg-2">
+                                <label class="">Tanggal Transaksi :</label>
+                                <div class="input-group">
+						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="-- Pilih Tanggal --">
+						                        <div class="input-group-append">
+						                          <span class="input-group-text"><i class="la la-calendar"></i></span>
+						                        </div>
+						                      </div>
+                            </div>
+                            
+							
+                            
+							
+							
+							<div class="col-lg-1">
+                                <label>Golongan :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="2" selected="">I</option>
                                       <option value="2">II</option>
                                       <option value="2">III</option>
                                       <option value="2">IV</option>
                                   </select>
-                        </div>
-						<div class="col-lg-4" >
-                          <label style="color:#a2050c">Kendaraan :</label>
-                          <select class="form-control kt-selectpicker" data-live-search="true">
+                            </div>
+							<div class="col-lg-1">
+                                <label>Jenis Kendaraan :</label>
+								
+                               <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="2" selected="">Mobil</option>
                                       <option value="2">Motor</option>
                                       <option value="2">Gerobak</option>
                                       <option value="2">Sepeda</option>
                                       <option value="2">Tronton</option>
                                   </select>
-                        </div>
-						<div class="col-lg-5">
-                          <label class="">Plat Kendaraan :</label>
-                          <input type="text" class="form-control form-control-sm" placeholder="">
-                        </div>
-						
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-						<div class="col-lg-7" >
-                          <label>Tanggal Masuk :</label>
-                          <div class="input-group date">
-													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" disabled>
-													<div class="input-group-append">
-														<span class="input-group-text">
-															<i class="la la-calendar-check-o"></i>
-														</span>
-													</div>
-												</div>
-                        </div>
-						
-						<div class="col-lg-5">
-                          <label class="">Jam Masuk :</label>
-                          <div class="input-group timepicker">
-													<input class="form-control form-control-sm" id="kt_timepicker_2" readonly="" placeholder="07:44:00" type="text" disabled>
-													<div class="input-group-append">
-														<span class="input-group-text">
-															<i class="la la-clock-o"></i>
-														</span>
-													</div>
-												</div>
-                        </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-						<div class="col-lg-7" >
-                          <label style="color:#a2050c">Tanggal Keluar :</label>
-                          <div class="input-group date">
-													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" >
-													<div class="input-group-append">
-														<span class="input-group-text">
-															<i class="la la-calendar-check-o"></i>
-														</span>
-													</div>
-												</div>
-                        </div>
-						
-						<div class="col-lg-5">
-                          <label style="color:#a2050c">Jam Keluar :</label>
-                          <div class="input-group timepicker">
-													<input class="form-control form-control-sm" id="kt_timepicker_2" readonly="" placeholder="07:44:00" type="text" >
-													<div class="input-group-append">
-														<span class="input-group-text">
-															<i class="la la-clock-o"></i>
-														</span>
-													</div>
-												</div>
-                        </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-						<div class="col-lg-4" >
-                          <label>Durasi Parkir :</label>
-                          <div class="input-group">
-													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="1" aria-describedby="basic-addon2" disabled>
-													<div class="input-group-append">
-														<span class="input-group-text" id="basic-addon2">Jam</span>
-													</div>
-												</div>
-                        </div>
-						<div class="col-lg-4" >
-                          <label style="color:#a2050c">&nbsp;</label>
-                          <div class="input-group">
-													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="30" aria-describedby="basic-addon2" disabled>
-													<div class="input-group-append">
-														<span class="input-group-text" id="basic-addon2">Menit</span>
-													</div>
-												</div>
-                        </div>
-						<div class="col-lg-4" >
-                          <label style="color:#a2050c">&nbsp;</label>
-                          <div class="input-group">
-													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="50" aria-describedby="basic-addon2" disabled>
-													<div class="input-group-append">
-														<span class="input-group-text" id="basic-addon2">Detik</span>
-													</div>
-												</div>
-                        </div>
-						
-						
-                        </div>
-						
-						
-						
-						  
-						
-                      </div>
-                      </div>
-                      </div>
-					  <div class="col-lg-4">
-
-									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Transaksi</div><br><br>
-										 <div class="kt-portlet__body">
-										 
-						
-										 <div class="form-group row">
-                      <div class="col-lg-6">
-                          <label class="">ID Transaksi :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="001TRTUGM0526">
-																  </div>
-						<div class="col-lg-6" >
-                          <label>ID Pembayaran :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="001PBNTGM0526">
-                        </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-                      <div class="col-lg-6">
-                          <label class="">Total Tagihan :</label>
-                          <div class="input-group input-group-sm">
-																  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-																  <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000" aria-describedby="basic-addon1">
-																  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-																  </div>
-																  </div>
-						<div class="col-lg-6" >
-                          <label style="color:#a2050c">Pembayaran :</label>
-                          <select class="form-control kt-selectpicker" data-live-search="true">
+                            </div>
+							<div class="col-lg-1">
+                                <label>Pembayaran :</label>
+								
+                               <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="2" selected="">Tunai</option>
                                       <option value="2">Non Tunai</option>
+                                      
                                   </select>
-                        </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						  <div class="form-group row">
-                       
+                            </div>
+							
+							<div class="col-lg-1">
+                                <label>Status :</label>
+								
+                               <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="2" selected="">Lunas</option>
+                                      <option value="2">Belum Terbayar</option>
+                                  </select>
+                            </div>
+							
+							
+                            </div>
+							
+							<br>
+							
+							
 						
-						<div class="col-lg-6">
-                          <label class="">Jumlah Pembayaran :</label>
-                          <div class="input-group input-group-sm">
-															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" style="border-color:#ff0000" id="basic-addon2">Rp.</span></div>
-															    <input style="text-align:right; border-color:#ff0000;" type="text" class="form-control form-control-sm" placeholder="2.000.000" aria-describedby="basic-addon1">
-															    <div class="input-group-append"><span class="input-group-text input-group-sm" style="border-color:#ff0000" id="basic-addon2">,-</span></div>
-															    </div>
-                        </div>
-						<div class="col-lg-6">
-                          <label class="">Kembalian :</label>
-                          <div class="input-group input-group-sm">
-																  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-																  <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000" aria-describedby="basic-addon1">
-																  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-																  </div>
-                        </div>
-						
-                        </div>
-						
-                        </div>
-						
-						
-						  
-						
-                      </div>
-                      </div>
-					  
-					  <div class="col-lg-2">
+					<div class="kt-portlet__foot text-center">
+						<div class="kt-form__actions">
+							<button type="reset" class="btn btn-outline-brand btn-sm">Reset</button>
+							<button type="reset" class="btn btn-primary btn-sm"><i class="flaticon-interface-6"></i>Filter Data</button>
+						</div>
+					</div>
+					</div>
+				</form>
+				<!--end::Form-->
+			</div>
+            <!--begin::End-->
+          
 
-									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Live Camera</div><br><br>
-										 <div class="kt-portlet__body">
-                      <div class="form-group row" style="text-align:center">
-																					<div class="col-lg-12">
-																						<div>&nbsp;</div>
-														<div class="kt-avatar kt-avatar--outline kt-avatar--circle-" id="kt_user_edit_avatar">
-																			<div class="kt-avatar__holder" style="width:200px; height:200px; background-image: url(&quot;../assets/media/users/qrcode.png&quot;);"></div>
-
-
-																		</div>
-
-												</div>
-																					
-																					
-																					
-																				</div>
-																				</div>
-						
-						
-                      </div>
-                      </div>
-					  <div class="col-lg-2">
-
-									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Foto Kendaraan</div><br><br>
-										 <div class="kt-portlet__body">
-                      <div class="form-group row" style="text-align:center">
-																					<div class="col-lg-12">
-																						<div>&nbsp;</div>
-														<div class="kt-avatar kt-avatar--outline kt-avatar--circle-" id="kt_user_edit_avatar">
-																			<div class="kt-avatar__holder" style="width:200px; height:200px; background-image: url(&quot;../assets/media/users/qrcode.png&quot;);"></div>
-
-
-																		</div>
-
-												</div>
-																					
-																					
-																					
-																				</div>
-																				</div>
-						
-						
-                      </div>
-                      </div>
-                      </div>
-					  <div class="form-group row">
+			<div class="kt-portlet kt-portlet--mobile ">
+				<div class="kt-portlet__body">
 				
 					  
+<div class="row">
 					  <div class="col-lg-12">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Gate</div><br><br>
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Laporan Transaksi</div><br><br>
 										 <div class="kt-portlet__body">
-                      <div class="form-group row">
-					  
-						
-					  
-						<div class="col-lg-2">
-                          <label class="">Nama Petugas :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom">
-                        </div>
-						<div class="col-lg-2">
-                          <label class="">Jabatan :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Operator Gate">
-                        </div>
-						<div class="col-lg-1">
-                          <label class="">Status Karcis :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="50">
-                        </div>
-						<div class="col-lg-2">
-                          <label class="">IP Petugas Gate - Keluar :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="192.168.88.100">
-                        </div>
-						<div class="col-lg-1">
-                          <label class="">Status :</label><br>
-                          <span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
-                        </div>
-						<div class="col-lg-2">
-                          <label class="">IP Barrier Gate - Keluar :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="192.168.88.101">
-                        </div>
-						<div class="col-lg-1">
-                          <label class="">Status :</label><br>
-                          <span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
-                        </div>
-						<div class="col-lg-1">
-                          <label class="">CCTV :</label><br>
-                          <span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">Offline</span>
-                        </div>
-                        </div>
-						
-						
-						
-						
-                      </div>
-                      </div>
-                      </div>
-					  
-					  
-					  
-					  
-                      </div>
+										
+											<div class="tab-content">
+													<table class="table absen table-responsive table-striped- table-bordered table-hover table-checkable">
+														<thead style="text-align:center">
+															<tr>
+															  <th width="1%" bgcolor="#f7fcff" rowspan="2">No</th>
+																<th colspan="5" bgcolor="#f7fcff">Gate Masuk</th>
+																<th width="7%" rowspan="2" bgcolor="#feffed">Waktu Masuk</th>
+																<th colspan="6" bgcolor="#feffed">Data Kendaraan</th>
+																<th colspan="3" bgcolor="#feffed">Pembayaran</th>
+																<th width="1%" rowspan="2" bgcolor="#f7fcff">Foto</th>
+																<th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
+															</tr>
+															<tr>
+															  <th width="3%" bgcolor="#f7fcff">Petugas</th>
+															  <th width="1%" bgcolor="#f7fcff">Gate Masuk</th>
+															  <th width="1%" bgcolor="#f7fcff">Kendaraan</th>
+															  <th width="1%" bgcolor="#f7fcff">Type</th>
+															  <th width="1%" bgcolor="#f7fcff">Jalur</th>
+															  <th width="2%" bgcolor="#feffed">Member ID</th>
+															  <th width="5%" bgcolor="#feffed">No. Plat</th>
+															  <th width="2%" bgcolor="#feffed">Golongan</th>
+															  <th width="4%" bgcolor="#feffed">Jenis</th>
+															  <th width="3%" bgcolor="#feffed">Penumpang</th>
+															  <th width="4%" bgcolor="#feffed">Pengantar / Penjemput</th>
+															  <th width="5%" bgcolor="#feffed">Jumlah</th>
+															  <th width="7%" bgcolor="#feffed">Metode</th>
+															  <th width="3%" bgcolor="#feffed">Status</th>
+														    </tr>
+														</thead>
+														<tbody>
+															<tr>
+															  <td align="center" valign="middle" style="text-align:right">1</td>
+															  <td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par&lt;hr&gt;Bendahara Pengeluaran" data-html="true"><img src="../assets/media/users/100_10.jpg" alt="image" /></a></td>
+															  <td align="center" valign="middle" style="text-align:left">I</td>
+															  <td align="center" valign="middle" style="text-align:left">Mobil</td>
+															  <td align="center" valign="middle" style="text-align:left">Masuk</td>
+															  <td align="center" valign="middle" style="text-align:left">1</td>
+															  <td nowrap="" style="text-align:center">05/05/2026<hr>06:00:00 WITA</td>
+																<td align="center" valign="middle" style="text-align:left">123123312323123</td>
+																<td>DD 1111 LU</td>
+																<td><div style="text-align:center"> I</div></td>
+																<td class="nilai">Mobil</td>
+																<td class="nilai">1</td>
+																<td class="nilai">1</td>
+																<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>2.000.000,-</span> </div></td>
+															  <td class="text-center"><span class="btn btn-label-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">Tunai</span></td>
+															  
+</td>
 
-                     
+															  <td class="text-center"><span class="btn btn-label-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">Lunas</span></td>
+</td>
+<td class="text-center">&nbsp;</td>
+															  <td style="text-align:center" nowrap><div class="kt-widget2__actions">
+																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="flaticon-more-1"></i>
+																</a>
+																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+																	<ul class="kt-nav">
+																	<li class="kt-nav__item">
+																			<a href="detail-transaksi-masuk.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Lihat Detail</span>
+																			</a>
+																		</li>
+																		
+																	</ul>
+																</div>
+															</div></td>
+															</tr>
+															
+															<tr>
+															  <td align="center" valign="middle" style="text-align:right">2</td>
+															  <td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par&lt;hr&gt;Bendahara Pengeluaran" data-html="true"><img src="../assets/media/users/100_10.jpg" alt="image" /></a></td>
+															  <td align="center" valign="middle" style="text-align:left">II</td>
+															  <td align="center" valign="middle" style="text-align:left">Mobil</td>
+															  <td align="center" valign="middle" style="text-align:left">Masuk</td>
+															  <td align="center" valign="middle" style="text-align:left">2</td>
+															  <td nowrap="" style="text-align:center">05/05/2026<hr>06:00:00 WITA</td>
+																<td align="center" valign="middle" style="text-align:left">123123312323123</td>
+																<td>DD 1 LU</td>
+																<td><div style="text-align:center"> I</div></td>
+																<td class="nilai">Mobil</td>
+																<td class="nilai">1</td>
+																<td class="nilai">1</td>
+															  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>2.000.000,-</span> </div></td>
+															  <td class="text-center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355135&lt;hr&gt;e-Wallet&lt;hr&gt;Gopay" data-html="true">Non Tunai</span></td>
+															  <td class="text-center"><span class="btn btn-label-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">Lunas</span></td>
+															  <td style="text-align:center" nowrap>&nbsp;</td>
+															  <td style="text-align:center" nowrap><div class="kt-widget2__actions">
+																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="flaticon-more-1"></i>
+																</a>
+																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+																	<ul class="kt-nav">
+																	<li class="kt-nav__item">
+																			<a href="detail-transaksi-masuk.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Lihat Detail</span>
+																			</a>
+																		</li>
+																		
+																	</ul>
+																</div>
+															</div></td>
+														  </tr>
+															
+														</tbody>
+													</table>
+
+					
+                    </div>
+
+                  </form>
+                  </div>
+                      </div>
+                      </div>
+                      </div>
 					<!--begin: Datatable -->
 					
                     <!--end: Datatable -->
 
-                    
+                    <!-- begin:: pageline -->
+					<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+					<div class="kt-pagination  kt-pagination--danger">
+						<select class="form-control kt-font-danger" style="width: 60px">
+								<option value="10">10</option>
+								<option value="20">20</option>
+								<option value="30">30</option>
+								<option value="50">50</option>
+								<option value="100">100</option>
+							</select>
+							<span class="pagination__desc">
+								Menampilkan 10 dari 230 Data
+							</span>
+							<div class="kt-pagination__toolbar">
+								<ul class="kt-pagination__links">
+								<li class="kt-pagination__link--first">
+									<a href="#"><i class="fa fa-angle-double-left kt-font-danger"></i></a>
+								</li>
+								<li class="kt-pagination__link--next">
+									<a href="#"><i class="fa fa-angle-left kt-font-danger"></i></a>
+								</li>
+								<li>
+									<a href="#">...</a>
+								</li>
+								<li>
+									<a href="#">29</a>
+								</li>
+								<li class="kt-pagination__link--active">
+									<a href="#">30</a>
+								</li>
+								<li>
+									<a href="#">31</a>
+								</li>
+								<li>
+									<a href="#">32</a>
+								</li>
+								<li>
+									<a href="#">33</a>
+								</li>
+								<li>
+									<a href="#">34</a>
+								</li>
+								<li>
+									<a href="#">...</a>
+								</li>
+								<li class="kt-pagination__link--prev">
+									<a href="#"><i class="fa fa-angle-right kt-font-danger"></i></a>
+								</li>
+								<li class="kt-pagination__link--last">
+									<a href="#"><i class="fa fa-angle-double-right kt-font-danger"></i></a>
+								</li>
+							</ul>
+							</div>
+						</div>
+                    <!-- end:: pageline -->
 <!--begin::Modal 1-->
 									<div class="modal fade" id="titik-parkir-tutup" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
@@ -825,6 +723,7 @@ function goBack() {
   </div>
   </div>
   </div>
+</div>
 
 									<!--end: Datatable -->
 								</div>
