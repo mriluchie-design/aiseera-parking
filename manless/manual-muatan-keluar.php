@@ -200,7 +200,7 @@ function goBack() {
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
                       <div class="col-lg-6">
-                          <label class="">Total Tagihan :</label>
+                          <label class="">Tarif Muatan Keluar :</label>
                           <div class="input-group input-group-sm">
 																  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
 																  <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000" aria-describedby="basic-addon1">
