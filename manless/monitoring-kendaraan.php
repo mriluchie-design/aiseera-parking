@@ -97,50 +97,8 @@
 
 											<!--end::New Feedbacks-->
 										</div>
-										<div class="col-md-12 col-lg-6 col-xl-2">
-
-											<!--begin::New Feedbacks-->
-											<div class="kt-widget24">
-												<div class="kt-widget24__details">
-													<div class="kt-widget24__info">
-														<h4 class="kt-widget24__title">
-															Kendaraan Masuk
-														</h4>
-														<span class="kt-widget24__desc">
-															Hari ini
-														</span>
-													</div>
-													<span class="kt-widget24__stats kt-font-brand">
-														318
-													</span>
-												</div>
-
-											</div>
-
-											<!--end::New Feedbacks-->
-										</div>
-										<div class="col-md-12 col-lg-6 col-xl-2">
-
-											<!--begin::New Feedbacks-->
-											<div class="kt-widget24">
-												<div class="kt-widget24__details">
-													<div class="kt-widget24__info">
-														<h4 class="kt-widget24__title">
-															Kendaraan Keluar
-														</h4>
-														<span class="kt-widget24__desc">
-															Hari ini
-														</span>
-													</div>
-													<span class="kt-widget24__stats kt-font-brand">
-														150
-													</span>
-												</div>
-
-											</div>
-
-											<!--end::New Feedbacks-->
-										</div>
+										
+										
 										
 										<div class="col-md-12 col-lg-6 col-xl-2">
 
