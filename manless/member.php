@@ -247,7 +247,7 @@
 											  <th width="1%" bgcolor="#f7fcff">WA</th>
 											  <th width="1%" bgcolor="#feffed">Gol</th>
 											  <th width="1%" bgcolor="#feffed">Type</th>
-											  <th width="4%" bgcolor="#feffed">No. Plat</th>
+											  <th width="2%" bgcolor="#feffed">No. Plat</th>
 											  <th width="4%" bgcolor="#feffed">Tanggal Registrasi</th>
 											  <th width="4%" bgcolor="#feffed">Aktif Hingga</th>
 											  <th width="3%" bgcolor="#feffed">Status</th>
