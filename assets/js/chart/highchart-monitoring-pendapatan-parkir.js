@@ -3,10 +3,10 @@
 // - https://www.statista.com/statistics/383679/fa-cup-wins-by-team/
 // - https://www.uefa.com/uefachampionsleague/history/winners/
 
-Highcharts.chart('container-pendapatan-member', {
+Highcharts.chart('container-pendapatan-parkir', {
     chart: {
         type: 'column',
-        marginTop: 50,
+        marginTop: 10,
         
     },
     title: {
@@ -37,7 +37,7 @@ Highcharts.chart('container-pendapatan-member', {
     },
     legend: {
         align: 'center',
-        x: 40,
+        x: 0,
         verticalAlign: 'top',
         y: 0,
         floating: true,
@@ -57,10 +57,8 @@ Highcharts.chart('container-pendapatan-member', {
         valueSuffix: ',-' // Tambahan opsional (contoh: ,-)
     },
     plotOptions: {
-        
         column: {
             stacking: 'normal',
-            valuePrefix: 'Rp. ',
             dataLabels: {
                 enabled: false
             }
@@ -68,22 +66,12 @@ Highcharts.chart('container-pendapatan-member', {
     },
     
     series: [{
-        name: 'Truck/Tronton/Trailer',
-        data: [1274400000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        name: 'Non Tunai',
+        data: [1500000000, 1000000000, 300000000, 300000000, 200000000, 150000000, 300000000, 186119460, 200000000, 181850540, 150000000, 200000000],
         
     }, {
-        name: 'Sedan/Jeep/Pick Up',
-        data: [309600000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        
-    },
-    {
-        name: 'Sepeda Motor',
-        data: [686000000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
-        
-    },
-    {
-        name: 'Pegawai/Instansi/Others',
-        data: [45640000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+        name: 'Tunai',
+        data: [73090473, 152720540, 55301419, 111151352, 103125743, 160832635, 104610945, 100000000, 197232568, 100000000, 24045271, 111107568]
     }]
 });
 

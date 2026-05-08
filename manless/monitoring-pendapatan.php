@@ -59,14 +59,14 @@
 												<div class="kt-widget24__details">
 													<div class="kt-widget24__info">
 														<h4 class="kt-widget24__title">
-															Tahun ini
+															Rekap Pendapatan
 														</h4>
 														<span class="kt-widget24__desc">
-															Total Pendapatan 
+															Tahun ini 
 														</span>
 													</div>
 													<span class="kt-widget24__stats kt-font-brand">
-														Rp. 6.061.188.514,-
+														Rp. 8.376.828.514,-
 													</span>
 												</div>
 
@@ -82,14 +82,14 @@
 												<div class="kt-widget24__details">
 													<div class="kt-widget24__info">
 														<h4 class="kt-widget24__title">
-															Bulan ini
+															Pendapatan Parkir
 														</h4>
 														<span class="kt-widget24__desc">
-															Total Pendapatan 
+															Tahun ini 
 														</span>
 													</div>
-													<span class="kt-widget24__stats kt-font-success">
-														Rp. 303.125.743,-
+													<span class="kt-widget24__stats kt-font-brand">
+														Rp. 6.061.188.514,-
 													</span>
 												</div>
 
@@ -104,14 +104,14 @@
 												<div class="kt-widget24__details">
 													<div class="kt-widget24__info">
 														<h4 class="kt-widget24__title">
-															Minggu ini
+															Pendapatan Member
 														</h4>
 														<span class="kt-widget24__desc">
-															 Total Pendapatan 
+															 Tahun ini
 														</span>
 													</div>
 													<span class="kt-widget24__stats kt-font-brand">
-														Rp. 75.750.000,-
+														Rp. 2.315.640.000,-
 													</span>
 												</div>
 
@@ -144,8 +144,10 @@
 										
 										
 									</div>
+									
 								</div>
 								</div>
+								
 								<div class="row">
 						<div class="col-lg-6">
 							<div class="kt-portlet kt-portlet--height-fluid">
@@ -187,7 +189,8 @@
 										</div>
 										<div class="kt-portlet__body"><br>
 											<figure class="highcharts-figure">
-													<div id="container" style="height:400px"></div>
+											<figure class="highcharts-figure">
+													<div id="container-pendapatan-parkir" style="height:400px"></div>
 											</figure>
 										</div>
 									</div>
@@ -197,7 +200,7 @@
 										<div class="kt-portlet__head">
 											<div class="kt-portlet__head-label">
 												<h3 class="kt-portlet__head-title">
-													Pendapatan Member / Pass Tahunan
+													Pendapatan Bulanan [ Member / Pass Tahunan ]
 												</h3>
 											</div>
 											<div class="kt-portlet__head-toolbar">
@@ -232,7 +235,7 @@
 										</div>
 										<div class="kt-portlet__body">
 											<figure class="highcharts-figure">
-										    <div id="container2" style="height:400px"></div>
+										    <div id="container-pendapatan-member" style="height:400px"></div>
 										</figure>
 										</div>
 									</div>
@@ -242,6 +245,104 @@
 						
 						
 					</div>
+					<div class="row">
+						<div class="col-lg-6">
+							<div class="kt-portlet kt-portlet--height-fluid">
+										<div class="kt-portlet__head">
+											<div class="kt-portlet__head-label">
+												<h3 class="kt-portlet__head-title">
+													Pendapatan Bulanan Berdasarkan Kategori
+												</h3>
+											</div>
+											<div class="kt-portlet__head-toolbar">
+												<a href="#" class="btn btn-label-brand btn-sm dropdown-toggle" data-toggle="dropdown">
+													2026
+												</a>
+												<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+													<ul class="kt-nav">
+														
+														
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">2025</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">2024</span>
+															</a>
+															
+														</li>
+														
+														
+														
+													</ul>
+												</div>
+												
+										</div>
+										</div>
+										<div class="kt-portlet__body"><br>
+											<figure class="highcharts-figure">
+											<figure class="highcharts-figure">
+													<div id="container-kategori" style="height:400px"></div>
+											</figure>
+										</div>
+									</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="kt-portlet kt-portlet--height-fluid">
+										<div class="kt-portlet__head">
+											<div class="kt-portlet__head-label">
+												<h3 class="kt-portlet__head-title">
+													Rekap Detail Pendapatan [ Member / Pass Tahunan ]
+												</h3>
+											</div>
+											<div class="kt-portlet__head-toolbar">
+												<a href="#" class="btn btn-label-brand btn-sm dropdown-toggle" data-toggle="dropdown">
+													2026
+												</a>
+												<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+													<ul class="kt-nav">
+														
+														
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">2025</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">2024</span>
+															</a>
+															
+														</li>
+														
+														
+														
+													</ul>
+												</div>&nbsp;
+												
+										</div>
+										</div>
+										<div class="kt-portlet__body">
+											<figure class="highcharts-figure">
+										    <div id="container-detail-pendapatan-member" style="height:400px"></div>
+										</figure>
+										</div>
+									</div>
+						</div>
+						
+						
+						
+						
+					</div>
+					
 					<div>&nbsp;</div>
 					<div>&nbsp;</div>
 					
@@ -250,6 +351,8 @@
 									
 									
 									</div>
+									
+									
 								</div>
 								</div>
 								
@@ -266,8 +369,10 @@
 						<script src="https://code.highcharts.com/modules/exporting.js"></script>
 						<script src="https://code.highcharts.com/modules/export-data.js"></script>
 						<script src="https://code.highcharts.com/modules/accessibility.js"></script>
-						<script src="../assets/js/chart/highchart.js" type="text/javascript"></script>
-						<script src="../assets/js/chart/highchart-kendaraan-masukvskeluar.js" type="text/javascript"></script>
+						<script src="../assets/js/chart/highchart-monitoring-pendapatan-parkir.js" type="text/javascript"></script>
+						<script src="../assets/js/chart/highchart-monitoring-pendapatan-member.js" type="text/javascript"></script>
+						<script src="../assets/js/chart/highchart-detail-pendapatan-member.js" type="text/javascript"></script>
+						<script src="../assets/js/chart/highchart-monitoring-pendapatan-kategori.js" type="text/javascript"></script>
 						<?php require '../layouts/foot.php' ?>
 						<?php require './layouts/script.php' ?>
 						<script>

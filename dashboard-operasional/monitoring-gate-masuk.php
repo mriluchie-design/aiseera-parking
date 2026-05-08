@@ -92,6 +92,13 @@
                                   <option value="2" selected>Keseluruhan</option>
                             </select>
                         </div>
+						<div class="col-lg-2">
+                            <label>Status :</label>
+                            <select class="form-control kt-selectpicker">
+                                  <option value="2">Online</option>
+                                  <option value="2" selected>Offline</option>
+                            </select>
+                        </div>
                         
                         
                         

@@ -63,13 +63,34 @@
                 <div class="kt-portlet__body">
                     <div class="form-group row">
                         <div class="col-lg-2">
-                            <label>Lokasi Parkir Gate :</label>
+                            <label>Gate :</label>
                             <select class="form-control kt-selectpicker">
-                                  <option value="2" selected>GATE ARWANA</option>
-                                  <option value="2">Semeru</option>
+                                  <option value="2" selected>Gate - 1</option>
+                                  <option value="2">Gate - 2</option>
+                                  <option value="2" selected>Keseluruhan</option>
                             </select>
                         </div>
-                        
+						<div class="col-lg-2">
+                            <label>Jalur :</label>
+                            <select class="form-control kt-selectpicker">
+                                  <option value="2" selected>Masuk - Mobil - 1</option>
+                                  <option value="2">Masuk - Mobil - 2</option>
+                                  <option value="2">Keluar - Mobil - 1</option>
+                                  <option value="2">Keluar - Mobil - 2</option>
+                                  <option value="2">Masuk - Motor - 1</option>
+                                  <option value="2">Masuk - Motor - 2</option>
+								  <option value="2">Keluar - Motor - 1</option>
+                                  <option value="2">Keluar - Motor - 2</option>
+                                  <option value="2" selected>Keseluruhan</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-2">
+                            <label>Status :</label>
+                            <select class="form-control kt-selectpicker">
+                                  <option value="2">Online</option>
+                                  <option value="2" selected>Offline</option>
+                            </select>
+                        </div>
                         
                         
                        
