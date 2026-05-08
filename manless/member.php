@@ -235,8 +235,7 @@
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">QR Code<br>Member</th>
 											  <th width="2%" rowspan="2" bgcolor="#f7fcff">Nomor Kartu</th>
 											  <th colspan="5" bgcolor="#f7fcff">Penanggung Jawab</th>
-											  <th colspan="6" bgcolor="#feffed">Kendaraan</th>
-											  <th width="4%" rowspan="2" bgcolor="#feffed">Pembayaran</th>
+											  <th colspan="5" bgcolor="#feffed">Kendaraan</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 											<tr style="text-align:center">
@@ -245,7 +244,6 @@
 											  <th width="1%" bgcolor="#f7fcff">Email</th>
 											  <th width="1%" bgcolor="#f7fcff">HP</th>
 											  <th width="1%" bgcolor="#f7fcff">WA</th>
-											  <th width="1%" bgcolor="#feffed">Gol</th>
 											  <th width="1%" bgcolor="#feffed">Type</th>
 											  <th width="2%" bgcolor="#feffed">No. Plat</th>
 											  <th width="4%" bgcolor="#feffed">Tanggal Registrasi</th>
@@ -257,19 +255,17 @@
 											<tr>
 												<td id="kt_table_1">1</td>
 												<td style="text-align:center" nowrap><img src="../assets/img/qrcode.jpg" width="30" height="30"></td>
-												<td nowrap="" style="text-align:center">12321355123123213</td>
+												<td nowrap="" style="text-align:center">12321355123123211</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000001MP1025" data-html="true"> <img src="../assets/media/users/100_1.jpg" alt="image" /> </a></td>
 												<td nowrap="nowrap" style="text-align:left">Muhammad Nasrullah</td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="dirut@ilugroup.co.id"><i class="flaticon2-send"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fa fa-phone-square"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fab fa-whatsapp"></i></button></td>
-												<td nowrap="nowrap" style="text-align:center">I</td>
-												<td nowrap="nowrap" style="text-align:center">Mobil</td>
-												<td nowrap="nowrap" style="text-align:center">DD 1111 LUU</td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026</td>
-												<td nowrap="nowrap" style="text-align:center">31 Desember 2026</td>
+												<td nowrap="nowrap" style="text-align:left">Pegawai/Instansi/Others</td>
+												<td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
+												<td nowrap="nowrap" style="text-align:left">1 September 2026</td>
+												<td nowrap="nowrap" style="text-align:left">31 Desember 2026</td>
 												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Aktif</button></td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Lunas</button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -326,19 +322,17 @@
 										  <tr>
 												<td id="kt_table_1">2</td>
 												<td style="text-align:center" nowrap><img src="../assets/img/qrcode.jpg" width="30" height="30"></td>
-												<td nowrap="" style="text-align:center">12321355123123213</td>
+												<td nowrap="" style="text-align:center">12321355123123212</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000002MP1025" data-html="true"> <img src="../assets/media/users/100_2.jpg" alt="image" /> </a></td>
 												<td nowrap="nowrap" style="text-align:left">Muhammad Nasrullah</td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="dirut@ilugroup.co.id"><i class="flaticon2-send"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fa fa-phone-square"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fab fa-whatsapp"></i></button></td>
-												<td nowrap="nowrap" style="text-align:center">-</td>
-												<td nowrap="nowrap" style="text-align:center">Motor</td>
-												<td nowrap="nowrap" style="text-align:center">DD 1111 LLU</td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026</td>
-												<td nowrap="nowrap" style="text-align:center">31 Desember 2026</td>
+												<td nowrap="nowrap" style="text-align:left">Sepeda Motor</td>
+												<td nowrap="nowrap" style="text-align:left">DD 1111 LLU</td>
+												<td nowrap="nowrap" style="text-align:left">1 September 2026</td>
+												<td nowrap="nowrap" style="text-align:left">31 Desember 2026</td>
 												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Aktif</button></td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Lunas</button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -402,13 +396,11 @@
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="dirut@ilugroup.co.id"><i class="flaticon2-send"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fa fa-phone-square"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fab fa-whatsapp"></i></button></td>
-												<td nowrap="nowrap" style="text-align:center">II</td>
-												<td nowrap="nowrap" style="text-align:center">Mobil</td>
-												<td nowrap="nowrap" style="text-align:center">DD 1111 LII</td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026</td>
-												<td nowrap="nowrap" style="text-align:center">31 Desember 2026</td>
+												<td nowrap="nowrap" style="text-align:left">Sedan/Jeep/Pick Up</td>
+												<td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
+												<td nowrap="nowrap" style="text-align:left">1 September 2026</td>
+												<td nowrap="nowrap" style="text-align:left">31 Desember 2026</td>
 												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Expired</button></td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Belum Bayar</button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -462,7 +454,35 @@
 																</div>
 															</div></td>
 										  </tr>
-									    </tbody>
+<tr>
+  <td id="kt_table_4">4</td>
+  <td style="text-align:center" nowrap="nowrap"><img src="../assets/img/qrcode.jpg" alt="" width="30" height="30" /></td>
+  <td nowrap="nowrap" style="text-align:center">12321355123123214</td>
+  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000003MP1025" data-html="true"> <img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+  <td nowrap="nowrap" style="text-align:left">Muhammad Nasrullah</td>
+  <td style="text-align:center" nowrap="nowrap"><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="dirut@ilugroup.co.id"><i class="flaticon2-send"></i></button></td>
+  <td style="text-align:center" nowrap="nowrap"><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fa fa-phone-square"></i></button></td>
+  <td style="text-align:center" nowrap="nowrap"><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fab fa-whatsapp"></i></button></td>
+  <td nowrap="nowrap" style="text-align:left">Truck/Tronton/Trailer</td>
+  <td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
+  <td nowrap="nowrap" style="text-align:left">1 September 2026</td>
+  <td nowrap="nowrap" style="text-align:left">31 Desember 2026</td>
+  <td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Expired</button></td>
+  <td style="text-align:center" nowrap="nowrap"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+    <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+      <ul class="kt-nav">
+        <li class="kt-nav__item"> <a href="member-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Profil Member</span> </a> </li>
+        <li class="kt-nav__item"> <a href="ubah-member.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Ubah Data Member</span> </a> </li>
+        <li class="kt-nav__item"> <a href="cetak-member-card.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-address-card"></i> <span class="kt-nav__link-text">Cetak Kartu Member</span> </a> </li>
+        <li class="kt-nav__item"> <a href="history-member.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat History</span> </a> </li>
+        <li class="kt-nav__item"> <a href="member-suspend.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-slash"></i> <span class="kt-nav__link-text">Suspend</span> </li>
+        </a>
+        <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+        </ul>
+      </div>
+  </div></td>
+</tr>
+</tbody>
 									</table>
                     <!--end: Datatable -->
 

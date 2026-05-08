@@ -120,8 +120,7 @@
 										<ul class="kt-menu__subnav">
 											<li class="kt-menu__item  kt-menu__item--parent" aria-haspopup="true"><span class="kt-menu__link"><span class="kt-menu__link-text">Membership</span></span></li>
 
-											<li class="kt-menu__item" aria-haspopup="true"><a href="member.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Member Pribadi</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="member-perusahaan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Member Perusahaan</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="member.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Data Member</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="member-expired.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Member Expired</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="member-suspend.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Member Suspend</span></a></li>
 											
