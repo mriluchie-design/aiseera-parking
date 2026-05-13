@@ -61,8 +61,8 @@
 										<ul class="kt-menu__subnav">
 											<li class="kt-menu__item  kt-menu__item--parent" aria-haspopup="true"><span class="kt-menu__link"><span class="kt-menu__link-text">Manajemen Absensi</span></span></li>
 
-											<li class="kt-menu__item" aria-haspopup="true"><a href="monitoring-gate-masuk.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Gate Masuk</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="monitoring-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Gate Keluar</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="monitoring-gate-masuk.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Perangkat Gate Masuk</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="monitoring-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Perangkat Gate Keluar</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="monitoring-pendapatan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pendapatan</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="monitoring-kendaraan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="monitoring-bantuan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Permintaan Bantuan</span></a></li>

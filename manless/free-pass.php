@@ -127,7 +127,12 @@ function goBack() {
 						<div class="form-group row">
 					  
 						
-					  
+					  <div class="col-lg-4" >
+                          <label style="color:#a2050c">Kategori Free Pass :</label>
+                          <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="2" selected="">Tamu</option>
+                                  </select>
+                        </div>
 						<div class="col-lg-1" >
                           <label style="color:#a2050c">Gol :</label>
                           <select class="form-control kt-selectpicker" data-live-search="true">
@@ -151,15 +156,19 @@ function goBack() {
                           <label style="color:#a2050c">Plat Kendaraan :</label>
                           <input type="text" class="form-control form-control-sm" placeholder="">
                         </div>
-						<div class="col-lg-4">
-                          <label style="color:#a2050c">Keterangan Free Pass :</label>
-                          <input type="text" class="form-control form-control-sm" placeholder="">
-                        </div>
+						
                         </div>
 						
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
+					  
 						
+					  
+						
+						<div class="col-lg-8">
+                          <label style="color:#a2050c">Keterangan Free Pass :</label>
+                          <input type="text" class="form-control form-control-sm" placeholder="">
+                        </div>
                         </div>
 						
 						
@@ -174,7 +183,7 @@ function goBack() {
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Gate</div><br><br>
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Petugas</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
 					  
