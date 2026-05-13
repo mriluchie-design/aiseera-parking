@@ -92,7 +92,7 @@
     </g>
 	
 </svg> </span>
-																<span class="kt-grid-nav__title">Vallet System</span>
+																<span class="kt-grid-nav__title">Valet System</span>
 															</a>
 															
 															
