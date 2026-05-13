@@ -130,8 +130,11 @@ function goBack() {
 					  <div class="col-lg-4" >
                           <label style="color:#a2050c">Kategori Free Pass :</label>
                           <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2" selected="">Tamu</option>
-                                  </select>
+														<option data-content="<span class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</span>" class="select-option-add" value="add"></option>
+														<option selected>Tamu</option>
+														
+														
+													</select>
                         </div>
 						<div class="col-lg-1" >
                           <label style="color:#a2050c">Gol :</label>

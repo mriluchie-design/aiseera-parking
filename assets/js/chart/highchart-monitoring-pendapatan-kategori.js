@@ -6,7 +6,7 @@
 Highcharts.chart('container-kategori', {
     chart: {
         type: 'column',
-        marginTop: 50,
+        marginTop: 70,
         
     },
     title: {
@@ -79,8 +79,13 @@ Highcharts.chart('container-kategori', {
         data: [309600000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
         
     },
+	{
+        name: 'Kendaraan Berangkat',
+        data: [686000000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        
+    },
     {
-        name: 'Muatan Keluar',
+        name: 'Muatan Kapal',
         data: [686000000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
         
     },

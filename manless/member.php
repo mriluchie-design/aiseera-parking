@@ -117,6 +117,18 @@
     		                    </div>
     		                    </div>
 								<div class="col-lg-2">
+                                <label>Kategori :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Pegawai/Instansi/Others</option>
+                                      <option value="2">Sepeda Motor</option>
+                                      <option value="2">Sedan/Jeep/Pick Up</option>
+                                      <option value="2">Truck/Tronton/Trailer</option>
+                                      <option value="2">Orang</option>
+                                                                           
+                                  </select>
+    		                    </div>
+								<div class="col-lg-2">
                                 <label class="">Tanggal Registrasi :</label>
                                 <div class="input-group">
 						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="-- Pilih Tanggal --">
@@ -244,7 +256,7 @@
 											  <th width="1%" bgcolor="#f7fcff">Email</th>
 											  <th width="1%" bgcolor="#f7fcff">HP</th>
 											  <th width="1%" bgcolor="#f7fcff">WA</th>
-											  <th width="1%" bgcolor="#feffed">Type</th>
+											  <th width="1%" bgcolor="#feffed">Kategori</th>
 											  <th width="2%" bgcolor="#feffed">No. Plat</th>
 											  <th width="4%" bgcolor="#feffed">Tanggal Registrasi</th>
 											  <th width="4%" bgcolor="#feffed">Aktif Hingga</th>

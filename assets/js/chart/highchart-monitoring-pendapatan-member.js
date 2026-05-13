@@ -6,7 +6,7 @@
 Highcharts.chart('container-pendapatan-member', {
     chart: {
         type: 'column',
-        marginTop: 50,
+        marginTop: 70,
         
     },
     title: {

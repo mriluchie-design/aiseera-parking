@@ -6,7 +6,7 @@
 Highcharts.chart('container-pendapatan-parkir', {
     chart: {
         type: 'column',
-        marginTop: 10,
+        marginTop: 70,
         
     },
     title: {
