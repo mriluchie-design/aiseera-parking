@@ -84,6 +84,7 @@
 
 											<li class="kt-menu__item" aria-haspopup="true"><a href="manual-kendaraan-masuk.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Masuk</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="manual-kendaraan-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Keluar</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="manual-kendaraan-berangkat.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Berangkat</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="manual-muatan-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Muatan Keluar</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="manual-karcis-hilang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Karcis Hilang</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="free-pass.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Free Pass</span></a></li>
@@ -192,9 +193,20 @@
 										<ul class="kt-menu__subnav">
 											<li class="kt-menu__item  kt-menu__item--parent" aria-haspopup="true"><span class="kt-menu__link"><span class="kt-menu__link-text">Master Data</span></span></li>
 
+											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-tarif-kendaraan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Jenis Kendaraan</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-tarif-kendaraan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Golongan Kendaraan</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-tarif-kendaraan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Tarif Kendaraan</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-tarif-member.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kategori Member</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-tarif-member.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Tarif Member</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-instansi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Instansi</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-instansi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Jenis Kelamin</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-instansi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Agama</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-instansi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Status Pernikahan</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-instansi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Provinsi</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-instansi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kab / Kota</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-instansi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kecamatan</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-instansi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kelurahan</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-instansi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Satuan Volume</span></a></li>
 											
 										</ul>
 									</div>

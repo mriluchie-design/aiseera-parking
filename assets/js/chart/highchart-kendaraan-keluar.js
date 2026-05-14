@@ -22,7 +22,7 @@ Highcharts.chart('container-kendaraan-keluar', {
     },
     yAxis: {
         title: {
-            text: 'Total Kendaraan Masuk',
+            text: 'Total Kendaraan Keluar',
             allowDecimals: false
         }
 
@@ -62,12 +62,17 @@ Highcharts.chart('container-kendaraan-keluar', {
                     drilldown: 'Safari'
                 },
                 {
-                    name: 'Member',
+                    name: 'Member - Mobil',
+                    y: 18,
+                    drilldown: 'Firefox'
+                },
+				{
+                    name: 'Member - Motor',
                     y: 18,
                     drilldown: 'Firefox'
                 },
                 {
-                    name: 'Muatan',
+                    name: 'Muatan Kapal',
                     y: 18,
                     drilldown: 'Firefox'
                 },

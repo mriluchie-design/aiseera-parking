@@ -62,8 +62,23 @@ Highcharts.chart('container-kendaraan-masuk', {
                     drilldown: 'Safari'
                 },
                 {
-                    name: 'Member',
-                    y: 18,
+                    name: 'Member - Mobil',
+                    y: 150,
+                    drilldown: 'Firefox'
+                },
+				{
+                    name: 'Member  - Motor',
+                    y: 280,
+                    drilldown: 'Firefox'
+                },
+				{
+                    name: 'Mobil - Berangkat',
+                    y: 1380,
+                    drilldown: 'Firefox'
+                },
+				{
+                    name: 'Motor - Berangkat',
+                    y: 250,
                     drilldown: 'Firefox'
                 },
                 

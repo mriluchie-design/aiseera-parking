@@ -174,7 +174,7 @@
 										</div>
 									</div>
 						</div>
-						<div class="col-lg-3">
+						<div class="col-lg-6">
 							<div class="kt-portlet kt-portlet--height-fluid">
 										<div class="kt-portlet__head">
 											<div class="kt-portlet__head-label">
@@ -219,7 +219,7 @@
 										</div>
 									</div>
 						</div>
-						<div class="col-lg-3">
+						<div class="col-lg-6">
 							<div class="kt-portlet kt-portlet--height-fluid">
 										<div class="kt-portlet__head">
 											<div class="kt-portlet__head-label">

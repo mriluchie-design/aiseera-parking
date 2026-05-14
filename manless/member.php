@@ -96,8 +96,9 @@
     		                        </span>
     		                    </div>
     		                    </div>
+								
 								<div class="col-lg-2">
-                                <label>Nama Lengkap :</label>
+                                <label>No. Plat Kendaraan :</label>
 								
                                 <div class="kt-input-icon kt-input-icon--right">
         							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
@@ -106,16 +107,7 @@
     		                        </span>
     		                    </div>
     		                    </div>
-								<div class="col-lg-2">
-                                <label>No. Hp :</label>
 								
-                                <div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
-        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
-    		                            <span><i class="la la-search"></i></span>
-    		                        </span>
-    		                    </div>
-    		                    </div>
 								<div class="col-lg-2">
                                 <label>Kategori :</label>
 								
@@ -137,22 +129,44 @@
 						                        </div>
 						                      </div>
                             </div>
-                            
-							
-                            
-							
-							
-							
 							<div class="col-lg-1">
-                                <label>Jenis Member :</label>
+                                <label>Status Member :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Silver</option>
-                                      <option value="2">Gold</option>
-                                      <option value="2">Platinum</option>
+                                      <option value="1" selected="">Aktif</option>
+                                      <option value="2">Expired</option>
                                                                            
                                   </select>
                             </div>
+                            </div>
+                            
+							
+                            
+							
+							
+							<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-2">
+                                <label>Nama Penanggung Jawab :</label>
+								
+                                <div class="kt-input-icon kt-input-icon--right">
+        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
+        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
+    		                            <span><i class="la la-search"></i></span>
+    		                        </span>
+    		                    </div>
+    		                    </div>
+								<div class="col-lg-2">
+                                <label>No. HP :</label>
+								
+                                <div class="kt-input-icon kt-input-icon--right">
+        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
+        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
+    		                            <span><i class="la la-search"></i></span>
+    		                        </span>
+    		                    </div>
+    		                    </div>
+							
 							
 							
                             </div>

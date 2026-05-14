@@ -196,9 +196,12 @@ function goBack() {
                         </div>
 						<div class="col-lg-3">
                           <label><span style="color:#ff0000">*</span> Jenis Kelamin :</label>
-                         <select class="form-control kt-selectpicker" data-live-search="true">
+                         
+						 <select class="form-control kt-selectpicker" data-live-search="true">
+						
 														<option>Pria</option>
 														<option>Wanita</option>
+														 <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 														
 													</select>
                         </div>
