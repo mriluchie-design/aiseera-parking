@@ -213,6 +213,7 @@ function goBack() {
 														<option>Menikah</option>
 														<option>Janda</option>
 														<option>Duda</option>
+														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 														</select>
                         </div>
 						<div class="col-lg-3">
@@ -224,6 +225,7 @@ function goBack() {
 														<option>Hindu</option>
 														<option>Budha</option>
 														<option>Konghucu</option>
+														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 														</select>
                         </div>
                         </div>
@@ -362,6 +364,7 @@ function goBack() {
                                       <option value="13">Ujung Pandang</option>
                                       <option value="14">Ujung Tanah</option>
                                       <option value="15">Wajo</option>
+									  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
                                   </select>
                             </div>
 							<div class="col-lg-6">
@@ -369,6 +372,7 @@ function goBack() {
                         <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected="">Makassar</option>
                                       <option value="2">Maros</option>
+									  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
                                      
                                   </select>
                       </div>
@@ -398,6 +402,7 @@ function goBack() {
                                       <option value="13">Ujung Pandang</option>
                                       <option value="14">Ujung Tanah</option>
                                       <option value="15">Wajo</option>
+									  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
                                   </select>
                             </div>
 						<div class="col-lg-6">
@@ -416,6 +421,7 @@ function goBack() {
                                       <option value="9">Sudiang</option>
                                       <option value="10">Sudiang Raya</option>
                                       <option value="11">Untia</option>
+									  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
                                      
                                   </select>
                             </div>
@@ -566,6 +572,7 @@ function goBack() {
       <option value="AK">Sepeda Motor</option>
       <option value="AK">Sedan/Jeep/Pick Up</option>
       <option value="AK">Truck/Tronton/Trailer</option>
+	  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
     </select></td>
     <td bgcolor="#feffed"><select class="form-control kt-selectpicker" data-live-search="true">
       <option value="AK">1</option>
@@ -693,6 +700,7 @@ function goBack() {
       <option value="AK">Sepeda Motor</option>
       <option value="AK">Sedan/Jeep/Pick Up</option>
       <option value="AK">Truck/Tronton/Trailer</option>
+	  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
     </select></td>
     <td bgcolor="#feffed"><select class="form-control kt-selectpicker" data-live-search="true">
       <option value="AK">1</option>
