@@ -10393,8 +10393,8 @@ input.btn.btn-label-info {
     color: #ffffff; }
 
 .btn.btn-label-warning {
-  background-color: rgba(255, 184, 34, 0.1);
-  color: #ffb822;
+  background-color: #f9d5b7;
+  color: #c66618;
   cursor: text !important; }
 
 .btn.btn-label-warning-o2 {
@@ -30071,6 +30071,7 @@ font-weight:400;
       color: #2B3990;
       display: none;
       display: -ms-flexbox;
+	  text-transform:uppercase;
       display: flex;
       -webkit-box-align: center;
       -ms-flex-align: center;

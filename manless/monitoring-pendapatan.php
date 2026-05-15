@@ -2,30 +2,57 @@
 <link href="../assets/css/pages/wizard/wizard-3.css" rel="stylesheet" type="text/css" />
 <?php require './layouts/header.php' ?>
 
-<div class="kt-subheader  kt-grid__item" id="kt_subheader">
-							<div class="kt-container  kt-container--fluid ">
-								<div class="kt-subheader__main">
-									<h3 class="kt-subheader__title">
-										<span class="kt-portlet__head-icon">
-											<i class="kt-font-brand flaticon2-list-1"></i>
-										</span>
-										&nbsp;
-										&nbsp;
-											Dashboard
-
-									</h3>
-								<span class="kt-subheader__separator kt-subheader__separator--v"></span>
-									<div class="kt-subheader__group" id="kt_subheader_search">
-										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Monitoring Pendapatan </span>
-										<form class="kt-margin-l-20" id="kt_subheader_search_form">
-
-										</form>
-									</div>
-
-								</div>
-							</div>
-						</div>
+<div class="kt-subheader   kt-grid__item" id="kt_subheader">
+        <div class="kt-container  kt-container--fluid ">
+            <div class="kt-subheader__main">
+                <h3 class="kt-subheader__title">
+                    <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
+                   Dashboard
+                </h3>
+            <span class="kt-subheader__separator kt-subheader__separator--v"></span>
+			<div class="kt-subheader__group" id="kt_subheader_search">
+				<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
+					Monitoring Pendapatan </span>
+				<form class="kt-margin-l-20" id="kt_subheader_search_form">
+				</form>
+			</div>
+		</div>
+            <div class="kt-subheader__toolbar">
+                <div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
+			</div>
+				
+                <a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
+                    <i class="flaticon2-printer"></i> Export Data</button>
+                    <!--<i class="flaticon2-plus"></i>-->
+                </a>
+                <div class="dropdown-menu dropdown-menu-fit dropdown-menu-md dropdown-menu-right">
+                    <!--begin::Nav-->
+                    <ul class="kt-nav">
+                        <li class="kt-nav__item">
+                            <a href="#" class="kt-nav__link">
+                                <i class="kt-nav__link-icon fa fa-file-pdf"></i><span class="kt-nav__link-text">PDF</span>
+                            </a>
+                          </li>
+                        <li class="kt-nav__item">
+                            <a href="#" class="kt-nav__link">
+                                <i class="kt-nav__link-icon fa fa-file-excel"></i><span class="kt-nav__link-text">Excel</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!--end::Nav-->
+                </div>
+				
+              
+            </div>
+			
+        </div>
+        </div>
 						
 
             <div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
