@@ -37,7 +37,15 @@
 
             </div>
             <div class="kt-subheader__toolbar">
-                <button type="button" class="btn btn-label-danger btn-sm" id = "buttonLogin" onclick = "displayLoginBox()"><i class="flaticon-interface-6"></i> Filter Data</button>
+                <div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
+			</div>
+				<button type="button" class="btn btn-label-danger btn-sm" id = "buttonLogin" onclick = "displayLoginBox()"><i class="flaticon-interface-6"></i> Filter Data</button>
                 <a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
                     <i class="flaticon2-printer"></i> Export Data</button>
                     <!--<i class="flaticon2-plus"></i>-->
@@ -92,8 +100,38 @@
 				<form class="kt-form">
 					<div class="kt-portlet__body">
                         <div class="form-group row">
+						<div class="col-lg-1">
+                                <label>Lokasi :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Makassar</option>
+                                      <option value="2">Pare-Pare</option>
+                                      <option value="2">Balikpapan</option>
+                                      <option value="2">Samarinda</option>
+                                      <option value="2">Tarakan</option>
+                                      <option value="2">Nunukan</option>
+                                      <option value="2">Manado</option>
+                                      <option value="2">Bitung</option>
+                                      <option value="2">Ambon - Yos Sudarso</option>
+                                      <option value="2">Ambon - Slamet Riyadi</option>
+                                      <option value="2">Ternate</option>
+                                      <option value="2">Sorong</option>
+                                      <option value="2">Keseluruhan</option>
+                                                                           
+                                  </select>
+    		                    </div>
                             <div class="col-lg-2">
-                                <label>ID Member :</label>
+                                <label>Karcis / e-Money / ID Member :</label>
+								
+                                <div class="kt-input-icon kt-input-icon--right">
+        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
+        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
+    		                            <span><i class="la la-search"></i></span>
+    		                        </span>
+    		                    </div>
+    		                    </div>
+								<div class="col-lg-1">
+                                <label>No. Plat :</label>
 								
                                 <div class="kt-input-icon kt-input-icon--right">
         							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
@@ -103,16 +141,7 @@
     		                    </div>
     		                    </div>
 								
-								<div class="col-lg-2">
-                                <label>No. Plat Kendaraan :</label>
 								
-                                <div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
-        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
-    		                            <span><i class="la la-search"></i></span>
-    		                        </span>
-    		                    </div>
-    		                    </div>
 								
 								<div class="col-lg-2">
                                 <label>Kategori :</label>
@@ -123,11 +152,12 @@
                                       <option value="2">Sedan/Jeep/Pick Up</option>
                                       <option value="2">Truck/Tronton/Trailer</option>
                                       <option value="2">Orang</option>
+									  <option value="2">Keseluruhan</option>
                                                                            
                                   </select>
     		                    </div>
 								<div class="col-lg-2">
-                                <label class="">Tanggal Registrasi :</label>
+                                <label class="">Tanggal Masuk :</label>
                                 <div class="input-group">
 						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="-- Pilih Tanggal --">
 						                        <div class="input-group-append">
@@ -136,11 +166,33 @@
 						                      </div>
                             </div>
 							<div class="col-lg-1">
-                                <label>Status Member :</label>
+                                <label>Gate :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Aktif</option>
-                                      <option value="2">Expired</option>
+                                      <option value="1" selected="">1</option>
+                                      <option value="2">2</option>
+									  <option value="2">Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
+							<div class="col-lg-2">
+                                <label>Jalur :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected>Keluar - Mobil 1</option>
+                                      <option value="1">Keluar - Mobil 2</option>
+                                      <option value="1">Keluar - Motor 1</option>
+                                      <option value="1">Keluar - Motor 2</option>
+									  <option value="2">Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
+							<div class="col-lg-1">
+                                <label>Pembayaran :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Tunai</option>
+                                      <option value="2" selected>Non Tunai</option>
                                                                            
                                   </select>
                             </div>
@@ -150,32 +202,6 @@
                             
 							
 							
-							<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-						<div class="col-lg-2">
-                                <label>Nama Penanggung Jawab :</label>
-								
-                                <div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
-        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
-    		                            <span><i class="la la-search"></i></span>
-    		                        </span>
-    		                    </div>
-    		                    </div>
-								<div class="col-lg-2">
-                                <label>No. HP :</label>
-								
-                                <div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
-        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
-    		                            <span><i class="la la-search"></i></span>
-    		                        </span>
-    		                    </div>
-    		                    </div>
-							
-							
-							
-                            </div>
 							
 							<br>
 							
@@ -197,41 +223,58 @@
 			<div class="kt-portlet">
 				<div class="kt-portlet__body  kt-portlet__body--fit">
 					<div class="row row-no-padding row-col-separator-lg">
-						<div class="col-md-12 col-lg-6 col-xl-3">
+						<div class="col-md-12 col-lg-6 col-xl-2">
 							<div class="kt-widget24">
 								<div class="kt-widget24__details">
 									<div class="kt-widget24__info">
 										<h4 class="kt-widget24__title">
-											Total
+											Total Keseluruhan
 										</h4>
 										<span class="kt-widget24__desc">
-											Member Parkir
+											Kendaraan Keluar
 										</span>
 									</div>
-									<span class="kt-widget24__stats kt-font-brand">
+									<span class="kt-widget24__stats kt-font-success">
 										40
 									</span>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-12 col-lg-6 col-xl-3">
+						<div class="col-md-12 col-lg-6 col-xl-2">
 							<div class="kt-widget24">
 								<div class="kt-widget24__details">
 									<div class="kt-widget24__info">
 										<h4 class="kt-widget24__title">
-											Member Motor
+											Mobil 
 										</h4>
 										<span class="kt-widget24__desc">
-											Statistik Member Motor
+											Keluar Hari ini
 										</span>
 									</div>
-									<span class="kt-widget24__stats kt-font-success">
+									<span class="kt-widget24__stats kt-font-brand">
 										30
 									</span>
 								</div>
 							</div>
 						</div>
-						<div class="col-md-12 col-lg-6 col-xl-3">
+						<div class="col-md-12 col-lg-6 col-xl-2">
+							<div class="kt-widget24">
+								<div class="kt-widget24__details">
+									<div class="kt-widget24__info">
+										<h4 class="kt-widget24__title">
+											Motor 
+										</h4>
+										<span class="kt-widget24__desc">
+											Keluar Hari ini
+										</span>
+									</div>
+									<span class="kt-widget24__stats kt-font-brand">
+										30
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12 col-lg-6 col-xl-2">
 							<div class="kt-widget24">
 								<div class="kt-widget24__details">
 									<div class="kt-widget24__info">
@@ -239,18 +282,48 @@
 											Member Mobil
 										</h4>
 										<span class="kt-widget24__desc">
-											Statistik Member Mobil
+											Keluar Hari ini
+										</span>
+									</div>
+									<span class="kt-widget24__stats kt-font-brand">
+										30
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12 col-lg-6 col-xl-2">
+							<div class="kt-widget24">
+								<div class="kt-widget24__details">
+									<div class="kt-widget24__info">
+										<h4 class="kt-widget24__title">
+											Member Motor
+										</h4>
+										<span class="kt-widget24__desc">
+											Keluar Hari ini
+										</span>
+									</div>
+									<span class="kt-widget24__stats kt-font-brand">
+										30
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12 col-lg-6 col-xl-2">
+							<div class="kt-widget24">
+								<div class="kt-widget24__details">
+									<div class="kt-widget24__info">
+										<h4 class="kt-widget24__title">
+											Kendaraan Parkir
+										</h4>
+										<span class="kt-widget24__desc">
+											Saat ini
 										</span>
 									</div>
 									<span class="kt-widget24__stats kt-font-danger">
-										10
+										30
 									</span>
 								</div>
-
 							</div>
-						</div>
-						<div class="col-md-12 col-lg-6 col-xl-3">
-							
 						</div>
 					</div>
 				</div>
