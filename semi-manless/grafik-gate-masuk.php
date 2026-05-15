@@ -2,23 +2,30 @@
 <link href="../assets/css/pages/wizard/wizard-3.css" rel="stylesheet" type="text/css" />
 <?php require './layouts/header.php' ?>
 
-<div class="kt-subheader   kt-grid__item" id="kt_subheader">
-        <div class="kt-container  kt-container--fluid ">
+<div class="kt-subheader  kt-grid__item" id="kt_subheader">
+							<div class="kt-container  kt-container--fluid ">
             <div class="kt-subheader__main">
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                   Dashboard
+                   Grafik
                 </h3>
             <span class="kt-subheader__separator kt-subheader__separator--v"></span>
 			<div class="kt-subheader__group" id="kt_subheader_search">
 				<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-					Monitoring Kendaraan </span>
+					Gate Masuk </span>
 				<form class="kt-margin-l-20" id="kt_subheader_search_form">
 				</form>
 			</div>
 		</div>
             <div class="kt-subheader__toolbar">
-                
+                <div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
+			</div>
 				
                 <a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
                     <i class="flaticon2-printer"></i> Export Data</button>
@@ -40,19 +47,12 @@
                     </ul>
                     <!--end::Nav-->
                 </div>
-				<div class="btn-group">
-				<button type="button" class="btn btn-label-google btn-sm">
-					<i class="fa fa-book-reader"></i>
-					<span class="kt-hidden-mobile">Bantuan</span>
-				</button>
 				
-				
-			</div>
               
             </div>
-			
-        </div>
-        </div>
+							
+						</div>
+						</div>
 						
 
             <div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
@@ -79,7 +79,7 @@
 								<div class="kt-portlet__body  kt-portlet__body--fit">
 								
 									<div class="row row-no-padding row-col-separator-lg">
-										<div class="col-md-12 col-lg-6 col-xl-2">
+										<div class="col-md-12 col-lg-6 col-xl-3">
 
 											<!--begin::Total Profit-->
 											<div class="kt-widget24">
@@ -102,32 +102,11 @@
 											<!--end::Total Profit-->
 										</div>
 										
-										<div class="col-md-12 col-lg-6 col-xl-2">
-
-											<!--begin::New Feedbacks-->
-											<div class="kt-widget24">
-												<div class="kt-widget24__details">
-													<div class="kt-widget24__info">
-														<h4 class="kt-widget24__title">
-															Total
-														</h4>
-														<span class="kt-widget24__desc">
-															Kendaraan Keluar
-														</span>
-													</div>
-													<span class="kt-widget24__stats kt-font-success">
-														51.318
-													</span>
-												</div>
-
-											</div>
-
-											<!--end::New Feedbacks-->
-										</div>
 										
 										
 										
-										<div class="col-md-12 col-lg-6 col-xl-2">
+										
+										<div class="col-md-12 col-lg-6 col-xl-3">
 
 											<!--begin::New Feedbacks-->
 											<div class="kt-widget24">
@@ -141,7 +120,7 @@
 														</span>
 													</div>
 													<span class="kt-widget24__stats kt-font-danger">
-														730
+														168
 													</span>
 												</div>
 
@@ -246,96 +225,7 @@
 										</div>
 									</div>
 						</div>
-						<div class="col-lg-6">
-							<div class="kt-portlet kt-portlet--height-fluid">
-										<div class="kt-portlet__head">
-											<div class="kt-portlet__head-label">
-												<h3 class="kt-portlet__head-title">
-													Kendaraan Keluar
-												</h3>
-											</div>
-											<div class="kt-portlet__head-toolbar">
-												<a href="#" class="btn btn-label-brand btn-sm dropdown-toggle" data-toggle="dropdown">
-													Hari ini
-												</a>
-												<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-													<ul class="kt-nav">
-														
-														
-														<li class="kt-nav__item">
-															<a href="#" class="kt-nav__link">
-																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
-																<span class="kt-nav__link-text">Minggu ini</span>
-															</a>
-															
-														</li>
-														<li class="kt-nav__item">
-															<a href="#" class="kt-nav__link">
-																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
-																<span class="kt-nav__link-text">Bulan ini</span>
-															</a>
-															
-														</li>
-														
-														
-														
-													</ul>
-												</div>&nbsp;
-												
-										</div>
-										</div>
-										<div class="kt-portlet__body">
-											<figure class="highcharts-figure">
-										    <div id="container-kendaraan-keluar" style="height:300"></div>
-										</figure>
-										</div>
-									</div>
-						</div>
-						<div class="col-lg-6">
-							<div class="kt-portlet kt-portlet--height-fluid">
-										<div class="kt-portlet__head">
-											<div class="kt-portlet__head-label">
-												<h3 class="kt-portlet__head-title">
-													Kendaraan Parkir
-												</h3>
-											</div>
-											<div class="kt-portlet__head-toolbar">
-												<a href="#" class="btn btn-label-brand btn-sm dropdown-toggle" data-toggle="dropdown">
-													Hari ini
-												</a>
-												<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-													<ul class="kt-nav">
-														
-														
-														<li class="kt-nav__item">
-															<a href="#" class="kt-nav__link">
-																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
-																<span class="kt-nav__link-text">Minggu ini</span>
-															</a>
-															
-														</li>
-														<li class="kt-nav__item">
-															<a href="#" class="kt-nav__link">
-																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
-																<span class="kt-nav__link-text">Bulan ini</span>
-															</a>
-															
-														</li>
-														
-														
-														
-													</ul>
-												</div>&nbsp;
-												
-										</div>
-										</div>
-										<div class="kt-portlet__body">
-											<figure class="highcharts-figure">
-										    <div id="container-kendaraan-parkir" style="height:300"></div>
-										</figure>
-										</div>
-									</div>
-						</div>
+						
 						
 						
 					
@@ -365,7 +255,6 @@
 						<script src="../assets/js/chart/highchart-kendaraan-masukvskeluar.js" type="text/javascript"></script>
 						<script src="../assets/js/chart/highchart-kendaraan-keluar.js" type="text/javascript"></script>
 						<script src="../assets/js/chart/highchart-kendaraan-masuk.js" type="text/javascript"></script>
-						<script src="../assets/js/chart/highchart-kendaraan-parkir.js" type="text/javascript"></script>
 						<script src="../assets/js/chart/highchart-mobilvsmotor.js" type="text/javascript"></script>
 						<script src="../assets/js/chart/highchart-setoran-kolektor.js" type="text/javascript"></script>
 						<?php require '../layouts/foot.php' ?>
