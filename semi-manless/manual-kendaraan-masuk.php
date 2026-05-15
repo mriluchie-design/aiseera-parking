@@ -40,7 +40,7 @@
 								
             <div class="kt-subheader__toolbar">
 			<div class="dropdown dropdown-inline" ddata-placement="left">
-				<a href="#.php" class="btn btn-label-primary btn-sm" data-toggle="dropdown" onclick="goBack()">
+				<a href="#.php" class="btn btn-label-brand btn-sm" data-toggle="dropdown" onclick="goBack()">
 												<i class="flaticon-reply"></i> Kembali</button>
 <script>
 function goBack() {
@@ -49,27 +49,16 @@ function goBack() {
 </script>
 												<!--<i class="flaticon2-plus"></i>-->
 											</a>
-				&nbsp;
-			</div>
-			<div class="btn-group">
-				<button type="button" class="btn btn-label-danger btn-sm">
-					<i class="fa fa-door-open"></i>
-					<span class="kt-hidden-mobile">Buka Palang</span>
-				</button>
-				
-				
-			</div>
-			&nbsp;
-			<div class="btn-group">
-				<button type="button" class="btn btn-label-success btn-sm">
-					<i class="fa fa-car"></i>
-					<span class="kt-hidden-mobile">Kendaraan Berangkat</span>
-				</button>
-				
-				
-			</div>
 			
-			&nbsp;
+			</div>
+			<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
+			</div>
 			<div class="btn-group">
 				<button type="button" class="btn btn-brand">
 					<i class="fa fa-check-circle"></i>
@@ -113,7 +102,7 @@ function goBack() {
 					  <div class="col-lg-4">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Member</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
@@ -174,7 +163,7 @@ function goBack() {
 					  <div class="col-lg-4">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Transaksi</div><br><br>
 										 <div class="kt-portlet__body">
 										 <div class="form-group row">
@@ -187,9 +176,9 @@ function goBack() {
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
 						<div class="col-lg-7" >
-                          <label style="color:#a2050c">Tanggal Masuk :</label>
+                          <label>Tanggal Masuk :</label>
                           <div class="input-group date">
-													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2">
+													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" >
 													<div class="input-group-append">
 														<span class="input-group-text">
 															<i class="la la-calendar-check-o"></i>
@@ -199,9 +188,9 @@ function goBack() {
                         </div>
 						
 						<div class="col-lg-5">
-                          <label style="color:#a2050c">Jam Masuk :</label>
+                          <label>Jam Masuk :</label>
                           <div class="input-group timepicker">
-													<input class="form-control form-control-sm" id="kt_timepicker_2" readonly="" placeholder="07:44:00" type="text">
+													<input class="form-control form-control-sm" id="kt_timepicker_2" readonly="" placeholder="07:44:00" type="text" >
 													<div class="input-group-append">
 														<span class="input-group-text">
 															<i class="la la-clock-o"></i>
@@ -252,7 +241,7 @@ function goBack() {
 					  <div class="col-lg-2">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Live Camera</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row" style="text-align:center">
@@ -277,7 +266,7 @@ function goBack() {
 					  <div class="col-lg-2">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Foto Kendaraan</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row" style="text-align:center">
@@ -306,7 +295,7 @@ function goBack() {
 					  <div class="col-lg-12">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Gate</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
@@ -326,7 +315,7 @@ function goBack() {
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="50">
                         </div>
 						<div class="col-lg-2">
-                          <label class="">IP Kasir :</label>
+                          <label class="">IP Operator :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="192.168.88.100">
                         </div>
 						<div class="col-lg-1">
