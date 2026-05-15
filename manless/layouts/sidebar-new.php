@@ -158,9 +158,7 @@
 											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-produksi-operator.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Produksi Operator</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-keuangan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Keuangan</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-settelement.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Settlement</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-buka-gerbang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Buka Gerbang</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-free-pass.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Free Pass</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-tamu-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Tamu Keluar</span></a></li>
 											
 										</ul>
 									</div>
