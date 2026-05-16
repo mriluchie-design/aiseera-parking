@@ -191,6 +191,7 @@ function goBack() {
                                       <option value="2">II</option>
                                       <option value="2">III</option>
                                       <option value="2">IV</option>
+									  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
                                   </select>
                         </div>
 						<div class="col-lg-4" >
@@ -201,6 +202,7 @@ function goBack() {
                                       <option value="2">Gerobak</option>
                                       <option value="2">Sepeda</option>
                                       <option value="2">Tronton</option>
+									  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
                                   </select>
                         </div>
 						<div class="col-lg-5">

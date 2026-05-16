@@ -135,11 +135,20 @@ function goBack() {
 					  
 						
 					  <div class="col-lg-4" >
+                          <label style="color:#a2050c">Scan Kartu e-Money / Karcis :</label>
+                          <div class="kt-input-icon kt-input-icon--right">
+        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
+        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
+    		                            <span><i class="la la-search"></i></span>
+    		                        </span>
+    		                    </div>
+                        </div>
+						<div class="col-lg-3" >
                           <label style="color:#a2050c">Kategori Free Pass :</label>
                           <select class="form-control kt-selectpicker" data-live-search="true">
-														<option data-content="<span class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</span>" class="select-option-add" value="add"></option>
-														<option selected>Tamu</option>
 														
+														<option selected>Tamu</option>
+														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 														
 													</select>
                         </div>
@@ -150,9 +159,10 @@ function goBack() {
                                       <option value="2">II</option>
                                       <option value="2">III</option>
                                       <option value="2">IV</option>
+									  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
                                   </select>
                         </div>
-						<div class="col-lg-3" >
+						<div class="col-lg-4" >
                           <label style="color:#a2050c">Kendaraan :</label>
                           <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="2" selected="">Mobil</option>
@@ -160,26 +170,25 @@ function goBack() {
                                       <option value="2">Gerobak</option>
                                       <option value="2">Sepeda</option>
                                       <option value="2">Tronton</option>
+									  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
                                   </select>
                         </div>
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
 						<div class="col-lg-4">
-                          <label style="color:#a2050c">Plat Kendaraan :</label>
+                          <label>Plat Kendaraan :</label>
+                          <input type="text" class="form-control form-control-sm" placeholder="">
+                        </div>
+						<div class="col-lg-8">
+                          <label style="color:#a2050c">Keterangan Free Pass :</label>
                           <input type="text" class="form-control form-control-sm" placeholder="">
                         </div>
 						
                         </div>
 						
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-					  
 						
-					  
-						
-						<div class="col-lg-8">
-                          <label style="color:#a2050c">Keterangan Free Pass :</label>
-                          <input type="text" class="form-control form-control-sm" placeholder="">
-                        </div>
-                        </div>
 						
 						
 						
