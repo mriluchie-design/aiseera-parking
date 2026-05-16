@@ -22,14 +22,33 @@
     <div class="kt-subheader   kt-grid__item" id="kt_subheader">
         <div class="kt-container  kt-container--fluid ">
             <div class="kt-subheader__main">
+			
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Data Tarif Parkir
+                    Pengaturan
                 </h3>
-            </div>
+				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
+									<div class="kt-subheader__group" id="kt_subheader_search">
+										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
+											Tarif Parkir Kendaraan</span>
+										<form class="kt-margin-l-20" id="kt_subheader_search_form">
+
+										</form>
+									</div>
+
+
+								</div>
             <div class="kt-subheader__toolbar">
                 <button type="button" class="btn btn-label-danger btn-sm" id = "buttonLogin" onclick = "displayLoginBox()"><i class="flaticon-interface-6"></i> Filter Data</button>
-                <a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
+                <div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
+			</div>
+				<a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
                     <i class="flaticon2-printer"></i> Export Data</button>
                     <!--<i class="flaticon2-plus"></i>-->
                 </a>
@@ -187,31 +206,36 @@
 					<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
 										<thead>
 											<tr style="text-align:center">
-											  <th width="1%" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="30%" bgcolor="#f7fcff">Nama Tarif</th>
-											  <th width="5%" bgcolor="#f7fcff">Jenis<br>Kendaraan</th>
-											  <th width="8%" bgcolor="#f7fcff">Zona</th>
-											  <th width="8%" bgcolor="#f7fcff">Wilayah</th>
-											  <th width="7%" bgcolor="#f7fcff">Type Tarif</th>
-											  <th width="10%" bgcolor="#f7fcff">Nominal</th>
-											  <th width="1%" bgcolor="#f7fcff">Aksi</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
+											  <th width="2%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
+											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Tipe Tarif</th>
+											  <th width="8%" rowspan="2" bgcolor="#f7fcff">Kategori Tarif</th>
+											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Jenis Tarif</th>
+											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Jenis<br>Kendaraan</th>
+											  <th colspan="3" bgcolor="#f7fcff">Tarif</th>
+											  <th width="10%" rowspan="2" bgcolor="#f7fcff">Biaya Kartu</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
+											<tr style="text-align:center">
+											  <th width="10%" bgcolor="#f7fcff">Pokok</th>
+											  <th width="10%" bgcolor="#f7fcff">Jam Selanjutnya</th>
+											  <th width="10%" bgcolor="#f7fcff">Maksimal</th>
+									      </tr>
 										</thead>
 										<tbody>
 											<tr>
 												<td id="kt_table_1">1</td>
-												<td style="text-align:left" nowrap>Non Member</td>
+												<td style="text-align:left" nowrap>Makassar</td>
+												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Reguler</button></td>
+												<td style="text-align:left" nowrap>Reguler - Motor</td>
+												<td style="text-align:center" nowrap><button type="button" class="btn btn-label-danger btn-sm">Progresif</button></td>
 												<td style="text-align:center" nowrap>Motor</td>
 												
 												
-												<td style="text-align:center" nowrap>Keseluruhan</td>
-												<td style="text-align:center" nowrap>Keseluruhan</td>
-												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">Sekali Parkir</span></td>
-												<td style="text-align:center" nowrap><div class="input-group input-group-sm">
-														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="10.000" aria-describedby="basic-addon1">
-														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-													</div></td>
+												<td style="text-align:center" nowrap><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>6.000,-</span></div></td>
+												<td style="text-align:center" nowrap><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>4.000,-</span></div></td>
+												<td style="text-align:center" nowrap><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>20.000,-</span></div></td>
+												<td style="text-align:center" nowrap><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -243,17 +267,17 @@
 										  </tr>
 										  <tr>
 												<td id="kt_table_1">2</td>
-												<td style="text-align:left" nowrap>Non Member</td>
+												<td style="text-align:left" nowrap>Makassar</td>
+												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Reguler</button></td>
+												<td style="text-align:left" nowrap>Reguler - Mobil</td>
+												<td style="text-align:center" nowrap><button type="button" class="btn btn-label-danger btn-sm">Progresif</button></td>
 												<td style="text-align:center" nowrap>Mobil</td>
 											
 												
-												<td style="text-align:center" nowrap>Keseluruhan</td>
-												<td style="text-align:center" nowrap>Keseluruhan</td>
-												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">Sekali Parkir</span></td>
-												<td style="text-align:center" nowrap><div class="input-group input-group-sm">
-														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="20.000" aria-describedby="basic-addon1">
-														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></td>
+												<td style="text-align:center" nowrap><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>8.000,-</span></div></td>
+												<td style="text-align:center" nowrap><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>6.000,-</span></div></td>
+												<td style="text-align:center" nowrap><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>40.000,-</span></div></td>
+												<td style="text-align:center" nowrap><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -283,6 +307,258 @@
 																</div>
 															</div></td>
 										  </tr>
+										  <tr>
+										    <td id="kt_table_15">3</td>
+										    <td style="text-align:left" nowrap>Makassar</td>
+										    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Reguler</button></td>
+										    <td style="text-align:left" nowrap>Reguler - Truck/Tronton/Trailer</td>
+										    <td style="text-align:center" nowrap><button type="button" class="btn btn-label-danger btn-sm">Progresif</button></td>
+										    <td nowrap="nowrap" style="text-align:center"><span style="text-align:left">Truck/Tronton/Trailer</span></td>
+										    <td style="text-align:center" nowrap><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>30.000,-</span></div></td>
+												<td style="text-align:center" nowrap><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>10.000,-</span></div></td>
+												<td style="text-align:center" nowrap><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>50.000,-</span></div></td>
+												<td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+											<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item"> <a href="detail-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="edit-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa flaticon-edit-1"></i> <span class="kt-nav__link-text">Edit Data</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_12">4</td>
+										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
+										    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Member</button></td>
+										    <td style="text-align:left" nowrap>Member - Motor</td>
+										    <td style="text-align:center" nowrap><button type="button" class="btn btn-label-warning btn-sm">Flat</button></td>
+										    <td style="text-align:center" nowrap>Motor</td>
+										    <td style="text-align:center" nowrap><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>500.000,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+												<td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span>30.000,-</span></div></td>
+											<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item"> <a href="detail-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="edit-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa flaticon-edit-1"></i> <span class="kt-nav__link-text">Edit Data</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_11">5</td>
+										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
+										    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Member</button></td>
+										    <td style="text-align:left" nowrap>Member - Sedan/Jeep/Pick Up</td>
+										    <td style="text-align:center" nowrap><button type="button" class="btn btn-label-warning btn-sm">Flat</button></td>
+										    <td style="text-align:center" nowrap>Mobil</td>
+										    <td style="text-align:center" nowrap><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>800.000,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+												<td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span>30.000,-</span></div></td>
+											<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item"> <a href="detail-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="edit-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa flaticon-edit-1"></i> <span class="kt-nav__link-text">Edit Data</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_10">6</td>
+										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
+										    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Member</button></td>
+										    <td style="text-align:left" nowrap>Member - Truck/Tronton/Trailer</td>
+										    <td style="text-align:center" nowrap><button type="button" class="btn btn-label-warning btn-sm">Flat</button></td>
+										    <td style="text-align:center" nowrap>Mobil</td>
+										    <td style="text-align:center" nowrap><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>1.200.000,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+												<td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span>30.000,-</span></div></td>
+											<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item"> <a href="detail-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="edit-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa flaticon-edit-1"></i> <span class="kt-nav__link-text">Edit Data</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_9">7</td>
+										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
+										    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Member</button></td>
+										    <td style="text-align:left" nowrap>Member - Pegawai / Instansi / Others</td>
+										    <td style="text-align:center" nowrap><button type="button" class="btn btn-label-warning btn-sm">Flat</button></td>
+										    <td style="text-align:center" nowrap><span style="text-align:left">Truck/Tronton/Trailer</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>800.000,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span>30.000,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item"> <a href="detail-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="edit-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa flaticon-edit-1"></i> <span class="kt-nav__link-text">Edit Data</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_8">8</td>
+										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
+										    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Reguler</button></td>
+										    <td style="text-align:left" nowrap>Kendaraan Berangkat - Motor</td>
+										    <td style="text-align:center" nowrap><button type="button" class="btn btn-label-warning btn-sm">Flat</button></td>
+										    <td style="text-align:center" nowrap>Motor</td>
+										    <td style="text-align:center" nowrap><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>15.000,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+											<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item"> <a href="detail-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="edit-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa flaticon-edit-1"></i> <span class="kt-nav__link-text">Edit Data</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_7">9</td>
+										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
+										    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Reguler</button></td>
+										    <td style="text-align:left" nowrap>Kendaraan Berangkat - Mobil</td>
+										    <td style="text-align:center" nowrap><button type="button" class="btn btn-label-warning btn-sm">Flat</button></td>
+										    <td style="text-align:center" nowrap>Mobil</td>
+										    <td style="text-align:center" nowrap><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>30.000,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+											<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item"> <a href="detail-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="edit-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa flaticon-edit-1"></i> <span class="kt-nav__link-text">Edit Data</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_6">10</td>
+										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
+										    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Reguler</button></td>
+										    <td style="text-align:left" nowrap>Bongkaran Kapal - Motor</td>
+										    <td style="text-align:center" nowrap><button type="button" class="btn btn-label-warning btn-sm">Flat</button></td>
+										    <td nowrap="nowrap" style="text-align:center">Motor</td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>15.000,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item"> <a href="detail-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="edit-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa flaticon-edit-1"></i> <span class="kt-nav__link-text">Edit Data</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_5">11</td>
+										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
+										    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Reguler</button></td>
+										    <td style="text-align:left" nowrap>Bongkaran Kapal - Mobil</td>
+										    <td style="text-align:center" nowrap><button type="button" class="btn btn-label-warning btn-sm">Flat</button></td>
+										    <td nowrap="nowrap" style="text-align:center">Mobil</td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>30.000,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item"> <a href="detail-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="edit-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa flaticon-edit-1"></i> <span class="kt-nav__link-text">Edit Data</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_4">12</td>
+										    <td style="text-align:left" nowrap>Makassar</td>
+										    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Reguler</button></td>
+										    <td style="text-align:left" nowrap>Free Pass</td>
+										    <td style="text-align:center" nowrap><button type="button" class="btn btn-label-warning btn-sm">Flat</button></td>
+										    <td nowrap="nowrap" style="text-align:center">Free Pass</td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item"> <a href="detail-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="edit-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa flaticon-edit-1"></i> <span class="kt-nav__link-text">Edit Data</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_3">13</td>
+										    <td style="text-align:left" nowrap>Makassar</td>
+										    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Reguler</button></td>
+										    <td style="text-align:left" nowrap>Denda - Motor</td>
+										    <td style="text-align:center" nowrap><button type="button" class="btn btn-label-warning btn-sm">Flat</button></td>
+										    <td nowrap="nowrap" style="text-align:center">Motor</td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>20.000,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item"> <a href="detail-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="edit-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa flaticon-edit-1"></i> <span class="kt-nav__link-text">Edit Data</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_13">14</td>
+										    <td style="text-align:left" nowrap>Makassar</td>
+										    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Reguler</button></td>
+										    <td style="text-align:left" nowrap>Denda - Mobil</td>
+										    <td style="text-align:center" nowrap><button type="button" class="btn btn-label-warning btn-sm">Flat</button></td>
+										    <td nowrap="nowrap" style="text-align:center">Mobil</td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>40.000,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item"> <a href="detail-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="edit-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa flaticon-edit-1"></i> <span class="kt-nav__link-text">Edit Data</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
 										  
 										  
 										  
@@ -380,38 +656,67 @@
 													<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="31 Desember 2019 - 15:00 WITA">
 												</div>
 													</div>
-													<div class="col-lg-4">
-														<label>Nama Tarif :</label>
-														<input type="text" class="form-control form-control-sm" placeholder="Masukkan Nama Tarif">
-													</div>
+													
 													
 
 												</div>
 												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 												<div class="form-group row">
 												
-
+<div class="col-lg-4">
+														<label class="kt-font-danger">Tipe Tarif :</label>
+														<select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Reguler</option>
+                                      <option value="2">Member</option>
+									  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+                                     
+                                  </select>
+													</div>
+													
+													<div class="col-lg-4">
+														<label class="kt-font-danger">Kategori Tarif :</label>
+														<select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Reguler - Motor</option>
+                                      <option value="2">Reguler - Mobil</option>
+                                      <option value="3">Reguler - Truck/Tronton/Trailer</option>
+                                      <option value="4">Member - Motor</option>
+                                      <option value="4">Member - Sedan/Jeep/Pick Up</option>
+                                      <option value="4">Member - Truck/Tronton/Trailer</option>
+                                      <option value="4">Member - Pegawai / Instansi / Others</option>
+                                      <option value="4">Kendaraan Berangkat - Motor</option>
+                                      <option value="4">Kendaraan Berangkat - Mobil</option>
+                                      <option value="4">Bongkaran Kapal - Motor</option>
+                                      <option value="4">Bongkaran Kapal - Mobil</option>
+                                      <option value="4">Free Pass</option>
+                                      <option value="4">Denda - Motor</option>
+                                      <option value="4">Denda - Mobil</option>
+                                     <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+                                  </select>
+													</div>
+													<div class="col-lg-4">
+														<label class="kt-font-danger">Jenis Tarif :</label>
+														<select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Progresif</option>
+                                      <option value="2">Flat</option>
+                                     <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+                                  </select>
+													</div>
+													</div>
+													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+												<div class="form-group row">
 												<div class="col-lg-4">
 														<label class="kt-font-danger">Jenis Kendaraan :</label>
 														<select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected="">Motor</option>
                                       <option value="2">Mobil</option>
-                                    
+                                      <option value="2">Truck/Tronton/Trailer</option>
+                                      <option value="2">Sedan/Jeep/Pick Up</option>
+                                    <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
                                      
                                   </select>
 													</div>
 													<div class="col-lg-4">
-														<label class="kt-font-danger">Type Tarif :</label>
-														<select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Sekali Parkir</option>
-                                      <option value="2">Harian</option>
-                                      <option value="3">Mingguan</option>
-                                      <option value="4">Bulanan</option>
-                                     
-                                  </select>
-													</div>
-													<div class="col-lg-4">
-														<label class="kt-font-danger">Nominal Tarif :</label>
+														<label class="kt-font-danger">Biaya Kartu :</label>
 														<div class="form-group">
 													<div class="input-group input-group-sm">
 														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
@@ -421,19 +726,54 @@
 												</div>
 													</div>
 													
+													
+													
 												
 
 												</div>
 												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 												<div class="form-group row">
-												
+												<div class="col-lg-4">
+														<label class="kt-font-danger">Tarif Pokok :</label>
+														<div class="form-group">
+													<div class="input-group input-group-sm">
+														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+														<input type="text" style="text-align:right"  class="form-control form-control-sm" placeholder="10.000" aria-describedby="basic-addon1">
+														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+													</div>
+												</div>
+													</div>
+													<div class="col-lg-4">
+														<label class="kt-font-danger">Jam Selanjutnya :</label>
+														<div class="form-group">
+													<div class="input-group input-group-sm">
+														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+														<input type="text" style="text-align:right"  class="form-control form-control-sm" placeholder="10.000" aria-describedby="basic-addon1">
+														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+													</div>
+												</div>
+													</div>
+													<div class="col-lg-4">
+														<label class="kt-font-danger">Tarif Maksimal :</label>
+														<div class="form-group">
+													<div class="input-group input-group-sm">
+														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+														<input type="text" style="text-align:right"  class="form-control form-control-sm" placeholder="10.000" aria-describedby="basic-addon1">
+														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+													</div>
+												</div>
+													</div>
+													
+													</div>
+													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+												<div class="form-group row">
       												<div class="col-lg-12">
                                 <div class="form-group">
       													<label>Tarif Berlaku Untuk :</label>
                                 <div class="kt-section__content kt-section__content--solid" role="group" aria-label="...">
-      													<button type="button" class="btn btn-secondary btn-square btn-sm col-lg-4" id="hide1">Seluruh Zona</button>&nbsp;
+      													<button type="button" class="btn btn-secondary btn-square btn-sm col-lg-4" id="hide1">Seluruh Cabang</button>&nbsp;
       													
-                                <button type="button" class="btn btn-secondary btn-square btn-sm col-lg-4" id="show">Sebagian Wilayah</button>&nbsp;
+                                <button type="button" class="btn btn-secondary btn-square btn-sm col-lg-4" id="show">Sebagian Cabang</button>&nbsp;
       												</div>
                               	</div>
       												</div>
@@ -442,43 +782,24 @@
                                 <div class="col-lg-12">
 								<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
                                   <div class="form-group row">
-    													<div class="col-lg-6">
-														<label class="kt-font-danger">Zona :</label>
+    													<div class="col-lg-12">
+														<label class="kt-font-danger">Nama Cabang :</label>
 														 <select class="form-control kt-selectpicker" multiple="multiple">
-                                      <option value="1" selected="">Biringkanaya</option>
-                                      <option value="2">Bontoala</option>
-                                      <option value="3">Kepulauan Sangkarrang</option>
-                                      <option value="4">Makassar</option>
-                                      <option value="5">Mamajang</option>
-                                      <option value="6">Manggala</option>
-                                      <option value="7">Mariso</option>
-                                      <option value="8">Panakkukang</option>
-                                      <option value="9">Rappocini</option>
-                                      <option value="10">Tallo</option>
-                                      <option value="11">Tamalanrea</option>
-                                      <option value="12">Tamalate</option>
-                                      <option value="13">Ujung Pandang</option>
-                                      <option value="14">Ujung Tanah</option>
-                                      <option value="15">Wajo</option>
+                                      <option value="1" selected="">Makassar</option>
+                                      <option value="2">Pare-Pare</option>
+                                      <option value="2">Balikpapan</option>
+                                      <option value="2">Samarinda</option>
+                                      <option value="2">Tarakan</option>
+                                      <option value="2">Nunukan</option>
+                                      <option value="2">Manado</option>
+                                      <option value="2">Bitung</option>
+                                      <option value="2">Ambon - Yos Sudarso</option>
+                                      <option value="2">Ambon - Slamet Riyadi</option>
+                                      <option value="2">Ternate</option>
+                                      <option value="2">Sorong</option>
                                   </select>
 													</div>
-													<div class="col-lg-6">
-														<label class="kt-font-danger">Wilayah :</label>
-														 <select class="form-control kt-selectpicker" multiple="multiple">
-                                      <option value="1" selected="">Bakung</option>
-                                      <option value="2">Berua</option>
-                                      <option value="3">Bulurokeng</option>
-                                      <option value="4">Daya</option>
-                                      <option value="5">Katimbang</option>
-                                      <option value="6">Laikang</option>
-                                      <option value="7">Paccerakkang</option>
-                                      <option value="8">Pai</option>
-                                      <option value="9">Sudiang</option>
-                                      <option value="10">Sudiang Raya</option>
-                                      <option value="11">Untia</option>
-                                     
-                                  </select>
-													</div>
+													
 												
                           </div>
 						

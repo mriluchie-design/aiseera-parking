@@ -28,7 +28,9 @@
                 </h3>
             </div>
             <div class="kt-subheader__toolbar">
-			<div class="btn-group">
+			
+                <button type="button" class="btn btn-label-danger btn-sm" id = "buttonLogin" onclick = "displayLoginBox()"><i class="flaticon-interface-6"></i> Filter Data</button>
+                <div class="btn-group">
 				<button type="button" class="btn btn-label-google btn-sm">
 					<i class="fa fa-book-reader"></i>
 					<span class="kt-hidden-mobile">Bantuan</span>
@@ -36,8 +38,7 @@
 				
 				
 			</div>
-                <button type="button" class="btn btn-label-danger btn-sm" id = "buttonLogin" onclick = "displayLoginBox()"><i class="flaticon-interface-6"></i> Filter Data</button>
-                <a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
+				<a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
                     <i class="flaticon2-printer"></i> Export Data</button>
                     <!--<i class="flaticon2-plus"></i>-->
                 </a>
