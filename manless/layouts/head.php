@@ -21,7 +21,7 @@ License: You must have a valid license purchased only from themeforest(the above
 		<title>CUSTOMER PORTAL</title>
 		<meta name="description" content="Latest updates and statistic charts">
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <link rel="shortcut icon" href="../assets/img/logos/logo-aksikode-only.png" />
+        <link rel="shortcut icon" href="../assets/img/logos/epass-logo-only.png" />
         <!--start::Page Scripts -->
         <?php require'layouts/style.php' ?>
         <!--end::Page Scripts -->
