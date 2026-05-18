@@ -232,7 +232,7 @@
 										</div>
 										<div class="kt-portlet__body">
 											<figure class="highcharts-figure">
-										    <div id="container-member" style="height:400px"></div>
+										    <div id="container-pendapatan-member-all" style="height:400px"></div>
 										</figure>
 										</div>
 									</div>
@@ -266,7 +266,7 @@
 						<script src="https://code.highcharts.com/modules/exporting.js"></script>
 						<script src="https://code.highcharts.com/modules/export-data.js"></script>
 						<script src="https://code.highcharts.com/modules/accessibility.js"></script>
-						<script src="../assets/js/chart/highchart-monitoring-pendapatan-member.js" type="text/javascript"></script>
+						<script src="../assets/js/chart/highchart-monitoring-pendapatan-member-all.js" type="text/javascript"></script>
 						<script src="../assets/js/chart/highchart-monitoring-pendapatan-all.js" type="text/javascript"></script>
 						<?php require '../layouts/foot.php' ?>
 						<?php require './layouts/script.php' ?>
