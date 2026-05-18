@@ -12,7 +12,7 @@
   <div id="kt_header_mobile" class="kt-header-mobile  kt-header-mobile--fixed ">
     <div class="kt-header-mobile__logo">
       <a href="index.php">
-        <img alt="Logo" src="assets/img/logos/aiseera-parking-logo-2.png" style="width:10%"/>
+        <img alt="Logo" src="assets/img/logos/epass-logo-only.png" style="width:10%"/>
       </a>
     </div>
     <div class="kt-header-mobile__toolbar">
@@ -33,7 +33,7 @@
                 <div class="kt-aside__brand kt-grid__item " id="kt_aside_brand" kt-hidden-height="65" style="">
                     <div class="kt-aside__brand-logo">
                         <a href="/">
-                            <img alt="Logo" src="assets/img/logos/aiseera-parking-logo-2.png" style="width:90%">
+                            <img alt="Logo" src="assets/img/logos/epass-logo-only.png" style="width:90%">
                         </a>
                     </div>
                     <div class="kt-aside__brand-tools">
