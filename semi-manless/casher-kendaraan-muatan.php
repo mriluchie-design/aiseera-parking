@@ -29,7 +29,7 @@
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Kendaraan Masuk</span>
+											Kendaraan Muatan</span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
 										</form>
@@ -55,23 +55,6 @@ function goBack() {
 				<button type="button" class="btn btn-label-google btn-sm">
 					<i class="fa fa-book-reader"></i>
 					<span class="kt-hidden-mobile">Bantuan</span>
-				</button>
-				
-				
-			</div>
-			<div class="btn-group">
-				<button type="button" class="btn btn-label-danger btn-sm">
-					<i class="fa fa-door-open"></i>
-					<span class="kt-hidden-mobile">Buka Palang</span>
-				</button>
-				
-				
-			</div>
-			
-			<div class="btn-group">
-				<button type="button" class="btn btn-label-success btn-sm">
-					<i class="fa fa-car"></i>
-					<span class="kt-hidden-mobile">Free Pass</span>
 				</button>
 				
 				
