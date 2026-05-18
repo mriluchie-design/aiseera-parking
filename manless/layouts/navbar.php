@@ -65,7 +65,7 @@
 									<div class="kt-header__topbar-user">
 										<span class="kt-header__topbar-welcome kt-hidden-mobile">Hi,</span>
 										<span class="kt-header__topbar-username kt-hidden-mobile">Aiseera Parking</span>
-										<img class="" alt="Pic" src="../assets/img/logos/aiseera-parking-logo-2.png" />
+										<img class="" alt="Pic" src="../assets/img/logos/epass-logo-only" />
 
 										<!--use below badge element instead the user avatar to display username's first letter(remove kt-hidden class to display it) -->
 									</div>
