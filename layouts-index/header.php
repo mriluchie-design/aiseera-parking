@@ -47,7 +47,7 @@
                                 </svg></span>
                             <span>
                             <a href="/">
-                                <img alt="Logo" src="assets/img/logos/aiseera-parking-logo-2.png"></span>
+                                <img alt="Logo" src="assets/img/logos/epass-logo-only.png"></span>
                             </a>
                         </button>
 
