@@ -168,6 +168,7 @@
 
 											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-kendaraan-masuk.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Masuk</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-kendaraan-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Keluar</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-muatan-masuk.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Muatan Masuk</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-kendaraan-parkir.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Sedang Parkir</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-hapus-kendaraan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Hapus Kendaraan</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-produksi-keseluruhan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Produksi Keseluruhan</span></a></li>
@@ -208,20 +209,20 @@
 										<ul class="kt-menu__subnav">
 											<li class="kt-menu__item  kt-menu__item--parent" aria-haspopup="true"><span class="kt-menu__link"><span class="kt-menu__link-text">Master Data</span></span></li>
 
-											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-tarif-kendaraan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Jenis Kendaraan</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-tarif-kendaraan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Golongan Kendaraan</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-tarif-parkir.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Tarif Parkir</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-tarif-member.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kategori Member</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-tarif-member.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Tarif Member</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-jenis-kendaraan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Jenis Kendaraan</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-golongan-kendaraan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Golongan Kendaraan</span></a></li>
+											
+											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-kategori-member.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kategori Member</span></a></li>
+											
 											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-instansi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Instansi</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-instansi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Jenis Kelamin</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-instansi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Agama</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-instansi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Status Pernikahan</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-instansi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Provinsi</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-instansi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kab / Kota</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-instansi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kecamatan</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-instansi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kelurahan</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-instansi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Satuan Volume</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-jenis-kelamin.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Jenis Kelamin</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-agama.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Agama</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-status-pernikahan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Status Pernikahan</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-provinsi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Provinsi</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-kab-kota.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kab / Kota</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-kecamatan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kecamatan</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-kelurahan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kelurahan</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-volume.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Satuan Volume</span></a></li>
 											
 										</ul>
 									</div>
@@ -236,12 +237,29 @@
 									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
 										<ul class="kt-menu__subnav">
 											<li class="kt-menu__item  kt-menu__item--parent" aria-haspopup="true"><span class="kt-menu__link"><span class="kt-menu__link-text">Pengaturan</span></span></li>
+											<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Gate</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
+															<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
+																<ul class="kt-menu__subnav">
+																	<li class="kt-menu__item " aria-haspopup="true"><a href="pengaturan-gate.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Data Gate</span></a></li>
+																	<li class="kt-menu__item " aria-haspopup="true"><a href="pengaturan-jalur-masuk.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Jalur Masuk</span></a></li>
+																	<li class="kt-menu__item " aria-haspopup="true"><a href="pengaturan-jalur-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Jalur Keluar</span></a></li>
 
-											<li class="kt-menu__item" aria-haspopup="true"><a href="pengaturan-gate-masuk.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Gate Masuk</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="pengaturan-gate-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Gate Keluar</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="pengaturan-kendaraan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="pengaturan-jenis-tarif.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Jenis Tarif</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="pengaturan-tipe-tarif.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Tipe Tarif</span></a></li>
+																</ul>
+															</div>
+														</li>
+											<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Tarif</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
+															<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
+																<ul class="kt-menu__subnav">
+																	<li class="kt-menu__item " aria-haspopup="true"><a href="pengaturan-tarif-parkir.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Data Tarif</span></a></li>
+																	<li class="kt-menu__item " aria-haspopup="true"><a href="pengaturan-jenis-tarif.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Jenis Tarif</span></a></li>
+																	<li class="kt-menu__item " aria-haspopup="true"><a href="pengaturan-tipe-tarif.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Tipe Tarif</span></a></li>
+																	<li class="kt-menu__item " aria-haspopup="true"><a href="pengaturan-tipe-tarif.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Tipe Tarif</span></a></li>
+
+																</ul>
+															</div>
+														</li>
+											
+											
 											<li class="kt-menu__item" aria-haspopup="true"><a href="pengaturan-kantor.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kantor</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="pengaturan-audio.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Audio</span></a></li>
 											

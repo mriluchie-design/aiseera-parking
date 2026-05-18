@@ -168,7 +168,7 @@ function goBack() {
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Kendaraan Masuk</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
-						<div class="col-lg-12" >
+						<div class="col-lg-6" >
                           <label>Scan Kartu e-Money :</label>
                           <div class="kt-input-icon kt-input-icon--right">
         							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
@@ -177,15 +177,7 @@ function goBack() {
     		                        </span>
     		                    </div>
                         </div>
-						
-						
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-					  
-						
-					  
-						<div class="col-lg-3" >
+						<div class="col-lg-2" >
                           <label style="color:#a2050c">Gol :</label>
                           <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="2" selected="">I</option>
@@ -204,15 +196,27 @@ function goBack() {
                                       <option value="2">Tronton</option>
                                   </select>
                         </div>
-						<div class="col-lg-5">
-                          <label class="">Plat Kendaraan :</label>
-                          <input type="text" class="form-control form-control-sm" placeholder="">
-                        </div>
-						
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
-						<div class="col-lg-7" >
+					  
+						<div class="col-lg-6">
+                          <label class="">Plat Kendaraan :</label>
+                          <input type="text" class="form-control form-control-sm" placeholder="">
+                        </div>
+						<div class="col-lg-6">
+                          <label class="">Muatan :</label>
+                          <div class="input-group">
+													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="1" aria-describedby="basic-addon2">
+													<div class="input-group-append">
+														<span class="input-group-text" id="basic-addon2">m3</span>
+													</div>
+												</div>
+                        </div>
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-6" >
                           <label>Tanggal Masuk :</label>
                           <div class="input-group date">
 													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" disabled>
@@ -224,7 +228,7 @@ function goBack() {
 												</div>
                         </div>
 						
-						<div class="col-lg-5">
+						<div class="col-lg-6">
                           <label class="">Jam Masuk :</label>
                           <div class="input-group timepicker">
 													<input class="form-control form-control-sm" id="kt_timepicker_2" readonly="" placeholder="07:44:00" type="text" disabled>
@@ -235,6 +239,7 @@ function goBack() {
 													</div>
 												</div>
                         </div>
+						
                         </div>
 						
 						
@@ -370,7 +375,7 @@ function goBack() {
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Gate</div><br><br>
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Operator</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
 					  
@@ -389,26 +394,16 @@ function goBack() {
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="50">
                         </div>
 						<div class="col-lg-2">
-                          <label class="">IP Petugas Gate - Keluar :</label>
+                          <label class="">IP Printer :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="192.168.88.100">
                         </div>
 						<div class="col-lg-1">
                           <label class="">Status :</label><br>
                           <span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
                         </div>
-						<div class="col-lg-2">
-                          <label class="">IP Barrier Gate - Keluar :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="192.168.88.101">
-                        </div>
-						<div class="col-lg-1">
-                          <label class="">Status :</label><br>
-                          <span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
-                        </div>
-						<div class="col-lg-1">
-                          <label class="">CCTV :</label><br>
-                          <span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">Offline</span>
-                        </div>
-                        </div>
+						
+						
+						
 						
 						
 						
