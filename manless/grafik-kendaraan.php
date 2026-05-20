@@ -19,6 +19,7 @@
 		</div>
             <div class="kt-subheader__toolbar">
                 <div class="btn-group">
+				<button type="button" class="btn btn-label-danger btn-sm" id = "buttonLogin" onclick = "displayLoginBox()"><i class="flaticon-interface-6"></i> Filter Data</button>
 				<button type="button" class="btn btn-label-google btn-sm">
 					<i class="fa fa-book-reader"></i>
 					<span class="kt-hidden-mobile">Bantuan</span>
@@ -55,6 +56,54 @@
 						
 
             <div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
+			<div class="kt-portlet" id = "login_Box_Div" >
+            <div class="kt-portlet__head">
+                <div class="kt-portlet__head-label">
+                    <h3 class="kt-portlet__head-title">
+                        Filter Data
+                    </h3>
+                </div>
+            </div>
+            <!--begin::Form-->
+            <form class="kt-form">
+                <div class="kt-portlet__body">
+                    <div class="form-group row">
+					<div class="col-lg-2">
+                                <label>Cabang :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Makassar</option>
+                                      <option value="2">Pare-Pare</option>
+                                      <option value="2">Balikpapan</option>
+                                      <option value="2">Samarinda</option>
+                                      <option value="2">Tarakan</option>
+                                      <option value="2">Nunukan</option>
+                                      <option value="2">Manado</option>
+                                      <option value="2">Bitung</option>
+                                      <option value="2">Ambon - Yos Sudarso</option>
+                                      <option value="2">Ambon - Slamet Riyadi</option>
+                                      <option value="2">Ternate</option>
+                                      <option value="2">Sorong</option>
+                                      <option value="2">Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
+                       
+						
+                        
+                        
+                       
+                    </div>
+                    <div class="kt-portlet__foot text-center">
+                        <div class="kt-form__actions">
+                            <button type="reset" class="btn btn-outline-brand btn-sm">Reset</button>
+                            <button type="reset" class="btn btn-primary btn-sm"><i class="flaticon-interface-6"></i>Filter Data</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <!--end::Form-->
+</div>
 			<div class="row">
 								
 										
