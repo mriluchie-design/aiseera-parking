@@ -71,7 +71,25 @@
 										</ul>
 									</div>
 								</li>
+<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><span class="kt-menu__link-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
+    <g id="Stockholm-icons-/-Devices-/-iPhone-X" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+        <path d="M8,2.5 C7.30964406,2.5 6.75,3.05964406 6.75,3.75 L6.75,20.25 C6.75,20.9403559 7.30964406,21.5 8,21.5 L16,21.5 C16.6903559,21.5 17.25,20.9403559 17.25,20.25 L17.25,3.75 C17.25,3.05964406 16.6903559,2.5 16,2.5 L8,2.5 Z" id="Combined-Shape" fill="#000000" opacity="0.3"></path>
+        <path d="M8,2.5 C7.30964406,2.5 6.75,3.05964406 6.75,3.75 L6.75,20.25 C6.75,20.9403559 7.30964406,21.5 8,21.5 L16,21.5 C16.6903559,21.5 17.25,20.9403559 17.25,20.25 L17.25,3.75 C17.25,3.05964406 16.6903559,2.5 16,2.5 L8,2.5 Z M8,1 L16,1 C17.5187831,1 18.75,2.23121694 18.75,3.75 L18.75,20.25 C18.75,21.7687831 17.5187831,23 16,23 L8,23 C6.48121694,23 5.25,21.7687831 5.25,20.25 L5.25,3.75 C5.25,2.23121694 6.48121694,1 8,1 Z M9.5,1.75 L14.5,1.75 C14.7761424,1.75 15,1.97385763 15,2.25 L15,3.25 C15,3.52614237 14.7761424,3.75 14.5,3.75 L9.5,3.75 C9.22385763,3.75 9,3.52614237 9,3.25 L9,2.25 C9,1.97385763 9.22385763,1.75 9.5,1.75 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg></span><span class="kt-menu__link-text">Mobile Operator</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
+									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
+										<ul class="kt-menu__subnav">
+											<li class="kt-menu__item  kt-menu__item--parent" aria-haspopup="true"><span class="kt-menu__link"><span class="kt-menu__link-text">Manajemen Absensi</span></span></li>
 
+											<li class="kt-menu__item" aria-haspopup="true"><a href="operator-muatan-kapal-berangkat.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Muatan Kapal Berangkat</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="operator-muatan-kapal-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Muatan Kapal Keluar</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="operator-kendaraan-bermuatan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Bermuatan</span></a></li>
+											
+											
+										</ul>
+									</div>
+								</li>
 <li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><span class="kt-menu__link-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
     <g id="Stockholm-icons-/-Devices-/-Keyboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect id="bound" x="0" y="0" width="24" height="24"></rect>
@@ -105,8 +123,10 @@
 										<ul class="kt-menu__subnav">
 											<li class="kt-menu__item  kt-menu__item--parent" aria-haspopup="true"><span class="kt-menu__link"><span class="kt-menu__link-text">Membership</span></span></li>
 
-											<li class="kt-menu__item" aria-haspopup="true"><a href="member.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Member Umum</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="member-corporate.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Member Perusahaan</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="member.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Data Member</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="data-register-member.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pendaftaran Member</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="data-pembayaran-member.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pembayaran Member</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="member-terhapus.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Member Terhapus</span></a></li>
 											
 										</ul>
 									</div>
@@ -152,11 +172,16 @@
 
 											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-kendaraan-masuk.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Masuk</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-kendaraan-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Keluar</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-kendaraan-berangkat.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Berangkat</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-kendaraan-muatan-kapal.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Muatan Kapal</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-kendaraan-muatan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Muatan</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-kendaraan-parkir.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Sedang Parkir</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-hapus-kendaraan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Hapus Kendaraan</span></a></li>
+											
 											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-produksi-keseluruhan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Produksi Keseluruhan</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-keuangan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Keuangan</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-free-pass.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Free Pass</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-buka-palang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Buka Palang</span></a></li>
 											
 										</ul>
 									</div>
