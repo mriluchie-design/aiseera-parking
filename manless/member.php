@@ -96,6 +96,26 @@
 					<div class="kt-portlet__body">
                         <div class="form-group row">
                             <div class="col-lg-2">
+                                <label>Cabang :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Makassar</option>
+                                      <option value="2">Pare-Pare</option>
+                                      <option value="2">Balikpapan</option>
+                                      <option value="2">Samarinda</option>
+                                      <option value="2">Tarakan</option>
+                                      <option value="2">Nunukan</option>
+                                      <option value="2">Manado</option>
+                                      <option value="2">Bitung</option>
+                                      <option value="2">Ambon - Yos Sudarso</option>
+                                      <option value="2">Ambon - Slamet Riyadi</option>
+                                      <option value="2">Ternate</option>
+                                      <option value="2">Sorong</option>
+                                      <option value="2">Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
+							<div class="col-lg-2">
                                 <label>ID Member :</label>
 								
                                 <div class="kt-input-icon kt-input-icon--right">
@@ -267,6 +287,7 @@
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Cabang</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">QR Code<br>Member</th>
 											  <th width="2%" rowspan="2" bgcolor="#f7fcff">Nomor Kartu</th>
 											  <th colspan="5" bgcolor="#f7fcff">Penanggung Jawab</th>
@@ -290,6 +311,7 @@
 										<tbody>
 											<tr>
 												<td id="kt_table_1">1</td>
+												<td style="text-align:center" nowrap>Makassar</td>
 												<td style="text-align:center" nowrap><img src="../assets/img/qrcode.jpg" width="30" height="30"></td>
 												<td nowrap="" style="text-align:center">12321355123123211</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000001MP1025" data-html="true"> <img src="../assets/media/users/100_1.jpg" alt="image" /> </a></td>
@@ -358,6 +380,7 @@
 										  </tr>
 										  <tr>
 												<td id="kt_table_1">2</td>
+												<td style="text-align:center" nowrap>Makassar</td>
 												<td style="text-align:center" nowrap><img src="../assets/img/qrcode.jpg" width="30" height="30"></td>
 												<td nowrap="" style="text-align:center">12321355123123212</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000002MP1025" data-html="true"> <img src="../assets/media/users/100_2.jpg" alt="image" /> </a></td>
@@ -427,6 +450,7 @@
 
 <tr>
 												<td id="kt_table_1">3</td>
+												<td style="text-align:center" nowrap>Balikpapan</td>
 												<td style="text-align:center" nowrap><img src="../assets/img/qrcode.jpg" width="30" height="30"></td>
 												<td nowrap="" style="text-align:center">12321355123123213</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000003MP1025" data-html="true"> <img src="../assets/media/users/100_3.jpg" alt="image" /> </a></td>
@@ -495,6 +519,7 @@
 										  </tr>
 <tr>
   <td id="kt_table_4">4</td>
+  <td style="text-align:center" nowrap="nowrap">Samarinda</td>
   <td style="text-align:center" nowrap="nowrap"><img src="../assets/img/qrcode.jpg" alt="" width="30" height="30" /></td>
   <td nowrap="nowrap" style="text-align:center">12321355123123214</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000003MP1025" data-html="true"> <img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>

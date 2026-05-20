@@ -85,6 +85,7 @@
 											<li class="kt-menu__item" aria-haspopup="true"><a href="operator-muatan-kapal-berangkat.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Muatan Kapal Berangkat</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="operator-muatan-kapal-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Muatan Kapal Keluar</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="operator-kendaraan-bermuatan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Bermuatan</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="operator-free-pass.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Free Pass</span></a></li>
 											
 											
 										</ul>
@@ -106,7 +107,7 @@
 											<li class="kt-menu__item" aria-haspopup="true"><a href="manual-kendaraan-berangkat.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Berangkat</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="manual-muatan-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Muatan Kapal Keluar</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="manual-kendaraan-bermuatan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Bermuatan</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="manual-karcis-hilang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Karcis Hilang</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="manual-karcis-hilang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kartu Hilang</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="free-pass.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Free Pass</span></a></li>
 											
 										</ul>
