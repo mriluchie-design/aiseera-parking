@@ -304,7 +304,7 @@
 											  <th width="2%" bgcolor="#feffed">No. Plat</th>
 											  <th width="4%" bgcolor="#feffed">Tanggal Registrasi</th>
 											  <th width="4%" bgcolor="#feffed">Aktif Hingga</th>
-											  <th width="3%" bgcolor="#feffed">Status</th>
+											  <th width="3%" bgcolor="#feffed">Status Member</th>
 											  <th width="3%" bgcolor="#feffed">Pembayaran</th>
 				                          </tr>
 										</thead>
@@ -460,10 +460,10 @@
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fab fa-whatsapp"></i></button></td>
 												<td nowrap="nowrap" style="text-align:left">Sedan/Jeep/Pick Up</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
-												<td nowrap="nowrap" style="text-align:left">1 September 2026</td>
-												<td nowrap="nowrap" style="text-align:left">31 Desember 2026</td>
+												<td nowrap="nowrap" style="text-align:left">1 September 2025</td>
+												<td nowrap="nowrap" style="text-align:left">31 Desember 2025</td>
 												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-danger btn-sm">Expired</button></td>
-												<td class="text-center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355135&lt;hr&gt;e-Wallet&lt;hr&gt;Gopay" data-html="true">Pending</span></td>
+												<td class="text-center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">Pending</span></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -532,7 +532,7 @@
   <td nowrap="nowrap" style="text-align:left">1 September 2026</td>
   <td nowrap="nowrap" style="text-align:left">31 Desember 2026</td>
   <td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm">Pembayaran</button></td>
-  <td class="text-center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355135&lt;hr&gt;e-Wallet&lt;hr&gt;Gopay" data-html="true">Pending</span></td>
+  <td class="text-center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">Pending</span></td>
   <td style="text-align:center" nowrap="nowrap"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
       <ul class="kt-nav">
