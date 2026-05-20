@@ -100,14 +100,14 @@ function goBack() {
 				
 					  
 					  <div class="form-group row">
-				<div class="col-lg-12">
+				<div class="col-lg-8">
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Kendaraan Berangkat</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
-					  <div class="col-lg-3" >
+					  <div class="col-lg-6" >
                           <label>Scan Kartu e-Money / Karcis :</label>
                           <div class="kt-input-icon kt-input-icon--right">
         							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
@@ -126,7 +126,7 @@ function goBack() {
 									  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
                                   </select>
                         </div>
-						<div class="col-lg-2" >
+						<div class="col-lg-3" >
                           <label style="color:#a2050c">Kendaraan :</label>
                           <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="2" selected="">Mobil</option>
