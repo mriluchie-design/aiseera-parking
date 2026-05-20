@@ -270,7 +270,7 @@
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">QR Code<br>Member</th>
 											  <th width="2%" rowspan="2" bgcolor="#f7fcff">Nomor Kartu</th>
 											  <th colspan="5" bgcolor="#f7fcff">Penanggung Jawab</th>
-											  <th colspan="5" bgcolor="#feffed">Kendaraan</th>
+											  <th colspan="6" bgcolor="#feffed">Kendaraan</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 											<tr style="text-align:center">
@@ -284,7 +284,8 @@
 											  <th width="4%" bgcolor="#feffed">Tanggal Registrasi</th>
 											  <th width="4%" bgcolor="#feffed">Aktif Hingga</th>
 											  <th width="3%" bgcolor="#feffed">Status</th>
-					                      </tr>
+											  <th width="3%" bgcolor="#feffed">Pembayaran</th>
+				                          </tr>
 										</thead>
 										<tbody>
 											<tr>
@@ -300,7 +301,8 @@
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
 												<td nowrap="nowrap" style="text-align:left">1 September 2026</td>
 												<td nowrap="nowrap" style="text-align:left">31 Desember 2026</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Aktif</button></td>
+												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-success btn-sm">Aktif</button></td>
+												<td class="text-center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355135&lt;hr&gt;e-Wallet&lt;hr&gt;Gopay" data-html="true">Non Tunai</span></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -330,8 +332,8 @@
 																		</li>
 																		<li class="kt-nav__item">
 																			<a href="history-member.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat History</span>
+																				<i class="kt-nav__link-icon fa fa-coins"></i>
+																				<span class="kt-nav__link-text">History Pembayaran</span>
 																			</a>
 																		</li>
 																		<li class="kt-nav__item">
@@ -367,7 +369,8 @@
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LLU</td>
 												<td nowrap="nowrap" style="text-align:left">1 September 2026</td>
 												<td nowrap="nowrap" style="text-align:left">31 Desember 2026</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Aktif</button></td>
+												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-success btn-sm">Aktif</button></td>
+												<td class="text-center"><span class="btn btn-label-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">Tunai</span></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -397,8 +400,8 @@
 																		</li>
 																		<li class="kt-nav__item">
 																			<a href="history-member.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat History</span>
+																				<i class="kt-nav__link-icon fa fa-coins"></i>
+																				<span class="kt-nav__link-text">History Pembayaran</span>
 																			</a>
 																		</li>
 																		<li class="kt-nav__item">
@@ -435,7 +438,8 @@
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
 												<td nowrap="nowrap" style="text-align:left">1 September 2026</td>
 												<td nowrap="nowrap" style="text-align:left">31 Desember 2026</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Expired</button></td>
+												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-danger btn-sm">Expired</button></td>
+												<td class="text-center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355135&lt;hr&gt;e-Wallet&lt;hr&gt;Gopay" data-html="true">Pending</span></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -465,8 +469,8 @@
 																		</li>
 																		<li class="kt-nav__item">
 																			<a href="history-member.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat History</span>
+																				<i class="kt-nav__link-icon fa fa-coins"></i>
+																				<span class="kt-nav__link-text">History Pembayaran</span>
 																			</a>
 																		</li>
 																		<li class="kt-nav__item">
@@ -502,14 +506,20 @@
   <td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
   <td nowrap="nowrap" style="text-align:left">1 September 2026</td>
   <td nowrap="nowrap" style="text-align:left">31 Desember 2026</td>
-  <td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Expired</button></td>
+  <td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm">Pembayaran</button></td>
+  <td class="text-center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355135&lt;hr&gt;e-Wallet&lt;hr&gt;Gopay" data-html="true">Pending</span></td>
   <td style="text-align:center" nowrap="nowrap"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
       <ul class="kt-nav">
         <li class="kt-nav__item"> <a href="member-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Profil Member</span> </a> </li>
         <li class="kt-nav__item"> <a href="ubah-member.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Ubah Data Member</span> </a> </li>
         <li class="kt-nav__item"> <a href="cetak-member-card.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-address-card"></i> <span class="kt-nav__link-text">Cetak Kartu Member</span> </a> </li>
-        <li class="kt-nav__item"> <a href="history-member.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat History</span> </a> </li>
+        <li class="kt-nav__item">
+																			<a href="history-member.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-coins"></i>
+																				<span class="kt-nav__link-text">History Pembayaran</span>
+																			</a>
+																		</li>
         <li class="kt-nav__item"> <a href="member-suspend.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-slash"></i> <span class="kt-nav__link-text">Suspend</span> </li>
         </a>
         <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
