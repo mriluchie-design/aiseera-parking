@@ -4,7 +4,7 @@
 					<div class="kt-aside__brand kt-grid__item " id="kt_aside_brand" kt-hidden-height="65" style="">
 						<div class="kt-aside__brand-logo">
 							<a href="#">
-								<img alt="Logo" src="../assets/img/logos/aiseera-logo-landscape-2.png" style="width:90%">
+								<img alt="Logo" src="../assets/img/logos/epass-logo-landscape.png" style="width:90%">
 							</a>
 						</div>
 						<div class="kt-aside__brand-tools">
@@ -16,7 +16,7 @@
 											<path d="M10.7071009,15.7071068 C10.3165766,16.0976311 9.68341162,16.0976311 9.29288733,15.7071068 C8.90236304,15.3165825 8.90236304,14.6834175 9.29288733,14.2928932 L15.2928873,8.29289322 C15.6714663,7.91431428 16.2810527,7.90106866 16.6757187,8.26284586 L22.6757187,13.7628459 C23.0828377,14.1360383 23.1103407,14.7686056 22.7371482,15.1757246 C22.3639558,15.5828436 21.7313885,15.6103465 21.3242695,15.2371541 L16.0300699,10.3841378 L10.7071009,15.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" transform="translate(15.999997, 11.999999) scale(-1, 1) rotate(-270.000000) translate(-15.999997, -11.999999) "></path>
 										</g>
 									</svg></span>
-								<span>	<img alt="Logo" src="../assets/img/logos/aiseera-parking-logo-2.png"></span>
+								<span>	<img alt="Logo" src="../assets/img/logos/epass-logo-landscape.png"></span>
 							</button>
 
 							<!--
