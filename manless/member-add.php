@@ -600,7 +600,7 @@ function goBack() {
   <tr>
     <td style="text-align:right">1.1</td>
     <td><div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="Scan Kartu Member Disini..." id="generalSearch">
+        							<input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch">
         							<span class="kt-input-icon__icon kt-input-icon__icon--right">
     		                            <span><i class="fa fa-credit-card"></i></span>
     		                        </span>
@@ -637,7 +637,7 @@ function goBack() {
   <tr>
     <td style="text-align:right">1.2</td>
     <td><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan Kartu Member Disini..." id="generalSearch" />
+      <input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-credit-card"></i></span> </span> </div></td>
     <td colspan="2">&nbsp;</td>
     <td><div class="kt-input-icon kt-input-icon--right">
@@ -671,7 +671,7 @@ function goBack() {
   <tr>
     <td style="text-align:right">1.3</td>
     <td><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan Kartu Member Disini..." id="generalSearch" />
+      <input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch" />
 
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-credit-card"></i></span> </span> </div></td>
     <td colspan="2">&nbsp;</td>
@@ -729,7 +729,7 @@ function goBack() {
   <tr>
     <td style="text-align:right">2.1</td>
     <td><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan Kartu Member Disini..." id="generalSearch" />
+      <input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-credit-card"></i></span> </span> </div></td>
     <td colspan="2">&nbsp;</td>
     <td><div class="kt-input-icon kt-input-icon--right">
@@ -763,7 +763,7 @@ function goBack() {
   <tr>
     <td style="text-align:right">2.2</td>
     <td><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan Kartu Member Disini..." id="generalSearch" />
+      <input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-credit-card"></i></span> </span> </div></td>
     <td colspan="2">&nbsp;</td>
     <td><div class="kt-input-icon kt-input-icon--right">
@@ -797,7 +797,7 @@ function goBack() {
   <tr>
     <td style="text-align:right">2.3</td>
     <td><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan Kartu Member Disini..." id="generalSearch" />
+      <input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-credit-card"></i></span> </span> </div></td>
     <td colspan="2">&nbsp;</td>
     <td><div class="kt-input-icon kt-input-icon--right">
