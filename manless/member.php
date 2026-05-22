@@ -346,9 +346,9 @@
 																		
 																		
 																		<li class="kt-nav__item">
-																			<a href="cetak-member-card.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-address-card"></i>
-																				<span class="kt-nav__link-text">Cetak Kartu Member</span>
+																			<a href="sticker-member.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-barcode"></i>
+																				<span class="kt-nav__link-text">Register Sticker Member</span>
 																			</a>
 																		</li>
 																		<li class="kt-nav__item">
@@ -414,9 +414,9 @@
 																		
 																		
 																		<li class="kt-nav__item">
-																			<a href="cetak-member-card.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-address-card"></i>
-																				<span class="kt-nav__link-text">Cetak Kartu Member</span>
+																			<a href="sticker-member.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-barcode"></i>
+																				<span class="kt-nav__link-text">Register Sticker Member</span>
 																			</a>
 																		</li>
 																		<li class="kt-nav__item">
@@ -483,9 +483,9 @@
 																		
 																		
 																		<li class="kt-nav__item">
-																			<a href="cetak-member-card.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-address-card"></i>
-																				<span class="kt-nav__link-text">Cetak Kartu Member</span>
+																			<a href="sticker-member.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-barcode"></i>
+																				<span class="kt-nav__link-text">Register Sticker Member</span>
 																			</a>
 																		</li>
 																		<li class="kt-nav__item">
@@ -534,7 +534,12 @@
       <ul class="kt-nav">
         <li class="kt-nav__item"> <a href="member-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Profil Member</span> </a> </li>
         <li class="kt-nav__item"> <a href="ubah-member.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Ubah Data Member</span> </a> </li>
-        <li class="kt-nav__item"> <a href="cetak-member-card.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-address-card"></i> <span class="kt-nav__link-text">Cetak Kartu Member</span> </a> </li>
+        <li class="kt-nav__item">
+																			<a href="sticker-member.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-barcode"></i>
+																				<span class="kt-nav__link-text">Register Sticker Member</span>
+																			</a>
+																		</li>
         <li class="kt-nav__item">
 																			<a href="history-member.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-coins"></i>
