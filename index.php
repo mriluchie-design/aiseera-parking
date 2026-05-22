@@ -281,18 +281,6 @@
 </svg> </span>
 																<span class="kt-grid-nav__title">Accounting</span>
 															</a>
-															
-															
-															
-															
-															
-															
-															
-
-															
-
-														</div>
-														<div class="kt-grid-nav__row">
 															<a href="./payroll/index.php" class="kt-grid-nav__item">
 																<span class="kt-grid-nav__icon">
 																	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--brand kt-svg-icon--lg">
@@ -305,6 +293,18 @@
 </svg> </span>
 																<span class="kt-grid-nav__title">Penggajian</span>
 															</a>
+															
+															
+															
+															
+															
+															
+
+															
+
+														</div>
+														<div class="kt-grid-nav__row">
+															
 															<a href="./ams/index.php" class="kt-grid-nav__item">
 																<span class="kt-grid-nav__icon">
 																	<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--danger kt-svg-icon--lg">
