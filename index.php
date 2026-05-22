@@ -105,7 +105,11 @@
 </svg> </span>
 																<span class="kt-grid-nav__title">Live Monitoring</span>
 															</a>
-															
+															<a href="#" class="kt-grid-nav__item">
+																<span class="kt-grid-nav__icon">
+																	&nbsp;</span>
+																<span class="kt-grid-nav__title">&nbsp;</span>
+															</a>
 															
 														
 															
