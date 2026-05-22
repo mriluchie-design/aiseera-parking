@@ -1,0 +1,14 @@
+1. Dashboard
+   
+   Notifikasi Mutasi Pegawai
+   Notifikasi Pengajuan Resign
+   Notifikasi Pegawai Kontrak yang akan berakhir
+   Pegawai Berulang Tahun
+2. status menunggu persetujuan
+3. Menu Laporan
+   Laporan Statistik
+   Grafik
+	1. Grafik Mutasi Pegawai Filter Dropdown Bulan atau Tahun
+	2. Grafik Pensiun Pegawai
+   Grafik Resign Pegawai
+   

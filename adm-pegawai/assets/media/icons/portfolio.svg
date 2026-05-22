@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_3" x="0px" y="0px" viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve" width="512" height="512">
+<g>
+	<rect x="28" y="2" style="fill:#B3B3B3;" width="34" height="42"/>
+	<rect x="28" y="2" style="fill:#CCCCCC;" width="31" height="42"/>
+	<path style="fill:#586773;" d="M48,62H4c-1.105,0-2-0.895-2-2V32c0-1.105,0.895-2,2-2h44c1.105,0,2,0.895,2,2v28   C50,61.105,49.105,62,48,62z"/>
+	<path style="fill:#758999;" d="M47,60V32c0-1.105-0.895-2-2-2H4c-1.105,0-2,0.895-2,2v28c0,1.105,0.895,2,2,2h41   C46.105,62,47,61.105,47,60z"/>
+	<path style="fill:#3B454D;" d="M48,62H4c-1.105,0-2-0.895-2-2V42h48v18C50,61.105,49.105,62,48,62z"/>
+	<path style="fill:#586773;" d="M47,60V42H2v18c0,1.105,0.895,2,2,2h41C46.105,62,47,61.105,47,60z"/>
+	<circle style="fill:#BFB563;" cx="33" cy="49" r="3"/>
+	<ellipse style="fill:#FFF284;" cx="32" cy="49" rx="2" ry="2.816"/>
+	<polygon style="fill:#BF5043;" points="16,58 20,52 24,58  "/>
+	<polygon style="fill:#FF6A59;" points="16,58 21,58 18.5,54.25  "/>
+	<rect x="8" y="42" style="fill:#CCCCCC;" width="4" height="20"/>
+	<rect x="8" y="42" style="fill:#F2F2F2;" width="2" height="20"/>
+	<rect x="40" y="42" style="fill:#CCCCCC;" width="4" height="20"/>
+	<rect x="40" y="42" style="fill:#F2F2F2;" width="2" height="20"/>
+	<rect x="8" y="34" style="fill:#929999;" width="4" height="4"/>
+	<rect x="8" y="34" style="fill:#C2CCCC;" width="2" height="4"/>
+	<rect x="32" y="18" style="fill:#BF5043;" width="26" height="4"/>
+	<rect x="32" y="18" style="fill:#FF6A59;" width="23" height="4"/>
+	<rect x="32" y="26" style="fill:#BF5043;" width="26" height="4"/>
+	<rect x="32" y="26" style="fill:#FF6A59;" width="23" height="4"/>
+	<rect x="32" y="6" style="fill:#BF5043;" width="8" height="8"/>
+	<rect x="32" y="6" style="fill:#FF6A59;" width="5" height="8"/>
+	<g>
+		<rect x="2" y="41" style="fill:#3B454D;" width="48" height="2"/>
+	</g>
+	<g>
+		<path style="fill:#3B454D;" d="M35,30h-2v-3H19v3h-2v-4c0-0.552,0.448-1,1-1h16c0.552,0,1,0.448,1,1V30z"/>
+	</g>
+	<rect x="40" y="34" style="fill:#929999;" width="4" height="4"/>
+	<rect x="40" y="34" style="fill:#C2CCCC;" width="2" height="4"/>
+	<g>
+		<rect x="43" y="5" style="fill:#808080;" width="16" height="2"/>
+	</g>
+	<g>
+		<rect x="43" y="9" style="fill:#808080;" width="16" height="2"/>
+	</g>
+	<g>
+		<rect x="43" y="13" style="fill:#808080;" width="16" height="2"/>
+	</g>
+	<g>
+		<rect x="50" y="37" style="fill:#808080;" width="9" height="2"/>
+	</g>
+</g>
+</svg>
