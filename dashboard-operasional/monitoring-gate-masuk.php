@@ -7,7 +7,7 @@
             <div class="kt-subheader__main">
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                   MONITORING PERANGKAT
+                   MONITORING GATE MASUK
                 </h3>
             <span class="kt-subheader__separator kt-subheader__separator--v"></span>
 			<div class="kt-subheader__group" id="kt_subheader_search">
@@ -18,6 +18,7 @@
 			</div>
 		</div>
             <div class="kt-subheader__toolbar">
+			
                 <button type="button" class="btn btn-label-danger btn-sm" id = "buttonLogin" onclick = "displayLoginBox()"><i class="flaticon-interface-6"></i> Filter Data</button>
                 <a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
                     <i class="flaticon2-printer"></i> Export Data</button>
@@ -39,7 +40,14 @@
                     </ul>
                     <!--end::Nav-->
                 </div>
+				<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
 				
+				
+			</div>
               
             </div>
 			
@@ -62,15 +70,27 @@
             <form class="kt-form">
                 <div class="kt-portlet__body">
                     <div class="form-group row">
+					<div class="col-lg-2">
+                                <label>Cabang :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Makassar</option>
+                                      <option value="2">Pare-Pare</option>
+                                      <option value="2">Balikpapan</option>
+                                      <option value="2">Samarinda</option>
+                                      <option value="2">Tarakan</option>
+                                      <option value="2">Nunukan</option>
+                                      <option value="2">Manado</option>
+                                      <option value="2">Bitung</option>
+                                      <option value="2">Ambon - Yos Sudarso</option>
+                                      <option value="2">Ambon - Slamet Riyadi</option>
+                                      <option value="2">Ternate</option>
+                                      <option value="2">Sorong</option>
+                                      <option value="2">Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
                         <div class="col-lg-2">
-                            <label>Lokasi :</label>
-                            <select class="form-control kt-selectpicker">
-                                  <option value="2" selected>Pelindo Cabang Makassar</option>
-                                  <option value="2">Pelindo Cabang Ternate</option>
-                                  <option value="2">Pelindo Cabang Ambon</option>
-                            </select>
-                        </div>
-						<div class="col-lg-2">
                             <label>Gate :</label>
                             <select class="form-control kt-selectpicker">
                                   <option value="2" selected>Gate - 1</option>
@@ -92,14 +112,13 @@
                                   <option value="2" selected>Keseluruhan</option>
                             </select>
                         </div>
-						<div class="col-lg-2">
+                        <div class="col-lg-2">
                             <label>Status :</label>
                             <select class="form-control kt-selectpicker">
                                   <option value="2">Online</option>
                                   <option value="2" selected>Offline</option>
                             </select>
                         </div>
-                        
                         
                         
                        
@@ -219,8 +238,8 @@
 											<div class="kt-widget6">
 												<div class="kt-widget6__body">
 												<div class="kt-widget6__item">
-														<span>Nama Petugas</span>
-														<span>Non Petugas</span>
+														<span>Petugas</span>
+														<span><img src="../assets/img/users/300_2.jpg" alt="image" style="max-width:50px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
 													</div>
 													<div class="kt-widget6__item">
 														<span>Kota</span>
@@ -426,7 +445,7 @@
 												<div class="kt-widget6__body">
 												<div class="kt-widget6__item">
 														<span>Nama Petugas</span>
-														<span>Non Petugas</span>
+														<span><img src="../assets/img/users/300_1.jpg" alt="image" style="max-width:50px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
 													</div>
 													<div class="kt-widget6__item">
 														<span>Kota</span>
@@ -632,7 +651,7 @@
 												<div class="kt-widget6__body">
 												<div class="kt-widget6__item">
 														<span>Nama Petugas</span>
-														<span>Non Petugas</span>
+														<span><img src="../assets/img/users/300_3.jpg" alt="image" style="max-width:50px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
 													</div>
 													<div class="kt-widget6__item">
 														<span>Kota</span>
@@ -844,7 +863,7 @@
 												<div class="kt-widget6__body">
 												<div class="kt-widget6__item">
 														<span>Nama Petugas</span>
-														<span>Non Petugas</span>
+														<span><img src="../assets/img/users/300_4.jpg" alt="image" style="max-width:50px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
 													</div>
 													<div class="kt-widget6__item">
 														<span>Kota</span>
@@ -1050,7 +1069,7 @@
 												<div class="kt-widget6__body">
 												<div class="kt-widget6__item">
 														<span>Nama Petugas</span>
-														<span>Non Petugas</span>
+														<span><img src="../assets/img/users/300_5.jpg" alt="image" style="max-width:50px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
 													</div>
 													<div class="kt-widget6__item">
 														<span>Kota</span>
@@ -1256,7 +1275,7 @@
 												<div class="kt-widget6__body">
 												<div class="kt-widget6__item">
 														<span>Nama Petugas</span>
-														<span>Non Petugas</span>
+														<span><img src="../assets/img/users/300_6.jpg" alt="image" style="max-width:50px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
 													</div>
 													<div class="kt-widget6__item">
 														<span>Kota</span>
