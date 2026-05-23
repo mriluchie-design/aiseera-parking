@@ -238,7 +238,7 @@
 											<div class="kt-widget6">
 												<div class="kt-widget6__body">
 												<div class="kt-widget6__item">
-														<span>Nama Petugas</span>
+														<span>Petugas</span>
 														<span><img src="../assets/img/users/300_1.jpg" alt="image" style="max-width:50px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
 													</div>
 													<div class="kt-widget6__item">
@@ -444,7 +444,7 @@
 											<div class="kt-widget6">
 												<div class="kt-widget6__body">
 												<div class="kt-widget6__item">
-														<span>Nama Petugas</span>
+														<span>Petugas</span>
 														<span><img src="../assets/img/users/300_3.jpg" alt="image" style="max-width:50px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
 													</div>
 													<div class="kt-widget6__item">
@@ -650,7 +650,7 @@
 											<div class="kt-widget6">
 												<div class="kt-widget6__body">
 												<div class="kt-widget6__item">
-														<span>Nama Petugas</span>
+														<span>Petugas</span>
 														<span><img src="../assets/img/users/300_5.jpg" alt="image" style="max-width:50px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
 													</div>
 													<div class="kt-widget6__item">
@@ -862,7 +862,7 @@
 											<div class="kt-widget6">
 												<div class="kt-widget6__body">
 												<div class="kt-widget6__item">
-														<span>Nama Petugas</span>
+														<span>Petugas</span>
 														<span><img src="../assets/img/users/300_6.jpg" alt="image" style="max-width:50px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
 													</div>
 													<div class="kt-widget6__item">
@@ -1068,7 +1068,7 @@
 											<div class="kt-widget6">
 												<div class="kt-widget6__body">
 												<div class="kt-widget6__item">
-														<span>Nama Petugas</span>
+														<span>Petugas</span>
 														<span><img src="../assets/img/users/300_8.jpg" alt="image" style="max-width:50px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
 													</div>
 													<div class="kt-widget6__item">
@@ -1274,7 +1274,7 @@
 											<div class="kt-widget6">
 												<div class="kt-widget6__body">
 												<div class="kt-widget6__item">
-														<span>Nama Petugas</span>
+														<span>Petugas</span>
 														<span><img src="../assets/img/users/300_9.jpg" alt="image" style="max-width:50px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
 													</div>
 													<div class="kt-widget6__item">
