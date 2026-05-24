@@ -121,7 +121,7 @@
 															Tahun ini 
 														</span>
 													</div>
-													<span class="kt-widget24__stats kt-font-success">
+													<span class="kt-widget24__stats kt-font-brand">
 														Rp. 8.376.828.514,-
 													</span>
 												</div>
