@@ -28584,7 +28584,8 @@ strong {
     position: absolute;
     width: 0; }
   .kt-ribbon--brand .kt-ribbon__target {
-    background-color: #5d78ff;
+    background-color: #0e62ae;
+	font-size:.95rem;
     color: #ffffff; }
     .kt-ribbon--brand .kt-ribbon__target:after {
       border-color: rgba(255, 255, 255, 0.5); }
