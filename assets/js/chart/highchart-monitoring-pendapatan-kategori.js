@@ -37,7 +37,7 @@ Highcharts.chart('container-kategori', {
     },
     legend: {
         align: 'center',
-        x: 20,
+        x: 0,
         verticalAlign: 'top',
         y: 0,
         floating: true,
@@ -86,6 +86,11 @@ Highcharts.chart('container-kategori', {
     },
     {
         name: 'Muatan Kapal',
+        data: [686000000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        
+    },
+    {
+        name: 'Pas Kade',
         data: [686000000, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
         
     },
