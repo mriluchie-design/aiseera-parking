@@ -176,7 +176,7 @@ function goBack() {
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
 						<div class="col-lg-7" >
-                          <label>Tanggal Masuk :</label>
+                          <label style="color:#a2050c">Tanggal Masuk :</label>
                           <div class="input-group date">
 													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" >
 													<div class="input-group-append">
@@ -188,7 +188,7 @@ function goBack() {
                         </div>
 						
 						<div class="col-lg-5">
-                          <label>Jam Masuk :</label>
+                          <label style="color:#a2050c">Jam Masuk :</label>
                           <div class="input-group timepicker">
 													<input class="form-control form-control-sm" id="kt_timepicker_2" readonly="" placeholder="07:44:00" type="text" >
 													<div class="input-group-append">

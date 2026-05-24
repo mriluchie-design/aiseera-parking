@@ -174,7 +174,7 @@ function goBack() {
 						<div class="col-lg-7" >
                           <label style="color:#a2050c">Tanggal Masuk :</label>
                           <div class="input-group date">
-													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" disabled>
+													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2">
 													<div class="input-group-append">
 														<span class="input-group-text">
 															<i class="la la-calendar-check-o"></i>
@@ -186,7 +186,7 @@ function goBack() {
 						<div class="col-lg-5">
                           <label style="color:#a2050c">Jam Masuk :</label>
                           <div class="input-group timepicker">
-													<input class="form-control form-control-sm" id="kt_timepicker_2" readonly="" placeholder="07:44:00" type="text" disabled>
+													<input class="form-control form-control-sm" id="kt_timepicker_2" readonly="" placeholder="07:44:00" type="text">
 													<div class="input-group-append">
 														<span class="input-group-text">
 															<i class="la la-clock-o"></i>
@@ -200,7 +200,7 @@ function goBack() {
 						<div class="col-lg-7" >
                           <label style="color:#a2050c">Tanggal Keluar :</label>
                           <div class="input-group date">
-													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" disabled>
+													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2">
 													<div class="input-group-append">
 														<span class="input-group-text">
 															<i class="la la-calendar-check-o"></i>
@@ -212,7 +212,7 @@ function goBack() {
 						<div class="col-lg-5">
                           <label style="color:#a2050c">Jam Keluar :</label>
                           <div class="input-group timepicker">
-													<input class="form-control form-control-sm" id="kt_timepicker_2" readonly="" placeholder="10:44:00" type="text" disabled>
+													<input class="form-control form-control-sm" id="kt_timepicker_2" readonly="" placeholder="10:44:00" type="text" >
 													<div class="input-group-append">
 														<span class="input-group-text">
 															<i class="la la-clock-o"></i>
