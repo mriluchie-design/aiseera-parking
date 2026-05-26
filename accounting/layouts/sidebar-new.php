@@ -148,26 +148,7 @@
 </svg></span><span class="kt-menu__link-text">Buku Pembantu</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
 									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
 										<ul class="kt-menu__subnav">
-											<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Tepi Jalan Umum</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
-															<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
-																<ul class="kt-menu__subnav">
-																	<li class="kt-menu__item " aria-haspopup="true"><a href="buku-pembantu-tju-per-kolektor.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Data Per Kolektor</span></a></li>
-																	<li class="kt-menu__item " aria-haspopup="true"><a href="buku-pembantu-tju-rekap-kolektor.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Rekap Kolektor</span></a></li>
-																	<li class="kt-menu__item " aria-haspopup="true"><a href="hapus-kekurangan-setoran-tju.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Hapus Kekurangan Setoran</span></a></li>
-
-																</ul>
-															</div>
-														</li>
-											<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Parkir Langganan Bulanan</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
-															<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
-																<ul class="kt-menu__subnav">
-																	<li class="kt-menu__item " aria-haspopup="true"><a href="buku-pembantu-plb-per-kolektor.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Data Per Kolektor</span></a></li>
-																	<li class="kt-menu__item " aria-haspopup="true"><a href="buku-pembantu-plb-rekap-kolektor.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Rekap Kolektor</span></a></li>
-																	<li class="kt-menu__item " aria-haspopup="true"><a href="hapus-kekurangan-setoran-plb.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Hapus Kekurangan Setoran</span></a></li>
-
-																</ul>
-															</div>
-														</li>
+											
 														<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pegawai</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
 															<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
 																<ul class="kt-menu__subnav">
