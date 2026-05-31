@@ -164,12 +164,12 @@ function goBack() {
   <tbody><tr style="text-align:center">
     <td width="1%" bgcolor="#0961ae" style="color:#fff;">NO</td>
     <td width="7%" bgcolor="#0961ae" style="color:#fff;">KATEGORI</td>
-    <td width="6%" bgcolor="#0961ae" style="color:#fff;">NOMOR KARTU </td>
-    <td width="2%" bgcolor="#0961ae" style="color:#fff;">NO PLAT<br>KENDARAAN</td>
+    <td width="6%" bgcolor="#0961ae" style="color:#fff;">STICKER</td>
+    <td width="4%" bgcolor="#0961ae" style="color:#fff;">NO PLAT<br>KENDARAAN</td>
     <td width="5%" bgcolor="#0961ae" style="color:#fff;">TANGGAL<br>REGISTRASI</td>
     <td width="5%" bgcolor="#0961ae" style="color:#fff;">BERLAKU<br>HINGGA</td>
-    <td width="1%" bgcolor="#0961ae" style="color:#fff;">AKSI</td>
-  </tr>
+    <td width="1%" bgcolor="#0961ae" style="color:#fff;">STATUS</td>
+    </tr>
   <tr style="text-align:center">
     <td bgcolor="#f5f5f5">a</td>
     <td bgcolor="#f5f5f5">b</td>
@@ -177,148 +177,345 @@ function goBack() {
     <td bgcolor="#f5f5f5">d</td>
     <td bgcolor="#f5f5f5">e</td>
     <td bgcolor="#f5f5f5">f</td>
-    <td bgcolor="#f5f5f5">g</td>
-  </tr>
+    <td bgcolor="#f5f5f5">&nbsp;</td>
+    </tr>
   <tr>
     <td style="text-align:right">1</td>
     <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Pegawai/Instansi/Others"></td>
     <td><div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="12321355123123211" id="generalSearch" disabled>
+        							<input type="text" class="form-control form-control-sm" placeholder="" id="generalSearch" disabled>
         							<span class="kt-input-icon__icon kt-input-icon__icon--right">
-    		                            <span><i class="fa fa-credit-card"></i></span>
+    		                            <span><i class="fa fa-barcode"></i></span>
     		                        </span>
     		                    </div></td>
     <td><div class="kt-input-icon kt-input-icon--right">
       <input type="text" class="form-control form-control-sm" placeholder="DD 1111 LU" id="generalSearch" disabled />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
+      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-credit-card"></i></span> </span> </div></td>
     <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="23 September 2026" /></td>
     <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="31 Desember 2026" /></td>
-    <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button>
-      <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
-  <tr>
-    <td style="text-align:right">2</td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Sepeda Motor"></td>
-    <td><div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="12321355123123212" id="generalSearch" disabled>
-        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
-    		                            <span><i class="fa fa-credit-card"></i></span>
-    		                        </span>
-    		                    </div></td>
-    <td><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="DD 1111 LU" id="generalSearch" disabled />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="23 September 2026" /></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="31 Desember 2026" /></td>
-    <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button>
-      <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
-  <tr>
-    <td style="text-align:right">3</td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Sedan/Jeep/Pick Up"></td>
-    <td><div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="12321355123123213" id="generalSearch" disabled>
-        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
-    		                            <span><i class="fa fa-credit-card"></i></span>
-    		                        </span>
-    		                    </div></td>
-    <td><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="DD 1111 LU" id="generalSearch" disabled />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="23 September 2026" /></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="31 Desember 2026" /></td>
-    <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button>
-      <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
-  <tr>
-    <td style="text-align:right">4</td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Truck/Tronton/Trailer"></td>
-    <td><div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="12321355123123214" id="generalSearch" disabled>
-        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
-    		                            <span><i class="fa fa-credit-card"></i></span>
-    		                        </span>
-    		                    </div></td>
-    <td><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="DD 1111 LU" id="generalSearch" disabled />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="23 September 2026" /></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="31 Desember 2026" /></td>
-    <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button>
-      <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
-  <tr>
-    <td style="text-align:right">5</td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Sepeda Motor"></td>
-    <td><div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="12321355123123215" id="generalSearch" disabled>
-        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
-    		                            <span><i class="fa fa-credit-card"></i></span>
-    		                        </span>
-    		                    </div></td>
-    <td><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="DD 1111 LU" id="generalSearch" disabled />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="23 September 2026" /></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="31 Desember 2026" /></td>
-    <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button>
-      <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
-  <tr>
-    <td style="text-align:right">6</td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Truck/Tronton/Trailer"></td>
-    <td><div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="12321355123123216" id="generalSearch" disabled>
-        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
-    		                            <span><i class="fa fa-credit-card"></i></span>
-    		                        </span>
-    		                    </div></td>
-    <td><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="DD 1111 LU" id="generalSearch" disabled />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="23 September 2026" /></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="31 Desember 2026" /></td>
-    <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button>
-      <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
-</tbody></table>
-						
-						
-						
-						  
+    <td class="text-center"><span class="btn btn-label-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">Sticker</span></td>
+    </tr>
+  
+</tbody></table>				
+				
+					<!--begin::Modal 1-->
+									<div class="modal fade" id="modal_persetujuan_pending" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+									<div class="modal-content">
 
-
-
-
-											</div>
-
-										</div>
-
+										<div class="modal-header">
+										<span class="modal-title" id="exampleModalLabel"><span class="kt-badge kt-badge--danger kt-badge--inline"; style="color:#fff";>VERIFIKASI</span></span>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
 									</div>
 
+										
+										<div class="kt-portlet__body">
+											<div class="tab-content">
+											<div class="tab-pane active" id="kt_widget4_tab1_content">
+													<div class="kt-widget4">
+														<div class="kt-widget4__item">
+															<div class="kt-widget4__pic kt-widget4__pic--pic" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003" data-html="true">
+																<img src="../assets/img/users/100_8.jpg" alt="image">
+															</div>
+															<div class="kt-widget4__info">
+																<a href="#" class="kt-widget4__username">
+																	Deddy Rafsanjani, S.Sos
+																</a>
+																<p class="kt-widget4__text">
+																	Kepala Bagian Kepegawaian
+																</p>
+															</div>
+															<span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Disetujui&lt;hr&gt;11 Juli 2025 - 20:33 WITA">
+															<i class="fa flaticon2-check-mark"></i>
+														</span>
+														</div>
+														<div class="kt-widget4__item">
+															<div class="kt-widget4__pic kt-widget4__pic--pic" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000002" data-html="true">
+																<img src="../assets/img/users/100_9.jpg" alt="image">
+															</div>
+															<div class="kt-widget4__info">
+																<a href="#" class="kt-widget4__username">
+																	Oklan Zulkifli, SE
+																</a>
+																<p class="kt-widget4__text">
+																	Direktur Umum
+																</p>
+															</div>
+															<span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Disetujui&lt;hr&gt;11 Juli 2025 - 22:33 WITA">
+															<i class="fa flaticon2-check-mark"></i>
+														</span>
+														</div>
+														<div class="kt-widget4__item">
+															<div class="kt-widget4__pic kt-widget4__pic--pic"  data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001" data-html="true">
+																<img src="../assets/img/users/100_15.jpg" alt="">
+															</div>
+															<div class="kt-widget4__info">
+																<a href="#" class="kt-widget4__username">
+																	Muhammad Nasrullah, S.Kom
+																</a>
+																<p class="kt-widget4__text">
+																	Direktur Utama
+																</p>
+															</div>
+															<button type="button" class="btn btn-warning btn-sm btn-icon kt_sweetalert_demo_setuju" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Menunggu Persetujuan"><i class="fa fa-clock"></i></button>
+														</div>
+														
+														
+														
+													</div>
+												</div>
 
-                    </div>
+												
+												
+												
 
-									</div>
-
-							<!--end:: Portlet-->
-
-
-          </div>
-
-
-
-								</div>
+							<!--End::App-->
+						</div>
 
 								<!--End:: App Content-->
 							</div>
 
+									</div>
+								</div>
+							</div>
+							<!--End::Modal 1-->
+							<!--begin::Modal 1-->
+									<div class="modal fade" id="modal_persetujuan_release" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+									<div class="modal-content">
+
+										<div class="modal-header">
+										<span class="modal-title" id="exampleModalLabel"><span class="kt-badge kt-badge--danger kt-badge--inline"; style="color:#fff";>VERIFIKASI</span></span>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+
+										
+										<div class="kt-portlet__body">
+											<div class="tab-content">
+											<div class="tab-pane active" id="kt_widget4_tab1_content">
+													<div class="kt-widget4">
+														<div class="kt-widget4__item">
+															<div class="kt-widget4__pic kt-widget4__pic--pic" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003" data-html="true">
+																<img src="../assets/img/users/100_8.jpg" alt="image">
+															</div>
+															<div class="kt-widget4__info">
+																<a href="#" class="kt-widget4__username">
+																	Deddy Rafsanjani, S.Sos
+																</a>
+																<p class="kt-widget4__text">
+																	Kepala Bagian Kepegawaian
+																</p>
+															</div>
+															<span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Disetujui&lt;hr&gt;11 Juli 2025 - 20:33 WITA">
+															<i class="fa flaticon2-check-mark"></i>
+														</span>
+														</div>
+														<div class="kt-widget4__item">
+															<div class="kt-widget4__pic kt-widget4__pic--pic" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000002" data-html="true">
+																<img src="../assets/img/users/100_9.jpg" alt="image">
+															</div>
+															<div class="kt-widget4__info">
+																<a href="#" class="kt-widget4__username">
+																	Oklan Zulkifli, SE
+																</a>
+																<p class="kt-widget4__text">
+																	Direktur Umum
+																</p>
+															</div>
+															<span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Disetujui&lt;hr&gt;11 Juli 2025 - 22:33 WITA">
+															<i class="fa flaticon2-check-mark"></i>
+														</span>
+														</div>
+														<div class="kt-widget4__item">
+															<div class="kt-widget4__pic kt-widget4__pic--pic"  data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001" data-html="true">
+																<img src="../assets/img/users/100_15.jpg" alt="">
+															</div>
+															<div class="kt-widget4__info">
+																<a href="#" class="kt-widget4__username">
+																	Muhammad Nasrullah, S.Kom
+																</a>
+																<p class="kt-widget4__text">
+																	Direktur Utama
+																</p>
+															</div>
+															<span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Disetujui&lt;hr&gt;11 Juli 2025 - 22:33 WITA">
+															<i class="fa flaticon2-check-mark"></i>
+														</span>
+														</div>
+														
+														
+														
+													</div>
+												</div>
+
 							<!--End::App-->
+						</div>
+
+								<!--End:: App Content-->
+							</div>
+
+									</div>
+								</div>
+							</div>
+							<!--End::Modal 1-->
+							<!--begin::Modal 2-->
+									<div class="modal fade" id="modal_registrasi_sticker" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+									<div class="modal-content">
+
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon" style="font-size:25px;"><i class="kt-font-brand fa fa-barcode"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger">REGISTRASI STICKER</h3>
+											</div>
+											<div class="kt-portlet__head-toolbar">
+												<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">X</button>
+											</div>
+										</div>
+										<div class="kt-portlet__body">
+											<div class="tab-content">
+												<div class="tab-pane active" id="kt_tabs_7_1" role="tabpanel">
+													<div class="form-group row">
+													<div class="col-lg-12">
+														<label>Sticker Kendaraan :</label>
+														<div class="kt-input-icon kt-input-icon--right">
+        							<input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch">
+        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
+    		                            <span><i class="fa fa-credit-card"></i></span>
+    		                        </span>
+    		                    </div>
+
+												</div>
+												
+												
+												</div>
+												
+												</div>
+												
+												
+
+												</div>
+												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+												
+												
+												
+									<div class="kt-portlet__foot kt-align-center">
+												<div class="">
+<button type="reset" class="btn btn-secondary btn-sm">Batal</button>
+													<button type="reset" class="btn btn-success btn-sm"><i class="fa fa-check-circle"></i>Simpan</button>
+												</div>
+											</div>
+
+
+
+
+									</div>
+
+									</div>
+								</div>
+								</div>
+								</div>
+								</div>
+							<!--End::Modal 2-->
+							<!--begin::Modal 3-->
+									<div class="modal fade" id="modal_ubah_sticker" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+									<div class="modal-content">
+
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon" style="font-size:25px;"><i class="kt-font-brand fa fa-barcode"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger">UBAH STICKER</h3>
+											</div>
+											<div class="kt-portlet__head-toolbar">
+												<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">X</button>
+											</div>
+										</div>
+										<div class="kt-portlet__body">
+											<div class="tab-content">
+												<div class="tab-pane active" id="kt_tabs_7_1" role="tabpanel">
+													<div class="form-group row">
+													<div class="col-lg-12">
+														<label>Sticker Kendaraan :</label>
+														<div class="kt-input-icon kt-input-icon--right">
+        							<input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch">
+        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
+    		                            <span><i class="fa fa-credit-card"></i></span>
+    		                        </span>
+    		                    </div>
+
+												</div>
+												
+												
+												</div>
+												
+												</div>
+												
+												
+
+												</div>
+												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+												
+												
+												
+									<div class="kt-portlet__foot kt-align-center">
+												<div class="">
+<button type="reset" class="btn btn-secondary btn-sm">Batal</button>
+													<button type="reset" class="btn btn-success btn-sm"><i class="fa fa-check-circle"></i>Simpan</button>
+												</div>
+											</div>
+
+
+
+
+									</div>
+
+									</div>
+								</div>
+								</div>
+								</div>
+								</div>
+							<!--End::Modal 3-->
+							<!--begin::Modal 4-->
+									<div class="modal fade" id="modal_history_sticker" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+									<div class="modal-content">
+
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon-earth-globe"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger">HISTORY STICKER</h3>
+											</div>
+											<div class="kt-portlet__head-toolbar">
+												<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">X</button>
+											</div>
+										</div>
+										<div class="kt-portlet__body">
+											 <div id="googleMap" style="width:100%;height:680px;"></div>
+									</div>
+								</div>
+							</div>
+							<!--End::Modal 4-->
+                    
+									<!--end: Datatable -->
+								</div>
 
 						<!-- end:: Content -->
-					</div>
 
 
+
+  </div>
+  </div>
   </div>
 </div>
 
@@ -327,6 +524,16 @@ function goBack() {
 							</div>
 
             </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
 <!--begin::Page Scripts(used by this page) -->
 
 <?php require '../layouts/footer.php' ?>

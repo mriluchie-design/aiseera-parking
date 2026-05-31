@@ -10393,8 +10393,8 @@ input.btn.btn-label-info {
     color: #ffffff; }
 
 .btn.btn-label-warning {
-  background-color: #f9d5b7;
-  color: #c66618;
+  background-color: #f3e9ff;
+  color: #5f2c9b;
   cursor: text !important; }
 
 .btn.btn-label-warning-o2 {
@@ -23832,7 +23832,7 @@ strong {
         -ms-flex-pack: center;
         justify-content: center;
         line-height: 0;
-        color: #74788d; }
+        color: #0961ae; }
     .kt-input-icon > .kt-input-icon__icon [class^="la-"],
     .kt-input-icon > .kt-input-icon__icon [class*=" la-"] {
       font-size: 1.4em; }
