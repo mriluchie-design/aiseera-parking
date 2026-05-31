@@ -365,12 +365,7 @@
 																				<span class="kt-nav__link-text">History Sticker</span>
 																			</a>
 																		</li>
-																		<li class="kt-nav__item" data-toggle="modal" data-target="#modal_history_pembayaran" data-skin="brand" data-html="true">
-																			<a href="#" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-coins"></i>
-																				<span class="kt-nav__link-text">History Pembayaran</span>
-																			</a>
-																		</li>
+																		
 																		<li class="kt-nav__item" data-toggle="modal" data-target="#modal_suspend_member" data-skin="brand" data-html="true">
 																			<a href="#" class="kt-nav__link">
 																		
@@ -413,6 +408,7 @@
 																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 																	<ul class="kt-nav">
 																	<li class="kt-nav__item">
+
 																			<a href="member-detail.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-eye"></i>
 																				<span class="kt-nav__link-text">Lihat Profil Member</span>
@@ -427,20 +423,27 @@
 																		</li>
 																		
 																		
-																		<li class="kt-nav__item">
-																			<a href="sticker-member.php" class="kt-nav__link">
+																		<li class="kt-nav__item" data-toggle="modal" data-target="#modal_registrasi_sticker" data-skin="brand" data-html="true">
+																			<a href="#" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-barcode"></i>
-																				<span class="kt-nav__link-text">Register Sticker Member</span>
+																				<span class="kt-nav__link-text">Registrasi Sticker</span>
+																			</a>
+																		</li>
+																		<li class="kt-nav__item" data-toggle="modal" data-target="#modal_ubah_sticker" data-skin="brand" data-html="true">
+																			<a href="#" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-barcode"></i>
+																				<span class="kt-nav__link-text">Ubah Sticker</span>
 																			</a>
 																		</li>
 																		<li class="kt-nav__item">
-																			<a href="history-member.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-coins"></i>
-																				<span class="kt-nav__link-text">History Pembayaran</span>
+																			<a href="member-history-sticker.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-barcode"></i>
+																				<span class="kt-nav__link-text">History Sticker</span>
 																			</a>
 																		</li>
-																		<li class="kt-nav__item">
-																			<a href="member-suspend.php" class="kt-nav__link">
+																		
+																		<li class="kt-nav__item" data-toggle="modal" data-target="#modal_suspend_member" data-skin="brand" data-html="true">
+																			<a href="#" class="kt-nav__link">
 																		
 																				<i class="kt-nav__link-icon fa fa-user-slash"></i>
 																				<span class="kt-nav__link-text">Suspend</span>
@@ -482,6 +485,7 @@
 																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 																	<ul class="kt-nav">
 																	<li class="kt-nav__item">
+
 																			<a href="member-detail.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-eye"></i>
 																				<span class="kt-nav__link-text">Lihat Profil Member</span>
@@ -496,20 +500,27 @@
 																		</li>
 																		
 																		
-																		<li class="kt-nav__item">
-																			<a href="sticker-member.php" class="kt-nav__link">
+																		<li class="kt-nav__item" data-toggle="modal" data-target="#modal_registrasi_sticker" data-skin="brand" data-html="true">
+																			<a href="#" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-barcode"></i>
-																				<span class="kt-nav__link-text">Register Sticker Member</span>
+																				<span class="kt-nav__link-text">Registrasi Sticker</span>
+																			</a>
+																		</li>
+																		<li class="kt-nav__item" data-toggle="modal" data-target="#modal_ubah_sticker" data-skin="brand" data-html="true">
+																			<a href="#" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-barcode"></i>
+																				<span class="kt-nav__link-text">Ubah Sticker</span>
 																			</a>
 																		</li>
 																		<li class="kt-nav__item">
-																			<a href="history-member.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-coins"></i>
-																				<span class="kt-nav__link-text">History Pembayaran</span>
+																			<a href="member-history-sticker.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-barcode"></i>
+																				<span class="kt-nav__link-text">History Sticker</span>
 																			</a>
 																		</li>
-																		<li class="kt-nav__item">
-																			<a href="member-suspend.php" class="kt-nav__link">
+																		
+																		<li class="kt-nav__item" data-toggle="modal" data-target="#modal_suspend_member" data-skin="brand" data-html="true">
+																			<a href="#" class="kt-nav__link">
 																		
 																				<i class="kt-nav__link-icon fa fa-user-slash"></i>
 																				<span class="kt-nav__link-text">Suspend</span>
@@ -546,24 +557,58 @@
   <td style="text-align:center" nowrap="nowrap"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
       <ul class="kt-nav">
-        <li class="kt-nav__item"> <a href="member-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Profil Member</span> </a> </li>
-        <li class="kt-nav__item"> <a href="ubah-member.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Ubah Data Member</span> </a> </li>
-        <li class="kt-nav__item">
-																			<a href="sticker-member.php" class="kt-nav__link">
+																	<li class="kt-nav__item">
+
+																			<a href="member-detail.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Lihat Profil Member</span>
+																			</a>
+																		</li>
+																		
+																		<li class="kt-nav__item">
+																			<a href="ubah-member.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-edit"></i>
+																				<span class="kt-nav__link-text">Ubah Data Member</span>
+																			</a>
+																		</li>
+																		
+																		
+																		<li class="kt-nav__item" data-toggle="modal" data-target="#modal_registrasi_sticker" data-skin="brand" data-html="true">
+																			<a href="#" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-barcode"></i>
-																				<span class="kt-nav__link-text">Register Sticker Member</span>
+																				<span class="kt-nav__link-text">Registrasi Sticker</span>
 																			</a>
 																		</li>
-        <li class="kt-nav__item">
-																			<a href="history-member.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-coins"></i>
-																				<span class="kt-nav__link-text">History Pembayaran</span>
+																		<li class="kt-nav__item" data-toggle="modal" data-target="#modal_ubah_sticker" data-skin="brand" data-html="true">
+																			<a href="#" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-barcode"></i>
+																				<span class="kt-nav__link-text">Ubah Sticker</span>
 																			</a>
 																		</li>
-        <li class="kt-nav__item"> <a href="member-suspend.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-slash"></i> <span class="kt-nav__link-text">Suspend</span> </li>
-        </a>
-        <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
-        </ul>
+																		<li class="kt-nav__item">
+																			<a href="member-history-sticker.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-barcode"></i>
+																				<span class="kt-nav__link-text">History Sticker</span>
+																			</a>
+																		</li>
+																		
+																		<li class="kt-nav__item" data-toggle="modal" data-target="#modal_suspend_member" data-skin="brand" data-html="true">
+																			<a href="#" class="kt-nav__link">
+																		
+																				<i class="kt-nav__link-icon fa fa-user-slash"></i>
+																				<span class="kt-nav__link-text">Suspend</span>
+																			</li></a>
+																		
+																		
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																			
+																		</li>
+																		
+																	</ul>
       </div>
   </div></td>
 </tr>
