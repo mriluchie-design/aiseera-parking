@@ -163,7 +163,18 @@
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected="">Aktif</option>
-                                      <option value="2">Expired</option>
+                                      <option value="2">Berakhir</option>
+                                      <option value="2">Suspend</option>
+                                                                           
+                                  </select>
+                            </div>
+							<div class="col-lg-1">
+                                <label>Pembayaran :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Non Tunai</option>
+                                      <option value="2">Tunai</option>
+                                      <option value="2">Pending</option>
                                                                            
                                   </select>
                             </div>
