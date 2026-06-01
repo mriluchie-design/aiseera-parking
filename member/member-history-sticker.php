@@ -143,7 +143,7 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:left">1 Januari 2025</td>
 												<td nowrap="nowrap" style="text-align:left">31 Desember 2025</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000003MP1025" data-html="true"> <img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-danger btn-sm">Berakhir</button></td>
+												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm">Renew</button></td>
 												<td class="text-center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355135&lt;hr&gt;e-Wallet&lt;hr&gt;Gopay" data-html="true">Non Tunai</span></td>
 												</tr>
 										  <tr>

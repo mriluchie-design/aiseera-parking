@@ -357,7 +357,8 @@
 										<div class="kt-portlet__head">
 											<div class="kt-portlet__head-label">
 												<h3 class="kt-portlet__head-title">
-													Rekap Detail Pendapatan [ Member / Pass Tahunan ]
+													Detail Pendapatan &nbsp;&nbsp;|&nbsp;&nbsp;<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
+					Member </span>
 												</h3>
 											</div>
 											<div class="kt-portlet__head-toolbar">

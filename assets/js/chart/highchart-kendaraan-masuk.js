@@ -81,6 +81,11 @@ Highcharts.chart('container-kendaraan-masuk', {
                     y: 250,
                     drilldown: 'Firefox'
                 },
+				{
+                    name: 'Pass Kade',
+                    y: 250,
+                    drilldown: 'Firefox'
+                },
                 
             ]
         }

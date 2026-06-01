@@ -134,10 +134,10 @@
 												<div class="kt-widget24__details">
 													<div class="kt-widget24__info">
 														<h4 class="kt-widget24__title">
-															Total
+															Kendaraan Masuk
 														</h4>
 														<span class="kt-widget24__desc">
-															Kendaraan Masuk
+															Total Keseluruhan
 														</span>
 													</div>
 													<span class="kt-widget24__stats kt-font-brand">
@@ -157,10 +157,10 @@
 												<div class="kt-widget24__details">
 													<div class="kt-widget24__info">
 														<h4 class="kt-widget24__title">
-															Total
+															Kendaraan Keluar
 														</h4>
 														<span class="kt-widget24__desc">
-															Kendaraan Keluar
+															Total Keseluruhan
 														</span>
 													</div>
 													<span class="kt-widget24__stats kt-font-success">

@@ -127,7 +127,7 @@
 															Total
 														</h4>
 														<span class="kt-widget24__desc">
-															Kendaraan Masuk
+															Kendaraan Keluar
 														</span>
 													</div>
 													<span class="kt-widget24__stats kt-font-brand">
@@ -147,7 +147,7 @@
 												<div class="kt-widget24__details">
 													<div class="kt-widget24__info">
 														<h4 class="kt-widget24__title">
-															Total
+															Bulan ini
 														</h4>
 														<span class="kt-widget24__desc">
 															Kendaraan Keluar
