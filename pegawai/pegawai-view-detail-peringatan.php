@@ -27,7 +27,7 @@
 								</div>
 								<div class="kt-subheader__toolbar">
 									<div class="dropdown dropdown-inline" data-placement="left">
-											<a href="surat-peringatan.php" class="btn btn-label btn-sm" data-toggle="dropdown" onclick="goBack()">
+											<a href="surat-peringatan.php" class="btn btn-label-brand btn-sm" data-toggle="dropdown" onclick="goBack()">
 												<i class="flaticon-reply"></i> Kembali
                         <script>
 function goBack() {
@@ -538,7 +538,7 @@ function goBack() {
 										<div class="tab-content" style="background:#f2f3f8;overflow:scroll;height:800px">
 				<div class="tab-pane active" id="kt_tabs_1_1" role="tabpanel">
 					<div class="bg-white w-50 ml-auto mr-auto mt-3">
-						<img src="../assets/img/header.png" style="width: 700px; display:block; margin-left:auto;margin-right:auto;margin-bottom:20px;padding-top:20px;" />
+						<img src="../assets/img/header.png" style="width: 787px; display:block; margin-left:40px;margin-right:auto;margin-bottom:20px;padding-top:20px;" />
 						<table align="center" border="0" cellpadding="1" style="width: 600px; text-align:justify; line-height:1.5; font-family: Roboto; font-size: 13px;">
 							<tr>
 								<th colspan="11" class="text-center"><span style="font-family: Roboto; font-size: 13px;"><u>SURAT PERINGATAN II</b></u></span><br /><span style="font-family: Roboto; font-size: 13px; margin-bottom:3rem">
