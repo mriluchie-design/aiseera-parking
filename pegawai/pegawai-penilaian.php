@@ -265,7 +265,7 @@
 <div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
 							
 										<div class="kt-portlet__body">
-											<div class="form-group row">
+											<div>
                         <table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="m_table_1">
 										<thead style="text-align:center">
 											<tr>

@@ -76,9 +76,9 @@ function goBack() {
 							<div class="tab-content" style="background:#f2f3f8;overflow:scroll;height:800px">
 							<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid mt-3">
 								<div class="bg-white w-50 ml-auto mr-auto">
-	<img src="../assets/img/header-potrait.png" style="width:787px; display:block; margin-left:0px;margin-right:auto;margin-bottom:40px;padding-top:0px;"/>
+	<img src="../assets/img/header.png" style="width:787px; display:block; margin-left:40px;margin-right:auto;margin-bottom:40px;padding-top:0px;"/>
 						<div>&nbsp;</div>
-						<table width="600" style="position:relative;top:-130px;" align="center" cellspacing="1" id="kt_table_1">
+						<table width="600" style="position:relative;top:-80px;" align="center" cellspacing="1" id="kt_table_1">
 										<tbody>
 											<tr>
 											  <td width="10%" rowspan="5" style="text-align:center"><img src="../assets/media/users/100_16.jpg" alt="image"></td>
@@ -111,7 +111,7 @@ function goBack() {
 										</tbody>
 									</table>
 									<div>&nbsp;</div>
-						<table width="600" style="position:relative;top:-130px; margin-bottom:-100px;" align="center" cellspacing="2" class="table-bordered table-checkable" id="kt_table_1">
+						<table width="600" style="position:relative;top:-70px; margin-bottom:-100px;" align="center" cellspacing="2" class="table-bordered table-checkable" id="kt_table_1">
 										<thead>
 											<tr style="text-align:center">
 											  <th width="15%" colspan="2" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">ELEMENT INDIKATOR PENILAIAN</th>
