@@ -10393,7 +10393,7 @@ input.btn.btn-label-info {
     color: #ffffff; }
 
 .btn.btn-label-warning {
-  background-color: #f3e9ff;
+  background-color: #e3d7f4;
   color: #5f2c9b;
   cursor: text !important; }
 
@@ -10417,8 +10417,8 @@ input.btn.btn-label-warning {
   input.btn.btn-label-warning:focus,
   input.btn.btn-label-warning:hover,
   input.btn.btn-label-warning.active {
-    background-color: #ffb822;
-    color: #111111; }
+    background-color: #5f2c9b;
+    color: #fff; }
 
 .btn.btn-label-danger {
   background-color: rgba(253, 57, 122, 0.1);

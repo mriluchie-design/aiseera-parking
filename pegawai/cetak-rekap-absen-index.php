@@ -78,8 +78,8 @@ function goBack() {
 							<div class="tab-content" style="background:#f2f3f8;overflow:scroll;height:800px">
 							<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid mt-3">
 								<div class="bg-white w-50 ml-auto mr-auto">
-	<img src="../assets/img/header-potrait.png" style="width:787px; display:block; margin-left:0px;margin-right:auto;margin-bottom:40px;padding-top:0px;"/>
-						<table class="table-checkable" align="center" width="650" border="0" style="line-height:1.5; position:relative;top:-120px; font-family: Roboto; font-size: 12px;" id="kt_table_1">
+	<img src="../assets/img/header.png" style="width:787px; display:block; margin-left:40px;margin-right:auto;margin-bottom:40px;padding-top:0px;"/>
+						<table class="table-checkable" align="center" width="650" border="0" style="line-height:1.5; position:relative;top:-70px; font-family: Roboto; font-size: 12px;" id="kt_table_1">
   <tr>
     <td colspan="10" style="text-align: center"><strong><U>DATA REKAP ABSEN PEGAWAI<U></strong></td>
   </tr>
@@ -121,7 +121,7 @@ function goBack() {
     <td colspan="10">&nbsp;</td>
   </tr>
 </table>
-						<table align="center" border="1" cellpadding="5" style="width: 650px; position:relative;top:-120px; text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px;">
+						<table align="center" border="1" cellpadding="5" style="width: 650px; position:relative;top:-80px; text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px;">
   <tr>
     <td width="1%" rowspan="2" bgcolor="#f1f1f1" style="text-align:center"><b>No<b></td>
     <td width="18%" rowspan="2" bgcolor="#f1f1f1" style="text-align:center"><b>Tanggal<b></td>
@@ -193,7 +193,7 @@ function goBack() {
   </tr>
   
 </table>
-<table align="center" class="footnote-1" width="650px" style="margin-top:10px; padding-top:5px; padding-bottom:20px;">
+<table align="center" class="footnote-1" width="676px" style="margin-top:450px; padding-top:55px; padding-bottom:20px;">
         <thead>
             <tr><th></th>
             <th></th>
@@ -229,12 +229,12 @@ function goBack() {
                 <td colspan="4" style="border-bottom: 1px solid #ccc;"></td>
             </tr>
             <tr style=" width:650px;">
-              <td colspan="4" style="text-align: center;"><span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA</i></span></td>
+              <td colspan="4" style="text-align: left;"><span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA</i></span></td>
             </tr>
 
         </tbody>
     </table>
-  <img src="../assets/img/footer.png" style="width:787px; display:block; margin-left:auto; margin-top: 10px; margin-right:auto;margin-bottom:20px;padding-bottom:0px" />
+  <img src="../assets/img/footer-aksikode-release.png" style="width:676px; display:block; margin-left:auto; margin-top: 30px; margin-right:auto;margin-bottom:20px;padding-bottom:30px" />
 
   
 								</div>
