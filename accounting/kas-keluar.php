@@ -225,11 +225,11 @@ License: You must have a valid license purchased only from themeforest(the above
 																					  <td class="nomor">110102.2023.08.00001</td>
 																						<td class="tanggal">01/08/2023 - 16:22</td>
 																						<td class="kas" style="text-align:center">11.01.02<hr>Kas Bendahara Pengeluaran</td>
-																						<td class="penerima">PT. iLugroup Multimedia Indonesia</td>
+																						<td class="penerima">PT. Aksi Kode Indonesia</td>
 																						<td class="keterangan">Pembayaran Jasa Aplikasi</td>
 																						<td class="nilai"><div class="input-group input-group-sm">
 																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000.000" aria-describedby="basic-addon1">
+																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000" aria-describedby="basic-addon1">
 																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																					    </div></td>
 																						<td class="void" style="text-align:center"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Tidak</span></td>
@@ -242,6 +242,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																						  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 																						    <ul class="kt-nav">
 																						      <li class="kt-nav__item"> <a href="kas-keluar-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+																						      <li class="kt-nav__item"> <a href="print-kas-keluar.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-print"></i> <span class="kt-nav__link-text">Print</span> </a> </li>
 																							  
 																						      <li class="kt-nav__item"> <a href="kas-keluar-edit.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
 																						      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
@@ -258,7 +259,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																						<td class="keterangan">Pembayaran Brownies</td>
 																						<td class="nilai"><div class="input-group input-group-sm">
 																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000.000" aria-describedby="basic-addon1">
+																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000" aria-describedby="basic-addon1">
 																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																					    </div></td>
 																						<td class="void" style="text-align:center"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">Ya</span></td>
@@ -273,18 +274,8 @@ License: You must have a valid license purchased only from themeforest(the above
 																						  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 																						    <ul class="kt-nav">
 																						      <li class="kt-nav__item"> <a href="kas-keluar-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-																							  <li class="kt-nav__item">
-																			<a href="print-kas-keluar.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Print Bukti Kas Keluar</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="print-persetujuan-pembayaran.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Print Persetujuan Pembayaran</span>
-																			</a>
-																		</li>
+																						      <li class="kt-nav__item"> <a href="print-kas-keluar.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-print"></i> <span class="kt-nav__link-text">Print</span> </a> </li>
+																							  
 																						      <li class="kt-nav__item"> <a href="kas-keluar-edit.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
 																						      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
 																					        </ul>

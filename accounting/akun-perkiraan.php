@@ -212,12 +212,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																</a>
 																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="akun-detail.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
+																	
 																		
 																		<li class="kt-nav__item">
 																			<a href="akun-edit.php" class="kt-nav__link">
@@ -232,12 +227,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																			</a>
 																			
 																		</li>
-																		<li class="kt-nav__item">
-																			<a href="hr-pegawai-log.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon flaticon-share"></i>
-																				<span class="kt-nav__link-text">History Log</span>
-																			</a>
-																		</li>
+																		
 																	</ul>
 																</div>
 															</div></td>
@@ -260,12 +250,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																</a>
 																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="akun-detail.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
+																	
 																		
 																		<li class="kt-nav__item">
 																			<a href="akun-edit.php" class="kt-nav__link">
@@ -280,12 +265,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																			</a>
 																			
 																		</li>
-																		<li class="kt-nav__item">
-																			<a href="hr-pegawai-log.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon flaticon-share"></i>
-																				<span class="kt-nav__link-text">History Log</span>
-																			</a>
-																		</li>
+																		
 																	</ul>
 																</div>
 															</div></td>
@@ -308,12 +288,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																</a>
 																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="akun-detail.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
+																	
 																		
 																		<li class="kt-nav__item">
 																			<a href="akun-edit.php" class="kt-nav__link">
@@ -328,12 +303,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																			</a>
 																			
 																		</li>
-																		<li class="kt-nav__item">
-																			<a href="hr-pegawai-log.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon flaticon-share"></i>
-																				<span class="kt-nav__link-text">History Log</span>
-																			</a>
-																		</li>
+																		
 																	</ul>
 																</div>
 															</div></td>
@@ -356,12 +326,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																</a>
 																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="akun-detail.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
+																	
 																		
 																		<li class="kt-nav__item">
 																			<a href="akun-edit.php" class="kt-nav__link">
@@ -376,12 +341,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																			</a>
 																			
 																		</li>
-																		<li class="kt-nav__item">
-																			<a href="hr-pegawai-log.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon flaticon-share"></i>
-																				<span class="kt-nav__link-text">History Log</span>
-																			</a>
-																		</li>
+																		
 																	</ul>
 																</div>
 															</div></td>
@@ -404,12 +364,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																</a>
 																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="akun-detail.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
+																	
 																		
 																		<li class="kt-nav__item">
 																			<a href="akun-edit.php" class="kt-nav__link">
@@ -424,12 +379,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																			</a>
 																			
 																		</li>
-																		<li class="kt-nav__item">
-																			<a href="hr-pegawai-log.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon flaticon-share"></i>
-																				<span class="kt-nav__link-text">History Log</span>
-																			</a>
-																		</li>
+																		
 																	</ul>
 																</div>
 															</div></td>
@@ -452,12 +402,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																</a>
 																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="akun-detail.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
+																	
 																		
 																		<li class="kt-nav__item">
 																			<a href="akun-edit.php" class="kt-nav__link">
@@ -472,12 +417,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																			</a>
 																			
 																		</li>
-																		<li class="kt-nav__item">
-																			<a href="hr-pegawai-log.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon flaticon-share"></i>
-																				<span class="kt-nav__link-text">History Log</span>
-																			</a>
-																		</li>
+																		
 																	</ul>
 																</div>
 															</div></td>
@@ -500,12 +440,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																</a>
 																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="akun-detail.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
+																	
 																		
 																		<li class="kt-nav__item">
 																			<a href="akun-edit.php" class="kt-nav__link">
@@ -520,12 +455,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																			</a>
 																			
 																		</li>
-																		<li class="kt-nav__item">
-																			<a href="hr-pegawai-log.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon flaticon-share"></i>
-																				<span class="kt-nav__link-text">History Log</span>
-																			</a>
-																		</li>
+																		
 																	</ul>
 																</div>
 															</div></td>
@@ -548,12 +478,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																</a>
 																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="akun-detail.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
+																	
 																		
 																		<li class="kt-nav__item">
 																			<a href="akun-edit.php" class="kt-nav__link">
@@ -568,12 +493,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																			</a>
 																			
 																		</li>
-																		<li class="kt-nav__item">
-																			<a href="hr-pegawai-log.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon flaticon-share"></i>
-																				<span class="kt-nav__link-text">History Log</span>
-																			</a>
-																		</li>
+																		
 																	</ul>
 																</div>
 															</div></td>
@@ -596,12 +516,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																</a>
 																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="akun-detail.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
+																	
 																		
 																		<li class="kt-nav__item">
 																			<a href="akun-edit.php" class="kt-nav__link">
@@ -616,12 +531,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																			</a>
 																			
 																		</li>
-																		<li class="kt-nav__item">
-																			<a href="hr-pegawai-log.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon flaticon-share"></i>
-																				<span class="kt-nav__link-text">History Log</span>
-																			</a>
-																		</li>
+																		
 																	</ul>
 																</div>
 															</div></td>
@@ -644,12 +554,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																</a>
 																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="akun-detail.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
+																	
 																		
 																		<li class="kt-nav__item">
 																			<a href="akun-edit.php" class="kt-nav__link">
@@ -664,12 +569,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																			</a>
 																			
 																		</li>
-																		<li class="kt-nav__item">
-																			<a href="hr-pegawai-log.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon flaticon-share"></i>
-																				<span class="kt-nav__link-text">History Log</span>
-																			</a>
-																		</li>
+																		
 																	</ul>
 																</div>
 															</div></td>
