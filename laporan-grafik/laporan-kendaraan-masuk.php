@@ -424,7 +424,31 @@
 											      </div>
 												  </div></td>
 										  </tr>
-
+<tr>
+												<td id="kt_table_1">3</td>
+												<td nowrap="nowrap" style="text-align:center">Makassar</td>
+												<td nowrap="nowrap" style="text-align:center">12321355123123211</td>
+												<td nowrap="nowrap" style="text-align:center">-</td>
+												<td nowrap="nowrap" style="text-align:center">-</td>
+												<td nowrap="nowrap" style="text-align:left">Reguler - Motor</td>
+												<td nowrap="nowrap" style="text-align:left">DD 1111 LLU</td>
+												<td nowrap="nowrap" style="text-align:center">1 September 2026<hr />15:36:00 WITA</td>
+												<td style="text-align:center">2</td>
+												<td style="text-align:center">Masuk<hr>Motor - 1</td>
+												<td style="text-align:center"><button type="button" class="btn btn-label-warning btn-sm">Berangkat</button></td>
+												<td class="text-center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355135&lt;hr&gt;e-Wallet&lt;hr&gt;Gopay" data-html="true">Non Tunai</span></td>
+												<td style="text-align:center" nowrap></td>
+												<td style="text-align:center" nowrap></td>
+												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+												    <ul class="kt-nav">
+												      <li class="kt-nav__item"> <a href="kendaraan-masuk-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="cetak-struk-in.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-print"></i> <span class="kt-nav__link-text">Cetak</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+											        </ul>
+											      </div>
+												  </div></td>
+										  </tr>
 <tr>
 												<td id="kt_table_1">3</td>
 												<td style="text-align:center" nowrap>Makassar</td>

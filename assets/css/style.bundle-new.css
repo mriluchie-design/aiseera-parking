@@ -10477,8 +10477,9 @@ input.btn.btn-label-facebook {
     color: #ffffff; }
 
 .btn.btn-label-google {
-  background-color: rgba(220, 78, 65, 0.1);
-  color: #dc4e41;
+  background-color: rgba(244, 200, 181, 0.5);
+
+  color: #d34e13;
   cursor: text !important; }
 
 .btn.btn-label-google-o2 {
