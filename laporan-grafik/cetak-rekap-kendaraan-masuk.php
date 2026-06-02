@@ -79,7 +79,7 @@ function goBack() {
 							<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid mt-3">
 								<div class="bg-white w-70 ml-auto mr-auto">
 	
-						<table class="table-checkable" align="center" width="1350" border="0" style="line-height:1.5; position:relative;top:70px; font-family: Roboto; font-size: 12px;" id="kt_table_1">
+						<table class="table-checkable" align="center" width="1450" border="0" style="line-height:1.5; position:relative;top:70px; font-family: Roboto; font-size: 12px;" id="kt_table_1">
   <tr>
     <td colspan="7" style="text-align: center"><strong><U>DATA REKAP KENDARAAN MASUK<U></strong></td>
   </tr>
@@ -117,13 +117,12 @@ function goBack() {
     <td colspan="7">&nbsp;</td>
   </tr>
 </table>
-<table align="center" border="1" cellpadding="5" style="width: 1350px; position:relative;top:70px; text-align:justify; line-height:1.5; font-family: Roboto; font-size: 12px;">
+<table align="center" border="1" cellpadding="5" style="width: 1450px; position:relative;top:70px; text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px;">
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Barcode Karcis</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">ID E-Money</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Barcode Karcis<br>/ E-Money</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Member</th>
 											  <th colspan="7" bgcolor="#feffed">Kendaraan</th>
 											  <th colspan="2" bgcolor="#f7fcff">Foto </th>
@@ -133,7 +132,7 @@ function goBack() {
 											  <th width="2%" bgcolor="#feffed">No. Plat</th>
 											  <th width="3%" bgcolor="#feffed">Waktu Masuk</th>
 											  <th width="1%" bgcolor="#feffed">Gate</th>
-											  <th width="5%" bgcolor="#feffed">Jalur</th>
+											  <th width="4%" bgcolor="#feffed">Jalur</th>
 											  <th width="3%" bgcolor="#feffed">Status</th>
 											  <th width="7%" bgcolor="#feffed">Pembayaran</th>
 											  <th width="1%" bgcolor="#f7fcff">Webcam</th>
@@ -144,7 +143,6 @@ function goBack() {
 											<tr>
 												<td id="kt_table_1">1</td>
 												<td style="text-align:center" nowrap>Makassar</td>
-												<td style="text-align:center" nowrap>-</td>
 												<td style="text-align:center" nowrap>12321355123123211</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
 												<td nowrap="nowrap" style="text-align:left">Reguler - Mobil</td>
@@ -154,24 +152,23 @@ function goBack() {
 											    15:36:00 WITA</td>
 												<td style="text-align:center">1</td>
 												<td style="text-align:center">Masuk<hr>Mobil - 1</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Parkir</button></td>
-												<td class="text-center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355135&lt;hr&gt;e-Money&lt;hr&gt;Mandiri" data-html="true">Non Tunai</span></td>
+												<td style="text-align:center">Parkir</td>
+												<td class="text-center">ID Reff : 01521531355135<hr />e-Money<hr />Mandiri</td>
 												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-mobil-masuk.png" alt="image" /></a></td>
 												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-mobil-masuk.png" alt="image" /></a></td>
 										  </tr>
 										  <tr>
 												<td id="kt_table_1">2</td>
 												<td nowrap="nowrap" style="text-align:center">Makassar</td>
-												<td nowrap="nowrap" style="text-align:center">12321355123123211</td>
-												<td nowrap="nowrap" style="text-align:center">-</td>
+												<td nowrap="nowrap" style="text-align:center">12321355123123212</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
 												<td nowrap="nowrap" style="text-align:left">Reguler - Motor</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LLU</td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026<hr />15:36:00 WITA</td>
 												<td style="text-align:center">2</td>
 												<td style="text-align:center">Masuk<hr>Motor - 1</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Keluar</button></td>
-												<td class="text-center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355135&lt;hr&gt;e-Wallet&lt;hr&gt;Gopay" data-html="true">Non Tunai</span></td>
+												<td style="text-align:center">Keluar</td>
+												<td class="text-center">ID Reff : 01521531355135<hr />e-Money<hr />Mandiri</td>
 												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-motor-masuk-webcam.png" alt="image" /></a></td>
 												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-motor-masuk.png" alt="image" /></a></td>
 										  </tr>
@@ -180,8 +177,7 @@ function goBack() {
 												<td id="kt_table_1">3</td>
 												<td style="text-align:center" nowrap>Makassar</td>
 												<td style="text-align:center" nowrap>-</td>
-												<td style="text-align:center" nowrap>-</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"> <img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center">12321355123123211<hr>Muhammad Nasrullah, S.Kom</td>
 												<td nowrap="nowrap" style="text-align:left">Sedan/Jeep/Pick Up</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
@@ -189,7 +185,7 @@ function goBack() {
 											    15:36:00 WITA</td>
 												<td style="text-align:center">2</td>
 												<td style="text-align:center">Masuk<hr>Motor - 2</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Parkir</button></td>
+												<td style="text-align:center">Parkir</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
 												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-motor-masuk-webcam-2.png" alt="image" /></a></td>
 												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-motor-masuk-2.png" alt="image" /></a></td>
@@ -197,7 +193,6 @@ function goBack() {
 <tr>
   <td id="kt_table_4">4</td>
   <td style="text-align:center" nowrap="nowrap">Makassar</td>
-  <td style="text-align:center" nowrap="nowrap">-</td>
   <td style="text-align:center" nowrap="nowrap">-</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123212&lt;hr&gt;Muhammad Ramadhan, ST" data-html="true"> <img src="../assets/media/users/100_5.jpg" alt="image" /></a></td>
   <td nowrap="nowrap" style="text-align:left">Truck/Tronton/Trailer</td>
@@ -207,7 +202,7 @@ function goBack() {
     15:36:00 WITA</td>
   <td style="text-align:center">2</td>
   <td style="text-align:center">Masuk<hr>Mobil - 2</td>
-  <td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Parkir</button></td>
+  <td style="text-align:center">Parkir</td>
   <td nowrap="nowrap" style="text-align:center">-</td>
   <td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-mobil-masuk.png" alt="image" /></a></td>
 												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-mobil-masuk.png" alt="image" /></a></td>
@@ -215,7 +210,7 @@ function goBack() {
 </tbody>
 									</table>
 						
-<table align="center" class="footnote-1" width="1350px" style="margin-top:450px; margin-bottom:10px;">
+<table align="center" class="footnote-1" width="1450px" style="margin-top:450px; margin-bottom:10px;">
         <thead>
             <tr><th></th>
             <th width="2%"></th>
