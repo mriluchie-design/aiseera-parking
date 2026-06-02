@@ -174,15 +174,7 @@
                                                                            
                                   </select>
                             </div>
-							<div class="col-lg-1">
-                                <label>Pembayaran :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Non Tunai</option>
-                                      <option value="2">Tunai</option>
-                                                                           
-                                  </select>
-                            </div>
+							
     		                    </div>
 								<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
@@ -206,8 +198,34 @@
     		                        </span>
     		                    </div>
     		                    </div>
+								<div class="col-lg-2">
+                                <label>Pembayaran :</label>
 								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">e-Money</option>
+                                      <option value="1">QRIS</option>
+                                      <option value="2">Tunai</option>
+                                      <option value="2">Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
+								<div class="col-lg-2">
+                                <label>Provider Pembayaran :</label>
 								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">e-Money - Mandiri</option>
+                                      <option value="1">e-Money - BCA Flazz</option>
+                                      <option value="1">e-Money - Brizzi</option>
+                                      <option value="1">e-Money - BNI Tap Cash</option>
+                                      <option value="1">QRIS - OVO</option>
+                                      <option value="1">QRIS - DANA</option>
+                                      <option value="1">QRIS - Shoope Pay</option>
+                                      <option value="1">QRIS - BCA</option>
+                                      <option value="1">QRIS - Mandiri</option>
+                                      <option value="2">Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
 								
 								
                             </div>
@@ -352,8 +370,7 @@
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Barcode Karcis</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">ID E-Money</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Kartu / Karcis / Sticker</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Member</th>
 											  <th colspan="7" bgcolor="#feffed">Kendaraan</th>
 											  <th colspan="2" bgcolor="#f7fcff">Foto </th>
@@ -366,7 +383,7 @@
 											  <th width="1%" bgcolor="#feffed">Gate</th>
 											  <th width="5%" bgcolor="#feffed">Jalur</th>
 											  <th width="3%" bgcolor="#feffed">Status</th>
-											  <th width="7%" bgcolor="#feffed">Pembayaran</th>
+											  <th width="5%" bgcolor="#feffed">Pembayaran</th>
 											  <th width="1%" bgcolor="#f7fcff">Webcam</th>
 											  <th width="1%" bgcolor="#f7fcff">Kendaraan</th>
 			                              </tr>
@@ -375,7 +392,6 @@
 											<tr>
 												<td id="kt_table_1">1</td>
 												<td style="text-align:center" nowrap>Makassar</td>
-												<td style="text-align:center" nowrap>-</td>
 												<td style="text-align:center" nowrap>12321355123123211</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
 												<td nowrap="nowrap" style="text-align:left">Reguler - Mobil</td>
@@ -386,7 +402,7 @@
 												<td style="text-align:center">1</td>
 												<td style="text-align:center">Masuk<hr>Mobil - 1</td>
 												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Parkir</button></td>
-												<td class="text-center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355135&lt;hr&gt;e-Money&lt;hr&gt;Mandiri" data-html="true">Non Tunai</span></td>
+												<td class="text-center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355135<hr>e-Money<hr>Mandiri" data-html="true">Non Tunai</span></td>
 												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-mobil-masuk.png" alt="image" /></a></td>
 												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-mobil-masuk.png" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -402,8 +418,7 @@
 										  <tr>
 												<td id="kt_table_1">2</td>
 												<td nowrap="nowrap" style="text-align:center">Makassar</td>
-												<td nowrap="nowrap" style="text-align:center">12321355123123211</td>
-												<td nowrap="nowrap" style="text-align:center">-</td>
+												<td nowrap="nowrap" style="text-align:center">12321355123123212</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
 												<td nowrap="nowrap" style="text-align:left">Reguler - Motor</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LLU</td>
@@ -411,7 +426,7 @@
 												<td style="text-align:center">2</td>
 												<td style="text-align:center">Masuk<hr>Motor - 1</td>
 												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Keluar</button></td>
-												<td class="text-center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355135&lt;hr&gt;e-Wallet&lt;hr&gt;Gopay" data-html="true">Non Tunai</span></td>
+												<td class="text-center"><span class="btn btn-label-twitter btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355136<hr>QRIS<hr>OVO" data-html="true">Non Tunai</span></td>
 												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-motor-masuk-webcam.png" alt="image" /></a></td>
 												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-motor-masuk.png" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -427,8 +442,7 @@
 <tr>
 												<td id="kt_table_1">3</td>
 												<td nowrap="nowrap" style="text-align:center">Makassar</td>
-												<td nowrap="nowrap" style="text-align:center">12321355123123211</td>
-												<td nowrap="nowrap" style="text-align:center">-</td>
+												<td nowrap="nowrap" style="text-align:center">12321355123123213</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
 												<td nowrap="nowrap" style="text-align:left">Reguler - Motor</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LLU</td>
@@ -436,7 +450,7 @@
 												<td style="text-align:center">2</td>
 												<td style="text-align:center">Masuk<hr>Motor - 1</td>
 												<td style="text-align:center"><button type="button" class="btn btn-label-warning btn-sm">Berangkat</button></td>
-												<td class="text-center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355135&lt;hr&gt;e-Wallet&lt;hr&gt;Gopay" data-html="true">Non Tunai</span></td>
+												<td class="text-center"><span class="btn btn-label-twitter btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355137<hr>QRIS<hr>DANA" data-html="true">Non Tunai</span></td>
 												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-motor-masuk-webcam-2.png" alt="image" /></a></td>
 												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-motor-masuk-2.png" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -452,10 +466,9 @@
 <tr>
 												<td id="kt_table_1">4</td>
 												<td style="text-align:center" nowrap>Makassar</td>
-												<td style="text-align:center" nowrap>-</td>
-												<td style="text-align:center" nowrap>-</td>
+												<td style="text-align:center" nowrap>12321355123123214</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"> <img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:left">Sedan/Jeep/Pick Up</td>
+												<td nowrap="nowrap" style="text-align:left">Member - Sedan/Jeep/Pick Up</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
@@ -479,10 +492,9 @@
 <tr>
   <td id="kt_table_4">5</td>
   <td style="text-align:center" nowrap="nowrap">Makassar</td>
-  <td style="text-align:center" nowrap="nowrap">-</td>
-  <td style="text-align:center" nowrap="nowrap">-</td>
+  <td style="text-align:center" nowrap="nowrap">12321355123123215</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123212&lt;hr&gt;Muhammad Ramadhan, ST" data-html="true"> <img src="../assets/media/users/100_5.jpg" alt="image" /></a></td>
-  <td nowrap="nowrap" style="text-align:left">Truck/Tronton/Trailer</td>
+  <td nowrap="nowrap" style="text-align:left">Member - Truck/Tronton/Trailer</td>
   <td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
   <td nowrap="nowrap" style="text-align:center">1 September 2026
     <hr />
