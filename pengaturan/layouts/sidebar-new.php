@@ -76,18 +76,26 @@
 																<ul class="kt-menu__subnav">
 																	<li class="kt-menu__item " aria-haspopup="true"><a href="pengaturan-tarif-parkir.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Data Tarif</span></a></li>
 																	<li class="kt-menu__item " aria-haspopup="true"><a href="pengaturan-jenis-tarif.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Jenis Tarif</span></a></li>
-																	<li class="kt-menu__item " aria-haspopup="true"><a href="pengaturan-tipe-tarif.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Tipe Tarif</span></a></li>
-																	<li class="kt-menu__item " aria-haspopup="true"><a href="pengaturan-tipe-tarif.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Tipe Tarif</span></a></li>
+																	<li class="kt-menu__item " aria-haspopup="true"><a href="pengaturan-jenis-tarif.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Tipe Tarif</span></a></li>
+																	<li class="kt-menu__item " aria-haspopup="true"><a href="pengaturan-tipe-tarif.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kategori Tarif</span></a></li>
+																	<li class="kt-menu__item " aria-haspopup="true"><a href="pengaturan-tipe-tarif.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Metode Pembayaran</span></a></li>
+																	<li class="kt-menu__item " aria-haspopup="true"><a href="pengaturan-tipe-tarif.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Tarif Layanan</span></a></li>
+																	<li class="kt-menu__item " aria-haspopup="true"><a href="pengaturan-tipe-tarif.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Tipe Tarif Layanan</span></a></li>
 
 																</ul>
 															</div>
 														</li>
 											
+																	
+														
+																
 											
-											<li class="kt-menu__item" aria-haspopup="true"><a href="pengaturan-kantor.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kantor</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="pengaturan-audio.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Audio</span></a></li>
+														
 											
-										</ul>
+										
+										
+										<li class="kt-menu__item" aria-haspopup="true"><a href="pengaturan-audio.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Audio</span></a></li>
+											</ul>
 									</div>
 								</li>
 								<!--<li class="kt-menu__item " aria-haspopup="true"><a href="pegawai-perjalanan-dinas.php" class="kt-menu__link "><span class="kt-menu__link-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">

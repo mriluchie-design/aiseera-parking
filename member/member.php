@@ -316,8 +316,8 @@
 											  <th width="2%" bgcolor="#feffed">No. Plat</th>
 											  <th width="4%" bgcolor="#feffed">Tanggal Registrasi</th>
 											  <th width="4%" bgcolor="#feffed">Aktif Hingga</th>
-											  <th width="3%" bgcolor="#feffed"> Member</th>
-											  <th width="3%" bgcolor="#feffed">Pembayaran</th>
+											  <th width="3%" bgcolor="#feffed">Member</th>
+											  <th width="3%" bgcolor="#feffed">Pembayaran<br>Registrasi</th>
 				                          </tr>
 										</thead>
 										<tbody>

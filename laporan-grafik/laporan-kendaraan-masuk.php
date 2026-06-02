@@ -437,8 +437,8 @@
 												<td style="text-align:center">Masuk<hr>Motor - 1</td>
 												<td style="text-align:center"><button type="button" class="btn btn-label-warning btn-sm">Berangkat</button></td>
 												<td class="text-center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355135&lt;hr&gt;e-Wallet&lt;hr&gt;Gopay" data-html="true">Non Tunai</span></td>
-												<td style="text-align:center" nowrap></td>
-												<td style="text-align:center" nowrap></td>
+												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-motor-masuk-webcam-2.png" alt="image" /></a></td>
+												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-motor-masuk-2.png" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -450,7 +450,7 @@
 												  </div></td>
 										  </tr>
 <tr>
-												<td id="kt_table_1">3</td>
+												<td id="kt_table_1">4</td>
 												<td style="text-align:center" nowrap>Makassar</td>
 												<td style="text-align:center" nowrap>-</td>
 												<td style="text-align:center" nowrap>-</td>
@@ -477,7 +477,7 @@
 												  </div></td>
 										  </tr>
 <tr>
-  <td id="kt_table_4">4</td>
+  <td id="kt_table_4">5</td>
   <td style="text-align:center" nowrap="nowrap">Makassar</td>
   <td style="text-align:center" nowrap="nowrap">-</td>
   <td style="text-align:center" nowrap="nowrap">-</td>
