@@ -75,8 +75,8 @@ function goBack() {
 
 							<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid mt-3">
 								<div class="bg-white w-50 ml-auto mr-auto mt-3">
-						<img src="../assets/img/header.png" style="width: 720px; display:block; margin-left:auto;margin-right:auto;margin-bottom:20px;padding-top:20px;" />
-									<table align="center" border="0" cellpadding="1" style="width: 600px; text-align:justify; line-height:1.5; font-family: Roboto; font-size: 13px;">
+						<img src="../assets/img/header.png" style="width: 787px; display:block; margin-left:40px;margin-right:auto;margin-bottom:0px;padding-top:20px;" />
+									<table align="center" border="0" cellpadding="1" style="width: 600px; margin-top:-10px;text-align:justify; line-height:1.5; font-family: Roboto; font-size: 13px;">
   
   
   <tr>
@@ -342,7 +342,7 @@ function goBack() {
 							  <td colspan="11" valign="top">&nbsp;</td>
   </tr>
   </table>
-  <table align="center" class="footnote-1" width="676px" style="margin-top:0px; padding-top:5px; padding-bottom:0px; margin-bottom:20px;">
+  <table align="center" class="footnote-1" width="626px" style="margin-top:0px; padding-top:5px; padding-bottom:0px; margin-bottom:20px;">
         <thead>
             <tr><th></th>
             <th></th>
@@ -385,7 +385,7 @@ function goBack() {
         </tbody>
     </table>	
 	
-  <img src="../assets/img/footer-aksikode-release.png" style="width:676px; display:block; margin-left:auto; margin-top: 0px; margin-right:auto;margin-bottom:20px;padding-bottom:30px" />
+  <img src="../assets/img/footer-aksikode-release.png" style="width:626px; display:block; margin-left:auto; margin-top: 0px; margin-right:auto;margin-bottom:20px;padding-bottom:30px" />
 				
 					</div>
 								</div>
