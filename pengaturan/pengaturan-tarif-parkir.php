@@ -56,10 +56,11 @@
                     <!--begin::Nav-->
                     <ul class="kt-nav">
                         <li class="kt-nav__item">
-                            <a href="#" class="kt-nav__link">
-                                <i class="kt-nav__link-icon fa fa-file-pdf"></i><span class="kt-nav__link-text">PDF</span>
-                            </a>
-                          </li>
+														<a href="cetak-tarif-index.php" class="kt-nav__link">
+															<i class="kt-nav__link-icon fa fa-file-pdf"></i>
+															<span class="kt-nav__link-text">PDF</span>
+														</a>
+													</li>
                         <li class="kt-nav__item">
                             <a href="#" class="kt-nav__link">
                                 <i class="kt-nav__link-icon fa fa-file-excel"></i><span class="kt-nav__link-text">Excel</span>
@@ -103,52 +104,65 @@
 				<form class="kt-form">
 					<div class="kt-portlet__body">
                         <div class="form-group row">
-                            <div class="col-lg-4">
-                                <label>Nama Tarif :</label>
-								
-                                <div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
-        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
-    		                            <span><i class="la la-search"></i></span>
-    		                        </span>
-    		                    </div>
-    		                    </div>
-								<div class="col-lg-2">
-                                <label>Zona :</label>
+						<div class="col-lg-2">
+                                <label>Lokasi :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Biringkanaya</option>
-                                      <option value="2">Bontoala</option>
-                                      <option value="3">Kepulauan Sangkarrang</option>
-                                      <option value="4">Makassar</option>
-                                      <option value="5">Mamajang</option>
-                                      <option value="6">Manggala</option>
-                                      <option value="7">Mariso</option>
-                                      <option value="8">Panakkukang</option>
-                                      <option value="9">Rappocini</option>
-                                      <option value="10">Tallo</option>
-                                      <option value="11">Tamalanrea</option>
-                                      <option value="12">Tamalate</option>
-                                      <option value="13">Ujung Pandang</option>
-                                      <option value="14">Ujung Tanah</option>
-                                      <option value="15">Wajo</option>
+                                      <option value="1" selected="">Makassar</option>
+                                      <option value="2">Pare-Pare</option>
+                                      <option value="2">Balikpapan</option>
+                                      <option value="2">Samarinda</option>
+                                      <option value="2">Tarakan</option>
+                                      <option value="2">Nunukan</option>
+                                      <option value="2">Manado</option>
+                                      <option value="2">Bitung</option>
+                                      <option value="2">Ambon - Yos Sudarso</option>
+                                      <option value="2">Ambon - Slamet Riyadi</option>
+                                      <option value="2">Ternate</option>
+                                      <option value="2">Sorong</option>
+                                      <option value="2">Keseluruhan</option>
+                                                                           
+                                  </select>
+    		                    </div>
+                            
+								<div class="col-lg-2">
+                                <label>Tipe Tarif :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Reguler</option>
+                                      <option value="2">Member</option>
+                                      
+                                  </select>
+                            </div>
+							<div class="col-lg-2">
+                                <label>Kategori Tarif :</label>
+								
+                               <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Reguler - Motor</option>
+                                      <option value="2">Reguler - Mobil</option>
+                                      <option value="3">Reguler - Truck/Tronton/Trailer</option>
+                                      <option value="4">Member - Motor</option>
+                                      <option value="4">Member - Sedan/Jeep/Pick Up</option>
+                                      <option value="4">Member - Truck/Tronton/Trailer</option>
+                                      <option value="4">Member - Pegawai / Instansi / Others</option>
+                                      <option value="4">Kendaraan Berangkat - Motor</option>
+                                      <option value="4">Kendaraan Berangkat - Mobil</option>
+                                      <option value="4">Bongkaran Kapal - Motor</option>
+                                      <option value="4">Bongkaran Kapal - Mobil</option>
+                                      <option value="4">Free Pass</option>
+                                      <option value="4">Denda - Motor</option>
+                                      <option value="4">Denda - Mobil</option>
+                                      <option value="4">Pass Kade</option>
+                                     
                                   </select>
                             </div>
 								<div class="col-lg-2">
-                                <label>Wilayah :</label>
+                                <label>Jenis Tarif :</label>
 								
                                  <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Bakung</option>
-                                      <option value="2">Berua</option>
-                                      <option value="3">Bulurokeng</option>
-                                      <option value="4">Daya</option>
-                                      <option value="5">Katimbang</option>
-                                      <option value="6">Laikang</option>
-                                      <option value="7">Paccerakkang</option>
-                                      <option value="8">Pai</option>
-                                      <option value="9">Sudiang</option>
-                                      <option value="10">Sudiang Raya</option>
-                                      <option value="11">Untia</option>
+                                      <option value="1" selected="">Progressif</option>
+                                      <option value="2">Flat</option>
+                                      <option value="3">Volume</option>
                                      
                                   </select>
                             </div>
@@ -162,21 +176,12 @@
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected="">Motor</option>
                                       <option value="2">Mobil</option>
-                                      
+                                      <option value="2">Truck/Tronton/Trailer</option>
+                                      <option value="2">Sedan/Jeep/Pick Up</option>
+                                    
                                   </select>
                             </div>
-							<div class="col-lg-2">
-                                <label>Type Tarif :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Harian</option>
-                                      <option value="2">Mingguan</option>
-                                      <option value="3">Bulanan</option>
-                                      <option value="3">Sekali Parkir</option>
-                                      
-                                      
-                                  </select>
-                            </div>
+							
 							
 							
                             </div>
@@ -213,7 +218,7 @@
 											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Jenis Tarif</th>
 											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Jenis<br>Kendaraan</th>
 											  <th colspan="3" bgcolor="#f7fcff">Tarif</th>
-											  <th width="10%" rowspan="2" bgcolor="#f7fcff">Biaya Kartu</th>
+											  <th width="10%" rowspan="2" bgcolor="#f7fcff">Biaya Sticker</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 											<tr style="text-align:center">
@@ -246,6 +251,12 @@
 																			<a href="detail-tarif.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-eye"></i>
 																				<span class="kt-nav__link-text">Lihat Detail</span>
+																			</a>
+																		</li>
+																		<li class="kt-nav__item">
+																			<a href="history-tarif.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-list-ol"></i>
+																				<span class="kt-nav__link-text">History Tarif</span>
 																			</a>
 																		</li>
 																		
@@ -290,6 +301,12 @@
 																				<span class="kt-nav__link-text">Lihat Detail</span>
 																			</a>
 																		</li>
+																		<li class="kt-nav__item">
+																			<a href="history-tarif.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-list-ol"></i>
+																				<span class="kt-nav__link-text">History Tarif</span>
+																			</a>
+																		</li>
 																		
 																		<li class="kt-nav__item">
 																			<a href="edit-tarif.php" class="kt-nav__link">
@@ -322,6 +339,12 @@
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
 										          <li class="kt-nav__item"> <a href="detail-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+												  <li class="kt-nav__item">
+																			<a href="history-tarif.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-list-ol"></i>
+																				<span class="kt-nav__link-text">History Tarif</span>
+																			</a>
+																		</li>
 										          <li class="kt-nav__item"> <a href="edit-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa flaticon-edit-1"></i> <span class="kt-nav__link-text">Edit Data</span> </a> </li>
 										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
 									            </ul>
@@ -343,6 +366,12 @@
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
 										          <li class="kt-nav__item"> <a href="detail-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+												  <li class="kt-nav__item">
+																			<a href="history-tarif.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-list-ol"></i>
+																				<span class="kt-nav__link-text">History Tarif</span>
+																			</a>
+																		</li>
 										          <li class="kt-nav__item"> <a href="edit-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa flaticon-edit-1"></i> <span class="kt-nav__link-text">Edit Data</span> </a> </li>
 										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
 									            </ul>
@@ -364,6 +393,12 @@
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
 										          <li class="kt-nav__item"> <a href="detail-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+												  <li class="kt-nav__item">
+																			<a href="history-tarif.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-list-ol"></i>
+																				<span class="kt-nav__link-text">History Tarif</span>
+																			</a>
+																		</li>
 										          <li class="kt-nav__item"> <a href="edit-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa flaticon-edit-1"></i> <span class="kt-nav__link-text">Edit Data</span> </a> </li>
 										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
 									            </ul>
@@ -385,6 +420,12 @@
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
 										          <li class="kt-nav__item"> <a href="detail-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+												  <li class="kt-nav__item">
+																			<a href="history-tarif.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-list-ol"></i>
+																				<span class="kt-nav__link-text">History Tarif</span>
+																			</a>
+																		</li>
 										          <li class="kt-nav__item"> <a href="edit-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa flaticon-edit-1"></i> <span class="kt-nav__link-text">Edit Data</span> </a> </li>
 										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
 									            </ul>
@@ -406,6 +447,12 @@
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
 										          <li class="kt-nav__item"> <a href="detail-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+												  <li class="kt-nav__item">
+																			<a href="history-tarif.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-list-ol"></i>
+																				<span class="kt-nav__link-text">History Tarif</span>
+																			</a>
+																		</li>
 										          <li class="kt-nav__item"> <a href="edit-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa flaticon-edit-1"></i> <span class="kt-nav__link-text">Edit Data</span> </a> </li>
 										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
 									            </ul>
@@ -427,6 +474,12 @@
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
 										          <li class="kt-nav__item"> <a href="detail-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+												  <li class="kt-nav__item">
+																			<a href="history-tarif.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-list-ol"></i>
+																				<span class="kt-nav__link-text">History Tarif</span>
+																			</a>
+																		</li>
 										          <li class="kt-nav__item"> <a href="edit-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa flaticon-edit-1"></i> <span class="kt-nav__link-text">Edit Data</span> </a> </li>
 										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
 									            </ul>
@@ -448,6 +501,12 @@
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
 										          <li class="kt-nav__item"> <a href="detail-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+												  <li class="kt-nav__item">
+																			<a href="history-tarif.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-list-ol"></i>
+																				<span class="kt-nav__link-text">History Tarif</span>
+																			</a>
+																		</li>
 										          <li class="kt-nav__item"> <a href="edit-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa flaticon-edit-1"></i> <span class="kt-nav__link-text">Edit Data</span> </a> </li>
 										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
 									            </ul>
@@ -469,6 +528,12 @@
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
 										          <li class="kt-nav__item"> <a href="detail-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+												  <li class="kt-nav__item">
+																			<a href="history-tarif.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-list-ol"></i>
+																				<span class="kt-nav__link-text">History Tarif</span>
+																			</a>
+																		</li>
 										          <li class="kt-nav__item"> <a href="edit-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa flaticon-edit-1"></i> <span class="kt-nav__link-text">Edit Data</span> </a> </li>
 										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
 									            </ul>
@@ -490,6 +555,12 @@
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
 										          <li class="kt-nav__item"> <a href="detail-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+												  <li class="kt-nav__item">
+																			<a href="history-tarif.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-list-ol"></i>
+																				<span class="kt-nav__link-text">History Tarif</span>
+																			</a>
+																		</li>
 										          <li class="kt-nav__item"> <a href="edit-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa flaticon-edit-1"></i> <span class="kt-nav__link-text">Edit Data</span> </a> </li>
 										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
 									            </ul>
@@ -511,6 +582,12 @@
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
 										          <li class="kt-nav__item"> <a href="detail-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+												  <li class="kt-nav__item">
+																			<a href="history-tarif.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-list-ol"></i>
+																				<span class="kt-nav__link-text">History Tarif</span>
+																			</a>
+																		</li>
 										          <li class="kt-nav__item"> <a href="edit-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa flaticon-edit-1"></i> <span class="kt-nav__link-text">Edit Data</span> </a> </li>
 										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
 									            </ul>
@@ -532,6 +609,12 @@
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
 										          <li class="kt-nav__item"> <a href="detail-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+												  <li class="kt-nav__item">
+																			<a href="history-tarif.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-list-ol"></i>
+																				<span class="kt-nav__link-text">History Tarif</span>
+																			</a>
+																		</li>
 										          <li class="kt-nav__item"> <a href="edit-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa flaticon-edit-1"></i> <span class="kt-nav__link-text">Edit Data</span> </a> </li>
 										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
 									            </ul>
@@ -553,13 +636,45 @@
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
 										          <li class="kt-nav__item"> <a href="detail-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+												  <li class="kt-nav__item">
+																			<a href="history-tarif.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-list-ol"></i>
+																				<span class="kt-nav__link-text">History Tarif</span>
+																			</a>
+																		</li>
 										          <li class="kt-nav__item"> <a href="edit-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa flaticon-edit-1"></i> <span class="kt-nav__link-text">Edit Data</span> </a> </li>
 										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
 									            </ul>
 									          </div>
 										      </div></td>
 									      </tr>
-										  
+										  <tr>
+										    <td id="kt_table_13">15</td>
+										    <td style="text-align:left" nowrap>Makassar</td>
+										    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Reguler</button></td>
+										    <td style="text-align:left" nowrap>Pass Kade</td>
+										    <td style="text-align:center" nowrap><button type="button" class="btn btn-label-twitter btn-sm">Volume</button></td>
+										    <td nowrap="nowrap" style="text-align:center">Truck</td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>40.000,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item"> <a href="detail-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+												  <li class="kt-nav__item">
+																			<a href="history-tarif.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-list-ol"></i>
+																				<span class="kt-nav__link-text">History Tarif</span>
+																			</a>
+																		</li>
+										          <li class="kt-nav__item"> <a href="edit-tarif.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa flaticon-edit-1"></i> <span class="kt-nav__link-text">Edit Data</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
 										  
 										  
 									    </tbody>
@@ -690,6 +805,7 @@
                                       <option value="4">Free Pass</option>
                                       <option value="4">Denda - Motor</option>
                                       <option value="4">Denda - Mobil</option>
+                                      <option value="4">Pass Kade</option>
                                      <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
                                   </select>
 													</div>
@@ -698,6 +814,7 @@
 														<select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected="">Progresif</option>
                                       <option value="2">Flat</option>
+									  <option value="3">Volume</option>
                                      <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
                                   </select>
 													</div>
@@ -716,7 +833,7 @@
                                   </select>
 													</div>
 													<div class="col-lg-4">
-														<label class="kt-font-danger">Biaya Kartu :</label>
+														<label class="kt-font-danger">Biaya Sticker :</label>
 														<div class="form-group">
 													<div class="input-group input-group-sm">
 														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
