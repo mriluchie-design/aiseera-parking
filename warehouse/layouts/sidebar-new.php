@@ -130,6 +130,7 @@
 											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Barang</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-kategori-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kategori Barang</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-satuan-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Satuan Barang</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-gudang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Vendor</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-gudang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Gudang</span></a></li>
 											
 										</ul>

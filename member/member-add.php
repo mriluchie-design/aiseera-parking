@@ -125,10 +125,10 @@ function goBack() {
 												</div>
 												<div class="kt-wizard-v4__nav-label">
 													<div class="kt-wizard-v4__nav-label-title">
-														E-Receipt
+														Pembayaran
 													</div>
 													<div class="kt-wizard-v4__nav-label-desc">
-														Bukti Transaksi
+														Pilih Metode
 													</div>
 												</div>
 												<div class="kt-wizard-v4__nav-number kt-block-center">
@@ -136,7 +136,24 @@ function goBack() {
 												</div>
 											</div>
 										</div>
-										
+										<div class="kt-wizard-v4__nav-item" data-ktwizard-type="step">
+											<div class="kt-wizard-v4__nav-body">
+												<div class="kt-wizard-v4__nav-icon">
+													<i class="flaticon-layers"></i>
+												</div>
+												<div class="kt-wizard-v4__nav-label">
+													<div class="kt-wizard-v4__nav-label-title">
+														E-Receipt
+													</div>
+													<div class="kt-wizard-v4__nav-label-desc">
+														Bukti Transaksi
+													</div>
+												</div>
+												<div class="kt-wizard-v4__nav-number kt-block-center">
+													4
+												</div>
+											</div>
+										</div>
 									</div>
 								</div>
 
@@ -828,28 +845,14 @@ function goBack() {
     </div></td>
     <td style="text-align:center">&nbsp;</td>
     </tr>
-  <tr>
-    <td style="text-align:center">B</td>
-    <td colspan="6" ><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Biaya Layanan" /></td>
-    <td ><div class="input-group input-group-sm" >
-      <div class="input-group-prepend" ><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="1.000.000" aria-describedby="basic-addon1">
-      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-    </div></td>
-    <td ><div class="input-group input-group-sm">
-      <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="4.550.000" aria-describedby="basic-addon1" />
-      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-    </div></td>
-    <td style="text-align:center">&nbsp;</td>
-    </tr>
+  
   
   
   <tr>
     <td colspan="10" style="text-align:center">&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="8" style="text-align:right">SUB TOTAL BIAYA</td>
+    <td colspan="8" style="text-align:right">Sub Total</td>
     <td colspan="2" style="text-align:center"><div class="input-group input-group-sm">
 														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
 														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="40.550.000" aria-describedby="basic-addon1">
@@ -857,10 +860,10 @@ function goBack() {
 													</div></td>
     </tr>
   <tr>
-    <td colspan="8" style="text-align:right">PAJAK</td>
+    <td colspan="8" style="text-align:right">Biaya Layanan&nbsp;&nbsp;<button type="button" style="margin-bottom:20px; font-size:12px;" class="btn btn-label-brand btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Digunakan Untuk<br>Peningkatan Layanan">?</button></td>
     <td colspan="2" style="text-align:center"><div class="input-group input-group-sm">
 														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="40.550.000" aria-describedby="basic-addon1">
+														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="50.000" aria-describedby="basic-addon1">
 														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 													</div></td>
     </tr>
@@ -869,7 +872,7 @@ function goBack() {
     <td colspan="8" style="text-align:right" bgcolor="#CCEAFF"><b>GRAND TOTAL </b></td>
     <td colspan="2" bgcolor="#CCEAFF"><div class="input-group input-group-sm">
 														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="40.550.000" aria-describedby="basic-addon1">
+														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="40.600.000" aria-describedby="basic-addon1">
 														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 													</div></td>
     </tr>
@@ -898,7 +901,19 @@ function goBack() {
 
 
 										</div>
-								<div class="col-xl-12">
+								
+													</div>
+													</div>
+													</div>
+													
+													</div>
+													</div>
+
+													<!--end: Form Wizard Step 3-->
+
+													<!--begin: Form Wizard Step 4-->
+													<div class="kt-wizard-v4__content" data-ktwizard-type="step-content">
+														<div class="col-xl-12">
 <div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Pembayaran</div><br><br>
 										<div class="kt-portlet__body">
@@ -928,41 +943,44 @@ function goBack() {
 										</div>
 
 									</div>
-									</div>
 									
 									</div>
 
 											
-													</div>
-													</div>
 													
 													</div>
-													</div>
 
-													<!--end: Form Wizard Step 3-->
-
-													<!--begin: Form Wizard Step 4-->
+													<!--end: Form Wizard Step 4-->
+<!--begin: Form Wizard Kwitansi-->
 													<div class="kt-wizard-v4__content" data-ktwizard-type="step-content">
 														<div class="kt-invoice-2">
 										<div class="kt-invoice__head">
 											<div class="kt-invoice__container">
 												<div class="kt-invoice__brand">
-													<h1 class="kt-invoice__title">Kwitansi</h1>
+													<h1 class="kt-invoice__title">Kwitansi<br>Pembayaran</h1>
 													<div href="#" class="kt-invoice__logo">
 														
 														<span class="kt-invoice__desc">
-															<span>Cecilia Chapman, 711-2880 Nulla St, Mankato</span>
-															<span>Mississippi 96522</span>
+															<span class="span-qr" style="z-index: 99999">
+                        <!--?xml version="1.0" encoding="UTF-8"?-->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="100" height="100" viewBox="0 0 40 40"><rect x="0" y="0" width="40" height="40" fill="#ffffff"></rect><g transform="scale(1.905)"><g transform="translate(0,0)"><path fill-rule="evenodd" d="M9 0L9 1L8 1L8 3L9 3L9 4L8 4L8 8L6 8L6 9L5 9L5 10L4 10L4 8L3 8L3 9L2 9L2 8L0 8L0 9L2 9L2 10L3 10L3 12L4 12L4 11L7 11L7 10L8 10L8 8L9 8L9 11L8 11L8 12L6 12L6 13L8 13L8 15L9 15L9 16L10 16L10 17L11 17L11 16L12 16L12 17L13 17L13 18L12 18L12 19L10 19L10 20L11 20L11 21L12 21L12 20L13 20L13 19L14 19L14 21L15 21L15 18L16 18L16 19L17 19L17 20L19 20L19 18L20 18L20 20L21 20L21 17L20 17L20 16L21 16L21 14L20 14L20 15L19 15L19 16L18 16L18 13L19 13L19 12L20 12L20 13L21 13L21 12L20 12L20 11L19 11L19 10L21 10L21 9L20 9L20 8L18 8L18 9L17 9L17 8L14 8L14 9L13 9L13 8L12 8L12 7L13 7L13 6L12 6L12 7L11 7L11 6L10 6L10 7L9 7L9 4L10 4L10 0ZM12 0L12 1L11 1L11 4L12 4L12 5L13 5L13 2L12 2L12 1L13 1L13 0ZM6 9L6 10L7 10L7 9ZM11 9L11 10L10 10L10 11L9 11L9 12L8 12L8 13L9 13L9 15L10 15L10 16L11 16L11 14L13 14L13 15L12 15L12 16L13 16L13 17L17 17L17 19L18 19L18 18L19 18L19 17L18 17L18 16L17 16L17 15L16 15L16 14L13 14L13 13L16 13L16 12L14 12L14 10L15 10L15 11L17 11L17 13L18 13L18 12L19 12L19 11L18 11L18 10L19 10L19 9L18 9L18 10L15 10L15 9L14 9L14 10L13 10L13 9ZM12 10L12 11L11 11L11 12L12 12L12 13L13 13L13 12L12 12L12 11L13 11L13 10ZM1 11L1 12L0 12L0 13L1 13L1 12L2 12L2 11ZM9 12L9 13L10 13L10 12ZM14 15L14 16L16 16L16 15ZM8 17L8 18L9 18L9 17ZM8 19L8 21L9 21L9 19ZM0 0L0 7L7 7L7 0ZM1 1L1 6L6 6L6 1ZM2 2L2 5L5 5L5 2ZM14 0L14 7L21 7L21 0ZM15 1L15 6L20 6L20 1ZM16 2L16 5L19 5L19 2ZM0 14L0 21L7 21L7 14ZM1 15L1 20L6 20L6 15ZM2 16L2 19L5 19L5 16Z" fill="#000000"></path></g></g></svg>
+
+                    </span>
+															
 														</span>
 													</div>
 												</div>
 												<div class="kt-invoice__items">
 													<div class="kt-invoice__item">
-														<span class="kt-invoice__subtitle">DATA</span>
-														<span class="kt-invoice__text">Dec 12, 2017</span>
+														<span class="kt-invoice__subtitle">Tanggal</span>
+														<span class="kt-invoice__text">03 September 2026</span>
 													</div>
 													<div class="kt-invoice__item">
-														<span class="kt-invoice__subtitle">INVOICE NO.</span>
+														<span class="kt-invoice__subtitle">ID Transaksi</span>
+														<span class="kt-invoice__text">GS 000014</span>
+													</div>
+													<div class="kt-invoice__item">
+														<span class="kt-invoice__subtitle">ID Pembayaran</span>
 														<span class="kt-invoice__text">GS 000014</span>
 													</div>
 													<div class="kt-invoice__item">
@@ -972,61 +990,56 @@ function goBack() {
 												</div>
 											</div>
 										</div>
-										<div class="kt-invoice__body">
-											<div class="kt-invoice__container">
-												<div class="table-responsive">
-													<table class="table">
-														<thead>
-															<tr>
-																<th>DESCRIPTION</th>
-																<th>HOURS</th>
-																<th>RATE</th>
-																<th>AMOUNT</th>
-															</tr>
-														</thead>
-														<tbody>
-															<tr>
-																<td>Creative Design</td>
-																<td>80</td>
-																<td>$40.00</td>
-																<td class="kt-font-danger kt-font-lg">$3200.00</td>
-															</tr>
-															<tr>
-																<td>Front-End Development</td>
-																<td>120</td>
-																<td>$40.00</td>
-																<td class="kt-font-danger kt-font-lg">$4800.00</td>
-															</tr>
-															<tr>
-																<td>Back-End Development</td>
-																<td>210</td>
-																<td>$60.00</td>
-																<td class="kt-font-danger kt-font-lg">$12600.00</td>
-															</tr>
-														</tbody>
-													</table>
-												</div>
-											</div>
-										</div>
+										
 										<div class="kt-invoice__footer">
 											<div class="kt-invoice__container">
 												<div class="table-responsive">
 													<table class="table">
 														<thead>
 															<tr>
-																<th>BANK</th>
-																<th>ACC.NO.</th>
-																<th>DUE DATE</th>
-																<th>TOTAL AMOUNT</th>
+																<th width="20%">URAIAN</th>
+																<th width="1%" colspan="2" style="text-align:center">VOLUME</th>
+																<th width="10%" colspan="2" style="text-align:center">TARIF SATUAN</th>
+																<th width="10%" colspan="2" style="text-align:center">TOTAL</th>
 															</tr>
 														</thead>
-														<tbody>
+														<tbody style="font-weight:400;">
 															<tr>
-																<td>BARCLAYS UK</td>
-																<td>12345678909</td>
-																<td>Jan 07, 2018</td>
-																<td class="kt-font-danger kt-font-xl kt-font-boldest">20,600.00</td>
+																<td>Biaya Member - Sepeda Motor</td>
+																<td>3</td>
+																<td>Kendaraan</td>
+																<td>Rp.</td>
+																<td style="text-align:right">800.000,-</td>
+																<td>Rp.</td>
+																<td style="text-align:right">800.000,-</td>
 															</tr>
+															<tr>
+																<td>Biaya Member - Sedan/Jeep/Pickup</td>
+																<td>3</td>
+																<td>Kendaraan</td>
+																<td>Rp.</td>
+																<td style="text-align:right">800.000,-</td>
+																<td>Rp.</td>
+																<td style="text-align:right">800.000,-</td>
+															</tr>
+															<tr>
+																<td>Biaya Member - Truck/Tronton/Trailer</td>
+																<td>3</td>
+																<td>Kendaraan</td>
+																<td>Rp.</td>
+																<td style="text-align:right">800.000,-</td>
+																<td>Rp.</td>
+																<td style="text-align:right">800.000,-</td>
+															</tr>
+															<tr>
+															  <td colspan="7">&nbsp;</td>
+														  </tr>
+															<tr>
+															  <td style="text-align:right" colspan="5">Grand Total</td>
+															  <td>Rp.</td>
+															  <td style="text-align:right">800.000,-</td>
+														  </tr>
+															
 														</tbody>
 													</table>
 												</div>
@@ -1041,15 +1054,14 @@ function goBack() {
 									</div>
 													</div>
 
-													<!--end: Form Wizard Step 4-->
-
+													<!--end: Form Wizard Step Kwitansi-->
 													<!--begin: Form Actions -->
 													<div class="kt-form__actions">
 														<button class="btn btn-secondary btn-md btn-tall btn-wide kt-font-bold kt-font-transform-u" data-ktwizard-type="action-prev">
 															Kembali
 														</button>
 														<button class="btn btn-success btn-md btn-tall btn-wide kt-font-bold kt-font-transform-u" data-ktwizard-type="action-submit">
-															Kirim Data
+															Simpan
 														</button>
 														<button class="btn btn-brand btn-md btn-tall btn-wide kt-font-bold kt-font-transform-u" data-ktwizard-type="action-next">
 															Selanjutnya
