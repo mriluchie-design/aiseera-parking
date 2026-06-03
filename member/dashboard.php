@@ -312,7 +312,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											</div>
 										<div class="kt-portlet__head-toolbar">
 												<a href="#" class="btn btn-label-brand btn-sm dropdown-toggle" data-toggle="dropdown">
-													Cabang Makassar
+													 Makassar
 												</a>
 												<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 													<ul class="kt-nav">
