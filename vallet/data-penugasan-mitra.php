@@ -19,7 +19,7 @@
 								</div>
 								<div class="kt-subheader__toolbar">
 									<div class="dropdown dropdown-inline" ddata-placement="left">
-											<a href="" class="btn btn-label-primary btn-sm" data-toggle="dropdown" onclick="goBack()">
+											<a href="" class="btn btn-label-brand btn-sm" data-toggle="dropdown" onclick="goBack()">
 												<i class="flaticon-reply"></i> Kembali</button>
 <script>
 function goBack() {

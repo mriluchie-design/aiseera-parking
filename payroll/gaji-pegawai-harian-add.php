@@ -19,7 +19,7 @@
 								</div>
            <div class="kt-subheader__toolbar">
 			<div class="dropdown dropdown-inline" ddata-placement="left">
-				<a href="data-gaji-pegawai-harian.php" class="btn btn-label-primary btn-sm">
+				<a href="data-gaji-pegawai-harian.php" class="btn btn-label-brand btn-sm">
 					<i class="flaticon-reply"></i> Kembali</button>
 					<!--<i class="flaticon2-plus"></i>-->
 				</a>

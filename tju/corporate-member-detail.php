@@ -29,7 +29,7 @@
             </div>
 			
             <div class="kt-subheader__toolbar">
-			<a href="" class="btn btn-label-primary btn-sm" data-toggle="dropdown" onclick="goBack()">
+			<a href="" class="btn btn-label-brand btn-sm" data-toggle="dropdown" onclick="goBack()">
 												<i class="flaticon-reply"></i> Kembali</button>
 <script>
 function goBack() {
@@ -805,7 +805,7 @@ function goBack() {
 									<div class="kt-portlet__foot kt-align-center">
 												<div class="">
 
-													<a href="datamitraparkir.php" class="btn btn-label-primary btn-sm" data-toggle="dropdown" onclick="goBack()">
+													<a href="datamitraparkir.php" class="btn btn-label-brand btn-sm" data-toggle="dropdown" onclick="goBack()">
 												<i class="flaticon-reply"></i> Kembali</button>
 <script>
 function goBack() {
@@ -814,7 +814,7 @@ function goBack() {
 </script>
 												<!--<i class="flaticon2-plus"></i>-->
 											</a>&nbsp;
-									<a href="#" class="btn btn-label-primary btn-sm">
+									<a href="#" class="btn btn-label-brand btn-sm">
 															<span>
 																<i class="fa fa-print"></i>
 																<span>Print ID Card</span>
@@ -1106,7 +1106,7 @@ function goBack() {
 									<div class="kt-portlet__foot kt-align-center">
 												<div class="">
 
-													<a href="datamitraparkir.php" class="btn btn-label-primary btn-sm" data-toggle="dropdown" onclick="goBack()">
+													<a href="datamitraparkir.php" class="btn btn-label-brand btn-sm" data-toggle="dropdown" onclick="goBack()">
 												<i class="flaticon-reply"></i> Kembali</button>
 <script>
 function goBack() {
@@ -1115,7 +1115,7 @@ function goBack() {
 </script>
 												<!--<i class="flaticon2-plus"></i>-->
 											</a>&nbsp;
-									<a href="#" class="btn btn-label-primary btn-sm">
+									<a href="#" class="btn btn-label-brand btn-sm">
 															<span>
 																<i class="fa fa-print"></i>
 																<span>Print ID Card</span>

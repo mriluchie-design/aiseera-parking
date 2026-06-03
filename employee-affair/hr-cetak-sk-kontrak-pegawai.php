@@ -37,7 +37,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
 								</div>
 								<div class="kt-subheader__toolbar">
-								<a href="kontrak-kerja.php" class="btn btn-label-primary btn-sm" data-toggle="dropdown" onclick="goBack()">
+								<a href="kontrak-kerja.php" class="btn btn-label-brand btn-sm" data-toggle="dropdown" onclick="goBack()">
 												<i class="flaticon-reply"></i> Kembali</button>
 <script>
 function goBack() {
