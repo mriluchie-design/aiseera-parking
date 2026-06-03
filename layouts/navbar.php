@@ -12,7 +12,7 @@
 										<div class="kt-subheader__main">
 	                  <span class="kt-subheader__title">
                     
-                    <b>[ NAMA PERUSAHAAN / CLIENT ]</b><br>Kompleks Villa Surya Mas J/6 - Makassar 90233
+                    <b>PT. Pelabuhan Indonesia (Persero) Regional 4</b><br>Jl. Soekarno No. 1 Kota Makassar, Sulawesi Selatan 90164
                 </span>
 	            </div>
 									</li>
@@ -53,9 +53,212 @@
 										<a href="#" class="btn kt-subheader__btn-dateranger" style="background: #f2f3f7 !important;">
 														<i class="flaticon2-calendar-1" style="color: #1b1864;"></i>
 														<span class="kt-subheader__btn-daterange-date" id="kt_dashboard_daterangepicker_date" style="color: #ed1c24;margin-right: 0.25rem;display: inline-block;">22 Oktober 2025&nbsp;&nbsp;&nbsp;|</span>
-														<span class="kt-subheader__btn-daterange-title" id="kt_dashboard_daterangepicker_title" style="color: #ed1c24;">9:45 WITA</span>&nbsp;
+														<span class="kt-subheader__btn-daterange-title" id="kt_dashboard_daterangepicker_title" style="color: #ed1c24;"><blink>9:45 WITA</blink></span>&nbsp;
 														
-													</a>
+													</a>&nbsp;
+													<div class="kt-portlet__head-toolbar" style="background: #f2f3f7 !important;">
+												<a href="#" class="btn btn-label-brand btn dropdown-toggle" data-toggle="dropdown">
+													 Pilih Area
+												</a>
+												<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+													<ul class="kt-nav">
+														
+														
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-building"></i>
+																<span class="kt-nav__link-text">Kantor Regional</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-building"></i>
+																<span class="kt-nav__link-text">Cabang Makassar</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-building"></i>
+																<span class="kt-nav__link-text">Cabang Pare-Pare</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-building"></i>
+																<span class="kt-nav__link-text">Cabang Balikpapan</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-building"></i>
+																<span class="kt-nav__link-text">Cabang Samarinda</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-building"></i>
+																<span class="kt-nav__link-text">Cabang Tarakan</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-building"></i>
+																<span class="kt-nav__link-text">Cabang Nunukan</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-building"></i>
+																<span class="kt-nav__link-text">Cabang Manado</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-building"></i>
+																<span class="kt-nav__link-text">Cabang Bitung</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-building"></i>
+																<span class="kt-nav__link-text">Cabang Ambon - Yos Sudarso</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-building"></i>
+																<span class="kt-nav__link-text">Cabang Ambon - Slamet Riyadi</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-building"></i>
+																<span class="kt-nav__link-text">Cabang Ternate</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-building"></i>
+																<span class="kt-nav__link-text">Cabang Sorong</span>
+															</a>
+															
+														</li>
+														
+													</ul>
+												</div>
+												
+												
+										</div>&nbsp;
+<div class="kt-portlet__head-toolbar">
+												<a href="#" class="btn btn-label-brand btn dropdown-toggle" data-toggle="dropdown">
+													 Pilih Login
+												</a>
+												<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+													<ul class="kt-nav">
+														
+														
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-user-tie"></i>
+																<span class="kt-nav__link-text">Superadmin</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-user-tie"></i>
+																<span class="kt-nav__link-text">Administrator</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-user-tie"></i>
+																<span class="kt-nav__link-text">Direktur Utama</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-user-tie"></i>
+																<span class="kt-nav__link-text">Direktur Komersial</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-user-tie"></i>
+																<span class="kt-nav__link-text">Direktur Operasional</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-user-tie"></i>
+																<span class="kt-nav__link-text">Direktur Keuangan</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-user-tie"></i>
+																<span class="kt-nav__link-text">Direktur Teknik</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-user-tie"></i>
+																<span class="kt-nav__link-text">Direktur SDM & Umum</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-user-circle"></i>
+																<span class="kt-nav__link-text">General Manager</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-user-circle"></i>
+																<span class="kt-nav__link-text">Manager</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-user-circle"></i>
+																<span class="kt-nav__link-text">Supervisor</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-user-circle"></i>
+																<span class="kt-nav__link-text">Staff</span>
+															</a>
+															
+														</li>
+														
+														
+													</ul>
+												</div>
+												
+										</div>											
 								</div>
 							</div>
 						</div>
@@ -65,7 +268,7 @@
 									<div class="kt-header__topbar-user">
 										<span class="kt-header__topbar-welcome kt-hidden-mobile">Hi,</span>
 										<span class="kt-header__topbar-username kt-hidden-mobile">E-P4SS</span>
-										<img class="" alt="Pic" src="assets/img/logos/epass-logo-only.png" />
+										<img class="" alt="Pic" src="assets/img/users/100_15.jpg" />
 
 										<!--use below badge element instead the user avatar to display username's first letter(remove kt-hidden class to display it) -->
 									</div>
@@ -75,13 +278,13 @@
 									<!--begin: Head -->
 											<div class="kt-user-card kt-user-card--skin-dark kt-notification-item-padding-x" style="background-image: url(assets/media/misc/.jpg)">
 												<div class="kt-user-card__avatar">
-													<img class="kt-hidden-" alt="Pic" src="assets/img/logos/aiseera-parking-logo-2.png" />
+													<img class="kt-hidden-" alt="Pic" src="assets/img/users/100_15.jpg" />
 
 													<!--use below badge element instead the user avatar to display username's first letter(remove kt-hidden class to display it) -->
 													<span class="kt-badge kt-badge--username kt-badge--unified-success kt-badge--lg kt-badge--rounded kt-badge--bold kt-hidden">S</span>
 												</div>
 												<div class="kt-user-card__name">
-													Aiseera Parking
+													E-P4SS
 													<div class="small">Head IT Engineer</div>
 												</div>
 
@@ -93,7 +296,7 @@
 									<div class="kt-notification">
 										<a href="ubah-password.php" class="kt-notification__item">
 											<div class="kt-notification__item-icon">
-												<i class="flaticon2-calendar-3 kt-font-brand"></i>
+												<i class="fa fa-user-tie kt-font-brand"></i>
 											</div>
 											<div class="kt-notification__item-details">
 												<div class="kt-notification__item-title kt-font-bold">
@@ -107,7 +310,7 @@
 
 										<div class="kt-notification__custom kt-space-between">
 											<a href="custom/user/login-v2.html" target="_blank" class=""></a>
-											<a href="custom/user/login-v2.html" target="_blank" class="btn btn-outline-info btn-sm"><i class="fa fa-door-open"></i>Keluar Aplikasi</a>
+											<a href="custom/user/login-v2.html" target="_blank" class="btn btn-outline-brand btn-sm"><i class="fa fa-door-open"></i>Keluar Aplikasi</a>
 										</div>
 									</div>
 
