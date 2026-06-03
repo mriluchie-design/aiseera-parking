@@ -42,6 +42,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
             <div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
 			<div class="row">
+								
 								<div class="col-lg-3">
 												<div class="kt-portlet kt-portlet--height-fluid-full kt-iconbox kt-iconbox--danger kt-iconbox--animate-slower">
 											<div class="kt-portlet__body">
@@ -195,8 +196,7 @@ License: You must have a valid license purchased only from themeforest(the above
 									<!--end:: Widgets/Outbound Bandwidth-->
 								</div>
 								
-								
-								<div class="col-xl-4">
+								<div class="col-xl-9">
 
 									<!--begin:: Widgets/Activity-->
 									<div class="kt-portlet kt-portlet--fit kt-portlet--head-lg kt-portlet--head-overlay kt-portlet--skin-solid kt-portlet--height-fluid">
@@ -260,11 +260,71 @@ License: You must have a valid license purchased only from themeforest(the above
 																<span style="color:#ed1c24; font-size:14px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">10</span> Unit
 															</span>
 														</div>
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__icon" style="text-align:center">
+																<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="F541_Car_sedans_traffic_transport_vehicles" data-name="F541, Car, sedans, traffic, transport, vehicles"><rect x="2.99" y="20.53" width="3" height="2.99" style="fill:#fff"/><rect x="17.97" y="20.53" width="2.99" height="2.99" style="fill:#fff"/><circle cx="4.51" cy="16.53" r="2" style="fill:#fff"/><circle cx="19.49" cy="16.53" r="2" style="fill:#fff"/><path d="M23.48,12.54v8H.48v-8h23Zm-2,4a2,2,0,1,0-2,2A2,2,0,0,0,21.48,16.53Zm-15,0a2,2,0,0,0-2-2,2,2,0,0,0,0,4A2,2,0,0,0,6.51,16.53Z" transform="translate(0 0)" style="fill:#a1c6e9"/><rect x="7.51" y="0.56" width="7.99" height="2.52" style="fill:#a1c6e9"/><polygon points="19.49 3.04 21.96 12.54 2 12.54 4.51 3.04 7.51 3.04 15.49 3.04 19.49 3.04" style="fill:#fff"/><path d="M6,24a.53.53,0,0,1-.52-.52v-3a.52.52,0,0,1,1,0v3A.53.53,0,0,1,6,24Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M3,24a.53.53,0,0,1-.51-.52v-3a.52.52,0,1,1,1,0v3A.53.53,0,0,1,3,24Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M21,24a.53.53,0,0,1-.52-.52v-3a.52.52,0,1,1,1,0v3A.53.53,0,0,1,21,24Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M18,24a.53.53,0,0,1-.52-.52v-3a.52.52,0,1,1,1,0v3A.53.53,0,0,1,18,24Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M23.48,21H.52A.53.53,0,0,1,0,20.49v-8A.53.53,0,0,1,.52,12H2a.53.53,0,0,1,.52.52A.57.57,0,0,1,2,13H1v7H23V13H22a.52.52,0,0,1,0-1h1.52a.53.53,0,0,1,.52.52v8A.59.59,0,0,1,23.48,21Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M22,13H2a.49.49,0,0,1-.4-.2.56.56,0,0,1-.08-.44L4,2.88a.48.48,0,0,1,.48-.36h3a.52.52,0,1,1,0,1H4.91L2.68,12.06H21.36L19.13,3.55h-3.6a.52.52,0,1,1,0-1h4a.48.48,0,0,1,.48.36l2.51,9.5a.56.56,0,0,1-.08.44A.83.83,0,0,1,22,13Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M15.49,3.55h-8A.53.53,0,0,1,7,3V.52A.53.53,0,0,1,7.51,0h8A.53.53,0,0,1,16,.52V3A.59.59,0,0,1,15.49,3.55ZM8,2.56h7V1H8Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M4.51,19a2.52,2.52,0,0,1,0-5A2.5,2.5,0,0,1,7,16.49,2.54,2.54,0,0,1,4.51,19Zm0-4A1.52,1.52,0,1,0,6,16.53,1.55,1.55,0,0,0,4.51,15Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M19.49,19A2.52,2.52,0,1,1,22,16.49,2.54,2.54,0,0,1,19.49,19Zm0-4A1.52,1.52,0,1,0,21,16.53,1.54,1.54,0,0,0,19.49,15Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M15.49,17h-7a.52.52,0,0,1,0-1h7a.53.53,0,0,1,.52.52A.56.56,0,0,1,15.49,17Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M23.48,24H.52a.52.52,0,0,1,0-1h23a.53.53,0,0,1,.52.52A.59.59,0,0,1,23.48,24Z" transform="translate(0 0)" style="fill:#2c80c3"/></g></svg> </span>
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Member Masuk
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:14px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">10</span> Unit
+															</span>
+														</div>
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__icon" style="text-align:center">
+																<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="F541_Car_sedans_traffic_transport_vehicles" data-name="F541, Car, sedans, traffic, transport, vehicles"><rect x="2.99" y="20.53" width="3" height="2.99" style="fill:#fff"/><rect x="17.97" y="20.53" width="2.99" height="2.99" style="fill:#fff"/><circle cx="4.51" cy="16.53" r="2" style="fill:#fff"/><circle cx="19.49" cy="16.53" r="2" style="fill:#fff"/><path d="M23.48,12.54v8H.48v-8h23Zm-2,4a2,2,0,1,0-2,2A2,2,0,0,0,21.48,16.53Zm-15,0a2,2,0,0,0-2-2,2,2,0,0,0,0,4A2,2,0,0,0,6.51,16.53Z" transform="translate(0 0)" style="fill:#a1c6e9"/><rect x="7.51" y="0.56" width="7.99" height="2.52" style="fill:#a1c6e9"/><polygon points="19.49 3.04 21.96 12.54 2 12.54 4.51 3.04 7.51 3.04 15.49 3.04 19.49 3.04" style="fill:#fff"/><path d="M6,24a.53.53,0,0,1-.52-.52v-3a.52.52,0,0,1,1,0v3A.53.53,0,0,1,6,24Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M3,24a.53.53,0,0,1-.51-.52v-3a.52.52,0,1,1,1,0v3A.53.53,0,0,1,3,24Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M21,24a.53.53,0,0,1-.52-.52v-3a.52.52,0,1,1,1,0v3A.53.53,0,0,1,21,24Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M18,24a.53.53,0,0,1-.52-.52v-3a.52.52,0,1,1,1,0v3A.53.53,0,0,1,18,24Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M23.48,21H.52A.53.53,0,0,1,0,20.49v-8A.53.53,0,0,1,.52,12H2a.53.53,0,0,1,.52.52A.57.57,0,0,1,2,13H1v7H23V13H22a.52.52,0,0,1,0-1h1.52a.53.53,0,0,1,.52.52v8A.59.59,0,0,1,23.48,21Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M22,13H2a.49.49,0,0,1-.4-.2.56.56,0,0,1-.08-.44L4,2.88a.48.48,0,0,1,.48-.36h3a.52.52,0,1,1,0,1H4.91L2.68,12.06H21.36L19.13,3.55h-3.6a.52.52,0,1,1,0-1h4a.48.48,0,0,1,.48.36l2.51,9.5a.56.56,0,0,1-.08.44A.83.83,0,0,1,22,13Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M15.49,3.55h-8A.53.53,0,0,1,7,3V.52A.53.53,0,0,1,7.51,0h8A.53.53,0,0,1,16,.52V3A.59.59,0,0,1,15.49,3.55ZM8,2.56h7V1H8Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M4.51,19a2.52,2.52,0,0,1,0-5A2.5,2.5,0,0,1,7,16.49,2.54,2.54,0,0,1,4.51,19Zm0-4A1.52,1.52,0,1,0,6,16.53,1.55,1.55,0,0,0,4.51,15Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M19.49,19A2.52,2.52,0,1,1,22,16.49,2.54,2.54,0,0,1,19.49,19Zm0-4A1.52,1.52,0,1,0,21,16.53,1.54,1.54,0,0,0,19.49,15Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M15.49,17h-7a.52.52,0,0,1,0-1h7a.53.53,0,0,1,.52.52A.56.56,0,0,1,15.49,17Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M23.48,24H.52a.52.52,0,0,1,0-1h23a.53.53,0,0,1,.52.52A.59.59,0,0,1,23.48,24Z" transform="translate(0 0)" style="fill:#2c80c3"/></g></svg> </span>
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Member Keluar
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:14px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">10</span> Unit
+															</span>
+														</div>
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__icon" style="text-align:center">
+																<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="F541_Car_sedans_traffic_transport_vehicles" data-name="F541, Car, sedans, traffic, transport, vehicles"><rect x="2.99" y="20.53" width="3" height="2.99" style="fill:#fff"/><rect x="17.97" y="20.53" width="2.99" height="2.99" style="fill:#fff"/><circle cx="4.51" cy="16.53" r="2" style="fill:#fff"/><circle cx="19.49" cy="16.53" r="2" style="fill:#fff"/><path d="M23.48,12.54v8H.48v-8h23Zm-2,4a2,2,0,1,0-2,2A2,2,0,0,0,21.48,16.53Zm-15,0a2,2,0,0,0-2-2,2,2,0,0,0,0,4A2,2,0,0,0,6.51,16.53Z" transform="translate(0 0)" style="fill:#a1c6e9"/><rect x="7.51" y="0.56" width="7.99" height="2.52" style="fill:#a1c6e9"/><polygon points="19.49 3.04 21.96 12.54 2 12.54 4.51 3.04 7.51 3.04 15.49 3.04 19.49 3.04" style="fill:#fff"/><path d="M6,24a.53.53,0,0,1-.52-.52v-3a.52.52,0,0,1,1,0v3A.53.53,0,0,1,6,24Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M3,24a.53.53,0,0,1-.51-.52v-3a.52.52,0,1,1,1,0v3A.53.53,0,0,1,3,24Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M21,24a.53.53,0,0,1-.52-.52v-3a.52.52,0,1,1,1,0v3A.53.53,0,0,1,21,24Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M18,24a.53.53,0,0,1-.52-.52v-3a.52.52,0,1,1,1,0v3A.53.53,0,0,1,18,24Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M23.48,21H.52A.53.53,0,0,1,0,20.49v-8A.53.53,0,0,1,.52,12H2a.53.53,0,0,1,.52.52A.57.57,0,0,1,2,13H1v7H23V13H22a.52.52,0,0,1,0-1h1.52a.53.53,0,0,1,.52.52v8A.59.59,0,0,1,23.48,21Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M22,13H2a.49.49,0,0,1-.4-.2.56.56,0,0,1-.08-.44L4,2.88a.48.48,0,0,1,.48-.36h3a.52.52,0,1,1,0,1H4.91L2.68,12.06H21.36L19.13,3.55h-3.6a.52.52,0,1,1,0-1h4a.48.48,0,0,1,.48.36l2.51,9.5a.56.56,0,0,1-.08.44A.83.83,0,0,1,22,13Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M15.49,3.55h-8A.53.53,0,0,1,7,3V.52A.53.53,0,0,1,7.51,0h8A.53.53,0,0,1,16,.52V3A.59.59,0,0,1,15.49,3.55ZM8,2.56h7V1H8Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M4.51,19a2.52,2.52,0,0,1,0-5A2.5,2.5,0,0,1,7,16.49,2.54,2.54,0,0,1,4.51,19Zm0-4A1.52,1.52,0,1,0,6,16.53,1.55,1.55,0,0,0,4.51,15Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M19.49,19A2.52,2.52,0,1,1,22,16.49,2.54,2.54,0,0,1,19.49,19Zm0-4A1.52,1.52,0,1,0,21,16.53,1.54,1.54,0,0,0,19.49,15Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M15.49,17h-7a.52.52,0,0,1,0-1h7a.53.53,0,0,1,.52.52A.56.56,0,0,1,15.49,17Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M23.48,24H.52a.52.52,0,0,1,0-1h23a.53.53,0,0,1,.52.52A.59.59,0,0,1,23.48,24Z" transform="translate(0 0)" style="fill:#2c80c3"/></g></svg> </span>
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Pass Kade
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:14px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">10</span> Unit
+															</span>
+														</div>
+														
 														
 														
 													</div>
 													<div class="kt-widget17__items">
-														
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__icon" style="text-align:center">
+																<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="F541_Car_sedans_traffic_transport_vehicles" data-name="F541, Car, sedans, traffic, transport, vehicles"><rect x="2.99" y="20.53" width="3" height="2.99" style="fill:#fff"/><rect x="17.97" y="20.53" width="2.99" height="2.99" style="fill:#fff"/><circle cx="4.51" cy="16.53" r="2" style="fill:#fff"/><circle cx="19.49" cy="16.53" r="2" style="fill:#fff"/><path d="M23.48,12.54v8H.48v-8h23Zm-2,4a2,2,0,1,0-2,2A2,2,0,0,0,21.48,16.53Zm-15,0a2,2,0,0,0-2-2,2,2,0,0,0,0,4A2,2,0,0,0,6.51,16.53Z" transform="translate(0 0)" style="fill:#a1c6e9"/><rect x="7.51" y="0.56" width="7.99" height="2.52" style="fill:#a1c6e9"/><polygon points="19.49 3.04 21.96 12.54 2 12.54 4.51 3.04 7.51 3.04 15.49 3.04 19.49 3.04" style="fill:#fff"/><path d="M6,24a.53.53,0,0,1-.52-.52v-3a.52.52,0,0,1,1,0v3A.53.53,0,0,1,6,24Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M3,24a.53.53,0,0,1-.51-.52v-3a.52.52,0,1,1,1,0v3A.53.53,0,0,1,3,24Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M21,24a.53.53,0,0,1-.52-.52v-3a.52.52,0,1,1,1,0v3A.53.53,0,0,1,21,24Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M18,24a.53.53,0,0,1-.52-.52v-3a.52.52,0,1,1,1,0v3A.53.53,0,0,1,18,24Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M23.48,21H.52A.53.53,0,0,1,0,20.49v-8A.53.53,0,0,1,.52,12H2a.53.53,0,0,1,.52.52A.57.57,0,0,1,2,13H1v7H23V13H22a.52.52,0,0,1,0-1h1.52a.53.53,0,0,1,.52.52v8A.59.59,0,0,1,23.48,21Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M22,13H2a.49.49,0,0,1-.4-.2.56.56,0,0,1-.08-.44L4,2.88a.48.48,0,0,1,.48-.36h3a.52.52,0,1,1,0,1H4.91L2.68,12.06H21.36L19.13,3.55h-3.6a.52.52,0,1,1,0-1h4a.48.48,0,0,1,.48.36l2.51,9.5a.56.56,0,0,1-.08.44A.83.83,0,0,1,22,13Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M15.49,3.55h-8A.53.53,0,0,1,7,3V.52A.53.53,0,0,1,7.51,0h8A.53.53,0,0,1,16,.52V3A.59.59,0,0,1,15.49,3.55ZM8,2.56h7V1H8Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M4.51,19a2.52,2.52,0,0,1,0-5A2.5,2.5,0,0,1,7,16.49,2.54,2.54,0,0,1,4.51,19Zm0-4A1.52,1.52,0,1,0,6,16.53,1.55,1.55,0,0,0,4.51,15Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M19.49,19A2.52,2.52,0,1,1,22,16.49,2.54,2.54,0,0,1,19.49,19Zm0-4A1.52,1.52,0,1,0,21,16.53,1.54,1.54,0,0,0,19.49,15Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M15.49,17h-7a.52.52,0,0,1,0-1h7a.53.53,0,0,1,.52.52A.56.56,0,0,1,15.49,17Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M23.48,24H.52a.52.52,0,0,1,0-1h23a.53.53,0,0,1,.52.52A.59.59,0,0,1,23.48,24Z" transform="translate(0 0)" style="fill:#2c80c3"/></g></svg> </span>
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Kendaraan Berangkat
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:14px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">10</span> Unit
+															</span>
+														</div>
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__icon" style="text-align:center">
+																<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="F541_Car_sedans_traffic_transport_vehicles" data-name="F541, Car, sedans, traffic, transport, vehicles"><rect x="2.99" y="20.53" width="3" height="2.99" style="fill:#fff"/><rect x="17.97" y="20.53" width="2.99" height="2.99" style="fill:#fff"/><circle cx="4.51" cy="16.53" r="2" style="fill:#fff"/><circle cx="19.49" cy="16.53" r="2" style="fill:#fff"/><path d="M23.48,12.54v8H.48v-8h23Zm-2,4a2,2,0,1,0-2,2A2,2,0,0,0,21.48,16.53Zm-15,0a2,2,0,0,0-2-2,2,2,0,0,0,0,4A2,2,0,0,0,6.51,16.53Z" transform="translate(0 0)" style="fill:#a1c6e9"/><rect x="7.51" y="0.56" width="7.99" height="2.52" style="fill:#a1c6e9"/><polygon points="19.49 3.04 21.96 12.54 2 12.54 4.51 3.04 7.51 3.04 15.49 3.04 19.49 3.04" style="fill:#fff"/><path d="M6,24a.53.53,0,0,1-.52-.52v-3a.52.52,0,0,1,1,0v3A.53.53,0,0,1,6,24Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M3,24a.53.53,0,0,1-.51-.52v-3a.52.52,0,1,1,1,0v3A.53.53,0,0,1,3,24Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M21,24a.53.53,0,0,1-.52-.52v-3a.52.52,0,1,1,1,0v3A.53.53,0,0,1,21,24Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M18,24a.53.53,0,0,1-.52-.52v-3a.52.52,0,1,1,1,0v3A.53.53,0,0,1,18,24Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M23.48,21H.52A.53.53,0,0,1,0,20.49v-8A.53.53,0,0,1,.52,12H2a.53.53,0,0,1,.52.52A.57.57,0,0,1,2,13H1v7H23V13H22a.52.52,0,0,1,0-1h1.52a.53.53,0,0,1,.52.52v8A.59.59,0,0,1,23.48,21Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M22,13H2a.49.49,0,0,1-.4-.2.56.56,0,0,1-.08-.44L4,2.88a.48.48,0,0,1,.48-.36h3a.52.52,0,1,1,0,1H4.91L2.68,12.06H21.36L19.13,3.55h-3.6a.52.52,0,1,1,0-1h4a.48.48,0,0,1,.48.36l2.51,9.5a.56.56,0,0,1-.08.44A.83.83,0,0,1,22,13Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M15.49,3.55h-8A.53.53,0,0,1,7,3V.52A.53.53,0,0,1,7.51,0h8A.53.53,0,0,1,16,.52V3A.59.59,0,0,1,15.49,3.55ZM8,2.56h7V1H8Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M4.51,19a2.52,2.52,0,0,1,0-5A2.5,2.5,0,0,1,7,16.49,2.54,2.54,0,0,1,4.51,19Zm0-4A1.52,1.52,0,1,0,6,16.53,1.55,1.55,0,0,0,4.51,15Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M19.49,19A2.52,2.52,0,1,1,22,16.49,2.54,2.54,0,0,1,19.49,19Zm0-4A1.52,1.52,0,1,0,21,16.53,1.54,1.54,0,0,0,19.49,15Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M15.49,17h-7a.52.52,0,0,1,0-1h7a.53.53,0,0,1,.52.52A.56.56,0,0,1,15.49,17Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M23.48,24H.52a.52.52,0,0,1,0-1h23a.53.53,0,0,1,.52.52A.59.59,0,0,1,23.48,24Z" transform="translate(0 0)" style="fill:#2c80c3"/></g></svg> </span>
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Muatan Kapal
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:14px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">10</span> Unit
+															</span>
+														</div>
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__icon" style="text-align:center">
+																<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g id="F541_Car_sedans_traffic_transport_vehicles" data-name="F541, Car, sedans, traffic, transport, vehicles"><rect x="2.99" y="20.53" width="3" height="2.99" style="fill:#fff"/><rect x="17.97" y="20.53" width="2.99" height="2.99" style="fill:#fff"/><circle cx="4.51" cy="16.53" r="2" style="fill:#fff"/><circle cx="19.49" cy="16.53" r="2" style="fill:#fff"/><path d="M23.48,12.54v8H.48v-8h23Zm-2,4a2,2,0,1,0-2,2A2,2,0,0,0,21.48,16.53Zm-15,0a2,2,0,0,0-2-2,2,2,0,0,0,0,4A2,2,0,0,0,6.51,16.53Z" transform="translate(0 0)" style="fill:#a1c6e9"/><rect x="7.51" y="0.56" width="7.99" height="2.52" style="fill:#a1c6e9"/><polygon points="19.49 3.04 21.96 12.54 2 12.54 4.51 3.04 7.51 3.04 15.49 3.04 19.49 3.04" style="fill:#fff"/><path d="M6,24a.53.53,0,0,1-.52-.52v-3a.52.52,0,0,1,1,0v3A.53.53,0,0,1,6,24Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M3,24a.53.53,0,0,1-.51-.52v-3a.52.52,0,1,1,1,0v3A.53.53,0,0,1,3,24Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M21,24a.53.53,0,0,1-.52-.52v-3a.52.52,0,1,1,1,0v3A.53.53,0,0,1,21,24Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M18,24a.53.53,0,0,1-.52-.52v-3a.52.52,0,1,1,1,0v3A.53.53,0,0,1,18,24Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M23.48,21H.52A.53.53,0,0,1,0,20.49v-8A.53.53,0,0,1,.52,12H2a.53.53,0,0,1,.52.52A.57.57,0,0,1,2,13H1v7H23V13H22a.52.52,0,0,1,0-1h1.52a.53.53,0,0,1,.52.52v8A.59.59,0,0,1,23.48,21Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M22,13H2a.49.49,0,0,1-.4-.2.56.56,0,0,1-.08-.44L4,2.88a.48.48,0,0,1,.48-.36h3a.52.52,0,1,1,0,1H4.91L2.68,12.06H21.36L19.13,3.55h-3.6a.52.52,0,1,1,0-1h4a.48.48,0,0,1,.48.36l2.51,9.5a.56.56,0,0,1-.08.44A.83.83,0,0,1,22,13Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M15.49,3.55h-8A.53.53,0,0,1,7,3V.52A.53.53,0,0,1,7.51,0h8A.53.53,0,0,1,16,.52V3A.59.59,0,0,1,15.49,3.55ZM8,2.56h7V1H8Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M4.51,19a2.52,2.52,0,0,1,0-5A2.5,2.5,0,0,1,7,16.49,2.54,2.54,0,0,1,4.51,19Zm0-4A1.52,1.52,0,1,0,6,16.53,1.55,1.55,0,0,0,4.51,15Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M19.49,19A2.52,2.52,0,1,1,22,16.49,2.54,2.54,0,0,1,19.49,19Zm0-4A1.52,1.52,0,1,0,21,16.53,1.54,1.54,0,0,0,19.49,15Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M15.49,17h-7a.52.52,0,0,1,0-1h7a.53.53,0,0,1,.52.52A.56.56,0,0,1,15.49,17Z" transform="translate(0 0)" style="fill:#2c80c3"/><path d="M23.48,24H.52a.52.52,0,0,1,0-1h23a.53.53,0,0,1,.52.52A.59.59,0,0,1,23.48,24Z" transform="translate(0 0)" style="fill:#2c80c3"/></g></svg> </span>
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Free Pass
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:14px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">10</span> Unit
+															</span>
+														</div>
 														<div class="kt-widget17__item">
 															<span class="kt-widget17__icon" style="text-align:center">
 																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--brand">
@@ -283,6 +343,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																<span style="color:#ed1c24; font-size:14px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">10</span> Permintaan
 															</span>
 														</div>
+														
 														<div class="kt-widget17__item">
 															<span class="kt-widget17__icon" style="text-align:center">
 																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--brand">
@@ -309,369 +370,7 @@ License: You must have a valid license purchased only from themeforest(the above
 									<!--end:: Widgets/Activity-->
 								</div>
 								
-								<div class="col-xl-5">
-
-									<!--begin:: Widgets/Top Products-->
-									<div class="kt-portlet kt-portlet--tabs kt-portlet--height-fluid">
-										<div class="kt-portlet__head">
-											<div class="kt-portlet__head-label">
-												<h3 class="kt-portlet__head-title">
-													Notifikasi
-												</h3>
-											</div>
-											<div class="kt-portlet__head-toolbar">
-												<ul class="nav nav-tabs nav-tabs-line nav-tabs-bold nav-tabs-line-brand" role="tablist">
-													<li class="nav-item">
-														<a class="nav-link active" data-toggle="tab" href="#kt_widget6_tab1_content" role="tab">
-															Bantuan&nbsp;&nbsp;<span class="kt-badge kt-badge--danger">3</span>
-														</a>
-													</li>
-													<!--<li class="nav-item">
-														<a class="nav-link" data-toggle="tab" href="#kt_widget6_tab2_content" role="tab">
-															Dinas
-														</a>
-													</li>-->
-													<li class="nav-item">
-														<a class="nav-link" data-toggle="tab" href="#kt_widget6_tab3_content" role="tab">
-															Perangkat&nbsp;&nbsp;<span class="kt-badge kt-badge--danger">2</span>
-														</a>
-													</li>
-													<li class="nav-item">
-														<a class="nav-link" data-toggle="tab" href="#kt_widget6_tab4_content" role="tab">
-															Jaringan&nbsp;&nbsp;<span class="kt-badge kt-badge--danger">1</span>
-														</a>
-													</li>
-													<!--<li class="nav-item">
-														<a class="nav-link" data-toggle="tab" href="#kt_widget6_tab4_content" role="tab">
-															Perjalanan Dinas&nbsp;&nbsp;<span class="kt-badge kt-badge--danger">3</span>
-											
-														</a>
-													</li>-->
-
-												</ul>
-											</div>
-											
-										</div>
-										<div class="kt-portlet__body">
-											<div class="tab-content">
-												<div class="tab-pane active" id="kt_widget6_tab1_content" aria-expanded="true">
-													<div class="kt-notification">
-														<a href="#" class="kt-notification__item versi-2">
-															<div class="kt-notification__item-icon">
-																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
-    <g id="Stockholm-icons-/-Code-/-Warning-1-circle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="bound" x="0" y="0" width="24" height="24"></rect>
-        <circle id="Oval-5" fill="#000000" opacity="0.3" cx="12" cy="12" r="10"></circle>
-        <rect id="Rectangle-9" fill="#000000" x="11" y="7" width="2" height="8" rx="1"></rect>
-        <rect id="Rectangle-9-Copy" fill="#000000" x="11" y="16" width="2" height="2" rx="1"></rect>
-    </g>
-</svg> </div>
-															<div class="kt-notification__item-details">
-																<div style="color:#ed1c24">
-																	GATE - 1 - MOBIL - MASUK - 1
-																</div>
-																<span>Permintaan Bantuan</span>
-																<div class="kt-notification__item-time">
-																13 Desember 2019 - <span>17:00:59 WITA</span>
-																</div>
-															</div>
-																<div onclick="window.location='#';" class="btn btn btn-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																		<i class="fa fa-check-circle"></i>
-																	</div>
-														</a>
-														<a href="#" class="kt-notification__item versi-2">
-															<div class="kt-notification__item-icon">
-																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
-															    <g id="Stockholm-icons-/-Code-/-Warning-1-circle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="bound" x="0" y="0" width="24" height="24"></rect>
-        <circle id="Oval-5" fill="#000000" opacity="0.3" cx="12" cy="12" r="10"></circle>
-        <rect id="Rectangle-9" fill="#000000" x="11" y="7" width="2" height="8" rx="1"></rect>
-        <rect id="Rectangle-9-Copy" fill="#000000" x="11" y="16" width="2" height="2" rx="1"></rect>
-    </g>
-															</svg> </div>
-															<div class="kt-notification__item-details">
-																<div style="color:#ed1c24">
-																	GATE - 2 - MOBIL - MASUK - 1
-																</div>
-																<span>Permintaan Bantuan</span>
-																<div class="kt-notification__item-time">
-																13 Desember 2019 - <span>17:00:59 WITA</span>
-																</div>
-															</div>
-															<div onclick="window.location='#';" class="btn btn btn-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="fa fa-check-circle"></i>
-																</div>
-														</a>
-														<a href="#" class="kt-notification__item versi-2">
-															<div class="kt-notification__item-icon">
-																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
-    <g id="Stockholm-icons-/-Code-/-Warning-1-circle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="bound" x="0" y="0" width="24" height="24"></rect>
-        <circle id="Oval-5" fill="#000000" opacity="0.3" cx="12" cy="12" r="10"></circle>
-        <rect id="Rectangle-9" fill="#000000" x="11" y="7" width="2" height="8" rx="1"></rect>
-        <rect id="Rectangle-9-Copy" fill="#000000" x="11" y="16" width="2" height="2" rx="1"></rect>
-    </g>
-</svg> </div>
-															<div class="kt-notification__item-details">
-																<div style="color:#ed1c24">
-																	GATE - 1 - MOTOR - MASUK - 1
-																</div>
-																<span>Permintaan Bantuan</span>
-																<div class="kt-notification__item-time">
-																13 Desember 2019 - <span>17:00:59 WITA</span>
-																</div>
-															</div>
-															<div onclick="window.location='#';" class="btn btn btn-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="fa fa-check-circle"></i>
-																</div>
-														</a>
-														
-														
-														
-														
-														
-														
-														
-														
-													</div>
-												</div>
-												<div class="tab-pane" id="kt_widget6_tab2_content" aria-expanded="false">
-													<div class="kt-notification">
-														<a href="#" class="kt-notification__item versi-2">
-															<div class="kt-notification__item-icon">
-																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--brand">
-																	<g id="Stockholm-icons-/-Code-/-Warning-1-circle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="bound" x="0" y="0" width="24" height="24"></rect>
-        <circle id="Oval-5" fill="#000000" opacity="0.3" cx="12" cy="12" r="10"></circle>
-        <rect id="Rectangle-9" fill="#000000" x="11" y="7" width="2" height="8" rx="1"></rect>
-        <rect id="Rectangle-9-Copy" fill="#000000" x="11" y="16" width="2" height="2" rx="1"></rect>
-    </g>
-																</svg> </div>
-															<div class="kt-notification__item-details">
-																<div style="color:#ed1c24">
-																	GATE - 1 - MOBIL - MASUK - 1
-																</div>
-																<span>Permintaan Bantuan</span>
-																<div class="kt-notification__item-time">
-																13 Desember 2019 - <span>17:00:59 WITA</span>
-																</div>
-															</div>
-															<div onclick="window.location='#';" class="btn btn btn-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="fa fa-check-circle"></i>
-																</div>
-														</a>
-														<a href="#" class="kt-notification__item versi-2">
-															<div class="kt-notification__item-icon">
-																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--brand">
-																	<g id="Stockholm-icons-/-Code-/-Warning-1-circle" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="bound" x="0" y="0" width="24" height="24"></rect>
-        <circle id="Oval-5" fill="#000000" opacity="0.3" cx="12" cy="12" r="10"></circle>
-        <rect id="Rectangle-9" fill="#000000" x="11" y="7" width="2" height="8" rx="1"></rect>
-        <rect id="Rectangle-9-Copy" fill="#000000" x="11" y="16" width="2" height="2" rx="1"></rect>
-    </g>
-																</svg> </div>
-															<div class="kt-notification__item-details">
-																<div style="color:#374163">
-																	002ODHRXI2022
-																</div>
-																<span>Instalasi Epass Management System PT. Pelabuhan Indonesia IV (Persero) Cabang Manado</span>
-																<div class="kt-notification__item-time">
-																12 Desember 2019 - 15:00 WITA
-																</div>
-															</div>
-															<div onclick="window.location='#';" class="btn btn btn-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="fa fa-check-circle"></i>
-																</div>
-														</a>
-														<a href="#" class="kt-notification__item versi-2">
-															<div class="kt-notification__item-icon">
-																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--brand">
-																	<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect x="0" y="0" width="24" height="24"></rect>
-        <path d="M5.84026576,8 L18.1597342,8 C19.1999115,8 20.0664437,8.79732479 20.1528258,9.83390904 L20.8194924,17.833909 C20.9112219,18.9346631 20.0932459,19.901362 18.9924919,19.9930915 C18.9372479,19.9976952 18.8818364,20 18.8264009,20 L5.1735991,20 C4.0690296,20 3.1735991,19.1045695 3.1735991,18 C3.1735991,17.9445645 3.17590391,17.889153 3.18050758,17.833909 L3.84717425,9.83390904 C3.93355627,8.79732479 4.80008849,8 5.84026576,8 Z M10.5,10 C10.2238576,10 10,10.2238576 10,10.5 L10,11.5 C10,11.7761424 10.2238576,12 10.5,12 L13.5,12 C13.7761424,12 14,11.7761424 14,11.5 L14,10.5 C14,10.2238576 13.7761424,10 13.5,10 L10.5,10 Z" fill="#000000"></path>
-        <path d="M10,8 L8,8 L8,7 C8,5.34314575 9.34314575,4 11,4 L13,4 C14.6568542,4 16,5.34314575 16,7 L16,8 L14,8 L14,7 C14,6.44771525 13.5522847,6 13,6 L11,6 C10.4477153,6 10,6.44771525 10,7 L10,8 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"></path>
-    </g>
-																</svg> </div>
-															<div class="kt-notification__item-details">
-																<div style="color:#374163">
-																	001ODHRXI2022
-																</div>
-																<span>Instalasi Epass Management System PT. Pelabuhan Indonesia IV (Persero) Cabang Manado</span>
-																<div class="kt-notification__item-time">
-																11 Desember 2019 - 15:00 WITA
-																</div>
-															</div>
-															<div onclick="window.location='#';" class="btn btn btn-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="fa fa-check-circle"></i>
-																</div>
-														</a>
-														
-														
-													</div>
-												</div>
-												<div class="tab-pane" id="kt_widget6_tab3_content" aria-expanded="false">
-													<div class="kt-notification">
-														<a href="#" class="kt-notification__item versi-2">
-															<div class="kt-notification__item-icon">
-																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--warning">
-																	<g id="Stockholm-icons-/-General-/-Clipboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="bound" x="0" y="0" width="24" height="24"></rect>
-        <path d="M8,3 L8,3.5 C8,4.32842712 8.67157288,5 9.5,5 L14.5,5 C15.3284271,5 16,4.32842712 16,3.5 L16,3 L18,3 C19.1045695,3 20,3.8954305 20,5 L20,21 C20,22.1045695 19.1045695,23 18,23 L6,23 C4.8954305,23 4,22.1045695 4,21 L4,5 C4,3.8954305 4.8954305,3 6,3 L8,3 Z" id="Combined-Shape" fill="#000000" opacity="0.3"></path>
-        <path d="M11,2 C11,1.44771525 11.4477153,1 12,1 C12.5522847,1 13,1.44771525 13,2 L14.5,2 C14.7761424,2 15,2.22385763 15,2.5 L15,3.5 C15,3.77614237 14.7761424,4 14.5,4 L9.5,4 C9.22385763,4 9,3.77614237 9,3.5 L9,2.5 C9,2.22385763 9.22385763,2 9.5,2 L11,2 Z" id="Combined-Shape" fill="#000000"></path>
-        <rect id="Rectangle-152" fill="#000000" opacity="0.3" x="7" y="10" width="5" height="2" rx="1"></rect>
-        <rect id="Rectangle-152-Copy" fill="#000000" opacity="0.3" x="7" y="14" width="9" height="2" rx="1"></rect>
-    </g>
-																</svg> </div>
-															<div class="kt-notification__item-details">
-																<div style="color:#ed1c24">
-																	GATE - 1 - MOBIL - MASUK - 1
-																</div>
-																<span>Dispenser Restart</span>
-																<div class="kt-notification__item-time">
-																13 Desember 2019 - <span>17:00:59 WITA</span>
-																</div>
-															</div>
-															<div onclick="window.location='#';" class="btn btn btn-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="fa fa-check-circle"></i>
-																</div>
-														</a>
-														<a href="#" class="kt-notification__item versi-2">
-															<div class="kt-notification__item-icon">
-																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--success">
-																	<g id="Stockholm-icons-/-General-/-Clipboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="bound" x="0" y="0" width="24" height="24"></rect>
-        <path d="M8,3 L8,3.5 C8,4.32842712 8.67157288,5 9.5,5 L14.5,5 C15.3284271,5 16,4.32842712 16,3.5 L16,3 L18,3 C19.1045695,3 20,3.8954305 20,5 L20,21 C20,22.1045695 19.1045695,23 18,23 L6,23 C4.8954305,23 4,22.1045695 4,21 L4,5 C4,3.8954305 4.8954305,3 6,3 L8,3 Z" id="Combined-Shape" fill="#000000" opacity="0.3"></path>
-        <path d="M11,2 C11,1.44771525 11.4477153,1 12,1 C12.5522847,1 13,1.44771525 13,2 L14.5,2 C14.7761424,2 15,2.22385763 15,2.5 L15,3.5 C15,3.77614237 14.7761424,4 14.5,4 L9.5,4 C9.22385763,4 9,3.77614237 9,3.5 L9,2.5 C9,2.22385763 9.22385763,2 9.5,2 L11,2 Z" id="Combined-Shape" fill="#000000"></path>
-        <rect id="Rectangle-152" fill="#000000" opacity="0.3" x="7" y="10" width="5" height="2" rx="1"></rect>
-        <rect id="Rectangle-152-Copy" fill="#000000" opacity="0.3" x="7" y="14" width="9" height="2" rx="1"></rect>
-    </g>
-																</svg> </div>
-															<div class="kt-notification__item-details">
-																<div style="color:#ed1c24">
-																	GATE - 1 - MOBIL - MASUK - 2
-																</div>
-																<span>Barrier Gate Restart</span>
-																<div class="kt-notification__item-time">
-																13 Desember 2019 - <span>17:00:59 WITA</span>
-																</div>
-															</div>
-															<div onclick="window.location='#';" class="btn btn btn-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="fa fa-check-circle"></i>
-																</div>
-														</a>
-														<a href="#" class="kt-notification__item versi-2">
-															<div class="kt-notification__item-icon">
-																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--brand">
-																	<g id="Stockholm-icons-/-General-/-Clipboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect id="bound" x="0" y="0" width="24" height="24"></rect>
-        <path d="M8,3 L8,3.5 C8,4.32842712 8.67157288,5 9.5,5 L14.5,5 C15.3284271,5 16,4.32842712 16,3.5 L16,3 L18,3 C19.1045695,3 20,3.8954305 20,5 L20,21 C20,22.1045695 19.1045695,23 18,23 L6,23 C4.8954305,23 4,22.1045695 4,21 L4,5 C4,3.8954305 4.8954305,3 6,3 L8,3 Z" id="Combined-Shape" fill="#000000" opacity="0.3"></path>
-        <path d="M11,2 C11,1.44771525 11.4477153,1 12,1 C12.5522847,1 13,1.44771525 13,2 L14.5,2 C14.7761424,2 15,2.22385763 15,2.5 L15,3.5 C15,3.77614237 14.7761424,4 14.5,4 L9.5,4 C9.22385763,4 9,3.77614237 9,3.5 L9,2.5 C9,2.22385763 9.22385763,2 9.5,2 L11,2 Z" id="Combined-Shape" fill="#000000"></path>
-        <rect id="Rectangle-152" fill="#000000" opacity="0.3" x="7" y="10" width="5" height="2" rx="1"></rect>
-        <rect id="Rectangle-152-Copy" fill="#000000" opacity="0.3" x="7" y="14" width="9" height="2" rx="1"></rect>
-    </g>
-																</svg> </div>
-															<div class="kt-notification__item-details">
-																<div style="color:#ed1c24">
-																	GATE - 1 - MOTOR - MASUK - 1
-																</div>
-																<span>Karcis Habis </span>
-																<div class="kt-notification__item-time">
-																13 Desember 2019 - <span>17:00:59 WITA</span>
-																</div>
-															</div>
-															<div onclick="window.location='#';" class="btn btn btn-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="fa fa-check-circle"></i>
-																</div>
-														</a>
-														
-														
-													</div>
-												</div>
-												<div class="tab-pane" id="kt_widget6_tab4_content" aria-expanded="false">
-													<div class="kt-notification">
-														<a href="#" class="kt-notification__item versi-2">
-															<div class="kt-notification__item-icon">
-																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--warning">
-																	<g id="Stockholm-icons-/-Files-/-File" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
-        <path d="M5.85714286,2 L13.7364114,2 C14.0910962,2 14.4343066,2.12568431 14.7051108,2.35473959 L19.4686994,6.3839416 C19.8056532,6.66894833 20,7.08787823 20,7.52920201 L20,20.0833333 C20,21.8738751 19.9795521,22 18.1428571,22 L5.85714286,22 C4.02044787,22 4,21.8738751 4,20.0833333 L4,3.91666667 C4,2.12612489 4.02044787,2 5.85714286,2 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero" opacity="0.3"></path>
-        <rect id="Rectangle" fill="#000000" x="6" y="11" width="9" height="2" rx="1"></rect>
-        <rect id="Rectangle-Copy" fill="#000000" x="6" y="15" width="5" height="2" rx="1"></rect>
-    </g>
-																</svg> </div>
-															<div class="kt-notification__item-details">
-																<div style="color:#ed1c24">
-																	GATE - 1 - MOBIL - MASUK - 1
-																</div>
-																<span>Dispenser Lost Connection To Barrier Gate</span>
-																<div class="kt-notification__item-time">
-																13 Desember 2019 - <span>17:00:59 WITA</span>
-																</div>
-															</div>
-															<div onclick="window.location='#';" class="btn btn btn-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="fa fa-check-circle"></i>
-																</div>
-														</a>
-														<a href="#" class="kt-notification__item versi-2">
-															<div class="kt-notification__item-icon">
-																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--success">
-																	<g id="Stockholm-icons-/-Files-/-File" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
-        <path d="M5.85714286,2 L13.7364114,2 C14.0910962,2 14.4343066,2.12568431 14.7051108,2.35473959 L19.4686994,6.3839416 C19.8056532,6.66894833 20,7.08787823 20,7.52920201 L20,20.0833333 C20,21.8738751 19.9795521,22 18.1428571,22 L5.85714286,22 C4.02044787,22 4,21.8738751 4,20.0833333 L4,3.91666667 C4,2.12612489 4.02044787,2 5.85714286,2 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero" opacity="0.3"></path>
-        <rect id="Rectangle" fill="#000000" x="6" y="11" width="9" height="2" rx="1"></rect>
-        <rect id="Rectangle-Copy" fill="#000000" x="6" y="15" width="5" height="2" rx="1"></rect>
-    </g>
-																</svg> </div>
-															<div class="kt-notification__item-details">
-																<div style="color:#ed1c24">
-																	GATE - 1 - MOBIL - MASUK - 1
-																</div>
-																<span>Payment Gateway Offline</span>
-																<div class="kt-notification__item-time">
-																13 Desember 2019 - <span>17:00:59 WITA</span>
-																</div>
-															</div>
-															<div onclick="window.location='#';" class="btn btn btn-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="fa fa-check-circle"></i>
-																</div>
-														</a>
-														<a href="#" class="kt-notification__item versi-2">
-															<div class="kt-notification__item-icon">
-																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--brand">
-																	<g id="Stockholm-icons-/-Files-/-File" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
-        <path d="M5.85714286,2 L13.7364114,2 C14.0910962,2 14.4343066,2.12568431 14.7051108,2.35473959 L19.4686994,6.3839416 C19.8056532,6.66894833 20,7.08787823 20,7.52920201 L20,20.0833333 C20,21.8738751 19.9795521,22 18.1428571,22 L5.85714286,22 C4.02044787,22 4,21.8738751 4,20.0833333 L4,3.91666667 C4,2.12612489 4.02044787,2 5.85714286,2 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero" opacity="0.3"></path>
-        <rect id="Rectangle" fill="#000000" x="6" y="11" width="9" height="2" rx="1"></rect>
-        <rect id="Rectangle-Copy" fill="#000000" x="6" y="15" width="5" height="2" rx="1"></rect>
-    </g>
-																</svg> </div>
-															<div class="kt-notification__item-details">
-																<div style="color:#ed1c24">
-																	GATE - 1 - MOTOR - MASUK - 1
-																</div>
-																<span>Lost Connection To Server</span>
-																<div class="kt-notification__item-time">
-																13 Desember 2019 - <span>17:00:59 WITA</span>
-																</div>
-															</div>
-															<div onclick="window.location='#';" class="btn btn btn-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="fa fa-check-circle"></i>
-																</div>
-														</a>
-														
-														
-													</div>
-												</div>
-											</div>
-										</div>
-
-
-
-									<!--end::Portlet-->
-
-									<!--end:: Widgets/Top Products-->
-								</div>
-							</div>
+								
 
 							<!--End::Section-->
 
@@ -679,6 +378,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
 						
 						</div>
+						
 <div class="row">
 								
 										
