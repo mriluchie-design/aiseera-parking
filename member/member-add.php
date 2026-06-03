@@ -118,24 +118,7 @@ function goBack() {
 												</div>
 											</div>
 										</div>
-										<div class="kt-wizard-v4__nav-item" data-ktwizard-type="step">
-											<div class="kt-wizard-v4__nav-body">
-												<div class="kt-wizard-v4__nav-icon">
-													<i class="flaticon-layers"></i>
-												</div>
-												<div class="kt-wizard-v4__nav-label">
-													<div class="kt-wizard-v4__nav-label-title">
-														Pembayaran
-													</div>
-													<div class="kt-wizard-v4__nav-label-desc">
-														Pilih Metode
-													</div>
-												</div>
-												<div class="kt-wizard-v4__nav-number kt-block-center">
-													3
-												</div>
-											</div>
-										</div>
+										
 										<div class="kt-wizard-v4__nav-item" data-ktwizard-type="step">
 											<div class="kt-wizard-v4__nav-body">
 												<div class="kt-wizard-v4__nav-icon">
@@ -150,7 +133,7 @@ function goBack() {
 													</div>
 												</div>
 												<div class="kt-wizard-v4__nav-number kt-block-center">
-													4
+													3
 												</div>
 											</div>
 										</div>
@@ -596,7 +579,7 @@ function goBack() {
     <td bgcolor="#feffed" style="text-align:right">1</td>
     <td bgcolor="#feffed"><select name="select" class="form-control kt-selectpicker" data-live-search="true">
       <option value="AK">Pegawai/Instansi/Others</option>
-      <option value="AK">Sepeda Motor</option>
+      <option value="AK" selected>Sepeda Motor</option>
       <option value="AK">Sedan/Jeep/Pick Up</option>
       <option value="AK">Truck/Tronton/Trailer</option>
 	  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
@@ -641,12 +624,12 @@ function goBack() {
     </select></td>
     <td><div class="input-group input-group-sm" >
       <div class="input-group-prepend" ><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="650.000" aria-describedby="basic-addon1" />
+      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="800.000" aria-describedby="basic-addon1" />
       <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
     </div></td>
     <td><div class="input-group input-group-sm">
       <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="4.550.000" aria-describedby="basic-addon1" />
+      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="800.000" aria-describedby="basic-addon1" />
       <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
     </div></td>
     <td style="text-align:center">&nbsp;</td>
@@ -675,12 +658,12 @@ function goBack() {
     </select></td>
     <td><div class="input-group input-group-sm" >
       <div class="input-group-prepend" ><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="650.000" aria-describedby="basic-addon1" />
+      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="800.000" aria-describedby="basic-addon1" />
       <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
     </div></td>
     <td><div class="input-group input-group-sm">
       <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="4.550.000" aria-describedby="basic-addon1" />
+      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="800.000" aria-describedby="basic-addon1" />
       <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
     </div></td>
     <td style="text-align:center">&nbsp;</td>
@@ -710,12 +693,12 @@ function goBack() {
     </select></td>
     <td><div class="input-group input-group-sm" >
       <div class="input-group-prepend" ><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="650.000" aria-describedby="basic-addon1" />
+      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="800.000" aria-describedby="basic-addon1" />
       <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
     </div></td>
     <td><div class="input-group input-group-sm">
       <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="4.550.000" aria-describedby="basic-addon1" />
+      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="800.000" aria-describedby="basic-addon1" />
       <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
     </div></td>
     <td style="text-align:center">&nbsp;</td>
@@ -725,7 +708,7 @@ function goBack() {
     <td bgcolor="#feffed"><select name="select" class="form-control kt-selectpicker" data-live-search="true">
       <option value="AK">Pegawai/Instansi/Others</option>
       <option value="AK">Sepeda Motor</option>
-      <option value="AK">Sedan/Jeep/Pick Up</option>
+      <option value="AK" selected>Sedan/Jeep/Pick Up</option>
       <option value="AK">Truck/Tronton/Trailer</option>
 	  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
     </select></td>
@@ -767,12 +750,12 @@ function goBack() {
     </select></td>
     <td><div class="input-group input-group-sm" >
       <div class="input-group-prepend" ><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="650.000" aria-describedby="basic-addon1" />
+      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="1.250.000" aria-describedby="basic-addon1" />
       <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
     </div></td>
     <td><div class="input-group input-group-sm">
       <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="4.550.000" aria-describedby="basic-addon1" />
+      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="1.250.000" aria-describedby="basic-addon1" />
       <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
     </div></td>
     <td style="text-align:center">&nbsp;</td>
@@ -801,12 +784,12 @@ function goBack() {
     </select></td>
     <td><div class="input-group input-group-sm" >
       <div class="input-group-prepend" ><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="650.000" aria-describedby="basic-addon1" />
+      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="1.250.000" aria-describedby="basic-addon1" />
       <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
     </div></td>
     <td><div class="input-group input-group-sm">
       <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="4.550.000" aria-describedby="basic-addon1" />
+      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="1.250.000" aria-describedby="basic-addon1" />
       <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
     </div></td>
     <td style="text-align:center">&nbsp;</td>
@@ -835,17 +818,141 @@ function goBack() {
     </select></td>
     <td><div class="input-group input-group-sm" >
       <div class="input-group-prepend" ><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="650.000" aria-describedby="basic-addon1" />
+      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="1.250.000" aria-describedby="basic-addon1" />
       <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
     </div></td>
     <td><div class="input-group input-group-sm">
       <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="4.550.000" aria-describedby="basic-addon1" />
+      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="1.250.000" aria-describedby="basic-addon1" />
       <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
     </div></td>
     <td style="text-align:center">&nbsp;</td>
     </tr>
-  
+  <tr>
+    <td bgcolor="#feffed" style="text-align:right">3</td>
+    <td bgcolor="#feffed"><select name="select" class="form-control kt-selectpicker" data-live-search="true">
+      <option value="AK">Pegawai/Instansi/Others</option>
+      <option value="AK">Sepeda Motor</option>
+      <option value="AK" >Sedan/Jeep/Pick Up</option>
+      <option value="AK" selected>Truck/Tronton/Trailer</option>
+	  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+    </select></td>
+    <td bgcolor="#feffed"><select class="form-control kt-selectpicker" data-live-search="true">
+      <option value="AK">1</option>
+      <option value="HI">2</option>
+      <option value="HI" selected="selected">3</option>
+      <option value="HI">4</option>
+      <option value="HI">5</option>
+    </select></td>
+    <td bgcolor="#feffed"><select class="form-control kt-selectpicker" data-live-search="true">
+      <option value="AK">Unit</option>
+    </select></td>
+    <td colspan="5" bgcolor="#feffed">&nbsp;</td>
+    <td bgcolor="#feffed" style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button>
+      <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+    </tr>
+  <tr>
+    <td style="text-align:right">3.1</td>
+    <td><div class="kt-input-icon kt-input-icon--right">
+      <input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch" />
+      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-credit-card"></i></span> </span> </div></td>
+    <td colspan="2">&nbsp;</td>
+    <td><div class="kt-input-icon kt-input-icon--right">
+      <input type="text" class="form-control form-control-sm" placeholder="No Plat Kendaraan" id="generalSearch" />
+      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span></span></div></td>
+    <td><select class="form-control kt-selectpicker" data-live-search="true">
+      <option value="AK">1</option>
+      <option value="HI">2</option>
+      <option value="HI">3</option>
+      <option value="HI">4</option>
+      <option value="HI">5</option>
+    </select></td>
+    <td><select class="form-control kt-selectpicker" data-live-search="true" disabled="disabled">
+      <option value="AK">Hari</option>
+      <option value="AK">Minggu</option>
+      <option value="HI">Bulan</option>
+      <option value="HI" selected="selected">Tahun</option>
+    </select></td>
+    <td><div class="input-group input-group-sm" >
+      <div class="input-group-prepend" ><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="1.750.000" aria-describedby="basic-addon1" />
+      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+    </div></td>
+    <td><div class="input-group input-group-sm">
+      <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="1.750.000" aria-describedby="basic-addon1" />
+      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+    </div></td>
+    <td style="text-align:center">&nbsp;</td>
+    </tr>
+  <tr>
+    <td style="text-align:right">3.2</td>
+    <td><div class="kt-input-icon kt-input-icon--right">
+      <input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch" />
+      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-credit-card"></i></span> </span> </div></td>
+    <td colspan="2">&nbsp;</td>
+    <td><div class="kt-input-icon kt-input-icon--right">
+      <input type="text" class="form-control form-control-sm" placeholder="No Plat Kendaraan" id="generalSearch" />
+      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span></span></div></td>
+    <td><select class="form-control kt-selectpicker" data-live-search="true">
+      <option value="AK">1</option>
+      <option value="HI">2</option>
+      <option value="HI">3</option>
+      <option value="HI">4</option>
+      <option value="HI">5</option>
+    </select></td>
+    <td><select class="form-control kt-selectpicker" data-live-search="true" disabled="disabled">
+      <option value="AK">Hari</option>
+      <option value="AK">Minggu</option>
+      <option value="HI">Bulan</option>
+      <option value="HI" selected="selected">Tahun</option>
+    </select></td>
+    <td><div class="input-group input-group-sm" >
+      <div class="input-group-prepend" ><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="1.750.000" aria-describedby="basic-addon1" />
+      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+    </div></td>
+    <td><div class="input-group input-group-sm">
+      <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="1.750.000" aria-describedby="basic-addon1" />
+      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+    </div></td>
+    <td style="text-align:center">&nbsp;</td>
+    </tr>
+  <tr>
+    <td style="text-align:right">3.3</td>
+    <td><div class="kt-input-icon kt-input-icon--right">
+      <input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch" />
+      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-credit-card"></i></span> </span> </div></td>
+    <td colspan="2">&nbsp;</td>
+    <td><div class="kt-input-icon kt-input-icon--right">
+      <input type="text" class="form-control form-control-sm" placeholder="No Plat Kendaraan" id="generalSearch" />
+      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span></span></div></td>
+    <td><select class="form-control kt-selectpicker" data-live-search="true">
+      <option value="AK">1</option>
+      <option value="HI">2</option>
+      <option value="HI">3</option>
+      <option value="HI">4</option>
+      <option value="HI">5</option>
+    </select></td>
+    <td><select class="form-control kt-selectpicker" data-live-search="true" disabled="disabled">
+      <option value="AK">Hari</option>
+      <option value="AK">Minggu</option>
+      <option value="HI">Bulan</option>
+      <option value="HI" selected="selected">Tahun</option>
+    </select></td>
+    <td><div class="input-group input-group-sm" >
+      <div class="input-group-prepend" ><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="1.750.000" aria-describedby="basic-addon1" />
+      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+    </div></td>
+    <td><div class="input-group input-group-sm">
+      <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="1.750.000" aria-describedby="basic-addon1" />
+      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+    </div></td>
+    <td style="text-align:center">&nbsp;</td>
+    </tr>
   
   
   <tr>
@@ -855,9 +962,18 @@ function goBack() {
     <td colspan="8" style="text-align:right">Sub Total</td>
     <td colspan="2" style="text-align:center"><div class="input-group input-group-sm">
 														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="40.550.000" aria-describedby="basic-addon1">
+														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="10.400.000" aria-describedby="basic-addon1">
 														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 													</div></td>
+    </tr>
+	<tr>
+    <td colspan="8" style="text-align:right">Metode Pembayaran</td>
+    <td colspan="2" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">e-Money</option>
+                                      <option value="1">QRIS</option>
+                                      <option value="2">Tunai</option>
+                                                                           
+                                  </select></td>
     </tr>
   <tr>
     <td colspan="8" style="text-align:right">Biaya Layanan&nbsp;&nbsp;<button type="button" style="margin-bottom:20px; font-size:12px;" class="btn btn-label-brand btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Digunakan Untuk<br>Peningkatan Layanan">?</button></td>
@@ -872,7 +988,7 @@ function goBack() {
     <td colspan="8" style="text-align:right" bgcolor="#CCEAFF"><b>GRAND TOTAL </b></td>
     <td colspan="2" bgcolor="#CCEAFF"><div class="input-group input-group-sm">
 														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="40.600.000" aria-describedby="basic-addon1">
+														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="11.450.000" aria-describedby="basic-addon1">
 														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 													</div></td>
     </tr>
@@ -880,7 +996,7 @@ function goBack() {
     <td colspan="10" style="text-align:center">&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="10" style="text-align:left" bgcolor="#f7fcff"><b>Terbilang :</b></td>
+    <td colspan="10" style="text-align:left" bgcolor="#f7fcff"><b><i>Terbilang : Sebelas Juta Empat Ratus Lima Puluh Ribu Rupiah</i></b></td>
   </tr>
 </tbody></table>
 												
@@ -911,46 +1027,7 @@ function goBack() {
 
 													<!--end: Form Wizard Step 3-->
 
-													<!--begin: Form Wizard Step 4-->
-													<div class="kt-wizard-v4__content" data-ktwizard-type="step-content">
-														<div class="col-xl-12">
-<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Pembayaran</div><br><br>
-										<div class="kt-portlet__body">
-											<div class="kt-portlet__content">
-												
-						 
-						  
-						
-						  <table class="table table-bordered table-hover table-checkable" id="kt_repeater_1">
-																								<thead>
-																								<tr style="text-align:center">
-																								  <td bgcolor="#f7fcff">PAYMENT</td>
-    </tr>
-																								<thead>
-																									<tbody data-repeater-list="">
-																								
-																							</tbody>
-																							<tfoot>
-																							</tfoot>
-																						</table>
-
-
-
-
-											</div>
-
-										</div>
-
-									</div>
-									
-									</div>
-
-											
 													
-													</div>
-
-													<!--end: Form Wizard Step 4-->
 <!--begin: Form Wizard Kwitansi-->
 													<div class="kt-wizard-v4__content" data-ktwizard-type="step-content">
 														<div class="kt-invoice-2">
@@ -1011,35 +1088,49 @@ function goBack() {
 																<td>Rp.</td>
 																<td style="text-align:right">800.000,-</td>
 																<td>Rp.</td>
-																<td style="text-align:right">800.000,-</td>
+																<td style="text-align:right">2.400.000,-</td>
 															</tr>
 															<tr>
 																<td>Biaya Member - Sedan/Jeep/Pickup</td>
 																<td>3</td>
 																<td>Kendaraan</td>
 																<td>Rp.</td>
-																<td style="text-align:right">800.000,-</td>
+																<td style="text-align:right">1.250.000,-</td>
 																<td>Rp.</td>
-																<td style="text-align:right">800.000,-</td>
+																<td style="text-align:right">3.750.000,-</td>
 															</tr>
 															<tr>
 																<td>Biaya Member - Truck/Tronton/Trailer</td>
 																<td>3</td>
 																<td>Kendaraan</td>
 																<td>Rp.</td>
-																<td style="text-align:right">800.000,-</td>
+																<td style="text-align:right">1.750.000,-</td>
 																<td>Rp.</td>
-																<td style="text-align:right">800.000,-</td>
+																<td style="text-align:right">5.250.000,-</td>
 															</tr>
 															<tr>
 															  <td colspan="7">&nbsp;</td>
 														  </tr>
 															<tr>
-															  <td style="text-align:right" colspan="5">Grand Total</td>
+															  <td style="text-align:right" colspan="5">Sub Total</td>
 															  <td>Rp.</td>
-															  <td style="text-align:right">800.000,-</td>
+															  <td style="text-align:right">11.400.000,-</td>
 														  </tr>
-															
+														  
+															<tr>
+															  <td style="text-align:right" colspan="5">Biaya Layanan</td>
+															  <td>Rp.</td>
+															  <td style="text-align:right">79.800,-</td>
+														  </tr>
+														  <tr>
+															  <td style="text-align:right" colspan="5"><b>Grand Total</b></td>
+															  <td><b>Rp.</b></td>
+															  <td style="text-align:right"><b>11.479.800,-</b></td>
+														  </tr>
+														  <tr>
+															  <td style="text-align:left" colspan="7"><i>Terbilang : Sebelas Juta Empat Ratus Tujuh Puluh Sembilan Ribu Delapan Ratus Rupiah</i></td>
+															 
+														  </tr>
 														</tbody>
 													</table>
 												</div>
@@ -1047,8 +1138,10 @@ function goBack() {
 										</div>
 										<div class="kt-invoice__actions">
 											<div class="kt-invoice__container">
-												<button type="button" class="btn btn-label-brand btn-bold" onclick="window.print();">Download Kwitansi</button>
-												<button type="button" class="btn btn-brand btn-bold" onclick="window.print();">Print Kwitansi</button>
+												<span><a href="#"><button type="button" class="btn btn-label-brand">Download Kwitansi</button></a></span>
+                   
+               
+												<span><a href="cetak-kwitansi-registrasi-member.php"><button type="button" class="btn btn-brand">Print Kwitansi</button></a></span>
 											</div>
 										</div>
 									</div>
