@@ -46,7 +46,7 @@
                     <!--begin::Nav-->
                     <ul class="kt-nav">
                         <li class="kt-nav__item">
-                            <a href="#" class="kt-nav__link">
+                            <a href="cetak-member-index.php" class="kt-nav__link">
                                 <i class="kt-nav__link-icon fa fa-file-pdf"></i><span class="kt-nav__link-text">PDF</span>
                             </a>
                           </li>
@@ -146,6 +146,7 @@
                                       <option value="2">Sedan/Jeep/Pick Up</option>
                                       <option value="2">Truck/Tronton/Trailer</option>
                                       <option value="2">Orang</option>
+									  <option value="2">Keseluruhan</option>
                                                                            
                                   </select>
     		                    </div>
@@ -165,6 +166,7 @@
                                       <option value="1" selected="">Aktif</option>
                                       <option value="2">Berakhir</option>
                                       <option value="2">Suspend</option>
+                                      <option value="2">Keseluruhan</option>
                                                                            
                                   </select>
                             </div>
@@ -175,6 +177,7 @@
                                       <option value="1" selected="">Non Tunai</option>
                                       <option value="2">Tunai</option>
                                       <option value="2">Pending</option>
+									  <option value="2">Keseluruhan</option>
                                                                            
                                   </select>
                             </div>
