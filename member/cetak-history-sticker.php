@@ -119,18 +119,19 @@ function goBack() {
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Cabang</th>
 											  <th colspan="7" bgcolor="#f7fcff">Kendaraan</th>
-											  <th colspan="3" bgcolor="#f7fcff">Pembayaran</th>
+											  <th colspan="4" bgcolor="#f7fcff">Pembayaran</th>
 										  </tr>
 											<tr style="text-align:center">
 											  <th width="7%" bgcolor="#f7fcff">Kategori</th>
 											  <th width="2%" bgcolor="#f7fcff">No. Plat</th>
 											  <th width="4%" bgcolor="#f7fcff">Sticker Member</th>
-											  <th width="3%" bgcolor="#f7fcff">Tanggal Registrasi</th>
+											  <th width="2%" bgcolor="#f7fcff">Tanggal Registrasi</th>
 											  <th width="3%" bgcolor="#f7fcff">Aktif Hingga</th>
 											  <th width="1%" bgcolor="#f7fcff">Register By</th>
 											  <th width="1%" bgcolor="#f7fcff">Status</th>
 											  <th width="1%" bgcolor="#f7fcff"> ID Reff</th>
-											  <th width="1%" bgcolor="#f7fcff">Metode</th>
+											  <th width="7%" bgcolor="#f7fcff">Waktu</th>
+											  <th width="4%" bgcolor="#f7fcff">Metode</th>
 											  <th width="1%" bgcolor="#f7fcff">Provider</th>
 				                          </tr>
 										</thead>
@@ -147,6 +148,7 @@ function goBack() {
   <td nowrap="nowrap" style="text-align:center">Online</td>
   <td style="text-align:center" nowrap="nowrap">Aktif</td>
   <td nowrap="nowrap" style="text-align:center"><span class="text-center">01521531355135</span></td>
+  <td style="text-align:center"><span style="text-align:left">31 September 2026 - 13:07 WITA</span></td>
   <td style="text-align:center">QRIS</td>
   <td style="text-align:center"><span class="text-center">Mandiri</span></td>
   </tr>
@@ -161,6 +163,7 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:center">Muhammad Ramadhan, ST</td>
 												<td style="text-align:center" nowrap="nowrap">Perpanjangan</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="text-center">01521531355135</span></td>
+												<td style="text-align:center"><span style="text-align:left">31 September 2026  - 13:07 WITA</span></td>
 												<td style="text-align:center">Virtual Account</td>
 												<td style="text-align:center"><span class="text-center">Mandiri</span></td>
 												</tr>
@@ -175,9 +178,11 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:center">Muhammad Ramadhan, ST</td>
 												<td nowrap="nowrap" style="text-align:center">Berakhir</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="text-center">01521531355135</span></td>
+												<td style="text-align:center"><span style="text-align:left">31 Desember 2026  - 13:07 WITA</span></td>
 												<td style="text-align:center">QRIS</td>
 												<td style="text-align:center"><span class="text-center">Mandiri</span></td>
 										  </tr>
+
 
 
   </tbody>

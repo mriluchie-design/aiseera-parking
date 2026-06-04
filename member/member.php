@@ -437,12 +437,7 @@
 																		</li>
 																		
 																		
-																		<li class="kt-nav__item" data-toggle="modal" data-target="#modal_registrasi_sticker" data-skin="brand" data-html="true">
-																			<a href="#" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-barcode"></i>
-																				<span class="kt-nav__link-text">Registrasi Sticker</span>
-																			</a>
-																		</li>
+																		
 																		<li class="kt-nav__item" data-toggle="modal" data-target="#modal_ubah_sticker" data-skin="brand" data-html="true">
 																			<a href="#" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-barcode"></i>
@@ -514,12 +509,7 @@
 																		</li>
 																		
 																		
-																		<li class="kt-nav__item" data-toggle="modal" data-target="#modal_registrasi_sticker" data-skin="brand" data-html="true">
-																			<a href="#" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-barcode"></i>
-																				<span class="kt-nav__link-text">Registrasi Sticker</span>
-																			</a>
-																		</li>
+																		
 																		<li class="kt-nav__item" data-toggle="modal" data-target="#modal_ubah_sticker" data-skin="brand" data-html="true">
 																			<a href="#" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-barcode"></i>
@@ -587,12 +577,7 @@
 																		</li>
 																		
 																		
-																		<li class="kt-nav__item" data-toggle="modal" data-target="#modal_registrasi_sticker" data-skin="brand" data-html="true">
-																			<a href="#" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-barcode"></i>
-																				<span class="kt-nav__link-text">Registrasi Sticker</span>
-																			</a>
-																		</li>
+																		
 																		<li class="kt-nav__item" data-toggle="modal" data-target="#modal_ubah_sticker" data-skin="brand" data-html="true">
 																			<a href="#" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-barcode"></i>
