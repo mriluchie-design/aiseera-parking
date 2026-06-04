@@ -79,51 +79,43 @@ function goBack() {
 							<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid mt-3">
 								<div class="bg-white w-70 ml-auto mr-auto">
 	
-						<table class="table-checkable" align="center" width="1450" border="0" style="line-height:1.5; position:relative;top:70px; font-family: Roboto; font-size: 12px;" id="kt_table_1">
+						
+<table class="table-checkable" cellpadding="3" align="left" width="550" style="line-height:1.5; margin-left:63px; position:relative;top:70px; font-family: Roboto; font-size: 12px;">
+   <tr>
+    <td width="2%" style="border-bottom:1px solid #ccc;">Cabang</td>
+    <td width="1%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
+    <td width="27%"  style="border-bottom:1px solid #ccc;">Makassar</td>
+    <td width="1%" rowspan="3" >&nbsp;</td>
+    <td style="text-align: left; border-bottom:1px solid #ccc;">Gate Masuk</td>
+    <td width="1%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
+    <td style="text-align: left; border-bottom:1px solid #ccc;">Keseluruhan</td>
+  </tr>
+  <tr>
+    <td width="2%" style="border-bottom:1px solid #ccc;">Periode</td>
+   <td width="1%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
+    <td width="27%" style="border-bottom:1px solid #ccc;">01/01/2025 s/d 31/01/2025</td>
+    <td width="12%" style="border-bottom:1px solid #ccc;">Jalur</td>
+    <td width="1%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
+    <td width="20%" style="border-bottom:1px solid #ccc;">Masuk</td>
+  </tr>
+  <tr>
+    <td colspan="3" >&nbsp;</td>
+    <td width="12%" style="border-bottom:1px solid #ccc;">Nama Jalur</td>
+   <td width="1%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
+    <td width="20%" style="border-bottom:1px solid #ccc;">Keseluruhan</td>
+  </tr>
+</table>
+<table class="table-checkable" align="center" width="1450" border="0" style="line-height:1.5; position:relative;top:90px; font-family: Roboto; font-size: 12px;" id="kt_table_1">
   <tr>
     <td colspan="7" style="text-align: center"><strong><U>DATA REKAP KENDARAAN KELUAR<U></strong></td>
   </tr>
-  <tr>
-    <td colspan="7" style="text-align: center; font-style: italic;">Periode : 01/01/2025 s/d 31/01/2025</td>
-  </tr>
-  <tr>
-    <td colspan="7">&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="7">&nbsp;</td>
-  </tr>
-   <tr>
-    <td width="1%">Cabang</td>
-    <td width="1%" style="text-align: center">:</td>
-    <td width="7%">Makassar</td>
-    <td width="1%">&nbsp;</td>
-    <td width="1%">Jalur</td>
-    <td style="text-align: center">:</td>
-    <td width="38%">Keluar</td>
-  </tr>
-  <tr>
-    <td width="1%">Periode</td>
-    <td style="text-align: center">:</td>
-    <td width="7%">01/01/2025 s/d 31/01/2025</td>
-    <td width="1%">&nbsp;</td>
-    <td width="3%">Nama Jalur</td>
-    <td width="2%" style="text-align: center">:</td>
-    <td width="38%">Keseluruhan</td>
-  </tr>
-  <tr>
-    <td>Gate</td>
-    <td style="text-align: center">:</td>
-    <td>Keseluruhan</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-    <td>&nbsp;</td>
-  </tr>
+ 
+  
   <tr>
     <td colspan="7">&nbsp;</td>
   </tr>
 </table>
-<table align="center" border="1" cellpadding="5" style="width: 1450px; position:relative;top:70px; text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px;">
+<table align="center" border="1" cellpadding="5" style="width: 1450px; position:relative;top:90px; text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px;">
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
