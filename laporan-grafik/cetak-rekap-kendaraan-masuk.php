@@ -84,7 +84,7 @@ function goBack() {
     <td width="2%" style="border-bottom:1px solid #ccc;">Cabang</td>
     <td width="1%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
     <td width="27%"  style="border-bottom:1px solid #ccc;">Makassar</td>
-    <td width="1%" rowspan="3" >&nbsp;</td>
+    <td width="3%" rowspan="3" >&nbsp;</td>
     <td style="text-align: left; border-bottom:1px solid #ccc;">Gate Masuk</td>
     <td width="1%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
     <td style="text-align: left; border-bottom:1px solid #ccc;">Keseluruhan</td>

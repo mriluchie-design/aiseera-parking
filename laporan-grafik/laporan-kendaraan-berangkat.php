@@ -39,6 +39,7 @@
             <div class="kt-subheader__toolbar">
                 
 				<button type="button" class="btn btn-label-danger btn-sm" id = "buttonLogin" onclick = "displayLoginBox()"><i class="flaticon-interface-6"></i> Filter Data</button>
+				
                 <a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
                     <i class="flaticon2-printer"></i> Export Data</button>
                     <!--<i class="flaticon2-plus"></i>-->
@@ -209,7 +210,6 @@
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected="">e-Money</option>
                                       <option value="1">QRIS</option>
-                                      <option value="2">Tunai</option>
                                       <option value="2">Keseluruhan</option>
                                                                            
                                   </select>

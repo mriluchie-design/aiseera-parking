@@ -82,29 +82,35 @@ function goBack() {
 						
 <table class="table-checkable" cellpadding="3" align="left" width="550" style="line-height:1.5; margin-left:63px; position:relative;top:70px; font-family: Roboto; font-size: 12px;">
    <tr>
-    <td width="2%" style="border-bottom:1px solid #ccc;">Cabang</td>
-    <td width="1%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
-    <td width="27%"  style="border-bottom:1px solid #ccc;">Makassar</td>
-    <td width="1%" rowspan="3" >&nbsp;</td>
+    <td width="14%" style="border-bottom:1px solid #ccc;">Cabang</td>
+    <td width="2%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
+    <td width="21%"  style="border-bottom:1px solid #ccc;">Makassar</td>
+    <td width="3%" rowspan="4" >&nbsp;</td>
     <td style="text-align: left; border-bottom:1px solid #ccc;">Gate Masuk</td>
-    <td width="1%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
+    <td width="4%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
     <td style="text-align: left; border-bottom:1px solid #ccc;">Keseluruhan</td>
   </tr>
   <tr>
-    <td width="2%" style="border-bottom:1px solid #ccc;">Periode</td>
-   <td width="1%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
-    <td width="27%" style="border-bottom:1px solid #ccc;">01/01/2025 s/d 31/01/2025</td>
-    <td width="12%" style="border-bottom:1px solid #ccc;">Jalur</td>
-    <td width="1%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
-    <td width="20%" style="border-bottom:1px solid #ccc;">Masuk</td>
+    <td width="14%" style="border-bottom:1px solid #ccc;">Tanggal Masuk</td>
+   <td width="2%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
+    <td width="21%" style="border-bottom:1px solid #ccc;">01/01/2025 s/d 31/01/2025</td>
+    <td width="10%" style="border-bottom:1px solid #ccc;">Jalur</td>
+    <td width="4%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
+    <td width="10%" style="border-bottom:1px solid #ccc;">Masuk</td>
+  </tr>
+  <tr>
+    <td style="border-bottom:1px solid #ccc;">Tanggal Berangkat</td>
+    <td style="text-align: center; border-bottom:1px solid #ccc;">:</td>
+    <td style="border-bottom:1px solid #ccc;">01/01/2025 s/d 31/01/2025</td>
+    <td style="border-bottom:1px solid #ccc;">Nama Jalur</td>
+    <td style="text-align: center; border-bottom:1px solid #ccc;">:</td>
+    <td style="border-bottom:1px solid #ccc;">Keseluruhan</td>
   </tr>
   <tr>
     <td style="border-bottom:1px solid #ccc;">Operator</td>
     <td width="1%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
     <td style="border-bottom:1px solid #ccc;">Keseluruhan</td>
-    <td width="12%" style="border-bottom:1px solid #ccc;">Nama Jalur</td>
-   <td width="1%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
-    <td width="20%" style="border-bottom:1px solid #ccc;">Keseluruhan</td>
+    <td colspan="3" >&nbsp;</td>
   </tr>
 </table>
 <table class="table-checkable" align="center" width="1450" border="0" style="line-height:1.5; position:relative;top:90px; font-family: Roboto; font-size: 12px;" id="kt_table_1">
