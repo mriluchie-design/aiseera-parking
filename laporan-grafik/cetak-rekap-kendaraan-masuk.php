@@ -210,7 +210,7 @@ function goBack() {
 </tbody>
 									</table>
 						
-<table align="center" class="footnote-1" width="1450px" style="margin-top:450px; margin-bottom:10px;">
+<table align="center" class="footnote-1" width="1450px" style="margin-top:450px; margin-bottom:20px;">
         <thead>
             <tr><th></th>
             <th width="2%"></th>
@@ -245,7 +245,16 @@ function goBack() {
             </tr>
 <tr style="height: 10px"><td></td></tr>
              <tr>
+			 
                 <td colspan="4" style="border-bottom: 1px solid #ccc; padding-bottom"></td>
+            </tr>
+			<tr>
+			 
+                <td>&nbsp;</td>
+            </tr>
+			<tr>
+			 
+                <td>&nbsp;</td>
             </tr>
         </tbody>
     </table>
