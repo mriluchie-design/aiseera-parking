@@ -24,7 +24,7 @@
             <div class="kt-subheader__main">
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Detail Kendaraan Masuk
+                    Detail Kendaraan Keluar
                 </h3>
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
@@ -141,7 +141,7 @@ function goBack() {
 					  
                       </div>
 					  <div class="form-group row">
-				<div class="col-lg-4">
+				<div class="col-lg-3">
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
@@ -215,7 +215,91 @@ function goBack() {
                       </div>
                       </div>
                       </div>
-					  
+					  <div class="col-lg-3">
+
+									<!--begin::Portlet-->
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Kendaraan Keluar</div><br><br>
+										 <div class="kt-portlet__body">
+                     
+						  <div class="form-group row">
+						<div class="col-lg-7" >
+                          <label>Tanggal Keluar :</label>
+                          <div class="input-group date">
+													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" disabled>
+													<div class="input-group-append">
+														<span class="input-group-text">
+															<i class="la la-calendar-check-o"></i>
+														</span>
+													</div>
+												</div>
+                        </div>
+						
+						<div class="col-lg-5">
+                          <label>Jam Keluar :</label>
+                          <div class="input-group timepicker">
+													<input class="form-control form-control-sm" id="kt_timepicker_2" readonly="" placeholder="09:44:00" type="text" disabled>
+													<div class="input-group-append">
+														<span class="input-group-text">
+															<i class="la la-clock-o"></i>
+														</span>
+													</div>
+												</div>
+                        </div>
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						  <div class="form-group row">
+						<div class="col-lg-3" >
+                          <label>Gate :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1">
+                        </div>
+						<div class="col-lg-4" >
+                          <label>Jalur :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Keluar">
+                        </div>
+						<div class="col-lg-5" >
+                          <label>Nama Jalur :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Mobil - 1">
+                        </div>
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-4" >
+                          <label>Durasi Parkir :</label>
+                          <div class="input-group">
+													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="1" aria-describedby="basic-addon2" disabled>
+													<div class="input-group-append">
+														<span class="input-group-text" id="basic-addon2">Jam</span>
+													</div>
+												</div>
+                        </div>
+						<div class="col-lg-4" >
+                          <label style="color:#a2050c">&nbsp;</label>
+                          <div class="input-group">
+													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="30" aria-describedby="basic-addon2" disabled>
+													<div class="input-group-append">
+														<span class="input-group-text" id="basic-addon2">Menit</span>
+													</div>
+												</div>
+                        </div>
+						<div class="col-lg-4" >
+                          <label style="color:#a2050c">&nbsp;</label>
+                          <div class="input-group">
+													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="50" aria-describedby="basic-addon2" disabled>
+													<div class="input-group-append">
+														<span class="input-group-text" id="basic-addon2">Detik</span>
+													</div>
+												</div>
+                        </div>
+						
+						
+                        </div>
+						 
+						  
+						
+                      </div>
+                      </div>
+                      </div>
 					  
 					  
 					  <div class="col-lg-4">
@@ -255,7 +339,7 @@ function goBack() {
                           <label class="">Jumlah Pembayaran :</label>
                           <div class="input-group input-group-sm">
 															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon2">Rp.</span></div>
-															    <input style="text-align:right; " type="text" class="form-control form-control-sm" placeholder="15.000" aria-describedby="basic-addon1" disabled>
+															    <input style="text-align:right; " type="text" class="form-control form-control-sm" placeholder="2.000.000" aria-describedby="basic-addon1" disabled>
 															    <div class="input-group-append"><span class="input-group-text input-group-sm"  id="basic-addon2">,-</span></div>
 															    </div>
                         </div>
@@ -270,31 +354,7 @@ function goBack() {
 						
                       </div>
                       </div>
-					  <div class="col-lg-2">
-
-									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Webcam</div><br><br>
-										 <div class="kt-portlet__body">
-                      <div class="form-group row" style="text-align:center">
-																					<div class="col-lg-12">
-																						<div>&nbsp;</div>
-														<div class="kt-avatar kt-avatar--outline kt-avatar--circle-" id="kt_user_edit_avatar">
-																			<div class="kt-avatar__holder" style="width:200px; height:200px; background-image: url(../assets/media/kendaraan/masuk-mobil-1.png);"></div>
-
-
-																		</div>
-
-												</div>
-																					
-																					
-																					
-																				</div>
-																				</div>
-						
-						
-                      </div>
-                      </div>
+					  
 					  
 					  <div class="col-lg-2">
 
@@ -306,7 +366,7 @@ function goBack() {
 																					<div class="col-lg-12">
 																						<div>&nbsp;</div>
 														<div class="kt-avatar kt-avatar--outline kt-avatar--circle-" id="kt_user_edit_avatar">
-																			<div class="kt-avatar__holder" style="width:200px; height:200px; background-image: url(../assets/media/kendaraan/masuk-mobil-1a.png);"></div>
+																			<div class="kt-avatar__holder" style="width:200px; height:200px; background-image: url(&quot;../assets/media/kendaraan/keluar-mobil.png&quot;);"></div>
 
 
 																		</div>

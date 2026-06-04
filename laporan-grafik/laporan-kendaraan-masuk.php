@@ -143,7 +143,7 @@
 						                        </div>
 						                      </div>
                             </div>
-							<div class="col-lg-1">
+							<div class="col-lg-2">
                                 <label>Gate :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
@@ -154,7 +154,7 @@
                                   </select>
                             </div>
 							<div class="col-lg-2">
-                                <label>Jalur :</label>
+                                <label>Nama Jalur :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected>Masuk - Mobil 1</option>
@@ -403,8 +403,8 @@
 												<td style="text-align:center">Masuk<hr>Mobil - 1</td>
 												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Parkir</button></td>
 												<td class="text-center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355135<hr>e-Money<hr>Mandiri" data-html="true">Non Tunai</span></td>
-												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-mobil-masuk.png" alt="image" /></a></td>
-												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-mobil-masuk.png" alt="image" /></a></td>
+												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/masuk-mobil-1.png" alt="image" /></a></td>
+												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/masuk-mobil-1a.png" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -477,8 +477,8 @@
 												<td style="text-align:center">Masuk<hr>Motor - 2</td>
 												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Parkir</button></td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-motor-masuk-webcam-2.png" alt="image" /></a></td>
-												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-motor-masuk-2.png" alt="image" /></a></td>
+												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/masuk-1.png" alt="image" /></a></td>
+												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/masuk-1a.png" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -503,8 +503,8 @@
   <td style="text-align:center">Masuk<hr>Mobil - 2</td>
   <td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Parkir</button></td>
   <td nowrap="nowrap" style="text-align:center">-</td>
-  <td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-mobil-masuk.png" alt="image" /></a></td>
-												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-mobil-masuk.png" alt="image" /></a></td>
+  <td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/keluar-mobil-2.png" alt="image" /></a></td>
+												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/keluar-mobil.png" alt="image" /></a></td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
