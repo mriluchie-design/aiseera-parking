@@ -496,7 +496,7 @@
 												<td style="text-align:center">2</td>
 												<td style="text-align:center">Masuk<hr>Motor - 1</td>
 												<td style="text-align:center"><span class="btn btn-label-skype btn-sm">Berangkat</span></td>
-												<td class="text-center"><span class="btn btn-label-linkedin btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Reff ID : 000002PGTQR0626&lt;hr&gt;QRIS&lt;hr&gt;DANA" data-html="true">DANA</span></td>
+												<td class="text-center"><span class="btn btn-label-linkedin btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Reff ID : 000002PGTQR0626&lt;hr&gt;QRIS&lt;hr&gt;DANA" data-html="true">QRIS</span></td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/foto-motor-masuk-webcam-2.png" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/foto-motor-masuk-2.png" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>

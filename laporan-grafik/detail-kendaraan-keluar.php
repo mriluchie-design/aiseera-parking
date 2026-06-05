@@ -334,7 +334,7 @@ function goBack() {
 										 <div class="kt-portlet__body">
                      
 						  <div class="form-group row">
-						<div class="col-lg-7" >
+						<div class="col-lg-6" >
                           <label>Tanggal Keluar :</label>
                           <div class="input-group date">
 													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" disabled>
@@ -346,7 +346,7 @@ function goBack() {
 												</div>
                         </div>
 						
-						<div class="col-lg-5">
+						<div class="col-lg-6">
                           <label>Jam Keluar :</label>
                           <div class="input-group timepicker">
 													<input class="form-control form-control-sm" id="kt_timepicker_2" readonly="" placeholder="09:44:00" type="text" disabled>
@@ -364,18 +364,19 @@ function goBack() {
                           <label>Gate :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1">
                         </div>
-						<div class="col-lg-4" >
+						<div class="col-lg-3" >
                           <label>Jalur :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Keluar">
                         </div>
-						<div class="col-lg-5" >
+						<div class="col-lg-6" >
                           <label>Nama Jalur :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Mobil - 1">
                         </div>
+						
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
-						<div class="col-lg-4" >
+						<div class="col-lg-3" >
                           <label>Durasi Parkir :</label>
                           <div class="input-group">
 													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="1" aria-describedby="basic-addon2" disabled>
@@ -384,7 +385,7 @@ function goBack() {
 													</div>
 												</div>
                         </div>
-						<div class="col-lg-4" >
+						<div class="col-lg-3" >
                           <label style="color:#a2050c">&nbsp;</label>
                           <div class="input-group">
 													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="00" aria-describedby="basic-addon2" disabled>
@@ -393,7 +394,7 @@ function goBack() {
 													</div>
 												</div>
                         </div>
-						<div class="col-lg-4" >
+						<div class="col-lg-3" >
                           <label style="color:#a2050c">&nbsp;</label>
                           <div class="input-group">
 													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="00" aria-describedby="basic-addon2" disabled>
@@ -402,7 +403,10 @@ function goBack() {
 													</div>
 												</div>
                         </div>
-						
+						<div class="col-lg-3">
+                          <label class="">Plat Kendaraan :</label>
+                          <input type="text" class="form-control form-control-sm" placeholder="DD 1111 LU" disabled>
+                        </div>
 						
                         </div>
 						 

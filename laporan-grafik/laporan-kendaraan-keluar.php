@@ -480,7 +480,7 @@
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
 												  15:36:00 WITA</td>
-												<td class="text-center"><span class="btn btn-label-linkedin btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000001INTQR0626<hr>Reff ID : 000002PGTQR0626&lt;hr&gt;QRIS&lt;hr&gt;OVO" data-html="true">OVO</span></td>
+												<td class="text-center"><span class="btn btn-label-linkedin btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000001INTQR0626<hr>Reff ID : 000002PGTQR0626&lt;hr&gt;QRIS&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LLU</td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
@@ -488,7 +488,7 @@
 												<td style="text-align:center">2<hr />Keluar
 												  <hr />
 										    Motor - 1</td>
-												<td class="text-center"><span class="btn btn-label-linkedin btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : -<hr>Reff ID : 000006PGTQR0626&lt;hr&gt;QRIS&lt;hr&gt;DANA" data-html="true">DANA</span></td>
+												<td class="text-center"><span class="btn btn-label-linkedin btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : -<hr>Reff ID : 000006PGTQR0626&lt;hr&gt;QRIS&lt;hr&gt;DANA" data-html="true">QRIS</span></td>
 												<td style="text-align:center" nowrap>01 Jam
 												  <hr />
 												  10 Menit

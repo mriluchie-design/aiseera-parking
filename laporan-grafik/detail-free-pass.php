@@ -24,7 +24,7 @@
             <div class="kt-subheader__main">
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Detail Kendaraan Berangkat
+                    Detail Kendaraan Free Pass
                 </h3>
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
@@ -59,8 +59,8 @@ function goBack() {
 				
 				
 			</div>
-			<a href="cetak-karcis-berangkat.php" class="btn btn-label-success btn-sm">
-                    <i class="fa fa-print"></i> Cetak Karcis</button>
+			<a href="cetak-free-pass.php" class="btn btn-label-success btn-sm">
+                    <i class="fa fa-print"></i> Cetak Free Pass</button>
                     <!--<i class="flaticon2-plus"></i>-->
                 </a>
 			
@@ -97,31 +97,40 @@ function goBack() {
 					  <div class="col-lg-12">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Member</div><br><br>
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--warning">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Free Pass</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
 						
 						
                         
 						<div class="col-lg-2">
-                          <label class="">Nama Member :</label>
+                          <label class="">Nama Operator :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom">
                         </div>
 						<div class="col-lg-1">
-                          <label class="">Status Member :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Aktif">
+                          <label class="">Free Pass :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Tamu">
+                        </div>
+						<div class="col-lg-1">
+                          <label class="">Durasi :</label>
+                          <div class="input-group">
+													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="1" aria-describedby="basic-addon2" disabled>
+													<div class="input-group-append">
+														<span class="input-group-text" id="basic-addon2">Jam</span>
+													</div>
+												</div>
                         </div>
 						<div class="col-lg-2">
-                          <label class="">Tanggal Terdaftar :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="31 Desember 2026">
+                          <label class="">Waktu Free Pass :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="05 Mei 2026 - 23:47:00 WITA">
                         </div>
 						<div class="col-lg-2">
                           <label class="">Aktif Hingga :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="31 Desember 2026">
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="05 Mei 2026 - 23:59:00 WITA">
                         </div>
 						<div class="col-lg-2">
-                          <label class="">Sticker Member :</label>
+                          <label class="">ID Free Pass :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="12321355123123211">
                         </div>
 						<div class="col-lg-2">
@@ -330,11 +339,11 @@ function goBack() {
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--success">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Kendaraan Berangkat</div><br><br>
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Kendaraan Keluar</div><br><br>
 										 <div class="kt-portlet__body">
                      
 						  <div class="form-group row">
-						<div class="col-lg-7" >
+						<div class="col-lg-6" >
                           <label>Tanggal Keluar :</label>
                           <div class="input-group date">
 													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" disabled>
@@ -346,7 +355,7 @@ function goBack() {
 												</div>
                         </div>
 						
-						<div class="col-lg-5">
+						<div class="col-lg-6">
                           <label>Jam Keluar :</label>
                           <div class="input-group timepicker">
 													<input class="form-control form-control-sm" id="kt_timepicker_2" readonly="" placeholder="09:44:00" type="text" disabled>
@@ -362,16 +371,17 @@ function goBack() {
 						  <div class="form-group row">
 						<div class="col-lg-3" >
                           <label>Gate :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="-">
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1">
                         </div>
-						<div class="col-lg-4" >
+						<div class="col-lg-3" >
                           <label>Jalur :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="-">
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Keluar">
                         </div>
-						<div class="col-lg-5" >
+						<div class="col-lg-6" >
                           <label>Nama Jalur :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="-">
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Mobil - 1">
                         </div>
+						
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
@@ -420,7 +430,7 @@ function goBack() {
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--success">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Pembayaran Berangkat</div><br><br>
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Pembayaran Keluar</div><br><br>
 										 <div class="kt-portlet__body">
 										 <div class="form-group row">
                       <div class="col-lg-6">
@@ -470,12 +480,36 @@ function goBack() {
                       </div>
 					  
 					  
-					  
 					  <div class="col-lg-2">
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--success">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Foto Kendaraan Berangkat</div><br><br>
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Webcam Keluar</div><br><br>
+										 <div class="kt-portlet__body">
+                      <div class="form-group row" style="text-align:center">
+																					<div class="col-lg-12">
+																						<div>&nbsp;</div>
+														<div class="kt-avatar kt-avatar--outline kt-avatar--circle-" id="kt_user_edit_avatar">
+																			<div class="kt-avatar__holder" style="width:200px; height:200px; background-image: url(&quot;../assets/media/kendaraan/keluar-mobil-2.png&quot;);"></div>
+
+
+																		</div>
+
+												</div>
+																					
+																					
+																					
+																				</div>
+																				</div>
+						
+						
+                      </div>
+                      </div>
+					  <div class="col-lg-2">
+
+									<!--begin::Portlet-->
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--success">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Foto Kendaraan Keluar</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row" style="text-align:center">
 																					<div class="col-lg-12">
@@ -504,8 +538,8 @@ function goBack() {
 					  <div class="col-lg-12">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Petugas</div><br><br>
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--warning">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Gate Keluar</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
 					  
@@ -519,7 +553,7 @@ function goBack() {
                           <label class="">Jabatan :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Operator Gate">
                         </div>
-						<div class="col-lg-2">
+						<div class="col-lg-1">
                           <label class="">Status Karcis :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="50">
                         </div>
@@ -531,9 +565,18 @@ function goBack() {
                           <label class="">Status :</label><br>
                           <span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
                         </div>
-						
-						
-						
+						<div class="col-lg-2">
+                          <label class="">IP Barrier Gate :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="192.168.88.101">
+                        </div>
+						<div class="col-lg-1">
+                          <label class="">Status :</label><br>
+                          <span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+                        </div>
+						<div class="col-lg-1">
+                          <label class="">CCTV :</label><br>
+                          <span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+                        </div>
                         </div>
 						
 						
