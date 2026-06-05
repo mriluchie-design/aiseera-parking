@@ -24,7 +24,7 @@ License: You must have a valid license purchased only from themeforest(the above
 										</span>
 										&nbsp;
 										&nbsp;
-											Cetak Karcis Keluar
+											Cetak Karcis Pass Kade
 									</h3>
 								<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
@@ -77,7 +77,7 @@ function goBack() {
 
 							<div class="tab-content" style="background:#f2f3f8;overflow:scroll; padding-bottom">
 							<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid mt-3">
-								<div class="bg-white w-25 ml-auto mr-auto" style="margin-bottom:210px; margin-top:50px;">
+								<div class="bg-white w-25 ml-auto mr-auto" style="margin-bottom:190px; margin-top:50px;">
 	
 						<table class="table-responsive" cellpadding="3" align="center" width="250" border="0" style="line-height:1; margin-left:0px; padding-top:20px; font-family: Tahoma; font-size: 11px;" id="kt_table_1">
    <tr>
@@ -102,7 +102,9 @@ function goBack() {
   <tr>
     <td style="text-align: center; font-size:12px; padding-top:10px;"><strong>BUKTI PEMBAYARAN</strong></td>
   </tr>
- 
+ <tr>
+    <td style="text-align: center; font-size:12px;"><strong>PASS KADE</strong></td>
+  </tr>
   <tr>
     <td ></td>
   </tr>
@@ -113,7 +115,7 @@ function goBack() {
    
   <tr>
     <td width="9%" style="text-align: left;">&nbsp;</td>
-    <td width="20%" style="text-align: left;">TRANSAKSI</td>
+    <td width="28%" style="text-align: left;">TRANSAKSI</td>
     <td width="3%" style="text-align: center">:</td>
     <td colspan="3" style="text-align: left">001TRTUGM0526</td>
   </tr>
@@ -130,30 +132,15 @@ function goBack() {
     <td style="text-align: center" >:</td>
     <td colspan="3" >04/06/2026 - 15:39:30</td>
   </tr>
+  
   <tr>
     <td >&nbsp;</td>
-    <td >KELUAR</td>
+    <td >VOLUME MUATAN</td>
     <td style="text-align: center" >:</td>
-    <td colspan="3" >04/06/2026 - 17:39:30</td>
+    <td colspan="3" >1 m3</td>
   </tr>
-  <tr>
-    <td >&nbsp;</td>
-    <td >DURASI</td>
-    <td style="text-align: center" >:</td>
-    <td colspan="3" >1 Jam 0 Menit 0 Detik</td>
-  </tr>
-  <tr>
-    <td >&nbsp;</td>
-    <td >GATE</td>
-    <td style="text-align: center" >:</td>
-    <td colspan="3" >1</td>
-  </tr>
-  <tr>
-    <td >&nbsp;</td>
-    <td >JALUR</td>
-    <td style="text-align: center" >:</td>
-    <td colspan="3" >MOBIL - 1</td>
-  </tr>
+  
+  
   <tr>
     <td >&nbsp;</td>
     <td >PETUGAS</td>
@@ -202,7 +189,7 @@ function goBack() {
                 
             </tr>
             <tr style=" width:250px;">
-              <td colspan="2" valign="center" style="text-align: left; margin-left:5px; padding-left:5px; font-family: Roboto; font-size: 11px;">TERIMA KASIH<br>SELAMAT HINGGA TUJUAN</td>
+              <td colspan="2" valign="center" style="text-align: left; margin-left:20px; padding-left:10px; font-family: Roboto; font-size: 11px;">TERIMA KASIH</td>
             </tr>
 
               <tr>
