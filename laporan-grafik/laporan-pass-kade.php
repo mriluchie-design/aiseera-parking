@@ -273,10 +273,10 @@
 								<div class="kt-widget24__details">
 									<div class="kt-widget24__info">
 										<h4 class="kt-widget24__title">
-											Pass Kade
+											Kendaraan 
 										</h4>
 										<span class="kt-widget24__desc">
-											Hari ini
+											Pass Kade Hari ini
 										</span>
 									</div>
 									<span class="kt-widget24__stats kt-font-brand">
@@ -290,10 +290,10 @@
 								<div class="kt-widget24__details">
 									<div class="kt-widget24__info">
 										<h4 class="kt-widget24__title">
-											Transaksi Pass Kade
+											Hari ini 
 										</h4>
 										<span class="kt-widget24__desc">
-											Hari ini
+											Transaksi Pass Kade
 										</span>
 									</div>
 									<span class="kt-widget24__stats kt-font-brand">

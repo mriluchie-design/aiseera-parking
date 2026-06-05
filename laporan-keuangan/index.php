@@ -155,7 +155,7 @@ License: You must have a valid license purchased only from themeforest(the above
 						</li>-->
 					</ul>
 				</div>
-				<div class="col-xl-10" style="height:500px; overflow-y:scroll;">
+				<div class="col-xl-10" style="height:600px; overflow-y:scroll;">
 					<div class="accordion accordion-solid accordion-toggle-plus" id="accordionExample1">
 						<div class="card">
 							<div class="card-header" id="headingOne">

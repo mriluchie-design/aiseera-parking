@@ -291,10 +291,10 @@
 								<div class="kt-widget24__details">
 									<div class="kt-widget24__info">
 										<h4 class="kt-widget24__title">
-											Mobil Berangkat
+											Mobil 
 										</h4>
 										<span class="kt-widget24__desc">
-											Hari ini
+											Berangkat Hari ini
 										</span>
 									</div>
 									<span class="kt-widget24__stats kt-font-brand">
@@ -308,10 +308,10 @@
 								<div class="kt-widget24__details">
 									<div class="kt-widget24__info">
 										<h4 class="kt-widget24__title">
-											Motor Berangkat
+											Motor 
 										</h4>
 										<span class="kt-widget24__desc">
-											Hari ini
+											Berangkat Hari ini
 										</span>
 									</div>
 									<span class="kt-widget24__stats kt-font-brand">
@@ -325,10 +325,10 @@
 								<div class="kt-widget24__details">
 									<div class="kt-widget24__info">
 										<h4 class="kt-widget24__title">
-											Member Mobil Berangkat
+											Member Mobil 
 										</h4>
 										<span class="kt-widget24__desc">
-											Hari ini
+											Berangkat Hari ini
 										</span>
 									</div>
 									<span class="kt-widget24__stats kt-font-brand">
@@ -342,10 +342,10 @@
 								<div class="kt-widget24__details">
 									<div class="kt-widget24__info">
 										<h4 class="kt-widget24__title">
-											Member Motor Berangkat
+											Member Motor 
 										</h4>
 										<span class="kt-widget24__desc">
-											Hari ini
+											Berangkat Hari ini
 										</span>
 									</div>
 									<span class="kt-widget24__stats kt-font-brand">
@@ -359,10 +359,10 @@
 								<div class="kt-widget24__details">
 									<div class="kt-widget24__info">
 										<h4 class="kt-widget24__title">
+											Hari ini
+										</h4>
+										<span class="kt-widget24__desc">
 											Kendaraan Berangkat
-										</h4>
-										<span class="kt-widget24__desc">
-											Hari ini
 										</span>
 									</div>
 									<span class="kt-widget24__stats kt-font-danger">

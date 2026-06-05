@@ -318,11 +318,11 @@ function goBack() {
                     </span>
                 </td>
                 <td>&nbsp;</td>
-                <td colspan="2" valign="center" style="position: relative;top:-5px;text-align:left; padding-left:10px; padding-top:10px;">
+               <td colspan="2" valign="left" style="text-align: center">
                     <span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Sesuai
-                            dengan ketentuan yang berlaku, Perusahaan Umum Daerah Parkir Makassar Raya mengatur
+                            dengan ketentuan Peraturan Perusahaan yang berlaku, Perusahaan mengatur
                             bahwa
-                            surat ini telah ditandatangani dan diverifikasi secara elektronik, sehingga
+                            Dokumen ini telah ditandatangani dan diverifikasi secara elektronik, sehingga
                             tidak
                             diperlukan
                             tanda tangan basah pada Dokumen ini.</i></span></td>
@@ -332,7 +332,7 @@ function goBack() {
                 <td colspan="4" style="border-bottom: 1px solid #ccc;"></td>
             </tr>
             <tr style=" width:650px;">
-              <td colspan="4" style="text-align: center;"><span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA</i></span></td>
+              <td colspan="4" style="text-align: center;"><span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA - Halaman 1 dari 100</i></span></td>
             </tr>
 
         </tbody>
@@ -598,11 +598,11 @@ function goBack() {
                     </span>
                 </td>
                 <td>&nbsp;</td>
-                <td colspan="2" valign="center" style="position: relative;top:-5px;text-align:left; padding-left:10px; padding-top:10px;">
+                <td colspan="2" valign="left" style="text-align: center">
                     <span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Sesuai
-                            dengan ketentuan yang berlaku, Perusahaan Umum Daerah Parkir Makassar Raya mengatur
+                            dengan ketentuan Peraturan Perusahaan yang berlaku, Perusahaan mengatur
                             bahwa
-                            surat ini telah ditandatangani dan diverifikasi secara elektronik, sehingga
+                            Dokumen ini telah ditandatangani dan diverifikasi secara elektronik, sehingga
                             tidak
                             diperlukan
                             tanda tangan basah pada Dokumen ini.</i></span></td>
@@ -612,7 +612,7 @@ function goBack() {
                 <td colspan="4" style="border-bottom: 1px solid #ccc;"></td>
             </tr>
             <tr style=" width:650px;">
-              <td colspan="4" style="text-align: center;"><span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA</i></span></td>
+              <td colspan="4" style="text-align: center;"><span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA - Halaman 1 dari 100</i></span></td>
             </tr>
 
         </tbody>
@@ -881,11 +881,11 @@ function goBack() {
                     </span>
                 </td>
                 <td>&nbsp;</td>
-                <td colspan="2" valign="center" style="position: relative;top:-5px;text-align:left; padding-left:10px; padding-top:10px;">
+                <td colspan="2" valign="left" style="text-align: center">
                     <span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Sesuai
-                            dengan ketentuan yang berlaku, Perusahaan Umum Daerah Parkir Makassar Raya mengatur
+                            dengan ketentuan Peraturan Perusahaan yang berlaku, Perusahaan mengatur
                             bahwa
-                            surat ini telah ditandatangani dan diverifikasi secara elektronik, sehingga
+                            Dokumen ini telah ditandatangani dan diverifikasi secara elektronik, sehingga
                             tidak
                             diperlukan
                             tanda tangan basah pada Dokumen ini.</i></span></td>
@@ -895,7 +895,7 @@ function goBack() {
                 <td colspan="4" style="border-bottom: 1px solid #ccc;"></td>
             </tr>
             <tr style=" width:650px;">
-              <td colspan="4" style="text-align: center;"><span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA</i></span></td>
+              <td colspan="4" style="text-align: center;"><span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA - Halaman 1 dari 100</i></span></td>
             </tr>
 
         </tbody>
@@ -1041,9 +1041,9 @@ function goBack() {
                                     </td>
                                 </tr>
                                 <tr style="margin-right:20px">
-                                    <td valign="top" style="text-align: center; border: 0px solid #ccc; font-style:underline; margin-right:20px;"><strong>MARDIYAH, SE</strong></td>
-                                    <td valign="top" style="text-align: center; border: 0px solid #ccc; margin-right:20px;"><strong>SITTI RAHMAH, S.Sos</strong></td>
-                                    <td valign="top" style="text-align: center; border: 0px solid #ccc; margin-right:20px;"><strong>SYAFRI HAFID, SE</strong></td>
+                                    <td valign="top" style="text-align: center; border: 0px solid #ccc; font-style:underline; margin-right:20px;"><strong>YUNI SASLIA,SE</strong></td>
+                                    <td valign="top" style="text-align: center; border: 0px solid #ccc; margin-right:20px;"><strong>FADLI DJUNAEDI, SE</strong></td>
+                                    <td valign="top" style="text-align: center; border: 0px solid #ccc; margin-right:20px;"><strong>DESSYANTI EKA PUTRI, SE</strong></td>
                                   </tr>
                                 <tr>
                                     <td valign="top" style="text-align: center; border: 0px solid #ccc">Kepala Seksi Pembukuan</td>
@@ -1086,11 +1086,11 @@ function goBack() {
                     </span>
                 </td>
                 <td>&nbsp;</td>
-                <td colspan="2" valign="center" style="position: relative;top:-5px;text-align:left; padding-left:10px; padding-top:10px;">
+               <td colspan="2" valign="left" style="text-align: center">
                     <span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Sesuai
-                            dengan ketentuan yang berlaku, Perusahaan Umum Daerah Parkir Makassar Raya mengatur
+                            dengan ketentuan Peraturan Perusahaan yang berlaku, Perusahaan mengatur
                             bahwa
-                            surat ini telah ditandatangani dan diverifikasi secara elektronik, sehingga
+                            Dokumen ini telah ditandatangani dan diverifikasi secara elektronik, sehingga
                             tidak
                             diperlukan
                             tanda tangan basah pada Dokumen ini.</i></span></td>
@@ -1100,7 +1100,7 @@ function goBack() {
                 <td colspan="4" style="border-bottom: 1px solid #ccc;"></td>
             </tr>
             <tr style=" width:650px;">
-              <td colspan="4" style="text-align: center;"><span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA</i></span></td>
+              <td colspan="4" style="text-align: center;"><span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA - Halaman 1 dari 100</i></span></td>
             </tr>
 
         </tbody>

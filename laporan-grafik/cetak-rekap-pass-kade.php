@@ -29,7 +29,7 @@ License: You must have a valid license purchased only from themeforest(the above
 								<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Kendaraan Berangkat </span>
+											Pass Kade </span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
 										</form>
@@ -80,42 +80,26 @@ function goBack() {
 								<div class="bg-white w-70 ml-auto mr-auto">
 	
 						
-<table class="table-checkable" cellpadding="3" align="left" width="550" style="line-height:1.5; margin-left:63px; position:relative;top:70px; font-family: Roboto; font-size: 12px;">
+<table class="table-checkable" cellpadding="3" align="left" width="350" style="line-height:1.5; margin-left:63px; position:relative;top:70px; font-family: Roboto; font-size: 12px;">
    <tr>
-    <td width="14%" style="border-bottom:1px solid #ccc;">Cabang</td>
+    <td width="7%" style="border-bottom:1px solid #ccc;">Cabang</td>
     <td width="2%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
     <td width="21%"  style="border-bottom:1px solid #ccc;">Makassar</td>
-    <td width="3%" rowspan="4" >&nbsp;</td>
-    <td style="text-align: left; border-bottom:1px solid #ccc;">Gate Masuk</td>
-    <td width="4%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
-    <td style="text-align: left; border-bottom:1px solid #ccc;">Keseluruhan</td>
   </tr>
   <tr>
-    <td width="14%" style="border-bottom:1px solid #ccc;">Tanggal Masuk</td>
+    <td width="7%" style="border-bottom:1px solid #ccc;">Tanggal Masuk</td>
    <td width="2%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
     <td width="21%" style="border-bottom:1px solid #ccc;">01/01/2025 s/d 31/01/2025</td>
-    <td width="10%" style="border-bottom:1px solid #ccc;">Jalur</td>
-    <td width="4%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
-    <td width="10%" style="border-bottom:1px solid #ccc;">Masuk</td>
-  </tr>
-  <tr>
-    <td style="border-bottom:1px solid #ccc;">Tanggal Berangkat</td>
-    <td style="text-align: center; border-bottom:1px solid #ccc;">:</td>
-    <td style="border-bottom:1px solid #ccc;">01/01/2025 s/d 31/01/2025</td>
-    <td style="border-bottom:1px solid #ccc;">Nama Jalur</td>
-    <td style="text-align: center; border-bottom:1px solid #ccc;">:</td>
-    <td style="border-bottom:1px solid #ccc;">Keseluruhan</td>
   </tr>
   <tr>
     <td style="border-bottom:1px solid #ccc;">Operator</td>
-    <td width="1%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
+    <td width="2%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
     <td style="border-bottom:1px solid #ccc;">Keseluruhan</td>
-    <td colspan="3" >&nbsp;</td>
   </tr>
 </table>
 <table class="table-checkable" align="center" width="1450" border="0" style="line-height:1.5; position:relative;top:90px; font-family: Roboto; font-size: 12px;" id="kt_table_1">
   <tr>
-    <td colspan="7" style="text-align: center"><strong><U>DATA REKAP KENDARAAN BERANGKAT<U></strong></td>
+    <td colspan="7" style="text-align: center"><strong><U>DATA REKAP KENDARAAN - PASS KADE<U></strong></td>
   </tr>
  
   
@@ -128,125 +112,108 @@ function goBack() {
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
-											  <th colspan="7" bgcolor="#f7fcff">Kendaraan Masuk</th>
-											  <th colspan="5" bgcolor="#feffed">Kendaraan Berangkat</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Operator</th>
+											  <th colspan="7" bgcolor="#feffed">Kendaraan Pass Kade</th>
+											  <th colspan="3" bgcolor="#f7fcff">Pembayaran</th>
+											  <th bgcolor="#f7fcff">Foto</th>
 										  </tr>
 											<tr style="text-align:center">
-											  <th width="1%" bgcolor="#f7fcff">Kartu / Karcis / Sticker</th>
-											  <th width="1%" bgcolor="#f7fcff">Member</th>
-											  <th width="1%" bgcolor="#f7fcff">Kategori</th>
-											  <th width="2%" bgcolor="#f7fcff">No. Plat</th>
-											  <th width="3%" bgcolor="#f7fcff">Waktu</th>
-											  <th width="5%" bgcolor="#f7fcff">Gate<hr />Jalur</th>
-											  <th width="5%" bgcolor="#f7fcff">Pembayaran</th>
-											  <th width="1%" bgcolor="#feffed">Operator</th>
-											  <th width="1%" bgcolor="#feffed">Kartu / Karcis / Sticker</th>
-											  <th width="1%" bgcolor="#feffed">Waktu</th>
-											  <th width="1%" bgcolor="#feffed">Pembayaran</th>
-											  <th width="1%" bgcolor="#feffed">Foto</th>
-									      </tr>
+											  <th width="1%" bgcolor="#feffed">Kendaraan</th>
+											  <th width="1%" bgcolor="#feffed">Gol</th>
+											  <th width="1%" bgcolor="#feffed">No. Plat</th>
+											  <th width="1%" bgcolor="#feffed">Karcis / Kartu</th>
+											  <th colspan="2" bgcolor="#feffed">Volume Muatan</th>
+											  <th width="1%" bgcolor="#feffed">Waktu </th>
+											  <th width="1%" bgcolor="#f7fcff">ID Reff</th>
+											  <th width="1%" bgcolor="#f7fcff">Metode</th>
+											  <th width="1%" bgcolor="#f7fcff">Provider</th>
+											  <th width="1%" bgcolor="#f7fcff">Kendaraan</th>
+										  </tr>
 										</thead>
 										<tbody>
 											<tr>
 												<td id="kt_table_1">1</td>
 												<td style="text-align:center" nowrap>Makassar</td>
-												<td style="text-align:center" nowrap>12321355123123211</td>
-												<td nowrap="nowrap" style="text-align:center">-</td>
-												<td nowrap="nowrap" style="text-align:left">Reguler - Mobil</td>
+												<td nowrap="nowrap" style="text-align:center">12321355123123211
+												  <hr />
+												  Muhammad Nasrullah, S.Kom</td>
+												<td nowrap="nowrap" style="text-align:left">Mobil</td>
+												<td nowrap="nowrap" style="text-align:left">IVA</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026
-												  <hr />
-											    15:36:00 WITA</td>
-												<td style="text-align:center">1<hr />Masuk
-												  <hr>Mobil - 1</td>
-												<td class="text-center">ID Reff : 01521531355135
-												  <hr />
-												  e-Money
-  <hr />
-												  Mandiri</td>
-												<td nowrap="nowrap" style="text-align:center">12321355123123211<hr>Muhammad Nasrullah, S.Kom</td>
-												<td nowrap="nowrap" style="text-align:center">12321355123123211</td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026
-												  <hr />
-												  15:36:00 WITA</td>
-												<td class="text-center">ID Reff : 01521531355135
-												  <hr />
-												  e-Money
-  <hr />
-												  Mandiri</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/masuk-mobil-1.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center">12321355123123212</td>
+												<td width="1%" nowrap="nowrap" style="text-align:center">1</td>
+												<td width="1%" nowrap="nowrap" style="text-align:center">m3</td>
+												<td nowrap="nowrap" style="text-align:center">1 September 2026<hr />07:52:00 WITA</td>
+												<td class="text-center">01521531355135</td>
+												<td class="text-center">QRIS</td>
+												<td class="text-center">OVO</td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/keluar-mobil.png" alt="image" /></a></td>
 										  </tr>
-										 
-<tr>
+										  <tr>
 												<td id="kt_table_1">2</td>
 												<td nowrap="nowrap" style="text-align:center">Makassar</td>
-												<td nowrap="nowrap" style="text-align:center">12321355123123213</td>
-												<td nowrap="nowrap" style="text-align:center">-</td>
-												<td nowrap="nowrap" style="text-align:left">Reguler - Motor</td>
-												<td nowrap="nowrap" style="text-align:left">DD 1111 LLU</td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026<hr />15:36:00 WITA</td>
-												<td style="text-align:center">2<hr />Masuk<hr>Motor - 1</td>
-												<td class="text-center">ID Reff : 01521531355135
+												<td nowrap="nowrap" style="text-align:center">12321355123123211
 												  <hr />
-												  e-Money
-  <hr />
-												  Mandiri</td>
-												<td nowrap="nowrap" style="text-align:center">12321355123123211<hr>Muhammad Nasrullah, S.Kom</td>
-												<td nowrap="nowrap" style="text-align:center">12321355123123213</td>
+												  Muhammad Nasrullah, S.Kom</td>
+												<td nowrap="nowrap" style="text-align:left">Motor</td>
+												<td nowrap="nowrap" style="text-align:left">II</td>
+												<td nowrap="nowrap" style="text-align:left">DD 1111 LLU</td>
+												<td nowrap="nowrap" style="text-align:center">12321355123123212</td>
+												<td nowrap="nowrap" style="text-align:center">2</td>
+												<td nowrap="nowrap" style="text-align:center">m3</td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
-												  15:36:00 WITA</td>
-												<td class="text-center">ID Reff : 01521531355135
-												  <hr />
-												  e-Money
-  <hr />
-												  Mandiri</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-motor-masuk-webcam-2.png" alt="image" /></a></td>
+											    07:53:00 WITA</td>
+												<td class="text-center">01521531355135</td>
+												<td class="text-center">QRIS</td>
+												<td class="text-center">DANA</td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-motor-masuk.png" alt="image" /></a></td>
 										  </tr>
+
 <tr>
 												<td id="kt_table_1">3</td>
 												<td style="text-align:center" nowrap>Makassar</td>
-												<td style="text-align:center" nowrap>12321355123123214</td>
-												<td nowrap="nowrap" style="text-align:center">12321355123123211<hr>Muhammad Nasrullah, S.Kom</td>
-												<td nowrap="nowrap" style="text-align:left">Member - Sedan/Jeep/Pick Up</td>
+												<td nowrap="nowrap" style="text-align:center">12321355123123211
+												  <hr />
+												  Muhammad Nasrullah, S.Kom</td>
+												<td nowrap="nowrap" style="text-align:left">Truck</td>
+												<td nowrap="nowrap" style="text-align:left">VB</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
+												<td nowrap="nowrap" style="text-align:center">12321355123123212</td>
+												<td nowrap="nowrap" style="text-align:center">3</td>
+												<td nowrap="nowrap" style="text-align:center">m3</td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
-											    15:36:00 WITA</td>
-												<td style="text-align:center">2<hr />Masuk<hr>Motor - 2</td>
-												<td nowrap="nowrap" style="text-align:center">-</td>
-												<td nowrap="nowrap" style="text-align:center">12321355123123211<hr>Muhammad Nasrullah, S.Kom</td>
-												<td nowrap="nowrap" style="text-align:center">12321355123123214</td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026
-												  <hr />
-												  15:36:00 WITA</td>
-												<td nowrap="nowrap" style="text-align:center">-</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/masuk-1.png" alt="image" /></a></td>
+											    07:54:00 WITA</td>
+												<td class="text-center">01521531355135</td>
+												<td class="text-center">e-Money</td>
+												<td class="text-center">Mandiri</td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-motor-masuk-2.png" alt="image" /></a></td>
 										  </tr>
 <tr>
   <td id="kt_table_4">4</td>
   <td style="text-align:center" nowrap="nowrap">Makassar</td>
-  <td style="text-align:center" nowrap="nowrap">12321355123123215</td>
-  <td nowrap="nowrap" style="text-align:center">12321355123123211<hr>Muhammad Nasrullah, S.Kom</td>
-  <td nowrap="nowrap" style="text-align:left">Member - Truck/Tronton/Trailer</td>
+  <td nowrap="nowrap" style="text-align:center">12321355123123211
+    <hr />
+    Muhammad Nasrullah, S.Kom</td>
+  <td nowrap="nowrap" style="text-align:left">Truck</td>
+  <td nowrap="nowrap" style="text-align:left">VB</td>
   <td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
+  <td nowrap="nowrap" style="text-align:center">12321355123123212</td>
+  <td nowrap="nowrap" style="text-align:center">4</td>
+  <td nowrap="nowrap" style="text-align:center">m3</td>
   <td nowrap="nowrap" style="text-align:center">1 September 2026
     <hr />
-    15:36:00 WITA</td>
-  <td style="text-align:center">2<hr />Masuk<hr>Mobil - 2</td>
-  <td nowrap="nowrap" style="text-align:center">-</td>
-  <td nowrap="nowrap" style="text-align:center">12321355123123211<hr>Muhammad Nasrullah, S.Kom</td>
-												<td nowrap="nowrap" style="text-align:center">12321355123123215</td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026
-												  <hr />
-												  15:36:00 WITA</td>
-												<td nowrap="nowrap" style="text-align:center">-</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/keluar-mobil-2.png" alt="image" /></a></td>
-	  </tr>
+    07:55:00 WITA</td>
+  <td class="text-center">01521531355135</td>
+  <td class="text-center">e-Money</td>
+<td class="text-center">BCA Flazz</td>
+<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-mobil-masuk.png" alt="image" /></a></td>
+  </tr>
 </tbody>
 									</table>
 
-						
+					
 <table align="center" class="footnote-1" width="1450px" style="margin-top:450px; margin-bottom:20px;">
         <thead>
             <tr><th></th>
@@ -278,7 +245,7 @@ function goBack() {
                             tanda tangan basah pada Dokumen ini.</i></span></td>
             </tr>
             <tr style=" width:650px;">
-              <td colspan="2" valign="center" style="text-align: center; font-family: Roboto; font-size: 11px;"><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA</i></td>
+              <td colspan="2" valign="center" style="text-align: center; font-family: Roboto; font-size: 11px;"><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA - Halaman 1 dari 100 - Halaman 1 dari 100</i></td>
             </tr>
 <tr style="height: 10px"><td></td></tr>
              <tr>

@@ -199,7 +199,7 @@ function goBack() {
                 <td colspan="4" style="border-bottom: 1px solid #ccc;"></td>
             </tr>
             <tr style=" width:650px;">
-              <td colspan="4" style="text-align: center;"><span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA</i></span></td>
+              <td colspan="4" style="text-align: center;"><span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA - Halaman 1 dari 100</i></span></td>
             </tr>
 
         </tbody>
@@ -337,7 +337,7 @@ function goBack() {
                 <td colspan="4" style="border-bottom: 1px solid #ccc;"></td>
             </tr>
             <tr style=" width:650px;">
-              <td colspan="4" style="text-align: center;"><span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA</i></span></td>
+              <td colspan="4" style="text-align: center;"><span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA - Halaman 1 dari 100</i></span></td>
             </tr>
 
         </tbody>

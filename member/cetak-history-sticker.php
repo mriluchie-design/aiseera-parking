@@ -219,7 +219,7 @@ function goBack() {
                             tanda tangan basah pada Dokumen ini.</i></span></td>
             </tr>
             <tr style=" width:650px;">
-              <td colspan="2" valign="center" style="text-align: center; font-family: Roboto; font-size: 11px;"><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA</i></td>
+              <td colspan="2" valign="center" style="text-align: center; font-family: Roboto; font-size: 11px;"><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA - Halaman 1 dari 100</i></td>
             </tr>
 <tr style="height: 10px"><td></td></tr>
              <tr>
