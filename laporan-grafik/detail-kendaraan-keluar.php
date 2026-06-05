@@ -422,18 +422,18 @@ function goBack() {
 										 <div class="form-group row">
                       <div class="col-lg-6">
                           <label class="">ID Transaksi :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="001TRTUGM0526">
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="000001LETEM0626">
 																  </div>
 						<div class="col-lg-6">
                           <label class="">ID Pembayaran :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="001TRTUGM0526">
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="000005PLETEM0626">
 																  </div>
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
                       <div class="col-lg-6">
                           <label class="">ID Reff :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="001TRTUGM0526">
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="000005PGTEM0626">
 																  </div>
 						<div class="col-lg-6">
                           <label class="">Metode Pembayaran :</label>

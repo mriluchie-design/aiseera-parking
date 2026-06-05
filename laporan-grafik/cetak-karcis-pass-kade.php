@@ -77,7 +77,7 @@ function goBack() {
 
 							<div class="tab-content" style="background:#f2f3f8;overflow:scroll; padding-bottom">
 							<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid mt-3">
-								<div class="bg-white w-25 ml-auto mr-auto" style="margin-bottom:190px; margin-top:50px;">
+								<div class="bg-white w-25 ml-auto mr-auto" style="margin-bottom:250px; margin-top:50px;">
 	
 						<table class="table-responsive" cellpadding="3" align="center" width="250" border="0" style="line-height:1; margin-left:0px; padding-top:20px; font-family: Tahoma; font-size: 11px;" id="kt_table_1">
    <tr>
@@ -115,9 +115,9 @@ function goBack() {
    
   <tr>
     <td width="9%" style="text-align: left;">&nbsp;</td>
-    <td width="28%" style="text-align: left;">TRANSAKSI</td>
+    <td width="28%" style="text-align: left;">ID</td>
     <td width="3%" style="text-align: center">:</td>
-    <td colspan="3" style="text-align: left">001TRTUGM0526</td>
+    <td colspan="3" style="text-align: left">000002PKDTEM0626</td>
   </tr>
  
   <tr>

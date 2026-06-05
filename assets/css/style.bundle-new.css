@@ -32283,9 +32283,8 @@ font-weight:400;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      font-size: 1.1rem;
-      font-weight: 400;
-      color: #ed1c24;
+      font-size: 1.15rem;
+      font-weight: 500;
       -webkit-transition: color 0.3s ease;
       transition: color 0.3s ease; }
       .kt-widget24 .kt-widget24__details .kt-widget24__info .kt-widget24__title:hover {

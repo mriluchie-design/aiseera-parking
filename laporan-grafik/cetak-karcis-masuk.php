@@ -120,9 +120,9 @@ function goBack() {
    
   <tr>
     <td width="8%" style="text-align: left;">&nbsp;</td>
-    <td width="20%" style="text-align: left;">TRANSAKSI</td>
+    <td width="20%" style="text-align: left;">ID</td>
     <td width="3%" style="text-align: center">:</td>
-    <td colspan="3" style="text-align: left">000001PINTQR0626</td>
+    <td colspan="3" style="text-align: left">000001PINTEM0626</td>
   </tr>
  
   <tr>

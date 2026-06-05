@@ -122,16 +122,28 @@
                                                                            
                                   </select>
     		                    </div>
-                            <div class="col-lg-2">
+                             <div class="col-lg-1">
                                 <label>Kategori :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Reguler - Mobil</option>
-                                      <option value="1">Reguler - Motor</option>
-                                      <option value="1">Member - Pegawai/Instansi/Others</option>
-                                      <option value="2">Member - Sepeda Motor</option>
-                                      <option value="2">Member - Sedan/Jeep/Pick Up</option>
-                                      <option value="2">Member - Truck/Tronton/Trailer</option>
+                                      <option value="1" selected="">Reguler</option>
+                                      <option value="2">Member</option>
+                                      <option value="2">Keseluruhan</option>
+                                                                           
+                                  </select>
+    		                    </div>
+								
+								
+								
+								<div class="col-lg-2">
+                                <label>Jenis :</label>
+								
+                               <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Mobil</option>
+									  <option value="2">Sepeda Motor</option>
+                                      <option value="1" >Pegawai/Instansi/Others</option>
+                                      <option value="2">Sedan/Jeep/Pick Up</option>
+                                      <option value="2">Truck/Tronton/Trailer</option>
 									  <option value="2">Keseluruhan</option>
                                                                            
                                   </select>
@@ -204,12 +216,13 @@
     		                        </span>
     		                    </div>
     		                    </div>
-								<div class="col-lg-2">
+								<div class="col-lg-1">
                                 <label>Pembayaran :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected="">e-Money</option>
                                       <option value="1">QRIS</option>
+                                      <option value="2">Tunai</option>
                                       <option value="2">Keseluruhan</option>
                                                                            
                                   </select>
@@ -218,20 +231,20 @@
                                 <label>Provider Pembayaran :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">e-Money - Mandiri</option>
-                                      <option value="1">e-Money - BCA Flazz</option>
-                                      <option value="1">e-Money - Brizzi</option>
-                                      <option value="1">e-Money - BNI Tap Cash</option>
-                                      <option value="1">QRIS - OVO</option>
-                                      <option value="1">QRIS - DANA</option>
-                                      <option value="1">QRIS - Shoope Pay</option>
-                                      <option value="1">QRIS - BCA</option>
-                                      <option value="1">QRIS - Mandiri</option>
+                                      <option value="1" selected="">Mandiri</option>
+                                      <option value="1">BCA Flazz</option>
+                                      <option value="1">Brizzi</option>
+                                      <option value="1">BNI Tap Cash</option>
+                                      <option value="1">OVO</option>
+                                      <option value="1">DANA</option>
+                                      <option value="1">Shoope Pay</option>
+                                      <option value="1">BCA</option>
+                                      <option value="1">Livin Mandiri</option>
                                       <option value="2">Keseluruhan</option>
                                                                            
                                   </select>
                             </div>
-								<div class="col-lg-2">
+							<div class="col-lg-2">
                                 <label>Operator :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
@@ -241,6 +254,18 @@
                                                                            
                                   </select>
                             </div>
+							<div class="col-lg-1">
+                                <label>Status Transaksi :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Selesai</option>
+                                      <option value="1">Denda</option>
+                                      <option value="2">Member</option>
+                                      <option value="2">Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
+								
 								
                             </div>
                             
@@ -264,117 +289,129 @@
 				<!--end::Form-->
 			</div>
             <!--begin::End-->
+<div class="row">
+								
+								
+								
+								
+								
+								<div class="col-xl-12">
 
-			<!--begin:: Widgets/Stats-->
-			<div class="kt-portlet">
-				<div class="kt-portlet__body  kt-portlet__body--fit">
-					<div class="row row-no-padding row-col-separator-lg">
-						<div class="col-md-12 col-lg-6 col-xl-2">
-							<div class="kt-widget24">
-								<div class="kt-widget24__details">
-									<div class="kt-widget24__info">
-										<h4 class="kt-widget24__title">
-											Total Keseluruhan
-										</h4>
-										<span class="kt-widget24__desc">
-											Kendaraan Berangkat
-										</span>
+									<!--begin:: Widgets/Activity-->
+									<div class="kt-portlet kt-portlet--fit kt-portlet--head-lg kt-portlet--head-overlay kt-portlet--skin-solid kt-portlet--height-fluid">
+										<div class="kt-portlet__head kt-portlet__head--noborder kt-portlet__space-x">
+											<div class="kt-portlet__head-label">
+												<h3 class="kt-portlet__head-title">
+													Kendaraan Berangkat
+												</h3>
+											</div>
+											<div class="kt-portlet__head-toolbar">
+												<a href="#" class="btn btn-label-light btn-sm dropdown-toggle" data-toggle="dropdown">
+													Hari ini
+												</a>
+												<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+													<ul class="kt-nav">
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">Bulan ini</span>
+															</a>
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">Tahun ini</span>
+															</a>
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-chart-bar"></i>
+																<span class="kt-nav__link-text">Keseluruhan</span>
+															</a>
+														</li>
+														
+														
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="kt-portlet__body kt-portlet__body--fit">
+											<div class="kt-widget17">
+												<div class="kt-widget17__visual kt-widget17__visual--chart kt-portlet-fit--top kt-portlet-fit--sides" style="background-color: #0961ae">
+													<div class="kt-widget17__chart" style="height:120px;">
+														<canvas id="kt_chart_activities"></canvas>
+													</div>
+												</div>
+												<div class="kt-widget17__stats">
+													<div class="kt-widget17__items">
+														<div class="kt-widget17__item">
+															
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Kendaraan Berangkat
+															</span>
+
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:24px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">125</span>
+															
+															</span>
+														</div>
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Mobil
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">35</span>
+															</span>
+														</div>
+														
+														
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Motor
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">70</span>
+															</span>
+														</div>
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Member Mobil
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">10</span>
+															</span>
+														</div>
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Member Motor
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">10</span>
+															</span>
+														</div>
+														
+														
+														
+														
+														
+													</div>
+													
+													
+												</div>
+											</div>
+										</div>
 									</div>
-									<span class="kt-widget24__stats kt-font-success">
-										40
-									</span>
+
+									<!--end:: Widgets/Activity-->
 								</div>
-							</div>
+
+							<!--End::Section-->
+
+							
+
+						
 						</div>
-						<div class="col-md-12 col-lg-6 col-xl-2">
-							<div class="kt-widget24">
-								<div class="kt-widget24__details">
-									<div class="kt-widget24__info">
-										<h4 class="kt-widget24__title">
-											Mobil 
-										</h4>
-										<span class="kt-widget24__desc">
-											Berangkat Hari ini
-										</span>
-									</div>
-									<span class="kt-widget24__stats kt-font-brand">
-										30
-									</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-12 col-lg-6 col-xl-2">
-							<div class="kt-widget24">
-								<div class="kt-widget24__details">
-									<div class="kt-widget24__info">
-										<h4 class="kt-widget24__title">
-											Motor 
-										</h4>
-										<span class="kt-widget24__desc">
-											Berangkat Hari ini
-										</span>
-									</div>
-									<span class="kt-widget24__stats kt-font-brand">
-										30
-									</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-12 col-lg-6 col-xl-2">
-							<div class="kt-widget24">
-								<div class="kt-widget24__details">
-									<div class="kt-widget24__info">
-										<h4 class="kt-widget24__title">
-											Member Mobil 
-										</h4>
-										<span class="kt-widget24__desc">
-											Berangkat Hari ini
-										</span>
-									</div>
-									<span class="kt-widget24__stats kt-font-brand">
-										30
-									</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-12 col-lg-6 col-xl-2">
-							<div class="kt-widget24">
-								<div class="kt-widget24__details">
-									<div class="kt-widget24__info">
-										<h4 class="kt-widget24__title">
-											Member Motor 
-										</h4>
-										<span class="kt-widget24__desc">
-											Berangkat Hari ini
-										</span>
-									</div>
-									<span class="kt-widget24__stats kt-font-brand">
-										30
-									</span>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-12 col-lg-6 col-xl-2">
-							<div class="kt-widget24">
-								<div class="kt-widget24__details">
-									<div class="kt-widget24__info">
-										<h4 class="kt-widget24__title">
-											Hari ini
-										</h4>
-										<span class="kt-widget24__desc">
-											Kendaraan Berangkat
-										</span>
-									</div>
-									<span class="kt-widget24__stats kt-font-danger">
-										30
-									</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!--end:: Widgets/Stats-->
+			
 
 			<div class="kt-portlet kt-portlet--mobile ">
 				<div class="kt-portlet__body">
@@ -384,12 +421,12 @@
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
-											  <th colspan="8" bgcolor="#f7fcff">Kendaraan Masuk</th>
+											  <th colspan="7" bgcolor="#f7fcff">Kendaraan Masuk</th>
 											  <th colspan="5" bgcolor="#feffed">Kendaraan Berangkat</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Status Transaksi</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 											<tr style="text-align:center">
-											  <th width="1%" bgcolor="#f7fcff">Kartu / Karcis</th>
 											  <th width="1%" bgcolor="#f7fcff">Member</th>
 											  <th width="1%" bgcolor="#f7fcff">Kategori</th>
 											  <th width="1%" bgcolor="#f7fcff">Jenis</th>
@@ -408,7 +445,6 @@
 											<tr>
 												<td id="kt_table_1">1</td>
 												<td style="text-align:center" nowrap>Makassar</td>
-												<td style="text-align:center" nowrap>12321355123123211</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Reguler</span></td>
 												<td nowrap="nowrap" style="text-align:left">Mobil</td>
@@ -418,14 +454,15 @@
 											    15:36:00 WITA</td>
 												<td style="text-align:center">1<hr />Masuk
 												  <hr>Mobil - 1</td>
-												<td class="text-center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355135&lt;hr&gt;e-Money&lt;hr&gt;Mandiri" data-html="true">e-Money</span></td>
+												<td class="text-center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Card ID :12321355123123211<hr>Reff ID : 01521531355135&lt;hr&gt;e-Money&lt;hr&gt;Mandiri" data-html="true">e-Money</span></td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">12321355123123211</td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
 												  15:36:00 WITA</td>
-												<td class="text-center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355135&lt;hr&gt;e-Money&lt;hr&gt;Mandiri" data-html="true">e-Money</span></td>
+												<td class="text-center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Card ID :12321355123123211<hr>Reff ID : 01521531355135&lt;hr&gt;e-Money&lt;hr&gt;Mandiri" data-html="true">e-Money</span></td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/masuk-mobil-1.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Selesai</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -440,7 +477,6 @@
 <tr>
 												<td id="kt_table_1">2</td>
 												<td nowrap="nowrap" style="text-align:center">Makassar</td>
-												<td nowrap="nowrap" style="text-align:center">12321355123123213</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Reguler</span></td>
 												<td nowrap="nowrap" style="text-align:left">Motor</td>
@@ -448,14 +484,15 @@
 												<td nowrap="nowrap" style="text-align:center">1 September 2026<hr />15:36:00 WITA</td>
 												<td style="text-align:center">2<hr />Masuk
 												  <hr>Motor - 1</td>
-												<td class="text-center"><span class="btn btn-label-linkedin btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355136&lt;hr&gt;QRIS&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
+												<td class="text-center"><span class="btn btn-label-linkedin btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000001INTQR0626<hr>Reff ID : 01521531355136&lt;hr&gt;QRIS&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">12321355123123213</td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
 												  15:36:00 WITA</td>
-												<td class="text-center"><span class="btn btn-label-linkedin btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355136&lt;hr&gt;QRIS&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
+												<td class="text-center"><span class="btn btn-label-linkedin btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : -<hr>Reff ID : 01521531355136&lt;hr&gt;QRIS&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/foto-motor-masuk-webcam-2.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-danger btn-sm">Denda</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												   <ul class="kt-nav">
@@ -469,7 +506,6 @@
 <tr>
 												<td id="kt_table_1">3</td>
 												<td style="text-align:center" nowrap>Makassar</td>
-												<td style="text-align:center" nowrap>-</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"> <img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Member</span></td>
 												<td nowrap="nowrap" style="text-align:left">Sedan/Jeep/Pick Up</td>
@@ -487,6 +523,7 @@
 												  15:36:00 WITA</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/masuk-1.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Member</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -500,7 +537,6 @@
 <tr>
   <td id="kt_table_4">4</td>
   <td style="text-align:center" nowrap="nowrap">Makassar</td>
-  <td style="text-align:center" nowrap="nowrap">-</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123215&lt;hr&gt;Muhammad Ramadhan, ST" data-html="true"> <img src="../assets/media/users/100_5.jpg" alt="image" /></a></td>
   <td nowrap="nowrap" style="text-align:left"><span class="btn btn-label-twitter btn-sm">Member</span></td>
   <td nowrap="nowrap" style="text-align:left">Truck/Tronton/Trailer</td>
@@ -518,6 +554,7 @@
 												  15:36:00 WITA</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/keluar-mobil-2.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter  btn-sm">Member</span></td>
 	  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
