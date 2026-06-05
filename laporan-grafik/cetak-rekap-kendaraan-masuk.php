@@ -121,8 +121,8 @@ function goBack() {
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Barcode Karcis<br>/ E-Money</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Member</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">ID Transaksi</th>
 											  <th colspan="9" bgcolor="#feffed">Kendaraan</th>
 											  <th colspan="2" bgcolor="#f7fcff">Foto </th>
 										  </tr>
@@ -144,8 +144,8 @@ function goBack() {
 											<tr>
 												<td id="kt_table_1">1</td>
 												<td style="text-align:center" nowrap>Makassar</td>
-												<td style="text-align:center" nowrap>12321355123123211</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
+												<td style="text-align:center" nowrap>12321355123123211</td>
 												<td nowrap="nowrap" style="text-align:left">Reguler</td>
 												<td nowrap="nowrap" style="text-align:left">Mobil</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
@@ -156,15 +156,15 @@ function goBack() {
 												<td style="text-align:center">Masuk</td>
 												<td style="text-align:center">Mobil - 1</td>
 												<td style="text-align:center">Parkir</td>
-												<td class="text-center">ID Reff : 01521531355135<hr />e-Money<hr />Mandiri</td>
+												<td class="text-center">000001PGTEM0626<hr />e-Money<hr />Mandiri</td>
 												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/masuk-mobil-1.png" alt="image" /></a></td>
 												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/masuk-mobil-1a.png" alt="image" /></a></td>
 										  </tr>
 										  <tr>
 												<td id="kt_table_1">2</td>
 												<td nowrap="nowrap" style="text-align:center">Makassar</td>
-												<td nowrap="nowrap" style="text-align:center">12321355123123212</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
+												<td nowrap="nowrap" style="text-align:center">12321355123123212</td>
 												<td nowrap="nowrap" style="text-align:left">Reguler</td>
 												<td nowrap="nowrap" style="text-align:left">Motor</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LLU</td>
@@ -173,7 +173,7 @@ function goBack() {
 												<td style="text-align:center">Masuk</td>
 												<td style="text-align:center">Motor - 1</td>
 												<td style="text-align:center">Keluar</td>
-												<td class="text-center">ID Reff : 01521531355135<hr />QRIS<hr />OVO</td>
+												<td class="text-center">000002PGTQR0626<hr />QRIS<hr />OVO</td>
 												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/foto-motor-masuk-webcam.png" alt="image" /></a></td>
 												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/foto-motor-masuk.png" alt="image" /></a></td>
 										  </tr>
@@ -181,8 +181,10 @@ function goBack() {
 <tr>
 												<td id="kt_table_1">3</td>
 												<td style="text-align:center" nowrap>Makassar</td>
+												<td nowrap="nowrap" style="text-align:center">12321355123123211
+												  <hr />
+												  Muhammad Nasrullah, S.Kom</td>
 												<td style="text-align:center" nowrap>-</td>
-												<td nowrap="nowrap" style="text-align:center">12321355123123211<hr>Muhammad Nasrullah, S.Kom</td>
 												<td nowrap="nowrap" style="text-align:left">Member</td>
 												<td nowrap="nowrap" style="text-align:left">Sedan/Jeep/Pick Up</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
@@ -200,8 +202,10 @@ function goBack() {
 <tr>
   <td id="kt_table_4">4</td>
   <td style="text-align:center" nowrap="nowrap">Makassar</td>
+  <td nowrap="nowrap" style="text-align:center">12321355123123212
+    <hr />
+    Muhammad Ramadhan, ST</td>
   <td style="text-align:center" nowrap="nowrap">-</td>
-  <td nowrap="nowrap" style="text-align:center">12321355123123212<hr>Muhammad Ramadhan, ST</td>
   <td nowrap="nowrap" style="text-align:left">Member</td>
   <td nowrap="nowrap" style="text-align:left">Truck/Tronton/Trailer</td>
   <td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
