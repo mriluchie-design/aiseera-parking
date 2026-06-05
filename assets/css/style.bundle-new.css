@@ -28468,6 +28468,7 @@ strong {
     -ms-flex-align: center;
     align-items: center;
     padding: 5px 10px;
+	margin-top:-2px;
     position: absolute;
     z-index: 1;
     background-color: #5d78ff;
@@ -28637,7 +28638,7 @@ strong {
     background-color: #0abb87;
     color: #ffffff;
 font-weight:400;
-	font-size:0.9rem	}
+	font-size:0.97rem	}
     .kt-ribbon--success .kt-ribbon__target:after {
       border-color: rgba(255, 255, 255, 0.5); }
     .kt-ribbon--success .kt-ribbon__target > .kt-ribbon__inner {
@@ -28667,7 +28668,7 @@ font-weight:400;
     background-color: #ffb822;
     color: #111111;
 	font-weight:400;
-	font-size:0.9rem}
+	font-size:0.97rem}
     .kt-ribbon--warning .kt-ribbon__target:after {
       border-color: rgba(17, 17, 17, 0.5); }
     .kt-ribbon--warning .kt-ribbon__target > .kt-ribbon__inner {

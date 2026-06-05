@@ -85,7 +85,7 @@ function goBack() {
     <td width="2%" style="border-bottom:1px solid #ccc;"><b>Cabang</b></td>
     <td width="1%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
     <td width="27%"  style="border-bottom:1px solid #ccc;">Makassar</td>
-    <td width="3%" rowspan="3" >&nbsp;</td>
+    <td width="3%" rowspan="4" >&nbsp;</td>
     <td style="text-align: left; border-bottom:1px solid #ccc;"><b>Gate Keluar</b></td>
     <td width="1%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
     <td style="text-align: left; border-bottom:1px solid #ccc;">Keseluruhan</td>
@@ -106,6 +106,14 @@ function goBack() {
    <td width="1%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
     <td width="20%" style="border-bottom:1px solid #ccc;">Keseluruhan</td>
   </tr>
+  <tr>
+    <td style="border-bottom:1px solid #ccc;"><b>Jenis</b></td>
+    <td style="text-align: center; border-bottom:1px solid #ccc;">:</td>
+    <td style="border-bottom:1px solid #ccc;">Keseluruhan</td>
+    <td style="border-bottom:1px solid #ccc;"><b>Status</b></td>
+    <td style="text-align: center; border-bottom:1px solid #ccc;">:</td>
+    <td style="border-bottom:1px solid #ccc;">Keseluruhan</td>
+  </tr>
 </table>
 <table class="table-checkable" align="center" width="1450" border="0" style="line-height:1.5; position:relative;top:90px; font-family: Tahoma; font-size: 12px;" id="kt_table_1">
   <tr>
@@ -123,23 +131,22 @@ function goBack() {
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
 											  <th colspan="7" bgcolor="#f7fcff">Kendaraan Masuk</th>
-											  <th colspan="6" bgcolor="#feffed">Kendaraan Keluar</th>
+											  <th colspan="4" bgcolor="#feffed">Kendaraan Keluar</th>
 											  <th width="1%" rowspan="2" bgcolor="#feffed">Durasi Parkir</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Foto Keluar</th>
-										  </tr>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Status</th>
+									      </tr>
 											<tr style="text-align:center">
 											  <th width="1%" bgcolor="#f7fcff">Kategori</th>
 											  <th width="1%" bgcolor="#f7fcff">Jenis</th>
 											  <th width="1%" bgcolor="#f7fcff">Member</th>
 											  <th width="1%" bgcolor="#f7fcff">No. Plat</th>
-											  <th width="1%" bgcolor="#f7fcff">Gate</th>
-											  <th width="7%" bgcolor="#f7fcff">Jalur</th>
+											  <th width="1%" bgcolor="#f7fcff">Waktu Masuk</th>
+											  <th width="7%" bgcolor="#f7fcff">Gate</th>
 											  <th width="7%" bgcolor="#f7fcff">Pembayaran</th>
 											  <th width="1%" bgcolor="#feffed">No. Plat</th>
-											  <th width="1%" bgcolor="#feffed">Waktu Masuk</th>
 											  <th width="1%" bgcolor="#feffed">Waktu Keluar</th>
-											  <th width="1%" bgcolor="#feffed">Gate</th>
-											  <th width="7%" bgcolor="#feffed">Jalur</th>
+											  <th width="7%" bgcolor="#feffed">Gate</th>
 											  <th width="7%" bgcolor="#feffed">Pembayaran</th>
 									      </tr>
 										</thead>
@@ -151,9 +158,12 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:left">Mobil</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
-												<td style="text-align:center">1</td>
-												<td style="text-align:center">Masuk<hr>Mobil - 1</td>
-												<td class="text-center">ID Reff : 01521531355135
+												<td nowrap="nowrap" style="text-align:center">1 September 2026
+												  <hr />
+												  15:36:00 WITA</td>
+												<td style="text-align:center">1<hr />Masuk
+												  <hr>Mobil - 1</td>
+												<td class="text-center">000001PGTEM0626
 												  <hr />
 												  e-Money
   <hr />
@@ -161,15 +171,11 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
-												  15:36:00 WITA</td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026
-												  <hr />
 												  16:46:00 WITA</td>
-												<td style="text-align:center">1</td>
-												<td style="text-align:center">Keluar
+												<td style="text-align:center">1<hr />Keluar
 												  <hr />
 												  Mobil - 1</td>
-												<td class="text-center">ID Reff : 01521531355135
+												<td class="text-center">000005PGTEM0626
 												  <hr />
 												  e-Money
   <hr />
@@ -178,7 +184,8 @@ function goBack() {
 												  <hr />10 Menit<hr />
 												  01 Detik</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/keluar-mobil.png" alt="image" /></a></td>
-										  </tr>
+												<td nowrap="nowrap" style="text-align:center">Selesai</td>
+									      </tr>
 										  <tr>
 												<td id="kt_table_1">2</td>
 												<td nowrap="nowrap" style="text-align:center">Makassar</td>
@@ -186,26 +193,25 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:left">Motor</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LLU</td>
-												<td style="text-align:center">2</td>
-												<td style="text-align:center">Masuk<hr>Motor - 1</td>
-												<td class="text-center">ID Reff : 01521531355135
+												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
+												  15:37:00 WITA</td>
+												<td style="text-align:center">2<hr />Masuk
+												  <hr>Motor - 1</td>
+												<td class="text-center"> 000002PGTQR0626
+<hr />
 												  QRIS
   <hr />
 												  OVO</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LLU</td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
-												  15:37:00 WITA</td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026
-												  <hr />
 												  16:47:00 WITA</td>
-												<td style="text-align:center">2</td>
-												<td style="text-align:center">Keluar
+												<td style="text-align:center">2<hr />Keluar
 												  <hr />
 										    Motor - 1</td>
-												<td class="text-center">ID Reff : 01521531355135
-												  <hr />
+												<td class="text-center"> 000006PGTQR0626
+<hr />
 												  QRIS
   <hr />
 												  OVO</td>
@@ -215,6 +221,7 @@ function goBack() {
 												  <hr />
 											    60 Detik</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-motor-masuk.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center">Denda</td>
 										  </tr>
 
 <tr>
@@ -226,18 +233,17 @@ function goBack() {
 												  <hr />
 												  Muhammad Nasrullah, S.Kom</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
-												<td style="text-align:center">2</td>
-												<td style="text-align:center">Masuk<hr>Motor - 2</td>
+												<td nowrap="nowrap" style="text-align:center">1 September 2026
+												  <hr />
+												  15:38:00 WITA</td>
+												<td style="text-align:center">2<hr />Masuk
+												  <hr>Motor - 2</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
-												  15:38:00 WITA</td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026
-												  <hr />
 												  16:48:00 WITA</td>
-												<td style="text-align:center">2</td>
-												<td style="text-align:center">Keluar
+												<td style="text-align:center">2<hr />Keluar
 												  <hr />
 	  Motor - 2</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
@@ -247,6 +253,7 @@ function goBack() {
 												  <hr />
 											    60 Detik</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-motor-masuk-2.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center">Member</td>
 										  </tr>
 <tr>
   <td id="kt_table_4">4</td>
@@ -257,18 +264,17 @@ function goBack() {
     <hr />
     Muhammad Ramadhan, ST</td>
   <td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
-  <td style="text-align:center">2</td>
-  <td style="text-align:center">Masuk<hr>Mobil - 2</td>
+  <td nowrap="nowrap" style="text-align:center">1 September 2026
+    <hr />
+    15:39:00 WITA</td>
+  <td style="text-align:center">2<hr />Masuk
+    <hr>Mobil - 2</td>
   <td nowrap="nowrap" style="text-align:center">-</td>
   <td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
   <td nowrap="nowrap" style="text-align:center">1 September 2026
     <hr />
-    15:39:00 WITA</td>
-  <td nowrap="nowrap" style="text-align:center">1 September 2026
-    <hr />
     16:49:00 WITA</td>
-  <td style="text-align:center">2</td>
-  <td style="text-align:center">Keluar
+  <td style="text-align:center">2<hr />Keluar
     <hr />
     Mobil - 2</td>
   <td nowrap="nowrap" style="text-align:center">-</td>
@@ -278,6 +284,7 @@ function goBack() {
     <hr />
     60 Detik</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-mobil-masuk.png" alt="image" /></a></td>
+  <td nowrap="nowrap" style="text-align:center">Member</td>
   </tr>
 </tbody>
 									</table>
