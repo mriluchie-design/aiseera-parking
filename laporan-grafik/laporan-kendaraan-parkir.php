@@ -147,6 +147,8 @@
                                 <label>Kategori :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Reguler - Mobil</option>
+                                      <option value="1" selected="">Reguler - Motor</option>
                                       <option value="1" selected="">Pegawai/Instansi/Others</option>
                                       <option value="2">Sepeda Motor</option>
                                       <option value="2">Sedan/Jeep/Pick Up</option>
@@ -245,10 +247,10 @@
 								<div class="kt-widget24__details">
 									<div class="kt-widget24__info">
 										<h4 class="kt-widget24__title">
-											Mobil Parkir
+											Mobil 
 										</h4>
 										<span class="kt-widget24__desc">
-											Saat ini
+											Parkir Saat ini
 										</span>
 									</div>
 									<span class="kt-widget24__stats kt-font-success">
@@ -262,10 +264,10 @@
 								<div class="kt-widget24__details">
 									<div class="kt-widget24__info">
 										<h4 class="kt-widget24__title">
-											Motor Parkir
+											Motor
 										</h4>
 										<span class="kt-widget24__desc">
-											Saat ini
+											Parkir Saat ini
 										</span>
 									</div>
 									<span class="kt-widget24__stats kt-font-success">
@@ -279,10 +281,10 @@
 								<div class="kt-widget24__details">
 									<div class="kt-widget24__info">
 										<h4 class="kt-widget24__title">
-											Member Mobil Parkir 
+											Member Mobil  
 										</h4>
 										<span class="kt-widget24__desc">
-											Saat ini
+											Parkir Saat ini
 										</span>
 									</div>
 									<span class="kt-widget24__stats kt-font-success">
@@ -296,10 +298,10 @@
 								<div class="kt-widget24__details">
 									<div class="kt-widget24__info">
 										<h4 class="kt-widget24__title">
-											Member Motor Parkir
+											Member Motor 
 										</h4>
 										<span class="kt-widget24__desc">
-											Saat ini
+											Parkir Saat ini
 										</span>
 									</div>
 									<span class="kt-widget24__stats kt-font-success">

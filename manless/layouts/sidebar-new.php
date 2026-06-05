@@ -122,8 +122,8 @@
 </svg></span><span class="kt-menu__link-text">Cetak Karcis</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
 									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
 										<ul class="kt-menu__subnav">
-											<li class="kt-menu__item" aria-haspopup="true"><a href="mati-lampu-masuk.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Jalur Masuk</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="mati-lampu-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Jalur Keluar</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="karcis-mati-lampu-masuk.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Jalur Masuk</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="karcis-mati-lampu-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Jalur Keluar</span></a></li>
 											
 										</ul>
 									</div>
@@ -137,8 +137,8 @@
 </svg></span><span class="kt-menu__link-text">Form</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
 									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
 										<ul class="kt-menu__subnav">
-											<li class="kt-menu__item" aria-haspopup="true"><a href="berita-acara-mati-lampu.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Mati Lampu</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="berita-acara-perangkat-bermasalah.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Perangkat Bermasalah</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="form-mati-lampu.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Mati Lampu</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="form-perangkat-bermasalah.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Perangkat Bermasalah</span></a></li>
 											
 										</ul>
 									</div>

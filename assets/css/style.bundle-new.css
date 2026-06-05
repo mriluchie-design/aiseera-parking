@@ -10506,8 +10506,8 @@ input.btn.btn-label-google {
     color: #ffffff; }
 
 .btn.btn-label-twitter {
-  background-color: rgba(209, 252, 192, 0.9);
-  color: #497f32;
+  background-color: rgba(204, 242, 184, 0.9);
+  color: #36661f;
   cursor: text !important; }
 
 .btn.btn-label-twitter-o2 {
@@ -10530,7 +10530,7 @@ input.btn.btn-label-twitter {
   input.btn.btn-label-twitter:focus,
   input.btn.btn-label-twitter:hover,
   input.btn.btn-label-twitter.active {
-    background-color: #4AB3F4;
+    background-color: #3f9314;
     color: #ffffff; }
 
 .btn.btn-label-instagram {
@@ -10590,8 +10590,8 @@ input.btn.btn-label-youtube {
     color: #ffffff; }
 
 .btn.btn-label-linkedin {
-  background-color: rgba(0, 119, 181, 0.1);
-  color: #0077b5;
+  background-color: rgba(98, 188, 171, 0.2);
+  color: #1b5e51;
   cursor: text !important; }
 
 .btn.btn-label-linkedin-o2 {
@@ -10618,8 +10618,8 @@ input.btn.btn-label-linkedin {
     color: #ffffff; }
 
 .btn.btn-label-skype {
-  background-color: rgba(0, 175, 240, 0.1);
-  color: #00aff0;
+  background-color: rgba(229, 216, 99, 0.7);
+  color: #4c4c4c;
   cursor: text !important; }
 
 .btn.btn-label-skype-o2 {
@@ -10642,8 +10642,8 @@ input.btn.btn-label-skype {
   input.btn.btn-label-skype:focus,
   input.btn.btn-label-skype:hover,
   input.btn.btn-label-skype.active {
-    background-color: #00aff0;
-    color: #ffffff; }
+    background-color: #b2a01d;
+    color: #11100b; }
 
 .btn.btn-icon {
   display: -webkit-inline-box;
