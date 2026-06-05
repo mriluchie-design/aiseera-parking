@@ -63,7 +63,12 @@
 																<span class="kt-nav__link-text">Tahun ini</span>
 															</a>
 														</li>
-														
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-chart-bar"></i>
+																<span class="kt-nav__link-text">Keseluruhan</span>
+															</a>
+														</li>
 														
 														
 													</ul>
