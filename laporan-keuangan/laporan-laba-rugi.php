@@ -75,9 +75,9 @@ function goBack() {
 <div class="tab-content" style="background:#f2f3f8;overflow:scroll;height:800px">
 							<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid mt-3">
 								<div class="bg-white w-50 ml-auto mr-auto">
-									<img src="../assets/img/header.png" style="width:747px; display:block; margin-left:40px;margin-right:auto;margin-bottom:20px;padding-top:40px;"/>
+									
 									<div>&nbsp;<div>
-									<table align="center" border="0" cellpadding="1" style="width: 600px; text-align:justify; line-height:1.5; font-family: Tahoma; font-size: 11px;">
+									<table align="center" border="0" cellpadding="1" style="width: 600px; margin-top:100px; text-align:justify; line-height:1.5; font-family: Tahoma; font-size: 11px;">
   
   
   <tr>
@@ -99,19 +99,19 @@ function goBack() {
                                 <td style="text-align:right; width: 30%"></td>
                             </tr>
                                                                                                             <tr>
-                                                                        <td>41.01.01 | Pendapatan Parkir Tepi Jalan Umum (TJU)</td>
+                                                                        <td>41.01.01 | Pendapatan Parkir Masuk</td>
                                     <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDEuMDEuMDE=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">62.111.845,-</a></span> </div></td>
 									
                                 </tr>
                                                                                             <tr>
-                                                                        <td>41.01.02 | Pendapatan Parkir Insidentil</td>
+                                                                        <td>41.01.02 | Pendapatan Parkir Keluar</td>
                                     <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDEuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">35.270.800,-</a></span> </div></td>
 									<td style="font-size:11px; text-align:right;">
                                         
                                     </td>
                                 </tr>
                                                                                             <tr>
-                                                                        <td>41.01.03 | Pendapatan Parkir Komersil</td>
+                                                                        <td>41.01.03 | Pendapatan Kendaraan Berangkat</td>
                                     <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDEuMDEuMDM=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">588.175.000,-</a></span> </div></td>
 									
 									<td style="font-size:11px; text-align:right;">
@@ -119,109 +119,36 @@ function goBack() {
                                     </td>
                                 </tr>
                                                                                             <tr>
-                                                                        <td>41.01.04 | Pendapatan Parkir Langganan Bulanan</td>
+                                                                        <td>41.01.04 | Pendapatan Muatan Kapal</td>
                                     <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDEuMDEuMDQ=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span> </div></td>
 									
                                 </tr>
                                                                                             <tr>
-                                                                        <td>41.01.05 | Pendapatan Sewa Lahan Parkir</td>
+                                                                        <td>41.01.05 | Pendapatan Pass Kade</td>
                                     <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDEuMDEuMDU=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span> </div></td>
 									
                                 </tr>
                                                                                             <tr>
-                                                                        <td>41.01.06 | Pendapatan Sanksi dan Denda</td>
+                                                                        <td>41.01.06 | Pendapatan Member</td>
                                     <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDEuMDEuMDY=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span> </div></td>
 									
                                 </tr>
                                                                                             <tr>
-                                                                        <td>41.01.07 | Pendapatan Parkir Teknologi / Online</td>
+                                                                        <td>41.01.07 | Pendapatan Denda Parkir</td>
                                     <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDEuMDEuMDc=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">5.005.000,-</a></span> </div></td>
 									
                                 </tr>
                                                                                             <tr>
-                                                                        <td>41.01.08 | Pendapatan Parkir Mobile Operator</td>
+                                                                        <td>41.01.08 | Pendapatan Lain - Lain</td>
                                     <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDEuMDEuMDg=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span> </div></td>
 									
                                 </tr>
+                                                                                                                                       
+                                                                                                                        
+                                <tr>
+                                  <td colspan="2" style="font-weight:bold; border-bottom: 1px solid #000"></td>
+                                  </tr>
                                                                                                                                         <tr>
-                                                                                                                                          <td colspan="2" style="font-weight:bold; border-bottom: 1px solid #000"></td>
-                                                                                                                                        </tr>
-                                                                                                                                        <tr>
-                                <td style="font-weight:bold; border-bottom: 0px solid #ccc">TOTAL PENDAPATAN</td>
-								<td style="font-weight:bold; border-bottom: 3px double #000"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>690.562.645,-</span> </div></td>
-                                
-                            </tr>
-                                                                                                                        <tr>
-                                                                                                                                          <td colspan="2" style="font-weight:bold; width: 70%">&nbsp;</td>
-              </tr>
-                                                                                                                        <tr>
-                                <td style="font-weight:bold; width: 70%">POTONGAN / PENGURANG PENDAPATAN</td>
-                                <td style="text-align:right; width: 30%"></td>
-                            </tr>
-                                                                                                            <tr>
-                                                                        <td>42.01.01 | Potongan / Pengurang Pendapatan - TJU</td>
-                                    <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDE=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">65.870.845,-</a></span> </div></td>
-									
-                                </tr>
-                                                                                            <tr>
-                                                                        <td>42.01.02 | Potongan / Pengurang Pendapatan - Insidentil</td>
-                                    <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span> </div></td>
-									<td style="font-size:11px; text-align:right;">
-                                        
-                                    </td>
-                                </tr>
-								<tr>
-                                                                        <td>42.01.03 | Potongan / Pengurang Pendapatan - Komersial</td>
-                                    <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span> </div></td>
-									<td style="font-size:11px; text-align:right;">
-                                        
-                                    </td>
-                                </tr>
-								<tr>
-                                                                        <td>42.01.04 | Potongan / Pengurang Pendapatan - PLB</td>
-                                    <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDQ=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">979.745.000,-</a></span> </div></td>
-									<td style="font-size:11px; text-align:right;">
-                                        
-                                    </td>
-                                </tr>
-                                                                                           
-                                                                                            
-								
-								<tr>
-                                                                        <td>42.01.05 | Potongan / Pengurang Pendapatan - Insidentil Online</td>
-                                    <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span> </div></td>
-									<td style="font-size:11px; text-align:right;">
-                                        
-                                    </td>
-                                </tr>
-								<tr>
-                                                                        <td>42.01.06 | Potongan / Pengurang Pendapatan - Khusus Badan Usaha</td>
-                                    <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span> </div></td>
-									<td style="font-size:11px; text-align:right;">
-                                        
-                                    </td>
-                                </tr>
-								<tr>
-                                                                        <td>42.01.07 | Potongan / Pengurang Pendapatan - Teknologi / Online</td>
-                                    <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span> </div></td>
-									<td style="font-size:11px; text-align:right;">
-                                        
-                                    </td>
-                                </tr>
-                                                                                            
-                                                                                            
-                                                                                                                                        <tr>
-                                                                                                                                          <td colspan="2" style="font-weight:bold; border-bottom: 1px solid #000"></td>
-                                                                                                                                        </tr>
-                                                                                                                                        <tr>
-                                <td style="font-weight:bold; border-bottom: 0px solid #ccc">TOTAL POTONGAN / PENGURANG PENDAPATAN</td>
-                                <td style="font-weight:bold; border-bottom: 3px double #000"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>1.045.615.845,-</span> </div></td>
-								
-                            </tr>
-                                                                                                                                                                                                <tr>
-                                                                                                                                                                                                  <td colspan="2" style="font-weight:bold;">&nbsp;</td>
-                                                                                                                                                                                                </tr>
-                                                                                                                                                                                                <tr>
                                 <td style="font-weight:bold;">TOTAL PENDAPATAN</td>
 								<td style="font-weight:bold; border-bottom: 3px double #000"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>1.496.701.616,-</span> </div></td>
                                 
@@ -242,11 +169,11 @@ function goBack() {
                                                                                                               <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span></div></td>
                                                                                                             </tr>
                                                                                                             <tr>
-                                                                                                              <td>51.02.01 | Biaya Perlengkapan Jukir/Kolektor</td>
+                                                                                                              <td>51.02.01 | Biaya Perlengkapan Operator</td>
                                                                                                               <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMDIuMDE=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">10.102.500</a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">,-</a></span></div></td>
                                                                                                             </tr>
                                                                                                             <tr>
-                                                                                                              <td>51.02.02 | Biaya BPJS /Asuransi Dan Santunan Jukir/Pegawai</td>
+                                                                                                              <td>51.02.02 | Biaya BPJS /Asuransi Dan Santunan Pegawai</td>
                                                                                                               <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMDIuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">197.984.697</a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">,-</a></span></div></td>
                                                                                                             </tr>
                                                                                                             <tr>
@@ -266,16 +193,8 @@ function goBack() {
                                                                                                               <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMDQuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">93.415.000</a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">,-</a></span></div></td>
                                                                                                             </tr>
                                                                                                             <tr>
-                                                                                                              <td>51.05.01 | Biaya Operasional Tim Partroli Khusus</td>
+                                                                                                              <td>51.05.01 | Biaya Operasional Tim</td>
                                                                                                               <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMDUuMDE=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">10.775.000</a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">,-</a></span></div></td>
-                                                                                                            </tr>
-                                                                                                            <tr>
-                                                                                                              <td>51.06.01 | Biaya Tim Penegak Perda</td>
-                                                                                                              <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMDYuMDE=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">38.562.500</a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">,-</a></span></div></td>
-                                                                                                            </tr>
-                                                                                                            <tr>
-                                                                                                              <td>51.07.01 | Biaya Pajak Parkir PLB</td>
-                                                                                                              <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMDcuMDE=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">183.573.863</a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMDIuMDE=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025"></a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">,-</a></span></div></td>
                                                                                                             </tr>
                                                                                                             <tr>
                                                                                                               <td>51.07.02 | Beban Denda Pajak</td>
@@ -285,11 +204,82 @@ function goBack() {
                                                                                                               <td>51.07.03 | Beban Pajak Terutang</td>
                                                                                                               <td><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span></div></td>
                                                                                                             </tr>
+                                                        </tbody>
+        </table>
+		<table align="center" cellpadding="1" style="width: 650px; text-align:justify; line-height:1.5; font-family: Tahoma; font-size: 12px; border-collapse: collapse;">
+            <tbody>
+
+                                                                        
                                                                                                             <tr>
-                                                                                                              <td>51.08.01 | Biaya Sharing Penetapan Baru PLB</td>
+                                                                                                              <td>51.08.01 | Biaya Sharing Konsesi</td>
                                                                                                               <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMDguMDE=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">21.840.000</a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMDMuMDE=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025"></a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">,-</a></span></div></td>
                                                                                                             </tr>
-                                                                                                            
+                                                                                                            <tr>
+                                                                                                              <td>51.09.01 | Biaya Bahan Bakar Kendaraan Operasional</td>
+                                                                                                              <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMDkuMDE=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">17.600.000</a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMDQuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025"></a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">,-</a></span></div></td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                              <td>51.09.02 | Biaya Maintenance Kendaraan Operasional</td>
+                                                                                                              <td><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMDkuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">5.472.696</a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">,-</a></span></div></td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                              <td>51.09.03 | Biaya Surat Kendaraan (STNK)</td>
+                                                                                                              <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMDkuMDM=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">8.093.433</a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMDkuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025"></a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMDkuMDE=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025"></a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMDQuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025"></a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">,-</a></span></div></td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                              <td>51.10.01 | Biaya Sewa Kendaraan</td>
+                                                                                                              <td><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMTAuMDE=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">227.990.210</a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMDkuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025"></a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">,-</a></span></div></td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                              <td>51.11.01 | Biaya Sarana Dan Prasarana</td>
+                                                                                                              <td><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span></div></td>
+                                                                                                            </tr>
+                                                                                                            <tr>
+                                                                                                              <td>51.12.01 | Biaya Kartu Cashless</td>
+                                                                                                              <td><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span></div></td>
+                                                                                                            </tr>
+                                                                                            <tr>
+                                                                                              <td>51.12.03 | Biaya Payment Gateway</td>
+                                                                                              <td><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span></div></td>
+                                                    </tr>
+                                                                                            <tr>
+                                                                                              <td>51.12.04 | Biaya Spare Part Backup</td>
+                                                                        <td><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span></div></td>
+                                                                                        </tr>
+                                                                                            <tr>
+                                                                                              <td>51.12.05 | Biaya Internet</td>
+                                                                                              <td><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span></div></td>
+                                                    </tr>
+                                                                                            <tr>
+                                                                                              <td>51.13.01 | Biaya Listrik</td>
+                                                                        <td><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMTMuMDE=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">59.294.875</a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">,-</a></span></div></td>
+                                                                                        </tr>
+                                                                                            <tr>
+                                                                                              <td>51.13.02 | Biaya Air</td>
+                                                                                              <td><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span></div></td>
+                                                    </tr>
+                                                                                            <tr>
+                                                                                              <td>51.13.03 | Biaya Telekomunikasi</td>
+                                                                                              <td><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMTMuMDM=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">48.615.250</a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">,-</a></span></div></td>
+                                                    </tr>
+                                                                                            <tr>
+                                                                                                                                          <td colspan="2" style="font-weight:bold; border-bottom: 1px solid #000"></td>
+                                                                                                                                        </tr>
+                                                                                            <tr>
+                                                                                              <td style="font-weight:bold; border-bottom: 0px solid #ccc"><span style="font-weight:bold;">TOTAL BIAYA OPERASIONAL</span></td>
+                                                                                              <td style="font-weight:bold; border-bottom: 3px double #000"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><span style="text-align:right;">1.097.094.458</span>,-</span></div></td>
+                                                    </tr>
+                                                                                            <tr>
+                                                                        <td colspan="2">&nbsp;</td>
+                                </tr>
+                                                                    <tr>
+                                                                      <td style="font-weight:bold;">LABA KOTOR</td>
+                                                                      <td style="font-weight:bold; border-bottom: 3px double #000"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><span style="text-align:right;">399.607.158</span>,-</span></div></td>
+                                </tr>
+                                                                                            <tr>
+                                                                        <td>&nbsp;</td>
+                                    <td style="font-size:11px; text-align:right;">&nbsp;</td>
+                                </tr>
                                                         </tbody>
         </table>
 
@@ -352,121 +342,29 @@ function goBack() {
 								<!--End:: App Content-->
 							</div>
 <div class="bg-white w-50 ml-auto mr-auto">
-									<img src="../assets/img/header.png" style="width:747px; display:block; margin-left:40px;margin-right:auto;margin-bottom:20px;padding-top:40px;"/>
 									<div>&nbsp;<div>
-									<table align="center" cellpadding="1" style="width: 650px; text-align:justify; line-height:1.5; font-family: Tahoma; font-size: 12px; border-collapse: collapse;">
-            <tbody>
-
-                                                                        
-                                                                                                            <tr>
-                                                                                                              <td>51.08.01 | Biaya Sharing Penetapan Baru PLB</td>
-                                                                                                              <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMDguMDE=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">21.840.000</a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMDMuMDE=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025"></a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">,-</a></span></div></td>
-                                                                                                            </tr>
-                                                                                                            <tr>
-                                                                                                              <td>51.08.02 | Biaya Sharing Parkir Elektronik</td>
-                                                                                                              <td><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span></div></td>
-                                                                                                            </tr>
-                                                                                                            <tr>
-                                                                                                              <td>51.09.01 | Biaya Bahan Bakar Kendaraan Operasional</td>
-                                                                                                              <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMDkuMDE=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">17.600.000</a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMDQuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025"></a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">,-</a></span></div></td>
-                                                                                                            </tr>
-                                                                                                            <tr>
-                                                                                                              <td>51.09.02 | Biaya Maintenance Kendaraan Operasional</td>
-                                                                                                              <td><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMDkuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">5.472.696</a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">,-</a></span></div></td>
-                                                                                                            </tr>
-                                                                                                            <tr>
-                                                                                                              <td>51.09.03 | Biaya Surat Kendaraan (STNK)</td>
-                                                                                                              <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMDkuMDM=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">8.093.433</a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMDkuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025"></a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMDkuMDE=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025"></a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMDQuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025"></a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">,-</a></span></div></td>
-                                                                                                            </tr>
-                                                                                                            <tr>
-                                                                                                              <td>51.10.01 | Biaya Sewa Kendaraan</td>
-                                                                                                              <td><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMTAuMDE=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">227.990.210</a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMDkuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025"></a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">,-</a></span></div></td>
-                                                                                                            </tr>
-                                                                                                            <tr>
-                                                                                                              <td>51.11.01 | Biaya Sarana Dan Prasarana</td>
-                                                                                                              <td><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span></div></td>
-                                                                                                            </tr>
-                                                                                                            <tr>
-                                                                                                              <td>51.12.01 | Biaya Kartu Cashless</td>
-                                                                                                              <td><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span></div></td>
-                                                                                                            </tr>
-                                                                                                            <tr>
-                                                                                                              <td>51.12.02 | Biaya Member Parking 1</td>
-                                                                                                              <td><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span></div></td>
-                                                                    </tr>
-                                                                                            <tr>
-                                                                                              <td>51.12.03 | Biaya Member Parking 2</td>
-                                                                                              <td><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span></div></td>
-                                                    </tr>
-                                                                                            <tr>
-                                                                                              <td>51.12.04 | Biaya Member Parking 3</td>
-                                                                        <td><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span></div></td>
-                                                                                        </tr>
-                                                                                            <tr>
-                                                                                              <td>51.12.05 | Biaya Member Parking 4</td>
-                                                                                              <td><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span></div></td>
-                                                    </tr>
-                                                                                            <tr>
-                                                                                              <td>51.13.01 | Biaya Transport Kolektor TJU</td>
-                                                                        <td><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMTMuMDE=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">59.294.875</a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">,-</a></span></div></td>
-                                                                                        </tr>
-                                                                                            <tr>
-                                                                                              <td>51.13.02 | Biaya Transport Insidentil</td>
-                                                                                              <td><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span></div></td>
-                                                    </tr>
-                                                                                            <tr>
-                                                                                              <td>51.13.03 | Biaya Transport Komersial</td>
-                                                                                              <td><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMTMuMDM=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">48.615.250</a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">,-</a></span></div></td>
-                                                    </tr>
-                                                                                            <tr>
-                                                                                              <td>51.13.04 | Biaya Transport Kolektor PLB</td>
-                                                                                              <td><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMTMuMDQ=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">53.027.194</a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">,-</a></span></div></td>
-                                                    </tr>
-                                                                                            <tr>
-                                                                                              <td>51.13.05 | Biaya Sharing Karcis Eks KTI</td>
-                                                                                              <td><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTEuMTMuMDU=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">12.357.240</a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">,-</a></span></div></td>
-                                                    </tr>
-                                                                                            <tr>
-                                                                                                                                          <td colspan="2" style="font-weight:bold; border-bottom: 1px solid #000"></td>
-                                                                                                                                        </tr>
-                                                                                            <tr>
-                                                                                              <td style="font-weight:bold; border-bottom: 0px solid #ccc"><span style="font-weight:bold;">TOTAL BIAYA OPERASIONAL</span></td>
-                                                                                              <td style="font-weight:bold; border-bottom: 3px double #000"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><span style="text-align:right;">1.097.094.458</span>,-</span></div></td>
-                                                    </tr>
-                                                                                            <tr>
-                                                                        <td colspan="2">&nbsp;</td>
-                                </tr>
-                                                                    <tr>
-                                                                      <td style="font-weight:bold;">LABA KOTOR</td>
-                                                                      <td style="font-weight:bold; border-bottom: 3px double #000"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><span style="text-align:right;">399.607.158</span>,-</span></div></td>
-                                </tr>
-                                                                                            <tr>
-                                                                        <td>&nbsp;</td>
-                                    <td style="font-size:11px; text-align:right;">&nbsp;</td>
-                                </tr>
-                                                        </tbody>
-        </table>
-		<table align="center" cellpadding="1" style="width: 650px; text-align:justify; line-height:1.5; font-family: Tahoma; font-size: 12px; border-collapse: collapse;">
+									
+		<table align="center" cellpadding="1" style="width: 650px; margin-top:100px; text-align:justify; line-height:1.5; font-family: Tahoma; font-size: 12px; border-collapse: collapse;">
             <tbody>
 
                                                                         <tr>
-                                <td style="font-weight:bold; width: 70%">GAJI BADAN PENGAWAS DAN STAF</td>
+                                <td style="font-weight:bold; width: 70%">GAJI PENGAWAS DAN TEAM</td>
                                 <td style="text-align:right; width: 30%"></td>
                             </tr>
                                                                                                             <tr>
-                                                                                                              <td>52.01.11 | Biaya Honor Badan Pengawas Dan Staf BP</td>
+                                                                                                              <td>52.01.11 | Biaya Honor Pengawas</td>
                                                                         <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTIuMDEuMTE=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">174.265.000</a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDEuMDEuMDE=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">,-</a></span> </div></td>
 									
                                 </tr>
                                                                                             <tr>
-                                                                                              <td>52.01.12 | Biaya Tunjangan BBM Badan Pengawas</td>
+                                                                                              <td>52.01.12 | Biaya Tunjangan BBM  Pengawas</td>
                                                                                               <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDEuMDEuMDU=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span></div></td>
                                                                         <td style="font-size:11px; text-align:right;">
                                                                           
                                                                         </td>
                                 </tr>
                                                                                             <tr>
-                                                                                              <td>52.01.13 | Biaya Tunjangan Koordinasi BP</td>
+                                                                                              <td>52.01.13 | Biaya Tunjangan Koordinasi </td>
                                                                                               <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDEuMDEuMDY=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span></div></td>
                                                                         <td style="font-size:11px; text-align:right;">
                                                                           
@@ -484,55 +382,14 @@ function goBack() {
                                                                                               <td colspan="2" style="font-weight:bold; border-bottom: 1px solid #000"></td>
                                                                                               </tr>
                                                                                                                                         <tr>
-                                <td style="font-weight:bold; border-bottom: 0px solid #ccc"><span style="font-weight:bold;">TOTAL GAJI BADAN PENGAWAS DAN STAF</span></td>
+                                <td style="font-weight:bold; border-bottom: 0px solid #ccc"><span style="font-weight:bold;">TOTAL GAJI  PENGAWAS DAN TEAM</span></td>
 								<td style="font-weight:bold; border-bottom: 3px double #000"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><span style="text-align:right;">174.265.000</span>,-</span> </div></td>
                                 
                             </tr>
                                                                                                                         <tr>
                                                                                                                                           <td colspan="2" style="font-weight:bold; width: 70%">&nbsp;</td>
               </tr>
-                                                                                                                        <tr>
-                                <td style="font-weight:bold; width: 70%">GAJI KOMITE DAN SEKRETARIS DEWAN</td>
-                                <td style="text-align:right; width: 30%"></td>
-                            </tr>
-                                                                                                            <tr>
-                                                                                                              <td>52.01.21 | Biaya Honor Komite Audit Dan Sekertaris Dewas</td>
-                                                                        <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTIuMDEuMjE=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">64.628.000</a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDE=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">,-</a></span> </div></td>
-									
-                                </tr>
-                                                                                            <tr>
-                                                                                              <td>52.01.22 | Biaya Tunjangan Transportasi Komite Audit dan Sekwas</td>
-                                                                        <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span> </div></td>
-									<td style="font-size:11px; text-align:right;">
-                                        
-                                    </td>
-                                </tr>
-								<tr>
-								  <td>52.01.23 | Biaya Tunj Monitoring, Evaluasi Dan Pelaporan - Komite Audit</td>
-                                    <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span> </div></td>
-									<td style="font-size:11px; text-align:right;">
-                                        
-                                    </td>
-                                </tr>
-								<tr>
-								  <td>52.01.24 | Biaya Tunjangan Komunikasi Komite Audit &amp; Sekwas</td>
-								  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDIuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span></div></td>
-                                    <td style="font-size:11px; text-align:right;">
-                                      
-                                    </td>
-                                </tr>
-                                                                                           
-								<tr>
-                                  <td colspan="2" style="font-weight:bold; border-bottom: 1px solid #000"></td>
-                                  </tr>
-                                                                                                                                        <tr>
-                                <td style="font-weight:bold; border-bottom: 0px solid #ccc"><span style="font-weight:bold;">TOTAL GAJI KOMITE DAN SEKRETARIS DEWAN</span></td>
-                                <td style="font-weight:bold; border-bottom: 3px double #000"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><span style="text-align:right;">64.628.000</span>,-</span> </div></td>
-								
-                            </tr>
-                                                                                                <tr>
-                                                                                                                                                                                                  <td colspan="2" style="font-weight:bold; width: 70%">&nbsp;</td>
-              </tr>
+                               
                                                                                                 <tr>
                                 <td style="font-weight:bold; width: 70%">GAJI POKOK DAN TUNJANGAN DIREKSI</td>
                                 <td style="text-align:right; width: 30%"></td>
@@ -571,62 +428,7 @@ function goBack() {
                                                     </tr>
                                                         </tbody>
         </table>
-
-
-								
-								<div><span>&nbsp;</span>
-   
-  <table align="center" class="footnote-1" width="650px" style="margin-top:20px; padding-top:5px; padding-bottom:20px;">
-        <thead>
-            <tr><th></th>
-            <th></th>
-            <th></th>
-            <th></th>
-        </tr></thead>
-        <tbody>
-            <tr>
-                <td colspan="4" style="border-bottom: 1px solid #ccc;"></td>
-            </tr>
-            
-            <tr style="height: 10px"><td></td></tr>
-            <tr style=" width:650px;">
-                <td style="text-align: left;">
-                    <span class="span-qr" style="z-index: 99999">
-                        <!--?xml version="1.0" encoding="UTF-8"?-->
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="40" height="40" viewBox="0 0 40 40"><rect x="0" y="0" width="40" height="40" fill="#ffffff"></rect><g transform="scale(1.905)"><g transform="translate(0,0)"><path fill-rule="evenodd" d="M9 0L9 1L8 1L8 3L9 3L9 4L8 4L8 8L6 8L6 9L5 9L5 10L4 10L4 8L3 8L3 9L2 9L2 8L0 8L0 9L2 9L2 10L3 10L3 12L4 12L4 11L7 11L7 10L8 10L8 8L9 8L9 11L8 11L8 12L6 12L6 13L8 13L8 15L9 15L9 16L10 16L10 17L11 17L11 16L12 16L12 17L13 17L13 18L12 18L12 19L10 19L10 20L11 20L11 21L12 21L12 20L13 20L13 19L14 19L14 21L15 21L15 18L16 18L16 19L17 19L17 20L19 20L19 18L20 18L20 20L21 20L21 17L20 17L20 16L21 16L21 14L20 14L20 15L19 15L19 16L18 16L18 13L19 13L19 12L20 12L20 13L21 13L21 12L20 12L20 11L19 11L19 10L21 10L21 9L20 9L20 8L18 8L18 9L17 9L17 8L14 8L14 9L13 9L13 8L12 8L12 7L13 7L13 6L12 6L12 7L11 7L11 6L10 6L10 7L9 7L9 4L10 4L10 0ZM12 0L12 1L11 1L11 4L12 4L12 5L13 5L13 2L12 2L12 1L13 1L13 0ZM6 9L6 10L7 10L7 9ZM11 9L11 10L10 10L10 11L9 11L9 12L8 12L8 13L9 13L9 15L10 15L10 16L11 16L11 14L13 14L13 15L12 15L12 16L13 16L13 17L17 17L17 19L18 19L18 18L19 18L19 17L18 17L18 16L17 16L17 15L16 15L16 14L13 14L13 13L16 13L16 12L14 12L14 10L15 10L15 11L17 11L17 13L18 13L18 12L19 12L19 11L18 11L18 10L19 10L19 9L18 9L18 10L15 10L15 9L14 9L14 10L13 10L13 9ZM12 10L12 11L11 11L11 12L12 12L12 13L13 13L13 12L12 12L12 11L13 11L13 10ZM1 11L1 12L0 12L0 13L1 13L1 12L2 12L2 11ZM9 12L9 13L10 13L10 12ZM14 15L14 16L16 16L16 15ZM8 17L8 18L9 18L9 17ZM8 19L8 21L9 21L9 19ZM0 0L0 7L7 7L7 0ZM1 1L1 6L6 6L6 1ZM2 2L2 5L5 5L5 2ZM14 0L14 7L21 7L21 0ZM15 1L15 6L20 6L20 1ZM16 2L16 5L19 5L19 2ZM0 14L0 21L7 21L7 14ZM1 15L1 20L6 20L6 15ZM2 16L2 19L5 19L5 16Z" fill="#000000"></path></g></g></svg>
-
-                    </span>
-                </td>
-                <td>&nbsp;</td>
-                <td colspan="2" valign="left" style="text-align: center">
-                    <span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Sesuai
-                            dengan ketentuan Peraturan Perusahaan yang berlaku, Perusahaan mengatur
-                            bahwa
-                            Dokumen ini telah ditandatangani dan diverifikasi secara elektronik, sehingga
-                            tidak
-                            diperlukan
-                            tanda tangan basah pada Dokumen ini.</i></span></td>
-            </tr>
-<tr style="height: 10px"><td></td></tr>
-             <tr>
-                <td colspan="4" style="border-bottom: 1px solid #ccc;"></td>
-            </tr>
-            <tr style=" width:650px;">
-              <td colspan="4" style="text-align: center;"><span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA - Halaman 1 dari 100</i></span></td>
-            </tr>
-
-        </tbody>
-    </table>
-  <img src="../assets/img/footer.png" style="width:788px; display:block; margin-left:auto; margin-top: 10px; margin-right:auto;margin-bottom:20px;padding-bottom:0px" />
-					</div>
-							<!--End::App-->
-						</div>
-						</div>
-						</div>
-						<div class="bg-white w-50 ml-auto mr-auto">
-									<img src="../assets/img/header.png" style="width:747px; display:block; margin-left:40px;margin-right:auto;margin-bottom:20px;padding-top:40px;"/>
-									<div>&nbsp;<div>
-									<table align="center" cellpadding="1" style="width: 650px; text-align:justify; line-height:1.5; font-family: Tahoma; font-size: 12px; border-collapse: collapse;">
+		<table align="center" cellpadding="1" style="width: 650px; text-align:justify; line-height:1.5; font-family: Tahoma; font-size: 12px; border-collapse: collapse;">
             <tbody>
 
                                                                         <tr>
@@ -634,7 +436,7 @@ function goBack() {
                                 <td style="text-align:right; width: 30%"></td>
                             </tr>
                                                                                                             <tr>
-                                                                                                              <td>52.03.01 | Biaya Operasional Lapangan Direksi/Representatif</td>
+                                                                                                              <td>52.03.01 | Biaya Operasional Lapangan Direksi / Representatif</td>
                                                                         <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTIuMDMuMDE=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">441.575.400</a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NTIuMDEuMTE=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025"></a><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDEuMDEuMDE=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">,-</a></span> </div></td>
 									
                                 </tr>
@@ -737,7 +539,62 @@ function goBack() {
 <td colspan="2" style="font-weight:bold; width: 70%">&nbsp;</td>
                                                         </tbody>
         </table>
-		<table align="center" cellpadding="1" style="width: 650px; text-align:justify; line-height:1.5; font-family: Tahoma; font-size: 12px; border-collapse: collapse;">
+
+
+								
+								<div><span>&nbsp;</span>
+   
+  <table align="center" class="footnote-1" width="650px" style="margin-top:20px; padding-top:5px; padding-bottom:20px;">
+        <thead>
+            <tr><th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr></thead>
+        <tbody>
+            <tr>
+                <td colspan="4" style="border-bottom: 1px solid #ccc;"></td>
+            </tr>
+            
+            <tr style="height: 10px"><td></td></tr>
+            <tr style=" width:650px;">
+                <td style="text-align: left;">
+                    <span class="span-qr" style="z-index: 99999">
+                        <!--?xml version="1.0" encoding="UTF-8"?-->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="40" height="40" viewBox="0 0 40 40"><rect x="0" y="0" width="40" height="40" fill="#ffffff"></rect><g transform="scale(1.905)"><g transform="translate(0,0)"><path fill-rule="evenodd" d="M9 0L9 1L8 1L8 3L9 3L9 4L8 4L8 8L6 8L6 9L5 9L5 10L4 10L4 8L3 8L3 9L2 9L2 8L0 8L0 9L2 9L2 10L3 10L3 12L4 12L4 11L7 11L7 10L8 10L8 8L9 8L9 11L8 11L8 12L6 12L6 13L8 13L8 15L9 15L9 16L10 16L10 17L11 17L11 16L12 16L12 17L13 17L13 18L12 18L12 19L10 19L10 20L11 20L11 21L12 21L12 20L13 20L13 19L14 19L14 21L15 21L15 18L16 18L16 19L17 19L17 20L19 20L19 18L20 18L20 20L21 20L21 17L20 17L20 16L21 16L21 14L20 14L20 15L19 15L19 16L18 16L18 13L19 13L19 12L20 12L20 13L21 13L21 12L20 12L20 11L19 11L19 10L21 10L21 9L20 9L20 8L18 8L18 9L17 9L17 8L14 8L14 9L13 9L13 8L12 8L12 7L13 7L13 6L12 6L12 7L11 7L11 6L10 6L10 7L9 7L9 4L10 4L10 0ZM12 0L12 1L11 1L11 4L12 4L12 5L13 5L13 2L12 2L12 1L13 1L13 0ZM6 9L6 10L7 10L7 9ZM11 9L11 10L10 10L10 11L9 11L9 12L8 12L8 13L9 13L9 15L10 15L10 16L11 16L11 14L13 14L13 15L12 15L12 16L13 16L13 17L17 17L17 19L18 19L18 18L19 18L19 17L18 17L18 16L17 16L17 15L16 15L16 14L13 14L13 13L16 13L16 12L14 12L14 10L15 10L15 11L17 11L17 13L18 13L18 12L19 12L19 11L18 11L18 10L19 10L19 9L18 9L18 10L15 10L15 9L14 9L14 10L13 10L13 9ZM12 10L12 11L11 11L11 12L12 12L12 13L13 13L13 12L12 12L12 11L13 11L13 10ZM1 11L1 12L0 12L0 13L1 13L1 12L2 12L2 11ZM9 12L9 13L10 13L10 12ZM14 15L14 16L16 16L16 15ZM8 17L8 18L9 18L9 17ZM8 19L8 21L9 21L9 19ZM0 0L0 7L7 7L7 0ZM1 1L1 6L6 6L6 1ZM2 2L2 5L5 5L5 2ZM14 0L14 7L21 7L21 0ZM15 1L15 6L20 6L20 1ZM16 2L16 5L19 5L19 2ZM0 14L0 21L7 21L7 14ZM1 15L1 20L6 20L6 15ZM2 16L2 19L5 19L5 16Z" fill="#000000"></path></g></g></svg>
+
+                    </span>
+                </td>
+                <td>&nbsp;</td>
+                <td colspan="2" valign="left" style="text-align: center">
+                    <span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Sesuai
+                            dengan ketentuan Peraturan Perusahaan yang berlaku, Perusahaan mengatur
+                            bahwa
+                            Dokumen ini telah ditandatangani dan diverifikasi secara elektronik, sehingga
+                            tidak
+                            diperlukan
+                            tanda tangan basah pada Dokumen ini.</i></span></td>
+            </tr>
+<tr style="height: 10px"><td></td></tr>
+             <tr>
+                <td colspan="4" style="border-bottom: 1px solid #ccc;"></td>
+            </tr>
+            <tr style=" width:650px;">
+              <td colspan="4" style="text-align: center;"><span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA - Halaman 1 dari 100</i></span></td>
+            </tr>
+
+        </tbody>
+    </table>
+  <img src="../assets/img/footer.png" style="width:788px; display:block; margin-left:auto; margin-top: 10px; margin-right:auto;margin-bottom:20px;padding-bottom:0px" />
+					</div>
+							<!--End::App-->
+						</div>
+						</div>
+						</div>
+						<div class="bg-white w-50 ml-auto mr-auto">
+									<div>&nbsp;<div>
+									
+		<table align="center" cellpadding="1" style="width: 650px; margin-top:100px; text-align:justify; line-height:1.5; font-family: Tahoma; font-size: 12px; border-collapse: collapse;">
             <tbody>
 
                                                                         <tr>
@@ -848,10 +705,29 @@ function goBack() {
                                                                                             <tr>
                                                                                               <td colspan="2" style="font-weight:bold; border-bottom: 1px solid #000"></td>
                                                                                               </tr>
+																							  
                                                                                             <tr>
                                                                                               <td style="font-weight:bold; border-bottom: 0px solid #ccc"><span style="font-weight:bold;">TOTAL PENYUSUTAN &amp; AMORTISASI</span></td>
                                                                                               <td style="font-weight:bold; border-bottom: 3px double #000"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><span style="text-align:right;">0</span>,-</span></div></td>
                                                     </tr>
+													<tr>
+                                                                                                                                          <td colspan="2" style="font-weight:bold; width: 70%">&nbsp;</td>
+              </tr>
+													<tr>
+                                                                                                                                          <td style="font-weight:bold; border-bottom: 0px solid #ccc"><span style="font-weight:bold;">TOTAL BIAYA ADMINISTRASI UMUM</span></td>
+                                                                                                                                          <td style="font-weight:bold; border-bottom: 3px double #000"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><span style="text-align:right;">1.016.417.244</span>,-</span></div></td>
+                                                                                                                                        </tr>
+                                                                                                                                        <tr>
+                                                                                                                                          <td style="font-weight:bold; border-bottom: 0px solid #ccc"><span style="font-weight:bold;">LABA OPERASIONAL</span></td>
+                                                                                                                                          <td style="font-weight:bold; border-bottom: 3px double #000"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><span style="text-align:right;">4.272.020.732</span>,-</span></div></td>
+                                                                                                                                        </tr>
+                                                                                                                                        <tr>
+                                                                                                                                          <td style="font-weight:bold; border-bottom: 0px solid #ccc"><span style="font-weight:bold;">PENDAPATAN (BEBAN) LAINNYA</span></td>
+                                                                                                                                          <td style="font-weight:bold; border-bottom: 3px double #000"><span style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span><span style="text-align:right;">0</span>,-</span></span></td>
+                                                                                                                                        </tr>
+                                                                                                                        <tr>
+                                                                                                                                          <td colspan="2" style="font-weight:bold; width: 70%">&nbsp;</td>
+              </tr>
                                                         </tbody>
         </table>
 
@@ -907,27 +783,12 @@ function goBack() {
 						</div>
 						</div>
 						<div class="bg-white w-50 ml-auto mr-auto">
-									<img src="../assets/img/header.png" style="width:747px; display:block; margin-left:40px;margin-right:auto;margin-bottom:20px;padding-top:40px;"/>
 									<div>&nbsp;<div>
-									<table align="center" cellpadding="1" style="width: 650px; text-align:justify; line-height:1.5; font-family: Tahoma; font-size: 12px; border-collapse: collapse;">
+									<table align="center" cellpadding="1" style="width: 650px; margin-top:100px; text-align:justify; line-height:1.5; font-family: Tahoma; font-size: 12px; border-collapse: collapse;">
             <tbody>
 
                                                                         
-                                                                                                                                        <tr>
-                                                                                                                                          <td style="font-weight:bold; border-bottom: 0px solid #ccc"><span style="font-weight:bold;">TOTAL BIAYA ADMINISTRASI UMUM</span></td>
-                                                                                                                                          <td style="font-weight:bold; border-bottom: 3px double #000"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><span style="text-align:right;">1.016.417.244</span>,-</span></div></td>
-                                                                                                                                        </tr>
-                                                                                                                                        <tr>
-                                                                                                                                          <td style="font-weight:bold; border-bottom: 0px solid #ccc"><span style="font-weight:bold;">LABA OPERASIONAL</span></td>
-                                                                                                                                          <td style="font-weight:bold; border-bottom: 3px double #000"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><span style="text-align:right;">4.272.020.732</span>,-</span></div></td>
-                                                                                                                                        </tr>
-                                                                                                                                        <tr>
-                                                                                                                                          <td style="font-weight:bold; border-bottom: 0px solid #ccc"><span style="font-weight:bold;">PENDAPATAN (BEBAN) LAINNYA</span></td>
-                                                                                                                                          <td style="font-weight:bold; border-bottom: 3px double #000"><span style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span><span style="text-align:right;">0</span>,-</span></span></td>
-                                                                                                                                        </tr>
-                                                                                                                        <tr>
-                                                                                                                                          <td colspan="2" style="font-weight:bold; width: 70%">&nbsp;</td>
-              </tr>
+                                                                                                                                        
                                                                                                                         <tr>
                                 <td style="font-weight:bold; width: 70%">PENDAPATAN LAINNYA</td>
                                 <td style="text-align:right; width: 30%"></td>
@@ -1011,7 +872,7 @@ function goBack() {
                                                     </tr>
                                                         </tbody>
         </table>
-<table align="center" border="0" cellpadding="1" style="text-align:justify; line-height:1.5; font-family: Tahoma; font-size: 12px; margin-top:150px; margin-left:70px; margin-bottom:50px;">
+<table align="center" border="0" cellpadding="1" style="text-align:justify; line-height:1.5; font-family: Tahoma; font-size: 12px; margin-top:250px; margin-left:70px; margin-bottom:50px;">
 
                                 <tbody><tr>
                                     <td colspan="3" valign="top">

@@ -97,6 +97,7 @@
 											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-pass-kade.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pass Kade</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-free-pass.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Free Pass</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-kendaraan-parkir.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Sedang Parkir</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-sirkulasi-kendaraan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Sirkulasi Kendaraan</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-permintaan-bantuan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Permintaan Bantuan</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-hapus-kendaraan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Hapus Kendaraan</span></a></li>
 											
