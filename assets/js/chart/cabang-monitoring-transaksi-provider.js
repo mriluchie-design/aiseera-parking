@@ -66,67 +66,67 @@ Highcharts.chart('container-cabang-monitoring-transaksi-provider', {
             data: [
                 {
                     name: 'e-money',
-                    y: 1274400000,
+                    y: 4500000,
                     drilldown: 'Chrome'
                 },
                 {
                     name: 'Tapcash',
-                    y: 309600000,
+                    y: 0,
                     drilldown: 'Safari'
                 },
                 {
                     name: 'Brizzi',
-                    y: 686000000,
+                    y: 0,
                     drilldown: 'Firefox'
                 },
                 {
                     name: 'Flazz',
-                    y: 45640000,
+                    y: 0,
                     drilldown: 'Firefox'
                 },
                  {
                     name: 'OVO',
-                    y: 45640000,
+                    y: 3000000,
                     drilldown: 'Firefox'
                 },
                  {
                     name: 'DANA',
-                    y: 45640000,
+                    y: 2000000,
                     drilldown: 'Firefox'
                 },
                 {
                     name: 'GoPay',
-                    y: 45640000,
+                    y: 1300000,
                     drilldown: 'Firefox'
                 },
                 {
                     name: 'LinkAja',
-                    y: 45640000,
+                    y: 0,
                     drilldown: 'Firefox'
                 },
                 {
                     name: 'ShoopePay',
-                    y: 45640000,
+                    y: 0,
                     drilldown: 'Firefox'
                 },
                 {
                     name: 'Livin',
-                    y: 45640000,
+                    y: 888808,
                     drilldown: 'Firefox'
                 },
                 {
                     name: 'MyBCA',
-                    y: 45640000,
+                    y: 0,
                     drilldown: 'Firefox'
                 },
                 {
                     name: 'BRImo',
-                    y: 45640000,
+                    y: 0,
                     drilldown: 'Firefox'
                 },
                 {
                     name: 'BNI',
-                    y: 45640000,
+                    y: 0,
                     drilldown: 'Firefox'
                 },
                 

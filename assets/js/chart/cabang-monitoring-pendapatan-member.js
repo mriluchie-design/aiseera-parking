@@ -3,7 +3,7 @@
 // - https://www.statista.com/statistics/383679/fa-cup-wins-by-team/
 // - https://www.uefa.com/uefachampionsleague/history/winners/
 
-Highcharts.chart('container-cabang-pendapatan', {
+Highcharts.chart('container-cabang-pendapatan-member', {
     chart: {
         type: 'column',
         marginTop: 70,
@@ -37,7 +37,7 @@ Highcharts.chart('container-cabang-pendapatan', {
     },
     legend: {
         align: 'center',
-        x: 0,
+        x: 40,
         verticalAlign: 'top',
         y: 0,
         floating: true,
@@ -57,8 +57,10 @@ Highcharts.chart('container-cabang-pendapatan', {
         valueSuffix: ',-' // Tambahan opsional (contoh: ,-)
     },
     plotOptions: {
+        
         column: {
             stacking: 'normal',
+            valuePrefix: 'Rp. ',
             dataLabels: {
                 enabled: false
             }
@@ -66,12 +68,22 @@ Highcharts.chart('container-cabang-pendapatan', {
     },
     
     series: [{
-        name: 'QRIS',
-        data: [1500000000, 1000000000, 300000000, 300000000, 200000000, 150000000, 300000000, 186119460, 200000000, 181850540, 205533953, 200000000],
+        name: 'Truck/Tronton/Trailer',
+        data: [782079284, 487691000, 4629716, 0, 0, 0, 0, 0, 0, 0, 0, 0],
         
     }, {
-        name: 'Emoney',
-        data: [73090473, 152720540, 55301419, 111151352, 103125743, 160832635, 104610945, 100000000, 197232568, 100000000, 68511318, 111107568]
+        name: 'Sedan/Jeep/Pick Up',
+        data: [44228571, 74228571, 42269007, 34950000, 48899000, 27208000, 24208000, 0, 13608851, 0, 0, 0],
+        
+    },
+    {
+        name: 'Sepeda Motor',
+        data: [336990000, 238008351, 30955500, 42904223, 13955223, 13523554, 4139634, 0, 5523515, 0, 0, 0],
+        
+    },
+    {
+        name: 'Pegawai/Instansi/Others',
+        data: [16520000, 12520000, 5520000, 3520000, 2520000, 2520000, 2520000, 0, 0, 0, 0, 0]
     }]
 });
 
