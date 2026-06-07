@@ -30518,8 +30518,8 @@ font-weight:400;
     .kt-badge.kt-badge--outline.kt-badge--light.kt-badge--outline-2x {
       border: 2px solid #ffffff; }
   .kt-badge.kt-badge--dark {
-    color: #ffffff;
-    background: #282a3c; }
+    color: #fff;
+    background: #1d8dd8; }
   .kt-badge.kt-badge--outline.kt-badge--dark {
     background: transparent;
     color: #282a3c;
@@ -30527,8 +30527,8 @@ font-weight:400;
     .kt-badge.kt-badge--outline.kt-badge--dark.kt-badge--outline-2x {
       border: 2px solid #282a3c; }
   .kt-badge.kt-badge--primary {
-    color: #ffffff;
-    background: #5867dd; }
+    color: #4c4c4c;
+    background: rgba(229, 216, 99, 0.7); }
   .kt-badge.kt-badge--outline.kt-badge--primary {
     background: transparent;
     color: #5867dd;
@@ -30536,8 +30536,8 @@ font-weight:400;
     .kt-badge.kt-badge--outline.kt-badge--primary.kt-badge--outline-2x {
       border: 2px solid #5867dd; }
   .kt-badge.kt-badge--success {
-    color: #ffffff;
-    background: #0abb87; }
+    color: #36661f;
+    background: rgba(204, 242, 184, 0.9); }
   .kt-badge.kt-badge--outline.kt-badge--success {
     background: transparent;
     color: #0abb87;
@@ -30572,23 +30572,23 @@ font-weight:400;
     .kt-badge.kt-badge--outline.kt-badge--danger.kt-badge--outline-2x {
       border: 2px solid #fd397a; }
   .kt-badge.kt-badge--unified-brand {
-    color: #000;
-    background: #f2c8d8; }
+    color: #133791;
+    background: rgba(9, 97, 174, 0.1); }
   .kt-badge.kt-badge--unified-light {
     color: #ffffff;
     background: #c19c3a; }
   .kt-badge.kt-badge--unified-dark {
-    color: #282a3c;
-    background: rgba(40, 42, 60, 0.1); }
+    color: #0961ae;
+    background: rgba(9, 97, 174, 0.1); }
   .kt-badge.kt-badge--unified-primary {
-    color: #5867dd;
-    background: rgba(88, 103, 221, 0.1); }
+    color: #fff;
+    background: #2c8447; }
   .kt-badge.kt-badge--unified-success {
     color: #0961ae;
     background: #c8eff2; }
   .kt-badge.kt-badge--unified-info {
-    color: #5578eb;
-    background: rgba(85, 120, 235, 0.1); }
+    color: #5f2c9b;
+    background: #e3d7f4; }
   .kt-badge.kt-badge--unified-warning {
     color: #ffb822;
     background: rgba(255, 184, 34, 0.1); }
