@@ -86,6 +86,7 @@
 												<option value="1">Beban</option>
 												<option value="1">Beban Lainnya</option>
 												<option value="1">Pendapatan Lainnya</option>
+												<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 										</select>
 									</div>
 									

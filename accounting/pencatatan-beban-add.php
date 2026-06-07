@@ -76,6 +76,7 @@
 												<option value="3" data-subtext="210202">PPh 23 Pembelian</option>
 												<option value="4" data-subtext="210203">Hutang pembelian Belum Ditagih</option>
 												<option value="5" data-subtext="210203">PPh Ps.4(2) Pembelian</option>
+												<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Akun Lainnya</a>" class="select-option-add" value="add"></option>
 											</optgroup>
 										</select>
 									</div>
@@ -166,6 +167,11 @@
 																					  <td>1</td>
 																						<td><select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
 								<option value="1" disabled selected>Cari/Pilih Akun Perkiraan...</option>
+								<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+								<option value="1">Lihat Semua</option>
+								
+								
+								
 								<optgroup label="Kewajiban Jangka Pendek" class="a">
 									<option data-subtext="5101">Beban Pokok Penjualan</option>
 								</optgroup>

@@ -1,7 +1,9 @@
-reguler = <span class="btn btn-label-brand btn-sm">Reguler</span>
-member = <span class="btn btn-label-twitter btn-sm">Member</span>
-berangkat = <span class="btn btn-label-skype btn-sm">Berangkat</span>
-keluar = <span class="btn btn-label-warning btn-sm">Keluar</span>
-parkir = <span class="btn btn-label-danger btn-sm">Parkir</span>
-e-money = <span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355135<hr>e-Money<hr>Mandiri" data-html="true">e-Money</span>
-qris = <span class="btn btn-label-linkedin btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355137<hr>QRIS<hr>DANA" data-html="true">DANA</span>
+reguler = brand
+member = linkedin
+Berangkat = skype
+Muatan Kapal = skype
+keluar = brand
+parkir = danger
+denda = danger
+e-money = brand
+qris = warning

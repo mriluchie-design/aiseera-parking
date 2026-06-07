@@ -61,6 +61,7 @@
 										<ul class="kt-menu__subnav">
 											<li class="kt-menu__item  kt-menu__item--parent" aria-haspopup="true"><span class="kt-menu__link"><span class="kt-menu__link-text">Manajemen Absensi</span></span></li>
 
+											<li class="kt-menu__item" aria-haspopup="true"><a href="sirkulasi-kendaraan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Sirkulasi Kendaraan</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="monitoring-gate-masuk.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Perangkat</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="monitoring-pendapatan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pendapatan</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="monitoring-pendapatan-cabang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pendapatan Cabang</span></a></li>

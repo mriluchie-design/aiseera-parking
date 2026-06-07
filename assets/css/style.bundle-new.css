@@ -10562,8 +10562,8 @@ input.btn.btn-label-instagram {
     color: #ffffff; }
 
 .btn.btn-label-youtube {
-  background-color: rgba(179, 18, 23, 0.1);
-  color: #b31217;
+  background-color: rgba(255, 78, 31, 0.1);
+  color: #ff4e1f;
   cursor: text !important; }
 
 .btn.btn-label-youtube-o2 {
@@ -10586,7 +10586,7 @@ input.btn.btn-label-youtube {
   input.btn.btn-label-youtube:focus,
   input.btn.btn-label-youtube:hover,
   input.btn.btn-label-youtube.active {
-    background-color: #b31217;
+    background-color: #ff641f;
     color: #ffffff; }
 
 .btn.btn-label-linkedin {

@@ -39,7 +39,7 @@
 												</g>
                                 </svg></span><span class="kt-menu__link-text">Halaman Aplikasi</span></a></li>
 								<li class="kt-menu__section ">
-									<h4 class="kt-menu__section-text">Monitoring Perangkat</h4>
+									<h4 class="kt-menu__section-text">Laporan Keuangan</h4>
 									<i class="kt-menu__section-icon flaticon-more-v2"></i>
 								</li>
 								<li class="kt-menu__item " aria-haspopup="true"><a href="./index.php" class="kt-menu__link "><span class="kt-menu__link-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
@@ -49,21 +49,7 @@
         <path d="M3,5 L21,5 C21.5522847,5 22,5.44771525 22,6 L22,16 C22,16.5522847 21.5522847,17 21,17 L3,17 C2.44771525,17 2,16.5522847 2,16 L2,6 C2,5.44771525 2.44771525,5 3,5 Z M4.5,8 C4.22385763,8 4,8.22385763 4,8.5 C4,8.77614237 4.22385763,9 4.5,9 L13.5,9 C13.7761424,9 14,8.77614237 14,8.5 C14,8.22385763 13.7761424,8 13.5,8 L4.5,8 Z M4.5,10 C4.22385763,10 4,10.2238576 4,10.5 C4,10.7761424 4.22385763,11 4.5,11 L7.5,11 C7.77614237,11 8,10.7761424 8,10.5 C8,10.2238576 7.77614237,10 7.5,10 L4.5,10 Z" fill="#000000"/>
     </g>
 </svg></span><span class="kt-menu__link-text">Dashboard</span></a></li>
-											<!--<li class="kt-menu__item " aria-haspopup="true"><a href="pegawai-profil.php" class="kt-menu__link "><span class="kt-menu__link-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect x="0" y="0" width="24" height="24"/>
-        <path d="M6,2 L18,2 C19.6568542,2 21,3.34314575 21,5 L21,19 C21,20.6568542 19.6568542,22 18,22 L6,22 C4.34314575,22 3,20.6568542 3,19 L3,5 C3,3.34314575 4.34314575,2 6,2 Z M12,11 C13.1045695,11 14,10.1045695 14,9 C14,7.8954305 13.1045695,7 12,7 C10.8954305,7 10,7.8954305 10,9 C10,10.1045695 10.8954305,11 12,11 Z M7.00036205,16.4995035 C6.98863236,16.6619875 7.26484009,17 7.4041679,17 C11.463736,17 14.5228466,17 16.5815,17 C16.9988413,17 17.0053266,16.6221713 16.9988413,16.5 C16.8360465,13.4332455 14.6506758,12 11.9907452,12 C9.36772908,12 7.21569918,13.5165724 7.00036205,16.4995035 Z" fill="#000000"/>
-    </g>
-</svg></span><span class="kt-menu__link-text">Profil Anda</span></a></li>
-											<li class="kt-menu__item " aria-haspopup="true"><a href="pegawai-struktur.php" class="kt-menu__link "><span class="kt-menu__link-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect x="0" y="0" width="24" height="24"/>
-        <path d="M4.95312427,14.3025791 L3.04687573,13.6974209 C4.65100965,8.64439903 7.67317997,6 12,6 C16.32682,6 19.3489903,8.64439903 20.9531243,13.6974209 L19.0468757,14.3025791 C17.6880467,10.0222676 15.3768837,8 12,8 C8.62311633,8 6.31195331,10.0222676 4.95312427,14.3025791 Z M12,8 C12.5522847,8 13,7.55228475 13,7 C13,6.44771525 12.5522847,6 12,6 C11.4477153,6 11,6.44771525 11,7 C11,7.55228475 11.4477153,8 12,8 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"/>
-        <path d="M5.73243561,6 L9.17070571,6 C9.58254212,4.83480763 10.6937812,4 12,4 C13.3062188,4 14.4174579,4.83480763 14.8292943,6 L18.2675644,6 C18.6133738,5.40219863 19.2597176,5 20,5 C21.1045695,5 22,5.8954305 22,7 C22,8.1045695 21.1045695,9 20,9 C19.2597176,9 18.6133738,8.59780137 18.2675644,8 L14.8292943,8 C14.4174579,9.16519237 13.3062188,10 12,10 C10.6937812,10 9.58254212,9.16519237 9.17070571,8 L5.73243561,8 C5.38662619,8.59780137 4.74028236,9 4,9 C2.8954305,9 2,8.1045695 2,7 C2,5.8954305 2.8954305,5 4,5 C4.74028236,5 5.38662619,5.40219863 5.73243561,6 Z M12,8 C12.5522847,8 13,7.55228475 13,7 C13,6.44771525 12.5522847,6 12,6 C11.4477153,6 11,6.44771525 11,7 C11,7.55228475 11.4477153,8 12,8 Z M4,19 C2.34314575,19 1,17.6568542 1,16 C1,14.3431458 2.34314575,13 4,13 C5.65685425,13 7,14.3431458 7,16 C7,17.6568542 5.65685425,19 4,19 Z M4,17 C4.55228475,17 5,16.5522847 5,16 C5,15.4477153 4.55228475,15 4,15 C3.44771525,15 3,15.4477153 3,16 C3,16.5522847 3.44771525,17 4,17 Z M20,19 C18.3431458,19 17,17.6568542 17,16 C17,14.3431458 18.3431458,13 20,13 C21.6568542,13 23,14.3431458 23,16 C23,17.6568542 21.6568542,19 20,19 Z M20,17 C20.5522847,17 21,16.5522847 21,16 C21,15.4477153 20.5522847,15 20,15 C19.4477153,15 19,15.4477153 19,16 C19,16.5522847 19.4477153,17 20,17 Z" fill="#000000"/>
-    </g>
-</svg></span><span class="kt-menu__link-text">Struktur Anda</span></a></li>
-
-
+											
 								<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><span class="kt-menu__link-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect x="0" y="0" width="24" height="24"/>
@@ -72,89 +58,21 @@
         <path d="M16.7099142,6.53272645 L17.5355339,5.70710678 C17.9260582,5.31658249 18.5592232,5.31658249 18.9497475,5.70710678 C19.3402718,6.09763107 19.3402718,6.73079605 18.9497475,7.12132034 L18.1671361,7.90393167 C17.7407802,7.38854954 17.251061,6.92750259 16.7099142,6.53272645 Z" fill="#000000"/>
         <path d="M11.9630156,7.5 L12.0369844,7.5 C12.2982526,7.5 12.5154733,7.70115317 12.5355117,7.96165175 L12.9585886,13.4616518 C12.9797677,13.7369807 12.7737386,13.9773481 12.4984096,13.9985272 C12.4856504,13.9995087 12.4728582,14 12.4600614,14 L11.5399386,14 C11.2637963,14 11.0399386,13.7761424 11.0399386,13.5 C11.0399386,13.4872031 11.0404299,13.4744109 11.0414114,13.4616518 L11.4644883,7.96165175 C11.4845267,7.70115317 11.7017474,7.5 11.9630156,7.5 Z" fill="#000000"/>
     </g>
-</svg></span><span class="kt-menu__link-text">Manajemen Absensi</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
+</svg></span><span class="kt-menu__link-text">Transaksi</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
 									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
 										<ul class="kt-menu__subnav">
-											<li class="kt-menu__item  kt-menu__item--parent" aria-haspopup="true"><span class="kt-menu__link"><span class="kt-menu__link-text">Manajemen Absensi</span></span></li>
-
-											<li class="kt-menu__item" aria-haspopup="true"><a href="pegawai-rekap-absen.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Rekap Absen</span></a></li>
-											<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="pegawai-cuti.php" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Cuti Pegawai</span></a></li>
-											</li><li class="kt-menu__item" aria-haspopup="true"><a href="pegawai-izin.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Izin Pegawai</span></a></li>
-
-
-											<li class="kt-menu__item" aria-haspopup="true"><a href="pegawai-lembur.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Lembur Pegawai</span></a></li>
-
-										</ul>
-									</div>
-								</li>
-								<li class="kt-menu__item " aria-haspopup="true"><a href="pegawai-perjalanan-dinas.php" class="kt-menu__link "><span class="kt-menu__link-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <polygon points="0 0 24 0 24 24 0 24"/>
-        <rect fill="#000000" opacity="0.3" x="2" y="3" width="7" height="14" rx="1"/>
-        <path d="M16.6236387,13.0538007 C18.8273383,13.8579339 20.1826034,13.7956508 21,14 C21.5844894,14.1461224 22.1049236,14.4525789 22.5613025,14.9193695 C22.8220479,15.1860635 23.0030223,15.5203564 23.0837834,15.8844876 C23.3229559,16.9628548 22.6426541,18.0309317 21.5642858,18.2700997 C20.2740329,18.5562665 18.7433451,18.7531138 16.9722222,18.8606416 C13.9910551,19.0416332 8.86226533,19.0463278 1.5858528,18.8747253 C1.26005876,18.867042 0.999953435,18.6007302 0.999953435,18.2748455 L1,18.2748455 C1,15.4124758 1,13.3451074 1,12.0727406 C5.24980707,11.6622656 8.09783699,10.5071287 9.54408978,8.60732991 C9.56481367,8.58010699 9.58782802,8.55470651 9.6128812,8.53140618 C9.85553488,8.30572983 10.2351914,8.31949268 10.4608598,8.56215378 C10.8762386,9.00878105 11.2674202,9.41538104 11.6344046,9.78195376 C11.6101853,9.81416566 11.5876475,9.84819014 11.5669873,9.8839746 L10.0669873,12.4820508 C9.79084492,12.9603434 9.95472008,13.5719338 10.4330127,13.8480762 C10.9113053,14.1242186 11.5228957,13.9603434 11.7990381,13.4820508 L13.1335582,11.1705941 C13.630492,11.5858319 14.0581948,11.8865474 14.4166667,12.0727406 C14.5381042,12.1358162 14.6576898,12.1965218 14.7754507,12.2549561 L14.0669873,13.4820508 C13.7908449,13.9603434 13.9547201,14.5719338 14.4330127,14.8480762 C14.9113053,15.1242186 15.5228957,14.9603434 15.7990381,14.4820508 L16.6236387,13.0538007 Z" fill="#000000"/>
-    </g>
-</svg></span><span class="kt-menu__link-text">Perjalanan Dinas</span></a></li>
-<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><span class="kt-menu__link-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect x="0" y="0" width="24" height="24"/>
-        <path d="M8,6 L20.5,6 C21.3284271,6 22,6.67157288 22,7.5 C22,8.32842712 21.3284271,9 20.5,9 L8,9 L8,19.5 C8,20.3284271 7.32842712,21 6.5,21 C5.67157288,21 5,20.3284271 5,19.5 L5,9 L3.5,9 C2.67157288,9 2,8.32842712 2,7.5 C2,6.67157288 2.67157288,6 3.5,6 L5,6 L5,4.5 C5,3.67157288 5.67157288,3 6.5,3 C7.32842712,3 8,3.67157288 8,4.5 L8,6 Z" fill="#000000"/>
-        <path d="M10,11 L20.5,11 C21.3284271,11 22,11.6715729 22,12.5 L22,15 C22,17.209139 20.209139,19 18,19 L11.5,19 C10.6715729,19 10,18.3284271 10,17.5 L10,11 Z M20,12 C19.4477153,12 19,12.4477153 19,13 L19,16 C19,16.5522847 19.4477153,17 20,17 C20.5522847,17 21,16.5522847 21,16 L21,13 C21,12.4477153 20.5522847,12 20,12 Z" fill="#000000" opacity="0.3"/>
-    </g>
-</svg></span><span class="kt-menu__link-text">Persuratan</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
-									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
-										<ul class="kt-menu__subnav">
-											<li class="kt-menu__item" aria-haspopup="true"><a href="pegawai-surat-masuk.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Surat Masuk</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="keuangan-kendaraan-masuk.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Masuk</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="keuangan-kendaraan-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Keluar</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="keuangan-kendaraan-berangkat.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Berangkat</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="keuangan-kendaraan-muatan-kapal.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Muatan Kapal</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="keuangan-kendaraan-pass-kade.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pass Kade</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="keuangan-kendaraan-pass-kade.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Rekap Transaksi</span></a></li>
 											
-											<li class="kt-menu__item" aria-haspopup="true"><a href="pegawai-nota-dinas.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Nota Dinas</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="pegawai-surat-masuk.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Tembusan Surat Masuk</span></a></li>
-											
-
 										</ul>
 									</div>
 								</li>
 								
 								
-								<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><span class="kt-menu__link-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <polygon points="0 0 24 0 24 24 0 24"/>
-        <path d="M4.85714286,1 L11.7364114,1 C12.0910962,1 12.4343066,1.12568431 12.7051108,1.35473959 L17.4686994,5.3839416 C17.8056532,5.66894833 18,6.08787823 18,6.52920201 L18,19.0833333 C18,20.8738751 17.9795521,21 16.1428571,21 L4.85714286,21 C3.02044787,21 3,20.8738751 3,19.0833333 L3,2.91666667 C3,1.12612489 3.02044787,1 4.85714286,1 Z M8,12 C7.44771525,12 7,12.4477153 7,13 C7,13.5522847 7.44771525,14 8,14 L15,14 C15.5522847,14 16,13.5522847 16,13 C16,12.4477153 15.5522847,12 15,12 L8,12 Z M8,16 C7.44771525,16 7,16.4477153 7,17 C7,17.5522847 7.44771525,18 8,18 L11,18 C11.5522847,18 12,17.5522847 12,17 C12,16.4477153 11.5522847,16 11,16 L8,16 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"/>
-        <path d="M6.85714286,3 L14.7364114,3 C15.0910962,3 15.4343066,3.12568431 15.7051108,3.35473959 L20.4686994,7.3839416 C20.8056532,7.66894833 21,8.08787823 21,8.52920201 L21,21.0833333 C21,22.8738751 20.9795521,23 19.1428571,23 L6.85714286,23 C5.02044787,23 5,22.8738751 5,21.0833333 L5,4.91666667 C5,3.12612489 5.02044787,3 6.85714286,3 Z M8,12 C7.44771525,12 7,12.4477153 7,13 C7,13.5522847 7.44771525,14 8,14 L15,14 C15.5522847,14 16,13.5522847 16,13 C16,12.4477153 15.5522847,12 15,12 L8,12 Z M8,16 C7.44771525,16 7,16.4477153 7,17 C7,17.5522847 7.44771525,18 8,18 L11,18 C11.5522847,18 12,17.5522847 12,17 C12,16.4477153 11.5522847,16 11,16 L8,16 Z" fill="#000000" fill-rule="nonzero"/>
-    </g>
-</svg></span><span class="kt-menu__link-text">Administrasi Pegawai</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
-									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
-										<ul class="kt-menu__subnav">
-											<li class="kt-menu__item" aria-haspopup="true"><a href="pegawai-cetak-id-card.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">ID Card Anda</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="pegawai-cetak-cv.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Curriculum Vitae</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="pegawai-peraturan-perusahaan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Peraturan Perusahaan</span></a></li>
-														<li class="kt-menu__item" aria-haspopup="true"><a href="pegawai-peraturan-direksi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Peraturan Direksi</span></a></li>
-														<li class="kt-menu__item" aria-haspopup="true"><a href="pegawai-kontrak-pegawai.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kontrak Pegawai</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="pegawai-surat-peringatan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Surat Peringatan</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="pegawai-surat-keterangan-kerja.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Surat Keterangan Kerja</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="pegawai-surat-pengalaman-kerja.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Surat Pengalaman Kerja</span></a></li>
-
-
-										</ul>
-									</div>
-								</li>
-								<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><span class="kt-menu__link-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect x="0" y="0" width="24" height="24"/>
-        <rect fill="#000000" opacity="0.3" x="17" y="4" width="3" height="13" rx="1.5"/>
-        <rect fill="#000000" opacity="0.3" x="12" y="9" width="3" height="8" rx="1.5"/>
-        <path d="M5,19 L20,19 C20.5522847,19 21,19.4477153 21,20 C21,20.5522847 20.5522847,21 20,21 L4,21 C3.44771525,21 3,20.5522847 3,20 L3,4 C3,3.44771525 3.44771525,3 4,3 C4.55228475,3 5,3.44771525 5,4 L5,19 Z" fill="#000000" fill-rule="nonzero"/>
-        <rect fill="#000000" opacity="0.3" x="7" y="11" width="3" height="6" rx="1.5"/>
-    </g>
-</svg></span><span class="kt-menu__link-text">Manajemen Kinerja</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
-									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
-										<ul class="kt-menu__subnav">
-											<li class="kt-menu__item  kt-menu__item--parent" aria-haspopup="true"><span class="kt-menu__link"><span class="kt-menu__link-text">Manajemen Kinerja</span></span></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="pegawai-tasking.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Tasking</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="pegawai-penilaian.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Penilaian Anda</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="pegawai-penilaian-divisi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Penilaian Divisi Anda</span></a></li>
-
-										</ul>
-									</div>
-								</li>
 
 								<!--<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><span class="kt-menu__link-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
