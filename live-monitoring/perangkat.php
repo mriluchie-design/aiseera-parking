@@ -515,7 +515,7 @@
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
         											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
-        												Dispenser Masuk
+        												Dispenser Keluar
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
@@ -535,6 +535,16 @@
         											</div>
         											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
         												Payment Reader
+        											</div>
+													
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-brand"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Scanner
         											</div>
 													
         										</div>
@@ -570,6 +580,10 @@
 													<div class="kt-widget6__item">
 														<span>Sisa Print Karcis</span>
 														<span>50</span>
+													</div>
+<div class="kt-widget6__item">
+														<span>&nbsp;</span>
+														<span>&nbsp;</span>
 													</div>
 <div class="kt-widget6__item">
 														<span>&nbsp;</span>
@@ -953,7 +967,7 @@
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
         											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
-        												Dispenser Masuk
+        												Dispenser Keluar
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
@@ -973,6 +987,16 @@
         											</div>
         											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
         												Payment Reader
+        											</div>
+													
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-brand"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Scanner
         											</div>
 													
         										</div>
@@ -1008,6 +1032,10 @@
 													<div class="kt-widget6__item">
 														<span>Sisa Print Karcis</span>
 														<span>50</span>
+													</div>
+<div class="kt-widget6__item">
+														<span>&nbsp;</span>
+														<span>&nbsp;</span>
 													</div>
 <div class="kt-widget6__item">
 														<span>&nbsp;</span>
@@ -1391,7 +1419,7 @@
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
         											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
-        												Dispenser Masuk
+        												Dispenser Keluar
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
@@ -1411,6 +1439,16 @@
         											</div>
         											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
         												Payment Reader
+        											</div>
+													
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-brand"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Scanner
         											</div>
 													
         										</div>
@@ -1446,6 +1484,10 @@
 													<div class="kt-widget6__item">
 														<span>Sisa Print Karcis</span>
 														<span>50</span>
+													</div>
+<div class="kt-widget6__item">
+														<span>&nbsp;</span>
+														<span>&nbsp;</span>
 													</div>
 <div class="kt-widget6__item">
 														<span>&nbsp;</span>
@@ -1829,7 +1871,7 @@
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
         											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
-        												Dispenser Masuk
+        												Dispenser Keluar
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
@@ -1849,6 +1891,16 @@
         											</div>
         											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
         												Payment Reader
+        											</div>
+													
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-brand"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Scanner
         											</div>
 													
         										</div>
@@ -1884,6 +1936,10 @@
 													<div class="kt-widget6__item">
 														<span>Sisa Print Karcis</span>
 														<span>50</span>
+													</div>
+<div class="kt-widget6__item">
+														<span>&nbsp;</span>
+														<span>&nbsp;</span>
 													</div>
 <div class="kt-widget6__item">
 														<span>&nbsp;</span>
@@ -2272,7 +2328,7 @@
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
         											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
-        												Dispenser Masuk
+        												Dispenser Keluar
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
@@ -2292,6 +2348,16 @@
         											</div>
         											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
         												Payment Reader
+        											</div>
+													
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-brand"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Scanner
         											</div>
 													
         										</div>
@@ -2327,6 +2393,10 @@
 													<div class="kt-widget6__item">
 														<span>Sisa Print Karcis</span>
 														<span>50</span>
+													</div>
+<div class="kt-widget6__item">
+														<span>&nbsp;</span>
+														<span>&nbsp;</span>
 													</div>
 <div class="kt-widget6__item">
 														<span>&nbsp;</span>
@@ -2710,7 +2780,7 @@
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
         											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
-        												Dispenser Masuk
+        												Dispenser Keluar
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
@@ -2730,6 +2800,16 @@
         											</div>
         											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
         												Payment Reader
+        											</div>
+													
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-brand"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Scanner
         											</div>
 													
         										</div>
@@ -2765,6 +2845,10 @@
 													<div class="kt-widget6__item">
 														<span>Sisa Print Karcis</span>
 														<span>50</span>
+													</div>
+<div class="kt-widget6__item">
+														<span>&nbsp;</span>
+														<span>&nbsp;</span>
 													</div>
 <div class="kt-widget6__item">
 														<span>&nbsp;</span>
@@ -3148,7 +3232,7 @@
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
         											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
-        												Dispenser Masuk
+        												Dispenser Keluar
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
@@ -3168,6 +3252,16 @@
         											</div>
         											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
         												Payment Reader
+        											</div>
+													
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-brand"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Scanner
         											</div>
 													
         										</div>
@@ -3203,6 +3297,10 @@
 													<div class="kt-widget6__item">
 														<span>Sisa Print Karcis</span>
 														<span>50</span>
+													</div>
+<div class="kt-widget6__item">
+														<span>&nbsp;</span>
+														<span>&nbsp;</span>
 													</div>
 <div class="kt-widget6__item">
 														<span>&nbsp;</span>
@@ -3586,7 +3684,7 @@
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
         											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
-        												Dispenser Masuk
+        												Dispenser Keluar
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
@@ -3606,6 +3704,16 @@
         											</div>
         											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
         												Payment Reader
+        											</div>
+													
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-brand"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Scanner
         											</div>
 													
         										</div>
@@ -3641,6 +3749,10 @@
 													<div class="kt-widget6__item">
 														<span>Sisa Print Karcis</span>
 														<span>50</span>
+													</div>
+<div class="kt-widget6__item">
+														<span>&nbsp;</span>
+														<span>&nbsp;</span>
 													</div>
 <div class="kt-widget6__item">
 														<span>&nbsp;</span>
