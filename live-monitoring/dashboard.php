@@ -59,7 +59,7 @@
 														<div class="kt-widget17__item">
 															
 															<span class="kt-widget17__subtitle" style="text-align:center; font-size:12px;">
-																<span class="btn btn-label-brand btn-sm">MASUK</span><hr><span class="btn btn-label-brand btn-sm">MOBIL - 1</span>
+																<span class="btn btn-primary btn-sm">MASUK</span><hr><span class="btn btn-label-brand btn-sm">MOBIL - 1</span>
 															</span><hr>
 															<span class="kt-widget17__desc" style="text-align:center">
 																<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
@@ -68,7 +68,7 @@
 														<div class="kt-widget17__item">
 															
 															<span class="kt-widget17__subtitle" style="text-align:center; font-size:12px;">
-																<span class="btn btn-label-brand btn-sm">MASUK</span><hr><span class="btn btn-label-brand btn-sm">MOBIL - 2</span>
+																<span class="btn btn-primary btn-sm">MASUK</span><hr><span class="btn btn-label-brand btn-sm">MOBIL - 2</span>
 															</span><hr>
 															<span class="kt-widget17__desc" style="text-align:center">
 																<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
@@ -77,7 +77,7 @@
 														<div class="kt-widget17__item">
 															
 															<span class="kt-widget17__subtitle" style="text-align:center; font-size:12px;">
-																<span class="btn btn-label-brand btn-sm">MASUK</span><hr><span class="btn btn-label-brand btn-sm">MOTOR - 1</span>
+																<span class="btn btn-primary btn-sm">MASUK</span><hr><span class="btn btn-label-skype btn-sm">MOTOR - 1</span>
 															</span><hr>
 															<span class="kt-widget17__desc" style="text-align:center">
 																<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
@@ -86,7 +86,7 @@
 														<div class="kt-widget17__item">
 															
 															<span class="kt-widget17__subtitle" style="text-align:center; font-size:12px;">
-																<span class="btn btn-label-brand btn-sm">MASUK</span><hr><span class="btn btn-label-brand btn-sm">MOTOR - 2</span>
+																<span class="btn btn-primary btn-sm">MASUK</span><hr><span class="btn btn-label-skype btn-sm">MOTOR - 2</span>
 															</span><hr>
 															<span class="kt-widget17__desc" style="text-align:center">
 																<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
@@ -120,7 +120,7 @@
 															
 															<span class="kt-widget17__subtitle" style="text-align:center; font-size:12px;">
 																<span class="btn btn-label-warning btn-sm">KELUAR</span><hr>
-																<span class="btn btn-label-brand btn-sm">MOTOR - 1</span>
+																<span class="btn btn-label-skype btn-sm">MOTOR - 1</span>
 															</span><hr>
 															<span class="kt-widget17__desc" style="text-align:center">
 																<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
@@ -130,7 +130,7 @@
 															
 															<span class="kt-widget17__subtitle" style="text-align:center; font-size:12px;">
 																<span class="btn btn-label-warning btn-sm">KELUAR</span><hr>
-																<span class="btn btn-label-brand btn-sm">MOTOR - 2</span>
+																<span class="btn btn-label-skype btn-sm">MOTOR - 2</span>
 															</span><hr>
 															<span class="kt-widget17__desc" style="text-align:center">
 																<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
@@ -181,7 +181,7 @@
 														<div class="kt-widget17__item">
 															
 															<span class="kt-widget17__subtitle" style="text-align:center; font-size:12px;">
-																<span class="btn btn-label-brand btn-sm">MASUK</span><hr><span class="btn btn-label-brand btn-sm">MOBIL - 1</span>
+																<span class="btn btn-primary btn-sm">MASUK</span><hr><span class="btn btn-label-brand btn-sm">MOBIL - 1</span>
 															</span><hr>
 															<span class="kt-widget17__desc" style="text-align:center">
 																<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
@@ -190,7 +190,7 @@
 														<div class="kt-widget17__item">
 															
 															<span class="kt-widget17__subtitle" style="text-align:center; font-size:12px;">
-																<span class="btn btn-label-brand btn-sm">MASUK</span><hr><span class="btn btn-label-brand btn-sm">MOBIL - 2</span>
+																<span class="btn btn-primary btn-sm">MASUK</span><hr><span class="btn btn-label-brand btn-sm">MOBIL - 2</span>
 															</span><hr>
 															<span class="kt-widget17__desc" style="text-align:center">
 																<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
@@ -199,7 +199,7 @@
 														<div class="kt-widget17__item">
 															
 															<span class="kt-widget17__subtitle" style="text-align:center; font-size:12px;">
-																<span class="btn btn-label-brand btn-sm">MASUK</span><hr><span class="btn btn-label-brand btn-sm">MOTOR - 1</span>
+																<span class="btn btn-primary btn-sm">MASUK</span><hr><span class="btn btn-label-skype btn-sm">MOTOR - 1</span>
 															</span><hr>
 															<span class="kt-widget17__desc" style="text-align:center">
 																<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
@@ -208,7 +208,7 @@
 														<div class="kt-widget17__item">
 															
 															<span class="kt-widget17__subtitle" style="text-align:center; font-size:12px;">
-																<span class="btn btn-label-brand btn-sm">MASUK</span><hr><span class="btn btn-label-brand btn-sm">MOTOR - 2</span>
+																<span class="btn btn-primary btn-sm">MASUK</span><hr><span class="btn btn-label-skype btn-sm">MOTOR - 2</span>
 															</span><hr>
 															<span class="kt-widget17__desc" style="text-align:center">
 																<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
@@ -242,7 +242,7 @@
 															
 															<span class="kt-widget17__subtitle" style="text-align:center; font-size:12px;">
 																<span class="btn btn-label-warning btn-sm">KELUAR</span><hr>
-																<span class="btn btn-label-brand btn-sm">MOTOR - 1</span>
+																<span class="btn btn-label-skype btn-sm">MOTOR - 1</span>
 															</span><hr>
 															<span class="kt-widget17__desc" style="text-align:center">
 																<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
@@ -252,7 +252,7 @@
 															
 															<span class="kt-widget17__subtitle" style="text-align:center; font-size:12px;">
 																<span class="btn btn-label-warning btn-sm">KELUAR</span><hr>
-																<span class="btn btn-label-brand btn-sm">MOTOR - 2</span>
+																<span class="btn btn-label-skype btn-sm">MOTOR - 2</span>
 															</span><hr>
 															<span class="kt-widget17__desc" style="text-align:center">
 																<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
@@ -526,7 +526,7 @@
 						<?php require '../layouts/foot.php' ?>
 						<?php require './layouts/script.php' ?>
 						<script>
-$(document).ready(function(){
+$(document).READY(function(){
 $(".btn-collapse-onboarding").click(function(){
 	$(".show-large-tb").hide(1000);
 });
