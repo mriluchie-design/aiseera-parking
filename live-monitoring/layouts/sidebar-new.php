@@ -81,7 +81,6 @@
 										<ul class="kt-menu__subnav">
 											
 											<li class="kt-menu__item" aria-haspopup="true"><a href="monitoring-pendapatan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Rekap Pendapatan</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="monitoring-pendapatan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Rekap Pendapatan Keseluruhan</span></a></li>
 											
 											
 										</ul>
