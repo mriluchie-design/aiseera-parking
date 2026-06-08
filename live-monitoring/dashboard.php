@@ -334,20 +334,20 @@
 											<div class="kt-widget6">
 												<div class="kt-widget6__body">
 												<div class="kt-widget6__item">
-														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
 													</div>
 													
 													<div class="kt-widget6__item">
 														
-														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
 													</div>
 													<div class="kt-widget6__item">
 														
-														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
 													</div>
 													<div class="kt-widget6__item">
 														
-														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
 													</div>
 
 													
@@ -462,20 +462,20 @@
 											<div class="kt-widget6">
 												<div class="kt-widget6__body">
 												<div class="kt-widget6__item">
-														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
 													</div>
 													
 													<div class="kt-widget6__item">
 														
-														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
 													</div>
 													<div class="kt-widget6__item">
 														
-														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
 													</div>
 													<div class="kt-widget6__item">
 														
-														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
 													</div>
 
 													
@@ -590,20 +590,20 @@
 											<div class="kt-widget6">
 												<div class="kt-widget6__body">
 												<div class="kt-widget6__item">
-														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
 													</div>
 													
 													<div class="kt-widget6__item">
 														
-														<span class="btn btn-label-danger btn-sm" style="text-align:center;">Offline</span>
+														<button type="button" class="btn btn-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Offline</button>
 													</div>
 													<div class="kt-widget6__item">
 														
-														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
 													</div>
 													<div class="kt-widget6__item">
 														
-														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
 													</div>
 
 													
@@ -718,20 +718,20 @@
 											<div class="kt-widget6">
 												<div class="kt-widget6__body">
 												<div class="kt-widget6__item">
-														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
 													</div>
 													
 													<div class="kt-widget6__item">
 														
-														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
 													</div>
 													<div class="kt-widget6__item">
 														
-														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
 													</div>
 													<div class="kt-widget6__item">
 														
-														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
 													</div>
 
 													
