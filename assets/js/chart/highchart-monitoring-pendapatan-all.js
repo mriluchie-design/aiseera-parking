@@ -35,8 +35,8 @@ Highcharts.chart('container', {
         }
     },
     legend: {
-        align: 'right',
-        x: -70,
+        align: 'center',
+        x: 0,
         verticalAlign: 'top',
         y: 0,
         floating: true,
@@ -65,11 +65,11 @@ Highcharts.chart('container', {
     },
     
     series: [{
-        name: 'Non Tunai',
+        name: 'E-Money',
         data: [4061188514, 534526000, 1081313000, 1573132229, 418063922, 0, 1000000000, 294107122, 2000000000, 1000000000, 134425132, 600000000],
         
     }, {
-        name: 'Tunai',
+        name: 'QRIS',
         data: [2000000000, 200000000, 400000000, 300000000, 200000000, 0, 152962697, 100000000, 173512193, 265952000, 100000000, 26346150]
     }]
 });
