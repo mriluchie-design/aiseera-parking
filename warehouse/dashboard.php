@@ -29,7 +29,7 @@ License: You must have a valid license purchased only from themeforest(the above
 								<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Aiseera Parking </span>
+											Warehouse </span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
 										</form>
