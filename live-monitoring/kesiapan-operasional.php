@@ -328,10 +328,10 @@
 											  <th width="1%" rowspan="3" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 											<tr style="text-align:center">
-											  <th colspan="4" bgcolor="#f1d4ff" style="color:#8427af;">MOBIL</th>
-											  <th colspan="4" bgcolor="#c5eaea" style="color:#217c7c;">MOTOR</th>
-											  <th colspan="4" bgcolor="#f1d4ff" style="color:#8427af;">MOBIL</th>
-											  <th colspan="4" bgcolor="#c5eaea" style="color:#217c7c;">MOTOR</th>
+											  <th colspan="4" bgcolor="#5867dd" style="color:#fff;">MOBIL</th>
+											  <th colspan="4" bgcolor="#b400ff" style="color:#fff;">MOTOR</th>
+											  <th colspan="4" bgcolor="#5867dd" style="color:#fff;">MOBIL</th>
+											  <th colspan="4" bgcolor="#b400ff" style="color:#fff;">MOTOR</th>
 										  </tr>
 											<tr style="text-align:center">
 											  <th width="1%" >Jalur</th>
@@ -355,7 +355,7 @@
 										<tbody>
 											<tr>
 												<td rowspan="2" style="text-align:right">1</td>
-												<td rowspan="2" nowrap style="text-align:left"">Makassar</td>
+												<td rowspan="2" nowrap style="text-align:left">Makassar</td>
 												<td nowrap style="text-align:center"><span class="btn btn-linkedin btn-sm">1</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-outline-primary btn-sm">1</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Online</span></td>

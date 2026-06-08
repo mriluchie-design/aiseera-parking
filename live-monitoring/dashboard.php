@@ -313,7 +313,7 @@
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
         											<div class="kt-timeline-v2__item-text">
-        												<span class="btn btn-label-brand btn-sm">MOTOR - 1</span>
+        												<span class="btn btn-label-dark btn-sm">MOTOR - 1</span>
         											</div>
 													
         										</div>
@@ -323,7 +323,7 @@
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
                               <div class="kt-timeline-v2__item-text">
-        												<span class="btn btn-label-brand btn-sm">MOTOR - 2</span>
+        												<span class="btn btn-label-dark btn-sm">MOTOR - 2</span>
         											</div>
         										</div>
 
@@ -441,7 +441,7 @@
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
         											<div class="kt-timeline-v2__item-text">
-        												<span class="btn btn-label-brand btn-sm">MOTOR - 1</span>
+        												<span class="btn btn-label-dark btn-sm">MOTOR - 1</span>
         											</div>
 													
         										</div>
@@ -451,7 +451,7 @@
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
                               <div class="kt-timeline-v2__item-text">
-        												<span class="btn btn-label-brand btn-sm">MOTOR - 2</span>
+        												<span class="btn btn-label-dark btn-sm">MOTOR - 2</span>
         											</div>
         										</div>
 
@@ -569,7 +569,7 @@
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
         											<div class="kt-timeline-v2__item-text">
-        												<span class="btn btn-label-brand btn-sm">MOTOR - 1</span>
+        												<span class="btn btn-label-dark btn-sm">MOTOR - 1</span>
         											</div>
 													
         										</div>
@@ -579,7 +579,7 @@
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
                               <div class="kt-timeline-v2__item-text">
-        												<span class="btn btn-label-brand btn-sm">MOTOR - 2</span>
+        												<span class="btn btn-label-dark btn-sm">MOTOR - 2</span>
         											</div>
         										</div>
 
@@ -697,7 +697,7 @@
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
         											<div class="kt-timeline-v2__item-text">
-        												<span class="btn btn-label-brand btn-sm">MOTOR - 1</span>
+        												<span class="btn btn-label-dark btn-sm">MOTOR - 1</span>
         											</div>
 													
         										</div>
@@ -707,7 +707,7 @@
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
                               <div class="kt-timeline-v2__item-text">
-        												<span class="btn btn-label-brand btn-sm">MOTOR - 2</span>
+        												<span class="btn btn-label-dark btn-sm">MOTOR - 2</span>
         											</div>
         										</div>
 
