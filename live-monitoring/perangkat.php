@@ -463,7 +463,7 @@
 										</div>
 									</div>
 									<div class="kt-widget__section">
-										<a href="see-cctv.php" class="btn btn-label-brand btn-sm"><i class="fa flaticon-eye"></i>LIHAT CCTV</a>
+										<a href="see-cctv.php" class="btn btn-brand btn-sm"><i class="fa flaticon-eye"></i>LIHAT CCTV</a>
 									</div>
 								</div>
 							</div>

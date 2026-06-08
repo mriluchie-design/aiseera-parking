@@ -371,7 +371,7 @@
 										</div>
 									</div>
 									<div class="kt-widget__section">
-										<a href="see-cctv.php" class="btn btn-label-brand btn-sm"><i class="fa fa-eye"></i>LIHAT CCTV</a>
+										<a href="see-cctv.php" class="btn btn-brand btn-sm"><i class="fa fa-eye"></i>LIHAT CCTV</a>
 									</div>
 								</div>
 							</div>
@@ -499,7 +499,7 @@
 										</div>
 									</div>
 									<div class="kt-widget__section">
-										<a href="see-cctv.php" class="btn btn-label-brand btn-sm"><i class="fa fa-eye"></i>LIHAT CCTV</a>
+										<a href="see-cctv.php" class="btn btn-brand btn-sm"><i class="fa fa-eye"></i>LIHAT CCTV</a>
 									</div>
 								</div>
 							</div>
@@ -556,10 +556,10 @@
         										<div class="kt-timeline-v2__item">
         											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MASUK</span></span>
         											<div class="kt-timeline-v2__item-cricle">
-        												<i class="fa fa-genderless kt-font-success"></i>
+        												<i class="fa fa-genderless kt-font-danger"></i>
         											</div>
         											<div class="kt-timeline-v2__item-text">
-        												<span class="btn btn-label-brand btn-sm">MOBIL - 2</span>
+        												<span class="btn btn-label-danger btn-sm">MOBIL - 2</span>
         											</div>
 													
         										</div>
@@ -595,7 +595,7 @@
 													
 													<div class="kt-widget6__item">
 														
-														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+														<span class="btn btn-label-danger btn-sm" style="text-align:center;">Offline</span>
 													</div>
 													<div class="kt-widget6__item">
 														
@@ -627,7 +627,7 @@
 										</div>
 									</div>
 									<div class="kt-widget__section">
-										<a href="see-cctv.php" class="btn btn-label-brand btn-sm"><i class="fa fa-eye"></i>LIHAT CCTV</a>
+										<a href="see-cctv.php" class="btn btn-brand btn-sm"><i class="fa fa-eye"></i>LIHAT CCTV</a>
 									</div>
 								</div>
 							</div>
@@ -755,7 +755,7 @@
 										</div>
 									</div>
 									<div class="kt-widget__section">
-										<a href="see-cctv.php" class="btn btn-label-brand btn-sm"><i class="fa fa-eye"></i>LIHAT CCTV</a>
+										<a href="see-cctv.php" class="btn btn-brand btn-sm"><i class="fa fa-eye"></i>LIHAT CCTV</a>
 									</div>
 								</div>
 							</div>

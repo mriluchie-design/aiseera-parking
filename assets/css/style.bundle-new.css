@@ -30527,8 +30527,8 @@ font-weight:400;
     .kt-badge.kt-badge--outline.kt-badge--dark.kt-badge--outline-2x {
       border: 2px solid #282a3c; }
   .kt-badge.kt-badge--primary {
-    color: #4c4c4c;
-    background: rgba(229, 216, 99, 0.7); }
+    color: #fff;
+    background: #1788af; }
   .kt-badge.kt-badge--outline.kt-badge--primary {
     background: transparent;
     color: #5867dd;
@@ -30537,7 +30537,7 @@ font-weight:400;
       border: 2px solid #5867dd; }
   .kt-badge.kt-badge--success {
     color: #36661f;
-    background: rgba(204, 242, 184, 0.9); }
+    background: rgba(210, 237, 158, 0.9); }
   .kt-badge.kt-badge--outline.kt-badge--success {
     background: transparent;
     color: #0abb87;
@@ -31475,7 +31475,7 @@ font-weight:400;
   padding: 1.07rem 0;
   border-bottom: 1px dashed #ebedf2; }
   .kt-widget6 .kt-widget6__body .kt-widget6__item > span {
-    color: #595d6e;
+    
     font-weight: 400;
     -webkit-box-flex: 1;
     -ms-flex: 1;
