@@ -268,8 +268,8 @@
 										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
 										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">GATE - 1</span>
 										<a href="#" class="kt-widget__title">
-											<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MASUK</span>
-<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MOBIL - 1</span>
+											<span class="btn btn-primary btn-sm">MASUK</span>
+<span class="btn btn-primary btn-sm">MOBIL - 1</span>
 										</a>
 <a href="#" class="kt-widget__title">
 											<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
@@ -487,8 +487,8 @@
 										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
 										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">GATE - 1</span>
 										<a href="#" class="kt-widget__title">
-											<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">KELUAR</span>
-<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MOBIL - 1</span>
+											<span class="btn btn-youtube btn-sm">KELUAR</span>
+<span class="btn btn-youtube btn-sm">MOBIL - 1</span>
 										</a>
 <a href="#" class="kt-widget__title">
 											<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
@@ -939,8 +939,8 @@
 										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
 										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">GATE - 1</span>
 										<a href="#" class="kt-widget__title">
-											<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">KELUAR</span>
-<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MOBIL - 2</span>
+											<span class="btn btn-youtube btn-sm">KELUAR</span>
+<span class="btn btn-youtube btn-sm">MOBIL - 2</span>
 										</a>
 <a href="#" class="kt-widget__title">
 											<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
@@ -1391,8 +1391,8 @@
 										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
 										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">GATE - 1</span>
 										<a href="#" class="kt-widget__title">
-											<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">KELUAR</span>
-<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MOTOR - 1</span>
+											<span class="btn btn-youtube btn-sm">KELUAR</span>
+<span class="btn btn-youtube btn-sm">MOTOR - 1</span>
 										</a>
 <a href="#" class="kt-widget__title">
 											<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
@@ -1843,8 +1843,8 @@
 										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
 										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">GATE - 1</span>
 										<a href="#" class="kt-widget__title">
-											<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">KELUAR</span>
-<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MOTOR - 2</span>
+											<span class="btn btn-youtube btn-sm">KELUAR</span>
+<span class="btn btn-youtube btn-sm">MOTOR - 2</span>
 										</a>
 <a href="#" class="kt-widget__title">
 											<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
@@ -2079,7 +2079,7 @@
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
 										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
-										<span class="kt-badge kt-badge--brand kt-badge--md kt-badge--inline">GATE - 2</span>
+										<span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">GATE - 2</span>
 										<a href="#" class="kt-widget__title">
 											<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MASUK</span>
 <span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MOBIL - 1</span>
@@ -2298,10 +2298,10 @@
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
 										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
-										<span class="kt-badge kt-badge--brand kt-badge--md kt-badge--inline">GATE - 2</span>
+										<span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">GATE - 2</span>
 										<a href="#" class="kt-widget__title">
-											<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">KELUAR</span>
-<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MOBIL - 1</span>
+											<span class="btn btn-youtube btn-sm">KELUAR</span>
+<span class="btn btn-youtube btn-sm">MOBIL - 1</span>
 										</a>
 <a href="#" class="kt-widget__title">
 											<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
@@ -2531,7 +2531,7 @@
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
 										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
-										<span class="kt-badge kt-badge--brand kt-badge--md kt-badge--inline">GATE - 2</span>
+										<span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">GATE - 2</span>
 										<a href="#" class="kt-widget__title">
 											<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MASUK</span>
 <span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MOBIL - 2</span>
@@ -2750,10 +2750,10 @@
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
 										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
-										<span class="kt-badge kt-badge--brand kt-badge--md kt-badge--inline">GATE - 2</span>
+										<span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">GATE - 2</span>
 										<a href="#" class="kt-widget__title">
-											<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">KELUAR</span>
-<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MOBIL - 2</span>
+											<span class="btn btn-youtube btn-sm">KELUAR</span>
+<span class="btn btn-youtube btn-sm">MOBIL - 2</span>
 										</a>
 <a href="#" class="kt-widget__title">
 											<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
@@ -2983,7 +2983,7 @@
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
 										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
-										<span class="kt-badge kt-badge--brand kt-badge--md kt-badge--inline">GATE - 2</span>
+										<span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">GATE - 2</span>
 										<a href="#" class="kt-widget__title">
 											<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MASUK</span>
 <span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MOTOR - 1</span>
@@ -3202,10 +3202,10 @@
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
 										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
-										<span class="kt-badge kt-badge--brand kt-badge--md kt-badge--inline">GATE - 2</span>
+										<span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">GATE - 2</span>
 										<a href="#" class="kt-widget__title">
-											<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">KELUAR</span>
-<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MOTOR - 1</span>
+											<span class="btn btn-youtube btn-sm">KELUAR</span>
+<span class="btn btn-youtube btn-sm">MOTOR - 1</span>
 										</a>
 <a href="#" class="kt-widget__title">
 											<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
@@ -3435,7 +3435,7 @@
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
 										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
-										<span class="kt-badge kt-badge--brand kt-badge--md kt-badge--inline">GATE - 2</span>
+										<span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">GATE - 2</span>
 										<a href="#" class="kt-widget__title">
 											<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MASUK</span>
 <span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MOTOR - 2</span>
@@ -3654,10 +3654,10 @@
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
 										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
-										<span class="kt-badge kt-badge--brand kt-badge--md kt-badge--inline">GATE - 2</span>
+										<span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">GATE - 2</span>
 										<a href="#" class="kt-widget__title">
-											<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">KELUAR</span>
-<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MOTOR - 2</span>
+											<span class="btn btn-youtube btn-sm">KELUAR</span>
+<span class="btn btn-youtube btn-sm">MOTOR - 2</span>
 										</a>
 <a href="#" class="kt-widget__title">
 											<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
