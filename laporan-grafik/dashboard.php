@@ -69,7 +69,7 @@ License: You must have a valid license purchased only from themeforest(the above
 												Absen Masuk
 											</div>
 											<div class="col-lg-6" >
-												<span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline" style="font-size:.9rem; color:#fff; text-transform:italic;">08:00:00 WITA</span>
+												<span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline" style="font-size:.9rem; color:#36661f; text-transform:italic;">08:00:00 WITA</span>
 											</div>
 										</div>
 										<div><br></div>

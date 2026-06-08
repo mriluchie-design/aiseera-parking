@@ -35,248 +35,6 @@
 								
 								
 								
-								<div class="col-xl-6">
-
-									<!--begin:: Widgets/Activity-->
-									<div class="kt-portlet kt-portlet--fit kt-portlet--head-lg kt-portlet--head-overlay kt-portlet--skin-solid kt-portlet--height-fluid">
-										<div class="kt-portlet__head kt-portlet__head--noborder kt-portlet__space-x">
-											<div class="kt-portlet__head-label">
-												<h3 class="kt-portlet__head-title">
-													Gate 1
-												</h3>
-											</div>
-											
-										</div>
-										<div class="kt-portlet__body kt-portlet__body--fit">
-											<div class="kt-widget17">
-												<div class="kt-widget17__visual kt-widget17__visual--chart kt-portlet-fit--top kt-portlet-fit--sides" style="background-color: #0961ae">
-													<div class="kt-widget17__chart" style="height:120px;">
-														<canvas id="kt_chart_activities"></canvas>
-													</div>
-												</div>
-												<div class="kt-widget17__stats">
-													<div class="kt-widget17__items">
-														<div class="kt-widget17__item">
-															
-															<span class="kt-widget17__subtitle" style="text-align:center; font-size:12px;">
-																<span class="btn btn-primary btn-sm">MASUK</span><hr><span class="btn btn-label-brand btn-sm">MOBIL - 1</span>
-															</span><hr>
-															<span class="kt-widget17__desc" style="text-align:center">
-																<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
-															</span>
-														</div>
-														<div class="kt-widget17__item">
-															
-															<span class="kt-widget17__subtitle" style="text-align:center; font-size:12px;">
-																<span class="btn btn-primary btn-sm">MASUK</span><hr><span class="btn btn-label-brand btn-sm">MOBIL - 2</span>
-															</span><hr>
-															<span class="kt-widget17__desc" style="text-align:center">
-																<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
-															</span>
-														</div>
-														<div class="kt-widget17__item">
-															
-															<span class="kt-widget17__subtitle" style="text-align:center; font-size:12px;">
-																<span class="btn btn-primary btn-sm">MASUK</span><hr><span class="btn btn-label-skype btn-sm">MOTOR - 1</span>
-															</span><hr>
-															<span class="kt-widget17__desc" style="text-align:center">
-																<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
-															</span>
-														</div>
-														<div class="kt-widget17__item">
-															
-															<span class="kt-widget17__subtitle" style="text-align:center; font-size:12px;">
-																<span class="btn btn-primary btn-sm">MASUK</span><hr><span class="btn btn-label-skype btn-sm">MOTOR - 2</span>
-															</span><hr>
-															<span class="kt-widget17__desc" style="text-align:center">
-																<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
-															</span>
-														</div>
-
-
-														</div>
-														<div class="kt-widget17__items">
-														<div class="kt-widget17__item">
-															
-															<span class="kt-widget17__subtitle" style="text-align:center; font-size:12px;">
-																<span class="btn btn-label-warning btn-sm">KELUAR</span><hr>
-																<span class="btn btn-label-brand btn-sm">MOBIL - 1</span>
-															</span><hr>
-															<span class="kt-widget17__desc" style="text-align:center">
-																<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
-															</span>
-														</div>
-														<div class="kt-widget17__item">
-															
-															<span class="kt-widget17__subtitle" style="text-align:center; font-size:12px;">
-																<span class="btn btn-label-warning btn-sm">KELUAR</span><hr>
-																<span class="btn btn-label-brand btn-sm">MOBIL - 2</span>
-															</span><hr>
-															<span class="kt-widget17__desc" style="text-align:center">
-																<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
-															</span>
-														</div>
-														<div class="kt-widget17__item">
-															
-															<span class="kt-widget17__subtitle" style="text-align:center; font-size:12px;">
-																<span class="btn btn-label-warning btn-sm">KELUAR</span><hr>
-																<span class="btn btn-label-skype btn-sm">MOTOR - 1</span>
-															</span><hr>
-															<span class="kt-widget17__desc" style="text-align:center">
-																<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
-															</span>
-														</div>
-														<div class="kt-widget17__item">
-															
-															<span class="kt-widget17__subtitle" style="text-align:center; font-size:12px;">
-																<span class="btn btn-label-warning btn-sm">KELUAR</span><hr>
-																<span class="btn btn-label-skype btn-sm">MOTOR - 2</span>
-															</span><hr>
-															<span class="kt-widget17__desc" style="text-align:center">
-																<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
-															</span>
-														</div>
-
-													
-													
-													
-									</div>
-									</div>
-
-									<!--end:: Widgets/Activity-->
-								</div>
-								</div>
-								</div>
-								</div>
-
-							<!--End::Section-->
-
-							
-
-								
-								
-								
-								
-								<div class="col-xl-6">
-
-									<!--begin:: Widgets/Activity-->
-									<div class="kt-portlet kt-portlet--fit kt-portlet--head-lg kt-portlet--head-overlay kt-portlet--skin-solid kt-portlet--height-fluid">
-										<div class="kt-portlet__head kt-portlet__head--noborder kt-portlet__space-x">
-											<div class="kt-portlet__head-label">
-												<h3 class="kt-portlet__head-title">
-													Gate 2
-												</h3>
-											</div>
-											
-										</div>
-										<div class="kt-portlet__body kt-portlet__body--fit">
-											<div class="kt-widget17">
-												<div class="kt-widget17__visual kt-widget17__visual--chart kt-portlet-fit--top kt-portlet-fit--sides" style="background-color: #0961ae">
-													<div class="kt-widget17__chart" style="height:120px;">
-														<canvas id="kt_chart_activities"></canvas>
-													</div>
-												</div>
-												<div class="kt-widget17__stats">
-													<div class="kt-widget17__items">
-														<div class="kt-widget17__item">
-															
-															<span class="kt-widget17__subtitle" style="text-align:center; font-size:12px;">
-																<span class="btn btn-primary btn-sm">MASUK</span><hr><span class="btn btn-label-brand btn-sm">MOBIL - 1</span>
-															</span><hr>
-															<span class="kt-widget17__desc" style="text-align:center">
-																<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
-															</span>
-														</div>
-														<div class="kt-widget17__item">
-															
-															<span class="kt-widget17__subtitle" style="text-align:center; font-size:12px;">
-																<span class="btn btn-primary btn-sm">MASUK</span><hr><span class="btn btn-label-brand btn-sm">MOBIL - 2</span>
-															</span><hr>
-															<span class="kt-widget17__desc" style="text-align:center">
-																<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
-															</span>
-														</div>
-														<div class="kt-widget17__item">
-															
-															<span class="kt-widget17__subtitle" style="text-align:center; font-size:12px;">
-																<span class="btn btn-primary btn-sm">MASUK</span><hr><span class="btn btn-label-skype btn-sm">MOTOR - 1</span>
-															</span><hr>
-															<span class="kt-widget17__desc" style="text-align:center">
-																<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
-															</span>
-														</div>
-														<div class="kt-widget17__item">
-															
-															<span class="kt-widget17__subtitle" style="text-align:center; font-size:12px;">
-																<span class="btn btn-primary btn-sm">MASUK</span><hr><span class="btn btn-label-skype btn-sm">MOTOR - 2</span>
-															</span><hr>
-															<span class="kt-widget17__desc" style="text-align:center">
-																<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
-															</span>
-														</div>
-
-
-														</div>
-														<div class="kt-widget17__items">
-														<div class="kt-widget17__item">
-															
-															<span class="kt-widget17__subtitle" style="text-align:center; font-size:12px;">
-																<span class="btn btn-label-warning btn-sm">KELUAR</span><hr>
-																<span class="btn btn-label-brand btn-sm">MOBIL - 1</span>
-															</span><hr>
-															<span class="kt-widget17__desc" style="text-align:center">
-																<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
-															</span>
-														</div>
-														<div class="kt-widget17__item">
-															
-															<span class="kt-widget17__subtitle" style="text-align:center; font-size:12px;">
-																<span class="btn btn-label-warning btn-sm">KELUAR</span><hr>
-																<span class="btn btn-label-brand btn-sm">MOBIL - 2</span>
-															</span><hr>
-															<span class="kt-widget17__desc" style="text-align:center">
-																<span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">OFFLINE</span>
-															</span>
-														</div>
-														<div class="kt-widget17__item">
-															
-															<span class="kt-widget17__subtitle" style="text-align:center; font-size:12px;">
-																<span class="btn btn-label-warning btn-sm">KELUAR</span><hr>
-																<span class="btn btn-label-skype btn-sm">MOTOR - 1</span>
-															</span><hr>
-															<span class="kt-widget17__desc" style="text-align:center">
-																<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
-															</span>
-														</div>
-														<div class="kt-widget17__item">
-															
-															<span class="kt-widget17__subtitle" style="text-align:center; font-size:12px;">
-																<span class="btn btn-label-warning btn-sm">KELUAR</span><hr>
-																<span class="btn btn-label-skype btn-sm">MOTOR - 2</span>
-															</span><hr>
-															<span class="kt-widget17__desc" style="text-align:center">
-																<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
-															</span>
-														</div>
-
-													
-													
-													
-									</div>
-									</div>
-
-									<!--end:: Widgets/Activity-->
-								</div>
-								</div>
-								</div>
-								</div>
-								</div>
-			<div class="row">
-								
-								
-								
-								
-								
 								<div class="col-xl-12">
 
 									<!--begin:: Widgets/Activity-->
@@ -489,6 +247,526 @@
 
 						
 						</div>
+			<div class="row">
+								
+								
+								
+								
+								<div class="col-xl-3">
+				<!--begin:: Portlet-->
+				<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--success">
+                        <!--begin::status -->
+						
+                        <!--end::status -->
+
+						<!--begin::Widget -->
+						<div class="kt-widget kt-widget--project-1">
+							<div class="kt-widget__head d-flex">
+								<div class="kt-widget__label">
+									<div class="kt-widget__info kt-padding-0 kt-margin-l">
+										
+										<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MAKASSAR</span>
+										<hr>
+										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">GATE - 1</span>
+										
+<a href="#" class="kt-widget__title">
+											<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
+										</a>
+									</div>
+								</div>
+								<div class="kt-widget__toolbar">
+                                    <div class="kt-widget6__item">
+														
+														<span><img src="../assets/img/users/300_5.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="082244444436<hr>Muhammad Nasrullah, S,Kom" data-html="true"></span>
+													</div>
+									
+								</div>
+							</div>
+							<div class="kt-widget__body" style="padding-bottom:-10px !important">
+                               
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="kt-timeline-v2">
+        									<div class="kt-timeline-v2__items">
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MASUK</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text">
+        												<span class="btn btn-label-brand btn-sm">MOBIL - 1</span>
+        											</div>
+        										</div>
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MASUK</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text">
+        												<span class="btn btn-label-brand btn-sm">MOBIL - 2</span>
+        											</div>
+													
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MASUK</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text">
+        												<span class="btn btn-label-brand btn-sm">MOTOR - 1</span>
+        											</div>
+													
+        										</div>
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MASUK</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+                              <div class="kt-timeline-v2__item-text">
+        												<span class="btn btn-label-brand btn-sm">MOTOR - 2</span>
+        											</div>
+        										</div>
+
+        									</div>
+        								</div>
+                      </div>
+					  <div class="col-md-4" style="border-left:1px solid #eee">
+											<div class="kt-widget6">
+												<div class="kt-widget6__body">
+												<div class="kt-widget6__item">
+														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+													</div>
+													
+													<div class="kt-widget6__item">
+														
+														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+													</div>
+													<div class="kt-widget6__item">
+														
+														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+													</div>
+													<div class="kt-widget6__item">
+														
+														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+													</div>
+
+													
+													
+													
+												</div>
+											</div>
+                                    </div>
+					  
+					  
+                    
+                                </div>
+
+							</div><br>
+							<div class="kt-widget__footer">
+								<div class="kt-widget__wrapper" style="padding:10px 20px">
+									<div class="kt-widget__section">
+										<div class="kt-widget__blog">
+											<i class="fa fa-clock"></i>
+											<a href="#" class="kt-widget__value kt-font-brand">10 September 2026 <hr> 20:07:00 WITA</a>
+										</div>
+									</div>
+									<div class="kt-widget__section">
+										<a href="see-cctv.php" class="btn btn-label-brand btn-sm"><i class="fa fa-eye"></i>LIHAT CCTV</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--end::Widget -->
+					</div>
+				<!--end:: Portlet-->
+			</div>
+			<div class="col-xl-3">
+				<!--begin:: Portlet-->
+				<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--success">
+                        <!--begin::status -->
+						
+                        <!--end::status -->
+
+						<!--begin::Widget -->
+						<div class="kt-widget kt-widget--project-1">
+							<div class="kt-widget__head d-flex">
+								<div class="kt-widget__label">
+									<div class="kt-widget__info kt-padding-0 kt-margin-l">
+										
+										<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MAKASSAR</span>
+										<hr>
+										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">GATE - 1</span>
+										
+<a href="#" class="kt-widget__title">
+											<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
+										</a>
+									</div>
+								</div>
+								<div class="kt-widget__toolbar">
+                                    <div class="kt-widget6__item">
+														
+														<span><img src="../assets/img/users/300_5.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="082244444436<hr>Muhammad Nasrullah, S,Kom" data-html="true"></span>
+													</div>
+									
+								</div>
+							</div>
+							<div class="kt-widget__body" style="padding-bottom:-10px !important">
+                               
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="kt-timeline-v2">
+        									<div class="kt-timeline-v2__items">
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">KELUAR</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text">
+        												<span class="btn btn-label-brand btn-sm">MOBIL - 1</span>
+        											</div>
+        										</div>
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">KELUAR</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text">
+        												<span class="btn btn-label-brand btn-sm">MOBIL - 2</span>
+        											</div>
+													
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">KELUAR</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text">
+        												<span class="btn btn-label-brand btn-sm">MOTOR - 1</span>
+        											</div>
+													
+        										</div>
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">KELUAR</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+                              <div class="kt-timeline-v2__item-text">
+        												<span class="btn btn-label-brand btn-sm">MOTOR - 2</span>
+        											</div>
+        										</div>
+
+        									</div>
+        								</div>
+                      </div>
+					  <div class="col-md-4" style="border-left:1px solid #eee">
+											<div class="kt-widget6">
+												<div class="kt-widget6__body">
+												<div class="kt-widget6__item">
+														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+													</div>
+													
+													<div class="kt-widget6__item">
+														
+														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+													</div>
+													<div class="kt-widget6__item">
+														
+														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+													</div>
+													<div class="kt-widget6__item">
+														
+														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+													</div>
+
+													
+													
+													
+												</div>
+											</div>
+                                    </div>
+					  
+					  
+                    
+                                </div>
+
+							</div><br>
+							<div class="kt-widget__footer">
+								<div class="kt-widget__wrapper" style="padding:10px 20px">
+									<div class="kt-widget__section">
+										<div class="kt-widget__blog">
+											<i class="fa fa-clock"></i>
+											<a href="#" class="kt-widget__value kt-font-brand">10 September 2026 <hr> 20:07:00 WITA</a>
+										</div>
+									</div>
+									<div class="kt-widget__section">
+										<a href="see-cctv.php" class="btn btn-label-brand btn-sm"><i class="fa fa-eye"></i>LIHAT CCTV</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--end::Widget -->
+					</div>
+				<!--end:: Portlet-->
+			</div>
+			<div class="col-xl-3">
+				<!--begin:: Portlet-->
+				<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--success">
+                        <!--begin::status -->
+						
+                        <!--end::status -->
+
+						<!--begin::Widget -->
+						<div class="kt-widget kt-widget--project-1">
+							<div class="kt-widget__head d-flex">
+								<div class="kt-widget__label">
+									<div class="kt-widget__info kt-padding-0 kt-margin-l">
+										
+										<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MAKASSAR</span>
+										<hr>
+										<span class="kt-badge kt-badge--brand kt-badge--md kt-badge--inline">GATE - 2</span>
+										
+<a href="#" class="kt-widget__title">
+											<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
+										</a>
+									</div>
+								</div>
+								<div class="kt-widget__toolbar">
+                                    <div class="kt-widget6__item">
+														
+														<span><img src="../assets/img/users/300_8.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="082244444436<hr>Muhammad Nasrullah, S,Kom" data-html="true"></span>
+													</div>
+									
+								</div>
+							</div>
+							<div class="kt-widget__body" style="padding-bottom:-10px !important">
+                               
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="kt-timeline-v2">
+        									<div class="kt-timeline-v2__items">
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MASUK</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text">
+        												<span class="btn btn-label-brand btn-sm">MOBIL - 1</span>
+        											</div>
+        										</div>
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MASUK</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text">
+        												<span class="btn btn-label-brand btn-sm">MOBIL - 2</span>
+        											</div>
+													
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MASUK</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text">
+        												<span class="btn btn-label-brand btn-sm">MOTOR - 1</span>
+        											</div>
+													
+        										</div>
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MASUK</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+                              <div class="kt-timeline-v2__item-text">
+        												<span class="btn btn-label-brand btn-sm">MOTOR - 2</span>
+        											</div>
+        										</div>
+
+        									</div>
+        								</div>
+                      </div>
+					  <div class="col-md-4" style="border-left:1px solid #eee">
+											<div class="kt-widget6">
+												<div class="kt-widget6__body">
+												<div class="kt-widget6__item">
+														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+													</div>
+													
+													<div class="kt-widget6__item">
+														
+														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+													</div>
+													<div class="kt-widget6__item">
+														
+														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+													</div>
+													<div class="kt-widget6__item">
+														
+														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+													</div>
+
+													
+													
+													
+												</div>
+											</div>
+                                    </div>
+					  
+					  
+                    
+                                </div>
+
+							</div><br>
+							<div class="kt-widget__footer">
+								<div class="kt-widget__wrapper" style="padding:10px 20px">
+									<div class="kt-widget__section">
+										<div class="kt-widget__blog">
+											<i class="fa fa-clock"></i>
+											<a href="#" class="kt-widget__value kt-font-brand">10 September 2026 <hr> 20:07 WITA</a>
+										</div>
+									</div>
+									<div class="kt-widget__section">
+										<a href="see-cctv.php" class="btn btn-label-brand btn-sm"><i class="fa fa-eye"></i>LIHAT CCTV</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--end::Widget -->
+					</div>
+				<!--end:: Portlet-->
+			</div>
+			<div class="col-xl-3">
+				<!--begin:: Portlet-->
+				<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--success">
+                        <!--begin::status -->
+						
+                        <!--end::status -->
+
+						<!--begin::Widget -->
+						<div class="kt-widget kt-widget--project-1">
+							<div class="kt-widget__head d-flex">
+								<div class="kt-widget__label">
+									<div class="kt-widget__info kt-padding-0 kt-margin-l">
+										
+										<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MAKASSAR</span>
+										<hr>
+										<span class="kt-badge kt-badge--brand kt-badge--md kt-badge--inline">GATE - 2</span>
+										
+<a href="#" class="kt-widget__title">
+											<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
+										</a>
+									</div>
+								</div>
+								<div class="kt-widget__toolbar">
+                                    <div class="kt-widget6__item">
+														
+														<span><img src="../assets/img/users/300_8.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="082244444436<hr>Muhammad Nasrullah, S,Kom" data-html="true"></span>
+													</div>
+									
+								</div>
+							</div>
+							<div class="kt-widget__body" style="padding-bottom:-10px !important">
+                               
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="kt-timeline-v2">
+        									<div class="kt-timeline-v2__items">
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">KELUAR</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text">
+        												<span class="btn btn-label-brand btn-sm">MOBIL - 1</span>
+        											</div>
+        										</div>
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">KELUAR</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text">
+        												<span class="btn btn-label-brand btn-sm">MOBIL - 2</span>
+        											</div>
+													
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">KELUAR</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text">
+        												<span class="btn btn-label-brand btn-sm">MOTOR - 1</span>
+        											</div>
+													
+        										</div>
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">KELUAR</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+                              <div class="kt-timeline-v2__item-text">
+        												<span class="btn btn-label-brand btn-sm">MOTOR - 2</span>
+        											</div>
+        										</div>
+
+        									</div>
+        								</div>
+                      </div>
+					  <div class="col-md-4" style="border-left:1px solid #eee">
+											<div class="kt-widget6">
+												<div class="kt-widget6__body">
+												<div class="kt-widget6__item">
+														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+													</div>
+													
+													<div class="kt-widget6__item">
+														
+														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+													</div>
+													<div class="kt-widget6__item">
+														
+														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+													</div>
+													<div class="kt-widget6__item">
+														
+														<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+													</div>
+
+													
+													
+													
+												</div>
+											</div>
+                                    </div>
+					  
+					  
+                    
+                                </div>
+
+							</div><br>
+							<div class="kt-widget__footer">
+								<div class="kt-widget__wrapper" style="padding:10px 20px">
+									<div class="kt-widget__section">
+										<div class="kt-widget__blog">
+											<i class="fa fa-clock"></i>
+											<a href="#" class="kt-widget__value kt-font-brand">10 September 2026 <hr> 20:07:00 WITA</a>
+										</div>
+									</div>
+									<div class="kt-widget__section">
+										<a href="see-cctv.php" class="btn btn-label-brand btn-sm"><i class="fa fa-eye"></i>LIHAT CCTV</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--end::Widget -->
+					</div>
+				<!--end:: Portlet-->
+			</div>
+							
+								</div>
+			
 							
 								
 						
