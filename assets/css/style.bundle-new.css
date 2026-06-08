@@ -2785,7 +2785,7 @@ fieldset:disabled a.btn {
   border-radius: 0.3rem; }
 
 .btn-sm, .btn-group-sm > .btn {
-   padding: 0.285rem 1rem;
+   padding: 0.2rem 1rem;
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.2rem; }
@@ -9407,7 +9407,7 @@ button.btn {
 .btn-twitter {
   color: #1B465B;
   background-color: rgba(172, 225, 252, 0.5);
-  border-color: #ACE1FC;
+  border-color: none;
   color: #1B465B; }
   .btn-twitter:hover {
     color: #fff;
