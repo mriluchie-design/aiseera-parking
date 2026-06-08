@@ -470,7 +470,7 @@
 												  </div></td>
 										  </tr>
 <tr>
-  <td nowrap style="text-align:center"><span class="btn btn-warning btn-sm">3</td>
+  <td nowrap style="text-align:center"><span class="btn btn-instagram btn-sm">3</td>
   <td nowrap="nowrap" style="text-align:center">-</td>
   <td nowrap="nowrap" style="text-align:center">-</td>
   <td nowrap="nowrap" style="text-align:center">-</td>
@@ -723,7 +723,7 @@
   </div></td>
   </tr>
 <tr>
-  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-warning btn-sm">3</td>
+  <td nowrap style="text-align:center"><span class="btn btn-instagram btn-sm">3</td>
   <td nowrap="nowrap" style="text-align:center"><span class="btn btn-outline-primary btn-sm">1</span></td>
   <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Online</span></td>
   <td nowrap="nowrap" style="text-align:center">-</td>
@@ -804,7 +804,7 @@
   </div></td>
   </tr>
 <tr>
-  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-warning btn-sm">3</td>
+  <td nowrap style="text-align:center"><span class="btn btn-instagram btn-sm">3</td>
   <td nowrap="nowrap" style="text-align:center">-</td>
   <td nowrap="nowrap" style="text-align:center">-</td>
   <td nowrap="nowrap" style="text-align:center">-</td>

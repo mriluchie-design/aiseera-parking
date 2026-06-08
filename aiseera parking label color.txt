@@ -40,4 +40,4 @@ CAMERA - MOTOR IN
 
 gate 1 = kt-badge kt-badge--dark kt-badge--md kt-badge--inline
 keluar = btn btn-youtube btn-sm
-gate 2 = kt-badge.kt-badge--unified-success
+gate 2 = kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline

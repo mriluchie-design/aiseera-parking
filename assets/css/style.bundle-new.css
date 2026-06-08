@@ -9444,14 +9444,14 @@ button.btn {
       display: none; }
 
 .btn-instagram {
-  color: #fff;
-  background-color: #517fa4;
-  border-color: #517fa4;
-  color: #ffffff; }
+
+  background-color: #64dfdf;
+  border-color: #64dfdf;
+  color: #1c476b; }
   .btn-instagram:hover {
-    color: #fff;
-    background-color: #446b8a;
-    border-color: #406582; }
+    color: #1c476b;
+    background-color: #64dfdf;
+    border-color: #64dfdf; }
   .btn-instagram:focus, .btn-instagram.focus {
     -webkit-box-shadow: 0 0 0 0.2rem rgba(107, 146, 178, 0.5);
     box-shadow: 0 0 0 0.2rem rgba(107, 146, 178, 0.5); }

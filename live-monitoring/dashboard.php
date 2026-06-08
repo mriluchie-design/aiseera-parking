@@ -267,7 +267,7 @@
 										
 										<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MAKASSAR</span>
 										<hr>
-										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">GATE - 1</span>
+										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">GATE - 1</span>
 										
 <a href="#" class="kt-widget__title">
 											<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
@@ -395,7 +395,7 @@
 										
 										<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MAKASSAR</span>
 										<hr>
-										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">GATE - 1</span>
+										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">GATE - 1</span>
 										
 <a href="#" class="kt-widget__title">
 											<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
@@ -417,7 +417,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">KELUAR</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--unified-primary kt-badge--md kt-badge--inline">KELUAR</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -426,7 +426,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">KELUAR</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--unified-primary kt-badge--md kt-badge--inline">KELUAR</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -436,7 +436,7 @@
 													
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">KELUAR</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--unified-primary kt-badge--md kt-badge--inline">KELUAR</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -446,7 +446,7 @@
 													
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">KELUAR</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--unified-primary kt-badge--md kt-badge--inline">KELUAR</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -523,7 +523,7 @@
 										
 										<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MAKASSAR</span>
 										<hr>
-										<span class="kt-badge kt-badge--brand kt-badge--md kt-badge--inline">GATE - 2</span>
+										<span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">GATE - 2</span>
 										
 <a href="#" class="kt-widget__title">
 											<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
@@ -651,7 +651,7 @@
 										
 										<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MAKASSAR</span>
 										<hr>
-										<span class="kt-badge kt-badge--brand kt-badge--md kt-badge--inline">GATE - 2</span>
+										<span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">GATE - 2</span>
 										
 <a href="#" class="kt-widget__title">
 											<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
@@ -673,7 +673,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">KELUAR</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--unified-primary kt-badge--md kt-badge--inline">KELUAR</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -682,7 +682,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">KELUAR</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--unified-primary kt-badge--md kt-badge--inline">KELUAR</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -692,7 +692,7 @@
 													
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">KELUAR</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--unified-primary kt-badge--md kt-badge--inline">KELUAR</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -702,7 +702,7 @@
 													
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">KELUAR</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--unified-primary kt-badge--md kt-badge--inline">KELUAR</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
