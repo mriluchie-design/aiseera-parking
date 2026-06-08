@@ -65,20 +65,20 @@ License: You must have a valid license purchased only from themeforest(the above
 										</div>
 										<div class="kt-separator kt-separator--border-solid-2 kt-separator--space-lg kt-separator--portlet-fit"></div>
 										<div class="row mt-6">
-											<div class="col-lg-6" style="font-size:.955rem; color:#374163; text-transform:italic">
+											<div class="col-lg-5" style="font-size:.955rem; color:#374163; text-transform:italic">
 												Absen Masuk
 											</div>
-											<div class="col-lg-6" >
-												<span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline" style="font-size:.9rem; color:#fff; text-transform:italic;">08:00:00 WITA</span>
+											<div class="col-lg-7" >
+												<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">08:00:00 WITA</button>
 											</div>
 										</div>
 										<div><br></div>
 										<div class="row mt-6">
-											<div class="col-lg-6" style="font-size:.955rem; color:#374163; text-transform:italic">
+											<div class="col-lg-5" style="font-size:.955rem; color:#374163; text-transform:italic">
 												Absen Pulang
 											</div>
-											<div class="col-lg-6">
-												<span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" style="font-size:.9rem; color:#fff; text-transform:italic">Belum Absen</span>
+											<div class="col-lg-7">
+												<button type="button" class="btn btn-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Belum Absen</button>
 											</div>
 										</div>
 										

@@ -58,7 +58,7 @@
 										</div>
 										<div class="kt-separator kt-separator--border-solid-2 kt-separator--space-lg kt-separator--portlet-fit"></div>
 										<div class="row mt-6">
-											<div class="col-lg-6" style="font-size:.955rem; color:#374163; text-transform:italic">
+											<div class="col-lg-5" style="font-size:.955rem; color:#374163; text-transform:italic">
 												Absen Masuk
 											</div>
 											<div class="col-lg-6" >
