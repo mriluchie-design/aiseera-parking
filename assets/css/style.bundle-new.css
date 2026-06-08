@@ -27306,7 +27306,7 @@ strong {
         font-weight: 500;
         padding-top: 0.21rem;
         color: #0e62ae ; }
-      .kt-timeline-v2 .kt-timeline-v2__items .kt-timeline-v2__item .kt-timeline-v2__item-text > span {
+      .kt-timeline-v2 .kt-timeline-v2__items .kt-timeline-v2__item .kt-timeline-v2__item-text {
         font-weight: 400; }
     .kt-timeline-v2 .kt-timeline-v2__items .kt-timeline-v2__item .kt-list-pics {
       display: table-cell;
