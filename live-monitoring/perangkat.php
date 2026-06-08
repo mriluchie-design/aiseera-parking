@@ -291,7 +291,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -300,7 +300,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -310,7 +310,7 @@
 													
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -320,7 +320,7 @@
 													
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-brand"></i>
         											</div>
@@ -329,7 +329,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -374,7 +374,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -383,7 +383,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -392,7 +392,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -401,7 +401,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -410,7 +410,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -510,7 +510,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -519,7 +519,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -529,7 +529,7 @@
 													
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -539,7 +539,7 @@
 													
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-brand"></i>
         											</div>
@@ -549,7 +549,7 @@
 													
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-brand"></i>
         											</div>
@@ -558,7 +558,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -607,7 +607,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -616,7 +616,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -625,7 +625,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -634,7 +634,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -643,7 +643,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -743,7 +743,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -752,7 +752,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -762,7 +762,7 @@
 													
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -772,7 +772,7 @@
 													
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-brand"></i>
         											</div>
@@ -781,7 +781,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -826,7 +826,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -835,7 +835,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -844,7 +844,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -853,7 +853,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -862,7 +862,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -962,7 +962,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -971,7 +971,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -981,7 +981,7 @@
 													
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -991,7 +991,7 @@
 													
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-brand"></i>
         											</div>
@@ -1001,7 +1001,7 @@
 													
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-brand"></i>
         											</div>
@@ -1010,7 +1010,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1059,7 +1059,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1068,7 +1068,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1077,7 +1077,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1086,7 +1086,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1095,7 +1095,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1195,7 +1195,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1204,7 +1204,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1214,7 +1214,7 @@
 													
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1224,7 +1224,7 @@
 													
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-brand"></i>
         											</div>
@@ -1233,7 +1233,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1278,7 +1278,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1287,7 +1287,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1296,7 +1296,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1305,7 +1305,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1314,7 +1314,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1414,7 +1414,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1423,7 +1423,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1433,7 +1433,7 @@
 													
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1443,7 +1443,7 @@
 													
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-brand"></i>
         											</div>
@@ -1453,7 +1453,7 @@
 													
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-brand"></i>
         											</div>
@@ -1462,7 +1462,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1511,7 +1511,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1520,7 +1520,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1529,7 +1529,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1538,7 +1538,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1547,7 +1547,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1647,7 +1647,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1656,7 +1656,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1666,7 +1666,7 @@
 													
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1676,7 +1676,7 @@
 													
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-brand"></i>
         											</div>
@@ -1685,7 +1685,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1730,7 +1730,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1739,7 +1739,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1748,7 +1748,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1757,7 +1757,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1766,7 +1766,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1866,7 +1866,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1875,7 +1875,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1885,7 +1885,7 @@
 													
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1895,7 +1895,7 @@
 													
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-brand"></i>
         											</div>
@@ -1905,7 +1905,7 @@
 													
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-brand"></i>
         											</div>
@@ -1914,7 +1914,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1963,7 +1963,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1972,7 +1972,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1981,7 +1981,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1990,7 +1990,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -1999,7 +1999,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2104,7 +2104,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2113,7 +2113,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2123,7 +2123,7 @@
 													
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2133,7 +2133,7 @@
 													
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-brand"></i>
         											</div>
@@ -2142,7 +2142,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2187,7 +2187,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2196,7 +2196,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2205,7 +2205,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2214,7 +2214,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2223,7 +2223,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2323,7 +2323,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2332,7 +2332,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2342,7 +2342,7 @@
 													
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2352,7 +2352,7 @@
 													
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-brand"></i>
         											</div>
@@ -2362,7 +2362,7 @@
 													
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-brand"></i>
         											</div>
@@ -2371,7 +2371,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2420,7 +2420,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2429,7 +2429,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2438,7 +2438,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2447,7 +2447,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2456,7 +2456,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2556,7 +2556,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2565,7 +2565,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2575,7 +2575,7 @@
 													
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2585,7 +2585,7 @@
 													
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-brand"></i>
         											</div>
@@ -2594,7 +2594,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2639,7 +2639,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2648,7 +2648,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2657,7 +2657,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2666,7 +2666,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2675,7 +2675,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2775,7 +2775,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2784,7 +2784,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2794,7 +2794,7 @@
 													
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2804,7 +2804,7 @@
 													
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-brand"></i>
         											</div>
@@ -2814,7 +2814,7 @@
 													
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-brand"></i>
         											</div>
@@ -2823,7 +2823,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2872,7 +2872,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2881,7 +2881,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2890,7 +2890,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2899,7 +2899,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -2908,7 +2908,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3008,7 +3008,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3017,7 +3017,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3027,7 +3027,7 @@
 													
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3037,7 +3037,7 @@
 													
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-brand"></i>
         											</div>
@@ -3046,7 +3046,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3091,7 +3091,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3100,7 +3100,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3109,7 +3109,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3118,7 +3118,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3127,7 +3127,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3227,7 +3227,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3236,7 +3236,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3246,7 +3246,7 @@
 													
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3256,7 +3256,7 @@
 													
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-brand"></i>
         											</div>
@@ -3266,7 +3266,7 @@
 													
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-brand"></i>
         											</div>
@@ -3275,7 +3275,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3324,7 +3324,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3333,7 +3333,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3342,7 +3342,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3351,7 +3351,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3360,7 +3360,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3460,7 +3460,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3469,7 +3469,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3479,7 +3479,7 @@
 													
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3489,7 +3489,7 @@
 													
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-brand"></i>
         											</div>
@@ -3498,7 +3498,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3543,7 +3543,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3552,7 +3552,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3561,7 +3561,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3570,7 +3570,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3579,7 +3579,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3679,7 +3679,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3688,7 +3688,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3698,7 +3698,7 @@
 													
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3708,7 +3708,7 @@
 													
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-brand"></i>
         											</div>
@@ -3718,7 +3718,7 @@
 													
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-brand"></i>
         											</div>
@@ -3727,7 +3727,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3776,7 +3776,7 @@
                                         <div class="kt-timeline-v2">
         									<div class="kt-timeline-v2__items">
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3785,7 +3785,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3794,7 +3794,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3803,7 +3803,7 @@
         											</div>
         										</div>
         										<div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
@@ -3812,7 +3812,7 @@
         											</div>
         										</div>
 <div class="kt-timeline-v2__item">
-        											<span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span></span>
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
         											<div class="kt-timeline-v2__item-cricle">
         												<i class="fa fa-genderless kt-font-success"></i>
         											</div>
