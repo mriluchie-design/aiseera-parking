@@ -29,7 +29,7 @@
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Kendaraan Berangkat </span>
+											Kendaraan Muatan Kapal </span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
 										</form>
@@ -47,7 +47,7 @@
                     <!--begin::Nav-->
                     <ul class="kt-nav">
                         <li class="kt-nav__item">
-                            <a href="cetak-rekap-transaksi-kendaraan-berangkat.php" class="kt-nav__link">
+                            <a href="cetak-rekap-transaksi-kendaraan-muatan-kapal.php" class="kt-nav__link">
                                 <i class="kt-nav__link-icon fa fa-file-pdf"></i><span class="kt-nav__link-text">PDF</span>
                             </a>
                           </li>
@@ -375,7 +375,7 @@
 											<tr style="text-align:center;">
 											  <th rowspan="2" bgcolor="#f7fcff" id="kt_table_3">#</th>
 											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
-											  <th colspan="5" bgcolor="#f7fcff">Kendaraan Berangkat</th>
+											  <th colspan="5" bgcolor="#f7fcff">Kendaraan Muatan Kapal</th>
 											  <th colspan="6" bgcolor="#fdfdec">Pembayaran</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 									      </tr>
@@ -399,20 +399,20 @@
 											  <td nowrap style="text-align:left">Makassar</td>
 											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm" >Reguler</span></td>
 											  <td nowrap="nowrap" style="text-align:left">Motor</td>
-											  <td nowrap style="text-align:left">000001GOTEM0626</td>
+											  <td nowrap style="text-align:left">000001MKTEM0626</td>
 											  <td nowrap style="text-align:left">DD 1111 LUU</td>
 											  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-											  <td nowrap style="text-align:left">000007PGOTEM0626</td>
+											  <td nowrap style="text-align:left">000007PMKTEM0626</td>
 											  <td nowrap style="text-align:center">1 September 2026<hr>15:37:00 WITA</td>
-											  <td nowrap style="text-align:left">000007PGTEM0626</td>
+											  <td nowrap style="text-align:left">000009PGTEM0626</td>
 											  <td nowrap style="text-align:center"><span class="btn btn-label-brand btn-sm" >eMoney</span></td>
 											  <td>Mandiri</td>
 											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>8.000,-</span></div></td>
 											  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 											     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-											       <ul class="kt-nav">
-											         <li class="kt-nav__item"> <a href="detail-transaksi-berangkat.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-											         <li class="kt-nav__item"> <a href="cetak-keuangan-karcis-berangkat.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Karcis Berangkat</span> </a> </li>
+											        <ul class="kt-nav">
+											         <li class="kt-nav__item"> <a href="detail-transaksi-muatan-kapal.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+											         <li class="kt-nav__item"> <a href="cetak-keuangan-karcis-muatan-kapal.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Karcis Muatan Kapal</span> </a> </li>
 												      
 										           </ul>
 										         </div>
@@ -423,20 +423,20 @@
 											  <td nowrap="nowrap" style="text-align:left">Makassar</td>
 											  <td nowrap style="text-align:center"><span class="btn btn-label-brand btn-sm" >Reguler</span></td>
 											  <td nowrap style="text-align:left">Mobil</td>
-											  <td nowrap="nowrap" style="text-align:left">000002GOTEM0626</td>
+											  <td nowrap="nowrap" style="text-align:left">000002MKTEM0626</td>
 											  <td nowrap="nowrap" style="text-align:left">DD 1111 LU</td>
 											  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-											  <td nowrap="nowrap" style="text-align:left">000008PGOTEM0626</td>
+											  <td nowrap="nowrap" style="text-align:left">000008PMKTEM0626</td>
 											  <td nowrap="nowrap" style="text-align:center">1 September 2026<hr />15:38:00 WITA</td>
-											  <td nowrap="nowrap" style="text-align:left">000008PGTEM0626</td>
+											  <td nowrap="nowrap" style="text-align:left">000010PGTEM0626</td>
 											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm" >eMoney</span></td>
 											  <td>BNI Tapcash</td>
 											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>15.000,-</span></div></td>
 											  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 											     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-											       <ul class="kt-nav">
-											         <li class="kt-nav__item"> <a href="detail-transaksi-berangkat.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-											         <li class="kt-nav__item"> <a href="cetak-keuangan-karcis-berangkat.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Karcis Berangkat</span> </a> </li>
+											        <ul class="kt-nav">
+											         <li class="kt-nav__item"> <a href="detail-transaksi-muatan-kapal.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+											         <li class="kt-nav__item"> <a href="cetak-keuangan-karcis-muatan-kapal.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Karcis Muatan Kapal</span> </a> </li>
 												      
 										           </ul>
 										         </div>
@@ -447,20 +447,20 @@
 											  <td nowrap="nowrap" style="text-align:left">Makassar</td>
 											  <td nowrap style="text-align:center"><span class="btn btn-label-brand btn-sm" >Reguler</span></td>
 											  <td nowrap style="text-align:left">Mobil</td>
-											  <td nowrap="nowrap" style="text-align:left">000001GOTQR0626</td>
+											  <td nowrap="nowrap" style="text-align:left">000001MKTQR0626</td>
 											  <td nowrap="nowrap" style="text-align:left">DD 1111 LU</td>
 											  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-											  <td nowrap="nowrap" style="text-align:left">000008PGOTQR0626</td>
+											  <td nowrap="nowrap" style="text-align:left">000008PMKTQR0626</td>
 											  <td nowrap="nowrap" style="text-align:center">1 September 2026<hr />15:39:00 WITA</td>
-											  <td nowrap="nowrap" style="text-align:left">000008PGTQR0626</td>
+											  <td nowrap="nowrap" style="text-align:left">000010PGTQR0626</td>
 											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm" >QRIS</span></td>
 											  <td>OVO</td>
 											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>15.000,-</span></div></td>
 											  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 											     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-											       <ul class="kt-nav">
-											         <li class="kt-nav__item"> <a href="detail-transaksi-berangkat.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-											         <li class="kt-nav__item"> <a href="cetak-keuangan-karcis-berangkat.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Karcis Berangkat</span> </a> </li>
+											        <ul class="kt-nav">
+											         <li class="kt-nav__item"> <a href="detail-transaksi-muatan-kapal.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+											         <li class="kt-nav__item"> <a href="cetak-keuangan-karcis-muatan-kapal.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Karcis Muatan Kapal</span> </a> </li>
 												      
 										           </ul>
 										         </div>
@@ -471,20 +471,20 @@
 											  <td nowrap="nowrap" style="text-align:left">Makassar</td>
 											  <td nowrap style="text-align:center"><span class="btn btn-label-brand btn-sm" >Reguler</span></td>
 											  <td nowrap style="text-align:left">Mobil</td>
-											  <td nowrap="nowrap" style="text-align:left">000002GOTQR0626</td>
+											  <td nowrap="nowrap" style="text-align:left">000002MKTQR0626</td>
 											  <td nowrap="nowrap" style="text-align:left">DD 1111 LU</td>
 											  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-											  <td nowrap="nowrap" style="text-align:left">000009PGOTQR0626</td>
+											  <td nowrap="nowrap" style="text-align:left">000009PMKTQR0626</td>
 											  <td nowrap="nowrap" style="text-align:center">1 September 2026<hr />15:40:00 WITA</td>
-											  <td nowrap="nowrap" style="text-align:left">000009PGTQR0626</td>
+											  <td nowrap="nowrap" style="text-align:left">000011PGTQR0626</td>
 											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm" >QRIS</span></td>
 											  <td>DANA</td>
 											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>15.000,-</span></div></td>
 											  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 											     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 											       <ul class="kt-nav">
-											         <li class="kt-nav__item"> <a href="detail-transaksi-berangkat.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-											         <li class="kt-nav__item"> <a href="cetak-keuangan-karcis-berangkat.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Karcis Berangkat</span> </a> </li>
+											         <li class="kt-nav__item"> <a href="detail-transaksi-muatan-kapal.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+											         <li class="kt-nav__item"> <a href="cetak-keuangan-karcis-muatan-kapal.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Karcis Muatan Kapal</span> </a> </li>
 												      
 										           </ul>
 										         </div>
@@ -495,20 +495,20 @@
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-danger btn-sm" >Denda</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Motor</td>
-										    <td nowrap="nowrap" style="text-align:left">000003DENDA0626</td>
+										    <td nowrap="nowrap" style="text-align:left">000004DENDA0626</td>
 										    <td nowrap="nowrap" style="text-align:left">DD 1111 LU</td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-										    <td nowrap="nowrap" style="text-align:left">000009PDETQR0626</td>
+										    <td nowrap="nowrap" style="text-align:left">000010PDETQR0626</td>
 										    <td nowrap="nowrap" style="text-align:center">1 September 2026<hr />15:41:00 WITA</td>
-										    <td nowrap="nowrap" style="text-align:left">000009PGTQR0626</td>
+										    <td nowrap="nowrap" style="text-align:left">000012PGTQR0626</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm" >QRIS</span></td>
 										    <td>DANA</td>
 										    <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>20.000,-</span></div></td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 											     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 											       <ul class="kt-nav">
-											         <li class="kt-nav__item"> <a href="detail-transaksi-berangkat.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-											         <li class="kt-nav__item"> <a href="cetak-keuangan-karcis-berangkat.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Karcis Berangkat</span> </a> </li>
+											         <li class="kt-nav__item"> <a href="detail-transaksi-muatan-kapal.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+											         <li class="kt-nav__item"> <a href="cetak-keuangan-karcis-muatan-kapal.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Karcis Muatan Kapal</span> </a> </li>
 												      
 										           </ul>
 										         </div>
