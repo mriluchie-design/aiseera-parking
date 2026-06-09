@@ -493,35 +493,35 @@
 												<td id="kt_table_1" style="text-align:right">1</td>
 												<td style="text-align:center" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-											  <td nowrap="nowrap" style="text-align:center">000002KDTEM0626<hr />
+												<td nowrap="nowrap" style="text-align:center">000002KDTEM0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  15:36:00 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span></td>
-											  <td nowrap="nowrap" style="text-align:center">000001INTEM0626<hr />
+												  15:36:00 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span><hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Card ID : 12321355123123211&lt;hr&gt;Reff ID : 000001PGTEM0626&lt;hr&gt;Rp. 15.000,-&lt;hr&gt;Mandiri" data-html="true">e-Money</span></td>
+												<td nowrap="nowrap" style="text-align:center">000001INTEM0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  15:37:00 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span></td>
+												  15:37:00 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span><hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Card ID : 12321355123123211&lt;hr&gt;Reff ID : 000002PGTEM0626&lt;hr&gt;Rp. 15.000,-&lt;hr&gt;Mandiri" data-html="true">e-Money</span></td>
 												<td style="text-align:center">1<hr />Masuk<hr>Mobil - 1</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											  <td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											  <td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											  <td nowrap="nowrap" style="text-align:center">000001LETEM0626<hr />
+												<td nowrap="nowrap" style="text-align:center">000001LETEM0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  17:37:00 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span></td>
+												  17:37:00 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span><hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Card ID : 12321355123123211&lt;hr&gt;Reff ID : 000003PGTEM0626&lt;hr&gt;Rp. 5.000,-&lt;hr&gt;Mandiri" data-html="true">e-Money</span></td>
 												<td style="text-align:center">1<hr />Keluar
 												  <hr />
 												  Mobil - 1</td>
@@ -529,11 +529,11 @@
 												  <hr />00 Menit<hr />
 												  00 Detik</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											  <td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Selesai</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -548,35 +548,35 @@
 												<td id="kt_table_1" style="text-align:right">2</td>
 												<td style="text-align:center" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-											<td nowrap="nowrap" style="text-align:center">000003KDTEM0626<hr />
+												<td nowrap="nowrap" style="text-align:center">000003KDTEM0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  15:37:00 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span></td>
-											<td nowrap="nowrap" style="text-align:center">000001INTQR0626<hr />
+												  15:37:00 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000002KDTQR0626&lt;hr&gt;Reff ID : 000012PGTQR0626&lt;hr&gt;Rp. 15.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
+												<td nowrap="nowrap" style="text-align:center">000001INTQR0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  15:38:00 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span></td>
+												  15:38:00 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000001INTQR0626&lt;hr&gt;Reff ID : 000002PGTQR0626&lt;hr&gt;Rp. 15.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td style="text-align:center">1<hr />Masuk<hr>Mobil - 1</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">000001LETQR0626<hr />
+												<td nowrap="nowrap" style="text-align:center">000001LETQR0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  17:38:00 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span></td>
+												  17:38:00 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000001INTQR0626&lt;hr&gt;Reff ID : 000003PGTQR0626&lt;hr&gt;Rp. 5.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td style="text-align:center">1<hr />Keluar
 												  <hr />
 												  Mobil - 1</td>
@@ -584,11 +584,11 @@
 												  <hr />00 Menit<hr />
 												  00 Detik</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Selesai</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -603,35 +603,35 @@
 												<td id="kt_table_1" style="text-align:right">3</td>
 												<td style="text-align:center" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-											<td nowrap="nowrap" style="text-align:center">000004KDTEM0626<hr />
+												<td nowrap="nowrap" style="text-align:center">000004KDTEM0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  15:38:00 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span></td>
-											<td nowrap="nowrap" style="text-align:center">000002INTQR0626<hr />
+												  15:38:00 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000002KDTQR0626&lt;hr&gt;Reff ID : 000012PGTQR0626&lt;hr&gt;Rp. 15.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
+												<td nowrap="nowrap" style="text-align:center">000002INTQR0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  15:38:30 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span></td>
+												  15:38:30 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000002INTQR0626&lt;hr&gt;Reff ID : 000002PGTQR0626&lt;hr&gt;Rp. 15.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td style="text-align:center">1<hr />Masuk<hr>Mobil - 1</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">000002DENDA0626<hr />
+												<td nowrap="nowrap" style="text-align:center">000002DENDA0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  17:38:30 WITA<hr /><span class="btn btn-label-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Denda</span></td>
+												  17:38:30 WITA<hr /><span class="btn btn-label-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Denda</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : -&lt;hr&gt;Reff ID : 000003PGTQR0626&lt;hr&gt;Rp. 50.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td style="text-align:center">1<hr />Keluar
 												  <hr />
 												  Mobil - 1</td>
@@ -639,11 +639,11 @@
 												  <hr />00 Menit<hr />
 												  00 Detik</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Selesai</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -658,35 +658,35 @@
 												<td id="kt_table_1" style="text-align:right">4</td>
 												<td style="text-align:center" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
-											<td nowrap="nowrap" style="text-align:center">000003INTQR0626<hr />
+												  -<hr />-<hr />-</td>
+												<td nowrap="nowrap" style="text-align:center">000003INTQR0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  15:39:30 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span></td>
+												  15:39:30 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000003INTQR0626&lt;hr&gt;Reff ID : 000002PGTQR0626&lt;hr&gt;Rp. 15.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td style="text-align:center">1<hr />Masuk<hr>Mobil - 1</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">000003LETQR0626<hr />
+												<td nowrap="nowrap" style="text-align:center">000003LETQR0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  17:39:30 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span></td>
+												  17:39:30 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000003INTQR0626&lt;hr&gt;Reff ID : 000003PGTQR0626&lt;hr&gt;Rp. 5.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td style="text-align:center">1<hr />Keluar
 												  <hr />
 												  Mobil - 1</td>
@@ -694,11 +694,11 @@
 												  <hr />00 Menit<hr />
 												  00 Detik</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Selesai</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -713,35 +713,35 @@
 												<td id="kt_table_1" style="text-align:right">5</td>
 												<td style="text-align:center" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
-											<td nowrap="nowrap" style="text-align:center">000001INMEM0626<hr />
+												  -<hr />-<hr />-</td>
+												<td nowrap="nowrap" style="text-align:center">000001INMEM0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  15:40:30 WITA<hr /><span class="btn btn-label-linkedin btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123212<hr>Mobil" data-html="true">Member</span></td>
+												  15:40:30 WITA<hr /><span class="btn btn-label-linkedin btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123212<hr>Mobil" data-html="true">Member</span><hr />-</td>
 												<td style="text-align:center">1<hr />Masuk<hr>Mobil - 1</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">000001LEMEM0626<hr />
+												<td nowrap="nowrap" style="text-align:center">000001LEMEM0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  16:40:30 WITA<hr /><span class="btn btn-label-linkedin btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123212<hr>Mobil" data-html="true">Member</span></td>
+												  16:40:30 WITA<hr /><span class="btn btn-label-linkedin btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123212<hr>Mobil" data-html="true">Member</span><hr />-</td>
 												<td style="text-align:center">1<hr />Keluar
 												  <hr />
 												  Mobil - 1</td>
@@ -749,11 +749,11 @@
 												  <hr />00 Menit<hr />
 												  00 Detik</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-linkedin btn-sm">Member</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -768,35 +768,35 @@
 												<td id="kt_table_1" style="text-align:right">6</td>
 												<td style="text-align:center" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												  -<hr />-<hr />-</td>
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td style="text-align:center">-<hr />-<hr>-</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-											<td nowrap="nowrap" style="text-align:center">000001MKINQR0626<hr />
+												<td nowrap="nowrap" style="text-align:center">000001MKINQR0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  15:39:30 WITA<hr /><span class="btn btn-label-skype btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Muatan Kapal</span></td>
+												  15:39:30 WITA<hr /><span class="btn btn-label-skype btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Muatan Kapal</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000001MKINQR0626&lt;hr&gt;Reff ID : 000002PGTQR0626&lt;hr&gt;Rp. 15.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">000001MKLEQR0626<hr />
+												<td nowrap="nowrap" style="text-align:center">000001MKLEQR0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  16:40:30 WITA<hr /><span class="btn btn-label-skype btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000001MKINQR0626<hr>Mobil" data-html="true">Muatan Kapal</span></td>
+												  16:40:30 WITA<hr /><span class="btn btn-label-skype btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000001MKINQR0626<hr>Mobil" data-html="true">Muatan Kapal</span><hr />-</td>
 												<td style="text-align:center">1<hr />Keluar
 												  <hr />
 												  Mobil - 1</td>
@@ -804,11 +804,11 @@
 												  <hr />00 Menit<hr />
 												  00 Detik</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Selesai</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -823,35 +823,35 @@
 												<td id="kt_table_1" style="text-align:right">7</td>
 												<td style="text-align:center" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												  -<hr />-<hr />-</td>
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td style="text-align:center">-<hr />-<hr>-</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-											<td nowrap="nowrap" style="text-align:center">000002MKINQR0626<hr />
+												<td nowrap="nowrap" style="text-align:center">000002MKINQR0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  15:00:30 WITA<hr /><span class="btn btn-label-skype btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Muatan Kapal</span></td>
+												  15:00:30 WITA<hr /><span class="btn btn-label-skype btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Muatan Kapal</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000002MKINQR0626&lt;hr&gt;Reff ID : 000002PGTQR0626&lt;hr&gt;Rp. 15.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">000003DENDA0626<hr />
+												<td nowrap="nowrap" style="text-align:center">000003DENDA0626<hr />
 												  DD 1111 LUU<hr />
 												  2 September 2026
 												  <hr />
-												  16:40:30 WITA<hr /><span class="btn btn-label-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Denda</span></td>
+												  16:40:30 WITA<hr /><span class="btn btn-label-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Denda</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : -&lt;hr&gt;Reff ID : 000003PGTQR0626&lt;hr&gt;Rp. 50.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td style="text-align:center">1<hr />Keluar
 												  <hr />
 												  Mobil - 1</td>
@@ -859,11 +859,11 @@
 												  <hr />00 Menit<hr />
 												  00 Detik</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Selesai</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -878,35 +878,35 @@
 												<td id="kt_table_1" style="text-align:right">8</td>
 												<td style="text-align:center" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
-											<td nowrap="nowrap" style="text-align:center">000004INTQR0626<hr />
+												  -<hr />-<hr />-</td>
+												<td nowrap="nowrap" style="text-align:center">000004INTQR0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  14:39:30 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span></td>
+												  14:39:30 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000004INTQR0626&lt;hr&gt;Reff ID : 000003PGTQR0626&lt;hr&gt;Rp. 15.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td style="text-align:center">1<hr />Masuk<hr>Mobil - 1</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td style="text-align:center">-<hr />-
 												  <hr />
 												  -</td>
@@ -914,11 +914,11 @@
 												  <hr />00 Menit<hr />
 												  00 Detik</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-											<td nowrap="nowrap" style="text-align:center">000001GOTQR0626<hr />
+												<td nowrap="nowrap" style="text-align:center">000001GOTQR0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  17:39:30 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span></td>
+												  17:39:30 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000004INTQR0626&lt;hr&gt;Reff ID : 000003PGTQR0626&lt;hr&gt;Rp. 10.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-skype btn-sm">Berangkat</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -933,35 +933,35 @@
 												<td id="kt_table_1" style="text-align:right">9</td>
 												<td style="text-align:center" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
-											<td nowrap="nowrap" style="text-align:center">000005INTQR0626<hr />
+												  -<hr />-<hr />-</td>
+												<td nowrap="nowrap" style="text-align:center">000005INTQR0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  12:39:30 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span></td>
+												  12:39:30 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000005INTQR0626&lt;hr&gt;Reff ID : 000004PGTQR0626&lt;hr&gt;Rp. 15.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td style="text-align:center">1<hr />Masuk<hr>Mobil - 1</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td style="text-align:center">-<hr />-
 												  <hr />
 												  -</td>
@@ -969,11 +969,11 @@
 												  <hr />00 Menit<hr />
 												  00 Detik</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-											<td nowrap="nowrap" style="text-align:center">000004DENDA0626<hr />
+												<td nowrap="nowrap" style="text-align:center">000004DENDA0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  17:40:30 WITA<hr /><span class="btn btn-label-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Denda</span></td>
+												  17:40:30 WITA<hr /><span class="btn btn-label-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Denda</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000004INTQR0626&lt;hr&gt;Reff ID : 000003PGTQR0626&lt;hr&gt;Rp. 10.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-skype btn-sm">Berangkat</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -988,35 +988,35 @@
 												<td id="kt_table_1" style="text-align:right">10</td>
 												<td style="text-align:center" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
-											<td nowrap="nowrap" style="text-align:center">000006INTQR0626<hr />
+												  -<hr />-<hr />-</td>
+												<td nowrap="nowrap" style="text-align:center">000006INTQR0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  15:39:30 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span></td>
+												  15:39:30 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000006INTQR0626&lt;hr&gt;Reff ID : 000002PGTQR0626&lt;hr&gt;Rp. 15.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td style="text-align:center">1<hr />Masuk<hr>Mobil - 1</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-											<td nowrap="nowrap" style="text-align:center">000001FPASS0626<hr />
+												<td nowrap="nowrap" style="text-align:center">000001FPASS0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  17:39:30 WITA<hr /><span class="btn btn-label-youtube btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Free Pass</span></td>
+												  17:39:30 WITA<hr /><span class="btn btn-label-youtube btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Free Pass</span><hr />-</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">000001FPTQR0626<hr />
+												<td nowrap="nowrap" style="text-align:center">000001FPTQR0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  17:49:30 WITA<hr /><span class="btn btn-label-youtube btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Free Pass</span></td>
+												  17:49:30 WITA<hr /><span class="btn btn-label-youtube btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Free Pass</span><hr />-</td>
 												<td style="text-align:center">1<hr />Keluar
 												  <hr />
 												  Mobil - 1</td>
@@ -1024,11 +1024,11 @@
 												  <hr />00 Menit<hr />
 												  00 Detik</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Selesai</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -1043,35 +1043,35 @@
 												<td id="kt_table_1" style="text-align:right">11</td>
 												<td style="text-align:center" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
-											<td nowrap="nowrap" style="text-align:center">000007INTQR0626<hr />
+												  -<hr />-<hr />-</td>
+												<td nowrap="nowrap" style="text-align:center">000007INTQR0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  15:40:30 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span></td>
+												  15:40:30 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000007INTQR0626&lt;hr&gt;Reff ID : 000002PGTQR0626&lt;hr&gt;Rp. 15.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td style="text-align:center">1<hr />Masuk<hr>Mobil - 1</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-											<td nowrap="nowrap" style="text-align:center">000002FPASS0626<hr />
+												<td nowrap="nowrap" style="text-align:center">000002FPASS0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  17:39:30 WITA<hr /><span class="btn btn-label-youtube btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">1 Jam</span></td>
+												  17:39:30 WITA<hr /><span class="btn btn-label-youtube btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">1 Jam</span><hr />-</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">000002FPTQR0626<hr />
+												<td nowrap="nowrap" style="text-align:center">000002FPTQR0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  17:49:30 WITA<hr /><span class="btn btn-label-youtube btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Free Pass</span></td>
+												  17:49:30 WITA<hr /><span class="btn btn-label-youtube btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Free Pass</span><hr />-</td>
 												<td style="text-align:center">1<hr />Keluar
 												  <hr />
 												  Mobil - 1</td>
@@ -1079,11 +1079,11 @@
 												  <hr />00 Menit<hr />
 												  00 Detik</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Selesai</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -1098,35 +1098,35 @@
 												<td id="kt_table_1" style="text-align:right">12</td>
 												<td style="text-align:center" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
-											<td nowrap="nowrap" style="text-align:center">000008INTQR0626<hr />
+												  -<hr />-<hr />-</td>
+												<td nowrap="nowrap" style="text-align:center">000008INTQR0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  15:41:30 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span></td>
+												  15:41:30 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000008INTQR0626&lt;hr&gt;Reff ID : 000002PGTQR0626&lt;hr&gt;Rp. 15.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td style="text-align:center">1<hr />Masuk<hr>Mobil - 1</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-											<td nowrap="nowrap" style="text-align:center">000003FPASS0626<hr />
+												<td nowrap="nowrap" style="text-align:center">000003FPASS0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  18:41:30 WITA<hr /><span class="btn btn-label-youtube btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">1 Jam</span></td>
+												  18:41:30 WITA<hr /><span class="btn btn-label-youtube btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">1 Jam</span><hr />-</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">000001LETQR0626<hr />
+												<td nowrap="nowrap" style="text-align:center">000001LETQR0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  18:45:00 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span></td>
+												  18:45:00 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000008INTQR0626&lt;hr&gt;Reff ID : 000003PGTQR0626&lt;hr&gt;Rp. 5.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td style="text-align:center">1<hr />Keluar
 												  <hr />
 												  Mobil - 1</td>
@@ -1134,11 +1134,11 @@
 												  <hr />04 Menit<hr />
 												  00 Detik</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Selesai</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -1153,35 +1153,35 @@
 												<td id="kt_table_1" style="text-align:right">13</td>
 												<td style="text-align:center" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
-											<td nowrap="nowrap" style="text-align:center">000009INTQR0626<hr />
+												  -<hr />-<hr />-</td>
+												<td nowrap="nowrap" style="text-align:center">000009INTQR0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  13:41:30 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span></td>
+												  13:41:30 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000009INTQR0626&lt;hr&gt;Reff ID : 000002PGTQR0626&lt;hr&gt;Rp. 15.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td style="text-align:center">1<hr />Masuk<hr>Mobil - 1</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td style="text-align:center">-<hr />-
 												  <hr />
 												  -</td>
@@ -1189,11 +1189,11 @@
 												  <hr />00 Menit<hr />
 												  00 Detik</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-danger btn-sm">Parkir</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -1208,35 +1208,35 @@
 												<td id="kt_table_1" style="text-align:right">14</td>
 												<td style="text-align:center" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
-											<td nowrap="nowrap" style="text-align:center">000010INTQR0626<hr />
+												  -<hr />-<hr />-</td>
+												<td nowrap="nowrap" style="text-align:center">000010INTQR0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  14:41:30 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span></td>
+												  14:41:30 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000010INTQR0626&lt;hr&gt;Reff ID : 000002PGTQR0626&lt;hr&gt;Rp. 15.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td style="text-align:center">1<hr />Masuk<hr>Mobil - 1</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td style="text-align:center">-<hr />-
 												  <hr />
 												  -</td>
@@ -1244,11 +1244,11 @@
 												  <hr />00 Menit<hr />
 												  00 Detik</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-											<td nowrap="nowrap" style="text-align:center">-<hr />
+												<td nowrap="nowrap" style="text-align:center">-<hr />
 												  -<hr />
 												  -
 												  <hr />
-												  -<hr />-</td>
+												  -<hr />-<hr />-</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-danger btn-sm">Parkir</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
