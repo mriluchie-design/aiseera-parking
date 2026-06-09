@@ -91,7 +91,7 @@
 																Kendaraan Masuk
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:24px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_kendaraan_masuk">105</span>
+																<span style="color:#ed1c24; font-size:24px; font-weight:500;" class="kt-nav__link">105</span>
 															
 															</span>
 														</div>
@@ -334,20 +334,20 @@
 											<div class="kt-widget6">
 												<div class="kt-widget6__body">
 												<div class="kt-widget6__item">
-														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
+														<button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#modal_lihat_jalur_masuk" data-html="true" >Online</button>
 													</div>
 													
 													<div class="kt-widget6__item">
 														
-														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
+														<button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#modal_lihat_jalur_masuk" data-html="true" >Online</button>
 													</div>
 													<div class="kt-widget6__item">
 														
-														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
+														<button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#modal_lihat_jalur_masuk" data-html="true" >Online</button>
 													</div>
 													<div class="kt-widget6__item">
 														
-														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
+														<button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#modal_lihat_jalur_masuk" data-html="true" >Online</button>
 													</div>
 
 													
@@ -462,20 +462,20 @@
 											<div class="kt-widget6">
 												<div class="kt-widget6__body">
 												<div class="kt-widget6__item">
-														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
+														<button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#modal_jalur_keluar" data-html="true" >Online</button>
 													</div>
 													
 													<div class="kt-widget6__item">
 														
-														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
+														<button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#modal_jalur_keluar" data-html="true" >Online</button>
 													</div>
 													<div class="kt-widget6__item">
 														
-														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
+														<button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#modal_jalur_keluar_offline" data-html="true" >Offline</button>
 													</div>
 													<div class="kt-widget6__item">
 														
-														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
+														<button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#modal_jalur_keluar" data-html="true" >Online</button>
 													</div>
 
 													
@@ -590,20 +590,20 @@
 											<div class="kt-widget6">
 												<div class="kt-widget6__body">
 												<div class="kt-widget6__item">
-														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
+														<button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#modal_lihat_jalur_masuk" data-html="true" >Online</button>
 													</div>
 													
 													<div class="kt-widget6__item">
 														
-														<button type="button" class="btn btn-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Offline</button>
+														<button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#modal_jalur_offline" data-html="true" >Offline</button>
 													</div>
 													<div class="kt-widget6__item">
 														
-														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
+														<button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#modal_lihat_jalur_masuk" data-html="true" >Online</button>
 													</div>
 													<div class="kt-widget6__item">
 														
-														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
+														<button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#modal_lihat_jalur_masuk" data-html="true" >Online</button>
 													</div>
 
 													
@@ -718,20 +718,20 @@
 											<div class="kt-widget6">
 												<div class="kt-widget6__body">
 												<div class="kt-widget6__item">
-														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
+														<button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#modal_jalur_keluar" data-html="true" >Online</button>
 													</div>
 													
 													<div class="kt-widget6__item">
 														
-														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
+														<button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#modal_jalur_keluar" data-html="true" >Online</button>
 													</div>
 													<div class="kt-widget6__item">
 														
-														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
+														<button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#modal_jalur_keluar" data-html="true" >Online</button>
 													</div>
 													<div class="kt-widget6__item">
 														
-														<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Online</button>
+														<button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#modal_jalur_keluar" data-html="true" >Online</button>
 													</div>
 
 													
@@ -877,75 +877,257 @@
 							</div>
 							<!--End::Modal 1-->
 							<!--begin::Modal 1-->
-									<div class="modal fade" id="modal_persetujuan_release" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+									<div class="modal fade" id="modal_jalur_keluar_offline" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 									<div class="modal-content">
 
-										<div class="modal-header">
-										<span class="modal-title" id="exampleModalLabel"><span class="kt-badge kt-badge--danger kt-badge--inline"; style="color:#fff";>VERIFIKASI</span></span>
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-											<span aria-hidden="true">&times;</span>
-										</button>
-									</div>
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon" style="font-size:25px;"><i class="kt-font-brand fa fa-barcode"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger">DATA KESIAPAN PERANGKAT & SYSTEM</h3>
+											</div>
+											<div class="kt-portlet__head-toolbar">
+												<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">X</button>
+											</div>
+										</div>
+										</div>
 
 										
-										<div class="kt-portlet__body">
-											<div class="tab-content">
-											<div class="tab-pane active" id="kt_widget4_tab1_content">
-													<div class="kt-widget4">
-														<div class="kt-widget4__item">
-															<div class="kt-widget4__pic kt-widget4__pic--pic" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003" data-html="true">
-																<img src="../assets/img/users/100_8.jpg" alt="image">
-															</div>
-															<div class="kt-widget4__info">
-																<a href="#" class="kt-widget4__username">
-																	Deddy Rafsanjani, S.Sos
-																</a>
-																<p class="kt-widget4__text">
-																	Kepala Bagian Kepegawaian
-																</p>
-															</div>
-															<span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Disetujui&lt;hr&gt;11 Juli 2025 - 20:33 WITA">
-															<i class="fa flaticon2-check-mark"></i>
-														</span>
-														</div>
-														<div class="kt-widget4__item">
-															<div class="kt-widget4__pic kt-widget4__pic--pic" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000002" data-html="true">
-																<img src="../assets/img/users/100_9.jpg" alt="image">
-															</div>
-															<div class="kt-widget4__info">
-																<a href="#" class="kt-widget4__username">
-																	Oklan Zulkifli, SE
-																</a>
-																<p class="kt-widget4__text">
-																	Direktur Umum
-																</p>
-															</div>
-															<span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Disetujui&lt;hr&gt;11 Juli 2025 - 22:33 WITA">
-															<i class="fa flaticon2-check-mark"></i>
-														</span>
-														</div>
-														<div class="kt-widget4__item">
-															<div class="kt-widget4__pic kt-widget4__pic--pic"  data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001" data-html="true">
-																<img src="../assets/img/users/100_15.jpg" alt="">
-															</div>
-															<div class="kt-widget4__info">
-																<a href="#" class="kt-widget4__username">
-																	Muhammad Nasrullah, S.Kom
-																</a>
-																<p class="kt-widget4__text">
-																	Direktur Utama
-																</p>
-															</div>
-															<span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Disetujui&lt;hr&gt;11 Juli 2025 - 22:33 WITA">
-															<i class="fa flaticon2-check-mark"></i>
-														</span>
-														</div>
+											<div class="col-xl-12">
+				<!--begin:: Portlet-->
+				<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--success">
+                        <!--begin::status -->
+						
+                        <!--end::status -->
+
+						<!--begin::Widget -->
+						<div class="kt-widget kt-widget--project-1">
+							<div class="kt-widget__head d-flex">
+								<div class="kt-widget__label">
+									<div class="kt-widget__info kt-padding-0 kt-margin-l">
+										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
+										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">GATE - 1</span>
+										<a href="#" class="kt-widget__title">
+											<span class="btn btn-youtube btn-sm">KELUAR</span>
+<span class="btn btn-youtube btn-sm">MOBIL - 1</span>
+										</a>
+<a href="#" class="kt-widget__title">
+											<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
+										</a>
+									</div>
+								</div>
+								<div class="kt-widget__toolbar">
+                                    <div class="kt-widget6__item">
 														
-														
-														
+														<span><img src="../assets/img/users/300_8.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
 													</div>
+									
+								</div>
+							</div>
+							<div class="kt-widget__body" style="padding-bottom:0 !important">
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="kt-timeline-v2">
+        									<div class="kt-timeline-v2__items">
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Dispenser Keluar
+        											</div>
+        										</div>
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-danger btn-sm">Offline</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Printer
+        											</div>
+													
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Payment Reader
+        											</div>
+													
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-brand"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Scanner
+        											</div>
+													
+        										</div>
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-brand"></i>
+        											</div>
+                              <div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Hub / Switch
+        											</div>
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+                              <div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												PC
+        											</div>
+        										</div>
+        									</div>
+        								</div>
+                      </div>
+					  <div class="col-md-6" style="border-left:1px solid #eee">
+											<div class="kt-widget6">
+												<div class="kt-widget6__body">
+												<div class="kt-widget6__item">
+														<span>IP Dispenser </span>
+														<span>192.168.0.121</span>
+													</div>
+													
+													<div class="kt-widget6__item">
+														<span>Sisa Print Karcis</span>
+														<span>50</span>
+													</div>
+<div class="kt-widget6__item">
+														<span>&nbsp;</span>
+														<span>&nbsp;</span>
+													</div>
+<div class="kt-widget6__item">
+														<span>&nbsp;</span>
+														<span>&nbsp;</span>
+													</div>
+<div class="kt-widget6__item">
+														<span>&nbsp;</span>
+														<span>&nbsp;</span>
+													</div>
+<div class="kt-widget6__item">
+														<span>IP Address</span>
+														<span>192.168.0.122</span>
+													</div>
+													
+													
+													
 												</div>
+											</div>
+                                    </div>
+					  <div class="col-md-6">
+                                        <div class="kt-timeline-v2">
+        									<div class="kt-timeline-v2__items">
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Dispenser Controller
+        											</div>
+        										</div>
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Barrier Gate Controller
+        											</div>
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Member Reader
+        											</div>
+        										</div>
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+                              <div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												CCTV Plat
+        											</div>
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+                              <div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												CCTV Record
+        											</div>
+        										</div>
+												
+        									</div>
+        								</div>
+                      </div>
+					  
+                    <div class="col-md-6" style="border-left:1px solid #eee">
+											<div class="kt-widget6">
+												<div class="kt-widget6__body">
+													
+													<div class="kt-widget6__item">
+														<span>IP Controller </span>
+														<span>192.168.0.123</span>
+													</div>&nbsp;
+													<div class="kt-widget6__item">
+														<span>IP Barrier Gate</span>
+														<span>192.168.0.124</span>
+													</div>&nbsp;
+													<div class="kt-widget6__item">
+														<span>IP Member Reader</span>
+														<span>192.168.0.125</span>
+													</div>
+													<div class="kt-widget6__item">
+														<span>IP CCTV</span>
+														<span>192.168.0.126</span>
+													</div>
+													<div class="kt-widget6__item">
+														<span>IP CCTV Record</span>
+														<span>192.168.0.127</span>
+													</div>
+
+												</div>
+											</div>
+                                    </div>
+                                </div>
+
+							</div><br>
+							<div class="kt-widget__footer">
+								<div class="kt-widget__wrapper" style="padding:10px 20px">
+									<div class="kt-widget__section">
+										<div class="kt-widget__blog">
+											<i class="fa fa-clock"></i>
+											<a href="#" class="kt-widget__value kt-font-brand">10 Februari 2023 - 20:07:00 WITA</a>
+										</div>
+									</div>
+									<div class="kt-widget__section">
+										<a href="see-cctv.php" class="btn btn-label-brand btn-sm"><i class="fa flaticon-eye"></i>LIHAT CCTV</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--end::Widget -->
+					
+				<!--end:: Portlet-->
+			</div>
 
 							<!--End::App-->
 						</div>
@@ -957,8 +1139,8 @@
 								</div>
 							</div>
 							<!--End::Modal 1-->
-							<!--begin::Modal Kendaraan Masuk-->
-									<div class="modal fade" id="modal_kendaraan_masuk" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+							<!--begin::Modal Jalur Keluar-->
+									<div class="modal fade" id="modal_jalur_keluar" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 									<div class="modal-content">
 
@@ -967,187 +1149,254 @@
 											<div class="kt-portlet__head">
 											<div class="kt-portlet__head-label">
 												<span class="kt-portlet__head-icon" style="font-size:25px;"><i class="kt-font-brand fa fa-barcode"></i></span>
-												<h3 class="kt-portlet__head-title kt-font-danger">Kendaraan Masuk</h3>
+												<h3 class="kt-portlet__head-title kt-font-danger">DATA KESIAPAN PERANGKAT & SYSTEM</h3>
 											</div>
 											<div class="kt-portlet__head-toolbar">
 												<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">X</button>
 											</div>
 										</div>
-										<div class="kt-portlet__body">
-											<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
-										<thead>
-											<tr style="text-align:center">
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Member</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">ID Transaksi</th>
-											  <th colspan="8" bgcolor="#feffed">Kendaraan Masuk</th>
-											  <th colspan="2" bgcolor="#f7fcff">Foto</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
-										  </tr>
-											<tr style="text-align:center">
-											  <th width="1%" bgcolor="#feffed">Kategori</th>
-											  <th width="1%" bgcolor="#feffed">Jenis</th>
-											  <th width="2%" bgcolor="#feffed">No. Plat</th>
-											  <th width="3%" bgcolor="#feffed">Waktu</th>
-											  <th width="1%" bgcolor="#feffed">Gate</th>
-											  <th width="5%" bgcolor="#feffed">Jalur</th>
-											  <th width="3%" bgcolor="#feffed">Status</th>
-											  <th width="3%" bgcolor="#feffed">Pembayaran</th>
-											  <th width="1%" bgcolor="#f7fcff">Webcam</th>
-											  <th width="1%" bgcolor="#f7fcff">Kendaraan</th>
-										  </tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td id="kt_table_1">1</td>
-												<td style="text-align:center" nowrap>Makassar</td>
-												<td nowrap="nowrap" style="text-align:center">-</td>
-												<td nowrap="nowrap" style="text-align:center">000001INTEM0626</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Reguler</span></td>
-												<td nowrap="nowrap" style="text-align:left">Mobil</td>
-												<td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026
-												  <hr />
-											    15:36:00 WITA</td>
-												<td style="text-align:center">1</td>
-												<td style="text-align:center">Masuk<hr>Mobil - 1</td>
-												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Parkir</span></td>
-												<td class="text-center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Reff ID : 000001PGTEM0626&lt;hr&gt;e-Money&lt;hr&gt;Mandiri" data-html="true">e-Money</span></td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/masuk-mobil-1.png" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/masuk-mobil-1a.png" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
-												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-												    <ul class="kt-nav">
-												      <li class="kt-nav__item"> <a href="detail-kendaraan-masuk.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="cetak-karcis-masuk.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Karcis Masuk</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
-											        </ul>
-											      </div>
-												  </div></td>
-										  </tr>
-										  <tr>
-												<td id="kt_table_1">2</td>
-												<td nowrap="nowrap" style="text-align:center">Makassar</td>
+											<div class="col-xl-12">
+				<!--begin:: Portlet-->
+				<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--success">
+                        <!--begin::status -->
+						
+                        <!--end::status -->
 
-												<td nowrap="nowrap" style="text-align:center">-</td>
-												<td nowrap="nowrap" style="text-align:center">000001INTQR0626</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Reguler</span></td>
-												<td nowrap="nowrap" style="text-align:left">Motor</td>
-												<td nowrap="nowrap" style="text-align:left">DD 1111 LLU</td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026<hr />15:36:00 WITA</td>
-												<td style="text-align:center">2</td>
-												<td style="text-align:center">Masuk<hr>Motor - 1</td>
-												<td style="text-align:center"><span class="btn btn-label-warning btn-sm">Keluar</span></td>
-												<td class="text-center"><span class="btn btn-label-linkedin btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Reff ID : 000001PGTQR0626&lt;hr&gt;QRIS&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/foto-motor-masuk-webcam.png" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/foto-motor-masuk.png" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
-												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-												    <ul class="kt-nav">
-												      <li class="kt-nav__item"> <a href="detail-kendaraan-masuk.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="cetak-karcis-masuk.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Karcis Masuk</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
-											        </ul>
-											      </div>
-												  </div></td>
-										  </tr>
-<tr>
-												<td id="kt_table_1">3</td>
-												<td nowrap="nowrap" style="text-align:center">Makassar</td>
-												<td nowrap="nowrap" style="text-align:center">-</td>
-												<td nowrap="nowrap" style="text-align:center">000002INTQR0626</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Reguler</span></td>
-												<td nowrap="nowrap" style="text-align:left">Motor</td>
-												<td nowrap="nowrap" style="text-align:left">DD 1111 LLU</td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026<hr />15:36:00 WITA</td>
-												<td style="text-align:center">2</td>
-												<td style="text-align:center">Masuk<hr>Motor - 1</td>
-												<td style="text-align:center"><span class="btn btn-label-skype btn-sm">Berangkat</span></td>
-												<td class="text-center"><span class="btn btn-label-linkedin btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Reff ID : 000002PGTQR0626&lt;hr&gt;QRIS&lt;hr&gt;DANA" data-html="true">QRIS</span></td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/foto-motor-masuk-webcam-2.png" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/foto-motor-masuk-2.png" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
-												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-												   <ul class="kt-nav">
-												      <li class="kt-nav__item"> <a href="detail-kendaraan-masuk.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="cetak-karcis-masuk.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Karcis Masuk</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
-											        </ul>
-											      </div>
-												  </div></td>
-										  </tr>
-<tr>
-												<td id="kt_table_1">4</td>
-												<td style="text-align:center" nowrap>Makassar</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"> <img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">000001INMEM0626</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Member</span></td>
-												<td nowrap="nowrap" style="text-align:left">Sedan/Jeep/Pick Up</td>
-												<td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026
-												  <hr />
-											    15:36:00 WITA</td>
-												<td style="text-align:center">2</td>
-												<td style="text-align:center">Masuk<hr>Motor - 2</td>
-												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Parkir</span></td>
-												<td nowrap="nowrap" style="text-align:center">-</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/masuk-1.png" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/masuk-1a.png" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
-												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-												    <ul class="kt-nav">
-												      <li class="kt-nav__item"> <a href="detail-kendaraan-masuk.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="cetak-karcis-masuk.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Karcis Masuk</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
-											        </ul>
-											      </div>
-												  </div></td>
-										  </tr>
-<tr>
-  <td id="kt_table_4">5</td>
-  <td style="text-align:center" nowrap="nowrap">Makassar</td>
-  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123215&lt;hr&gt;Muhammad Ramadhan, ST" data-html="true"> <img src="../assets/media/users/100_5.jpg" alt="image" /></a></td>
-  <td nowrap="nowrap" style="text-align:center">000002INMEM0626</td>
-  <td nowrap="nowrap" style="text-align:left"><span class="btn btn-label-twitter btn-sm">Member</span></td>
-  <td nowrap="nowrap" style="text-align:left">Truck/Tronton/Trailer</td>
-  <td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
-  <td nowrap="nowrap" style="text-align:center">1 September 2026
-    <hr />
-    15:36:00 WITA</td>
-  <td style="text-align:center">2</td>
-  <td style="text-align:center">Masuk<hr>Mobil - 2</td>
-  <td style="text-align:center"><span class="btn btn-label-danger btn-sm">Parkir</span></td>
-  <td nowrap="nowrap" style="text-align:center">-</td>
-  <td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/keluar-mobil-2.png" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/keluar-mobil.png" alt="image" /></a></td>
-	  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
-												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-												    <ul class="kt-nav">
-												      <li class="kt-nav__item"> <a href="detail-kendaraan-masuk.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="cetak-karcis-masuk.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Karcis Masuk</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
-											        </ul>
-											      </div>
-												  </div></td>
-</tr>
-</tbody>
-									</table>
-												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-												
-												
-												
-									<div class="kt-portlet__foot kt-align-center">
-												<div class="">
-<button type="reset" class="btn btn-secondary btn-sm">Batal</button>
-													<button type="reset" class="btn btn-success btn-sm"><i class="fa fa-check-circle"></i>Simpan</button>
+						<!--begin::Widget -->
+						<div class="kt-widget kt-widget--project-1">
+							<div class="kt-widget__head d-flex">
+								<div class="kt-widget__label">
+									<div class="kt-widget__info kt-padding-0 kt-margin-l">
+										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
+										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">GATE - 1</span>
+										<a href="#" class="kt-widget__title">
+											<span class="btn btn-youtube btn-sm">KELUAR</span>
+<span class="btn btn-youtube btn-sm">MOBIL - 1</span>
+										</a>
+<a href="#" class="kt-widget__title">
+											<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
+										</a>
+									</div>
+								</div>
+								<div class="kt-widget__toolbar">
+                                    <div class="kt-widget6__item">
+														
+														<span><img src="../assets/img/users/300_8.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
+													</div>
+									
+								</div>
+							</div>
+							<div class="kt-widget__body" style="padding-bottom:0 !important">
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="kt-timeline-v2">
+        									<div class="kt-timeline-v2__items">
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Dispenser Keluar
+        											</div>
+        										</div>
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Printer
+        											</div>
+													
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Payment Reader
+        											</div>
+													
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-brand"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Scanner
+        											</div>
+													
+        										</div>
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-brand"></i>
+        											</div>
+                              <div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Hub / Switch
+        											</div>
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+                              <div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												PC
+        											</div>
+        										</div>
+        									</div>
+        								</div>
+                      </div>
+					  <div class="col-md-6" style="border-left:1px solid #eee">
+											<div class="kt-widget6">
+												<div class="kt-widget6__body">
+												<div class="kt-widget6__item">
+														<span>IP Dispenser </span>
+														<span>192.168.0.121</span>
+													</div>
+													
+													<div class="kt-widget6__item">
+														<span>Sisa Print Karcis</span>
+														<span>50</span>
+													</div>
+<div class="kt-widget6__item">
+														<span>&nbsp;</span>
+														<span>&nbsp;</span>
+													</div>
+<div class="kt-widget6__item">
+														<span>&nbsp;</span>
+														<span>&nbsp;</span>
+													</div>
+<div class="kt-widget6__item">
+														<span>&nbsp;</span>
+														<span>&nbsp;</span>
+													</div>
+<div class="kt-widget6__item">
+														<span>IP Address</span>
+														<span>192.168.0.122</span>
+													</div>
+													
+													
+													
 												</div>
 											</div>
+                                    </div>
+					  <div class="col-md-6">
+                                        <div class="kt-timeline-v2">
+        									<div class="kt-timeline-v2__items">
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Dispenser Controller
+        											</div>
+        										</div>
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Barrier Gate Controller
+        											</div>
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Member Reader
+        											</div>
+        										</div>
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+                              <div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												CCTV Plat
+        											</div>
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+                              <div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												CCTV Record
+        											</div>
+        										</div>
+												
+        									</div>
+        								</div>
+                      </div>
+					  
+                    <div class="col-md-6" style="border-left:1px solid #eee">
+											<div class="kt-widget6">
+												<div class="kt-widget6__body">
+													
+													<div class="kt-widget6__item">
+														<span>IP Controller </span>
+														<span>192.168.0.123</span>
+													</div>&nbsp;
+													<div class="kt-widget6__item">
+														<span>IP Barrier Gate</span>
+														<span>192.168.0.124</span>
+													</div>&nbsp;
+													<div class="kt-widget6__item">
+														<span>IP Member Reader</span>
+														<span>192.168.0.125</span>
+													</div>
+													<div class="kt-widget6__item">
+														<span>IP CCTV</span>
+														<span>192.168.0.126</span>
+													</div>
+													<div class="kt-widget6__item">
+														<span>IP CCTV Record</span>
+														<span>192.168.0.127</span>
+													</div>
 
+												</div>
+											</div>
+                                    </div>
+                                </div>
 
-
-
+							</div><br>
+							<div class="kt-widget__footer">
+								<div class="kt-widget__wrapper" style="padding:10px 20px">
+									<div class="kt-widget__section">
+										<div class="kt-widget__blog">
+											<i class="fa fa-clock"></i>
+											<a href="#" class="kt-widget__value kt-font-brand">10 Februari 2023 - 20:07:00 WITA</a>
+										</div>
 									</div>
+									<div class="kt-widget__section">
+										<a href="see-cctv.php" class="btn btn-label-brand btn-sm"><i class="fa flaticon-eye"></i>LIHAT CCTV</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!--end::Widget -->
+					</div>
+				<!--end:: Portlet-->
+			</div>
+												
+												
+												
+												
+									
+
+
+
+
 
 									</div>
 								</div>
@@ -1155,9 +1404,9 @@
 								</div>
 								</div>
 							<!--End::Modal Modal Registrasi Sticker-->
-							<!--begin::Modal Ubah Sticker-->
-									<div class="modal fade" id="modal_ubah_sticker" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+							<!--begin::Modal Jalur Masuk Offline-->
+									<div class="modal fade" id="modal_jalur_offline" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 									<div class="modal-content">
 
 										<div class="modal-body">
@@ -1165,60 +1414,241 @@
 											<div class="kt-portlet__head">
 											<div class="kt-portlet__head-label">
 												<span class="kt-portlet__head-icon" style="font-size:25px;"><i class="kt-font-brand fa fa-barcode"></i></span>
-												<h3 class="kt-portlet__head-title kt-font-danger">UBAH STICKER</h3>
+												<h3 class="kt-portlet__head-title kt-font-danger">DATA KESIAPAN PERANGKAT & SYSTEM</h3>
 											</div>
 											<div class="kt-portlet__head-toolbar">
 												<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">X</button>
 											</div>
 										</div>
-										<div class="kt-portlet__body">
-											<div class="tab-content">
-												<div class="tab-pane active" id="kt_tabs_7_1" role="tabpanel">
-													<div class="form-group row">
-													<div class="col-lg-12">
-														<label>Sticker Kendaraan :</label>
-														<div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch">
-        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
-    		                            <span><i class="fa fa-credit-card"></i></span>
-    		                        </span>
-    		                    </div>
+											<div class="col-xl-12">
+				<!--begin:: Portlet-->
+				<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--success">
+                        <!--begin::status -->
+						
+                        <!--end::status -->
 
-												</div>
-												
-												
-												</div>
-												
-												</div>
-												
-												
-
-												</div>
-												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-												
-												
-												
-									<div class="kt-portlet__foot kt-align-center">
-												<div class="">
-<button type="reset" class="btn btn-secondary btn-sm">Batal</button>
-													<button type="reset" class="btn btn-success btn-sm"><i class="fa fa-check-circle"></i>Simpan</button>
+						<!--begin::Widget -->
+						<div class="kt-widget kt-widget--project-1">
+							<div class="kt-widget__head d-flex">
+								<div class="kt-widget__label">
+									<div class="kt-widget__info kt-padding-0 kt-margin-l">
+										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
+										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">GATE - 1</span>
+										<a href="#" class="kt-widget__title">
+											<span class="btn btn-primary btn-sm">MASUK</span>
+<span class="btn btn-primary btn-sm">MOBIL - 1</span>
+										</a>
+<a href="#" class="kt-widget__title">
+											<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
+										</a>
+									</div>
+								</div>
+								<div class="kt-widget__toolbar">
+                                    <div class="kt-widget6__item">
+														
+														<span><img src="../assets/img/users/300_5.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="082244444436<hr>Muhammad Nasrullah, S.Kom" data-html="true"></span>
+													</div>
+									
+								</div>
+							</div>
+							<div class="kt-widget__body" style="padding-bottom:0 !important">
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="kt-timeline-v2">
+        									<div class="kt-timeline-v2__items">
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Dispenser Masuk
+        											</div>
+        										</div>
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Printer
+        											</div>
+													
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-danger btn-sm">Offline</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Payment Reader
+        											</div>
+													
+        										</div>
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-brand"></i>
+        											</div>
+                              <div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Hub / Switch
+        											</div>
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+                              <div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												PC
+        											</div>
+        										</div>
+        									</div>
+        								</div>
+                      </div>
+					  <div class="col-md-6" style="border-left:1px solid #eee">
+											<div class="kt-widget6">
+												<div class="kt-widget6__body">
+												<div class="kt-widget6__item">
+														<span>IP Dispenser </span>
+														<span>192.168.0.121</span>
+													</div>
+													
+													<div class="kt-widget6__item">
+														<span>Sisa Print Karcis</span>
+														<span>50</span>
+													</div>
+<div class="kt-widget6__item">
+														<span>&nbsp;</span>
+														<span>&nbsp;</span>
+													</div>
+<div class="kt-widget6__item">
+														<span>&nbsp;</span>
+														<span>&nbsp;</span>
+													</div>
+<div class="kt-widget6__item">
+														<span>IP Address</span>
+														<span>192.168.0.122</span>
+													</div>
+													
+													
+													
 												</div>
 											</div>
+                                    </div>
+					  <div class="col-md-6">
+                                        <div class="kt-timeline-v2">
+        									<div class="kt-timeline-v2__items">
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Dispenser Controller
+        											</div>
+        										</div>
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Barrier Gate Controller
+        											</div>
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Member Reader
+        											</div>
+        										</div>
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+                              <div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												CCTV Plat
+        											</div>
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+                              <div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												CCTV Record
+        											</div>
+        										</div>
+												
+        									</div>
+        								</div>
+                      </div>
+					  
+                    <div class="col-md-6" style="border-left:1px solid #eee">
+											<div class="kt-widget6">
+												<div class="kt-widget6__body">
+													
+													<div class="kt-widget6__item">
+														<span>IP Controller </span>
+														<span>192.168.0.123</span>
+													</div>&nbsp;
+													<div class="kt-widget6__item">
+														<span>IP Barrier Gate</span>
+														<span>192.168.0.124</span>
+													</div>&nbsp;
+													<div class="kt-widget6__item">
+														<span>IP Member Reader</span>
+														<span>192.168.0.125</span>
+													</div>
+													<div class="kt-widget6__item">
+														<span>IP CCTV</span>
+														<span>192.168.0.126</span>
+													</div>
+													<div class="kt-widget6__item">
+														<span>IP CCTV Record</span>
+														<span>192.168.0.127</span>
+													</div>
 
+												</div>
+											</div>
+                                    </div>
+                                </div>
 
-
-
+							</div><br>
+							<div class="kt-widget__footer">
+								<div class="kt-widget__wrapper" style="padding:10px 20px">
+									<div class="kt-widget__section">
+										<div class="kt-widget__blog">
+											<i class="fa fa-clock"></i>
+											<a href="#" class="kt-widget__value kt-font-brand">10 Februari 2023 - 20:07:00 WITA</a>
+										</div>
 									</div>
-
+									<div class="kt-widget__section">
+										<a href="see-cctv.php" class="btn btn-brand btn-sm"><i class="fa flaticon-eye"></i>LIHAT CCTV</a>
 									</div>
+								</div>
+							</div>
+						</div>
+						<!--end::Widget -->
+					</div>
+				<!--end:: Portlet-->
+			</div>
+												
+
 								</div>
 								</div>
 								</div>
 								</div>
 								</div>
 							<!--End::Modal Ubah Sticker-->
-							<!--begin::Modal history sticker-->
-									<div class="modal fade" id="modal_history_sticker" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+							<!--begin::Modal Lihat Jalur Masuk-->
+									<div class="modal fade" id="modal_lihat_jalur_masuk" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 									<div class="modal-content">
 
@@ -1227,128 +1657,235 @@
 											<div class="kt-portlet__head">
 											<div class="kt-portlet__head-label">
 												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-barcode"></i></span>
-												<h3 class="kt-portlet__head-title kt-font-danger">HISTORY STICKER MEMBER</h3>
+												<h3 class="kt-portlet__head-title kt-font-danger">DATA KESIAPAN PERANGKAT & SYSTEM</h3>
 											</div>
 											<div class="kt-portlet__head-toolbar">
 												<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">X</button>
 											</div>
 										</div>
-										<div class="kt-portlet__body">
-											 <table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
-										<thead>
-											<tr style="text-align:center">
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Cabang</th>
-											  <th colspan="5" bgcolor="#feffed">Kendaraan</th>
-											  <th colspan="3" bgcolor="#feffed">Status</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
-										  </tr>
-											<tr style="text-align:center">
-											  <th width="1%" bgcolor="#feffed">Kategori</th>
-											  <th width="2%" bgcolor="#feffed">No. Plat</th>
-											  <th width="4%" bgcolor="#feffed">Sticker Member</th>
-											  <th width="4%" bgcolor="#feffed">Tanggal Registrasi</th>
-											  <th width="4%" bgcolor="#feffed">Aktif Hingga</th>
-											  <th width="3%" bgcolor="#feffed">By</th>
-											  <th width="3%" bgcolor="#feffed"> Member</th>
-											  <th width="3%" bgcolor="#feffed">Pembayaran</th>
-				                          </tr>
-										</thead>
-										<tbody>
-										  <tr>
-												<td id="kt_table_1">1</td>
-												<td style="text-align:center" nowrap>Makassar</td>
-												<td nowrap="nowrap" style="text-align:left">Sepeda Motor</td>
-												<td nowrap="nowrap" style="text-align:left">DD 1111 LU</td>
-												<td nowrap="nowrap" style="text-align:left"><span style="text-align:center">12321355123124</span></td>
-												<td nowrap="nowrap" style="text-align:left">1 Januari 2026</td>
-												<td nowrap="nowrap" style="text-align:left">31 Desember 2026</td>
-												<td style="text-align:center" nowrap="">Online</td>
-												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-success btn-sm">Aktif</button></td>
-												<td class="text-center"><span class="btn btn-label-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Penerima<hr>Yuni Saslia, SE<hr>31 September 2026<br>10:02 WITA" data-html="true">Tunai</span></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="member-detail.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Profil Member</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="ubah-member.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-edit"></i>
-																				<span class="kt-nav__link-text">Ubah Data Member</span>
-																			</a>
-																		</li>
-																		
-																		
-																		<li class="kt-nav__item">
-																			<a href="sticker-member.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-barcode"></i>
-																				<span class="kt-nav__link-text">Register Sticker Member</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="history-member.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-coins"></i>
-																				<span class="kt-nav__link-text">History Pembayaran</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="member-suspend.php" class="kt-nav__link">
-																		
-																				<i class="kt-nav__link-icon fa fa-user-slash"></i>
-																				<span class="kt-nav__link-text">Suspend</span></a>
-																			</li>
-																		
-																		
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																			
-																		</li>
-																		
-																	</ul>
-																</div>
-															</div></td>
-										  </tr>
-										  <tr>
-										    <td id="kt_table_4">2</td>
-										    <td style="text-align:center" nowrap>Makassar</td>
-										    <td nowrap="nowrap" style="text-align:left">Sepeda Motor</td>
-										    <td nowrap="nowrap" style="text-align:left">DD 1111 LU</td>
-										    <td nowrap="nowrap" style="text-align:left"><span style="text-align:center">12321355123124</span></td>
-										    <td nowrap="nowrap" style="text-align:left">1 Januari 2026</td>
-										    <td nowrap="nowrap" style="text-align:left">31 Desember 2026</td>
-										    <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
-										    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-success btn-sm">Aktif</button></td>
-										    <td class="text-center"><span class="btn btn-label-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Penerima&lt;hr&gt;Yuni Saslia, SE&lt;hr&gt;31 September 2026&lt;br&gt;10:02 WITA" data-html="true">Tunai</span></td>
-										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
-										      <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-										        <ul class="kt-nav">
-										          <li class="kt-nav__item"> <a href="member-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Profil Member</span> </a> </li>
-										          <li class="kt-nav__item"> <a href="ubah-member.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Ubah Data Member</span> </a> </li>
-										          <li class="kt-nav__item"> <a href="sticker-member.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-barcode"></i> <span class="kt-nav__link-text">Register Sticker Member</span> </a> </li>
-										          <li class="kt-nav__item"> <a href="history-member.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-coins"></i> <span class="kt-nav__link-text">History Pembayaran</span> </a> </li>
-										          <li class="kt-nav__item"> <a href="member-suspend.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-slash"></i> <span class="kt-nav__link-text">Suspend</span></a> </li>
-										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
-									            </ul>
-									          </div>
-										      </div></td>
-									      </tr>
-  </tbody>
-									</table>
+											 <div class="col-xl-12">
+				<!--begin:: Portlet-->
+				<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--success">
+                        <!--begin::status -->
+						
+                        <!--end::status -->
+
+						<!--begin::Widget -->
+						<div class="kt-widget kt-widget--project-1">
+							<div class="kt-widget__head d-flex">
+								<div class="kt-widget__label">
+									<div class="kt-widget__info kt-padding-0 kt-margin-l">
+										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
+										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">GATE - 1</span>
+										<a href="#" class="kt-widget__title">
+											<span class="btn btn-primary btn-sm">MASUK</span>
+<span class="btn btn-primary btn-sm">MOBIL - 1</span>
+										</a>
+<a href="#" class="kt-widget__title">
+											<span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">READY</span>
+										</a>
+									</div>
+								</div>
+								<div class="kt-widget__toolbar">
+                                    <div class="kt-widget6__item">
+														
+														<span><img src="../assets/img/users/300_5.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="082244444436<hr>Muhammad Nasrullah, S.Kom" data-html="true"></span>
+													</div>
+									
+								</div>
+							</div>
+							<div class="kt-widget__body" style="padding-bottom:0 !important">
+                                <br>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="kt-timeline-v2">
+        									<div class="kt-timeline-v2__items">
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Dispenser Masuk
+        											</div>
+        										</div>
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Printer
+        											</div>
+													
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Payment Reader
+        											</div>
+													
+        										</div>
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-brand"></i>
+        											</div>
+                              <div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Hub / Switch
+        											</div>
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+                              <div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												PC
+        											</div>
+        										</div>
+        									</div>
+        								</div>
+                      </div>
+					  <div class="col-md-6" style="border-left:1px solid #eee">
+											<div class="kt-widget6">
+												<div class="kt-widget6__body">
+												<div class="kt-widget6__item">
+														<span>IP Dispenser </span>
+														<span>192.168.0.121</span>
+													</div>
+													
+													<div class="kt-widget6__item">
+														<span>Sisa Print Karcis</span>
+														<span>50</span>
+													</div>
+<div class="kt-widget6__item">
+														<span>&nbsp;</span>
+														<span>&nbsp;</span>
+													</div>
+<div class="kt-widget6__item">
+														<span>&nbsp;</span>
+														<span>&nbsp;</span>
+													</div>
+<div class="kt-widget6__item">
+														<span>IP Address</span>
+														<span>192.168.0.122</span>
+													</div>
+													
+													
+													
+												</div>
+											</div>
+                                    </div>
+					  <div class="col-md-6">
+                                        <div class="kt-timeline-v2">
+        									<div class="kt-timeline-v2__items">
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Dispenser Controller
+        											</div>
+        										</div>
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Barrier Gate Controller
+        											</div>
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Member Reader
+        											</div>
+        										</div>
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+                              <div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												CCTV Plat
+        											</div>
+        										</div>
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+                              <div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												CCTV Record
+        											</div>
+        										</div>
+												
+        									</div>
+        								</div>
+                      </div>
+					  
+                    <div class="col-md-6" style="border-left:1px solid #eee">
+											<div class="kt-widget6">
+												<div class="kt-widget6__body">
+													
+													<div class="kt-widget6__item">
+														<span>IP Controller </span>
+														<span>192.168.0.123</span>
+													</div>&nbsp;
+													<div class="kt-widget6__item">
+														<span>IP Barrier Gate</span>
+														<span>192.168.0.124</span>
+													</div>&nbsp;
+													<div class="kt-widget6__item">
+														<span>IP Member Reader</span>
+														<span>192.168.0.125</span>
+													</div>
+													<div class="kt-widget6__item">
+														<span>IP CCTV</span>
+														<span>192.168.0.126</span>
+													</div>
+													<div class="kt-widget6__item">
+														<span>IP CCTV Record</span>
+														<span>192.168.0.127</span>
+													</div>
+
+												</div>
+											</div>
+                                    </div>
+                                </div>
+
+							</div><br>
+							<div class="kt-widget__footer">
+								<div class="kt-widget__wrapper" style="padding:10px 20px">
+									<div class="kt-widget__section">
+										<div class="kt-widget__blog">
+											<i class="fa fa-clock"></i>
+											<a href="#" class="kt-widget__value kt-font-brand">10 Februari 2023 - 20:07:00 WITA</a>
+										</div>
+									</div>
+									<div class="kt-widget__section">
+										<a href="see-cctv.php" class="btn btn-brand btn-sm"><i class="fa flaticon-eye"></i>LIHAT CCTV</a>
 									</div>
 								</div>
 							</div>
-							<!--End::Modal history sticker-->
+						</div>
+						<!--end::Widget -->
+					</div>
+				<!--end:: Portlet-->
+		
+									</div>
+								</div>
+							</div>
+							<!--End::Modal Lihat Jalur Masuk-->
                     
 									<!--end: Datatable -->
 								</div>
