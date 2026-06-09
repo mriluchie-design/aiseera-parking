@@ -29,7 +29,7 @@
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Kendaraan Masuk </span>
+											Kendaraan Keluar </span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
 										</form>
@@ -47,7 +47,7 @@
                     <!--begin::Nav-->
                     <ul class="kt-nav">
                         <li class="kt-nav__item">
-                            <a href="cetak-rekap-transaksi-kendaraan-masuk.php" class="kt-nav__link">
+                            <a href="cetak-rekap-transaksi-kendaraan-keluar.php" class="kt-nav__link">
                                 <i class="kt-nav__link-icon fa fa-file-pdf"></i><span class="kt-nav__link-text">PDF</span>
                             </a>
                           </li>
@@ -125,7 +125,7 @@
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected="">Reguler</option>
-                                      <option value="2">Member</option>
+                                      <option value="2">Denda</option>
                                       <option value="2">Keseluruhan</option>
                                                                            
                                   </select>
@@ -270,7 +270,7 @@
 											<tr style="text-align:center;">
 											  <th rowspan="2" bgcolor="#f7fcff" id="kt_table_3">#</th>
 											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
-											  <th colspan="4" bgcolor="#f7fcff">Transaksi</th>
+											  <th colspan="4" bgcolor="#f7fcff">Transaksi Keluar</th>
 											  <th colspan="6" bgcolor="#fdfdec">Pembayaran</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 									      </tr>
@@ -293,11 +293,11 @@
 											  <td nowrap style="text-align:left">Makassar</td>
 											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm" >Reguler</span></td>
 											  <td nowrap="nowrap" style="text-align:left">Motor</td>
-											  <td nowrap style="text-align:left">000001INTEM0626</td>
+											  <td nowrap style="text-align:left">000001LETEM0626</td>
 											  <td nowrap style="text-align:left">DD 1111 LUU</td>
-											  <td nowrap style="text-align:left">000001PINTEM0626</td>
+											  <td nowrap style="text-align:left">000005PLETEM0626</td>
 											  <td nowrap style="text-align:center">1 September 2026<hr>15:37:00 WITA</td>
-											  <td nowrap style="text-align:left">000001PGTEM0626</td>
+											  <td nowrap style="text-align:left">000005PGTEM0626</td>
 											  <td nowrap style="text-align:center"><span class="btn btn-label-brand btn-sm" >eMoney</span></td>
 											  <td>Mandiri</td>
 											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>8.000,-</span></div></td>
@@ -306,13 +306,13 @@
 											<tr>
 											  <td  width="1%" id="kt_table_12" style="text-align:right">2</td>
 											  <td nowrap="nowrap" style="text-align:left">Makassar</td>
-											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm" >Reguler</span></td>
+											  <td nowrap style="text-align:center"><span class="btn btn-label-brand btn-sm" >Reguler</span></td>
 											  <td nowrap style="text-align:left">Mobil</td>
-											  <td nowrap="nowrap" style="text-align:left">000002INTEM0626</td>
+											  <td nowrap="nowrap" style="text-align:left">000002LETEM0626</td>
 											  <td nowrap="nowrap" style="text-align:left">DD 1111 LU</td>
-											  <td nowrap="nowrap" style="text-align:left">000002PINTEM0626</td>
+											  <td nowrap="nowrap" style="text-align:left">000006PLETEM0626</td>
 											  <td nowrap="nowrap" style="text-align:center">1 September 2026<hr />15:38:00 WITA</td>
-											  <td nowrap="nowrap" style="text-align:left">000002PGTEM0626</td>
+											  <td nowrap="nowrap" style="text-align:left">000006PGTEM0626</td>
 											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm" >eMoney</span></td>
 											  <td>BNI Tapcash</td>
 											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>15.000,-</span></div></td>
@@ -321,13 +321,13 @@
 										  <tr>
 											  <td  width="1%" id="kt_table_12" style="text-align:right">3</td>
 											  <td nowrap="nowrap" style="text-align:left">Makassar</td>
-											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm" >Reguler</span></td>
+											  <td nowrap style="text-align:center"><span class="btn btn-label-brand btn-sm" >Reguler</span></td>
 											  <td nowrap style="text-align:left">Mobil</td>
-											  <td nowrap="nowrap" style="text-align:left">000001INTQR0626</td>
+											  <td nowrap="nowrap" style="text-align:left">000001LETQR0626</td>
 											  <td nowrap="nowrap" style="text-align:left">DD 1111 LU</td>
-											  <td nowrap="nowrap" style="text-align:left">000001PINTQR0626</td>
+											  <td nowrap="nowrap" style="text-align:left">000006PLETQR0626</td>
 											  <td nowrap="nowrap" style="text-align:center">1 September 2026<hr />15:39:00 WITA</td>
-											  <td nowrap="nowrap" style="text-align:left">000001PGTQR0626</td>
+											  <td nowrap="nowrap" style="text-align:left">000006PGTQR0626</td>
 											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm" >QRIS</span></td>
 											  <td>OVO</td>
 											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>15.000,-</span></div></td>
@@ -336,25 +336,40 @@
 										  <tr>
 											  <td  width="1%" id="kt_table_12" style="text-align:right">4</td>
 											  <td nowrap="nowrap" style="text-align:left">Makassar</td>
-											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm" >Reguler</span></td>
+											  <td nowrap style="text-align:center"><span class="btn btn-label-brand btn-sm" >Reguler</span></td>
 											  <td nowrap style="text-align:left">Mobil</td>
-											  <td nowrap="nowrap" style="text-align:left">000002INTQR0626</td>
+											  <td nowrap="nowrap" style="text-align:left">000002LETQR0626</td>
 											  <td nowrap="nowrap" style="text-align:left">DD 1111 LU</td>
-											  <td nowrap="nowrap" style="text-align:left">000002PINTQR0626</td>
+											  <td nowrap="nowrap" style="text-align:left">000007PLETQR0626</td>
 											  <td nowrap="nowrap" style="text-align:center">1 September 2026<hr />15:40:00 WITA</td>
-											  <td nowrap="nowrap" style="text-align:left">000002PGTQR0626</td>
+											  <td nowrap="nowrap" style="text-align:left">000007PGTQR0626</td>
 											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm" >QRIS</span></td>
 											  <td>DANA</td>
 											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>15.000,-</span></div></td>
 											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 										  </tr>
-									      <tr>
+										  <tr>
+										    <td id="kt_table_5" style="text-align:right">5</td>
+										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-danger btn-sm" >Denda</span></td>
+										    <td nowrap="nowrap" style="text-align:left">Motor</td>
+										    <td nowrap="nowrap" style="text-align:left">000001DENDA0626</td>
+										    <td nowrap="nowrap" style="text-align:left">DD 1111 LU</td>
+										    <td nowrap="nowrap" style="text-align:left">000001DENDA0626</td>
+										    <td nowrap="nowrap" style="text-align:center">1 September 2026<hr />15:41:00 WITA</td>
+										    <td nowrap="nowrap" style="text-align:left">000008PGTQR0626</td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm" >QRIS</span></td>
+										    <td>DANA</td>
+										    <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>20.000,-</span></div></td>
+										    <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
+									      </tr>
+										  <tr>
 										    <td colspan="11" bgcolor="#f7fcff" id="kt_table_10" style="text-align:right"><b>Grand Total</b></td>
-										    <td bgcolor="#f7fcff" style="text-align:right" id="kt_table_10"><div style="display: flex; justify-content: space-between; align-items: center;"> <span><b>Rp.</b></span> <span><b>53.000,-</b></span></div></td>
+										    <td bgcolor="#f7fcff" style="text-align:right" id="kt_table_10"><div style="display: flex; justify-content: space-between; align-items: center;"> <span><b>Rp.</b></span> <span><b>73.000,-</b></span></div></td>
 										    <td bgcolor="#f7fcff">&nbsp;</td>
 									      </tr>
 										  <tr>
-										    <td bgcolor="#f7fcff" style="text-align:left" colspan="13" id="kt_table_2"><em><strong>Terbilang : Lima Puluh Tiga Ribu Rupiah</strong></em></td>
+										    <td bgcolor="#f7fcff" style="text-align:left" colspan="13" id="kt_table_2"><em><strong>Terbilang : Tujuh Puluh Tiga Ribu Rupiah</strong></em></td>
 									      </tr>
   </tbody>
 									</table>
