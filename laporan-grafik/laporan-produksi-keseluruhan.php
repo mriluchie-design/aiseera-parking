@@ -230,12 +230,12 @@
 											  <td colspan="13" nowrap style="text-align:left"><strong>Makassar</strong></td>
 										  </tr>
 											<tr>
-											  <td width="1%" id="kt_table_12" style="text-align:right"><strong>1.1</strong></td>
-											  <td colspan="13" nowrap style="text-align:left"><strong>Data Kendaraan Masuk</strong></td>
+											  <td bgcolor="#f7fcff"  width="1%" id="kt_table_12" style="text-align:right"><strong>1.1</strong></td>
+											  <td bgcolor="#f7fcff" colspan="13" nowrap style="text-align:left"><strong>Data Kendaraan Masuk</strong></td>
 										  </tr>
 											<tr>
 											  <td colspan="2" rowspan="9" id="kt_table_4" style="text-align:right">&nbsp;</td>
-											  <td width="1%" nowrap="nowrap" style="text-align:right">1</td>
+											  <td width="1%" nowrap="nowrap" style="text-align:right">1.1.1</td>
 											  <td width="5%" nowrap="nowrap" style="text-align:left">Reguler</td>
 											  <td nowrap="nowrap" style="text-align:left">Motor</td>
 											  <td nowrap="nowrap" style="text-align:right">14</td>
@@ -249,8 +249,7 @@
 											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 									      </tr>
 											<tr>
-											  <td nowrap="nowrap" style="text-align:right">2</td>
-											  <td nowrap="nowrap" style="text-align:left">Reguler</td>
+											  <td colspan="2" nowrap="nowrap" style="text-align:right"></td>
 											  <td nowrap="nowrap" style="text-align:left">Mobil</td>
 											  <td nowrap="nowrap" style="text-align:right">25</td>
 											  <td nowrap="nowrap" style="text-align:right">712</td>
@@ -263,7 +262,7 @@
 											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 									      </tr>
 											<tr>
-											  <td nowrap="nowrap" style="text-align:right">3</td>
+											  <td nowrap="nowrap" style="text-align:right">1.1.2</td>
 											  <td nowrap="nowrap" style="text-align:left">Member</td>
 											  <td nowrap="nowrap" style="text-align:left">Motor</td>
 											  <td nowrap="nowrap" style="text-align:right">14</td>
@@ -314,7 +313,7 @@
 											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 									      </tr>
 											<tr>
-											  <td nowrap style="text-align:right">4</td>
+											  <td nowrap style="text-align:right">1.1.3</td>
 											  <td nowrap style="text-align:left">Pass Kade</td>
 											  <td nowrap style="text-align:left">Truck</td>
 											  <td nowrap="nowrap" style="text-align:right">14</td>
@@ -364,12 +363,12 @@
 											  <td colspan="14" id="kt_table_31" style="text-align:right">&nbsp;</td>
 										  </tr>
 											<tr>
-											  <td style="text-align:right" id="kt_table_27"><strong>1.2</strong></td>
-											  <td colspan="13" nowrap style="text-align:left"><strong>Data Kendaraan Keluar</strong></td>
+											  <td bgcolor="#f7fcff"  style="text-align:right" id="kt_table_27"><strong>1.2</strong></td>
+											  <td bgcolor="#f7fcff"  colspan="13" nowrap style="text-align:left"><strong>Data Kendaraan Keluar</strong></td>
 										  </tr>
 											<tr>
 											  <td colspan="2" rowspan="13" id="kt_table_26" style="text-align:right">&nbsp;</td>
-											  <td nowrap="nowrap" style="text-align:right">1</td>
+											  <td nowrap="nowrap" style="text-align:right">1.2.1</td>
 											  <td nowrap="nowrap" style="text-align:left">Reguler</td>
 											  <td nowrap="nowrap" style="text-align:left">Motor</td>
 											  <td nowrap="nowrap" style="text-align:right">14</td>
@@ -383,8 +382,8 @@
 											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 									      </tr>
 											<tr>
-											  <td nowrap="nowrap" style="text-align:right">2</td>
-											  <td nowrap="nowrap" style="text-align:left">Reguler</td>
+											  <td nowrap="nowrap" style="text-align:right">&nbsp;</td>
+											  <td nowrap="nowrap" style="text-align:left">&nbsp;</td>
 											  <td nowrap="nowrap" style="text-align:left">Mobil</td>
 											  <td nowrap="nowrap" style="text-align:right">25</td>
 											  <td nowrap="nowrap" style="text-align:right">712</td>
@@ -397,7 +396,7 @@
 											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 									      </tr>
 											<tr>
-											  <td nowrap="nowrap" style="text-align:right">3</td>
+											  <td nowrap="nowrap" style="text-align:right">1.2.2</td>
 											  <td nowrap="nowrap" style="text-align:left">Member</td>
 											  <td nowrap="nowrap" style="text-align:left">Motor</td>
 											  <td nowrap="nowrap" style="text-align:right">14</td>
@@ -448,7 +447,7 @@
 											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 									      </tr>
 											<tr>
-											  <td nowrap style="text-align:right">4</td>
+											  <td nowrap style="text-align:right">1.2.3</td>
 											  <td nowrap="nowrap" style="text-align:left">Kendaraan Berangkat</td>
 											  <td nowrap="nowrap" style="text-align:left">Motor</td>
 											  <td nowrap="nowrap" style="text-align:right">14</td>
@@ -475,7 +474,7 @@
 											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 									      </tr>
 											<tr>
-											  <td nowrap style="text-align:right">5</td>
+											  <td nowrap style="text-align:right">1.2.4</td>
 											  <td nowrap="nowrap" style="text-align:left">Muatan Kapal</td>
 											  <td nowrap="nowrap" style="text-align:left">Motor</td>
 											  <td nowrap="nowrap" style="text-align:right">14</td>
@@ -502,7 +501,7 @@
 											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 									      </tr>
 											<tr>
-											  <td nowrap style="text-align:right">6</td>
+											  <td nowrap style="text-align:right">1.2.5</td>
 											  <td nowrap="nowrap" style="text-align:left">Free Pass</td>
 											  <td nowrap="nowrap" style="text-align:left">&nbsp;</td>
 											  <td nowrap="nowrap" style="text-align:right">25</td>
@@ -516,7 +515,7 @@
 											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 									      </tr>
 											<tr>
-											  <td nowrap style="text-align:right">7</td>
+											  <td nowrap style="text-align:right">1.2.6</td>
 											  <td nowrap="nowrap" style="text-align:left">Denda</td>
 											  <td nowrap="nowrap" style="text-align:left">Mobil</td>
 											  <td nowrap="nowrap" style="text-align:right">14</td>
