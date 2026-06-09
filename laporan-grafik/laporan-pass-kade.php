@@ -365,8 +365,8 @@
 											  <th width="1%" bgcolor="#feffed">Kendaraan</th>
 											  <th width="1%" bgcolor="#feffed">Gol</th>
 											  <th width="1%" bgcolor="#feffed">No. Plat</th>
-											  <th width="1%" bgcolor="#feffed">Karcis / Kartu</th>
-											  <th colspan="2" bgcolor="#feffed">Volume Muatan</th>
+											  <th width="1%" bgcolor="#feffed">Karcis / eMoney</th>
+											  <th colspan="2" bgcolor="#feffed">Volume<br>Muatan</th>
 											  <th width="1%" bgcolor="#feffed">Waktu </th>
 											  <th width="1%" bgcolor="#f7fcff">ID Reff</th>
 											  <th width="1%" bgcolor="#f7fcff">Metode</th>

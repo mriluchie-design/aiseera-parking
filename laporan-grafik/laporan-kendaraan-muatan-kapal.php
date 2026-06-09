@@ -381,7 +381,7 @@
 											  <th width="1%" bgcolor="#feffed">Kategori</th>
 											  <th width="1%" bgcolor="#feffed">Jenis</th>
 											  <th width="1%" bgcolor="#feffed">No. Plat</th>
-											  <th width="1%" bgcolor="#feffed">Karcis / Kartu</th>
+											  <th width="1%" bgcolor="#feffed">Karcis / eMoney</th>
 											  <th width="1%" bgcolor="#feffed">Waktu Keluar</th>
 											  <th width="1%" bgcolor="#f7fcff">Reff ID</th>
 											  <th width="1%" bgcolor="#f7fcff">Metode</th>

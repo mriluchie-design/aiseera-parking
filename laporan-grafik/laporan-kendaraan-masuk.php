@@ -413,7 +413,7 @@
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Member</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">ID Transaksi</th>
-											  <th colspan="8" bgcolor="#feffed">Kendaraan Masuk</th>
+											  <th colspan="9" bgcolor="#feffed">Kendaraan Masuk</th>
 											  <th colspan="2" bgcolor="#f7fcff">Foto</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
@@ -423,9 +423,10 @@
 											  <th width="2%" bgcolor="#feffed">No. Plat</th>
 											  <th width="3%" bgcolor="#feffed">Waktu</th>
 											  <th width="1%" bgcolor="#feffed">Gate</th>
-											  <th width="5%" bgcolor="#feffed">Jalur</th>
+											  <th width="3%" bgcolor="#feffed">Jalur</th>
+											  <th width="5%" bgcolor="#feffed">Nama Jalur</th>
 											  <th width="3%" bgcolor="#feffed">Status</th>
-											  <th width="3%" bgcolor="#feffed">Pembayaran</th>
+											  <th width="5%" bgcolor="#feffed">Pembayaran</th>
 											  <th width="1%" bgcolor="#f7fcff">Webcam</th>
 											  <th width="1%" bgcolor="#f7fcff">Kendaraan</th>
 										  </tr>
@@ -443,7 +444,8 @@
 												  <hr />
 											    15:36:00 WITA</td>
 												<td style="text-align:center">1</td>
-												<td style="text-align:center">Masuk<hr>Mobil - 1</td>
+												<td style="text-align:center">Masuk</td>
+												<td style="text-align:center">Mobil - 1</td>
 												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Parkir</span></td>
 												<td class="text-center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Reff ID : 000001PGTEM0626&lt;hr&gt;e-Money&lt;hr&gt;Mandiri" data-html="true">e-Money</span></td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/masuk-mobil-1.png" alt="image" /></a></td>
@@ -457,6 +459,7 @@
 											        </ul>
 											      </div>
 												  </div></td>
+
 										  </tr>
 										  <tr>
 												<td id="kt_table_1">2</td>
@@ -469,7 +472,8 @@
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LLU</td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026<hr />15:36:00 WITA</td>
 												<td style="text-align:center">2</td>
-												<td style="text-align:center">Masuk<hr>Motor - 1</td>
+												<td style="text-align:center">Masuk</td>
+												<td style="text-align:center">Motor - 1</td>
 												<td style="text-align:center"><span class="btn btn-label-warning btn-sm">Keluar</span></td>
 												<td class="text-center"><span class="btn btn-label-linkedin btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Reff ID : 000001PGTQR0626&lt;hr&gt;QRIS&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/foto-motor-masuk-webcam.png" alt="image" /></a></td>
@@ -494,7 +498,8 @@
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LLU</td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026<hr />15:36:00 WITA</td>
 												<td style="text-align:center">2</td>
-												<td style="text-align:center">Masuk<hr>Motor - 1</td>
+												<td style="text-align:center">Masuk</td>
+												<td style="text-align:center">Motor - 1</td>
 												<td style="text-align:center"><span class="btn btn-label-skype btn-sm">Berangkat</span></td>
 												<td class="text-center"><span class="btn btn-label-linkedin btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Reff ID : 000002PGTQR0626&lt;hr&gt;QRIS&lt;hr&gt;DANA" data-html="true">QRIS</span></td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/foto-motor-masuk-webcam-2.png" alt="image" /></a></td>
@@ -521,7 +526,8 @@
 												  <hr />
 											    15:36:00 WITA</td>
 												<td style="text-align:center">2</td>
-												<td style="text-align:center">Masuk<hr>Motor - 2</td>
+												<td style="text-align:center">Masuk</td>
+												<td style="text-align:center">Motor - 2</td>
 												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Parkir</span></td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/masuk-1.png" alt="image" /></a></td>
@@ -548,7 +554,8 @@
     <hr />
     15:36:00 WITA</td>
   <td style="text-align:center">2</td>
-  <td style="text-align:center">Masuk<hr>Mobil - 2</td>
+  <td style="text-align:center">Masuk</td>
+  <td style="text-align:center">Mobil - 2</td>
   <td style="text-align:center"><span class="btn btn-label-danger btn-sm">Parkir</span></td>
   <td nowrap="nowrap" style="text-align:center">-</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/keluar-mobil-2.png" alt="image" /></a></td>

@@ -435,7 +435,7 @@
 											  <th width="12%" bgcolor="#f7fcff">Gate / Jalur</th>
 											  <th width="12%" bgcolor="#f7fcff">Pembayaran</th>
 											  <th width="8%" bgcolor="#feffed">OP</th>
-											  <th width="1%" bgcolor="#feffed">Kartu / Karcis / Sticker</th>
+											  <th width="1%" bgcolor="#feffed">eMoney / Karcis / Sticker</th>
 											  <th width="1%" bgcolor="#feffed">Waktu</th>
 											  <th width="12%" bgcolor="#feffed">Pembayaran</th>
 											  <th width="1%" bgcolor="#feffed">Foto</th>
