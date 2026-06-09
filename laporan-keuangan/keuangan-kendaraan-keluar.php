@@ -272,7 +272,7 @@
 										<div class="kt-portlet__head kt-portlet__head--noborder kt-portlet__space-x">
 											<div class="kt-portlet__head-label">
 												<h3 class="kt-portlet__head-title">
-													Pendapatan
+													Transaksi Kendaraan Keluar
 												</h3>
 											</div>
 											<div class="kt-portlet__head-toolbar">
@@ -298,7 +298,7 @@
 																Total Pendapatan
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:17px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">Rp. 53.000,-</span>
+																<span style="color:#ed1c24; font-size:17px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">Rp. 73.000,-</span>
 															</span>
 														</div>
 														<div class="kt-widget17__item">
@@ -318,7 +318,7 @@
 																QRIS
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:17px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">Rp. 30.000,-</span>
+																<span style="color:#ed1c24; font-size:17px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">Rp. 50.000,-</span>
 															</span>
 														</div>
 														
