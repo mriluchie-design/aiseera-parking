@@ -66,7 +66,8 @@
 											<li class="kt-menu__item" aria-haspopup="true"><a href="keuangan-kendaraan-berangkat.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Berangkat</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="keuangan-kendaraan-muatan-kapal.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Muatan Kapal</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="keuangan-kendaraan-pass-kade.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pass Kade</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="keuangan-kendaraan-pass-kade.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Rekap Transaksi</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="keuangan-rekap-transaksi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Rekap Transaksi</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="keuangan-rekap-produksi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Rekap Produksi</span></a></li>
 											
 										</ul>
 									</div>
