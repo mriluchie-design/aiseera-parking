@@ -47,7 +47,7 @@
                     <!--begin::Nav-->
                     <ul class="kt-nav">
                         <li class="kt-nav__item">
-                            <a href="cetak-rekap-transaksi-kendaraan-keluar.php" class="kt-nav__link">
+                            <a href="cetak-rekap-transaksi-kendaraan-berangkat.php" class="kt-nav__link">
                                 <i class="kt-nav__link-icon fa fa-file-pdf"></i><span class="kt-nav__link-text">PDF</span>
                             </a>
                           </li>
@@ -271,13 +271,11 @@
 									<div class="kt-portlet kt-portlet--fit kt-portlet--head-lg kt-portlet--head-overlay kt-portlet--skin-solid kt-portlet--height-fluid">
 										<div class="kt-portlet__head kt-portlet__head--noborder kt-portlet__space-x">
 											<div class="kt-portlet__head-label">
-												<h3 class="kt-portlet__head-title">
-													Transaksi Kendaraan Berangkat
-												</h3>
+												
 											</div>
-											<div class="kt-portlet__head-toolbar">
+											<div class="kt-portlet__head-toolbar" style="margin-right:55px;">
 												<a href="#" class="btn btn-label-light btn-sm " >
-													Hari ini
+													Periode : 01/01/2026 s/d 31/01/2026
 												</a>
 												
 											</div>
@@ -404,7 +402,7 @@
 											     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 											       <ul class="kt-nav">
 											         <li class="kt-nav__item"> <a href="detail-transaksi-berangkat.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-											         <li class="kt-nav__item"> <a href="cetak-keuangan-karcis-berangkat.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Karcis Keluar</span> </a> </li>
+											         <li class="kt-nav__item"> <a href="cetak-keuangan-karcis-berangkat.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Karcis Berangkat</span> </a> </li>
 												      
 										           </ul>
 										         </div>
@@ -427,8 +425,8 @@
 											  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 											     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 											       <ul class="kt-nav">
-											         <li class="kt-nav__item"> <a href="detail-transaksi-keluar.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-											         <li class="kt-nav__item"> <a href="cetak-keuangan-karcis-keluar.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Karcis Keluar</span> </a> </li>
+											         <li class="kt-nav__item"> <a href="detail-transaksi-berangkat.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+											         <li class="kt-nav__item"> <a href="cetak-keuangan-karcis-berangkat.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Karcis Berangkat</span> </a> </li>
 												      
 										           </ul>
 										         </div>
@@ -451,8 +449,8 @@
 											  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 											     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 											       <ul class="kt-nav">
-											         <li class="kt-nav__item"> <a href="detail-transaksi-keluar.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-											         <li class="kt-nav__item"> <a href="cetak-keuangan-karcis-keluar.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Karcis Keluar</span> </a> </li>
+											         <li class="kt-nav__item"> <a href="detail-transaksi-berangkat.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+											         <li class="kt-nav__item"> <a href="cetak-keuangan-karcis-berangkat.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Karcis Berangkat</span> </a> </li>
 												      
 										           </ul>
 										         </div>
@@ -475,8 +473,8 @@
 											  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 											     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 											       <ul class="kt-nav">
-											         <li class="kt-nav__item"> <a href="detail-transaksi-keluar.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-											         <li class="kt-nav__item"> <a href="cetak-keuangan-karcis-keluar.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Karcis Keluar</span> </a> </li>
+											         <li class="kt-nav__item"> <a href="detail-transaksi-berangkat.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+											         <li class="kt-nav__item"> <a href="cetak-keuangan-karcis-berangkat.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Karcis Berangkat</span> </a> </li>
 												      
 										           </ul>
 										         </div>
@@ -499,8 +497,8 @@
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 											     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 											       <ul class="kt-nav">
-											         <li class="kt-nav__item"> <a href="detail-transaksi-keluar.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-											         <li class="kt-nav__item"> <a href="cetak-keuangan-karcis-keluar.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Karcis Keluar</span> </a> </li>
+											         <li class="kt-nav__item"> <a href="detail-transaksi-berangkat.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+											         <li class="kt-nav__item"> <a href="cetak-keuangan-karcis-berangkat.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Karcis Berangkat</span> </a> </li>
 												      
 										           </ul>
 										         </div>

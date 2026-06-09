@@ -59,7 +59,7 @@ function goBack() {
 				
 				
 			</div>
-			<a href="cetak-karcis-berangkat.php" class="btn btn-label-success btn-sm">
+			<a href="cetak-keuangan-karcis-berangkat.php" class="btn btn-label-success btn-sm">
                     <i class="fa fa-print"></i> Cetak Karcis</button>
                     <!--<i class="flaticon2-plus"></i>-->
                 </a>
