@@ -270,7 +270,7 @@
 											<tr style="text-align:center;">
 											  <th rowspan="2" bgcolor="#f7fcff" id="kt_table_3">#</th>
 											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
-											  <th colspan="4" bgcolor="#f7fcff">Transaksi</th>
+											  <th colspan="4" bgcolor="#f7fcff">Kendaraan Masuk</th>
 											  <th colspan="6" bgcolor="#fdfdec">Pembayaran</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 									      </tr>
