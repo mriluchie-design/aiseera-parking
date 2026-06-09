@@ -69,7 +69,7 @@
 											<li class="kt-menu__item" aria-haspopup="true"><a href="keuangan-rekap-transaksi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Rekap Transaksi</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="keuangan-rekap-produksi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Rekap Produksi</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="keuangan-rekap-member.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Membership</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="keuangan-sirkulasi-transaksi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Sirkulasi Transaksi</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="keuangan-sirkulasi-transaksi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Sirkulasi Kendaraan</span></a></li>
 											
 										</ul>
 									</div>
