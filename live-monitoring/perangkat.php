@@ -279,7 +279,7 @@
 								<div class="kt-widget__toolbar">
                                     <div class="kt-widget6__item">
 														
-														<span><img src="../assets/img/users/300_5.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
+														<span><img src="../assets/img/users/300_5.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="082244444436<hr>Muhammad Nasrullah,S.Kom" data-html="true"></span>
 													</div>
 									
 								</div>
@@ -498,7 +498,7 @@
 								<div class="kt-widget__toolbar">
                                     <div class="kt-widget6__item">
 														
-														<span><img src="../assets/img/users/300_8.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
+														<span><img src="../assets/img/users/300_8.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="082244444436<hr>Muhammad Ramadhan, ST" data-html="true"></span>
 													</div>
 									
 								</div>
@@ -731,7 +731,7 @@
 								<div class="kt-widget__toolbar">
                                     <div class="kt-widget6__item">
 														
-														<span><img src="../assets/img/users/300_5.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
+														<span><img src="../assets/img/users/300_5.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="082244444436<hr>Muhammad Nasrullah,S.Kom" data-html="true"></span>
 													</div>
 									
 								</div>
@@ -950,7 +950,7 @@
 								<div class="kt-widget__toolbar">
                                     <div class="kt-widget6__item">
 														
-														<span><img src="../assets/img/users/300_8.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
+														<span><img src="../assets/img/users/300_8.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="082244444436<hr>Muhammad Ramadhan, ST" data-html="true"></span>
 													</div>
 									
 								</div>
@@ -1183,7 +1183,7 @@
 								<div class="kt-widget__toolbar">
                                     <div class="kt-widget6__item">
 														
-														<span><img src="../assets/img/users/300_5.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
+														<span><img src="../assets/img/users/300_5.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="082244444436<hr>Muhammad Nasrullah,S.Kom" data-html="true"></span>
 													</div>
 									
 								</div>
@@ -1402,7 +1402,7 @@
 								<div class="kt-widget__toolbar">
                                     <div class="kt-widget6__item">
 														
-														<span><img src="../assets/img/users/300_5.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
+														<span><img src="../assets/img/users/300_5.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="082244444436<hr>Muhammad Nasrullah,S.Kom" data-html="true"></span>
 													</div>
 									
 								</div>
@@ -1635,7 +1635,7 @@
 								<div class="kt-widget__toolbar">
                                     <div class="kt-widget6__item">
 														
-														<span><img src="../assets/img/users/300_5.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
+														<span><img src="../assets/img/users/300_5.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="082244444436<hr>Muhammad Nasrullah,S.Kom" data-html="true"></span>
 													</div>
 									
 								</div>
@@ -1854,7 +1854,7 @@
 								<div class="kt-widget__toolbar">
                                     <div class="kt-widget6__item">
 														
-														<span><img src="../assets/img/users/300_5.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
+														<span><img src="../assets/img/users/300_5.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="082244444436<hr>Muhammad Nasrullah,S.Kom" data-html="true"></span>
 													</div>
 									
 								</div>
@@ -2092,7 +2092,7 @@
 								<div class="kt-widget__toolbar">
                                     <div class="kt-widget6__item">
 														
-														<span><img src="../assets/img/users/300_9.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
+														<span><img src="../assets/img/users/300_9.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="082244444436<hr>Wahyu Djunaedi, ST" data-html="true"></span>
 													</div>
 									
 								</div>
@@ -2311,7 +2311,7 @@
 								<div class="kt-widget__toolbar">
                                     <div class="kt-widget6__item">
 														
-														<span><img src="../assets/img/users/300_9.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
+														<span><img src="../assets/img/users/300_9.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="082244444436<hr>Wahyu Djunaedi, ST" data-html="true"></span>
 													</div>
 									
 								</div>
@@ -2544,7 +2544,7 @@
 								<div class="kt-widget__toolbar">
                                     <div class="kt-widget6__item">
 														
-														<span><img src="../assets/img/users/300_9.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
+														<span><img src="../assets/img/users/300_9.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="082244444436<hr>Wahyu Djunaedi, ST" data-html="true"></span>
 													</div>
 									
 								</div>
@@ -2763,7 +2763,7 @@
 								<div class="kt-widget__toolbar">
                                     <div class="kt-widget6__item">
 														
-														<span><img src="../assets/img/users/300_9.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
+														<span><img src="../assets/img/users/300_9.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="082244444436<hr>Wahyu Djunaedi, ST" data-html="true"></span>
 													</div>
 									
 								</div>
@@ -2996,7 +2996,7 @@
 								<div class="kt-widget__toolbar">
                                     <div class="kt-widget6__item">
 														
-														<span><img src="../assets/img/users/300_9.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
+														<span><img src="../assets/img/users/300_9.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="082244444436<hr>Wahyu Djunaedi, ST" data-html="true"></span>
 													</div>
 									
 								</div>
@@ -3215,7 +3215,7 @@
 								<div class="kt-widget__toolbar">
                                     <div class="kt-widget6__item">
 														
-														<span><img src="../assets/img/users/300_9.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
+														<span><img src="../assets/img/users/300_9.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="082244444436<hr>Wahyu Djunaedi, ST" data-html="true"></span>
 													</div>
 									
 								</div>
@@ -3448,7 +3448,7 @@
 								<div class="kt-widget__toolbar">
                                     <div class="kt-widget6__item">
 														
-														<span><img src="../assets/img/users/300_9.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
+														<span><img src="../assets/img/users/300_9.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="082244444436<hr>Wahyu Djunaedi, ST" data-html="true"></span>
 													</div>
 									
 								</div>
@@ -3667,7 +3667,7 @@
 								<div class="kt-widget__toolbar">
                                     <div class="kt-widget6__item">
 														
-														<span><img src="../assets/img/users/300_9.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"></span>
+														<span><img src="../assets/img/users/300_9.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="082244444436<hr>Wahyu Djunaedi, ST" data-html="true"></span>
 													</div>
 									
 								</div>
