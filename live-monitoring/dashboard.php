@@ -308,7 +308,7 @@
 											</div>
 											
 											<div class="col-lg-4" style="margin-top:15px;" >
-												<button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#modal_jalur_offline" data-html="true">Help !</button>
+												<button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#modal_bantuan" data-html="true">Menunggu</button>
 											</div>
 										</div>
 										
@@ -354,7 +354,7 @@
 											</div>
 											
 											<div class="col-lg-4" style="margin-top:15px;" >
-												<button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#modal_jalur_offline" data-html="true">Help !</button>
+												<button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#modal_bantuan" data-html="true">Menunggu</button>
 											</div>
 										</div>
 										
@@ -1008,6 +1008,113 @@
 								</div>
 							</div>
 							<!--End::Modal 1-->
+							<!--begin::Modal Bantuan-->
+									<div class="modal fade" id="modal_bantuan" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+									<div class="modal-content">
+
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-list-alt"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger">VERIFIKASI</h3>
+											</div>
+											<div class="kt-portlet__head-toolbar">
+											
+											&nbsp;
+												<button type="button" class="btn btn-secondary btn-sm btn-outline-danger" data-dismiss="modal">X</button>
+											</div>
+										</div>
+
+										<div class="kt-portlet__body">
+											<div class="tab-content">
+												<div class="m-portlet m-portlet--tabs">
+									
+									<div class="m-portlet__body">
+										<div class="tab-content">
+											<div class="tab-pane active" id="m_tabs_6_1" role="tabpanel">
+												<div class="kt-grid__item kt-grid__item--fluid kt-app__content">
+									<div class="row">
+										<div class="col-lg-12">
+                      <div class="row">
+								<div class="col-xl-12">
+
+									<!--begin::Portlet-->
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+							
+										<div class="kt-portlet__body">
+											<div class="kt-portlet__content">
+												<div class="form-group row">
+						
+						<div class="col-lg-12">
+                          <label>Ubah Status :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Selesai</option>
+                                      <option value="2">Pending</option>
+                                                                           
+                                  </select>
+                        </div>
+						
+                        </div>
+						
+						
+						
+					  
+                     
+									</div>
+									
+									
+									</div>
+
+
+									</div>
+							<!--end:: Portlet-->
+</div>
+
+
+
+										</div>
+
+
+
+
+									</div>
+									
+									
+									
+									
+
+							<!--end:: Portlet-->
+
+
+          </div>
+
+
+
+								</div>
+											</div>
+											
+											
+											
+											
+											
+											
+										</div>
+									</div>
+								</div>
+												
+									
+											</div>
+												
+												
+
+									<!--end::Portlet-->
+												</div>
+											</div>
+							</div>
+							<!--End::Modal Bantuan-->
 							<!--begin::Modal 1-->
 									<div class="modal fade" id="modal_jalur_keluar_offline" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
