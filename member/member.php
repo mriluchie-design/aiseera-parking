@@ -240,14 +240,14 @@
 									<!--begin:: Widgets/Activity-->
 									<div class="kt-portlet kt-portlet--fit kt-portlet--head-lg kt-portlet--head-overlay kt-portlet--skin-solid kt-portlet--height-fluid">
 										<div class="kt-portlet__head kt-portlet__head--noborder kt-portlet__space-x">
-											<div class="kt-portlet__head-label">
+											<div class="kt-portlet__head-label" style="margin-left:55px;">
 												<h3 class="kt-portlet__head-title">
 													Statistik Member
 												</h3>
 											</div>
 											<div class="kt-portlet__head-toolbar" style="margin-right:55px;">
 												<a href="#" class="btn btn-label-light btn-sm dropdown-toggle" data-toggle="dropdown">
-													Hari ini
+													Keseluruhan
 												</a>
 												<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 													<ul class="kt-nav">
@@ -331,7 +331,15 @@
 														</div>
 														<div class="kt-widget17__item">
 															<span class="kt-widget17__subtitle" style="text-align:center">
-																Tidak Aktif
+																Non Sticker
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">25</span>
+															</span>
+														</div>
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Berakhir
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
 																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">25</span>
@@ -403,7 +411,7 @@
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
 												<td nowrap="nowrap" style="text-align:left">1 September 2026</td>
 												<td nowrap="nowrap" style="text-align:left">31 Desember 2026</td>
-												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-success btn-sm">Aktif</button></td>
+												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-brand btn-sm">Non Sticker</button></td>
 												<td class="text-center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355135&lt;hr&gt;e-Wallet&lt;hr&gt;Gopay" data-html="true">Non Tunai</span></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">

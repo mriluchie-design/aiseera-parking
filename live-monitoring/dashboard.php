@@ -49,12 +49,12 @@
 									<!--begin:: Widgets/Activity-->
 									<div class="kt-portlet kt-portlet--fit kt-portlet--head-lg kt-portlet--head-overlay kt-portlet--skin-solid kt-portlet--height-fluid">
 										<div class="kt-portlet__head kt-portlet__head--noborder kt-portlet__space-x">
-											<div class="kt-portlet__head-label">
+											<div class="kt-portlet__head-label" style="margin-left:40px;">
 												<h3 class="kt-portlet__head-title">
 													Statistik Kendaraan
 												</h3>
 											</div>
-											<div class="kt-portlet__head-toolbar">
+											<div class="kt-portlet__head-label" style="margin-right:40px;">
 												<a href="#" class="btn btn-label-light btn-sm dropdown-toggle" data-toggle="dropdown">
 													Hari ini
 												</a>
@@ -926,79 +926,38 @@
 								
 						</div>
 <!--begin::Modal 1-->
-									<div class="modal fade" id="modal_persetujuan_pending" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+									<div class="modal fade" id="modal_bantuan" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
 									<div class="modal-content">
 
-										<div class="modal-header">
-										<span class="modal-title" id="exampleModalLabel"><span class="kt-badge kt-badge--danger kt-badge--inline"; style="color:#fff";>VERIFIKASI</span></span>
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-											<span aria-hidden="true">&times;</span>
-										</button>
-									</div>
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon" style="font-size:25px;"><i class="kt-font-brand fa fa-barcode"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger">VERIFIKASI</h3>
+											</div>
+											<div class="kt-portlet__head-toolbar">
+												<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">X</button>
+											</div>
+										</div>
+										</div>
 
-										
 										<div class="kt-portlet__body">
-											<div class="tab-content">
-											<div class="tab-pane active" id="kt_widget4_tab1_content">
-													<div class="kt-widget4">
-														<div class="kt-widget4__item">
-															<div class="kt-widget4__pic kt-widget4__pic--pic" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003" data-html="true">
-																<img src="../assets/img/users/100_8.jpg" alt="image">
-															</div>
-															<div class="kt-widget4__info">
-																<a href="#" class="kt-widget4__username">
-																	Deddy Rafsanjani, S.Sos
-																</a>
-																<p class="kt-widget4__text">
-																	Kepala Bagian Kepegawaian
-																</p>
-															</div>
-															<span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Disetujui&lt;hr&gt;11 Juli 2025 - 20:33 WITA">
-															<i class="fa flaticon2-check-mark"></i>
-														</span>
-														</div>
-														<div class="kt-widget4__item">
-															<div class="kt-widget4__pic kt-widget4__pic--pic" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000002" data-html="true">
-																<img src="../assets/img/users/100_9.jpg" alt="image">
-															</div>
-															<div class="kt-widget4__info">
-																<a href="#" class="kt-widget4__username">
-																	Oklan Zulkifli, SE
-																</a>
-																<p class="kt-widget4__text">
-																	Direktur Umum
-																</p>
-															</div>
-															<span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Disetujui&lt;hr&gt;11 Juli 2025 - 22:33 WITA">
-															<i class="fa flaticon2-check-mark"></i>
-														</span>
-														</div>
-														<div class="kt-widget4__item">
-															<div class="kt-widget4__pic kt-widget4__pic--pic"  data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001" data-html="true">
-																<img src="../assets/img/users/100_15.jpg" alt="">
-															</div>
-															<div class="kt-widget4__info">
-																<a href="#" class="kt-widget4__username">
-																	Muhammad Nasrullah, S.Kom
-																</a>
-																<p class="kt-widget4__text">
-																	Direktur Utama
-																</p>
-															</div>
-															<button type="button" class="btn btn-warning btn-sm btn-icon kt_sweetalert_demo_setuju" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Menunggu Persetujuan"><i class="fa fa-clock"></i></button>
-														</div>
-														
-														
-														
-													</div>
-												</div>
-
-												
-												
-												
+											<div class="kt-portlet__content">
+											<div class="col-lg-12">
+                          <label>Ubah Status :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Selesai</option>
+                                      <option value="2">Pending</option>
+                                                                           
+                                  </select>
+                        </div>
 
 							<!--End::App-->
+						</div>
+						</div>
 						</div>
 
 								<!--End:: App Content-->
@@ -1008,113 +967,7 @@
 								</div>
 							</div>
 							<!--End::Modal 1-->
-							<!--begin::Modal Bantuan-->
-									<div class="modal fade" id="modal_bantuan" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-								<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
-									<div class="modal-content">
-
-										<div class="modal-body">
-											<div class="kt-portlet kt-portlet--mobile ">
-											<div class="kt-portlet__head">
-											<div class="kt-portlet__head-label">
-												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-list-alt"></i></span>
-												<h3 class="kt-portlet__head-title kt-font-danger">VERIFIKASI</h3>
-											</div>
-											<div class="kt-portlet__head-toolbar">
-											
-											&nbsp;
-												<button type="button" class="btn btn-secondary btn-sm btn-outline-danger" data-dismiss="modal">X</button>
-											</div>
-										</div>
-
-										<div class="kt-portlet__body">
-											<div class="tab-content">
-												<div class="m-portlet m-portlet--tabs">
-									
-									<div class="m-portlet__body">
-										<div class="tab-content">
-											<div class="tab-pane active" id="m_tabs_6_1" role="tabpanel">
-												<div class="kt-grid__item kt-grid__item--fluid kt-app__content">
-									<div class="row">
-										<div class="col-lg-12">
-                      <div class="row">
-								<div class="col-xl-12">
-
-									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
 							
-										<div class="kt-portlet__body">
-											<div class="kt-portlet__content">
-												<div class="form-group row">
-						
-						<div class="col-lg-12">
-                          <label>Ubah Status :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Selesai</option>
-                                      <option value="2">Pending</option>
-                                                                           
-                                  </select>
-                        </div>
-						
-                        </div>
-						
-						
-						
-					  
-                     
-									</div>
-									
-									
-									</div>
-
-
-									</div>
-							<!--end:: Portlet-->
-</div>
-
-
-
-										</div>
-
-
-
-
-									</div>
-									
-									
-									
-									
-
-							<!--end:: Portlet-->
-
-
-          </div>
-
-
-
-								</div>
-											</div>
-											
-											
-											
-											
-											
-											
-										</div>
-									</div>
-								</div>
-												
-									
-											</div>
-												
-												
-
-									<!--end::Portlet-->
-												</div>
-											</div>
-							</div>
-							<!--End::Modal Bantuan-->
 							<!--begin::Modal 1-->
 									<div class="modal fade" id="modal_jalur_keluar_offline" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
