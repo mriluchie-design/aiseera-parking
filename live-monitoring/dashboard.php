@@ -30,12 +30,167 @@
 
             <div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
 			<div class="row">
+								<div class="col-lg-3">
+												<div class="kt-portlet kt-portlet--height-fluid-full kt-iconbox kt-iconbox--danger kt-iconbox--animate-slower">
+											<div class="kt-portlet__body">
+												<div class="kt-iconbox__body">
+											<div class="row">
+												<div class="col-lg-3">
+													<div class="kt-section__content">
+															<a href="#" class="kt-media">
+																<img src="../assets/img/users/100_15.jpg" alt="image" style="max-width:100px !important;height:auto">
+															</a>
+														</div>
+												</div>
+											<div class="col-lg-9">
+											<div class="name" style="font-size:1.03rem">
+												Muhammad Nasrullah, S.Kom
+</div>										<div class="kt-separator kt-separator--border-solid-2 kt-separator--space-lg kt-separator--portlet-fit"></div>
+											<span style="font-size:.975rem; color:#374163; text-transform:italic">Direktur Utama</span>
+											<div class="deskripsi-pegawai">
+											
+											
+										</div>
+										
+										
+										
+										
+										
+										
+											</div>
+											</div>
+												
+													</div>
+													</div>
+										</div>
+										
+
+							<!--end:: Portlet-->
+									<div class="kt-space-20"></div>
+
+									<!--begin:: Widgets/Outbound Bandwidth-->
+									<div class="kt-portlet kt-portlet--fluid-full kt-portlet--head-noborder kt-portlet--height-fluid-full">
+										<div class="kt-portlet__head kt-portlet__space-x">
+											<div class="kt-portlet__head-label">
+												<h3 class="kt-portlet__head-title">
+													Transaksi Terbaru
+												</h3>
+											</div>
+											<div class="kt-portlet__head-toolbar">
+												<ul class="nav nav-tabs nav-tabs-line nav-tabs-bold nav-tabs-line-brand" role="tablist">
+													<li class="nav-item">
+														<a class="nav-link active" data-toggle="tab" href="#kt_widget7_tab1_content" role="tab">
+															Masuk
+														</a>
+													</li>
+													<li class="nav-item">
+														<a class="nav-link" data-toggle="tab" href="#kt_widget7_tab2_content" role="tab">
+															Keluar
+														</a>
+													</li>
+													
+
+												</ul>
+											</div>
+										</div>
+										<div class="kt-portlet__body">
+											<div class="kt-portlet__body kt-scrollable kt-scroller ps ps--active-y">
+											<div class="tab-content">
+												<div class="tab-pane active" id="kt_widget7_tab1_content" aria-expanded="true">
+													<div class="kt-notification">
+														<a href="#" class="kt-notification__item versi-2">
+															
+															<div class="kt-notification__item-details">
+																<div class="kt-notification__item-title">
+																	<span style="color:#0961ae">Pass Kade<hr></span>
+																</div>
+																
+																<div class="kt-notification__item-time">
+																Gate 1 - Masuk - Mobil 1 
+																</div>
+																
+															</div>
+																<div onclick="window.location='#';" class="">
+																		10 September 2026<hr>14:05:30 WITA
+																	</div>
+														</a>
+														<a href="#" class="kt-notification__item versi-2">
+															
+															<div class="kt-notification__item-details">
+																<div class="kt-notification__item-title">
+																	<span style="color:#0961ae">Reguler - Mobil<hr></span>
+																</div>
+																
+																<div class="kt-notification__item-time">
+																Gate 1 - Masuk - Mobil 1 
+																</div>
+																
+															</div>
+																<div onclick="window.location='#';" class="">
+																		10 September 2026<hr>14:05:30 WITA
+																	</div>
+														</a>
+														
+														
+														
+														
+													</div>
+												</div>
+												<div class="tab-pane" id="kt_widget7_tab2_content" aria-expanded="false">
+													<div class="kt-notification">
+														<a href="#" class="kt-notification__item versi-2">
+															
+															<div class="kt-notification__item-details">
+																<div class="kt-notification__item-title">
+																	<span style="color:#0961ae">Reguler - Mobil<hr></span>
+																</div>
+																
+																<div class="kt-notification__item-time">
+																Gate 1 - Keluar - Mobil 1 
+																</div>
+																
+															</div>
+																<div onclick="window.location='#';" class="">
+																		10 September 2026<hr>14:05:30 WITA
+																	</div>
+														</a>
+														<a href="#" class="kt-notification__item versi-2">
+															
+															<div class="kt-notification__item-details">
+																<div class="kt-notification__item-title">
+																	<span style="color:#0961ae">Reguler - Mobil<hr></span>
+																</div>
+																
+																<div class="kt-notification__item-time">
+																Gate 2 - Keluar - Mobil 1 
+																</div>
+																
+															</div>
+																<div onclick="window.location='#';" class="">
+																		10 September 2026<hr>14:05:30 WITA
+																	</div>
+														</a>
+														
+														
+														
+														
+													</div>
+													
+									</div>
+													</div>
+										</div>
+										</div>
+										
+									</div>
+									
+
+									<!--end:: Widgets/Outbound Bandwidth-->
+								</div>
 								
 								
 								
 								
-								
-								<div class="col-xl-12">
+								<div class="col-xl-9">
 
 									<!--begin:: Widgets/Activity-->
 									<div class="kt-portlet kt-portlet--fit kt-portlet--head-lg kt-portlet--head-overlay kt-portlet--skin-solid kt-portlet--height-fluid">
