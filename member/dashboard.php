@@ -42,161 +42,10 @@ License: You must have a valid license purchased only from themeforest(the above
 
             <div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
 			<div class="row">
-								<div class="col-lg-3">
-												<div class="kt-portlet kt-portlet--height-fluid-full kt-iconbox kt-iconbox--danger kt-iconbox--animate-slower">
-											<div class="kt-portlet__body">
-												<div class="kt-iconbox__body">
-											<div class="row">
-												<div class="col-lg-3">
-													<div class="kt-section__content">
-															<a href="#" class="kt-media">
-																<img src="../assets/img/users/100_15.jpg" alt="image" style="max-width:100px !important;height:auto">
-															</a>
-														</div>
-												</div>
-											<div class="col-lg-9">
-											<div class="name" style="font-size:1rem">
-												Muhammad Nasrullah, S.Kom
-</div>
-											<span style="font-size:.875rem; color:#374163; text-transform:italic">Direktur Utama</span>
-											<div class="deskripsi-pegawai">
-											
-											
-										</div>
-										<div class="kt-separator kt-separator--border-solid-2 kt-separator--space-lg kt-separator--portlet-fit"></div>
-										<div class="row mt-6">
-											<div class="col-lg-5" style="font-size:.955rem; color:#374163; text-transform:italic">
-												Absen Masuk
-											</div>
-											<div class="col-lg-7" >
-												<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">08:00:00 WITA</button>
-											</div>
-										</div>
-										<div><br></div>
-										<div class="row mt-6">
-											<div class="col-lg-5" style="font-size:.955rem; color:#374163; text-transform:italic">
-												Absen Pulang
-											</div>
-											<div class="col-lg-7">
-												<button type="button" class="btn btn-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Detail">Belum Absen</button>
-											</div>
-										</div>
-										
-										
-											</div>
-											</div>
-												
-													</div>
-													</div>
-										</div>
-										
-
-							<!--end:: Portlet-->
-									<div class="kt-space-20"></div>
-
-									<!--begin:: Widgets/Outbound Bandwidth-->
-									<div class="kt-portlet kt-portlet--fit kt-portlet--head-noborder kt-portlet--height-fluid-full">
-										<div class="kt-portlet__head kt-portlet__space-x">
-											<div class="kt-portlet__head-label">
-												<h3 class="kt-portlet__head-title">
-													Pegawai Ulang Tahun
-												</h3>
-											</div>
-											<div class="kt-portlet__head-toolbar">
-												<ul class="nav nav-tabs nav-tabs-line nav-tabs-bold nav-tabs-line-brand" role="tablist">
-													<li class="nav-item">
-														<a class="nav-link active" data-toggle="tab" href="#kt_widget7_tab1_content" role="tab">
-															Hari ini
-														</a>
-													</li>
-													<li class="nav-item">
-														<a class="nav-link" data-toggle="tab" href="#kt_widget7_tab2_content" role="tab">
-															Bulan ini
-														</a>
-													</li>
-													
-
-												</ul>
-											</div>
-										</div>
-										<div class="kt-portlet__body">
-											<div class="kt-portlet__body kt-scrollable kt-scroller ps ps--active-y">
-											<div class="tab-content">
-												<div class="tab-pane active" id="kt_widget7_tab1_content" aria-expanded="true">
-													<div class="kt-notification">
-														<a href="#" class="kt-notification__item versi-2">
-															<div class="kt-notification__item-icon">
-																
-																<img src="../assets/img/users/300_13.jpg" alt="image" style="max-width:50px !important;height:auto">
-															</div>
-														&nbsp;
-														&nbsp;
-															<div class="kt-notification__item-details">
-																<div class="kt-notification__item-title">
-																	<span style="color:#0961ae">Muhammad Nasrullah S.Kom</span>
-																</div>
-																
-																<div class="kt-notification__item-time">
-																Ultah Ke : 35 
-																</div>
-																<div class="kt-notification__item-time">
-																IT Director & Business Transformation
-																</div>
-															</div>
-																<div onclick="window.location='#';" class="btn btn btn-outline-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																		<i class="fa fa-gift"></i>
-																	</div>
-														</a>
-														
-														
-														
-														
-													</div>
-												</div>
-												<div class="tab-pane" id="kt_widget7_tab2_content" aria-expanded="false">
-													<div class="kt-notification">
-														<a href="#" class="kt-notification__item versi-2">
-															<div class="kt-notification__item-icon">
-																
-																<img src="../assets/img/users/300_21.jpg" alt="image" style="max-width:50px !important;height:auto">
-															</div>
-														&nbsp;
-															<div class="kt-notification__item-details">
-																<div>
-																	<span>Muhammad Nasrullah S.Kom</span>
-																</div>
-																
-																<div class="kt-notification__item-time">
-																Ultah Ke : 35
-																</div>
-																<div class="kt-notification__item-time">
-																Head Of IT - Divisi : Bagian Umum
-																</div>
-															</div>
-																<div onclick="window.location='#';" class="btn btn btn-outline-brand btn-elevate  btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																		<i class="fa fa-gift"></i>
-																	</div>
-														</a>
-														
-														
-														
-														
-														
-													</div>
-													
-									</div>
-													</div>
-										</div>
-										</div>
-										
-									</div>
-									
-
-									<!--end:: Widgets/Outbound Bandwidth-->
-								</div>
 								
 								
-								<div class="col-xl-4">
+								
+								<div class="col-xl-6">
 
 									<!--begin:: Widgets/Activity-->
 									<div class="kt-portlet kt-portlet--fit kt-portlet--head-lg kt-portlet--head-overlay kt-portlet--skin-solid kt-portlet--height-fluid">
@@ -301,7 +150,7 @@ License: You must have a valid license purchased only from themeforest(the above
 									<!--end:: Widgets/Activity-->
 								</div>
 								
-								<div class="col-lg-5">
+								<div class="col-lg-6">
 							<div class="kt-portlet kt-portlet--height-fluid">
 										<div class="kt-portlet__head">
 											<div class="kt-portlet__head-label">
