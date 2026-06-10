@@ -56,6 +56,7 @@
 														<span class="kt-subheader__btn-daterange-title" id="kt_dashboard_daterangepicker_title" style="color: #ed1c24;"><blink>9:45 WITA</blink></span>&nbsp;
 														
 													</a>&nbsp;
+													
 													<div class="kt-portlet__head-toolbar" style="background: #f2f3f7 !important;">
 												<a href="#" class="btn btn-label-brand btn dropdown-toggle" data-toggle="dropdown">
 													 Pilih Area
@@ -284,8 +285,11 @@
 													<span class="kt-badge kt-badge--username kt-badge--unified-success kt-badge--lg kt-badge--rounded kt-badge--bold kt-hidden">S</span>
 												</div>
 												<div class="kt-user-card__name">
-													E-P4SS
-													<div class="small">Head IT Engineer</div>
+													Muhammad Nasrullah, S.Kom
+													<div class="small" style="margin-bottom:10px;">Head IT Engineer</div>
+													
+												<button type="button" class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Absen Masuk">08:00:00 WITA</button>
+											<button type="button" class="btn btn-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Absen Pulang">Belum Absen</button>
 												</div>
 
 											</div>
@@ -294,6 +298,8 @@
 
 									<!--begin: Navigation -->
 									<div class="kt-notification">
+										
+										
 										<a href="ubah-password.php" class="kt-notification__item">
 											<div class="kt-notification__item-icon">
 												<i class="fa fa-user-tie kt-font-brand"></i>
