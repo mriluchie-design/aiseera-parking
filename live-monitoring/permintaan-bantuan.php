@@ -358,7 +358,7 @@
 												<td rowspan="2" nowrap style="text-align:left">Makassar</td>
 												<td nowrap style="text-align:center"><span class="btn btn-linkedin btn-sm">1</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-outline-primary btn-sm">1</span></td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-danger btn-sm">Help</span></td>
+												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true">Menunggu</button></td>
 												<td class="text-center"><span class="btn btn-outline-primary btn-sm">2</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">Normal</span></td>
 												<td class="text-center"><span class="btn btn-outline-warning btn-sm">1</span></td>
@@ -1062,16 +1062,16 @@
                 </div>
             </div>
 			<!--begin::Modal 1-->
-									<div class="modal fade" id="serah-terima-atribut" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+									<div class="modal fade" id="modal_persetujuan_pending" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
 									<div class="modal-content">
 
 										<div class="modal-body">
 											<div class="kt-portlet kt-portlet--mobile ">
 											<div class="kt-portlet__head">
 											<div class="kt-portlet__head-label">
-												<span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list"></i></span>
-												<h3 class="kt-portlet__head-title kt-font-danger">SERAH TERIMA ID CARD</h3>
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-list-alt"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger">VERIFIKASI</h3>
 											</div>
 											<div class="kt-portlet__head-toolbar">
 											
@@ -1089,50 +1089,31 @@
 											<div class="tab-pane active" id="m_tabs_6_1" role="tabpanel">
 												<div class="kt-grid__item kt-grid__item--fluid kt-app__content">
 									<div class="row">
-										<div class="col-lg-6">
+										<div class="col-lg-12">
                       <div class="row">
 								<div class="col-xl-12">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Mitra Jukir</div><br>
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+							
 										<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
 												<div class="form-group row">
 						
 						<div class="col-lg-12">
-                          <label><span style="color:#ff0000">*</span> Nama Lengkap :</label>
-                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="HARIS DAENG PAWA">
-                        </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-                       <div class="col-lg-12">
-                          <label>ID Mitra :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="0000000001">
+                          <label>Ubah Status :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Selesai</option>
+                                      <option value="2">Pending</option>
+                                                                           
+                                  </select>
                         </div>
 						
                         </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-                     <div class="form-group row">
-						<div class="col-lg-12">
-                          <label class="">Zona :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Kepulauan Sangkarrang">
-                        </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-                     <div class="form-group row">
-						<div class="col-lg-4">
-                          <label><span style="color:#ff0000">*</span> Wil :</label>
-                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="I">
-                        </div>
-						<div class="col-lg-8">
-                          <label><span style="color:#ff0000">*</span> Titik Parkir :</label>
-                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Coto Nusantara">
-                        </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-                    
+						
+						
+						
 					  
                      
 									</div>
@@ -1153,151 +1134,10 @@
 
 
 									</div>
-									<div class="col-lg-6">
-                      <div class="row">
-								<div class="col-xl-12">
-
-									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Anda</div><br>
-										<div class="kt-portlet__body">
-											<div class="kt-portlet__content">
-												<div class="form-group row">
-						
-						<div class="col-lg-12">
-                          <label><span style="color:#ff0000">*</span> Nama Pegawai :</label>
-                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="HARIS DAENG PAWA">
-                        </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-                       <div class="col-lg-6">
-                          <label>NPP :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="000 000 001">
-                        </div>
-						<div class="col-lg-6">
-                          <label>Kantor :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Pusat">
-                        </div>
-						
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-                     <div class="form-group row">
-						<div class="col-lg-12">
-                          <label class="">Department :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Pengembangan Usaha & Kerja Sama">
-                        </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-                     <div class="form-group row">
-						<div class="col-lg-12">
-                          <label><span style="color:#ff0000">*</span> Jabatan :</label>
-                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Direktur Pengembangan Usaha & Kerjasama">
-                        </div>
-						
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-                    
-					  
-                     
-									</div>
 									
 									
-									</div>
-
-
-									</div>
-							<!--end:: Portlet-->
-</div>
-
-
-
-										</div>
-
-
-
-
-									</div>
-									<div class="col-lg-6">
-                      <div class="row">
-								<div class="col-xl-12">
-
-									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Tanda Tangan Mitra Jukir</div><br>
-										<div class="kt-portlet__body">
-											<div class="kt-portlet__content">
-												<div class="form-group row">
-						
-						<div class="col-lg-12">
-                          <div class="swal2-content"><label for="swal2-checkbox" class="swal2-checkbox" style="display: none;"><input type="checkbox"><span class="swal2-label"></span></label><textarea class="swal2-textarea" placeholder="" style="display: flex;"></textarea><div class="swal2-validation-message" id="swal2-validation-message"></div></div>
-                        </div>
-                       
-						
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-                     
-                    
-					  
-                     
-									</div>
 									
 									
-									</div>
-
-
-									</div>
-							<!--end:: Portlet-->
-</div>
-
-
-
-										</div>
-
-
-
-
-									</div>
-									<div class="col-lg-6">
-                      <div class="row">
-								<div class="col-xl-12">
-
-									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Tanda Tangan Anda</div><br>
-										<div class="kt-portlet__body">
-											<div class="kt-portlet__content">
-												<div class="form-group row">
-						
-						<div class="col-lg-12">
-                          <div class="swal2-content"><label for="swal2-checkbox" class="swal2-checkbox" style="display: none;"><input type="checkbox"><span class="swal2-label"></span></label><textarea class="swal2-textarea" placeholder="" style="display: flex;"></textarea><div class="swal2-validation-message" id="swal2-validation-message"></div></div>
-                        </div>
-                       
-						
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-                     
-                    
-					  
-                     
-									</div>
-									
-									
-									</div>
-
-
-									</div>
-							<!--end:: Portlet-->
-</div>
-
-
-
-										</div>
-
-
-
-
-									</div>
 
 							<!--end:: Portlet-->
 
@@ -1318,35 +1158,7 @@
 									</div>
 								</div>
 												
-									<div class="kt-portlet__foot kt-align-center">
-												<div class="">
-
-													<a href="datamitraparkir.php" class="btn btn-label-brand btn-sm" data-toggle="dropdown" onclick="goBack()">
-												<i class="flaticon-reply"></i> Kembali</button>
-<script>
-function goBack() {
-  window.history.back();
-}
-</script>
-												<!--<i class="flaticon2-plus"></i>-->
-											</a>&nbsp;
-									<a href="#" class="btn btn-label-brand btn-sm">
-															<span>
-																<i class="fa fa-print"></i>
-																<span>Print ID Card</span>
-															</span>
-														</a>
-												
-													<div class="btn-group">
-				<button type="button" class="btn btn-sm btn-success">
-					<i class="fa fa-check-circle"></i>
-					<span class="kt-hidden-mobile">Simpan</span>
-				</button>
-				
-				
-			</div>
-			
-												</div>
+									
 											</div>
 												
 												
@@ -1354,12 +1166,6 @@ function goBack() {
 									<!--end::Portlet-->
 												</div>
 											</div>
-											</div>
-
-									</div>
-
-									</div>
-								</div>
 							</div>
 							<!--End::Modal 1-->
 							<!--begin::Modal 2-->
