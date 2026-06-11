@@ -59,7 +59,7 @@
                     <!--end::Nav-->
                 </div>
                 <a href="member-add.php" class="btn btn-info btn-sm">
-                    <i class="fa fa-address-card"></i> Daftar Member</button>
+                    <i class="fa fa-car"></i> Daftar Member</button>
                     <!--<i class="flaticon2-plus"></i>-->
                 </a>
             </div>

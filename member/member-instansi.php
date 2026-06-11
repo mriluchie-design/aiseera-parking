@@ -59,7 +59,7 @@
                     <!--end::Nav-->
                 </div>
                 <a href="member-instansi-add.php" class="btn btn-info btn-sm">
-                    <i class="fa fa-address-card"></i> Daftar Member Instansi</button>
+                    <i class="fa fa-building"></i> Daftar Instansi</button>
                     <!--<i class="flaticon2-plus"></i>-->
                 </a>
             </div>
@@ -95,42 +95,21 @@
 				<form class="kt-form">
 					<div class="kt-portlet__body">
                         <div class="form-group row">
-                            <div class="col-lg-2">
-                                <label>Cabang :</label>
+                            
+							<div class="col-lg-2">
+                                <label>Nama Perusahaan :</label>
 								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Makassar</option>
-                                      <option value="2">Pare-Pare</option>
-                                      <option value="2">Balikpapan</option>
-                                      <option value="2">Samarinda</option>
-                                      <option value="2">Tarakan</option>
-                                      <option value="2">Nunukan</option>
-                                      <option value="2">Manado</option>
-                                      <option value="2">Bitung</option>
-                                      <option value="2">Ambon - Yos Sudarso</option>
-                                      <option value="2">Ambon - Slamet Riyadi</option>
-                                      <option value="2">Ternate</option>
-                                      <option value="2">Sorong</option>
-                                      <option value="2">Keseluruhan</option>
-                                                                           
-                                  </select>
-                            </div>
-							
-								
-								
-								
-								<div class="col-lg-2">
-                                <label>Kategori :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      
-                                      <option value="2">Sepeda Motor</option>
-                                      <option value="2">Sedan/Jeep/Pick Up</option>
-                                      <option value="2">Truck/Tronton/Trailer</option>
-									  <option value="2">Keseluruhan</option>
-                                                                           
-                                  </select>
+                                <div class="kt-input-icon kt-input-icon--right">
+        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
+        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
+    		                            <span><i class="la la-search"></i></span>
+    		                        </span>
     		                    </div>
+    		                    </div>
+								
+								
+								
+								
 								<div class="col-lg-2">
                                 <label class="">Tanggal Registrasi :</label>
                                 <div class="input-group">
@@ -140,100 +119,17 @@
 						                        </div>
 						                      </div>
                             </div>
-							<div class="col-lg-1">
-                                <label>Status Member :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Aktif</option>
-                                      <option value="1">Non Sticker</option>
-                                      <option value="2">Berakhir</option>
-                                      <option value="2">Suspend</option>
-                                      <option value="2">Keseluruhan</option>
-                                                                           
-                                  </select>
-                            </div>
-							<div class="col-lg-1">
-                                <label>Pembayaran :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Non Tunai</option>
-                                      <option value="2">Tunai</option>
-                                      <option value="2">Pending</option>
-									  <option value="2">Keseluruhan</option>
-                                                                           
-                                  </select>
-                            </div>
-							<div class="col-lg-2">
-                                <label>Penerima Pembayaran :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Muhammad Nasrullah, S.Kom</option>
-                                      <option value="1">Muhammad Ramadhan, S.T</option>
-                                      <option value="2">Keseluruhan</option>
-                                                                           
-                                  </select>
-                            </div>
-							<div class="col-lg-2">
-                                <label>Provider Pembayaran :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Mandiri</option>
-                                      <option value="1">BCA Flazz</option>
-                                      <option value="1">Brizzi</option>
-                                      <option value="1">BNI Tap Cash</option>
-                                      <option value="1">OVO</option>
-                                      <option value="1">DANA</option>
-                                      <option value="1">Shoope Pay</option>
-                                      <option value="1">BCA</option>
-                                      <option value="1">Livin Mandiri</option>
-                                      <option value="1">Credit Card</option>
-                                      <option value="1">Virtual Account</option>
-                                      <option value="2">Keseluruhan</option>
-                                                                           
-                                  </select>
-                            </div>
+							
+							
+							
+							
                             </div>
                             
 							
                             
 							
 							
-							<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-						<div class="col-lg-2">
-                                <label>Nama Penanggung Jawab :</label>
-								
-                                <div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
-        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
-    		                            <span><i class="la la-search"></i></span>
-    		                        </span>
-    		                    </div>
-    		                    </div>
-								<div class="col-lg-2">
-                                <label>No. HP :</label>
-								
-                                <div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
-        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
-    		                            <span><i class="la la-search"></i></span>
-    		                        </span>
-    		                    </div>
-    		                    </div>
-							<div class="col-lg-2">
-                                <label>No. Plat Kendaraan :</label>
-								
-                                <div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
-        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
-    		                            <span><i class="la la-search"></i></span>
-    		                        </span>
-    		                    </div>
-    		                    </div>
-								
 							
-							
-                            </div>
 							
 							<br>
 							
@@ -308,11 +204,22 @@
 														<div class="kt-widget17__item">
 															
 															<span class="kt-widget17__subtitle" style="text-align:center">
+																Total Instansi
+															</span>
+
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:24px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">3</span>
+															
+															</span>
+														</div>
+<div class="kt-widget17__item">
+															
+															<span class="kt-widget17__subtitle" style="text-align:center">
 																Total Member
 															</span>
 
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:24px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">105</span>
+																<span style="color:#ed1c24; font-size:24px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">850</span>
 															
 															</span>
 														</div>
@@ -321,7 +228,7 @@
 																Sedan/Jeep/Pick Up
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">35</span>
+																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">20</span>
 															</span>
 														</div>
 														
@@ -331,7 +238,7 @@
 																Sepeda Motor
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">70</span>
+																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">620</span>
 															</span>
 														</div>
 														<div class="kt-widget17__item">
@@ -339,7 +246,7 @@
 																Truck/Tronton/Trailer
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">10</span>
+																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">210</span>
 															</span>
 														</div>
 														
