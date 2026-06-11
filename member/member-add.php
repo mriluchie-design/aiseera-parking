@@ -172,7 +172,7 @@ function goBack() {
 						<div class="col-lg-3">
                           <label class="">Tipe Member :</label>
                           <div class="form-group">
-                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Pribadi">
+                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Reguler">
                       </div>
                         </div>
 						<div class="col-lg-6">

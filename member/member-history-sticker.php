@@ -108,7 +108,8 @@ function goBack() {
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Cabang</th>
 											  <th colspan="6" bgcolor="#f7fcff">Kendaraan</th>
-											  <th colspan="2" bgcolor="#f7fcff">Status</th>
+											  <th colspan="5" bgcolor="#f7fcff">Pembayaran</th>
+											  <th bgcolor="#f7fcff">Status</th>
 										  </tr>
 											<tr style="text-align:center">
 											  <th width="7%" bgcolor="#f7fcff">Kategori</th>
@@ -117,9 +118,13 @@ function goBack() {
 											  <th width="3%" bgcolor="#f7fcff">Tanggal Registrasi</th>
 											  <th width="3%" bgcolor="#f7fcff">Aktif Hingga</th>
 											  <th width="1%" bgcolor="#f7fcff">Register By</th>
+											  <th width="1%" bgcolor="#f7fcff">ID</th>
+											  <th width="1%" bgcolor="#f7fcff">Tanggal</th>
+											  <th width="1%" bgcolor="#f7fcff">ID Reff</th>
+											  <th width="1%" bgcolor="#f7fcff">Metode</th>
+											  <th width="1%" bgcolor="#f7fcff">Provider</th>
 											  <th width="1%" bgcolor="#f7fcff"> Member</th>
-											  <th width="1%" bgcolor="#f7fcff">Pembayaran</th>
-				                          </tr>
+										  </tr>
 										</thead>
 										<tbody>
 										  
@@ -132,9 +137,15 @@ function goBack() {
   <td nowrap="nowrap" style="text-align:left">1 Januari 2026</td>
   <td nowrap="nowrap" style="text-align:left">31 Desember 2026</td>
   <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-brand btn-sm">Online</button></td>
+  <td style="text-align:center" nowrap="nowrap">000001MREON0626</td>
+  <td style="text-align:center" nowrap="nowrap">11 September 2026 <hr>
+    14:14:00 WITA</td>
+  <td style="text-align:center" nowrap="nowrap">000011PGTEM0626</td>
+  <td style="text-align:center" nowrap="nowrap"><span class="btn btn-label-warning btn-sm">QRIS</span></td>
+  <td style="text-align:center" nowrap="nowrap">GoPay</td>
   <td style="text-align:center" nowrap="nowrap"><button type="button" class="btn btn-success btn-sm">Aktif</button></td>
-  <td class="text-center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355136&lt;hr&gt;e-Wallet&lt;hr&gt;QRIS" data-html="true">Non Tunai</span></td>
   </tr>
+												<tr>
 												<td id="kt_table_1">2</td>
 												<td nowrap="nowrap" style="text-align:center">Makassar</td>
 												<td nowrap="nowrap" style="text-align:left">Sepeda Motor</td>
@@ -143,8 +154,14 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:left">1 Januari 2025</td>
 												<td nowrap="nowrap" style="text-align:left">31 Desember 2025</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000003MP1025" data-html="true"> <img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+												<td style="text-align:center" nowrap="">000001MREOF0626</td>
+												<td style="text-align:center" nowrap="">11 September 2026
+                                                  <hr />
+                                                  14:15:00 WITA</td>
+												<td nowrap="nowrap" style="text-align:center">000012PGTEM0626</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm">QRIS</span></td>
+												<td nowrap="nowrap" style="text-align:center">GoPay</td>
 												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm">Renew</button></td>
-												<td class="text-center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355135&lt;hr&gt;e-Wallet&lt;hr&gt;Gopay" data-html="true">Non Tunai</span></td>
 												</tr>
 										  <tr>
 												<td id="kt_table_1">3</td>
@@ -155,8 +172,14 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:left">1 September 2024</td>
 												<td nowrap="nowrap" style="text-align:left">31 Desember 2024</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000002MP1025" data-html="true"> <img src="../assets/media/users/100_2.jpg" alt="image" /></a></td>
+												<td style="text-align:center" nowrap="">000002MREOF0626</td>
+												<td style="text-align:center" nowrap="">11 September 2026
+                                                  <hr />
+                                                14:14:00 WITA</td>
+												<td style="text-align:center" nowrap="">-</td>
+												<td style="text-align:center" nowrap=""><span class="btn btn-label-danger btn-sm">Tunai</span></td>
+												<td style="text-align:center" nowrap=""><span class="btn btn-label-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Penerima<hr>Yuni Saslia, SE<hr>31 September 2026<br>10:02 WITA" data-html="true">Tunai</span></td>
 												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-danger btn-sm">Berakhir</button></td>
-												<td class="text-center"><span class="btn btn-label-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Penerima<hr>Yuni Saslia, SE<hr>31 September 2026<br>10:02 WITA" data-html="true">Tunai</span></td>
 										  </tr>
 
 
