@@ -114,12 +114,12 @@
 									<!--begin:: Widgets/Activity-->
 									<div class="kt-portlet kt-portlet--fit kt-portlet--head-lg kt-portlet--head-overlay kt-portlet--skin-solid kt-portlet--height-fluid">
 										<div class="kt-portlet__head kt-portlet__head--noborder kt-portlet__space-x">
-											<div class="kt-portlet__head-label">
+											<div class="kt-portlet__head-label" style="margin-left:55px;">
 												<h3 class="kt-portlet__head-title">
-													Pendapatan
+													PENDAPATAN
 												</h3>
 											</div>
-											<div class="kt-portlet__head-toolbar">
+											<div class="kt-portlet__head-toolbar" style="margin-right:55px;">
 												<a href="#" class="btn btn-label-light btn-sm dropdown-toggle" data-toggle="dropdown">
 													2026
 												</a>
@@ -165,7 +165,7 @@
 																Total Pendapatan
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:17px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">Rp. 6.061.188.514,-</span>
+																<span style="color:#ed1c24; font-size:16px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">Rp. 6.161.188.514,-</span>
 															</span>
 														</div>
 														<div class="kt-widget17__item">
@@ -173,7 +173,7 @@
 																<svg id="Layer_1" align="center" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 23.96"><g id="B549_Car_Parking_Sign_Area" data-name="B549, Car, Parking, Sign, Area"><path d="M18.1.54V5h5.52V.54Z" transform="translate(-0.13 -0.02)" style="fill:#fff"/><path d="M21.22,2.7c.08,0,.12,0,.2-.08a.43.43,0,0,0,.08-.24c0-.24-.12-.36-.28-.36h-.48V2.7Zm0,.51H20.7V4h-.64V1.5h1.16a.87.87,0,0,1,.8.56.92.92,0,0,1-.16.91A.84.84,0,0,1,21.26,3.21Z" transform="translate(-0.13 -0.02)" style="fill:#2c80c3"/><path d="M23.62,24H.65a.52.52,0,1,1,0-1h23a.52.52,0,0,1,.51.52A.58.58,0,0,1,23.62,24Z" transform="translate(-0.13 -0.02)" style="fill:#2c80c3"/><path d="M18.82,15.1H1.89A1.21,1.21,0,0,0,.68,16.31v3.82a1.21,1.21,0,0,0,1.21,1.21H18.82A1.22,1.22,0,0,0,20,20.13V16.31A1.22,1.22,0,0,0,18.82,15.1Z" transform="translate(-0.13 -0.02)" style="fill:#fff"/><path d="M13.25,17.19a1,1,0,0,1,1.05,1A1.19,1.19,0,0,1,14,19a1,1,0,0,1-.75.3H7.47a1,1,0,0,1-1-1.05,1.19,1.19,0,0,1,.29-.75,1,1,0,0,1,.76-.3Z" transform="translate(-0.13 -0.02)" style="fill:#a1c6e9"/><path d="M3.82,17.19a1.05,1.05,0,1,1-1,1A1,1,0,0,1,3.82,17.19Z" transform="translate(-0.13 -0.02)" style="fill:#a1c6e9"/><path d="M16.89,17.19a1.05,1.05,0,1,1,0,2.1,1.05,1.05,0,0,1,0-2.1Z" transform="translate(-0.13 -0.02)" style="fill:#a1c6e9"/><rect x="2.64" y="21.36" width="2.09" height="2.1" style="fill:#a1c6e9"/><rect x="15.71" y="21.36" width="2.09" height="2.1" style="fill:#a1c6e9"/><polygon points="16.76 6.15 18.35 15.08 2.1 15.08 3.69 6.15 16.76 6.15" style="fill:#a1c6e9"/><path d="M2.77,21.88H1.89A1.77,1.77,0,0,1,.13,20.13V16.31a1.78,1.78,0,0,1,1.76-1.76h.34a.55.55,0,0,1,0,1.09H1.89a.74.74,0,0,0-.71.71v3.82a.74.74,0,0,0,.71.71h.88a.55.55,0,0,1,.55.54A.62.62,0,0,1,2.77,21.88Z" transform="translate(-0.13 -0.02)" style="fill:#2c80c3"/><path d="M15.85,21.88h-11a.54.54,0,1,1,0-1.08h11a.54.54,0,1,1,0,1.08Z" transform="translate(-0.13 -0.02)" style="fill:#2c80c3"/><path d="M18.82,21.88h-.88a.55.55,0,0,1-.54-.54.52.52,0,0,1,.54-.5h.88a.73.73,0,0,0,.71-.71V16.31a.73.73,0,0,0-.71-.71h-.33a.55.55,0,1,1,0-1.09h.33a1.78,1.78,0,0,1,1.76,1.76v3.81A1.78,1.78,0,0,1,18.82,21.88Z" transform="translate(-0.13 -0.02)" style="fill:#2c80c3"/><path d="M18.49,15.6H2.23a.71.71,0,0,1-.42-.17A.83.83,0,0,1,1.68,15l1.6-8.92a.5.5,0,0,1,.5-.42H16.89a.51.51,0,0,1,.51.42L19,15v.13A.54.54,0,0,1,18.49,15.6Zm-15.63-1h15L16.47,6.68H4.24Z" transform="translate(-0.13 -0.02)" style="fill:#2c80c3"/><path d="M4.87,24a.56.56,0,0,1-.55-.54v-1.6h-1v1.6a.55.55,0,0,1-1.09,0v-2.1a.55.55,0,0,1,.54-.54h2.1a.55.55,0,0,1,.54.54v2.1A.55.55,0,0,1,4.87,24Z" transform="translate(-0.13 -0.02)" style="fill:#2c80c3"/><path d="M17.94,24a.55.55,0,0,1-.54-.54v-1.6h-1v1.6a.55.55,0,0,1-1.09,0v-2.1a.55.55,0,0,1,.54-.54h2.1a.55.55,0,0,1,.54.54v2.1A.49.49,0,0,1,17.94,24Z" transform="translate(-0.13 -0.02)" style="fill:#2c80c3"/><path d="M3.82,19.79A1.59,1.59,0,1,1,5.41,18.2,1.64,1.64,0,0,1,3.82,19.79Zm0-2.09a.54.54,0,1,0,0,1.08.56.56,0,0,0,.55-.54A.59.59,0,0,0,3.82,17.7Z" transform="translate(-0.13 -0.02)" style="fill:#2c80c3"/><path d="M16.89,19.79a1.59,1.59,0,1,1,1.6-1.59A1.59,1.59,0,0,1,16.89,19.79Zm0-2.09a.54.54,0,1,0,.55.54A.55.55,0,0,0,16.89,17.7Z" transform="translate(-0.13 -0.02)" style="fill:#2c80c3"/><path d="M8,11.41a.52.52,0,0,1-.38-.17.53.53,0,0,1,0-.75l2.64-2.64a.54.54,0,0,1,.76,0,.53.53,0,0,1,0,.75L8.39,11.24A.5.5,0,0,1,8,11.41Z" transform="translate(-0.13 -0.02)" style="fill:#2c80c3"/><path d="M9.56,13.51a.56.56,0,0,1-.38-.17.54.54,0,0,1,0-.76l2.64-2.64a.54.54,0,0,1,.76.76L9.94,13.34A.54.54,0,0,1,9.56,13.51Z" transform="translate(-0.13 -0.02)" style="fill:#2c80c3"/><path d="M13.25,19.79H7.47a1.6,1.6,0,0,1-1.6-1.59,1.66,1.66,0,0,1,.47-1.13,1.87,1.87,0,0,1,1.13-.42h5.78a1.59,1.59,0,0,1,1.59,1.59,1.7,1.7,0,0,1-.46,1.13A1.9,1.9,0,0,1,13.25,19.79ZM7.47,17.7a.53.53,0,0,0-.38.16.66.66,0,0,0-.17.38.55.55,0,0,0,.55.54h5.78a.55.55,0,0,0,.38-.16.65.65,0,0,0,.16-.38.55.55,0,0,0-.54-.54Z" transform="translate(-0.13 -0.02)" style="fill:#2c80c3"/><path d="M21.1,24a.53.53,0,0,1-.52-.52V5a.52.52,0,0,1,1,0V23.5A.52.52,0,0,1,21.1,24Z" transform="translate(-0.13 -0.02)" style="fill:#2c80c3"/><path d="M23.62,5.53H18.1A.53.53,0,0,1,17.59,5V.54A.53.53,0,0,1,18.1,0h5.52a.52.52,0,0,1,.51.52V5A.58.58,0,0,1,23.62,5.53Zm-5-1H23.1V1H18.62Z" transform="translate(-0.13 -0.02)" style="fill:#2c80c3"/></g></svg> </span>
 															<span class="kt-widget17__subtitle" style="text-align:center">Parkir</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:17px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">Rp. 3.493.710.473,-</span>
+																<span style="color:#ed1c24; font-size:16px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">Rp. 3.493.710.473,-</span>
 															</span>
 														</div>
 														
@@ -185,7 +185,7 @@
 																Kendaraan Berangkat
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:17px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">Rp. 0,-</span>
+																<span style="color:#ed1c24; font-size:16px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">Rp. 0,-</span>
 															</span>
 														</div>
 														<div class="kt-widget17__item">
@@ -195,7 +195,7 @@
 																Muatan Kapal
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:17px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">Rp. 0,-</span>
+																<span style="color:#ed1c24; font-size:16px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">Rp. 0,-</span>
 															</span>
 														</div>
 														<div class="kt-widget17__item">
@@ -205,7 +205,7 @@
 																Member
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:17px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">Rp. 2.315.640.000,-</span>
+																<span style="color:#ed1c24; font-size:16px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">Rp. 2.315.640.000,-</span>
 															</span>
 														</div>
 														<div class="kt-widget17__item">
@@ -215,7 +215,17 @@
 																Pass Kade
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:17px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">Rp. 251.838.000,-</span>
+																<span style="color:#ed1c24; font-size:16px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">Rp. 251.838.000,-</span>
+															</span>
+														</div>
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__icon" style="text-align:center">
+																<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 23.8"><g id="D528_Avatar_body_description_human_profile" data-name="D528, Avatar, body, description, human, profile"><path d="M22.44,2.19h-4.8A1.14,1.14,0,0,0,16.52,3.3V10a1.14,1.14,0,0,0,1.12,1.11H22.4A1.14,1.14,0,0,0,23.52,10V3.3A1.08,1.08,0,0,0,22.44,2.19Z" transform="translate(0 -0.17)" style="fill:#acc5e7"/><path d="M20,4.17a1,1,0,1,1-1,1A1,1,0,0,1,20,4.17Z" transform="translate(0 -0.17)" style="fill:#fff"/><path d="M7.56,23.5H3V17.55H.52V11.1a3,3,0,0,1,3-3h8a3,3,0,0,1,3,3v6.45H12V23.5Z" transform="translate(0 -0.17)" style="fill:#acc5e7"/><path d="M7.56.72a3,3,0,0,1,3,3,3,3,0,0,1-6,0A3,3,0,0,1,7.56.72Z" transform="translate(0 -0.17)" style="fill:#fff"/><path d="M12,24H3a.53.53,0,0,1-.52-.51V18h-2A.53.53,0,0,1,0,17.52V11.1A3.47,3.47,0,0,1,3.48,7.65h8A3.47,3.47,0,0,1,15,11.1v6.45a.53.53,0,0,1-.52.52h-2v5.47C12.56,23.73,12.32,24,12,24ZM3.56,23h8V17.55a.53.53,0,0,1,.52-.51h2V11.1A2.48,2.48,0,0,0,11.6,8.64H3.52A2.48,2.48,0,0,0,1,11.1V17H3a.53.53,0,0,1,.52.51Z" transform="translate(0 -0.17)" style="fill:#4f7fc1"/><path d="M7.56,7.14a3.49,3.49,0,1,1,3.52-3.49A3.51,3.51,0,0,1,7.56,7.14Zm0-5.94a2.5,2.5,0,1,0,2.52,2.49A2.52,2.52,0,0,0,7.56,1.2Z" transform="translate(0 -0.17)" style="fill:#4f7fc1"/><path d="M7.56,24A.53.53,0,0,1,7,23.46V18a.52.52,0,0,1,1,0V23.5A.59.59,0,0,1,7.56,24Z" transform="translate(0 -0.17)" style="fill:#4f7fc1"/><path d="M22.44,11.61h-4.8A1.59,1.59,0,0,1,16,10V3.3a1.6,1.6,0,0,1,1.6-1.59H22.4A1.6,1.6,0,0,1,24,3.3V10A1.57,1.57,0,0,1,22.44,11.61ZM17.64,2.7a.59.59,0,0,0-.6.6V10a.61.61,0,0,0,.6.59H22.4A.61.61,0,0,0,23,10V3.3a.62.62,0,0,0-.6-.6Z" transform="translate(0 -0.17)" style="fill:#4f7fc1"/><path d="M20,6.66a1.51,1.51,0,1,1,1.52-1.5A1.51,1.51,0,0,1,20,6.66Zm0-2a.53.53,0,0,0-.52.52.52.52,0,0,0,1,0A.5.5,0,0,0,20,4.68Z" transform="translate(0 -0.17)" style="fill:#4f7fc1"/><path d="M21.56,9.63h-3A.52.52,0,0,1,18,9.12a.53.53,0,0,1,.52-.52h3a.53.53,0,0,1,.52.52A.58.58,0,0,1,21.56,9.63Z" transform="translate(0 -0.17)" style="fill:#4f7fc1"/></g></svg> </span>
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Pass Orang
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:16px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">Rp. 100.000.000,-</span>
 															</span>
 														</div>
 														

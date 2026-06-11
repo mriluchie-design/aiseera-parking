@@ -24,12 +24,12 @@
             <div class="kt-subheader__main">
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Laporan
+                    Laporan 
                 </h3>
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Produksi </span>
+											Pass Orang </span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
 										</form>
@@ -47,7 +47,7 @@
                     <!--begin::Nav-->
                     <ul class="kt-nav">
                         <li class="kt-nav__item">
-                            <a href="#" class="kt-nav__link">
+                            <a href="cetak-rekap-pass-orang.php" class="kt-nav__link">
                                 <i class="kt-nav__link-icon fa fa-file-pdf"></i><span class="kt-nav__link-text">PDF</span>
                             </a>
                           </li>
@@ -123,41 +123,31 @@
                             
 								
 								
-								
 								<div class="col-lg-2">
-                                <label>Kategori :</label>
+                                <label>Operator :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1">Reguler</option>
-                                      <option value="2">Member</option>
-                                      <option value="2">Pass Kade</option>
-                                      <option value="2">Kendaraan Berangkat</option>
-                                      <option value="2">Muatan Kapal</option>
-                                      <option value="2">Free Pass</option>
-                                      <option value="2">Denda</option>
-									  <option value="2" selected>Keseluruhan</option>
+                                      <option value="1" selected="">Muhammad Nasrullah, S.Kom</option>
+                                      <option value="1">Muhammad Ramadhan, S.T</option>
+                                      <option value="2">Keseluruhan</option>
                                                                            
                                   </select>
-    		                    </div>
+                            </div>
 								<div class="col-lg-2">
-                                <label>Jenis :</label>
+                                <label>Kendaraan :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1">Motor</option>
-                                      <option value="1">Mobil</option>
-                                      <option value="1">Pegawai/Instansi/Others</option>
-                                      <option value="2">Sepeda Motor</option>
-                                      <option value="2">Sedan/Jeep/Pick Up</option>
-                                      <option value="2">Truck/Tronton/Trailer</option>
+                                      <option value="1" selected="">Mobil</option>
+                                      <option value="2">Motor</option>
                                       <option value="2">Truck</option>
                                       <option value="2">Tronton</option>
-                                      <option value="2">Gerobak</option>
-									  <option value="2" selected>Keseluruhan</option>
+                                      <option value="2">Trailer</option>
+									  <option value="2">Keseluruhan</option>
                                                                            
                                   </select>
     		                    </div>
 								<div class="col-lg-2">
-                                <label class="">Tanggal Produksi :</label>
+                                <label class="">Tanggal Transaksi :</label>
                                 <div class="input-group">
 						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="-- Pilih Tanggal --">
 						                        <div class="input-group-append">
@@ -165,15 +155,59 @@
 						                        </div>
 						                      </div>
                             </div>
+							
 							<div class="col-lg-1">
-                                <label>Status :</label>
+                                <label>Pembayaran :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Parkir</option>
-                                      <option value="2">Keluar</option>
+                                      <option value="1" selected="">e-Money</option>
+                                      <option value="1">QRIS</option>
+                                      <option value="2">Tunai</option>
+                                      <option value="2">Keseluruhan</option>
                                                                            
                                   </select>
                             </div>
+								<div class="col-lg-2">
+                                <label>Provider Pembayaran :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Mandiri</option>
+                                      <option value="1">BCA Flazz</option>
+                                      <option value="1">Brizzi</option>
+                                      <option value="1">BNI Tap Cash</option>
+                                      <option value="1">OVO</option>
+                                      <option value="1">DANA</option>
+                                      <option value="1">Shoope Pay</option>
+                                      <option value="1">BCA</option>
+                                      <option value="1">Livin Mandiri</option>
+                                      <option value="2">Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
+                            </div>
+							<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+							<div class="col-lg-2">
+                                <label>Karcis / e-Money :</label>
+								
+                                <div class="kt-input-icon kt-input-icon--right">
+        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
+        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
+    		                            <span><i class="la la-search"></i></span>
+    		                        </span>
+    		                    </div>
+    		                    </div>
+								<div class="col-lg-2">
+                                <label>No. Plat :</label>
+								
+                                <div class="kt-input-icon kt-input-icon--right">
+        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
+        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
+    		                            <span><i class="la la-search"></i></span>
+    		                        </span>
+    		                    </div>
+    		                    </div>
+							
                             </div>
                             
 							
@@ -196,301 +230,230 @@
 				<!--end::Form-->
 			</div>
             <!--begin::End-->
+<div class="row">
+								
+								
+								
+								
+								
+								<div class="col-xl-12">
 
+									<!--begin:: Widgets/Activity-->
+									<div class="kt-portlet kt-portlet--fit kt-portlet--head-lg kt-portlet--head-overlay kt-portlet--skin-solid kt-portlet--height-fluid">
+										<div class="kt-portlet__head kt-portlet__head--noborder kt-portlet__space-x">
+											<div class="kt-portlet__head-label">
+												<h3 class="kt-portlet__head-title">
+													Pass Orang
+												</h3>
+											</div>
+											<div class="kt-portlet__head-toolbar">
+												<a href="#" class="btn btn-label-light btn-sm dropdown-toggle" data-toggle="dropdown">
+													Hari ini
+												</a>
+												<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+													<ul class="kt-nav">
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">Bulan ini</span>
+															</a>
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">Tahun ini</span>
+															</a>
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-chart-bar"></i>
+																<span class="kt-nav__link-text">Keseluruhan</span>
+															</a>
+														</li>
+														
+														
+													</ul>
+												</div>
+											</div>
+										</div>
+										<div class="kt-portlet__body kt-portlet__body--fit">
+											<div class="kt-widget17">
+												<div class="kt-widget17__visual kt-widget17__visual--chart kt-portlet-fit--top kt-portlet-fit--sides" style="background-color: #0961ae">
+													<div class="kt-widget17__chart" style="height:120px;">
+														<canvas id="kt_chart_activities"></canvas>
+													</div>
+												</div>
+												<div class="kt-widget17__stats">
+													<div class="kt-widget17__items">
+														<div class="kt-widget17__item">
+															
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Pass Orang
+															</span>
+
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:24px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">105</span>
+															
+															</span>
+														</div>
+														
+														
+														
+														
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Transaksi
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#0b841c; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">Rp. 10.000.000,-</span>
+															</span>
+														</div>
+														
+														
+														
+														
+														
+														
+													</div>
+													
+													
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<!--end:: Widgets/Activity-->
+								</div>
+
+							<!--End::Section-->
+
+							
+
+						
+						</div>
 			
 
 			<div class="kt-portlet kt-portlet--mobile ">
 				<div class="kt-portlet__body">
 					<!--begin: Datatable -->
-					<table class="table table-striped- table-bordered table-hover table-checkable" id="kt_table_1"">
+					<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
 										<thead>
-											<tr style="text-align:center;">
-											  <th rowspan="2" bgcolor="#f7fcff" id="kt_table_3">#</th>
-											  <th width="2%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
-											  <th colspan="2" rowspan="2" bgcolor="#f7fcff">Kategori</th>
-											  <th width="2%" rowspan="2" bgcolor="#f7fcff">Jenis</th>
-											  <th colspan="2" bgcolor="#f7fcff">Qty<br></th>
-											  <th width="3%" colspan="3" bgcolor="#f7fcff">Jumlah Durasi<br>										        Parkir</th>
+											<tr style="text-align:center">
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Operator</th>
+											  <th colspan="4" bgcolor="#feffed"> Pass Orang</th>
+											  <th colspan="3" bgcolor="#f7fcff">Pembayaran</th>
+											  <th bgcolor="#f7fcff">Foto</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 									      </tr>
 											<tr style="text-align:center">
-											  <th width="2%" bgcolor="#f7fcff">Vol</th>
-											  <th width="2%" bgcolor="#f7fcff">Sat</th>
-											  <th width="3%" bgcolor="#f7fcff">Jam</th>
-											  <th width="3%" bgcolor="#f7fcff">Menit</th>
-											  <th width="3%" bgcolor="#f7fcff">Detik</th>
+											  <th width="1%" bgcolor="#feffed">Karcis / eMoney</th>
+											  <th colspan="2" bgcolor="#feffed">Volume</th>
+											  <th width="1%" bgcolor="#feffed">Waktu</th>
+											  <th width="1%" bgcolor="#f7fcff">ID Reff</th>
+											  <th width="1%" bgcolor="#f7fcff">Metode</th>
+											  <th width="1%" bgcolor="#f7fcff">Provider</th>
+											  <th width="1%" bgcolor="#f7fcff">Kendaraan</th>
 										  </tr>
 										</thead>
-										<tbody style="line-height:10px;">
+										<tbody>
 											<tr>
-											  <td id="kt_table_34" style="text-align:right"><strong>1</strong></td>
-											  <td colspan="10" nowrap style="text-align:left"><strong>Makassar</strong></td>
-										  </tr>
-											<tr>
-											  <td bgcolor="#f7fcff"  width="1%" id="kt_table_12" style="text-align:right"><strong>1.1</strong></td>
-											  <td bgcolor="#f7fcff" colspan="10" nowrap style="text-align:left"><strong>Data Produksi Masuk</strong></td>
-										  </tr>
-											<tr>
-											  <td colspan="2" rowspan="10" id="kt_table_4" style="text-align:right">&nbsp;</td>
-											  <td width="1%" nowrap="nowrap" style="text-align:right">1.1.1</td>
-											  <td width="5%" nowrap="nowrap" style="text-align:left">Reguler</td>
-											  <td nowrap="nowrap" style="text-align:left">Motor</td>
-											  <td nowrap="nowrap" style="text-align:right">14</td>
-											  <td nowrap="nowrap" style="text-align:right">Unit</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
-									      </tr>
-											<tr>
-											  <td colspan="2" nowrap="nowrap" style="text-align:right"></td>
-											  <td nowrap="nowrap" style="text-align:left">Mobil</td>
-											  <td nowrap="nowrap" style="text-align:right">25</td>
-											  <td nowrap="nowrap" style="text-align:right">Unit</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
-									      </tr>
-											<tr>
-											  <td nowrap="nowrap" style="text-align:right">1.1.2</td>
-											  <td nowrap="nowrap" style="text-align:left">Member</td>
-											  <td nowrap="nowrap" style="text-align:left">Motor</td>
-											  <td nowrap="nowrap" style="text-align:right">14</td>
-											  <td nowrap="nowrap" style="text-align:right">Unit</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
-									      </tr>
-											<tr>
-											  <td colspan="2" rowspan="3" nowrap style="text-align:left">&nbsp;</td>
-											  <td nowrap="nowrap" style="text-align:left">Sedan/Jeep/Pick Up</td>
-											  <td nowrap="nowrap" style="text-align:right">25</td>
-											  <td nowrap="nowrap" style="text-align:right">Unit</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
-									      </tr>
-											<tr>
-											  <td nowrap="nowrap" style="text-align:left">Truck/Tronton/Trailer</td>
-											  <td nowrap="nowrap" style="text-align:right">25</td>
-											  <td nowrap="nowrap" style="text-align:right">Unit</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
-									      </tr>
-											<tr>
-											  <td nowrap="nowrap" style="text-align:left">Pegawai / Instansi / Others</td>
-											  <td nowrap="nowrap" style="text-align:right">25</td>
-											  <td nowrap="nowrap" style="text-align:right">Unit</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
-									      </tr>
-											<tr>
-											  <td nowrap style="text-align:right">1.1.3</td>
-											  <td nowrap style="text-align:left">Pass Kade</td>
-											  <td nowrap style="text-align:left">Truck</td>
-											  <td nowrap="nowrap" style="text-align:right">14</td>
-											  <td nowrap="nowrap" style="text-align:right">m3</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
-									      </tr>
-											<tr>
-											  <td colspan="2" rowspan="2" nowrap style="text-align:left">&nbsp;</td>
-											  <td nowrap style="text-align:left">Tronton</td>
-											  <td nowrap="nowrap" style="text-align:right">14</td>
-											  <td nowrap="nowrap" style="text-align:right">m3</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
-									      </tr>
-											<tr>
-											  <td nowrap style="text-align:left">Gerobak</td>
-											  <td nowrap="nowrap" style="text-align:right">14</td>
-											  <td nowrap="nowrap" style="text-align:right">m3</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
-									      </tr>
-											<tr>
-											  <td nowrap="nowrap" style="text-align:right">1.1.4</td>
-											  <td nowrap="nowrap" style="text-align:left">Pass Orang</td>
-											  <td id="kt_table_2" style="text-align:right">&nbsp;</td>
-											  <td id="kt_table_2" style="text-align:right">1500</td>
-											  <td id="kt_table_2" style="text-align:right">Orang</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td nowrap="nowrap" style="text-align:right">0</td>
-											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
-										  </tr>
-											<tr>
-											  <td colspan="11" id="kt_table_7" style="text-align:right">&nbsp;</td>
-										  </tr>
-											<tr>
-											  <td bgcolor="#f7fcff"  style="text-align:right" id="kt_table_27"><strong>1.2</strong></td>
-											  <td bgcolor="#f7fcff"  colspan="10" nowrap style="text-align:left"><strong>Data Produksi Keluar</strong></td>
-										  </tr>
-											<tr>
-											  <td colspan="2" rowspan="13" id="kt_table_26" style="text-align:right">&nbsp;</td>
-											  <td nowrap="nowrap" style="text-align:right">1.2.1</td>
-											  <td nowrap="nowrap" style="text-align:left">Reguler</td>
-											  <td nowrap="nowrap" style="text-align:left">Motor</td>
-											  <td nowrap="nowrap" style="text-align:right">14</td>
-											  <td nowrap="nowrap" style="text-align:right">Unit</td>
-											  <td nowrap="nowrap" style="text-align:right">477</td>
-											  <td nowrap="nowrap" style="text-align:right">10</td>
-											  <td nowrap="nowrap" style="text-align:right">60</td>
-											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
-									      </tr>
-											<tr>
-											  <td nowrap="nowrap" style="text-align:right">&nbsp;</td>
-											  <td nowrap="nowrap" style="text-align:left">&nbsp;</td>
-											  <td nowrap="nowrap" style="text-align:left">Mobil</td>
-											  <td nowrap="nowrap" style="text-align:right">25</td>
-											  <td nowrap="nowrap" style="text-align:right">Unit</td>
-											  <td nowrap="nowrap" style="text-align:right">712</td>
-											  <td nowrap="nowrap" style="text-align:right">10</td>
-											  <td nowrap="nowrap" style="text-align:right">60</td>
-											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
-									      </tr>
-											<tr>
-											  <td nowrap="nowrap" style="text-align:right">1.2.2</td>
-											  <td nowrap="nowrap" style="text-align:left">Member</td>
-											  <td nowrap="nowrap" style="text-align:left">Motor</td>
-											  <td nowrap="nowrap" style="text-align:right">14</td>
-											  <td nowrap="nowrap" style="text-align:right">Unit</td>
-											  <td nowrap="nowrap" style="text-align:right">477</td>
-											  <td nowrap="nowrap" style="text-align:right">10</td>
-											  <td nowrap="nowrap" style="text-align:right">60</td>
-											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
-									      </tr>
-											<tr>
-											  <td colspan="2" rowspan="3" nowrap="nowrap" style="text-align:left">&nbsp;</td>
-											  <td nowrap="nowrap" style="text-align:left">Sedan/Jeep/Pick Up</td>
-											  <td nowrap="nowrap" style="text-align:right">25</td>
-											  <td nowrap="nowrap" style="text-align:right">Unit</td>
-											  <td nowrap="nowrap" style="text-align:right">712</td>
-											  <td nowrap="nowrap" style="text-align:right">10</td>
-											  <td nowrap="nowrap" style="text-align:right">60</td>
-											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
-									      </tr>
-											<tr>
-											  <td nowrap="nowrap" style="text-align:left">Truck/Tronton/Trailer</td>
-											  <td nowrap="nowrap" style="text-align:right">25</td>
-											  <td nowrap="nowrap" style="text-align:right">Unit</td>
-											  <td nowrap="nowrap" style="text-align:right">477</td>
-											  <td nowrap="nowrap" style="text-align:right">10</td>
-											  <td nowrap="nowrap" style="text-align:right">60</td>
-											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
-									      </tr>
-											<tr>
-											  <td nowrap="nowrap" style="text-align:left">Pegawai / Instansi / Others</td>
-											  <td nowrap="nowrap" style="text-align:right">25</td>
-											  <td nowrap="nowrap" style="text-align:right">Unit</td>
-											  <td nowrap="nowrap" style="text-align:right">712</td>
-											  <td nowrap="nowrap" style="text-align:right">10</td>
-											  <td nowrap="nowrap" style="text-align:right">60</td>
-											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
-									      </tr>
-											<tr>
-											  <td nowrap style="text-align:right">1.2.3</td>
-											  <td nowrap="nowrap" style="text-align:left">Kendaraan Berangkat</td>
-											  <td nowrap="nowrap" style="text-align:left">Motor</td>
-											  <td nowrap="nowrap" style="text-align:right">14</td>
-											  <td nowrap="nowrap" style="text-align:right">Unit</td>
-											  <td nowrap="nowrap" style="text-align:right">477</td>
-											  <td nowrap="nowrap" style="text-align:right">10</td>
-											  <td nowrap="nowrap" style="text-align:right">60</td>
-											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
-									      </tr>
-											<tr>
-											  <td colspan="2" nowrap style="text-align:left">&nbsp;</td>
-											  <td nowrap="nowrap" style="text-align:left">Mobil</td>
-											  <td nowrap="nowrap" style="text-align:right">25</td>
-											  <td nowrap="nowrap" style="text-align:right">Unit</td>
-											  <td nowrap="nowrap" style="text-align:right">712</td>
-											  <td nowrap="nowrap" style="text-align:right">10</td>
-											  <td nowrap="nowrap" style="text-align:right">60</td>
-											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
-									      </tr>
-											<tr>
-											  <td nowrap style="text-align:right">1.2.4</td>
-											  <td nowrap="nowrap" style="text-align:left">Muatan Kapal</td>
-											  <td nowrap="nowrap" style="text-align:left">Motor</td>
-											  <td nowrap="nowrap" style="text-align:right">14</td>
-											  <td nowrap="nowrap" style="text-align:right">Unit</td>
-											  <td nowrap="nowrap" style="text-align:right">477</td>
-											  <td nowrap="nowrap" style="text-align:right">10</td>
-											  <td nowrap="nowrap" style="text-align:right">60</td>
-											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
-									      </tr>
-											<tr>
-											  <td colspan="2" nowrap style="text-align:left">&nbsp;</td>
-											  <td nowrap="nowrap" style="text-align:left">Mobil</td>
-											  <td nowrap="nowrap" style="text-align:right">25</td>
-											  <td nowrap="nowrap" style="text-align:right">Unit</td>
-											  <td nowrap="nowrap" style="text-align:right">712</td>
-											  <td nowrap="nowrap" style="text-align:right">10</td>
-											  <td nowrap="nowrap" style="text-align:right">60</td>
-											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
-									      </tr>
-											<tr>
-											  <td nowrap style="text-align:right">1.2.5</td>
-											  <td nowrap="nowrap" style="text-align:left">Free Pass</td>
-											  <td nowrap="nowrap" style="text-align:left">&nbsp;</td>
-											  <td nowrap="nowrap" style="text-align:right">25</td>
-											  <td nowrap="nowrap" style="text-align:right">Unit</td>
-											  <td nowrap="nowrap" style="text-align:right">712</td>
-											  <td nowrap="nowrap" style="text-align:right">10</td>
-											  <td nowrap="nowrap" style="text-align:right">60</td>
-											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
-									      </tr>
-											<tr>
-											  <td nowrap style="text-align:right">1.2.6</td>
-											  <td nowrap="nowrap" style="text-align:left">Denda</td>
-											  <td nowrap="nowrap" style="text-align:left">Mobil</td>
-											  <td nowrap="nowrap" style="text-align:right">14</td>
-											  <td nowrap="nowrap" style="text-align:right">Unit</td>
-											  <td nowrap style="text-align:left">&nbsp;</td>
-											  <td nowrap style="text-align:left">&nbsp;</td>
-											  <td nowrap style="text-align:left">&nbsp;</td>
-											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
-									      </tr>
-											<tr>
-											  <td colspan="2" nowrap style="text-align:left">&nbsp;</td>
-											  <td nowrap="nowrap" style="text-align:left">Motor</td>
-											  <td nowrap="nowrap" style="text-align:right">25</td>
-											  <td nowrap="nowrap" style="text-align:right">Unit</td>
-											  <td nowrap style="text-align:left">&nbsp;</td>
-											  <td nowrap style="text-align:left">&nbsp;</td>
-											  <td nowrap style="text-align:left">&nbsp;</td>
-											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
-									      </tr>
-											<tr>
-											  <td colspan="11" id="kt_table_6" style="text-align:right">&nbsp;</td>
+												<td id="kt_table_1">1</td>
+												<td style="text-align:center" nowrap>Makassar</td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123212&lt;hr&gt;Muhammad Ramadhan, ST" data-html="true"><img src="../assets/media/users/100_5.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center">12321355123123212</td>
+												<td width="1%" nowrap="nowrap" style="text-align:center">1</td>
+												<td width="1%" nowrap="nowrap" style="text-align:center">Orang</td>
+												<td nowrap="nowrap" style="text-align:center">1 September 2026<hr />07:52:00 WITA</td>
+												<td class="text-center">01521531355135</td>
+												<td class="text-center"><span class="btn btn-label-linkedin btn-sm">QRIS</span></td>
+												<td class="text-center">OVO</td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/keluar-mobil.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+												    <ul class="kt-nav">
+												      <li class="kt-nav__item"> <a href="detail-pass-orang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="cetak-pass-orang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Pass Orang</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+											        </ul>
+											      </div>
+												  </div></td>
 										  </tr>
 										  <tr>
-										      <td bgcolor="" style="text-align:right" colspan="11" id="kt_table_8">&nbsp;</td>
-									      </tr>
-									      <tr>
-										    <td colspan="5" bgcolor="#f7fcff" id="kt_table_10" style="text-align:right"><b>Total</b></td>
-										    <td bgcolor="#f7fcff" style="text-align:right" id="kt_table_10">&nbsp;</td>
-										    <td bgcolor="#f7fcff" style="text-align:right" id="kt_table_10">&nbsp;</td>
-										    <td bgcolor="#f7fcff" style="text-align:right" id="kt_table_10">&nbsp;</td>
-										    <td bgcolor="#f7fcff" style="text-align:right" id="kt_table_10">&nbsp;</td>
-										    <td bgcolor="#f7fcff" style="text-align:right" id="kt_table_10">&nbsp;</td>
-										    <td bgcolor="#f7fcff">&nbsp;</td>
-									      </tr>
-  </tbody>
+												<td id="kt_table_1">2</td>
+												<td nowrap="nowrap" style="text-align:center">Makassar</td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"> <img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center">12321355123123212</td>
+												<td nowrap="nowrap" style="text-align:center">2</td>
+												<td nowrap="nowrap" style="text-align:center">Orang</td>
+												<td nowrap="nowrap" style="text-align:center">1 September 2026
+												  <hr />
+											    07:53:00 WITA</td>
+												<td class="text-center">01521531355135</td>
+												<td class="text-center"><span class="btn btn-label-linkedin btn-sm">QRIS</span></td>
+												<td class="text-center">DANA</td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/foto-motor-masuk.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+												    <ul class="kt-nav">
+												      <li class="kt-nav__item"> <a href="detail-pass-orang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="cetak-pass-orang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Pass Orang</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+											        </ul>
+											      </div>
+												  </div></td>
+										  </tr>
+
+<tr>
+												<td id="kt_table_1">3</td>
+												<td style="text-align:center" nowrap>Makassar</td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123212&lt;hr&gt;Muhammad Ramadhan, ST" data-html="true"> <img src="../assets/media/users/100_5.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center">12321355123123212</td>
+												<td nowrap="nowrap" style="text-align:center">3</td>
+												<td nowrap="nowrap" style="text-align:center">Orang</td>
+												<td nowrap="nowrap" style="text-align:center">1 September 2026
+												  <hr />
+											    07:54:00 WITA</td>
+												<td class="text-center">01521531355135</td>
+												<td class="text-center"><span class="btn btn-label-brand btn-sm">e-Money</span></td>
+												<td class="text-center">Mandiri</td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/foto-motor-masuk-2.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+												     <ul class="kt-nav">
+												      <li class="kt-nav__item"> <a href="detail-pass-orang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="cetak-pass-orang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Pass Orang</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+											        </ul>
+											      </div>
+												  </div></td>
+										  </tr>
+<tr>
+  <td id="kt_table_4">4</td>
+  <td style="text-align:center" nowrap="nowrap">Makassar</td>
+  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123212&lt;hr&gt;Muhammad Ramadhan, ST" data-html="true"> <img src="../assets/media/users/100_5.jpg" alt="image" /></a></td>
+  <td nowrap="nowrap" style="text-align:center">12321355123123212</td>
+  <td nowrap="nowrap" style="text-align:center">4</td>
+  <td nowrap="nowrap" style="text-align:center">Orang</td>
+  <td nowrap="nowrap" style="text-align:center">1 September 2026
+    <hr />
+    07:55:00 WITA</td>
+  <td class="text-center">01521531355135</td>
+  <td class="text-center"><span class="btn btn-label-brand btn-sm">e-Money</span></td>
+<td class="text-center">BCA Flazz</td>
+<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/foto-mobil-masuk.png" alt="image" /></a></td>
+  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+												     <ul class="kt-nav">
+												      <li class="kt-nav__item"> <a href="detail-pass-orang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="cetak-pass-orang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Pass Orang</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+											        </ul>
+											      </div>
+												  </div></td>
+  </tr>
+</tbody>
 									</table>
                     <!--end: Datatable -->
 
