@@ -81,7 +81,7 @@
 											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-permintaan-bantuan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Permintaan Bantuan</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-hapus-kendaraan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Hapus Kendaraan</span></a></li>
 											
-											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-produksi-keseluruhan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Produksi Keseluruhan</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-produksi-keseluruhan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Rekap Produksi</span></a></li>
 											
 											<li class="kt-menu__item" aria-haspopup="true"><a href="laporan-buka-palang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Buka Palang</span></a></li>
 											

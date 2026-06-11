@@ -424,12 +424,12 @@
 											  <th width="1%" bgcolor="#f7fcff">Jenis</th>
 											  <th width="1%" bgcolor="#f7fcff">Member</th>
 											  <th width="1%" bgcolor="#f7fcff">No. Plat</th>
-											  <th width="5%" bgcolor="#f7fcff">Gate / Jalur</th>
+											  <th width="6%" bgcolor="#f7fcff">Gate / Jalur</th>
 											  <th width="5%" bgcolor="#f7fcff">Tanggal Masuk</th>
 											  <th width="7%" bgcolor="#f7fcff">Pembayaran</th>
 											  <th width="1%" bgcolor="#fdfdec">No. Plat</th>
 											  <th width="1%" bgcolor="#fdfdec">Tanggal Keluar</th>
-											  <th width="5%" bgcolor="#fdfdec">Gate / Jalur</th>
+											  <th width="6%" bgcolor="#fdfdec">Gate / Jalur</th>
 											  <th width="7%" bgcolor="#fdfdec">Pembayaran</th>
 									      </tr>
 										</thead>

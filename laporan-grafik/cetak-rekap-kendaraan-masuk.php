@@ -123,7 +123,7 @@ function goBack() {
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Member</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">ID Transaksi</th>
-											  <th colspan="9" bgcolor="#feffed">Kendaraan</th>
+											  <th colspan="9" bgcolor="#feffed">Kendaraan Masuk</th>
 											  <th colspan="2" bgcolor="#f7fcff">Foto </th>
 										  </tr>
 											<tr style="text-align:center">
@@ -132,7 +132,7 @@ function goBack() {
 											  <th width="2%" bgcolor="#feffed">No. Plat</th>
 											  <th width="3%" bgcolor="#feffed">Waktu Masuk</th>
 											  <th width="1%" bgcolor="#feffed">Gate</th>
-											  <th width="4%" bgcolor="#feffed">Jalur</th>
+											  <th width="3%" bgcolor="#feffed">Jalur</th>
 											  <th width="4%" bgcolor="#feffed">Nama Jalur</th>
 											  <th width="3%" bgcolor="#feffed">Status</th>
 											  <th width="7%" bgcolor="#feffed">Pembayaran</th>
@@ -223,7 +223,7 @@ function goBack() {
 </tbody>
 									</table>
 						
-<table align="center" class="footnote-1" width="1450px" style="margin-top:450px; margin-bottom:20px;">
+<table align="center" class="footnote-1" width="1450px" style="margin-top:150px; margin-bottom:20px;">
         <thead>
             <tr><th></th>
             <th width="2%"></th>
@@ -254,7 +254,7 @@ function goBack() {
                             tanda tangan basah pada Dokumen ini.</i></span></td>
             </tr>
             <tr style=" width:650px;">
-              <td colspan="2" valign="center" style="text-align: center; font-family: Roboto; font-size: 11px;"><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA - Halaman 1 dari 100</i></td>
+              <td colspan="2" valign="center" style="text-align: center; font-family: Roboto; font-size: 11px;"><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA - Halaman 1 dari 10</i></td>
             </tr>
 <tr style="height: 10px"><td></td></tr>
              <tr>

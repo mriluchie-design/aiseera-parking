@@ -14,8 +14,16 @@
 										</span>
 										&nbsp;
 										&nbsp;
-											Form Tambah Member
+											Detail Pembayaran
 									</h3>
+<span class="kt-subheader__separator kt-subheader__separator--v"></span>
+									<div class="kt-subheader__group" id="kt_subheader_search">
+										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
+											000002MREON0626 </span>
+										<form class="kt-margin-l-20" id="kt_subheader_search_form">
+
+										</form>
+									</div>
 
 								</div>
 								
@@ -158,7 +166,7 @@ function goBack() {
 								<div class="col-xl-6">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Diri</div><br>
 										<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
@@ -186,13 +194,13 @@ function goBack() {
                      <div class="form-group row">
 						<div class="col-lg-6">
                           <label><span style="color:#ff0000">*</span> Nama Lengkap :</label>
-                          <input type="text" class="form-control form-control-sm" placeholder="">
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom">
                         </div>
                       
 						
 						<div class="col-lg-6">
                           <label class=""><span style="color:#ff0000">*</span> No. KTP / SIM :</label>
-                          <input type="text" class="form-control form-control-sm" placeholder="737112301870002">
+                          <input type="text" class="form-control form-control-sm" placeholder="737112301870002" disabled>
                       </div>
 					 
                         </div>
@@ -201,42 +209,22 @@ function goBack() {
 						<div class="col-lg-3">
                           <label class="">Nama Panggilan :</label>
                           <div class="form-group">
-                        <input type="text" class="form-control form-control-sm" placeholder=""  >
+                        <input type="text" class="form-control form-control-sm" placeholder=""  disabled>
                       </div>
                         </div>
 						<div class="col-lg-3">
                           <label><span style="color:#ff0000">*</span> Jenis Kelamin :</label>
                          
-						 <select class="form-control kt-selectpicker" data-live-search="true">
-						
-														<option>Pria</option>
-														<option>Wanita</option>
-														 <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-														
-													</select>
+						 <input type="text" class="form-control form-control-sm" placeholder="Pria" disabled>
                         </div>
 						
 						<div class="col-lg-3">
                           <label><span style="color:#ff0000">*</span> Status :</label>
-                        <select class="form-control kt-selectpicker" data-live-search="true">
-														<option>Single</option>
-														<option>Menikah</option>
-														<option>Janda</option>
-														<option>Duda</option>
-														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-														</select>
+                        <input type="text" class="form-control form-control-sm" placeholder="Menikah" disabled>
                         </div>
 						<div class="col-lg-3">
                           <label><span style="color:#ff0000">*</span> Agama :</label>
-                         <select class="form-control kt-selectpicker" data-live-search="true">
-														<option>Islam</option>
-														<option>Kristen Protestan</option>
-														<option>Kristen Katholik</option>
-														<option>Hindu</option>
-														<option>Budha</option>
-														<option>Konghucu</option>
-														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-														</select>
+                         <input type="text" class="form-control form-control-sm" placeholder="Islam" disabled>
                         </div>
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
@@ -246,41 +234,20 @@ function goBack() {
 						
 						<div class="col-lg-3">
 					                           <label class=""><span style="color:#ff0000">*</span> Tempat Kelahiran :</label>
-					                         <select class="form-control kt-selectpicker" data-live-search="true">
-					 															<optgroup label="Sulawesi Selatan">
-					 																<option value="AK">Maros</option>
-					 																<option value="AK" selected>Makassar</option>
-					 																
-					 															</optgroup>
-
-					 														</select>
+					                         <input type="text" class="form-control form-control-sm" placeholder="Makassar" disabled>
 					                         </div>
 						<div class="col-lg-3">
                           <label class=""><span style="color:#ff0000">*</span> Tanggal Kelahiran :</label>
-                          <div class="form-group">
-                         <div class="input-group date">
-													<input type="text" class="form-control form-control-sm" readonly="" placeholder="== Pilih Tanggal ==" id="kt_datepicker_2">
-													<div class="input-group-append">
-														<span class="input-group-text">
-															<i class="la la-calendar-check-o"></i>
-														</span>
-													</div>
-												</div>
-                      </div>
+                          <input type="text" class="form-control form-control-sm" placeholder="22/01/1987" disabled>
 
                         </div>
 						<div class="col-lg-3">
-                          <label class=""><span style="color:#ff0000">*</span> No. Tlp / HP :</label>
+                          <label class=""><span style="color:#ff0000">*</span> No. HP / WA :</label>
                           <div class="form-group">
-                        <input type="text" class="form-control form-control-sm" placeholder="082244444436" >
+                        <input type="text" class="form-control form-control-sm" placeholder="082244444436" disabled >
                       </div>
                       </div>
-					  <div class="col-lg-3">
-                          <label class=""><span style="color:#ff0000">*</span> Whatsapp :</label>
-                          <div class="form-group">
-                        <input type="text" class="form-control form-control-sm" placeholder="082244444436" >
-                      </div>
-                      </div>
+					  
 
 
                       </div>
@@ -291,7 +258,7 @@ function goBack() {
 					  <div class="col-lg-6">
                           <label class=""><span style="color:#ff0000">*</span> Email :</label>
                           <div class="form-group">
-                        <input type="text" class="form-control form-control-sm" placeholder="xxx@xxx.xxx" >
+                        <input type="text" class="form-control form-control-sm" placeholder="xxx@xxx.xxx" disabled>
                       </div>
                       </div>
 					 
@@ -315,7 +282,7 @@ function goBack() {
 										<div class="col-xl-4">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Alamat</div><br>
 										<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
@@ -323,7 +290,7 @@ function goBack() {
 
 						<div class="col-lg-12">
                           <label><span style="color:#ff0000">*</span> Alamat Lengkap :</label>
-                         <input type="text" class="form-control form-control-sm"  placeholder="Jl. Toddopuli Raya Timur">
+                         <input type="text" class="form-control form-control-sm"  placeholder="Jl. Toddopuli Raya Timur" disabled>
 
                         </div>
 						
@@ -336,16 +303,16 @@ function goBack() {
 						<div class="form-group row">
                        <div class="col-lg-6">
 					   <label>Kode Pos</label>
-                         <input type="text" class="form-control form-control-sm"  placeholder="90000">
+                         <input type="text" class="form-control form-control-sm"  placeholder="90000" disabled>
 
                         </div>
 						<div class="col-lg-3">
                           <label>RT :</label>
-                          <input type="text" class="form-control form-control-sm"  placeholder="003">
+                          <input type="text" class="form-control form-control-sm"  placeholder="003" disabled>
                         </div>
 						<div class="col-lg-3">
                           <label>RW :</label>
-                          <input type="text" class="form-control form-control-sm"  placeholder="005">
+                          <input type="text" class="form-control form-control-sm"  placeholder="005" disabled>
                         </div>
 						
 						
@@ -358,33 +325,11 @@ function goBack() {
                           
                                 <label>Provinsi :</label>
 								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Biringkanaya</option>
-                                      <option value="2">Bontoala</option>
-                                      <option value="3">Kepulauan Sangkarrang</option>
-                                      <option value="4">Makassar</option>
-                                      <option value="5">Mamajang</option>
-                                      <option value="6">Manggala</option>
-                                      <option value="7">Mariso</option>
-                                      <option value="8">Panakkukang</option>
-                                      <option value="9">Rappocini</option>
-                                      <option value="10">Tallo</option>
-                                      <option value="11">Tamalanrea</option>
-                                      <option value="12">Tamalate</option>
-                                      <option value="13">Ujung Pandang</option>
-                                      <option value="14">Ujung Tanah</option>
-                                      <option value="15">Wajo</option>
-									  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-                                  </select>
+                                <input type="text" class="form-control form-control-sm"  placeholder="Sulawesi Selatan" disabled>
                             </div>
 							<div class="col-lg-6">
                           <label class="">Kab / Kota :</label>
-                        <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Makassar</option>
-                                      <option value="2">Maros</option>
-									  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-                                     
-                                  </select>
+                       <input type="text" class="form-control form-control-sm"  placeholder="Makassar" disabled>
                       </div>
 							
 						
@@ -396,44 +341,13 @@ function goBack() {
                           
                                 <label>Kecamatan :</label>
 								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Biringkanaya</option>
-                                      <option value="2">Bontoala</option>
-                                      <option value="3">Kepulauan Sangkarrang</option>
-                                      <option value="4">Makassar</option>
-                                      <option value="5">Mamajang</option>
-                                      <option value="6">Manggala</option>
-                                      <option value="7">Mariso</option>
-                                      <option value="8">Panakkukang</option>
-                                      <option value="9">Rappocini</option>
-                                      <option value="10">Tallo</option>
-                                      <option value="11">Tamalanrea</option>
-                                      <option value="12">Tamalate</option>
-                                      <option value="13">Ujung Pandang</option>
-                                      <option value="14">Ujung Tanah</option>
-                                      <option value="15">Wajo</option>
-									  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-                                  </select>
+                                <input type="text" class="form-control form-control-sm"  placeholder="Manggala" disabled>
                             </div>
 						<div class="col-lg-6">
                           
                                 <label>Kelurahan :</label>
 								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Bakung</option>
-                                      <option value="2">Berua</option>
-                                      <option value="3">Bulurokeng</option>
-                                      <option value="4">Daya</option>
-                                      <option value="5">Katimbang</option>
-                                      <option value="6">Laikang</option>
-                                      <option value="7">Paccerakkang</option>
-                                      <option value="8">Pai</option>
-                                      <option value="9">Sudiang</option>
-                                      <option value="10">Sudiang Raya</option>
-                                      <option value="11">Untia</option>
-									  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-                                     
-                                  </select>
+                                <input type="text" class="form-control form-control-sm"  placeholder="Borong" disabled>
                             </div>
                         
 					  
@@ -454,25 +368,21 @@ function goBack() {
 									<div class="col-xl-2">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Foto Member</div><br>
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Foto Member</div><br><br>
 										<div class="kt-portlet__body">
 																								<div class="kt-portlet__content">
-																									<div class="form-group row">
-																										<div class="col-lg-12" style="text-align:center">
-																											<div>&nbsp;</div>
-																											<div class="kt-avatar kt-avatar--outline kt-avatar--circle-" id="kt_user_edit_avatar">
-																												<div class="kt-avatar__holder" style="background-image: url(&quot;http://keenthemes.com/metronic/preview/default/custom/user/../assets/media/users/300_20.jpg&quot;);"></div>
-																												<label class="kt-avatar__upload" data-toggle="kt-tooltip" title="" data-original-title="Upload Foto">
-																													<i class="fa fa-pen"></i>
-																													<input type="file" name="profile_avatar" accept=".png, .jpg, .jpeg">
-																												</label>
-																												<span class="kt-avatar__cancel" data-toggle="kt-tooltip" title="" data-original-title="Batal">
-																													<i class="fa fa-times"></i>
-																												</span>
-																											</div>
-																										</div>
-																										</div>
+																									<div class="form-group row" style="text-align:center">
+																	<div class="col-lg-12">
+														
+														<div class="kt-avatar kt-avatar--outline kt-avatar--circle-" id="kt_user_edit_avatar">
+																			<div class="kt-avatar__holder" style="background-image: url(&quot;../assets/media/users/100_1.jpg&quot;);"></div>
+
+
+																		</div>
+
+												</div>
+												</div>
 																										<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 																										
 																										
@@ -553,14 +463,13 @@ function goBack() {
 
   <tbody><tr style="text-align:center">
     <td width="1%" bgcolor="#0961ae" style="color:#fff;">NO</td>
-    <td width="6%" bgcolor="#0961ae" style="color:#fff;">URAIAN </td>
-    <td width="1%" colspan="2" bgcolor="#0961ae" style="color:#fff;">JUMLAH<br>KENDARAAN</td>
-    <td width="7%" bgcolor="#0961ae" style="color:#fff;">NO PLAT<br>KENDARAAN</td>
-    <td width="1%" colspan="2" bgcolor="#0961ae" style="color:#fff;">DURASI</td>
-    <td width="8%" bgcolor="#0961ae" style="color:#fff;">TARIF SATUAN</td>
-    <td width="8%" bgcolor="#0961ae" style="color:#fff;">JUMLAH</td>
-    <td width="3%" bgcolor="#0961ae" style="color:#fff;">AKSI</td>
-  </tr>
+    <td width="10%" bgcolor="#0961ae" style="color:#fff;">URAIAN </td>
+    <td width="3%" colspan="2" bgcolor="#0961ae" style="color:#fff;">JUMLAH<br>KENDARAAN</td>
+    <td width="3%" bgcolor="#0961ae" style="color:#fff;">NO PLAT<br>KENDARAAN</td>
+    <td width="4%" colspan="2" bgcolor="#0961ae" style="color:#fff;">DURASI</td>
+    <td width="6%" bgcolor="#0961ae" style="color:#fff;">TARIF SATUAN</td>
+    <td width="6%" bgcolor="#0961ae" style="color:#fff;">JUMLAH</td>
+    </tr>
   <tr style="text-align:center">
     <td bgcolor="#f5f5f5">a</td>
     <td bgcolor="#f5f5f5">b</td>
@@ -569,434 +478,75 @@ function goBack() {
     <td colspan="2" bgcolor="#f5f5f5">e</td>
     <td bgcolor="#f5f5f5">f</td>
     <td bgcolor="#f5f5f5">g</td>
-    <td bgcolor="#f5f5f5">h</td>
-  </tr>
+    </tr>
   <tr>
     <td style="text-align:center">A</td>
-    <td colspan="9"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Biaya Membership Parkir"></td>
+    <td colspan="8"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Biaya Membership Parkir"></td>
   </tr>
   <tr>
     <td bgcolor="#feffed" style="text-align:right">1</td>
-    <td bgcolor="#feffed"><select name="select" class="form-control kt-selectpicker" data-live-search="true">
-      <option value="AK">Pegawai/Instansi/Others</option>
-      <option value="AK" selected>Sepeda Motor</option>
-      <option value="AK">Sedan/Jeep/Pick Up</option>
-      <option value="AK">Truck/Tronton/Trailer</option>
-	  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-    </select></td>
-    <td bgcolor="#feffed"><select class="form-control kt-selectpicker" data-live-search="true">
-      <option value="AK">1</option>
-      <option value="HI">2</option>
-      <option value="HI" selected="selected">3</option>
-      <option value="HI">4</option>
-      <option value="HI">5</option>
-    </select></td>
-    <td bgcolor="#feffed"><select class="form-control kt-selectpicker" data-live-search="true">
-      <option value="AK">Unit</option>
-    </select></td>
+    <td bgcolor="#feffed"><input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="Sepeda Motor"></td>
+    <td bgcolor="#feffed"><input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="1"></td>
+    <td bgcolor="#feffed"><input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="Unit"></td>
     <td colspan="5" bgcolor="#feffed">&nbsp;</td>
-    <td bgcolor="#feffed" style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
     </tr>
   <tr>
     <td style="text-align:right">1.1</td>
-    <td><div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch">
-        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
-    		                            <span><i class="fa fa-credit-card"></i></span>
-    		                        </span>
-    		                    </div></td>
+    <td><input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="000001PMPS823"></td>
     <td colspan="2">&nbsp;</td>
-    <td><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="No Plat Kendaraan" id="generalSearch" />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
-    <td><select class="form-control kt-selectpicker" data-live-search="true">
-      <option value="AK">1</option>
-      <option value="HI">2</option>
-      <option value="HI">3</option>
-      <option value="HI">4</option>
-      <option value="HI">5</option>
-    </select></td>
-    <td><select class="form-control kt-selectpicker" data-live-search="true" disabled="disabled">
-      <option value="AK">Hari</option>
-      <option value="AK">Minggu</option>
-      <option value="HI">Bulan</option>
-      <option value="HI" selected="selected">Tahun</option>
-    </select></td>
+    <td><input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="DD 1111 LU"></td>
+    <td><input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="1"></td>
+    <td><input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="Tahun"></td>
     <td><div class="input-group input-group-sm" >
       <div class="input-group-prepend" ><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
       <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="800.000" aria-describedby="basic-addon1" />
       <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-    </div></td>
+      </div></td>
     <td><div class="input-group input-group-sm">
       <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
       <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="800.000" aria-describedby="basic-addon1" />
       <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
     </div></td>
-    <td style="text-align:center">&nbsp;</td>
-  </tr>
-  <tr>
-    <td style="text-align:right">1.2</td>
-    <td><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch" />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-credit-card"></i></span> </span> </div></td>
-    <td colspan="2">&nbsp;</td>
-    <td><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="No Plat Kendaraan" id="generalSearch" />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span></span></div></td>
-    <td><select class="form-control kt-selectpicker" data-live-search="true">
-      <option value="AK">1</option>
-      <option value="HI">2</option>
-      <option value="HI">3</option>
-      <option value="HI">4</option>
-      <option value="HI">5</option>
-    </select></td>
-    <td><select class="form-control kt-selectpicker" data-live-search="true" disabled="disabled">
-      <option value="AK">Hari</option>
-      <option value="AK">Minggu</option>
-      <option value="HI">Bulan</option>
-      <option value="HI" selected="selected">Tahun</option>
-    </select></td>
-    <td><div class="input-group input-group-sm" >
-      <div class="input-group-prepend" ><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="800.000" aria-describedby="basic-addon1" />
-      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-    </div></td>
-    <td><div class="input-group input-group-sm">
-      <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="800.000" aria-describedby="basic-addon1" />
-      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-    </div></td>
-    <td style="text-align:center">&nbsp;</td>
-    </tr>
-  <tr>
-    <td style="text-align:right">1.3</td>
-    <td><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch" />
-
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-credit-card"></i></span> </span> </div></td>
-    <td colspan="2">&nbsp;</td>
-    <td><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="No Plat Kendaraan" id="generalSearch" />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span></span></div></td>
-    <td><select class="form-control kt-selectpicker" data-live-search="true">
-      <option value="AK">1</option>
-      <option value="HI">2</option>
-      <option value="HI">3</option>
-      <option value="HI">4</option>
-      <option value="HI">5</option>
-    </select></td>
-    <td><select class="form-control kt-selectpicker" data-live-search="true" disabled="disabled">
-      <option value="AK">Hari</option>
-      <option value="AK">Minggu</option>
-      <option value="HI">Bulan</option>
-      <option value="HI" selected="selected">Tahun</option>
-    </select></td>
-    <td><div class="input-group input-group-sm" >
-      <div class="input-group-prepend" ><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="800.000" aria-describedby="basic-addon1" />
-      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-    </div></td>
-    <td><div class="input-group input-group-sm">
-      <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="800.000" aria-describedby="basic-addon1" />
-      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-    </div></td>
-    <td style="text-align:center">&nbsp;</td>
-    </tr>
-  <tr>
-    <td bgcolor="#feffed" style="text-align:right">2</td>
-    <td bgcolor="#feffed"><select name="select" class="form-control kt-selectpicker" data-live-search="true">
-      <option value="AK">Pegawai/Instansi/Others</option>
-      <option value="AK">Sepeda Motor</option>
-      <option value="AK" selected>Sedan/Jeep/Pick Up</option>
-      <option value="AK">Truck/Tronton/Trailer</option>
-	  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-    </select></td>
-    <td bgcolor="#feffed"><select class="form-control kt-selectpicker" data-live-search="true">
-      <option value="AK">1</option>
-      <option value="HI">2</option>
-      <option value="HI" selected="selected">3</option>
-      <option value="HI">4</option>
-      <option value="HI">5</option>
-    </select></td>
-    <td bgcolor="#feffed"><select class="form-control kt-selectpicker" data-live-search="true">
-      <option value="AK">Unit</option>
-    </select></td>
-    <td colspan="5" bgcolor="#feffed">&nbsp;</td>
-    <td bgcolor="#feffed" style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button>
-      <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-    </tr>
-  <tr>
-    <td style="text-align:right">2.1</td>
-    <td><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch" />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-credit-card"></i></span> </span> </div></td>
-    <td colspan="2">&nbsp;</td>
-    <td><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="No Plat Kendaraan" id="generalSearch" />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span></span></div></td>
-    <td><select class="form-control kt-selectpicker" data-live-search="true">
-      <option value="AK">1</option>
-      <option value="HI">2</option>
-      <option value="HI">3</option>
-      <option value="HI">4</option>
-      <option value="HI">5</option>
-    </select></td>
-    <td><select class="form-control kt-selectpicker" data-live-search="true" disabled="disabled">
-      <option value="AK">Hari</option>
-      <option value="AK">Minggu</option>
-      <option value="HI">Bulan</option>
-      <option value="HI" selected="selected">Tahun</option>
-    </select></td>
-    <td><div class="input-group input-group-sm" >
-      <div class="input-group-prepend" ><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="1.250.000" aria-describedby="basic-addon1" />
-      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-    </div></td>
-    <td><div class="input-group input-group-sm">
-      <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="1.250.000" aria-describedby="basic-addon1" />
-      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-    </div></td>
-    <td style="text-align:center">&nbsp;</td>
-    </tr>
-  <tr>
-    <td style="text-align:right">2.2</td>
-    <td><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch" />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-credit-card"></i></span> </span> </div></td>
-    <td colspan="2">&nbsp;</td>
-    <td><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="No Plat Kendaraan" id="generalSearch" />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span></span></div></td>
-    <td><select class="form-control kt-selectpicker" data-live-search="true">
-      <option value="AK">1</option>
-      <option value="HI">2</option>
-      <option value="HI">3</option>
-      <option value="HI">4</option>
-      <option value="HI">5</option>
-    </select></td>
-    <td><select class="form-control kt-selectpicker" data-live-search="true" disabled="disabled">
-      <option value="AK">Hari</option>
-      <option value="AK">Minggu</option>
-      <option value="HI">Bulan</option>
-      <option value="HI" selected="selected">Tahun</option>
-    </select></td>
-    <td><div class="input-group input-group-sm" >
-      <div class="input-group-prepend" ><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="1.250.000" aria-describedby="basic-addon1" />
-      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-    </div></td>
-    <td><div class="input-group input-group-sm">
-      <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="1.250.000" aria-describedby="basic-addon1" />
-      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-    </div></td>
-    <td style="text-align:center">&nbsp;</td>
-    </tr>
-  <tr>
-    <td style="text-align:right">2.3</td>
-    <td><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch" />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-credit-card"></i></span> </span> </div></td>
-    <td colspan="2">&nbsp;</td>
-    <td><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="No Plat Kendaraan" id="generalSearch" />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span></span></div></td>
-    <td><select class="form-control kt-selectpicker" data-live-search="true">
-      <option value="AK">1</option>
-      <option value="HI">2</option>
-      <option value="HI">3</option>
-      <option value="HI">4</option>
-      <option value="HI">5</option>
-    </select></td>
-    <td><select class="form-control kt-selectpicker" data-live-search="true" disabled="disabled">
-      <option value="AK">Hari</option>
-      <option value="AK">Minggu</option>
-      <option value="HI">Bulan</option>
-      <option value="HI" selected="selected">Tahun</option>
-    </select></td>
-    <td><div class="input-group input-group-sm" >
-      <div class="input-group-prepend" ><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="1.250.000" aria-describedby="basic-addon1" />
-      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-    </div></td>
-    <td><div class="input-group input-group-sm">
-      <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="1.250.000" aria-describedby="basic-addon1" />
-      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-    </div></td>
-    <td style="text-align:center">&nbsp;</td>
-    </tr>
-  <tr>
-    <td bgcolor="#feffed" style="text-align:right">3</td>
-    <td bgcolor="#feffed"><select name="select" class="form-control kt-selectpicker" data-live-search="true">
-      <option value="AK">Pegawai/Instansi/Others</option>
-      <option value="AK">Sepeda Motor</option>
-      <option value="AK" >Sedan/Jeep/Pick Up</option>
-      <option value="AK" selected>Truck/Tronton/Trailer</option>
-	  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-    </select></td>
-    <td bgcolor="#feffed"><select class="form-control kt-selectpicker" data-live-search="true">
-      <option value="AK">1</option>
-      <option value="HI">2</option>
-      <option value="HI" selected="selected">3</option>
-      <option value="HI">4</option>
-      <option value="HI">5</option>
-    </select></td>
-    <td bgcolor="#feffed"><select class="form-control kt-selectpicker" data-live-search="true">
-      <option value="AK">Unit</option>
-    </select></td>
-    <td colspan="5" bgcolor="#feffed">&nbsp;</td>
-    <td bgcolor="#feffed" style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button>
-      <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-    </tr>
-  <tr>
-    <td style="text-align:right">3.1</td>
-    <td><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch" />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-credit-card"></i></span> </span> </div></td>
-    <td colspan="2">&nbsp;</td>
-    <td><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="No Plat Kendaraan" id="generalSearch" />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span></span></div></td>
-    <td><select class="form-control kt-selectpicker" data-live-search="true">
-      <option value="AK">1</option>
-      <option value="HI">2</option>
-      <option value="HI">3</option>
-      <option value="HI">4</option>
-      <option value="HI">5</option>
-    </select></td>
-    <td><select class="form-control kt-selectpicker" data-live-search="true" disabled="disabled">
-      <option value="AK">Hari</option>
-      <option value="AK">Minggu</option>
-      <option value="HI">Bulan</option>
-      <option value="HI" selected="selected">Tahun</option>
-    </select></td>
-    <td><div class="input-group input-group-sm" >
-      <div class="input-group-prepend" ><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="1.750.000" aria-describedby="basic-addon1" />
-      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-    </div></td>
-    <td><div class="input-group input-group-sm">
-      <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="1.750.000" aria-describedby="basic-addon1" />
-      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-    </div></td>
-    <td style="text-align:center">&nbsp;</td>
-    </tr>
-  <tr>
-    <td style="text-align:right">3.2</td>
-    <td><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch" />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-credit-card"></i></span> </span> </div></td>
-    <td colspan="2">&nbsp;</td>
-    <td><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="No Plat Kendaraan" id="generalSearch" />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span></span></div></td>
-    <td><select class="form-control kt-selectpicker" data-live-search="true">
-      <option value="AK">1</option>
-      <option value="HI">2</option>
-      <option value="HI">3</option>
-      <option value="HI">4</option>
-      <option value="HI">5</option>
-    </select></td>
-    <td><select class="form-control kt-selectpicker" data-live-search="true" disabled="disabled">
-      <option value="AK">Hari</option>
-      <option value="AK">Minggu</option>
-      <option value="HI">Bulan</option>
-      <option value="HI" selected="selected">Tahun</option>
-    </select></td>
-    <td><div class="input-group input-group-sm" >
-      <div class="input-group-prepend" ><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="1.750.000" aria-describedby="basic-addon1" />
-      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-    </div></td>
-    <td><div class="input-group input-group-sm">
-      <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="1.750.000" aria-describedby="basic-addon1" />
-      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-    </div></td>
-    <td style="text-align:center">&nbsp;</td>
-    </tr>
-  <tr>
-    <td style="text-align:right">3.3</td>
-    <td><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch" />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-credit-card"></i></span> </span> </div></td>
-    <td colspan="2">&nbsp;</td>
-    <td><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="No Plat Kendaraan" id="generalSearch" />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span></span></div></td>
-    <td><select class="form-control kt-selectpicker" data-live-search="true">
-      <option value="AK">1</option>
-      <option value="HI">2</option>
-      <option value="HI">3</option>
-      <option value="HI">4</option>
-      <option value="HI">5</option>
-    </select></td>
-    <td><select class="form-control kt-selectpicker" data-live-search="true" disabled="disabled">
-      <option value="AK">Hari</option>
-      <option value="AK">Minggu</option>
-      <option value="HI">Bulan</option>
-      <option value="HI" selected="selected">Tahun</option>
-    </select></td>
-    <td><div class="input-group input-group-sm" >
-      <div class="input-group-prepend" ><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="1.750.000" aria-describedby="basic-addon1" />
-      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-    </div></td>
-    <td><div class="input-group input-group-sm">
-      <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="1.750.000" aria-describedby="basic-addon1" />
-      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-    </div></td>
-    <td style="text-align:center">&nbsp;</td>
     </tr>
   
   
   <tr>
-    <td colspan="10" style="text-align:center">&nbsp;</td>
+    <td colspan="9" style="text-align:center">&nbsp;</td>
   </tr>
   <tr>
     <td colspan="8" style="text-align:right">Sub Total</td>
-    <td colspan="2" style="text-align:center"><div class="input-group input-group-sm">
-														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="10.400.000" aria-describedby="basic-addon1">
-														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-													</div></td>
+    <td style="text-align:right"><div class="input-group input-group-sm">
+      <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="800.000" aria-describedby="basic-addon1" />
+      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+    </div></td>
     </tr>
 	<tr>
     <td colspan="8" style="text-align:right">Metode Pembayaran</td>
-    <td colspan="2" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Virtual Account</option>
-                                      <option value="1">Credit Card</option>
-                                      <option value="2">Tunai</option>
-                                                                           
-                                  </select></td>
+    <td style="text-align:right"><input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="Virtual Account"></td>
     </tr>
   <tr>
     <td colspan="8" style="text-align:right">Biaya Layanan&nbsp;&nbsp;<button type="button" style="margin-bottom:20px; font-size:12px;" class="btn btn-label-brand btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Digunakan Untuk<br>Peningkatan Layanan">?</button></td>
-    <td colspan="2" style="text-align:center"><div class="input-group input-group-sm">
-														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="50.000" aria-describedby="basic-addon1">
-														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-													</div></td>
+    <td style="text-align:right"><div class="input-group input-group-sm">
+      <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="10.000" aria-describedby="basic-addon1" />
+      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+    </div></td>
     </tr>
   
   <tr>
-    <td colspan="8" style="text-align:right" bgcolor="#CCEAFF"><b>GRAND TOTAL </b></td>
-    <td colspan="2" bgcolor="#CCEAFF"><div class="input-group input-group-sm">
-														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="11.450.000" aria-describedby="basic-addon1">
-														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-													</div></td>
+    <td colspan="8" bgcolor="#CCEAFF" style="text-align:right"><b>GRAND TOTAL </b></td>
+    <td bgcolor="#CCEAFF" style="text-align:right"><div class="input-group input-group-sm">
+      <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="810.000" aria-describedby="basic-addon1" />
+      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+    </div></td>
     </tr>
   <tr>
-    <td colspan="10" style="text-align:center">&nbsp;</td>
+    <td colspan="9" style="text-align:center">&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="10" style="text-align:left" bgcolor="#f7fcff"><b><i>Terbilang : Sebelas Juta Empat Ratus Lima Puluh Ribu Rupiah</i></b></td>
+    <td colspan="9" style="text-align:left" bgcolor="#f7fcff"><b><i>Terbilang : Delapan Ratus Sepuluh Ribu Rupiah</i></b></td>
   </tr>
 </tbody></table>
 												
@@ -1090,45 +640,28 @@ function goBack() {
 																<td>Rp.</td>
 																<td style="text-align:right">2.400.000,-</td>
 															</tr>
-															<tr>
-																<td>Biaya Member - Sedan/Jeep/Pickup</td>
-																<td>3</td>
-																<td>Kendaraan</td>
-																<td>Rp.</td>
-																<td style="text-align:right">1.250.000,-</td>
-																<td>Rp.</td>
-																<td style="text-align:right">3.750.000,-</td>
-															</tr>
-															<tr>
-																<td>Biaya Member - Truck/Tronton/Trailer</td>
-																<td>3</td>
-																<td>Kendaraan</td>
-																<td>Rp.</td>
-																<td style="text-align:right">1.750.000,-</td>
-																<td>Rp.</td>
-																<td style="text-align:right">5.250.000,-</td>
-															</tr>
+															
 															<tr>
 															  <td colspan="7">&nbsp;</td>
 														  </tr>
 															<tr>
 															  <td style="text-align:right" colspan="5">Sub Total</td>
 															  <td>Rp.</td>
-															  <td style="text-align:right">11.400.000,-</td>
+															  <td style="text-align:right">800.000,-</td>
 														  </tr>
 														  
 															<tr>
 															  <td style="text-align:right" colspan="5">Biaya Layanan</td>
 															  <td>Rp.</td>
-															  <td style="text-align:right">79.800,-</td>
+															  <td style="text-align:right">10.000,-</td>
 														  </tr>
 														  <tr>
 															  <td style="text-align:right" colspan="5"><b>Grand Total</b></td>
 															  <td><b>Rp.</b></td>
-															  <td style="text-align:right"><b>11.479.800,-</b></td>
+															  <td style="text-align:right"><b>810.000,-</b></td>
 														  </tr>
 														  <tr>
-															  <td style="text-align:left" colspan="7"><i>Terbilang : Sebelas Juta Empat Ratus Tujuh Puluh Sembilan Ribu Delapan Ratus Rupiah</i></td>
+															  <td style="text-align:left" colspan="7"><i>Terbilang : Delapan Ratus Sepuluh Ribu Rupiah</i></td>
 															 
 														  </tr>
 														</tbody>

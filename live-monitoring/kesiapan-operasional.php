@@ -136,18 +136,24 @@
                                                                            
                                   </select>
                             </div>
+							<div class="col-lg-1">
+                                <label>Jalur :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected>Masuk</option>
+                                      <option value="1">Keluar</option>
+									  <option value="2">Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
 							<div class="col-lg-2">
                                 <label>Nama Jalur :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected>Masuk - Mobil 1</option>
-                                      <option value="1">Masuk - Mobil 2</option>
-                                      <option value="1">Masuk - Motor 1</option>
-                                      <option value="1">Masuk - Motor 2</option>
-									  <option value="1">Keluar - Mobil 1</option>
-                                      <option value="1">Keluar - Mobil 2</option>
-                                      <option value="1">Keluar - Motor 1</option>
-                                      <option value="1">Keluar - Motor 2</option>
+                                      <option value="1" selected>Mobil - 1</option>
+                                      <option value="1">Mobil - 2</option>
+                                      <option value="1">Motor - 1</option>
+                                      <option value="1">Motor - 2</option>
 									  <option value="2">Keseluruhan</option>
                                                                            
                                   </select>
@@ -162,13 +168,12 @@
                                                                            
                                   </select>
                             </div>
-							<div class="col-lg-2">
+							<div class="col-lg-1">
                                 <label>Status :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Ready</option>
-                                      <option value="1">Maintenance</option>
-                                      <option value="2">Offline</option>
+                                      <option value="1" selected="">Normal</option>
+                                      <option value="1">Menunggu</option>
                                       <option value="2">Keseluruhan</option>
                                                                            
                                   </select>
@@ -255,56 +260,34 @@
 														<div class="kt-widget17__item">
 															
 															<span class="kt-widget17__subtitle" style="text-align:center">
-																Lokasi
+																Ready
 															</span>
 
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:24px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">13</span>
+																<span style="color:#ed1c24; font-size:24px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">85</span>
 															
 															</span>
 														</div>
 														<div class="kt-widget17__item">
 															<span class="kt-widget17__subtitle" style="text-align:center">
-																Masuk - Mobil
+																Maintenance
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">23</span>
+																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">0</span>
 															</span>
 														</div>
 														
 														
 														<div class="kt-widget17__item">
 															<span class="kt-widget17__subtitle" style="text-align:center">
-																Masuk - Motor
+																Offline
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">17</span>
+																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">0</span>
 															</span>
 														</div>
-														<div class="kt-widget17__item">
-															<span class="kt-widget17__subtitle" style="text-align:center">
-																Keluar - Mobil
-															</span>
-															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">26</span>
-															</span>
-														</div>
-														<div class="kt-widget17__item">
-															<span class="kt-widget17__subtitle" style="text-align:center">
-																Keluar - Motor
-															</span>
-															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">19</span>
-															</span>
-														</div>
-														<div class="kt-widget17__item">
-															<span class="kt-widget17__subtitle" style="text-align:center">
-																Total Jalur
-															</span>
-															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">85</span>
-															</span>
-														</div>
+														
+														
 														
 														
 														

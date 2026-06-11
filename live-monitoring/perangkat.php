@@ -73,10 +73,10 @@
             </div>
             <!--begin::Form-->
             <form class="kt-form">
-                <div class="kt-portlet__body">
-                    <div class="form-group row">
-					<div class="col-lg-2">
-                                <label>Cabang :</label>
+					<div class="kt-portlet__body">
+                        <div class="form-group row">
+						<div class="col-lg-2">
+                                <label>Lokasi :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected="">Makassar</option>
@@ -94,48 +94,85 @@
                                       <option value="2">Keseluruhan</option>
                                                                            
                                   </select>
+    		                    </div>
+                             
+							
+							<div class="col-lg-1">
+                                <label>Gate :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">1</option>
+                                      <option value="1">2</option>
+                                      <option value="1">3</option>
+                                      <option value="1">4</option>
+									  <option value="2"  selected>Keseluruhan</option>
+                                                                           
+                                  </select>
                             </div>
-                        <div class="col-lg-2">
-                            <label>Gate :</label>
-                            <select class="form-control kt-selectpicker">
-                                  <option value="2" selected>Gate - 1</option>
-                                  <option value="2">Gate - 2</option>
-                                  <option value="2" selected>Keseluruhan</option>
-                            </select>
-                        </div>
-						<div class="col-lg-2">
-                            <label>Jalur :</label>
-                            <select class="form-control kt-selectpicker">
-                                  <option value="2" selected>Masuk - Mobil - 1</option>
-                                  <option value="2">Masuk - Mobil - 2</option>
-                                  <option value="2">Keluar - Mobil - 1</option>
-                                  <option value="2">Keluar - Mobil - 2</option>
-                                  <option value="2">Masuk - Motor - 1</option>
-                                  <option value="2">Masuk - Motor - 2</option>
-								  <option value="2">Keluar - Motor - 1</option>
-                                  <option value="2">Keluar - Motor - 2</option>
-                                  <option value="2" selected>Keseluruhan</option>
-                            </select>
-                        </div>
-                        <div class="col-lg-2">
-                            <label>Status :</label>
-                            <select class="form-control kt-selectpicker">
-                                  <option value="2">Online</option>
-                                  <option value="2" selected>Offline</option>
-                            </select>
-                        </div>
-                        
-                        
-                       
-                    </div>
-                    <div class="kt-portlet__foot text-center">
-                        <div class="kt-form__actions">
-                            <button type="reset" class="btn btn-outline-brand btn-sm">Reset</button>
-                            <button type="reset" class="btn btn-primary btn-sm"><i class="flaticon-interface-6"></i>Filter Data</button>
-                        </div>
-                    </div>
-                </div>
-            </form>
+							<div class="col-lg-1">
+                                <label>Jalur :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Masuk</option>
+                                      <option value="1">Keluar</option>
+									  <option value="2"  selected>Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
+							<div class="col-lg-2">
+                                <label>Nama Jalur :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Mobil - 1</option>
+                                      <option value="1">Mobil - 2</option>
+                                      <option value="1">Motor - 1</option>
+                                      <option value="1">Motor - 2</option>
+									  <option value="2"  selected>Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
+							<div class="col-lg-2">
+                                <label>Operator :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Muhammad Nasrullah, S.Kom</option>
+                                      <option value="1">Muhammad Ramadhan, S.T</option>
+                                      <option value="2">Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
+							<div class="col-lg-1">
+                                <label>Status :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" >Ready</option>
+                                      <option value="1">Online</option>
+                                      <option value="2">Offline</option>
+                                      <option value="2" selected>Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
+							
+    		                    </div>
+								
+                            
+							
+                            
+							
+							
+							
+							<br>
+							
+							
+						
+					<div class="kt-portlet__foot text-center">
+						<div class="kt-form__actions">
+							<button type="reset" class="btn btn-outline-brand btn-sm">Reset</button>
+							<button type="reset" class="btn btn-primary btn-sm"><i class="flaticon-interface-6"></i>Filter Data</button>
+						</div>
+					</div>
+					</div>
+				</form>
             <!--end::Form-->
         </div>
 <div class="row">

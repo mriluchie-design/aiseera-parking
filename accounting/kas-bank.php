@@ -133,6 +133,11 @@ License: You must have a valid license purchased only from themeforest(the above
 			<div class="row">
 				<div class="col-xl-2">
 					<ul class="kt-nav" id="kt_nav" role="tablist">
+						<li class="kt-nav__item kt-nav__item">
+							<a href="laporan-transaksi.php" class="kt-nav__link">
+								<span class="kt-nav__link-text">Transaksi</span>
+							</a>
+						</li>
 						<li class="kt-nav__item">
 							<a href="daftar-laporan.php" class="kt-nav__link">
 								<span class="kt-nav__link-text">Keuangan</span>

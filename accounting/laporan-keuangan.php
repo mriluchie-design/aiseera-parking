@@ -23,41 +23,11 @@ License: You must have a valid license purchased only from themeforest(the above
 				</span>
 				&nbsp;
 				&nbsp;
-				Buku Besar
+				Laporan Keuangan
 			</h3>
 
 		</div>
-		<div class="kt-subheader__toolbar">
-
-			<button type="button" class="btn btn-label-danger btn-sm" id="buttonLogin" onclick="displayLoginBox()"><i class="flaticon-interface-6"></i> Filter Data</button>
-			<a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
-				<i class="fa fa-print"></i> Export Data</button>
-			</a>
-			<a href="akun-perkiraan-add.php" class="btn btn-info btn-sm">
-				<i class="fa fa-plus"></i>Buat Akun Perkiraan</button>
-				<!--<i class="flaticon2-plus"></i>-->
-			</a>
-			<div class="dropdown-menu dropdown-menu-fit dropdown-menu-md dropdown-menu-right">
-
-				<!--begin::Nav-->
-				<ul class="kt-nav">
-
-					<li class="kt-nav__item">
-						<a href="#" class="kt-nav__link">
-							<i class="kt-nav__link-icon fa fa-file-pdf"></i>
-							<span class="kt-nav__link-text">PDF</span>
-						</a>
-					</li>
-					<li class="kt-nav__item">
-						<a href="#" class="kt-nav__link">
-							<i class="kt-nav__link-icon fa fa-file-excel"></i>
-							<span class="kt-nav__link-text">Excel</span>
-						</a>
-					</li>
-				</ul>
-				<!--end::Nav-->
-			</div>
-		</div>
+		
 	</div>
 </div>
 
@@ -138,7 +108,7 @@ License: You must have a valid license purchased only from themeforest(the above
 			<div class="row">
 				<div class="col-xl-2">
 					<ul class="kt-nav" id="kt_nav" role="tablist">
-						<li class="kt-nav__item kt-nav__item">
+						<li class="kt-nav__item kt-nav__item--active">
 							<a href="laporan-transaksi.php" class="kt-nav__link">
 								<span class="kt-nav__link-text">Transaksi</span>
 							</a>
@@ -148,7 +118,8 @@ License: You must have a valid license purchased only from themeforest(the above
 								<span class="kt-nav__link-text">Keuangan</span>
 							</a>
 						</li>
-						<li class="kt-nav__item kt-nav__item--active">
+						
+						<li class="kt-nav__item">
 							<a href="buku-besar.php" class="kt-nav__link">
 								<span class="kt-nav__link-text">Buku Besar</span>
 							</a>
@@ -190,13 +161,13 @@ License: You must have a valid license purchased only from themeforest(the above
 						</li>-->
 					</ul>
 				</div>
-				<div class="col-xl-10" style="height:500px; overflow-y:scroll;">
+				<div class="col-xl-10" style="height:600px; overflow-y:scroll;">
 					<div class="accordion accordion-solid accordion-toggle-plus" id="accordionExample1">
 						<div class="card">
 							<div class="card-header" id="headingOne">
 								<div class="card-title collapsed d-grid" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="false" aria-controls="collapseOne1">
-									Keseluruhan Jurnal
-									<small>Laporan yang menampilkan semua jurnal dari transaksi</small>
+									Laba Rugi
+									<small>Data Laba Rugi Perusahaan</small>
 								</div>
 							</div>
 							<div id="collapseOne1" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample1" style="">
@@ -207,6 +178,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
 												<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Informasi Umum</div><br>
 												<div class="kt-portlet__body">
+													<div class="kt-portlet__content">
 													<div class="form-group row">
 													<div class="col-lg-8">
 														<label>Dari Tanggal :</label>
@@ -226,16 +198,18 @@ License: You must have a valid license purchased only from themeforest(the above
                                   </select>
 													</div>
 													</div>
-												</div>
 												<div class="kt-portlet__foot">
 												<div class="kt-form__action text-center">
-												<a href="laporan-keseluruhan-jurnal.php" class="btn btn-info btn-md">
+												<a href="laporan-laba-rugi.php" class="btn btn-info btn-md">
 				Tampilkan Data&nbsp;&nbsp;&nbsp;<i class="fa fa-arrow-alt-circle-right"></i>
 				<!--<i class="flaticon2-plus"></i>-->
 			</a>
 			</div>
 													</div>
+												
 											</div>
+										</div>
+										</div>
 										</div>
 										<div class="col-xl-4">
 											<!--begin::Portlet-->
@@ -247,6 +221,12 @@ License: You must have a valid license purchased only from themeforest(the above
 															<label>Parameter Kolom :</label>
 															<table class="table no-border table-bordered table-hover">
 																<tbody>
+																	<tr>
+																		<td></td>
+																	</tr>
+																	<tr>
+																		<td></td>
+																	</tr>
 																	<tr>
 																		<td></td>
 																	</tr>
@@ -270,8 +250,8 @@ License: You must have a valid license purchased only from themeforest(the above
 						<div class="card">
 							<div class="card-header" id="headingTwo">
 								<div class="card-title d-grid collapsed" data-toggle="collapse" data-target="#collapseTwo1" aria-expanded="false" aria-controls="collapseTwo1">
-									Ringkasan Buku Besar
-									<small>Laporan ringkasan buku besar</small> </div>
+									Neraca
+									<small>Data Neraca Perusahaan</small> </div>
 							</div>
 							<div id="collapseTwo1" class="collapse" aria-labelledby="headingTwo1" data-parent="#accordionExample1">
 								<div class="card-body">
@@ -303,7 +283,7 @@ License: You must have a valid license purchased only from themeforest(the above
 												</div>
 												<div class="kt-portlet__foot">
 												<div class="kt-form__action text-center">
-												<a href="laporan-ringkasan-buku-besar.php" class="btn btn-info btn-md">
+												<a href="laporan-neraca.php" class="btn btn-info btn-md">
 				Tampilkan Data&nbsp;&nbsp;&nbsp;<i class="fa fa-arrow-alt-circle-right"></i>
 				<!--<i class="flaticon2-plus"></i>-->
 			</a>
@@ -344,8 +324,8 @@ License: You must have a valid license purchased only from themeforest(the above
 						<div class="card">
 							<div class="card-header" id="headingThree1">
 								<div class="card-title collapsed d-grid" data-toggle="collapse" data-target="#collapseThree1" aria-expanded="false" aria-controls="collapseThree1">
-									Histori Buku Besar
-									<small>Laporan histori buku besar</small>
+									Arus Kas
+									<small>Data Arus Kas</small>
 								</div>
 							</div>
 							<div id="collapseThree1" class="collapse" aria-labelledby="headingThree1" data-parent="#accordionExample1">
@@ -378,7 +358,7 @@ License: You must have a valid license purchased only from themeforest(the above
 												</div>
 												<div class="kt-portlet__foot">
 												<div class="kt-form__action text-center">
-												<a href="laporan-history-buku-besar.php" class="btn btn-info btn-md">
+												<a href="laporan-arus-kas.php" class="btn btn-info btn-md">
 				Tampilkan Data&nbsp;&nbsp;&nbsp;<i class="fa fa-arrow-alt-circle-right"></i>
 				<!--<i class="flaticon2-plus"></i>-->
 			</a>
@@ -399,247 +379,12 @@ License: You must have a valid license purchased only from themeforest(the above
 																	<tr>
 																		<td></td>
 																	</tr>
-																	
-																</tbody>
-															</table>
-															<button type="button" class="btn btn-success btn-sm btn-icon" data-container="body" data-toggle="kt-tooltip" data-placement="top" title="Tambah"><i class="fa fa-plus" data-toggle="modal"
-																	data-target="#kt_modal_tambah"></i></button>
-															<button type="button" class="btn btn-primary btn-sm btn-icon" data-container="body" data-toggle="kt-tooltip" data-placement="top" title="Edit"><i class="fa fa-pencil-alt"></i></button>
-															<button type="button" class="btn btn-warning btn-sm btn-icon" data-container="body" data-toggle="kt-tooltip" data-placement="top" title="Hapus"><i class="fa fa-minus text-white"></i></button>
-														</div>
-													</div>
-												</div>
-											</div>
-											<!--end::Portlet-->
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="card">
-							<div class="card-header" id="headingThree2">
-								<div class="card-title collapsed d-grid" data-toggle="collapse" data-target="#collapseThree2" aria-expanded="false" aria-controls="collapseThree1">
-									Rincian Buku Besar
-									<small>Laporan rincian buku besar</small>
-								</div>
-								<div id="collapseThree2" class="collapse" aria-labelledby="headingTwo1" data-parent="#accordionExample1">
-									<div class="card-body">
-										<div class="row">
-											<div class="col-xl-8">
-												<!--begin::Portlet-->
-												<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-													<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Informasi Umum</div><br>
-													<div class="kt-portlet__body">
-														
-														<div class="kt-portlet__content">
-															<div class="kt-portlet__content">
-															<div class="form-group row">
-													<div class="col-lg-8">
-																<label>Dari Tanggal :</label>
-																<div class="input-group input-group-sm mb-3">
-																	<input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="01/01/2020" value="01/01/2020" id="kt_datepicker_2">
-																	<span class="input-group-addon">s/d</span>
-																	<input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="01/01/2020" value="01/01/2020" id="kt_datepicker_2">
-																</div>
-																</div>
-																<div class="col-lg-4">
-																<label class="">Kantor : <code>*</code></label>
-																<select class="form-control kt-selectpicker" data-live-search="true" tabindex="-98">
-                                      <option value="2">Pusat</option>
-                                      <option value="2">Cabang</option>
-                                      <option value="2" selected>Semua</option>
-                                     
-                                  </select>
-													</div>
-													</div>
-																<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-																<div class="kt-checkbox-inline">
-																	<label class="kt-checkbox kt-checkbox--success">
-																		<input type="checkbox" checked> Tampilkan hanya data yang mempunyai Transaksi
-																		<span></span>
-																	</label>
-																</div>
-															</div>
-														</div>
-													</div>
-													<div class="kt-portlet__foot">
-												<div class="kt-form__action text-center">
-												<a href="laporan-rincian-buku-besar.php" class="btn btn-info btn-md">
-				Tampilkan Data&nbsp;&nbsp;&nbsp;<i class="fa fa-arrow-alt-circle-right"></i>
-				<!--<i class="flaticon2-plus"></i>-->
-			</a>
-			</div>
-													</div>
-												</div>
-											</div>
-											<div class="col-xl-4">
-												<!--begin::Portlet-->
-												<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-													<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Kolom</div><br>
-													<div class="kt-portlet__body">
-														<div class="kt-portlet__content">
-															<div class="form-group">
-																<label>Parameter Kolom :</label>
-																<table class="table no-border table-bordered table-hover">
-																	<tbody>
-																		<tr>
-																			<td></td>
-																		</tr>
-																		
-																	</tbody>
-																</table>
-																<button type="button" class="btn btn-success btn-sm btn-icon" data-container="body" data-toggle="kt-tooltip" data-placement="top" title="Tambah"><i class="fa fa-plus" data-toggle="modal"
-																		data-target="#kt_modal_tambah"></i></button>
-																<button type="button" class="btn btn-primary btn-sm btn-icon" data-container="body" data-toggle="kt-tooltip" data-placement="top" title="Edit"><i class="fa fa-pencil-alt"></i></button>
-																<button type="button" class="btn btn-warning btn-sm btn-icon" data-container="body" data-toggle="kt-tooltip" data-placement="top" title="Hapus"><i class="fa fa-minus text-white"></i></button>
-															</div>
-														</div>
-													</div>
-												</div>
-												<!--end::Portlet-->
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="card">
-							<div class="card-header" id="headingThree3">
-								<div class="card-title collapsed d-grid" data-toggle="collapse" data-target="#collapseThree3" aria-expanded="false" aria-controls="collapseThree1">
-									Rincian Jurnal Akun
-									<small>Laporan yang menampilkan rincian proses penjurnalan yang terjadi pada setiap akun pada periode terpilih</small>
-								</div>
-							</div>
-							<div id="collapseThree3" class="collapse" aria-labelledby="headingThree1" data-parent="#accordionExample1">
-								<div class="card-body">
-									<div class="row">
-										<div class="col-xl-8">
-											<!--begin::Portlet-->
-											<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-												<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Informasi Umum</div><br>
-												<div class="kt-portlet__body">
-													<div class="form-group row">
-													<div class="col-lg-8">
-														<label>Dari Tanggal :</label>
-														<div class="input-group input-group-sm mb-3">
-															<input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="01/01/2020" value="01/01/2020" id="kt_datepicker_2">
-															<span class="input-group-addon">s/d</span>
-															<input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="01/01/2020" value="01/01/2020" id="kt_datepicker_2">
-														</div>
-														</div>
-														<div class="col-lg-4">
-																<label class="">Kantor : <code>*</code></label>
-																<select class="form-control kt-selectpicker" data-live-search="true" tabindex="-98">
-                                      <option value="2">Pusat</option>
-                                      <option value="2">Cabang</option>
-                                      <option value="2" selected>Semua</option>
-                                     
-                                  </select>
-													</div>
-													</div>
-												</div>
-												<div class="kt-portlet__foot">
-												<div class="kt-form__action text-center">
-												<a href="laporan-rincian-jurnal-akun.php" class="btn btn-info btn-md">
-				Tampilkan Data&nbsp;&nbsp;&nbsp;<i class="fa fa-arrow-alt-circle-right"></i>
-				<!--<i class="flaticon2-plus"></i>-->
-			</a>
-			</div>
-													</div>
-											</div>
-										</div>
-										<div class="col-xl-4">
-											<!--begin::Portlet-->
-											<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-												<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Kolom</div><br>
-												<div class="kt-portlet__body">
-													<div class="kt-portlet__content">
-														<div class="form-group">
-															<label>Parameter Kolom :</label>
-															<table class="table no-border table-bordered table-hover">
-																<tbody>
 																	<tr>
 																		<td></td>
 																	</tr>
-																	
-																</tbody>
-															</table>
-															<button type="button" class="btn btn-success btn-sm btn-icon" data-container="body" data-toggle="kt-tooltip" data-placement="top" title="Tambah"><i class="fa fa-plus" data-toggle="modal"
-																	data-target="#kt_modal_tambah"></i></button>
-															<button type="button" class="btn btn-primary btn-sm btn-icon" data-container="body" data-toggle="kt-tooltip" data-placement="top" title="Edit"><i class="fa fa-pencil-alt"></i></button>
-															<button type="button" class="btn btn-warning btn-sm btn-icon" data-container="body" data-toggle="kt-tooltip" data-placement="top" title="Hapus"><i class="fa fa-minus text-white"></i></button>
-														</div>
-													</div>
-												</div>
-											</div>
-											<!--end::Portlet-->
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						
-						
-						
-						<div class="card">
-							<div class="card-header" id="heading8">
-								<div class="card-title collapsed d-grid" data-toggle="collapse" data-target="#collapse8" aria-expanded="false" aria-controls="collapseThree1">
-									Jurnal Umum
-									<small>Laporan yang berisi daftar jurnal umum</small>
-								</div>
-							</div>
-							<div id="collapse8" class="collapse" aria-labelledby="headingThree1" data-parent="#accordionExample1">
-								<div class="card-body">
-									<div class="row">
-										<div class="col-xl-8">
-											<!--begin::Portlet-->
-											<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-												<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Informasi Umum</div><br>
-												<div class="kt-portlet__body">
-													<div class="form-group row">
-													<div class="col-lg-8">
-														<label>Dari Tanggal :</label>
-														<div class="input-group input-group-sm mb-3">
-															<input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="01/01/2020" value="01/01/2020" id="kt_datepicker_2">
-															<span class="input-group-addon">s/d</span>
-															<input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="01/01/2020" value="01/01/2020" id="kt_datepicker_2">
-														</div>
-														</div>
-														<div class="col-lg-4">
-																<label class="">Kantor : <code>*</code></label>
-																<select class="form-control kt-selectpicker" data-live-search="true" tabindex="-98">
-                                      <option value="2">Pusat</option>
-                                      <option value="2">Cabang</option>
-                                      <option value="2" selected>Semua</option>
-                                     
-                                  </select>
-													</div>
-													</div>
-												</div>
-												<div class="kt-portlet__foot">
-												<div class="kt-form__action text-center">
-												<a href="laporan-jurnal-umum.php" class="btn btn-info btn-md">
-				Tampilkan Data&nbsp;&nbsp;&nbsp;<i class="fa fa-arrow-alt-circle-right"></i>
-				<!--<i class="flaticon2-plus"></i>-->
-			</a>
-			</div>
-													</div>
-											</div>
-										</div>
-										<div class="col-xl-4">
-											<!--begin::Portlet-->
-											<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-												<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Kolom</div><br>
-												<div class="kt-portlet__body">
-													<div class="kt-portlet__content">
-														<div class="form-group">
-															<label>Parameter Kolom :</label>
-															<table class="table no-border table-bordered table-hover">
-																<tbody>
 																	<tr>
 																		<td></td>
 																	</tr>
-																	
 																</tbody>
 															</table>
 															<button type="button" class="btn btn-success btn-sm btn-icon" data-container="body" data-toggle="kt-tooltip" data-placement="top" title="Tambah"><i class="fa fa-plus" data-toggle="modal"
@@ -650,14 +395,18 @@ License: You must have a valid license purchased only from themeforest(the above
 													</div>
 												</div>
 											</div>
-
 											<!--end::Portlet-->
 										</div>
-
 									</div>
 								</div>
 							</div>
 						</div>
+						
+						
+						
+						
+						
+						
 						<div class="card">
 							<div class="card-header" id="heading9">
 								<div class="card-title collapsed d-grid" data-toggle="collapse" data-target="#collapse9" aria-expanded="false" aria-controls="collapseThree1">
@@ -672,8 +421,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											<!--begin::Portlet-->
 											<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
 												<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Informasi Umum</div><br>
-												<div class="kt-portlet__body">
-													<div class="form-group row">
+												<div class="form-group row">
 													<div class="col-lg-8">
 														<label>Dari Tanggal :</label>
 														<div class="input-group input-group-sm mb-3">
@@ -692,7 +440,6 @@ License: You must have a valid license purchased only from themeforest(the above
                                   </select>
 													</div>
 													</div>
-												</div>
 												<div class="kt-portlet__foot">
 												<div class="kt-form__action text-center">
 												<a href="laporan-akun-perkiraan.php" class="btn btn-info btn-md">
@@ -733,6 +480,8 @@ License: You must have a valid license purchased only from themeforest(the above
 								</div>
 							</div>
 						</div>
+						
+						
 						
 						
 						
