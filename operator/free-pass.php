@@ -147,7 +147,10 @@ function goBack() {
                           <label style="color:#a2050c">Kategori Free Pass :</label>
                           <select class="form-control kt-selectpicker" data-live-search="true">
 														
-														<option selected>Tamu</option>
+														<option>Full Free Pass</option>
+														<option selected>Free Pass 1 Jam</option>
+														<option>Free Pass 2 Jam</option>
+														<option>Free Pass 3 Jam</option>
 														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 														
 													</select>

@@ -100,14 +100,12 @@
 </svg></span><span class="kt-menu__link-text">Input Manual</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
 									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
 										<ul class="kt-menu__subnav">
-											<li class="kt-menu__item  kt-menu__item--parent" aria-haspopup="true"><span class="kt-menu__link"><span class="kt-menu__link-text">Manajemen Absensi</span></span></li>
-
 											<li class="kt-menu__item" aria-haspopup="true"><a href="manual-kendaraan-masuk.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Masuk</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="manual-kendaraan-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Keluar</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="manual-kendaraan-berangkat.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Berangkat</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="manual-muatan-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Muatan Kapal Keluar</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="manual-kendaraan-bermuatan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Bermuatan</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="manual-karcis-hilang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kartu Hilang</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="manual-muatan-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Muatan Kapal</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="manual-kendaraan-bermuatan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pass Kade</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="operator-pass-orang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pass Orang</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="free-pass.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Free Pass</span></a></li>
 											
 										</ul>
@@ -129,19 +127,22 @@
 									</div>
 								</li>
 								<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><span class="kt-menu__link-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
-    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <rect x="0" y="0" width="24" height="24"/>
-        <path d="M12,3 C16.418278,3 20,6.581722 20,11 L20,21 C20,21.5522847 19.5522847,22 19,22 L5,22 C4.44771525,22 4,21.5522847 4,21 L4,11 C4,6.581722 7.581722,3 12,3 Z M9,10 C7.34314575,10 6,11.3431458 6,13 C6,14.6568542 7.34314575,16 9,16 L15,16 C16.6568542,16 18,14.6568542 18,13 C18,11.3431458 16.6568542,10 15,10 L9,10 Z" fill="#000000"/>
-        <path d="M15,14 C14.4477153,14 14,13.5522847 14,13 C14,12.4477153 14.4477153,12 15,12 C15.5522847,12 16,12.4477153 16,13 C16,13.5522847 15.5522847,14 15,14 Z M9,14 C8.44771525,14 8,13.5522847 8,13 C8,12.4477153 8.44771525,12 9,12 C9.55228475,12 10,12.4477153 10,13 C10,13.5522847 9.55228475,14 9,14 Z" fill="#000000" opacity="0.3"/>
+    <g id="Stockholm-icons-/-Tools-/-Road-Cone" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+        <path d="M14.8520384,9 L15.7780576,12 L8.22196243,12 L9.14797495,9 L14.8520384,9 Z M13.9260192,6 L10.0739875,6 L10.7050601,3.95551581 C10.8804029,3.38745846 11.4054966,3 12,3 C12.5945036,3 13.1195978,3.38745798 13.2949418,3.95551522 L13.9260192,6 Z M16.7040768,15 L17.9387691,19 L6.06126654,19 L7.2959499,15 L16.7040768,15 Z" id="Combined-Shape" fill="#000000"></path>
+        <rect id="Rectangle" fill="#000000" opacity="0.3" x="3" y="20" width="18" height="2" rx="1"></rect>
     </g>
-</svg></span><span class="kt-menu__link-text">Permintaan Bantuan</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
+</svg></span><span class="kt-menu__link-text">Operasional</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
 									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
 										<ul class="kt-menu__subnav">
+											<li class="kt-menu__item" aria-haspopup="true"><a href="operator-kesiapan-operasional.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kesiapan Operasional</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="operator-permintaan-bantuan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Permintaan Bantuan</span></a></li>
 											
 										</ul>
 									</div>
 								</li>
+								
+								
 								<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><span class="kt-menu__link-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
    <g id="Stockholm-icons-/-Files-/-Selected-file" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
