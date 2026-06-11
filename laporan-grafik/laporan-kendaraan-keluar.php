@@ -157,11 +157,23 @@
                             </div>
 							
 							<div class="col-lg-1">
-                                <label>Gate Keluar :</label>
+                                <label>Gate :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected="">1</option>
                                       <option value="2">2</option>
+                                      <option value="2">3</option>
+                                      <option value="2">4</option>
+									  <option value="2">Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
+							<div class="col-lg-1">
+                                <label>Jalur :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true" disabled>
+                                      <option value="1">Masuk</option>
+                                      <option value="2"  selected>Keluar</option>
 									  <option value="2">Keseluruhan</option>
                                                                            
                                   </select>
@@ -170,10 +182,10 @@
                                 <label>Nama Jalur :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected>Keluar - Mobil 1</option>
-                                      <option value="1">Keluar - Mobil 2</option>
-                                      <option value="1">Keluar - Motor 1</option>
-                                      <option value="1">Keluar - Motor 2</option>
+                                      <option value="1" selected>Mobil - 1</option>
+                                      <option value="1">Mobil - 2</option>
+                                      <option value="1">Motor - 1</option>
+                                      <option value="1">Motor - 2</option>
 									  <option value="2">Keseluruhan</option>
                                                                            
                                   </select>

@@ -159,6 +159,8 @@
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected="">1</option>
                                       <option value="2">2</option>
+                                      <option value="2">3</option>
+                                      <option value="2">4</option>
 									  <option value="2">Keseluruhan</option>
                                                                            
                                   </select>
@@ -166,7 +168,7 @@
 							<div class="col-lg-1">
                                 <label>Jalur :</label>
 								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                <select class="form-control kt-selectpicker" data-live-search="true" disabled>
                                       <option value="1" selected="">Masuk</option>
                                       <option value="2">Keluar</option>
 									  <option value="2">Keseluruhan</option>
@@ -177,10 +179,10 @@
                                 <label>Nama Jalur :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected>Mobil 1</option>
-                                      <option value="1">Mobil 2</option>
-                                      <option value="1">Motor 1</option>
-                                      <option value="1">Motor 2</option>
+                                      <option value="1" selected>Mobil - 1</option>
+                                      <option value="1">Mobil - 2</option>
+                                      <option value="1">Motor - 1</option>
+                                      <option value="1">Motor - 2</option>
 									  <option value="2">Keseluruhan</option>
                                                                            
                                   </select>

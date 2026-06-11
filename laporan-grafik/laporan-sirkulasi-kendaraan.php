@@ -244,8 +244,10 @@
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected="">Selesai</option>
-                                      <option value="1">Denda</option>
-                                      <option value="2">Member</option>
+                                      <option value="1">Member</option>
+                                      <option value="1">Berangkat</option>
+                                      <option value="2">Denda</option>
+                                      <option value="2">Parkir</option>
                                       <option value="2">Keseluruhan</option>
                                                                            
                                   </select>

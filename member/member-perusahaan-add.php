@@ -206,12 +206,7 @@ function goBack() {
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
                      <div class="form-group row">
-						<div class="col-lg-3">
-                          <label class="">Nama Panggilan :</label>
-                          <div class="form-group">
-                        <input type="text" class="form-control form-control-sm" placeholder=""  >
-                      </div>
-                        </div>
+						
 						<div class="col-lg-3">
                           <label><span style="color:#ff0000">*</span> Jenis Kelamin :</label>
                          
@@ -225,7 +220,7 @@ function goBack() {
                         </div>
 						
 						<div class="col-lg-3">
-                          <label><span style="color:#ff0000">*</span> Status :</label>
+                          <label>Status :</label>
                         <select class="form-control kt-selectpicker" data-live-search="true">
 														<option>Single</option>
 														<option>Menikah</option>
@@ -246,12 +241,6 @@ function goBack() {
 														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 														</select>
                         </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-                     <div class="form-group row">
-
-
-						
 						<div class="col-lg-3">
 					                           <label class=""><span style="color:#ff0000">*</span> Tempat Kelahiran :</label>
 					                         <select class="form-control kt-selectpicker" data-live-search="true">
@@ -263,6 +252,13 @@ function goBack() {
 
 					 														</select>
 					                         </div>
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+                     <div class="form-group row">
+
+
+						
+						
 						<div class="col-lg-3">
                           <label class=""><span style="color:#ff0000">*</span> Tanggal Kelahiran :</label>
                           <div class="form-group">
@@ -283,29 +279,17 @@ function goBack() {
                         <input type="text" class="form-control form-control-sm" placeholder="082244444436" >
                       </div>
                       </div>
-					  <div class="col-lg-3">
-                          <label class=""><span style="color:#ff0000">*</span> Whatsapp :</label>
-                          <div class="form-group">
-                        <input type="text" class="form-control form-control-sm" placeholder="082244444436" >
-                      </div>
-                      </div>
-
-
-                      </div>
-					 
-									 <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-									<div class="form-group row">
-
 					  <div class="col-lg-6">
                           <label class=""><span style="color:#ff0000">*</span> Email :</label>
                           <div class="form-group">
                         <input type="text" class="form-control form-control-sm" placeholder="xxx@xxx.xxx" >
                       </div>
                       </div>
-					 
-					  
 
-									</div>
+
+                      </div>
+					 
+									 
 									 
 									
 									</div>

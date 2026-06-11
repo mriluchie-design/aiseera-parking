@@ -126,19 +126,19 @@ function goBack() {
                             </tr>
                                                                                                             <tr>
                                                                         <td>41.01.01 | Pendapatan Parkir Masuk</td>
-                                    <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="../laporan-grafik/laporan-kendaraan-masuk.php">62.111.845,-</a></span> </div></td>
+                                    <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="../laporan-grafik/laporan-kendaraan-masuk.php">162.111.000,-</a></span> </div></td>
 									
                                 </tr>
                                                                                             <tr>
                                                                         <td>41.01.02 | Pendapatan Parkir Keluar</td>
-                                    <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDEuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">35.270.800,-</a></span> </div></td>
+                                    <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDEuMDEuMDI=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">235.270.000,-</a></span> </div></td>
 									<td style="font-size:11px; text-align:right;">
                                         
                                     </td>
                                 </tr>
                                                                                             <tr>
                                                                         <td>41.01.03 | Pendapatan Kendaraan Berangkat</td>
-                                    <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDEuMDEuMDM=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">588.175.000,-</a></span> </div></td>
+                                    <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDEuMDEuMDM=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">58.175.000,-</a></span> </div></td>
 									
 									<td style="font-size:11px; text-align:right;">
                                         
@@ -151,21 +151,21 @@ function goBack() {
                                 </tr>
                                                                                             <tr>
                                                                         <td>41.01.05 | Pendapatan Pass Kade</td>
-                                    <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDEuMDEuMDU=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span> </div></td>
+                                    <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDEuMDEuMDU=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">58.000.000,-</a></span> </div></td>
 									
                                 </tr>
                                                                                             <tr>
                                                                                               <td>41.01.06 | Pendapatan Pass Orang</td>
-                                                                                              <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDEuMDEuMDU=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span></div></td>
+                                                                                              <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDEuMDEuMDU=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">45.000.000,-</a></span></div></td>
                                                                                             </tr>
                                                                                             <tr>
                                                                         <td>41.01.07 | Pendapatan Member</td>
-                                    <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDEuMDEuMDY=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">0,-</a></span> </div></td>
+                                    <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDEuMDEuMDY=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">950.000.000,-</a></span> </div></td>
 									
                                 </tr>
                                                                                             <tr>
                                                                         <td>41.01.08 | Pendapatan Denda Parkir</td>
-                                    <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDEuMDEuMDc=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">5.005.000,-</a></span> </div></td>
+                                    <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span><a href="https://stagging.pdparkir.id/finance/accounting/laporan/export/pdf/detail/NDEuMDEuMDc=?reportName=Laba%2FRugi+%28Standar%29&amp;fromDate=2025-01-01&amp;toDate=2025-02-28&amp;fromDate1=2025-01-10&amp;toDate1=Invalid+date&amp;fromDate2=2025-01-11&amp;toDate2=Invalid+date&amp;fromMonthPeriod=1&amp;fromYearPeriod=2025&amp;toMonthPeriod=6&amp;toYearPeriod=2025&amp;quarterlyYear=2025">4.000.000,-</a></span> </div></td>
 									
                                 </tr>
                                                                                             <tr>
@@ -180,14 +180,14 @@ function goBack() {
                                   </tr>
                                                                                                                                         <tr>
                                 <td style="font-weight:bold;">TOTAL PENDAPATAN</td>
-								<td style="font-weight:bold; border-bottom: 3px double #000"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>1.496.701.616,-</span> </div></td>
+								<td style="font-weight:bold; border-bottom: 3px double #000"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>1.512.556.000,-</span> </div></td>
                                 
                             </tr>
                                                                                                 <tr>
                                                                                                                                           <td colspan="2" style="font-weight:bold; width: 70%">&nbsp;</td>
               </tr>
                                                                                                 <tr>
-                                                                                                                                                                                                  <td colspan="2" style="width: 70%"><em>Terbilang : Satu Milyar Empat Ratus Sembilan Puluh Enam Juta Tujuh Ratus Satu Ribu Enam Ratus Enam Belas Rupiah</em></td>
+                                                                                                                                                                                                  <td colspan="2" style="width: 70%"><em>Terbilang : Satu Milyar Lima Ratus Dua Belas Juta Lima Ratus Lima Puluh Enam Ribu Rupiah</em></td>
               </tr>
                                                         </tbody>
         </table>
