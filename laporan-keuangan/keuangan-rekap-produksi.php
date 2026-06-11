@@ -209,14 +209,16 @@
 											  <th width="2%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
 											  <th colspan="2" rowspan="2" bgcolor="#f7fcff">Kategori</th>
 											  <th width="2%" rowspan="2" bgcolor="#f7fcff">Jenis</th>
-											  <th width="2%" rowspan="2" bgcolor="#f7fcff">Jumlah<br>Kendaraan</th>
+											  <th colspan="2" bgcolor="#f7fcff">Qty<br></th>
 											  <th width="2%" colspan="2" rowspan="2" bgcolor="#f7fcff">Volume Muatan</th>
 											  <th width="3%" colspan="3" bgcolor="#f7fcff">Jumlah Durasi<br>										        Parkir</th>
 											  <th colspan="4" bgcolor="#f7fcff">Tarif</th>
-											  <th width="2%" rowspan="2" bgcolor="#f7fcff">Total</th>
+											  <th width="7%" rowspan="2" bgcolor="#f7fcff">Total</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 									      </tr>
 											<tr style="text-align:center">
+											  <th width="2%" bgcolor="#f7fcff">Vol</th>
+											  <th width="2%" bgcolor="#f7fcff">Satuan</th>
 											  <th width="3%" bgcolor="#f7fcff">Jam</th>
 											  <th width="3%" bgcolor="#f7fcff">Menit</th>
 											  <th width="3%" bgcolor="#f7fcff">Detik</th>
@@ -229,35 +231,37 @@
 										<tbody style="line-height:10px;">
 											<tr>
 											  <td id="kt_table_34" style="text-align:right"><strong>1</strong></td>
-											  <td colspan="16" nowrap style="text-align:left"><strong>Makassar</strong></td>
+											  <td colspan="17" nowrap style="text-align:left"><strong>Makassar</strong></td>
 										  </tr>
 											<tr>
 											  <td bgcolor="#f7fcff"  width="1%" id="kt_table_12" style="text-align:right"><strong>1.1</strong></td>
-											  <td bgcolor="#f7fcff" colspan="16" nowrap style="text-align:left"><strong>Data Kendaraan Masuk</strong></td>
+											  <td bgcolor="#f7fcff" colspan="17" nowrap style="text-align:left"><strong>Data Produksi Masuk</strong></td>
 										  </tr>
 											<tr>
 											  <td colspan="2" id="kt_table_4" style="text-align:right">&nbsp;</td>
 											  <td width="1%" nowrap="nowrap" style="text-align:right">1.1.1</td>
 											  <td width="5%" nowrap="nowrap" style="text-align:left">Reguler</td>
 											  <td nowrap="nowrap" style="text-align:left">Motor</td>
-											  <td nowrap="nowrap" style="text-align:right">14</td>
+											  <td nowrap="nowrap" style="text-align:right">94</td>
+											  <td nowrap="nowrap" style="text-align:right">Unit</td>
 											  <td colspan="5" nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>8.000,-</span></div></td>
 											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>8.000,-</span></div></td>
 											  <td colspan="2">&nbsp;</td>
-											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>1.242.000,-</span></div></td>
+											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>752.000,-</span></div></td>
 											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 									      </tr>
 											<tr>
 											  <td colspan="2" id="kt_table_4" style="text-align:right">&nbsp;</td>
 											  <td colspan="2" nowrap="nowrap" style="text-align:right"></td>
 											  <td nowrap="nowrap" style="text-align:left">Mobil</td>
-											  <td nowrap="nowrap" style="text-align:right">25</td>
+											  <td nowrap="nowrap" style="text-align:right">541</td>
+											  <td nowrap="nowrap" style="text-align:right">Unit</td>
 											  <td colspan="5" nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>15.000,-</span></div></td>
 											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>15.000,-</span></div></td>
 											  <td colspan="2">&nbsp;</td>
-											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>1.027.000,-</span></div></td>
+											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>8.115.000,-</span></div></td>
 											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 									      </tr>
 											<tr>
@@ -266,6 +270,7 @@
 											  <td nowrap="nowrap" style="text-align:left">Member</td>
 											  <td nowrap="nowrap" style="text-align:left">Motor</td>
 											  <td nowrap="nowrap" style="text-align:right">14</td>
+											  <td nowrap="nowrap" style="text-align:right">Unit</td>
 											  <td colspan="5" nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td colspan="4" nowrap="nowrap" style="text-align:left">&nbsp;</td>
 											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
@@ -276,6 +281,7 @@
 											  <td colspan="2" nowrap style="text-align:left">&nbsp;</td>
 											  <td nowrap="nowrap" style="text-align:left">Sedan/Jeep/Pick Up</td>
 											  <td nowrap="nowrap" style="text-align:right">25</td>
+											  <td nowrap="nowrap" style="text-align:right">Unit</td>
 											  <td colspan="5" nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td colspan="4" nowrap="nowrap" style="text-align:left">&nbsp;</td>
 											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
@@ -286,6 +292,7 @@
 											  <td colspan="2" nowrap style="text-align:left">&nbsp;</td>
 											  <td nowrap="nowrap" style="text-align:left">Truck/Tronton/Trailer</td>
 											  <td nowrap="nowrap" style="text-align:right">25</td>
+											  <td nowrap="nowrap" style="text-align:right">Unit</td>
 											  <td colspan="5" nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td colspan="4" nowrap="nowrap" style="text-align:left">&nbsp;</td>
 											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
@@ -296,6 +303,7 @@
 											  <td colspan="2" nowrap style="text-align:left">&nbsp;</td>
 											  <td nowrap="nowrap" style="text-align:left">Pegawai / Instansi / Others</td>
 											  <td nowrap="nowrap" style="text-align:right">25</td>
+											  <td nowrap="nowrap" style="text-align:right">Unit</td>
 											  <td colspan="5" nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td colspan="4" nowrap="nowrap" style="text-align:left">&nbsp;</td>
 											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
@@ -307,61 +315,80 @@
 											  <td nowrap style="text-align:left">Pass Kade</td>
 											  <td nowrap style="text-align:left">Truck</td>
 											  <td nowrap="nowrap" style="text-align:right">14</td>
+											  <td nowrap="nowrap" style="text-align:right">Unit</td>
 											  <td nowrap="nowrap" style="text-align:right">100</td>
 											  <td nowrap="nowrap" style="text-align:right">m3</td>
 											  <td colspan="3" nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>8.000,-</span></div></td>
 											  <td><span style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></span></td>
 											  <td colspan="2">&nbsp;</td>
-											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>1.242.000,-</span></div></td>
+											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>800.000,-</span></div></td>
 											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 									      </tr>
 											<tr>
 											  <td colspan="2" id="kt_table_4" style="text-align:right">&nbsp;</td>
 											  <td colspan="2" rowspan="2" nowrap style="text-align:left">&nbsp;</td>
 											  <td nowrap style="text-align:left">Tronton</td>
-											  <td nowrap="nowrap" style="text-align:right">14</td>
+											  <td nowrap="nowrap" style="text-align:right">0</td>
+											  <td nowrap="nowrap" style="text-align:right">Unit</td>
 											  <td nowrap="nowrap" style="text-align:right">0</td>
 											  <td nowrap="nowrap" style="text-align:right">m3</td>
 											  <td colspan="3" nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>8.000,-</span></div></td>
 											  <td colspan="3">&nbsp;</td>
-											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>1.242.000,-</span></div></td>
+											  <td><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span>0,-</span></div></td>
 											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 									      </tr>
 											<tr>
 											  <td colspan="2" id="kt_table_4" style="text-align:right">&nbsp;</td>
 											  <td nowrap style="text-align:left">Gerobak</td>
-											  <td nowrap="nowrap" style="text-align:right">14</td>
+											  <td nowrap="nowrap" style="text-align:right">0</td>
+											  <td nowrap="nowrap" style="text-align:right">Unit</td>
 											  <td nowrap="nowrap" style="text-align:right">0</td>
 											  <td nowrap="nowrap" style="text-align:right">m3</td>
 											  <td colspan="3" nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>8.000,-</span></div></td>
 											  <td colspan="3">&nbsp;</td>
-											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>1.242.000,-</span></div></td>
+											  <td><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span>0,-</span></div></td>
 											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 									      </tr>
 											<tr>
-											  <td colspan="17" id="kt_table_7" style="text-align:right">&nbsp;</td>
+											  <td colspan="2" id="kt_table_5" style="text-align:right">&nbsp;</td>
+											  <td nowrap="nowrap" style="text-align:right">1.1.4</td>
+											  <td nowrap="nowrap" style="text-align:left">Pass Orang</td>
+											  <td nowrap style="text-align:left">Reguler</td>
+											  <td nowrap="nowrap" style="text-align:right">1500</td>
+											  <td nowrap="nowrap" style="text-align:right">Orang</td>
+											  <td nowrap="nowrap" style="text-align:right">&nbsp;</td>
+											  <td nowrap="nowrap" style="text-align:right">&nbsp;</td>
+											  <td colspan="3" nowrap="nowrap" style="text-align:right">&nbsp;</td>
+											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>8.000,-</span></div></td>
+											  <td colspan="3">&nbsp;</td>
+											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>12.000.000,-</span></div></td>
+											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 										  </tr>
 											<tr>
-											  <td colspan="15" bgcolor="#f7fcff" id="kt_table_10" style="text-align:right"><b>Sub Total Kendaraan Masuk</b></td>
-											  <td bgcolor="#f7fcff"><div style="display: flex; justify-content: space-between; align-items: center; font-weight: bold;"> <span>Rp.</span> <span>9.198.000,-</span></div></td>
+											  <td colspan="18" id="kt_table_7" style="text-align:right">&nbsp;</td>
+										  </tr>
+											<tr>
+											  <td colspan="16" bgcolor="#f7fcff" id="kt_table_10" style="text-align:right"><b>Sub Total Produksi Masuk</b></td>
+											  <td bgcolor="#f7fcff"><div style="display: flex; justify-content: space-between; align-items: center; font-weight: bold;"> <span>Rp.</span> <span>21.667.000,-</span></div></td>
 											  <td bgcolor="#f7fcff">&nbsp;</td>
 									      </tr>
 											<tr>
-											  <td colspan="17" id="kt_table_31" style="text-align:right">&nbsp;</td>
+											  <td colspan="18" id="kt_table_31" style="text-align:right">&nbsp;</td>
 										  </tr>
 											<tr>
 											  <td bgcolor="#f7fcff"  style="text-align:right" id="kt_table_27"><strong>1.2</strong></td>
-											  <td bgcolor="#f7fcff"  colspan="16" nowrap style="text-align:left"><strong>Data Kendaraan Keluar</strong></td>
+											  <td bgcolor="#f7fcff"  colspan="17" nowrap style="text-align:left"><strong>Data Produksi Keluar</strong></td>
 										  </tr>
 											<tr>
 											  <td colspan="2" rowspan="13" id="kt_table_26" style="text-align:right">&nbsp;</td>
 											  <td nowrap="nowrap" style="text-align:right">1.2.1</td>
 											  <td nowrap="nowrap" style="text-align:left">Reguler</td>
 											  <td nowrap="nowrap" style="text-align:left">Motor</td>
-											  <td nowrap="nowrap" style="text-align:right">14</td>
+											  <td nowrap="nowrap" style="text-align:right">94</td>
+											  <td nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td colspan="2" nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td nowrap="nowrap" style="text-align:right">477</td>
 											  <td nowrap="nowrap" style="text-align:right">10</td>
@@ -377,7 +404,8 @@
 											  <td nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td nowrap="nowrap" style="text-align:left">&nbsp;</td>
 											  <td nowrap="nowrap" style="text-align:left">Mobil</td>
-											  <td nowrap="nowrap" style="text-align:right">25</td>
+											  <td nowrap="nowrap" style="text-align:right">541</td>
+											  <td nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td colspan="2" nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td nowrap="nowrap" style="text-align:right">712</td>
 											  <td nowrap="nowrap" style="text-align:right">10</td>
@@ -394,6 +422,7 @@
 											  <td nowrap="nowrap" style="text-align:left">Member</td>
 											  <td nowrap="nowrap" style="text-align:left">Motor</td>
 											  <td nowrap="nowrap" style="text-align:right">14</td>
+											  <td nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td colspan="2" nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td nowrap="nowrap" style="text-align:right">477</td>
 											  <td nowrap="nowrap" style="text-align:right">10</td>
@@ -409,6 +438,7 @@
 											  <td colspan="2" rowspan="3" nowrap="nowrap" style="text-align:left">&nbsp;</td>
 											  <td nowrap="nowrap" style="text-align:left">Sedan/Jeep/Pick Up</td>
 											  <td nowrap="nowrap" style="text-align:right">25</td>
+											  <td nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td colspan="2" nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td nowrap="nowrap" style="text-align:right">712</td>
 											  <td nowrap="nowrap" style="text-align:right">10</td>
@@ -423,6 +453,7 @@
 											<tr>
 											  <td nowrap="nowrap" style="text-align:left">Truck/Tronton/Trailer</td>
 											  <td nowrap="nowrap" style="text-align:right">25</td>
+											  <td nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td colspan="2" nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td nowrap="nowrap" style="text-align:right">477</td>
 											  <td nowrap="nowrap" style="text-align:right">10</td>
@@ -437,6 +468,7 @@
 											<tr>
 											  <td nowrap="nowrap" style="text-align:left">Pegawai / Instansi / Others</td>
 											  <td nowrap="nowrap" style="text-align:right">25</td>
+											  <td nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td colspan="2" nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td nowrap="nowrap" style="text-align:right">712</td>
 											  <td nowrap="nowrap" style="text-align:right">10</td>
@@ -453,6 +485,7 @@
 											  <td nowrap="nowrap" style="text-align:left">Kendaraan Berangkat</td>
 											  <td nowrap="nowrap" style="text-align:left">Motor</td>
 											  <td nowrap="nowrap" style="text-align:right">14</td>
+											  <td nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td colspan="2" nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td nowrap="nowrap" style="text-align:right">477</td>
 											  <td nowrap="nowrap" style="text-align:right">10</td>
@@ -468,6 +501,7 @@
 											  <td colspan="2" nowrap style="text-align:left">&nbsp;</td>
 											  <td nowrap="nowrap" style="text-align:left">Mobil</td>
 											  <td nowrap="nowrap" style="text-align:right">25</td>
+											  <td nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td colspan="2" nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td nowrap="nowrap" style="text-align:right">712</td>
 											  <td nowrap="nowrap" style="text-align:right">10</td>
@@ -484,6 +518,7 @@
 											  <td nowrap="nowrap" style="text-align:left">Muatan Kapal</td>
 											  <td nowrap="nowrap" style="text-align:left">Motor</td>
 											  <td nowrap="nowrap" style="text-align:right">14</td>
+											  <td nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td colspan="2" nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td nowrap="nowrap" style="text-align:right">477</td>
 											  <td nowrap="nowrap" style="text-align:right">10</td>
@@ -499,6 +534,7 @@
 											  <td colspan="2" nowrap style="text-align:left">&nbsp;</td>
 											  <td nowrap="nowrap" style="text-align:left">Mobil</td>
 											  <td nowrap="nowrap" style="text-align:right">25</td>
+											  <td nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td colspan="2" nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td nowrap="nowrap" style="text-align:right">712</td>
 											  <td nowrap="nowrap" style="text-align:right">10</td>
@@ -515,6 +551,7 @@
 											  <td nowrap="nowrap" style="text-align:left">Free Pass</td>
 											  <td nowrap="nowrap" style="text-align:left">&nbsp;</td>
 											  <td nowrap="nowrap" style="text-align:right">25</td>
+											  <td nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td colspan="2" nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td nowrap="nowrap" style="text-align:right">712</td>
 											  <td nowrap="nowrap" style="text-align:right">10</td>
@@ -531,6 +568,7 @@
 											  <td nowrap="nowrap" style="text-align:left">Denda</td>
 											  <td nowrap="nowrap" style="text-align:left">Mobil</td>
 											  <td nowrap="nowrap" style="text-align:right">14</td>
+											  <td nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td colspan="2" nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td nowrap style="text-align:left">&nbsp;</td>
 											  <td nowrap style="text-align:left">&nbsp;</td>
@@ -546,6 +584,7 @@
 											  <td colspan="2" nowrap style="text-align:left">&nbsp;</td>
 											  <td nowrap="nowrap" style="text-align:left">Motor</td>
 											  <td nowrap="nowrap" style="text-align:right">25</td>
+											  <td nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td colspan="2" nowrap="nowrap" style="text-align:right">&nbsp;</td>
 											  <td nowrap style="text-align:left">&nbsp;</td>
 											  <td nowrap style="text-align:left">&nbsp;</td>
@@ -558,23 +597,23 @@
 											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 									      </tr>
 											<tr>
-											  <td colspan="17" id="kt_table_6" style="text-align:right">&nbsp;</td>
+											  <td colspan="18" id="kt_table_6" style="text-align:right">&nbsp;</td>
 										  </tr>
 											<tr>
-											  <td colspan="15" bgcolor="#f7fcff" id="kt_table_11" style="text-align:right"><b>Sub Total Kendaraan Keluar</b></td>
+											  <td colspan="16" bgcolor="#f7fcff" id="kt_table_11" style="text-align:right"><b>Sub Total Produksi Keluar</b></td>
 											  <td bgcolor="#f7fcff"><div style="display: flex; justify-content: space-between; align-items: center; font-weight: bold;"> <span>Rp.</span> <span>9.198.000,-</span></div></td>
 											  <td bgcolor="#f7fcff">&nbsp;</td>
 									      </tr>
 								          <tr>
-										      <td bgcolor="" style="text-align:right" colspan="17" id="kt_table_8">&nbsp;</td>
+										      <td bgcolor="" style="text-align:right" colspan="18" id="kt_table_8">&nbsp;</td>
 									      </tr>
 									      <tr>
-										    <td bgcolor="#f7fcff" style="text-align:right" colspan="15" id="kt_table_10"><b>Grand Total</b></td>
-										    <td bgcolor="#f7fcff"><div style="display: flex; justify-content: space-between; align-items: center; font-weight: bold;"> <span>Rp.</span> <span>9.198.000,-</span></div></td>
+										    <td bgcolor="#f7fcff" style="text-align:right" colspan="16" id="kt_table_10"><b>Grand Total</b></td>
+										    <td bgcolor="#f7fcff"><div style="display: flex; justify-content: space-between; align-items: center; font-weight: bold;"> <span>Rp.</span> <span>30.865.000,-</span></div></td>
 										    <td bgcolor="#f7fcff">&nbsp;</td>
 									      </tr>
 										  <tr>
-										    <td bgcolor="#f7fcff" style="text-align:left" colspan="17" id="kt_table_2"><em><strong>Terbilang : Sembilan Juta Seratus Sembilan Puluh Delapan Ribu Rupiah</strong></em></td>
+										    <td bgcolor="#f7fcff" style="text-align:left" colspan="18" id="kt_table_2"><em><strong>Terbilang : Tiga Puluh Juta Delapan Ratus Enam Puluh Lima Ribu Rupiah</strong></em></td>
 									      </tr>
   </tbody>
 									</table>

@@ -24,16 +24,11 @@
             <div class="kt-subheader__main">
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Rekap Transaksi
+                    Transaksi Keuangan
                 </h3>
-				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
-									<div class="kt-subheader__group" id="kt_subheader_search">
-										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Kendaraan </span>
-										<form class="kt-margin-l-20" id="kt_subheader_search_form">
-
-										</form>
-									</div>
+				
+										
+									
 
             </div>
             <div class="kt-subheader__toolbar">
@@ -125,6 +120,12 @@
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected="">Reguler</option>
+                                      <option value="1">Member</option>
+                                      <option value="1">Pass Kade</option>
+                                      <option value="1">Pass Orang</option>
+                                      <option value="1">Kendaraan Berangkat</option>
+                                      <option value="1">Muatan Kapal</option>
+                                      <option value="1">Free Pass</option>
                                       <option value="2">Denda</option>
                                       <option value="2">Keseluruhan</option>
                                                                            
@@ -534,7 +535,35 @@
 											     </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_8" style="text-align:right">6</td>
+										    <td id="kt_table_13" style="text-align:right">6</td>
+										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm" >Masuk</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline" >Pass Orang</span></td>
+										    <td nowrap="nowrap" style="text-align:left">Orang</td>
+										    <td nowrap="nowrap" style="text-align:left">001TRORGEM0526</td>
+										    <td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
+										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+										    <td nowrap="nowrap" style="text-align:left">3</td>
+										    <td nowrap="nowrap" style="text-align:center">Orang</td>
+										    <td nowrap="nowrap" style="text-align:left">000001PTOGEM0626</td>
+										    <td nowrap="nowrap" style="text-align:center">1 September 2026
+										      <hr />
+										      15:41:30 WITA</td>
+										    <td nowrap="nowrap" style="text-align:left">000120PGTEM0626</td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm" >QRIS</span></td>
+										    <td>DANA</td>
+										    <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>24.000,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+										      <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item"> <a href="detail-transaksi-pass-kade.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
+										          <li class="kt-nav__item"> <a href="cetak-keuangan-karcis-pass-kade.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Pass Orang</span></a></li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_8" style="text-align:right">7</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:left"><span class="btn btn-success btn-sm" >Keluar</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm" >Reguler</span></td>
@@ -562,7 +591,7 @@
 										      </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_7" style="text-align:right">7</td>
+										    <td id="kt_table_7" style="text-align:right">8</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:left"><span class="btn btn-success btn-sm" >Keluar</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm" >Reguler</span></td>
@@ -590,7 +619,7 @@
 										      </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_6" style="text-align:right">8</td>
+										    <td id="kt_table_6" style="text-align:right">9</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:left"><span class="btn btn-success btn-sm" >Keluar</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-linkedin btn-sm" >Member</span></td>
@@ -615,7 +644,7 @@
 										      </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_4" style="text-align:right">9</td>
+										    <td id="kt_table_4" style="text-align:right">10</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:left"><span class="btn btn-success btn-sm" >Keluar</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-linkedin btn-sm" >Member</span></td>
@@ -640,7 +669,7 @@
 										      </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_2" style="text-align:right">10</td>
+										    <td id="kt_table_2" style="text-align:right">11</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm" >Keluar</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline" >Berangkat</span></td>
@@ -668,7 +697,7 @@
 										      </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_2" style="text-align:right">11</td>
+										    <td id="kt_table_2" style="text-align:right">12</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:left"><span class="btn btn-success btn-sm" >Keluar</span></td>
 										    <td nowrap="nowrap" style="text-align:left"><span class="btn btn-label-skype btn-sm" >Muatan Kapal</span></td>
@@ -696,7 +725,7 @@
 										      </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_2" style="text-align:right">12</td>
+										    <td id="kt_table_2" style="text-align:right">13</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:left"><span class="btn btn-success btn-sm" >Keluar</span></td>
 										    <td nowrap="nowrap" style="text-align:left"><span class="btn btn-label-skype btn-sm" >Muatan Kapal</span></td>
@@ -724,7 +753,7 @@
 										      </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_2" style="text-align:right">13</td>
+										    <td id="kt_table_2" style="text-align:right">14</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm" >Keluar</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-youtube btn-sm" >Free Pass</span></td>
@@ -750,7 +779,7 @@
 										      </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_9" style="text-align:right">14</td>
+										    <td id="kt_table_9" style="text-align:right">15</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm" >Keluar</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-youtube btn-sm" >Free Pass</span></td>
@@ -778,7 +807,7 @@
 										      </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_2" style="text-align:right">15</td>
+										    <td id="kt_table_2" style="text-align:right">16</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm" >Keluar</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-danger btn-sm" >Denda</span></td>
