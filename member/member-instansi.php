@@ -367,12 +367,7 @@
 																				<span class="kt-nav__link-text">Ubah Data Member</span>
 																			</a>
 																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-kartu-member-perusahaan.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-address-card"></i>
-																				<span class="kt-nav__link-text">Cetak Kartu Member</span>
-																			</a>
-																		</li>
+																		
 																		
 																			<li class="kt-nav__item">
 																			<a href="member-perusahaan-suspend.php" class="kt-nav__link">
@@ -443,12 +438,7 @@
 																				<span class="kt-nav__link-text">Ubah Data Member</span>
 																			</a>
 																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-kartu-member-perusahaan.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-address-card"></i>
-																				<span class="kt-nav__link-text">Cetak Kartu Member</span>
-																			</a>
-																		</li>
+																		
 																		
 																			<li class="kt-nav__item">
 																			<a href="member-perusahaan-suspend.php" class="kt-nav__link">
@@ -520,12 +510,7 @@
 																				<span class="kt-nav__link-text">Ubah Data Member</span>
 																			</a>
 																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-kartu-member-perusahaan.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-address-card"></i>
-																				<span class="kt-nav__link-text">Cetak Kartu Member</span>
-																			</a>
-																		</li>
+																		
 																		
 																			<li class="kt-nav__item">
 																			<a href="member-perusahaan-suspend.php" class="kt-nav__link">
