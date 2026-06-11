@@ -390,8 +390,8 @@
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">QR Code<br>Perusahaan</th>
-											  <th width="2%" rowspan="2" bgcolor="#f7fcff">Logo</th>
-											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Nama Perusahaan</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Logo</th>
+											  <th width="15%" rowspan="2" bgcolor="#f7fcff">Nama Perusahaan</th>
 											  
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Email</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">HP</th>

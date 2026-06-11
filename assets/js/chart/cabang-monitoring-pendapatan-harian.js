@@ -14,7 +14,7 @@ Highcharts.chart('container-cabang-monitoring-pendapatan-harian', {
         align: ''
     },
     xAxis: {
-        categories: ['Mobil Masuk', 'Motor Masuk', 'Mobil Keluar', 'Motor Keluar', 'Member', 'Kendaraan Berangkat', 'Muatan Kapal', 'Pass Kade', 'Denda']
+        categories: ['Mobil Masuk', 'Motor Masuk', 'Mobil Keluar', 'Motor Keluar', 'Member', 'Kendaraan Berangkat', 'Muatan Kapal', 'Pass Kade', 'Pass Orang','Denda']
             
     },
     

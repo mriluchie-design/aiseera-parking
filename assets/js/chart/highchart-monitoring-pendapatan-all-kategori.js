@@ -92,7 +92,12 @@ Highcharts.chart('container-pendapatan-kategori-all', {
         
     },
 	{
-        name: 'Pas Kade',
+        name: 'Pass Kade',
+        data: [686000000, 1440000, 34550000, 0, 0, 31418920, 2000000, 0, 0, 0, 0, 104480000],
+        
+    },
+    {
+        name: 'Pass Orang',
         data: [686000000, 1440000, 34550000, 0, 0, 31418920, 2000000, 0, 0, 0, 0, 104480000],
         
     },
