@@ -442,14 +442,14 @@ function goBack() {
 																	<ul class="kt-nav">
 																	<li class="kt-nav__item">
 
-																			<a href="member-detail.php" class="kt-nav__link">
+																			<a href="member-instansi-detail.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-eye"></i>
 																				<span class="kt-nav__link-text">Lihat Profil Member</span>
 																			</a>
 																		</li>
 																		
 																		<li class="kt-nav__item">
-																			<a href="ubah-member.php" class="kt-nav__link">
+																			<a href="ubah-member-instansi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-edit"></i>
 																				<span class="kt-nav__link-text">Ubah Data Member</span>
 																			</a>

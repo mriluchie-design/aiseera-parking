@@ -961,8 +961,7 @@ function goBack() {
 	<tr>
     <td colspan="8" style="text-align:right">Metode Pembayaran</td>
     <td colspan="2" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">e-Money</option>
-                                      <option value="1">QRIS</option>
+                                      <option value="1" selected="">Virtual Account</option>
                                       <option value="2">Tunai</option>
                                                                            
                                   </select></td>
@@ -971,7 +970,7 @@ function goBack() {
     <td colspan="8" style="text-align:right">Biaya Layanan&nbsp;&nbsp;<button type="button" style="margin-bottom:20px; font-size:12px;" class="btn btn-label-brand btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Digunakan Untuk<br>Peningkatan Layanan">?</button></td>
     <td colspan="2" style="text-align:center"><div class="input-group input-group-sm">
 														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="50.000" aria-describedby="basic-addon1">
+														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="25.000" aria-describedby="basic-addon1">
 														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 													</div></td>
     </tr>
@@ -980,7 +979,7 @@ function goBack() {
     <td colspan="8" style="text-align:right" bgcolor="#CCEAFF"><b>GRAND TOTAL </b></td>
     <td colspan="2" bgcolor="#CCEAFF"><div class="input-group input-group-sm">
 														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="11.450.000" aria-describedby="basic-addon1">
+														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="11.425.000" aria-describedby="basic-addon1">
 														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 													</div></td>
     </tr>
@@ -988,7 +987,7 @@ function goBack() {
     <td colspan="10" style="text-align:center">&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="10" style="text-align:left" bgcolor="#f7fcff"><b><i>Terbilang : Sebelas Juta Empat Ratus Lima Puluh Ribu Rupiah</i></b></td>
+    <td colspan="10" style="text-align:left" bgcolor="#f7fcff"><b><i>Terbilang : Sebelas Juta Empat Ratus Dua Puluh Lima Ribu Rupiah</i></b></td>
   </tr>
 </tbody></table>
 												
@@ -1046,15 +1045,15 @@ function goBack() {
 													</div>
 													<div class="kt-invoice__item">
 														<span class="kt-invoice__subtitle">ID Transaksi</span>
-														<span class="kt-invoice__text">GS 000014</span>
+														<span class="kt-invoice__text">000002MREON0626</span>
 													</div>
 													<div class="kt-invoice__item">
 														<span class="kt-invoice__subtitle">ID Pembayaran</span>
-														<span class="kt-invoice__text">GS 000014</span>
+														<span class="kt-invoice__text">000001PREMON0626</span>
 													</div>
 													<div class="kt-invoice__item">
 														<span class="kt-invoice__subtitle">INVOICE TO.</span>
-														<span class="kt-invoice__text">Iris Watson, P.O. Box 283 8562 Fusce RD.<br>Fredrick Nebraska 20620</span>
+														<span class="kt-invoice__text">PT. Angkasa Pura Indonesia (Persero)<br>Fredrick Nebraska 20620</span>
 													</div>
 												</div>
 											</div>
@@ -1112,15 +1111,15 @@ function goBack() {
 															<tr>
 															  <td style="text-align:right" colspan="5">Biaya Layanan</td>
 															  <td>Rp.</td>
-															  <td style="text-align:right">79.800,-</td>
+															  <td style="text-align:right">25.000,-</td>
 														  </tr>
 														  <tr>
 															  <td style="text-align:right" colspan="5"><b>Grand Total</b></td>
 															  <td><b>Rp.</b></td>
-															  <td style="text-align:right"><b>11.479.800,-</b></td>
+															  <td style="text-align:right"><b>11.425.000,-</b></td>
 														  </tr>
 														  <tr>
-															  <td style="text-align:left" colspan="7"><i>Terbilang : Sebelas Juta Empat Ratus Tujuh Puluh Sembilan Ribu Delapan Ratus Rupiah</i></td>
+															  <td style="text-align:left" colspan="7"><i>Terbilang : Sebelas Juta Empat Ratus Dua Puluh Lima Ribu Rupiah</i></td>
 															 
 														  </tr>
 														</tbody>
