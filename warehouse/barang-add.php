@@ -1,148 +1,177 @@
 <?php require '../layouts/head.php' ?>
 <?php require 'layouts/header.php' ?>
+<!-- Menyisipkan library Google Maps -->
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
 
+    <script>
+        // fungsi initialize untuk mempersiapkan peta
+        function initialize() {
+        var propertiPeta = {
+            center:new google.maps.LatLng(-5.16081,119.395713),
+            zoom:15,
+            mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+        
+        var peta = new google.maps.Map(document.getElementById("googleMap"), propertiPeta);
+        }
 
-
-<!-- begin:: Content Head -->
-<div class="kt-subheader   kt-grid__item" id="kt_subheader">
-	<div class="kt-container  kt-container--fluid ">
-		<div class="kt-subheader__main">
-			<h3 class="kt-subheader__title">
-				<span class="kt-portlet__head-icon">
-					<i class="kt-font-brand flaticon2-list-1"></i>
-				</span>
-				&nbsp;
-				&nbsp;
-				Form Tambah Barang
-			</h3>
-
-		</div>
-		<div class="kt-subheader__toolbar">
-			<div class="dropdown dropdown-inline" ddata-placement="left">
-				<a href="mutasi-pegawai.php" class="btn btn-label-brand btn-sm" data-toggle="dropdown" onclick="goBack()">
-					<i class="flaticon-reply"></i> Kembali</button>
-					<script>
-						function goBack() {
-							window.history.back();
-						}
-					</script>
-					<!--<i class="flaticon2-plus"></i>-->
-				</a>
+        // event jendela di-load  
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+    <!-- begin:: Content Head -->
+    <div class="kt-subheader   kt-grid__item" id="kt_subheader">
+        <div class="kt-container  kt-container--fluid ">
+            <div class="kt-subheader__main">
 			
+                <h3 class="kt-subheader__title">
+                    <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
+                    Form Tambah Barang
+                </h3>
+				
+
+
+								</div>
+								
+            <div class="kt-subheader__toolbar">
+			
+			<div class="dropdown dropdown-inline" ddata-placement="left">
+				<a href="#.php" class="btn btn-label-brand btn-sm" data-toggle="dropdown" onclick="goBack()">
+												<i class="flaticon-reply"></i> Kembali</button>
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
+												<!--<i class="flaticon2-plus"></i>-->
+											</a>
+				
+			</div>
+			
+			<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
 			</div>
 			<div class="btn-group">
-				<button type="button" class="btn btn-brand">
-					<i class="la la-check"></i>
-					<span class="kt-hidden-mobile">Save</span>
+				<button type="button" class="btn btn-success">
+					<i class="fa fa-check-circle"></i>
+					<span class="kt-hidden-mobile">Simpan</span>
 				</button>
-				<button type="button" class="btn btn-brand dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				</button>
-				<div class="dropdown-menu dropdown-menu-right" style="min-width:17rem !important">
-					<ul class="kt-nav">
-						<li class="kt-nav__item">
-							<a href="#" class="kt-nav__link">
-								<i class="kt-nav__link-icon flaticon2-printer"></i>
-								<span class="kt-nav__link-text">Cetak</span>
-							</a>
-						</li>
-						<li class="kt-nav__item">
-							<a href="#" class="kt-nav__link">
-								<i class="kt-nav__link-icon flaticon-attachment"></i>
-								<span class="kt-nav__link-text">Upload Dokumen</span>
-							</a>
-						</li>
-						<li class="kt-nav__item">
-							<a href="#" class="kt-nav__link">
-								<i class="kt-nav__link-icon flaticon-suitcase"></i>
-								<span class="kt-nav__link-text">Tambah Favorit</span>
-							</a>
-						</li>
-					</ul>
-				</div>
+				
+				
 			</div>
-		</div>
-	</div>
-</div>
+			
+				 
+               
+            </div>
+        </div>
+    </div>
+    <!-- end:: Content Head -->
 
-<!-- end:: Content Head -->
+	<!-- begin:: Content -->
+		<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
+            <!-- begin:: Alert -->
+			
+            <div class="alert alert-elevate alert-solid-warning alert-bold" role="alert">
+                <div class="alert-icon"><i class="fa fa-info-circle"></i></div>
+                <div class="alert-text">CCTV Sedang Offline !</div>
+                <div class="alert-close">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true"><i class="la la-close"></i></span>
+                    </button>
+                </div>
+            </div>
+            <!-- end:: Alert -->
 
-<!-- begin:: Content -->
-<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
-	<div class="alert alert-elevate alert-solid-warning alert-bold" role="alert">
-		<div class="alert-icon"><i class="fa fa-info-circle"></i></div>
-		<div class="alert-text">A simple primary alert—check it out!</div>
-		<div class="alert-close">
-			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-				<span aria-hidden="true"><i class="la la-close"></i></span>
-			</button>
-		</div>
-	</div>
-	<div class="kt-portlet kt-portlet--height-full">
-		<div class="kt-portlet__body">
-			<div class="row">
-				<div class="col-xl-8">
-					<!--begin::Portlet-->
-					<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-						<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Rincian Barang/Jasa</div><br>
-						<div class="kt-portlet__body">
-							<div class="kt-portlet__content">
-								<div class="form-group row">
-								<div class="col-lg-3">
-										<label>Kategori : <code>*</code></label>
-										<select class="form-control kt-selectpicker" data-live-search="true" tabindex="-98">
-                                      <option value="1" selected="">Barang</option>
-                                      <option value="2">Layanan</option>
-                                      <option value="2">Pengeluaran</option>
-                                      
-                                  </select>
-									</div>
-									<div class="col-lg-3">
-										<label>Tipe Produk : <code>*</code></label>
-										<select class="form-control kt-selectpicker" data-live-search="true" tabindex="-98">
-                                      <option value="1" selected="">Barang</option>
-                                      <option value="2">Layanan</option>
-                                      <option value="2">Kombo</option>
-                                      
-                                  </select>
-									</div>
-									<div class="col-lg-3">
-										<label class="">Kode Barang : <code>*</code></label>
-										<input type="text" class="form-control form-control-sm" placeholder="0001MP0626" disabled>
-									</div>
-									
-									
-											
-									
-								</div>
-								<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-								<div class="form-group row">
-								<div class="col-lg-6">
-										<label class="">Nama Barang : <code>*</code></label>
-										<input type="text" class="form-control form-control-sm" placeholder="" >
-									</div>
-									<div class="col-lg-2">
+          
+
+			
+				<div class="kt-portlet__body">
+				
+					  
+					  <div class="form-group row">
+				
+					  
+					  
+					  <div class="col-xl-6">
+
+									<!--begin::Portlet-->
+										<div class="kt-portlet kt-portlet--height-fluid-full" id="kt_page_portlet">
+
+				
+                    <div class="kt-portlet__body">
+<div class="m-portlet m-portlet--tabs">
+									<div class="m-portlet__head">
+										<div class="m-portlet__head-tools">
+											<ul class="nav nav-pills nav-fill" role="tablist">
+												<li class="nav-item m-tabs__item">
+													<a class="nav-link m-tabs__link active" data-toggle="tab" href="#m_tabs_6_1" role="tab">
+														<i class="fa fa-boxes"></i> Rincian Barang
+													</a>
+												</li>
+												<li class="nav-item m-tabs__item">
+													<a class="nav-link m-tabs__link" data-toggle="tab" href="#m_tabs_6_2" role="tab">
+														<i class="fa fa-file-alt"></i> Spesifikasi Barang
+													</a>
+												</li>
+												<li class="nav-item m-tabs__item">
+													<a class="nav-link m-tabs__link" data-toggle="tab" href="#m_tabs_6_3" role="tab">
+														<i class="fa fa-image"></i>Foto Barang
+													</a>
+												</li>
+											</ul>
+											<div class="tab-content">
+												<div class="tab-pane active" id="m_tabs_6_1" role="tabpanel">
+													
+														
+														<div class="kt-portlet__body">
+															<div class="kt-portlet__content"><br>
+																<div class="form-group row">
+						<div class="col-lg-3">
+                          <label class="">Kode Barang :</label>
+                          <div class="form-group">
+                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="000002MP823">
+                      </div>
+                        </div>
+						<div class="col-lg-4">
+                          <label class="">Kategori :</label>
+                         <select class="form-control kt-selectpicker" data-live-search="true">
+						
+														
+														<option>Peralatan Project</option>
+														<option>Peralatan Kerja</option>
+														<option>Peralatan Kantor</option>
+														 <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+														
+													</select>
+                        </div>
+						
+						<div class="form-group row">
+      												<div class="col-lg-12">
                                 <div class="form-group">
-      													<label>Cek Stok :</label>
+      													<label>Project :</label>
                                 <div class="kt-section__content kt-section__content--solid" role="group" aria-label="...">
-      													<button type="button" class="btn btn-secondary btn-sm col-lg-6" id="hide1">Tidak</button>&nbsp;
+      													<button type="button" class="btn btn-secondary btn-square btn-sm col-lg-6" id="hide1">Tidak</button>&nbsp;
       													
                                 <button type="button" class="btn btn-secondary btn-square btn-sm col-lg-4" id="show">Ya</button>&nbsp;
       												</div>
                               	</div>
       												</div>
-                              <div class="tampil">
+      												</div>
+                              <div class="form-group row tampil">
                                 <div class="col-lg-12">
 								
-                                  <div class="form-group">
+                                  <div class="form-group row">
     													
 													<div class="col-lg-12">
-														<label class="kt-font-danger">Stok Saat ini :</label>
-														 <div class="input-group">
-													<input type="text" style="text-align:right;" class="form-control form-control-sm kt-input-sm" placeholder="1" aria-describedby="basic-addon2" disabled="">
-													<div class="input-group-append">
-														<span class="input-group-text" id="basic-addon2">Unit</span>
-													</div>
-												</div>
+														<label class="kt-font-danger">Pilih Project :</label>
+														 <select class="form-control form-control kt-selectpicker" data-live-search="true">
+														<option>Epass</option>
+														
+														</select>
 													</div>
 												
                           </div>
@@ -153,372 +182,106 @@
 											</div>
 											
 											</div>
-									</div>
-									<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-								<div class="form-group row">
-								<div class="col-lg-3">
-                                <div class="form-group">
-      													<label>Harga Jual :</label>
-                                <div class="input-group input-group-sm">
-															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" style="border-color:#ff0000" id="basic-addon2">Rp.</span></div>
-															    <input style="text-align:right; border-color:#ff0000;" type="text" class="form-control form-control-sm" placeholder="2.000.000" aria-describedby="basic-addon1">
-															    <div class="input-group-append"><span class="input-group-text input-group-sm" style="border-color:#ff0000" id="basic-addon2">,-</span></div>
-															    </div>
-                              	</div>
-      												</div>
-								<div class="col-lg-3">
-										<label>Pajak Penjualan : <code>*</code></label>
-										<select class="form-control kt-selectpicker" data-live-search="true" tabindex="-98">
-                                      <option value="1">12% (Non Luxury Good)</option>
-                                      <option value="2" selected>12%</option>
-                                      <option value="2">11%</option>
-                                      <option value="2">Lainnya</option>
-                                      
-                                  </select>
-									</div>
-									<div class="col-lg-3">
-										<label class="">Tgl Pembelian:</label>
-										<div class="input-group date">
-											<input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="01/01/2020" value="01/01/2020" id="kt_datepicker_2">
-											<div class="input-group-append">
-												<span class="input-group-text">
-													<i class="la la-calendar-check-o"></i>
-												</span>
 											</div>
-										</div>
-									</div>
-									<div class="col-lg-3">
-                                <div class="form-group">
-      													<label>Harga Pembelian :</label>
-                                <div class="input-group input-group-sm">
-															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" style="border-color:#ff0000" id="basic-addon2">Rp.</span></div>
-															    <input style="text-align:right; border-color:#ff0000;" type="text" class="form-control form-control-sm" placeholder="2.000.000" aria-describedby="basic-addon1">
-															    <div class="input-group-append"><span class="input-group-text input-group-sm" style="border-color:#ff0000" id="basic-addon2">,-</span></div>
+											<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+                     <div class="form-group row">
+						<div class="col-lg-6">
+                          <label><span style="color:#ff0000">*</span> Nama Barang :</label>
+                          <input type="text" class="form-control form-control-sm" placeholder="">
+                        </div>
+                      <div class="col-lg-6">
+                          <label class="">Scan Barcode :</label>
+                          <div class="kt-input-icon kt-input-icon--right">
+      <input type="text" class="form-control form-control-sm" placeholder="Scan Barcode disini" id="generalSearch">
+      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div>
+                      </div>
+                      </div>
+					  <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+					  <div class="form-group row">
+						<div class="col-lg-4">
+                          <label class="">Harga Pembelian :</label>
+                          <div class="input-group input-group-sm">
+															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" style="border-color:#0e62ae" id="basic-addon2">Rp.</span></div>
+															    <input style="text-align:right; border-color:#0e62ae;" type="text" class="form-control form-control-sm" placeholder="2.000.000" aria-describedby="basic-addon1">
+															    <div class="input-group-append"><span class="input-group-text input-group-sm" style="border-color:#0e62ae" id="basic-addon2">,-</span></div>
 															    </div>
-                              	</div>
-      												</div>
-													
-									
-									
-									
-								</div>
-								<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-								<div class="form-group row">
-									
-									<div class="col-lg-6">
-										<label class="">Referensi #: <code>*</code></label>
-										<div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
-        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
-    		                            <span><i class="la la-search"></i></span>
-    		                        </span>
-    		                    </div>								</div>
-								<div class="col-lg-6">
-									
-										<div class="form-group">
-									<label>Catatan Internal : </label>
-									<textarea class="form-control" id="exampleTextarea" rows="6" placeholder="Catatan ini hanya untuk keperluan internal"></textarea>
-								</div>										</div>
-								</div>
-								<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-								<div class="form-group row">
-									
-									
-								<div class="col-lg-6">
-										<label class="">Scan Barcode : </label>
-										<div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan Barcode di sini ..." id="generalSearch">
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div>								</div>
-								</div>
-							</div>
-						</div>
+                        </div>
 						
-					</div>
-				</div>
-				<div class="col-xl-4">
-
-					<!--begin::Portlet-->
-					<div class="kt-portlet kt-portlet--height-fluid-half kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-						<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Logistik</div><br>
-						<div class="kt-portlet__body">
-							<div class="kt-portlet__content">
-							
-								
-											<div class="tab-content">
-												<div class="tab-pane active" id="kt_tabs_1_1" role="tabpanel">
-													
-														<div class="kt-portlet__body">
-														<div><br></div>
-														<div class="form-group row">
-															<div class="kt-portlet__content">
-<div class="form-group row">
-																<div class="col-lg-12">
-                                <label>Penanggung Jawab :</label>
-    	                       <div class="form-group">
-
-					                         <select class="form-control kt-selectpicker form-control" data-live-search="true">
-					 															<optgroup label="Direksi">
-					 																<option value="AK"selected >Muhammad Nasrullah, S.Kom</option>
-					 															</optgroup>
-					 															<optgroup label="Umum">
-																					<option value="HI">Deddy Rafsanjani, S.Sos</option>
-					 															</optgroup>
-																				<optgroup label="Keuangan dan Asset">
-					 																<option value="HI">Oklan Zulkifli, SE</option>
-					 															</optgroup>
-																				<optgroup label="Operasional">
-					 																<option value="HI">Nursiah, S.Kom</option>
-					 															</optgroup>
-																				<optgroup label="Pengembangan Usaha dan Kerjasama">
-					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
-					 															</optgroup>
-
-					 														</select>
-					                       </div>
-					                       </div>
-					                       </div>
-										   <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-								<div class="form-group row">
-										   <div class="col-lg-6">
-                          <label>Berat :</label>
-                          <div class="input-group">
-													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="1" aria-describedby="basic-addon2">
+						
+						<div class="col-lg-2">
+                          <label><span style="color:#ff0000">*</span> Pajak :</label>
+                         <select class="form-control kt-selectpicker" data-live-search="true">
+														<option>12%</option>
+														<option>11%</option>
+														
+														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+														</select>
+                        </div>
+						<div class="col-lg-3" >
+                          <label>Tanggal Pembelian :</label>
+                          <div class="input-group date">
+													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" >
 													<div class="input-group-append">
-														<span class="input-group-text" id="basic-addon2">Kg</span>
+														<span class="input-group-text">
+															<i class="la la-calendar-check-o"></i>
+														</span>
 													</div>
 												</div>
+                        </div>
+						<div class="col-lg-3" >
+                          <label>Tanggal Expired :</label>
+                          <div class="input-group date">
+													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" >
+													<div class="input-group-append">
+														<span class="input-group-text">
+															<i class="la la-calendar-check-o"></i>
+														</span>
+													</div>
+												</div>
+                        </div>
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						
+						<div class="col-lg-4">
+                          <label class="">Harga Penjualan :</label>
+                          <div class="input-group input-group-sm">
+															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" style="border-color:#0e62ae" id="basic-addon2">Rp.</span></div>
+															    <input style="text-align:right; border-color:#0e62ae;" type="text" class="form-control form-control-sm" placeholder="2.000.000" aria-describedby="basic-addon1">
+															    <div class="input-group-append"><span class="input-group-text input-group-sm" style="border-color:#0e62ae" id="basic-addon2">,-</span></div>
+															    </div>
+                        </div>
+						
+						
+						<div class="col-lg-2">
+                          <label><span style="color:#ff0000">*</span> Pajak :</label>
+                         <select class="form-control kt-selectpicker" data-live-search="true">
+														<option>12%</option>
+														<option>11%</option>
+														
+														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+														</select>
                         </div>
 						<div class="col-lg-6">
-                          <label>Volume :</label>
-                          <div class="input-group">
-													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="1" aria-describedby="basic-addon2">
-													<div class="input-group-append">
-														<span class="input-group-text" id="basic-addon2">m3</span>
-													</div>
-												</div>
+                          <label class="">Catatan Internal :</label>
+                          <textarea class="form-control" id="exampleTextarea" rows="3" placeholder=""></textarea>
                         </div>
-        					
-                            </div>
+						
+						
+						
+                        </div>
+						
+						
+					 
+                        </div>
+                        </div>
 																
 															</div>
-														</div>
-													</div>
-													</div>
-												
-											</div>
-								<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-								
-								
-							</div>
-						</div>
-					</div>
-					<!--end::Portlet-->
-				</div>
-				
-					<!--begin::Portlet-->
-					<div class="kt-portlet kt-portlet--height-fluid-half kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-						<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Logistik</div><br>
-						<div class="kt-portlet__body">
-							<div class="kt-portlet__content">
-							
-								
-											<div class="tab-content">
-												<div class="tab-pane active" id="kt_tabs_1_1" role="tabpanel">
+												<div class="tab-pane" id="m_tabs_6_2" role="tabpanel">
 													
 														<div class="kt-portlet__body">
-														<div><br></div>
-														<div class="form-group row">
 															<div class="kt-portlet__content">
-<div class="form-group row">
-																<div class="col-lg-12">
-                                <label>Penanggung Jawab :</label>
-    	                       <div class="form-group">
-
-					                         <select class="form-control kt-selectpicker form-control" data-live-search="true">
-					 															<optgroup label="Direksi">
-					 																<option value="AK"selected >Muhammad Nasrullah, S.Kom</option>
-					 															</optgroup>
-					 															<optgroup label="Umum">
-																					<option value="HI">Deddy Rafsanjani, S.Sos</option>
-					 															</optgroup>
-																				<optgroup label="Keuangan dan Asset">
-					 																<option value="HI">Oklan Zulkifli, SE</option>
-					 															</optgroup>
-																				<optgroup label="Operasional">
-					 																<option value="HI">Nursiah, S.Kom</option>
-					 															</optgroup>
-																				<optgroup label="Pengembangan Usaha dan Kerjasama">
-					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
-					 															</optgroup>
-
-					 														</select>
-					                       </div>
-					                       </div>
-					                       </div>
-										   <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-								<div class="form-group row">
-										   <div class="col-lg-6">
-                          <label>Berat :</label>
-                          <div class="input-group">
-													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="1" aria-describedby="basic-addon2">
-													<div class="input-group-append">
-														<span class="input-group-text" id="basic-addon2">Kg</span>
-													</div>
-												</div>
-                        </div>
-						<div class="col-lg-6">
-                          <label>Volume :</label>
-                          <div class="input-group">
-													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="1" aria-describedby="basic-addon2">
-													<div class="input-group-append">
-														<span class="input-group-text" id="basic-addon2">m3</span>
-													</div>
-												</div>
-                        </div>
-        					
-                            </div>
-																
-															</div>
-														</div>
-													</div>
-													</div>
-												
-											
-								<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-								
-								
-					<!--end::Portlet-->
-			
-				<div class="col-xl-4">
-
-					<!--begin::Portlet-->
-					<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-						<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Info Lainnya</div><br>
-						<div class="kt-portlet__body">
-							<div class="kt-portlet__content">
-							
-								<ul class="nav nav-tabs" role="tablist">
-												<li class="nav-item">
-													<a class="nav-link active" data-toggle="tab" href="#" data-target="#kt_tabs_1_1">Stok Persediaan</a>
-												</li>
-												<li class="nav-item">
-													<a class="nav-link" data-toggle="tab" href="#kt_tabs_1_2">Akuntansi</a>
-												</li>
-											</ul>
-											<div class="tab-content">
-												<div class="tab-pane active" id="kt_tabs_1_1" role="tabpanel">
-													
-														<div class="kt-portlet__body">
-														<div><br></div>
-														<div class="form-group row">
-															<div class="kt-portlet__content">
-<div class="form-group row">
-																<div class="col-lg-12">
-                                <label>Penanggung Jawab :</label>
-    	                       <div class="form-group">
-
-					                         <select class="form-control kt-selectpicker form-control" data-live-search="true">
-					 															<optgroup label="Direksi">
-					 																<option value="AK"selected >Muhammad Nasrullah, S.Kom</option>
-					 															</optgroup>
-					 															<optgroup label="Umum">
-																					<option value="HI">Deddy Rafsanjani, S.Sos</option>
-					 															</optgroup>
-																				<optgroup label="Keuangan dan Asset">
-					 																<option value="HI">Oklan Zulkifli, SE</option>
-					 															</optgroup>
-																				<optgroup label="Operasional">
-					 																<option value="HI">Nursiah, S.Kom</option>
-					 															</optgroup>
-																				<optgroup label="Pengembangan Usaha dan Kerjasama">
-					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
-					 															</optgroup>
-
-					 														</select>
-					                       </div>
-					                       </div>
-					                       </div>
-										   <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-								<div class="form-group row">
-										   <div class="col-lg-6">
-                          <label>Berat :</label>
-                          <div class="input-group">
-													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="1" aria-describedby="basic-addon2">
-													<div class="input-group-append">
-														<span class="input-group-text" id="basic-addon2">Kg</span>
-													</div>
-												</div>
-                        </div>
-						<div class="col-lg-6">
-                          <label>Volume :</label>
-                          <div class="input-group">
-													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="1" aria-describedby="basic-addon2">
-													<div class="input-group-append">
-														<span class="input-group-text" id="basic-addon2">m3</span>
-													</div>
-												</div>
-                        </div>
-        					
-                            </div>
-																
-															</div>
-														</div>
-													</div>
-													</div>
-												<div class="tab-pane" id="kt_tabs_1_2" role="tabpanel">
-													<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-														<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Rincian Barang & Jasa</div><br>
-														<div class="kt-portlet__body">
-															<div class="kt-portlet__content">
-																<div class="form-group w-50">
-													<select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
-														<option value="-" disabled="" selected="">Cari/Pilih Akun perkiraan...</option>
-														<optgroup label="Pendapatan" class="a">
-															<option data-subtext="400001" value="penjualan">Penjualan</option>
-															<option data-subtext="400002" value="Pendapatan Usaha">Pendapatan Usaha</option>
-															<option data-subtext="400003" value="Retur Penjualan">Retur Penjualan</option>
-															<option data-subtext="400004" value="Diskon Penjualan">Diskon Penjualan</option>
-														</optgroup>
-														<optgroup label="Beban Pokok Penjualan" class="a">
-															<option data-subtext="5101" value="Beban Pokok Penjualan">Beban Pokok Penjualan</option>
-														</optgroup>
-														<optgroup label="Beban" class="a">
-															<option data-subtext="600001" value="Beban Iklan">Beban Iklan</option>
-															<option data-subtext="600002" value="Beban Komisi">Beban Komisi</option>
-															<option data-subtext="600003" value="Beban Bensin, Parkir, Tol Kendaraan">Beban Bensin, Parkir, Tol Kendaraan</option>
-															<option data-subtext="600004" value="Beban Gaji, Upah & Honorer">Beban Gaji, Upah & Honorer</option>
-															<option data-subtext="600005" value="Beban Bonus, Pesangon & Kompensasi">Beban Bonus, Pesangon & Kompensasi</option>
-															<option data-subtext="600006" value="Beban Transportasi Karyawan">Beban Transportasi Karyawan</option>
-															<option data-subtext="600007" value="Beban Catering & Makan Karyawan">Beban Catering & Makan Karyawan</option>
-															<option data-subtext="600008" value="Beban Tunjangan Kesehatan">Beban Tunjangan Kesehatan</option>
-															<option data-subtext="600009" value="Beban Asuransi Karyawan">Beban Asuransi Karyawan</option>
-															<option data-subtext="600010" value="Beban THR">Beban THR</option>
-															<option data-subtext="600011" value="Beban Listrik">Beban Listrik</option>
-															<option data-subtext="600012" value="Beban PDAM">Beban PDAM</option>
-															<option data-subtext="600013" value="Beban Telekomunikasi">Beban Telekomunikasi</option>
-															<option data-subtext="600014" value="Beban Ekspedisi, POS, & Materai">Beban Ekspedisi, POS, & Materai</option>
-															<option data-subtext="600015" value="Beban Perjalanan Dinas">Beban Perjalanan Dinas</option>
-															<option data-subtext="600016" value="Beban Perlengkapan Kantor">Beban Perlengkapan Kantor</option>
-															<option data-subtext="600017" value="Beban Pajak Penghasilan">Beban Pajak Penghasilan</option>
-															<option data-subtext="600018" value="Beban Restribusi & Sumbanga">Beban Restribusi & Sumbangan</option>
-															<option data-subtext="600019" value="Beban Sewa Gedung">Beban Sewa Gedung</option>
-															<option data-subtext="600020" value="Beban Operasional Lainnya">Beban Operasional Lainnya</option>
-															<option data-subtext="600021" value="Beban Penyusutan Gedung">Beban Penyusutan Gedung</option>
-															<option data-subtext="600022" value="Beban Penyusutan Kendaraan">Beban Penyusutan Kendaraan</option>
-															<option data-subtext="600023" value="Beban Penyusutan Peralatan">Beban Penyusutan Peralatan</option>
-															<option data-subtext="600001" value="Beban Inventaris Kantor">Beban Inventaris Kantor</option>
-														</optgroup>
-														<optgroup label="Beban Lainnya" class="a">
-															<option data-subtext="720001" value="Beban Bunga Pinjaman">Beban Bunga Pinjaman</option>
-															<option data-subtext="720002" value="Beban Adm.Bank & Buku Cek/Giro">Beban Adm.Bank & Buku Cek/Giro</option>
-															<option data-subtext="720003" value="Pajak Jasa Giro">Pajak Jasa Giro</option>
-															<option data-subtext="720004" value="Laba/Rugi Terelasasi">Laba/Rugi Terelasasi</option>
-															<option data-subtext="720005" value="Laba/Rugi Belum Terealisasi">Laba/Rugi Belum Terealisasi</option>
-															<option data-subtext="720006" value="Laba/Rugi Disposisi Aset">Laba/Rugi Disposisi Aset</option>
-															<option data-subtext="720007" value="Beban Diluar Usaha Lainnya">Beban Diluar Usaha Lainnya</option>
-														</optgroup>
-													</select>
-													</div>
+																<br>
 																<table class="table table-striped table-bordered table-hover table-checkable">
 																	<thead>
 																		<tr>
@@ -551,755 +314,789 @@
 																</table>
 															</div>
 														</div>
-													</div>
 												</div>
-											</div>
-								<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-								
-								
-							</div>
-						</div>
-					</div>
-					<!--end::Portlet-->
-				</div>
-			</div>
+												<div class="tab-pane" id="m_tabs_6_3" role="tabpanel">
+													
+														<div class="kt-portlet__body">
+															<div class="kt-portlet__content">
+																
+																<div class="col-xl-12">
 
-			<div class="kt-portlet__body">
-											<ul class="nav nav-tabs" role="tablist">
-												<li class="nav-item">
-													<a class="nav-link active" data-toggle="tab" href="#" data-target="#kt_tabs_1_1">Rincian Barang</a>
-												</li>
-												<li class="nav-item">
-													<a class="nav-link" data-toggle="tab" href="#kt_tabs_1_2">Biaya Lainnya</a>
-												</li>
-											</ul>
-											<div class="tab-content">
-												<div class="tab-pane active" id="kt_tabs_1_1" role="tabpanel">
-													<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-														<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Rincian Barang & Jasa</div><br>
-														<div class="kt-portlet__body">
-															<div class="kt-portlet__content">
-																<div class="form-group w-50">
-												<div class="kt-input-icon kt-input-icon--right">
-													<input type="text" class="form-control form-control-sm" placeholder="Cari/Pilih Barang & Jasa..." name="akun" list="jasaname">
-													<datalist id="jasaname">
-														<option value="-" disabled="" selected="">Cari/Pilih...</option>
-														<option value="Epass" label="110101">Epass</option>
-														<option value="Flap Barier" label="110102">Flap Barier</option>
-														<option value="Security Patrol" label="110201">Security Patrol</option>
-													</datalist>
-													<span class="kt-input-icon__icon kt-input-icon__icon--right">
-														<span><i class="la la-search"></i></span>
-													</span>
+									<!--begin::Portlet-->
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Foto Barang</div><br><br>
+										<div class="kt-portlet__body">
+																								<div class="kt-portlet__content">
+																									<div class="form-group row">
+																										<div class="col-lg-12">
+					    
+                          <div class="dropzone dropzone-default dropzone-brand dz-clickable" id="kt_dropzone_1">
+													<div class="dropzone-msg dz-message needsclick">
+														<h3 class="dropzone-msg-title">Drop files here or click to upload.</h3>
+														<span class="dropzone-msg-desc">Upload up to 10 files, File Format : PDF</span>
+													</div>
+												</div>
+						
+						
+						
+                    </div>
+																										</div>
+																										<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+																										
+																										
+																								</div>
+																								
+																							</div>
+
+									</div>
+									
+					  
+					  
+					  
+                      </div>
+															</div>
+														</div>
 												</div>
 											</div>
-																<table class="table table-striped table-bordered table-hover table-checkable">
-																	<thead>
-																		<tr>
-																			<th width="40%" bgcolor="#f7fcff">Nama Barang</th>
-																			<th bgcolor="#f7fcff">Kode#</th>
-																			<th bgcolor="#f7fcff">Kuantitas</th>
-																			<th bgcolor="#f7fcff">Satuan</th>
-																			<th bgcolor="#f7fcff">@Harga</th>
-																			<th bgcolor="#f7fcff">Diskon</th>
-																			<th bgcolor="#f7fcff">Total Harga</th>
-																		</tr>
-																	</thead>
-																	<tbody>
-																		<tr>
-																			<td></td>
-																			<td></td>
-																			<td></td>
-																			<td></td>
-																			<td></td>
-																			<td></td>
-																			<td></td>
-																		</tr>
-																		<tr>
-																			<td></td>
-																			<td></td>
-																			<td></td>
-																			<td></td>
-																			<td></td>
-																			<td></td>
-																			<td></td>
-																		</tr>
-																		<tr>
-																			<td></td>
-																			<td></td>
-																			<td></td>
-																			<td></td>
-																			<td></td>
-																			<td></td>
-																			<td></td>
-																		</tr>
-																	</tbody>
-																</table>
-															</div>
-														</div>
-													</div>
-												</div>
-												<div class="tab-pane" id="kt_tabs_1_2" role="tabpanel">
-													<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-														<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Rincian Barang & Jasa</div><br>
-														<div class="kt-portlet__body">
-															<div class="kt-portlet__content">
-																<div class="form-group w-50">
-													<select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
-														<option value="-" disabled="" selected="">Cari/Pilih Akun perkiraan...</option>
-														<optgroup label="Pendapatan" class="a">
-															<option data-subtext="400001" value="penjualan">Penjualan</option>
-															<option data-subtext="400002" value="Pendapatan Usaha">Pendapatan Usaha</option>
-															<option data-subtext="400003" value="Retur Penjualan">Retur Penjualan</option>
-															<option data-subtext="400004" value="Diskon Penjualan">Diskon Penjualan</option>
-														</optgroup>
-														<optgroup label="Beban Pokok Penjualan" class="a">
-															<option data-subtext="5101" value="Beban Pokok Penjualan">Beban Pokok Penjualan</option>
-														</optgroup>
-														<optgroup label="Beban" class="a">
-															<option data-subtext="600001" value="Beban Iklan">Beban Iklan</option>
-															<option data-subtext="600002" value="Beban Komisi">Beban Komisi</option>
-															<option data-subtext="600003" value="Beban Bensin, Parkir, Tol Kendaraan">Beban Bensin, Parkir, Tol Kendaraan</option>
-															<option data-subtext="600004" value="Beban Gaji, Upah & Honorer">Beban Gaji, Upah & Honorer</option>
-															<option data-subtext="600005" value="Beban Bonus, Pesangon & Kompensasi">Beban Bonus, Pesangon & Kompensasi</option>
-															<option data-subtext="600006" value="Beban Transportasi Karyawan">Beban Transportasi Karyawan</option>
-															<option data-subtext="600007" value="Beban Catering & Makan Karyawan">Beban Catering & Makan Karyawan</option>
-															<option data-subtext="600008" value="Beban Tunjangan Kesehatan">Beban Tunjangan Kesehatan</option>
-															<option data-subtext="600009" value="Beban Asuransi Karyawan">Beban Asuransi Karyawan</option>
-															<option data-subtext="600010" value="Beban THR">Beban THR</option>
-															<option data-subtext="600011" value="Beban Listrik">Beban Listrik</option>
-															<option data-subtext="600012" value="Beban PDAM">Beban PDAM</option>
-															<option data-subtext="600013" value="Beban Telekomunikasi">Beban Telekomunikasi</option>
-															<option data-subtext="600014" value="Beban Ekspedisi, POS, & Materai">Beban Ekspedisi, POS, & Materai</option>
-															<option data-subtext="600015" value="Beban Perjalanan Dinas">Beban Perjalanan Dinas</option>
-															<option data-subtext="600016" value="Beban Perlengkapan Kantor">Beban Perlengkapan Kantor</option>
-															<option data-subtext="600017" value="Beban Pajak Penghasilan">Beban Pajak Penghasilan</option>
-															<option data-subtext="600018" value="Beban Restribusi & Sumbanga">Beban Restribusi & Sumbangan</option>
-															<option data-subtext="600019" value="Beban Sewa Gedung">Beban Sewa Gedung</option>
-															<option data-subtext="600020" value="Beban Operasional Lainnya">Beban Operasional Lainnya</option>
-															<option data-subtext="600021" value="Beban Penyusutan Gedung">Beban Penyusutan Gedung</option>
-															<option data-subtext="600022" value="Beban Penyusutan Kendaraan">Beban Penyusutan Kendaraan</option>
-															<option data-subtext="600023" value="Beban Penyusutan Peralatan">Beban Penyusutan Peralatan</option>
-															<option data-subtext="600001" value="Beban Inventaris Kantor">Beban Inventaris Kantor</option>
-														</optgroup>
-														<optgroup label="Beban Lainnya" class="a">
-															<option data-subtext="720001" value="Beban Bunga Pinjaman">Beban Bunga Pinjaman</option>
-															<option data-subtext="720002" value="Beban Adm.Bank & Buku Cek/Giro">Beban Adm.Bank & Buku Cek/Giro</option>
-															<option data-subtext="720003" value="Pajak Jasa Giro">Pajak Jasa Giro</option>
-															<option data-subtext="720004" value="Laba/Rugi Terelasasi">Laba/Rugi Terelasasi</option>
-															<option data-subtext="720005" value="Laba/Rugi Belum Terealisasi">Laba/Rugi Belum Terealisasi</option>
-															<option data-subtext="720006" value="Laba/Rugi Disposisi Aset">Laba/Rugi Disposisi Aset</option>
-															<option data-subtext="720007" value="Beban Diluar Usaha Lainnya">Beban Diluar Usaha Lainnya</option>
-														</optgroup>
-													</select>
-													</div>
-																<table class="table table-striped table-bordered table-hover table-checkable">
-																	<thead>
-																		<tr>
-																			<th width="40%" bgcolor="#f7fcff">Nama Biaya</th>
-																			<th bgcolor="#f7fcff">Kode#</th>
-																			<th bgcolor="#f7fcff">Jumlah</th>
-																			<th bgcolor="#f7fcff">Keterangan</th>
-																		</tr>
-																	</thead>
-																	<tbody>
-																		<tr>
-																			<td></td>
-																			<td></td>
-																			<td></td>
-																			<td></td>
-																		</tr>
-																		<tr>
-																			<td></td>
-																			<td></td>
-																			<td></td>
-																			<td></td>
-																		</tr>
-																		<tr>
-																			<td></td>
-																			<td></td>
-																			<td></td>
-																			<td></td>
-																		</tr>
-																	</tbody>
-																</table>
-															</div>
-														</div>
-													</div>
-												</div>
 											</div>
-											<div class="row">
-														<div class="col-lg-6">
-														</div>
-														<div class="col-lg-2">
-															<div class="kt-portlet p-3" style="border-top:3px solid #5867dd">
-																<h5>Subtotal</h5>
-																<label class="text-right">0</label>
-															</div>
-														</div>
-														<div class="col-lg-2">
-															<div class="kt-portlet p-3" style="border-top:3px solid #0abb87">
-																<h5>Diskon <span class="kt-badge kt-badge--inline kt-badge--success">%</span></h5>
-																<input type="number" class="form-control form-control-sm" placeholder="" >
-															</div>
-														</div>
-														<div class="col-lg-2">
-															<div class="kt-portlet p-3" style="border-top:3px solid #ed1c24">
-																<h5>Total</h5>
-																<label class="text-right">0</label>
-															</div>
-														</div>
-													</div>
+											</div>
+											</div>
+											<div class="kt-portlet__content">
+												
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+                     
+						
+						
+						
+					 
+									 
+									 
+									
+									</div>
+									
+									
+									</div>
+
+
+									</div>
+									
+							<!--end:: Portlet-->
+
+
 										</div>
-		</div>
-	</div>
+					  <div class="col-xl-3">
 
-	<div class="modal fade" id="kt_modal_favorit" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLongTitle">Salin dari Transaksi Favorit</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					</button>
-				</div>
-				<div class="modal-body">
-					<select class="form-control kt-selectpicker w-50 mb-3">
-						<option disabled selected>Cari/Pilih...</option>
-					</select>
+									<!--begin::Portlet-->
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Gudang</div><br><br>
+										<div class="kt-portlet__body">
+											<div class="kt-portlet__content">
+												<div class="form-group row">
+						
+						<div class="col-lg-12">
+                          <label class="">Lokasi Gudang :</label>
+                           <select class="form-control kt-selectpicker" data-live-search="true">
+														<option>Makassar</option>
+														<option>Ambon</option>
+														
+														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+														</select>
+                        </div>
+						
+						
+						
+						
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						
+						<div class="col-lg-6">
+                          <label class="">Stok :</label>
+                          <input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="12">
+                        </div>
+						<div class="col-lg-6">
+                          <label><span style="color:#ff0000">*</span> Satuan :</label>
+                         <select class="form-control kt-selectpicker" data-live-search="true">
+														<option selected>Unit</option>
+														<option>Pieces</option>
+														
+														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+														</select>
+                        </div>
+						
+						
+						
+						
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						
+						<div class="col-lg-6">
+                          <label class="">Stok Minimum :</label>
+                          <input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="12">
+                        </div>
+						<div class="col-lg-6">
+                          <label><span style="color:#ff0000">*</span> Satuan :</label>
+                         <select class="form-control kt-selectpicker" data-live-search="true">
+														<option selected>Unit</option>
+														<option>Pieces</option>
+														
+														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+														</select>
+                        </div>
+						
+						
+						
+						
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						
+						<div class="col-lg-12">
+                          <label class="">Penanggung Jawab :</label>
+                          <select class="form-control kt-selectpicker form-control" data-live-search="true">
+					 															<optgroup label="Direksi">
+					 																<option value="AK"selected >Muhammad Nasrullah, S.Kom</option>
+					 															</optgroup>
+					 															<optgroup label="Umum">
+																					<option value="HI">Deddy Rafsanjani, S.Sos</option>
+					 															</optgroup>
+																				<optgroup label="Keuangan dan Asset">
+					 																<option value="HI">Oklan Zulkifli, SE</option>
+					 															</optgroup>
+																				<optgroup label="Operasional">
+					 																<option value="HI">Nursiah, S.Kom</option>
+					 															</optgroup>
+																				<optgroup label="Pengembangan Usaha dan Kerjasama">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
+					 															</optgroup>
 
-					<table class="table table-striped table-bordered table-hover table-checkable">
-						<thead>
-							<tr>
-								<th width="10%" bgcolor="#f7fcff"><label class="kt-checkbox kt-checkbox--single kt-checkbox--all kt-checkbox--solid"><input type="checkbox" id="selectAll">&nbsp;<span></span></label></th>
-								<th bgcolor="#f7fcff">Akun</th>
-								<th bgcolor="#f7fcff">Nama Akun</th>
-								<th bgcolor="#f7fcff">Nilai</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td class="text-center"><label class="kt-checkbox kt-checkbox--single kt-checkbox--all kt-checkbox--solid"><input type="checkbox" id="1">&nbsp;<span></span></label></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td class="text-center"><label class="kt-checkbox kt-checkbox--single kt-checkbox--all kt-checkbox--solid"><input type="checkbox" id="2">&nbsp;<span></span></label></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td class="text-center"><label class="kt-checkbox kt-checkbox--single kt-checkbox--all kt-checkbox--solid"><input type="checkbox" id="3">&nbsp;<span></span></label></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-						</tbody>
-					</table>
+					 														</select>
+                        </div>
+						
+						
+						
+						
+                        </div>
+						
+						
+						
 
-					<div class="kt-pagination  kt-pagination--danger">
-						<select class="form-control kt-font-danger" style="width: 60px">
-							<option value="10">10</option>
-							<option value="20">20</option>
-							<option value="30">30</option>
-							<option value="50">50</option>
-							<option value="100">100</option>
-						</select>
-						<span class="pagination__desc">
-							Menampilkan 10 dari 230 Data
-						</span>
 
-						<div class="kt-pagination__toolbar">
-							<ul class="kt-pagination__links">
-								<li class="kt-pagination__link--first">
-									<a href="#"><i class="fa fa-angle-double-left kt-font-danger"></i></a>
-								</li>
-								<li class="kt-pagination__link--next">
-									<a href="#"><i class="fa fa-angle-left kt-font-danger"></i></a>
-								</li>
-								<li>
-									<a href="#">...</a>
-								</li>
-								<li>
-									<a href="#">29</a>
-								</li>
-								<li class="kt-pagination__link--active">
-									<a href="#">30</a>
-								</li>
-								<li>
-									<a href="#">31</a>
-								</li>
-								<li>
-									<a href="#">32</a>
-								</li>
-								<li>
-									<a href="#">33</a>
-								</li>
-								<li>
-									<a href="#">34</a>
-								</li>
-								<li>
-									<a href="#">...</a>
-								</li>
-								<li class="kt-pagination__link--prev">
-									<a href="#"><i class="fa fa-angle-right kt-font-danger"></i></a>
-								</li>
-								<li class="kt-pagination__link--last">
-									<a href="#"><i class="fa fa-angle-double-right kt-font-danger"></i></a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-primary">Lanjut</button>
-				</div>
+
+
+											</div>
+
+										</div>
+
+									</div>
+									
+
+									</div>
+					  <div class="col-xl-3">
+
+									<!--begin::Portlet-->
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Akuntansi</div><br><br>
+										<div class="kt-portlet__body">
+											<div class="kt-portlet__content">
+												<div class="form-group row">
+						
+						<div class="col-lg-12">
+                          <label class="">Akun Penjualan :</label>
+                          <select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
+								<option value="1" disabled selected>4101 - Penjualan Umum</option>
+								
+								
+								
+								
+								<optgroup label="Kewajiban Jangka Pendek" class="a">
+									<option data-subtext="5101">Beban Pokok Penjualan</option>
+								</optgroup>
+								<optgroup label="Beban" class="a">
+									<option data-subtext="600001">Beban Iklan</option>
+									<option data-subtext="600002">Beban Komisi</option>
+									<option data-subtext="600003">Beban Bensin, Parkir, Tol Kendaraan</option>
+									<option data-subtext="600004">Beban Gaji, Upah & Honorer</option>
+									<option data-subtext="600005">Beban Bonus, Pesangon & Kompensasi</option>
+									<option data-subtext="600006">Beban Transportasi Karyawan</option>
+									<option data-subtext="600007">Beban Catering & Makan Karyawan</option>
+									<option data-subtext="600008">Beban Tunjangan Kesehatan</option>
+									<option data-subtext="600009">Beban Asuransi Karyawan</option>
+									<option data-subtext="600010">Beban THR</option>
+									<option data-subtext="600011">Beban Listrik</option>
+									<option data-subtext="600012">Beban PDAM</option>
+									<option data-subtext="600013">Beban Telekomunikasi</option>
+									<option data-subtext="600014">Beban Ekspedisi, POS, & Materai</option>
+									<option data-subtext="600015">Beban Perjalanan Dinas</option>
+									<option data-subtext="600016">Beban Perlengkapan Kantor</option>
+									<option data-subtext="600017">Beban Pajak Penghasilan</option>
+									<option data-subtext="600018">Beban Restribusi & Sumbangan</option>
+									<option data-subtext="600019">Beban Sewa Gedung</option>
+									<option data-subtext="600020">Beban Operasional Lainnya</option>
+									<option data-subtext="600021">Beban Penyusutan Gedung</option>
+									<option data-subtext="600022">Beban Penyusutan Kendaraan</option>
+									<option data-subtext="600023">Beban Penyusutan Peralatan</option>
+									<option data-subtext="600001">Beban Inventaris Kantor</option>
+								</optgroup>
+								<optgroup label="Beban Lainnya" class="a">
+									<option data-subtext="720001">Beban Bunga Pinjaman</option>
+									<option data-subtext="720002">Beban Adm.Bank & Buku Cek/Giro</option>
+									<option data-subtext="720003">Pajak Jasa Giro</option>
+									<option data-subtext="720004">Laba/Rugi Terelasasi</option>
+									<option data-subtext="720005">Laba/Rugi Belum Terealisasi</option>
+									<option data-subtext="720006">Laba/Rugi Disposisi Aset</option>
+									<option data-subtext="720007">Beban Diluar Usaha Lainnya</option>
+								</optgroup>
+								<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+								<option value="1">Lihat Semua</option>
+							</select>
+                        </div>
+						
+						
+						
+						
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						
+						<div class="col-lg-12">
+                          <label class="">Akun Pembelian :</label>
+                          <select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
+								<option value="1" disabled selected>5101 - Harga Pokok Penjualan</option>
+								
+								
+								
+								
+								<optgroup label="Kewajiban Jangka Pendek" class="a">
+									<option data-subtext="5101">Beban Pokok Penjualan</option>
+								</optgroup>
+								<optgroup label="Beban" class="a">
+									<option data-subtext="600001">Beban Iklan</option>
+									<option data-subtext="600002">Beban Komisi</option>
+									<option data-subtext="600003">Beban Bensin, Parkir, Tol Kendaraan</option>
+									<option data-subtext="600004">Beban Gaji, Upah & Honorer</option>
+									<option data-subtext="600005">Beban Bonus, Pesangon & Kompensasi</option>
+									<option data-subtext="600006">Beban Transportasi Karyawan</option>
+									<option data-subtext="600007">Beban Catering & Makan Karyawan</option>
+									<option data-subtext="600008">Beban Tunjangan Kesehatan</option>
+									<option data-subtext="600009">Beban Asuransi Karyawan</option>
+									<option data-subtext="600010">Beban THR</option>
+									<option data-subtext="600011">Beban Listrik</option>
+									<option data-subtext="600012">Beban PDAM</option>
+									<option data-subtext="600013">Beban Telekomunikasi</option>
+									<option data-subtext="600014">Beban Ekspedisi, POS, & Materai</option>
+									<option data-subtext="600015">Beban Perjalanan Dinas</option>
+									<option data-subtext="600016">Beban Perlengkapan Kantor</option>
+									<option data-subtext="600017">Beban Pajak Penghasilan</option>
+									<option data-subtext="600018">Beban Restribusi & Sumbangan</option>
+									<option data-subtext="600019">Beban Sewa Gedung</option>
+									<option data-subtext="600020">Beban Operasional Lainnya</option>
+									<option data-subtext="600021">Beban Penyusutan Gedung</option>
+									<option data-subtext="600022">Beban Penyusutan Kendaraan</option>
+									<option data-subtext="600023">Beban Penyusutan Peralatan</option>
+									<option data-subtext="600001">Beban Inventaris Kantor</option>
+								</optgroup>
+								<optgroup label="Beban Lainnya" class="a">
+									<option data-subtext="720001">Beban Bunga Pinjaman</option>
+									<option data-subtext="720002">Beban Adm.Bank & Buku Cek/Giro</option>
+									<option data-subtext="720003">Pajak Jasa Giro</option>
+									<option data-subtext="720004">Laba/Rugi Terelasasi</option>
+									<option data-subtext="720005">Laba/Rugi Belum Terealisasi</option>
+									<option data-subtext="720006">Laba/Rugi Disposisi Aset</option>
+									<option data-subtext="720007">Beban Diluar Usaha Lainnya</option>
+								</optgroup>
+								<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+								<option value="1">Lihat Semua</option>
+							</select>
+                        </div>
+						
+						
+						
+						
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						
+						<div class="col-lg-12">
+                          <label class="">Akun Diskon Penjualan :</label>
+                          <select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
+								<option value="1" disabled selected>== Pilih Akun ==</option>
+								
+								
+								
+								
+								<optgroup label="Kewajiban Jangka Pendek" class="a">
+									<option data-subtext="5101">Beban Pokok Penjualan</option>
+								</optgroup>
+								<optgroup label="Beban" class="a">
+									<option data-subtext="600001">Beban Iklan</option>
+									<option data-subtext="600002">Beban Komisi</option>
+									<option data-subtext="600003">Beban Bensin, Parkir, Tol Kendaraan</option>
+									<option data-subtext="600004">Beban Gaji, Upah & Honorer</option>
+									<option data-subtext="600005">Beban Bonus, Pesangon & Kompensasi</option>
+									<option data-subtext="600006">Beban Transportasi Karyawan</option>
+									<option data-subtext="600007">Beban Catering & Makan Karyawan</option>
+									<option data-subtext="600008">Beban Tunjangan Kesehatan</option>
+									<option data-subtext="600009">Beban Asuransi Karyawan</option>
+									<option data-subtext="600010">Beban THR</option>
+									<option data-subtext="600011">Beban Listrik</option>
+									<option data-subtext="600012">Beban PDAM</option>
+									<option data-subtext="600013">Beban Telekomunikasi</option>
+									<option data-subtext="600014">Beban Ekspedisi, POS, & Materai</option>
+									<option data-subtext="600015">Beban Perjalanan Dinas</option>
+									<option data-subtext="600016">Beban Perlengkapan Kantor</option>
+									<option data-subtext="600017">Beban Pajak Penghasilan</option>
+									<option data-subtext="600018">Beban Restribusi & Sumbangan</option>
+									<option data-subtext="600019">Beban Sewa Gedung</option>
+									<option data-subtext="600020">Beban Operasional Lainnya</option>
+									<option data-subtext="600021">Beban Penyusutan Gedung</option>
+									<option data-subtext="600022">Beban Penyusutan Kendaraan</option>
+									<option data-subtext="600023">Beban Penyusutan Peralatan</option>
+									<option data-subtext="600001">Beban Inventaris Kantor</option>
+								</optgroup>
+								<optgroup label="Beban Lainnya" class="a">
+									<option data-subtext="720001">Beban Bunga Pinjaman</option>
+									<option data-subtext="720002">Beban Adm.Bank & Buku Cek/Giro</option>
+									<option data-subtext="720003">Pajak Jasa Giro</option>
+									<option data-subtext="720004">Laba/Rugi Terelasasi</option>
+									<option data-subtext="720005">Laba/Rugi Belum Terealisasi</option>
+									<option data-subtext="720006">Laba/Rugi Disposisi Aset</option>
+									<option data-subtext="720007">Beban Diluar Usaha Lainnya</option>
+								</optgroup>
+								<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+								<option value="1">Lihat Semua</option>
+							</select>
+                        </div>
+						
+						
+						
+						
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						
+						<div class="col-lg-12">
+                          <label class="">Akun Diskon Pembelian :</label>
+                          <select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
+								<option value="1" disabled selected>== Pilih Akun ==</option>
+								
+								
+								
+								
+								<optgroup label="Kewajiban Jangka Pendek" class="a">
+									<option data-subtext="5101">Beban Pokok Penjualan</option>
+								</optgroup>
+								<optgroup label="Beban" class="a">
+									<option data-subtext="600001">Beban Iklan</option>
+									<option data-subtext="600002">Beban Komisi</option>
+									<option data-subtext="600003">Beban Bensin, Parkir, Tol Kendaraan</option>
+									<option data-subtext="600004">Beban Gaji, Upah & Honorer</option>
+									<option data-subtext="600005">Beban Bonus, Pesangon & Kompensasi</option>
+									<option data-subtext="600006">Beban Transportasi Karyawan</option>
+									<option data-subtext="600007">Beban Catering & Makan Karyawan</option>
+									<option data-subtext="600008">Beban Tunjangan Kesehatan</option>
+									<option data-subtext="600009">Beban Asuransi Karyawan</option>
+									<option data-subtext="600010">Beban THR</option>
+									<option data-subtext="600011">Beban Listrik</option>
+									<option data-subtext="600012">Beban PDAM</option>
+									<option data-subtext="600013">Beban Telekomunikasi</option>
+									<option data-subtext="600014">Beban Ekspedisi, POS, & Materai</option>
+									<option data-subtext="600015">Beban Perjalanan Dinas</option>
+									<option data-subtext="600016">Beban Perlengkapan Kantor</option>
+									<option data-subtext="600017">Beban Pajak Penghasilan</option>
+									<option data-subtext="600018">Beban Restribusi & Sumbangan</option>
+									<option data-subtext="600019">Beban Sewa Gedung</option>
+									<option data-subtext="600020">Beban Operasional Lainnya</option>
+									<option data-subtext="600021">Beban Penyusutan Gedung</option>
+									<option data-subtext="600022">Beban Penyusutan Kendaraan</option>
+									<option data-subtext="600023">Beban Penyusutan Peralatan</option>
+									<option data-subtext="600001">Beban Inventaris Kantor</option>
+								</optgroup>
+								<optgroup label="Beban Lainnya" class="a">
+									<option data-subtext="720001">Beban Bunga Pinjaman</option>
+									<option data-subtext="720002">Beban Adm.Bank & Buku Cek/Giro</option>
+									<option data-subtext="720003">Pajak Jasa Giro</option>
+									<option data-subtext="720004">Laba/Rugi Terelasasi</option>
+									<option data-subtext="720005">Laba/Rugi Belum Terealisasi</option>
+									<option data-subtext="720006">Laba/Rugi Disposisi Aset</option>
+									<option data-subtext="720007">Beban Diluar Usaha Lainnya</option>
+								</optgroup>
+								<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+								<option value="1">Lihat Semua</option>
+							</select>
+                        </div>
+						
+						
+						
+						
+                        </div>
+						
+						
+						
+
+
+
+
+											</div>
+
+										</div>
+
+									</div>
+									
+
+									</div>
+									
+									
+					
+										
+
+                     
+					<!--begin: Datatable -->
+					
+                    <!--end: Datatable -->
+
+                    
+<!--begin::Modal 1-->
+									<div class="modal fade" id="titik-parkir-tutup" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+									<div class="modal-content">
+
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon" style="font-size:25px;"><i class="kt-font-danger flaticon2-list"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-bold">FORM LAPORAN TITIK PARKIR TUTUP</h3>
+											</div>
+											<div class="kt-portlet__head-toolbar">
+											
+											&nbsp;
+												<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">X</button>
+											</div>
+										</div>
+
+										
+										<div class="kt-portlet__body">
+											<div class="tab-content">
+												<div class="m-portlet m-portlet--tabs">
+									
+									<div class="m-portlet__body">
+										<div class="tab-content">
+											<div class="tab-pane active" id="m_tabs_6_1" role="tabpanel">
+												<div class="row">
+									<div class="col-xl-7">
+
+									<!--begin::Portlet-->
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Jukir</div><br>
+										<div class="kt-portlet__body">
+											<div class="kt-portlet__content">
+												<div class="form-group row">
+                       <div class="col-lg-12">
+					   <label>Nama Lengkap</label>
+                         <input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="Nama Jukir">
+
+                        </div>
+						
+						
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-6">
+					   <label>Zona</label>
+                         <input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="Nama Jukir">
+
+                        </div>
+						<div class="col-lg-6">
+                          <label>Wilayah :</label>
+                          <input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="000 000 000">
+                        </div>
+						
+											</div>
+											<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-12">
+					   <label>Nama Titik Parkir</label>
+                         <input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="Nama Jukir">
+
+                        </div>
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-12">
+                          <label>Alamat Titik Parkir :</label>
+                          <input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="000 000 000">
+                        </div>
+						
+											</div>
+									
+										</div>
+										</div>
+										</div>
+										
+										</div>
+										
+
+
+									<div class="col-xl-5">
+
+									<!--begin::Portlet-->
+									<div class="kt-portlet kt-portlet--height-half kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+							
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Keterangan</div><br><br>
+										<div class="kt-portlet__body">
+											<div class="kt-portlet__content">
+												<div class="form-group row">
+                       <div class="col-lg-12">
+					   
+                         <textarea class="form-control" id="exampleTextarea" rows="2" placeholder="Isikan Keterangan Anda"></textarea>
+
+                        </div>
+						
+						
+                        </div>
+						
+									
+										</div>
+										</div>
+										</div>
+									<div class="kt-portlet kt-portlet--height-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Upload Foto</div><br><br>
+										<div class="kt-portlet__body">
+											<div class="kt-portlet__content">
+												<div class="form-group row">
+                       <div class="col-lg-12">
+					   <div class="dropzone dropzone-default dropzone-brand dz-clickable" id="kt_dropzone_1">
+													<div class="dropzone-msg dz-message needsclick">
+														<h3 class="dropzone-msg-title">Drop files here or click to upload.</h3>
+														<span class="dropzone-msg-desc">Upload up to 10 files, File Format : PDF</span>
+													</div>
+												</div>
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						
+						
+											</div>
+									
+										</div>
+										
+
+									</div>
+									
+
+									
+									</div>
+									
+									
+								</div>
+								</div>
+								<div class="col-xl-12">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Kolektor</div><br><br>
+										<div class="kt-portlet__body">
+											<div class="kt-portlet__content">
+												<div class="form-group row">
+                       <div class="col-lg-6">
+					   <label>NIP Pegawai</label>
+                         <input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="Nama Kasir">
+
+                        </div>
+                       
+						<div class="col-lg-6">
+                          <label>Nama Kolektor :</label>
+                          <input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="000 000 000">
+                        </div>
+						
+                        </div>
+						
+						
+                        </div>
+						
+									
+										</div>
+										</div>
+										</div>
+									</div>
+												
+									<div class="kt-portlet__foot kt-align-center">
+												<div class="">
+
+													
+									
+												
+													<div class="btn-group">
+				<button type="button" class="btn btn-brand btn-sm">
+					<i class="fa fa-check-circle"></i>
+					<span class="kt-hidden-mobile">Simpan</span>
+				</button>
+				
+				
 			</div>
-		</div>
-	</div>
+												</div>
+											</div>
+												
+												
 
-	<div class="modal fade" id="kt_modal_pencatatan_beban" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLongTitle">Pencatatan Beban</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					</button>
-				</div>
-				<div class="modal-body">
-					<table class="table table-striped table-bordered table-hover table-checkable">
-						<thead>
-							<tr>
-								<th width="10%" bgcolor="#f7fcff"><label class="kt-checkbox kt-checkbox--single kt-checkbox--all kt-checkbox--solid"><input type="checkbox" id="selectAll">&nbsp;<span></span></label></th>
-								<th bgcolor="#f7fcff">No.Beban#</th>
-								<th bgcolor="#f7fcff">Tanggal</th>
-								<th bgcolor="#f7fcff">Jatuh Tempo</th>
-								<th bgcolor="#f7fcff">Total</th>
-								<th bgcolor="#f7fcff">Keterangan</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td class="text-center"><label class="kt-checkbox kt-checkbox--single kt-checkbox--all kt-checkbox--solid"><input type="checkbox" id="1">&nbsp;<span></span></label></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td class="text-center"><label class="kt-checkbox kt-checkbox--single kt-checkbox--all kt-checkbox--solid"><input type="checkbox" id="2">&nbsp;<span></span></label></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td class="text-center"><label class="kt-checkbox kt-checkbox--single kt-checkbox--all kt-checkbox--solid"><input type="checkbox" id="3">&nbsp;<span></span></label></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-						</tbody>
-					</table>
+									<!--end::Portlet-->
+												</div>
+											</div>
+											</div>
 
-					<div class="kt-pagination  kt-pagination--danger">
-						<select class="form-control kt-font-danger" style="width: 60px">
-							<option value="10">10</option>
-							<option value="20">20</option>
-							<option value="30">30</option>
-							<option value="50">50</option>
-							<option value="100">100</option>
-						</select>
-						<span class="pagination__desc">
-							Menampilkan 10 dari 230 Data
-						</span>
+									</div>
 
-						<div class="kt-pagination__toolbar">
-							<ul class="kt-pagination__links">
-								<li class="kt-pagination__link--first">
-									<a href="#"><i class="fa fa-angle-double-left kt-font-danger"></i></a>
-								</li>
-								<li class="kt-pagination__link--next">
-									<a href="#"><i class="fa fa-angle-left kt-font-danger"></i></a>
-								</li>
-								<li>
-									<a href="#">...</a>
-								</li>
-								<li>
-									<a href="#">29</a>
-								</li>
-								<li class="kt-pagination__link--active">
-									<a href="#">30</a>
-								</li>
-								<li>
-									<a href="#">31</a>
-								</li>
-								<li>
-									<a href="#">32</a>
-								</li>
-								<li>
-									<a href="#">33</a>
-								</li>
-								<li>
-									<a href="#">34</a>
-								</li>
-								<li>
-									<a href="#">...</a>
-								</li>
-								<li class="kt-pagination__link--prev">
-									<a href="#"><i class="fa fa-angle-right kt-font-danger"></i></a>
-								</li>
-								<li class="kt-pagination__link--last">
-									<a href="#"><i class="fa fa-angle-double-right kt-font-danger"></i></a>
-								</li>
-							</ul>
+									</div>
+								</div>
+							</div>
+
+									</div>
+								</div>
+							</div>
+							<!--End::Modal 1-->
+							<!--begin::Modal 1-->
+									<div class="modal fade" id="modal_persetujuan_release" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+									<div class="modal-content">
+
+										<div class="modal-header">
+										<span class="modal-title" id="exampleModalLabel"><span class="kt-badge kt-badge--danger kt-badge--inline"; style="color:#fff";>VERIFIKASI</span></span>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+
+										
+										<div class="kt-portlet__body">
+											<div class="tab-content">
+											<div class="tab-pane active" id="kt_widget4_tab1_content">
+													<div class="kt-widget4">
+														<div class="kt-widget4__item">
+															<div class="kt-widget4__pic kt-widget4__pic--pic" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003" data-html="true">
+																<img src="../assets/img/users/100_8.jpg" alt="image">
+															</div>
+															<div class="kt-widget4__info">
+																<a href="#" class="kt-widget4__username">
+																	Deddy Rafsanjani, S.Sos
+																</a>
+																<p class="kt-widget4__text">
+																	Kepala Bagian Kepegawaian
+																</p>
+															</div>
+															<span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Disetujui&lt;hr&gt;11 Juli 2025 - 20:33 WITA">
+															<i class="fa flaticon2-check-mark"></i>
+														</span>
+														</div>
+														<div class="kt-widget4__item">
+															<div class="kt-widget4__pic kt-widget4__pic--pic" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000002" data-html="true">
+																<img src="../assets/img/users/100_9.jpg" alt="image">
+															</div>
+															<div class="kt-widget4__info">
+																<a href="#" class="kt-widget4__username">
+																	Oklan Zulkifli, SE
+																</a>
+																<p class="kt-widget4__text">
+																	Direktur Umum
+																</p>
+															</div>
+															<span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Disetujui&lt;hr&gt;11 Juli 2025 - 22:33 WITA">
+															<i class="fa flaticon2-check-mark"></i>
+														</span>
+														</div>
+														<div class="kt-widget4__item">
+															<div class="kt-widget4__pic kt-widget4__pic--pic"  data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001" data-html="true">
+																<img src="../assets/img/users/100_15.jpg" alt="">
+															</div>
+															<div class="kt-widget4__info">
+																<a href="#" class="kt-widget4__username">
+																	Muhammad Nasrullah, S.Kom
+																</a>
+																<p class="kt-widget4__text">
+																	Direktur Utama
+																</p>
+															</div>
+															<span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Disetujui&lt;hr&gt;11 Juli 2025 - 22:33 WITA">
+															<i class="fa flaticon2-check-mark"></i>
+														</span>
+														</div>
+														
+														
+														
+													</div>
+												</div>
+
+							<!--End::App-->
 						</div>
-					</div>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-primary">Lanjut</button>
-				</div>
-			</div>
-		</div>
-	</div>
 
-	<div class="modal fade" id="kt_modal_pencatatan_beban" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLongTitle">Pencatatan Gaji</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					</button>
-				</div>
-				<div class="modal-body">
-					<table class="table table-striped table-bordered table-hover table-checkable">
-						<thead>
-							<tr>
-								<th width="10%" bgcolor="#f7fcff"><label class="kt-checkbox kt-checkbox--single kt-checkbox--all kt-checkbox--solid"><input type="checkbox" id="selectAll">&nbsp;<span></span></label></th>
-								<th bgcolor="#f7fcff">No.Beban#</th>
-								<th bgcolor="#f7fcff">Tanggal</th>
-								<th bgcolor="#f7fcff">Jatuh Tempo</th>
-								<th bgcolor="#f7fcff">Total</th>
-								<th bgcolor="#f7fcff">Tipe</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td class="text-center"><label class="kt-checkbox kt-checkbox--single kt-checkbox--all kt-checkbox--solid"><input type="checkbox" id="1">&nbsp;<span></span></label></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td class="text-center"><label class="kt-checkbox kt-checkbox--single kt-checkbox--all kt-checkbox--solid"><input type="checkbox" id="2">&nbsp;<span></span></label></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td class="text-center"><label class="kt-checkbox kt-checkbox--single kt-checkbox--all kt-checkbox--solid"><input type="checkbox" id="3">&nbsp;<span></span></label></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-						</tbody>
-					</table>
+								<!--End:: App Content-->
+							</div>
 
-					<div class="kt-pagination  kt-pagination--danger">
-						<select class="form-control kt-font-danger" style="width: 60px">
-							<option value="10">10</option>
-							<option value="20">20</option>
-							<option value="30">30</option>
-							<option value="50">50</option>
-							<option value="100">100</option>
-						</select>
-						<span class="pagination__desc">
-							Menampilkan 10 dari 230 Data
-						</span>
+									</div>
+								</div>
+							</div>
+							<!--End::Modal 1-->
+							<!--begin::Modal 2-->
+									<div class="modal fade" id="kt_modal_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+									<div class="modal-content">
 
-						<div class="kt-pagination__toolbar">
-							<ul class="kt-pagination__links">
-								<li class="kt-pagination__link--first">
-									<a href="#"><i class="fa fa-angle-double-left kt-font-danger"></i></a>
-								</li>
-								<li class="kt-pagination__link--next">
-									<a href="#"><i class="fa fa-angle-left kt-font-danger"></i></a>
-								</li>
-								<li>
-									<a href="#">...</a>
-								</li>
-								<li>
-									<a href="#">29</a>
-								</li>
-								<li class="kt-pagination__link--active">
-									<a href="#">30</a>
-								</li>
-								<li>
-									<a href="#">31</a>
-								</li>
-								<li>
-									<a href="#">32</a>
-								</li>
-								<li>
-									<a href="#">33</a>
-								</li>
-								<li>
-									<a href="#">34</a>
-								</li>
-								<li>
-									<a href="#">...</a>
-								</li>
-								<li class="kt-pagination__link--prev">
-									<a href="#"><i class="fa fa-angle-right kt-font-danger"></i></a>
-								</li>
-								<li class="kt-pagination__link--last">
-									<a href="#"><i class="fa fa-angle-double-right kt-font-danger"></i></a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-primary">Lanjut</button>
-				</div>
-			</div>
-		</div>
-	</div>
+										<div class="modal-body">
+										<div class="kt-portlet kt-portlet--height-fluid-full">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Assign Project Director</div>
+										<div class="kt-portlet__body">
+											<div class="kt-portlet__content">
+											<div class="form-group row">
+												<div class="col-lg-6">
+														<label>Nama Pegawai :</label>
+														<div class="kt-input-icon kt-input-icon--right">
+														<input type="text" class="form-control form-control-sm" placeholder="Search..." id="generalSearch">
+														<span class="kt-input-icon__icon kt-input-icon__icon--right">
+															<span><i class="la la-search"></i></span>
+														</span>
+													</div>
 
-	<div class="modal fade" id="kt_modal_PPh_pembelian" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLongTitle">PPh Pembelian</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					</button>
-				</div>
-				<div class="modal-body">
-					<select class="form-control kt-selectpicker w-50 mb-3">
-						<option disabled selected>[Semua]</option>
-						<option>Pajak Penghasilan Ps.4(2)</option>
-						<option>Pajak Penghasilan Ps.15</option>
-						<option>Pajak Penghasilan Ps.21</option>
-						<option>Pajak Penghasilan Ps.23</option>
-					</select>
-					<table class="table table-striped table-bordered table-hover table-checkable">
-						<thead>
-							<tr>
-								<th width="10%" bgcolor="#f7fcff"><label class="kt-checkbox kt-checkbox--single kt-checkbox--all kt-checkbox--solid"><input type="checkbox" id="selectAll">&nbsp;<span></span></label></th>
-								<th bgcolor="#f7fcff">No.Bukti#</th>
-								<th bgcolor="#f7fcff">Jatuh Tempo PPh</th>
-								<th bgcolor="#f7fcff">PPh</th>
-								<th bgcolor="#f7fcff">Keterangan</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td class="text-center"><label class="kt-checkbox kt-checkbox--single kt-checkbox--all kt-checkbox--solid"><input type="checkbox" id="1">&nbsp;<span></span></label></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td class="text-center"><label class="kt-checkbox kt-checkbox--single kt-checkbox--all kt-checkbox--solid"><input type="checkbox" id="2">&nbsp;<span></span></label></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td class="text-center"><label class="kt-checkbox kt-checkbox--single kt-checkbox--all kt-checkbox--solid"><input type="checkbox" id="3">&nbsp;<span></span></label></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-						</tbody>
-					</table>
+												</div>
 
-					<div class="kt-pagination  kt-pagination--danger">
-						<select class="form-control kt-font-danger" style="width: 60px">
-							<option value="10">10</option>
-							<option value="20">20</option>
-							<option value="30">30</option>
-							<option value="50">50</option>
-							<option value="100">100</option>
-						</select>
-						<span class="pagination__desc">
-							Menampilkan 10 dari 230 Data
-						</span>
+												<div class="col-lg-6">
+														<label>Jabatan :</label>
+														<input type="email" class="form-control form-control-sm" disabled="disabled" placeholder="Auto Complete" >
 
-						<div class="kt-pagination__toolbar">
-							<ul class="kt-pagination__links">
-								<li class="kt-pagination__link--first">
-									<a href="#"><i class="fa fa-angle-double-left kt-font-danger"></i></a>
-								</li>
-								<li class="kt-pagination__link--next">
-									<a href="#"><i class="fa fa-angle-left kt-font-danger"></i></a>
-								</li>
-								<li>
-									<a href="#">...</a>
-								</li>
-								<li>
-									<a href="#">29</a>
-								</li>
-								<li class="kt-pagination__link--active">
-									<a href="#">30</a>
-								</li>
-								<li>
-									<a href="#">31</a>
-								</li>
-								<li>
-									<a href="#">32</a>
-								</li>
-								<li>
-									<a href="#">33</a>
-								</li>
-								<li>
-									<a href="#">34</a>
-								</li>
-								<li>
-									<a href="#">...</a>
-								</li>
-								<li class="kt-pagination__link--prev">
-									<a href="#"><i class="fa fa-angle-right kt-font-danger"></i></a>
-								</li>
-								<li class="kt-pagination__link--last">
-									<a href="#"><i class="fa fa-angle-double-right kt-font-danger"></i></a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-primary">Lanjut</button>
-				</div>
-			</div>
-		</div>
-	</div>
+												</div>
 
-	<div class="modal fade" id="kt_modal_PPh_penjualan" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLongTitle">PPh Pembelian</h5>
-					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					</button>
-				</div>
-				<div class="modal-body">
-					<select class="form-control kt-selectpicker w-50 mb-3">
-						<option disabled selected>[Semua]</option>
-						<option>Pajak Penghasilan Ps.4(2)</option>
-						<option>Pajak Penghasilan Ps.15</option>
-					</select>
-					<table class="table table-striped table-bordered table-hover table-checkable">
-						<thead>
-							<tr>
-								<th width="10%" bgcolor="#f7fcff"><label class="kt-checkbox kt-checkbox--single kt-checkbox--all kt-checkbox--solid"><input type="checkbox" id="selectAll">&nbsp;<span></span></label></th>
-								<th bgcolor="#f7fcff">No.Bukti#</th>
-								<th bgcolor="#f7fcff">Jatuh Tempo PPh</th>
-								<th bgcolor="#f7fcff">PPh</th>
-								<th bgcolor="#f7fcff">Keterangan</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td class="text-center"><label class="kt-checkbox kt-checkbox--single kt-checkbox--all kt-checkbox--solid"><input type="checkbox" id="1">&nbsp;<span></span></label></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td class="text-center"><label class="kt-checkbox kt-checkbox--single kt-checkbox--all kt-checkbox--solid"><input type="checkbox" id="2">&nbsp;<span></span></label></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-							<tr>
-								<td class="text-center"><label class="kt-checkbox kt-checkbox--single kt-checkbox--all kt-checkbox--solid"><input type="checkbox" id="3">&nbsp;<span></span></label></td>
-								<td></td>
-								<td></td>
-								<td></td>
-								<td></td>
-							</tr>
-						</tbody>
-					</table>
 
-					<div class="kt-pagination  kt-pagination--danger">
-						<select class="form-control kt-font-danger" style="width: 60px">
-							<option value="10">10</option>
-							<option value="20">20</option>
-							<option value="30">30</option>
-							<option value="50">50</option>
-							<option value="100">100</option>
-						</select>
-						<span class="pagination__desc">
-							Menampilkan 10 dari 230 Data
-						</span>
+												</div>
+												</div>
 
-						<div class="kt-pagination__toolbar">
-							<ul class="kt-pagination__links">
-								<li class="kt-pagination__link--first">
-									<a href="#"><i class="fa fa-angle-double-left kt-font-danger"></i></a>
-								</li>
-								<li class="kt-pagination__link--next">
-									<a href="#"><i class="fa fa-angle-left kt-font-danger"></i></a>
-								</li>
-								<li>
-									<a href="#">...</a>
-								</li>
-								<li>
-									<a href="#">29</a>
-								</li>
-								<li class="kt-pagination__link--active">
-									<a href="#">30</a>
-								</li>
-								<li>
-									<a href="#">31</a>
-								</li>
-								<li>
-									<a href="#">32</a>
-								</li>
-								<li>
-									<a href="#">33</a>
-								</li>
-								<li>
-									<a href="#">34</a>
-								</li>
-								<li>
-									<a href="#">...</a>
-								</li>
-								<li class="kt-pagination__link--prev">
-									<a href="#"><i class="fa fa-angle-right kt-font-danger"></i></a>
-								</li>
-								<li class="kt-pagination__link--last">
-									<a href="#"><i class="fa fa-angle-double-right kt-font-danger"></i></a>
-								</li>
-							</ul>
-						</div>
-					</div>
-				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-primary">Lanjut</button>
-				</div>
-			</div>
-		</div>
-	</div>
+											</div>
 
-</div>
+									</div>
+										<div class="modal-footer modal-footer-center">
+											<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Batal</button>
+											<button type="button" class="btn btn-success btn-sm"><i class="fa fa-check"></i>  Simpan</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--End::Modal 2-->
+									<!--end: Datatable -->
+								</div>
+
+						<!-- end:: Content -->
+
+
+
+  </div>
+  </div>
+  </div>
+
+									<!--end: Datatable -->
+								</div>
+							</div>
+
+            </div>
+            </div>
+            </div>
+									
 
 <?php require '../layouts/footer.php' ?>
 <script>
@@ -1343,15 +1140,5 @@ $("#show").click(function(){
     $("#hide2").click(function(){
         $(".tampil").hide();
       });
-</script>
-<script>
-	$('#btnClick').on('click', function() {
-		$("#1").css("display", "none");
-		$("#2").css("display", "block");
-	});
-	$('tbody').sortable();
-	$('#selectAll').click(function(e) {
-		$(this).closest('table').find('td input:checkbox').prop('checked', this.checked);
-	});
 </script>
 <?php require '../layouts/foot.php' ?>
