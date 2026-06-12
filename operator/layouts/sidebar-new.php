@@ -153,6 +153,7 @@
 									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
 										<ul class="kt-menu__subnav">
 											<li class="kt-menu__item" aria-haspopup="true"><a href="form-mati-lampu.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Mati Lampu</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="form-permintaan-material.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Permintaan Material</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="form-perangkat-bermasalah.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Perangkat Bermasalah</span></a></li>
 											
 										</ul>

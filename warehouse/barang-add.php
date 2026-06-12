@@ -133,17 +133,18 @@ function goBack() {
 						<div class="col-lg-3">
                           <label class="">Kode Barang :</label>
                           <div class="form-group">
-                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="000002MP823">
+                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="0001SKUAK0626">
                       </div>
                         </div>
 						<div class="col-lg-4">
-                          <label class="">Kategori :</label>
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Pilih Kategori" data-html="true">*</code> Kategori :</label>
                          <select class="form-control kt-selectpicker" data-live-search="true">
 						
 														
-														<option>Peralatan Project</option>
+														<option>Kebutuhan Project</option>
 														<option>Peralatan Kerja</option>
 														<option>Peralatan Kantor</option>
+														<option>Jasa</option>
 														 <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 														
 													</select>
@@ -186,7 +187,7 @@ function goBack() {
 											<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
                      <div class="form-group row">
 						<div class="col-lg-6">
-                          <label><span style="color:#ff0000">*</span> Nama Barang :</label>
+                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Isikan Nama Barang dengan Lengkap" data-html="true">*</code> Nama Barang :</label>
                           <input type="text" class="form-control form-control-sm" placeholder="">
                         </div>
                       <div class="col-lg-6">
@@ -199,7 +200,7 @@ function goBack() {
 					  <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 					  <div class="form-group row">
 						<div class="col-lg-4">
-                          <label class="">Harga Pembelian :</label>
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Harga Pembelian :</label>
                           <div class="input-group input-group-sm">
 															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" style="border-color:#0e62ae" id="basic-addon2">Rp.</span></div>
 															    <input style="text-align:right; border-color:#0e62ae;" type="text" class="form-control form-control-sm" placeholder="2.000.000" aria-describedby="basic-addon1">
@@ -209,7 +210,7 @@ function goBack() {
 						
 						
 						<div class="col-lg-2">
-                          <label><span style="color:#ff0000">*</span> Pajak :</label>
+                          <label>Pajak :</label>
                          <select class="form-control kt-selectpicker" data-live-search="true">
 														<option>12%</option>
 														<option>11%</option>
@@ -218,7 +219,7 @@ function goBack() {
 														</select>
                         </div>
 						<div class="col-lg-3" >
-                          <label>Tanggal Pembelian :</label>
+                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Tanggal Pembelian :</label>
                           <div class="input-group date">
 													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" >
 													<div class="input-group-append">
@@ -244,7 +245,7 @@ function goBack() {
 						<div class="form-group row">
 						
 						<div class="col-lg-4">
-                          <label class="">Harga Penjualan :</label>
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Harga Penjualan :</label>
                           <div class="input-group input-group-sm">
 															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" style="border-color:#0e62ae" id="basic-addon2">Rp.</span></div>
 															    <input style="text-align:right; border-color:#0e62ae;" type="text" class="form-control form-control-sm" placeholder="2.000.000" aria-describedby="basic-addon1">
@@ -254,7 +255,7 @@ function goBack() {
 						
 						
 						<div class="col-lg-2">
-                          <label><span style="color:#ff0000">*</span> Pajak :</label>
+                          <label>Pajak :</label>
                          <select class="form-control kt-selectpicker" data-live-search="true">
 														<option>12%</option>
 														<option>11%</option>
@@ -282,36 +283,42 @@ function goBack() {
 														<div class="kt-portlet__body">
 															<div class="kt-portlet__content">
 																<br>
-																<table class="table table-striped table-bordered table-hover table-checkable">
-																	<thead>
-																		<tr>
-																			<th width="40%" bgcolor="#f7fcff">Nama Biaya</th>
-																			<th bgcolor="#f7fcff">Kode#</th>
-																			<th bgcolor="#f7fcff">Jumlah</th>
-																			<th bgcolor="#f7fcff">Keterangan</th>
-																		</tr>
-																	</thead>
-																	<tbody>
-																		<tr>
-																			<td></td>
-																			<td></td>
-																			<td></td>
-																			<td></td>
-																		</tr>
-																		<tr>
-																			<td></td>
-																			<td></td>
-																			<td></td>
-																			<td></td>
-																		</tr>
-																		<tr>
-																			<td></td>
-																			<td></td>
-																			<td></td>
-																			<td></td>
-																		</tr>
-																	</tbody>
-																</table>
+																<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
+										<thead>
+											<tr style="text-align:center">
+											  <th width="1%" bgcolor="#f7fcff" id="kt_table_2">#</th>
+
+											  <th width="10%" bgcolor="#f7fcff">Spesifikasi</th>
+											  <th width="10%" bgcolor="#f7fcff">Detail Spesifikasi</th>
+											  <th width="1%" bgcolor="#f7fcff">Aksi</th>
+
+										  </tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td style="text-align:center" id="kt_table_1">1</td>
+												
+												<td style="text-align:left" nowrap><input type="text" class="form-control form-control-sm" placeholder=""></td>
+												<td style="text-align:center" nowrap><input type="text" class="form-control form-control-sm" placeholder=""></td>
+											  <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+										  </tr>
+										  <tr>
+												<td style="text-align:center" id="kt_table_1">2</td>
+												
+												<td style="text-align:left" nowrap><input type="text" class="form-control form-control-sm" placeholder=""></td>
+												<td style="text-align:center" nowrap><input type="text" class="form-control form-control-sm" placeholder=""></td>
+											<td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+										  </tr>
+										  <tr>
+												<td style="text-align:center" id="kt_table_1">3</td>
+												
+												<td style="text-align:left" nowrap><input type="text" class="form-control form-control-sm" placeholder=""></td>
+												<td style="text-align:center" nowrap><input type="text" class="form-control form-control-sm" placeholder=""></td>
+											<td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+										  </tr>
+
+										</tbody>
+									</table>
 															</div>
 														</div>
 												</div>
@@ -394,7 +401,7 @@ function goBack() {
 												<div class="form-group row">
 						
 						<div class="col-lg-12">
-                          <label class="">Lokasi Gudang :</label>
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Lokasi Gudang :</label>
                            <select class="form-control kt-selectpicker" data-live-search="true">
 														<option>Makassar</option>
 														<option>Ambon</option>
@@ -409,13 +416,38 @@ function goBack() {
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
+						<div class="col-lg-6">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Lemari :</label>
+                           <select class="form-control kt-selectpicker" data-live-search="true">
+														<option>1</option>
+														<option>2</option>
+														
+														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+														</select>
+                        </div>
+						<div class="col-lg-6">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Rak :</label>
+                           <select class="form-control kt-selectpicker" data-live-search="true">
+														<option>1</option>
+														<option>2</option>
+														
+														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+														</select>
+                        </div>
+						
+						
+						
+						
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
 						
 						<div class="col-lg-6">
-                          <label class="">Stok :</label>
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Stok :</label>
                           <input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="12">
                         </div>
 						<div class="col-lg-6">
-                          <label><span style="color:#ff0000">*</span> Satuan :</label>
+                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Satuan :</label>
                          <select class="form-control kt-selectpicker" data-live-search="true">
 														<option selected>Unit</option>
 														<option>Pieces</option>
@@ -433,7 +465,7 @@ function goBack() {
 						
 						<div class="col-lg-6">
                           <label class="">Stok Minimum :</label>
-                          <input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="12">
+                          <input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1">
                         </div>
 						<div class="col-lg-6">
                           <label><span style="color:#ff0000">*</span> Satuan :</label>

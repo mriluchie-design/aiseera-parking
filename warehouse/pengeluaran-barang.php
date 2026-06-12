@@ -24,7 +24,7 @@
             <div class="kt-subheader__main">
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Penerimaan Barang
+                    Pengeluaran Barang
                 </h3>
 				
 
@@ -58,7 +58,7 @@
 					<i class="fa fa-book-reader"></i>
 					<span class="kt-hidden-mobile">Bantuan</span>
 				</button>
-				<a href="penerimaan-barang-add.php" class="btn btn-info btn-sm">
+				<a href="pengeluaran-barang-add.php" class="btn btn-info btn-sm">
 				<i class="fa fa-plus-circle"></i>Tambah Data
 				<!--<i class="flaticon2-plus"></i>-->
 			</a>
@@ -283,7 +283,7 @@
 										<div class="kt-portlet__head kt-portlet__head--noborder kt-portlet__space-x">
 											<div class="kt-portlet__head-label" style="margin-left:55px;">
 												<h3 class="kt-portlet__head-title">
-													Data Penerimaan Barang
+													Data Pengeluaran Barang
 												</h3>
 											</div>
 											<div class="kt-portlet__head-toolbar" style="margin-right:55px;">
@@ -328,7 +328,7 @@
 														<div class="kt-widget17__item">
 															
 															<span class="kt-widget17__subtitle" style="text-align:center">
-																Total Penerimaan
+																Total
 															</span>
 
 															<span class="kt-widget17__desc" style="text-align:center">
@@ -338,7 +338,7 @@
 														</div>
 														<div class="kt-widget17__item">
 															<span class="kt-widget17__subtitle" style="text-align:center">
-																Sesuai
+																Diterima
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
 																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">4</span>
@@ -348,7 +348,7 @@
 														
 														<div class="kt-widget17__item">
 															<span class="kt-widget17__subtitle" style="text-align:center">
-																Pending
+																Dikirim
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
 																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">1</span>
@@ -386,30 +386,46 @@
 					<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
 										<thead>
 											<tr style="text-align:center">
-											  <th width="1%" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="1%" bgcolor="#f7fcff">Lokasi</th>
-											  <th width="1%" bgcolor="#f7fcff">ID Penerimaan</th>
-											  <th width="1%" bgcolor="#f7fcff">Referensi Dokumen</th>
-											  <th width="1%" bgcolor="#f7fcff">Waktu Penerimaan</th>
-											  
-											  <th width="1%" bgcolor="#f7fcff">QC</th>
-											  <th width="5%" bgcolor="#f7fcff">Catatan Penerimaan</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Type</th>
+											  <th colspan="3" bgcolor="#f7fcff">Pengeluaran Barang</th>
+											  <th colspan="3" bgcolor="#f7fcff">Request Order</th>
+											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Catatan Internal</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Validasi</th>
+											  <th colspan="2" bgcolor="#f7fcff">Penerima</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
+										  </tr>
+											<tr style="text-align:center">
+											  <th width="1%" bgcolor="#f7fcff">ID</th>
+											  <th width="1%" bgcolor="#f7fcff">Waktu</th>
+											  <th width="1%" bgcolor="#f7fcff">PIC</th>
+											  <th width="1%" bgcolor="#f7fcff">ID</th>
+											  <th width="1%" bgcolor="#f7fcff">Waktu</th>
+											  <th width="1%" bgcolor="#f7fcff">PIC</th>
 											  <th width="1%" bgcolor="#f7fcff">Status</th>
-											  <th width="1%" bgcolor="#f7fcff">Validasi</th>
-											  <th width="1%" bgcolor="#f7fcff">Aksi</th>
+											  <th width="1%" bgcolor="#f7fcff">PIC</th>
 										  </tr>
 										</thead>
 										<tbody>
 											<tr>
 												<td style="text-align:right" id="kt_table_1">1</td>
 												<td style="text-align:center" nowrap>Makassar</td>
-												<td nowrap="nowrap" style="text-align:center">WH/IN/00005</td>
-												<td nowrap="nowrap" style="text-align:center">00005PO0626</td>
-												<td nowrap="nowrap" style="text-align:center">24 September 2026<hr>06:50:00 WITA</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Internal</span></td>
+												<td nowrap="nowrap" style="text-align:center">WH/OUT/00005</td>
+												<td nowrap="nowrap" style="text-align:center">24 September 2026
+												  <hr />
+												  06:50:00 WITA</td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center">00005RO0626</td>
+												<td nowrap="nowrap" style="text-align:center">24 September 2026
+												  <hr />
+												  06:50:00 WITA</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">&nbsp;</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Sesuai</span></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">Diterima</span></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -424,18 +440,22 @@
 										  <tr>
 												<td style="text-align:right" id="kt_table_1">2</td>
 												<td nowrap="nowrap" style="text-align:center">Makassar</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm">Project</span></td>
 
-												<td nowrap="nowrap" style="text-align:center">WH/IN/00004</td>
-												<td nowrap="nowrap" style="text-align:center">00004PO0626</td>
+												<td nowrap="nowrap" style="text-align:center">WH/OUT/00004</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
-											    06:50:00 WITA</td>
+												  06:50:00 WITA</td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center">00004RO0626</td>
+												<td nowrap="nowrap" style="text-align:center">24 September 2026
+												  <hr />
+												  06:50:00 WITA</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">&nbsp;</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Sesuai</span></td>
-												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
-															<i class="fa flaticon2-check-mark"></i>
-														</span></td>
+												<td nowrap="nowrap" style="text-align:center">&nbsp;</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-skype btn-sm">Dikirim</span></td>
+												<td nowrap="nowrap" style="text-align:center">&nbsp;</td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -449,17 +469,21 @@
 <tr>
 												<td style="text-align:right" id="kt_table_1">3</td>
 												<td nowrap="nowrap" style="text-align:center">Makassar</td>
-												<td nowrap="nowrap" style="text-align:center">WH/IN/00003</td>
-												<td nowrap="nowrap" style="text-align:center">00003PO0626</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Internal</span></td>
+												<td nowrap="nowrap" style="text-align:center">WH/OUT/00003</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
-											    06:50:00 WITA</td>
+												  06:50:00 WITA</td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center">00003RO0626</td>
+												<td nowrap="nowrap" style="text-align:center">24 September 2026
+												  <hr />
+												  06:50:00 WITA</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">&nbsp;</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Sesuai</span></td>
-												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
-															<i class="fa flaticon2-check-mark"></i>
-														</span></td>
+												<td nowrap="nowrap" style="text-align:center">&nbsp;</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">Diterima</span></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												  <ul class="kt-nav">
@@ -473,15 +497,21 @@
 <tr>
 												<td style="text-align:right" id="kt_table_1">4</td>
 												<td style="text-align:center" nowrap>Makassar</td>
-												<td nowrap="nowrap" style="text-align:center">WH/IN/00002</td>
-												<td nowrap="nowrap" style="text-align:center">00002PO0626</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Internal</span></td>
+												<td nowrap="nowrap" style="text-align:center">WH/OUT/00002</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
-											    06:50:00 WITA</td>
+												  06:50:00 WITA</td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center">00002RO0626</td>
+												<td nowrap="nowrap" style="text-align:center">24 September 2026
+												  <hr />
+												  06:50:00 WITA</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:left">Masih Menunggu Part yang kurang</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-danger btn-sm">Pending</span></td>
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
+												<td nowrap="nowrap" style="text-align:center">&nbsp;</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">Diterima</span></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -494,18 +524,22 @@
 										  </tr>
 <tr>
   <td id="kt_table_4">5</td>
-  <td style="text-align:center" nowrap="nowrap">Makassar</td>
-  <td nowrap="nowrap" style="text-align:center">WH/IN/00001</td>
-  <td nowrap="nowrap" style="text-align:center">00001PO0626</td>
+  <td nowrap="nowrap" style="text-align:center">Makassar</td>
+  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Internal</span></td>
+  <td nowrap="nowrap" style="text-align:center">WH/OUT/00001</td>
+  <td nowrap="nowrap" style="text-align:center">24 September 2026
+    <hr />
+    06:50:00 WITA</td>
+  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+  <td nowrap="nowrap" style="text-align:center">00001RO0626</td>
   <td nowrap="nowrap" style="text-align:center">24 September 2026
     <hr />
     06:50:00 WITA</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
   <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
-  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Sesuai</span></td>
-  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
-															<i class="fa flaticon2-check-mark"></i>
-														</span></td>
+  <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
+<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">Diterima</span></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">

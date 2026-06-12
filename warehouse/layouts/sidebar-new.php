@@ -62,8 +62,8 @@
 									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
 										<ul class="kt-menu__subnav">
 											
-											<li class="kt-menu__item" aria-haspopup="true"><a href="penerimaan-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Penerimaan</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="pengeluaran-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pengeluaran</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="penerimaan-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Barang Masuk</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="pengeluaran-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Barang Keluar</span></a></li>
 											
 										</ul>
 									</div>

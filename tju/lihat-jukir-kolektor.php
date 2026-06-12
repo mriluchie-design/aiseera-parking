@@ -883,7 +883,7 @@ function goBack() {
 									
 												
 													<div class="btn-group">
-				<button type="button" class="btn btn-brand">
+				<button type="button" class="btn btn-success">
 					<i class="fa fa-check-circle"></i>
 					<span class="kt-hidden-mobile">Simpan</span>
 				</button>
@@ -1178,7 +1178,7 @@ function goBack() {
 									
 												
 													<div class="btn-group">
-				<button type="button" class="btn btn-brand">
+				<button type="button" class="btn btn-success">
 					<i class="fa fa-check-circle"></i>
 					<span class="kt-hidden-mobile">Simpan</span>
 				</button>
