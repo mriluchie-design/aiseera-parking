@@ -136,7 +136,7 @@ $(function () {
         start: new Date(y, m, 3, 12, 0),
         end: new Date(y, m, 7, 14, 0)
       }, {
-        title: "IMMIM EVENT",
+        title: "MAINTENANCE",
         start: new Date(y, m, d, 12, 0),
         end: new Date(y, m, d + 2, 14, 0),
         allDay: false

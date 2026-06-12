@@ -11412,7 +11412,7 @@ code {
   margin: 0 0 25px 0; }
   .nav-pills .nav-item .nav-link,
   .nav-tabs .nav-item .nav-link {
-    padding: 1.5rem 1.5rem;
+    padding: .5rem 1.5rem;
     font-size: 1rem;
     font-weight: 400;
     -webkit-transition: all 0.3s;

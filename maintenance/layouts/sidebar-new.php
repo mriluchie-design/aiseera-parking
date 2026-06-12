@@ -61,7 +61,6 @@
 										<ul class="kt-menu__subnav">
 											<li class="kt-menu__item" aria-haspopup="true"><a href="permintaan-maintenance.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Permintaan Maintenance</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="plan-maintenance.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Perencanaan Maintenance</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="gate-maintenance.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Gate Maintenance</span></a></li>
 											
 										</ul>
 									</div>
