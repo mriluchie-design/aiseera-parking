@@ -126,63 +126,29 @@
     		                    </div>
                             
 								<div class="col-lg-2">
-                                <label>Tipe Tarif :</label>
+                                <label>Transaksi :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1">Reguler</option>
-                                      <option value="2">Member</option>
-                                      <option value="2">Berangkat</option>
-                                      <option value="2">Muatan Kapal</option>
-                                      <option value="2">Pass Kade</option>
-                                      <option value="2">Pass Orang</option>
-                                      <option value="2">Free Pass</option>
-                                      <option value="2">Denda</option>
+                                      <option value="1">Parkir Kendaraan</option>
+                                      <option value="2">Pendaftaran Member</option>
 									   <option value="4" selected>Keseluruhan</option>
                                       
                                   </select>
                             </div>
 							<div class="col-lg-2">
-                                <label>Jenis Kendaraan :</label>
+                                <label>Metode Pembayaran :</label>
 								
                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1">Motor</option>
-                                      <option value="2">Mobil</option>
-                                      <option value="3">Free Pass</option>
-                                      <option value="3">Orang</option>
-                                      <option value="4">Truck</option>
-                                      <option value="4">Tronton</option>
-                                      <option value="4">Pick Up</option>
-                                      <option value="4">Gerobak</option>
+                                      <option value="1">eMoney</option>
+                                      <option value="2"><span class="btn btn-label-warning btn-sm">QRIS</span></option>
+                                      <option value="3"><span class="btn btn-label-success btn-sm">Virtual Account</span></option>
+                                      <option value="3"><span class="btn btn-label-danger btn-sm">Credit Card</span></option>
                                       <option value="4" selected>Keseluruhan</option>
                                      
                                   </select>
                             </div>
-							<div class="col-lg-2">
-                                <label>Kategori Kendaraan :</label>
+							
 								
-                               <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1">Motor</option>
-                                      <option value="2">Mobil</option>
-                                      <option value="3">Sedan/Jeep/Pick Up</option>
-                                      <option value="3">Truck/Tronton/Trailer</option>
-                                      <option value="4">Pegawai / Instansi / Others</option>
-                                      <option value="4" selected>Keseluruhan</option>
-                                     
-                                  </select>
-                            </div>
-								<div class="col-lg-2">
-                                <label>Jenis Tarif :</label>
-								
-                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1">Progresif</option>
-                                      <option value="2">Flat</option>
-                                      <option value="3">Volume</option>
-									  <option value="4" selected>Keseluruhan</option>
-									  
-                                     
-                                  </select>
-                            </div>
-                            
 							
                             
 							
@@ -239,7 +205,7 @@
 												<td id="kt_table_13" style="text-align:right">1</td>
 												<td style="text-align:left" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">Parkir Kendaraan</td>
-												<td style="text-align:center" nowrap>e-Money</td>
+												<td style="text-align:center" nowrap><span class="btn btn-label-brand btn-sm">e-Money</span></td>
 												<td nowrap="nowrap" style="text-align:left">Mandiri</td>
 												<td nowrap="nowrap" style="text-align:center">&nbsp;</td>
 												<td nowrap="nowrap" style="text-align:center">&nbsp;</td>
@@ -274,8 +240,8 @@
 												<td id="kt_table_13" style="text-align:right">2</td>
 												<td style="text-align:left" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">Parkir Kendaraan</td>
-												<td style="text-align:center" nowrap>e-Money</td>
-												<td nowrap="nowrap" style="text-align:left">Mandiri</td>
+												<td style="text-align:center" nowrap><span class="btn btn-label-brand btn-sm">e-Money</span></td>
+												<td nowrap="nowrap" style="text-align:left">Tapcash BNI</td>
 												<td nowrap="nowrap" style="text-align:center">&nbsp;</td>
 												<td nowrap="nowrap" style="text-align:center">&nbsp;</td>
 												<td nowrap="nowrap" style="text-align:center">&nbsp;</td>
@@ -309,7 +275,7 @@
 										    <td id="kt_table_13" style="text-align:right">3</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Parkir Kendaraan</td>
-												<td style="text-align:center" nowrap>e-Money</td>
+												<td style="text-align:center" nowrap><span class="btn btn-label-brand btn-sm">e-Money</span></td>
 												<td nowrap="nowrap" style="text-align:left">Brizzi</td>
 										    <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
 										    <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
@@ -344,7 +310,7 @@
 										    <td id="kt_table_13" style="text-align:right">4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Parkir Kendaraan</td>
-												<td style="text-align:center" nowrap>e-Money</td>
+												<td nowrap="" style="text-align:center"><span class="btn btn-label-brand btn-sm">e-Money</span></td>
 												<td nowrap="nowrap" style="text-align:left">BCA Flazz</td>
 										    <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
 										    <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
@@ -387,7 +353,7 @@
 										    <td id="kt_table_13" style="text-align:right">5</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 											<td nowrap="nowrap" style="text-align:center">Parkir Kendaraan</td>
-											<td style="text-align:center" nowrap>QRIS</td>
+											<td style="text-align:center" nowrap><span class="btn btn-label-warning btn-sm">QRIS</span></td>
 											<td nowrap="nowrap" style="text-align:left">OVO</td>
 										    <td nowrap="nowrap" style="text-align:center">0,7</td>
 										    <td nowrap="nowrap" style="text-align:center">1,8</td>
@@ -430,7 +396,7 @@
 										    <td id="kt_table_13" style="text-align:right">6</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Parkir Kendaraan</td>
-											<td style="text-align:center" nowrap>QRIS</td>
+											<td style="text-align:center" nowrap><span class="btn btn-label-warning btn-sm">QRIS</span></td>
 											<td nowrap="nowrap" style="text-align:left">DANA</td>
 											<td nowrap="nowrap" style="text-align:center">0,7</td>
 											<td nowrap="nowrap" style="text-align:center">1,8</td>
@@ -473,7 +439,7 @@
 										    <td id="kt_table_13" style="text-align:right">7</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Parkir Kendaraan</td>
-											<td style="text-align:center" nowrap>QRIS</td>
+											<td style="text-align:center" nowrap><span class="btn btn-label-warning btn-sm">QRIS</span></td>
 											<td nowrap="nowrap" style="text-align:left">GoPay</td>
 											<td nowrap="nowrap" style="text-align:center">0,7</td>
 											<td nowrap="nowrap" style="text-align:center">1,8</td>
@@ -495,7 +461,7 @@
 										    <td id="kt_table_13" style="text-align:right">8</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Parkir Kendaraan</td>
-											<td style="text-align:center" nowrap>QRIS</td>
+											<td style="text-align:center" nowrap><span class="btn btn-label-warning btn-sm">QRIS</span></td>
 											<td nowrap="nowrap" style="text-align:left">LinkAja</td>
 											<td nowrap="nowrap" style="text-align:center">0,7</td>
 											<td nowrap="nowrap" style="text-align:center">1,8</td>
@@ -538,7 +504,7 @@
 										    <td id="kt_table_13" style="text-align:right">9</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Parkir Kendaraan</td>
-											<td style="text-align:center" nowrap>QRIS</td>
+											<td style="text-align:center" nowrap><span class="btn btn-label-warning btn-sm">QRIS</span></td>
 											<td nowrap="nowrap" style="text-align:left">ShopeePay</td>
 											<td nowrap="nowrap" style="text-align:center">0,7</td>
 											<td nowrap="nowrap" style="text-align:center">1,8</td>
@@ -581,7 +547,7 @@
 										    <td id="kt_table_13" style="text-align:right">10</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Parkir Kendaraan</td>
-											<td style="text-align:center" nowrap>QRIS</td>
+											<td style="text-align:center" nowrap><span class="btn btn-label-warning btn-sm">QRIS</span></td>
 											<td nowrap="nowrap" style="text-align:left">Livin Mandiri</td>
 											<td nowrap="nowrap" style="text-align:center">0,7</td>
 											<td nowrap="nowrap" style="text-align:center">1,8</td>
@@ -624,7 +590,7 @@
 										    <td id="kt_table_13" style="text-align:right">11</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Parkir Kendaraan</td>
-											<td style="text-align:center" nowrap>QRIS</td>
+											<td style="text-align:center" nowrap><span class="btn btn-label-warning btn-sm">QRIS</span></td>
 											<td nowrap="nowrap" style="text-align:left">BCA</td>
 											<td nowrap="nowrap" style="text-align:center">0,7</td>
 											<td nowrap="nowrap" style="text-align:center">1,8</td>
@@ -667,7 +633,7 @@
 										   <td id="kt_table_13" style="text-align:right">12</td>
 										    <td style="text-align:left" nowrap>Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Pendaftaran Member</td>
-											<td style="text-align:center" nowrap>Virtual Account</td>
+											<td style="text-align:center" nowrap><span class="btn btn-label-success btn-sm">Virtual Account</span></td>
 											<td nowrap="nowrap" style="text-align:left">MANDIRI</td>
 										    <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
 										    <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
@@ -710,7 +676,7 @@
 										    <td id="kt_table_13" style="text-align:right">13</td>
 										    <td style="text-align:left" nowrap>Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Pendaftaran Member</td>
-											<td style="text-align:center" nowrap>Virtual Account</td>
+											<td style="text-align:center" nowrap><span class="btn btn-label-success btn-sm">Virtual Account</span></td>
 											<td nowrap="nowrap" style="text-align:left">CIMB NIAGA</td>
 										    <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
 										    <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
@@ -753,7 +719,7 @@
 										    <td id="kt_table_13" style="text-align:right">14</td>
 										    <td style="text-align:left" nowrap>Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Pendaftaran Member</td>
-											<td style="text-align:center" nowrap>Virtual Account</td>
+											<td style="text-align:center" nowrap><span class="btn btn-label-success btn-sm">Virtual Account</span></td>
 											<td nowrap="nowrap" style="text-align:left">BNI</td>
 										    <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
 										    <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
@@ -796,7 +762,7 @@
 										    <td id="kt_table_13" style="text-align:right">15</td>
 										    <td style="text-align:left" nowrap="nowrap">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Pendaftaran Member</td>
-											<td style="text-align:center" nowrap>Virtual Account</td>
+											<td style="text-align:center" nowrap><span class="btn btn-label-success btn-sm">Virtual Account</span></td>
 											<td nowrap="nowrap" style="text-align:left">BRI</td>
 										    <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
 										    <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
@@ -818,7 +784,7 @@
 										    <td id="kt_table_13" style="text-align:right">16</td>
 										    <td style="text-align:left" nowrap>Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Pendaftaran Member</td>
-											<td style="text-align:center" nowrap>Virtual Account</td>
+											<td style="text-align:center" nowrap><span class="btn btn-label-success btn-sm">Virtual Account</span></td>
 											<td nowrap="nowrap" style="text-align:left">PERMATA BANK</td>
 										    <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
 										    <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
@@ -861,7 +827,7 @@
 										    <td id="kt_table_13" style="text-align:right">17</td>
 										    <td style="text-align:left" nowrap="nowrap">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Pendaftaran Member</td>
-											<td style="text-align:center" nowrap>Virtual Account</td>
+											<td style="text-align:center" nowrap><span class="btn btn-label-success btn-sm">Virtual Account</span></td>
 											<td nowrap="nowrap" style="text-align:left">BTN</td>
 										    <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
 										    <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
@@ -883,7 +849,7 @@
 										    <td id="kt_table_13" style="text-align:right">18</td>
 										    <td style="text-align:left" nowrap="nowrap">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Pendaftaran Member</td>
-											<td style="text-align:center" nowrap>Virtual Account</td>
+											<td style="text-align:center" nowrap><span class="btn btn-label-success btn-sm">Virtual Account</span></td>
 											<td nowrap="nowrap" style="text-align:left">BANK MUAMALAT</td>
 										    <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
 										    <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
@@ -905,7 +871,7 @@
 										    <td id="kt_table_13" style="text-align:right">19</td>
 										    <td style="text-align:left" nowrap="nowrap">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Pendaftaran Member</td>
-											<td style="text-align:center" nowrap>Virtual Account</td>
+											<td style="text-align:center" nowrap><span class="btn btn-label-success btn-sm">Virtual Account</span></td>
 											<td nowrap="nowrap" style="text-align:left">DANAMON</td>
 										    <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
 										    <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
@@ -927,7 +893,7 @@
 										    <td id="kt_table_13" style="text-align:right">20</td>
 										    <td style="text-align:left" nowrap="nowrap">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Pendaftaran Member</td>
-											<td style="text-align:center" nowrap>Credit Card</td>
+											<td style="text-align:center" nowrap><span class="btn btn-label-danger btn-sm">Credit Card</span></td>
 											<td nowrap="nowrap" style="text-align:left">VISA</td>
 										    <td nowrap="nowrap" style="text-align:center">2,5</td>
 										    <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
@@ -949,7 +915,7 @@
 										    <td id="kt_table_13" style="text-align:right">21</td>
 										    <td style="text-align:left" nowrap="nowrap">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Pendaftaran Member</td>
-											<td style="text-align:center" nowrap>Credit Card</td>
+											<td style="text-align:center" nowrap><span class="btn btn-label-danger btn-sm">Credit Card</span></td>
 											<td nowrap="nowrap" style="text-align:left">MASTER CARD</td>
 										    <td nowrap="nowrap" style="text-align:center">2,5</td>
 										    <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
