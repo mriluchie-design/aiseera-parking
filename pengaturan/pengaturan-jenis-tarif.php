@@ -25,12 +25,12 @@
 			
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Master Data
+                    Pengaturan
                 </h3>
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Jenis Transaksi</span>
+											Jenis Tarif</span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
 										</form>
@@ -69,7 +69,7 @@
                     </ul>
                     <!--end::Nav-->
                 </div>
-                <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal_tambah_jenis_transaksi"><i class="fa fa-plus-circle"></i>Tambah Data</button>
+                <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal_tambah_jenis_tarif"><i class="fa fa-plus-circle"></i>Tambah Data</button>
             </div>
         </div>
     </div>
@@ -299,21 +299,21 @@
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="20%" bgcolor="#f7fcff">Jenis Transaksi</th>
+											  <th width="20%" bgcolor="#f7fcff">Jenis Tarif</th>
 											  <th width="1%" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 										</thead>
 										<tbody>
 											<tr>
-												<td id="kt_table_1">1</td>
-												<td style="text-align:left" nowrap>Masuk</td>
+												<td id="kt_table_1" style="text-align:right">1</td>
+												<td style="text-align:left" nowrap>Progresif</td>
 												
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
 																	
 																		
-																		<li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_jenis_transaksi" data-skin="brand" data-html="true">
+																		<li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_jenis_tarif" data-skin="brand" data-html="true">
 																			<a href="#" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-edit"></i>
 																				<span class="kt-nav__link-text">Edit</span>
@@ -331,15 +331,41 @@
 										      </div></td>
 										  </tr>
 										  <tr>
-												<td id="kt_table_1">2</td>
-												<td style="text-align:left" nowrap>Keluar</td>
+												<td id="kt_table_1" style="text-align:right">2</td>
+												<td style="text-align:left" nowrap>Flat</td>
 											
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
 																	
 																		
-																		<li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_jenis_transaksi" data-skin="brand" data-html="true">
+																		<li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_jenis_tarif" data-skin="brand" data-html="true">
+																			<a href="#" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																		</li>
+																	</ul>
+									          </div>
+										      </div></td>
+										  </tr>
+										  <tr>
+												<td id="kt_table_1" style="text-align:right">3</td>
+												<td style="text-align:left" nowrap>Volume</td>
+											
+												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+																	
+																		
+																		<li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_jenis_tarif" data-skin="brand" data-html="true">
 																			<a href="#" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-edit"></i>
 																				<span class="kt-nav__link-text">Edit</span>

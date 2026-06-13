@@ -76,7 +76,6 @@
     <!-- end:: Content Head -->
 
 	<!-- begin:: Content -->
-	<div class="row">
 		<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
             <!-- begin:: Alert -->
             <div class="alert alert-elevate alert-solid-warning alert-bold" role="alert">
@@ -964,7 +963,6 @@
 							
 									
         </div>
-    </div>
     </div>
     </div>
     </div>

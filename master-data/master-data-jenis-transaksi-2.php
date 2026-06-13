@@ -76,6 +76,7 @@
     <!-- end:: Content Head -->
 
 	<!-- begin:: Content -->
+	<div class="row">
 		<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
             <!-- begin:: Alert -->
             <div class="alert alert-elevate alert-solid-warning alert-bold" role="alert">
@@ -123,142 +124,67 @@
                                                                            
                                   </select>
     		                    </div>
-                            <div class="col-lg-1">
-                                <label>Kategori :</label>
+                            
+								<div class="col-lg-2">
+                                <label>Tipe Tarif :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected="">Reguler</option>
                                       <option value="2">Member</option>
-                                      <option value="2">Keseluruhan</option>
-                                                                           
-                                  </select>
-    		                    </div>
-								<div class="col-lg-2">
-                                <label>Jenis :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Mobil</option>
-									  <option value="2">Sepeda Motor</option>
-                                      <option value="1" >Pegawai/Instansi/Others</option>
-                                      <option value="2">Sedan/Jeep/Pick Up</option>
-                                      <option value="2">Truck/Tronton/Trailer</option>
-									  <option value="2">Keseluruhan</option>
-                                                                           
-                                  </select>
-    		                    </div>
-								<div class="col-lg-2">
-                                <label class="">Tanggal Masuk :</label>
-                                <div class="input-group">
-						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="-- Pilih Tanggal --">
-						                        <div class="input-group-append">
-						                          <span class="input-group-text"><i class="la la-calendar"></i></span>
-						                        </div>
-						                      </div>
-                            </div>
-							<div class="col-lg-1">
-                                <label>Gate :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">1</option>
-                                      <option value="2">2</option>
-                                      <option value="2">3</option>
-                                      <option value="2">4</option>
-									  <option value="2">Keseluruhan</option>
-                                                                           
-                                  </select>
-                            </div>
-							<div class="col-lg-1">
-                                <label>Jalur :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true" disabled>
-                                      <option value="1" selected="">Masuk</option>
-                                      <option value="2">Keluar</option>
-									  <option value="2">Keseluruhan</option>
-                                                                           
+                                      
                                   </select>
                             </div>
 							<div class="col-lg-2">
-                                <label>Nama Jalur :</label>
+                                <label>Kategori Tarif :</label>
 								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected>Mobil - 1</option>
-                                      <option value="1">Mobil - 2</option>
-                                      <option value="1">Motor - 1</option>
-                                      <option value="1">Motor - 2</option>
-									  <option value="2">Keseluruhan</option>
-                                                                           
-                                  </select>
-                            </div>
-							<div class="col-lg-1">
-                                <label>Status :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Parkir</option>
-                                      <option value="2">Keluar</option>
-                                      <option value="2">Berangkat</option>
-                                      <option value="2">Keseluruhan</option>
-                                                                           
-                                  </select>
-                            </div>
-							
-    		                    </div>
-								<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-								<div class="col-lg-2">
-                                <label>ID Transaksi :</label>
-								
-                                <div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
-        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
-    		                            <span><i class="la la-search"></i></span>
-    		                        </span>
-    		                    </div>
-    		                    </div>
-								<div class="col-lg-3">
-                                <label>No. Plat :</label>
-								
-                                <div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
-        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
-    		                            <span><i class="la la-search"></i></span>
-    		                        </span>
-    		                    </div>
-    		                    </div>
-								<div class="col-lg-2">
-                                <label>Pembayaran :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">e-Money</option>
-                                      <option value="1">QRIS</option>
-                                      <option value="2">Tunai</option>
-                                      <option value="2">Keseluruhan</option>
-                                                                           
+                               <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Reguler - Motor</option>
+                                      <option value="2">Reguler - Mobil</option>
+                                      <option value="3">Reguler - Truck/Tronton/Trailer</option>
+                                      <option value="4">Member - Motor</option>
+                                      <option value="4">Member - Sedan/Jeep/Pick Up</option>
+                                      <option value="4">Member - Truck/Tronton/Trailer</option>
+                                      <option value="4">Member - Pegawai / Instansi / Others</option>
+                                      <option value="4">Kendaraan Berangkat - Motor</option>
+                                      <option value="4">Kendaraan Berangkat - Mobil</option>
+                                      <option value="4">Bongkaran Kapal - Motor</option>
+                                      <option value="4">Bongkaran Kapal - Mobil</option>
+                                      <option value="4">Free Pass</option>
+                                      <option value="4">Denda - Motor</option>
+                                      <option value="4">Denda - Mobil</option>
+                                      <option value="4">Pass Kade</option>
+                                     
                                   </select>
                             </div>
 								<div class="col-lg-2">
-                                <label>Provider Pembayaran :</label>
+                                <label>Jenis Tarif :</label>
 								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Mandiri</option>
-                                      <option value="1">BCA Flazz</option>
-                                      <option value="1">Brizzi</option>
-                                      <option value="1">BNI Tap Cash</option>
-                                      <option value="1">OVO</option>
-                                      <option value="1">DANA</option>
-                                      <option value="1">Shoope Pay</option>
-                                      <option value="1">BCA</option>
-                                      <option value="1">Livin Mandiri</option>
-                                      <option value="2">Keseluruhan</option>
-                                                                           
+                                 <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Progressif</option>
+                                      <option value="2">Flat</option>
+                                      <option value="3">Volume</option>
+                                     
                                   </select>
-                            </div>
-								
-								
                             </div>
                             
 							
                             
 							
+							<div class="col-lg-2">
+                                <label>Jenis Kendaraan :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Motor</option>
+                                      <option value="2">Mobil</option>
+                                      <option value="2">Truck/Tronton/Trailer</option>
+                                      <option value="2">Sedan/Jeep/Pick Up</option>
+                                    
+                                  </select>
+                            </div>
+							
+							
+							
+                            </div>
 							
 							
 							<br>
@@ -276,25 +202,13 @@
 				<!--end::Form-->
 			</div>
             <!--begin::End-->
-<div class="row">
-								
-								
-								
-								
-								
-								
 
-							<!--End::Section-->
-
-							
-
-						
-						</div>
 			
 
 			<div class="kt-portlet kt-portlet--mobile ">
 				<div class="kt-portlet__body">
 					<!--begin: Datatable -->
+				
 					<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
 										<thead>
 											<tr style="text-align:center">
@@ -564,3 +478,4 @@ $("#show").click(function(){
       });
 </script>
 <?php require '../layouts/foot.php' ?>
+

@@ -30,7 +30,7 @@
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Jenis Transaksi</span>
+											Tipe Member</span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
 										</form>
@@ -69,7 +69,7 @@
                     </ul>
                     <!--end::Nav-->
                 </div>
-                <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal_tambah_jenis_transaksi"><i class="fa fa-plus-circle"></i>Tambah Data</button>
+                <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal_tambah_tipe_member"><i class="fa fa-plus-circle"></i>Tambah Data</button>
             </div>
         </div>
     </div>
@@ -299,21 +299,21 @@
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="20%" bgcolor="#f7fcff">Jenis Transaksi</th>
+											  <th width="20%" bgcolor="#f7fcff">Tipe Member</th>
 											  <th width="1%" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 										</thead>
 										<tbody>
 											<tr>
 												<td id="kt_table_1">1</td>
-												<td style="text-align:left" nowrap>Masuk</td>
+												<td style="text-align:left" nowrap>Reguler</td>
 												
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
 																	
 																		
-																		<li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_jenis_transaksi" data-skin="brand" data-html="true">
+																		<li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_tipe_member" data-skin="brand" data-html="true">
 																			<a href="#" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-edit"></i>
 																				<span class="kt-nav__link-text">Edit</span>
@@ -332,14 +332,14 @@
 										  </tr>
 										  <tr>
 												<td id="kt_table_1">2</td>
-												<td style="text-align:left" nowrap>Keluar</td>
+												<td style="text-align:left" nowrap>Instansi</td>
 											
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
 																	
 																		
-																		<li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_jenis_transaksi" data-skin="brand" data-html="true">
+																		<li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_tipe_member" data-skin="brand" data-html="true">
 																			<a href="#" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-edit"></i>
 																				<span class="kt-nav__link-text">Edit</span>

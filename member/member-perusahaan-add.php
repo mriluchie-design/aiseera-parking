@@ -545,16 +545,18 @@ function goBack() {
 
   <tbody><tr style="text-align:center">
     <td width="1%" bgcolor="#0961ae" style="color:#fff;">NO</td>
+    <td width="6%" bgcolor="#0961ae" style="color:#fff;">KENDARAAN</td>
     <td width="6%" bgcolor="#0961ae" style="color:#fff;">URAIAN </td>
     <td width="1%" colspan="2" bgcolor="#0961ae" style="color:#fff;">JUMLAH<br>KENDARAAN</td>
-    <td width="7%" bgcolor="#0961ae" style="color:#fff;">NO PLAT<br>KENDARAAN</td>
+    <td width="9%" bgcolor="#0961ae" style="color:#fff;">NO PLAT<br>KENDARAAN</td>
     <td width="1%" colspan="2" bgcolor="#0961ae" style="color:#fff;">DURASI</td>
-    <td width="8%" bgcolor="#0961ae" style="color:#fff;">TARIF SATUAN</td>
-    <td width="8%" bgcolor="#0961ae" style="color:#fff;">JUMLAH</td>
+    <td width="10%" bgcolor="#0961ae" style="color:#fff;">TARIF SATUAN</td>
+    <td width="10%" bgcolor="#0961ae" style="color:#fff;">JUMLAH</td>
     <td width="3%" bgcolor="#0961ae" style="color:#fff;">AKSI</td>
   </tr>
   <tr style="text-align:center">
     <td bgcolor="#f5f5f5">a</td>
+    <td bgcolor="#f5f5f5">&nbsp;</td>
     <td bgcolor="#f5f5f5">b</td>
     <td colspan="2" bgcolor="#f5f5f5">c</td>
     <td bgcolor="#f5f5f5">d</td>
@@ -565,15 +567,18 @@ function goBack() {
   </tr>
   <tr>
     <td style="text-align:center">A</td>
-    <td colspan="9"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Biaya Membership Parkir"></td>
+    <td colspan="10"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Biaya Membership Parkir"></td>
   </tr>
   <tr>
     <td bgcolor="#feffed" style="text-align:right">1</td>
+    <td bgcolor="#feffed"><select name="select2" class="form-control kt-selectpicker" data-live-search="true">
+      <option value="AK" selected="selected">Motor</option>
+      <option value="AK">Mobil</option>
+      <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
+    </select></td>
     <td bgcolor="#feffed"><select name="select" class="form-control kt-selectpicker" data-live-search="true">
-      <option value="AK">Pegawai/Instansi/Others</option>
-      <option value="AK" selected>Sepeda Motor</option>
-      <option value="AK">Sedan/Jeep/Pick Up</option>
-      <option value="AK">Truck/Tronton/Trailer</option>
+      <option value="AK" selected>Motor</option>
+	  <option value="AK">Pegawai/Instansi/Others</option>
 	  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
     </select></td>
     <td bgcolor="#feffed"><select class="form-control kt-selectpicker" data-live-search="true">
@@ -591,12 +596,12 @@ function goBack() {
     </tr>
   <tr>
     <td style="text-align:right">1.1</td>
-    <td><div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch">
-        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
-    		                            <span><i class="fa fa-credit-card"></i></span>
-    		                        </span>
-    		                    </div></td>
+    <td colspan="2"><div class="kt-input-icon kt-input-icon--right">
+      <input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch">
+      <span class="kt-input-icon__icon kt-input-icon__icon--right">
+        <span><i class="fa fa-credit-card"></i></span>
+        </span>
+    </div></td>
     <td colspan="2">&nbsp;</td>
     <td><div class="kt-input-icon kt-input-icon--right">
       <input type="text" class="form-control form-control-sm" placeholder="No Plat Kendaraan" id="generalSearch" />
@@ -628,7 +633,7 @@ function goBack() {
   </tr>
   <tr>
     <td style="text-align:right">1.2</td>
-    <td><div class="kt-input-icon kt-input-icon--right">
+    <td colspan="2"><div class="kt-input-icon kt-input-icon--right">
       <input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-credit-card"></i></span> </span> </div></td>
     <td colspan="2">&nbsp;</td>
@@ -662,9 +667,9 @@ function goBack() {
     </tr>
   <tr>
     <td style="text-align:right">1.3</td>
-    <td><div class="kt-input-icon kt-input-icon--right">
+    <td colspan="2"><div class="kt-input-icon kt-input-icon--right">
       <input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch" />
-
+      
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-credit-card"></i></span> </span> </div></td>
     <td colspan="2">&nbsp;</td>
     <td><div class="kt-input-icon kt-input-icon--right">
@@ -697,9 +702,13 @@ function goBack() {
     </tr>
   <tr>
     <td bgcolor="#feffed" style="text-align:right">2</td>
+    <td bgcolor="#feffed"><select name="select3" class="form-control kt-selectpicker" data-live-search="true">
+      <option value="AK" selected="selected">Mobil</option>
+      <option value="AK">Motor</option>
+      <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
+    </select></td>
     <td bgcolor="#feffed"><select name="select" class="form-control kt-selectpicker" data-live-search="true">
       <option value="AK">Pegawai/Instansi/Others</option>
-      <option value="AK">Sepeda Motor</option>
       <option value="AK" selected>Sedan/Jeep/Pick Up</option>
       <option value="AK">Truck/Tronton/Trailer</option>
 	  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
@@ -720,7 +729,7 @@ function goBack() {
     </tr>
   <tr>
     <td style="text-align:right">2.1</td>
-    <td><div class="kt-input-icon kt-input-icon--right">
+    <td colspan="2"><div class="kt-input-icon kt-input-icon--right">
       <input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-credit-card"></i></span> </span> </div></td>
     <td colspan="2">&nbsp;</td>
@@ -754,7 +763,7 @@ function goBack() {
     </tr>
   <tr>
     <td style="text-align:right">2.2</td>
-    <td><div class="kt-input-icon kt-input-icon--right">
+    <td colspan="2"><div class="kt-input-icon kt-input-icon--right">
       <input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-credit-card"></i></span> </span> </div></td>
     <td colspan="2">&nbsp;</td>
@@ -788,7 +797,7 @@ function goBack() {
     </tr>
   <tr>
     <td style="text-align:right">2.3</td>
-    <td><div class="kt-input-icon kt-input-icon--right">
+    <td colspan="2"><div class="kt-input-icon kt-input-icon--right">
       <input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-credit-card"></i></span> </span> </div></td>
     <td colspan="2">&nbsp;</td>
@@ -822,9 +831,13 @@ function goBack() {
     </tr>
   <tr>
     <td bgcolor="#feffed" style="text-align:right">3</td>
+    <td bgcolor="#feffed"><select name="select4" class="form-control kt-selectpicker" data-live-search="true">
+      <option value="AK" selected="selected">Mobil</option>
+      <option value="AK">Motor</option>
+      <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
+    </select></td>
     <td bgcolor="#feffed"><select name="select" class="form-control kt-selectpicker" data-live-search="true">
       <option value="AK">Pegawai/Instansi/Others</option>
-      <option value="AK">Sepeda Motor</option>
       <option value="AK" >Sedan/Jeep/Pick Up</option>
       <option value="AK" selected>Truck/Tronton/Trailer</option>
 	  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
@@ -845,7 +858,7 @@ function goBack() {
     </tr>
   <tr>
     <td style="text-align:right">3.1</td>
-    <td><div class="kt-input-icon kt-input-icon--right">
+    <td colspan="2"><div class="kt-input-icon kt-input-icon--right">
       <input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-credit-card"></i></span> </span> </div></td>
     <td colspan="2">&nbsp;</td>
@@ -879,7 +892,7 @@ function goBack() {
     </tr>
   <tr>
     <td style="text-align:right">3.2</td>
-    <td><div class="kt-input-icon kt-input-icon--right">
+    <td colspan="2"><div class="kt-input-icon kt-input-icon--right">
       <input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-credit-card"></i></span> </span> </div></td>
     <td colspan="2">&nbsp;</td>
@@ -913,7 +926,7 @@ function goBack() {
     </tr>
   <tr>
     <td style="text-align:right">3.3</td>
-    <td><div class="kt-input-icon kt-input-icon--right">
+    <td colspan="2"><div class="kt-input-icon kt-input-icon--right">
       <input type="text" class="form-control form-control-sm" placeholder="Scan Sticker Member Disini..." id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-credit-card"></i></span> </span> </div></td>
     <td colspan="2">&nbsp;</td>
@@ -948,10 +961,10 @@ function goBack() {
   
   
   <tr>
-    <td colspan="10" style="text-align:center">&nbsp;</td>
+    <td colspan="11" style="text-align:center">&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="8" style="text-align:right">Sub Total</td>
+    <td colspan="9" style="text-align:right">Sub Total</td>
     <td colspan="2" style="text-align:center"><div class="input-group input-group-sm">
 														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
 														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="10.400.000" aria-describedby="basic-addon1">
@@ -959,35 +972,36 @@ function goBack() {
 													</div></td>
     </tr>
 	<tr>
-    <td colspan="8" style="text-align:right">Metode Pembayaran</td>
+    <td colspan="9" style="text-align:right">Metode Pembayaran</td>
     <td colspan="2" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected="">Virtual Account</option>
+                                      <option value="1">Credit Card</option>
                                       <option value="2">Tunai</option>
                                                                            
                                   </select></td>
     </tr>
   <tr>
-    <td colspan="8" style="text-align:right">Biaya Layanan&nbsp;&nbsp;<button type="button" style="margin-bottom:20px; font-size:12px;" class="btn btn-label-brand btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Digunakan Untuk<br>Peningkatan Layanan">?</button></td>
+    <td colspan="9" style="text-align:right">Biaya Layanan&nbsp;&nbsp;<button type="button" style="margin-bottom:20px; font-size:12px;" class="btn btn-label-brand btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Digunakan Untuk<br>Peningkatan Layanan">?</button></td>
     <td colspan="2" style="text-align:center"><div class="input-group input-group-sm">
 														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="25.000" aria-describedby="basic-addon1">
+														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="50.000" aria-describedby="basic-addon1">
 														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 													</div></td>
     </tr>
   
   <tr>
-    <td colspan="8" style="text-align:right" bgcolor="#CCEAFF"><b>GRAND TOTAL </b></td>
+    <td colspan="9" style="text-align:right" bgcolor="#CCEAFF"><b>GRAND TOTAL </b></td>
     <td colspan="2" bgcolor="#CCEAFF"><div class="input-group input-group-sm">
 														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="11.425.000" aria-describedby="basic-addon1">
+														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="11.450.000" aria-describedby="basic-addon1">
 														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 													</div></td>
     </tr>
   <tr>
-    <td colspan="10" style="text-align:center">&nbsp;</td>
+    <td colspan="11" style="text-align:center">&nbsp;</td>
   </tr>
   <tr>
-    <td colspan="10" style="text-align:left" bgcolor="#f7fcff"><b><i>Terbilang : Sebelas Juta Empat Ratus Dua Puluh Lima Ribu Rupiah</i></b></td>
+    <td colspan="11" style="text-align:left" bgcolor="#f7fcff"><b><i>Terbilang : Sebelas Juta Empat Ratus Lima Puluh Ribu Rupiah</i></b></td>
   </tr>
 </tbody></table>
 												

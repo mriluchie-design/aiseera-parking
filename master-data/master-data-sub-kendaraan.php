@@ -76,7 +76,6 @@
     <!-- end:: Content Head -->
 
 	<!-- begin:: Content -->
-	<div class="row">
 		<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
             <!-- begin:: Alert -->
             <div class="alert alert-elevate alert-solid-warning alert-bold" role="alert">
@@ -133,7 +132,7 @@
                                   </select>
                             </div>
 							<div class="col-lg-2">
-                                <label>Kategori Kendaraan :</label>
+                                <label>Jenis Kendaraan :</label>
 								
                               <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1">Motor</option>
@@ -183,8 +182,8 @@
 											  <th width="1%" bgcolor="#f7fcff" id="kt_table_2">#</th>
 											  <th width="1%" bgcolor="#f7fcff">Jenis<br>Transaksi</th>
 											  <th width="1%" bgcolor="#f7fcff">Kategori<br>Transaksi</th>
-											  <th width="2%" bgcolor="#f7fcff">Kategori <br>Kendaraan</th>
-											  <th width="20%" bgcolor="#f7fcff">Sub Kategori <br>Kendaraan</th>
+											  <th width="2%" bgcolor="#f7fcff">Jenis <br>Kendaraan</th>
+											  <th width="20%" bgcolor="#f7fcff">Kategori<br>Kendaraan</th>
 											  <th width="1%" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 										</thead>
@@ -1169,7 +1168,7 @@
 											<div class="kt-portlet__head">
 											<div class="kt-portlet__head-label">
 												<span class="kt-portlet__head-icon"><i class="kt-font-danger fa fa-car"></i></span>
-												<h3 class="kt-portlet__head-title kt-font-brand kt-bold">TAMBAH SUB KATEGORI KENDARAAN</h3>
+												<h3 class="kt-portlet__head-title kt-font-brand kt-bold">TAMBAH JENIS KENDARAAN</h3>
 											</div>
 											<div class="kt-portlet__head-toolbar">
 												<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">X</button>
@@ -1212,7 +1211,7 @@
 <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 												<div class="form-group row">
 												<div class="col-lg-6">
-														<label class="kt-font-brand">Kategori Kendaraan :</label>
+														<label class="kt-font-brand">Jenis Kendaraan :</label>
 														<select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected="">Motor</option>
                                       <option value="2">Mobil</option>
@@ -1223,7 +1222,7 @@
                                   </select>
 													</div>
 													<div class="col-lg-6">
-														<label class="kt-font-brand">Sub Kategori Kendaraan :</label>
+														<label class="kt-font-brand">Kategori Kendaraan :</label>
 														<input type="text" class="form-control form-control-sm" placeholder="">
 													</div>
 
@@ -1257,7 +1256,6 @@
 							
 									
         </div>
-    </div>
     </div>
 
 <?php require '../layouts/footer.php' ?>
