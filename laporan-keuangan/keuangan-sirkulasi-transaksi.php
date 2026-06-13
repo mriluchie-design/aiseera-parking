@@ -104,7 +104,7 @@
                                 <label>Lokasi :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Makassar</option>
+                                      <option value="1">Makassar</option>
                                       <option value="2">Pare-Pare</option>
                                       <option value="2">Balikpapan</option>
                                       <option value="2">Samarinda</option>
@@ -116,33 +116,39 @@
                                       <option value="2">Ambon - Slamet Riyadi</option>
                                       <option value="2">Ternate</option>
                                       <option value="2">Sorong</option>
-                                      <option value="2">Keseluruhan</option>
+                                      <option value="2" selected>Keseluruhan</option>
                                                                            
                                   </select>
     		                    </div>
-                            <div class="col-lg-1">
-                                <label>Kategori :</label>
+                            <div class="col-lg-2">
+                                <label>Kategori Transaksi :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Reguler</option>
+                                      <option value="1">Reguler</option>
                                       <option value="2">Member</option>
-                                      <option value="2">Keseluruhan</option>
-                                                                           
+                                      <option value="2">Pass Kade</option>
+                                      <option value="2">Pass Orang</option>
+                                      <option value="2">Kendaraan Berangkat</option>
+                                      <option value="2">Muatan Kapal</option>
+                                      <option value="2">Free Pass</option>
+                                      <option value="2">Denda</option>
+									  <option value="2" selected>Keseluruhan</option>
+                                     
                                   </select>
     		                    </div>
 								
 								
 								
 								<div class="col-lg-2">
-                                <label>Jenis :</label>
+                                <label>Kategori Kendaraan :</label>
 								
                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Mobil</option>
+                                      <option value="1">Mobil</option>
 									  <option value="2">Sepeda Motor</option>
                                       <option value="1" >Pegawai/Instansi/Others</option>
                                       <option value="2">Sedan/Jeep/Pick Up</option>
                                       <option value="2">Truck/Tronton/Trailer</option>
-									  <option value="2">Keseluruhan</option>
+									  <option value="2" selected>Keseluruhan</option>
                                                                            
                                   </select>
     		                    </div>
@@ -160,9 +166,20 @@
                                 <label>Gate Keluar :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">1</option>
+                                      <option value="1">1</option>
                                       <option value="2">2</option>
-									  <option value="2">Keseluruhan</option>
+                                      <option value="2">3</option>
+                                      <option value="2">4</option>
+									  <option value="2" selected>Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
+							<div class="col-lg-1">
+                                <label>Jalur :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true" disabled>
+                                      
+									  <option value="2" selected>Keluar</option>
                                                                            
                                   </select>
                             </div>
@@ -170,11 +187,11 @@
                                 <label>Nama Jalur :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected>Keluar - Mobil 1</option>
-                                      <option value="1">Keluar - Mobil 2</option>
-                                      <option value="1">Keluar - Motor 1</option>
-                                      <option value="1">Keluar - Motor 2</option>
-									  <option value="2">Keseluruhan</option>
+                                      <option value="1">Mobil - 1</option>
+                                      <option value="1">Mobil - 2</option>
+                                      <option value="1">Motor - 1</option>
+                                      <option value="1">Motor - 2</option>
+									  <option value="2" selected>Keseluruhan</option>
                                                                            
                                   </select>
                             </div>
@@ -215,10 +232,10 @@
                                 <label>Pembayaran :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">e-Money</option>
+                                      <option value="1">e-Money</option>
                                       <option value="1">QRIS</option>
                                       <option value="2">Tunai</option>
-                                      <option value="2">Keseluruhan</option>
+                                     <option value="2" selected>Keseluruhan</option>
                                                                            
                                   </select>
                             </div>
@@ -226,7 +243,7 @@
                                 <label>Provider Pembayaran :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Mandiri</option>
+                                      <option value="1">Mandiri</option>
                                       <option value="1">BCA Flazz</option>
                                       <option value="1">Brizzi</option>
                                       <option value="1">BNI Tap Cash</option>
@@ -235,7 +252,7 @@
                                       <option value="1">Shoope Pay</option>
                                       <option value="1">BCA</option>
                                       <option value="1">Livin Mandiri</option>
-                                      <option value="2">Keseluruhan</option>
+                                      <option value="2" selected>Keseluruhan</option>
                                                                            
                                   </select>
                             </div>
@@ -243,10 +260,13 @@
                                 <label>Status Transaksi :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Selesai</option>
+                                      <option value="1">Selesai</option>
+									  <option value="2">Member</option>
+									  <option value="2">Parkir</option>
+									  <option value="2">Berangkat</option>
+									  <option value="2">Free Pass</option>
                                       <option value="1">Denda</option>
-                                      <option value="2">Member</option>
-                                      <option value="2">Keseluruhan</option>
+                                      <option value="2" selected>Keseluruhan</option>
                                                                            
                                   </select>
                             </div>
@@ -497,7 +517,7 @@
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  15:36:00 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span><hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Card ID : 12321355123123211&lt;hr&gt;Reff ID : 000001PGTEM0626&lt;hr&gt;Rp. 15.000,-&lt;hr&gt;Mandiri" data-html="true">e-Money</span></td>
+												  15:36:00 WITA<hr /><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">Pass Kade</span><hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Card ID : 12321355123123211&lt;hr&gt;Reff ID : 000001PGTEM0626&lt;hr&gt;Rp. 15.000,-&lt;hr&gt;Mandiri" data-html="true">e-Money</span></td>
 												<td nowrap="nowrap" style="text-align:center">000001INTEM0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
@@ -552,7 +572,7 @@
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  15:37:00 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000002KDTQR0626&lt;hr&gt;Reff ID : 000012PGTQR0626&lt;hr&gt;Rp. 15.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
+												  15:37:00 WITA<hr /><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">Pass Kade</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000002KDTQR0626&lt;hr&gt;Reff ID : 000012PGTQR0626&lt;hr&gt;Rp. 15.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td nowrap="nowrap" style="text-align:center">000001INTQR0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
@@ -607,7 +627,7 @@
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  15:38:00 WITA<hr /><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Reguler</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000002KDTQR0626&lt;hr&gt;Reff ID : 000012PGTQR0626&lt;hr&gt;Rp. 15.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
+												  15:38:00 WITA<hr /><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">Pass Kade</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000002KDTQR0626&lt;hr&gt;Reff ID : 000012PGTQR0626&lt;hr&gt;Rp. 15.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td nowrap="nowrap" style="text-align:center">000002INTQR0626<hr />
 												  DD 1111 LUU<hr />
 												  1 September 2026
@@ -631,7 +651,7 @@
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  17:38:30 WITA<hr /><span class="btn btn-label-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Denda</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : -&lt;hr&gt;Reff ID : 000003PGTQR0626&lt;hr&gt;Rp. 50.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
+												  17:38:30 WITA<hr /><span class="btn btn-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Denda</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : -&lt;hr&gt;Reff ID : 000003PGTQR0626&lt;hr&gt;Rp. 50.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td style="text-align:center">1<hr />Keluar
 												  <hr />
 												  Mobil - 1</td>
@@ -644,7 +664,7 @@
 												  -
 												  <hr />
 												  -<hr />-<hr />-</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Selesai</span></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-danger btn-sm">Denda</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												     <ul class="kt-nav">
@@ -864,7 +884,7 @@
 												  -
 												  <hr />
 												  -<hr />-<hr />-</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Selesai</span></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-danger btn-sm">Denda</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												     <ul class="kt-nav">
@@ -1029,7 +1049,7 @@
 												  -
 												  <hr />
 												  -<hr />-<hr />-</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Selesai</span></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-youtube btn-sm">Free Pass</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												     <ul class="kt-nav">
@@ -1084,7 +1104,7 @@
 												  -
 												  <hr />
 												  -<hr />-<hr />-</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Selesai</span></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-youtube btn-sm">Free Pass</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												     <ul class="kt-nav">
