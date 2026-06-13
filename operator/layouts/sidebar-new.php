@@ -83,8 +83,9 @@
 											<li class="kt-menu__item  kt-menu__item--parent" aria-haspopup="true"><span class="kt-menu__link"><span class="kt-menu__link-text">Mobile Operator</span></span></li>
 
 											<li class="kt-menu__item" aria-haspopup="true"><a href="operator-muatan-kapal-berangkat.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Berangkat</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="operator-muatan-kapal-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Turun dari Kapal</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="operator-muatan-kapal-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Muatan Kapal</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="operator-kendaraan-bermuatan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pass Kade</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="operator-pass-orang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pass Orang</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="operator-free-pass.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Free Pass</span></a></li>
 											
 											
