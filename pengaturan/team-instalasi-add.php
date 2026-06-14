@@ -162,7 +162,7 @@ function goBack() {
 											<div class="col-lg-6">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Project</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
@@ -241,7 +241,7 @@ function goBack() {
 <div class="col-lg-6">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Instalasi</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
@@ -361,7 +361,7 @@ function goBack() {
 <div class="col-lg-12">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Pelaksana Tugas</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
@@ -468,10 +468,47 @@ function goBack() {
 						
                       </div>
                     </div>
+
+
+
+
+                    </div>
+					  
+
+						<!-- end:: Content -->
+					</div>
+
+						<div class="row">
+
+					
+					
+								
+									
+										 
+										
+							<!--end:: Portlet-->
+
+								
+								
+  
+                      </div>
+					  
+									
+										
+
+
+
+
+													<!--end: Form Wizard Step 1-->
+
+													<!--begin: Form Wizard Step 2-->
+													<div class="kt-wizard-v4__content" data-ktwizard-type="step-content">
+													<div class="kt-form__section kt-form__section--first">
+										<div class="row">
 <div class="col-lg-6">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Uraian Tugas</div><br><br>
 										 <div class="kt-portlet__body">
                       
@@ -526,7 +563,7 @@ function goBack() {
 <div class="col-lg-3">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Tembusan Surat</div><br><br>
 										 <div class="kt-portlet__body">
                       
@@ -584,7 +621,7 @@ function goBack() {
 
 <div class="col-xl-3">
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Catatan Internal</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
@@ -599,36 +636,13 @@ function goBack() {
                       </div>
                       </div>
                       </div>
-                    </div>
-					  
+									</div>
+									</div>
+									</div>
 
-						<!-- end:: Content -->
-					</div>
+													<!--end: Form Wizard Step 2-->
 
-						<div class="row">
-
-					
-					
-								
-									
-										 
-										
-							<!--end:: Portlet-->
-
-								
-								
-  
-                      </div>
-					  
-									
-										
-
-
-
-
-													<!--end: Form Wizard Step 1-->
-
-													<!--begin: Form Wizard Step 2-->
+													<!--begin: Form Wizard Step 3-->
 													<div class="kt-wizard-v4__content" data-ktwizard-type="step-content">
 													<div class="kt-form__section kt-form__section--first">
 										<div class="tab-content" style="background:#f2f3f8;overflow:scroll;height:800px">
@@ -857,245 +871,6 @@ function goBack() {
 							</div>
 									</div>
 									</div>
-
-													<!--end: Form Wizard Step 2-->
-
-													<!--begin: Form Wizard Step 3-->
-													<div class="kt-wizard-v4__content" data-ktwizard-type="step-content" data-ktwizard-state="current">
-														<div class="kt-form__section kt-form__section--first">
-														<div class="row">
-								<div class="col-xl-9">
-
-									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Transaksi</div><br><br>
-										<div class="kt-portlet__body">
-											<div class="kt-portlet__content">
-											<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_2">
-
-  <tbody><tr style="text-align:center">
-    <td width="1%" bgcolor="#f7fcff">NO</td>
-    <td width="5%" bgcolor="#f7fcff">URAIAN </td>
-    <td width="2%" colspan="2" bgcolor="#f7fcff">JUMLAH KENDARAAN</td>
-    <td width="1%" colspan="2" bgcolor="#f7fcff">VOL</td>
-    <td width="5%" bgcolor="#f7fcff">BIAYA</td>
-    <td width="5%" bgcolor="#f7fcff">JUMLAH</td>
-    <td width="1%" bgcolor="#f7fcff">AKSI</td>
-  </tr>
-  <tr style="text-align:center">
-    <td bgcolor="#f5f5f5">a</td>
-    <td bgcolor="#f5f5f5">b</td>
-    <td colspan="2" bgcolor="#f5f5f5">c</td>
-    <td colspan="2" bgcolor="#f5f5f5">d</td>
-    <td bgcolor="#f5f5f5">e</td>
-    <td bgcolor="#f5f5f5">f</td>
-    <td bgcolor="#f5f5f5">&nbsp;</td>
-  </tr>
-  <tr>
-    <td style="text-align:center">1</td>
-    <td colspan="8"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Biaya Membership Parkir"></td>
-  </tr>
-  <tr>
-    <td rowspan="2" style="text-align:center">&nbsp;</td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Mobil" /></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1" /></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit" /></td>
-    <td><select class="form-control kt-selectpicker" data-live-search="true">
-                              <option value="AK">1</option>
-                              <option value="HI">2</option>
-                              <option value="HI">3</option>
-                              <option value="HI">4</option>
-                              <option value="HI">5</option>
-                            </select></td>
-    <td><select class="form-control kt-selectpicker" data-live-search="true">
-                              <option value="AK">Hari</option>
-      <option value="AK">Minggu</option>
-      <option value="HI">Bulan</option>
-      <option value="HI">Tahun</option>
-                            </select></td>
-     <td><div class="input-group input-group-sm" >
-														<div class="input-group-prepend" ><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="650.000" aria-describedby="basic-addon1">
-														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-													</div></td>
-    <td><div class="input-group input-group-sm">
-														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="4.550.000" aria-describedby="basic-addon1">
-														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-													</div></td>
-    <td style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
-  <tr>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Motor" /></td>
-     <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1" /></td>
-     <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit" /></td>
-    <td><select class="form-control kt-selectpicker" data-live-search="true">
-                              <option value="AK">1</option>
-                              <option value="HI">2</option>
-                              <option value="HI">3</option>
-                              <option value="HI">4</option>
-                              <option value="HI">5</option>
-                            </select></td>
-    <td><select class="form-control kt-selectpicker" data-live-search="true">
-                              <option value="AK">Hari</option>
-      <option value="AK">Minggu</option>
-      <option value="HI">Bulan</option>
-      <option value="HI">Tahun</option>
-                            </select></td>
-     <td><div class="input-group input-group-sm" >
-														<div class="input-group-prepend" ><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="650.000" aria-describedby="basic-addon1">
-														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-													</div></td>
-    <td><div class="input-group input-group-sm">
-														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="4.550.000" aria-describedby="basic-addon1">
-														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-													</div></td>
-    <td style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
-  <tr>
-    <td style="text-align:center">2</td>
-    <td colspan="5"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Biaya Layanan" /></td>
-    <td><div class="input-group input-group-sm" >
-      <div class="input-group-prepend" ><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="1.000.000" aria-describedby="basic-addon1">
-      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-    </div></td>
-    <td><div class="input-group input-group-sm">
-      <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-      <input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="7.000.000" aria-describedby="basic-addon1">
-      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-      </div></td>
-    
-    <td style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
-  
-  
-  <tr>
-    <td colspan="9" style="text-align:center">&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="7" style="text-align:right">SUB TOTAL BIAYA</td>
-    <td style="text-align:center"><div class="input-group input-group-sm">
-														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="40.550.000" aria-describedby="basic-addon1">
-														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-													</div></td>
-    <td rowspan="3" style="text-align:center">&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="7" style="text-align:right">PAJAK</td>
-    <td style="text-align:center"><div class="input-group input-group-sm">
-														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="40.550.000" aria-describedby="basic-addon1">
-														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-													</div></td>
-    </tr>
-  
-  <tr>
-    <td colspan="7" style="text-align:right" bgcolor="#feffed"><b>GRAND TOTAL </b></td>
-    <td bgcolor="#feffed"><div class="input-group input-group-sm">
-														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-														<input type="text" style="text-align:right" class="form-control form-control-sm" disabled="disabled" placeholder="40.550.000" aria-describedby="basic-addon1">
-														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-													</div></td>
-    </tr>
-  <tr>
-    <td colspan="9" style="text-align:center">&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="9" style="text-align:left" bgcolor="#f7fcff"><b>Terbilang :</b></td>
-  </tr>
-</tbody></table>
-												
-						
-                     
-						
-                     
-					  
-                     
-									</div>
-									
-
-									</div>
-
-
-									</div>
-							<!--end:: Portlet-->
-
-
-										</div>
-										<div class="col-xl-3">
-
-									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Transaksi</div><br><br>
-										<div class="kt-portlet__body">
-											<div class="kt-portlet__content">
-												<div class="form-group row">
-
-						<div class="col-lg-6">
-                          <label>ID Transaksi :</label>
-                         <input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="000001PS823">
-
-                        </div>
-						<div class="col-lg-6">
-                          <label>ID Pembayaran :</label>
-                         <input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="000001PMPS823">
-
-                        </div>
-						
-                        </div>
-						 <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						  
-						
-						  
-
-
-
-
-											</div>
-
-										</div>
-
-									</div>
-<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Pembayaran</div><br><br>
-										<div class="kt-portlet__body">
-											<div class="kt-portlet__content">
-												
-						 
-						  
-						
-						  <table class="table table-bordered table-hover table-checkable" id="kt_repeater_1">
-																								<thead>
-																								<tr style="text-align:center">
-																								  <td bgcolor="#f7fcff">PAYMENT</td>
-    </tr>
-																								<thead>
-																									<tbody data-repeater-list="">
-																								
-																							</tbody>
-																							<tfoot>
-																							</tfoot>
-																						</table>
-
-
-
-
-											</div>
-
-										</div>
-
-									</div>
-									</div>
-									
-									</div>
-
-											
-													</div>
-													</div>
 
 													<!--end: Form Wizard Step 3-->
 
