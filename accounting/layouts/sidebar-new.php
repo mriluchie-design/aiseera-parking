@@ -235,7 +235,7 @@
 															</div>
 														</li>
 											
-												<li class="kt-menu__item" aria-haspopup="true"><a href="kontak.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kontak</span></a></li>
+												<li class="kt-menu__item" aria-haspopup="true"><a href="project.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Project</span></a></li>
 												<li class="kt-menu__item" aria-haspopup="true"><a href="kalender.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kalender</span></a></li>
 												<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="transaksi-berulang.php" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Transaksi Berulang</span></a></li>
 												<li class="kt-menu__item" aria-haspopup="true"><a href="transaksi-favorit.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Transaksi Favorit</span></a></li>
