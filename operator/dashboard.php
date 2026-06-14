@@ -1179,11 +1179,11 @@
 													<div class="kt-widget6__item">
 														<span>IP Controller </span>
 														<span>192.168.0.123</span>
-													</div>&nbsp;
+													</div>
 													<div class="kt-widget6__item">
 														<span>IP Barrier Gate</span>
 														<span>192.168.0.124</span>
-													</div>&nbsp;
+													</div>
 													<div class="kt-widget6__item">
 														<span>IP Member Reader</span>
 														<span>192.168.0.125</span>
@@ -1439,11 +1439,11 @@
 													<div class="kt-widget6__item">
 														<span>IP Controller </span>
 														<span>192.168.0.123</span>
-													</div>&nbsp;
+													</div>
 													<div class="kt-widget6__item">
 														<span>IP Barrier Gate</span>
 														<span>192.168.0.124</span>
-													</div>&nbsp;
+													</div>
 													<div class="kt-widget6__item">
 														<span>IP Member Reader</span>
 														<span>192.168.0.125</span>
@@ -1690,11 +1690,11 @@
 													<div class="kt-widget6__item">
 														<span>IP Controller </span>
 														<span>192.168.0.123</span>
-													</div>&nbsp;
+													</div>
 													<div class="kt-widget6__item">
 														<span>IP Barrier Gate</span>
 														<span>192.168.0.124</span>
-													</div>&nbsp;
+													</div>
 													<div class="kt-widget6__item">
 														<span>IP Member Reader</span>
 														<span>192.168.0.125</span>
@@ -1933,11 +1933,11 @@
 													<div class="kt-widget6__item">
 														<span>IP Controller </span>
 														<span>192.168.0.123</span>
-													</div>&nbsp;
+													</div>
 													<div class="kt-widget6__item">
 														<span>IP Barrier Gate</span>
 														<span>192.168.0.124</span>
-													</div>&nbsp;
+													</div>
 													<div class="kt-widget6__item">
 														<span>IP Member Reader</span>
 														<span>192.168.0.125</span>
