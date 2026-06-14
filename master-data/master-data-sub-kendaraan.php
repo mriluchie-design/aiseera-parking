@@ -30,7 +30,7 @@
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Sub Kategori Kendaraan</span>
+											Kategori Kendaraan</span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
 										</form>
@@ -336,7 +336,7 @@
 										  <tr>
 										    <td id="kt_table_1" style="text-align:right">6</td>
 										    <td style="text-align:center" nowrap><span class="btn btn-brand btn-sm">Masuk</span></td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">Member</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Member</span></td>
 										    <td nowrap="nowrap" style="text-align:left"><span style="text-align:left">Motor</span></td>
 										    <td nowrap="nowrap" style="text-align:left">-</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -364,7 +364,7 @@
 										  <tr>
 										    <td id="kt_table_1" style="text-align:right">7</td>
 										    <td style="text-align:center" nowrap><span class="btn btn-brand btn-sm">Masuk</span></td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">Member</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Member</span></td>
 										    <td nowrap="nowrap" style="text-align:left"><span style="text-align:left">Motor</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Pegawai / Instansi / Others</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -392,7 +392,7 @@
 										  <tr>
 										    <td id="kt_table_1" style="text-align:right">8</td>
 										    <td style="text-align:center" nowrap><span class="btn btn-brand btn-sm">Masuk</span></td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">Member</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Member</span></td>
 										    <td style="text-align:left" nowrap>Mobil</td>
 										    <td nowrap="nowrap" style="text-align:left">Sedan / Jeep / Pickup</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -420,7 +420,7 @@
 										  <tr>
 										    <td id="kt_table_1" style="text-align:right">9</td>
 										    <td style="text-align:center" nowrap><span class="btn btn-brand btn-sm">Masuk</span></td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">Member</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Member</span></td>
 										    <td style="text-align:left" nowrap>Mobil</td>
 										     <td nowrap="nowrap" style="text-align:left">Truck / Tronton / Trailer</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -448,7 +448,7 @@
 										  <tr>
 										    <td id="kt_table_1" style="text-align:right">10</td>
 										    <td style="text-align:center" nowrap><span class="btn btn-brand btn-sm">Masuk</span></td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">Member</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Member</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Mobil</td>
 										    <td nowrap="nowrap" style="text-align:left">Pegawai / Instansi / Others</td>
 										   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -735,7 +735,7 @@
 										  <tr>
 										    <td id="kt_table_1" style="text-align:right">20</td>
 										    <td style="text-align:center" nowrap><span class="btn btn-success btn-sm">Keluar</span></td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">Member</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Member</span></td>
 										    <td nowrap="nowrap" style="text-align:left"><span style="text-align:left">Motor</span></td>
 										    <td nowrap="nowrap" style="text-align:left">-</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -763,7 +763,7 @@
 										  <tr>
 										    <td id="kt_table_1" style="text-align:right">21</td>
 										    <td style="text-align:center" nowrap><span class="btn btn-success btn-sm">Keluar</span></td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">Member</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Member</span></td>
 										    <td nowrap="nowrap" style="text-align:left"><span style="text-align:left">Motor</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Pegawai / Instansi / Others</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -791,7 +791,7 @@
 										  <tr>
 										    <td id="kt_table_1" style="text-align:right">22</td>
 										    <td style="text-align:center" nowrap><span class="btn btn-success btn-sm">Keluar</span></td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">Member</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Member</span></td>
 										    <td style="text-align:left" nowrap>Mobil</td>
 										    <td nowrap="nowrap" style="text-align:left">Sedan / Jeep / Pickup</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -819,7 +819,7 @@
 										  <tr>
 										    <td id="kt_table_1" style="text-align:right">23</td>
 										    <td style="text-align:center" nowrap><span class="btn btn-success btn-sm">Keluar</span></td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">Member</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Member</span></td>
 										    <td style="text-align:left" nowrap>Mobil</td>
 										     <td nowrap="nowrap" style="text-align:left">Truck / Tronton / Trailer</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -847,7 +847,7 @@
 										  <tr>
 										    <td id="kt_table_1" style="text-align:right">24</td>
 										    <td style="text-align:center" nowrap><span class="btn btn-success btn-sm">Keluar</span></td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">Member</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Member</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Mobil</td>
 										    <td nowrap="nowrap" style="text-align:left">Pegawai / Instansi / Others</td>
 										   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -1167,7 +1167,7 @@
 											<div class="kt-portlet kt-portlet--mobile ">
 											<div class="kt-portlet__head">
 											<div class="kt-portlet__head-label">
-												<span class="kt-portlet__head-icon"><i class="kt-font-danger fa fa-car"></i></span>
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-clipboard-list"></i></span>
 												<h3 class="kt-portlet__head-title kt-font-brand kt-bold">TAMBAH JENIS KENDARAAN</h3>
 											</div>
 											<div class="kt-portlet__head-toolbar">
@@ -1256,6 +1256,8 @@
 							
 									
         </div>
+    </div>
+    </div>
     </div>
 
 <?php require '../layouts/footer.php' ?>

@@ -275,7 +275,7 @@
 															</span>
 
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:24px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">105</span>
+																<span style="color:#ed1c24; font-size:20px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">105</span>
 															
 															</span>
 														</div>
@@ -284,7 +284,7 @@
 																Mobil
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">35</span>
+																<span style="color:#ed1c24; font-size:20px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">35</span>
 															</span>
 														</div>
 														
@@ -294,7 +294,7 @@
 																Motor
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">70</span>
+																<span style="color:#ed1c24; font-size:20px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">70</span>
 															</span>
 														</div>
 														
@@ -367,19 +367,19 @@
 												<td class="text-center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Card ID : 12321355123123211<hr>Reff ID : 000001PGTEM0626&lt;hr&gt;e-Money&lt;hr&gt;Mandiri" data-html="true">e-Money</span></td>
 												<td nowrap="nowrap" style="text-align:left"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm">Full</span></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-youtube btn-sm">Full</span></td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
 												  16:46:00 WITA</td>
 												<td style="text-align:center">1<hr />Keluar
 												  <hr />
 												  Mobil - 1</td>
-												<td class="text-center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Tamu" data-html="true">Free Pass</span></td>
+												<td class="text-center"><span class="btn btn-label-youtube btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Tamu" data-html="true">Free Pass</span></td>
 												<td style="text-align:center" nowrap>04 Jam
 												  <hr />10 Menit<hr />
 												  01 Detik</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/keluar-mobil.png" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Keluar Gate<hr>1 September 2026
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Keluar Gate<hr>1 September 2026
 												  <hr />
 												  20:46:00 WITA" data-html="true">Selesai</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -401,24 +401,24 @@
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
 												  15:36:00 WITA</td>
-												<td class="text-center"><span class="btn btn-label-linkedin btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000001INTQR0626<hr>Reff ID : 000002PGTQR0626&lt;hr&gt;QRIS&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
+												<td class="text-center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000001INTQR0626<hr>Reff ID : 000002PGTQR0626&lt;hr&gt;QRIS&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td nowrap="nowrap" style="text-align:left"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LLU</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-skype btn-sm">1 Jam</span></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-youtube btn-sm">1 Jam</span></td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
 												  17:36:00 WITA</td>
 												<td style="text-align:center">2<hr />Keluar
 												  <hr />
 										    Motor - 1</td>
-												<td class="text-center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Tamu" data-html="true">Free Pass</span></td>
+												<td class="text-center"><span class="btn btn-label-youtube btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Tamu" data-html="true">Free Pass</span></td>
 												<td style="text-align:center" nowrap>00 Jam
 												  <hr />
 												  14 Menit
 												  <hr />
 											    30 Detik</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/foto-motor-masuk.png" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Keluar Gate<hr>1 September 2026
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Keluar Gate<hr>1 September 2026
 												  <hr />
 												  17:50:00 WITA" data-html="true">Selesai</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -443,7 +443,7 @@
 												<td class="text-center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Card ID : 12321355123123211<hr>Reff ID : 000001PGTEM0626&lt;hr&gt;e-Money&lt;hr&gt;Mandiri" data-html="true">e-Money</span></td>
 												<td nowrap="nowrap" style="text-align:left"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-skype btn-sm">2 Jam</span></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-youtube btn-sm">2 Jam</span></td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
 												  19:46:00 WITA</td>
@@ -455,7 +455,7 @@
 												  <hr />10 Menit<hr />
 												  01 Detik</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/keluar-mobil.png" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Keluar Gate<hr>1 September 2026
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Keluar Gate<hr>1 September 2026
 												  <hr />
 												  19:50:00 WITA" data-html="true">Selesai</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -477,10 +477,10 @@
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
 												  15:36:00 WITA</td>
-												<td class="text-center"><span class="btn btn-label-linkedin btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000001INTQR0626<hr>Reff ID : 000002PGTQR0626&lt;hr&gt;QRIS&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
+												<td class="text-center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000001INTQR0626<hr>Reff ID : 000002PGTQR0626&lt;hr&gt;QRIS&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td nowrap="nowrap" style="text-align:left"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LLU</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-skype btn-sm">3 Jam</span></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-youtube btn-sm">3 Jam</span></td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
 												  20:36:00 WITA</td>
