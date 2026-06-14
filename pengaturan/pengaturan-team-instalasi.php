@@ -333,13 +333,13 @@
 																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 																	<ul class="kt-nav">
 																	<li class="kt-nav__item">
-																			<a href="pegawai-detail.php" class="kt-nav__link">
+																			<a href="project-detail.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-eye"></i>
 																				<span class="kt-nav__link-text">Lihat Detail Project</span>
 																			</a>
 																		</li>
                                                                         <li class="kt-nav__item">
-																			<a href="pegawai-detail.php" class="kt-nav__link">
+																			<a href="project-edit.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-edit"></i>
 																				<span class="kt-nav__link-text">Edit</span>
 																			</a>
@@ -368,9 +368,22 @@
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
-												      <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail Project</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
-											        </ul>
+																	<li class="kt-nav__item">
+																			<a href="project-detail.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Lihat Detail Project</span>
+																			</a>
+																		</li>
+                                                                        <li class="kt-nav__item">
+																			<a href="project-edit.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		
+																		
+																		
+																	</ul>
 											      </div>
 												  </div></td>
 										  </tr>
@@ -391,9 +404,22 @@
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
-												      <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail Project</span></a></li>
-												      <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
-											        </ul>
+																	<li class="kt-nav__item">
+																			<a href="project-detail.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Lihat Detail Project</span>
+																			</a>
+																		</li>
+                                                                        <li class="kt-nav__item">
+																			<a href="project-edit.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		
+																		
+																		
+																	</ul>
 											      </div>
 												  </div></td>
 										  </tr>
@@ -414,9 +440,22 @@
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
-												      <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail Project</span></a></li>
-												      <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
-											        </ul>
+																	<li class="kt-nav__item">
+																			<a href="project-detail.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Lihat Detail Project</span>
+																			</a>
+																		</li>
+                                                                        <li class="kt-nav__item">
+																			<a href="project-edit.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		
+																		
+																		
+																	</ul>
 											      </div>
 												  </div></td>
 										  </tr>
@@ -438,9 +477,22 @@
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
-												      <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail Project</span></a></li>
-												      <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
-											        </ul>
+																	<li class="kt-nav__item">
+																			<a href="project-detail.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Lihat Detail Project</span>
+																			</a>
+																		</li>
+                                                                        <li class="kt-nav__item">
+																			<a href="project-edit.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		
+																		
+																		
+																	</ul>
 											      </div>
 												  </div></td>
 										  </tr>
@@ -461,9 +513,22 @@
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
-												      <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail Project</span></a></li>
-												      <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
-											        </ul>
+																	<li class="kt-nav__item">
+																			<a href="project-detail.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Lihat Detail Project</span>
+																			</a>
+																		</li>
+                                                                        <li class="kt-nav__item">
+																			<a href="project-edit.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		
+																		
+																		
+																	</ul>
 											      </div>
 												  </div></td>
 										  </tr>
@@ -484,9 +549,22 @@
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
       <ul class="kt-nav">
-        <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail Project</span> </a> </li>
-        <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
-        </ul>
+																	<li class="kt-nav__item">
+																			<a href="project-detail.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Lihat Detail Project</span>
+																			</a>
+																		</li>
+                                                                        <li class="kt-nav__item">
+																			<a href="project-edit.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		
+																		
+																		
+																	</ul>
       </div>
   </div></td>
   </tr>
@@ -507,9 +585,22 @@
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
       <ul class="kt-nav">
-        <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail Project</span></a></li>
-        <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
-        </ul>
+																	<li class="kt-nav__item">
+																			<a href="project-detail.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Lihat Detail Project</span>
+																			</a>
+																		</li>
+                                                                        <li class="kt-nav__item">
+																			<a href="project-edit.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		
+																		
+																		
+																	</ul>
       </div>
   </div></td>
   </tr>
@@ -530,9 +621,22 @@
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
       <ul class="kt-nav">
-        <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail Project</span></a></li>
-        <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
-        </ul>
+																	<li class="kt-nav__item">
+																			<a href="project-detail.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Lihat Detail Project</span>
+																			</a>
+																		</li>
+                                                                        <li class="kt-nav__item">
+																			<a href="project-edit.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		
+																		
+																		
+																	</ul>
       </div>
   </div></td>
   </tr>
@@ -553,9 +657,22 @@
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
       <ul class="kt-nav">
-        <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail Project</span></a></li>
-        <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
-        </ul>
+																	<li class="kt-nav__item">
+																			<a href="project-detail.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Lihat Detail Project</span>
+																			</a>
+																		</li>
+                                                                        <li class="kt-nav__item">
+																			<a href="project-edit.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		
+																		
+																		
+																	</ul>
       </div>
   </div></td>
   </tr>
@@ -576,9 +693,22 @@
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
       <ul class="kt-nav">
-        <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail Project</span></a></li>
-        <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
-        </ul>
+																	<li class="kt-nav__item">
+																			<a href="project-detail.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Lihat Detail Project</span>
+																			</a>
+																		</li>
+                                                                        <li class="kt-nav__item">
+																			<a href="project-edit.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		
+																		
+																		
+																	</ul>
       </div>
   </div></td>
   </tr>
@@ -599,9 +729,22 @@
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
       <ul class="kt-nav">
-        <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail Project</span></a></li>
-        <li class="kt-nav__item"> <a href="pegawai-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
-        </ul>
+																	<li class="kt-nav__item">
+																			<a href="project-detail.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Lihat Detail Project</span>
+																			</a>
+																		</li>
+                                                                        <li class="kt-nav__item">
+																			<a href="project-edit.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		
+																		
+																		
+																	</ul>
       </div>
   </div></td>
   </tr>
