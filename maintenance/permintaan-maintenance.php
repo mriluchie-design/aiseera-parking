@@ -68,6 +68,10 @@
 				
 				
 			</div>
+<a href="form-maintenance.php" class="btn btn-info btn-sm">
+												<i class="fa fa-plus-circle"></i>Buat Permintaan</button>
+												<!--<i class="flaticon2-plus"></i>-->
+											</a>
             </div>
         </div>
     </div>
