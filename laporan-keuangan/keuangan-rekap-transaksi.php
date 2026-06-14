@@ -42,7 +42,7 @@
                     <!--begin::Nav-->
                     <ul class="kt-nav">
                         <li class="kt-nav__item">
-                            <a href="cetak-rekap-transaksi-kendaraan-berangkat.php" class="kt-nav__link">
+                            <a href="cetak-keuangan-rekap-transaksi.php" class="kt-nav__link">
                                 <i class="kt-nav__link-icon fa fa-file-pdf"></i><span class="kt-nav__link-text">PDF</span>
                             </a>
                           </li>
@@ -376,7 +376,7 @@
 											<tr style="text-align:center;">
 											  <th rowspan="2" bgcolor="#f7fcff" id="kt_table_3">#</th>
 											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
-											  <th colspan="6" bgcolor="#f7fcff">Transaksi Kendaraan</th>
+											  <th colspan="5" bgcolor="#f7fcff">Transaksi Kendaraan</th>
 											  <th colspan="2" bgcolor="#f7fcff">Qty</th>
 											  <th colspan="6" bgcolor="#fdfdec">Pembayaran</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
@@ -385,9 +385,8 @@
 											  <th width="1%" bgcolor="#f7fcff">Type</th>
 											  <th width="1%" bgcolor="#f7fcff">Kategori</th>
 											  <th width="1%" bgcolor="#f7fcff">Jenis</th>
-											  <th width="2%" bgcolor="#f7fcff">ID</th>
 											  <th width="5%" bgcolor="#f7fcff">Plat</th>
-											  <th width="8%" bgcolor="#f7fcff">OP</th>
+											  <th width="3%" bgcolor="#f7fcff">OP</th>
 											  <th width="1%" bgcolor="#f7fcff">Vol</th>
 											  <th width="1%" bgcolor="#f7fcff">Satuan</th>
 											  <th width="2%" bgcolor="#fdfdec">ID </th>
@@ -403,9 +402,8 @@
 											  <td id="kt_table_34" style="text-align:right"><strong>1</strong></td>
 											  <td nowrap style="text-align:left">Makassar</td>
 											  <td nowrap style="text-align:left"><span class="btn btn-brand btn-sm" >Masuk</span></td>
-											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm" >Reguler</span></td>
+											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000001INTEM0626" data-html="true">Reguler</span></td>
 											  <td nowrap="nowrap" style="text-align:left">Motor</td>
-											  <td nowrap="nowrap" style="text-align:left">000001INTEM0626</td>
 											  <td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
 											  <td nowrap="nowrap" style="text-align:center">-</td>
 											  <td nowrap style="text-align:left">1</td>
@@ -430,9 +428,8 @@
 											  <td  width="1%" id="kt_table_12" style="text-align:right">2</td>
 											  <td nowrap="nowrap" style="text-align:left">Makassar</td>
 											  <td nowrap style="text-align:left"><span class="btn btn-brand btn-sm" >Masuk</span></td>
-											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm" >Reguler</span></td>
+											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000002INTEM0626" data-html="true">Reguler</span></td>
 											  <td nowrap="nowrap" style="text-align:left">Mobil</td>
-											  <td nowrap="nowrap" style="text-align:left">000002INTEM0626</td>
 											  <td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
 											  <td nowrap="nowrap" style="text-align:center">-</td>
 											  <td nowrap="nowrap" style="text-align:left">1</td>
@@ -457,9 +454,8 @@
 											  <td  width="1%" id="kt_table_12" style="text-align:right">3</td>
 											  <td nowrap="nowrap" style="text-align:left">Makassar</td>
 											  <td nowrap style="text-align:center"><span class="btn btn-brand btn-sm" >Masuk</span></td>
-											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm" >Member</span></td>
+											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000001INMEM0626" data-html="true">Member</span></td>
 											  <td nowrap="nowrap" style="text-align:left">Sepeda Motor</td>
-											  <td nowrap="nowrap" style="text-align:left">000001INMEM0626</td>
 											  <td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
 											  <td nowrap="nowrap" style="text-align:center">-</td>
 											  <td nowrap="nowrap" style="text-align:left">1</td>
@@ -484,9 +480,8 @@
 											  <td  width="1%" id="kt_table_12" style="text-align:right">4</td>
 											  <td nowrap="nowrap" style="text-align:left">Makassar</td>
 											  <td nowrap style="text-align:left"><span class="btn btn-brand btn-sm" >Masuk</span></td>
-											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm" >Member</span></td>
+											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000001INMEM0626" data-html="true">Member</span></td>
 											  <td nowrap="nowrap" style="text-align:left">Sedan/Jeep/Pickup</td>
-											  <td nowrap="nowrap" style="text-align:left">000002INMEM0626</td>
 											  <td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
 											  <td nowrap="nowrap" style="text-align:center">-</td>
 											  <td nowrap="nowrap" style="text-align:left">1</td>
@@ -511,9 +506,8 @@
 										    <td id="kt_table_5" style="text-align:right">5</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap style="text-align:center"><span class="btn btn-brand btn-sm" >Masuk</span></td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline" >Pass Kade</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000002KDTEM0626" data-html="true">Pass Kade</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Truck</td>
-										    <td nowrap="nowrap" style="text-align:left">000002KDTEM0626</td>
 										    <td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 										    <td nowrap="nowrap" style="text-align:left">1</td>
@@ -538,9 +532,8 @@
 										    <td id="kt_table_13" style="text-align:right">6</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm" >Masuk</span></td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline" >Pass Orang</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="001TRORGEM0526" data-html="true">Pass Orang</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Orang</td>
-										    <td nowrap="nowrap" style="text-align:left">001TRORGEM0526</td>
 										    <td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 										    <td nowrap="nowrap" style="text-align:left">3</td>
@@ -566,9 +559,8 @@
 										    <td id="kt_table_8" style="text-align:right">7</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:left"><span class="btn btn-success btn-sm" >Keluar</span></td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm" >Reguler</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000001LETEM0626" data-html="true">Reguler</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Motor</td>
-										    <td nowrap="nowrap" style="text-align:left">000001LETEM0626</td>
 										    <td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
 										    <td nowrap="nowrap" style="text-align:center">-</td>
 										    <td nowrap="nowrap" style="text-align:left">1</td>
@@ -594,9 +586,8 @@
 										    <td id="kt_table_7" style="text-align:right">8</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:left"><span class="btn btn-success btn-sm" >Keluar</span></td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm" >Reguler</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000002LETEM0626" data-html="true">Reguler</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Mobil</td>
-										    <td nowrap="nowrap" style="text-align:left">000002LETEM0626</td>
 										    <td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
 										    <td nowrap="nowrap" style="text-align:center">-</td>
 										    <td nowrap="nowrap" style="text-align:left">1</td>
@@ -622,9 +613,8 @@
 										    <td id="kt_table_6" style="text-align:right">9</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:left"><span class="btn btn-success btn-sm" >Keluar</span></td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm" >Member</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000001LEMEM0626" data-html="true">Member</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Pegawai/Instansi/Others</td>
-										    <td nowrap="nowrap" style="text-align:left">000001LEMEM0626</td>
 										    <td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
 										    <td nowrap="nowrap" style="text-align:center">-</td>
 										    <td nowrap="nowrap" style="text-align:left">1</td>
@@ -647,9 +637,8 @@
 										    <td id="kt_table_4" style="text-align:right">10</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:left"><span class="btn btn-success btn-sm" >Keluar</span></td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm" >Member</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000002LEMEM0626" data-html="true">Member</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Truck/Tronton/Trailer</td>
-										    <td nowrap="nowrap" style="text-align:left">000002LEMEM0626</td>
 										    <td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
 										    <td nowrap="nowrap" style="text-align:center">-</td>
 										    <td nowrap="nowrap" style="text-align:left">1</td>
@@ -672,9 +661,8 @@
 										    <td id="kt_table_2" style="text-align:right">11</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm" >Keluar</span></td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline" >Berangkat</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000001GOTEM0626" data-html="true">Berangkat</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Motor</td>
-										    <td nowrap="nowrap" style="text-align:left">000001GOTEM0626</td>
 										    <td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 										    <td nowrap="nowrap" style="text-align:left">1</td>
@@ -700,9 +688,8 @@
 										    <td id="kt_table_2" style="text-align:right">12</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:left"><span class="btn btn-success btn-sm" >Keluar</span></td>
-										    <td nowrap="nowrap" style="text-align:left"><span class="btn btn-label-skype btn-sm" >Muatan Kapal</span></td>
+										    <td nowrap="nowrap" style="text-align:left"><span class="btn btn-label-skype btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000001MKTEM0626" data-html="true">Muatan Kapal</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Mobil</td>
-										    <td nowrap="nowrap" style="text-align:left">000001MKTEM0626</td>
 										    <td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 										    <td nowrap="nowrap" style="text-align:left">1</td>
@@ -728,9 +715,8 @@
 										    <td id="kt_table_2" style="text-align:right">13</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:left"><span class="btn btn-success btn-sm" >Keluar</span></td>
-										    <td nowrap="nowrap" style="text-align:left"><span class="btn btn-label-skype btn-sm" >Muatan Kapal</span></td>
+										    <td nowrap="nowrap" style="text-align:left"><span class="btn btn-label-skype btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000002MKTEM0626" data-html="true">Muatan Kapal</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Motor</td>
-										    <td nowrap="nowrap" style="text-align:left">000002MKTEM0626</td>
 										    <td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 										    <td nowrap="nowrap" style="text-align:left">1</td>
@@ -756,9 +742,8 @@
 										    <td id="kt_table_2" style="text-align:right">14</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm" >Keluar</span></td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-youtube btn-sm" >Free Pass</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-youtube btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000001FPASS0626" data-html="true">Free Pass</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Mobil</td>
-										    <td nowrap="nowrap" style="text-align:left">000001FPASS0626</td>
 										    <td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 										    <td nowrap="nowrap" style="text-align:left">1</td>
@@ -782,9 +767,8 @@
 										    <td id="kt_table_9" style="text-align:right">15</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm" >Keluar</span></td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-youtube btn-sm" >Free Pass</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-youtube btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000002FPASS0626" data-html="true">Free Pass</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Mobil</td>
-										    <td nowrap="nowrap" style="text-align:left">000001FPASS0626</td>
 										    <td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 										    <td nowrap="nowrap" style="text-align:left">1</td>
@@ -810,9 +794,8 @@
 										    <td id="kt_table_2" style="text-align:right">16</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm" >Keluar</span></td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-danger btn-sm" >Denda</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000002DENDA0626" data-html="true">Denda</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Mobil</td>
-										    <td nowrap="nowrap" style="text-align:left">000002GOTEM0626</td>
 										    <td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
 										    <td nowrap="nowrap" style="text-align:center">-</td>
 										    <td nowrap="nowrap" style="text-align:left">1</td>
