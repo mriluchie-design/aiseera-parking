@@ -457,7 +457,7 @@
 											  <td  width="1%" id="kt_table_12" style="text-align:right">3</td>
 											  <td nowrap="nowrap" style="text-align:left">Makassar</td>
 											  <td nowrap style="text-align:center"><span class="btn btn-brand btn-sm" >Masuk</span></td>
-											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-linkedin btn-sm" >Member</span></td>
+											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm" >Member</span></td>
 											  <td nowrap="nowrap" style="text-align:left">Sepeda Motor</td>
 											  <td nowrap="nowrap" style="text-align:left">000001INMEM0626</td>
 											  <td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
@@ -484,7 +484,7 @@
 											  <td  width="1%" id="kt_table_12" style="text-align:right">4</td>
 											  <td nowrap="nowrap" style="text-align:left">Makassar</td>
 											  <td nowrap style="text-align:left"><span class="btn btn-brand btn-sm" >Masuk</span></td>
-											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-linkedin btn-sm" >Member</span></td>
+											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm" >Member</span></td>
 											  <td nowrap="nowrap" style="text-align:left">Sedan/Jeep/Pickup</td>
 											  <td nowrap="nowrap" style="text-align:left">000002INMEM0626</td>
 											  <td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
@@ -622,7 +622,7 @@
 										    <td id="kt_table_6" style="text-align:right">9</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:left"><span class="btn btn-success btn-sm" >Keluar</span></td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-linkedin btn-sm" >Member</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm" >Member</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Pegawai/Instansi/Others</td>
 										    <td nowrap="nowrap" style="text-align:left">000001LEMEM0626</td>
 										    <td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
@@ -647,7 +647,7 @@
 										    <td id="kt_table_4" style="text-align:right">10</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:left"><span class="btn btn-success btn-sm" >Keluar</span></td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-linkedin btn-sm" >Member</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm" >Member</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Truck/Tronton/Trailer</td>
 										    <td nowrap="nowrap" style="text-align:left">000002LEMEM0626</td>
 										    <td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
@@ -810,7 +810,7 @@
 										    <td id="kt_table_2" style="text-align:right">16</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm" >Keluar</span></td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-danger btn-sm" >Denda</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-danger btn-sm" >Denda</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Mobil</td>
 										    <td nowrap="nowrap" style="text-align:left">000002GOTEM0626</td>
 										    <td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>

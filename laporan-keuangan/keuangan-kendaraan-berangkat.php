@@ -377,6 +377,7 @@
 											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
 											  <th colspan="5" bgcolor="#f7fcff">Kendaraan Berangkat</th>
 											  <th colspan="6" bgcolor="#fdfdec">Pembayaran</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Status Transaksi</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 									      </tr>
 											<tr style="text-align:center">
@@ -408,6 +409,7 @@
 											  <td nowrap style="text-align:center"><span class="btn btn-label-brand btn-sm" >eMoney</span></td>
 											  <td>Mandiri</td>
 											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>8.000,-</span></div></td>
+											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Selesai</span></td>
 											  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 											     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 											       <ul class="kt-nav">
@@ -432,6 +434,7 @@
 											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm" >eMoney</span></td>
 											  <td>BNI Tapcash</td>
 											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>15.000,-</span></div></td>
+											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Selesai</span></td>
 											  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 											     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 											       <ul class="kt-nav">
@@ -456,6 +459,7 @@
 											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm" >QRIS</span></td>
 											  <td>OVO</td>
 											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>15.000,-</span></div></td>
+											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Selesai</span></td>
 											  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 											     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 											       <ul class="kt-nav">
@@ -480,6 +484,7 @@
 											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm" >QRIS</span></td>
 											  <td>DANA</td>
 											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>15.000,-</span></div></td>
+											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Selesai</span></td>
 											  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 											     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 											       <ul class="kt-nav">
@@ -493,7 +498,7 @@
 										  <tr>
 										    <td id="kt_table_5" style="text-align:right">5</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-danger btn-sm" >Denda</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm" >Reguler</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Motor</td>
 										    <td nowrap="nowrap" style="text-align:left">000003DENDA0626</td>
 										    <td nowrap="nowrap" style="text-align:left">DD 1111 LU</td>
@@ -504,6 +509,7 @@
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm" >QRIS</span></td>
 										    <td>DANA</td>
 										    <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>20.000,-</span></div></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-danger btn-sm">Denda</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 											     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 											       <ul class="kt-nav">

@@ -367,7 +367,7 @@
 																Reguler - Mobil
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">11</span>
+																<span style="color:#ed1c24; font-size:20px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">11</span>
 															</span>
 														</div>
 														<div class="kt-widget17__item">
@@ -375,7 +375,7 @@
 																Reguler - Motor
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">0</span>
+																<span style="color:#ed1c24; font-size:20px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">0</span>
 															</span>
 														</div>
 														<div class="kt-widget17__item">
@@ -383,7 +383,7 @@
 																Member Mobil
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">1</span>
+																<span style="color:#ed1c24; font-size:20px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">1</span>
 															</span>
 														</div>
 														<div class="kt-widget17__item">
@@ -391,7 +391,7 @@
 																Member Motor
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">0</span>
+																<span style="color:#ed1c24; font-size:20px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">0</span>
 															</span>
 														</div>
 														
@@ -409,7 +409,7 @@
 																Pass Kade
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">3</span>
+																<span style="color:#ed1c24; font-size:20px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">3</span>
 															</span>
 														</div>
 														
@@ -420,7 +420,7 @@
 																Muatan Kapal
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">2</span>
+																<span style="color:#ed1c24; font-size:20px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">2</span>
 															</span>
 														</div>
 														<div class="kt-widget17__item">
@@ -428,7 +428,7 @@
 																Berangkat
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">2</span>
+																<span style="color:#ed1c24; font-size:20px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">2</span>
 															</span>
 														</div>
 														<div class="kt-widget17__item">
@@ -436,7 +436,7 @@
 																Free Pass
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">3</span>
+																<span style="color:#ed1c24; font-size:20px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">3</span>
 															</span>
 														</div>
 														<div class="kt-widget17__item">
@@ -444,7 +444,7 @@
 																Kendaraan Parkir
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">2</span>
+																<span style="color:#ed1c24; font-size:20px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">2</span>
 															</span>
 														</div>
 														
@@ -554,7 +554,7 @@
 												  -
 												  <hr />
 												  -<hr />-<hr />-</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Selesai</span></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Selesai</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -609,7 +609,7 @@
 												  -
 												  <hr />
 												  -<hr />-<hr />-</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Selesai</span></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Selesai</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												     <ul class="kt-nav">
@@ -719,7 +719,7 @@
 												  -
 												  <hr />
 												  -<hr />-<hr />-</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Selesai</span></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Selesai</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												     <ul class="kt-nav">
@@ -742,7 +742,7 @@
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  15:40:30 WITA<hr /><span class="btn btn-label-linkedin btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123212<hr>Mobil" data-html="true">Member</span><hr />-</td>
+												  15:40:30 WITA<hr /><span class="btn btn-label-twitter btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123212<hr>Mobil" data-html="true">Member</span><hr />-</td>
 												<td style="text-align:center">1<hr />Masuk<hr>Mobil - 1</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
 												<td nowrap="nowrap" style="text-align:center">-<hr />
@@ -761,7 +761,7 @@
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  16:40:30 WITA<hr /><span class="btn btn-label-linkedin btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123212<hr>Mobil" data-html="true">Member</span><hr />-</td>
+												  16:40:30 WITA<hr /><span class="btn btn-label-twitter btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123212<hr>Mobil" data-html="true">Member</span><hr />-</td>
 												<td style="text-align:center">1<hr />Keluar
 												  <hr />
 												  Mobil - 1</td>
@@ -774,7 +774,7 @@
 												  -
 												  <hr />
 												  -<hr />-<hr />-</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-linkedin btn-sm">Member</span></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Member</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												     <ul class="kt-nav">
@@ -829,7 +829,7 @@
 												  -
 												  <hr />
 												  -<hr />-<hr />-</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Selesai</span></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Selesai</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												     <ul class="kt-nav">
@@ -871,7 +871,7 @@
 												  DD 1111 LUU<hr />
 												  2 September 2026
 												  <hr />
-												  16:40:30 WITA<hr /><span class="btn btn-label-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Denda</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : -&lt;hr&gt;Reff ID : 000003PGTQR0626&lt;hr&gt;Rp. 50.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
+												  16:40:30 WITA<hr /><span class="btn btn-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Denda</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : -&lt;hr&gt;Reff ID : 000003PGTQR0626&lt;hr&gt;Rp. 50.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td style="text-align:center">1<hr />Keluar
 												  <hr />
 												  Mobil - 1</td>
@@ -993,7 +993,7 @@
 												  DD 1111 LUU<hr />
 												  1 September 2026
 												  <hr />
-												  17:40:30 WITA<hr /><span class="btn btn-label-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Denda</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000004INTQR0626&lt;hr&gt;Reff ID : 000003PGTQR0626&lt;hr&gt;Rp. 10.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
+												  17:40:30 WITA<hr /><span class="btn btn-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Mobil" data-html="true">Denda</span><hr /><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000004INTQR0626&lt;hr&gt;Reff ID : 000003PGTQR0626&lt;hr&gt;Rp. 10.000,-&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-skype btn-sm">Berangkat</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -1159,7 +1159,7 @@
 												  -
 												  <hr />
 												  -<hr />-<hr />-</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Selesai</span></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Selesai</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												     <ul class="kt-nav">

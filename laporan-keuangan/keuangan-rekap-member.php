@@ -121,11 +121,11 @@
                                   </select>
     		                    </div>
                              <div class="col-lg-2">
-                                <label>Kategori :</label>
+                                <label>Kategori Member :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected="">Reguler</option>
-                                      <option value="2">Denda</option>
+                                      <option value="2">Instansi</option>
                                       <option value="2">Keseluruhan</option>
                                                                            
                                   </select>
@@ -166,16 +166,7 @@
     		                        </span>
     		                    </div>
     		                    </div>
-								<div class="col-lg-2">
-                                <label>Operator :</label>
 								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Muhammad Nasrullah, S.Kom</option>
-                                      <option value="1">Muhammad Ramadhan, S.T</option>
-                                      <option value="2">Keseluruhan</option>
-                                                                           
-                                  </select>
-                            </div>
 							
 							
 							
@@ -219,8 +210,8 @@
                                 <label>Pembayaran :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">e-Money</option>
-                                      <option value="1">QRIS</option>
+                                      <option value="1" selected="">Virtual Account</option>
+                                      <option value="1">Credit Card</option>
                                       <option value="2">Tunai</option>
                                       <option value="2">Keseluruhan</option>
                                                                            
