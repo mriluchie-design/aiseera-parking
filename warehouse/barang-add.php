@@ -400,11 +400,20 @@ function goBack() {
 											<div class="kt-portlet__content">
 												<div class="form-group row">
 						
-						<div class="col-lg-12">
+						<div class="col-lg-6">
                           <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Lokasi Gudang :</label>
                            <select class="form-control kt-selectpicker" data-live-search="true">
 														<option>Makassar</option>
 														<option>Ambon</option>
+														
+														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+														</select>
+                        </div>
+						<div class="col-lg-6">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Kondisi :</label>
+                           <select class="form-control kt-selectpicker" data-live-search="true">
+														<option>Baru</option>
+														<option>Bekas</option>
 														
 														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 														</select>
