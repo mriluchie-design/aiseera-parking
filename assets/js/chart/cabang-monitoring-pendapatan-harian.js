@@ -71,6 +71,12 @@ Highcharts.chart('container-cabang-monitoring-pendapatan-harian', {
     }, {
         name: 'QRIS',
         data: [2500000, 2500000, 750000, 750000, 0, 0, 0, 688808, 0,]
+    },{
+        name: 'Virtual Account',
+        data: [0, 0, 0, 0, 0, 0, 0, 0, 0,]
+    },{
+        name: 'Credit Card',
+        data: [0, 0, 0, 0, 0, 0, 0, 0, 0,]
     }]
 });
 

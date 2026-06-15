@@ -415,6 +415,93 @@
 													
 													
 
+												</div>
+												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+												<div class="form-group row">
+													
+														<div class="col-lg-3">
+															<label class="kt-option">
+																<span class="kt-option__control">
+																	<span class="kt-radio kt-radio--brand kt-radio--check-bold">
+																		<input type="radio" name="kt_option_1" value="1">
+																		<span></span>
+																	</span>
+																</span>
+																<span class="kt-option__label">
+																	<span class="kt-option__head">
+																		
+																		<span class="btn btn-label-brand btn-sm kt-option__focus">
+																			&nbsp;
+																		</span>
+																	</span>
+																	
+																</span>
+															</label>
+														</div>
+														<div class="col-lg-3">
+															<label class="kt-option">
+																<span class="kt-option__control">
+																	<span class="kt-radio kt-radio--brand kt-radio--check-bold">
+																		<input type="radio" name="kt_option_1" value="1">
+																		<span></span>
+																	</span>
+																</span>
+																<span class="kt-option__label">
+																	<span class="kt-option__head">
+																		
+																		<span class="btn btn-label-danger btn-sm kt-option__focus">
+																			&nbsp;
+																		</span>
+																	</span>
+																	
+																</span>
+															</label>
+														</div>
+														<div class="col-lg-3">
+															<label class="kt-option">
+																<span class="kt-option__control">
+																	<span class="kt-radio kt-radio--brand kt-radio--check-bold">
+																		<input type="radio" name="kt_option_1" value="1">
+																		<span></span>
+																	</span>
+																</span>
+																<span class="kt-option__label">
+																	<span class="kt-option__head">
+																		
+																		<span class="btn btn-label-warning btn-sm kt-option__focus">
+																			&nbsp;
+																		</span>
+																	</span>
+																	
+																</span>
+															</label>
+														</div>
+														<div class="col-lg-3">
+															<label class="kt-option">
+																<span class="kt-option__control">
+																	<span class="kt-radio kt-radio--brand kt-radio--check-bold">
+																		<input type="radio" name="kt_option_1" value="1">
+																		<span></span>
+																	</span>
+																</span>
+																<span class="kt-option__label">
+																	<span class="kt-option__head">
+																		
+																		<span class="btn btn-label-success btn-sm kt-option__focus">
+																			&nbsp;
+																		</span>
+																	</span>
+																	
+																</span>
+															</label>
+														</div>
+													
+
+
+												
+													
+													
+
 												</div>&nbsp;
 												
 											

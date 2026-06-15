@@ -136,6 +136,7 @@
 </svg></span><span class="kt-menu__link-text">Operasional</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
 									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
 										<ul class="kt-menu__subnav">
+											<li class="kt-menu__item" aria-haspopup="true"><a href="operator-shift.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Shift Operator</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="operator-kesiapan-operasional.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kesiapan Operasional</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="operator-permintaan-bantuan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Permintaan Bantuan</span></a></li>
 											

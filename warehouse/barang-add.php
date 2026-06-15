@@ -263,6 +263,7 @@ function goBack() {
 														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 														</select>
                         </div>
+						
 						<div class="col-lg-6">
                           <label class="">Catatan Internal :</label>
                           <textarea class="form-control" id="exampleTextarea" rows="3" placeholder=""></textarea>
@@ -471,12 +472,17 @@ function goBack() {
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
-						
-						<div class="col-lg-6">
+						<div class="col-lg-4">
+										<label class="">Request Order</label>
+										<input data-switch="true" data-size="small" data-toggle="kt-tooltip" data-skin="brand" data-on-text="Otomatis" data-off-text="Tidak" data-on-color="success" type="checkbox" checked="checked">
+										
+
+									</div>
+						<div class="col-lg-4">
                           <label class="">Stok Minimum :</label>
                           <input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1">
                         </div>
-						<div class="col-lg-6">
+						<div class="col-lg-4">
                           <label><span style="color:#ff0000">*</span> Satuan :</label>
                          <select class="form-control kt-selectpicker" data-live-search="true">
 														<option selected>Unit</option>
@@ -485,6 +491,7 @@ function goBack() {
 														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 														</select>
                         </div>
+						
 						
 						
 						

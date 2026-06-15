@@ -361,7 +361,7 @@
                 </div>
             </div>
 			<!--begin::Modal 1-->
-									<div class="modal fade" id="modal_tambah_kategori_barang" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+									<div class="modal fade" id="modal_tambah_gudang" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
 									<div class="modal-content">
 
@@ -370,7 +370,7 @@
 											<div class="kt-portlet__head">
 											<div class="kt-portlet__head-label">
 												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-clipboard-list"></i></span>
-												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">TAMBAH KATEGORI</h3>
+												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">TAMBAH GUDANG</h3>
 											</div>
 											<div class="kt-portlet__head-toolbar">
 												<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">X</button>
@@ -382,37 +382,35 @@
 													
 
 												<div class="form-group row">
-												<div class="col-lg-12">
-														<label class="kt-font-brand">Nama Kategori :</label>
-														<input type="text" class="form-control form-control-sm" placeholder="">
+												<div class="col-lg-6">
+														<label class="kt-font-brand">Lokasi :</label>
+														 <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Makassar</option>
+                                      <option value="2">Pare-Pare</option>
+                                      <option value="2">Balikpapan</option>
+                                      <option value="2">Samarinda</option>
+                                      <option value="2">Tarakan</option>
+                                      <option value="2">Nunukan</option>
+                                      <option value="2">Manado</option>
+                                      <option value="2">Bitung</option>
+                                      <option value="2">Ambon - Yos Sudarso</option>
+                                      <option value="2">Ambon - Slamet Riyadi</option>
+                                      <option value="2">Ternate</option>
+                                      <option value="2">Sorong</option>
+                                                                           
+                                  </select>
 													</div>
+													<div class="col-lg-6">
+														<label class="kt-font-brand">Kode Gudang :</label>
+														 <input type="text" class="form-control form-control-sm" placeholder="">
+													</div>
+												
 													</div>
 													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 													<div class="form-group row">
-													<div class="col-lg-6">
-														<label class="kt-font-brand">Kategori Induk :</label>
-														 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2">Tidak Ada</option>
-									  <option value="1" selected="">Kebutuhan Project</option>
-                                      <option value="2">Peralatan Kantor</option>
-                                      <option value="2">Peralatan Kerja</option>
-                                      <option value="2">Tidak Ada</option>
-									  
-                                                                           
-                                  </select>
-													</div>
-													<div class="col-lg-6">
-														<label class="kt-font-brand">Sub Kategori :</label>
-														 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2">Tidak Ada</option>
-									  <option value="1" selected="">Peralatan Jaringan</option>
-                                      <option value="2">Peralatan Listrik</option>
-                                      <option value="2">Peralatan Teknis</option>
-                                      <option value="2">Peralatan Teknis</option>
-									  
-									  
-                                                                           
-                                  </select>
+													<div class="col-lg-12">
+														<label class="kt-font-brand">Nama Gudang :</label>
+														<input type="text" class="form-control form-control-sm" placeholder="">
 													</div>
 
 
