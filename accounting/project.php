@@ -41,7 +41,10 @@
                     </ul>
                     <!--end::Nav-->
                 </div>
-                
+                <a href="project-add.php" class="btn btn-info btn-sm">
+				<i class="fa fa-plus-circle"></i>Buat Project</button>
+				<!--<i class="flaticon2-plus"></i>-->
+			</a>
             </div>
         </div>
     </div>
