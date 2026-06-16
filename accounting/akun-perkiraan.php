@@ -33,10 +33,7 @@ License: You must have a valid license purchased only from themeforest(the above
 				<a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
 						<i class="fa fa-print"></i> Export Data</button>
 					</a>
-					<a href="akun-perkiraan-add.php" class="btn btn-info btn-sm">
-				<i class="fa fa-plus-circle"></i>Buat Akun Perkiraan</button>
-				<!--<i class="flaticon2-plus"></i>-->
-			</a>
+					<button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal_tambah_coa"><i class="fa fa-plus-circle"></i>Tambah Data</button>
 					<div class="dropdown-menu dropdown-menu-fit dropdown-menu-md dropdown-menu-right">
 
 						<!--begin::Nav-->
@@ -633,7 +630,245 @@ License: You must have a valid license purchased only from themeforest(the above
 																						</div>
 										  </div>
 										  </div>
+						<!--begin::Modal 1-->
+									<div class="modal fade" id="modal_tambah_coa" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+									<div class="modal-content">
+
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-clipboard-list"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">TAMBAH COA</h3>
+											</div>
+											<div class="kt-portlet__head-toolbar">
+												<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">X</button>
+											</div>
+										</div>
+										<div class="kt-portlet__body">
+											<div class="tab-content">
+												<div class="tab-pane active" id="kt_tabs_7_1" role="tabpanel">
+													
+
+												<div class="form-group row">
+												<div class="col-lg-12">
+														<label class="kt-font-brand">Nama Kode Perkiraan / COA :</label>
+														<input type="text" class="form-control form-control-sm" placeholder="">
+													</div>
+
+
+												
+													
+													
+
+												</div>
+												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+												<div class="form-group row">
+												<div class="col-lg-12">
+														<label class="kt-font-brand">Kode Akun / COA :</label>
+														<input type="text" class="form-control form-control-sm" placeholder="">
+													</div>
+
+
+												
+													
+													
+
+												</div>
+												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+												<div class="form-group row">
+												<div class="col-lg-6">
+														<label class="kt-font-brand">Kategori Akun / COA :</label>
+														<select class="form-control kt-selectpicker" data-live-search="true">
+												<option value="1" selected>Kas & Bank</option>
+												<option value="2">Piutang Usaha</option>
+												<option value="3">Persediaan</option>
+												<option value="1">Aset Lancar Lainnya</option>
+												<option value="1">Aset Tetap</option>
+												<option value="1">Akumulasi Penyusutan</option>
+												<option value="1">Aset Lainnya</option>
+												<option value="1">Hutang Usaha</option>
+												<option value="1">Kewajiaban Jangka Pendek</option>
+												<option value="1">Kewajiban Jangka Panjang</option>
+												<option value="1">Modal</option>
+												<option value="1">Pendapatan</option>
+												<option value="1">Beban Pokok Penjualan</option>
+												<option value="1">Beban</option>
+												<option value="1">Beban Lainnya</option>
+												<option value="1">Pendapatan Lainnya</option>
+												<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+										</select>
+													</div>
+													<div class="col-lg-6">
+														<label class="kt-font-brand">Sub Akun / COA dari :</label>
+														<select class="form-control kt-selectpicker" data-live-search="true">
+												<option value="1" selected>Kas & Bank</option>
+												<option value="2">Piutang Usaha</option>
+												<option value="3">Persediaan</option>
+												<option value="1">Aset Lancar Lainnya</option>
+												<option value="1">Aset Tetap</option>
+												<option value="1">Akumulasi Penyusutan</option>
+												<option value="1">Aset Lainnya</option>
+												<option value="1">Hutang Usaha</option>
+												<option value="1">Kewajiaban Jangka Pendek</option>
+												<option value="1">Kewajiban Jangka Panjang</option>
+												<option value="1">Modal</option>
+												<option value="1">Pendapatan</option>
+												<option value="1">Beban Pokok Penjualan</option>
+												<option value="1">Beban</option>
+												<option value="1">Beban Lainnya</option>
+												<option value="1">Pendapatan Lainnya</option>
+												<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+										</select>
+													</div>
+
+
+												
+													
+													
+
+												</div>
+												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+												<div class="form-group row">
+												<div class="col-lg-6">
+										<label class="">Saldo Awal:</label>
+										<div class="input-group input-group-sm">
+														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+														<input type="text" class="form-control form-control-sm" placeholder="" aria-describedby="basic-addon1">
+														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+													</div>
+									</div>
+									<div class="col-lg-6">
+										<label class="">Per Tgl:</label>
+										<div class="form-group">
+											<div class="input-group date">
+																									 <input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="- Pilih Tanggal -" id="kt_datepicker_2">
+																									 <div class="input-group-append">
+																											 <span class="input-group-text">
+																													 <i class="la la-calendar-check-o"></i>
+																											 </span>
+																									 </div>
+																							 </div>
+										</div>
+									</div>
+
+
+												
+													
+													
+
+												</div>
+												
+											
+									<div class="kt-portlet__foot kt-align-right">
+												<div class="">
+
+													<button type="button" class="btn btn-sm btn-success">
+					<i class="fa fa-check-circle"></i>Simpan Data</button>
+												</div>
+											</div>
+
+
+
+
+									</div>
+
+									</div>
+								</div>
 							</div>
+							<!--End::Modal 1-->
+							
+							
+									
+        </div>
+    </div>
+    </div>
+    </div>
+	<div class="modal fade" id="modal_edit_jenis_transaksi" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+									<div class="modal-content">
+
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-clipboard-list"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">EDIT JENIS TRANSAKSI</h3>
+											</div>
+											<div class="kt-portlet__head-toolbar">
+												<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">X</button>
+											</div>
+										</div>
+										<div class="kt-portlet__body">
+											<div class="tab-content">
+												<div class="tab-pane active" id="kt_tabs_7_1" role="tabpanel">
+													
+
+												<div class="form-group row">
+												<div class="col-lg-12">
+														<label class="kt-font-brand">Jenis Transaksi :</label>
+														<input type="text" class="form-control form-control-sm" placeholder="Masuk">
+													</div>
+
+
+												
+													
+													
+
+												</div>
+												
+											
+									<div class="kt-portlet__foot kt-align-right">
+												<div class="">
+
+													<button type="button" class="btn btn-sm btn-success">
+					<i class="fa fa-check-circle"></i>Simpan Data</button>
+												</div>
+											</div>
+
+
+
+
+									</div>
+
+									</div>
+								</div>
+							</div>
+							<!--End::Modal 1-->
+							
+							
+									
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+  
 
 <?php require '../layouts/footer.php' ?>
+<script src="../assets/js/pages/components/extended/sweetalert2.js" type="text/javascript"></script>
+<script src="../assets/js/pages/crud/file-upload/dropzonejs.js" type="text/javascript"></script>
+<script src="../assets/dist/dropzone/dist/dropzone.js" type="text/javascript"></script>
+<script src="../assets/dist/js/global/integration/plugins/dropzone.init.js" type="text/javascript"></script>
+<script src="../assets/js/pages/components/calendar/calendar-cuti.js" type="text/javascript"></script>
+<script src="../assets/js/pages/crud/forms/widgets/bootstrap-datepicker.js" type="text/javascript"></script>
+<script src="../assets/js/pages/crud/forms/widgets/bootstrap-select.js" type="text/javascript"></script>
+<script src="../assets/js/pages/crud/forms/widgets/select2.js" type="text/javascript"></script>
+<script>
+$("#show").click(function(){
+    $(".tampil").show();
+  });
+  $("#hide1").click(function(){
+      $(".tampil").hide();
+    });
+    $("#hide2").click(function(){
+        $(".tampil").hide();
+      });
+</script>
 <?php require '../layouts/foot.php' ?>

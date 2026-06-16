@@ -41,7 +41,10 @@
                     </ul>
                     <!--end::Nav-->
                 </div>
-                
+                <a href="team-instalasi-add.php" class="btn btn-info btn-sm">
+												<i class="fa fa-user-circle"></i>Buat Team
+												<!--<i class="flaticon2-plus"></i>-->
+											</a>
             </div>
         </div>
     </div>
@@ -335,25 +338,12 @@
 																				<span class="kt-nav__link-text">Lihat Detail Project</span>
 																			</a>
 																		</li>
-																	<li class="kt-nav__item">
-																			<a href="laporan-team-instalasi-add.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-clipboard-list"></i>
-																				<span class="kt-nav__link-text">Laporan Instalasi</span>
+                                                                        <li class="kt-nav__item">
+																			<a href="project-team-edit.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-users"></i>
+																				<span class="kt-nav__link-text">Edit Team</span>
 																			</a>
 																		</li>
-																		<li class="kt-nav__item">
-																			<a href="laporan-harian-instalasi-add.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-file-medical"></i>
-																				<span class="kt-nav__link-text">Laporan Harian</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="surat-tugas.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-file-contract"></i>
-																				<span class="kt-nav__link-text">Surat Tugas</span>
-																			</a>
-																		</li>
-                                                                        
 																		
 																		
 																		
@@ -384,25 +374,12 @@
 																				<span class="kt-nav__link-text">Lihat Detail Project</span>
 																			</a>
 																		</li>
-																	<li class="kt-nav__item">
-																			<a href="laporan-team-instalasi-add.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-clipboard-list"></i>
-																				<span class="kt-nav__link-text">Laporan Instalasi</span>
+                                                                        <li class="kt-nav__item">
+																			<a href="project-team-edit.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-users"></i>
+																				<span class="kt-nav__link-text">Edit Team</span>
 																			</a>
 																		</li>
-																		<li class="kt-nav__item">
-																			<a href="laporan-harian-instalasi-add.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-file-medical"></i>
-																				<span class="kt-nav__link-text">Laporan Harian</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="surat-tugas.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-file-contract"></i>
-																				<span class="kt-nav__link-text">Surat Tugas</span>
-																			</a>
-																		</li>
-                                                                        
 																		
 																		
 																		
@@ -433,25 +410,12 @@
 																				<span class="kt-nav__link-text">Lihat Detail Project</span>
 																			</a>
 																		</li>
-																	<li class="kt-nav__item">
-																			<a href="laporan-team-instalasi-add.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-clipboard-list"></i>
-																				<span class="kt-nav__link-text">Laporan Instalasi</span>
+                                                                        <li class="kt-nav__item">
+																			<a href="project-team-edit.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-users"></i>
+																				<span class="kt-nav__link-text">Edit Team</span>
 																			</a>
 																		</li>
-																		<li class="kt-nav__item">
-																			<a href="laporan-harian-instalasi-add.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-file-medical"></i>
-																				<span class="kt-nav__link-text">Laporan Harian</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="surat-tugas.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-file-contract"></i>
-																				<span class="kt-nav__link-text">Surat Tugas</span>
-																			</a>
-																		</li>
-                                                                        
 																		
 																		
 																		
@@ -482,25 +446,12 @@
 																				<span class="kt-nav__link-text">Lihat Detail Project</span>
 																			</a>
 																		</li>
-																	<li class="kt-nav__item">
-																			<a href="laporan-team-instalasi-add.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-clipboard-list"></i>
-																				<span class="kt-nav__link-text">Laporan Instalasi</span>
+                                                                        <li class="kt-nav__item">
+																			<a href="project-team-edit.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-users"></i>
+																				<span class="kt-nav__link-text">Edit Team</span>
 																			</a>
 																		</li>
-																		<li class="kt-nav__item">
-																			<a href="laporan-harian-instalasi-add.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-file-medical"></i>
-																				<span class="kt-nav__link-text">Laporan Harian</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="surat-tugas.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-file-contract"></i>
-																				<span class="kt-nav__link-text">Surat Tugas</span>
-																			</a>
-																		</li>
-                                                                        
 																		
 																		
 																		
@@ -532,25 +483,12 @@
 																				<span class="kt-nav__link-text">Lihat Detail Project</span>
 																			</a>
 																		</li>
-																	<li class="kt-nav__item">
-																			<a href="laporan-team-instalasi-add.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-clipboard-list"></i>
-																				<span class="kt-nav__link-text">Laporan Instalasi</span>
+                                                                        <li class="kt-nav__item">
+																			<a href="project-team-edit.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-users"></i>
+																				<span class="kt-nav__link-text">Edit Team</span>
 																			</a>
 																		</li>
-																		<li class="kt-nav__item">
-																			<a href="laporan-harian-instalasi-add.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-file-medical"></i>
-																				<span class="kt-nav__link-text">Laporan Harian</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="surat-tugas.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-file-contract"></i>
-																				<span class="kt-nav__link-text">Surat Tugas</span>
-																			</a>
-																		</li>
-                                                                        
 																		
 																		
 																		
@@ -581,25 +519,12 @@
 																				<span class="kt-nav__link-text">Lihat Detail Project</span>
 																			</a>
 																		</li>
-																	<li class="kt-nav__item">
-																			<a href="laporan-team-instalasi-add.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-clipboard-list"></i>
-																				<span class="kt-nav__link-text">Laporan Instalasi</span>
+                                                                        <li class="kt-nav__item">
+																			<a href="project-team-edit.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-users"></i>
+																				<span class="kt-nav__link-text">Edit Team</span>
 																			</a>
 																		</li>
-																		<li class="kt-nav__item">
-																			<a href="laporan-harian-instalasi-add.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-file-medical"></i>
-																				<span class="kt-nav__link-text">Laporan Harian</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="surat-tugas.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-file-contract"></i>
-																				<span class="kt-nav__link-text">Surat Tugas</span>
-																			</a>
-																		</li>
-                                                                        
 																		
 																		
 																		
@@ -630,25 +555,12 @@
 																				<span class="kt-nav__link-text">Lihat Detail Project</span>
 																			</a>
 																		</li>
-																	<li class="kt-nav__item">
-																			<a href="laporan-team-instalasi-add.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-clipboard-list"></i>
-																				<span class="kt-nav__link-text">Laporan Instalasi</span>
+                                                                        <li class="kt-nav__item">
+																			<a href="project-team-edit.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-users"></i>
+																				<span class="kt-nav__link-text">Edit Team</span>
 																			</a>
 																		</li>
-																		<li class="kt-nav__item">
-																			<a href="laporan-harian-instalasi-add.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-file-medical"></i>
-																				<span class="kt-nav__link-text">Laporan Harian</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="surat-tugas.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-file-contract"></i>
-																				<span class="kt-nav__link-text">Surat Tugas</span>
-																			</a>
-																		</li>
-                                                                        
 																		
 																		
 																		
@@ -679,25 +591,12 @@
 																				<span class="kt-nav__link-text">Lihat Detail Project</span>
 																			</a>
 																		</li>
-																	<li class="kt-nav__item">
-																			<a href="laporan-team-instalasi-add.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-clipboard-list"></i>
-																				<span class="kt-nav__link-text">Laporan Instalasi</span>
+                                                                        <li class="kt-nav__item">
+																			<a href="project-team-edit.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-users"></i>
+																				<span class="kt-nav__link-text">Edit Team</span>
 																			</a>
 																		</li>
-																		<li class="kt-nav__item">
-																			<a href="laporan-harian-instalasi-add.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-file-medical"></i>
-																				<span class="kt-nav__link-text">Laporan Harian</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="surat-tugas.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-file-contract"></i>
-																				<span class="kt-nav__link-text">Surat Tugas</span>
-																			</a>
-																		</li>
-                                                                        
 																		
 																		
 																		
@@ -728,25 +627,12 @@
 																				<span class="kt-nav__link-text">Lihat Detail Project</span>
 																			</a>
 																		</li>
-																	<li class="kt-nav__item">
-																			<a href="laporan-team-instalasi-add.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-clipboard-list"></i>
-																				<span class="kt-nav__link-text">Laporan Instalasi</span>
+                                                                        <li class="kt-nav__item">
+																			<a href="project-team-edit.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-users"></i>
+																				<span class="kt-nav__link-text">Edit Team</span>
 																			</a>
 																		</li>
-																		<li class="kt-nav__item">
-																			<a href="laporan-harian-instalasi-add.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-file-medical"></i>
-																				<span class="kt-nav__link-text">Laporan Harian</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="surat-tugas.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-file-contract"></i>
-																				<span class="kt-nav__link-text">Surat Tugas</span>
-																			</a>
-																		</li>
-                                                                        
 																		
 																		
 																		
@@ -777,25 +663,12 @@
 																				<span class="kt-nav__link-text">Lihat Detail Project</span>
 																			</a>
 																		</li>
-																	<li class="kt-nav__item">
-																			<a href="laporan-team-instalasi-add.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-clipboard-list"></i>
-																				<span class="kt-nav__link-text">Laporan Instalasi</span>
+                                                                        <li class="kt-nav__item">
+																			<a href="project-team-edit.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-users"></i>
+																				<span class="kt-nav__link-text">Edit Team</span>
 																			</a>
 																		</li>
-																		<li class="kt-nav__item">
-																			<a href="laporan-harian-instalasi-add.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-file-medical"></i>
-																				<span class="kt-nav__link-text">Laporan Harian</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="surat-tugas.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-file-contract"></i>
-																				<span class="kt-nav__link-text">Surat Tugas</span>
-																			</a>
-																		</li>
-                                                                        
 																		
 																		
 																		
@@ -826,25 +699,12 @@
 																				<span class="kt-nav__link-text">Lihat Detail Project</span>
 																			</a>
 																		</li>
-																	<li class="kt-nav__item">
-																			<a href="laporan-team-instalasi-add.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-clipboard-list"></i>
-																				<span class="kt-nav__link-text">Laporan Instalasi</span>
+                                                                        <li class="kt-nav__item">
+																			<a href="project-team-edit.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-users"></i>
+																				<span class="kt-nav__link-text">Edit Team</span>
 																			</a>
 																		</li>
-																		<li class="kt-nav__item">
-																			<a href="laporan-harian-instalasi-add.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-file-medical"></i>
-																				<span class="kt-nav__link-text">Laporan Harian</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="surat-tugas.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-file-contract"></i>
-																				<span class="kt-nav__link-text">Surat Tugas</span>
-																			</a>
-																		</li>
-                                                                        
 																		
 																		
 																		
@@ -875,25 +735,12 @@
 																				<span class="kt-nav__link-text">Lihat Detail Project</span>
 																			</a>
 																		</li>
-																	<li class="kt-nav__item">
-																			<a href="laporan-team-instalasi-add.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-clipboard-list"></i>
-																				<span class="kt-nav__link-text">Laporan Instalasi</span>
+                                                                        <li class="kt-nav__item">
+																			<a href="project-team-edit.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-users"></i>
+																				<span class="kt-nav__link-text">Edit Team</span>
 																			</a>
 																		</li>
-																		<li class="kt-nav__item">
-																			<a href="laporan-harian-instalasi-add.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-file-medical"></i>
-																				<span class="kt-nav__link-text">Laporan Harian</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="surat-tugas.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-file-contract"></i>
-																				<span class="kt-nav__link-text">Surat Tugas</span>
-																			</a>
-																		</li>
-                                                                        
 																		
 																		
 																		
