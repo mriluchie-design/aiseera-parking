@@ -243,7 +243,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="20.000" aria-describedby="basic-addon1" />
 																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																					    </div></td>
-																					  <td style="text-align:center" nowrap=""><button type="button" class="btn btn-label-success btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Aktif"><i class="fa fa-check-circle"></i></button></td>
+																					  <td style="text-align:center" nowrap=""><button type="button" class="btn btn-label-brand btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Aktif"><i class="fa fa-check-circle"></i></button></td>
 																					  <td width="3%" style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -281,7 +281,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="20.000" aria-describedby="basic-addon1" />
 																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																					    </div></td>
-																					  <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-success btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Aktif"><i class="fa fa-check-circle"></i></button></td>
+																					  <td style="text-align:center" nowrap=""><button type="button" class="btn btn-label-brand btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Aktif"><i class="fa fa-check-circle"></i></button></td>
 																					  <td width="3%" style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -319,7 +319,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="20.000" aria-describedby="basic-addon1" />
 																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																					    </div></td>
-																					  <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-success btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Aktif"><i class="fa fa-check-circle"></i></button></td>
+																					  <td style="text-align:center" nowrap=""><button type="button" class="btn btn-label-brand btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Aktif"><i class="fa fa-check-circle"></i></button></td>
 																					  <td width="3%" style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -357,7 +357,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="20.000" aria-describedby="basic-addon1" />
 																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																					    </div></td>
-																					  <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-success btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Aktif"><i class="fa fa-check-circle"></i></button></td>
+																					  <td style="text-align:center" nowrap=""><button type="button" class="btn btn-label-brand btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Aktif"><i class="fa fa-check-circle"></i></button></td>
 																					  <td width="3%" style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -395,7 +395,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="20.000" aria-describedby="basic-addon1" />
 																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																					    </div></td>
-																					  <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-success btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Aktif"><i class="fa fa-check-circle"></i></button></td>
+																					  <td style="text-align:center" nowrap=""><button type="button" class="btn btn-label-brand btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Aktif"><i class="fa fa-check-circle"></i></button></td>
 																					  <td width="3%" style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -433,7 +433,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="20.000" aria-describedby="basic-addon1" />
 																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																					    </div></td>
-																					  <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-success btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Aktif"><i class="fa fa-check-circle"></i></button></td>
+																					  <td style="text-align:center" nowrap=""><button type="button" class="btn btn-label-brand btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Aktif"><i class="fa fa-check-circle"></i></button></td>
 																					  <td width="3%" style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -471,7 +471,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="20.000" aria-describedby="basic-addon1" />
 																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																					    </div></td>
-																					  <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-success btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Aktif"><i class="fa fa-check-circle"></i></button></td>
+																					  <td style="text-align:center" nowrap=""><button type="button" class="btn btn-label-brand btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Aktif"><i class="fa fa-check-circle"></i></button></td>
 																					  <td width="3%" style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -509,7 +509,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="20.000" aria-describedby="basic-addon1" />
 																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																					    </div></td>
-																					  <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-success btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Aktif"><i class="fa fa-check-circle"></i></button></td>
+																					  <td style="text-align:center" nowrap=""><button type="button" class="btn btn-label-brand btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Aktif"><i class="fa fa-check-circle"></i></button></td>
 																					  <td width="3%" style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -547,7 +547,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="20.000" aria-describedby="basic-addon1" />
 																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																					    </div></td>
-																					  <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-success btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Aktif"><i class="fa fa-check-circle"></i></button></td>
+																					  <td style="text-align:center" nowrap=""><button type="button" class="btn btn-label-brand btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Aktif"><i class="fa fa-check-circle"></i></button></td>
 																					  <td width="3%" style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>

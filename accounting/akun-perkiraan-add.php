@@ -13,10 +13,18 @@
 				</span>
 				&nbsp;
 				&nbsp;
-				Form Akun Perkiraan
+				Form
 			</h3>
+<span class="kt-subheader__separator kt-subheader__separator--v"></span>
+									<div class="kt-subheader__group" id="kt_subheader_search">
+										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
+											Akun Perkiraan </span>
+										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
-		</div>
+										</form>
+									</div>
+
+								</div>
 		<div class="kt-subheader__toolbar">
 			<div class="dropdown dropdown-inline" ddata-placement="left">
 				<a href="mutasi-pegawai.php" class="btn btn-label-brand btn-sm" data-toggle="dropdown" onclick="goBack()">
@@ -95,19 +103,19 @@
                                 <div class="form-group">
       													<label>Sub Akun :</label>
                                 <div class="kt-section__content kt-section__content--solid" role="group" aria-label="...">
-      													<button type="button" class="btn btn-secondary btn-square btn-sm col-lg-6" id="hide1">Tidak</button>&nbsp;
+      													<button type="button" class="btn btn-secondary btn-square btn-md col-lg-6" id="hide1" selected>Tidak</button>&nbsp;
       													
-                                <button type="button" class="btn btn-secondary btn-square btn-sm col-lg-4" id="show">Ya</button>&nbsp;
+                                <button type="button" class="btn btn-secondary btn-square btn-md col-lg-5" id="show">Ya</button>&nbsp;
       												</div>
                               	</div>
       												</div>
-      												</div>
+      												</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                               <div class="form-group row tampil">
                                 <div class="col-lg-12">
 								
                                   <div class="form-group row">
     													
-													<div class="col-lg-12">
+													<div class="col-lg-10">
 														<label class="kt-font-danger">Pilih Sub Akun :</label>
 														 <select class="form-control form-control kt-selectpicker" data-live-search="true">
 														<option>Virtual Account</option>
@@ -128,25 +136,48 @@
 											
 											</div>
 
-											<div class="col-lg-2">
-										<label class="">Kode Perkiraan : <code>*</code></label>
+										<div class="form-group row">	
+									<div class="col-lg-14">
+                                <div class="form-group">
+      													<label>Kode COA :</label>
+                                <div class="kt-section__content kt-section__content--solid" role="group" aria-label="...">
+      													
+														<button type="button" class="btn btn-secondary btn-square btn-md col-lg-6" id="hide3">Otomatis</button>
+      													
+                                <button type="button" class="btn btn-secondary btn-square btn-md col-lg-5" id="show2" selected>Tidak</button>&nbsp;
+      												</div>
+                              	</div>
+      												</div>
+      												</div>&nbsp;&nbsp;&nbsp;
+                              <div class="form-group row tampil2">
+                                <div class="col-lg-12">
+								
+                                  <div class="form-group row">
+    													
+													<div class="col-lg-12">
+										<label class="">&nbsp;</label>
 										<div class="form-group">
-											<input type="text" class="form-control form-control-sm" placeholder="">
+											<input type="text" class="form-control form-control-sm" placeholder="Isikan Kode COA">
 										</div>
 
 									</div>
-									<div class="col-lg-2">
-										<label class="">Kode Otomatis</label>
-										<input data-switch="true" data-size="small" data-toggle="kt-tooltip" data-skin="brand" data-on-text="Otomatis" data-off-text="Tidak" data-on-color="success" type="checkbox" checked="checked">
-										
+												
+                          </div>
+						
 
-									</div>
-									<div class="col-lg-1">
+
+
+											</div>
+											
+											</div>
+											<div class="col-lg-1">
 										<label class="">Status</label>
-										<input data-switch="true" data-size="small" data-toggle="kt-tooltip" data-skin="brand" data-on-text="Aktif" data-off-text="Tidak" data-on-color="brand" type="checkbox" checked="checked">
+										<input data-switch="true" data-size="small" data-toggle="kt-tooltip" data-skin="brand" data-on-text="Aktif" data-off-text="Tidak" data-on-color="success" type="checkbox" checked="checked">
 										
 
 									</div>
+									
+									
       												</div>
 									
 								</div>
@@ -295,6 +326,48 @@ $("#show").click(function(){
     });
     $("#hide2").click(function(){
         $(".tampil").hide();
+      });
+</script>
+<script>
+$(function() {
+  $('#select').change(function(){
+    $('.tipe-akun').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+
+function myFunction() {
+  // Get the checkbox
+  var checkBox = document.getElementById("myCheck");
+  // Get the output text
+  var text = document.getElementById("text");
+
+	var text1 = document.getElementById("text1");
+
+		var text2 = document.getElementById("text2");
+
+  // If the checkbox is checked, display the output text
+  if (checkBox.checked == true){
+    text.style.display = "block";
+		text1.style.display = "none";
+		text2.style.display = "block";
+  } else {
+    text.style.display = "none";
+		text1.style.display = "block";
+		text2.style.display = "none";
+  }
+
+}
+</script>
+<script>
+$("#show2").click(function(){
+    $(".tampil2").show();
+  });
+  $("#hide1").click(function(){
+      $(".tampil2").hide();
+    });
+    $("#hide3").click(function(){
+        $(".tampil2").hide();
       });
 </script>
 <?php require '../layouts/foot.php' ?>

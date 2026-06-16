@@ -173,7 +173,7 @@
 						
 					<div class="kt-portlet__foot text-center">
 						<div class="kt-form__actions">
-							<button type="reset" class="btn btn-outline-brand btn-sm">Reset</button>
+							<button type="reset" class="btn btn-secondary btn-sm">Reset</button>
 							<button type="reset" class="btn btn-primary btn-sm"><i class="flaticon-interface-6"></i>Filter Data</button>
 						</div>
 					</div>
