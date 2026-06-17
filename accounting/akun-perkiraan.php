@@ -23,7 +23,7 @@ License: You must have a valid license purchased only from themeforest(the above
 				</span>
 				&nbsp;
 				&nbsp;
-					Akun Perkiraan
+					Akun Perkiraan / COA
 			</h3>
 
 		</div>
@@ -212,7 +212,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																	
 																		
 																		<li class="kt-nav__item">
-																			<a href="akun-edit.php" class="kt-nav__link">
+																			<a href="akun-edit.php" class="kt-nav__link" data-toggle="modal" data-target="#modal_edit_coa">
 																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
 																				<span class="kt-nav__link-text">Edit</span>
 																			</a>
@@ -250,7 +250,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																	
 																		
 																		<li class="kt-nav__item">
-																			<a href="akun-edit.php" class="kt-nav__link">
+																			<a href="akun-edit.php" class="kt-nav__link" data-toggle="modal" data-target="#modal_edit_coa">
 																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
 																				<span class="kt-nav__link-text">Edit</span>
 																			</a>
@@ -279,31 +279,14 @@ License: You must have a valid license purchased only from themeforest(the above
 																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																					    </div></td>
 																					  <td style="text-align:center" nowrap=""><button type="button" class="btn btn-label-brand btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Aktif"><i class="fa fa-check-circle"></i></button></td>
-																					  <td width="3%" style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-																	<ul class="kt-nav">
-																	
-																		
-																		<li class="kt-nav__item">
-																			<a href="akun-edit.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
-																				<span class="kt-nav__link-text">Edit</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																			
-																		</li>
-																		
-																	</ul>
-																</div>
-															</div></td>
+																					  <td width="3%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+																					    <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+																					      <ul class="kt-nav">
+																					        <li class="kt-nav__item"> <a href="akun-edit.php" class="kt-nav__link" data-toggle="modal" data-target="#modal_edit_coa"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+																					        <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+																				          </ul>
+																				        </div>
+																					    </div></td>
 																				  </tr>
 																					<tr>
 																						<td class="kt-font-danger"><b>1102</td>
@@ -317,31 +300,14 @@ License: You must have a valid license purchased only from themeforest(the above
 																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																					    </div></td>
 																					  <td style="text-align:center" nowrap=""><button type="button" class="btn btn-label-brand btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Aktif"><i class="fa fa-check-circle"></i></button></td>
-																					  <td width="3%" style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-																	<ul class="kt-nav">
-																	
-																		
-																		<li class="kt-nav__item">
-																			<a href="akun-edit.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
-																				<span class="kt-nav__link-text">Edit</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																			
-																		</li>
-																		
-																	</ul>
-																</div>
-															</div></td>
+																					  <td width="3%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+																					    <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+																					      <ul class="kt-nav">
+																					        <li class="kt-nav__item"> <a href="akun-edit.php" class="kt-nav__link" data-toggle="modal" data-target="#modal_edit_coa"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+																					        <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+																				          </ul>
+																				        </div>
+																					    </div></td>
 																				  </tr>
 																					<tr>
 																						<td><label class="pl-3">110201</label></td>
@@ -355,31 +321,14 @@ License: You must have a valid license purchased only from themeforest(the above
 																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																					    </div></td>
 																					  <td style="text-align:center" nowrap=""><button type="button" class="btn btn-label-brand btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Aktif"><i class="fa fa-check-circle"></i></button></td>
-																					  <td width="3%" style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-																	<ul class="kt-nav">
-																	
-																		
-																		<li class="kt-nav__item">
-																			<a href="akun-edit.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
-																				<span class="kt-nav__link-text">Edit</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																			
-																		</li>
-																		
-																	</ul>
-																</div>
-															</div></td>
+																					  <td width="3%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+																					    <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+																					      <ul class="kt-nav">
+																					        <li class="kt-nav__item"> <a href="akun-edit.php" class="kt-nav__link" data-toggle="modal" data-target="#modal_edit_coa"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+																					        <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+																				          </ul>
+																				        </div>
+																					    </div></td>
 																				  </tr>
 																					<tr>
 																						<td class="kt-font-danger"><b>1103</td>
@@ -393,31 +342,14 @@ License: You must have a valid license purchased only from themeforest(the above
 																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																					    </div></td>
 																					  <td style="text-align:center" nowrap=""><button type="button" class="btn btn-label-brand btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Aktif"><i class="fa fa-check-circle"></i></button></td>
-																					  <td width="3%" style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-																	<ul class="kt-nav">
-																	
-																		
-																		<li class="kt-nav__item">
-																			<a href="akun-edit.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
-																				<span class="kt-nav__link-text">Edit</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																			
-																		</li>
-																		
-																	</ul>
-																</div>
-															</div></td>
+																					  <td width="3%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+																					    <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+																					      <ul class="kt-nav">
+																					        <li class="kt-nav__item"> <a href="akun-edit.php" class="kt-nav__link" data-toggle="modal" data-target="#modal_edit_coa"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+																					        <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+																				          </ul>
+																				        </div>
+																					    </div></td>
 																				  </tr>
 																					<tr>
 																						<td><label class="pl-3">110301</label></td>
@@ -431,31 +363,14 @@ License: You must have a valid license purchased only from themeforest(the above
 																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																					    </div></td>
 																					  <td style="text-align:center" nowrap=""><button type="button" class="btn btn-label-brand btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Aktif"><i class="fa fa-check-circle"></i></button></td>
-																					  <td width="3%" style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-																	<ul class="kt-nav">
-																	
-																		
-																		<li class="kt-nav__item">
-																			<a href="akun-edit.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
-																				<span class="kt-nav__link-text">Edit</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																			
-																		</li>
-																		
-																	</ul>
-																</div>
-															</div></td>
+																					  <td width="3%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+																					    <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+																					      <ul class="kt-nav">
+																					        <li class="kt-nav__item"> <a href="akun-edit.php" class="kt-nav__link" data-toggle="modal" data-target="#modal_edit_coa"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+																					        <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+																				          </ul>
+																				        </div>
+																					    </div></td>
 																				  </tr>
 																					<tr>
 																						<td><label class="pl-3">110302</label></td>
@@ -469,31 +384,14 @@ License: You must have a valid license purchased only from themeforest(the above
 																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																					    </div></td>
 																					  <td style="text-align:center" nowrap=""><button type="button" class="btn btn-label-brand btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Aktif"><i class="fa fa-check-circle"></i></button></td>
-																					  <td width="3%" style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-																	<ul class="kt-nav">
-																	
-																		
-																		<li class="kt-nav__item">
-																			<a href="akun-edit.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
-																				<span class="kt-nav__link-text">Edit</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																			
-																		</li>
-																		
-																	</ul>
-																</div>
-															</div></td>
+																					  <td width="3%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+																					    <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+																					      <ul class="kt-nav">
+																					        <li class="kt-nav__item"> <a href="akun-edit.php" class="kt-nav__link" data-toggle="modal" data-target="#modal_edit_coa"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+																					        <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+																				          </ul>
+																				        </div>
+																					    </div></td>
 																				  </tr>
 																					<tr>
 																						<td><label class="pl-3">110303</label></td>
@@ -507,31 +405,14 @@ License: You must have a valid license purchased only from themeforest(the above
 																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																					    </div></td>
 																					  <td style="text-align:center" nowrap=""><button type="button" class="btn btn-label-brand btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Aktif"><i class="fa fa-check-circle"></i></button></td>
-																					  <td width="3%" style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-																	<ul class="kt-nav">
-																	
-																		
-																		<li class="kt-nav__item">
-																			<a href="akun-edit.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
-																				<span class="kt-nav__link-text">Edit</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																			
-																		</li>
-																		
-																	</ul>
-																</div>
-															</div></td>
+																					  <td width="3%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+																					    <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+																					      <ul class="kt-nav">
+																					        <li class="kt-nav__item"> <a href="akun-edit.php" class="kt-nav__link" data-toggle="modal" data-target="#modal_edit_coa"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+																					        <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+																				          </ul>
+																				        </div>
+																					    </div></td>
 																				  </tr>
 																					<tr>
 																						<td><label class="pl-3">110304</label></td>
@@ -545,31 +426,14 @@ License: You must have a valid license purchased only from themeforest(the above
 																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																					    </div></td>
 																					  <td style="text-align:center" nowrap=""><button type="button" class="btn btn-label-brand btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Aktif"><i class="fa fa-check-circle"></i></button></td>
-																					  <td width="3%" style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-																	<ul class="kt-nav">
-																	
-																		
-																		<li class="kt-nav__item">
-																			<a href="akun-edit.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
-																				<span class="kt-nav__link-text">Edit</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																			
-																		</li>
-																		
-																	</ul>
-																</div>
-															</div></td>
+																					  <td width="3%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+																					    <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+																					      <ul class="kt-nav">
+																					        <li class="kt-nav__item"> <a href="akun-edit.php" class="kt-nav__link" data-toggle="modal" data-target="#modal_edit_coa"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+																					        <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+																				          </ul>
+																				        </div>
+																					    </div></td>
 																				  </tr>
 																				</tbody>
 																			</table>
@@ -638,13 +502,21 @@ License: You must have a valid license purchased only from themeforest(the above
 										<div class="modal-body">
 											<div class="kt-portlet kt-portlet--mobile ">
 											<div class="kt-portlet__head">
+
 											<div class="kt-portlet__head-label">
 												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-clipboard-list"></i></span>
 												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">TAMBAH COA</h3>
 											</div>
-											<div class="kt-portlet__head-toolbar">
-												<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">X</button>
-											</div>
+<div class="kt-widget__toolbar"><br>
+																	 <span class="kt-switch kt-switch--sm kt-switch--icon">
+																			<label>
+																					<input type="checkbox" checked="checked" name="">
+																					<span></span>
+																			</label>
+																	</span>
+								
+							</div>
+											
 										</div>
 										<div class="kt-portlet__body">
 											<div class="tab-content">
@@ -652,21 +524,32 @@ License: You must have a valid license purchased only from themeforest(the above
 													
 
 												<div class="form-group row">
-												<div class="col-lg-12">
-														<label class="kt-font-brand">Nama Kode Perkiraan / COA :</label>
-														<input type="text" class="form-control form-control-sm" placeholder="">
-													</div>
+<div class="col-lg-3">
+										<label class="">Kode Akun</label>
+										<input data-switch="true" data-size="small" data-toggle="kt-tooltip" data-skin="brand" data-on-text="Otomatis" data-off-text="Tidak" data-on-color="info" type="checkbox" checked="checked">
+										
 
-
-												
-													
-													
-
-												</div>
-												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-												<div class="form-group row">
-												<div class="col-lg-12">
+									</div>&nbsp;&nbsp;&nbsp;&nbsp;
+												<div class="col-lg-5">
 														<label class="kt-font-brand">Kode Akun / COA :</label>
+														<input type="text" class="form-control form-control-sm" placeholder="Ex : 110101">
+													</div>
+
+
+									</div>
+
+
+
+												
+													
+													
+
+												</div>
+<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+<div class="form-group row">
+												
+<div class="col-lg-12">
+														<label class="kt-font-brand">Nama Akun Perkiraan / COA :</label>
 														<input type="text" class="form-control form-control-sm" placeholder="">
 													</div>
 
@@ -676,10 +559,11 @@ License: You must have a valid license purchased only from themeforest(the above
 													
 
 												</div>
+												
 												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 												<div class="form-group row">
 												<div class="col-lg-6">
-														<label class="kt-font-brand">Kategori Akun / COA :</label>
+														<label class="kt-font-brand">Jenis Akun / COA :</label>
 														<select class="form-control kt-selectpicker" data-live-search="true">
 												<option value="1" selected>Kas & Bank</option>
 												<option value="2">Piutang Usaha</option>
@@ -701,7 +585,7 @@ License: You must have a valid license purchased only from themeforest(the above
 										</select>
 													</div>
 													<div class="col-lg-6">
-														<label class="kt-font-brand">Sub Akun / COA dari :</label>
+														<label class="kt-font-brand">Akun Induk  :</label>
 														<select class="form-control kt-selectpicker" data-live-search="true">
 												<option value="1" selected>Kas & Bank</option>
 												<option value="2">Piutang Usaha</option>
@@ -761,9 +645,9 @@ License: You must have a valid license purchased only from themeforest(the above
 												</div>
 												
 											
-									<div class="kt-portlet__foot kt-align-right">
+									<div class="kt-portlet__foot kt-align-center">
 												<div class="">
-
+<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Batal</button>
 													<button type="button" class="btn btn-sm btn-success">
 					<i class="fa fa-check-circle"></i>Simpan Data</button>
 												</div>
@@ -785,20 +669,28 @@ License: You must have a valid license purchased only from themeforest(the above
     </div>
     </div>
     </div>
-	<div class="modal fade" id="modal_edit_jenis_transaksi" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+	<div class="modal fade" id="modal_edit_coa" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
 									<div class="modal-content">
 
 										<div class="modal-body">
 											<div class="kt-portlet kt-portlet--mobile ">
 											<div class="kt-portlet__head">
+
 											<div class="kt-portlet__head-label">
 												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-clipboard-list"></i></span>
-												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">EDIT JENIS TRANSAKSI</h3>
+												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">EDIT AKUN / COA</h3>
 											</div>
-											<div class="kt-portlet__head-toolbar">
-												<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">X</button>
-											</div>
+<div class="kt-widget__toolbar"><br>
+																	 <span class="kt-switch kt-switch--sm kt-switch--icon">
+																			<label>
+																					<input type="checkbox" checked="checked" name="">
+																					<span></span>
+																			</label>
+																	</span>
+								
+							</div>
+											
 										</div>
 										<div class="kt-portlet__body">
 											<div class="tab-content">
@@ -806,9 +698,33 @@ License: You must have a valid license purchased only from themeforest(the above
 													
 
 												<div class="form-group row">
-												<div class="col-lg-12">
-														<label class="kt-font-brand">Jenis Transaksi :</label>
-														<input type="text" class="form-control form-control-sm" placeholder="Masuk">
+<div class="col-lg-3">
+										<label class="">Kode Akun</label>
+										<input data-switch="true" data-size="small" data-toggle="kt-tooltip" data-skin="brand" data-on-text="Otomatis" data-off-text="Tidak" data-on-color="info" type="checkbox" checked="checked">
+										
+
+									</div>&nbsp;&nbsp;&nbsp;&nbsp;
+												<div class="col-lg-5">
+														<label class="kt-font-brand">Kode Akun / COA :</label>
+														<input type="text" class="form-control form-control-sm" placeholder="Ex : 110101">
+													</div>
+
+
+									</div>
+
+
+
+												
+													
+													
+
+												</div>
+<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+<div class="form-group row">
+												
+<div class="col-lg-12">
+														<label class="kt-font-brand">Nama Akun Perkiraan / COA :</label>
+														<input type="text" class="form-control form-control-sm" placeholder="">
 													</div>
 
 
@@ -818,10 +734,94 @@ License: You must have a valid license purchased only from themeforest(the above
 
 												</div>
 												
-											
-									<div class="kt-portlet__foot kt-align-right">
-												<div class="">
+												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+												<div class="form-group row">
+												<div class="col-lg-6">
+														<label class="kt-font-brand">Jenis Akun / COA :</label>
+														<select class="form-control kt-selectpicker" data-live-search="true">
+												<option value="1" selected>Kas & Bank</option>
+												<option value="2">Piutang Usaha</option>
+												<option value="3">Persediaan</option>
+												<option value="1">Aset Lancar Lainnya</option>
+												<option value="1">Aset Tetap</option>
+												<option value="1">Akumulasi Penyusutan</option>
+												<option value="1">Aset Lainnya</option>
+												<option value="1">Hutang Usaha</option>
+												<option value="1">Kewajiaban Jangka Pendek</option>
+												<option value="1">Kewajiban Jangka Panjang</option>
+												<option value="1">Modal</option>
+												<option value="1">Pendapatan</option>
+												<option value="1">Beban Pokok Penjualan</option>
+												<option value="1">Beban</option>
+												<option value="1">Beban Lainnya</option>
+												<option value="1">Pendapatan Lainnya</option>
+												<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+										</select>
+													</div>
+													<div class="col-lg-6">
+														<label class="kt-font-brand">Akun Induk  :</label>
+														<select class="form-control kt-selectpicker" data-live-search="true">
+												<option value="1" selected>Kas & Bank</option>
+												<option value="2">Piutang Usaha</option>
+												<option value="3">Persediaan</option>
+												<option value="1">Aset Lancar Lainnya</option>
+												<option value="1">Aset Tetap</option>
+												<option value="1">Akumulasi Penyusutan</option>
+												<option value="1">Aset Lainnya</option>
+												<option value="1">Hutang Usaha</option>
+												<option value="1">Kewajiaban Jangka Pendek</option>
+												<option value="1">Kewajiban Jangka Panjang</option>
+												<option value="1">Modal</option>
+												<option value="1">Pendapatan</option>
+												<option value="1">Beban Pokok Penjualan</option>
+												<option value="1">Beban</option>
+												<option value="1">Beban Lainnya</option>
+												<option value="1">Pendapatan Lainnya</option>
+												<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+										</select>
+													</div>
 
+
+												
+													
+													
+
+												</div>
+												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+												<div class="form-group row">
+												<div class="col-lg-6">
+										<label class="">Saldo Awal:</label>
+										<div class="input-group input-group-sm">
+														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+														<input type="text" class="form-control form-control-sm" placeholder="" aria-describedby="basic-addon1">
+														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+													</div>
+									</div>
+									<div class="col-lg-6">
+										<label class="">Per Tgl:</label>
+										<div class="form-group">
+											<div class="input-group date">
+																									 <input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="- Pilih Tanggal -" id="kt_datepicker_2">
+																									 <div class="input-group-append">
+																											 <span class="input-group-text">
+																													 <i class="la la-calendar-check-o"></i>
+																											 </span>
+																									 </div>
+																							 </div>
+										</div>
+									</div>
+
+
+												
+													
+													
+
+												</div>
+												
+											
+									<div class="kt-portlet__foot kt-align-center">
+												<div class="">
+<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Batal</button>
 													<button type="button" class="btn btn-sm btn-success">
 					<i class="fa fa-check-circle"></i>Simpan Data</button>
 												</div>
@@ -840,9 +840,8 @@ License: You must have a valid license purchased only from themeforest(the above
 							
 									
         </div>
-        </div>
-        </div>
-        </div>
+    </div>
+    </div>
         </div>
         </div>
         </div>

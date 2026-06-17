@@ -23,7 +23,7 @@ License: You must have a valid license purchased only from themeforest(the above
 				</span>
 				&nbsp;
 				&nbsp;
-					Data Postingan Perencanaan Anggaran
+					Anggaran
 			</h3>
 		</div>
 		<div class="kt-subheader__toolbar">
@@ -294,33 +294,37 @@ License: You must have a valid license purchased only from themeforest(the above
 																					<tr>
 																					  <th width="1%" rowspan="2" bgcolor="#f7fcff" class="nomor">#</th>
 																					  <th width="5%" rowspan="2" bgcolor="#f7fcff" class="tahun-anggaran">Tahun<br />Anggaran</th>
+																					  <th width="1%" rowspan="2" bgcolor="#f7fcff" class="nomor">Bulan</th>
+																					  <th width="1%" rowspan="2" bgcolor="#f7fcff" class="nomor">Kantor</th>
 																					  <th width="7%" rowspan="2" bgcolor="#f7fcff" class="nomor">Tipe<br>Anggaran</th>
 																					  <th width="7%" rowspan="2" bgcolor="#f7fcff" class="tahun-anggaran">ID</th>
 																					  <th width="10%" rowspan="2" bgcolor="#f7fcff" class="nomor">Department</th>
+																					  <th width="10%" rowspan="2" bgcolor="#f7fcff" class="nomor">Project</th>
 																					  <th colspan="2" bgcolor="#f7fcff" class="nomor">Posting</th>
-																					  <th colspan="2" bgcolor="#f7fcff" class="nomor">Perubahan</th>
+																					  <th bgcolor="#f7fcff" class="nomor">Perubahan</th>
 																					  <th width="12%" rowspan="2" bgcolor="#f7fcff" class="Keterangan">Keterangan</th>
-																					  <th width="13%" rowspan="2" bgcolor="#f7fcff" class="Total">Total</th>
+																					  <th width="20%" rowspan="2" bgcolor="#f7fcff" class="Total">Total</th>
 																						<th width="5%" rowspan="2" bgcolor="#f7fcff" class="Total">Status<br />
 																						  Anggaran</th>
-																						<th width="1%" rowspan="2" bgcolor="#f7fcff" class="nomor">Kantor</th>
 																						<th width="1%" rowspan="2" bgcolor="#f7fcff">Verifikasi</th>
-																						<th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
+																						<th width="3%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 																					</tr>
 																					<tr>
+																					  <th width="4%" bgcolor="#f7fcff" class="nomor">Oleh</th>
+																					  <th width="10%" bgcolor="#f7fcff" class="nomor">Tanggal</th>
 																					  <th width="3%" bgcolor="#f7fcff" class="nomor">Oleh</th>
-																					  <th width="8%" bgcolor="#f7fcff" class="nomor">Tanggal</th>
-																					  <th width="3%" bgcolor="#f7fcff" class="nomor">Oleh</th>
-																					  <th width="8%" bgcolor="#f7fcff" class="nomor">Tanggal</th>
 																				  </tr>
 																				</thead>
 																				<tbody>
 																					<tr>
 																					  <td class="nomor">1</td>
 																					  <td class="nomor" style="text-align:center">2023</td>
+																					  <td style="text-align:center">Januari</td>
+																					  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Pusat</span></td>
 																					  <td style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Pokok</button></td>
 																					  <td class="nomor">PMR.UM.1.2023</td>
 																					  <td class="nomor">Umum</td>
+																					  <td class="nomor">Epass Cabang Makassar</td>
 																					  <td class="dibuatoleh" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par<hr>Bendahara Pengeluaran" data-html="true">
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
@@ -328,7 +332,6 @@ License: You must have a valid license purchased only from themeforest(the above
 																					  <td class="dibuatoleh" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par<hr>Bendahara Pengeluaran" data-html="true">
 														<img src="../assets/media/users/100_11.jpg" alt="image">
 													</a></td>
-																					  <td style="text-align:center" class="nomor">11 November 2023<br>21:24 WITA</td>
 																					  <td class="Keterangan">Pencatatan Beban Beban Pokok Penjualan</td>
 																					  <td class="Total" style="text-align:left"><div class="input-group input-group-sm">
 																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
@@ -336,387 +339,6 @@ License: You must have a valid license purchased only from themeforest(the above
 																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																					    </div></td>
 																					  <td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Final</button></td>
-																					  <td class="nomor">Pusat</td>
-																					  <td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
-																					  <td width="3%" style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="post-anggaran-detail.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="post-anggaran-edit.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
-																				<span class="kt-nav__link-text">Edit</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																			
-																		</li>
-																		
-																	</ul>
-																</div>
-															</div></td>
-																				  </tr>
-																				  <tr>
-																					  <td class="nomor">2</td>
-																					  <td class="nomor" style="text-align:center">2003</td>
-																					  <td style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Pokok</button></td>
-																					  <td class="nomor">PMR.OP.1.2023</td>
-																					  <td class="nomor">Operasional</td>
-																					  <td class="dibuatoleh" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par<hr>Bendahara Pengeluaran" data-html="true">
-														<img src="../assets/media/users/100_10.jpg" alt="image">
-													</a></td>
-																					  <td class="nomor" style="text-align:center">11 November 2023<br>21:24 WITA</td>
-																					  <td class="dibuatoleh" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par<hr>Bendahara Pengeluaran" data-html="true">
-														<img src="../assets/media/users/100_11.jpg" alt="image">
-													</a></td>
-																					  <td style="text-align:center" class="nomor">11 November 2023<br>21:24 WITA</td>
-																					  <td class="Keterangan">Pencatatan Beban Beban Pokok Penjualan</td>
-																					  <td class="Total" style="text-align:left"><div class="input-group input-group-sm">
-																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="4.888.332.620" aria-describedby="basic-addon1" />
-																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-																					    </div></td>
-																					  <td style="text-align:center"><button type="button" class="btn btn-label-warning btn-sm">Draft</button></td>
-																					  <td class="nomor">Pusat</td>
-																					  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
-															<i class="fa flaticon2-check-mark"></i>
-														</span></td>
-																					  <td width="3%" style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="post-anggaran-detail.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="post-anggaran-edit.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
-																				<span class="kt-nav__link-text">Edit</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																			
-																		</li>
-																		
-																	</ul>
-																</div>
-															</div></td>
-																				  </tr>
-																				  <tr>
-																					  <td class="nomor">3</td>
-																					  <td class="nomor" style="text-align:center">2003</td>
-																					  <td style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Pokok</button></td>
-																					  <td class="nomor">PMR.KU.1.2023</td>
-																					  <td class="nomor">Keuangan</td>
-																					  <td class="dibuatoleh" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par<hr>Bendahara Pengeluaran" data-html="true">
-														<img src="../assets/media/users/100_10.jpg" alt="image">
-													</a></td>
-																					  <td class="nomor" style="text-align:center">11 November 2023<br>21:24 WITA</td>
-																					  <td class="dibuatoleh" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par<hr>Bendahara Pengeluaran" data-html="true">
-														<img src="../assets/media/users/100_11.jpg" alt="image">
-													</a></td>
-																					  <td style="text-align:center" class="nomor">11 November 2023<br>21:24 WITA</td>
-																					  <td class="Keterangan">Pencatatan Beban Beban Pokok Penjualan</td>
-																					  <td class="Total" style="text-align:left"><div class="input-group input-group-sm">
-																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000.000" aria-describedby="basic-addon1" />
-																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-																					    </div></td>
-																					  <td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Final</button></td>
-																					  <td class="nomor">Pusat</td>
-																					  <td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
-																					  <td width="3%" style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="post-anggaran-detail.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="post-anggaran-edit.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
-																				<span class="kt-nav__link-text">Edit</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																			
-																		</li>
-																		
-																	</ul>
-																</div>
-															</div></td>
-																				  </tr>
-																				  <tr>
-																					  <td class="nomor">4</td>
-																					  <td class="nomor" style="text-align:center">2003</td>
-																					  <td style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Pokok</button></td>
-																					  <td class="nomor">PMR.PU.1.2023</td>
-																					  <td class="nomor">Pengembangan Usaha</td>
-																					  <td class="dibuatoleh" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par<hr>Bendahara Pengeluaran" data-html="true">
-														<img src="../assets/media/users/100_10.jpg" alt="image">
-													</a></td>
-																					  <td class="nomor" style="text-align:center">11 November 2023<br>21:24 WITA</td>
-																					  <td class="dibuatoleh" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par<hr>Bendahara Pengeluaran" data-html="true">
-														<img src="../assets/media/users/100_11.jpg" alt="image">
-													</a></td>
-																					  <td style="text-align:center" class="nomor">11 November 2023<br>21:24 WITA</td>
-																					  <td class="Keterangan">Pencatatan Beban Beban Pokok Penjualan</td>
-																					  <td class="Total" style="text-align:left"><div class="input-group input-group-sm">
-																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000.000" aria-describedby="basic-addon1" />
-																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-																					    </div></td>
-																					  <td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Final</button></td>
-																					  <td class="nomor">Pusat</td>
-																					  <td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
-																					  <td width="3%" style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="post-anggaran-detail.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="post-anggaran-edit.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
-																				<span class="kt-nav__link-text">Edit</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																			
-																		</li>
-																		
-																	</ul>
-																</div>
-															</div></td>
-																				  </tr>
-																				  <tr>
-																					  <td class="nomor">5</td>
-																					  <td class="nomor" style="text-align:center">2003</td>
-																					  <td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Perubahan</button></td>
-																					  <td class="nomor">PMR.UM.2.2023</td>
-																					  <td class="nomor">Umum</td>
-																					  <td class="dibuatoleh" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par<hr>Bendahara Pengeluaran" data-html="true">
-														<img src="../assets/media/users/100_10.jpg" alt="image">
-													</a></td>
-																					  <td class="nomor" style="text-align:center">11 November 2023<br>21:24 WITA</td>
-																					  <td class="dibuatoleh" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par<hr>Bendahara Pengeluaran" data-html="true">
-														<img src="../assets/media/users/100_11.jpg" alt="image">
-													</a></td>
-																					  <td style="text-align:center" class="nomor">11 November 2023<br>21:24 WITA</td>
-																					  <td class="Keterangan">Pencatatan Beban Beban Pokok Penjualan</td>
-																					  <td class="Total" style="text-align:left"><div class="input-group input-group-sm">
-																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000.000" aria-describedby="basic-addon1" />
-																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-																					    </div></td>
-																					  <td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Final</button></td>
-																					  <td class="nomor">Pusat</td>
-																					  <td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
-																					  <td width="3%" style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="post-anggaran-detail.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="post-anggaran-edit.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
-																				<span class="kt-nav__link-text">Edit</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																			
-																		</li>
-																		
-																	</ul>
-																</div>
-															</div></td>
-																				  </tr>
-																				  <tr>
-																					  <td class="nomor">6</td>
-																					  <td class="nomor" style="text-align:center">2003</td>
-																					  <td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Perubahan</button></td>
-																					  <td class="nomor">PMR.OP.2.2023</td>
-																					  <td class="nomor">Operasional</td>
-																					  <td class="dibuatoleh" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par<hr>Bendahara Pengeluaran" data-html="true">
-														<img src="../assets/media/users/100_10.jpg" alt="image">
-													</a></td>
-																					  <td class="nomor" style="text-align:center">11 November 2023<br>21:24 WITA</td>
-																					  <td class="dibuatoleh" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par<hr>Bendahara Pengeluaran" data-html="true">
-														<img src="../assets/media/users/100_11.jpg" alt="image">
-													</a></td>
-																					  <td style="text-align:center" class="nomor">11 November 2023<br>21:24 WITA</td>
-																					  <td class="Keterangan">Pencatatan Beban Beban Pokok Penjualan</td>
-																					  <td class="Total" style="text-align:left"><div class="input-group input-group-sm">
-																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000.000" aria-describedby="basic-addon1" />
-																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-																					    </div></td>
-																					  <td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Final</button></td>
-																					  <td class="nomor">Pusat</td>
-																					  <td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
-																					  <td width="3%" style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="post-anggaran-detail.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="post-anggaran-edit.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
-																				<span class="kt-nav__link-text">Edit</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																			
-																		</li>
-																		
-																	</ul>
-																</div>
-															</div></td>
-																				  </tr>
-																				  <tr>
-																					  <td class="nomor">7</td>
-																					  <td class="nomor" style="text-align:center">2003</td>
-																					  <td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Perubahan</button></td>
-																					  <td class="nomor">PMR.KU.2.2023</td>
-																					  <td class="nomor">Keuangan</td>
-																					  <td class="dibuatoleh" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par<hr>Bendahara Pengeluaran" data-html="true">
-														<img src="../assets/media/users/100_10.jpg" alt="image">
-													</a></td>
-																					  <td class="nomor" style="text-align:center">11 November 2023<br>21:24 WITA</td>
-																					  <td class="dibuatoleh" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par<hr>Bendahara Pengeluaran" data-html="true">
-														<img src="../assets/media/users/100_11.jpg" alt="image">
-													</a></td>
-																					  <td style="text-align:center" class="nomor">11 November 2023<br>21:24 WITA</td>
-																					  <td class="Keterangan">Pencatatan Beban Beban Pokok Penjualan</td>
-																					  <td class="Total" style="text-align:left"><div class="input-group input-group-sm">
-																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000.000" aria-describedby="basic-addon1" />
-																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-																					    </div></td>
-																					  <td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Final</button></td>
-																					  <td class="nomor">Pusat</td>
-																					  <td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
-																					  <td width="3%" style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="post-anggaran-detail.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="post-anggaran-edit.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
-																				<span class="kt-nav__link-text">Edit</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																			
-																		</li>
-																		
-																	</ul>
-																</div>
-															</div></td>
-																				  </tr>
-																				  <tr>
-																					  <td class="nomor">8</td>
-																					  <td class="nomor" style="text-align:center">2003</td>
-																					  <td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Perubahan</button></td>
-																					  <td class="nomor">PMR.PU.2.2023</td>
-																					  <td class="nomor">Pengembangan Usaha</td>
-																					  <td class="dibuatoleh" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par<hr>Bendahara Pengeluaran" data-html="true">
-														<img src="../assets/media/users/100_10.jpg" alt="image">
-													</a></td>
-																					  <td class="nomor" style="text-align:center">11 November 2023<br>21:24 WITA</td>
-																					  <td class="dibuatoleh" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par<hr>Bendahara Pengeluaran" data-html="true">
-														<img src="../assets/media/users/100_11.jpg" alt="image">
-													</a></td>
-																					  <td style="text-align:center" class="nomor">11 November 2023<br>21:24 WITA</td>
-																					  <td class="Keterangan">Pencatatan Beban Beban Pokok Penjualan</td>
-																					  <td class="Total" style="text-align:left"><div class="input-group input-group-sm">
-																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000.000" aria-describedby="basic-addon1" />
-																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-																					    </div></td>
-																					  <td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Final</button></td>
-																					  <td class="nomor">Pusat</td>
 																					  <td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
 																					  <td width="3%" style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">

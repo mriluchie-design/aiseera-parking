@@ -34,7 +34,7 @@ License: You must have a valid license purchased only from themeforest(the above
 						<i class="fa fa-print"></i> Export Data</button>
 					</a>
 					<a href="pencatatan-beban-add.php" class="btn btn-info btn-sm">
-				<i class="fa fa-plus-circle"></i>Buat Pencatatan Beban</button>
+				<i class="fa fa-plus-circle"></i>Pencatatan Beban</button>
 				<!--<i class="flaticon2-plus"></i>-->
 			</a>
 					<div class="dropdown-menu dropdown-menu-fit dropdown-menu-md dropdown-menu-right">
@@ -166,85 +166,103 @@ License: You must have a valid license purchased only from themeforest(the above
 																	<div class="kt-portlet kt-portlet--mobile ">
 																		<div class="kt-portlet__body">
 																			<!--begin: Datatable -->
-																			<table class="table table-bordered table-hover table-checkable">
-																				<thead>
-																					<tr>
-																					  <th width="1%" rowspan="2" bgcolor="#f7fcff" >#</th>
-																						<th width="6%" rowspan="2" bgcolor="#f7fcff" >Nomor</th>
-																						<th width="5%" rowspan="2" bgcolor="#f7fcff" >Tanggal</th>
-																						<th width="5%" rowspan="2" bgcolor="#f7fcff">Jatuh Tempo</th>
-																						<th width="12%" rowspan="2" bgcolor="#f7fcff">Total</th>
-																						<th width="12%" rowspan="2" bgcolor="#f7fcff">Dibayar</th>
-																						<th width="8%" rowspan="2" bgcolor="#f7fcff">Status</th>
-																						<th width="5%" rowspan="2" bgcolor="#f7fcff">Kantor</th>
-																						<th width="1%" rowspan="2" bgcolor="#f7fcff">Dibuat Oleh</th>
-																						<th width="15%" rowspan="2" bgcolor="#f7fcff">Keterangan</th>
-																						<th width="2%" bgcolor="#f7fcff" >Verifikasi</th>
-																						<th width="1%" rowspan="2" bgcolor="#f7fcff" >Aksi</th>
-																					</tr>
-																					
-																				</thead>
-																				<tbody>
-																					<tr>
-																					  <td>1</td>
-																						<td>EXP.2020.01.00001</td>
-																						<td>16/01/2020</td>
-																						<td>25/01/2020</td>
-																						<td nowrap="nowrap" style="text-align:left"><div class="input-group input-group-sm">
-																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000.000" aria-describedby="basic-addon1">
-																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-																					    </div></td>
-																						<td nowrap="nowrap" style="text-align:left"><div class="input-group input-group-sm">
-																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000.000" aria-describedby="basic-addon1">
-																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-																					    </div></td>
-																					  <td style="text-align:center">Sedang Diproses</td>
-																					  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-																					  <td nowrap="" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003&lt;hr&gt;Nursiah, S.Kom&lt;hr&gt;Staff Accounting" data-html="true">
-														<img src="../assets/media/users/100_7.jpg" alt="image">
-													</a></td>
-																						<td></td>
-																						<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
-																						<td width="1%" style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="beban-detail.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="beban-edit.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
-																				<span class="kt-nav__link-text">Edit</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																			
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="hr-pegawai-log.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon flaticon-share"></i>
-																				<span class="kt-nav__link-text">History Log</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div></td>
-																				  </tr>
-																</tbody>
-																			</table>
+																			<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
+										<thead>
+											<tr style="text-align:center">
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Kantor</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Nomor</th>
+											  <th colspan="5" bgcolor="#f7fcff">Beban</th>
+											  <th colspan="2" bgcolor="#f7fcff">Pembayaran</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Status</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Verifikasi</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
+										  </tr>
+											<tr style="text-align:center">
+											  <th width="1%" bgcolor="#f7fcff">Waktu</th>
+											  <th width="3%" bgcolor="#f7fcff">By</th>
+											  <th width="1%" bgcolor="#f7fcff">Jatuh Tempo</th>
+											  <th width="7%" bgcolor="#f7fcff">Keterangan</th>
+											  <th width="10%" bgcolor="#f7fcff">Jumlah</th>
+											  <th width="1%" bgcolor="#f7fcff">Waktu</th>
+											  <th width="10%" bgcolor="#f7fcff">Jumlah</th>
+										  </tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td id="kt_table_1">1</td>
+												<td style="text-align:center" nowrap><span class="btn btn-brand btn-sm">Pusat</span></td>
+												<td style="text-align:center" nowrap>EXP.2026.01.00001</td>
+												<td nowrap="nowrap" style="text-align:center">1 September 2026
+												  <hr />
+												  23:17:00 WITA</td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003&lt;hr&gt;Nursiah, S.Kom&lt;hr&gt;Staff Accounting" data-html="true"><img src="../assets/media/users/100_7.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center">31 Desember 2026</td>
+												<td nowrap="nowrap" style="text-align:left">Pembayaran Brownies</td>
+												<td nowrap="nowrap" style="text-align:left"><div class="input-group input-group-sm">
+												  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+												  <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000" aria-describedby="basic-addon1" />
+												  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+												  </div></td>
+												<td nowrap="nowrap" style="text-align:center">1 September 2026
+												  <hr />
+												  23:17:00 WITA</td>
+												<td nowrap="nowrap" style="text-align:left"><div class="input-group input-group-sm">
+												  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+												  <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="0" aria-describedby="basic-addon1" />
+												  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+												  </div></td>
+												<td style="text-align:center"><span class="btn btn-label-brand btn-sm">Proses</span></td>
+												<td style="text-align:center" nowrap="nowrap"><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
+												<td style="text-align:center" nowrap="nowrap"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+												    <ul class="kt-nav">
+												      <li class="kt-nav__item"> <a href="beban-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="beban-edit.php" class="kt-nav__link" data-toggle="modal" data-target="#modal_edit_beban"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit Beban</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" data-toggle="modal" data-target="#cetak"> <i class="kt-nav__link-icon fa fa-print"></i> <span class="kt-nav__link-text">Cetak Beban</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+											        </ul>
+											      </div>
+												  </div></td>
+										  </tr>
+										  <tr>
+												<td id="kt_table_1">2</td>
+												<td style="text-align:center" nowrap=""><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
+												<td style="text-align:center" nowrap>EXP.2026.01.00002</td>
+												<td nowrap="nowrap" style="text-align:center">1 September 2026
+												  <hr />
+												  23:19:00 WITA</td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003&lt;hr&gt;Nursiah, S.Kom&lt;hr&gt;Staff Accounting" data-html="true"><img src="../assets/media/users/100_7.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:left">31 Desember 2026</td>
+												<td nowrap="nowrap" style="text-align:left">Pembelian Bensin</td>
+												<td nowrap="nowrap" style="text-align:left"><div class="input-group input-group-sm">
+												  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+												  <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="500.000" aria-describedby="basic-addon1" />
+												  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+												  </div></td>
+												<td nowrap="nowrap" style="text-align:center">1 September 2026
+												  <hr />
+												  23:19:00 WITA</td>
+												<td nowrap="nowrap" style="text-align:left"><div class="input-group input-group-sm">
+												  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+												  <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="500.000" aria-describedby="basic-addon1" />
+												  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+												  </div></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Terbayar</span></td>
+												<td style="text-align:center" nowrap="nowrap"><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
+												<td style="text-align:center" nowrap="nowrap"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+												    <ul class="kt-nav">
+												      <li class="kt-nav__item"> <a href="beban-detail-terbayar.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="beban-edit.php" class="kt-nav__link" data-toggle="modal" data-target="#modal_edit_beban"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit Beban</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" data-toggle="modal" data-target="#cetak"> <i class="kt-nav__link-icon fa fa-print"></i> <span class="kt-nav__link-text">Cetak Beban</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+											        </ul>
+											      </div>
+												  </div></td>
+										  </tr>
+</tbody>
+									</table>
 
 																			<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 																			<div class="kt-pagination  kt-pagination--danger">

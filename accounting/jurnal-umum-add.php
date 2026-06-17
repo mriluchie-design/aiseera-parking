@@ -61,14 +61,67 @@
 	<div class="kt-portlet kt-portlet--height-full">
 		<div class="kt-portlet__body">
 			<div class="row">
-				<div class="col-xl-8">
+				<div class="col-xl-6">
 					<!--begin::Portlet-->
 					<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
 						<div class="kt-ribbon__target" style="top: 2px; right: -2px;">jurnal Umum</div><br><br>
 						<div class="kt-portlet__body">
 							<div class="kt-portlet__content">
 								<div class="form-group row">
-									<div class="col-lg-6">
+								<div class="col-lg-6">
+							                          <label class="">Referensi :</label>
+							                          <div class="form-group">
+							                       <select class="form-control kt-selectpicker" data-live-search="true" tabindex="-98">
+																							<option value="2" selected></option>
+																							
+																					</select>
+							                      </div>
+							                        </div>
+									
+									<div class="form-group row">	
+									<div class="col-lg-12">
+                                <div class="form-group">
+      													<label>Penomoran Jurnal :</label>
+                                <div class="kt-section__content kt-section__content--solid" role="group" aria-label="...">
+      													
+														<button type="button" class="btn btn-secondary btn-square btn-md col-lg-6" id="hide3">Otomatis</button>
+      													
+                                <button type="button" class="btn btn-secondary btn-square btn-md col-lg-5" id="show2" selected>Tidak</button>&nbsp;
+      												</div>
+                              	</div>
+      												</div>
+      												</div>
+                              <div class="form-group row tampil2">
+                                <div class="col-lg-12">
+								
+                                  <div class="form-group row">
+    													
+													<div class="col-lg-12">
+										<label class="">&nbsp;</label>
+										<div class="form-group">
+											<input type="text" class="form-control form-control-sm" placeholder="EXP.2020.01.00001">
+										</div>
+
+									</div>
+									
+												
+                          </div>
+						  
+						  
+						
+
+
+
+											</div>
+											
+											
+											</div>
+											
+									
+								</div>
+								<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+								<div class="form-group row">
+									<div class="col-lg-3">
 										<label>Tanggal : <code>*</code></label>
 										<div class="input-group date">
 										<input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="20/01/2020" id="kt_datepicker_2">
@@ -79,25 +132,7 @@
 										</div>
 									 </div>
 									</div>
-									
-									<div class="col-lg-2">
-										<label>Penomoran Otomatis : </label>
-										
-										
-											<input data-switch="true" data-size="small" data-toggle="kt-tooltip" data-skin="brand" data-on-text="Otomatis" data-off-text="Tidak" data-on-color="success" type="checkbox" checked="checked">
-											
-										
-									</div>
-									<div class="col-lg-4">
-										<label>Nomor : <code>*</code></label>
-										
-										<input type="text" class="form-control form-control-sm" placeholder="Isikan Nomor">
-									</div>
-								</div>
-								<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-								<div class="form-group row">
-									
-									<div class="col-lg-2">
+									<div class="col-lg-3">
 							                          <label class="">Tipe Transaksi :</label>
 							                          <div class="form-group">
 							                       <select class="form-control kt-selectpicker" data-live-search="true" tabindex="-98">
@@ -105,8 +140,8 @@
 																							<option value="2">Non Tunai</option>
 																					</select>
 							                      </div>
-							                        </div>	
-<div class="col-lg-2">
+							                        </div>
+													<div class="col-lg-3">
 							                          <label class="">Metode Transaksi :</label>
 							                          <div class="form-group">
 							                       <select class="form-control kt-selectpicker" data-live-search="true" tabindex="-98">
@@ -118,7 +153,7 @@
 																					</select>
 							                      </div>
 							                        </div>	
-<div class="col-lg-2">
+													<div class="col-lg-3">
 							                          <label class="">Provider :</label>
 							                          <div class="form-group">
 							                       <select class="form-control kt-selectpicker" data-live-search="true" tabindex="-98">
@@ -131,13 +166,16 @@
 							                      </div>
 							                        </div>
 									
+
+
+									
 								</div>
 							</div>
 						</div>
 						
 					</div>
 				</div>
-				<div class="col-xl-4">
+				<div class="col-xl-3">
 					<!--begin::Portlet-->
 					<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
 						<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Info Lainnya</div><br><br>
@@ -295,68 +333,7 @@
 																										<a href="javascript:;" data-repeater-delete="" class="btn btn-outline-success btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Tambah Data"><i class="fa fa-plus-circle"></i></a>&nbsp;<a href="javascript:;" data-repeater-delete="" class="btn btn-outline-hover-danger btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Hapus"><i class="fa flaticon2-trash"></i></a>
 																									</td>
 								</tr>
-								<tr>
-								  <td style="text-align:right">3</td>
-									<td><select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
-								<option value="1" disabled selected>Cari/Pilih Akun Perkiraan...</option>
-								<optgroup label="Kewajiban Jangka Pendek" class="a">
-									<option data-subtext="5101">Beban Pokok Penjualan</option>
-								</optgroup>
-								<optgroup label="Beban" class="a">
-									<option data-subtext="600001">Beban Iklan</option>
-									<option data-subtext="600002">Beban Komisi</option>
-									<option data-subtext="600003">Beban Bensin, Parkir, Tol Kendaraan</option>
-									<option data-subtext="600004">Beban Gaji, Upah & Honorer</option>
-									<option data-subtext="600005">Beban Bonus, Pesangon & Kompensasi</option>
-									<option data-subtext="600006">Beban Transportasi Karyawan</option>
-									<option data-subtext="600007">Beban Catering & Makan Karyawan</option>
-									<option data-subtext="600008">Beban Tunjangan Kesehatan</option>
-									<option data-subtext="600009">Beban Asuransi Karyawan</option>
-									<option data-subtext="600010">Beban THR</option>
-									<option data-subtext="600011">Beban Listrik</option>
-									<option data-subtext="600012">Beban PDAM</option>
-									<option data-subtext="600013">Beban Telekomunikasi</option>
-									<option data-subtext="600014">Beban Ekspedisi, POS, & Materai</option>
-									<option data-subtext="600015">Beban Perjalanan Dinas</option>
-									<option data-subtext="600016">Beban Perlengkapan Kantor</option>
-									<option data-subtext="600017">Beban Pajak Penghasilan</option>
-									<option data-subtext="600018">Beban Restribusi & Sumbangan</option>
-									<option data-subtext="600019">Beban Sewa Gedung</option>
-									<option data-subtext="600020">Beban Operasional Lainnya</option>
-									<option data-subtext="600021">Beban Penyusutan Gedung</option>
-									<option data-subtext="600022">Beban Penyusutan Kendaraan</option>
-									<option data-subtext="600023">Beban Penyusutan Peralatan</option>
-									<option data-subtext="600001">Beban Inventaris Kantor</option>
-								</optgroup>
-								<optgroup label="Beban Lainnya" class="a">
-									<option data-subtext="720001">Beban Bunga Pinjaman</option>
-									<option data-subtext="720002">Beban Adm.Bank & Buku Cek/Giro</option>
-									<option data-subtext="720003">Pajak Jasa Giro</option>
-									<option data-subtext="720004">Laba/Rugi Terelasasi</option>
-									<option data-subtext="720005">Laba/Rugi Belum Terealisasi</option>
-									<option data-subtext="720006">Laba/Rugi Disposisi Aset</option>
-									<option data-subtext="720007">Beban Diluar Usaha Lainnya</option>
-								</optgroup>
-							</select></td>
-									<td nowrap="nowrap" style="text-align:left"><input type="text" class="form-control form-control-sm" placeholder="Isikan Memo"></td>
-									<td style="text-align:center"><div class="custom-file">
-													<input type="file" class="custom-file-input" id="customFile">
-													<label class="custom-file-label" for="customFile"></label>
-												</div></td>
-									<td nowrap="nowrap" style="text-align:left"><div class="input-group input-group-sm">
-																						  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-																						  <input style="text-align:right" type="text" class="form-control form-control-sm" placeholder="2.000.000.000" aria-describedby="basic-addon1">
-																						  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-																						  </div></td>
-									<td nowrap="nowrap" style="text-align:left"><div class="input-group input-group-sm">
-																						  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-																						  <input style="text-align:right" type="text" class="form-control form-control-sm" placeholder="2.000.000.000" aria-describedby="basic-addon1">
-																						  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-																						  </div></td>
-									<td style="text-align:center">
-																										<a href="javascript:;" data-repeater-delete="" class="btn btn-outline-success btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Tambah Data"><i class="fa fa-plus-circle"></i></a>&nbsp;<a href="javascript:;" data-repeater-delete="" class="btn btn-outline-hover-danger btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Hapus"><i class="fa flaticon2-trash"></i></a>
-																									</td>
-								</tr>
+								
 							</tbody>
 							<tfoot style="border-top: 2px solid #5867dd">
 								<tr>
@@ -509,5 +486,47 @@
 	$('#selectAll').click(function (e) {
     $(this).closest('table').find('td input:checkbox').prop('checked', this.checked);
 });
+</script>
+<script>
+$(function() {
+  $('#select').change(function(){
+    $('.tipe-akun').hide();
+    $('#' + $(this).val()).show();
+  });
+});
+
+function myFunction() {
+  // Get the checkbox
+  var checkBox = document.getElementById("myCheck");
+  // Get the output text
+  var text = document.getElementById("text");
+
+	var text1 = document.getElementById("text1");
+
+		var text2 = document.getElementById("text2");
+
+  // If the checkbox is checked, display the output text
+  if (checkBox.checked == true){
+    text.style.display = "block";
+		text1.style.display = "none";
+		text2.style.display = "block";
+  } else {
+    text.style.display = "none";
+		text1.style.display = "block";
+		text2.style.display = "none";
+  }
+
+}
+</script>
+<script>
+$("#show2").click(function(){
+    $(".tampil2").show();
+  });
+  $("#hide1").click(function(){
+      $(".tampil2").hide();
+    });
+    $("#hide3").click(function(){
+        $(".tampil2").hide();
+      });
 </script>
 <?php require '../layouts/foot.php' ?>

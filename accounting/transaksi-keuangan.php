@@ -23,7 +23,7 @@ License: You must have a valid license purchased only from themeforest(the above
 				</span>
 				&nbsp;
 				&nbsp;
-					Kas Keluar - Pembayaran
+					Transaksi Keuangan
 			</h3>
 		</div>
 		<div class="kt-subheader__toolbar">
@@ -32,8 +32,8 @@ License: You must have a valid license purchased only from themeforest(the above
 				<a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
 						<i class="fa fa-print"></i> Export Data</button>
 					</a>
-					<a href="pembayaran-add.php" class="btn btn-info btn-sm">
-				<i class="fa fa-plus-circle"></i>Buat Pembayaran</button>
+					<a href="pemasukan-add.php" class="btn btn-info btn-sm">
+				<i class="fa fa-plus-circle"></i>Buat Transaksi Keuangan</button>
 				<!--<i class="flaticon2-plus"></i>-->
 			</a>
 			
@@ -66,7 +66,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																			<div class="kt-portlet__body">
 								                      <div class="form-group row">
 																				<div class="col-lg-2">
-																				 <label class="">Nomor Kas Keluar :</label>
+																				 <label class="">Nomor Kas Masuk :</label>
 																			 <div class="kt-input-icon kt-input-icon--right">
         							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
         							<span class="kt-input-icon__icon kt-input-icon__icon--right">
@@ -75,7 +75,7 @@ License: You must have a valid license purchased only from themeforest(the above
     		                    </div>
 																			 </div>
 																				<div class="col-lg-2">
-																				 <label class="">Tanggal Kas Keluar:</label>
+																				 <label class="">Tanggal Kas Masuk:</label>
 																				 <div class="input-group date">
 																				 <input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="20/01/2020" id="kt_datepicker_2">
 																				 <div class="input-group-append">
@@ -180,7 +180,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																				 </div>
 																			 </div>
 																			 <div class="col-lg-2">
-																				 <label class="">Penerima :</label>
+																				 <label class="">Pemberi :</label>
 																			 <div class="kt-input-icon kt-input-icon--right">
         							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
         							<span class="kt-input-icon__icon kt-input-icon__icon--right">
@@ -206,15 +206,16 @@ License: You must have a valid license purchased only from themeforest(the above
 																				<thead>
 																					<tr>
 																					  <th width="1%" bgcolor="#f7fcff" class="#">#</th>
-																						<th width="4%" bgcolor="#f7fcff" class="nomor">ID Transaksi</th>
-																						<th width="7%" bgcolor="#f7fcff" class="tanggal">Waktu Transaksi</th>
-																						<th width="10%" bgcolor="#f7fcff" class="kas">Kas/Bank</th>
-																						<th width="12%" bgcolor="#f7fcff" class="keterangan">Penerima</th>
-																						<th width="12%" bgcolor="#f7fcff" class="keterangan">Keterangan</th>
-																						<th width="11%" bgcolor="#f7fcff" class="nilai">Nilai</th>
-																						<th width="4%" bgcolor="#f7fcff" class="void">Void</th>
-																						<th width="3%" bgcolor="#f7fcff" class="dibuatoleh">Dibuat<br>Oleh</th>
-																						<th width="1%" bgcolor="#f7fcff" class="cabang">Kantor</th>
+																					  <th width="1%" bgcolor="#f7fcff" class="nomor">Kantor</th>
+																					  <th width="10%" bgcolor="#f7fcff" class="nomor">Kategori</th>
+																						<th width="1%" bgcolor="#f7fcff" class="nomor">Akun &amp; ID<br>Transaksi</th>
+																						<th width="8%" bgcolor="#f7fcff" class="tanggal">Waktu Transaksi</th>
+																						<th width="10%" bgcolor="#f7fcff" class="keterangan">Referensi</th>
+																						<th width="10%" bgcolor="#f7fcff" class="keterangan">Keterangan</th>
+																						<th width="12%" bgcolor="#f7fcff" class="nilai">Debit</th>
+																						<th width="12%" bgcolor="#f7fcff" class="nilai">Kredit</th>
+																						<th width="1%" bgcolor="#f7fcff" class="void">Dibuat Oleh</th>
+																						<th width="1%" bgcolor="#f7fcff" class="void">Void</th>
 																						<th width="1%" bgcolor="#f7fcff" class="verifikasi">Verifikasi</th>
 																						<th width="1%" bgcolor="#f7fcff" class="aksi">Aksi</th>
 																					</tr>
@@ -222,29 +223,31 @@ License: You must have a valid license purchased only from themeforest(the above
 																				<tbody>
 																					<tr>
 																					  <td class="#">1</td>
-																					  <td class="nomor">110102.2023.08.00001</td>
-																						<td style="text-align:center">15 September 2026 <hr> 16:22:00 WITA</td>
-																						<td class="kas" style="text-align:center">11.01.02<hr>Kas Bendahara Pengeluaran</td>
+																					  <td style="text-align:center"><span class="btn btn-brand btn-sm">Pusat</span></td>
+																					  <td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Pendapatan Lain</span></td>
+																					  <td style="text-align:center">Bank<hr />110102.0626.01.0001</td>
+																						<td style="text-align:center">15 September 2026<hr />16:22:36 WITA</td>
 																						<td class="penerima">PT. Aksi Kode Indonesia</td>
 																						<td class="keterangan">Pembayaran Jasa Aplikasi</td>
 																						<td class="nilai"><div class="input-group input-group-sm">
+																						  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+																						  <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000" aria-describedby="basic-addon1" />
+																						  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+																						  </div></td>
+																						<td class="nilai"><div class="input-group input-group-sm">
 																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000" aria-describedby="basic-addon1">
+																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="0" aria-describedby="basic-addon1">
 																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																					    </div></td>
+																						<td class="dibuatoleh" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par&lt;hr&gt;Bendahara Pengeluaran" data-html="true"> <img src="../assets/media/users/100_10.jpg" alt="image" /> </a></td>
 																						<td class="void" style="text-align:center"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Tidak</span></td>
-																						<td class="dibuatoleh" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par<hr>Bendahara Pengeluaran" data-html="true">
-														<img src="../assets/media/users/100_10.jpg" alt="image">
-													</a></td>
-																						<td class="cabang">Pusat</td>
 																						<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
-																						<td width="1%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+																						<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 																						  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 																						    <ul class="kt-nav">
-																						      <li class="kt-nav__item"> <a href="kas-keluar-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-																						      <li class="kt-nav__item"> <a href="print-kas-keluar.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-print"></i> <span class="kt-nav__link-text">Print</span> </a> </li>
-																							  
-																						      <li class="kt-nav__item"> <a href="kas-keluar-edit.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+																						      <li class="kt-nav__item"> <a href="kas-masuk-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+																						      
+																						      <li class="kt-nav__item"> <a href="kas-masuk-edit.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
 																						      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
 																					        </ul>
 																					      </div>
@@ -252,38 +255,106 @@ License: You must have a valid license purchased only from themeforest(the above
 																				  </tr>
 																					<tr>
 																					  <td class="#">2</td>
-																					  <td class="nomor">110102.2023.08.00002</td>
-																						<td style="text-align:center">15 September 2026 <hr> 16:23:00 WITA</td>
-																						<td class="kas" style="text-align:center">11.01.02<hr>Kas Bendahara Pengeluaran</td>
+																					  <td style="text-align:center"><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Manado">Cabang</span></td>
+																					  <td style="text-align:center"><span class="btn btn-label-danger btn-sm">Pengeluaran Lain</span></td>
+																					  <td style="text-align:center">Cash<hr />110102.0626.02.0001</td>
+																					  <td style="text-align:center">15 September 2026
+																					    <hr />
+																					    16:23:36 WITA</td>
 																						<td class="penerima">PT. Amanda Brownies</td>
 																						<td class="keterangan">Pembayaran Brownies</td>
+																						<td class="nilai"><div class="input-group input-group-sm">
+																						  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+																						  <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="0" aria-describedby="basic-addon1" />
+																						  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+																						  </div></td>
 																						<td class="nilai"><div class="input-group input-group-sm">
 																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
 																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000" aria-describedby="basic-addon1">
 																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																					    </div></td>
+																						<td class="dibuatoleh" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par&lt;hr&gt;Bendahara Pengeluaran" data-html="true"> <img src="../assets/media/users/100_10.jpg" alt="image" /> </a></td>
 																						<td class="void" style="text-align:center"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">Ya</span></td>
-																						<td class="dibuatoleh" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par<hr>Bendahara Pengeluaran" data-html="true">
-														<img src="../assets/media/users/100_10.jpg" alt="image">
-													</a></td>
-																						<td class="cabang">Pusat</td>
-																						<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
-															<i class="fa flaticon2-check-mark"></i>
-														</span></td>
-																						<td width="1%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+																						<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
+																						<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
 																						  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 																						    <ul class="kt-nav">
-																						      <li class="kt-nav__item"> <a href="kas-keluar-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-																						      <li class="kt-nav__item"> <a href="print-kas-keluar.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-print"></i> <span class="kt-nav__link-text">Print</span> </a> </li>
-																							  
-																						      <li class="kt-nav__item"> <a href="kas-keluar-edit.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
-																						      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+																						      <li class="kt-nav__item"> <a href="kas-masuk-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
+																						      <li class="kt-nav__item"> <a href="kas-masuk-edit.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+																						      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
 																					        </ul>
 																					      </div>
 																						  </div></td>
 																				  </tr>
+																					<tr>
+																					  <td class="#">3</td>
+																					  <td style="text-align:center"><span class="btn btn-brand btn-sm">Pusat</span></td>
+																					  <td style="text-align:center"><span class="btn btn-label-warning btn-sm">Pemindahan Internal</span></td>
+																					  <td style="text-align:center">Cash<hr />110102.0626.02.0001</td>
+																					  <td style="text-align:center">15 September 2026
+																					    <hr />
+																					    16:23:36 WITA</td>
+																					  <td class="penerima">PT. Amanda Brownies</td>
+																					  <td class="keterangan">Pembayaran Brownies</td>
+																					  <td class="nilai"><div class="input-group input-group-sm">
+																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="500.000" aria-describedby="basic-addon1" />
+																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+																					    </div></td>
+																					  <td class="nilai"><div class="input-group input-group-sm">
+																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="0" aria-describedby="basic-addon1" />
+																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+																					    </div></td>
+																					  <td class="dibuatoleh" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par&lt;hr&gt;Bendahara Pengeluaran" data-html="true"> <img src="../assets/media/users/100_10.jpg" alt="image" /></a></td>
+																					  <td class="void" style="text-align:center"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">Ya</span></td>
+																					  <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
+																					  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+																					    <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+																					      <ul class="kt-nav">
+																					        <li class="kt-nav__item"> <a href="kas-masuk-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
+																					        <li class="kt-nav__item"> <a href="kas-masuk-edit.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+																					        <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+																				          </ul>
+																				        </div>
+																					    </div></td>
+																				  </tr>
+																					<tr>
+																					  <td class="#">4</td>
+																					  <td style="text-align:center"><span class="btn btn-brand btn-sm">Pusat</span></td>
+																					  <td style="text-align:center"><span class="btn btn-label-warning btn-sm">Pemindahan Internal</span></td>
+																					  <td style="text-align:center">Bank<hr />110102.0626.02.0001</td>
+																					  <td style="text-align:center">15 September 2026
+																					    <hr />
+																				      16:23:36 WITA</td>
+																					  <td class="penerima">PT. Amanda Brownies</td>
+																					  <td class="keterangan">Pembayaran Brownies</td>
+																					  <td class="nilai"><div class="input-group input-group-sm">
+																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="0" aria-describedby="basic-addon1" />
+																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+																				      </div></td>
+																					  <td class="nilai"><div class="input-group input-group-sm">
+																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="500.000" aria-describedby="basic-addon1" />
+																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+																				      </div></td>
+																					  <td class="dibuatoleh" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par&lt;hr&gt;Bendahara Pengeluaran" data-html="true"> <img src="../assets/media/users/100_10.jpg" alt="image" /></a></td>
+																					  <td class="void" style="text-align:center"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">Ya</span></td>
+																					  <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
+																					  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+																					    <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+																					      <ul class="kt-nav">
+																					        <li class="kt-nav__item"> <a href="kas-masuk-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
+																					        <li class="kt-nav__item"> <a href="kas-masuk-edit.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+																					        <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+																				          </ul>
+																				        </div>
+																				      </div></td>
+																				  </tr>
 																					
-																</tbody>
+																					
+												                </tbody>
 																			</table>
 
 																			<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
@@ -340,7 +411,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																							</ul>
 																							</div>
 																						</div>
-																						<!--begin::Modal 1-->
+										 <!--begin::Modal 1-->
 									<div class="modal fade" id="modal_persetujuan_pending" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
 									<div class="modal-content">

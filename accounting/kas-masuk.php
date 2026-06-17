@@ -206,15 +206,15 @@ License: You must have a valid license purchased only from themeforest(the above
 																				<thead>
 																					<tr>
 																					  <th width="1%" bgcolor="#f7fcff" class="#">#</th>
-																						<th width="7%" bgcolor="#f7fcff" class="nomor">ID Transaksi</th>
-																						<th width="10%" bgcolor="#f7fcff" class="tanggal">Waktu Transaksi</th>
-																						<th width="14%" bgcolor="#f7fcff" class="kas">Kas/Bank</th>
-																						<th bgcolor="#f7fcff" class="keterangan">Pemberi</th>
-																						<th bgcolor="#f7fcff" class="keterangan">Keterangan</th>
-																						<th width="14%" bgcolor="#f7fcff" class="nilai">Nilai</th>
-																						<th width="4%" bgcolor="#f7fcff" class="void">Void</th>
-																						<th width="3%" bgcolor="#f7fcff" class="dibuatoleh">Dibuat<br>Oleh</th>
-																						<th width="1%" bgcolor="#f7fcff" class="cabang">Kantor</th>
+																					  <th width="1%" bgcolor="#f7fcff" class="nomor">Kantor</th>
+																						<th width="1%" bgcolor="#f7fcff" class="nomor">ID Transaksi</th>
+																						<th width="5%" bgcolor="#f7fcff" class="tanggal">Waktu Transaksi</th>
+																						<th width="7%" bgcolor="#f7fcff" class="kas">Kas/Bank</th>
+																						<th width="7%" bgcolor="#f7fcff" class="keterangan">Pemberi</th>
+																						<th width="10%" bgcolor="#f7fcff" class="keterangan">Keterangan</th>
+																						<th width="8%" bgcolor="#f7fcff" class="nilai">Nilai</th>
+																						<th width="1%" bgcolor="#f7fcff" class="void">Void</th>
+																						<th width="1%" bgcolor="#f7fcff" class="dibuatoleh">Dibuat<br>Oleh</th>
 																						<th width="1%" bgcolor="#f7fcff" class="verifikasi">Verifikasi</th>
 																						<th width="1%" bgcolor="#f7fcff" class="aksi">Aksi</th>
 																					</tr>
@@ -222,10 +222,11 @@ License: You must have a valid license purchased only from themeforest(the above
 																				<tbody>
 																					<tr>
 																					  <td class="#">1</td>
+																					  <td style="text-align:center"><span class="btn btn-brand btn-sm">Pusat</span></td>
 																					  <td class="nomor">110102.2023.08.00001</td>
-																						<td class="tanggal">01/08/2023 - 16:22</td>
+																						<td style="text-align:center">15 September 2026<hr>16:22:36 WITA</td>
 																						<td class="kas" style="text-align:center">11.01.01<hr>Kas Bendahara Penerimaan</td>
-																						<td class="penerima">PT. iLugroup Multimedia Indonesia</td>
+																						<td class="penerima">PT. Aksi Kode Indonesia</td>
 																						<td class="keterangan">Pembayaran Jasa Aplikasi</td>
 																						<td class="nilai"><div class="input-group input-group-sm">
 																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
@@ -236,9 +237,8 @@ License: You must have a valid license purchased only from themeforest(the above
 																						<td class="dibuatoleh" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par<hr>Bendahara Pengeluaran" data-html="true">
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
-																						<td class="cabang">Pusat</td>
 																						<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
-																						<td width="1%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+																						<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 																						  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 																						    <ul class="kt-nav">
 																						      <li class="kt-nav__item"> <a href="kas-masuk-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
@@ -251,8 +251,9 @@ License: You must have a valid license purchased only from themeforest(the above
 																				  </tr>
 																					<tr>
 																					  <td class="#">2</td>
+																					  <td style="text-align:center"><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
 																					  <td class="nomor">110102.2023.08.00002</td>
-																						<td class="tanggal">01/08/2023 - 16:23</td>
+																					  <td style="text-align:center">15 September 2026<hr>16:23:36 WITA</td>
 																						<td class="kas" style="text-align:center">11.01.01<hr>Kas Bendahara Penerimaan</td>
 																						<td class="penerima">PT. Amanda Brownies</td>
 																						<td class="keterangan">Pembayaran Brownies</td>
@@ -265,11 +266,10 @@ License: You must have a valid license purchased only from themeforest(the above
 																						<td class="dibuatoleh" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par<hr>Bendahara Pengeluaran" data-html="true">
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
-																						<td class="cabang">Pusat</td>
 																						<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
 															<i class="fa flaticon2-check-mark"></i>
 														</span></td>
-																						<td width="1%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+																						<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 																						  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 																						    <ul class="kt-nav">
 																						      <li class="kt-nav__item"> <a href="kas-masuk-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
