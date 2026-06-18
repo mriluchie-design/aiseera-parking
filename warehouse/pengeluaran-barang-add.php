@@ -145,7 +145,7 @@ function goBack() {
 					  <div class="col-lg-9">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Pegawai Pembuat Permintaan Barang</div><br><br>
 										 <div class="kt-portlet__body">
                      
@@ -188,7 +188,7 @@ function goBack() {
 					  <div class="col-lg-3">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Permintaan Barang</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
@@ -213,7 +213,7 @@ function goBack() {
 					  <div class="col-lg-3">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Permintaan</div><br><br>
 										 <div class="kt-portlet__body">
                       
@@ -251,7 +251,7 @@ function goBack() {
 					  <div class="col-lg-3">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Project</div><br><br>
 										 <div class="kt-portlet__body">
                       
@@ -284,7 +284,7 @@ function goBack() {
 					  <div class="col-lg-3">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Catatan Permintaan</div><br><br>
 										 <div class="kt-portlet__body">
                       

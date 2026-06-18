@@ -604,7 +604,7 @@
 								<div class="col-xl-3">
 
 									<!--begin:: Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 										
 											<div class="kt-ribbon__target" style="top: 70px; right: -2px;">Proses Pembayaran</div>
 
@@ -1334,7 +1334,7 @@
 								<div class="col-xl-3">
 
 									<!--begin:: Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 										
 											<div class="kt-ribbon__target" style="top: 70px; right: -2px;">Proses Pembayaran</div>
 

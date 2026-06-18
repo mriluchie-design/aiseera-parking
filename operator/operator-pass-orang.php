@@ -105,7 +105,7 @@ function goBack() {
 					  <div class="col-lg-4">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Orang</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
@@ -177,7 +177,7 @@ function goBack() {
 					  <div class="col-lg-5">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Transaksi</div><br><br>
 										 <div class="kt-portlet__body">
 										 
@@ -243,7 +243,7 @@ function goBack() {
 					  <div class="col-lg-3">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Operator</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
