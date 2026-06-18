@@ -959,7 +959,7 @@ function goBack() {
   <div class="form-group row">
    
  <div class="col-xl-10">
- <a href="#" style="margin-top:100px;" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal_tambah_piutang">
+ <a href="#" style="margin-top:100px;" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal_tambah_hutang">
 											<i class="fa fa-plus"></i>Tambah Hutang Awal
 										</a>
  
@@ -1666,7 +1666,7 @@ function goBack() {
 									</div>
 								</div>
 							</div>
-							<div class="modal fade" id="modal_tambah_piutang" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+							<div class="modal fade" id="modal_tambah_hutang" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
 									<div class="modal-content">
 
@@ -1676,7 +1676,7 @@ function goBack() {
 
 											<div class="kt-portlet__head-label">
 												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-clipboard-list"></i></span>
-												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">TAMBAH PIUTANG</h3>
+												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">TAMBAH HUTANG</h3>
 											</div>
 <div class="kt-widget__toolbar"><br>
 																	 <span class="kt-switch kt-switch--sm kt-switch--icon">
@@ -1738,50 +1738,6 @@ function goBack() {
 										</div>
 									</div>
 									<div class="col-lg-6">
-										<label class="">Jatuh Tempo :</label>
-										<div class="form-group">
-											<div class="input-group date">
-																									 <input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="- Pilih Tanggal -" id="kt_datepicker_2">
-																									 <div class="input-group-append">
-																											 <span class="input-group-text">
-																													 <i class="la la-calendar-check-o"></i>
-																											 </span>
-																									 </div>
-																							 </div>
-										</div>
-									</div>
-
-
-												
-													
-													
-
-												</div>
-
-
-
-												
-													
-													
-
-												</div>
-
-
-												
-												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-												<div class="form-group row">
-												
-													<div class="col-lg-6">
-														<label class="kt-font-brand">Penjual  :</label>
-														<select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Muhammad Nasrullah, S.Kom</option>
-                                      <option value="1">Muhammad Ramadhan, S.T</option>
-                                      <option value="2">Keseluruhan</option>
-                                                   <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>                        
-                                  </select>
-														
-													</div>
-													<div class="col-lg-6">
 										<label class="">Jumlah:</label>
 										<div class="input-group input-group-sm">
 														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
@@ -1789,6 +1745,7 @@ function goBack() {
 														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 													</div>
 									</div>
+									
 
 
 												
@@ -1796,6 +1753,18 @@ function goBack() {
 													
 
 												</div>
+
+
+
+												
+													
+													
+
+												</div>
+
+
+												
+												
 												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 												<div class="form-group row">
 												
