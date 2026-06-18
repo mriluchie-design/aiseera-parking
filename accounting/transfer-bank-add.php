@@ -13,10 +13,20 @@
 				</span>
 				&nbsp;
 				&nbsp;
-				Form Transfer Bank
+				FORM
 			</h3>
 
-		</div>
+		<span class="kt-subheader__separator kt-subheader__separator--v"></span>
+									<div class="kt-subheader__group" id="kt_subheader_search">
+										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
+											TRANSFER BANK</span>
+										<form class="kt-margin-l-20" id="kt_subheader_search_form">
+
+										</form>
+									</div>
+
+
+								</div>
 		<div class="kt-subheader__toolbar">
 			<div class="dropdown dropdown-inline" ddata-placement="left">
 				<a href="#" class="btn btn-label-brand btn-smdata-toggle="dropdown" onclick="goBack()">

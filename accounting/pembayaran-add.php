@@ -13,10 +13,20 @@
 				</span>
 				&nbsp;
 				&nbsp;
-				Form Kas Keluar - Pembayaran
+				FORM
 			</h3>
 
-		</div>
+		<span class="kt-subheader__separator kt-subheader__separator--v"></span>
+									<div class="kt-subheader__group" id="kt_subheader_search">
+										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
+											PEMBAYARAN</span>
+										<form class="kt-margin-l-20" id="kt_subheader_search_form">
+
+										</form>
+									</div>
+
+
+								</div>
 		<div class="kt-subheader__toolbar">
 			<div class="dropdown dropdown-inline" ddata-placement="left">
 				<a href="mutasi-pegawai.php" class="btn btn-label-brand btn-sm" data-toggle="dropdown" onclick="goBack()">
@@ -28,7 +38,7 @@
 					</script>
 					<!--<i class="flaticon2-plus"></i>-->
 				</a>
-				<a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
+				<a href="#" class="btn btn-label-warning btn-sm" data-toggle="dropdown">
 						<i class="fa fa-arrow-circle-down"></i> Ambil Data</button>
 					</a>
 					<div class="dropdown-menu dropdown-menu-fit dropdown-menu-md dropdown-menu-right">
@@ -37,15 +47,15 @@
 						<ul class="kt-nav">
 
 							<li class="kt-nav__item">
-								<a href="#" class="kt-nav__link">
-									<i class="kt-nav__link-icon fa fa-heart"></i>
-									<span class="kt-nav__link-text">Favorit</span>
+								<a href="#" class="kt-nav__link" data-toggle="modal" data-target="#lihat_favorit">
+									<i class="kt-nav__link-icon fa fa-bookmark"></i>
+									<span class="kt-nav__link-text">Dari Favorit</span>
 								</a>
 							</li>
 							<li class="kt-nav__item">
-								<a href="#" class="kt-nav__link">
+								<a href="#" class="kt-nav__link" data-toggle="modal" data-target="#lihat_beban">
 									<i class="kt-nav__link-icon fa fa-file-invoice"></i>
-									<span class="kt-nav__link-text">Catatan Beban</span>
+									<span class="kt-nav__link-text">Pencatatan Beban</span>
 								</a>
 							</li>
 							

@@ -23,7 +23,7 @@ License: You must have a valid license purchased only from themeforest(the above
 				</span>
 				&nbsp;
 				&nbsp;
-					Kas Masuk
+					PENERIMAAN
 			</h3>
 		</div>
 		<div class="kt-subheader__toolbar">
@@ -33,7 +33,7 @@ License: You must have a valid license purchased only from themeforest(the above
 						<i class="fa fa-print"></i> Export Data</button>
 					</a>
 					<a href="pemasukan-add.php" class="btn btn-info btn-sm">
-				<i class="fa fa-plus-circle"></i>Buat Pendapatan</button>
+				<i class="fa fa-plus-circle"></i>Buat Penerimaan</button>
 				<!--<i class="flaticon2-plus"></i>-->
 			</a>
 			

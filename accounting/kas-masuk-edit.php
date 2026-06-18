@@ -13,10 +13,20 @@
 				</span>
 				&nbsp;
 				&nbsp;
-				Edit Kas Masuk - Pendapatan
+				EDIT
 			</h3>
 
-		</div>
+		<span class="kt-subheader__separator kt-subheader__separator--v"></span>
+									<div class="kt-subheader__group" id="kt_subheader_search">
+										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
+											PENERIMAAN</span>
+										<form class="kt-margin-l-20" id="kt_subheader_search_form">
+
+										</form>
+									</div>
+
+
+								</div>
 		<div class="kt-subheader__toolbar">
 			<div class="dropdown dropdown-inline" ddata-placement="left">
 				<a href="#" class="btn btn-label-brand btn-sm" data-toggle="dropdown" onclick="goBack()">
@@ -29,7 +39,7 @@
 					<!--<i class="flaticon2-plus"></i>-->
 				</a>
 
-				<a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
+				<a href="#" class="btn btn-label-warning btn-sm" data-toggle="dropdown">
 						<i class="fa fa-arrow-circle-down"></i> Ambil Data</button>
 					</a>
 					<div class="dropdown-menu dropdown-menu-fit dropdown-menu-md dropdown-menu-right">
@@ -38,11 +48,13 @@
 						<ul class="kt-nav">
 
 							<li class="kt-nav__item">
-								<a href="#" class="kt-nav__link">
-									<i class="kt-nav__link-icon fa fa-file-pdf"></i>
-									<span class="kt-nav__link-text">Favorit</span>
+								<a href="#" class="kt-nav__link" data-toggle="modal" data-target="#lihat_favorit">
+									<i class="kt-nav__link-icon fa fa-bookmark"></i>
+									<span class="kt-nav__link-text">Dari Favorit</span>
 								</a>
 							</li>
+
+
 							
 						</ul>
 						<!--end::Nav-->
@@ -794,7 +806,110 @@
 			</div>
 		</div>
 	</div>
+<div class="modal fade" id="lihat_favorit" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+									<div class="modal-content">
 
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-clipboard-list"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">TRANSAKSI FAVORIT</h3>
+											</div>
+<div class="kt-portlet__head-toolbar">
+											
+											&nbsp;
+												<button type="button" class="btn btn-secondary btn-sm btn-outline-danger" data-dismiss="modal">X</button>
+											</div>
+											
+										</div>
+										<div class="kt-portlet__body">
+											<div class="tab-content">
+												
+
+<div class="form-group row">
+<div class="col-lg-6">
+														<label class="kt-font-brand">Transaksi Favorit :</label>
+														<select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option>Bensin</option>
+                                                                           
+                                  </select>
+													</div>
+												
+
+
+
+												
+													
+													
+
+												</div>
+<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+<div class="form-group row">
+												
+      												<table class="table table-responsive table-striped- table-hover table-checkable" id="kt_table_1">
+										<thead>
+											<tr style="text-align:center">
+											  <th width="2%" bgcolor="#f7fcff" style="border-bottom:2px solid #0e62ae; border-top:2px solid #0e62ae;">#</th>
+											  <th width="1%" bgcolor="#f7fcff" style="border-bottom:2px solid #0e62ae; border-top:2px solid #0e62ae;">Akun</th>
+											  <th width="12%" bgcolor="#f7fcff" style="border-bottom:2px solid #0e62ae; border-top:2px solid #0e62ae;">Nama Akun</th>
+											  <th width="10%" bgcolor="#f7fcff" style="border-bottom:2px solid #0e62ae; border-top:2px solid #0e62ae;">Nilai</th>
+										  </tr>
+										</thead>
+										<tbody>
+											<tr>
+											  <td style="text-align:center" nowrap="nowrap"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
+															    <input type="checkbox" checked="checked">
+															    <span></span> </label></td>
+												<td nowrap style="text-align:left;">600003</td>
+												<td nowrap style="text-align:left;">Beban Bensin, Parkir, Tol Kendaraan</td>
+												<td nowrap="nowrap" style="text-align:center;"><div class="input-group input-group-sm">
+												  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+												  <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000.000" aria-describedby="basic-addon1" />
+												  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+											    </div></td>
+										  </tr>
+  </tbody>
+									</table>
+      												</div>
+                              
+
+
+												</div>
+												
+												
+												
+
+
+												
+													
+													
+
+												</div>
+												
+											
+									<div class="kt-portlet__foot kt-align-right">
+												<div class="">
+													<button type="button" class="btn btn-sm btn-success">
+					<i class="fa fa-check-circle"></i>Lanjut</button>
+												</div>
+											</div>
+
+
+
+
+									</div>
+
+									</div>
+								</div>
+							</div>
+							<!--End::Modal 1-->
+							
+							
+									
+        </div>
 	<div class="modal fade" id="kt_modal_PPh_penjualan" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
 			<div class="modal-content">
