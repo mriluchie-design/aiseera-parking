@@ -24,7 +24,7 @@
             <div class="kt-subheader__main">
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Vendor / Pemasok
+                    Vendor
                 </h3>
             </div>
             <div class="kt-subheader__toolbar">
@@ -352,25 +352,25 @@
 																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 																	<ul class="kt-nav">
 																	<li class="kt-nav__item">
-																			<a href="pelanggan-detail.php" class="kt-nav__link">
+																			<a href="vendor-detail.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Detail Pelanggan</span>
+																				<span class="kt-nav__link-text">Detail Vendor</span>
 																			</a>
 																		</li>
 																		<li class="kt-nav__item">
-																			<a href="pelanggan-edit.php" class="kt-nav__link">
+																			<a href="vendor-edit.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-edit"></i>
-																				<span class="kt-nav__link-text">Ubah Data Pelanggan</span>
+																				<span class="kt-nav__link-text">Ubah Data Vendor</span>
 																			</a>
 																		</li>
 																		<li class="kt-nav__item">
-																			<a href="pelanggan-cetak-kartu.php" class="kt-nav__link">
+																			<a href="vendor-cetak-kartu.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-address-card"></i>
-																				<span class="kt-nav__link-text">Cetak Kartu Pelanggan</span>
+																				<span class="kt-nav__link-text">Cetak Kartu Vendor</span>
 																			</a>
 																		</li>
 																			<li class="kt-nav__item">
-																			<a href="pelanggan-suspend.php" class="kt-nav__link">
+																			<a href="vendor-suspend.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-user-slash"></i>
 																				<span class="kt-nav__link-text">Suspend</span>
 																			</a>
@@ -415,25 +415,25 @@
 																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 																	<ul class="kt-nav">
 																	<li class="kt-nav__item">
-																			<a href="pelanggan-detail.php" class="kt-nav__link">
+																			<a href="vendor-detail.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Detail Pelanggan</span>
+																				<span class="kt-nav__link-text">Detail Vendor</span>
 																			</a>
 																		</li>
 																		<li class="kt-nav__item">
-																			<a href="pelanggan-edit.php" class="kt-nav__link">
+																			<a href="vendor-edit.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-edit"></i>
+																				<span class="kt-nav__link-text">Ubah Data Vendor</span>
+																			</a>
+																		</li>
+																		<li class="kt-nav__item">
+																			<a href="vendor-cetak-kartu.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-address-card"></i>
-																				<span class="kt-nav__link-text">Ubah Data Pelanggan</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="pelanggan-cetak-kartu.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-print"></i>
-																				<span class="kt-nav__link-text">Cetak Kartu Pelanggan</span>
+																				<span class="kt-nav__link-text">Cetak Kartu Vendor</span>
 																			</a>
 																		</li>
 																			<li class="kt-nav__item">
-																			<a href="pelanggan-suspend.php" class="kt-nav__link">
+																			<a href="vendor-suspend.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-user-slash"></i>
 																				<span class="kt-nav__link-text">Suspend</span>
 																			</a>
@@ -479,25 +479,25 @@
 																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 																	<ul class="kt-nav">
 																	<li class="kt-nav__item">
-																			<a href="pelanggan-detail.php" class="kt-nav__link">
+																			<a href="vendor-detail.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Detail Pelanggan</span>
+																				<span class="kt-nav__link-text">Detail Vendor</span>
 																			</a>
 																		</li>
 																		<li class="kt-nav__item">
-																			<a href="pelanggan-edit.php" class="kt-nav__link">
+																			<a href="vendor-edit.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-edit"></i>
-																				<span class="kt-nav__link-text">Ubah Data Pelanggan</span>
+																				<span class="kt-nav__link-text">Ubah Data Vendor</span>
 																			</a>
 																		</li>
 																		<li class="kt-nav__item">
-																			<a href="pelanggan-cetak-kartu.php" class="kt-nav__link">
+																			<a href="vendor-cetak-kartu.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-address-card"></i>
-																				<span class="kt-nav__link-text">Cetak Kartu Pelanggan</span>
+																				<span class="kt-nav__link-text">Cetak Kartu Vendor</span>
 																			</a>
 																		</li>
 																			<li class="kt-nav__item">
-																			<a href="pelanggan-suspend.php" class="kt-nav__link">
+																			<a href="vendor-suspend.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-user-slash"></i>
 																				<span class="kt-nav__link-text">Suspend</span>
 																			</a>
@@ -536,25 +536,25 @@
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
       <ul class="kt-nav">
 																	<li class="kt-nav__item">
-																			<a href="pelanggan-detail.php" class="kt-nav__link">
+																			<a href="vendor-detail.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Detail Pelanggan</span>
+																				<span class="kt-nav__link-text">Detail Vendor</span>
 																			</a>
 																		</li>
 																		<li class="kt-nav__item">
-																			<a href="pelanggan-edit.php" class="kt-nav__link">
+																			<a href="vendor-edit.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-edit"></i>
-																				<span class="kt-nav__link-text">Ubah Data Pelanggan</span>
+																				<span class="kt-nav__link-text">Ubah Data Vendor</span>
 																			</a>
 																		</li>
 																		<li class="kt-nav__item">
-																			<a href="pelanggan-cetak-kartu.php" class="kt-nav__link">
+																			<a href="vendor-cetak-kartu.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-address-card"></i>
-																				<span class="kt-nav__link-text">Cetak Kartu Pelanggan</span>
+																				<span class="kt-nav__link-text">Cetak Kartu Vendor</span>
 																			</a>
 																		</li>
 																			<li class="kt-nav__item">
-																			<a href="pelanggan-suspend.php" class="kt-nav__link">
+																			<a href="vendor-suspend.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-user-slash"></i>
 																				<span class="kt-nav__link-text">Suspend</span>
 																			</a>

@@ -24,7 +24,7 @@
             <div class="kt-subheader__main">
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Pelanggan / Client
+                    Pelanggan
                 </h3>
             </div>
             <div class="kt-subheader__toolbar">

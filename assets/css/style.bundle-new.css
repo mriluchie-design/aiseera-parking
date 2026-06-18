@@ -30086,6 +30086,7 @@ font-weight:400;
     .kt-subheader .kt-subheader__main .kt-subheader__desc {
       padding: 0 0.5rem 0 0;
       font-size: 1rem;
+	  text-transform:uppercase;
       font-weight: 500;
       color: #959cb6; }
     .kt-subheader .kt-subheader__main .kt-subheader__separator {
