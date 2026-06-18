@@ -539,7 +539,7 @@
 								<div class="kt-widget__toolbar">
                                     <div class="kt-widget6__item">
 														
-														<span><img src="../assets/img/users/300_5.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="082244444436<hr>Muhammad Nasrullah, S,Kom" data-html="true"></span>
+														<span><img src="../assets/img/users/300_21.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="082244444436<hr>Muhammad Nasrullah, S,Kom" data-html="true"></span>
 													</div>
 									
 								</div>
@@ -667,7 +667,7 @@
 								<div class="kt-widget__toolbar">
                                     <div class="kt-widget6__item">
 														
-														<span><img src="../assets/img/users/300_8.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="082244444436<hr>Muhammad Nasrullah, S,Kom" data-html="true"></span>
+														<span><img src="../assets/img/users/300_14.jpg" alt="image" style="max-width:80px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="082244444436<hr>Muhammad Nasrullah, S,Kom" data-html="true"></span>
 													</div>
 									
 								</div>

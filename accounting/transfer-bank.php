@@ -132,20 +132,24 @@ License: You must have a valid license purchased only from themeforest(the above
 																			<table class="table table-bordered table-hover">
 																				<thead>
 																					<tr>
-																					  <th width="1%" bgcolor="#f7fcff" class="#">#</th>
-																						<th width="1%" bgcolor="#f7fcff" class="nomor">Nomor</th>
-																						<th width="8%" bgcolor="#f7fcff" class="tanggal">Waktu Transaksi</th>
-																						<th width="12%" bgcolor="#f7fcff" class="kas">Kas/Bank<br>(Keluar)</th>
-																						<th width="12%" bgcolor="#f7fcff" class="nilai">Nominal Keluar</th>
-																						<th width="12%" bgcolor="#f7fcff" class="kas">Kas/Bank<br>(Masuk)</th>
-																						<th width="12%" bgcolor="#f7fcff" class="nilai">Nominal Masuk</th>
-																						<th width="22%" bgcolor="#f7fcff" class="keterangan">Keterangan</th>
-																						<th width="12%" bgcolor="#f7fcff" class="nilai">Total</th>
-																						<th width="3%" bgcolor="#f7fcff" class="dibuatoleh">Dibuat<br>Oleh</th>
-																						<th width="5%" bgcolor="#f7fcff" class="cabang">Kantor</th>
-																						<th width="3%" bgcolor="#f7fcff" class="verifikasi">Verifikasi</th>
-																						<th width="5%" bgcolor="#f7fcff" class="aksi">Aksi</th>
+																					  <th width="1%" rowspan="2" bgcolor="#f7fcff" class="#">#</th>
+																						<th width="1%" rowspan="2" bgcolor="#f7fcff" class="nomor">Nomor</th>
+																						<th width="8%" rowspan="2" bgcolor="#f7fcff" class="tanggal">Waktu Transaksi</th>
+																						<th colspan="2" bgcolor="#f7fcff" class="kas">Kas/Bank Asal<br></th>
+																						<th colspan="2" bgcolor="#f7fcff" class="kas">Kas/Bank Tujuan</th>
+																						<th width="22%" rowspan="2" bgcolor="#f7fcff" class="keterangan">Keterangan</th>
+																						<th width="12%" rowspan="2" bgcolor="#f7fcff" class="nilai">Total</th>
+																						<th width="3%" rowspan="2" bgcolor="#f7fcff" class="dibuatoleh">Dibuat<br>Oleh</th>
+																						<th width="5%" rowspan="2" bgcolor="#f7fcff" class="cabang">Kantor</th>
+																						<th width="3%" rowspan="2" bgcolor="#f7fcff" class="verifikasi">Verifikasi</th>
+																						<th width="5%" rowspan="2" bgcolor="#f7fcff" class="aksi">Aksi</th>
 																					</tr>
+																					<tr>
+																					  <th width="12%" bgcolor="#f7fcff" class="kas">Akun</th>
+																					  <th width="12%" bgcolor="#f7fcff" class="nilai">Jumlah</th>
+																					  <th width="12%" bgcolor="#f7fcff" class="kas">Akun</th>
+																					  <th width="12%" bgcolor="#f7fcff" class="nilai">Jumlah</th>
+																				  </tr>
 																				</thead>
 																				<tbody>
 																					<tr>
@@ -164,7 +168,7 @@ License: You must have a valid license purchased only from themeforest(the above
 													</a></td>
 																						<td class="cabang">Pusat</td>
 																						<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
-																						<td width="3%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+																						<td width="5%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 																						  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 																						    <ul class="kt-nav">
 																						      <li class="kt-nav__item"> <a href="transfer-bank-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
@@ -192,7 +196,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																						<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
 															<i class="fa flaticon2-check-mark"></i>
 														</span></td>
-																						<td width="3%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+																						<td width="5%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 																						  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 																						    <ul class="kt-nav">
 																						      <li class="kt-nav__item"> <a href="transfer-bank-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>

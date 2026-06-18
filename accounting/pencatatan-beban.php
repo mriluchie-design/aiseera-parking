@@ -249,7 +249,9 @@ License: You must have a valid license purchased only from themeforest(the above
 												  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 												  </div></td>
 												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Terbayar</span></td>
-												<td style="text-align:center" nowrap="nowrap"><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
+												<td style="text-align:center" nowrap=""><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release" data-html="true">
+															<i class="fa flaticon2-check-mark"></i>
+														</span></td>
 												<td style="text-align:center" nowrap="nowrap"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -344,7 +346,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																	Deddy Rafsanjani, S.Sos
 																</a>
 																<p class="kt-widget4__text">
-																	Kepala Bagian Kepegawaian
+																	SPV Finance
 																</p>
 															</div>
 															<span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Disetujui&lt;hr&gt;11 Juli 2025 - 20:33 WITA">
@@ -360,27 +362,14 @@ License: You must have a valid license purchased only from themeforest(the above
 																	Oklan Zulkifli, SE
 																</a>
 																<p class="kt-widget4__text">
-																	Direktur Umum
+																	Direktur Keuangan
 																</p>
 															</div>
 															<span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Disetujui&lt;hr&gt;11 Juli 2025 - 22:33 WITA">
 															<i class="fa flaticon2-check-mark"></i>
 														</span>
 														</div>
-														<div class="kt-widget4__item">
-															<div class="kt-widget4__pic kt-widget4__pic--pic"  data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001" data-html="true">
-																<img src="../assets/img/users/100_15.jpg" alt="">
-															</div>
-															<div class="kt-widget4__info">
-																<a href="#" class="kt-widget4__username">
-																	Muhammad Nasrullah, S.Kom
-																</a>
-																<p class="kt-widget4__text">
-																	Direktur Utama
-																</p>
-															</div>
-															<button type="button" class="btn btn-warning btn-sm btn-icon kt_sweetalert_demo_setuju" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Menunggu Persetujuan"><i class="fa fa-clock"></i></button>
-														</div>
+														
 														
 														
 														
@@ -427,7 +416,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																	Deddy Rafsanjani, S.Sos
 																</a>
 																<p class="kt-widget4__text">
-																	Kepala Bagian Kepegawaian
+																	SPV Finance
 																</p>
 															</div>
 															<span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Disetujui&lt;hr&gt;11 Juli 2025 - 20:33 WITA">
@@ -443,29 +432,14 @@ License: You must have a valid license purchased only from themeforest(the above
 																	Oklan Zulkifli, SE
 																</a>
 																<p class="kt-widget4__text">
-																	Direktur Umum
+																	Direktur Keuangan
 																</p>
 															</div>
 															<span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Disetujui&lt;hr&gt;11 Juli 2025 - 22:33 WITA">
 															<i class="fa flaticon2-check-mark"></i>
 														</span>
 														</div>
-														<div class="kt-widget4__item">
-															<div class="kt-widget4__pic kt-widget4__pic--pic"  data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001" data-html="true">
-																<img src="../assets/img/users/100_15.jpg" alt="">
-															</div>
-															<div class="kt-widget4__info">
-																<a href="#" class="kt-widget4__username">
-																	Muhammad Nasrullah, S.Kom
-																</a>
-																<p class="kt-widget4__text">
-																	Direktur Utama
-																</p>
-															</div>
-															<span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Disetujui&lt;hr&gt;11 Juli 2025 - 22:33 WITA">
-															<i class="fa flaticon2-check-mark"></i>
-														</span>
-														</div>
+														
 														
 														
 														

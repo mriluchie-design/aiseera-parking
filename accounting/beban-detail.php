@@ -715,7 +715,7 @@
     <td width="3%" rowspan="2" >&nbsp;</td>
     <td style="text-align: left; border-bottom:1px solid #ccc;"><b>Nomor</b></td>
     <td width="1%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
-    <td style="text-align: left; border-bottom:1px solid #ccc;">JV.2026.06.00002 &nbsp;<a href="javascript:;" data-repeater-delete="" class="btn btn-outline-brand btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Data"><i class="fa fa-eye"></i></a></td>
+    <td style="text-align: left; border-bottom:1px solid #ccc;">JV.2026.06.00002 &nbsp;<a href="javascript:;" data-repeater-delete="" class="btn btn-outline-default btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Lihat Data"><i class="fa fa-eye"></i></a></td>
   </tr>
   <tr>
     <td width="2%" style="border-bottom:1px solid #ccc;"><b>Keterangan</b></td>

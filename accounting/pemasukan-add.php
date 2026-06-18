@@ -88,9 +88,9 @@
 										<label>Kas / Bank : <code>*</code></label>
 										<select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
 											<option value="1" disabled selected>Cari/Pilih...</option>
-												<option value="2" data-subtext="110101">Kas Kecil</option>
-												<option value="3" data-subtext="110102">Bank</option>
-												<option value="4" data-subtext="110201">Deposito Bank</option>
+												<option value="2" data-subtext="Saldo : Rp. 500.000,-"><small class="text-muted">110101</small> - Kas Kecil</option>
+												<option value="3" data-subtext="Saldo : Rp. 500.000,-">110102 - Bank</option>
+												<option value="4" data-subtext="Saldo : Rp. 3.000.000.000,-">110201 - Deposito Bank</option>
 										</select>
 									</div>
 									<div class="col-lg-5">

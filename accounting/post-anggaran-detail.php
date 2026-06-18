@@ -793,7 +793,7 @@
                     <span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Sesuai
                             dengan ketentuan Peraturan Perusahaan yang berlaku, Perusahaan mengatur
                             bahwa
-                            Dokumen ini telah ditandatangani dan diverifikasi secara elektronik, sehingga
+                            Dokumen ini telah ditandatangani dan diverifikasi secara elektronik,<br>sehingga
                             tidak
                             diperlukan
                             tanda tangan basah pada Dokumen ini.</i></span></td>

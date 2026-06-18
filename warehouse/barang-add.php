@@ -96,10 +96,10 @@ function goBack() {
 				
 					  
 					  
-					  <div class="col-xl-6">
+					  <div class="col-xl-9">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid-full" id="kt_page_portlet">
+										<div class="kt-portlet kt-portlet--height-fluid" id="kt_page_portlet">
 
 				
                     <div class="kt-portlet__body">
@@ -122,21 +122,34 @@ function goBack() {
 														<i class="fa fa-image"></i>Foto Barang
 													</a>
 												</li>
+												<li class="nav-item m-tabs__item">
+													<a class="nav-link m-tabs__link" data-toggle="tab" href="#m_tabs_6_4" role="tab">
+														<i class="fa fa-calculator"></i>Akuntansi
+													</a>
+												</li>
 											</ul>
 											<div class="tab-content">
 												<div class="tab-pane active" id="m_tabs_6_1" role="tabpanel">
 													
 														
 														<div class="kt-portlet__body">
-															<div class="kt-portlet__content"><br>
+															<div class="kt-portlet__content">
 																<div class="form-group row">
-						<div class="col-lg-3">
+																<div class="col-xl-6">
+
+									<!--begin::Portlet-->
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<br><br>
+										<div class="kt-portlet__body">
+																								<div class="kt-portlet__content">
+																									<div class="form-group row">
+																										<div class="col-lg-6">
                           <label class="">Kode Barang :</label>
                           <div class="form-group">
                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="0001SKUAK0626">
                       </div>
                         </div>
-						<div class="col-lg-4">
+						<div class="col-lg-6">
                           <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Pilih Kategori" data-html="true">*</code> Kategori :</label>
                          <select class="form-control kt-selectpicker" data-live-search="true">
 						
@@ -149,57 +162,65 @@ function goBack() {
 														
 													</select>
                         </div>
-						
-						<div class="form-group row">
-      												<div class="col-lg-12">
-                                <div class="form-group">
-      													<label>Project :</label>
-                                <div class="kt-section__content kt-section__content--solid" role="group" aria-label="...">
-      													<button type="button" class="btn btn-secondary btn-square btn-sm col-lg-6" id="hide1">Tidak</button>&nbsp;
-      													
-                                <button type="button" class="btn btn-secondary btn-square btn-sm col-lg-4" id="show">Ya</button>&nbsp;
-      												</div>
-                              	</div>
-      												</div>
-      												</div>
-                              <div class="form-group row tampil">
-                                <div class="col-lg-12">
-								
-                                  <div class="form-group row">
-    													
-													<div class="col-lg-12">
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+                     <div class="form-group row">
+						<div class="col-lg-12">
 														<label class="kt-font-danger">Pilih Project :</label>
 														 <select class="form-control form-control kt-selectpicker" data-live-search="true">
 														<option>Epass</option>
 														
 														</select>
 													</div>
-												
-                          </div>
-						
-
-
-
-											</div>
-											
-											</div>
-											</div>
-											<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+													</div>
+													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
                      <div class="form-group row">
-						<div class="col-lg-6">
-                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Isikan Nama Barang dengan Lengkap" data-html="true">*</code> Nama Barang :</label>
-                          <input type="text" class="form-control form-control-sm" placeholder="">
-                        </div>
-                      <div class="col-lg-6">
+					 <div class="col-lg-6">
                           <label class="">Scan Barcode :</label>
                           <div class="kt-input-icon kt-input-icon--right">
       <input type="text" class="form-control form-control-sm" placeholder="Scan Barcode disini" id="generalSearch">
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div>
                       </div>
+					  <div class="col-lg-6">
+                          <label class="">Vendor :</label>
+                           <select class="form-control kt-selectpicker" data-live-search="true">
+														<option>PT. ABC</option>
+														<option>PT. CDE</option>
+														
+														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+														</select>
+                        </div>
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						 <div class="form-group row">
+						<div class="col-lg-12">
+                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Isikan Nama Barang dengan Lengkap" data-html="true">*</code> Nama Barang :</label>
+                          <input type="text" class="form-control form-control-sm" placeholder="">
+                        </div>
+																										</div>
+																										<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+																										
+																										
+																								</div>
+																								
+																							</div>
+
+									</div>
+									
+					  
+					  
+					  
                       </div>
-					  <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-					  <div class="form-group row">
-						<div class="col-lg-4">
+					  <div class="col-xl-6">
+
+									<!--begin::Portlet-->
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Barang</div><br><br>
+										<div class="kt-portlet__body">
+																								<div class="kt-portlet__content">
+																									<div class="form-group row">
+					  
+						<div class="col-lg-6">
                           <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Harga Pembelian :</label>
                           <div class="input-group input-group-sm">
 															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" style="border-color:#0e62ae" id="basic-addon2">Rp.</span></div>
@@ -218,19 +239,8 @@ function goBack() {
 														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 														</select>
                         </div>
-						<div class="col-lg-3" >
+						<div class="col-lg-4" >
                           <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Tanggal Pembelian :</label>
-                          <div class="input-group date">
-													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" >
-													<div class="input-group-append">
-														<span class="input-group-text">
-															<i class="la la-calendar-check-o"></i>
-														</span>
-													</div>
-												</div>
-                        </div>
-						<div class="col-lg-3" >
-                          <label>Tanggal Expired :</label>
                           <div class="input-group date">
 													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" >
 													<div class="input-group-append">
@@ -244,7 +254,8 @@ function goBack() {
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
 						
-						<div class="col-lg-4">
+						
+						<div class="col-lg-6">
                           <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Harga Penjualan :</label>
                           <div class="input-group input-group-sm">
 															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" style="border-color:#0e62ae" id="basic-addon2">Rp.</span></div>
@@ -263,15 +274,65 @@ function goBack() {
 														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 														</select>
                         </div>
-						
-						<div class="col-lg-6">
+						<div class="col-lg-4" >
+                          <label>Tanggal Expired :</label>
+                          <div class="input-group date">
+													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" >
+													<div class="input-group-append">
+														<span class="input-group-text">
+															<i class="la la-calendar-check-o"></i>
+														</span>
+													</div>
+												</div>
+                        </div>
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-12">
                           <label class="">Catatan Internal :</label>
-                          <textarea class="form-control" id="exampleTextarea" rows="3" placeholder=""></textarea>
+                          <textarea class="form-control" id="exampleTextarea" rows="6" placeholder=""></textarea>
                         </div>
 						
 						
 						
+						
+						
+						
                         </div>
+																										
+																										
+																										
+																								</div>
+																								
+																							</div>
+
+									</div>
+									
+					  
+					  
+					  
+                      </div>
+						
+						
+						
+						
+                             
+                                <div class="col-lg-6">
+								
+                                  <div class="form-group row">
+    													
+													
+												
+                          </div>
+						
+
+
+
+											</div>
+											
+											</div>
+											
+						
 						
 						
 					 
@@ -349,7 +410,7 @@ function goBack() {
 						
                     </div>
 																										</div>
-																										<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+																										
 																										
 																										
 																								</div>
@@ -365,22 +426,401 @@ function goBack() {
 															</div>
 														</div>
 												</div>
-											</div>
-											</div>
-											</div>
-											</div>
+												<div class="tab-pane" id="m_tabs_6_4" role="tabpanel">
+													
+														<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
-												
+												<div class="form-group row">
+						
+						<div class="col-lg-4"><br>
+                          <label class="">Akun Persediaan :</label>
+                          <select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
+								<option value="1" disabled selected>110401 - Persediaan</option>
+								
+								
+								
+								
+								<optgroup label="Kewajiban Jangka Pendek" class="a">
+									<option data-subtext="5101">Beban Pokok Penjualan</option>
+								</optgroup>
+								<optgroup label="Beban" class="a">
+									<option data-subtext="600001">Beban Iklan</option>
+									<option data-subtext="600002">Beban Komisi</option>
+									<option data-subtext="600003">Beban Bensin, Parkir, Tol Kendaraan</option>
+									<option data-subtext="600004">Beban Gaji, Upah & Honorer</option>
+									<option data-subtext="600005">Beban Bonus, Pesangon & Kompensasi</option>
+									<option data-subtext="600006">Beban Transportasi Karyawan</option>
+									<option data-subtext="600007">Beban Catering & Makan Karyawan</option>
+									<option data-subtext="600008">Beban Tunjangan Kesehatan</option>
+									<option data-subtext="600009">Beban Asuransi Karyawan</option>
+									<option data-subtext="600010">Beban THR</option>
+									<option data-subtext="600011">Beban Listrik</option>
+									<option data-subtext="600012">Beban PDAM</option>
+									<option data-subtext="600013">Beban Telekomunikasi</option>
+									<option data-subtext="600014">Beban Ekspedisi, POS, & Materai</option>
+									<option data-subtext="600015">Beban Perjalanan Dinas</option>
+									<option data-subtext="600016">Beban Perlengkapan Kantor</option>
+									<option data-subtext="600017">Beban Pajak Penghasilan</option>
+									<option data-subtext="600018">Beban Restribusi & Sumbangan</option>
+									<option data-subtext="600019">Beban Sewa Gedung</option>
+									<option data-subtext="600020">Beban Operasional Lainnya</option>
+									<option data-subtext="600021">Beban Penyusutan Gedung</option>
+									<option data-subtext="600022">Beban Penyusutan Kendaraan</option>
+									<option data-subtext="600023">Beban Penyusutan Peralatan</option>
+									<option data-subtext="600001">Beban Inventaris Kantor</option>
+								</optgroup>
+								<optgroup label="Beban Lainnya" class="a">
+									<option data-subtext="720001">Beban Bunga Pinjaman</option>
+									<option data-subtext="720002">Beban Adm.Bank & Buku Cek/Giro</option>
+									<option data-subtext="720003">Pajak Jasa Giro</option>
+									<option data-subtext="720004">Laba/Rugi Terelasasi</option>
+									<option data-subtext="720005">Laba/Rugi Belum Terealisasi</option>
+									<option data-subtext="720006">Laba/Rugi Disposisi Aset</option>
+									<option data-subtext="720007">Beban Diluar Usaha Lainnya</option>
+								</optgroup>
+								<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+								<option value="1">Lihat Semua</option>
+							</select>
+                        </div>
+						<div class="col-lg-4">
+						<br>
+                          <label class="">Akun Penjualan :</label>
+                          <select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
+								<option value="1" disabled selected>400001 - Penjualan</option>
+								
+								
+								
+								
+								<optgroup label="Kewajiban Jangka Pendek" class="a">
+									<option data-subtext="5101">Beban Pokok Penjualan</option>
+								</optgroup>
+								<optgroup label="Beban" class="a">
+									<option data-subtext="600001">Beban Iklan</option>
+									<option data-subtext="600002">Beban Komisi</option>
+									<option data-subtext="600003">Beban Bensin, Parkir, Tol Kendaraan</option>
+									<option data-subtext="600004">Beban Gaji, Upah & Honorer</option>
+									<option data-subtext="600005">Beban Bonus, Pesangon & Kompensasi</option>
+									<option data-subtext="600006">Beban Transportasi Karyawan</option>
+									<option data-subtext="600007">Beban Catering & Makan Karyawan</option>
+									<option data-subtext="600008">Beban Tunjangan Kesehatan</option>
+									<option data-subtext="600009">Beban Asuransi Karyawan</option>
+									<option data-subtext="600010">Beban THR</option>
+									<option data-subtext="600011">Beban Listrik</option>
+									<option data-subtext="600012">Beban PDAM</option>
+									<option data-subtext="600013">Beban Telekomunikasi</option>
+									<option data-subtext="600014">Beban Ekspedisi, POS, & Materai</option>
+									<option data-subtext="600015">Beban Perjalanan Dinas</option>
+									<option data-subtext="600016">Beban Perlengkapan Kantor</option>
+									<option data-subtext="600017">Beban Pajak Penghasilan</option>
+									<option data-subtext="600018">Beban Restribusi & Sumbangan</option>
+									<option data-subtext="600019">Beban Sewa Gedung</option>
+									<option data-subtext="600020">Beban Operasional Lainnya</option>
+									<option data-subtext="600021">Beban Penyusutan Gedung</option>
+									<option data-subtext="600022">Beban Penyusutan Kendaraan</option>
+									<option data-subtext="600023">Beban Penyusutan Peralatan</option>
+									<option data-subtext="600001">Beban Inventaris Kantor</option>
+								</optgroup>
+								<optgroup label="Beban Lainnya" class="a">
+									<option data-subtext="720001">Beban Bunga Pinjaman</option>
+									<option data-subtext="720002">Beban Adm.Bank & Buku Cek/Giro</option>
+									<option data-subtext="720003">Pajak Jasa Giro</option>
+									<option data-subtext="720004">Laba/Rugi Terelasasi</option>
+									<option data-subtext="720005">Laba/Rugi Belum Terealisasi</option>
+									<option data-subtext="720006">Laba/Rugi Disposisi Aset</option>
+									<option data-subtext="720007">Beban Diluar Usaha Lainnya</option>
+								</optgroup>
+								<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+								<option value="1">Lihat Semua</option>
+							</select>
+                        </div>
+						<div class="col-lg-4">
+						<br>
+                          <label class="">Retur Penjualan :</label>
+                          <select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
+								<option value="1" disabled selected>400003 - Retur Penjualan</option>
+								
+								
+								
+								
+								<optgroup label="Kewajiban Jangka Pendek" class="a">
+									<option data-subtext="5101">Beban Pokok Penjualan</option>
+								</optgroup>
+								<optgroup label="Beban" class="a">
+									<option data-subtext="600001">Beban Iklan</option>
+									<option data-subtext="600002">Beban Komisi</option>
+									<option data-subtext="600003">Beban Bensin, Parkir, Tol Kendaraan</option>
+									<option data-subtext="600004">Beban Gaji, Upah & Honorer</option>
+									<option data-subtext="600005">Beban Bonus, Pesangon & Kompensasi</option>
+									<option data-subtext="600006">Beban Transportasi Karyawan</option>
+									<option data-subtext="600007">Beban Catering & Makan Karyawan</option>
+									<option data-subtext="600008">Beban Tunjangan Kesehatan</option>
+									<option data-subtext="600009">Beban Asuransi Karyawan</option>
+									<option data-subtext="600010">Beban THR</option>
+									<option data-subtext="600011">Beban Listrik</option>
+									<option data-subtext="600012">Beban PDAM</option>
+									<option data-subtext="600013">Beban Telekomunikasi</option>
+									<option data-subtext="600014">Beban Ekspedisi, POS, & Materai</option>
+									<option data-subtext="600015">Beban Perjalanan Dinas</option>
+									<option data-subtext="600016">Beban Perlengkapan Kantor</option>
+									<option data-subtext="600017">Beban Pajak Penghasilan</option>
+									<option data-subtext="600018">Beban Restribusi & Sumbangan</option>
+									<option data-subtext="600019">Beban Sewa Gedung</option>
+									<option data-subtext="600020">Beban Operasional Lainnya</option>
+									<option data-subtext="600021">Beban Penyusutan Gedung</option>
+									<option data-subtext="600022">Beban Penyusutan Kendaraan</option>
+									<option data-subtext="600023">Beban Penyusutan Peralatan</option>
+									<option data-subtext="600001">Beban Inventaris Kantor</option>
+								</optgroup>
+								<optgroup label="Beban Lainnya" class="a">
+									<option data-subtext="720001">Beban Bunga Pinjaman</option>
+									<option data-subtext="720002">Beban Adm.Bank & Buku Cek/Giro</option>
+									<option data-subtext="720003">Pajak Jasa Giro</option>
+									<option data-subtext="720004">Laba/Rugi Terelasasi</option>
+									<option data-subtext="720005">Laba/Rugi Belum Terealisasi</option>
+									<option data-subtext="720006">Laba/Rugi Disposisi Aset</option>
+									<option data-subtext="720007">Beban Diluar Usaha Lainnya</option>
+								</optgroup>
+								<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+								<option value="1">Lihat Semua</option>
+							</select>
+                        </div>
+                        </div>
+						
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-                     
+						<div class="form-group row">
+						
+						<div class="col-lg-4">
+                          <label class="">Akun Diskon Penjualan :</label>
+                          <select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
+								<option value="1" disabled selected>400004 - Diskon Penjualan</option>
+								
+								
+								
+								
+								<optgroup label="Kewajiban Jangka Pendek" class="a">
+									<option data-subtext="5101">Beban Pokok Penjualan</option>
+								</optgroup>
+								<optgroup label="Beban" class="a">
+									<option data-subtext="600001">Beban Iklan</option>
+									<option data-subtext="600002">Beban Komisi</option>
+									<option data-subtext="600003">Beban Bensin, Parkir, Tol Kendaraan</option>
+									<option data-subtext="600004">Beban Gaji, Upah & Honorer</option>
+									<option data-subtext="600005">Beban Bonus, Pesangon & Kompensasi</option>
+									<option data-subtext="600006">Beban Transportasi Karyawan</option>
+									<option data-subtext="600007">Beban Catering & Makan Karyawan</option>
+									<option data-subtext="600008">Beban Tunjangan Kesehatan</option>
+									<option data-subtext="600009">Beban Asuransi Karyawan</option>
+									<option data-subtext="600010">Beban THR</option>
+									<option data-subtext="600011">Beban Listrik</option>
+									<option data-subtext="600012">Beban PDAM</option>
+									<option data-subtext="600013">Beban Telekomunikasi</option>
+									<option data-subtext="600014">Beban Ekspedisi, POS, & Materai</option>
+									<option data-subtext="600015">Beban Perjalanan Dinas</option>
+									<option data-subtext="600016">Beban Perlengkapan Kantor</option>
+									<option data-subtext="600017">Beban Pajak Penghasilan</option>
+									<option data-subtext="600018">Beban Restribusi & Sumbangan</option>
+									<option data-subtext="600019">Beban Sewa Gedung</option>
+									<option data-subtext="600020">Beban Operasional Lainnya</option>
+									<option data-subtext="600021">Beban Penyusutan Gedung</option>
+									<option data-subtext="600022">Beban Penyusutan Kendaraan</option>
+									<option data-subtext="600023">Beban Penyusutan Peralatan</option>
+									<option data-subtext="600001">Beban Inventaris Kantor</option>
+								</optgroup>
+								<optgroup label="Beban Lainnya" class="a">
+									<option data-subtext="720001">Beban Bunga Pinjaman</option>
+									<option data-subtext="720002">Beban Adm.Bank & Buku Cek/Giro</option>
+									<option data-subtext="720003">Pajak Jasa Giro</option>
+									<option data-subtext="720004">Laba/Rugi Terelasasi</option>
+									<option data-subtext="720005">Laba/Rugi Belum Terealisasi</option>
+									<option data-subtext="720006">Laba/Rugi Disposisi Aset</option>
+									<option data-subtext="720007">Beban Diluar Usaha Lainnya</option>
+								</optgroup>
+								<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+								<option value="1">Lihat Semua</option>
+							</select>
+                        </div>
+						<div class="col-lg-4">
+                          <label class="">Barang Terkirim :</label>
+                          <select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
+								<option value="1" disabled selected>110402 - Persediaan Terkirim</option>
+								
+								
+								
+								
+								<optgroup label="Kewajiban Jangka Pendek" class="a">
+									<option data-subtext="5101">Beban Pokok Penjualan</option>
+								</optgroup>
+								<optgroup label="Beban" class="a">
+									<option data-subtext="600001">Beban Iklan</option>
+									<option data-subtext="600002">Beban Komisi</option>
+									<option data-subtext="600003">Beban Bensin, Parkir, Tol Kendaraan</option>
+									<option data-subtext="600004">Beban Gaji, Upah & Honorer</option>
+									<option data-subtext="600005">Beban Bonus, Pesangon & Kompensasi</option>
+									<option data-subtext="600006">Beban Transportasi Karyawan</option>
+									<option data-subtext="600007">Beban Catering & Makan Karyawan</option>
+									<option data-subtext="600008">Beban Tunjangan Kesehatan</option>
+									<option data-subtext="600009">Beban Asuransi Karyawan</option>
+									<option data-subtext="600010">Beban THR</option>
+									<option data-subtext="600011">Beban Listrik</option>
+									<option data-subtext="600012">Beban PDAM</option>
+									<option data-subtext="600013">Beban Telekomunikasi</option>
+									<option data-subtext="600014">Beban Ekspedisi, POS, & Materai</option>
+									<option data-subtext="600015">Beban Perjalanan Dinas</option>
+									<option data-subtext="600016">Beban Perlengkapan Kantor</option>
+									<option data-subtext="600017">Beban Pajak Penghasilan</option>
+									<option data-subtext="600018">Beban Restribusi & Sumbangan</option>
+									<option data-subtext="600019">Beban Sewa Gedung</option>
+									<option data-subtext="600020">Beban Operasional Lainnya</option>
+									<option data-subtext="600021">Beban Penyusutan Gedung</option>
+									<option data-subtext="600022">Beban Penyusutan Kendaraan</option>
+									<option data-subtext="600023">Beban Penyusutan Peralatan</option>
+									<option data-subtext="600001">Beban Inventaris Kantor</option>
+								</optgroup>
+								<optgroup label="Beban Lainnya" class="a">
+									<option data-subtext="720001">Beban Bunga Pinjaman</option>
+									<option data-subtext="720002">Beban Adm.Bank & Buku Cek/Giro</option>
+									<option data-subtext="720003">Pajak Jasa Giro</option>
+									<option data-subtext="720004">Laba/Rugi Terelasasi</option>
+									<option data-subtext="720005">Laba/Rugi Belum Terealisasi</option>
+									<option data-subtext="720006">Laba/Rugi Disposisi Aset</option>
+									<option data-subtext="720007">Beban Diluar Usaha Lainnya</option>
+								</optgroup>
+								<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+								<option value="1">Lihat Semua</option>
+							</select>
+                        </div>
+						<div class="col-lg-4">
+                          <label class="">Beban Pokok Penjualan :</label>
+                          <select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
+								<option value="1" disabled selected>5101 - Beban Pokok Penjualan</option>
+								
+								
+								
+								
+								<optgroup label="Kewajiban Jangka Pendek" class="a">
+									<option data-subtext="5101">Beban Pokok Penjualan</option>
+								</optgroup>
+								<optgroup label="Beban" class="a">
+									<option data-subtext="600001">Beban Iklan</option>
+									<option data-subtext="600002">Beban Komisi</option>
+									<option data-subtext="600003">Beban Bensin, Parkir, Tol Kendaraan</option>
+									<option data-subtext="600004">Beban Gaji, Upah & Honorer</option>
+									<option data-subtext="600005">Beban Bonus, Pesangon & Kompensasi</option>
+									<option data-subtext="600006">Beban Transportasi Karyawan</option>
+									<option data-subtext="600007">Beban Catering & Makan Karyawan</option>
+									<option data-subtext="600008">Beban Tunjangan Kesehatan</option>
+									<option data-subtext="600009">Beban Asuransi Karyawan</option>
+									<option data-subtext="600010">Beban THR</option>
+									<option data-subtext="600011">Beban Listrik</option>
+									<option data-subtext="600012">Beban PDAM</option>
+									<option data-subtext="600013">Beban Telekomunikasi</option>
+									<option data-subtext="600014">Beban Ekspedisi, POS, & Materai</option>
+									<option data-subtext="600015">Beban Perjalanan Dinas</option>
+									<option data-subtext="600016">Beban Perlengkapan Kantor</option>
+									<option data-subtext="600017">Beban Pajak Penghasilan</option>
+									<option data-subtext="600018">Beban Restribusi & Sumbangan</option>
+									<option data-subtext="600019">Beban Sewa Gedung</option>
+									<option data-subtext="600020">Beban Operasional Lainnya</option>
+									<option data-subtext="600021">Beban Penyusutan Gedung</option>
+									<option data-subtext="600022">Beban Penyusutan Kendaraan</option>
+									<option data-subtext="600023">Beban Penyusutan Peralatan</option>
+									<option data-subtext="600001">Beban Inventaris Kantor</option>
+								</optgroup>
+								<optgroup label="Beban Lainnya" class="a">
+									<option data-subtext="720001">Beban Bunga Pinjaman</option>
+									<option data-subtext="720002">Beban Adm.Bank & Buku Cek/Giro</option>
+									<option data-subtext="720003">Pajak Jasa Giro</option>
+									<option data-subtext="720004">Laba/Rugi Terelasasi</option>
+									<option data-subtext="720005">Laba/Rugi Belum Terealisasi</option>
+									<option data-subtext="720006">Laba/Rugi Disposisi Aset</option>
+									<option data-subtext="720007">Beban Diluar Usaha Lainnya</option>
+								</optgroup>
+								<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+								<option value="1">Lihat Semua</option>
+							</select>
+                        </div>
 						
 						
 						
-					 
-									 
-									 
-									
-									</div>
+						
+                        </div>
+						
+					
+						
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						
+						<div class="col-lg-4">
+                          <label class="">Retur Pembelian :</label>
+                          <select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
+								<option value="1" disabled selected>110401 - Persediaan</option>
+								
+								
+								
+								
+								<optgroup label="Kewajiban Jangka Pendek" class="a">
+									<option data-subtext="5101">Beban Pokok Penjualan</option>
+								</optgroup>
+								<optgroup label="Beban" class="a">
+									<option data-subtext="600001">Beban Iklan</option>
+									<option data-subtext="600002">Beban Komisi</option>
+									<option data-subtext="600003">Beban Bensin, Parkir, Tol Kendaraan</option>
+									<option data-subtext="600004">Beban Gaji, Upah & Honorer</option>
+									<option data-subtext="600005">Beban Bonus, Pesangon & Kompensasi</option>
+									<option data-subtext="600006">Beban Transportasi Karyawan</option>
+									<option data-subtext="600007">Beban Catering & Makan Karyawan</option>
+									<option data-subtext="600008">Beban Tunjangan Kesehatan</option>
+									<option data-subtext="600009">Beban Asuransi Karyawan</option>
+									<option data-subtext="600010">Beban THR</option>
+									<option data-subtext="600011">Beban Listrik</option>
+									<option data-subtext="600012">Beban PDAM</option>
+									<option data-subtext="600013">Beban Telekomunikasi</option>
+									<option data-subtext="600014">Beban Ekspedisi, POS, & Materai</option>
+									<option data-subtext="600015">Beban Perjalanan Dinas</option>
+									<option data-subtext="600016">Beban Perlengkapan Kantor</option>
+									<option data-subtext="600017">Beban Pajak Penghasilan</option>
+									<option data-subtext="600018">Beban Restribusi & Sumbangan</option>
+									<option data-subtext="600019">Beban Sewa Gedung</option>
+									<option data-subtext="600020">Beban Operasional Lainnya</option>
+									<option data-subtext="600021">Beban Penyusutan Gedung</option>
+									<option data-subtext="600022">Beban Penyusutan Kendaraan</option>
+									<option data-subtext="600023">Beban Penyusutan Peralatan</option>
+									<option data-subtext="600001">Beban Inventaris Kantor</option>
+								</optgroup>
+								<optgroup label="Beban Lainnya" class="a">
+									<option data-subtext="720001">Beban Bunga Pinjaman</option>
+									<option data-subtext="720002">Beban Adm.Bank & Buku Cek/Giro</option>
+									<option data-subtext="720003">Pajak Jasa Giro</option>
+									<option data-subtext="720004">Laba/Rugi Terelasasi</option>
+									<option data-subtext="720005">Laba/Rugi Belum Terealisasi</option>
+									<option data-subtext="720006">Laba/Rugi Disposisi Aset</option>
+									<option data-subtext="720007">Beban Diluar Usaha Lainnya</option>
+								</optgroup>
+								<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+								<option value="1">Lihat Semua</option>
+							</select>
+                        </div>
+						
+						
+						
+						
+                        </div>
+						
+						
+						
+
+
+
+
+											</div>
+
+										</div>
+												</div>
+											</div>
+											</div>
+											</div>
+											</div>
+											
 									
 									
 									</div>
@@ -526,6 +966,7 @@ function goBack() {
 						
 						
                         </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						
 						
 						
@@ -541,259 +982,7 @@ function goBack() {
 									
 
 									</div>
-					  <div class="col-xl-3">
-
-									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Akuntansi</div><br><br>
-										<div class="kt-portlet__body">
-											<div class="kt-portlet__content">
-												<div class="form-group row">
-						
-						<div class="col-lg-12">
-                          <label class="">Akun Penjualan :</label>
-                          <select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
-								<option value="1" disabled selected>4101 - Penjualan Umum</option>
-								
-								
-								
-								
-								<optgroup label="Kewajiban Jangka Pendek" class="a">
-									<option data-subtext="5101">Beban Pokok Penjualan</option>
-								</optgroup>
-								<optgroup label="Beban" class="a">
-									<option data-subtext="600001">Beban Iklan</option>
-									<option data-subtext="600002">Beban Komisi</option>
-									<option data-subtext="600003">Beban Bensin, Parkir, Tol Kendaraan</option>
-									<option data-subtext="600004">Beban Gaji, Upah & Honorer</option>
-									<option data-subtext="600005">Beban Bonus, Pesangon & Kompensasi</option>
-									<option data-subtext="600006">Beban Transportasi Karyawan</option>
-									<option data-subtext="600007">Beban Catering & Makan Karyawan</option>
-									<option data-subtext="600008">Beban Tunjangan Kesehatan</option>
-									<option data-subtext="600009">Beban Asuransi Karyawan</option>
-									<option data-subtext="600010">Beban THR</option>
-									<option data-subtext="600011">Beban Listrik</option>
-									<option data-subtext="600012">Beban PDAM</option>
-									<option data-subtext="600013">Beban Telekomunikasi</option>
-									<option data-subtext="600014">Beban Ekspedisi, POS, & Materai</option>
-									<option data-subtext="600015">Beban Perjalanan Dinas</option>
-									<option data-subtext="600016">Beban Perlengkapan Kantor</option>
-									<option data-subtext="600017">Beban Pajak Penghasilan</option>
-									<option data-subtext="600018">Beban Restribusi & Sumbangan</option>
-									<option data-subtext="600019">Beban Sewa Gedung</option>
-									<option data-subtext="600020">Beban Operasional Lainnya</option>
-									<option data-subtext="600021">Beban Penyusutan Gedung</option>
-									<option data-subtext="600022">Beban Penyusutan Kendaraan</option>
-									<option data-subtext="600023">Beban Penyusutan Peralatan</option>
-									<option data-subtext="600001">Beban Inventaris Kantor</option>
-								</optgroup>
-								<optgroup label="Beban Lainnya" class="a">
-									<option data-subtext="720001">Beban Bunga Pinjaman</option>
-									<option data-subtext="720002">Beban Adm.Bank & Buku Cek/Giro</option>
-									<option data-subtext="720003">Pajak Jasa Giro</option>
-									<option data-subtext="720004">Laba/Rugi Terelasasi</option>
-									<option data-subtext="720005">Laba/Rugi Belum Terealisasi</option>
-									<option data-subtext="720006">Laba/Rugi Disposisi Aset</option>
-									<option data-subtext="720007">Beban Diluar Usaha Lainnya</option>
-								</optgroup>
-								<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-								<option value="1">Lihat Semua</option>
-							</select>
-                        </div>
-						
-						
-						
-						
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-						
-						<div class="col-lg-12">
-                          <label class="">Akun Pembelian :</label>
-                          <select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
-								<option value="1" disabled selected>5101 - Harga Pokok Penjualan</option>
-								
-								
-								
-								
-								<optgroup label="Kewajiban Jangka Pendek" class="a">
-									<option data-subtext="5101">Beban Pokok Penjualan</option>
-								</optgroup>
-								<optgroup label="Beban" class="a">
-									<option data-subtext="600001">Beban Iklan</option>
-									<option data-subtext="600002">Beban Komisi</option>
-									<option data-subtext="600003">Beban Bensin, Parkir, Tol Kendaraan</option>
-									<option data-subtext="600004">Beban Gaji, Upah & Honorer</option>
-									<option data-subtext="600005">Beban Bonus, Pesangon & Kompensasi</option>
-									<option data-subtext="600006">Beban Transportasi Karyawan</option>
-									<option data-subtext="600007">Beban Catering & Makan Karyawan</option>
-									<option data-subtext="600008">Beban Tunjangan Kesehatan</option>
-									<option data-subtext="600009">Beban Asuransi Karyawan</option>
-									<option data-subtext="600010">Beban THR</option>
-									<option data-subtext="600011">Beban Listrik</option>
-									<option data-subtext="600012">Beban PDAM</option>
-									<option data-subtext="600013">Beban Telekomunikasi</option>
-									<option data-subtext="600014">Beban Ekspedisi, POS, & Materai</option>
-									<option data-subtext="600015">Beban Perjalanan Dinas</option>
-									<option data-subtext="600016">Beban Perlengkapan Kantor</option>
-									<option data-subtext="600017">Beban Pajak Penghasilan</option>
-									<option data-subtext="600018">Beban Restribusi & Sumbangan</option>
-									<option data-subtext="600019">Beban Sewa Gedung</option>
-									<option data-subtext="600020">Beban Operasional Lainnya</option>
-									<option data-subtext="600021">Beban Penyusutan Gedung</option>
-									<option data-subtext="600022">Beban Penyusutan Kendaraan</option>
-									<option data-subtext="600023">Beban Penyusutan Peralatan</option>
-									<option data-subtext="600001">Beban Inventaris Kantor</option>
-								</optgroup>
-								<optgroup label="Beban Lainnya" class="a">
-									<option data-subtext="720001">Beban Bunga Pinjaman</option>
-									<option data-subtext="720002">Beban Adm.Bank & Buku Cek/Giro</option>
-									<option data-subtext="720003">Pajak Jasa Giro</option>
-									<option data-subtext="720004">Laba/Rugi Terelasasi</option>
-									<option data-subtext="720005">Laba/Rugi Belum Terealisasi</option>
-									<option data-subtext="720006">Laba/Rugi Disposisi Aset</option>
-									<option data-subtext="720007">Beban Diluar Usaha Lainnya</option>
-								</optgroup>
-								<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-								<option value="1">Lihat Semua</option>
-							</select>
-                        </div>
-						
-						
-						
-						
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-						
-						<div class="col-lg-12">
-                          <label class="">Akun Diskon Penjualan :</label>
-                          <select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
-								<option value="1" disabled selected>== Pilih Akun ==</option>
-								
-								
-								
-								
-								<optgroup label="Kewajiban Jangka Pendek" class="a">
-									<option data-subtext="5101">Beban Pokok Penjualan</option>
-								</optgroup>
-								<optgroup label="Beban" class="a">
-									<option data-subtext="600001">Beban Iklan</option>
-									<option data-subtext="600002">Beban Komisi</option>
-									<option data-subtext="600003">Beban Bensin, Parkir, Tol Kendaraan</option>
-									<option data-subtext="600004">Beban Gaji, Upah & Honorer</option>
-									<option data-subtext="600005">Beban Bonus, Pesangon & Kompensasi</option>
-									<option data-subtext="600006">Beban Transportasi Karyawan</option>
-									<option data-subtext="600007">Beban Catering & Makan Karyawan</option>
-									<option data-subtext="600008">Beban Tunjangan Kesehatan</option>
-									<option data-subtext="600009">Beban Asuransi Karyawan</option>
-									<option data-subtext="600010">Beban THR</option>
-									<option data-subtext="600011">Beban Listrik</option>
-									<option data-subtext="600012">Beban PDAM</option>
-									<option data-subtext="600013">Beban Telekomunikasi</option>
-									<option data-subtext="600014">Beban Ekspedisi, POS, & Materai</option>
-									<option data-subtext="600015">Beban Perjalanan Dinas</option>
-									<option data-subtext="600016">Beban Perlengkapan Kantor</option>
-									<option data-subtext="600017">Beban Pajak Penghasilan</option>
-									<option data-subtext="600018">Beban Restribusi & Sumbangan</option>
-									<option data-subtext="600019">Beban Sewa Gedung</option>
-									<option data-subtext="600020">Beban Operasional Lainnya</option>
-									<option data-subtext="600021">Beban Penyusutan Gedung</option>
-									<option data-subtext="600022">Beban Penyusutan Kendaraan</option>
-									<option data-subtext="600023">Beban Penyusutan Peralatan</option>
-									<option data-subtext="600001">Beban Inventaris Kantor</option>
-								</optgroup>
-								<optgroup label="Beban Lainnya" class="a">
-									<option data-subtext="720001">Beban Bunga Pinjaman</option>
-									<option data-subtext="720002">Beban Adm.Bank & Buku Cek/Giro</option>
-									<option data-subtext="720003">Pajak Jasa Giro</option>
-									<option data-subtext="720004">Laba/Rugi Terelasasi</option>
-									<option data-subtext="720005">Laba/Rugi Belum Terealisasi</option>
-									<option data-subtext="720006">Laba/Rugi Disposisi Aset</option>
-									<option data-subtext="720007">Beban Diluar Usaha Lainnya</option>
-								</optgroup>
-								<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-								<option value="1">Lihat Semua</option>
-							</select>
-                        </div>
-						
-						
-						
-						
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-						
-						<div class="col-lg-12">
-                          <label class="">Akun Diskon Pembelian :</label>
-                          <select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
-								<option value="1" disabled selected>== Pilih Akun ==</option>
-								
-								
-								
-								
-								<optgroup label="Kewajiban Jangka Pendek" class="a">
-									<option data-subtext="5101">Beban Pokok Penjualan</option>
-								</optgroup>
-								<optgroup label="Beban" class="a">
-									<option data-subtext="600001">Beban Iklan</option>
-									<option data-subtext="600002">Beban Komisi</option>
-									<option data-subtext="600003">Beban Bensin, Parkir, Tol Kendaraan</option>
-									<option data-subtext="600004">Beban Gaji, Upah & Honorer</option>
-									<option data-subtext="600005">Beban Bonus, Pesangon & Kompensasi</option>
-									<option data-subtext="600006">Beban Transportasi Karyawan</option>
-									<option data-subtext="600007">Beban Catering & Makan Karyawan</option>
-									<option data-subtext="600008">Beban Tunjangan Kesehatan</option>
-									<option data-subtext="600009">Beban Asuransi Karyawan</option>
-									<option data-subtext="600010">Beban THR</option>
-									<option data-subtext="600011">Beban Listrik</option>
-									<option data-subtext="600012">Beban PDAM</option>
-									<option data-subtext="600013">Beban Telekomunikasi</option>
-									<option data-subtext="600014">Beban Ekspedisi, POS, & Materai</option>
-									<option data-subtext="600015">Beban Perjalanan Dinas</option>
-									<option data-subtext="600016">Beban Perlengkapan Kantor</option>
-									<option data-subtext="600017">Beban Pajak Penghasilan</option>
-									<option data-subtext="600018">Beban Restribusi & Sumbangan</option>
-									<option data-subtext="600019">Beban Sewa Gedung</option>
-									<option data-subtext="600020">Beban Operasional Lainnya</option>
-									<option data-subtext="600021">Beban Penyusutan Gedung</option>
-									<option data-subtext="600022">Beban Penyusutan Kendaraan</option>
-									<option data-subtext="600023">Beban Penyusutan Peralatan</option>
-									<option data-subtext="600001">Beban Inventaris Kantor</option>
-								</optgroup>
-								<optgroup label="Beban Lainnya" class="a">
-									<option data-subtext="720001">Beban Bunga Pinjaman</option>
-									<option data-subtext="720002">Beban Adm.Bank & Buku Cek/Giro</option>
-									<option data-subtext="720003">Pajak Jasa Giro</option>
-									<option data-subtext="720004">Laba/Rugi Terelasasi</option>
-									<option data-subtext="720005">Laba/Rugi Belum Terealisasi</option>
-									<option data-subtext="720006">Laba/Rugi Disposisi Aset</option>
-									<option data-subtext="720007">Beban Diluar Usaha Lainnya</option>
-								</optgroup>
-								<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-								<option value="1">Lihat Semua</option>
-							</select>
-                        </div>
-						
-						
-						
-						
-                        </div>
-						
-						
-						
-
-
-
-
-											</div>
-
-										</div>
-
-									</div>
-									
-
-									</div>
+					  
 									
 									
 					
