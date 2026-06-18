@@ -138,7 +138,7 @@ function goBack() {
 																<div class="col-xl-6">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
 							<br><br>
 										<div class="kt-portlet__body">
 																								<div class="kt-portlet__content">
@@ -214,7 +214,7 @@ function goBack() {
 					  <div class="col-xl-6">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Barang</div><br><br>
 										<div class="kt-portlet__body">
 																								<div class="kt-portlet__content">
@@ -392,7 +392,7 @@ function goBack() {
 																<div class="col-xl-12">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Foto Barang</div><br><br>
 										<div class="kt-portlet__body">
 																								<div class="kt-portlet__content">
@@ -835,7 +835,7 @@ function goBack() {
 					  <div class="col-xl-3">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Gudang</div><br><br>
 										<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
