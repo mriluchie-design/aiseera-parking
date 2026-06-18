@@ -311,7 +311,7 @@
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">HP</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">WA</th>
 											  <th colspan="2" bgcolor="#f7fcff">Terdaftar</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Tipe<br>Pelanggan</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Tipe<br>Vendor</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 											<tr style="text-align:center">

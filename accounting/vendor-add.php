@@ -1806,6 +1806,124 @@ function goBack() {
         </div>
     </div>
     </div>
+	<div class="modal fade" id="modal_tambah_rekening" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+									<div class="modal-content">
+
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-clipboard-list"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">TAMBAH HUTANG</h3>
+											</div>
+<div class="kt-widget__toolbar"><br>
+																	 <span class="kt-switch kt-switch--sm kt-switch--icon">
+																			<label>
+																					<input type="checkbox" checked="checked" name="">
+																					<span></span>
+																			</label>
+																	</span>
+								
+							</div>
+											
+										</div>
+										<div class="kt-portlet__body">
+											<div class="tab-content">
+												<div class="tab-pane active" id="kt_tabs_7_1" role="tabpanel">
+													
+
+												<div class="form-group row">
+
+												<div class="col-lg-6">
+														<label class="kt-font-brand">Nomor Rekening :</label>
+														<input type="text" class="form-control form-control-sm" placeholder="Ex : 110101">
+													</div>
+<div class="col-lg-6">
+														<label class="kt-font-brand">Bank :</label>
+														<select class="form-control kt-selectpicker" data-live-search="true">
+												<option value="1">Bank Mandiri</option>
+												<option value="1">Bank Central Asia</option>
+												<option value="1">Bank BNI</option>
+												<option value="1">Bank Danamon</option>
+												<option value="0" selected></option>
+												
+												<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+										</select>
+													</div>
+
+									</div>
+									
+												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+												<div class="form-group row">
+												
+									<div class="col-lg-12">
+														<label class="kt-font-brand">Atas Nama Rekening :</label>
+														<input type="text" class="form-control form-control-sm" placeholder="Ex : 110101">
+													</div>
+									
+									
+
+
+												
+													
+													
+
+												</div>
+
+
+
+												
+													
+													
+
+												</div>
+
+
+												
+												
+												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+												<div class="form-group row">
+												
+													<div class="col-lg-12">
+														<label class="kt-font-brand">Keterangan  :</label>
+														<textarea class="form-control" id="exampleTextarea" rows="6" placeholder=""></textarea>
+													</div>
+													
+
+
+												
+													
+													
+
+												</div>
+												
+												
+											
+									<div class="kt-portlet__foot kt-align-center">
+												<div class="">
+<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Batal</button>
+													<button type="button" class="btn btn-sm btn-success">
+					<i class="fa fa-check-circle"></i>Simpan Data</button>
+												</div>
+											</div>
+
+
+
+
+									</div>
+
+									</div>
+								</div>
+							</div>
+							<!--End::Modal 1-->
+							
+							
+									
+        </div>
+    </div>
+    </div>
 							<!--End::Modal 1-->
 							<!--begin::Modal 2-->
 									<div class="modal fade" id="kt_modal_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
