@@ -120,10 +120,14 @@
 									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
 										<ul class="kt-menu__subnav">
 											
-											<li class="kt-menu__item" aria-haspopup="true"><a href="purchase-order.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Order Pembelian</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="request-order.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Permintaan Pembelian</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="purchase-order.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Purchase Order</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="penerimaan-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Penerimaan Barang</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="uang-muka-pembelian.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Uang Muka Pembelian</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="faktur-pembelian.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Faktur Pembelian</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="pembayaran-pembelian.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pembayaran Pembelian</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="retur-pembelian.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Retur Pembelian</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="invoice-order.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Invoice Pembelian</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="vendor.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Supplier / Vendor</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="status-pembayaran-vendor.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Status Pembayaran Vendor</span></a></li>
 											
 										</ul>
 									</div>

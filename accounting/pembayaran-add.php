@@ -29,7 +29,7 @@
 								</div>
 		<div class="kt-subheader__toolbar">
 			<div class="dropdown dropdown-inline" ddata-placement="left">
-				<a href="mutasi-pegawai.php" class="btn btn-label-brand btn-sm" data-toggle="dropdown" onclick="goBack()">
+				<a href="#" class="btn btn-label-brand btn-sm" data-toggle="dropdown" onclick="goBack()">
 					<i class="flaticon-reply"></i> Kembali</button>
 					<script>
 						function goBack() {
@@ -38,10 +38,23 @@
 					</script>
 					<!--<i class="flaticon2-plus"></i>-->
 				</a>
-				<a href="#" class="btn btn-label-warning btn-sm" data-toggle="dropdown">
-						<i class="fa fa-arrow-circle-down"></i> Ambil Data</button>
-					</a>
-					<div class="dropdown-menu dropdown-menu-fit dropdown-menu-md dropdown-menu-right">
+		
+
+
+			</div>
+<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
+			</div>
+<div class="btn-group" role="group">
+									<button id="btnGroupDrop1" type="button" class="btn btn-label-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Ambil Data
+									</button>
+									<div class="dropdown-menu dropdown-menu-fit dropdown-menu-md dropdown-menu-left">
 
 						<!--begin::Nav-->
 						<ul class="kt-nav">
@@ -53,19 +66,25 @@
 								</a>
 							</li>
 							<li class="kt-nav__item">
-								<a href="#" class="kt-nav__link" data-toggle="modal" data-target="#lihat_beban">
-									<i class="kt-nav__link-icon fa fa-file-invoice"></i>
+								<a href="#" class="kt-nav__link" data-toggle="modal" data-target="#lihat_favorit">
+									<i class="kt-nav__link-icon fa fa-bookmark"></i>
 									<span class="kt-nav__link-text">Pencatatan Beban</span>
 								</a>
 							</li>
+							<li class="kt-nav__item">
+								<a href="#" class="kt-nav__link" data-toggle="modal" data-target="#lihat_favorit">
+									<i class="kt-nav__link-icon fa fa-file-invoice"></i>
+									<span class="kt-nav__link-text">Pesanan Penjualan</span>
+								</a>
+							</li>
+
+
 							
 						</ul>
 						<!--end::Nav-->
 					</div>
-				
+								</div>
 
-
-			</div>
 			<div class="btn-group">
 				<button type="button" class="btn btn-success">
 					<i class="fa fa-check-circle"></i>
