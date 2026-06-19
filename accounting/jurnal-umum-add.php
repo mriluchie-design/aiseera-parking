@@ -42,6 +42,28 @@
 
 
 			</div>
+			<div class="btn-group" role="group">
+									<button id="btnGroupDrop1" type="button" class="btn btn-label-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Ambil Data
+									</button>
+									<div class="dropdown-menu dropdown-menu-fit dropdown-menu-md dropdown-menu-left">
+
+						<!--begin::Nav-->
+						<ul class="kt-nav">
+
+							<li class="kt-nav__item">
+								<a href="#" class="kt-nav__link" data-toggle="modal" data-target="#lihat_favorit">
+									<i class="kt-nav__link-icon fa fa-bookmark"></i>
+									<span class="kt-nav__link-text">Dari Favorit</span>
+								</a>
+							</li>
+
+
+							
+						</ul>
+						<!--end::Nav-->
+					</div>
+								</div>
 			<div class="btn-group">
 				<button type="button" class="btn btn-success">
 					<i class="fa fa-check-circle"></i>
@@ -71,66 +93,15 @@
 	<div class="kt-portlet kt-portlet--height-full">
 		<div class="kt-portlet__body">
 			<div class="row">
-				<div class="col-xl-8">
+				<div class="col-xl-9">
 					<!--begin::Portlet-->
 					<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
 						<div class="kt-ribbon__target" style="top: 2px; right: -2px;">jurnal Umum</div><br><br>
 						<div class="kt-portlet__body">
 							<div class="kt-portlet__content">
-								<div class="form-group row">
-								<div class="col-lg-6">
-							                          <label class="">Referensi :</label>
-							                          <div class="form-group">
-							                       <select class="form-control kt-selectpicker" data-live-search="true" tabindex="-98">
-																							<option value="2" selected></option>
-																							
-																					</select>
-							                      </div>
-							                        </div>
+								
 									
 									<div class="form-group row">	
-									<div class="col-lg-12">
-                                <div class="form-group">
-      													<label>Penomoran Jurnal :</label>
-                                <div class="kt-section__content kt-section__content--solid" role="group" aria-label="...">
-      													
-														<button type="button" class="btn btn-secondary btn-square btn-md col-lg-6" id="hide3">Otomatis</button>
-      													
-                                <button type="button" class="btn btn-secondary btn-square btn-md col-lg-5" id="show2" selected>Tidak</button>&nbsp;
-      												</div>
-                              	</div>
-      												</div>
-      												</div>
-                              <div class="form-group row tampil2">
-                                <div class="col-lg-12">
-								
-                                  <div class="form-group row">
-    													
-													<div class="col-lg-12">
-										<label class="">&nbsp;</label>
-										<div class="form-group">
-											<input type="text" class="form-control form-control-sm" placeholder="EXP.2020.01.00001">
-										</div>
-
-									</div>
-									
-												
-                          </div>
-						  
-						  
-						
-
-
-
-											</div>
-											
-											
-											</div>
-											
-									
-								</div>
-								<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-								<div class="form-group row">
 									<div class="col-lg-3">
 										<label>Tanggal : <code>*</code></label>
 										<div class="input-group date">
@@ -142,50 +113,69 @@
 										</div>
 									 </div>
 									</div>
+											
 									<div class="col-lg-3">
 							                          <label class="">Tipe Transaksi :</label>
 							                          <div class="form-group">
-							                       <select class="form-control kt-selectpicker" data-live-search="true" tabindex="-98">
-																							<option value="2" selected>Tunai</option>
-																							<option value="2">Non Tunai</option>
-																					</select>
+							                      <input type="text" class="form-control form-control-sm"  placeholder="Jurnal Umum" disabled>
 							                      </div>
 							                        </div>
-													<div class="col-lg-3">
-							                          <label class="">Metode Transaksi :</label>
-							                          <div class="form-group">
-							                       <select class="form-control kt-selectpicker" data-live-search="true" tabindex="-98">
-																							<option value="2">Transfer Bank</option>
-																							<option value="2" selected>e-Wallet</option>
-																							<option value="2">Kartu Kredit</option>
-																							<option value="2">Counter</option>
-																							<option value="2">Kredit Tanpa Kartu</option>
+										<div class="col-lg-4">
+                                <div class="form-group">
+      													<label>Penomoran Jurnal :</label>
+                                <div class="kt-section__content kt-section__content--solid" role="group" aria-label="...">
+      													
+														<button type="button" class="btn btn-secondary btn-square btn-md col-lg-5" id="hide3">Manual</button>
+      													
+                                <button type="button" class="btn btn-secondary btn-square btn-md col-lg-6" id="show2" selected>Otomatis</button>&nbsp;
+      												</div>
+                              	</div>
+      												</div>
+                              <div class="form-group row tampil2">
+                                <div class="col-lg-12">
+								
+                                  <div class="form-group row">
+    													
+													<div class="col-lg-12">
+										<label class="">&nbsp;</label>
+										<div class="form-group" style="margin-left:-25px;">
+											 <select class="form-control kt-selectpicker" data-live-search="true" tabindex="">
+																							<option value="2">Kas & Bank</option>
+																							<option value="2" selected>Jurnal Umum</option>
+																							<option value="2">Deposito Umum</option>
+																							<option value="2">Kas Kecil</option>
+																							<option value="2">Bank</option>
+																							<option value="2">Nomor Bukti Kas/Bank</option>
+																							<option value="2">Setara Kas</option>
+																							<option value="2">BCA - 0255804010</option>
 																					</select>
-							                      </div>
-							                        </div>	
-													<div class="col-lg-3">
-							                          <label class="">Provider :</label>
-							                          <div class="form-group">
-							                       <select class="form-control kt-selectpicker" data-live-search="true" tabindex="-98">
-																							<option value="2" selected>GoPay</option>
-																							<option value="2">Dana</option>
-																							<option value="2">Shoope Pay</option>
-																							<option value="2">Gpay</option>
-																							<option value="2">Kartu Kredit</option>
-																					</select>
-							                      </div>
-							                        </div>
+										</div>
+
+									</div>
 									
+												
+                          </div>
+                          </div>
+						  
+						  
+						
 
 
+
+											</div>	
+											
+											</div>
+											
 									
-								</div>
+							
+								<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+								
 							</div>
 						</div>
 						
 					</div>
 				</div>
-				<div class="col-xl-4">
+				<div class="col-xl-3">
 					<!--begin::Portlet-->
 					<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
 						<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Info Lainnya</div><br><br>
@@ -373,7 +363,110 @@
 			</div>
 		</div>
 	</div>
+<div class="modal fade" id="lihat_favorit" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+									<div class="modal-content">
 
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-clipboard-list"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">TRANSAKSI FAVORIT</h3>
+											</div>
+<div class="kt-portlet__head-toolbar">
+											
+											&nbsp;
+												<button type="button" class="btn btn-secondary btn-sm btn-outline-danger" data-dismiss="modal">X</button>
+											</div>
+											
+										</div>
+										<div class="kt-portlet__body">
+											<div class="tab-content">
+												
+
+<div class="form-group row">
+<div class="col-lg-6">
+														<label class="kt-font-brand">Transaksi Favorit :</label>
+														<select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option>Bensin</option>
+                                                                           
+                                  </select>
+													</div>
+												
+
+
+
+												
+													
+													
+
+												</div>
+<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+<div class="form-group row">
+												
+      												<table class="table table-responsive table-striped- table-hover table-checkable" id="kt_table_1">
+										<thead>
+											<tr style="text-align:center">
+											  <th width="2%" bgcolor="#f7fcff" style="border-bottom:2px solid #0e62ae; border-top:2px solid #0e62ae;">#</th>
+											  <th width="1%" bgcolor="#f7fcff" style="border-bottom:2px solid #0e62ae; border-top:2px solid #0e62ae;">Akun</th>
+											  <th width="12%" bgcolor="#f7fcff" style="border-bottom:2px solid #0e62ae; border-top:2px solid #0e62ae;">Nama Akun</th>
+											  <th width="10%" bgcolor="#f7fcff" style="border-bottom:2px solid #0e62ae; border-top:2px solid #0e62ae;">Nilai</th>
+										  </tr>
+										</thead>
+										<tbody>
+											<tr>
+											  <td style="text-align:center" nowrap="nowrap"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
+															    <input type="checkbox" checked="checked">
+															    <span></span> </label></td>
+												<td nowrap style="text-align:left;">600003</td>
+												<td nowrap style="text-align:left;">Beban Bensin, Parkir, Tol Kendaraan</td>
+												<td nowrap="nowrap" style="text-align:center;"><div class="input-group input-group-sm">
+												  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+												  <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000.000" aria-describedby="basic-addon1" />
+												  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+											    </div></td>
+										  </tr>
+  </tbody>
+									</table>
+      												</div>
+                              
+
+
+												</div>
+												
+												
+												
+
+
+												
+													
+													
+
+												</div>
+												
+											
+									<div class="kt-portlet__foot kt-align-right">
+												<div class="">
+													<button type="button" class="btn btn-sm btn-success">
+					<i class="fa fa-check-circle"></i>Lanjut</button>
+												</div>
+											</div>
+
+
+
+
+									</div>
+
+									</div>
+								</div>
+							</div>
+							<!--End::Modal 1-->
+							
+							
+									
+        </div>
 	<div class="modal fade" id="kt_modal_ambil" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 		<div class="modal-dialog modal-lg modal-dialog-centered" role="document">
 			<div class="modal-content">

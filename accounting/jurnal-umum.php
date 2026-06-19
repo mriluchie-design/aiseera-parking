@@ -273,17 +273,18 @@ Pengaturan Table
 																					  <th width="1%" rowspan="2" bgcolor="#f7fcff" class="nomor">#</th>
 																					  <th width="4%" rowspan="2" bgcolor="#f7fcff" class="nomor">Kantor</th>
 																						<th width="4%" rowspan="2" bgcolor="#f7fcff" class="nomor">ID Jurnal</th>
-																						<th width="6%" rowspan="2" bgcolor="#f7fcff" class="NomorTrans">Nomor<br>Transaksi</th>
-																						<th width="8%" rowspan="2" bgcolor="#f7fcff" class="Tanggal">Tanggal<br>Transaksi</th>
-																						<th width="15%" rowspan="2" bgcolor="#f7fcff" class="Keterangan">Keterangan</th>
-																						<th width="12%" rowspan="2" bgcolor="#f7fcff" class="Total">Total</th>
-																						<th width="10%" rowspan="2" bgcolor="#f7fcff">Tipe<br>Transaksi</th>
+																						<th colspan="5" bgcolor="#f7fcff" class="NomorTrans">Transaksi</th>
 																						<th colspan="2" bgcolor="#f7fcff">Posting</th>
 																						<th width="1%" rowspan="2" bgcolor="#f7fcff">Verifikasi</th>
 																						<th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 																					</tr>
 																					<tr>
-																					  <th width="8%" bgcolor="#f7fcff">Waktu</th>
+																					  <th width="6%" bgcolor="#f7fcff" class="NomorTrans">Nomor</th>
+																					  <th width="7%" bgcolor="#f7fcff" class="Tanggal">Tanggal</th>
+																					  <th width="9%" bgcolor="#f7fcff" class="Keterangan">Tipe</th>
+																					  <th width="15%" bgcolor="#f7fcff" class="Keterangan">Keterangan</th>
+																					  <th width="12%" bgcolor="#f7fcff" class="Keterangan">Total</th>
+																					  <th width="7%" bgcolor="#f7fcff">Waktu</th>
 																					  <th width="3%" bgcolor="#f7fcff">By</th>
 																				  </tr>
 																				</thead>
@@ -294,13 +295,13 @@ Pengaturan Table
 																					  <td class="nomor">JV.2020.01.00001</td>
 																						<td class="NomorTrans">SI.062026.01.00003</td>
 																						<td style="text-align:center">1 November 2025<br /></td>
+																						<td class="text-left">Faktur Penjualan</td>
 																					  <td class="Keterangan">Faktur Penjualan Ke PT. ABC</td>
 																					  <td class="Total" style="text-align:left"><div class="input-group input-group-sm">
 																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
 																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000.000" aria-describedby="basic-addon1" />
 																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																					    </div></td>
-																					  <td class="text-left">Faktur Penjualan</td>
 																					  <td style="text-align:center">16 November 2025<br />
 																					    08:38:00 WITA</td>
 																					  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003&lt;hr&gt;Nursiah, S.Kom&lt;hr&gt;Staff Accounting" data-html="true"><img src="../assets/media/users/100_7.jpg" alt="image" /></a></td>
@@ -347,13 +348,13 @@ Pengaturan Table
 																					  <td class="nomor">JV.2020.01.00001</td>
 																						<td class="NomorTrans">SI.062026.01.00002</td>
 																						<td style="text-align:center">2 November 2025<br /></td>
+																						<td class="text-left">Uang Muka Penjualan</td>
 																					  <td class="Keterangan">Uang Muka Penjualan dari PT. ABC</td>
 																					  <td class="Total" style="text-align:left"><div class="input-group input-group-sm">
 																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
 																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000.000" aria-describedby="basic-addon1" />
 																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																					    </div></td>
-																					  <td class="text-left">Uang Muka Penjualan</td>
 																					  <td style="text-align:center">16 November 2025<br />
 																					    08:38:00 WITA</td>
 																					  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003&lt;hr&gt;Nursiah, S.Kom&lt;hr&gt;Staff Accounting" data-html="true"><img src="../assets/media/users/100_7.jpg" alt="image" /></a></td>
@@ -400,17 +401,17 @@ Pengaturan Table
 																					  <td class="nomor">JV.2020.01.00001</td>
 																						<td class="NomorTrans">DO.062026.01.00001</td>
 																						<td style="text-align:center">3 November 2025<br /></td>
+																						<td class="text-left">Pengiriman Pesanan</td>
 																					  <td class="Keterangan">Pengiriman Pesanan Ke PT. ABC</td>
 																					  <td class="Total" style="text-align:left"><div class="input-group input-group-sm">
 																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
 																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000.000" aria-describedby="basic-addon1" />
 																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																					    </div></td>
-																					  <td class="text-left">Pengiriman Pesanan</td>
 																					  <td style="text-align:center">16 November 2025<br />
 																					    08:38:00 WITA</td>
-																					  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Online</span></td>
-																					  <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
+																					  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm">Sys</span></td>
+																					  <td nowrap="nowrap" style="text-align:center">-</td>
 																					  <td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>

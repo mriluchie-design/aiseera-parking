@@ -252,15 +252,11 @@
 												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-clipboard-list"></i></span>
 												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">TAMBAH FAVORIT</h3>
 											</div>
-<div class="kt-widget__toolbar"><br>
-																	 <span class="kt-switch kt-switch--sm kt-switch--icon">
-																			<label>
-																					<input type="checkbox" checked="checked" name="">
-																					<span></span>
-																			</label>
-																	</span>
-								
-							</div>
+<div class="kt-portlet__head-toolbar">
+											
+											&nbsp;
+												<button type="button" class="btn btn-secondary btn-sm btn-outline-danger" data-dismiss="modal">X</button>
+											</div>
 											
 										</div>
 										<div class="kt-portlet__body">
@@ -371,7 +367,7 @@
 											
 									<div class="kt-portlet__foot kt-align-center">
 												<div class="">
-<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Batal</button>
+
 													<button type="button" class="btn btn-sm btn-success">
 					<i class="fa fa-check-circle"></i>Simpan Data</button>
 												</div>
@@ -400,7 +396,7 @@
 
 											<div class="kt-portlet__head-label">
 												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-clipboard-list"></i></span>
-												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">Log Aktifitas</h3>
+												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">LOG</h3>
 											</div>
 <div class="kt-portlet__head-toolbar">
 											
@@ -807,8 +803,6 @@
 													
 													
 
-												</div>
-												
 											
 									<div class="kt-portlet__foot kt-align-right">
 												<div class="">
@@ -857,5 +851,31 @@ $("#show").click(function(){
     $("#hide2").click(function(){
         $(".tampil").hide();
       });
+</script>
+<script>
+	$(".barang").change(function() {
+		if ($(this).val() == 0) {
+			$(".xyz").attr("disabled", "disabled");
+		} else {
+			$(".xyz").removeAttr("disabled");
+		}
+	}).trigger("change");
+	$(".pemasok").change(function() {
+		if ($(this).val() == 0) {
+			$(".pem").attr("disabled", "disabled");
+		} else {
+			$(".pem").removeAttr("disabled");
+		}
+	}).trigger("change");
+
+	$(document).on('change', '.utama', function() {
+  var target = $(this).data('target');
+  var show = $("option:selected", this).data('show');
+  $(target).children().addClass('hide');
+  $(show).removeClass('hide');
+});
+$(document).ready(function(){
+	$('.utama').trigger('change');
+});
 </script>
 <?php require '../layouts/foot.php' ?>
