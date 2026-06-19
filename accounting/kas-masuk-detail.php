@@ -66,57 +66,66 @@
 				<div class="col-xl-8">
 					<!--begin::Portlet-->
 					<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-						<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Pendapatan</div><br><br>
+						<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Penerimaan</div><br><br>
 						<div class="kt-portlet__body">
 							<div class="kt-portlet__content">
-								<div class="form-group row">
-									<div class="col-lg-3">
-										<label>Kas / Bank : <code>*</code></label>
-										<input type="text" class="form-control form-control-sm" placeholder="110101 - Kas Kecil" disabled>
-										
-									</div>
-									<div class="col-lg-5">
-										<label>Kategori Pendapatan : <code>*</code></label>
-										<input type="text" class="form-control form-control-sm" placeholder="410101 - PENDAPATAN PARKIR TEPI JALAN UMUM (TJU)" disabled>
-										
-									</div>
-									<div class="col-lg-4">
-										<label>No. Bukti#: <code>*</code></label>
-										<div class="input-group">
-											
-											<input id="1" type="text" class="form-control" placeholder="110102.2023.08.00001" disabled>
-											
-										</div>
-									</div>
-									
-								</div>
-								<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-								<div class="form-group row">
-								<div class="col-lg-3">
-										<label class="">Tanggal Transaksi: <code>*</code></label>
-										<input id="1" type="text" class="form-control" placeholder="24 Oktober 2025" disabled>
-									</div>
-									<div class="col-lg-3">
-										<label class="">No.Cek# : </label>
-											<input id="1" type="text" class="form-control" placeholder="110102.2023.08" disabled>
-									</div>
-									<div class="col-lg-2">
-										<label class="">Tanggal Cek: </label>
-										<input id="1" type="text" class="form-control" placeholder="24 Oktober 2025" disabled>
-									</div>
-									<div class="col-lg-4">
-										<label class="">Pemberi : <code>*</code></label>
-											<input type="text" class="form-control form-control-sm" placeholder="Muhammad Nasrullah, S.Kom" disabled>
-									</div>
-									</div>
-									<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 								<div class="form-group row">
 									<div class="col-lg-3">
 										<label class="">Kantor : <code>*</code></label>
 											<input type="text" class="form-control form-control-sm" placeholder="Pusat" disabled>
 									</div>
+									<div class="col-lg-3">
+										<label>No. Bukti#: <code>*</code></label>
+										<div class="input-group">
+											
+											<input id="1" type="text" class="form-control" placeholder="PP.PQ.062026.01.0002" disabled>
+											
+										</div>
+									</div>
+									<div class="col-lg-3">
+										<label class="">Tanggal Transaksi: <code>*</code></label>
+										<input type="text" class="form-control form-control-sm" placeholder="19 September 2026" disabled>
+									</div>
+									<div class="col-lg-3">
+										<label>Kas / Bank : <code>*</code></label>
+										<input type="text" class="form-control form-control-sm" placeholder="BCA - 0255804010" disabled>
+									</div>
+									
+									
+									</div>
+									<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+								<div class="form-group row">
+								
+								<div class="col-lg-3">
+										<label>Referensi : <code>*</code></label>
+										<input type="text" class="form-control form-control-sm" placeholder="-" disabled>
+									</div>
+									
+									<div class="col-lg-6">
+										<label class="">Terima Dari : <code>*</code></label>
+											<input type="text" class="form-control form-control-sm" placeholder="Pegawai" disabled>
+									</div>
+									
+									<div class="col-lg-3">
+										<label>Metode Pembayaran : <code>*</code></label>
+										<input type="text" class="form-control form-control-sm" placeholder="Tunai" disabled>
+									</div>
+									
+									</div>
+									<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+								<div class="form-group row">
+									
+									
+									
+									
+									
+									
+									
 									
 								</div>
+								
+								
+									
 							</div>
 						</div>
 						

@@ -13,10 +13,19 @@
 				</span>
 				&nbsp;
 				&nbsp;
-				Form Penerimaan Penjualan
+				Form
 			</h3>
+<span class="kt-subheader__separator kt-subheader__separator--v"></span>
+									<div class="kt-subheader__group" id="kt_subheader_search">
+										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
+											PENERIMAAN PENJUALAN</span>
+										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
-		</div>
+										</form>
+									</div>
+
+
+								</div>
 		<div class="kt-subheader__toolbar">
 			<div class="dropdown dropdown-inline" ddata-placement="left">
 				<a href="mutasi-pegawai.php" class="btn btn-label-brand btn-sm" data-toggle="dropdown" onclick="goBack()">
@@ -85,66 +94,64 @@
 				<div class="col-xl-8">
 					<!--begin::Portlet-->
 					<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-						<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Rincian Barang/Jasa</div><br>
+						<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Penerimaan Penjualan</div><br><br>
 						<div class="kt-portlet__body">
 							<div class="kt-portlet__content">
 								<div class="form-group row">
-									<div class="col-lg-6">
-										<label>Terima Dari : <code>*</code></label>
-										<div class="form-group ">
-											<div class="kt-input-icon kt-input-icon--right">
-												<input type="text" class="form-control form-control-sm" placeholder="Cari/Pilih..." name="akun" list="akunname">
-												<datalist id="akunname">
-													<option value="-" disabled="" selected="">Cari/Pilih...</option>
-													<option value="Pelindo" label="110101">Pelindo</option>
-													<option value="Chenwoo" label="110102">Chenwoo</option>
-													<option value="Parahyangan" label="110201">Parahyangan</option>
-												</datalist>
-												<span class="kt-input-icon__icon kt-input-icon__icon--right">
-													<span><i class="la la-search"></i></span>
-												</span>
-											</div>
-										</div>
+									<div class="col-lg-4">
+										<label class="">Kantor : <code>*</code></label>
+											<input type="text" class="form-control form-control-sm" placeholder="Pusat" disabled>
 									</div>
-									<div class="col-lg-6">
+									<div class="col-lg-4">
 										<label>No. Bukti#: <code>*</code></label>
 										<div class="input-group">
-											<div class="input-group-prepend" id="btnClick">
-												<button class="btn btn-sm btn-success" type="button"><i class="text-white flaticon2-edit"></i></button>
-											</div>
-											<input id="1" type="text" class="form-control" placeholder="Search for...">
-											<select id="2" data-size="7" data-live-search="true" class="form-control" style="display:none !important">
-												<option value="1">Bank</option>
-												<option value="2">Deposito Bank</option>
-												<option value="3">Kas Kecil</option>
-												<option value="4">Nomor Bukti Kas/Bank</option>
-											</select>
+											
+											<input id="1" type="text" class="form-control" placeholder="110102.2023.08.00001" disabled>
+											
 										</div>
 									</div>
+									<div class="col-lg-4">
+										<label>Kas / Bank : <code>*</code></label>
+										<select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
+											<option value="1" disabled selected>Cari/Pilih...</option>
+												<option value="2" data-subtext="Saldo : Rp. 500.000,-"><small class="text-muted">110101</small> - Kas Kecil</option>
+												<option value="3" data-subtext="Saldo : Rp. 500.000,-">110102 - Bank</option>
+												<option value="4" data-subtext="Saldo : Rp. 3.000.000.000,-">110201 - Deposito Bank</option>
+										</select>
+									</div>
+									
+									
+									
+									
+									
+									
 								</div>
 								<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 								<div class="form-group row">
-									<div class="col-lg-6">
-										<div class="form-group">
-											<label>Bank : <code>*</code></label>
-											<div class="form-group ">
-												<div class="kt-input-icon kt-input-icon--right">
-													<input type="text" class="form-control form-control-sm" placeholder="Cari/Pilih..." name="bank" list="bankname">
-													<datalist id="bankname">
-														<option value="-" disabled="" selected="">Cari/Pilih...</option>
-														<option value="Kas Kecil" label="110101">Kas Kecil</option>
-														<option value="Bank" label="110102">Bank</option>
-														<option value="Deposito Bank" label="110201">Deposito Bank</option>
-													</datalist>
-													<span class="kt-input-icon__icon kt-input-icon__icon--right">
-														<span><i class="la la-search"></i></span>
-													</span>
-												</div>
-											</div>
-										</div>
+								
+								
+									<div class="col-lg-4">
+										<label>Referensi Penawaran : <code>*</code></label>
+										<select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
+								<option value="1" disabled selected>Cari / Pilih...</option>
+								
+									<option>SQ.062026.01.001</option>
+									<option>SQ.062026.02.001</option>
+									
+								
+								
+							</select>
 									</div>
-									<div class="col-lg-6">
-										<label class="">Tgl Bayar : <code>*</code></label>
+									
+									<div class="col-lg-8">
+										<label class="">Terima Dari : <code>*</code></label>
+											<input type="text" class="form-control form-control-sm" placeholder="" disabled>
+									</div>
+									</div>
+									<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+								<div class="form-group row">
+								<div class="col-lg-4">
+										<label class="">Tanggal Bayar: <code>*</code></label>
 										<div class="input-group date">
 											<input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="01/01/2020" value="01/01/2020" id="kt_datepicker_2">
 											<div class="input-group-append">
@@ -154,20 +161,21 @@
 											</div>
 										</div>
 									</div>
-								</div>
-								<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-								<div class="form-group row">
-									<div class="col-lg-6">
-										<div class="form-group">
-											<label>Metode Bayar :</label>
-											<select class="form-control form-control-sm" >
-												<option value="">Tunai/Lainnya</option>
-												<option value="">Cek/Giro</option>
-												<option value="">Transfer Bank</option>
-											</select>
-										</div>
+								<div class="col-lg-4">
+										<label>Metode Pembayaran : <code>*</code></label>
+										<select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
+								<option value="1" disabled selected>Cari / Pilih...</option>
+								
+									<option>Tunai</option>
+									<option>Transfer Bank</option>
+									<option>Cek</option>
+									<option>Lainnya</option>
+							
+								
+								
+							</select>
 									</div>
-									<div class="col-lg-6">
+									<div class="col-lg-4">
 										<div class="form-group">
 											<label>Nilai Pembayaran:</label>
 											<div class="input-group input-group-sm">
@@ -178,7 +186,10 @@
 													</div>
 										</div>
 									</div>
-								</div>
+									
+									
+									</div>
+								
 							</div>
 						</div>
 					</div>
@@ -187,17 +198,33 @@
 
 					<!--begin::Portlet-->
 					<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-						<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Info Lainnya</div><br>
+						<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Info Kas / Bank</div><br><br>
 						<div class="kt-portlet__body">
 							<div class="kt-portlet__content">
-								<div class="form-group">
-									<label>Keterangan :</label>
-									<textarea class="form-control" id="exampleTextarea" rows="6" placeholder=""></textarea>
+								<div class="form-group row">
+								<div class="col-lg-6">
+										<label>Saldo Awal : </label>
+										<div class="input-group input-group-sm">
+																						  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+																						  <input style="text-align:right" type="text" class="form-control form-control-sm" placeholder="2.000.000.000" aria-describedby="basic-addon1" disabled>
+																						  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+																						  </div>
+									</div>
+									<div class="col-lg-6">
+										<label>Saldo Akhir : </label>
+										<div class="input-group input-group-sm">
+																						  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+																						  <input style="text-align:right" type="text" class="form-control form-control-sm" placeholder="2.000.000.000" aria-describedby="basic-addon1" disabled>
+																						  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+																						  </div>
+									</div>
+									</div>
+									<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+									<div class="form-group">
+									<label>Catatan Kas:</label>
+									<textarea class="form-control" id="exampleTextarea" rows="3" placeholder=""></textarea>
 								</div>
-								<div class="form-group">
-									<label>Cabang :</label>
-									<input type="text" class="form-control form-control-sm" placeholder="Kantor Pusat" disabled>
-								</div>
+								
 							</div>
 						</div>
 					</div>

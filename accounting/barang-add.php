@@ -156,14 +156,14 @@ function goBack() {
                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="0001SKUAK0626">
                       </div>
                         </div>
+						
 						<div class="col-lg-6">
                           <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Pilih Kategori" data-html="true">*</code> Kategori :</label>
                          <select class="form-control kt-selectpicker" data-live-search="true">
 						
 														
-														<option>Kebutuhan Project</option>
-														<option>Peralatan Kerja</option>
-														<option>Peralatan Kantor</option>
+														<option>Dispenser Single</option>
+														<option>Sensor</option>
 														<option>Jasa</option>
 														 <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 														
@@ -172,7 +172,19 @@ function goBack() {
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
                      <div class="form-group row">
-						<div class="col-lg-12">
+					 <div class="col-lg-6">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Pilih Kategori" data-html="true">*</code> Kebutuhan :</label>
+                         <select class="form-control kt-selectpicker" data-live-search="true">
+						
+														
+														<option>Project</option>
+														<option>Internal</option>
+														<option>Lainnya</option>
+														 <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+														
+													</select>
+                        </div>
+						<div class="col-lg-6">
 														<label class="kt-font-danger">Pilih Project :</label>
 														 <select class="form-control form-control kt-selectpicker" data-live-search="true">
 														<option>Epass</option>

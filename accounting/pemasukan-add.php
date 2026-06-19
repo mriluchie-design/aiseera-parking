@@ -52,6 +52,12 @@
 									<span class="kt-nav__link-text">Dari Favorit</span>
 								</a>
 							</li>
+							<li class="kt-nav__item">
+								<a href="#" class="kt-nav__link" data-toggle="modal" data-target="#lihat_favorit">
+									<i class="kt-nav__link-icon fa fa-file-invoice"></i>
+									<span class="kt-nav__link-text">Pesanan Penjualan</span>
+								</a>
+							</li>
 
 
 							
@@ -91,51 +97,23 @@
 				<div class="col-xl-8">
 					<!--begin::Portlet-->
 					<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-						<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Pendapatan</div><br><br>
+						<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Penerimaan</div><br><br>
 						<div class="kt-portlet__body">
 							<div class="kt-portlet__content">
 								<div class="form-group row">
 									<div class="col-lg-3">
-										<label>Kas / Bank : <code>*</code></label>
-										<select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
-											<option value="1" disabled selected>Cari/Pilih...</option>
-												<option value="2" data-subtext="Saldo : Rp. 500.000,-"><small class="text-muted">110101</small> - Kas Kecil</option>
-												<option value="3" data-subtext="Saldo : Rp. 500.000,-">110102 - Bank</option>
-												<option value="4" data-subtext="Saldo : Rp. 3.000.000.000,-">110201 - Deposito Bank</option>
-										</select>
+										<label class="">Kantor : <code>*</code></label>
+											<input type="text" class="form-control form-control-sm" placeholder="Pusat" disabled>
 									</div>
-									<div class="col-lg-5">
-										<label>Kategori Pendapatan : <code>*</code></label>
-										<select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
-								<option value="1" disabled selected>Cari / Pilih Akun Perkiraan...</option>
-								<optgroup label="Pendapatan Operasional" class="a">
-									<option data-subtext="410101">PENDAPATAN PARKIR TEPI JALAN UMUM (TJU)</option>
-									<option data-subtext="410102">PENDAPATAN PARKIR INSIDENTIL</option>
-									<option data-subtext="410103">PENDAPATAN PARKIR KOMERSIL</option>
-									<option data-subtext="410104">PENDAPATAN PARKIR LANGGANAN BULANAN</option>
-									<option data-subtext="410105">PENDAPATAN SEWA LAHAN PARKIR</option>
-									<option data-subtext="410106">PENDAPATAN PARKIR TEKHNOLOGI / ONLINE)</option>
-									<option data-subtext="410107">PENDAPATAN MEMBER PARKIR</option>
-									<option data-subtext="410108">PENDAPATAN VALET</option>
-									<option data-subtext="410109">PENDAPATAN PARKING GATE</option>
-								</optgroup>
-								
-								
-							</select>
-									</div>
-									<div class="col-lg-4">
+									<div class="col-lg-3">
 										<label>No. Bukti#: <code>*</code></label>
 										<div class="input-group">
 											
-											<input id="1" type="text" class="form-control" placeholder="110102.2023.08.00001" disabled>
+											<input id="1" type="text" class="form-control" placeholder="PP.PQ.062026.01.0002" disabled>
 											
 										</div>
 									</div>
-									
-								</div>
-								<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-								<div class="form-group row">
-								<div class="col-lg-3">
+									<div class="col-lg-3">
 										<label class="">Tanggal Transaksi: <code>*</code></label>
 										<div class="input-group date">
 											<input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="01/01/2020" value="01/01/2020" id="kt_datepicker_2">
@@ -147,33 +125,67 @@
 										</div>
 									</div>
 									<div class="col-lg-3">
-										<label class="">No.Cek# : </label>
-											<input type="text" class="form-control form-control-sm" placeholder="">
+										<label>Kas / Bank : <code>*</code></label>
+										<select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
+											<option value="1" disabled selected>Cari/Pilih...</option>
+												<option value="2" data-subtext="Saldo : Rp. 500.000,-"><small class="text-muted">110101</small> - Kas Kecil</option>
+												<option value="3" data-subtext="Saldo : Rp. 500.000,-">110102 - Bank</option>
+												<option value="4" data-subtext="Saldo : Rp. 3.000.000.000,-">110201 - Deposito Bank</option>
+										</select>
 									</div>
-									<div class="col-lg-2">
-										<label class="">Tanggal Cek: </label>
-										<div class="input-group date">
-											<input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="01/01/2020" value="01/01/2020" id="kt_datepicker_2">
-											<div class="input-group-append">
-												<span class="input-group-text">
-													<i class="la la-calendar-check-o"></i>
-												</span>
-											</div>
-										</div>
-									</div>
-									<div class="col-lg-4">
-										<label class="">Pemberi : <code>*</code></label>
-											<input type="text" class="form-control form-control-sm" placeholder="">
-									</div>
+									
+									
 									</div>
 									<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 								<div class="form-group row">
-									<div class="col-lg-3">
-										<label class="">Kantor : <code>*</code></label>
-											<input type="text" class="form-control form-control-sm" placeholder="Pusat" disabled>
+								
+								<div class="col-lg-3">
+										<label>Referensi : <code>*</code></label>
+										<select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
+								<option value="1" disabled selected>Cari / Pilih...</option>
+								
+									<option>PQ.062026.01.0002</option>
+							
+								
+								
+							</select>
 									</div>
 									
+									<div class="col-lg-6">
+										<label class="">Terima Dari : <code>*</code></label>
+											<input type="text" class="form-control form-control-sm" placeholder="">
+									</div>
+									
+									<div class="col-lg-3">
+										<label>Metode Pembayaran : <code>*</code></label>
+										<select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
+								<option value="1" disabled selected>Cari / Pilih...</option>
+								
+									<option>Tunai</option>
+									<option>Transfer Bank</option>
+									<option>Cek</option>
+									<option>Lainnya</option>
+							
+								
+								
+							</select>
+									</div>
+									
+									</div>
+									<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+								<div class="form-group row">
+									
+									
+									
+									
+									
+									
+									
+									
 								</div>
+								
+								
+									
 							</div>
 						</div>
 						
@@ -218,7 +230,7 @@
 			</div>
 
 				<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-				<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Rincian Pendapatan</div><br><br>
+				<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Rincian Penerimaan</div><br><br>
 					<div class="kt-portlet__body">
 						<div class="kt-portlet__content">
 							

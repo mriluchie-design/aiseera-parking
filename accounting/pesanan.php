@@ -23,7 +23,7 @@ License: You must have a valid license purchased only from themeforest(the above
 				</span>
 				&nbsp;
 				&nbsp;
-					Penawaran
+					Pesanan Penjualan
 			</h3>
 
 		</div>
@@ -33,8 +33,8 @@ License: You must have a valid license purchased only from themeforest(the above
 				<a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
 						<i class="fa fa-print"></i> Export Data</button>
 					</a>
-					<a href="penawaran-add.php" class="btn btn-info btn-sm">
-				<i class="fa fa-plus-circle"></i>Buat Penawaran</button>
+					<a href="pesanan-penjualan-add.php" class="btn btn-info btn-sm">
+				<i class="fa fa-plus-circle"></i>Pesanan Penjualan</button>
 				<!--<i class="flaticon2-plus"></i>-->
 			</a>
 					<div class="dropdown-menu dropdown-menu-fit dropdown-menu-md dropdown-menu-right">
@@ -298,37 +298,36 @@ License: You must have a valid license purchased only from themeforest(the above
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Kantor</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Nomor Penawaran</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Waktu</th>
-											  <th colspan="3" bgcolor="#f7fcff">Pelanggan</th>
-											  <th width="3%" rowspan="2" bgcolor="#f7fcff">By</th>
-											  <th colspan="2" bgcolor="#f7fcff">Status</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Verifikasi</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Nomor Pesanan Penjualan</th>
+											  <th colspan="5" bgcolor="#f7fcff">Penawaran</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Uang Muka</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Total</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Status<br>Gudang</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 											<tr style="text-align:center">
-											  <th width="3%" bgcolor="#f7fcff">#</th>
-											  <th width="7%" bgcolor="#f7fcff">Nama</th>
+											  <th width="1%" bgcolor="#f7fcff">Nomor</th>
+											  <th width="1%" bgcolor="#f7fcff">Waktu</th>
+											  <th width="2%" bgcolor="#f7fcff">Client</th>
 											  <th width="7%" bgcolor="#f7fcff">Pekerjaan</th>
-											  <th width="1%" bgcolor="#f7fcff">Dokumen</th>
-											  <th width="1%" bgcolor="#f7fcff">Pelanggan</th>
+											  <th width="2%" bgcolor="#f7fcff">By</th>
 										  </tr>
 										</thead>
 										<tbody>
 											<tr>
 												<td id="kt_table_1" style="text-align:right">1</td>
 												<td style="text-align:center" nowrap><span class="btn btn-brand btn-sm">Pusat</span></td>
+												<td nowrap="nowrap" style="text-align:center">SO.062026.01.001</td>
 												<td style="text-align:center" nowrap>SQ.062026.01.001</td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
 												  23:17:00 WITA</td>
-												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" > <img src="../assets/img/client-logos/angkasa-pura.png" alt="image" /> </a></td>
-												<td nowrap="nowrap" style="text-align:left">PT. ANGKASA PURA INDONESIA (PERSERO)</td>
+												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="PT. ANGKASA PURA INDONESIA (PERSERO)" data-html="true" > <img src="../assets/img/client-logos/angkasa-pura.png" alt="image" /> </a></td>
 												<td nowrap="nowrap" style="text-align:left">PEKERJAAN PENGADAAN CCTV DAN NETWORK EQUIPMENT</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003&lt;hr&gt;Nursiah, S.Kom&lt;hr&gt;Staff Accounting" data-html="true"><img src="../assets/media/users/100_7.jpg" alt="image" /></a></td>
-												<td style="text-align:center"><span class="btn btn-label-warning btn-sm">Final</span></td>
-												<td style="text-align:center"><span class="btn btn-label-brand btn-sm">Penawaran</span></td>
-												<td style="text-align:center" nowrap="nowrap"><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
+												<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>100.000.000,-</span></div></td>
+												<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>200.000.000,-</span></div></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Proses</span></td>
 												<td style="text-align:center" nowrap="nowrap"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -344,19 +343,69 @@ License: You must have a valid license purchased only from themeforest(the above
 										  <tr>
 												<td id="kt_table_1" style="text-align:right">2</td>
 												<td style="text-align:center" nowrap=""><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
+												<td nowrap="nowrap" style="text-align:center">SO.062026.02.001</td>
 												<td style="text-align:center" nowrap>SQ.062026.02.002</td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
 												  23:19:00 WITA</td>
-												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" > <img src="../assets/img/client-logos/pertamina.svg" alt="image" /> </a></td>
-												<td nowrap="nowrap" style="text-align:left">PT. NUSANTARA POWER SERVICES UNIT PLTD SUPPA</td>
+												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="PT. PERTAMINA(PERSERO)" data-html="true"  > <img src="../assets/img/client-logos/pertamina.svg" alt="image" /> </a></td>
 												<td nowrap="nowrap" style="text-align:left">PEKERJAAN PENGADAAN CCTV DAN NETWORK EQUIPMENT</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003&lt;hr&gt;Nursiah, S.Kom&lt;hr&gt;Staff Accounting" data-html="true"><img src="../assets/media/users/100_7.jpg" alt="image" /></a></td>
-												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="19 September 2026<hr>09:36:00 WITA<hr>Nama Penerima">Terkirim</span></td>
-												<td style="text-align:center"><span class="btn btn-success btn-sm">Disetujui</span></td>
-												<td style="text-align:center" nowrap=""><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release" data-html="true">
-															<i class="fa flaticon2-check-mark"></i>
-														</span></td>
+												<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+												<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>200.000.000,-</span></div></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Proses</span></td>
+												<td style="text-align:center" nowrap="nowrap"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+												    <ul class="kt-nav">
+												      <li class="kt-nav__item"> <a href="penawaran-detail-disetujui.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="penawaran-edit.php" class="kt-nav__link" data-toggle="modal" data-target="#modal_edit_beban"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit Penawaran</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" data-toggle="modal" data-target="#cetak_penawaran"> <i class="kt-nav__link-icon fa fa-print"></i> <span class="kt-nav__link-text">Cetak Penawaran</span> </a> </li>
+													  <li class="kt-nav__item"> <a href="#" class="kt-nav__link" data-toggle="modal" data-target="#kirim_penawaran"> <i class="kt-nav__link-icon fa fa-paper-plane"></i> <span class="kt-nav__link-text">Kirim Penawaran</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+											        </ul>
+											      </div>
+												  </div></td>
+										  </tr>
+										  <tr>
+												<td id="kt_table_1" style="text-align:right">3</td>
+												<td style="text-align:center" nowrap=""><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
+												<td nowrap="nowrap" style="text-align:center">SO.062026.02.002</td>
+												<td style="text-align:center" nowrap>SQ.062026.02.003</td>
+												<td nowrap="nowrap" style="text-align:center">1 September 2026
+												  <hr />
+												  23:19:00 WITA</td>
+												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="PT. PERTAMINA(PERSERO)" data-html="true"  > <img src="../assets/img/client-logos/pertamina.svg" alt="image" /> </a></td>
+												<td nowrap="nowrap" style="text-align:left">PEKERJAAN PENGADAAN CCTV DAN NETWORK EQUIPMENT</td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003&lt;hr&gt;Nursiah, S.Kom&lt;hr&gt;Staff Accounting" data-html="true"><img src="../assets/media/users/100_7.jpg" alt="image" /></a></td>
+												<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+												<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>200.000.000,-</span></div></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Selesai</span></td>
+												<td style="text-align:center" nowrap="nowrap"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+												    <ul class="kt-nav">
+												      <li class="kt-nav__item"> <a href="penawaran-detail-disetujui.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="penawaran-edit.php" class="kt-nav__link" data-toggle="modal" data-target="#modal_edit_beban"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit Penawaran</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" data-toggle="modal" data-target="#cetak_penawaran"> <i class="kt-nav__link-icon fa fa-print"></i> <span class="kt-nav__link-text">Cetak Penawaran</span> </a> </li>
+													  <li class="kt-nav__item"> <a href="#" class="kt-nav__link" data-toggle="modal" data-target="#kirim_penawaran"> <i class="kt-nav__link-icon fa fa-paper-plane"></i> <span class="kt-nav__link-text">Kirim Penawaran</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+											        </ul>
+											      </div>
+												  </div></td>
+										  </tr>
+										  <tr>
+												<td id="kt_table_1" style="text-align:right">4</td>
+												<td style="text-align:center" nowrap=""><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
+												<td nowrap="nowrap" style="text-align:center">SO.062026.02.003</td>
+												<td style="text-align:center" nowrap>SQ.062026.02.004</td>
+												<td nowrap="nowrap" style="text-align:center">1 September 2026
+												  <hr />
+												  23:19:00 WITA</td>
+												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="PT. PERTAMINA(PERSERO)" data-html="true"  > <img src="../assets/img/client-logos/pertamina.svg" alt="image" /> </a></td>
+												<td nowrap="nowrap" style="text-align:left">PEKERJAAN PENGADAAN CCTV DAN NETWORK EQUIPMENT</td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003&lt;hr&gt;Nursiah, S.Kom&lt;hr&gt;Staff Accounting" data-html="true"><img src="../assets/media/users/100_7.jpg" alt="image" /></a></td>
+												<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
+												<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>200.000.000,-</span></div></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Selesai</span></td>
 												<td style="text-align:center" nowrap="nowrap"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
