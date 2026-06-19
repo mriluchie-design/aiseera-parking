@@ -85,8 +85,16 @@ License: You must have a valid license purchased only from themeforest(the above
 																		<form class="kt-form">
 																			<div class="kt-portlet__body">
 								                      <div class="form-group row">
+													  <div class="col-lg-2">
+								                          <label>Kantor:</label>
+																					<select class="form-control kt-selectpicker" data-live-search="true" tabindex="-98">
+                                      <option value="2">Pusat</option>
+                                      <option value="2">Cabang</option>
+                                     
+                                  </select>
+								                        </div>
 																				<div class="col-lg-2">
-																				 <label class="">Nomor :</label>
+																				 <label class="">Nomor Beban :</label>
 																			 <div class="kt-input-icon kt-input-icon--right">
         							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
         							<span class="kt-input-icon__icon kt-input-icon__icon--right">
@@ -112,23 +120,7 @@ License: You must have a valid license purchased only from themeforest(the above
 						                        </div>
 						                      </div>
 						                      </div>
-														<div class="col-lg-2">
-								                          <label>Status:</label>
-																					<select class="form-control kt-selectpicker" multiple data-actions-box="true">
-															<option>Sebagian Dibayar</option>
-															<option>Sedang Diproses</option>
-															<option>Terbayar</option>
-														</select>
-								                        </div>
-														<div class="col-lg-2">
-								                          <label>Kantor:</label>
-																					<select class="form-control kt-selectpicker" data-live-search="true" tabindex="-98">
-                                      <option value="2">Pusat</option>
-                                      <option value="2">Cabang</option>
-                                     
-                                  </select>
-								                        </div>
-														<div class="col-lg-2">
+											  <div class="col-lg-3">
 								                          <label>Dibuat Oleh:</label>
 																					<div class="form-group">
 
@@ -152,6 +144,16 @@ License: You must have a valid license purchased only from themeforest(the above
 					 														</select>
 					                       </div>
 								                        </div>
+														<div class="col-lg-1">
+								                          <label>Status :</label>
+																					<select class="form-control kt-selectpicker" data-live-search="true" tabindex="-98">
+                                      <option value="2">Proses</option>
+                                      <option value="2">Terbayar</option>
+                                     
+                                  </select>
+								                        </div>
+														
+														
 								                        </div>
 								                      </div>
 																			<div class="kt-portlet__foot text-center">
@@ -192,7 +194,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											<tr>
 												<td id="kt_table_1">1</td>
 												<td style="text-align:center" nowrap><span class="btn btn-brand btn-sm">Pusat</span></td>
-												<td style="text-align:center" nowrap>EXP.2026.01.00001</td>
+												<td style="text-align:center" nowrap>EXP.062026.01.0005</td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
 												  23:17:00 WITA</td>
@@ -228,7 +230,7 @@ License: You must have a valid license purchased only from themeforest(the above
 										  <tr>
 												<td id="kt_table_1">2</td>
 												<td style="text-align:center" nowrap=""><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
-												<td style="text-align:center" nowrap>EXP.2026.01.00002</td>
+												<td style="text-align:center" nowrap>EXP.062026.02.0005</td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
 												  23:19:00 WITA</td>

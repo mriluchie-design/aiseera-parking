@@ -96,11 +96,16 @@
 				<div class="col-xl-8">
 					<!--begin::Portlet-->
 					<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-						<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Rincian Beban</div><br>
+						<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Beban</div><br>
 						<div class="kt-portlet__body">
 							<div class="kt-portlet__content">
 								<div class="form-group row">
-									<div class="col-lg-6">
+									
+									<div class="col-lg-3">
+										<label>No. Beban : <code>*</code></label>
+										<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="EXP.062026.01.0005">
+									</div>
+									<div class="col-lg-5">
 										<label>Hutang Beban : <code>*</code></label>
 										<select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
 											<option value="1" disabled selected>Cari/Pilih Akun Perkiraan...</option>
@@ -113,34 +118,8 @@
 											</optgroup>
 										</select>
 									</div>
-									<div class="col-lg-6">
-										<label>No. Beban : <code>*</code></label>
-										<div class="input-group">
-											<div class="input-group-prepend" id="btnClick">
-												<button class="btn btn-sm btn-success" type="button"><i class="text-white flaticon2-edit"></i></button>
-											</div>
-											<input id="1" type="text" class="form-control" placeholder="Search for...">
-											<select id="2" data-size="7" data-live-search="true" class="form-control" style="display:none !important">
-												<option value="2">Pencatatan Beban</option>
-											</select>
-										</div>
-									</div>
-								</div>
-								<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-								<div class="form-group row">
-									<div class="col-lg-3">
+									<div class="col-lg-4">
 										<label class="">Tanggal : <code>*</code></label>
-										<div class="input-group date">
-											<input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="Select date" id="kt_datepicker_2">
-											<div class="input-group-append">
-												<span class="input-group-text">
-													<i class="la la-calendar-check-o"></i>
-												</span>
-											</div>
-										</div>
-									</div>
-									<div class="col-lg-3">
-										<label class="">Jatuh Tempo: <code>*</code></label>
 										<div class="input-group date">
 											<input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="Select date" id="kt_datepicker_2">
 											<div class="input-group-append">
@@ -152,35 +131,36 @@
 									</div>
 									
 								</div>
+								<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+								<div class="form-group row">
+									<div class="col-lg-8">
+										<label class="">Catatan : <code>*</code></label>
+										<input type="text" class="form-control form-control-sm" placeholder="">
+									</div>
+									<div class="col-lg-4">
+										<label class="">Jatuh Tempo : <code>*</code></label>
+										<div class="input-group date">
+											<input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="Select date" id="kt_datepicker_2">
+											<div class="input-group-append">
+												<span class="input-group-text">
+													<i class="la la-calendar-check-o"></i>
+												</span>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 
 						</div>
 						
 					</div>
 				</div>
-				<div class="col-xl-4">
-
-					<!--begin::Portlet-->
-					<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-						<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Info Lainnya</div><br>
-						<div class="kt-portlet__body">
-							<div class="kt-portlet__content">
-								<div class="form-group">
-									<label>Catatan :</label>
-									<textarea class="form-control" id="exampleTextarea" rows="6" placeholder=""></textarea>
-								</div>
-								
-								
-						</div>
-					</div>
-					<!--end::Portlet-->
-				</div>
-			</div>
+				
 			
 			
 
 				<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-				<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Rincian Pembayaran</div><br><br>
+				<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Rincian Beban</div><br><br>
 					<div class="kt-portlet__body">
 						<div class="kt-portlet__content">
 							

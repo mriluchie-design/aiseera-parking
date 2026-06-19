@@ -71,7 +71,7 @@
 	<div class="kt-portlet kt-portlet--height-full">
 		<div class="kt-portlet__body">
 			<div class="row">
-				<div class="col-xl-6">
+				<div class="col-xl-8">
 					<!--begin::Portlet-->
 					<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
 						<div class="kt-ribbon__target" style="top: 2px; right: -2px;">jurnal Umum</div><br><br>
@@ -185,7 +185,7 @@
 						
 					</div>
 				</div>
-				<div class="col-xl-3">
+				<div class="col-xl-4">
 					<!--begin::Portlet-->
 					<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
 						<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Info Lainnya</div><br><br>
