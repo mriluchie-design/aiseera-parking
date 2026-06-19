@@ -67,7 +67,7 @@
 							</li>
 <li class="kt-nav__item">
 								<a href="#" class="kt-nav__link" data-toggle="modal" data-target="#log_aktifitas">
-									<i class="kt-nav__link-icon fa fa-user-clock"></i>
+									<i class="kt-nav__link-icon fa fa-history"></i>
 									<span class="kt-nav__link-text">Log Aktifitas</span>
 								</a>
 							</li>
@@ -82,7 +82,26 @@
 						<!--end::Nav-->
 					</div>
 								</div>
+<div class="btn-group" role="group">
+									<button id="btnGroupDrop1" type="button" class="btn btn-label-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+										Proses
+									</button>
+									<div class="dropdown-menu dropdown-menu-fit dropdown-menu-md dropdown-menu-left">
 
+						<!--begin::Nav-->
+						<ul class="kt-nav">
+
+							<li class="kt-nav__item">
+								<a href="#" class="kt-nav__link" data-toggle="modal" data-target="#pembayaran">
+									<i class="kt-nav__link-icon fa fa-money-bill"></i>
+									<span class="kt-nav__link-text">Pembayaran</span>
+								</a>
+							</li>
+							
+						</ul>
+						<!--end::Nav-->
+					</div>
+								</div>
 			<div class="btn-group">
 				<button type="button" class="btn btn-success">
 					<i class="fa fa-check-circle"></i>

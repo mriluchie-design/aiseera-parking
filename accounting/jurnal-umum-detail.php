@@ -68,7 +68,7 @@
 							</li>
 <li class="kt-nav__item">
 								<a href="#" class="kt-nav__link" data-toggle="modal" data-target="#log_aktifitas">
-									<i class="kt-nav__link-icon fa fa-history"></i>
+									<i class="kt-nav__link-icon fa fa-user-clock"></i>
 									<span class="kt-nav__link-text">Log Aktifitas</span>
 								</a>
 							</li>

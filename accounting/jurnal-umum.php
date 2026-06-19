@@ -290,7 +290,7 @@ Pengaturan Table
 																				</thead>
 																				<tbody>
 																					<tr>
-																					  <td class="nomor">1</td>
+																					  <td class="text-right">1</td>
 																					  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Pusat</span></td>
 																					  <td class="nomor">JV.2020.01.00001</td>
 																						<td class="NomorTrans">SI.062026.01.00003</td>
@@ -343,7 +343,7 @@ Pengaturan Table
 															</div></td>
 																				  </tr>
 																				  <tr>
-																					  <td class="nomor">2</td>
+																					  <td class="text-right">2</td>
 																					  <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
 																					  <td class="nomor">JV.2020.01.00001</td>
 																						<td class="NomorTrans">SI.062026.01.00002</td>
@@ -396,7 +396,7 @@ Pengaturan Table
 															</div></td>
 																				  </tr>
 <tr>
-																					  <td class="nomor">3</td>
+																					  <td class="text-right">3</td>
 																					  <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
 																					  <td class="nomor">JV.2020.01.00001</td>
 																						<td class="NomorTrans">DO.062026.01.00001</td>

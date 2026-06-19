@@ -42,6 +42,14 @@
 
 
 			</div>
+			<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
+			</div>
 <div class="btn-group" role="group">
 									<button id="btnGroupDrop1" type="button" class="btn btn-label-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										Ambil Data
@@ -92,7 +100,7 @@
 	</div>
 	<div class="kt-portlet kt-portlet--height-full">
 		<div class="kt-portlet__body">
-			<div class="row">
+		<div class="row">
 				<div class="col-xl-8">
 					<!--begin::Portlet-->
 					<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
@@ -156,226 +164,246 @@
 					</div>
 				</div>
 				
-			
-			
+			</div>
 
 				<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-				<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Rincian Beban</div><br><br>
+				<br>
 					<div class="kt-portlet__body">
 						<div class="kt-portlet__content">
-							
-							<table class="table table-bordered table-hover table-checkable">
+							<div class="form-group row">
+							<div class="col-xl-10">&nbsp;
+ 
+ 
+										</div>
+   
+ <div class="col-xl-2" style="text-align:right;">
+ <a href="#" class="btn btn-brand" data-toggle="modal" data-target="#modal_tambah_akun_beban">
+											<i class="fa fa-plus-circle"></i>Rincian Beban
+										</a>
+ 
+										</div>
+
+										
+										
+										</div>
+							<table class="table table-striped table-bordered table-hover table-checkable">
 																				<thead>
 																					<tr>
-																					  <th width="1%" bgcolor="#f7fcff">#</th>
-																						<th width="20%" bgcolor="#f7fcff">Akun</th>
-																						<th width="20%"bgcolor="#f7fcff">Untuk Beban</th>
-																						<th width="12%" bgcolor="#f7fcff">Lampiran Dokumen</th>
+																					  <th width="2%" bgcolor="#f7fcff">#</th>
+																					  <th width="5%" bgcolor="#f7fcff"> Akun</th>
+																					  <th width="15%" bgcolor="#f7fcff">Nama Akun</th>
 																						<th width="15%" bgcolor="#f7fcff">Catatan</th>
-																						<th width="13%" bgcolor="#f7fcff">Nilai</th>
-																						<th width="5%" bgcolor="#f7fcff">Aksi</th>
+																						<th width="10%" bgcolor="#f7fcff">Lampiran Dokumen</th>
+																						<th width="10%" bgcolor="#f7fcff">Nilai</th>
+																						<th width="1%" bgcolor="#f7fcff">Aksi</th>
 																					</tr>
 																				</thead>
 																				<tbody>
 																					<tr>
-																					  <td>1</td>
-																						<td><select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
-								<option value="1" disabled selected>Cari/Pilih Akun Perkiraan...</option>
-								
-								<option value="1">Lihat Semua</option>
-								
-								
-								
-								<optgroup label="Kewajiban Jangka Pendek" class="a">
-									<option data-subtext="5101">Beban Pokok Penjualan</option>
-								</optgroup>
-								<optgroup label="Beban" class="a">
-									<option data-subtext="600001">Beban Iklan</option>
-									<option data-subtext="600002">Beban Komisi</option>
-									<option data-subtext="600003">Beban Bensin, Parkir, Tol Kendaraan</option>
-									<option data-subtext="600004">Beban Gaji, Upah & Honorer</option>
-									<option data-subtext="600005">Beban Bonus, Pesangon & Kompensasi</option>
-									<option data-subtext="600006">Beban Transportasi Karyawan</option>
-									<option data-subtext="600007">Beban Catering & Makan Karyawan</option>
-									<option data-subtext="600008">Beban Tunjangan Kesehatan</option>
-									<option data-subtext="600009">Beban Asuransi Karyawan</option>
-									<option data-subtext="600010">Beban THR</option>
-									<option data-subtext="600011">Beban Listrik</option>
-									<option data-subtext="600012">Beban PDAM</option>
-									<option data-subtext="600013">Beban Telekomunikasi</option>
-									<option data-subtext="600014">Beban Ekspedisi, POS, & Materai</option>
-									<option data-subtext="600015">Beban Perjalanan Dinas</option>
-									<option data-subtext="600016">Beban Perlengkapan Kantor</option>
-									<option data-subtext="600017">Beban Pajak Penghasilan</option>
-									<option data-subtext="600018">Beban Restribusi & Sumbangan</option>
-									<option data-subtext="600019">Beban Sewa Gedung</option>
-									<option data-subtext="600020">Beban Operasional Lainnya</option>
-									<option data-subtext="600021">Beban Penyusutan Gedung</option>
-									<option data-subtext="600022">Beban Penyusutan Kendaraan</option>
-									<option data-subtext="600023">Beban Penyusutan Peralatan</option>
-									<option data-subtext="600001">Beban Inventaris Kantor</option>
-								</optgroup>
-								<optgroup label="Beban Lainnya" class="a">
-									<option data-subtext="720001">Beban Bunga Pinjaman</option>
-									<option data-subtext="720002">Beban Adm.Bank & Buku Cek/Giro</option>
-									<option data-subtext="720003">Pajak Jasa Giro</option>
-									<option data-subtext="720004">Laba/Rugi Terelasasi</option>
-									<option data-subtext="720005">Laba/Rugi Belum Terealisasi</option>
-									<option data-subtext="720006">Laba/Rugi Disposisi Aset</option>
-									<option data-subtext="720007">Beban Diluar Usaha Lainnya</option>
-								</optgroup>
-							</select></td>
-																						<td><input type="text" class="form-control form-control-sm" placeholder="Beban Pokok Penjualan"  ></td>
-																						<td style="text-align:center"><div class="custom-file">
+																					  <td style="text-align:right"; align="center">1</td>
+																					  <td align="center"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="710003" /></td>
+																					  <td align="center"><input type="text" class="form-control form-control-sm" disabled placeholder="Penjualan Persediaan / Perlengkapan" /></td>
+																						<td><input type="text" class="form-control form-control-sm" placeholder="Isikan Catatan"></td>
+																						<td><div class="custom-file">
 													<input type="file" class="custom-file-input" id="customFile">
 													<label class="custom-file-label" for="customFile"></label>
 												</div></td>
-																						<td style="text-align:center"><input type="text" class="form-control form-control-sm" placeholder=""  ></td>
 																						<td nowrap="nowrap" style="text-align:left"><div class="input-group input-group-sm">
 																						  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-																						  <input style="text-align:right" type="text" class="form-control form-control-sm" placeholder="2.000.000.000" aria-describedby="basic-addon1" />
+																						  <input style="text-align:right" type="text" class="form-control form-control-sm" disabled placeholder="2.000.000.000" aria-describedby="basic-addon1">
 																						  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																						  </div></td>
 																						<td style="text-align:center">
-																										<a href="javascript:;" data-repeater-delete="" class="btn btn-outline-success btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Tambah Data"><i class="fa fa-plus-circle"></i></a>&nbsp;<a href="javascript:;" data-repeater-delete="" class="btn btn-outline-hover-danger btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Hapus"><i class="fa flaticon2-trash"></i></a>
+																										<a href="javascript:;" data-repeater-delete="" class="btn btn-outline-hover-danger btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="default" title="" data-html="true" data-original-title="Hapus"><i class="fa flaticon2-trash"></i></a>
 																									</td>
 																			      </tr>
 																					<tr>
-																					  <td>2</td>
-																						<td><select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
-								<option value="1" disabled selected>Cari/Pilih Akun Perkiraan...</option>
-								<option value="1">Lihat Semua</option>
-<optgroup label="Kewajiban Jangka Pendek" class="a">
-									<option data-subtext="5101">Beban Pokok Penjualan</option>
-								</optgroup>
-								<optgroup label="Beban" class="a">
-									<option data-subtext="600001">Beban Iklan</option>
-									<option data-subtext="600002">Beban Komisi</option>
-									<option data-subtext="600003">Beban Bensin, Parkir, Tol Kendaraan</option>
-									<option data-subtext="600004">Beban Gaji, Upah & Honorer</option>
-									<option data-subtext="600005">Beban Bonus, Pesangon & Kompensasi</option>
-									<option data-subtext="600006">Beban Transportasi Karyawan</option>
-									<option data-subtext="600007">Beban Catering & Makan Karyawan</option>
-									<option data-subtext="600008">Beban Tunjangan Kesehatan</option>
-									<option data-subtext="600009">Beban Asuransi Karyawan</option>
-									<option data-subtext="600010">Beban THR</option>
-									<option data-subtext="600011">Beban Listrik</option>
-									<option data-subtext="600012">Beban PDAM</option>
-									<option data-subtext="600013">Beban Telekomunikasi</option>
-									<option data-subtext="600014">Beban Ekspedisi, POS, & Materai</option>
-									<option data-subtext="600015">Beban Perjalanan Dinas</option>
-									<option data-subtext="600016">Beban Perlengkapan Kantor</option>
-									<option data-subtext="600017">Beban Pajak Penghasilan</option>
-									<option data-subtext="600018">Beban Restribusi & Sumbangan</option>
-									<option data-subtext="600019">Beban Sewa Gedung</option>
-									<option data-subtext="600020">Beban Operasional Lainnya</option>
-									<option data-subtext="600021">Beban Penyusutan Gedung</option>
-									<option data-subtext="600022">Beban Penyusutan Kendaraan</option>
-									<option data-subtext="600023">Beban Penyusutan Peralatan</option>
-									<option data-subtext="600001">Beban Inventaris Kantor</option>
-								</optgroup>
-								<optgroup label="Beban Lainnya" class="a">
-									<option data-subtext="720001">Beban Bunga Pinjaman</option>
-									<option data-subtext="720002">Beban Adm.Bank & Buku Cek/Giro</option>
-									<option data-subtext="720003">Pajak Jasa Giro</option>
-									<option data-subtext="720004">Laba/Rugi Terelasasi</option>
-									<option data-subtext="720005">Laba/Rugi Belum Terealisasi</option>
-									<option data-subtext="720006">Laba/Rugi Disposisi Aset</option>
-									<option data-subtext="720007">Beban Diluar Usaha Lainnya</option>
-								</optgroup>
-							</select></td>
-																						<td><input type="text" class="form-control form-control-sm" placeholder="Beban Komisi"  ></td>
-																						<td style="text-align:center"><div class="custom-file">
+																					  <td style="text-align:right"; align="center">2</td>
+																					  <td align="center"><input type="text" class="form-control form-control-sm" disabled placeholder="710005" /></td>
+																					  <td align="center"><input type="text" class="form-control form-control-sm" disabled placeholder="Pendapatan Diluar Usaha Lainnya" /></td>
+																						<td><input type="text" class="form-control form-control-sm" placeholder="Isikan Catatan"></td>
+																						<td><div class="custom-file">
 													<input type="file" class="custom-file-input" id="customFile">
 													<label class="custom-file-label" for="customFile"></label>
 												</div></td>
-																						<td style="text-align:center"><input type="text" class="form-control form-control-sm" placeholder=""  ></td>
 																						<td nowrap="nowrap" style="text-align:left"><div class="input-group input-group-sm">
 																						  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-																						  <input style="text-align:right" type="text" class="form-control form-control-sm" placeholder="2.000.000.000" aria-describedby="basic-addon1" />
+																						  <input style="text-align:right" type="text" class="form-control form-control-sm" disabled placeholder="2.000.000.000" aria-describedby="basic-addon1">
 																						  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																						  </div></td>
 																						<td style="text-align:center">
-																										<a href="javascript:;" data-repeater-delete="" class="btn btn-outline-success btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Tambah Data"><i class="fa fa-plus-circle"></i></a>&nbsp;<a href="javascript:;" data-repeater-delete="" class="btn btn-outline-hover-danger btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Hapus"><i class="fa flaticon2-trash"></i></a>
+																										<a href="javascript:;" data-repeater-delete="" class="btn btn-outline-hover-danger btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="default" title="" data-html="true" data-original-title="Hapus"><i class="fa flaticon2-trash"></i></a>
 																									</td>
 																			      </tr>
-																					<tr>
-																					  <td>3</td>
-																						<td><select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
-								<option value="1" disabled selected>Cari/Pilih Akun Perkiraan...</option>
-								<option value="1">Lihat Semua</option>
-<optgroup label="Kewajiban Jangka Pendek" class="a">
-									<option data-subtext="5101">Beban Pokok Penjualan</option>
-								</optgroup>
-								<optgroup label="Beban" class="a">
-									<option data-subtext="600001">Beban Iklan</option>
-									<option data-subtext="600002">Beban Komisi</option>
-									<option data-subtext="600003">Beban Bensin, Parkir, Tol Kendaraan</option>
-									<option data-subtext="600004">Beban Gaji, Upah & Honorer</option>
-									<option data-subtext="600005">Beban Bonus, Pesangon & Kompensasi</option>
-									<option data-subtext="600006">Beban Transportasi Karyawan</option>
-									<option data-subtext="600007">Beban Catering & Makan Karyawan</option>
-									<option data-subtext="600008">Beban Tunjangan Kesehatan</option>
-									<option data-subtext="600009">Beban Asuransi Karyawan</option>
-									<option data-subtext="600010">Beban THR</option>
-									<option data-subtext="600011">Beban Listrik</option>
-									<option data-subtext="600012">Beban PDAM</option>
-									<option data-subtext="600013">Beban Telekomunikasi</option>
-									<option data-subtext="600014">Beban Ekspedisi, POS, & Materai</option>
-									<option data-subtext="600015">Beban Perjalanan Dinas</option>
-									<option data-subtext="600016">Beban Perlengkapan Kantor</option>
-									<option data-subtext="600017">Beban Pajak Penghasilan</option>
-									<option data-subtext="600018">Beban Restribusi & Sumbangan</option>
-									<option data-subtext="600019">Beban Sewa Gedung</option>
-									<option data-subtext="600020">Beban Operasional Lainnya</option>
-									<option data-subtext="600021">Beban Penyusutan Gedung</option>
-									<option data-subtext="600022">Beban Penyusutan Kendaraan</option>
-									<option data-subtext="600023">Beban Penyusutan Peralatan</option>
-									<option data-subtext="600001">Beban Inventaris Kantor</option>
-								</optgroup>
-								<optgroup label="Beban Lainnya" class="a">
-									<option data-subtext="720001">Beban Bunga Pinjaman</option>
-									<option data-subtext="720002">Beban Adm.Bank & Buku Cek/Giro</option>
-									<option data-subtext="720003">Pajak Jasa Giro</option>
-									<option data-subtext="720004">Laba/Rugi Terelasasi</option>
-									<option data-subtext="720005">Laba/Rugi Belum Terealisasi</option>
-									<option data-subtext="720006">Laba/Rugi Disposisi Aset</option>
-									<option data-subtext="720007">Beban Diluar Usaha Lainnya</option>
-								</optgroup>
-							</select></td>
-																						<td><input type="text" class="form-control form-control-sm" placeholder="Beban Bensin, Parkir, Tol Kendaraan"  ></td>
-																						<td style="text-align:center"><div class="custom-file">
-													<input type="file" class="custom-file-input" id="customFile">
-													<label class="custom-file-label" for="customFile"></label>
-												</div></td>
-																						<td style="text-align:center"><input type="text" class="form-control form-control-sm" placeholder=""  ></td>
-																						<td nowrap="nowrap" style="text-align:left"><div class="input-group input-group-sm">
-																						  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-																						  <input style="text-align:right" type="text" class="form-control form-control-sm"  placeholder="2.000.000.000" aria-describedby="basic-addon1" />
-																						  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-																						  </div></td>
-																						<td style="text-align:center">
-																										<a href="javascript:;" data-repeater-delete="" class="btn btn-outline-success btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Tambah Data"><i class="fa fa-plus-circle"></i></a>&nbsp;<a href="javascript:;" data-repeater-delete="" class="btn btn-outline-hover-danger btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Hapus"><i class="fa flaticon2-trash"></i></a>
-																									</td>
-																			      </tr>
+																					
 																</tbody>
-																
 																<tfoot style="border-top: 2px solid #5867dd">
 																	<tr>
-																		<th colspan="5" bgcolor="#f7fcff" class="text-right"><strong>Total</strong></th>
+																		<th colspan="5" bgcolor="#f7fcff" class="text-right">Total</th>
 																		<th bgcolor="#f7fcff"><div class="input-group input-group-sm">
-																		  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon2">Rp.</span></div>
-																		  <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000.000" aria-describedby="basic-addon1" />
-																		  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon2">,-</span></div>
-																	    </div></th>
+																						  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+																						  <input style="text-align:right" type="text" class="form-control form-control-sm" disabled placeholder="2.000.000.000" disabled aria-describedby="basic-addon1">
+																						  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+																						  </div></th>
 																		<th bgcolor="#f7fcff">&nbsp;</th>
 																	</tr>
 																</tfoot>
+
 																			</table>
 						</div>
 					</div>
 				</div>
-<div class="modal fade" id="lihat_favorit" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			
+
+</div>
+</div>
+<div class="modal fade" id="modal_tambah_akun_beban" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+									<div class="modal-content">
+
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-clipboard-list"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">RINCIAN BEBAN</h3>
+											</div>
+<div class="kt-portlet__head-toolbar">
+											
+											&nbsp;
+												<button type="button" class="btn btn-secondary btn-sm btn-outline-danger" data-dismiss="modal">X</button>
+											</div>
+											
+										</div>
+										<div class="kt-portlet__body">
+											<div class="tab-content">
+												
+
+<div class="form-group row">
+<div class="col-lg-8">
+														<label class="kt-font-brand">Akun Beban :</label>
+														<select name="select" class="form-control kt-selectpicker col-lg-12 mb-6" data-size="7" data-live-search="true">
+																					    <option value="1" disabled="disabled" selected="selected">Cari / Pilih Akun Perkiraan...</option>
+																					    <optgroup label="Kewajiban Jangka Pendek" class="a">
+																					      <option data-subtext="5101">Beban Pokok Penjualan</option>
+																				        </optgroup>
+																					    <optgroup label="Beban" class="a">
+																					      <option data-subtext="600001">Beban Iklan</option>
+																					      <option data-subtext="600002">Beban Komisi</option>
+																					      <option data-subtext="600003">Beban Bensin, Parkir, Tol Kendaraan</option>
+																					      <option data-subtext="600004">Beban Gaji, Upah &amp; Honorer</option>
+																					      <option data-subtext="600005">Beban Bonus, Pesangon &amp; Kompensasi</option>
+																					      <option data-subtext="600006">Beban Transportasi Karyawan</option>
+																					      <option data-subtext="600007">Beban Catering &amp; Makan Karyawan</option>
+																					      <option data-subtext="600008">Beban Tunjangan Kesehatan</option>
+																					      <option data-subtext="600009">Beban Asuransi Karyawan</option>
+																					      <option data-subtext="600010">Beban THR</option>
+																					      <option data-subtext="600011">Beban Listrik</option>
+																					      <option data-subtext="600012">Beban PDAM</option>
+																					      <option data-subtext="600013">Beban Telekomunikasi</option>
+																					      <option data-subtext="600014">Beban Ekspedisi, POS, &amp; Materai</option>
+																					      <option data-subtext="600015">Beban Perjalanan Dinas</option>
+																					      <option data-subtext="600016">Beban Perlengkapan Kantor</option>
+																					      <option data-subtext="600017">Beban Pajak Penghasilan</option>
+																					      <option data-subtext="600018">Beban Restribusi &amp; Sumbangan</option>
+																					      <option data-subtext="600019">Beban Sewa Gedung</option>
+																					      <option data-subtext="600020">Beban Operasional Lainnya</option>
+																					      <option data-subtext="600021">Beban Penyusutan Gedung</option>
+																					      <option data-subtext="600022">Beban Penyusutan Kendaraan</option>
+																					      <option data-subtext="600023">Beban Penyusutan Peralatan</option>
+																					      <option data-subtext="600001">Beban Inventaris Kantor</option>
+																				        </optgroup>
+																					    <optgroup label="Beban Lainnya" class="a">
+																					      <option data-subtext="720001">Beban Bunga Pinjaman</option>
+																					      <option data-subtext="720002">Beban Adm.Bank &amp; Buku Cek/Giro</option>
+																					      <option data-subtext="720003">Pajak Jasa Giro</option>
+																					      <option data-subtext="720004">Laba/Rugi Terelasasi</option>
+																					      <option data-subtext="720005">Laba/Rugi Belum Terealisasi</option>
+																					      <option data-subtext="720006">Laba/Rugi Disposisi Aset</option>
+																					      <option data-subtext="720007">Beban Diluar Usaha Lainnya</option>
+																				        </optgroup>
+																				      </select>
+													</div>
+													<div class="col-lg-4">
+														<label class="kt-font-brand">Akun :</label>
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="710003" />
+													</div>
+													</div>
+													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+<div class="form-group row">
+													
+													<div class="col-lg-12">
+														<label class="kt-font-brand">Untuk Beban :</label>
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Penjualan Persediaan / Perlengkapan" />
+													</div>
+												
+
+
+
+												
+													
+													
+
+												</div>
+												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+												<div class="form-group row">
+													<div class="col-lg-6">
+														<label class="kt-font-brand">Nilai :</label>
+														<div class="input-group input-group-sm">
+												  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+												  <input style="text-align:right" type="text" class="form-control form-control-sm" placeholder="2.000.000.000" aria-describedby="basic-addon1" />
+												  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+											    </div>
+													</div>
+													
+												
+
+
+
+												
+													
+													
+
+												</div>
+
+                              
+
+
+												</div>
+												
+												
+												
+
+
+												
+													
+													
+
+												</div>
+												
+											
+									<div class="kt-portlet__foot kt-align-right">
+												<div class="">
+													<button type="button" class="btn btn-sm btn-success">
+					<i class="fa fa-check-circle"></i>Lanjut</button>
+												</div>
+											</div>
+
+
+
+
+									</div>
+
+									</div>
+								</div>
+							</div>
+							<!--End::Modal 1-->
+							
+							
+									
+        </div>
+		<div class="modal fade" id="lihat_favorit" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 									<div class="modal-content">
 
@@ -479,200 +507,6 @@
 							
 									
         </div>
-<div class="modal fade" id="pembayaran" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-									<div class="modal-content">
-
-										<div class="modal-body">
-											<div class="kt-portlet kt-portlet--mobile ">
-											<div class="kt-portlet__head">
-
-											<div class="kt-portlet__head-label">
-												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-money-bill"></i></span>
-												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">PEMBAYARAN</h3>
-											</div>
-<div class="kt-portlet__head-toolbar">
-											
-											&nbsp;
-												<button type="button" class="btn btn-secondary btn-sm btn-outline-danger" data-dismiss="modal">X</button>
-											</div>
-											
-										</div>
-										<div class="kt-portlet__body">
-											<div class="tab-content">
-												
-
-<div class="form-group row">
-<div class="col-lg-6">
-														<label class="kt-font-brand">Kas / Bank :</label>
-														<select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
-								<option value="1" disabled selected>Cari/Pilih Akun Perkiraan...</option>
-								
-								<optgroup label="Kas / Bank" class="a">
-									<div class="form-group row">
-<option data-subtext="110101">Kas Kecil&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span data-subtext="Rp. 500.000,-">Rp. 500.000,-</span></option>
-<option data-subtext="110102">Bank&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span data-subtext="Rp. 500.000,-">Rp. 500.000,-</span></option>
-<option data-subtext="110201">Deposito Bank&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span data-subtext="Rp. 500.000,-">Rp. 500.000,-</span></option>
-<option data-subtext="110202">BCA - 0255804010&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span data-subtext="Rp. 500.000,-">Rp. 500.000,-</span></option>
-
-								</optgroup>
-								
-							</select>
-													</div>
-<div class="col-lg-6">
-														<label class="kt-font-brand">No. Bukti :</label>
-														<select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option>Bensin</option>
-                                                                           
-                                  </select>
-													</div>
-												
-
-
-
-												
-													
-													
-
-												</div>
-<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-<div class="form-group row">
-									<div class="col-lg-6">
-										<label class="">Penerima : <code>*</code></label>
-										<div class="row ml-auto">
-											<select class="form-control form-control-sm col-lg-5 pemasok">
-												<option value="0">Bukan Pegawai</option>
-												<option value="1">Pegawai</option>
-											</select>
-											<div class="kt-input-icon kt-input-icon--right col-lg-6 ml-3">
-												<input type="text" class="form-control form-control-sm pem" placeholder="Cari/Pilih..." id="generalSearch">
-												<span class="kt-input-icon__icon kt-input-icon__icon--right">
-													<span><i class="la la-search"></i></span>
-												</span>
-											</div>
-										</div>
-										
-									
-								</div>
-<div class="col-lg-6">
-                                <div class="form-group">
-      													<label>&nbsp;</label>
-                               <input type="text" class="form-control form-control-sm" placeholder="Isikan Penerima">
-                              	</div>
-      												</div>
-								</div>
-<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-<div class="form-group row">
-      					<div class="col-lg-6">
-														<label class="kt-font-brand">Tanggal :</label>
-														<div class="input-group date">
-											<input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="Select date" id="kt_datepicker_2">
-											<div class="input-group-append">
-												<span class="input-group-text">
-													<i class="la la-calendar-check-o"></i>
-												</span>
-											</div>
-										</div>
-													</div>							
-<div class="col-lg-6">
-														<label class="kt-font-brand">No. Cek :</label>
-														<input type="text" class="form-control form-control-sm" placeholder="">
-													</div>
-									
-									
-      												
-                              
-											</div>
-<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-<div class="form-group row">
-<div class="col-lg-12">
-														<label class="kt-font-brand">Catatan :</label>
-														<input type="text" class="form-control form-control-sm" placeholder="">
-													</div>
-
-					
-
-
-
-												
-													
-													
-
-												</div>
-<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-<div class="form-group row">
-												
-      												<table class="table table-responsive table-striped- table-hover table-checkable" id="kt_table_1">
-										<thead>
-											<tr style="text-align:center">
-											  <th width="2%" bgcolor="#f7fcff" style="border-bottom:2px solid #0e62ae; border-top:2px solid #0e62ae;">#</th>
-											  <th width="1%" bgcolor="#f7fcff" style="border-bottom:2px solid #0e62ae; border-top:2px solid #0e62ae;">Akun</th>
-											  <th width="10%" bgcolor="#f7fcff" style="border-bottom:2px solid #0e62ae; border-top:2px solid #0e62ae;">Nama Akun</th>
-											  <th width="12%" bgcolor="#f7fcff" style="border-bottom:2px solid #0e62ae; border-top:2px solid #0e62ae;">Nilai</th>
-											  <th width="1%" bgcolor="#f7fcff" style="border-bottom:2px solid #0e62ae; border-top:2px solid #0e62ae;">Aksi</th>
-									      </tr>
-										</thead>
-										<tbody>
-											<tr>
-											  <td style="text-align:center" nowrap="nowrap"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
-															    <input type="checkbox" checked="checked">
-															    <span></span> </label></td>
-												<td nowrap style="text-align:left;">600003</td>
-												<td nowrap style="text-align:left;">Beban Bensin, Parkir, Tol Kendaraan</td>
-												<td nowrap="nowrap" style="text-align:center;"><div class="input-group input-group-sm">
-												  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-												  <input style="text-align:right" type="text" class="form-control form-control-sm" placeholder="" aria-describedby="basic-addon1" />
-												  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-											    </div></td>
-												<td style="text-align:center">
-																										<a href="javascript:;" data-repeater-delete="" class="btn btn-outline-hover-danger btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Hapus"><i class="fa flaticon2-trash"></i></a>
-																									</td>
-									      </tr>
-  </tbody>
-									</table>
-      												</div>
-                              
-
-
-												</div>
-												
-												
-												
-
-
-												
-													
-													
-
-												</div>
-												
-											
-									<div class="kt-portlet__foot kt-align-right">
-												<div class="">
-													<button type="button" class="btn btn-sm btn-success">
-					<i class="fa fa-check-circle"></i>Lanjut</button>
-												</div>
-											</div>
-
-
-
-
-									</div>
-
-									</div>
-								</div>
-							</div>
-							<!--End::Modal 1-->
-							
-							
-									
-        </div>
-
-		</div>
-	</div>
-
-</div>
-
 <?php require '../layouts/footer.php' ?>
 <script>
 $(function() {

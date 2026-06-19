@@ -42,6 +42,14 @@
 
 
 			</div>
+			<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
+			</div>
 			<div class="btn-group" role="group">
 									<button id="btnGroupDrop1" type="button" class="btn btn-label-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 										Ambil Data
@@ -96,12 +104,10 @@
 				<div class="col-xl-9">
 					<!--begin::Portlet-->
 					<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-						<div class="kt-ribbon__target" style="top: 2px; right: -2px;">jurnal Umum</div><br><br>
+						<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Jurnal Umum</div><br>
 						<div class="kt-portlet__body">
 							<div class="kt-portlet__content">
-								
-									
-									<div class="form-group row">	
+								<div class="form-group row">	
 									<div class="col-lg-3">
 										<label>Tanggal : <code>*</code></label>
 										<div class="input-group date">
@@ -122,7 +128,7 @@
 							                        </div>
 										<div class="col-lg-4">
                                 <div class="form-group">
-      													<label>Penomoran Jurnal :</label>
+      													<label>Nomor Jurnal :</label>
                                 <div class="kt-section__content kt-section__content--solid" role="group" aria-label="...">
       													
 														<button type="button" class="btn btn-secondary btn-square btn-md col-lg-5" id="hide3">Manual</button>
@@ -165,12 +171,9 @@
 											</div>	
 											
 											</div>
-											
-									
-							
-								<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 								
 							</div>
+
 						</div>
 						
 					</div>
@@ -183,7 +186,7 @@
 							<div class="kt-portlet__content">
 								<div class="form-group">
 									<label>Catatan :</label>
-									<textarea class="form-control" id="exampleTextarea" rows="6" placeholder=""></textarea>
+									<textarea class="form-control" id="exampleTextarea" rows="3" placeholder=""></textarea>
 								</div>
 								
 						</div>
@@ -191,177 +194,113 @@
 					<!--end::Portlet-->
 				</div>
 			</div>
+				
+			</div>
 
-			<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-				<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Rincian Jurnal</div><br><br>
-				<div class="kt-portlet__body">
-					<div class="kt-portlet__content">
-						<table class="table table-bordered table-hover table-checkable">
-							<thead>
-								<tr>
-								  <th width="1%" bgcolor="#f7fcff">#</th>
-									<th width="10%" bgcolor="#f7fcff">Akun Perkiraan</th>
-									<th width="10%" bgcolor="#f7fcff">Keterangan</th>
-									<th width="7%" bgcolor="#f7fcff">Lampiran</th>
-									<th width="7%" bgcolor="#f7fcff">Debit</th>
-									<th width="7%" bgcolor="#f7fcff">Kredit</th>
-									<th width="3%" bgcolor="#f7fcff">Aksi</th>
-								</tr>
-							</thead>
-							<tbody>
-								<tr>
-								  <td style="text-align:right">1</td>
-									<td><select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
-								<option value="1" disabled selected>Cari/Pilih Akun Perkiraan...</option>
-								<optgroup label="Kewajiban Jangka Pendek" class="a">
-									<option data-subtext="5101">Beban Pokok Penjualan</option>
-								</optgroup>
-								<optgroup label="Beban" class="a">
-									<option data-subtext="600001">Beban Iklan</option>
-									<option data-subtext="600002">Beban Komisi</option>
-									<option data-subtext="600003">Beban Bensin, Parkir, Tol Kendaraan</option>
-									<option data-subtext="600004">Beban Gaji, Upah & Honorer</option>
-									<option data-subtext="600005">Beban Bonus, Pesangon & Kompensasi</option>
-									<option data-subtext="600006">Beban Transportasi Karyawan</option>
-									<option data-subtext="600007">Beban Catering & Makan Karyawan</option>
-									<option data-subtext="600008">Beban Tunjangan Kesehatan</option>
-									<option data-subtext="600009">Beban Asuransi Karyawan</option>
-									<option data-subtext="600010">Beban THR</option>
-									<option data-subtext="600011">Beban Listrik</option>
-									<option data-subtext="600012">Beban PDAM</option>
-									<option data-subtext="600013">Beban Telekomunikasi</option>
-									<option data-subtext="600014">Beban Ekspedisi, POS, & Materai</option>
-									<option data-subtext="600015">Beban Perjalanan Dinas</option>
-									<option data-subtext="600016">Beban Perlengkapan Kantor</option>
-									<option data-subtext="600017">Beban Pajak Penghasilan</option>
-									<option data-subtext="600018">Beban Restribusi & Sumbangan</option>
-									<option data-subtext="600019">Beban Sewa Gedung</option>
-									<option data-subtext="600020">Beban Operasional Lainnya</option>
-									<option data-subtext="600021">Beban Penyusutan Gedung</option>
-									<option data-subtext="600022">Beban Penyusutan Kendaraan</option>
-									<option data-subtext="600023">Beban Penyusutan Peralatan</option>
-									<option data-subtext="600001">Beban Inventaris Kantor</option>
-								</optgroup>
-								<optgroup label="Beban Lainnya" class="a">
-									<option data-subtext="720001">Beban Bunga Pinjaman</option>
-									<option data-subtext="720002">Beban Adm.Bank & Buku Cek/Giro</option>
-									<option data-subtext="720003">Pajak Jasa Giro</option>
-									<option data-subtext="720004">Laba/Rugi Terelasasi</option>
-									<option data-subtext="720005">Laba/Rugi Belum Terealisasi</option>
-									<option data-subtext="720006">Laba/Rugi Disposisi Aset</option>
-									<option data-subtext="720007">Beban Diluar Usaha Lainnya</option>
-								</optgroup>
-							</select></td>
-									<td nowrap="nowrap" style="text-align:left"><input type="text" class="form-control form-control-sm" placeholder="Isikan Memo"></td>
-									<td style="text-align:center"><div class="custom-file">
+				<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+				<br>
+					<div class="kt-portlet__body">
+						<div class="kt-portlet__content">
+							<div class="form-group row">
+							<div class="col-xl-10">&nbsp;
+ 
+ 
+										</div>
+   
+ <div class="col-xl-2" style="text-align:right;">
+ <a href="#" class="btn btn-brand" data-toggle="modal" data-target="#modal_tambah_akun_jurnal">
+											<i class="fa fa-plus-circle"></i>Rincian Jurnal
+										</a>
+ 
+										</div>
+
+										
+										
+										</div>
+							<table class="table table-striped table-bordered table-hover table-checkable">
+																				<thead>
+																					<tr>
+																					  <th width="2%" bgcolor="#f7fcff">#</th>
+																					  <th width="5%" bgcolor="#f7fcff"> Akun</th>
+																					  <th width="15%" bgcolor="#f7fcff">Nama Akun</th>
+																						<th width="15%" bgcolor="#f7fcff">Catatan</th>
+																						<th width="10%" bgcolor="#f7fcff">Lampiran Dokumen</th>
+																						<th width="10%" bgcolor="#f7fcff">Debit</th>
+																						<th width="10%" bgcolor="#f7fcff">Kredit</th>
+																						<th width="1%" bgcolor="#f7fcff">Aksi</th>
+																					</tr>
+																				</thead>
+																				<tbody>
+																					<tr>
+																					  <td style="text-align:right"; align="center">1</td>
+																					  <td align="center"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="710003" /></td>
+																					  <td align="center"><input type="text" class="form-control form-control-sm" disabled placeholder="Penjualan Persediaan / Perlengkapan" /></td>
+																						<td><input type="text" class="form-control form-control-sm" placeholder="Isikan Catatan"></td>
+																						<td><div class="custom-file">
 													<input type="file" class="custom-file-input" id="customFile">
 													<label class="custom-file-label" for="customFile"></label>
 												</div></td>
-									<td nowrap="nowrap" style="text-align:left"><div class="input-group input-group-sm">
+																						<td nowrap="nowrap" style="text-align:left"><div class="input-group input-group-sm">
 																						  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-																						  <input style="text-align:right" type="text" class="form-control form-control-sm" placeholder="2.000.000.000" aria-describedby="basic-addon1">
+																						  <input style="text-align:right" type="text" class="form-control form-control-sm" disabled placeholder="2.000.000.000" aria-describedby="basic-addon1">
 																						  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																						  </div></td>
-									<td nowrap="nowrap" style="text-align:left"><div class="input-group input-group-sm">
+																						<td nowrap="nowrap" style="text-align:left"><div class="input-group input-group-sm">
 																						  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-																						  <input style="text-align:right" type="text" class="form-control form-control-sm" placeholder="2.000.000.000" aria-describedby="basic-addon1">
+																						  <input style="text-align:right" type="text" class="form-control form-control-sm" disabled placeholder="0" aria-describedby="basic-addon1">
 																						  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																						  </div></td>
-									<td style="text-align:center">
-																										<a href="javascript:;" data-repeater-delete="" class="btn btn-outline-success btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Tambah Data"><i class="fa fa-plus-circle"></i></a>&nbsp;<a href="javascript:;" data-repeater-delete="" class="btn btn-outline-hover-danger btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Hapus"><i class="fa flaticon2-trash"></i></a>
+																						<td style="text-align:center">
+																										<a href="javascript:;" data-repeater-delete="" class="btn btn-outline-hover-danger btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="default" title="" data-html="true" data-original-title="Hapus"><i class="fa flaticon2-trash"></i></a>
 																									</td>
-								</tr>
-								<tr>
-								  <td style="text-align:right">2</td>
-									<td><select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
-								<option value="1" disabled selected>Cari/Pilih Akun Perkiraan...</option>
-								<optgroup label="Kewajiban Jangka Pendek" class="a">
-									<option data-subtext="5101">Beban Pokok Penjualan</option>
-								</optgroup>
-								<optgroup label="Beban" class="a">
-									<option data-subtext="600001">Beban Iklan</option>
-									<option data-subtext="600002">Beban Komisi</option>
-									<option data-subtext="600003">Beban Bensin, Parkir, Tol Kendaraan</option>
-									<option data-subtext="600004">Beban Gaji, Upah & Honorer</option>
-									<option data-subtext="600005">Beban Bonus, Pesangon & Kompensasi</option>
-									<option data-subtext="600006">Beban Transportasi Karyawan</option>
-									<option data-subtext="600007">Beban Catering & Makan Karyawan</option>
-									<option data-subtext="600008">Beban Tunjangan Kesehatan</option>
-									<option data-subtext="600009">Beban Asuransi Karyawan</option>
-									<option data-subtext="600010">Beban THR</option>
-									<option data-subtext="600011">Beban Listrik</option>
-									<option data-subtext="600012">Beban PDAM</option>
-									<option data-subtext="600013">Beban Telekomunikasi</option>
-									<option data-subtext="600014">Beban Ekspedisi, POS, & Materai</option>
-									<option data-subtext="600015">Beban Perjalanan Dinas</option>
-									<option data-subtext="600016">Beban Perlengkapan Kantor</option>
-									<option data-subtext="600017">Beban Pajak Penghasilan</option>
-									<option data-subtext="600018">Beban Restribusi & Sumbangan</option>
-									<option data-subtext="600019">Beban Sewa Gedung</option>
-									<option data-subtext="600020">Beban Operasional Lainnya</option>
-									<option data-subtext="600021">Beban Penyusutan Gedung</option>
-									<option data-subtext="600022">Beban Penyusutan Kendaraan</option>
-									<option data-subtext="600023">Beban Penyusutan Peralatan</option>
-									<option data-subtext="600001">Beban Inventaris Kantor</option>
-								</optgroup>
-								<optgroup label="Beban Lainnya" class="a">
-									<option data-subtext="720001">Beban Bunga Pinjaman</option>
-									<option data-subtext="720002">Beban Adm.Bank & Buku Cek/Giro</option>
-									<option data-subtext="720003">Pajak Jasa Giro</option>
-									<option data-subtext="720004">Laba/Rugi Terelasasi</option>
-									<option data-subtext="720005">Laba/Rugi Belum Terealisasi</option>
-									<option data-subtext="720006">Laba/Rugi Disposisi Aset</option>
-									<option data-subtext="720007">Beban Diluar Usaha Lainnya</option>
-								</optgroup>
-							</select></td>
-									<td nowrap="nowrap" style="text-align:left"><input type="text" class="form-control form-control-sm" placeholder="Isikan Memo"></td>
-									<td style="text-align:center"><div class="custom-file">
+																			      </tr>
+																					<tr>
+																					  <td style="text-align:right"; align="center">2</td>
+																					  <td align="center"><input type="text" class="form-control form-control-sm" disabled placeholder="710005" /></td>
+																					  <td align="center"><input type="text" class="form-control form-control-sm" disabled placeholder="Pendapatan Diluar Usaha Lainnya" /></td>
+																						<td><input type="text" class="form-control form-control-sm" placeholder="Isikan Catatan"></td>
+																						<td><div class="custom-file">
 													<input type="file" class="custom-file-input" id="customFile">
 													<label class="custom-file-label" for="customFile"></label>
 												</div></td>
-									<td nowrap="nowrap" style="text-align:left"><div class="input-group input-group-sm">
+																						<td nowrap="nowrap" style="text-align:left"><div class="input-group input-group-sm">
 																						  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-																						  <input style="text-align:right" type="text" class="form-control form-control-sm" placeholder="2.000.000.000" aria-describedby="basic-addon1">
+																						  <input style="text-align:right" type="text" class="form-control form-control-sm" disabled placeholder="0" aria-describedby="basic-addon1">
 																						  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																						  </div></td>
-									<td nowrap="nowrap" style="text-align:left"><div class="input-group input-group-sm">
+																						<td nowrap="nowrap" style="text-align:left"><div class="input-group input-group-sm">
 																						  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-																						  <input style="text-align:right" type="text" class="form-control form-control-sm" placeholder="2.000.000.000" aria-describedby="basic-addon1">
+																						  <input style="text-align:right" type="text" class="form-control form-control-sm" disabled placeholder="2.000.000.000" aria-describedby="basic-addon1">
 																						  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																						  </div></td>
-									<td style="text-align:center">
-																										<a href="javascript:;" data-repeater-delete="" class="btn btn-outline-success btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Tambah Data"><i class="fa fa-plus-circle"></i></a>&nbsp;<a href="javascript:;" data-repeater-delete="" class="btn btn-outline-hover-danger btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Hapus"><i class="fa flaticon2-trash"></i></a>
+																						<td style="text-align:center">
+																										<a href="javascript:;" data-repeater-delete="" class="btn btn-outline-hover-danger btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="default" title="" data-html="true" data-original-title="Hapus"><i class="fa flaticon2-trash"></i></a>
 																									</td>
-								</tr>
-								
-							</tbody>
-							<tfoot style="border-top: 2px solid #5867dd">
-								<tr>
-									<th bgcolor="#f7fcff" colspan="4" class="text-right">
-										<strong>Total</strong>
-									</th>
-									<th bgcolor="#f7fcff">
-										<h5><div class="input-group input-group-sm">
+																			      </tr>
+																					
+																</tbody>
+																<tfoot style="border-top: 2px solid #5867dd">
+																	<tr>
+																		<th colspan="5" bgcolor="#f7fcff" class="text-right">Total</th>
+																		<th bgcolor="#f7fcff"><div class="input-group input-group-sm">
 																						  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-																						  <input style="text-align:right" type="text" class="form-control form-control-sm" placeholder="2.000.000.000" aria-describedby="basic-addon1">
+																						  <input style="text-align:right" type="text" class="form-control form-control-sm" disabled placeholder="2.000.000.000" disabled aria-describedby="basic-addon1">
 																						  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-																						  </div></h5>
-									</th bgcolor="#f7fcff">
-									<th bgcolor="#f7fcff">
-										<h5><div class="input-group input-group-sm">
+																						  </div></th>
+																		<th bgcolor="#f7fcff"><div class="input-group input-group-sm">
 																						  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
-																						  <input style="text-align:right" type="text" class="form-control form-control-sm" placeholder="2.000.000.000" aria-describedby="basic-addon1">
+																						  <input style="text-align:right" type="text" class="form-control form-control-sm" disabled placeholder="2.000.000.000" disabled aria-describedby="basic-addon1">
 																						  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
-																						  </div></h5>
-									</th bgcolor="#f7fcff">
-									<th bgcolor="#f7fcff">&nbsp;</th>
-								</tr>
-							</tfoot>
-						</table>
+																						  </div></th>
+																		<th bgcolor="#f7fcff">&nbsp;</th>
+																	</tr>
+																</tfoot>
+
+																			</table>
+						</div>
 					</div>
 				</div>
-			</div>
-		</div>
+			
 	</div>
 <div class="modal fade" id="lihat_favorit" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
@@ -575,6 +514,170 @@
 			</div>
 		</div>
 	</div>
+	<div class="modal fade" id="modal_tambah_akun_jurnal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+									<div class="modal-content">
+
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-clipboard-list"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">RINCIAN JURNAL</h3>
+											</div>
+<div class="kt-portlet__head-toolbar">
+											
+											&nbsp;
+												<button type="button" class="btn btn-secondary btn-sm btn-outline-danger" data-dismiss="modal">X</button>
+											</div>
+											
+										</div>
+										<div class="kt-portlet__body">
+											<div class="tab-content">
+												
+
+<div class="form-group row">
+
+<div class="col-lg-12">
+														<label class="kt-font-brand">Akun Beban :</label>
+														<select name="select" class="form-control kt-selectpicker col-lg-12 mb-6" data-size="7" data-live-search="true">
+																					    <option value="1" disabled="disabled" selected="selected">Cari / Pilih Akun Perkiraan...</option>
+																					    <optgroup label="Kewajiban Jangka Pendek" class="a">
+																					      <option data-subtext="5101">Beban Pokok Penjualan</option>
+																				        </optgroup>
+																					    <optgroup label="Beban" class="a">
+																					      <option data-subtext="600001">Beban Iklan</option>
+																					      <option data-subtext="600002">Beban Komisi</option>
+																					      <option data-subtext="600003">Beban Bensin, Parkir, Tol Kendaraan</option>
+																					      <option data-subtext="600004">Beban Gaji, Upah &amp; Honorer</option>
+																					      <option data-subtext="600005">Beban Bonus, Pesangon &amp; Kompensasi</option>
+																					      <option data-subtext="600006">Beban Transportasi Karyawan</option>
+																					      <option data-subtext="600007">Beban Catering &amp; Makan Karyawan</option>
+																					      <option data-subtext="600008">Beban Tunjangan Kesehatan</option>
+																					      <option data-subtext="600009">Beban Asuransi Karyawan</option>
+																					      <option data-subtext="600010">Beban THR</option>
+																					      <option data-subtext="600011">Beban Listrik</option>
+																					      <option data-subtext="600012">Beban PDAM</option>
+																					      <option data-subtext="600013">Beban Telekomunikasi</option>
+																					      <option data-subtext="600014">Beban Ekspedisi, POS, &amp; Materai</option>
+																					      <option data-subtext="600015">Beban Perjalanan Dinas</option>
+																					      <option data-subtext="600016">Beban Perlengkapan Kantor</option>
+																					      <option data-subtext="600017">Beban Pajak Penghasilan</option>
+																					      <option data-subtext="600018">Beban Restribusi &amp; Sumbangan</option>
+																					      <option data-subtext="600019">Beban Sewa Gedung</option>
+																					      <option data-subtext="600020">Beban Operasional Lainnya</option>
+																					      <option data-subtext="600021">Beban Penyusutan Gedung</option>
+																					      <option data-subtext="600022">Beban Penyusutan Kendaraan</option>
+																					      <option data-subtext="600023">Beban Penyusutan Peralatan</option>
+																					      <option data-subtext="600001">Beban Inventaris Kantor</option>
+																				        </optgroup>
+																					    <optgroup label="Beban Lainnya" class="a">
+																					      <option data-subtext="720001">Beban Bunga Pinjaman</option>
+																					      <option data-subtext="720002">Beban Adm.Bank &amp; Buku Cek/Giro</option>
+																					      <option data-subtext="720003">Pajak Jasa Giro</option>
+																					      <option data-subtext="720004">Laba/Rugi Terelasasi</option>
+																					      <option data-subtext="720005">Laba/Rugi Belum Terealisasi</option>
+																					      <option data-subtext="720006">Laba/Rugi Disposisi Aset</option>
+																					      <option data-subtext="720007">Beban Diluar Usaha Lainnya</option>
+																				        </optgroup>
+																				      </select>
+													</div>
+													
+													</div>
+													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+<div class="form-group row">
+<div class="col-lg-6">
+														<label class="kt-font-brand">Akun :</label>
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="710003" />
+													</div>
+													</div>
+													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+													<div class="form-group row">
+													<div class="col-lg-12">
+														<label class="kt-font-brand">Untuk Beban :</label>
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Penjualan Persediaan / Perlengkapan" />
+													</div>
+												
+
+
+
+												
+													
+													
+
+												</div>
+												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+												<div class="form-group row"></div>
+										<div class="col-lg-6">
+										<div class="form-group row">
+										&nbsp;<div class="kt-radio-list" style="margin-bottom:10px;">
+											<label class="kt-radio">
+												<input type="radio" name="radio1" checked> Debit
+												<span></span>
+											</label>
+											
+										</div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+										<div class="kt-radio-list" style="margin-bottom:10px;">
+											<label class="kt-radio">
+												<input type="radio" name="radio1" checked> Kredit
+												<span></span>
+											</label>
+											
+										</div>
+														<div class="input-group input-group-sm">
+												  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+												  <input style="text-align:right" type="text" class="form-control form-control-sm" placeholder="2.000.000.000" aria-describedby="basic-addon1" />
+												  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+											    </div>
+													</div>
+													
+												
+
+
+
+												
+													
+													
+
+
+                              
+
+
+												</div>
+												</div>
+												
+												
+												
+
+
+												
+													
+													
+
+												</div>
+												
+											
+									<div class="kt-portlet__foot kt-align-right">
+												<div class="">
+													<button type="button" class="btn btn-success">
+					<i class="fa fa-check-circle"></i>Lanjut</button>
+												</div>
+											</div>
+
+
+
+
+									</div>
+
+									</div>
+								</div>
+							</div>
+							<!--End::Modal 1-->
+							
+							
+									
+        </div>
 
 </div>
 

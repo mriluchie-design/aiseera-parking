@@ -27,36 +27,16 @@ License: You must have a valid license purchased only from themeforest(the above
 			</h3>
 		</div>
 		<div class="kt-subheader__toolbar">
+		
 				<button type="button" class="btn btn-label-danger btn-sm" id = "buttonLogin" onclick = "displayLoginBox()"><i class="flaticon-interface-6"></i> Filter Data</button>
 				<a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
 						<i class="fa fa-print"></i> Export Data</button>
 					</a>
 					<a href="pembayaran-add.php" class="btn btn-info btn-sm">
-				<i class="fa fa-plus"></i>Buat Pembayaran</button>
+				<i class="fa fa-plus-circle"></i>Buat Pembayaran</button>
 				<!--<i class="flaticon2-plus"></i>-->
 			</a>
-			<div class="dropdown">
-<button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-Pengaturan kolom
-</button>
-<form class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-<label class="dropdown-item"><input type="checkbox" name="nomor" checked>Nomor#</label>
-<label class="dropdown-item"><input type="checkbox" name="tanggal" checked>Tanggal</label>
-<label class="dropdown-item"><input type="checkbox" name="kas" checked>Kas/Bank</label>
-<label class="dropdown-item"><input type="checkbox" name="noCek" checked>No.Cek#</label>
-<label class="dropdown-item"><input type="checkbox" name="keterangan" checked>Keterangan</label>
-<label class="dropdown-item"><input type="checkbox" name="nilai" checked>Nilai</label>
-<label class="dropdown-item"><input type="checkbox" name="kurs">Kurs</label>
-<label class="dropdown-item"><input type="checkbox" name="void">Void</label>
-<label class="dropdown-item"><input type="checkbox" name="cabang">Cabang</label>
-<label class="dropdown-item"><input type="checkbox" name="tanggalCek">Tanggal Cek</label>
-<label class="dropdown-item"><input type="checkbox" name="pembuatData">Pembuat Data</label>
-
-
-
-
-</form>
-</div>
+			
 				</div>
 	</div>
 </div>
@@ -85,12 +65,17 @@ Pengaturan kolom
 																		<form class="kt-form">
 																			<div class="kt-portlet__body">
 								                      <div class="form-group row">
-																				<div class="col-lg-3">
-																				 <label class="">Nomor:</label>
-																				 <input type="text" class="form-control form-control-sm " placeholder="">
+																				<div class="col-lg-2">
+																				 <label class="">Nomor Kas Keluar :</label>
+																			 <div class="kt-input-icon kt-input-icon--right">
+        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
+        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
+    		                            <span><i class="la la-search"></i></span>
+    		                        </span>
+    		                    </div>
 																			 </div>
-																				<div class="col-lg-3">
-																				 <label class="">Tanggal:</label>
+																				<div class="col-lg-2">
+																				 <label class="">Tanggal Kas Keluar:</label>
 																				 <div class="input-group date">
 																				 <input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="20/01/2020" id="kt_datepicker_2">
 																				 <div class="input-group-append">
@@ -100,14 +85,109 @@ Pengaturan kolom
 																				 </div>
 																				 </div>
 																			 </div>
-														<div class="col-lg-3">
+														
+														<div class="col-lg-2">
 								                          <label>Kas/Bank:</label>
-																					<select class="form-control kt-selectpicker" multiple data-actions-box="true">
-																						<option>Bank</option>
-																						<option>Deposito Bank</option>
-																						<option>Kas Kecil</option>
-																					</select>
+																					<select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
+								<option value="1" disabled selected>Cari / Pilih Akun Perkiraan...</option>
+								<optgroup label="Pendapatan Operasional" class="a">
+									<option data-subtext="410101">PENDAPATAN PARKIR TEPI JALAN UMUM (TJU)</option>
+									<option data-subtext="410102">PENDAPATAN PARKIR INSIDENTIL</option>
+									<option data-subtext="410103">PENDAPATAN PARKIR KOMERSIL</option>
+									<option data-subtext="410104">PENDAPATAN PARKIR LANGGANAN BULANAN</option>
+									<option data-subtext="410105">PENDAPATAN SEWA LAHAN PARKIR</option>
+									<option data-subtext="410106">PENDAPATAN PARKIR TEKHNOLOGI / ONLINE)</option>
+									<option data-subtext="410107">PENDAPATAN MEMBER PARKIR</option>
+									<option data-subtext="410108">PENDAPATAN VALET</option>
+									<option data-subtext="410109">PENDAPATAN PARKING GATE</option>
+								</optgroup>
+								
+								
+							</select>
 								                        </div>
+														
+																			 <div class="col-lg-2">
+								                          <label>Dibuat Oleh:</label>
+																					<div class="form-group">
+
+					                         <select class="form-control kt-selectpicker form-control" data-live-search="true">
+					 															<optgroup label="Direksi">
+					 																<option value="AK"selected >Muhammad Nasrullah, S.Kom</option>
+					 															</optgroup>
+					 															<optgroup label="Umum">
+																					<option value="HI">Deddy Rafsanjani, S.Sos</option>
+					 															</optgroup>
+																				<optgroup label="Keuangan dan Asset">
+					 																<option value="HI">Oklan Zulkifli, SE</option>
+					 															</optgroup>
+																				<optgroup label="Operasional">
+					 																<option value="HI">Nursiah, S.Kom</option>
+					 															</optgroup>
+																				<optgroup label="Pengembangan Usaha dan Kerjasama">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
+					 															</optgroup>
+
+					 														</select>
+					                       </div>
+								                        </div>
+														<div class="col-lg-1">
+								                          <label>Void:</label>
+																					<select class="form-control kt-selectpicker" data-live-search="true" tabindex="-98">
+                                      <option value="2">Tidak</option>
+                                      <option value="2">Ya</option>
+                                     
+                                  </select>
+								                        </div>
+														<div class="col-lg-1">
+								                          <label>Kantor:</label>
+																					<select class="form-control kt-selectpicker" data-live-search="true" tabindex="-98">
+                                      <option value="2">Pusat</option>
+                                      <option value="2">Cabang</option>
+                                     
+                                  </select>
+								                        </div>
+														<div class="col-lg-2">
+								                          <label>Verifikasi:</label>
+																					<select class="form-control kt-selectpicker" data-live-search="true" tabindex="-98">
+                                      <option value="2">Disetujui</option>
+                                      <option value="2">Pending</option>
+                                      <option value="2">Ditolak</option>
+                                     
+                                  </select>
+								                        </div>
+														
+								                      </div>
+													  <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						  <div class="form-group row">
+						  <div class="col-lg-2">
+																				 <label class="">Nomor Cek :</label>
+																			 <div class="kt-input-icon kt-input-icon--right">
+        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
+        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
+    		                            <span><i class="la la-search"></i></span>
+    		                        </span>
+    		                    </div>
+																			 </div>
+																			 <div class="col-lg-2">
+																				 <label class="">Tanggal Cek :</label>
+																				 <div class="input-group date">
+																				 <input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="20/01/2020" id="kt_datepicker_2">
+																				 <div class="input-group-append">
+																				 	<span class="input-group-text">
+																				 		<i class="la la-calendar-check-o"></i>
+																				 	</span>
+																				 </div>
+																				 </div>
+																			 </div>
+																			 <div class="col-lg-2">
+																				 <label class="">Penerima :</label>
+																			 <div class="kt-input-icon kt-input-icon--right">
+        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
+        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
+    		                            <span><i class="la la-search"></i></span>
+    		                        </span>
+    		                    </div>
+																			 </div>
 								                      </div>
 								                      </div>
 																			<div class="kt-portlet__foot text-center">
@@ -122,62 +202,87 @@ Pengaturan kolom
 																	<div class="kt-portlet kt-portlet--mobile ">
 																		<div class="kt-portlet__body">
 																			<!--begin: Datatable -->
-																			<table class="table table-striped table-bordered table-hover table-resizable">
+																			<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
 																				<thead>
 																					<tr>
-																						<th bgcolor="#f7fcff" class="nomor">Nomor#</th>
-																						<th bgcolor="#f7fcff" class="tanggal">Tanggal</th>
-																						<th bgcolor="#f7fcff" class="kas">Kas/Bank</th>
-																						<th bgcolor="#f7fcff" class="noCek">No.Cek#</th>
-																						<th bgcolor="#f7fcff" class="keterangan">Keterangan</th>
-																						<th bgcolor="#f7fcff" class="nilai">Nilai</th>
-																						<th bgcolor="#f7fcff" class="kurs">Kurs</th>
-																						<th bgcolor="#f7fcff" class="void">Void</th>
-																						<th bgcolor="#f7fcff" class="cabang">Cabang</th>
-																						<th bgcolor="#f7fcff" class="tanggalCek">Tanggal Cek</th>
-																						<th bgcolor="#f7fcff" class="pembuatData">Pembuat Data</th>
+																					  <th width="1%" bgcolor="#f7fcff" class="#">#</th>
+																						<th width="4%" bgcolor="#f7fcff" class="nomor">ID Transaksi</th>
+																						<th width="7%" bgcolor="#f7fcff" class="tanggal">Waktu Transaksi</th>
+																						<th width="10%" bgcolor="#f7fcff" class="kas">Kas/Bank</th>
+																						<th width="12%" bgcolor="#f7fcff" class="keterangan">Penerima</th>
+																						<th width="12%" bgcolor="#f7fcff" class="keterangan">Keterangan</th>
+																						<th width="11%" bgcolor="#f7fcff" class="nilai">Nilai</th>
+																						<th width="4%" bgcolor="#f7fcff" class="void">Void</th>
+																						<th width="3%" bgcolor="#f7fcff" class="dibuatoleh">Dibuat<br>Oleh</th>
+																						<th width="1%" bgcolor="#f7fcff" class="cabang">Kantor</th>
+																						<th width="1%" bgcolor="#f7fcff" class="verifikasi">Verifikasi</th>
+																						<th width="1%" bgcolor="#f7fcff" class="aksi">Aksi</th>
 																					</tr>
 																				</thead>
 																				<tbody>
 																					<tr>
-																						<td class="nomor"></td>
-																						<td class="tanggal"></td>
-																						<td class="kas"></td>
-																						<td lass="noCek"></td>
-																						<td class="keterangan"></td>
-																						<td class="nilai"></td>
-																						<td class="kurs"></td>
-																						<td class="void"></td>
-																						<td class="cabang"></td>
-																						<td class="tanggalCek"></td>
-																						<td class="pembuatData"></td>
+																					  <td class="#">1</td>
+																					  <td class="nomor">110102.2023.08.00001</td>
+																						<td style="text-align:center">15 September 2026 <hr> 16:22:00 WITA</td>
+																						<td class="kas" style="text-align:center">11.01.02<hr>Kas Bendahara Pengeluaran</td>
+																						<td class="penerima">PT. Aksi Kode Indonesia</td>
+																						<td class="keterangan">Pembayaran Jasa Aplikasi</td>
+																						<td class="nilai"><div class="input-group input-group-sm">
+																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000" aria-describedby="basic-addon1">
+																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+																					    </div></td>
+																						<td class="void" style="text-align:center"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Tidak</span></td>
+																						<td class="dibuatoleh" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par<hr>Bendahara Pengeluaran" data-html="true">
+														<img src="../assets/media/users/100_10.jpg" alt="image">
+													</a></td>
+																						<td class="cabang">Pusat</td>
+																						<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
+																						<td width="1%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+																						  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+																						    <ul class="kt-nav">
+																						      <li class="kt-nav__item"> <a href="kas-keluar-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+																						      <li class="kt-nav__item"> <a href="print-kas-keluar.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-print"></i> <span class="kt-nav__link-text">Print</span> </a> </li>
+																							  
+																						      <li class="kt-nav__item"> <a href="kas-keluar-edit.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+																						      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+																					        </ul>
+																					      </div>
+																						  </div></td>
 																				  </tr>
 																					<tr>
-																						<td class="nomor"></td>
-																						<td class="tanggal"></td>
-																						<td class="kas"></td>
-																						<td lass="noCek"></td>
-																						<td class="keterangan"></td>
-																						<td class="nilai"></td>
-																						<td class="kurs"></td>
-																						<td class="void"></td>
-																						<td class="cabang"></td>
-																						<td class="tanggalCek"></td>
-																						<td class="pembuatData"></td>
+																					  <td class="#">2</td>
+																					  <td class="nomor">110102.2023.08.00002</td>
+																						<td style="text-align:center">15 September 2026 <hr> 16:23:00 WITA</td>
+																						<td class="kas" style="text-align:center">11.01.02<hr>Kas Bendahara Pengeluaran</td>
+																						<td class="penerima">PT. Amanda Brownies</td>
+																						<td class="keterangan">Pembayaran Brownies</td>
+																						<td class="nilai"><div class="input-group input-group-sm">
+																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000" aria-describedby="basic-addon1">
+																					    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+																					    </div></td>
+																						<td class="void" style="text-align:center"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">Ya</span></td>
+																						<td class="dibuatoleh" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par<hr>Bendahara Pengeluaran" data-html="true">
+														<img src="../assets/media/users/100_10.jpg" alt="image">
+													</a></td>
+																						<td class="cabang">Pusat</td>
+																						<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
+															<i class="fa flaticon2-check-mark"></i>
+														</span></td>
+																						<td width="1%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+																						  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+																						    <ul class="kt-nav">
+																						      <li class="kt-nav__item"> <a href="kas-keluar-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+																						      <li class="kt-nav__item"> <a href="print-kas-keluar.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-print"></i> <span class="kt-nav__link-text">Print</span> </a> </li>
+																							  
+																						      <li class="kt-nav__item"> <a href="kas-keluar-edit.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+																						      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+																					        </ul>
+																					      </div>
+																						  </div></td>
 																				  </tr>
-																					<tr>
-																						<td class="nomor"></td>
-																						<td class="tanggal"></td>
-																						<td class="kas"></td>
-																						<td lass="noCek"></td>
-																						<td class="keterangan"></td>
-																						<td class="nilai"></td>
-																						<td class="kurs"></td>
-																						<td class="void"></td>
-																						<td class="cabang"></td>
-																						<td class="tanggalCek"></td>
-																						<td class="pembuatData"></td>
-																				  </tr>
+																					
 																</tbody>
 																			</table>
 
@@ -235,9 +340,231 @@ Pengaturan kolom
 																							</ul>
 																							</div>
 																						</div>
-										  </div>
-										  </div>
+																						<!--begin::Modal 1-->
+									<div class="modal fade" id="modal_persetujuan_pending" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+									<div class="modal-content">
+
+										<div class="modal-header">
+										<span class="modal-title" id="exampleModalLabel"><span class="kt-badge kt-badge--danger kt-badge--inline"; style="color:#fff";>VERIFIKASI</span></span>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+
+										
+										<div class="kt-portlet__body">
+											<div class="tab-content">
+											<div class="tab-pane active" id="kt_widget4_tab1_content">
+													<div class="kt-widget4">
+														<div class="kt-widget4__item">
+															<div class="kt-widget4__pic kt-widget4__pic--pic" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003" data-html="true">
+																<img src="../assets/img/users/100_8.jpg" alt="image">
+															</div>
+															<div class="kt-widget4__info">
+																<a href="#" class="kt-widget4__username">
+																	Deddy Rafsanjani, S.Sos
+																</a>
+																<p class="kt-widget4__text">
+																	Kepala Bagian Kepegawaian
+																</p>
+															</div>
+															<span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Disetujui&lt;hr&gt;11 Juli 2025 - 20:33 WITA">
+															<i class="fa flaticon2-check-mark"></i>
+														</span>
+														</div>
+														<div class="kt-widget4__item">
+															<div class="kt-widget4__pic kt-widget4__pic--pic" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000002" data-html="true">
+																<img src="../assets/img/users/100_9.jpg" alt="image">
+															</div>
+															<div class="kt-widget4__info">
+																<a href="#" class="kt-widget4__username">
+																	Oklan Zulkifli, SE
+																</a>
+																<p class="kt-widget4__text">
+																	Direktur Umum
+																</p>
+															</div>
+															<span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Disetujui&lt;hr&gt;11 Juli 2025 - 22:33 WITA">
+															<i class="fa flaticon2-check-mark"></i>
+														</span>
+														</div>
+														<div class="kt-widget4__item">
+															<div class="kt-widget4__pic kt-widget4__pic--pic"  data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001" data-html="true">
+																<img src="../assets/img/users/100_15.jpg" alt="">
+															</div>
+															<div class="kt-widget4__info">
+																<a href="#" class="kt-widget4__username">
+																	Muhammad Nasrullah, S.Kom
+																</a>
+																<p class="kt-widget4__text">
+																	Direktur Utama
+																</p>
+															</div>
+															<button type="button" class="btn btn-warning btn-sm btn-icon kt_sweetalert_demo_setuju" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Menunggu Persetujuan"><i class="fa fa-clock"></i></button>
+														</div>
+														
+														
+														
+													</div>
+												</div>
+
+												
+												
+												
+
+							<!--End::App-->
+						</div>
+
+								<!--End:: App Content-->
 							</div>
+
+									</div>
+								</div>
+							</div>
+							<!--End::Modal 1-->
+							<!--begin::Modal 1-->
+									<div class="modal fade" id="modal_persetujuan_release" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+									<div class="modal-content">
+
+										<div class="modal-header">
+										<span class="modal-title" id="exampleModalLabel"><span class="kt-badge kt-badge--danger kt-badge--inline"; style="color:#fff";>VERIFIKASI</span></span>
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+
+										
+										<div class="kt-portlet__body">
+											<div class="tab-content">
+											<div class="tab-pane active" id="kt_widget4_tab1_content">
+													<div class="kt-widget4">
+														<div class="kt-widget4__item">
+															<div class="kt-widget4__pic kt-widget4__pic--pic" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003" data-html="true">
+																<img src="../assets/img/users/100_8.jpg" alt="image">
+															</div>
+															<div class="kt-widget4__info">
+																<a href="#" class="kt-widget4__username">
+																	Deddy Rafsanjani, S.Sos
+																</a>
+																<p class="kt-widget4__text">
+																	Kepala Bagian Kepegawaian
+																</p>
+															</div>
+															<span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Disetujui&lt;hr&gt;11 Juli 2025 - 20:33 WITA">
+															<i class="fa flaticon2-check-mark"></i>
+														</span>
+														</div>
+														<div class="kt-widget4__item">
+															<div class="kt-widget4__pic kt-widget4__pic--pic" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000002" data-html="true">
+																<img src="../assets/img/users/100_9.jpg" alt="image">
+															</div>
+															<div class="kt-widget4__info">
+																<a href="#" class="kt-widget4__username">
+																	Oklan Zulkifli, SE
+																</a>
+																<p class="kt-widget4__text">
+																	Direktur Umum
+																</p>
+															</div>
+															<span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Disetujui&lt;hr&gt;11 Juli 2025 - 22:33 WITA">
+															<i class="fa flaticon2-check-mark"></i>
+														</span>
+														</div>
+														<div class="kt-widget4__item">
+															<div class="kt-widget4__pic kt-widget4__pic--pic"  data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001" data-html="true">
+																<img src="../assets/img/users/100_15.jpg" alt="">
+															</div>
+															<div class="kt-widget4__info">
+																<a href="#" class="kt-widget4__username">
+																	Muhammad Nasrullah, S.Kom
+																</a>
+																<p class="kt-widget4__text">
+																	Direktur Utama
+																</p>
+															</div>
+															<span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Disetujui&lt;hr&gt;11 Juli 2025 - 22:33 WITA">
+															<i class="fa flaticon2-check-mark"></i>
+														</span>
+														</div>
+														
+														
+														
+													</div>
+												</div>
+
+							<!--End::App-->
+						</div>
+
+								<!--End:: App Content-->
+							</div>
+
+									</div>
+								</div>
+							</div>
+							<!--End::Modal 1-->
+							<!--begin::Modal 2-->
+									<div class="modal fade" id="kt_modal_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+									<div class="modal-content">
+
+										<div class="modal-body">
+										<div class="kt-portlet kt-portlet--height-fluid-full">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Assign Project Director</div>
+										<div class="kt-portlet__body">
+											<div class="kt-portlet__content">
+											<div class="form-group row">
+												<div class="col-lg-6">
+														<label>Nama Pegawai :</label>
+														<div class="kt-input-icon kt-input-icon--right">
+														<input type="text" class="form-control form-control-sm" placeholder="Search..." id="generalSearch">
+														<span class="kt-input-icon__icon kt-input-icon__icon--right">
+															<span><i class="la la-search"></i></span>
+														</span>
+													</div>
+
+												</div>
+
+												<div class="col-lg-6">
+														<label>Jabatan :</label>
+														<input type="email" class="form-control form-control-sm" disabled="disabled" placeholder="Auto Complete" >
+
+												</div>
+
+
+												</div>
+												</div>
+
+											</div>
+
+									</div>
+										<div class="modal-footer modal-footer-center">
+											<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Batal</button>
+											<button type="button" class="btn btn-success btn-sm"><i class="fa fa-check"></i>  Simpan</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--End::Modal 2-->
+									<!--end: Datatable -->
+								</div>
+
+						<!-- end:: Content -->
+
+
+
+  </div>
+  </div>
+  </div>
+</div>
+
+									<!--end: Datatable -->
+								</div>
+							</div>
+
+            </div>
 
 <?php require '../layouts/footer.php' ?>
 <script>
