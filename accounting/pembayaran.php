@@ -181,7 +181,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																					  <th width="1%" bgcolor="#f7fcff" class="#">#</th>
 																					  <th width="1%" bgcolor="#f7fcff" class="nomor">Kantor</th>
 																					  <th width="1%" bgcolor="#f7fcff" class="nomor">ID Transaksi</th>
-																						<th width="6%" bgcolor="#f7fcff" class="tanggal">Waktu Transaksi</th>
+																						<th width="7%" bgcolor="#f7fcff" class="tanggal">Waktu Transaksi</th>
 																						<th width="6%" bgcolor="#f7fcff" class="kas">Kas / Bank</th>
 																						<th width="10%" bgcolor="#f7fcff" class="keterangan">Penerima</th>
 																						<th width="15%" bgcolor="#f7fcff" class="keterangan">Keterangan</th>
@@ -196,7 +196,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																					<tr>
 																					  <td style="text-align:right">1</td>
 																					  <td style="text-align:center"><span class="btn btn-brand btn-sm">Pusat</span></td>
-																					  <td class="nomor">PP.PQ.062026.01.0002</td>
+																					  <td class="nomor">110101.062026.01.0001</td>
 																						<td style="text-align:center">15 September 2026<hr>16:22:36 WITA</td>
 																						<td class="kas" style="text-align:center">110101<hr>Kas Kecil</td>
 																						<td class="penerima">PT. Aksi Kode Indonesia</td>
@@ -214,9 +214,9 @@ License: You must have a valid license purchased only from themeforest(the above
 																						<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 																						  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 																						    <ul class="kt-nav">
-																						      <li class="kt-nav__item"> <a href="penerimaan-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+																						      <li class="kt-nav__item"> <a href="pembayaran-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
 																						      
-																						      <li class="kt-nav__item"> <a href="penerimaan-edit.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+																						      <li class="kt-nav__item"> <a href="pembayaran-edit.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
 																						      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
 																					        </ul>
 																					      </div>
@@ -225,7 +225,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																					<tr>
 																					  <td style="text-align:right">2</td>
 																					  <td style="text-align:center"><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
-																					  <td class="nomor">PR.SQ.062026.01.0002</td>
+																					  <td class="nomor">110102.062026.02.0001</td>
 																					  <td style="text-align:center">15 September 2026<hr>16:23:36 WITA</td>
 																						<td class="kas" style="text-align:center">110102<hr>BCA - 0255804010</td>
 																						<td class="penerima">PT. Amanda Brownies</td>
@@ -245,13 +245,13 @@ License: You must have a valid license purchased only from themeforest(the above
 																						<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 																						  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 																						    <ul class="kt-nav">
-																						      <li class="kt-nav__item"> <a href="penerimaan-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+																						      <li class="kt-nav__item"> <a href="pembayaran-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
 																						      
-																						      <li class="kt-nav__item"> <a href="penerimaan-edit.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+																						      <li class="kt-nav__item"> <a href="pembayaran-edit.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
 																						      <li class="kt-nav__item">
-																			<a href="print-penerimaan.php" class="kt-nav__link">
+																			<a href="print-pembayaran.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Print Bukti Kas Masuk</span>
+																				<span class="kt-nav__link-text">Print Bukti Kas Keluar</span>
 																			</a>
 																		</li>
 																							  <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
@@ -263,7 +263,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																				  <tr>
 																					  <td style="text-align:right">3</td>
 																					  <td style="text-align:center"><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang B">Cabang</span></td>
-																					  <td class="nomor">PL.LQ.062026.01.0002</td>
+																					  <td class="nomor">110101.062026.02.0001</td>
 																					  <td style="text-align:center">15 September 2026<hr>16:23:36 WITA</td>
 																						<td class="kas" style="text-align:center">110101<hr>Kas Kecil</td>
 																						<td class="penerima">PT. Amanda Brownies</td>
@@ -283,13 +283,13 @@ License: You must have a valid license purchased only from themeforest(the above
 																						<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 																						  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 																						     <ul class="kt-nav">
-																						      <li class="kt-nav__item"> <a href="penerimaan-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+																						      <li class="kt-nav__item"> <a href="pembayaran-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
 																						      
-																						      <li class="kt-nav__item"> <a href="penerimaan-edit.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+																						      <li class="kt-nav__item"> <a href="pembayaran-edit.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
 																						      <li class="kt-nav__item">
-																			<a href="print-penerimaan.php" class="kt-nav__link">
+																			<a href="print-pembayaran.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Print Bukti Kas Masuk</span>
+																				<span class="kt-nav__link-text">Print Bukti Kas Keluar</span>
 																			</a>
 																		</li>
 																							  <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
