@@ -23,7 +23,7 @@ License: You must have a valid license purchased only from themeforest(the above
 				</span>
 				&nbsp;
 				&nbsp;
-					Data Rencana Kerja Anggaran Perusahaan
+					Rencana Kerja Anggaran Perusahaan
 			</h3>
 		</div>
 		<div class="kt-subheader__toolbar">
