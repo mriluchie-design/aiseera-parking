@@ -133,14 +133,14 @@ License: You must have a valid license purchased only from themeforest(the above
 																				<thead>
 																					<tr>
 																					  <th width="1%" rowspan="2" bgcolor="#f7fcff" class="#">#</th>
+																					  <th width="1%" rowspan="2" bgcolor="#f7fcff" class="nomor">Kantor</th>
 																						<th width="1%" rowspan="2" bgcolor="#f7fcff" class="nomor">Nomor</th>
-																						<th width="8%" rowspan="2" bgcolor="#f7fcff" class="tanggal">Waktu Transaksi</th>
+																						<th width="8%" rowspan="2" bgcolor="#f7fcff" class="tanggal">Waktu<br>Transaksi</th>
 																						<th colspan="2" bgcolor="#f7fcff" class="kas">Kas/Bank Asal<br></th>
 																						<th colspan="2" bgcolor="#f7fcff" class="kas">Kas/Bank Tujuan</th>
 																						<th width="22%" rowspan="2" bgcolor="#f7fcff" class="keterangan">Keterangan</th>
 																						<th width="12%" rowspan="2" bgcolor="#f7fcff" class="nilai">Total</th>
 																						<th width="3%" rowspan="2" bgcolor="#f7fcff" class="dibuatoleh">Dibuat<br>Oleh</th>
-																						<th width="5%" rowspan="2" bgcolor="#f7fcff" class="cabang">Kantor</th>
 																						<th width="3%" rowspan="2" bgcolor="#f7fcff" class="verifikasi">Verifikasi</th>
 																						<th width="5%" rowspan="2" bgcolor="#f7fcff" class="aksi">Aksi</th>
 																					</tr>
@@ -153,8 +153,9 @@ License: You must have a valid license purchased only from themeforest(the above
 																				</thead>
 																				<tbody>
 																					<tr>
-																					  <td class="#">1</td>
-																					  <td style="text-align:center">110102.2023.08.00001</td>
+																					  <td class="text-right">1</td>
+																					  <td class="cabang"><span class="btn btn-brand btn-sm">Pusat</span></td>
+																					  <td style="text-align:center">BT.062026.01.0001</td>
 																						<td style="text-align:center">01/08/2023<br />21:05:00 WITA</td>
 																						<td>BCA - 0255804010</td>
 																						<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>2.000.000,-</span> </div></td>
@@ -163,10 +164,9 @@ License: You must have a valid license purchased only from themeforest(the above
 																						<td class="keterangan">Pembayaran Jasa Aplikasi</td>
 																						<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>2.000.000,-</span> </div></td>
 																						
-																						<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par<hr>Bendahara Pengeluaran" data-html="true">
+																						<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="20 September 2026<hr>09:28:00 WITA<hr>Amalia Restu Sugiarty S.Tr.Par<hr>Bendahara Pengeluaran" data-html="true">
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
-																						<td class="cabang">Pusat</td>
 																						<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
 																						<td width="5%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 																						  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -180,7 +180,8 @@ License: You must have a valid license purchased only from themeforest(the above
 																				  </tr>
 																					<tr>
 																					  <td class="#">2</td>
-																					  <td style="text-align:center">120102.2023.08.00001</td>
+																					  <td class="cabang"><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
+																					  <td style="text-align:center">BT.062026.02.0001</td>
 																						<td style="text-align:center">01/08/2023<br />21:05:00 WITA</td>
 																						<td>BCA - 0255804010</td>
 																						<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>2.000.000,-</span> </div></td>
@@ -189,10 +190,9 @@ License: You must have a valid license purchased only from themeforest(the above
 																						<td class="keterangan">Pembayaran Jasa Aplikasi</td>
 																						<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>2.000.000,-</span> </div></td>
 																						
-																						<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par<hr>Bendahara Pengeluaran" data-html="true">
+																						<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="20 September 2026<hr>09:28:00 WITA<hr>Amalia Restu Sugiarty S.Tr.Par<hr>Bendahara Pengeluaran" data-html="true">
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
-																						<td class="cabang">Pusat</td>
 																						<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
 															<i class="fa flaticon2-check-mark"></i>
 														</span></td>

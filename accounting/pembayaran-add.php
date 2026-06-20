@@ -1167,6 +1167,196 @@
 							
 									
         </div>
+		<div class="modal fade" id="modal_pencatatan_beban" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+									<div class="modal-content">
+
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-clipboard-list"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">PENCATATAN BEBAN</h3>
+											</div>
+<div class="kt-portlet__head-toolbar">
+											
+											&nbsp;
+												<button type="button" class="btn btn-secondary btn-sm btn-outline-danger" data-dismiss="modal">X</button>
+											</div>
+											
+										</div>
+										<div class="kt-portlet__body">
+											<div class="tab-content"><br>
+												
+
+<div class="form-group row">
+<div class="col-lg-6">
+														<label class="kt-font-brand">No. Beban :</label>
+														<div class="kt-input-icon kt-input-icon--right">
+        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
+        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
+    		                            <span><i class="la la-search"></i></span>
+    		                        </span>
+    		                    </div>
+													</div>
+													<div class="col-lg-6">
+														<label class="kt-font-brand">Jatuh Tempo :</label>
+														<div class="input-group">
+						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="-- Pilih Tanggal --">
+						                        <div class="input-group-append">
+						                          <span class="input-group-text"><i class="la la-calendar"></i></span>
+						                        </div>
+						                      </div>
+													</div>
+												
+
+
+
+												
+													
+													
+
+												</div>
+<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+<div class="form-group row">
+												
+      												<table class="table table-responsive table-striped- table-hover table-checkable" id="kt_table_1">
+										<thead>
+											<tr style="text-align:center">
+											  <th width="1%" bgcolor="#f7fcff" style="border-bottom:2px solid #0e62ae; border-top:2px solid #0e62ae;">#</th>
+											  <th width="1%" bgcolor="#f7fcff" style="border-bottom:2px solid #0e62ae; border-top:2px solid #0e62ae;">No. Beban</th>
+											  <th width="3%" bgcolor="#f7fcff" style="border-bottom:2px solid #0e62ae; border-top:2px solid #0e62ae;">Tanggal<br>Transaksi</th>
+											  <th width="3%" bgcolor="#f7fcff" style="border-bottom:2px solid #0e62ae; border-top:2px solid #0e62ae;">Tanggal<br>Jatuh Tempo</th>
+											  <th width="20%" bgcolor="#f7fcff" style="border-bottom:2px solid #0e62ae; border-top:2px solid #0e62ae;">Total</th>
+											  <th width="3%" bgcolor="#f7fcff" style="border-bottom:2px solid #0e62ae; border-top:2px solid #0e62ae;">Keterangan</th>
+									      </tr>
+										</thead>
+										<tbody>
+											<tr>
+											  <td style="text-align:center" nowrap="nowrap"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
+															    <input type="checkbox">
+															    <span></span> </label></td>
+												<td nowrap style="text-align:left;">EXP.062026.01.0005</td>
+												<td nowrap style="text-align:left;">1 September 2026</td>
+												<td nowrap="nowrap" style="text-align:center;">1 September 2026</td>
+												<td nowrap="nowrap" style="text-align:center;"><div class="input-group input-group-sm">
+												  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+												  <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000.000" aria-describedby="basic-addon1" />
+												  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+											    </div></td>
+												<td nowrap="nowrap" style="text-align:center;">&nbsp;</td>
+									      </tr>
+										  <tr>
+											  <td style="text-align:center" nowrap="nowrap"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
+															    <input type="checkbox">
+															    <span></span> </label></td>
+												<td nowrap style="text-align:left;">EXP.062026.01.0005</td>
+												<td nowrap style="text-align:left;">1 September 2026</td>
+												<td nowrap="nowrap" style="text-align:center;">1 September 2026</td>
+												<td nowrap="nowrap" style="text-align:center;"><div class="input-group input-group-sm">
+												  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+												  <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000.000" aria-describedby="basic-addon1" />
+												  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+											    </div></td>
+												<td nowrap="nowrap" style="text-align:center;">&nbsp;</td>
+									      </tr>
+										  <tr>
+											  <td style="text-align:center" nowrap="nowrap"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
+															    <input type="checkbox">
+															    <span></span> </label></td>
+												<td nowrap style="text-align:left;">EXP.062026.01.0005</td>
+												<td nowrap style="text-align:left;">1 September 2026</td>
+												<td nowrap="nowrap" style="text-align:center;">1 September 2026</td>
+												<td nowrap="nowrap" style="text-align:center;"><div class="input-group input-group-sm">
+												  <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
+												  <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000.000" aria-describedby="basic-addon1" />
+												  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
+											    </div></td>
+												<td nowrap="nowrap" style="text-align:center;">&nbsp;</td>
+									      </tr>
+  </tbody>
+									</table>
+									
+      												</div>
+                              <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+																			<div class="kt-pagination  kt-pagination--danger">
+																							<select class="form-control kt-font-danger" style="width: 60px">
+																									<option value="10">10</option>
+																									<option value="20">20</option>
+																									<option value="30">30</option>
+																									<option value="50">50</option>
+																									<option value="100">100</option>
+																								</select>
+																								<span class="pagination__desc">
+																									Menampilkan 10 dari 230 Data
+																								</span>
+
+																							<div class="kt-pagination__toolbar">
+																								<ul class="kt-pagination__links">
+																								<li class="kt-pagination__link--first">
+																									<a href="#"><i class="fa fa-angle-double-left kt-font-danger"></i></a>
+																								</li>
+																								<li class="kt-pagination__link--next">
+																									<a href="#"><i class="fa fa-angle-left kt-font-danger"></i></a>
+																								</li>
+																								<li>
+																									<a href="#">...</a>
+																								</li>
+																								<li>
+																									<a href="#">29</a>
+																								</li>
+																								<li class="kt-pagination__link--active">
+																									<a href="#">30</a>
+																								</li>
+																								
+																								<li>
+																									<a href="#">...</a>
+																								</li>
+																								<li class="kt-pagination__link--prev">
+																									<a href="#"><i class="fa fa-angle-right kt-font-danger"></i></a>
+																								</li>
+																								<li class="kt-pagination__link--last">
+																									<a href="#"><i class="fa fa-angle-double-right kt-font-danger"></i></a>
+																								</li>
+																							</ul>
+																							</div>
+																						</div>
+
+
+												</div>
+												
+												
+												
+
+
+												
+													
+													
+
+												</div>
+												
+											
+									<div class="kt-portlet__foot kt-align-right">
+												<div class="">
+													<button type="button" class="btn btn-sm btn-success">
+					<i class="fa fa-check-circle"></i>Lanjut</button>
+												</div>
+											</div>
+
+
+
+
+									</div>
+
+									</div>
+								</div>
+							</div>
+							<!--End::Modal 1-->
+							
+							
+									
+        </div>
 		<div class="modal fade" id="modal_tambah_akun_pembayaran" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
 									<div class="modal-content">
