@@ -403,21 +403,21 @@ function goBack() {
 													
 														<div class="kt-portlet__body">
 															<div class="kt-portlet__content">
-																<br><table class="table table-responsive table-striped- table-hover table-checkable table-bordered" cellpadding="3" align="center" style="line-height:1.5;">
+																<br><table class="table table-responsive table-striped- table-hover table-checkable table-bordered" align="center" style="line-height:0.5;">
 																
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="15%" colspan="3" rowspan="2" bgcolor="#f7fcff">URAIAN</th>
+											  <th width="12%" colspan="3" rowspan="2" bgcolor="#f7fcff">URAIAN</th>
 											  <th width="5%" colspan="2" bgcolor="#f7fcff">VOLUME</th>
-											  <th width="7%" rowspan="2" bgcolor="#f7fcff">HARGA SATUAN</th>
-											  <th width="7%" rowspan="2" bgcolor="#f7fcff">JUMLAH</th>
+											  <th width="8%" rowspan="2" bgcolor="#f7fcff">HARGA SATUAN</th>
+											  <th width="12%" rowspan="2" bgcolor="#f7fcff">JUMLAH</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">AKSI</th>
 
 										  </tr>
 											<tr style="text-align:center">
-											  <th width="4%" bgcolor="#f7fcff">QTY</th>
-											  <th width="4%" bgcolor="#f7fcff">SATUAN</th>
+											  <th width="3%" bgcolor="#f7fcff">QTY</th>
+											  <th width="3%" bgcolor="#f7fcff">SATUAN</th>
 										  </tr>
 										</thead>
 										<tbody>
@@ -702,28 +702,32 @@ function goBack() {
 										    <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
 									      </tr>
 										  <tr>
-										    <td colspan="6" id="kt_table_10" style="text-align:right">&nbsp;</td>
-										    <td id="kt_table_10" style="text-align:right"><div class="col-lg-12">
-										      <label>Pajak :</label>
-										      <select name="select7" class="form-control kt-selectpicker" style="align:right" data-live-search="true">
-										        <option>12%</option>
-										        <option>11%</option>
-										        <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
-									          </select>
-									        </div></td>
+										    <td colspan="7" id="kt_table_10"><div class="row">
+										      
+										      <span style="text-align: right">
+									          <label style="margin-top:12px; margin-left:1090px; text-align:right;">PAJAK :</label>&nbsp;&nbsp;&nbsp;&nbsp;
+									          </span>
+										      <div>
+										        <span style="text-align: right">
+										          <select name="select7" class="form-control kt-selectpicker" style="align:right" data-live-search="true">
+										            <option>12%</option>
+										            <option>11%</option>
+										            <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
+									            </select>
+								              </span></div>									        </td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="input-group input-group-sm">
-										      <div class="input-group-prepend"><span class="input-group-text input-group-sm" style="border-color:#0e62ae" id="basic-addon3">Rp.</span></div>
-										      <input style="text-align:right; border-color:#0e62ae;" type="text" class="form-control form-control-sm" placeholder="2.000.000" disabled aria-describedby="basic-addon1" />
-										      <div class="input-group-append"><span class="input-group-text input-group-sm" style="border-color:#0e62ae" id="basic-addon3">,-</span></div>
+										      <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon3">Rp.</span></div>
+										      <input style="text-align:right; " type="text" class="form-control form-control-sm" placeholder="2.000.000" disabled aria-describedby="basic-addon1" />
+										      <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon3">,-</span></div>
 									        </div></td>
 										    <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
 									      </tr>
 										  <tr>
 										    <td colspan="7" bgcolor="#f7fcff" id="kt_table_9" style="text-align:right">GRAND TOTAL</td>
 										    <td nowrap="nowrap" bgcolor="#f7fcff" style="text-align:center"><div class="input-group input-group-sm">
-										      <div class="input-group-prepend"><span class="input-group-text input-group-sm" style="border-color:#0e62ae" id="basic-addon4">Rp.</span></div>
-										      <input style="text-align:right; border-color:#0e62ae;" type="text" class="form-control form-control-sm" placeholder="2.000.000" disabled aria-describedby="basic-addon1" />
-										      <div class="input-group-append"><span class="input-group-text input-group-sm" style="border-color:#0e62ae" id="basic-addon4">,-</span></div>
+										      <div class="input-group-prepend"><span class="input-group-text input-group-sm"  id="basic-addon4">Rp.</span></div>
+										      <input style="text-align:right; " type="text" class="form-control form-control-sm" placeholder="2.000.000" disabled aria-describedby="basic-addon1" />
+										      <div class="input-group-append"><span class="input-group-text input-group-sm"  id="basic-addon4">,-</span></div>
 									        </div></td>
 										    <td nowrap="nowrap" bgcolor="#f7fcff" style="text-align:center">&nbsp;</td>
 									      </tr>
