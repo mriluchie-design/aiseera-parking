@@ -104,7 +104,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																			 
 																			 
 																			 <div class="col-lg-2">
-						                          <label class="">Periode Realisasi Penyerapan Anggaran :</label>
+						                          <label class="">Periode Realisasi :</label>
 						                          <div class="input-group">
 						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="Select date range">
 						                        <div class="input-group-append">
@@ -152,7 +152,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											<div class="col-xl-12">
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">REKAPITULASI RENCANA KERJA ANGGARAN PERUSAHAAN (RKAP) POKOK TAHUN 2025</div><br>
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">REKAPITULASI RENCANA KERJA ANGGARAN PERUSAHAAN (RKAP) POKOK TAHUN 2026</div><br>
 							<br>
 										<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
@@ -165,8 +165,8 @@ License: You must have a valid license purchased only from themeforest(the above
 																						<th width="5%" colspan="2" bgcolor="#f7fcff">VOLUME</th>
 																						<th width="10%" bgcolor="#f7fcff">HARGA SATUAN</th>
 																						<th width="10%" bgcolor="#f7fcff">NILAI</th>
-																						<th width="10%" bgcolor="#f7fcff">RKAP POKOK TAHUN 2024</th>
-																						<th width="10%" bgcolor="#f7fcff">REALISASI JANUARI<br>S/D 31 OKTOBER 2023</th>
+																						<th width="10%" bgcolor="#f7fcff">RKAP POKOK TAHUN 2026</th>
+																						<th width="10%" bgcolor="#f7fcff">REALISASI JANUARI<br>S/D 20 JUNI 2026</th>
 																						<th width="10%" bgcolor="#f7fcff">PRESENTASE REALISASI</th>
 																					</tr>
 																				</thead>
@@ -176,7 +176,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																					  <td colspan="8" style="background-color:#edffef">51.01.00 - BIAYA CETAKAN</td>
 																				  </tr>
 																					<tr>
-																					  <td rowspan="3">&nbsp;</td>
+																					  <td>&nbsp;</td>
 																					  <td>- CETAK KERTAS KOP</td>
 																						<td><div style="text-align:right" />4</td>
 																						<td><div style="text-align:left" />Rim</td>
@@ -188,6 +188,7 @@ License: You must have a valid license purchased only from themeforest(the above
 													<div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div></div></td>
 																			      </tr>
 																					<tr>
+																					  <td>&nbsp;</td>
 																					  <td>- CETAK AMPLOP KOP</td>
 																					  <td><div style="text-align:right" />4</td>
 																						<td><div style="text-align:left" />Dus</td>
@@ -199,7 +200,8 @@ License: You must have a valid license purchased only from themeforest(the above
 													<div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div></div></td>
 																			      </tr>
 																					<tr>
-																					  <td>- CETAK MAP PARKIR</td>
+																					  <td>&nbsp;</td>
+																					  <td>- CETAK MAP</td>
 																					  <td><div style="text-align:right" />50</td>
 																						<td><div style="text-align:left" />Buah</td>
 																						<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>2.000.000.000,-</span> </div></td>
@@ -217,7 +219,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																	  <td colspan="8" style="background-color:#edffef">51.02.00 - BIAYA SURVEY / UJI PETIK</td>
 																  </tr>
 																	<tr>
-																					  <td rowspan="3">&nbsp;</td>
+																					  <td>&nbsp;</td>
 																					  <td>- CETAK KERTAS KOP</td>
 																						<td><div style="text-align:right" />4</td>
 																						<td><div style="text-align:left" />Rim</td>
@@ -229,6 +231,7 @@ License: You must have a valid license purchased only from themeforest(the above
 													<div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div></div></td>
 																			      </tr>
 																					<tr>
+																					  <td>&nbsp;</td>
 																					  <td>- CETAK AMPLOP KOP</td>
 																					  <td><div style="text-align:right" />4</td>
 																						<td><div style="text-align:left" />Dus</td>
@@ -240,7 +243,8 @@ License: You must have a valid license purchased only from themeforest(the above
 													<div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div></div></td>
 																			      </tr>
 																					<tr>
-																					  <td>- CETAK MAP PARKIR</td>
+																					  <td>&nbsp;</td>
+																					  <td>- CETAK MAP</td>
 																					  <td><div style="text-align:right" />50</td>
 																						<td><div style="text-align:left" />Buah</td>
 																						<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>2.000.000.000,-</span> </div></td>
@@ -256,7 +260,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																	  <td colspan="8" style="background-color:#edffef">51.03.00 - BIAYA OPERASIONAL KOLEKTOR</td>
 																  </tr>
 																	<tr>
-																					  <td rowspan="3">&nbsp;</td>
+																					  <td>&nbsp;</td>
 																					  <td>- CETAK KERTAS KOP</td>
 																						<td><div style="text-align:right" />4</td>
 																						<td><div style="text-align:left" />Rim</td>
@@ -268,6 +272,7 @@ License: You must have a valid license purchased only from themeforest(the above
 													<div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div></div></td>
 																			      </tr>
 																					<tr>
+																					  <td>&nbsp;</td>
 																					  <td>- CETAK AMPLOP KOP</td>
 																					  <td><div style="text-align:right" />4</td>
 																						<td><div style="text-align:left" />Dus</td>
@@ -279,7 +284,8 @@ License: You must have a valid license purchased only from themeforest(the above
 													<div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div></div></td>
 																			      </tr>
 																					<tr>
-																					  <td>- CETAK MAP PARKIR</td>
+																					  <td>&nbsp;</td>
+																					  <td>- CETAK MAP</td>
 																					  <td><div style="text-align:right" />50</td>
 																						<td><div style="text-align:left" />Buah</td>
 																						<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>2.000.000.000,-</span> </div></td>
