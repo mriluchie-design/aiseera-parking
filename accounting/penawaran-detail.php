@@ -89,38 +89,7 @@ function goBack() {
 						<!--end::Nav-->
 					</div>
 								</div>
-<div class="btn-group" role="group">
-									<button id="btnGroupDrop1" type="button" class="btn btn-label-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-										Proses
-									</button>
-									<div class="dropdown-menu dropdown-menu-fit dropdown-menu-md dropdown-menu-left">
 
-						<!--begin::Nav-->
-						<ul class="kt-nav">
-
-							<li class="kt-nav__item">
-								<a href="#" class="kt-nav__link" data-toggle="modal" data-target="#pesanan">
-									<i class="kt-nav__link-icon fa fa-file-export"></i>
-									<span class="kt-nav__link-text">Pesanan</span>
-								</a>
-							</li>
-							<li class="kt-nav__item">
-								<a href="#" class="kt-nav__link" data-toggle="modal" data-target="#pengiriman">
-									<i class="kt-nav__link-icon fa fa-truck"></i>
-									<span class="kt-nav__link-text">Pengiriman</span>
-								</a>
-							</li>
-							<li class="kt-nav__item">
-								<a href="#" class="kt-nav__link" data-toggle="modal" data-target="#faktur">
-									<i class="kt-nav__link-icon fa fa-file-invoice"></i>
-									<span class="kt-nav__link-text">Faktur</span>
-								</a>
-							</li>
-							
-						</ul>
-						<!--end::Nav-->
-					</div>
-								</div>
 			<div class="btn-group">
 				<button type="button" class="btn btn-success">
 					<i class="fa fa-check-circle"></i>

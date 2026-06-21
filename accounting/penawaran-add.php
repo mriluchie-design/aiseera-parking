@@ -417,7 +417,7 @@ function goBack() {
 										  </tr>
 											<tr style="text-align:center">
 											  <th width="3%" bgcolor="#f7fcff">QTY</th>
-											  <th width="3%" bgcolor="#f7fcff">SATUAN</th>
+											  <th width="1%" bgcolor="#f7fcff">SATUAN</th>
 										  </tr>
 										</thead>
 										<tbody>

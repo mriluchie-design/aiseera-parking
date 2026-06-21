@@ -23,7 +23,7 @@ License: You must have a valid license purchased only from themeforest(the above
 				</span>
 				&nbsp;
 				&nbsp;
-					Pesanan Penjualan
+					Pengiriman
 			</h3>
 
 		</div>
@@ -302,7 +302,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											  <th colspan="5" bgcolor="#f7fcff">Penawaran</th>
 											  <th width="3%" rowspan="2" bgcolor="#f7fcff">Uang Muka</th>
 											  <th width="3%" rowspan="2" bgcolor="#f7fcff">Total</th>
-											  <th colspan="2" bgcolor="#f7fcff">Status<br></th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Status<br>Gudang</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 											<tr style="text-align:center">
@@ -313,9 +313,7 @@ License: You must have a valid license purchased only from themeforest(the above
 											  <th width="2%" bgcolor="#f7fcff">Client</th>
 											  <th width="7%" bgcolor="#f7fcff">Pekerjaan</th>
 											  <th width="3%" bgcolor="#f7fcff">By</th>
-											  <th width="1%" bgcolor="#f7fcff">Penawaran</th>
-											  <th width="1%" bgcolor="#f7fcff">Gudang</th>
-								          </tr>
+										  </tr>
 										</thead>
 										<tbody>
 											<tr>
@@ -332,8 +330,7 @@ License: You must have a valid license purchased only from themeforest(the above
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003&lt;hr&gt;Nursiah, S.Kom&lt;hr&gt;Staff Accounting" data-html="true"><img src="../assets/media/users/100_7.jpg" alt="image" /></a></td>
 												<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>1.000.000.000,-</span></div></td>
 												<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>2.000.000.000,-</span></div></td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Pelanggan</span></td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Pending</span></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Proses</span></td>
 												<td style="text-align:center" nowrap="nowrap"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -360,7 +357,6 @@ License: You must have a valid license purchased only from themeforest(the above
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003&lt;hr&gt;Nursiah, S.Kom&lt;hr&gt;Staff Accounting" data-html="true"><img src="../assets/media/users/100_7.jpg" alt="image" /></a></td>
 												<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
 												<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>200.000.000,-</span></div></td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Pelaksanaan</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Proses</span></td>
 												<td style="text-align:center" nowrap="nowrap"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -388,8 +384,7 @@ License: You must have a valid license purchased only from themeforest(the above
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003&lt;hr&gt;Nursiah, S.Kom&lt;hr&gt;Staff Accounting" data-html="true"><img src="../assets/media/users/100_7.jpg" alt="image" /></a></td>
 												<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
 												<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>200.000.000,-</span></div></td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Pelaksanaan</span></td>
-												<td nowrap="nowrap" style="text-align:center">Dikirim</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Selesai</span></td>
 												<td style="text-align:center" nowrap="nowrap"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -416,8 +411,7 @@ License: You must have a valid license purchased only from themeforest(the above
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003&lt;hr&gt;Nursiah, S.Kom&lt;hr&gt;Staff Accounting" data-html="true"><img src="../assets/media/users/100_7.jpg" alt="image" /></a></td>
 												<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
 												<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>200.000.000,-</span></div></td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Pelaksanaan</span></td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Terkirim</span></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Selesai</span></td>
 												<td style="text-align:center" nowrap="nowrap"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">

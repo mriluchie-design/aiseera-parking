@@ -104,12 +104,7 @@ function goBack() {
 									<span class="kt-nav__link-text">Pelaksanaan</span>
 								</a>
 							</li>
-							<li class="kt-nav__item">
-								<a href="#" class="kt-nav__link" data-toggle="modal" data-target="#pengiriman">
-									<i class="kt-nav__link-icon fa fa-truck"></i>
-									<span class="kt-nav__link-text">Pengiriman Barang</span>
-								</a>
-							</li>
+							
 							<li class="kt-nav__item">
 								<a href="#" class="kt-nav__link" data-toggle="modal" data-target="#faktur">
 									<i class="kt-nav__link-icon fa fa-file-invoice"></i>
@@ -1134,6 +1129,153 @@ function goBack() {
 											<div class="kt-portlet__head-label">
 												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-clipboard-list"></i></span>
 												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">TAMBAH FAVORIT</h3>
+											</div>
+<div class="kt-widget__toolbar"><br>
+																	 <span class="kt-switch kt-switch--sm kt-switch--icon">
+																			<label>
+																					<input type="checkbox" checked="checked" name="">
+																					<span></span>
+																			</label>
+																	</span>
+								
+							</div>
+											
+										</div>
+										<div class="kt-portlet__body">
+											<div class="tab-content">
+												
+
+<div class="form-group row">
+<div class="col-lg-12">
+														<label class="kt-font-brand">Nama Favorit :</label>
+														<input type="text" class="form-control form-control-sm" placeholder="">
+													</div>
+												
+
+
+
+												
+													
+													
+
+												</div>
+<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+<div class="form-group row">
+												
+      												<div class="col-lg-12">
+                                <div class="form-group">
+      													<label>Hak Akses Favorit :</label>
+                                <div class="kt-section__content kt-section__content--solid" role="group" aria-label="...">
+      													<button type="button" class="btn btn-secondary btn-square btn-sm col-lg-6" id="hide1">Keseluruhan</button>&nbsp;
+      													
+                                <button type="button" class="btn btn-secondary btn-square btn-sm col-lg-5" id="show">Sebagian Cabang</button>&nbsp;
+      												</div>
+                              	</div>
+      												</div>
+      												</div>
+                              <div class="form-group row tampil">
+                                <div class="col-lg-12">
+								<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+                                  <div class="form-group row">
+    													<div class="col-lg-12">
+														<label class="kt-font-danger">Cabang :</label>
+														 <select class="form-control kt-selectpicker" multiple="multiple">
+                                      <option value="1" selected="">Makassar</option>
+                                      <option value="2">Pare-Pare</option>
+                                      <option value="2">Balikpapan</option>
+                                      <option value="2">Samarinda</option>
+                                      <option value="2">Tarakan</option>
+                                      <option value="2">Nunukan</option>
+                                      <option value="2">Manado</option>
+                                      <option value="2">Bitung</option>
+                                      <option value="2">Ambon - Yos Sudarso</option>
+                                      <option value="2">Ambon - Slamet Riyadi</option>
+                                      <option value="2">Ternate</option>
+                                      <option value="2">Sorong</option>
+                                  </select>
+													</div>
+													
+												
+                          </div>
+						
+
+
+
+											</div>
+											</div>
+
+
+												</div>
+												
+												
+												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+												<div class="form-group row">
+<div class="col-lg-12">
+														<label class="kt-font-brand">Hanya Pegawai  :</label>
+														<select class="form-control kt-selectpicker form-control" data-live-search="true">
+					 															<optgroup label="Direksi">
+					 																<option value="AK"selected >Muhammad Nasrullah, S.Kom</option>
+					 															</optgroup>
+					 															<optgroup label="Umum">
+																					<option value="HI">Deddy Rafsanjani, S.Sos</option>
+					 															</optgroup>
+																				<optgroup label="Keuangan dan Asset">
+					 																<option value="HI">Oklan Zulkifli, SE</option>
+					 															</optgroup>
+																				<optgroup label="Operasional">
+					 																<option value="HI">Nursiah, S.Kom</option>
+					 															</optgroup>
+																				<optgroup label="Pengembangan Usaha dan Kerjasama">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
+					 															</optgroup>
+
+					 														</select>
+													</div>
+												
+										
+									</div>
+									
+
+
+												
+													
+													
+
+												</div>
+												
+											
+									<div class="kt-portlet__foot kt-align-center">
+												<div class="">
+<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Batal</button>
+													<button type="button" class="btn btn-sm btn-success">
+					<i class="fa fa-check-circle"></i>Simpan Data</button>
+												</div>
+											</div>
+
+
+
+
+									</div>
+
+									</div>
+								</div>
+							</div>
+							<!--End::Modal 1-->
+							
+							
+									
+        </div>
+		<div class="modal fade" id="pengiriman" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+									<div class="modal-content">
+
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-clipboard-list"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">PENGIRIMAN</h3>
 											</div>
 <div class="kt-widget__toolbar"><br>
 																	 <span class="kt-switch kt-switch--sm kt-switch--icon">
