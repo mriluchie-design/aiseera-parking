@@ -12,7 +12,7 @@
   <div id="kt_header_mobile" class="kt-header-mobile  kt-header-mobile--fixed ">
     <div class="kt-header-mobile__logo">
       <a href="index.php">
-        <img alt="Logo" src="assets/img/logos/epass-logo-only.png" style="width:10%"/>
+        <img alt="Logo" src="assets/img/logos/epass-logo-only.png" style="width:50%"/>
       </a>
     </div>
     <div class="kt-header-mobile__toolbar">
