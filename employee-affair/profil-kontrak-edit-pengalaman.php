@@ -8,26 +8,31 @@
 	<div class="kt-container  kt-container--fluid ">
 		<div class="kt-subheader__main">
 			<h3 class="kt-subheader__title">
-				<span class="kt-portlet__head-icon">
-					<i class="kt-font-brand flaticon2-list-1"></i>
-				</span>
-				&nbsp;
-				&nbsp;
-				Edit Profil Pegawai Kontrak
-			</h3>
+                    <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
+                    Edit Data Pengalaman 
+                </h3>
+				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
+									<div class="kt-subheader__group" id="kt_subheader_search">
+										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
+											Muhammad Nasrullah</span>
+										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
-		</div>
+										</form>
+									</div>
+
+
+								</div>
 		<div class="kt-subheader__toolbar">
 			<div class="dropdown dropdown-inline" ddata-placement="left">
 				<a href="pegawai-kontrak-data.php" class="btn btn-label-brand btn-sm">
 					<i class="flaticon-reply"></i> Kembali</button>
 					<!--<i class="flaticon2-plus"></i>-->
 				</a>
-				&nbsp;
+			
 			</div>
 			<div class="btn-group">
-				<button type="button" class="btn btn-brand">
-					<i class="la la-check"></i>
+				<button type="button" class="btn btn-success">
+					<i class="fa fa-check-circle"></i>
 					<span class="kt-hidden-mobile">Simpan</span>
 				</button>
 				
@@ -256,7 +261,7 @@
 											  <th colspan="3" bgcolor="#f7fcff">Data Perusahaan</th>
 											  <th colspan="2" bgcolor="#f7fcff">Lama Bekerja</th>
 											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Jabatan Terakhir</th>
-											  <th width="4%" rowspan="2" bgcolor="#f7fcff">Upload Surat Pengalaman</th>
+											  <th width="6%" rowspan="2" bgcolor="#f7fcff">Upload Surat Pengalaman</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 											<tr style="text-align:center">
@@ -276,7 +281,7 @@
 
 												<td style="text-align:center" nowrap><div class="form-group">
 																							<div class="input-group date">
-																								<input type="text" class="form-control form-control-sm" readonly="" placeholder="= Pilih Tanggal =" id="kt_datepicker_2">
+																								<input type="text" class="form-control form-control-sm" readonly="" placeholder="" id="kt_datepicker_2">
 																								<div class="input-group-append">
 																									<span class="input-group-text">
 																										<i class="la la-calendar-check-o"></i>
@@ -286,7 +291,7 @@
 																						</div></td>
 												<td style="text-align:center" nowrap><div class="form-group">
 																							<div class="input-group date">
-																								<input type="text" class="form-control form-control-sm" readonly="" placeholder="= Pilih Tanggal =" id="kt_datepicker_2">
+																								<input type="text" class="form-control form-control-sm" readonly="" placeholder="" id="kt_datepicker_2">
 																								<div class="input-group-append">
 																									<span class="input-group-text">
 																										<i class="la la-calendar-check-o"></i>

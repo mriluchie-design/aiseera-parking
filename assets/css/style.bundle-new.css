@@ -1944,8 +1944,11 @@ pre {
   .form-control::placeholder {
     color: #74788d;
     opacity: 1; }
-  .form-control:disabled, .form-control[readonly] {
+  .form-control:disabled {
     background-color: #f5f8fc;
+    opacity: 1; }
+	.form-control[readonly] {
+    background-color: #fff;
     opacity: 1; }
 
 select.form-control:focus::-ms-value {
@@ -6751,6 +6754,12 @@ button.bg-dark:focus {
 .w-50 {
   width: 50% !important; }
 
+.w-60 {
+  width: 60% !important; }
+
+.w-70 {
+  width: 70% !important; }
+
 .w-75 {
   width: 75% !important; }
 
@@ -6765,6 +6774,12 @@ button.bg-dark:focus {
 
 .h-50 {
   height: 50% !important; }
+
+.h-60 {
+  height: 60% !important; }
+
+.h-70 {
+  height: 70% !important; }
 
 .h-75 {
   height: 75% !important; }
@@ -11087,7 +11102,7 @@ code {
   box-shadow: none !important; }
 
 .form-control[readonly] {
-  background-color: #ffffff; }
+   }
 
 .form-control.form-control-pill {
   border-radius: 50px; }
@@ -30586,10 +30601,10 @@ font-weight:400;
     background: rgba(100, 223, 223, 0.2); }
   .kt-badge.kt-badge--unified-success {
     color: #fff;
-    background: #3a86ff; }
+    background: #46b51d; }
   .kt-badge.kt-badge--unified-info {
-    color: #5f2c9b;
-    background: #e3d7f4; }
+    color: #1d5c6b;
+    background: #94e5f7; }
   .kt-badge.kt-badge--unified-warning {
     color: #ffb822;
     background: rgba(255, 184, 34, 0.1); }

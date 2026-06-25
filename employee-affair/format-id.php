@@ -123,7 +123,7 @@
 											<tr style="text-align:center">
 											  <th width="1%" bgcolor="#f7fcff">Foto</th>
 											  <th width="5%" bgcolor="#f7fcff">Nama</th>
-											  <th width="2%" bgcolor="#f7fcff">NIP</th>
+											  <th width="3%" bgcolor="#f7fcff">NIP</th>
 											  <th width="7%" bgcolor="#f7fcff">Jabatan</th>
 											  <th width="3%" bgcolor="#f7fcff">Dibuat</th>
 											  <th width="3%" bgcolor="#f7fcff">Diubah</th>

@@ -86,25 +86,27 @@
 																<form class="kt-form">
 																	<div class="kt-portlet__body">
 						                      <div class="form-group row">
-						                        <div class="col-lg-2">
+						                        <div class="col-lg-4">
 						                          <label>Cari Pegawai :</label>
 												  <div class="form-group">
 
-					                         <select class="form-control kt-selectpicker form-control" data-live-search="true">
-					 															<optgroup label="Direksi">
-					 																<option value="AK"selected >000000001 - Muhammad Nasrullah, S.Kom</option>
+					                          <select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
+					 															<optgroup label="Direksi" class="a">
+					 																<option value="AK"selected >Muhammad Nasrullah, S.Kom</option>
 					 															</optgroup>
-					 															<optgroup label="Umum">
-																					<option value="HI">000000003 - Deddy Rafsanjani, S.Sos</option>
+					 															
+																				<optgroup label="Keuangan dan Asset" class="a">
+					 																<option value="HI">Oklan Zulkifli, SE</option>
 					 															</optgroup>
-																				<optgroup label="Keuangan dan Asset">
-					 																<option value="HI">000000002 - Oklan Zulkifli, SE</option>
+																				<optgroup label="Operasional" class="a">
+					 																<option value="HI">Deddy Rafsanjani, S.Sos</option>
+					 																<option value="HI">Nursiah, S.Kom</option>
 					 															</optgroup>
-																				<optgroup label="Operasional">
-					 																<option value="HI">000000004 - Nursiah, S.Kom</option>
+																				<optgroup label="Teknologi dan Riset" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
 					 															</optgroup>
-																				<optgroup label="Pengembangan Usaha dan Kerjasama">
-					 																<option value="HI">000000005 - Muhammad Ramadhan Lerrick, ST</option>
+																				<optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
 					 															</optgroup>
 
 					 														</select>
@@ -112,31 +114,66 @@
 
 						                        </div>
 											<div class="col-lg-2">
-						                          <label class="">Departemen :</label>
-						                          <select class="form-control kt-selectpicker" data-live-search="true">
+                                <label>Departemen :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="2" selected="">Direksi</option>
-                                      <option value="2">Dewan Pengawas</option>
-                                      <option value="3">Umum</option>
                                       <option value="4">Keuangan dan Asset</option>
                                       <option value="5">Operasional</option>
+                                      <option value="5">Teknologi dan Riset</option>
                                       <option value="12" >Pengembangan Usaha dan Kerjasama</option>
+									  <option value="HI">Keseluruhan</option>
                                   </select>
-						                        </div>
+                            </div>
+							<div class="col-lg-2">
+                                <label>Divisi :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                     
+                                      <option value="3" selected>Direksi</option>
+                                      <option value="4">Umum dan Kepegawaian</option>
+                                      <option value="5">Hukum dan Humas</option>
+                                      <option value="6">Keuangan</option>
+                                      <option value="12">Asset</option>
+                                      <option value="12" >Pengelolaan</option>
+                                      <option value="12" >Produksi</option>
+                                      <option value="12" >Pengembangan</option>
+                                      <option value="12" >Kerjasama</option>
+									  <option value="HI">Keseluruhan</option>
+                                  </select>
+                            </div>
 						                        <div class="col-lg-2">
-						                          <label>Jabatan :</label>
-						                         <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2">Dewan Pengawas</option>
-									  <optgroup label="Direksi">
+                                <label class="">Jabatan :</label>
+								  <select class="form-control kt-selectpicker" data-live-search="true">
+                                   
+									 <optgroup label="Direksi" class="a">
                                       <option value="2" selected="">Direktur Utama</option>
-                                      <option value="2">Direktur Umum</option>
                                       <option value="2">Direktur Keuangan dan Asset</option>
                                       <option value="2">Direktur Operasional</option>
+                                      <option value="2">Direktur Teknologi dan Riset</option>
                                       <option value="2">Direktur Pengembangan Usaha dan Kerjasama</option>
+									  <option value="HI">Keseluruhan</option>
 									  </optgroup>
                                      
                                   </select>
-						                        </div>
+                             
+                            </div>
+							<div class="col-lg-2">
+                                <label class="">Verifikasi :</label>
+								  <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="2" selected="">Disetujui</option>
+                                      <option value="2">Pending</option>
+                                      <option value="2">Ditolak</option>
+                                      <option value="2">Keseluruhan</option>
+                                  </select>
+                             
+                            </div>
 
+												
+												
+						                        </div>
+												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						  <div class="form-group row">
 												<div class="col-lg-2">
 						                          <label class="">Tanggal Pengajuan :</label>
 						                          <div class="input-group">
@@ -155,19 +192,20 @@
 						                        </div>
 						                      </div>
 						                        </div>
-												<div class="col-lg-1">
+												<div class="col-lg-2">
 						                          <label class="">Status Pegawai :</label>
 						                          <select class="form-control kt-selectpicker" data-live-search="true">
 																							<option value="AK" selected>Tetap</option>
 																							<option value="HI">Kontrak</option>
-																							<option value="HI">Honor</option>
+																							<option value="HI">Keseluruhan</option>
 																						</select>
 						                        </div>
-												<div class="col-lg-1">
+												<div class="col-lg-2">
 						                          <label class="">Kantor :</label>
 						                          <select class="form-control kt-selectpicker" data-live-search="true">
 																							<option value="AK" selected>Pusat</option>
 																							<option value="HI">Nama Cabang</option>
+																							<option value="HI">Keseluruhan</option>
 																						</select>
 						                        </div>
 						                      </div>
@@ -183,103 +221,119 @@
 
 																<!--end::Form-->
 															</div>
-							<!--begin:: Widgets/Stats-->
-							<div class="kt-portlet">
-								<div class="kt-portlet__body  kt-portlet__body--fit">
-									<div class="row row-no-padding row-col-separator-lg">
-										<div class="col-md-12 col-lg-6 col-xl-3">
+							<div class="row">
+								
+								
+								
+								
+								
+								<div class="col-xl-12">
 
-											<!--begin::Total Profit-->
-											<div class="kt-widget24">
-												<div class="kt-widget24__details">
-													<div class="kt-widget24__info">
-														<h4 class="kt-widget24__title">
-															Total
-														</h4>
-														<span class="kt-widget24__desc">
-															Pegawai Resign
-														</span>
-													</div>
-													<span class="kt-widget24__stats kt-font-brand">
-														4
-													</span>
-												</div>
-
+									<!--begin:: Widgets/Activity-->
+									<div class="kt-portlet kt-portlet--fit kt-portlet--head-lg kt-portlet--head-overlay kt-portlet--skin-solid kt-portlet--height-fluid">
+										<div class="kt-portlet__head kt-portlet__head--noborder kt-portlet__space-x">
+											<div class="kt-portlet__head-label" style="margin-left:55px;">
+												<h3 class="kt-portlet__head-title">
+													Statistik
+												</h3>
 											</div>
-
-											<!--end::Total Profit-->
+											<div class="kt-portlet__head-toolbar" style="margin-right:55px;">
+												<a href="#" class="btn btn-label-light btn-sm dropdown-toggle" data-toggle="dropdown">
+													Keseluruhan
+												</a>
+												<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+													<ul class="kt-nav">
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">Bulan ini</span>
+															</a>
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">Tahun ini</span>
+															</a>
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-chart-bar"></i>
+																<span class="kt-nav__link-text">Keseluruhan</span>
+															</a>
+														</li>
+														
+														
+													</ul>
+												</div>
+											</div>
 										</div>
-										<div class="col-md-12 col-lg-6 col-xl-3">
-
-											<!--begin::New Feedbacks-->
-											<div class="kt-widget24">
-												<div class="kt-widget24__details">
-													<div class="kt-widget24__info">
-														<h4 class="kt-widget24__title">
-															Resign Disetujui
-														</h4>
-														<span class="kt-widget24__desc">
-															Permohonan yang telah disetujui
-														</span>
+										<div class="kt-portlet__body kt-portlet__body--fit">
+											<div class="kt-widget17">
+												<div class="kt-widget17__visual kt-widget17__visual--chart kt-portlet-fit--top kt-portlet-fit--sides" style="background-color: #0961ae">
+													<div class="kt-widget17__chart" style="height:120px;">
+														<canvas id="kt_chart_activities"></canvas>
 													</div>
-													<span class="kt-widget24__stats kt-font-success">
-														1
-													</span>
 												</div>
+												<div class="kt-widget17__stats">
+													<div class="kt-widget17__items">
+														<div class="kt-widget17__item">
+															
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Total Data
+															</span>
 
-											</div>
-
-											<!--end::New Feedbacks-->
-										</div>
-										<div class="col-md-12 col-lg-6 col-xl-3">
-
-											<!--begin::New Orders-->
-											<div class="kt-widget24">
-												<div class="kt-widget24__details">
-													<div class="kt-widget24__info">
-														<h4 class="kt-widget24__title">
-															Resign Ditolak
-														</h4>
-														<span class="kt-widget24__desc">
-															Permohonan yang telah ditolak
-														</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:20px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">105</span>
+															
+															</span>
+														</div>
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Disetujui
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:20px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">35</span>
+															</span>
+														</div>
+														
+														
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Pending
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:20px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">70</span>
+															</span>
+														</div>
+														
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Ditolak
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:20px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">70</span>
+															</span>
+														</div>
+														
+														
+														
 													</div>
-													<span class="kt-widget24__stats kt-font-danger">
-														1
-													</span>
+													
+													
 												</div>
-
 											</div>
-
-											<!--end::New Orders-->
-										</div>
-										<div class="col-md-12 col-lg-6 col-xl-3">
-
-											<!--begin::New Users-->
-											<div class="kt-widget24">
-												<div class="kt-widget24__details">
-													<div class="kt-widget24__info">
-														<h4 class="kt-widget24__title">
-															Resign Pending
-														</h4>
-														<span class="kt-widget24__desc">
-															Permohonan yang sedang menunggu persetujuan
-														</span>
-													</div>
-													<span class="kt-widget24__stats kt-font-warning">
-														2
-													</span>
-												</div>
-
-											</div>
-
-											<!--end::New Users-->
 										</div>
 									</div>
-								</div>
+
+									<!--end:: Widgets/Activity-->
 								</div>
 
-							<!--end:: Widgets/Stats-->
+							<!--End::Section-->
+
+							
+
+						
+						</div>
 
 							<div class="kt-portlet kt-portlet--mobile ">
 								<div class="kt-portlet__body">
@@ -289,12 +343,13 @@
 											<tr>
 												<th width="1%" bgcolor="#f7fcff">#</th>
 												<th width="1%" bgcolor="#f7fcff">ID</th>
+												<th width="9%" bgcolor="#f7fcff">Waktu<br />
+												  Pengajuan</th>
 												<th colspan="2" bgcolor="#f7fcff">Pegawai</th>
-												<th bgcolor="#f7fcff">Status Pegawai</th>
 												<th width="15%" bgcolor="#f7fcff">Departemen</th>
 												<th width="5%" bgcolor="#f7fcff">Divisi</th>
+												<th bgcolor="#f7fcff">Status Pegawai</th>
 												<th width="5%" bgcolor="#f7fcff">Kantor</th>
-												<th width="9%" bgcolor="#f7fcff">Waktu<br>Pengajuan</th>
 												<th width="9%" bgcolor="#f7fcff">Tanggal Resign</th>
 												<th width="10%" bgcolor="#f7fcff">Keterangan Resign</th>
 												<th width="2%" bgcolor="#f7fcff">Dibuat Oleh</th>
@@ -306,15 +361,16 @@
 											<tr>
 												<td id="kt_table_1">1</td>
 												<td id="kt_table_1">001RESHRXI2022</td>
+												<td style="text-align:center">12 Oktober 2019<br />
+												  09:00 WITA</td>
 												<td width="4%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/img/users/100_15.jpg" alt="image">
 													</a></td>
 												<td style="text-align:left" nowrap>Muhammad Nasrullah, S.Kom</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Kontrak</button></td>
 												<td nowrap="nowrap" style="text-align:left">Umum</td>
 												<td nowrap="nowrap" style="text-align:left">Umum dan Kepegawaian</td>
+												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Kontrak</button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
-												<td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 												<td style="text-align:center">12 Oktober 2019</td>
 												<td style="text-align:left">Permintaan Sendiri </td>
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par&lt;hr&gt;Electrical Engineer Supervisor Assistant" data-html="true"> <img src="../assets/media/users/100_10.jpg" alt="image" /> </a></td>
@@ -358,15 +414,16 @@
 											<tr>
 												<td id="kt_table_1">2</td>
 												<td id="kt_table_1">002RESHRXI2022</td>
+												<td style="text-align:center">12 Oktober 2019<br />
+												  09:00 WITA</td>
 												<td width="4%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_9.jpg" alt="image">
 													</a></td>
 												<td style="text-align:left" nowrap>Oklan Zulkifli, SE</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
 												<td nowrap="nowrap" style="text-align:left">Umum</td>
 												<td nowrap="nowrap" style="text-align:left">Hukum dan Humas</td>
+												<td style="text-align:center"><button type="button" class="btn btn-label-twitter btn-sm">Tetap</button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
-												<td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 												<td style="text-align:center">12 Oktober 2019</td>
 												<td style="text-align:left">Permintaan Sendiri </td>
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par&lt;hr&gt;Electrical Engineer Supervisor Assistant" data-html="true"> <img src="../assets/media/users/100_10.jpg" alt="image" /> </a></td>
@@ -410,15 +467,16 @@
 										  <tr>
 												<td id="kt_table_1">3</td>
 												<td id="kt_table_1">003RESHRXI2022</td>
+												<td style="text-align:center">12 Oktober 2019<br />
+												  09:00 WITA</td>
 												<td width="4%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_8.jpg" alt="image">
 													</a></td>
 												<td style="text-align:left" nowrap>Deddy Rafsanjani, S.Sos</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Honor</button></td>
 												<td nowrap="nowrap" style="text-align:left">Keuangan dan Asset</td>
 												<td nowrap="nowrap" style="text-align:left">Keuangan</td>
+												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Kontrak</button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</button></td>
-												<td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 												<td style="text-align:center">12 Oktober 2019</td>
 												<td style="text-align:left">Permintaan Sendiri </td>
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par&lt;hr&gt;Electrical Engineer Supervisor Assistant" data-html="true"> <img src="../assets/media/users/100_10.jpg" alt="image" /> </a></td>
@@ -464,15 +522,16 @@
 										  <tr>
 												<td id="kt_table_1">4</td>
 												<td id="kt_table_1">004RESHRXI2022</td>
+												<td style="text-align:center">12 Oktober 2019<br />
+												  09:00 WITA</td>
 												<td width="4%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/300_21.jpg" alt="image">
 													</a></td>
 												<td style="text-align:left" nowrap>Muhammad Ramadhan Lerrick, ST</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
 												<td nowrap="nowrap" style="text-align:left">Keuangan dan Asset</td>
 												<td nowrap="nowrap" style="text-align:left">Asset</td>
+												<td style="text-align:center"><button type="button" class="btn btn-label-twitter btn-sm">Tetap</button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang B">Cabang</button></td>
-												<td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 												<td style="text-align:center">12 Oktober 2019</td>
 												<td style="text-align:left">Permintaan Sendiri </td>
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Amalia Restu Sugiarty S.Tr.Par&lt;hr&gt;Electrical Engineer Supervisor Assistant" data-html="true"> <img src="../assets/media/users/100_10.jpg" alt="image" /> </a></td>

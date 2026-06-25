@@ -30,8 +30,8 @@ function goBack() {
 </script>
 											</a>
 											<div class="btn-group">
-				<button type="button" class="btn btn-brand">
-					<i class="la la-check"></i>
+				<button type="button" class="btn btn-success">
+					<i class="fa fa-check-circle"></i>
 					<span class="kt-hidden-mobile">Simpan</span>
 				</button>
 				

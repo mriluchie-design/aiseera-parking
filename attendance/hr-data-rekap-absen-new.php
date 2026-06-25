@@ -82,21 +82,23 @@
 						                      <div class="form-group row">
 						                        <div class="col-lg-3">
 						                          <label>Nama Pegawai :</label>
-												  <select class="form-control kt-selectpicker form-control" data-live-search="true">
-					 															<optgroup label="Direksi">
-					 																<option value="AK"selected >000000001 - Muhammad Nasrullah, S.Kom</option>
+												  <select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
+					 															<optgroup label="Direksi" class="a">
+					 																<option value="AK"selected >Muhammad Nasrullah, S.Kom</option>
 					 															</optgroup>
-					 															<optgroup label="Umum">
-																					<option value="HI">000000003 - Deddy Rafsanjani, S.Sos</option>
+					 															
+																				<optgroup label="Keuangan dan Asset" class="a">
+					 																<option value="HI">Oklan Zulkifli, SE</option>
 					 															</optgroup>
-																				<optgroup label="Keuangan dan Asset">
-					 																<option value="HI">000000002 - Oklan Zulkifli, SE</option>
+																				<optgroup label="Operasional" class="a">
+					 																<option value="HI">Deddy Rafsanjani, S.Sos</option>
+					 																<option value="HI">Nursiah, S.Kom</option>
 					 															</optgroup>
-																				<optgroup label="Operasional">
-					 																<option value="HI">000000004 - Nursiah, S.Kom</option>
+																				<optgroup label="Teknologi dan Riset" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
 					 															</optgroup>
-																				<optgroup label="Pengembangan Usaha dan Kerjasama">
-					 																<option value="HI">000000005 - Muhammad Ramadhan Lerrick, ST</option>
+																				<optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
 					 															</optgroup>
 
 					 														</select>
@@ -544,7 +546,7 @@
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Rabu" data-html="true">Alpa</span></th>
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Kamis" data-html="true">Hadir</span></th>
 											  <th bgcolor="#fafaec">Cepat Pulang</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-success kt-badge--sm kt-badge--inline">Cuti</span></th>
+											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-info kt-badge--sm kt-badge--inline">Cuti</span></th>
 											  <th bgcolor="#fafaec">Kerja Hari Libur</th>
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--primary kt-badge--sm kt-badge--inline">Dinas</span></th>
 											  <th bgcolor="#fafaec">Izin Telat Datang</th>
@@ -801,7 +803,7 @@
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Rabu" data-html="true">Alpa</span></th>
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Kamis" data-html="true">Hadir</span></th>
 											  <th bgcolor="#fafaec">Cepat Pulang</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-success kt-badge--sm kt-badge--inline">Cuti</span></th>
+											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-info kt-badge--sm kt-badge--inline">Cuti</span></th>
 											  <th bgcolor="#fafaec">&nbsp;</th>
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--primary kt-badge--sm kt-badge--inline">Dinas</span></th>
 											  <th bgcolor="#fafaec">Izin Telat Datang</th>
@@ -1061,7 +1063,7 @@
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Rabu" data-html="true">Alpa</span></th>
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Kamis" data-html="true">Hadir</span></th>
 											  <th bgcolor="#fafaec">Cepat Pulang</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-success kt-badge--sm kt-badge--inline">Cuti</span></th>
+											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-info kt-badge--sm kt-badge--inline">Cuti</span></th>
 											  <th bgcolor="#fafaec">&nbsp;</th>
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--primary kt-badge--sm kt-badge--inline">Dinas</span></th>
 											  <th bgcolor="#fafaec">Izin Telat Datang</th>
@@ -1318,7 +1320,7 @@
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Rabu" data-html="true">Alpa</span></th>
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Kamis" data-html="true">Hadir</span></th>
 											  <th bgcolor="#fafaec">Cepat Pulang</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-success kt-badge--sm kt-badge--inline">Cuti</span></th>
+											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-info kt-badge--sm kt-badge--inline">Cuti</span></th>
 											  <th bgcolor="#fafaec">&nbsp;</th>
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--primary kt-badge--sm kt-badge--inline">Dinas</span></th>
 											  <th bgcolor="#fafaec">Izin Telat Datang</th>
@@ -1579,7 +1581,7 @@
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Rabu" data-html="true">Alpa</span></th>
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Kamis" data-html="true">Hadir</span></th>
 											  <th bgcolor="#fafaec">Cepat Pulang</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-success kt-badge--sm kt-badge--inline">Cuti</span></th>
+											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-info kt-badge--sm kt-badge--inline">Cuti</span></th>
 											  <th bgcolor="#fafaec">&nbsp;</th>
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--primary kt-badge--sm kt-badge--inline">Dinas</span></th>
 											  <th bgcolor="#fafaec">Izin Telat Datang</th>
@@ -1836,7 +1838,7 @@
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Rabu" data-html="true">Alpa</span></th>
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Kamis" data-html="true">Hadir</span></th>
 											  <th bgcolor="#fafaec">Cepat Pulang</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-success kt-badge--sm kt-badge--inline">Cuti</span></th>
+											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-info kt-badge--sm kt-badge--inline">Cuti</span></th>
 											  <th bgcolor="#fafaec">&nbsp;</th>
 											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--primary kt-badge--sm kt-badge--inline">Dinas</span></th>
 											  <th bgcolor="#fafaec">Izin Telat Datang</th>

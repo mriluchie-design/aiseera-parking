@@ -302,7 +302,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
+										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">MAKASSAR</span><hr>
 										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">GATE - 1</span>
 										<a href="#" class="kt-widget__title">
 											<span class="btn btn-primary btn-sm">MASUK</span>
@@ -496,11 +496,11 @@
 									<div class="kt-widget__section">
 										<div class="kt-widget__blog">
 											<i class="fa fa-clock"></i>
-											<a href="#" class="kt-widget__value kt-font-brand">10 Februari 2023 - 20:07:00 WITA</a>
+											<a href="#" class="kt-widget__value kt-font-brand">10 Oktober 2026 - 20:07:00 WITA</a>
 										</div>
 									</div>
 									<div class="kt-widget__section">
-										<a href="see-cctv.php" class="btn btn-brand btn-sm"><i class="fa flaticon-eye"></i>LIHAT CCTV</a>
+										<a href="see-cctv.php" class="btn btn-label-brand btn-sm"><i class="fa flaticon-eye"></i>LIHAT CCTV</a>
 									</div>
 								</div>
 							</div>
@@ -521,7 +521,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
+										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">MAKASSAR</span><hr>
 										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">GATE - 1</span>
 										<a href="#" class="kt-widget__title">
 											<span class="btn btn-youtube btn-sm">KELUAR</span>
@@ -729,7 +729,7 @@
 									<div class="kt-widget__section">
 										<div class="kt-widget__blog">
 											<i class="fa fa-clock"></i>
-											<a href="#" class="kt-widget__value kt-font-brand">10 Februari 2023 - 20:07:00 WITA</a>
+											<a href="#" class="kt-widget__value kt-font-brand">10 Oktober 2026 - 20:07:00 WITA</a>
 										</div>
 									</div>
 									<div class="kt-widget__section">
@@ -754,7 +754,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
+										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">MAKASSAR</span><hr>
 										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">GATE - 1</span>
 										<a href="#" class="kt-widget__title">
 											<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MASUK</span>
@@ -948,7 +948,7 @@
 									<div class="kt-widget__section">
 										<div class="kt-widget__blog">
 											<i class="fa fa-clock"></i>
-											<a href="#" class="kt-widget__value kt-font-danger">10 Februari 2023 - 20:07:00 WITA</a>
+											<a href="#" class="kt-widget__value kt-font-brand">10 Oktober 2026 - 20:07:00 WITA</a>
 										</div>
 									</div>
 									<div class="kt-widget__section">
@@ -973,7 +973,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
+										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">MAKASSAR</span><hr>
 										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">GATE - 1</span>
 										<a href="#" class="kt-widget__title">
 											<span class="btn btn-youtube btn-sm">KELUAR</span>
@@ -1181,7 +1181,7 @@
 									<div class="kt-widget__section">
 										<div class="kt-widget__blog">
 											<i class="fa fa-clock"></i>
-											<a href="#" class="kt-widget__value kt-font-brand">10 Februari 2023 - 20:07:00 WITA</a>
+											<a href="#" class="kt-widget__value kt-font-brand">10 Oktober 2026 - 20:07:00 WITA</a>
 										</div>
 									</div>
 									<div class="kt-widget__section">
@@ -1206,7 +1206,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
+										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">MAKASSAR</span><hr>
 										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">GATE - 1</span>
 										<a href="#" class="kt-widget__title">
 											<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MASUK</span>
@@ -1400,7 +1400,7 @@
 									<div class="kt-widget__section">
 										<div class="kt-widget__blog">
 											<i class="fa fa-clock"></i>
-											<a href="#" class="kt-widget__value kt-font-danger">10 Februari 2023 - 20:07:00 WITA</a>
+											<a href="#" class="kt-widget__value kt-font-brand">10 Oktober 2026 - 20:07:00 WITA</a>
 										</div>
 									</div>
 									<div class="kt-widget__section">
@@ -1425,7 +1425,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
+										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">MAKASSAR</span><hr>
 										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">GATE - 1</span>
 										<a href="#" class="kt-widget__title">
 											<span class="btn btn-youtube btn-sm">KELUAR</span>
@@ -1633,7 +1633,7 @@
 									<div class="kt-widget__section">
 										<div class="kt-widget__blog">
 											<i class="fa fa-clock"></i>
-											<a href="#" class="kt-widget__value kt-font-danger">10 Februari 2023 - 20:07:00 WITA</a>
+											<a href="#" class="kt-widget__value kt-font-brand">10 Oktober 2026 - 20:07:00 WITA</a>
 										</div>
 									</div>
 									<div class="kt-widget__section">
@@ -1658,7 +1658,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
+										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">MAKASSAR</span><hr>
 										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">GATE - 1</span>
 										<a href="#" class="kt-widget__title">
 											<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MASUK</span>
@@ -1852,7 +1852,7 @@
 									<div class="kt-widget__section">
 										<div class="kt-widget__blog">
 											<i class="fa fa-clock"></i>
-											<a href="#" class="kt-widget__value kt-font-danger">10 Februari 2023 - 20:07:00 WITA</a>
+											<a href="#" class="kt-widget__value kt-font-brand">10 Oktober 2026 - 20:07:00 WITA</a>
 										</div>
 									</div>
 									<div class="kt-widget__section">
@@ -1877,7 +1877,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
+										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">MAKASSAR</span><hr>
 										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">GATE - 1</span>
 										<a href="#" class="kt-widget__title">
 											<span class="btn btn-youtube btn-sm">KELUAR</span>
@@ -2085,7 +2085,7 @@
 									<div class="kt-widget__section">
 										<div class="kt-widget__blog">
 											<i class="fa fa-clock"></i>
-											<a href="#" class="kt-widget__value kt-font-danger">10 Februari 2023 - 20:07:00 WITA</a>
+											<a href="#" class="kt-widget__value kt-font-brand">10 Oktober 2026 - 20:07:00 WITA</a>
 										</div>
 									</div>
 									<div class="kt-widget__section">
@@ -2115,7 +2115,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
+										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">MAKASSAR</span><hr>
 										<span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">GATE - 2</span>
 										<a href="#" class="kt-widget__title">
 											<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MASUK</span>
@@ -2309,7 +2309,7 @@
 									<div class="kt-widget__section">
 										<div class="kt-widget__blog">
 											<i class="fa fa-clock"></i>
-											<a href="#" class="kt-widget__value kt-font-danger">10 Februari 2023 - 20:07:00 WITA</a>
+											<a href="#" class="kt-widget__value kt-font-brand">10 Oktober 2026 - 20:07:00 WITA</a>
 										</div>
 									</div>
 									<div class="kt-widget__section">
@@ -2334,7 +2334,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
+										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">MAKASSAR</span><hr>
 										<span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">GATE - 2</span>
 										<a href="#" class="kt-widget__title">
 											<span class="btn btn-youtube btn-sm">KELUAR</span>
@@ -2542,7 +2542,7 @@
 									<div class="kt-widget__section">
 										<div class="kt-widget__blog">
 											<i class="fa fa-clock"></i>
-											<a href="#" class="kt-widget__value kt-font-danger">10 Februari 2023 - 20:07:00 WITA</a>
+											<a href="#" class="kt-widget__value kt-font-brand">10 Oktober 2026 - 20:07:00 WITA</a>
 										</div>
 									</div>
 									<div class="kt-widget__section">
@@ -2567,7 +2567,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
+										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">MAKASSAR</span><hr>
 										<span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">GATE - 2</span>
 										<a href="#" class="kt-widget__title">
 											<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MASUK</span>
@@ -2761,7 +2761,7 @@
 									<div class="kt-widget__section">
 										<div class="kt-widget__blog">
 											<i class="fa fa-clock"></i>
-											<a href="#" class="kt-widget__value kt-font-danger">10 Februari 2023 - 20:07:00 WITA</a>
+											<a href="#" class="kt-widget__value kt-font-brand">10 Oktober 2026 - 20:07:00 WITA</a>
 										</div>
 									</div>
 									<div class="kt-widget__section">
@@ -2786,7 +2786,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
+										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">MAKASSAR</span><hr>
 										<span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">GATE - 2</span>
 										<a href="#" class="kt-widget__title">
 											<span class="btn btn-youtube btn-sm">KELUAR</span>
@@ -2994,7 +2994,7 @@
 									<div class="kt-widget__section">
 										<div class="kt-widget__blog">
 											<i class="fa fa-clock"></i>
-											<a href="#" class="kt-widget__value kt-font-danger">10 Februari 2023 - 20:07:00 WITA</a>
+											<a href="#" class="kt-widget__value kt-font-brand">10 Oktober 2026 - 20:07:00 WITA</a>
 										</div>
 									</div>
 									<div class="kt-widget__section">
@@ -3019,7 +3019,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
+										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">MAKASSAR</span><hr>
 										<span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">GATE - 2</span>
 										<a href="#" class="kt-widget__title">
 											<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MASUK</span>
@@ -3213,7 +3213,7 @@
 									<div class="kt-widget__section">
 										<div class="kt-widget__blog">
 											<i class="fa fa-clock"></i>
-											<a href="#" class="kt-widget__value kt-font-danger">10 Februari 2023 - 20:07:00 WITA</a>
+											<a href="#" class="kt-widget__value kt-font-brand">10 Oktober 2026 - 20:07:00 WITA</a>
 										</div>
 									</div>
 									<div class="kt-widget__section">
@@ -3238,7 +3238,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
+										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">MAKASSAR</span><hr>
 										<span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">GATE - 2</span>
 										<a href="#" class="kt-widget__title">
 											<span class="btn btn-youtube btn-sm">KELUAR</span>
@@ -3446,7 +3446,7 @@
 									<div class="kt-widget__section">
 										<div class="kt-widget__blog">
 											<i class="fa fa-clock"></i>
-											<a href="#" class="kt-widget__value kt-font-danger">10 Februari 2023 - 20:07:00 WITA</a>
+											<a href="#" class="kt-widget__value kt-font-brand">10 Oktober 2026 - 20:07:00 WITA</a>
 										</div>
 									</div>
 									<div class="kt-widget__section">
@@ -3471,7 +3471,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
+										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">MAKASSAR</span><hr>
 										<span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">GATE - 2</span>
 										<a href="#" class="kt-widget__title">
 											<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MASUK</span>
@@ -3665,7 +3665,7 @@
 									<div class="kt-widget__section">
 										<div class="kt-widget__blog">
 											<i class="fa fa-clock"></i>
-											<a href="#" class="kt-widget__value kt-font-danger">10 Februari 2023 - 20:07:00 WITA</a>
+											<a href="#" class="kt-widget__value kt-font-brand">10 Oktober 2026 - 20:07:00 WITA</a>
 										</div>
 									</div>
 									<div class="kt-widget__section">
@@ -3690,7 +3690,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
+										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">MAKASSAR</span><hr>
 										<span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">GATE - 2</span>
 										<a href="#" class="kt-widget__title">
 											<span class="btn btn-youtube btn-sm">KELUAR</span>
@@ -3898,7 +3898,7 @@
 									<div class="kt-widget__section">
 										<div class="kt-widget__blog">
 											<i class="fa fa-clock"></i>
-											<a href="#" class="kt-widget__value kt-font-danger">10 Februari 2023 - 20:07:00 WITA</a>
+											<a href="#" class="kt-widget__value kt-font-brand">10 Oktober 2026 - 20:07:00 WITA</a>
 										</div>
 									</div>
 									<div class="kt-widget__section">

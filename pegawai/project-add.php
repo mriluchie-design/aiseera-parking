@@ -219,7 +219,7 @@
 								</div>
 								<div class="kt-subheader__toolbar">
 									<div class="dropdown dropdown-inline" ddata-placement="left">
-											<a href="#" class="btn btn-label btn-sm" data-toggle="dropdown">
+											<a href="#" class="btn btn-label-brand btn-sm" data-toggle="dropdown">
 												<i class="flaticon-reply"></i> Kembali</button>
 
 												<!--<i class="flaticon2-plus"></i>-->

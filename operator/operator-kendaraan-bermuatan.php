@@ -29,7 +29,7 @@
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Kendaraan Bermuatan</span>
+											Pass Kade</span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
 										</form>
@@ -62,7 +62,7 @@ function goBack() {
 			
 			
 			<div class="btn-group">
-				<button type="button" class="btn btn-brand">
+				<button type="button" class="btn btn-success">
 					<i class="fa fa-check-circle"></i>
 					<span class="kt-hidden-mobile">Simpan & Cetak</span>
 				</button>
@@ -118,16 +118,8 @@ function goBack() {
     		                        </span>
     		                    </div>
                         </div>
-						<div class="col-lg-2" >
-                          <label style="color:#a2050c">Gol :</label>
-                          <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2" selected="">I</option>
-                                      <option value="2">II</option>
-                                      <option value="2">III</option>
-                                      <option value="2">IV</option>
-                                  </select>
-                        </div>
-						<div class="col-lg-4" >
+						
+						<div class="col-lg-6" >
                           <label style="color:#a2050c">Kendaraan :</label>
                           <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="2" selected="">Mobil</option>

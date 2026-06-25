@@ -72,7 +72,7 @@ function goBack() {
 
 							</div>
 						</div>
-<div class="tab-content" style="background:#f2f3f8;overflow:scroll;height:800px">
+<div class="tab-content" style="background:#f2f3f8;overflow:scroll;height:auto;">
 							<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid mt-3">
 								<div class="bg-white w-50 ml-auto mr-auto">
 									

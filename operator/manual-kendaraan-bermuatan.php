@@ -62,7 +62,7 @@ function goBack() {
 			
 			
 			<div class="btn-group">
-				<button type="button" class="btn btn-brand">
+				<button type="button" class="btn btn-success">
 					<i class="fa fa-check-circle"></i>
 					<span class="kt-hidden-mobile">Simpan & Cetak</span>
 				</button>
@@ -118,16 +118,8 @@ function goBack() {
     		                        </span>
     		                    </div>
                         </div>
-						<div class="col-lg-2" >
-                          <label style="color:#a2050c">Gol :</label>
-                          <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2" selected="">I</option>
-                                      <option value="2">II</option>
-                                      <option value="2">III</option>
-                                      <option value="2">IV</option>
-                                  </select>
-                        </div>
-						<div class="col-lg-4" >
+						
+						<div class="col-lg-6" >
                           <label style="color:#a2050c">Kendaraan :</label>
                           <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="2" selected="">Mobil</option>

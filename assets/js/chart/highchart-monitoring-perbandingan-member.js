@@ -9,6 +9,7 @@ Highcharts.chart('container-perbandingan', {
         text:
             ''
     },
+	
     xAxis: {
         categories: ['2023', '2024', '2025', '2026'],
         crosshair: true,
@@ -23,12 +24,15 @@ Highcharts.chart('container-perbandingan', {
         }
     },
     tooltip: {
-        valueSuffix: ' (Kendaraan)'
+        valueSuffix: 'Kendaraan'
     },
     plotOptions: {
-        column: {
-            pointPadding: 0.2,
-            borderWidth: 0
+        series: {
+            borderWidth: 0,
+            dataLabels: {
+                enabled: true,
+                format: '{point.y}'
+            }
         }
     },
     series: [

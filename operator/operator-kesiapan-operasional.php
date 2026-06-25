@@ -1090,7 +1090,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><br><br>
+										<span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">MAKASSAR</span><hr>
 										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">GATE - 1</span>
 										<a href="#" class="kt-widget__title">
 											<span class="btn btn-brand btn-sm">MASUK</span>

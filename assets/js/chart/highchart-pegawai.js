@@ -122,10 +122,6 @@ Highcharts.chart('container-pegawai', {
         }, {
             name: 'Pegawai Kontrak',
             y: 88
-        }, {
-            name: 'Pegawai Honor',
-            y: 4
-        
-        }]
+        }, ]
     }]
 });

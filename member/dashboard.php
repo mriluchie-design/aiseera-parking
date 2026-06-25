@@ -50,27 +50,33 @@ License: You must have a valid license purchased only from themeforest(the above
 									<!--begin:: Widgets/Activity-->
 									<div class="kt-portlet kt-portlet--fit kt-portlet--head-lg kt-portlet--head-overlay kt-portlet--skin-solid kt-portlet--height-fluid">
 										<div class="kt-portlet__head kt-portlet__head--noborder kt-portlet__space-x">
-											<div class="kt-portlet__head-label">
+											<div class="kt-portlet__head-label" style="margin-left:20px">
 												<h3 class="kt-portlet__head-title">
 													Statistik Member
 												</h3>
 											</div>
-											<div class="kt-portlet__head-toolbar">
+											<div class="kt-portlet__head-toolbar" style="margin-right:20px">
 												<a href="#" class="btn btn-label-light btn-sm dropdown-toggle" data-toggle="dropdown">
-													Tahun ini
+													2026
 												</a>
 												<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 													<ul class="kt-nav">
 														<li class="kt-nav__item">
 															<a href="#" class="kt-nav__link">
 																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
-																<span class="kt-nav__link-text">Bulan ini</span>
+																<span class="kt-nav__link-text">2025</span>
 															</a>
 														</li>
 														<li class="kt-nav__item">
 															<a href="#" class="kt-nav__link">
 																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
-																<span class="kt-nav__link-text">Hari ini</span>
+																<span class="kt-nav__link-text">2024</span>
+															</a>
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">Keseluruhan</span>
 															</a>
 														</li>
 														

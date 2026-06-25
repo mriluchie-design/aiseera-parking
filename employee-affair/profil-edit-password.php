@@ -23,11 +23,11 @@
 					<i class="flaticon-reply"></i> Kembali</button>
 					<!--<i class="flaticon2-plus"></i>-->
 				</a>
-				&nbsp;
+				
 			</div>
 			<div class="btn-group">
-				<button type="button" class="btn btn-brand">
-					<i class="la la-check"></i>
+				<button type="button" class="btn btn-success">
+					<i class="fa fa-check-circle"></i>
 					<span class="kt-hidden-mobile">Simpan</span>
 				</button>
 				
@@ -257,13 +257,13 @@
 
 																<div class="form-group row">
 						<div class="col-lg-3">
-                          <label>Email Kantor :</label>
+                          <label>No. Handphone :</label>
                           <div class="form-group">
 																							<div class="input-group email">
 																								<input type="text" class="form-control form-control-sm" placeholder="xxx@xxx.xxx">
 																								<div class="input-group-append">
 																									<span class="input-group-text">
-																										<i class="la la-envelope"></i>
+																										<i class="fa fa-mobile-alt"></i>
 																									</span>
 																								</div>
 																							</div>

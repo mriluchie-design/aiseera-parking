@@ -829,7 +829,7 @@
 										  <tr>
 										    <td id="kt_table_1" style="text-align:right">25</td>
 										    <td style="text-align:center" nowrap><span class="btn btn-success btn-sm">Keluar</span></td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">Berangkat</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">Berangkat</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Motor</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
@@ -856,7 +856,7 @@
 										  <tr>
 										    <td id="kt_table_1" style="text-align:right">26</td>
 										    <td style="text-align:center" nowrap><span class="btn btn-success btn-sm">Keluar</span></td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">Berangkat</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">Berangkat</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Mobil</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">

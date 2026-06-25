@@ -63,7 +63,7 @@ function goBack() {
 				
 			</div>
 			<div class="btn-group">
-				<button type="button" class="btn btn-brand">
+				<button type="button" class="btn btn-success">
 					<i class="fa fa-check-circle"></i>
 					<span class="kt-hidden-mobile">Simpan & Cetak</span>
 				</button>
@@ -114,17 +114,8 @@ function goBack() {
 						
 						
 						<div class="form-group row">
-						<div class="col-lg-3" >
-                          <label style="color:#a2050c">Gol :</label>
-                          <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2" selected="">I</option>
-                                      <option value="2">II</option>
-                                      <option value="2">III</option>
-                                      <option value="2">IV</option>
-									  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-                                  </select>
-                        </div>
-						<div class="col-lg-4" >
+						
+						<div class="col-lg-6" >
                           <label style="color:#a2050c">Kendaraan :</label>
                           <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="2" selected="">Mobil</option>
@@ -135,17 +126,17 @@ function goBack() {
 									  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
                                   </select>
                         </div>
-						<div class="col-lg-5">
+						<div class="col-lg-6">
                           <label class="">Plat Kendaraan :</label>
                           <input type="text" class="form-control form-control-sm" placeholder="">
                         </div>
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
-						<div class="col-lg-7" >
+						<div class="col-lg-6" >
                           <label>Tanggal Keluar :</label>
                           <div class="input-group date">
-													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" disabled>
+													<input type="text" class="form-control form-control-sm" placeholder="5 Mei 2026" id="kt_datepicker_2" disabled>
 													<div class="input-group-append">
 														<span class="input-group-text">
 															<i class="la la-calendar-check-o"></i>
@@ -154,10 +145,10 @@ function goBack() {
 												</div>
                         </div>
 						
-						<div class="col-lg-5">
+						<div class="col-lg-6">
                           <label>Jam Keluar :</label>
                           <div class="input-group timepicker">
-													<input class="form-control form-control-sm" id="kt_timepicker_2" readonly="" placeholder="10:44:00" type="text" disabled>
+													<input class="form-control form-control-sm" id="kt_timepicker_2" placeholder="10:44:00" type="text" disabled>
 													<div class="input-group-append">
 														<span class="input-group-text">
 															<i class="la la-clock-o"></i>

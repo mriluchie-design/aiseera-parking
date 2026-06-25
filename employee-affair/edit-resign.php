@@ -8,18 +8,23 @@
 							<div class="kt-container  kt-container--fluid ">
 								<div class="kt-subheader__main">
 									<h3 class="kt-subheader__title">
-										<span class="kt-portlet__head-icon">
-											<i class="kt-font-brand flaticon2-list-1"></i>
-										</span>
-										&nbsp;
-										&nbsp;
-											Form Edit Resign Pegawai
-									</h3>
+                    <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
+                    Edit
+                </h3>
+				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
+									<div class="kt-subheader__group" id="kt_subheader_search">
+										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
+											Resign Pegawai</span>
+										<form class="kt-margin-l-20" id="kt_subheader_search_form">
+
+										</form>
+									</div>
+
 
 								</div>
 								<div class="kt-subheader__toolbar">
 									<div class="dropdown dropdown-inline" data-placement="left">
-											<a href="pegawai-resign.php" class="btn btn-label btn-sm" data-toggle="dropdown" onclick="goBack()">
+											<a href="pegawai-resign.php" class="btn btn-label-brand btn-sm" data-toggle="dropdown" onclick="goBack()">
 												<i class="flaticon-reply"></i> Kembali
                         <script>
 function goBack() {
@@ -83,7 +88,7 @@ function goBack() {
 										<div class="kt-wizard-v4__nav-item" data-ktwizard-type="step">
 											<div class="kt-wizard-v4__nav-body">
 												<div class="kt-wizard-v4__nav-icon">
-													<i class="flaticon-list-1"></i>
+													<i class="flaticon-user-ok"></i>
 												</div>
 												<div class="kt-wizard-v4__nav-label">
 													<div class="kt-wizard-v4__nav-label-title">
@@ -98,17 +103,17 @@ function goBack() {
 												</div>
 											</div>
 										</div>
-										<div class="kt-wizard-v4__nav-item" data-ktwizard-type="step">
+<div class="kt-wizard-v4__nav-item" data-ktwizard-type="step">
 											<div class="kt-wizard-v4__nav-body">
 												<div class="kt-wizard-v4__nav-icon">
-													<i class="flaticon-interface-10"></i>
+													<i class="flaticon-background"></i>
 												</div>
 												<div class="kt-wizard-v4__nav-label">
 													<div class="kt-wizard-v4__nav-label-title">
-														Preview Surat
+														Surat
 													</div>
 													<div class="kt-wizard-v4__nav-label-desc">
-														Pemberhentian
+														Resign Pegawai
 													</div>
 												</div>
 												<div class="kt-wizard-v4__nav-number kt-block-center">
@@ -126,11 +131,29 @@ function goBack() {
 														Preview Surat
 													</div>
 													<div class="kt-wizard-v4__nav-label-desc">
-														Pengalaman Kerja
+														Pemberhentian
 													</div>
 												</div>
 												<div class="kt-wizard-v4__nav-number kt-block-center">
 													4
+												</div>
+											</div>
+										</div>
+										<div class="kt-wizard-v4__nav-item" data-ktwizard-type="step">
+											<div class="kt-wizard-v4__nav-body">
+												<div class="kt-wizard-v4__nav-icon">
+													<i class="flaticon-browser"></i>
+												</div>
+												<div class="kt-wizard-v4__nav-label">
+													<div class="kt-wizard-v4__nav-label-title">
+														Preview Surat
+													</div>
+													<div class="kt-wizard-v4__nav-label-desc">
+														Pengalaman Kerja
+													</div>
+												</div>
+												<div class="kt-wizard-v4__nav-number kt-block-center">
+													5
 												</div>
 											</div>
 										</div>
@@ -160,21 +183,23 @@ function goBack() {
                       <div class="form-group row">
                        <div class="col-lg-4">
                           <label>Cari Pegawai :</label>
-                          <select class="form-control kt-selectpicker form-control" data-live-search="true">
-					 															<optgroup label="Direksi">
-					 																<option value="AK"selected >000000001 - Muhammad Nasrullah, S.Kom</option>
+                          <select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
+					 															<optgroup label="Direksi" class="a">
+					 																<option value="AK"selected >Muhammad Nasrullah, S.Kom</option>
 					 															</optgroup>
-					 															<optgroup label="Umum">
-																					<option value="HI">000000003 - Deddy Rafsanjani, S.Sos</option>
+					 															
+																				<optgroup label="Keuangan dan Asset" class="a">
+					 																<option value="HI">Oklan Zulkifli, SE</option>
 					 															</optgroup>
-																				<optgroup label="Keuangan dan Asset">
-					 																<option value="HI">000000002 - Oklan Zulkifli, SE</option>
+																				<optgroup label="Operasional" class="a">
+					 																<option value="HI">Deddy Rafsanjani, S.Sos</option>
+					 																<option value="HI">Nursiah, S.Kom</option>
 					 															</optgroup>
-																				<optgroup label="Operasional">
-					 																<option value="HI">000000004 - Nursiah, S.Kom</option>
+																				<optgroup label="Teknologi dan Riset" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
 					 															</optgroup>
-																				<optgroup label="Pengembangan Usaha dan Kerjasama">
-					 																<option value="HI">000000005 - Muhammad Ramadhan Lerrick, ST</option>
+																				<optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
 					 															</optgroup>
 
 					 														</select>
@@ -237,13 +262,13 @@ function goBack() {
 						<div class="col-lg-2">
                           <label class="">No. Surat Pemberhentian :</label>
                           <div class="form-group">
-                        <input type="text" class="form-control form-control-sm" placeholder="" >
+                        <input type="text" class="form-control form-control-sm" placeholder="Auto" disabled>
                       </div>
                         </div>
 						<div class="col-lg-2">
                           <label class="">No. Surat Pengalaman Kerja :</label>
                           <div class="form-group">
-                        <input type="text" class="form-control form-control-sm" placeholder="" >
+                        <input type="text" class="form-control form-control-sm" placeholder="Auto" disabled>
                       </div>
                         </div>
 						<div class="col-lg-2">
@@ -279,7 +304,7 @@ function goBack() {
                       </div>
                         </div>
 						<div class="col-lg-2">
-                          <label class="">Tanggal Efektif :</label>
+                          <label class="">Tanggal Efektif Resign :</label>
                           <div class="form-group">
                          <div class="input-group date">
 													<input type="text" class="form-control form-control-sm" readonly="" placeholder="= Pilih Tanggal =" id="kt_datepicker_2">
@@ -310,6 +335,8 @@ function goBack() {
 										
 							<!--end:: Portlet-->
 							<div class="row">
+							
+										<div class="row">
 							
 										<div class="col-xl-5">
 
@@ -342,7 +369,7 @@ function goBack() {
 																							<tfoot>
 																								<tr>
 																									<td colspan="6">
-																										<button type="button" class="btn btn-success btn-sm float-right" href="javascript:;" data-repeater-create=""> <i class="fa fa-plus"></i> Tambah Data</button>
+																										<button type="button" class="btn btn-label-brand float-right" href="javascript:;" data-repeater-create=""> <i class="fa fa-plus-circle"></i> Tambah Data</button>
 																									</td>
 																								</tr>
 																							</tfoot>
@@ -379,7 +406,7 @@ function goBack() {
 											<div class="kt-portlet__content">
 											<div class="form-group row">
 						<div id="kt_repeater_2">
-												<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_repeater_2">
+												<table class="table table-striped- table-bordered table-hover table-checkable" id="kt_repeater_1">
 																								<thead>
 																								<tr style="text-align:center">
 																								  <td width="10px" bgcolor="#f7fcff">No</td>
@@ -391,20 +418,68 @@ function goBack() {
 																								<tr data-repeater-item>
 																								  <td style="text-align:center">1</td>
 																									<td style="text-align:left"><select class="form-control kt-selectpicker" data-live-search="true">
-                              <option value="AK">Direktur Utama</option>
-                              <option value="HI">Direktur Keuangan</option>
-                              <option value="AR">Arsip</option>
-                            </select></td>
+                  
+									 <optgroup label="Direksi" class="a">
+                                      <option value="2" selected="">Yth, Direktur Utama</option>
+                                      <option value="2">Yth, Direktur Keuangan</option>
+                                      <option value="2">Yth, Direktur Operasional</option>
+                                      <option value="2">Yth, Direktur Teknologi & Riset</option>
+                                      <option value="2">Yth, Direktur Pengembangan Usaha dan Kerjasama</option>
+									  </optgroup>
+                                     <optgroup label="Lainnya" class="a">
+ <option value="2">Pertinggal</option>
+</optgroup>
+<option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
+                                  </select></td>
 																									<td style="text-align:center"><a href="javascript:;" data-repeater-delete="" class="btn btn-outline-hover-danger btn-sm btn-icon" data-toggle="dropdown"><i class="fa flaticon2-trash"></i></a></td>
                                             
                                                                                                     
 																								</tr>
-																								
+																								<tr>
+																								  <td style="text-align:center">2</td>
+																									<td style="text-align:left"><select class="form-control kt-selectpicker" data-live-search="true">
+                  
+									 <optgroup label="Direksi" class="a">
+                                      <option value="2">Yth, Direktur Utama</option>
+                                      <option value="2"  selected>Yth, Direktur Keuangan</option>
+                                      <option value="2">Yth, Direktur Operasional</option>
+                                      <option value="2">Yth, Direktur Teknologi & Riset</option>
+                                      <option value="2">Yth, Direktur Pengembangan Usaha dan Kerjasama</option>
+									  </optgroup>
+                                     <optgroup label="Lainnya" class="a">
+ <option value="2">Pertinggal</option>
+</optgroup>
+<option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
+                                  </select></td>
+																									<td style="text-align:center"><a href="javascript:;" data-repeater-delete="" class="btn btn-outline-hover-danger btn-sm btn-icon" data-toggle="dropdown"><i class="fa flaticon2-trash"></i></a></td>
+                                            
+                                                                                                    
+																								</tr>
+<tr>
+																								  <td style="text-align:center">3</td>
+																									<td style="text-align:left"><select class="form-control kt-selectpicker" data-live-search="true">
+                  
+									 <optgroup label="Direksi" class="a">
+                                      <option value="2" selected="">Direktur Utama</option>
+                                      <option value="2">Direktur Keuangan</option>
+                                      <option value="2">Direktur Operasional</option>
+                                      <option value="2">Direktur Teknologi & Riset</option>
+                                      <option value="2">Direktur Pengembangan Usaha dan Kerjasama</option>
+									  </optgroup>
+                                     <optgroup label="Lainnya" class="a">
+ <option value="2" selected="">Pertinggal</option>
+</optgroup>
+<option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
+                                  </select></td>
+																									<td style="text-align:center"><a href="javascript:;" data-repeater-delete="" class="btn btn-outline-hover-danger btn-sm btn-icon" data-toggle="dropdown"><i class="fa flaticon2-trash"></i></a></td>
+                                            
+                                                                                                    
+																								</tr>
 																							</tbody>
 																							<tfoot>
 																								<tr>
 																									<td colspan="6">
-																										<button type="button" class="btn btn-success btn-sm float-right" href="javascript:;" data-repeater-create=""> <i class="fa fa-plus"></i> Tambah Data</button>
+																										<button type="button" class="btn btn-label-brand float-right" href="javascript:;" data-repeater-create=""> <i class="fa fa-plus-circle"></i> Tambah Data</button>
 																									</td>
 																								</tr>
 																							</tfoot>
@@ -485,6 +560,7 @@ function goBack() {
 									
 										
 														</div>
+													</div>
 													</div>
 													</div>
 								
@@ -849,11 +925,13 @@ function goBack() {
 														<div class="kt-form__section kt-form__section--first">
 															<div class="kt-wizard-v4__form">
 														<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid mt-3">
-														
+														<div class="kt-portlet__body">
+																								<div class="kt-portlet__content">
+																									<div class="tab-content" style="background:#f2f3f8;overflow:scroll;height:800px">
 
-								<div class="bg-white w-50 ml-auto mr-auto">
-									<img src="../assets/img/header.png" style="width:700px; display:block; margin-left:auto;margin-right:auto;margin-bottom:20px;padding-top:20px;"/>
-									<table align="center" border="0" cellpadding="1" style="width: 600px; text-align:justify; line-height:1.5; font-family: Roboto; font-size: 13px;">
+								<div class="bg-white w-70 ml-auto mr-auto">
+									
+									<table align="center" border="0" cellpadding="1" style="width: 700px; margin-top:50px; position:relative; top:150px; text-align:justify; line-height:1.5; font-family: Roboto; font-size: 13px;">
   <tr>
     <td colspan="7" style="text-align: center"><u><b>SURAT PEMBERHENTIAN</b></u></td>
   </tr>
@@ -878,7 +956,7 @@ function goBack() {
  
 </table>
 <br>
-<table align="center" border="0" cellpadding="1" style="width: 600px; text-align:justify; line-height:1.5; font-family: Roboto; font-size: 13px;">
+<table align="center" border="0" cellpadding="1" style="width: 700px; position:relative; top:150px; text-align:justify; line-height:1.5; font-family: Roboto; font-size: 13px;">
   <tr>
     <td style="text-align: left"><strong>B.</strong></td>
     <td colspan="7" style="text-align: left"><strong>Disampaikan Kepada :</strong></td>
@@ -929,7 +1007,7 @@ function goBack() {
  
 </table>
 <div>&nbsp;</div>
-<table align="center" border="0" cellpadding="1" style="width: 600px; text-align:justify; line-height:1.5; font-family: Roboto; font-size: 13px;">
+<table align="center" border="0" cellpadding="1" style="width: 700px; position:relative; top:150px; text-align:justify; line-height:2; font-family: Roboto; font-size: 13px;">
   <tr>
     <td style="text-align: left"><strong>C.</strong></td>
     <td colspan="6" style="text-align: left"><strong>Dasar Pertimbangan:</strong></td>
@@ -953,17 +1031,15 @@ function goBack() {
     <td colspan="4">&nbsp;</td>
   </tr>
 </table><br>
-<table align="center" border="0" cellpadding="1" style="width: 600px; text-align:justify; line-height:1.5; font-family: Roboto; font-size: 13px;">
+<table align="center" border="0" cellpadding="1" style="width: 700px; position:relative; top:150px; text-align:justify; line-height:1.5; font-family: Roboto; font-size: 13px;">
   <tr>
     <td colspan="7" style="text-align: justify">Demikian surat pemberhentian ini dibuat dan  disampaikan kepada yang bersangkutan untuk diketahui.</td>
   </tr>
 </table>
 
-								
-</div>
-								</div>
+
 								<div><span>&nbsp;</span>
-   <table align="center" border="0" cellpadding="1" style="width: 600px; text-align:left; line-height:1.5; font-family: Roboto; font-size: 13px;">
+   <table align="center" border="0" cellpadding="1" style="width: 700px;  margin-top:200px; position:relative; top:150px; text-align:left; line-height:1.5; font-family: Roboto; font-size: 13px;">
 							<tr>
 							  <td width="3" valign="top">&nbsp;</td>
 							  <td width="3" valign="top">&nbsp;</td>
@@ -975,276 +1051,29 @@ function goBack() {
 							  <td colspan="4" valign="top">&nbsp;</td>
   </tr>
 							<tr>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td width="262"><p>&nbsp;</p></td>
-							  <td width="6" >&nbsp;</td>
-							  <td width="31" rowspan="3" style="text-align: right"><img src="../assets/img/paraf.png" alt="" width="50" height="50" /></td>
-							  <td width="217" style="text-align: left">[Tempat, Tanggal/Bulan/Tahun]</td>
-  </tr>
-							<tr>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top" style="text-align: left">[Nama-Perusahaan]</td>
-  </tr>
-							
-							<tr>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top" style="text-align: left">&nbsp;</td>
-  </tr>
-							<tr>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top" style="text-align: left"><img src="../assets/img/qrcode.jpg" width="75" height="75" /></td>
-  </tr>
-							<tr>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top" style="text-align: left">&nbsp;</td>
-  </tr>
-							<tr>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top" style="text-align: left"><u><b>[Nama-Pejabat]</b></u></td>
-  </tr>
-							<tr>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top" style="text-align: left">Direktur Utama</td>
-  </tr>
-							<tr>
-							  <td colspan="11" valign="top">&nbsp;</td>
-  </tr>
-							<tr>
-							  <td colspan="11" valign="top">Tembusan :</td>
-  </tr>
-							<tr>
-							  <td valign="top">1.</td>
-							  <td colspan="10" valign="top">Yth, Direktur Utama</td>
-  </tr>
-							<tr>
-							  <td valign="top">2.</td>
-							  <td colspan="10" valign="top">Yth, Direktur Umum</td>
-  </tr>
-							<tr>
-							  <td valign="top">3.</td>
-							  <td colspan="10" valign="top">Yth, Direktur Keuangan</td>
-  </tr>
-							<tr>
-							  <td valign="top">4.</td>
-							  <td colspan="10" valign="top">Arsip</td>
-  </tr>
-							
-							<tr>
-							  <td colspan="11" valign="top">&nbsp;</td>
-  </tr>
-							<tr>
-							  <td colspan="11" valign="top"><hr /></td>
-  </tr>
-							<tr>
-							  <td colspan="11" valign="top"><span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 10px;"><i>Sesuai dengan ketentuan yang berlaku, Perusahaan Umum Daerah Parkir Makassar Raya mengatur bahwa surat ini telah ditandatangani dan diverifikasi secara elektronik, sehingga tidak diperlukan tanda tangan basah pada Surat ini</i></span></td>
-  </tr>
-							<tr>
-							  <td colspan="11" valign="top">&nbsp;</td>
-  </tr>
-  </table>
-  <img src="../assets/img/footer.png" style="width:700px; display:block; margin-left:auto;margin-right:auto;margin-bottom:20px;padding-bottom:20px" />
-					</div>
-													</div>
-													</div>
-													</div>
-
-													<!--end: Form Wizard Step 3-->
-
-													<!--begin: Form Wizard Step 4-->
-													<div class="kt-wizard-v4__content" data-ktwizard-type="step-content">
-													<div class="kt-form__section kt-form__section--first">
-															<div class="kt-wizard-v4__form">
-															
-														<div class="bg-white w-50 ml-auto mr-auto">
-									<img src="../assets/img/header.png" style="width:700px; display:block; margin-left:auto;margin-right:auto;margin-bottom:20px;padding-top:20px;"/>
-									<table align="center" border="0" cellpadding="1" style="width: 600px; text-align:justify; line-height:1.5; font-family: Roboto; font-size: 13px;">
-  <tr>
-    <td colspan="7" style="text-align: center"><u><b>SURAT PENGALAMAN KERJA</b></u></td>
-  </tr>
-  <tr>
-    <td colspan="7" style="text-align: center">Nomor : [Nomor-Surat]/[Nama-Perusahaan]/[Bulan]/[Tahun]</td>
-  </tr>
-  <tr>
-    <td colspan="7" style="text-align: right">&nbsp;</td>
-  </tr>
-  <tr>
-    <td colspan="7" style="text-align: left">Yang bertanda tangan dibawah ini menerangkan bahwa :</td>
-  </tr>
-  <tr>
-    <td style="text-align: right">&nbsp;</td>
-    <td valign="top">&nbsp;</td>
-    <td>&nbsp;</td>
-    <td colspan="4">&nbsp;</td>
-  </tr>
-  <tr>
-    <td style="text-align: right">&nbsp;</td>
-    <td valign="top">Nama</td>
-    <td>:</td>
-    <td width="435" colspan="4">Khaeriah Djamaludin, SH</td>
-  </tr>
-  <tr>
-    <td style="text-align: right">&nbsp;</td>
-    <td valign="top">NIP</td>
-    <td>:</td>
-    <td colspan="4">238230923015</td>
-  </tr>
-  <tr>
-    <td width="40" style="text-align: right">&nbsp;</td>
-    <td width="77" valign="top">Alamat.</td>
-    <td width="30">:</td>
-    <td colspan="4">Jl. Toddopuli Raya Timur Kompleks Villa Surya Mas J/9</td>
-  </tr>
-</table>
-<br>
-<table align="center" border="0" cellpadding="1" style="width: 600px; text-align:justify; line-height:1.5; font-family: Roboto; font-size: 13px;">
-  <tr>
-    <td colspan="8" style="text-align: justify">Adalah benar pernah bekerja pada <strong>[Nama-Perusahaan]</strong> terhitung sejak tanggal<strong> [Tanggal-Masuk-Kerja]</strong> hingga <strong>[Tanggal-Efektif]</strong> dengan jabatan sebagai <strong>[Jabatan-Pegawai]</strong>. Selama bekerja, yang bersangkutan telah bekerja dengan baik dalam mengerjakan tugas dan tanggung jawabnya serta tidak pernah terlibat dalam tindakan yang merugikan perusahaan.</td>
-  </tr>
-  <tr>
-    <td width="12" style="text-align: right">&nbsp;</td>
-    <td width="22" valign="top">&nbsp;</td>
-    <td width="123" valign="top">&nbsp;</td>
-    <td width="14">&nbsp;</td>
-    <td width="407" colspan="4">&nbsp;</td>
-  </tr>
-</table>
-<table align="center" border="0" cellpadding="1" style="width: 600px; text-align:justify; line-height:1.5; font-family: Roboto; font-size: 13px;">
-  <tr>
-    <td colspan="8" style="text-align: justify">Demikian surat keterangan ini dibuat dengan sebenar-benarnya untuk dipergunakan sebagaimana mestinya.</td>
-  </tr>
-  <tr>
-    <td width="12" style="text-align: right">&nbsp;</td>
-    <td width="22" valign="top">&nbsp;</td>
-    <td width="123" valign="top">&nbsp;</td>
-    <td width="14">&nbsp;</td>
-    <td width="407" colspan="4">&nbsp;</td>
-  </tr>
-</table><br>
-
-
-								
-</div>
-								</div>
-								<div><span>&nbsp;</span>
-   <table align="center" border="0" cellpadding="1" style="width: 600px; text-align:left; line-height:1.5; font-family: Roboto; font-size: 13px;">
-							<tr>
-							  <td width="3" valign="top">&nbsp;</td>
-							  <td width="3" valign="top">&nbsp;</td>
-							  <td width="3" valign="top">&nbsp;</td>
-							  <td width="16" valign="top">&nbsp;</td>
-							  <td width="3" valign="top">&nbsp;</td>
-							  <td width="3" valign="top">&nbsp;</td>
-							  <td width="7" valign="top">&nbsp;</td>
-							  <td colspan="4" valign="top">&nbsp;</td>
-  </tr>
-							<tr>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td width="262"><p>&nbsp;</p></td>
+							  <td colspan="8" valign="top"><p>Tembusan :</p></td>
 							  <td width="6" >&nbsp;</td>
 							  <td width="31" rowspan="3" style="text-align: right"></td>
 							  <td width="217" style="text-align: left">[Tempat, Tanggal/Bulan/Tahun]</td>
   </tr>
 							<tr>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
+							  <td valign="top">1</td>
+							  <td colspan="7" valign="top">Yth, Direktur Utama</td>
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top" style="text-align: left">[Nama-Perusahaan]</td>
   </tr>
 							
   </tr>
 							<tr>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
+							  <td valign="top">2.</td>
+							  <td colspan="7" valign="top">Yth, Direktur Operasional</td>
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top" style="text-align: left">&nbsp;</td>
   </tr>
 							<tr>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
+							  <td valign="top">3.</td>
+							  <td colspan="7" valign="top">Arsip</td>
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top" style="text-align: left"><img src="../assets/img/qrcode.jpg" width="75" height="75" /></td>
@@ -1257,7 +1086,7 @@ function goBack() {
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">&nbsp;</td>
-							  <td valign="top">&nbsp;</td>
+							  <td width="562" valign="top">&nbsp;</td>
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top" style="text-align: left">&nbsp;</td>
@@ -1291,43 +1120,553 @@ function goBack() {
 							<tr>
 							  <td colspan="11" valign="top">&nbsp;</td>
   </tr>
+							
+							
+							
+							
+							
+  </table>
+<table align="center" class="footnote-1" width="700px" style="margin-top:220px; margin-bottom:50px; padding-top:5px; padding-bottom:20px;">
+        <thead>
+            <tr><th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr></thead>
+        <tbody>
+            <tr>
+                <td colspan="4" style="border-bottom: 1px solid #ccc;"></td>
+            </tr>
+            
+            <tr style="height: 10px"><td></td></tr>
+            <tr style=" width:650px;">
+                <td style="text-align: left;">
+                    <span class="span-qr" style="z-index: 99999">
+                        <!--?xml version="1.0" encoding="UTF-8"?-->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="40" height="40" viewBox="0 0 40 40"><rect x="0" y="0" width="40" height="40" fill="#ffffff"></rect><g transform="scale(1.905)"><g transform="translate(0,0)"><path fill-rule="evenodd" d="M9 0L9 1L8 1L8 3L9 3L9 4L8 4L8 8L6 8L6 9L5 9L5 10L4 10L4 8L3 8L3 9L2 9L2 8L0 8L0 9L2 9L2 10L3 10L3 12L4 12L4 11L7 11L7 10L8 10L8 8L9 8L9 11L8 11L8 12L6 12L6 13L8 13L8 15L9 15L9 16L10 16L10 17L11 17L11 16L12 16L12 17L13 17L13 18L12 18L12 19L10 19L10 20L11 20L11 21L12 21L12 20L13 20L13 19L14 19L14 21L15 21L15 18L16 18L16 19L17 19L17 20L19 20L19 18L20 18L20 20L21 20L21 17L20 17L20 16L21 16L21 14L20 14L20 15L19 15L19 16L18 16L18 13L19 13L19 12L20 12L20 13L21 13L21 12L20 12L20 11L19 11L19 10L21 10L21 9L20 9L20 8L18 8L18 9L17 9L17 8L14 8L14 9L13 9L13 8L12 8L12 7L13 7L13 6L12 6L12 7L11 7L11 6L10 6L10 7L9 7L9 4L10 4L10 0ZM12 0L12 1L11 1L11 4L12 4L12 5L13 5L13 2L12 2L12 1L13 1L13 0ZM6 9L6 10L7 10L7 9ZM11 9L11 10L10 10L10 11L9 11L9 12L8 12L8 13L9 13L9 15L10 15L10 16L11 16L11 14L13 14L13 15L12 15L12 16L13 16L13 17L17 17L17 19L18 19L18 18L19 18L19 17L18 17L18 16L17 16L17 15L16 15L16 14L13 14L13 13L16 13L16 12L14 12L14 10L15 10L15 11L17 11L17 13L18 13L18 12L19 12L19 11L18 11L18 10L19 10L19 9L18 9L18 10L15 10L15 9L14 9L14 10L13 10L13 9ZM12 10L12 11L11 11L11 12L12 12L12 13L13 13L13 12L12 12L12 11L13 11L13 10ZM1 11L1 12L0 12L0 13L1 13L1 12L2 12L2 11ZM9 12L9 13L10 13L10 12ZM14 15L14 16L16 16L16 15ZM8 17L8 18L9 18L9 17ZM8 19L8 21L9 21L9 19ZM0 0L0 7L7 7L7 0ZM1 1L1 6L6 6L6 1ZM2 2L2 5L5 5L5 2ZM14 0L14 7L21 7L21 0ZM15 1L15 6L20 6L20 1ZM16 2L16 5L19 5L19 2ZM0 14L0 21L7 21L7 14ZM1 15L1 20L6 20L6 15ZM2 16L2 19L5 19L5 16Z" fill="#000000"></path></g></g></svg>
+
+                    </span>
+                </td>
+                <td>&nbsp;</td>
+               <td colspan="2" valign="left" style="text-align: center">
+                    <span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Sesuai
+                            dengan ketentuan Peraturan Perusahaan yang berlaku, Perusahaan mengatur
+                            bahwa
+                            Dokumen ini telah ditandatangani dan diverifikasi secara elektronik, sehingga
+                            tidak
+                            diperlukan
+                            tanda tangan basah pada Dokumen ini.</i></span></td>
+            </tr>
+<tr style="height: 10px"><td></td></tr>
+             <tr>
+                <td colspan="4" style="border-bottom: 1px solid #ccc;"></td>
+            </tr>
+            <tr style=" width:700px;">
+              <td colspan="4" style="text-align: center;"><span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA - Halaman 1 dari 1</i></span></td>
+            </tr>
+<tr>
+                <td>&nbsp;</td>
+            </tr>
+<tr>
+                <td>&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+  
+					</div>
+													</div>
+													</div>
+													</div>
+													</div>
+													</div>
+													</div>
+													</div>
+													</div>
+
+													<!--end: Form Wizard Step 3-->
+
+													<!--begin: Form Wizard Step 4-->
+													<div class="kt-wizard-v4__content" data-ktwizard-type="step-content">
+														<div class="kt-form__section kt-form__section--first">
+															<div class="kt-wizard-v4__form">
+														<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid mt-3">
+														<div class="kt-portlet__body">
+																								<div class="kt-portlet__content">
+																									<div class="tab-content" style="background:#f2f3f8;overflow:scroll;height:800px">
+
+								<div class="bg-white w-70 ml-auto mr-auto">
+									
+									<table align="center" border="0" cellpadding="1" style="width: 700px; margin-top:50px; position:relative; top:150px; text-align:justify; line-height:1.5; font-family: Roboto; font-size: 13px;">
+  <tr>
+    <td colspan="7" style="text-align: center"><u><b>SURAT PEMBERHENTIAN</b></u></td>
+  </tr>
+  <tr>
+    <td colspan="7" style="text-align: center">Nomor : [Nomor-Surat]/[Nama-Perusahaan]/[Bulan]/[Tahun]</td>
+  </tr>
+  <tr>
+    <td colspan="7" style="text-align: right">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="text-align: left"><strong>A.</strong></td>
+    <td colspan="6" style="text-align: left"><strong>Dasar :</strong></td>
+  </tr>
+  
+  <tr>
+    <td width="17" style="text-align: right">&nbsp;</td>
+    <td width="16" valign="top">1.</td>
+    <td width="5">&nbsp;</td>
+    <td colspan="4">Berdasarkan Surat Permohonan Pengunduran diri</td>
+  </tr>
+  
+ 
+</table>
+<br>
+<table align="center" border="0" cellpadding="1" style="width: 700px; position:relative; top:150px; text-align:justify; line-height:1.5; font-family: Roboto; font-size: 13px;">
+  <tr>
+    <td style="text-align: left"><strong>B.</strong></td>
+    <td colspan="7" style="text-align: left"><strong>Disampaikan Kepada :</strong></td>
+  </tr>
+  <tr>
+    <td style="text-align: right">&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Nama</td>
+    <td>:</td>
+    <td width="407" colspan="4">Khaeriah Djamaludin, SH</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">NIP</td>
+    <td>:</td>
+    <td colspan="4">238230923015</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+    <td valign="top">Status Pegawai</td>
+    <td>:</td>
+    <td colspan="4">Pegawai Tetap</td>
+  </tr>
+  <tr>
+    <td width="12" style="text-align: right">&nbsp;</td>
+    <td width="22" valign="top">&nbsp;</td>
+    <td width="123" valign="top">Departemen</td>
+    <td width="14">:</td>
+    <td colspan="4">Pengembangan Usaha &amp; Kerja Sama</td>
+  </tr>
+  <tr>
+    <td width="12" style="text-align: right">&nbsp;</td>
+    <td width="22" valign="top">&nbsp;</td>
+    <td width="123" valign="top">Bidang</td>
+    <td width="14">:</td>
+    <td colspan="4">Pengembangan</td>
+  </tr>
+  <tr>
+    <td width="12" style="text-align: right">&nbsp;</td>
+    <td width="22" valign="top">&nbsp;</td>
+    <td width="123" valign="top">Jabatan</td>
+    <td width="14">:</td>
+    <td colspan="4">Kepala Seksi Pemetaan dan Pengembangan</td>
+  </tr>
+  
+ 
+</table>
+<div>&nbsp;</div>
+<table align="center" border="0" cellpadding="1" style="width: 700px; position:relative; top:150px; text-align:justify; line-height:2; font-family: Roboto; font-size: 13px;">
+  <tr>
+    <td style="text-align: left"><strong>C.</strong></td>
+    <td colspan="6" style="text-align: left"><strong>Dasar Pertimbangan:</strong></td>
+  </tr>
+  <tr>
+    <td style="text-align: right">&nbsp;</td>
+    <td valign="top">1.</td>
+    <td>&nbsp;</td>
+    <td width="1182" colspan="4">Berdasarkan Permintaan sendiri mundur sebagai Tenaga  Kontrak [Nama-Perusahaan],</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">&nbsp;</td>
+    <td valign="top">2.</td>
+    <td>&nbsp;</td>
+    <td colspan="4">Atas maksud Point 1 diatas, maka dengan ini  Direksi <strong>[Nama-Perusahaan]</strong> memutuskan untuk <strong>Memberhentikan dengan Hormat</strong>; Saudara selaku tenaga Kontrak <strong>[Nama-Perusahaan]</strong> terhitung  mulai tanggal <strong>[Tanggal-Efektif]</strong>, sekaligus mengucapkan terimakasih atas pengabdian dan kerjasamanya selama bekerja di <strong>[Nama-Perusahaan]</strong>. </td>
+  </tr>
+  <tr>
+    <td width="17" style="text-align: right">&nbsp;</td>
+    <td width="16" valign="top">&nbsp;</td>
+    <td width="5">&nbsp;</td>
+    <td colspan="4">&nbsp;</td>
+  </tr>
+</table><br>
+<table align="center" border="0" cellpadding="1" style="width: 700px; position:relative; top:150px; text-align:justify; line-height:1.5; font-family: Roboto; font-size: 13px;">
+  <tr>
+    <td colspan="7" style="text-align: justify">Demikian surat pemberhentian ini dibuat dan  disampaikan kepada yang bersangkutan untuk diketahui.</td>
+  </tr>
+</table>
+
+
+								<div><span>&nbsp;</span>
+   <table align="center" border="0" cellpadding="1" style="width: 700px;  margin-top:200px; position:relative; top:150px; text-align:left; line-height:1.5; font-family: Roboto; font-size: 13px;">
 							<tr>
-							  <td colspan="11" valign="top">Tembusan :</td>
+							  <td width="3" valign="top">&nbsp;</td>
+							  <td width="3" valign="top">&nbsp;</td>
+							  <td width="3" valign="top">&nbsp;</td>
+							  <td width="16" valign="top">&nbsp;</td>
+							  <td width="3" valign="top">&nbsp;</td>
+							  <td width="3" valign="top">&nbsp;</td>
+							  <td width="7" valign="top">&nbsp;</td>
+							  <td colspan="4" valign="top">&nbsp;</td>
   </tr>
 							<tr>
-							  <td valign="top">1.</td>
-							  <td colspan="10" valign="top">Yth, Direktur Utama</td>
+							  <td colspan="8" valign="top"><p>Tembusan :</p></td>
+							  <td width="6" >&nbsp;</td>
+							  <td width="31" rowspan="3" style="text-align: right"></td>
+							  <td width="217" style="text-align: left">[Tempat, Tanggal/Bulan/Tahun]</td>
+  </tr>
+							<tr>
+							  <td valign="top">1</td>
+							  <td colspan="7" valign="top">Yth, Direktur Utama</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top" style="text-align: left">[Nama-Perusahaan]</td>
+  </tr>
+							
   </tr>
 							<tr>
 							  <td valign="top">2.</td>
-							  <td colspan="10" valign="top">Yth, Direktur Umum</td>
+							  <td colspan="7" valign="top">Yth, Direktur Operasional</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top" style="text-align: left">&nbsp;</td>
   </tr>
-							
 							<tr>
 							  <td valign="top">3.</td>
-							  <td colspan="10" valign="top">Arsip</td>
+							  <td colspan="7" valign="top">Arsip</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top" style="text-align: left"><img src="../assets/img/qrcode.jpg" width="75" height="75" /></td>
+  </tr>
+							<tr>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td width="562" valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top" style="text-align: left">&nbsp;</td>
+  </tr>
+							<tr>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top" style="text-align: left"><u><b>[Nama-Pejabat]</b></u></td>
+  </tr>
+							<tr>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top" style="text-align: left">[Jabatan-Pejabat]</td>
+  </tr>
+							<tr>
+							  <td colspan="11" valign="top">&nbsp;</td>
   </tr>
 							
-							<tr>
-							  <td colspan="11" valign="top">&nbsp;</td>
-  </tr>
-							<tr>
-							  <td colspan="11" valign="top"><hr /></td>
-  </tr>
-							<tr>
-							  <td colspan="11" valign="top"><span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 10px;"><i>Sesuai dengan ketentuan yang berlaku, Perusahaan Umum Daerah Parkir Makassar Raya mengatur bahwa surat ini telah ditandatangani dan diverifikasi secara elektronik, sehingga tidak diperlukan tanda tangan basah pada Surat ini</i></span></td>
-  </tr>
-							<tr>
-							  <td colspan="11" valign="top">&nbsp;</td>
-  </tr>
+							
+							
+							
+							
   </table>
-  <img src="../assets/img/footer.png" style="width:700px; display:block; margin-left:auto;margin-right:auto;margin-bottom:20px;padding-bottom:20px" />
+<table align="center" class="footnote-1" width="700px" style="margin-top:220px; margin-bottom:50px; padding-top:5px; padding-bottom:20px;">
+        <thead>
+            <tr><th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr></thead>
+        <tbody>
+            <tr>
+                <td colspan="4" style="border-bottom: 1px solid #ccc;"></td>
+            </tr>
+            
+            <tr style="height: 10px"><td></td></tr>
+            <tr style=" width:650px;">
+                <td style="text-align: left;">
+                    <span class="span-qr" style="z-index: 99999">
+                        <!--?xml version="1.0" encoding="UTF-8"?-->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="40" height="40" viewBox="0 0 40 40"><rect x="0" y="0" width="40" height="40" fill="#ffffff"></rect><g transform="scale(1.905)"><g transform="translate(0,0)"><path fill-rule="evenodd" d="M9 0L9 1L8 1L8 3L9 3L9 4L8 4L8 8L6 8L6 9L5 9L5 10L4 10L4 8L3 8L3 9L2 9L2 8L0 8L0 9L2 9L2 10L3 10L3 12L4 12L4 11L7 11L7 10L8 10L8 8L9 8L9 11L8 11L8 12L6 12L6 13L8 13L8 15L9 15L9 16L10 16L10 17L11 17L11 16L12 16L12 17L13 17L13 18L12 18L12 19L10 19L10 20L11 20L11 21L12 21L12 20L13 20L13 19L14 19L14 21L15 21L15 18L16 18L16 19L17 19L17 20L19 20L19 18L20 18L20 20L21 20L21 17L20 17L20 16L21 16L21 14L20 14L20 15L19 15L19 16L18 16L18 13L19 13L19 12L20 12L20 13L21 13L21 12L20 12L20 11L19 11L19 10L21 10L21 9L20 9L20 8L18 8L18 9L17 9L17 8L14 8L14 9L13 9L13 8L12 8L12 7L13 7L13 6L12 6L12 7L11 7L11 6L10 6L10 7L9 7L9 4L10 4L10 0ZM12 0L12 1L11 1L11 4L12 4L12 5L13 5L13 2L12 2L12 1L13 1L13 0ZM6 9L6 10L7 10L7 9ZM11 9L11 10L10 10L10 11L9 11L9 12L8 12L8 13L9 13L9 15L10 15L10 16L11 16L11 14L13 14L13 15L12 15L12 16L13 16L13 17L17 17L17 19L18 19L18 18L19 18L19 17L18 17L18 16L17 16L17 15L16 15L16 14L13 14L13 13L16 13L16 12L14 12L14 10L15 10L15 11L17 11L17 13L18 13L18 12L19 12L19 11L18 11L18 10L19 10L19 9L18 9L18 10L15 10L15 9L14 9L14 10L13 10L13 9ZM12 10L12 11L11 11L11 12L12 12L12 13L13 13L13 12L12 12L12 11L13 11L13 10ZM1 11L1 12L0 12L0 13L1 13L1 12L2 12L2 11ZM9 12L9 13L10 13L10 12ZM14 15L14 16L16 16L16 15ZM8 17L8 18L9 18L9 17ZM8 19L8 21L9 21L9 19ZM0 0L0 7L7 7L7 0ZM1 1L1 6L6 6L6 1ZM2 2L2 5L5 5L5 2ZM14 0L14 7L21 7L21 0ZM15 1L15 6L20 6L20 1ZM16 2L16 5L19 5L19 2ZM0 14L0 21L7 21L7 14ZM1 15L1 20L6 20L6 15ZM2 16L2 19L5 19L5 16Z" fill="#000000"></path></g></g></svg>
+
+                    </span>
+                </td>
+                <td>&nbsp;</td>
+               <td colspan="2" valign="left" style="text-align: center">
+                    <span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Sesuai
+                            dengan ketentuan Peraturan Perusahaan yang berlaku, Perusahaan mengatur
+                            bahwa
+                            Dokumen ini telah ditandatangani dan diverifikasi secara elektronik, sehingga
+                            tidak
+                            diperlukan
+                            tanda tangan basah pada Dokumen ini.</i></span></td>
+            </tr>
+<tr style="height: 10px"><td></td></tr>
+             <tr>
+                <td colspan="4" style="border-bottom: 1px solid #ccc;"></td>
+            </tr>
+            <tr style=" width:700px;">
+              <td colspan="4" style="text-align: center;"><span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA - Halaman 1 dari 1</i></span></td>
+            </tr>
+<tr>
+                <td>&nbsp;</td>
+            </tr>
+<tr>
+                <td>&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+  
 					</div>
+													</div>
+													</div>
+													</div>
+													</div>
+													</div>
+													</div>
 													</div>
 													</div>
 
 													<!--end: Form Wizard Step 4-->
+<!--begin: Form Wizard Step 5-->
+													<div class="kt-wizard-v4__content" data-ktwizard-type="step-content">
+													<div class="kt-form__section kt-form__section--first">
+															<div class="kt-wizard-v4__form">
+														<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid mt-3">
+														<div class="kt-portlet__body">
+																								<div class="kt-portlet__content">
+																									<div class="tab-content" style="background:#f2f3f8;overflow:scroll;height:800px">
 
+								<div class="bg-white w-70 ml-auto mr-auto">
+									
+									<table align="center" border="0" cellpadding="1" style="width: 700px; position:relative; top:150px; margin-top:50px; text-align:justify; line-height:1.5; font-family: Roboto; font-size: 13px;">
+  <tr>
+    <td colspan="7" style="text-align: center"><u><b>SURAT PENGALAMAN KERJA</b></u></td>
+  </tr>
+  <tr>
+    <td colspan="7" style="text-align: center">Nomor : [Nomor-Surat]/[Nama-Perusahaan]/[Bulan]/[Tahun]</td>
+  </tr>
+  <tr>
+    <td colspan="7" style="text-align: right">&nbsp;</td>
+  </tr>
+ <tr>
+    <td colspan="7" style="text-align: right">&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="7" style="text-align: left">Yang bertanda tangan dibawah ini menerangkan bahwa :</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">&nbsp;</td>
+    <td valign="top">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td colspan="4">&nbsp;</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">&nbsp;</td>
+    <td valign="top">Nama</td>
+    <td>:</td>
+    <td width="435" colspan="4">Khaeriah Djamaludin, SH</td>
+  </tr>
+  <tr>
+    <td style="text-align: right">&nbsp;</td>
+    <td valign="top">NIP</td>
+    <td>:</td>
+    <td colspan="4">238230923015</td>
+  </tr>
+  <tr>
+    <td width="40" style="text-align: right">&nbsp;</td>
+    <td width="77" valign="top">Alamat.</td>
+    <td width="30">:</td>
+    <td colspan="4">Jl. Toddopuli Raya Timur Kompleks Villa Surya Mas J/9</td>
+  </tr>
+</table>
+<br>
+<br>
+<table align="center" border="0" cellpadding="1" style="width: 700px; position:relative; top:150px; text-align:justify; line-height:2; font-family: Roboto; font-size: 13px;">
+  <tr>
+    <td colspan="8" style="text-align: justify">Adalah benar pernah bekerja pada <strong>[Nama-Perusahaan]</strong> terhitung sejak tanggal<strong> [Tanggal-Masuk-Kerja]</strong> hingga <strong>[Tanggal-Efektif]</strong> dengan jabatan sebagai <strong>[Jabatan-Pegawai]</strong>. Selama bekerja, yang bersangkutan telah bekerja dengan baik dalam mengerjakan tugas dan tanggung jawabnya serta tidak pernah terlibat dalam tindakan yang merugikan perusahaan.</td>
+  </tr>
+  <tr>
+    <td width="12" style="text-align: right">&nbsp;</td>
+    <td width="22" valign="top">&nbsp;</td>
+    <td width="123" valign="top">&nbsp;</td>
+    <td width="14">&nbsp;</td>
+    <td width="407" colspan="4">&nbsp;</td>
+  </tr>
+</table>
+<table align="center" border="0" cellpadding="1" style="width: 700px; position:relative; top:150px; text-align:justify; line-height:1.5; font-family: Roboto; font-size: 13px;">
+  <tr>
+    <td colspan="8" style="text-align: justify">Demikian surat keterangan ini dibuat dengan sebenar-benarnya untuk dipergunakan sebagaimana mestinya.</td>
+  </tr>
+  
+</table>
+
+
+				
+   <table align="center" border="0" cellpadding="1" style="width: 700px;  margin-top:200px; position:relative; top:150px; text-align:left; line-height:1.5; font-family: Roboto; font-size: 13px;">
+							<tr>
+							  <td width="3" valign="top">&nbsp;</td>
+							  <td width="3" valign="top">&nbsp;</td>
+							  <td width="3" valign="top">&nbsp;</td>
+							  <td width="16" valign="top">&nbsp;</td>
+							  <td width="3" valign="top">&nbsp;</td>
+							  <td width="3" valign="top">&nbsp;</td>
+							  <td width="7" valign="top">&nbsp;</td>
+							  <td colspan="4" valign="top">&nbsp;</td>
+  </tr>
+							<tr>
+							  <td colspan="8" valign="top"><p>Tembusan :</p></td>
+							  <td width="6" >&nbsp;</td>
+							  <td width="31" rowspan="3" style="text-align: right"></td>
+							  <td width="217" style="text-align: left">[Tempat, Tanggal/Bulan/Tahun]</td>
+  </tr>
+							<tr>
+							  <td valign="top">1</td>
+							  <td colspan="7" valign="top">Yth, Direktur Utama</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top" style="text-align: left">[Nama-Perusahaan]</td>
+  </tr>
+							
+  </tr>
+							<tr>
+							  <td valign="top">2.</td>
+							  <td colspan="7" valign="top">Yth, Direktur Operasional</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top" style="text-align: left">&nbsp;</td>
+  </tr>
+							<tr>
+							  <td valign="top">3.</td>
+							  <td colspan="7" valign="top">Arsip</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top" style="text-align: left"><img src="../assets/img/qrcode.jpg" width="75" height="75" /></td>
+  </tr>
+							<tr>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td width="562" valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top" style="text-align: left">&nbsp;</td>
+  </tr>
+							<tr>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top" style="text-align: left"><u><b>[Nama-Pejabat]</b></u></td>
+  </tr>
+							<tr>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top">&nbsp;</td>
+							  <td valign="top" style="text-align: left">[Jabatan-Pejabat]</td>
+  </tr>
+							<tr>
+							  <td colspan="11" valign="top">&nbsp;</td>
+  </tr>
+							
+							
+							
+							
+							
+  </table>
+  <table align="center" class="footnote-1" width="700px" style="margin-top:320px; margin-bottom:50px; padding-top:5px; padding-bottom:20px;">
+        <thead>
+            <tr><th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+        </tr></thead>
+        <tbody>
+            <tr>
+                <td colspan="4" style="border-bottom: 1px solid #ccc;"></td>
+            </tr>
+            
+            <tr style="height: 10px"><td></td></tr>
+            <tr style=" width:650px;">
+                <td style="text-align: left;">
+                    <span class="span-qr" style="z-index: 99999">
+                        <!--?xml version="1.0" encoding="UTF-8"?-->
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="40" height="40" viewBox="0 0 40 40"><rect x="0" y="0" width="40" height="40" fill="#ffffff"></rect><g transform="scale(1.905)"><g transform="translate(0,0)"><path fill-rule="evenodd" d="M9 0L9 1L8 1L8 3L9 3L9 4L8 4L8 8L6 8L6 9L5 9L5 10L4 10L4 8L3 8L3 9L2 9L2 8L0 8L0 9L2 9L2 10L3 10L3 12L4 12L4 11L7 11L7 10L8 10L8 8L9 8L9 11L8 11L8 12L6 12L6 13L8 13L8 15L9 15L9 16L10 16L10 17L11 17L11 16L12 16L12 17L13 17L13 18L12 18L12 19L10 19L10 20L11 20L11 21L12 21L12 20L13 20L13 19L14 19L14 21L15 21L15 18L16 18L16 19L17 19L17 20L19 20L19 18L20 18L20 20L21 20L21 17L20 17L20 16L21 16L21 14L20 14L20 15L19 15L19 16L18 16L18 13L19 13L19 12L20 12L20 13L21 13L21 12L20 12L20 11L19 11L19 10L21 10L21 9L20 9L20 8L18 8L18 9L17 9L17 8L14 8L14 9L13 9L13 8L12 8L12 7L13 7L13 6L12 6L12 7L11 7L11 6L10 6L10 7L9 7L9 4L10 4L10 0ZM12 0L12 1L11 1L11 4L12 4L12 5L13 5L13 2L12 2L12 1L13 1L13 0ZM6 9L6 10L7 10L7 9ZM11 9L11 10L10 10L10 11L9 11L9 12L8 12L8 13L9 13L9 15L10 15L10 16L11 16L11 14L13 14L13 15L12 15L12 16L13 16L13 17L17 17L17 19L18 19L18 18L19 18L19 17L18 17L18 16L17 16L17 15L16 15L16 14L13 14L13 13L16 13L16 12L14 12L14 10L15 10L15 11L17 11L17 13L18 13L18 12L19 12L19 11L18 11L18 10L19 10L19 9L18 9L18 10L15 10L15 9L14 9L14 10L13 10L13 9ZM12 10L12 11L11 11L11 12L12 12L12 13L13 13L13 12L12 12L12 11L13 11L13 10ZM1 11L1 12L0 12L0 13L1 13L1 12L2 12L2 11ZM9 12L9 13L10 13L10 12ZM14 15L14 16L16 16L16 15ZM8 17L8 18L9 18L9 17ZM8 19L8 21L9 21L9 19ZM0 0L0 7L7 7L7 0ZM1 1L1 6L6 6L6 1ZM2 2L2 5L5 5L5 2ZM14 0L14 7L21 7L21 0ZM15 1L15 6L20 6L20 1ZM16 2L16 5L19 5L19 2ZM0 14L0 21L7 21L7 14ZM1 15L1 20L6 20L6 15ZM2 16L2 19L5 19L5 16Z" fill="#000000"></path></g></g></svg>
+
+                    </span>
+                </td>
+                <td>&nbsp;</td>
+               <td colspan="2" valign="left" style="text-align: center">
+                    <span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Sesuai
+                            dengan ketentuan Peraturan Perusahaan yang berlaku, Perusahaan mengatur
+                            bahwa
+                            Dokumen ini telah ditandatangani dan diverifikasi secara elektronik, sehingga
+                            tidak
+                            diperlukan
+                            tanda tangan basah pada Dokumen ini.</i></span></td>
+            </tr>
+<tr style="height: 10px"><td></td></tr>
+             <tr>
+                <td colspan="4" style="border-bottom: 1px solid #ccc;"></td>
+            </tr>
+            <tr style=" width:700px;">
+              <td colspan="4" style="text-align: center;"><span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA - Halaman 1 dari 1</i></span></td>
+            </tr>
+<tr>
+                <td>&nbsp;</td>
+            </tr>
+<tr>
+                <td>&nbsp;</td>
+            </tr>
+        </tbody>
+    </table>
+					</div>
+													</div>
+													</div>
+													</div>
+													</div>
+													</div>
+													</div>
+													</div>
+
+													<!--end: Form Wizard Step 5-->
 													<!--begin: Form Actions -->
 													
 													<div class="kt-form__actions">

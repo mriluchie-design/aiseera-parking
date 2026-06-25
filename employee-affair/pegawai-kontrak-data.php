@@ -22,7 +22,7 @@
 								<div class="kt-subheader__toolbar">
 
 										<button type="button" class="btn btn-label-danger btn-sm" id = "buttonLogin" onclick = "displayLoginBox()"><i class="flaticon-interface-6"></i> Filter Data</button>
-										<a href="#" class="btn btn-label-brand btn-sm">
+										<a href="#" class="btn btn-label-warning btn-sm">
 												<i class="fa fa-file-import"></i> Import Data</button>
 
 												<!--<i class="flaticon2-plus"></i>-->
@@ -92,72 +92,76 @@
 				<form class="kt-form">
 					<div class="kt-portlet__body">
                         <div class="form-group row">
-                            <div class="col-lg-2">
+                            <div class="col-lg-4">
                                 <label>Nama Pegawai :</label>
     	                        <div class="form-group">
 
-					                         <select class="form-control kt-selectpicker form-control" data-live-search="true">
-					 															<optgroup label="Direksi">
-					 																<option value="AK"selected >000000001 - Muhammad Nasrullah, S.Kom</option>
+					                         <select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
+					 															<optgroup label="Direksi" class="a">
+					 																<option value="AK"selected >Muhammad Nasrullah, S.Kom</option>
 					 															</optgroup>
-					 															<optgroup label="Umum">
-																					<option value="HI">000000003 - Deddy Rafsanjani, S.Sos</option>
+					 															
+																				<optgroup label="Keuangan dan Asset" class="a">
+					 																<option value="HI">Oklan Zulkifli, SE</option>
 					 															</optgroup>
-																				<optgroup label="Keuangan dan Asset">
-					 																<option value="HI">000000002 - Oklan Zulkifli, SE</option>
+																				<optgroup label="Operasional" class="a">
+					 																<option value="HI">Deddy Rafsanjani, S.Sos</option>
+					 																<option value="HI">Nursiah, S.Kom</option>
 					 															</optgroup>
-																				<optgroup label="Operasional">
-					 																<option value="HI">000000004 - Nursiah, S.Kom</option>
+																				<optgroup label="Teknologi dan Riset" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
 					 															</optgroup>
-																				<optgroup label="Pengembangan Usaha dan Kerjasama">
-					 																<option value="HI">000000005 - Muhammad Ramadhan Lerrick, ST</option>
+																				<optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
 					 															</optgroup>
 
 					 														</select>
 					                       </div>
                             </div>
-                            <div class="col-lg-2">
+                             <div class="col-lg-2">
                                 <label>Departemen :</label>
-
-                               <select class="form-control kt-selectpicker" data-live-search="true">
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="2" selected="">Direksi</option>
-                                      <option value="2">Dewan Pengawas</option>
-                                      <option value="3">Umum</option>
                                       <option value="4">Keuangan dan Asset</option>
                                       <option value="5">Operasional</option>
+                                      <option value="5">Teknologi dan Riset</option>
                                       <option value="12" >Pengembangan Usaha dan Kerjasama</option>
+									  <option value="HI">Keseluruhan</option>
                                   </select>
                             </div>
 							<div class="col-lg-2">
-                                <label class="">Divisi :</label>
-								 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2">Dewan Pengawas</option>
-                                      <option value="3">Direksi</option>
+                                <label>Divisi :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                     
+                                      <option value="3" selected>Direksi</option>
                                       <option value="4">Umum dan Kepegawaian</option>
-                                      <option value="5" selected="">Hukum dan Humas</option>
+                                      <option value="5">Hukum dan Humas</option>
                                       <option value="6">Keuangan</option>
                                       <option value="12">Asset</option>
                                       <option value="12" >Pengelolaan</option>
                                       <option value="12" >Produksi</option>
                                       <option value="12" >Pengembangan</option>
                                       <option value="12" >Kerjasama</option>
+									  <option value="HI">Keseluruhan</option>
                                   </select>
-
                             </div>
                             <div class="col-lg-2">
                                 <label class="">Jabatan :</label>
-								 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2">Dewan Pengawas</option>
-									  <optgroup label="Direksi">
+								  <select class="form-control kt-selectpicker" data-live-search="true">
+                                   
+									 <optgroup label="Direksi" class="a">
                                       <option value="2" selected="">Direktur Utama</option>
-                                      <option value="2">Direktur Umum</option>
                                       <option value="2">Direktur Keuangan dan Asset</option>
                                       <option value="2">Direktur Operasional</option>
+                                      <option value="2">Direktur Teknologi dan Riset</option>
                                       <option value="2">Direktur Pengembangan Usaha dan Kerjasama</option>
+									  <option value="HI">Keseluruhan</option>
 									  </optgroup>
                                      
                                   </select>
-
+                             
                             </div>
 							
 							<div class="col-lg-2">
@@ -166,6 +170,7 @@
                                       <option value="2">Pusat</option>
                                       <option value="2">Nama Cabang A</option>
                                       <option value="2">Nama Cabang B</option>
+									  <option value="12" >Keseluruhan</option>
                                      
                                   </select>
                             </div>
@@ -203,103 +208,119 @@
 				<!--end::Form-->
 			</div>
             <!--begin::End-->
-							<!--begin:: Widgets/Stats-->
-							<div class="kt-portlet">
-								<div class="kt-portlet__body  kt-portlet__body--fit">
-									<div class="row row-no-padding row-col-separator-lg">
-										<div class="col-md-12 col-lg-6 col-xl-3">
+							<div class="row">
+								
+								
+								
+								
+								
+								<div class="col-xl-12">
 
-											<!--begin::Total Profit-->
-											<div class="kt-widget24">
-												<div class="kt-widget24__details">
-													<div class="kt-widget24__info">
-														<h4 class="kt-widget24__title">
-															Total
-														</h4>
-														<span class="kt-widget24__desc">
-															Pegawai Kontrak
-														</span>
-													</div>
-													<span class="kt-widget24__stats kt-font-brand">
-														4
-													</span>
-												</div>
-
+									<!--begin:: Widgets/Activity-->
+									<div class="kt-portlet kt-portlet--fit kt-portlet--head-lg kt-portlet--head-overlay kt-portlet--skin-solid kt-portlet--height-fluid">
+										<div class="kt-portlet__head kt-portlet__head--noborder kt-portlet__space-x">
+											<div class="kt-portlet__head-label" style="margin-left:55px;">
+												<h3 class="kt-portlet__head-title">
+													Statistik
+												</h3>
 											</div>
-
-											<!--end::Total Profit-->
+											<div class="kt-portlet__head-toolbar" style="margin-right:55px;">
+												<a href="#" class="btn btn-label-light btn-sm dropdown-toggle" data-toggle="dropdown">
+													Keseluruhan
+												</a>
+												<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+													<ul class="kt-nav">
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">Bulan ini</span>
+															</a>
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">Tahun ini</span>
+															</a>
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-chart-bar"></i>
+																<span class="kt-nav__link-text">Keseluruhan</span>
+															</a>
+														</li>
+														
+														
+													</ul>
+												</div>
+											</div>
 										</div>
-										<div class="col-md-12 col-lg-6 col-xl-3">
-
-											<!--begin::New Feedbacks-->
-											<div class="kt-widget24">
-												<div class="kt-widget24__details">
-													<div class="kt-widget24__info">
-														<h4 class="kt-widget24__title">
-															Pegawai Kontrak
-														</h4>
-														<span class="kt-widget24__desc">
-															Pria
-														</span>
+										<div class="kt-portlet__body kt-portlet__body--fit">
+											<div class="kt-widget17">
+												<div class="kt-widget17__visual kt-widget17__visual--chart kt-portlet-fit--top kt-portlet-fit--sides" style="background-color: #0961ae">
+													<div class="kt-widget17__chart" style="height:120px;">
+														<canvas id="kt_chart_activities"></canvas>
 													</div>
-													<span class="kt-widget24__stats kt-font-success">
-														2
-													</span>
 												</div>
+												<div class="kt-widget17__stats">
+													<div class="kt-widget17__items">
+														<div class="kt-widget17__item">
+															
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Total Pegawai Kontrak
+															</span>
 
-											</div>
-
-											<!--end::New Feedbacks-->
-										</div>
-										<div class="col-md-12 col-lg-6 col-xl-3">
-
-											<!--begin::New Orders-->
-											<div class="kt-widget24">
-												<div class="kt-widget24__details">
-													<div class="kt-widget24__info">
-														<h4 class="kt-widget24__title">
-															Pegawai Kontrak
-														</h4>
-														<span class="kt-widget24__desc">
-															Wanita
-														</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:20px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">105</span>
+															
+															</span>
+														</div>
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Pria
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:20px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">35</span>
+															</span>
+														</div>
+														
+														
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Wanita
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:20px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">70</span>
+															</span>
+														</div>
+														
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Hampir Berakhir
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:20px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">70</span>
+															</span>
+														</div>
+														
+														
+														
 													</div>
-													<span class="kt-widget24__stats kt-font-danger">
-														2
-													</span>
+													
+													
 												</div>
-
 											</div>
-
-											<!--end::New Orders-->
-										</div>
-										<div class="col-md-12 col-lg-6 col-xl-3">
-
-											<!--begin::New Users-->
-											<div class="kt-widget24">
-												<div class="kt-widget24__details">
-													<div class="kt-widget24__info">
-														<h4 class="kt-widget24__title">
-															Pegawai Kontrak
-														</h4>
-														<span class="kt-widget24__desc">
-															Hampir Berakhir
-														</span>
-													</div>
-													<span class="kt-widget24__stats kt-font-warning">
-														4
-													</span>
-												</div>
-
-											</div>
-
-											<!--end::New Users-->
 										</div>
 									</div>
-								</div>
-							</div>
 
-							<!--end:: Widgets/Stats-->
+									<!--end:: Widgets/Activity-->
+								</div>
+
+							<!--End::Section-->
+
+							
+
+						
+						</div>
 
 							<div class="kt-portlet kt-portlet--mobile ">
 								<div class="kt-portlet__body">
@@ -308,7 +329,6 @@
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="5%" rowspan="2" bgcolor="#f7fcff">QR Code Pegawai</th>
 											  <th width="3%" rowspan="2" bgcolor="#f7fcff">Foto</th>
 											  <th width="4%" rowspan="2" bgcolor="#f7fcff">Nama Lengkap</th>
 											  <th width="10%" rowspan="2" bgcolor="#f7fcff">Departemen</th>
@@ -320,7 +340,8 @@
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Email</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">HP</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">WA</th>
-												<th width="1%" rowspan="2" bgcolor="#f7fcff">Kantor</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">QR Code Pegawai</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Kantor</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 											<tr style="text-align:center">
@@ -331,7 +352,6 @@
 										<tbody>
 											<tr>
 												<td id="kt_table_1">1</td>
-												<td align="center" valign="middle" style="text-align:center"><img src="../assets/img/qrcode.jpg" width="30" height="30"></td>
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="NIP : 000000000001" data-html="true" >
 														<img src="../assets/img/users/100_15.jpg" alt="image">
 													</a></td>
@@ -347,13 +367,14 @@
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="dirut@ilugroup.co.id"><i class="flaticon2-send"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fa fa-phone-square"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fab fa-whatsapp"></i></button></td>
-<td style="text-align:center" nowrap><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-																	<ul class="kt-nav">
+												<td align="center" valign="middle" style="text-align:center"><img src="../assets/img/qrcode.jpg" width="30" height="30" /></td>
+												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
+											  <td style="text-align:center" nowrap><div class="kt-widget2__actions">
+						<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+							<i class="flaticon-more-1"></i>
+						</a>
+						<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+							<ul class="kt-nav">
 																	<li class="kt-nav__item">
 																			<a href="pegawai-kontrak-detail.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-eye"></i>
@@ -366,12 +387,7 @@
 																				<span class="kt-nav__link-text">Cetak ID Card Pegawai</span>
 																			</a>
 																		</li>
-<li class="kt-nav__item">
-																			<a href="kontrak-add-tetap.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-user-tie"></i>
-																				<span class="kt-nav__link-text">Pengajuan Calon Pegawai</span>
-																			</a>
-																		</li>
+
 																		<li class="kt-nav__item">
 																			<a href="pegawai-kontrak-perpanjangan.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-user-clock"></i>
@@ -387,17 +403,17 @@
 																		<li class="kt-nav__item">
 																			<a href="pegawai-kontrak-hapus.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+
 																				<span class="kt-nav__link-text">Hapus</span>
 																			</a>
 																		</li>
 																		
 																	</ul>
-																</div>
-															</div></td>
+					    </div>
+					</div></td>
 										  </tr>
 											<tr>
 												<td id="kt_table_1">2</td>
-												<td align="center" valign="middle" style="text-align:center"><img src="../assets/img/qrcode.jpg" width="30" height="30"></td>
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="NIP : 000000000002" data-html="true" >
 														<img src="../assets/img/users/100_9.jpg" alt="image">
 													</a></td>
@@ -413,7 +429,8 @@
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="dirut@ilugroup.co.id"><i class="flaticon2-send"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fa fa-phone-square"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fab fa-whatsapp"></i></button></td>
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
+												<td align="center" valign="middle" style="text-align:center"><img src="../assets/img/qrcode.jpg" width="30" height="30" /></td>
+												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -432,12 +449,7 @@
 																				<span class="kt-nav__link-text">Cetak ID Card Pegawai</span>
 																			</a>
 																		</li>
-<li class="kt-nav__item">
-																			<a href="kontrak-add-tetap.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-user-tie"></i>
-																				<span class="kt-nav__link-text">Pengajuan Calon Pegawai</span>
-																			</a>
-																		</li>
+
 																		<li class="kt-nav__item">
 																			<a href="pegawai-kontrak-perpanjangan.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-user-clock"></i>
@@ -453,6 +465,7 @@
 																		<li class="kt-nav__item">
 																			<a href="pegawai-kontrak-hapus.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+
 																				<span class="kt-nav__link-text">Hapus</span>
 																			</a>
 																		</li>
@@ -463,7 +476,6 @@
 										  </tr>
 											<tr>
 												<td id="kt_table_1">3</td>
-												<td align="center" valign="middle" style="text-align:center"><img src="../assets/img/qrcode.jpg" width="30" height="30"></td>
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="NIP : 000000000003" data-html="true" >
 														<img src="../assets/img/users/100_8.jpg" alt="image">
 													</a></td>
@@ -479,7 +491,8 @@
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="dirut@ilugroup.co.id"><i class="flaticon2-send"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fa fa-phone-square"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fab fa-whatsapp"></i></button></td>
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
+												<td align="center" valign="middle" style="text-align:center"><img src="../assets/img/qrcode.jpg" width="30" height="30" /></td>
+												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -498,12 +511,7 @@
 																				<span class="kt-nav__link-text">Cetak ID Card Pegawai</span>
 																			</a>
 																		</li>
-<li class="kt-nav__item">
-																			<a href="kontrak-add-tetap.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-user-tie"></i>
-																				<span class="kt-nav__link-text">Pengajuan Calon Pegawai</span>
-																			</a>
-																		</li>
+
 																		<li class="kt-nav__item">
 																			<a href="pegawai-kontrak-perpanjangan.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-user-clock"></i>
@@ -519,6 +527,7 @@
 																		<li class="kt-nav__item">
 																			<a href="pegawai-kontrak-hapus.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+
 																				<span class="kt-nav__link-text">Hapus</span>
 																			</a>
 																		</li>
@@ -529,7 +538,6 @@
 										  </tr>
 											<tr>
 												<td id="kt_table_1">4</td>
-												<td align="center" valign="middle" style="text-align:center"><img src="../assets/img/qrcode.jpg" width="30" height="30"></td>
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="NIP : 000000000004" data-html="true" >
 														<img src="../assets/img/users/100_6.jpg" alt="image">
 													</a></td>
@@ -545,7 +553,8 @@
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="dirut@ilugroup.co.id"><i class="flaticon2-send"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fa fa-phone-square"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fab fa-whatsapp"></i></button></td>
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
+												<td align="center" valign="middle" style="text-align:center"><img src="../assets/img/qrcode.jpg" width="30" height="30" /></td>
+												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -564,12 +573,7 @@
 																				<span class="kt-nav__link-text">Cetak ID Card Pegawai</span>
 																			</a>
 																		</li>
-<li class="kt-nav__item">
-																			<a href="kontrak-add-tetap.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-user-tie"></i>
-																				<span class="kt-nav__link-text">Pengajuan Calon Pegawai</span>
-																			</a>
-																		</li>
+
 																		<li class="kt-nav__item">
 																			<a href="pegawai-kontrak-perpanjangan.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-user-clock"></i>
@@ -585,6 +589,7 @@
 																		<li class="kt-nav__item">
 																			<a href="pegawai-kontrak-hapus.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+
 																				<span class="kt-nav__link-text">Hapus</span>
 																			</a>
 																		</li>
@@ -595,7 +600,6 @@
 										  </tr>
 											<tr>
 												<td id="kt_table_1">5</td>
-												<td align="center" valign="middle" style="text-align:center"><img src="../assets/img/qrcode.jpg" width="30" height="30"></td>
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="NIP : 000000000005" data-html="true" >
 														<img src="../assets/img/users/100_2.jpg" alt="image">
 													</a></td>
@@ -611,7 +615,8 @@
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="dirut@ilugroup.co.id"><i class="flaticon2-send"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fa fa-phone-square"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fab fa-whatsapp"></i></button></td>
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</button></td>
+												<td align="center" valign="middle" style="text-align:center"><img src="../assets/img/qrcode.jpg" width="30" height="30" /></td>
+												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -630,12 +635,7 @@
 																				<span class="kt-nav__link-text">Cetak ID Card Pegawai</span>
 																			</a>
 																		</li>
-<li class="kt-nav__item">
-																			<a href="kontrak-add-tetap.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-user-tie"></i>
-																				<span class="kt-nav__link-text">Pengajuan Calon Pegawai</span>
-																			</a>
-																		</li>
+
 																		<li class="kt-nav__item">
 																			<a href="pegawai-kontrak-perpanjangan.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-user-clock"></i>
@@ -651,6 +651,7 @@
 																		<li class="kt-nav__item">
 																			<a href="pegawai-kontrak-hapus.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+
 																				<span class="kt-nav__link-text">Hapus</span>
 																			</a>
 																		</li>
@@ -661,7 +662,6 @@
 										  </tr>
 											<tr>
 												<td id="kt_table_1">6</td>
-												<td align="center" valign="middle" style="text-align:center"><img src="../assets/img/qrcode.jpg" width="30" height="30"></td>
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="NIP : 000000000006" data-html="true" >
 														<img src="../assets/img/users/300_21.jpg" alt="image">
 													</a></td>
@@ -677,7 +677,8 @@
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="dirut@ilugroup.co.id"><i class="flaticon2-send"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fa fa-phone-square"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fab fa-whatsapp"></i></button></td>
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang B">Cabang</button></td>
+												<td align="center" valign="middle" style="text-align:center"><img src="../assets/img/qrcode.jpg" width="30" height="30" /></td>
+												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang B">Cabang</button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -696,12 +697,7 @@
 																				<span class="kt-nav__link-text">Cetak ID Card Pegawai</span>
 																			</a>
 																		</li>
-<li class="kt-nav__item">
-																			<a href="kontrak-add-tetap.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-user-tie"></i>
-																				<span class="kt-nav__link-text">Pengajuan Calon Pegawai</span>
-																			</a>
-																		</li>
+
 																		<li class="kt-nav__item">
 																			<a href="pegawai-kontrak-perpanjangan.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-user-clock"></i>

@@ -84,23 +84,25 @@
 				<form class="kt-form">
 					<div class="kt-portlet__body">
                         <div class="form-group row">
-                            <div class="col-lg-3">
+                            <div class="col-lg-4">
                                 <label>Nama Pegawai :</label>
-    	                        <select class="form-control kt-selectpicker form-control" data-live-search="true">
-					 															<optgroup label="Direksi">
-					 																<option value="AK"selected >000000001 - Muhammad Nasrullah, S.Kom</option>
+    	                        <select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
+					 															<optgroup label="Direksi" class="a">
+					 																<option value="AK"selected >Muhammad Nasrullah, S.Kom</option>
 					 															</optgroup>
-					 															<optgroup label="Umum">
-																					<option value="HI">000000003 - Deddy Rafsanjani, S.Sos</option>
+					 															
+																				<optgroup label="Keuangan dan Asset" class="a">
+					 																<option value="HI">Oklan Zulkifli, SE</option>
 					 															</optgroup>
-																				<optgroup label="Keuangan dan Asset">
-					 																<option value="HI">000000002 - Oklan Zulkifli, SE</option>
+																				<optgroup label="Operasional" class="a">
+					 																<option value="HI">Deddy Rafsanjani, S.Sos</option>
+					 																<option value="HI">Nursiah, S.Kom</option>
 					 															</optgroup>
-																				<optgroup label="Operasional">
-					 																<option value="HI">000000004 - Nursiah, S.Kom</option>
+																				<optgroup label="Teknologi dan Riset" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
 					 															</optgroup>
-																				<optgroup label="Pengembangan Usaha dan Kerjasama">
-					 																<option value="HI">000000005 - Muhammad Ramadhan Lerrick, ST</option>
+																				<optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
 					 															</optgroup>
 
 					 														</select>
@@ -108,32 +110,60 @@
 							
                             <div class="col-lg-2">
                                 <label>Departemen :</label>
-
+								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="2" selected="">Direksi</option>
-                                      <option value="2">Dewan Pengawas</option>
-                                      <option value="3">Umum</option>
                                       <option value="4">Keuangan dan Asset</option>
                                       <option value="5">Operasional</option>
+                                      <option value="5">Teknologi dan Riset</option>
                                       <option value="12" >Pengembangan Usaha dan Kerjasama</option>
+									  <option value="HI">Keseluruhan</option>
                                   </select>
                             </div>
 							<div class="col-lg-2">
+                                <label>Divisi :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                     
+                                      <option value="3" selected>Direksi</option>
+                                      <option value="4">Umum dan Kepegawaian</option>
+                                      <option value="5">Hukum dan Humas</option>
+                                      <option value="6">Keuangan</option>
+                                      <option value="12">Asset</option>
+                                      <option value="12" >Pengelolaan</option>
+                                      <option value="12" >Produksi</option>
+                                      <option value="12" >Pengembangan</option>
+                                      <option value="12" >Kerjasama</option>
+									  <option value="HI">Keseluruhan</option>
+                                  </select>
+                            </div>
+                            <div class="col-lg-2">
                                 <label class="">Jabatan :</label>
 								  <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2">Dewan Pengawas</option>
-									  <optgroup label="Direksi">
+                                   
+									 <optgroup label="Direksi" class="a">
                                       <option value="2" selected="">Direktur Utama</option>
-                                      <option value="2">Direktur Umum</option>
                                       <option value="2">Direktur Keuangan dan Asset</option>
                                       <option value="2">Direktur Operasional</option>
+                                      <option value="2">Direktur Teknologi dan Riset</option>
                                       <option value="2">Direktur Pengembangan Usaha dan Kerjasama</option>
+									  <option value="HI">Keseluruhan</option>
 									  </optgroup>
                                      
                                   </select>
-
+                             
                             </div>
-                            
+							<div class="col-lg-2">
+                                <label class="">Kantor :</label>
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="2">Pusat</option>
+                                      <option value="3">Cabang</option>
+                                      
+                                  </select>
+                            </div>
+                            </div>
+                            <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						  <div class="form-group row">
 
 							<div class="col-lg-2">
                                 <label class="">Tanggal Kontrak :</label>
@@ -153,14 +183,7 @@
 						                        </div>
 						                      </div>
                             </div>
-							<div class="col-lg-1">
-                                <label class="">Kantor :</label>
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2">Pusat</option>
-                                      <option value="3">Cabang</option>
-                                      
-                                  </select>
-                            </div>
+							
                         </div>
                     </div>
 					<div class="kt-portlet__foot text-center">
@@ -278,7 +301,6 @@
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="5%" rowspan="2" bgcolor="#f7fcff">QR Code Pegawai</th>
 											  <th width="3%" rowspan="2" bgcolor="#f7fcff">Foto</th>
 											  <th width="4%" rowspan="2" bgcolor="#f7fcff">Nama Lengkap</th>
 											  <th width="10%" rowspan="2" bgcolor="#f7fcff">Departemen</th>
@@ -290,6 +312,7 @@
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Email</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">HP</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">WA</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">QR Code Pegawai</th>
 												<th width="1%" rowspan="2" bgcolor="#f7fcff">Kantor</th>
 												<th width="1%" rowspan="2" bgcolor="#f7fcff">Status Pegawai</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
@@ -302,7 +325,6 @@
 										<tbody>
 											<tr>
 												<td id="kt_table_1">1</td>
-												<td align="center" valign="middle" style="text-align:center"><img src="../assets/img/qrcode.jpg" width="30" height="30"></td>
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" >
 														<img src="../assets/img/users/100_15.jpg" alt="image">
 													</a></td>
@@ -318,7 +340,8 @@
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="dirut@ilugroup.co.id"><i class="flaticon2-send"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fa fa-phone-square"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fab fa-whatsapp"></i></button></td>
-<td width="3%" style="text-align:center" nowrap><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
+												<td align="center" valign="middle" style="text-align:center"><img src="../assets/img/qrcode.jpg" width="30" height="30" /></td>
+											  <td width="3%" style="text-align:center" nowrap><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
 <td style="text-align:center" nowrap><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
@@ -365,7 +388,6 @@
 										  </tr>
 											<tr>
 												<td id="kt_table_1">2</td>
-												<td align="center" valign="middle" style="text-align:center"><img src="../assets/img/qrcode.jpg" width="30" height="30"></td>
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" >
 														<img src="../assets/img/users/100_9.jpg" alt="image">
 													</a></td>
@@ -381,6 +403,7 @@
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="dirut@ilugroup.co.id"><i class="flaticon2-send"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fa fa-phone-square"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fab fa-whatsapp"></i></button></td>
+												<td align="center" valign="middle" style="text-align:center"><img src="../assets/img/qrcode.jpg" width="30" height="30" /></td>
 												<td width="3%" style="text-align:center" nowrap><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-label-brand btn-sm">Kontrak</button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
@@ -428,7 +451,6 @@
 										  </tr>
 											<tr>
 												<td id="kt_table_1">3</td>
-												<td align="center" valign="middle" style="text-align:center"><img src="../assets/img/qrcode.jpg" width="30" height="30"></td>
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" >
 														<img src="../assets/img/users/100_8.jpg" alt="image">
 													</a></td>
@@ -444,6 +466,7 @@
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="dirut@ilugroup.co.id"><i class="flaticon2-send"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fa fa-phone-square"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fab fa-whatsapp"></i></button></td>
+												<td align="center" valign="middle" style="text-align:center"><img src="../assets/img/qrcode.jpg" width="30" height="30" /></td>
 												<td width="3%" style="text-align:center" nowrap><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-label-danger btn-sm">Honor</button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
@@ -491,7 +514,6 @@
 										  </tr>
 											<tr>
 												<td id="kt_table_1">4</td>
-												<td align="center" valign="middle" style="text-align:center"><img src="../assets/img/qrcode.jpg" width="30" height="30"></td>
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" >
 														<img src="../assets/img/users/100_6.jpg" alt="image">
 													</a></td>
@@ -507,6 +529,7 @@
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="dirut@ilugroup.co.id"><i class="flaticon2-send"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fa fa-phone-square"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fab fa-whatsapp"></i></button></td>
+												<td align="center" valign="middle" style="text-align:center"><img src="../assets/img/qrcode.jpg" width="30" height="30" /></td>
 												<td width="3%" style="text-align:center" nowrap><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-label-danger btn-sm">Honor</button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
@@ -554,7 +577,6 @@
 										  </tr>
 											<tr>
 												<td id="kt_table_1">5</td>
-												<td align="center" valign="middle" style="text-align:center"><img src="../assets/img/qrcode.jpg" width="30" height="30"></td>
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" >
 														<img src="../assets/img/users/100_2.jpg" alt="image">
 													</a></td>
@@ -570,6 +592,7 @@
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="dirut@ilugroup.co.id"><i class="flaticon2-send"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fa fa-phone-square"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fab fa-whatsapp"></i></button></td>
+												<td align="center" valign="middle" style="text-align:center"><img src="../assets/img/qrcode.jpg" width="30" height="30" /></td>
 												<td width="3%" style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-label-brand btn-sm">Kontrak</button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
@@ -617,7 +640,6 @@
 										  </tr>
 											<tr>
 												<td id="kt_table_1">6</td>
-												<td align="center" valign="middle" style="text-align:center"><img src="../assets/img/qrcode.jpg" width="30" height="30"></td>
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" >
 														<img src="../assets/img/users/300_21.jpg" alt="image">
 													</a></td>
@@ -633,6 +655,7 @@
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="dirut@ilugroup.co.id"><i class="flaticon2-send"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fa fa-phone-square"></i></button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-facebook btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="082244444436"><i class="fab fa-whatsapp"></i></button></td>
+												<td align="center" valign="middle" style="text-align:center"><img src="../assets/img/qrcode.jpg" width="30" height="30" /></td>
 												<td width="3%" style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang B">Cabang</button></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
