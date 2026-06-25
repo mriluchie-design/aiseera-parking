@@ -1467,6 +1467,9 @@ function goBack() {
 							</div>
 							<!--End::Modal 2-->
         </div>
+        </div>
+        </div>
+
 
 <?php require '../layouts/footer.php' ?>
 <?php require '../layouts/foot.php' ?>
