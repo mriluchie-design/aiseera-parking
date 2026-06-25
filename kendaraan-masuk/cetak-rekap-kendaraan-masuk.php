@@ -142,7 +142,7 @@ function goBack() {
 										</thead>
 										<tbody>
 											<tr>
-												<td id="kt_table_1">1</td>
+												<td id="kt_table_1" style="text-align:right">1</td>
 												<td style="text-align:center" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
 												<td style="text-align:center" nowrap>12321355123123211</td>
@@ -161,7 +161,7 @@ function goBack() {
 												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/masuk-mobil-1a.png" alt="image" /></a></td>
 										  </tr>
 										  <tr>
-												<td id="kt_table_1">2</td>
+												<td id="kt_table_1" style="text-align:right">2</td>
 												<td nowrap="nowrap" style="text-align:center">Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
 												<td nowrap="nowrap" style="text-align:center">12321355123123212</td>
@@ -179,7 +179,7 @@ function goBack() {
 										  </tr>
 
 <tr>
-												<td id="kt_table_1">3</td>
+												<td id="kt_table_1" style="text-align:right">3</td>
 												<td style="text-align:center" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">12321355123123211
 												  <hr />
@@ -200,7 +200,7 @@ function goBack() {
 												<td style="text-align:center" nowrap><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/foto-motor-masuk-2.png" alt="image" /></a></td>
 										  </tr>
 <tr>
-  <td id="kt_table_4">4</td>
+  <td id="kt_table_4" style="text-align:right">4</td>
   <td style="text-align:center" nowrap="nowrap">Makassar</td>
   <td nowrap="nowrap" style="text-align:center">12321355123123212
     <hr />
