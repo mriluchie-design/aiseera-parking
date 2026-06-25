@@ -1930,18 +1930,7 @@
 </div>
 
 									<!--end: Datatable -->
-								</div>
-							</div>
-
-            </div>
-
-
-
-
-                </div>
-            </div>
-        </div>
-    </div>
+								
 
 <?php require '../layouts/footer.php' ?>
 <script src="../assets/js/pages/components/extended/sweetalert2.js" type="text/javascript"></script>
