@@ -55,12 +55,12 @@ License: You must have a valid license purchased only from themeforest(the above
 									<!--begin:: Widgets/Activity-->
 									<div class="kt-portlet kt-portlet--fit kt-portlet--head-lg kt-portlet--head-overlay kt-portlet--skin-solid kt-portlet--height-fluid">
 										<div class="kt-portlet__head kt-portlet__head--noborder kt-portlet__space-x">
-											<div class="kt-portlet__head-label">
+											<div class="kt-portlet__head-label" style="margin-left:55px;">
 												<h3 class="kt-portlet__head-title">
 													Statistik Kehadiran
 												</h3>
 											</div>
-											<div class="kt-portlet__head-toolbar">
+											<div class="kt-portlet__head-toolbar" style="margin-right:55px;">
 												<a href="#" class="btn btn-label-light btn-sm dropdown-toggle" data-toggle="dropdown">
 													Hari ini
 												</a>
@@ -233,244 +233,106 @@ License: You must have a valid license purchased only from themeforest(the above
 									<!--end:: Widgets/Activity-->
 								</div>
 								</div>
-							<div class="kt-portlet">
 							
-								<div class="kt-portlet__body  kt-portlet__body--fit">
-								
-									<div class="row row-no-padding row-col-separator-lg">
-										<div class="col-md-12 col-lg-6 col-xl-3">
-
-											<!--begin::Total Profit-->
-											<div class="kt-widget24">
-												<div class="kt-widget24__details">
-													<div class="kt-widget24__info">
-														<h4 class="kt-widget24__title">
-															Total
-														</h4>
-														<span class="kt-widget24__desc">
-															Keseluruhan
-														</span>
-													</div>
-													<span class="kt-widget24__stats kt-font-brand">
-														4
-													</span>
-												</div>
-
-											</div>
-
-											<!--end::Total Profit-->
-										</div>
-										
-										<div class="col-md-12 col-lg-6 col-xl-3">
-
-											<!--begin::New Feedbacks-->
-											<div class="kt-widget24">
-												<div class="kt-widget24__details">
-													<div class="kt-widget24__info">
-														<h4 class="kt-widget24__title">
-															Lupa Absen Disetujui
-														</h4>
-														<span class="kt-widget24__desc">
-															Lupa Absen yang telah disetujui
-														</span>
-													</div>
-													<span class="kt-widget24__stats kt-font-success">
-														1
-													</span>
-												</div>
-
-											</div>
-
-											<!--end::New Feedbacks-->
-										</div>
-										<div class="col-md-12 col-lg-6 col-xl-3">
-
-											<!--begin::New Orders-->
-											<div class="kt-widget24">
-												<div class="kt-widget24__details">
-													<div class="kt-widget24__info">
-														<h4 class="kt-widget24__title">
-															Lupa Absen Ditolak
-														</h4>
-														<span class="kt-widget24__desc">
-															Lupa Absen yang telah ditolak
-														</span>
-													</div>
-													<span class="kt-widget24__stats kt-font-danger">
-														1
-													</span>
-												</div>
-
-											</div>
-
-											<!--end::New Orders-->
-										</div>
-										<div class="col-md-12 col-lg-6 col-xl-3">
-
-											<!--begin::New Users-->
-											<div class="kt-widget24">
-												<div class="kt-widget24__details">
-													<div class="kt-widget24__info">
-														<h4 class="kt-widget24__title">
-															Lupa Absen Pending
-														</h4>
-														<span class="kt-widget24__desc">
-															Lupa Absen yang sedang menunggu persetujuan
-														</span>
-													</div>
-													<span class="kt-widget24__stats kt-font-warning">
-														2
-													</span>
-												</div>
-
-											</div>
-
-											<!--end::New Users-->
-										</div>
-									</div>
-								</div>
-								</div>
 
 								<div class="row">
 								
-									<div class="col-lg-6">
-										<div class="kt-portlet kt-portlet--height-fluid-full">
-										<div class="kt-portlet__head">
+									<div class="col-xl-4">
+
+									
+									<!--begin:: Widgets/Outbound Bandwidth-->
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet--head-noborder kt-portlet--height-fluid">
+										<div class="kt-portlet__head kt-portlet__space-x">
 											<div class="kt-portlet__head-label">
 												<h3 class="kt-portlet__head-title">
-													Jumlah Lupa Absen
+													Statistik
 												</h3>
 											</div>
 											<div class="kt-portlet__head-toolbar">
-												<span class="period-labels float-right show-card-filter">
-													Bulanan
-													<span class="fa fa-caret-down fa-caret-up" style="margin-left: 3px; margin-right: 3px;"></span>
-												</span>
+												<a href="#" class="btn btn-label-brand btn-sm dropdown-toggle" data-toggle="dropdown">
+													Hari ini
+												</a>
+												<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+													<ul class="kt-nav">
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">Bulan ini</span>
+															</a>
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">Tahun ini</span>
+															</a>
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-chart-bar"></i>
+																<span class="kt-nav__link-text">Keseluruhan</span>
+															</a>
+														</li>
+														
+														
+													</ul>
+												</div>
+											</div>
 										</div>
-										</div>
+										
 										<div class="kt-portlet__body">
+											<div class="tab-content">
+												<div class="tab-pane active" id="kt_widget2_tab1_content" aria-expanded="true">
+													<div class="kt-notification">
+													<div class="kt-portlet__body">
 											<figure class="highcharts-figure">
-											    <div id="container"></div>
+											    <div id="container-absensi" style="height:300px"></div>
 											</figure>
 										</div>
-									</div>
-									</div>
-									<div class="col-lg-6">
-										<div class="kt-portlet kt-portlet--height-fluid-full">
-										<div class="kt-portlet__head">
-											<div class="kt-portlet__head-label">
-												<h3 class="kt-portlet__head-title">
-													Jumlah Lembur
-												</h3>
-											</div>
-											<div class="kt-portlet__head-toolbar">
-												<span class="period-labels float-right show-card-filter">
-													Bulanan
-													<span class="fa fa-caret-down fa-caret-up" style="margin-left: 3px; margin-right: 3px;"></span>
-												</span>
-										</div>
-										</div>
-										<div class="kt-portlet__body">
+														
+														
+														
+														
+														
+													</div>
+												</div>
+												<div class="tab-pane" id="kt_widget2_tab2_content" aria-expanded="false">
+													<div class="kt-notification">
+														<div class="kt-portlet__body">
 											<figure class="highcharts-figure">
-													<div id="container2"></div>
+											    <div id="container-department-pegawai" style="height:300px"></div>
 											</figure>
 										</div>
+														
+														
+														
+													</div>
+												</div>
+												<div class="tab-pane" id="kt_widget2_tab3_content" aria-expanded="false">
+													<div class="kt-notification">
+														<div class="kt-portlet__body">
+											<figure class="highcharts-figure">
+											    <div id="container-pegawai-usia" style="height:300px"></div>
+											</figure>
+										</div>
+														
+														
+														
+													</div>
+												</div>
+												
+												
+											</div>
+										</div>
+
+
 									</div>
-									</div>
+
+									<!--end:: Widgets/Outbound Bandwidth-->
+								</div>
+									
 								</div>
 
-								<div class="kt-portlet">
-								<div class="kt-portlet__body  kt-portlet__body--fit">
-									<div class="row row-no-padding row-col-separator-lg">
-										<div class="col-md-12 col-lg-6 col-xl-3">
-
-											<!--begin::Total Profit-->
-											<div class="kt-widget24">
-												<div class="kt-widget24__details">
-													<div class="kt-widget24__info">
-														<h4 class="kt-widget24__title">
-															Total
-														</h4>
-														<span class="kt-widget24__desc">
-															Keseluruhan
-														</span>
-													</div>
-													<span class="kt-widget24__stats kt-font-brand">
-														4
-													</span>
-												</div>
-
-											</div>
-
-											<!--end::Total Profit-->
-										</div>
-										<div class="col-md-12 col-lg-6 col-xl-3">
-
-											<!--begin::New Feedbacks-->
-											<div class="kt-widget24">
-												<div class="kt-widget24__details">
-													<div class="kt-widget24__info">
-														<h4 class="kt-widget24__title">
-															Lembur Disetujui
-														</h4>
-														<span class="kt-widget24__desc">
-															Lembur yang telah disetujui
-														</span>
-													</div>
-													<span class="kt-widget24__stats kt-font-success">
-														1
-													</span>
-												</div>
-
-											</div>
-
-											<!--end::New Feedbacks-->
-										</div>
-										<div class="col-md-12 col-lg-6 col-xl-3">
-
-											<!--begin::New Orders-->
-											<div class="kt-widget24">
-												<div class="kt-widget24__details">
-													<div class="kt-widget24__info">
-														<h4 class="kt-widget24__title">
-															Lembur Ditolak
-														</h4>
-														<span class="kt-widget24__desc">
-															Lembur yang telah ditolak
-														</span>
-													</div>
-													<span class="kt-widget24__stats kt-font-danger">
-														1
-													</span>
-												</div>
-
-											</div>
-
-											<!--end::New Orders-->
-										</div>
-										<div class="col-md-12 col-lg-6 col-xl-3">
-											<!--begin::New Users-->
-											<div class="kt-widget24">
-												<div class="kt-widget24__details">
-													<div class="kt-widget24__info">
-														<h4 class="kt-widget24__title">
-															Lembur Pending
-														</h4>
-														<span class="kt-widget24__desc">
-															Lembur yang sedang menunggu persetujuan
-														</span>
-													</div>
-													<span class="kt-widget24__stats kt-font-warning">
-														2
-													</span>
-												</div>
-											</div>
-
-											<!--end::New Users-->
-										</div>
-									</div>
-								</div>
-								</div>
+								
 						</div>
 
 						<?php require '../layouts/footer.php' ?>
@@ -478,5 +340,5 @@ License: You must have a valid license purchased only from themeforest(the above
 						<script src="https://code.highcharts.com/modules/exporting.js"></script>
 						<script src="https://code.highcharts.com/modules/export-data.js"></script>
 						<script src="https://code.highcharts.com/modules/accessibility.js"></script>
-						<script src="../assets/js/chart/highchart.js" type="text/javascript"></script>
+						<script src="../assets/js/chart/highchart-monitoring-absensi.js" type="text/javascript"></script>
 						<?php require '../layouts/foot.php' ?>

@@ -128,19 +128,18 @@
 							<div class="col-lg-2">
                                 <label>Divisi :</label>
 								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                     
-                                      <option value="3" selected>Direksi</option>
-                                      <option value="4">Umum dan Kepegawaian</option>
-                                      <option value="5">Hukum dan Humas</option>
+                                 <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="3">Direksi</option>
+                                      <option value="4">Umum</option>
+                                      <option value="4">Kepegawaian</option>
                                       <option value="6">Keuangan</option>
                                       <option value="12">Asset</option>
-                                      <option value="12" >Pengelolaan</option>
-                                      <option value="12" >Produksi</option>
+                                      <option value="12" >Teknologi</option>
+                                      <option value="12" >Riset</option>
                                       <option value="12" >Pengembangan</option>
                                       <option value="12" >Kerjasama</option>
-									  <option value="HI">Keseluruhan</option>
-                                  </select>
+
+                                </select>
                             </div>
 						                        <div class="col-lg-2">
                                 <label class="">Jabatan :</label>
