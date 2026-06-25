@@ -367,7 +367,7 @@ function goBack() {
 					 																<option value="AK"selected >Muhammad Nasrullah, S.Kom</option>
 					 															</optgroup>
 					 															
-																				<optgroup label="Keuangan dan Asset" class="a">
+																				<optgroup label="Keuangan" class="a">
 					 																<option value="HI">Oklan Zulkifli, SE</option>
 					 															</optgroup>
 																				<optgroup label="Operasional" class="a">
@@ -409,15 +409,27 @@ function goBack() {
                           <label>Divisi Baru :</label>
 						   <span class="form-group">
 								<select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="3">Direksi</option>
-                                      <option value="4">Umum</option>
-                                      <option value="4">Kepegawaian</option>
+                                      <optgroup label="Direksi" class="a">
+									  <option value="3">Direksi</option>
+									  </optgroup>
+									  
+									    <optgroup label="Keuangan" class="a">
                                       <option value="6">Keuangan</option>
                                       <option value="12">Asset</option>
+									  </optgroup>
+									  <optgroup label="Operasional" class="a">
+                                      <option value="4">Umum</option>
+                                      <option value="4">Kepegawaian</option>
+									  </optgroup>
+									   <optgroup label="Teknologi dan Riset" class="a">
                                       <option value="12" >Teknologi</option>
                                       <option value="12" >Riset</option>
+									   </optgroup>
+									   <optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
                                       <option value="12" >Pengembangan</option>
                                       <option value="12" >Kerjasama</option>
+									  </optgroup>
+                                      <option value="12" >Keseluruhan</option>
 <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
                                 </select>
 																								  </span>

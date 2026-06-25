@@ -94,7 +94,7 @@
 					 																<option value="AK"selected >Muhammad Nasrullah, S.Kom</option>
 					 															</optgroup>
 					 															
-																				<optgroup label="Keuangan dan Asset" class="a">
+																				<optgroup label="Keuangan" class="a">
 					 																<option value="HI">Oklan Zulkifli, SE</option>
 					 															</optgroup>
 																				<optgroup label="Operasional" class="a">
@@ -117,7 +117,7 @@
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="2" selected="">Direksi</option>
-                                      <option value="4">Keuangan dan Asset</option>
+                                      <option value="4">Keuangan</option>
                                       <option value="5">Operasional</option>
                                       <option value="5">Teknologi dan Riset</option>
                                       <option value="12" >Pengembangan Usaha dan Kerjasama</option>
@@ -127,16 +127,28 @@
 							<div class="col-lg-2">
                                 <label>Divisi :</label>
 								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="3">Direksi</option>
-                                      <option value="4">Umum</option>
-                                      <option value="4">Kepegawaian</option>
+                               <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <optgroup label="Direksi" class="a">
+									  <option value="3">Direksi</option>
+									  </optgroup>
+									  
+									    <optgroup label="Keuangan" class="a">
                                       <option value="6">Keuangan</option>
                                       <option value="12">Asset</option>
+									  </optgroup>
+									  <optgroup label="Operasional" class="a">
+                                      <option value="4">Umum</option>
+                                      <option value="4">Kepegawaian</option>
+									  </optgroup>
+									   <optgroup label="Teknologi dan Riset" class="a">
                                       <option value="12" >Teknologi</option>
                                       <option value="12" >Riset</option>
+									   </optgroup>
+									   <optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
                                       <option value="12" >Pengembangan</option>
                                       <option value="12" >Kerjasama</option>
+									  </optgroup>
+                                      <option value="12" >Keseluruhan</option>
 
                                 </select>
                             </div>
@@ -146,7 +158,7 @@
                                    
 									 <optgroup label="Direksi" class="a">
                                       <option value="2" selected="">Direktur Utama</option>
-                                      <option value="2">Direktur Keuangan dan Asset</option>
+                                      <option value="2">Direktur Keuangan</option>
                                       <option value="2">Direktur Operasional</option>
                                       <option value="2">Direktur Teknologi dan Riset</option>
                                       <option value="2">Direktur Pengembangan Usaha dan Kerjasama</option>

@@ -87,7 +87,7 @@
 					 																<option value="AK"selected >Muhammad Nasrullah, S.Kom</option>
 					 															</optgroup>
 					 															
-																				<optgroup label="Keuangan dan Asset" class="a">
+																				<optgroup label="Keuangan" class="a">
 					 																<option value="HI">Oklan Zulkifli, SE</option>
 					 															</optgroup>
 																				<optgroup label="Operasional" class="a">
@@ -108,7 +108,7 @@
 						                          <label>Departemen :</label>
 																		 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="2" selected="">Direksi</option>
-                                      <option value="4">Keuangan dan Asset</option>
+                                      <option value="4">Keuangan</option>
                                       <option value="5">Operasional</option>
                                       <option value="5">Teknologi dan Riset</option>
                                       <option value="12" >Pengembangan Usaha dan Kerjasama</option>
@@ -117,16 +117,27 @@
 						                        </div>
 												<div class="col-lg-2">
 						                          <label>Divisi :</label>
-																		 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="3">Direksi</option>
-                                      <option value="4">Umum</option>
-                                      <option value="4">Kepegawaian</option>
+																		  <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <optgroup label="Direksi" class="a">
+									  <option value="3">Direksi</option>
+									  </optgroup>
+									  
+									    <optgroup label="Keuangan" class="a">
                                       <option value="6">Keuangan</option>
                                       <option value="12">Asset</option>
+									  </optgroup>
+									  <optgroup label="Operasional" class="a">
+                                      <option value="4">Umum</option>
+                                      <option value="4">Kepegawaian</option>
+									  </optgroup>
+									   <optgroup label="Teknologi dan Riset" class="a">
                                       <option value="12" >Teknologi</option>
                                       <option value="12" >Riset</option>
+									   </optgroup>
+									   <optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
                                       <option value="12" >Pengembangan</option>
                                       <option value="12" >Kerjasama</option>
+									  </optgroup>
                                       <option value="12" >Keseluruhan</option>
 
                                 </select>
@@ -181,11 +192,11 @@
                   <div class="kt-portlet__body">
 										<ul class="nav nav-pills nav-fill" role="tablist">
 											<li class="nav-item dropdown">
-													<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="background:#0e62ae !important; color:#fff !important">2026</a>
+													<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="background:#4AB3F4 !important; color:#fff !important">2026</a>
 													<div class="dropdown-menu">
-														<a class="dropdown-item" data-toggle="tab" href="#">2018</a>
-														<a class="dropdown-item" data-toggle="tab" href="#">2017</a>
-														<a class="dropdown-item" data-toggle="tab" href="#">2016</a>
+														<a class="dropdown-item" data-toggle="tab" href="#">2025</a>
+														<a class="dropdown-item" data-toggle="tab" href="#">2024</a>
+														<a class="dropdown-item" data-toggle="tab" href="#">2023</a>
 													</div>
 												</li>
 												<li class="nav-item">
@@ -231,7 +242,7 @@
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="7%" rowspan="2" bgcolor="#f7fcff">Foto</th>
+											  <th width="40%" rowspan="2" bgcolor="#f7fcff">Foto</th>
 											  <th width="15%" rowspan="2" bgcolor="#f7fcff">Nama Pegawai</th>
 											  <th width="3%" rowspan="2" bgcolor="#f7fcff">Kantor</th>
 											  <th width="1%" bgcolor="#f7fcff">1</th>
