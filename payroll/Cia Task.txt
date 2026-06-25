@@ -1,0 +1,2 @@
+1. Preview Slip Gaji sesuaikan dengan slip gaji ilugroup pada wizard tab 3 (payroll/gaji-pegawai-harian-add.php)
+2. Preview Slip Gaji sesuaikan dengan slip gaji ilugroup pada wizard tab 3 (payroll/gaji-pegawai-add.php)

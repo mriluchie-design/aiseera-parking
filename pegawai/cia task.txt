@@ -1,0 +1,11 @@
+- Dashboard Pegawai
+- Saldo Cuti - fix
+- Riwayat Cuti - fix
+- Print Surat Cuti
+- Saldo Izin - fix
+- Riwayat Izin - fix
+- Print Izin
+- Form Lembur
+- Detail Lembur
+- Print Lembur
+- Menunggu Persetujuan -  tidak ada modal konfirmasi menunggu persetujuan pada modul pegawai
