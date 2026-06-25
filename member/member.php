@@ -1249,22 +1249,7 @@
 
   </div>
   </div>
-  </div>
-</div>
-
-									<!--end: Datatable -->
-								</div>
-							</div>
-
-            </div>
-
-
-
-
-                </div>
-            </div>
-        </div>
-    </div>
+  
 
 <?php require '../layouts/footer.php' ?>
 <?php require '../layouts/foot.php' ?>
