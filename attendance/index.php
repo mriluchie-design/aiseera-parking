@@ -285,7 +285,7 @@ License: You must have a valid license purchased only from themeforest(the above
 													<div class="kt-notification">
 													<div class="kt-portlet__body">
 											<figure class="highcharts-figure">
-											    <div id="container-absensi" style="height:300px"></div>
+											    <div id="container-absensi"></div>
 											</figure>
 										</div>
 														
@@ -295,30 +295,78 @@ License: You must have a valid license purchased only from themeforest(the above
 														
 													</div>
 												</div>
-												<div class="tab-pane" id="kt_widget2_tab2_content" aria-expanded="false">
+												
+												
+												
+												
+											</div>
+										</div>
+
+
+									</div>
+
+									<!--end:: Widgets/Outbound Bandwidth-->
+								</div>
+								<div class="col-xl-8">
+
+									
+									<!--begin:: Widgets/Outbound Bandwidth-->
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet--head-noborder kt-portlet--height-fluid">
+										<div class="kt-portlet__head kt-portlet__space-x">
+											<div class="kt-portlet__head-label">
+												<h3 class="kt-portlet__head-title">
+													Statistik
+												</h3>
+											</div>
+											<div class="kt-portlet__head-toolbar">
+												<a href="#" class="btn btn-label-brand btn-sm dropdown-toggle" data-toggle="dropdown">
+													2026
+												</a>
+												<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+													<ul class="kt-nav">
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">2025</span>
+															</a>
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">2024</span>
+															</a>
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-chart-bar"></i>
+																<span class="kt-nav__link-text">Keseluruhan</span>
+															</a>
+														</li>
+														
+														
+													</ul>
+												</div>
+											</div>
+										</div>
+										
+										<div class="kt-portlet__body">
+											<div class="tab-content">
+												<div class="tab-pane active" id="kt_widget2_tab1_content" aria-expanded="true">
 													<div class="kt-notification">
-														<div class="kt-portlet__body">
+													<div class="kt-portlet__body">
 											<figure class="highcharts-figure">
-											    <div id="container-department-pegawai" style="height:300px"></div>
+											    <div id="container-monitoring-absensi"></div>
 											</figure>
 										</div>
 														
 														
 														
-													</div>
-												</div>
-												<div class="tab-pane" id="kt_widget2_tab3_content" aria-expanded="false">
-													<div class="kt-notification">
-														<div class="kt-portlet__body">
-											<figure class="highcharts-figure">
-											    <div id="container-pegawai-usia" style="height:300px"></div>
-											</figure>
-										</div>
-														
 														
 														
 													</div>
 												</div>
+												
+												
 												
 												
 											</div>
@@ -341,4 +389,5 @@ License: You must have a valid license purchased only from themeforest(the above
 						<script src="https://code.highcharts.com/modules/export-data.js"></script>
 						<script src="https://code.highcharts.com/modules/accessibility.js"></script>
 						<script src="../assets/js/chart/highchart-monitoring-absensi.js" type="text/javascript"></script>
+						<script src="../assets/js/chart/monitoring-absensi.js" type="text/javascript"></script>
 						<?php require '../layouts/foot.php' ?>
