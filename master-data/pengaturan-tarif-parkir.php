@@ -523,7 +523,7 @@
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">8</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">Berangkat</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Berangkat</span></td>
 										    <td style="text-align:center" nowrap>Motor</td>
 										    <td nowrap="nowrap" style="text-align:left">-</td>
 										    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-warning btn-sm">Flat</button></td>
@@ -566,7 +566,7 @@
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">9</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">Berangkat</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Berangkat</span></td>
 										    <td style="text-align:center" nowrap>Mobil</td>
 										    <td nowrap="nowrap" style="text-align:left">Sedan/Jeep/Pick Up</td>
 										    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-warning btn-sm">Flat</button></td>
@@ -588,7 +588,7 @@
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">10</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">Berangkat</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Berangkat</span></td>
 										    <td style="text-align:center" nowrap>Mobil</td>
 										    <td nowrap="nowrap" style="text-align:left">Truck</td>
 										    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-warning btn-sm">Flat</button></td>
@@ -610,7 +610,7 @@
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">11</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">Berangkat</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Berangkat</span></td>
 										    <td style="text-align:center" nowrap>Mobil</td>
 										    <td nowrap="nowrap" style="text-align:left">Tronton</td>
 										    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-warning btn-sm">Flat</button></td>
@@ -632,7 +632,7 @@
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">12</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">Berangkat</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Berangkat</span></td>
 										    <td style="text-align:center" nowrap>Mobil</td>
 										    <td nowrap="nowrap" style="text-align:left">Trailer</td>
 										    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-warning btn-sm">Flat</button></td>
@@ -654,7 +654,7 @@
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">13</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">Berangkat</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Berangkat</span></td>
 										    <td nowrap="nowrap" style="text-align:center">Sepeda</td>
 										    <td nowrap="nowrap" style="text-align:left">-</td>
 										    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-warning btn-sm">Flat</button></td>
@@ -676,7 +676,7 @@
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">14</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
-										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">Berangkat</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Berangkat</span></td>
 										    <td nowrap="nowrap" style="text-align:center">Gerobak</td>
 										    <td nowrap="nowrap" style="text-align:left">-</td>
 										    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-label-warning btn-sm">Flat</button></td>
