@@ -116,7 +116,7 @@ function goBack() {
     <td colspan="7">&nbsp;</td>
   </tr>
 </table>				
-<table align="center" border="1" cellpadding="5" style="width: 1450px; text-align:justify; line-height:1.5; font-family: Tahoma; font-size: 12px;">
+<table align="center" border="1" cellpadding="5" style="width: auto; text-align:justify; line-height:1.5; font-family: Tahoma; font-size: 12px;">
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
