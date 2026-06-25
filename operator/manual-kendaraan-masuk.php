@@ -259,6 +259,13 @@ function goBack() {
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
+						<div class="col-lg-6" >
+                          <label style="color:#a2050c">Pembayaran :</label>
+                           <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="2">e-Money</option>
+                                      <option value="2" selected>QRIS</option>
+                                  </select>
+                        </div>
                       <div class="col-lg-6">
                           <label class="">Total Tagihan :</label>
                           <div class="input-group input-group-sm">
@@ -267,13 +274,7 @@ function goBack() {
 																  <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 																  </div>
 																  </div>
-						<div class="col-lg-6" >
-                          <label style="color:#a2050c">Pembayaran :</label>
-                           <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2">e-Money</option>
-                                      <option value="2" selected>QRIS</option>
-                                  </select>
-                        </div>
+						
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						  <div class="form-group row">

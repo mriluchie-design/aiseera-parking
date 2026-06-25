@@ -109,7 +109,7 @@ function goBack() {
 						<div class="col-lg-4" >
                           <label>Tanggal Keluar :</label>
                           <div class="input-group date">
-													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" disabled>
+													<input type="text" class="form-control form-control-sm"  placeholder="5 Mei 2026" id="kt_datepicker_2" disabled>
 													<div class="input-group-append">
 														<span class="input-group-text">
 															<i class="la la-calendar-check-o"></i>
@@ -121,7 +121,7 @@ function goBack() {
 						<div class="col-lg-4">
                           <label >Jam Keluar :</label>
                           <div class="input-group timepicker">
-													<input class="form-control form-control-sm" id="kt_timepicker_2" readonly="" placeholder="07:44:00" type="text" disabled>
+													<input class="form-control form-control-sm" id="kt_timepicker_2"  placeholder="07:44:00" type="text" disabled>
 													<div class="input-group-append">
 														<span class="input-group-text">
 															<i class="la la-clock-o"></i>
