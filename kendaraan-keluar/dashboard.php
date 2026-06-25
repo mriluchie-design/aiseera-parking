@@ -468,10 +468,6 @@
 								
 									
 									
-								</div>
-
-								
-						</div>
 
 						<?php require '../layouts/footer.php' ?>
 						<script src="https://code.highcharts.com/highcharts.js"></script>
