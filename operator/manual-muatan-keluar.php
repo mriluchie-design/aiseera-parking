@@ -199,8 +199,8 @@ function goBack() {
 						<div class="col-lg-6" >
                           <label style="color:#a2050c">Pembayaran :</label>
                           <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2" ="">Tunai</option>
-                                      <option value="2" selected>Non Tunai</option>
+                                      <option value="2">e-Money</option>
+                                      <option value="2" selected>QRIS</option>
                                   </select>
                         </div>
                         </div>

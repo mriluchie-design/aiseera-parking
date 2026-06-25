@@ -7,7 +7,7 @@
             <div class="kt-subheader__main">
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Data Bagian
+                    Data Divisi
                 </h3>
             </div>
             <div class="kt-subheader__toolbar">
@@ -104,7 +104,7 @@
 											<tr style="text-align:center">
 											  <th width="1%" bgcolor="#f7fcff" id="kt_table_2">#</th>
 											  <th width="20%" bgcolor="#f7fcff">Department</th>
-											  <th width="20%" bgcolor="#f7fcff">Bagian</th>
+											  <th width="20%" bgcolor="#f7fcff">Divisi</th>
 											  <th width="1%" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 										</thead>
