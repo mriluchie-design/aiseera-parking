@@ -852,10 +852,7 @@ function goBack() {
 								</div>
 
 								<!--End:: App Content-->
-							</div>
-
-							<!--End::App-->
-						</div>
+						
 
 <?php require '../layouts/footer.php' ?>
 <?php require '../layouts/foot.php' ?>

@@ -6690,29 +6690,16 @@
                     
 									<!--end: Datatable -->
 								</div>
+								</div>
 
 						<!-- end:: Content -->
-
-
-
-  </div>
-  </div>
-  </div>
 </div>
 
+
+  
+
 									<!--end: Datatable -->
-								</div>
-							</div>
-
-            </div>
-
-
-
-
-                </div>
-            </div>
-        </div>
-    </div>
+								
 						<?php require '../layouts/footer.php' ?>
 						<script src="https://code.highcharts.com/highcharts.js"></script>
 						<script src="https://code.highcharts.com/modules/exporting.js"></script>
