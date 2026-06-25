@@ -79,7 +79,7 @@ function goBack() {
 							<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid mt-3">
 								<div class="bg-white w-100 ml-auto mr-auto" height="auto">
 	
-<table class="table-checkable" cellpadding="3" align="left" width="550" style="line-height:1.5; margin-left:63px; position:relative;top:70px; font-family: Tahoma; font-size: 12px;">
+<table class="table-checkable" cellpadding="3" align="left" width="550" style="line-height:1.5; margin-left:63px; margin-top: 100px; font-family: Tahoma; font-size: 12px;">
    <tr>
     <td width="2%" style="border-bottom:1px solid #ccc;"><b>Cabang</b></td>
     <td width="1%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
