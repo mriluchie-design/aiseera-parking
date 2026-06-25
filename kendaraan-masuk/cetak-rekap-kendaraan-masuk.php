@@ -223,7 +223,7 @@ function goBack() {
 </tbody>
 									</table>
 						
-<table align="center" class="footnote-1" width="1450px" style="margin-top:50px; margin-bottom:20px;">
+<table align="center" class="footnote-1" width="1450px" style="margin-top:150px; margin-bottom:20px;">
         <thead>
             <tr><th></th>
             <th width="2%"></th>
