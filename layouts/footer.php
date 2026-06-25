@@ -4,8 +4,8 @@
             <!-- begin:: Footer -->
             <div class="kt-footer  kt-grid__item kt-grid kt-grid--desktop kt-grid--ver-desktop p-0" id="kt_footer">
                 <div class="kt-container  kt-container--fluid d-block p-0">
-                    <span class="m-footer">
-                        © 2026 - <a href="https://pelindo.co.id" class="m-link text-white">PT. Pelabuhan Indonesia (Persero)</a> | Developed By :  <a href="https://aksikode.com" class="m-link text-white">PT. Aksi Kode Indonesia </a> - All Rights Reserved !
+                    <span class="m-footer" align="center">
+                        © 2026 - <a href="https://pelindo.co.id" target="_blank" class="m-link text-white">PT. Pelabuhan Indonesia (Persero)</a> | Developed By :  <a href="https://aksikode.com" class="m-link text-white" target="_blank">PT. Aksi Kode Indonesia </a> - All Rights Reserved !
                     </span>
                 </div>
             </div>
