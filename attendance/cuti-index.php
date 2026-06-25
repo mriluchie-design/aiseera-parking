@@ -829,10 +829,7 @@
 </div>
 
 									<!--end: Datatable -->
-								</div>
-							</div>
-
-            </div>
+								
 
 
 <?php require '../layouts/footer.php' ?>

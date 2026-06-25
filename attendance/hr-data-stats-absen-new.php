@@ -824,10 +824,7 @@
 								</div>
 								</div>
 							<!--End::Modal 2-->
-								</div>
-							</div>
-
-            </div>
+								
 
 
 <?php require '../layouts/footer.php' ?>

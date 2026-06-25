@@ -327,31 +327,9 @@ function goBack() {
 
           </div>
         </div>
-            </div>
 
-
-									<!--End::Portlet-->
-								</div>
-
-									<!--end:: Widgets/Notifications-->
-								</div>
-							</div>
-						</div>
-
-						<!-- end:: Content -->
-					</div>
-
-						<!-- end:: Content -->
-					</div>
-
-  </div>
-</div>
-
-									<!--end: Datatable -->
-								</div>
-							</div>
-
-            </div>
+					
+								
 <!--begin::Page Scripts(used by this page) -->
 
 <?php require '../layouts/footer.php' ?>
