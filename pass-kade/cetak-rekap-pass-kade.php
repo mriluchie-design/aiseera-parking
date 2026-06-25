@@ -77,7 +77,7 @@ function goBack() {
 
 							<div class="tab-content" style="background:#f2f3f8;overflow:scroll; padding-bottom">
 							<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid mt-3">
-								<div class="bg-white w-70 ml-auto mr-auto">
+								<div class="bg-white w-100 ml-auto mr-auto">
 	
 						
 <table class="table-checkable" cellpadding="3" align="left" width="350" style="line-height:1.5; margin-left:63px; position:relative;top:70px; font-family: Roboto; font-size: 12px;">

@@ -24,12 +24,12 @@ License: You must have a valid license purchased only from themeforest(the above
 										</span>
 										&nbsp;
 										&nbsp;
-											Rekap Transaksi Keuangan
+											Laporan Rekap
 									</h3>
 								<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Kendaraan Masuk </span>
+											Pass Orang </span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
 										</form>
@@ -77,52 +77,50 @@ function goBack() {
 
 							<div class="tab-content" style="background:#f2f3f8;overflow:scroll; padding-bottom">
 							<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid mt-3">
-								<div class="bg-white w-100 ml-auto mr-auto">
+								<div class="bg-white w-100 ml-auto mr-auto" style="margin-bottom:70px;">
 	
-<table class="table-checkable" cellpadding="3" align="left" width="350" style="line-height:1.5; margin-left:63px; position:relative;top:70px; font-family: Tahoma; font-size: 12px;">
+						
+<table class="table-checkable" cellpadding="3" align="left" width="350" style="line-height:1.5; margin-left:63px; position:relative;top:70px; font-family: Roboto; font-size: 12px;">
    <tr>
-    <td width="2%" style="border-bottom:1px solid #ccc;"><b>Cabang</b></td>
-    <td width="1%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
-    <td width="17%"  style="border-bottom:1px solid #ccc;">Makassar</td>
-   
-    
+    <td width="7%" style="border-bottom:1px solid #ccc;">Cabang</td>
+    <td width="2%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
+    <td width="21%"  style="border-bottom:1px solid #ccc;">Makassar</td>
   </tr>
   <tr>
-    <td width="2%" style="border-bottom:1px solid #ccc;"><b>Periode</b></td>
-   <td width="1%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
-    <td width="17%" style="border-bottom:1px solid #ccc;">01/01/2025 s/d 31/01/2025</td>
-   
+    <td width="7%" style="border-bottom:1px solid #ccc;">Tanggal Masuk</td>
+   <td width="2%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
+    <td width="21%" style="border-bottom:1px solid #ccc;">01/01/2025 s/d 31/01/2025</td>
   </tr>
   <tr>
-    <td style="border-bottom:1px solid #ccc;"><b>Kategori</b></td>
-    <td style="text-align: center;border-bottom:1px solid #ccc;">:</td>
+    <td style="border-bottom:1px solid #ccc;">Operator</td>
+    <td width="2%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
     <td style="border-bottom:1px solid #ccc;">Keseluruhan</td>
-    
   </tr>
 </table>
-		<table class="table-checkable" align="center" width="1450" border="0" style="line-height:1.5; position:relative;top:90px; font-family: Roboto; font-size: 12px;" id="kt_table_1">
+<table class="table-checkable" align="center" width="1450" border="0" style="line-height:1.5; position:relative;top:90px; font-family: Roboto; font-size: 12px;" id="kt_table_1">
   <tr>
-    <td colspan="7" style="text-align: center"><strong><U>DATA REKAP KEUANGAN<br>KENDARAAN MASUK<U></strong></td>
+    <td colspan="7" style="text-align: center"><strong><U>DATA REKAP - PASS ORANG<U></strong></td>
   </tr>
  
   
   <tr>
     <td colspan="7">&nbsp;</td>
   </tr>
-</table>	
+</table>
 <table align="center" border="1" cellpadding="5" style="width: 1450px; position:relative;top:90px; text-align:justify; line-height:1.5; font-family: Tahoma; font-size: 12px;">
 										<thead>
 											<tr style="text-align:center;">
 											  <th rowspan="2" bgcolor="#f7fcff" id="kt_table_3">#</th>
 											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
-											  <th colspan="4" bgcolor="#f7fcff">Transaksi</th>
+											  <th colspan="5" bgcolor="#f7fcff">Pass Orang</th>
 											  <th colspan="6" bgcolor="#fdfdec">Pembayaran</th>
 										  </tr>
 											<tr style="text-align:center">
-											  <th width="1%" bgcolor="#f7fcff">Kategori</th>
-											  <th width="2%" bgcolor="#f7fcff">Jenis</th>
-											  <th width="2%" bgcolor="#f7fcff">ID</th>
+											  <th width="2%" bgcolor="#f7fcff">ID Transaksi</th>
 											  <th width="2%" bgcolor="#f7fcff">Plat</th>
+											  <th width="2%" bgcolor="#f7fcff">Vol</th>
+											  <th width="2%" bgcolor="#f7fcff">Satuan</th>
+											  <th width="2%" bgcolor="#f7fcff">OP</th>
 											  <th width="2%" bgcolor="#fdfdec">ID </th>
 											  <th width="2%" bgcolor="#fdfdec">Waktu</th>
 											  <th width="3%" bgcolor="#fdfdec">ID Reff</th>
@@ -135,70 +133,69 @@ function goBack() {
 											<tr>
 											  <td id="kt_table_34" style="text-align:right"><strong>1</strong></td>
 											  <td nowrap style="text-align:left">Makassar</td>
-											  <td nowrap="nowrap" style="text-align:left">Reguler</td>
-											  <td nowrap="nowrap" style="text-align:left">Motor</td>
-											  <td nowrap style="text-align:left">000001INTEM0626</td>
+											  <td nowrap style="text-align:left">001TRORGEM0526</td>
 											  <td nowrap style="text-align:left">DD 1111 LUU</td>
-											  <td nowrap style="text-align:left">000001PINTEM0626</td>
+											  <td nowrap="nowrap" style="text-align:center">1</td>
+											  <td nowrap="nowrap" style="text-align:center">Orang</td>
+											  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+											  <td nowrap style="text-align:left">000002PKDTEM0626</td>
 											  <td nowrap style="text-align:center">1 September 2026<hr>15:37:00 WITA</td>
-											  <td nowrap style="text-align:left">000001PGTEM0626</td>
-											  <td nowrap style="text-align:center">eMoney</td>
+											  <td nowrap style="text-align:left">000001PTOGEM0626</td>
+											  <td nowrap style="text-align:center"><span class="btn btn-label-brand btn-sm" >eMoney</span></td>
 											  <td>Mandiri</td>
 											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>8.000,-</span></div></td>
 										  </tr>
 											<tr>
 											  <td  width="1%" id="kt_table_12" style="text-align:right">2</td>
 											  <td nowrap="nowrap" style="text-align:left">Makassar</td>
-											  <td nowrap style="text-align:left">Reguler</td>
-											  <td nowrap style="text-align:left">Mobil</td>
-											  <td nowrap="nowrap" style="text-align:left">000002INTEM0626</td>
+											  <td nowrap="nowrap" style="text-align:left">002TRORGEM0526</td>
 											  <td nowrap="nowrap" style="text-align:left">DD 1111 LU</td>
-											  <td nowrap="nowrap" style="text-align:left">000002PINTEM0626</td>
+											  <td nowrap="nowrap" style="text-align:center">2</td>
+											  <td nowrap="nowrap" style="text-align:center">Orang</td>
+											  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+											  <td nowrap="nowrap" style="text-align:left">000003PKDTEM0626</td>
 											  <td nowrap="nowrap" style="text-align:center">1 September 2026<hr />15:38:00 WITA</td>
-											  <td nowrap="nowrap" style="text-align:left">000002PGTEM0626</td>
-											  <td nowrap="nowrap" style="text-align:center">eMoney</td>
+											  <td nowrap="nowrap" style="text-align:left">000002PTOGEM0626</td>
+											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm" >eMoney</span></td>
 											  <td>BNI Tapcash</td>
 											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>15.000,-</span></div></td>
 										  </tr>
 										  <tr>
 											  <td  width="1%" id="kt_table_12" style="text-align:right">3</td>
 											  <td nowrap="nowrap" style="text-align:left">Makassar</td>
-											  <td nowrap style="text-align:left">Reguler</td>
-											  <td nowrap style="text-align:left">Mobil</td>
-											  <td nowrap="nowrap" style="text-align:left">000001INTQR0626</td>
+											  <td nowrap="nowrap" style="text-align:left">003TRORGQR0526</td>
 											  <td nowrap="nowrap" style="text-align:left">DD 1111 LU</td>
-											  <td nowrap="nowrap" style="text-align:left">000001PINTQR0626</td>
+											  <td nowrap="nowrap" style="text-align:center">2</td>
+											  <td nowrap="nowrap" style="text-align:center">Orang</td>
+											  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+											  <td nowrap="nowrap" style="text-align:left">000002PKDTQR0626</td>
 											  <td nowrap="nowrap" style="text-align:center">1 September 2026<hr />15:39:00 WITA</td>
-											  <td nowrap="nowrap" style="text-align:left">000001PGTQR0626</td>
-											  <td nowrap="nowrap" style="text-align:center">QRIS</td>
+											  <td nowrap="nowrap" style="text-align:left">000003PTOGQR0626</td>
+											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm" >QRIS</span></td>
 											  <td>OVO</td>
 											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>15.000,-</span></div></td>
 										  </tr>
 										  <tr>
 											  <td  width="1%" id="kt_table_12" style="text-align:right">4</td>
 											  <td nowrap="nowrap" style="text-align:left">Makassar</td>
-											  <td nowrap style="text-align:left">Reguler</td>
-											  <td nowrap style="text-align:left">Mobil</td>
-											  <td nowrap="nowrap" style="text-align:left">000002INTQR0626</td>
+											  <td nowrap="nowrap" style="text-align:left">004TRORGQR0526</td>
 											  <td nowrap="nowrap" style="text-align:left">DD 1111 LU</td>
-											  <td nowrap="nowrap" style="text-align:left">000002PINTQR0626</td>
+											  <td nowrap="nowrap" style="text-align:center">2</td>
+											  <td nowrap="nowrap" style="text-align:center">Orang</td>
+											  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+											  <td nowrap="nowrap" style="text-align:left">000003PKDTQR0626</td>
 											  <td nowrap="nowrap" style="text-align:center">1 September 2026<hr />15:40:00 WITA</td>
-											  <td nowrap="nowrap" style="text-align:left">000002PGTQR0626</td>
-											  <td nowrap="nowrap" style="text-align:center">QRIS</td>
+											  <td nowrap="nowrap" style="text-align:left">000004PTOGQR0626</td>
+											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm" >QRIS</span></td>
 											  <td>DANA</td>
 											  <td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>15.000,-</span></div></td>
 										  </tr>
-									      <tr>
-										    <td colspan="11" bgcolor="#f7fcff" id="kt_table_10" style="text-align:right"><b>Grand Total</b></td>
-										    <td bgcolor="#f7fcff" style="text-align:right" id="kt_table_10"><div style="display: flex; justify-content: space-between; align-items: center;"> <span><b>Rp.</b></span> <span><b>53.000,-</b></span></div></td>
-									      </tr>
-										  <tr>
-										    <td bgcolor="#f7fcff" style="text-align:left" colspan="12" id="kt_table_2"><em><strong>Terbilang : Lima Puluh Tiga Ribu Rupiah</strong></em></td>
-									      </tr>
+									      
+										 
   </tbody>
-									</table>			
+									</table>
 
-						
+					
 <table align="center" class="footnote-1" width="1450px" style="margin-top:150px; margin-bottom:20px;">
         <thead>
             <tr><th></th>
@@ -230,7 +227,7 @@ function goBack() {
                             tanda tangan basah pada Dokumen ini.</i></span></td>
             </tr>
             <tr style=" width:650px;">
-              <td colspan="2" valign="center" style="text-align: center; font-family: Roboto; font-size: 11px;"><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA - Halaman 1 dari 100</i></td>
+              <td colspan="2" valign="center" style="text-align: center; font-family: Roboto; font-size: 11px;"><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA - Halaman 1 dari 100 - Halaman 1 dari 100</i></td>
             </tr>
 <tr style="height: 10px"><td></td></tr>
              <tr>
