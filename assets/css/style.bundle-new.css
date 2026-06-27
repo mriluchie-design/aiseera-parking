@@ -13311,7 +13311,7 @@ background-color: #f5f5f5;}
     .daterangepicker .drp-calendar td.available.off {
       color: #fff; }
     .daterangepicker .drp-calendar td.active {
-      background-color: #5d78ff;
+      background-color: #02afff;
       color: #ffffff;
       border-radius: 0;
       border-radius: 4px; }
@@ -35998,7 +35998,7 @@ body {
       min-height: 44px; }
       .kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__heading .kt-menu__link-text,
       .kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__link .kt-menu__link-text {
-        font-weight: 400;
+        font-weight: 500;
         font-size: 1rem;
         text-transform: initial; }
       .kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__heading .kt-menu__link-icon,

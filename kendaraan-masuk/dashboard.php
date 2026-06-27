@@ -113,11 +113,6 @@
         
 		</div>
 <div class="row">
-								
-								
-								
-								
-								
 								<div class="col-xl-12">
 
 									<!--begin:: Widgets/Activity-->
@@ -238,21 +233,8 @@
 														
 														
 													</div>
-													<div class="kt-widget17__items">
-														
-														
-														
-														
-														
-														
-													</div>
-													<div class="kt-widget17__items">
-														
-														
-														
-														
-														
-													</div>
+
+													
 													
 												</div>
 											</div>
@@ -462,8 +444,7 @@
 									
 									</div>
 								
-								</div>
-								
+								<div>&nbsp;</div>
 								
 									
 								
