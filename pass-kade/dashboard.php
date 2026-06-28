@@ -356,14 +356,13 @@
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Operator</th>
-											  <th colspan="7" bgcolor="#feffed">Kendaraan Pass Kade</th>
+											  <th colspan="6" bgcolor="#feffed">Kendaraan Pass Kade</th>
 											  <th colspan="3" bgcolor="#f7fcff">Pembayaran</th>
 											  <th bgcolor="#f7fcff">Foto</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 									      </tr>
 											<tr style="text-align:center">
-											  <th width="1%" bgcolor="#feffed">Kendaraan</th>
-											  <th width="1%" bgcolor="#feffed">Gol</th>
+											  <th width="3%" bgcolor="#feffed">Kendaraan</th>
 											  <th width="1%" bgcolor="#feffed">No. Plat</th>
 											  <th width="1%" bgcolor="#feffed">Karcis / eMoney</th>
 											  <th colspan="2" bgcolor="#feffed">Volume<br>Muatan</th>
@@ -380,7 +379,6 @@
 												<td style="text-align:center" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123212&lt;hr&gt;Muhammad Ramadhan, ST" data-html="true"><img src="../assets/media/users/100_5.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:left">Mobil</td>
-												<td nowrap="nowrap" style="text-align:left">IVA</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
 												<td nowrap="nowrap" style="text-align:center">12321355123123212</td>
 												<td width="1%" nowrap="nowrap" style="text-align:center">1</td>
@@ -405,7 +403,6 @@
 												<td nowrap="nowrap" style="text-align:center">Makassar</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"> <img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:left">Motor</td>
-												<td nowrap="nowrap" style="text-align:left">II</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LLU</td>
 												<td nowrap="nowrap" style="text-align:center">12321355123123212</td>
 												<td nowrap="nowrap" style="text-align:center">2</td>
@@ -433,7 +430,6 @@
 												<td style="text-align:center" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123212&lt;hr&gt;Muhammad Ramadhan, ST" data-html="true"> <img src="../assets/media/users/100_5.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:left">Truck</td>
-												<td nowrap="nowrap" style="text-align:left">VB</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
 												<td nowrap="nowrap" style="text-align:center">12321355123123212</td>
 												<td nowrap="nowrap" style="text-align:center">3</td>
@@ -460,7 +456,6 @@
   <td style="text-align:center" nowrap="nowrap">Makassar</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123212&lt;hr&gt;Muhammad Ramadhan, ST" data-html="true"> <img src="../assets/media/users/100_5.jpg" alt="image" /></a></td>
   <td nowrap="nowrap" style="text-align:left">Truck</td>
-  <td nowrap="nowrap" style="text-align:left">VB</td>
   <td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
   <td nowrap="nowrap" style="text-align:center">12321355123123212</td>
   <td nowrap="nowrap" style="text-align:center">4</td>
