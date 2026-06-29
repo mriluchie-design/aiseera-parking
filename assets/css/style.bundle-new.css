@@ -13294,10 +13294,11 @@ background-color: #f5f5f5;}
   .daterangepicker .drp-calendar th {
     font-weight: 500;
     font-size: 1rem;
-    color: #595d6e; }
+    color: #124879; }
     .daterangepicker .drp-calendar th.month {
-      font-weight: 400;
-      color: #74788d; }
+      font-weight: 500;
+	  font-size:1rem;
+      color: #0e62ae; }
     .daterangepicker .drp-calendar th.next span, .daterangepicker .drp-calendar th.prev span {
       border-width: 0 1px 1px 0;
       border-color: #74788d; }
@@ -13307,7 +13308,7 @@ background-color: #f5f5f5;}
       margin-left: 1px; }
   .daterangepicker .drp-calendar td {
     font-size: 1rem;
-    color: #595d6e; }
+    color: #124879; }
     .daterangepicker .drp-calendar td.available.off {
       color: #fff; }
     .daterangepicker .drp-calendar td.active {
@@ -13326,8 +13327,8 @@ background-color: #f5f5f5;}
     .daterangepicker .drp-calendar td.today, .daterangepicker .drp-calendar td.today.active {
       border-radius: 0;
       border-radius: 4px;
-      background: #ffed00 !important;
-      color: #1b1864 !important; }
+      background: #0961ae !important;
+      color: #ffed00 !important; }
     .daterangepicker .drp-calendar td.in-range.available:not(.active):not(.off):not(.today) {
       background-color: #edffef;
       color: #595d6e; }

@@ -273,10 +273,12 @@
   vertical-align: middle;
 }
 
+
 .daterangepicker .drp-selected {
   display: inline-block;
   font-size: 12px;
   padding-right: 8px;
+  color:#ff0000;
 }
 
 .daterangepicker .drp-buttons .btn {
