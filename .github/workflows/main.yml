@@ -28,5 +28,5 @@ jobs:
       - name: Trigger Aapanel !
         run: |
           echo Starting Trigger
-          github_token: ${{ secrets.github_token }}
+          curl -X POST "${{ vars.AAPANEL }}"
           echo Trigger Success
