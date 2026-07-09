@@ -253,6 +253,12 @@
 																	<ul class="kt-nav">
 																	
 																		<li class="kt-nav__item">
+																			<a href="detail-perangkat.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Detail</span>
+																			</a>
+																		</li>
+																		<li class="kt-nav__item">
 																			<a href="edit-perangkat.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon-edit-1"></i>
 																				<span class="kt-nav__link-text">Edit</span>
@@ -286,7 +292,12 @@
 																</a>
 																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 																	<ul class="kt-nav">
-																	
+																	<li class="kt-nav__item">
+																			<a href="detail-perangkat.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Detail</span>
+																			</a>
+																		</li>
 																		<li class="kt-nav__item">
 																			<a href="edit-perangkat.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon-edit-1"></i>
@@ -321,6 +332,12 @@
 																</a>
 																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 																	<ul class="kt-nav">
+																	<li class="kt-nav__item">
+																			<a href="detail-perangkat.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Detail</span>
+																			</a>
+																		</li>
 																	
 																		<li class="kt-nav__item">
 																			<a href="edit-perangkat.php" class="kt-nav__link">
@@ -356,7 +373,12 @@
 																</a>
 																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 																	<ul class="kt-nav">
-																	
+																	<li class="kt-nav__item">
+																			<a href="detail-perangkat.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Detail</span>
+																			</a>
+																		</li>
 																		<li class="kt-nav__item">
 																			<a href="edit-perangkat.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon-edit-1"></i>
@@ -391,7 +413,12 @@
 																</a>
 																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 																	<ul class="kt-nav">
-																	
+																	<li class="kt-nav__item">
+																			<a href="detail-perangkat.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Detail</span>
+																			</a>
+																		</li>
 																		<li class="kt-nav__item">
 																			<a href="edit-perangkat.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon-edit-1"></i>
@@ -426,7 +453,12 @@
 																</a>
 																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 																	<ul class="kt-nav">
-																	
+																	<li class="kt-nav__item">
+																			<a href="detail-perangkat.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Detail</span>
+																			</a>
+																		</li>
 																		<li class="kt-nav__item">
 																			<a href="edit-perangkat.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon-edit-1"></i>
@@ -461,7 +493,12 @@
 																</a>
 																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 																	<ul class="kt-nav">
-																	
+																	<li class="kt-nav__item">
+																			<a href="detail-perangkat.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Detail</span>
+																			</a>
+																		</li>
 																		<li class="kt-nav__item">
 																			<a href="edit-perangkat.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon-edit-1"></i>
@@ -496,7 +533,12 @@
 																</a>
 																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 																	<ul class="kt-nav">
-																	
+																	<li class="kt-nav__item">
+																			<a href="detail-perangkat.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Detail</span>
+																			</a>
+																		</li>
 																		<li class="kt-nav__item">
 																			<a href="edit-perangkat.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon-edit-1"></i>
@@ -531,7 +573,12 @@
 																</a>
 																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 																	<ul class="kt-nav">
-																	
+																	<li class="kt-nav__item">
+																			<a href="detail-perangkat.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Detail</span>
+																			</a>
+																		</li>
 																		<li class="kt-nav__item">
 																			<a href="edit-perangkat.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon-edit-1"></i>
@@ -566,7 +613,12 @@
 																</a>
 																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 																	<ul class="kt-nav">
-																	
+																	<li class="kt-nav__item">
+																			<a href="detail-perangkat.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Detail</span>
+																			</a>
+																		</li>
 																		<li class="kt-nav__item">
 																			<a href="edit-perangkat.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon-edit-1"></i>
@@ -601,7 +653,12 @@
 																</a>
 																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 																	<ul class="kt-nav">
-																	
+																	<li class="kt-nav__item">
+																			<a href="detail-perangkat.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Detail</span>
+																			</a>
+																		</li>
 																		<li class="kt-nav__item">
 																			<a href="edit-perangkat.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon-edit-1"></i>
@@ -636,7 +693,12 @@
 																</a>
 																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 																	<ul class="kt-nav">
-																	
+																	<li class="kt-nav__item">
+																			<a href="detail-perangkat.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Detail</span>
+																			</a>
+																		</li>
 																		<li class="kt-nav__item">
 																			<a href="edit-perangkat.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon-edit-1"></i>
@@ -671,7 +733,12 @@
 																</a>
 																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 																	<ul class="kt-nav">
-																	
+																	<li class="kt-nav__item">
+																			<a href="detail-perangkat.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Detail</span>
+																			</a>
+																		</li>
 																		<li class="kt-nav__item">
 																			<a href="edit-perangkat.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon-edit-1"></i>
@@ -706,7 +773,12 @@
 																</a>
 																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 																	<ul class="kt-nav">
-																	
+																	<li class="kt-nav__item">
+																			<a href="detail-perangkat.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Detail</span>
+																			</a>
+																		</li>
 																		<li class="kt-nav__item">
 																			<a href="edit-perangkat.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon-edit-1"></i>
@@ -741,7 +813,12 @@
 																</a>
 																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 																	<ul class="kt-nav">
-																	
+																	<li class="kt-nav__item">
+																			<a href="detail-perangkat.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Detail</span>
+																			</a>
+																		</li>
 																		<li class="kt-nav__item">
 																			<a href="edit-perangkat.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon-edit-1"></i>
