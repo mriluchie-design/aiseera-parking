@@ -35,18 +35,8 @@ License: You must have a valid license purchased only from themeforest(the above
 									</div>
 								</div>
 								<div class="kt-subheader__toolbar">
-			<div class="dropdown dropdown-inline" ddata-placement="left">
-				<a href="" class="btn btn-label-brand btn-sm" data-toggle="dropdown" onclick="goBack()">
-												<i class="flaticon-reply"></i> Kembali</button>
-<script>
-function goBack() {
-  window.history.back();
-}
-</script>
-												<!--<i class="flaticon2-plus"></i>-->
-											</a>
-				
-			</div>
+								<button type="button" class="btn btn-label-danger btn-sm" id = "buttonLogin" onclick = "displayLoginBox()"><i class="flaticon-interface-6"></i> Filter Data</button>
+			
 			<a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
 				<i class="fa fa-print"></i> Export Data</button>
 			</a>
@@ -71,6 +61,71 @@ function goBack() {
 		</div>
 
 							</div>
+							</div>
+							<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
+
+														<div class="kt-portlet" id = "login_Box_Div" >
+																	<div class="kt-portlet__head">
+																		<div class="kt-portlet__head-label">
+																			<h3 class="kt-portlet__head-title">
+																				Filter Data
+																			</h3>
+																		</div>
+																	</div>
+
+																	<!--begin::Form-->
+																	<form class="kt-form">
+																		<div class="kt-portlet__body">
+							                      <div class="form-group row">
+												  <div class="col-lg-2">
+                                <label>Cabang :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Makassar</option>
+                                      <option value="2">Pare-Pare</option>
+                                      <option value="2">Balikpapan</option>
+                                      <option value="2">Samarinda</option>
+                                      <option value="2">Tarakan</option>
+                                      <option value="2">Nunukan</option>
+                                      <option value="2">Manado</option>
+                                      <option value="2">Bitung</option>
+                                      <option value="2">Ambon - Yos Sudarso</option>
+                                      <option value="2">Ambon - Slamet Riyadi</option>
+                                      <option value="2">Ternate</option>
+                                      <option value="2">Sorong</option>
+                                      <option value="2">Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
+							                        <div class="col-lg-2">
+                                <label class="">Periode :</label>
+                                <div class="input-group">
+						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="-- Pilih Tanggal --">
+						                        <div class="input-group-append">
+						                          <span class="input-group-text"><i class="la la-calendar"></i></span>
+						                        </div>
+						                      </div>
+                            </div>
+													
+
+							                        
+													
+													
+													
+							                        
+							                      </div>
+							                      
+							                      </div>
+																		<div class="kt-portlet__foot text-center">
+						<div class="kt-form__actions">
+							<button type="reset" class="btn btn-secondary btn-sm">Reset</button>
+							<button type="reset" class="btn btn-primary btn-sm"><i class="flaticon-interface-6"></i>Filter Data</button>
+						</div>
+					</div>
+																	</form>
+
+																	<!--end::Form-->
+																</div>
 						</div>
 <div class="tab-content" style="background:#f2f3f8;overflow:scroll;height:auto;">
 							<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid mt-3">
@@ -85,10 +140,10 @@ function goBack() {
     <td style="text-align: center; font-size:12px;">&nbsp;</td>
   </tr>
    <tr>
-    <td style="text-align: left; font-size:12px;"><strong>PT. PELABUHAN INDONESIA (PERSERO)</strong></td>
+    <td style="text-align: left; font-size:12px;"><strong>PT. PELABUHAN INDONESIA (PERSERO) REGIONAL 4</strong></td>
   </tr>
   <tr>
-     <td style="text-align: left; font-size:12px; font-family: Tahoma;"><strong>REGIONAL 4 - CABANG MAKASSAR</strong></td>
+     <td style="text-align: left; font-size:12px; font-family: Tahoma;"><strong>CABANG MAKASSAR</strong></td>
   </tr>
   <tr>
      <td style="text-align: left; font-size:13px; font-family: Tahoma;">Jl. Soekarno No. 1 Makassar</td>
