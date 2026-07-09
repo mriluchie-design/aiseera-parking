@@ -116,7 +116,7 @@
                                       <option value="2">Manado</option>
                                       <option value="2">Bitung</option>
                                       <option value="2">Ambon - Yos Sudarso</option>
-                                      <option value="2">Ambon - Slamet Riyadi</option>
+                                      <option value="2">Ambon - Slamet Ri<span class="btn btn-label-twitter btn-sm">Ya</span>di</option>
                                       <option value="2">Ternate</option>
                                       <option value="2">Sorong</option>
                                       <option value="2">Keseluruhan</option>
@@ -187,6 +187,7 @@
 											  <th width="1%" bgcolor="#f7fcff">Gate</th>
 											  <th width="2%" bgcolor="#f7fcff">Jalur</th>
                                               <th width="20%" bgcolor="#f7fcff">Nama Jalur</th>
+                                              <th width="1%" bgcolor="#f7fcff">Transaksi</th>
 											  <th width="1%" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 										</thead>
@@ -197,6 +198,7 @@
 												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 												<td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Ya</span></td>
 												
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
@@ -226,6 +228,7 @@
 												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 												<td nowrap="nowrap" style="text-align:left">Mobil - 2</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Ya</span></td>
 												
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
@@ -255,6 +258,7 @@
 												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 												<td nowrap="nowrap" style="text-align:left">Motor - 1</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Ya</span></td>
 												
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
@@ -284,6 +288,7 @@
 												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 												<td nowrap="nowrap" style="text-align:left">Motor - 2</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Ya</span></td>
 												
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
@@ -313,6 +318,7 @@
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Keluar</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Ya</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
@@ -341,6 +347,7 @@
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Keluar</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Mobil - 2</td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Ya</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
@@ -369,6 +376,7 @@
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Keluar</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Motor - 1</td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Ya</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
@@ -397,6 +405,7 @@
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Keluar</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Motor - 2</td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Ya</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
@@ -425,6 +434,7 @@
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">2</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Ya</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
@@ -453,6 +463,7 @@
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">2</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Mobil - 2</td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Ya</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
@@ -481,6 +492,7 @@
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">2</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Motor - 1</td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Ya</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
@@ -509,6 +521,7 @@
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">2</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Motor - 2</td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Ya</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
@@ -537,6 +550,7 @@
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">2</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Keluar</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Ya</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
@@ -565,6 +579,7 @@
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">2</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Keluar</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Mobil - 2</td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Ya</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
@@ -593,6 +608,7 @@
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">2</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Keluar</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Motor - 1</td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Ya</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
@@ -621,6 +637,7 @@
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">2</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Keluar</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Motor - 2</td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Ya</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
@@ -739,7 +756,7 @@
                                       <option value="2">Manado</option>
                                       <option value="2">Bitung</option>
                                       <option value="2">Ambon - Yos Sudarso</option>
-                                      <option value="2">Ambon - Slamet Riyadi</option>
+                                      <option value="2">Ambon - Slamet Ri<span class="btn btn-label-twitter btn-sm">Ya</span>di</option>
                                       <option value="2">Ternate</option>
                                       <option value="2">Sorong</option>
                                                                            
@@ -777,6 +794,33 @@
 														<label class="kt-font-brand">Nama Jalur :</label>
 														<input type="text" class="form-control form-control-sm" placeholder="">
 													</div>
+
+												
+													
+													
+
+												</div>
+												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+												<div class="form-group row">
+												<div class="col-lg-6">
+														<label class="kt-font-brand">Dispenser :</label>
+														<select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Ya</option>
+                                      <option value="2">Pos Portable</option>
+                                    
+                                     
+                                  </select>
+													</div>
+												<div class="col-lg-6">
+														<label class="kt-font-brand">Transaksi :</label>
+														<select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Ya</option>
+                                      <option value="2">Tidak</option>
+                                    
+                                     
+                                  </select>
+													</div>
+
 
 												
 													
