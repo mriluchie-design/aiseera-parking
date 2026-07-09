@@ -344,12 +344,7 @@
 </svg> </span>
 																<span class="kt-grid-nav__title">Maintenance</span>
 															</a>
-															<a href="#" class="kt-grid-nav__item">
-																<span class="kt-grid-nav__icon" data-container="body" data-toggle="kt-popover" >
-																<span class="kt-grid-nav__icon">
-																	 </span>
-																<span class="kt-grid-nav__title"></span>
-															</a>
+															
 															
 															
 															
