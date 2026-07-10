@@ -211,7 +211,7 @@ function goBack() {
                         </div>
                         </div>
 						<div class="col-xl-10">
-										<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Team</div><br>
 							<div>&nbsp;</div>
 										<div class="kt-portlet__body">
