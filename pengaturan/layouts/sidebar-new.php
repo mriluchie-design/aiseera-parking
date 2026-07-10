@@ -131,9 +131,9 @@
 </svg></span><span class="kt-menu__link-text">Perangkat</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
 									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
 										<ul class="kt-menu__subnav">
-																	<li class="kt-menu__item " aria-haspopup="true"><a href="pengaturan-perangkat.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Data Perangkat</span></a></li>
-																	<li class="kt-menu__item " aria-haspopup="true"><a href="instalasi-perangkat.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Instalasi Perangkat</span></a></li>
-																	<li class="kt-menu__item " aria-haspopup="true"><a href="team-instalasi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Team Instalasi Perangkat</span></a></li>
+																	<li class="kt-menu__item " aria-haspopup="true"><a href="perangkat-pengaturan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Data Perangkat</span></a></li>
+																	<li class="kt-menu__item " aria-haspopup="true"><a href="perangkat-instalasi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Instalasi Perangkat</span></a></li>
+																	<li class="kt-menu__item " aria-haspopup="true"><a href="perangkat-team-instalasi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Team Instalasi Perangkat</span></a></li>
 
 																</ul>
 									</div>

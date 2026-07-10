@@ -212,8 +212,8 @@ function goBack() {
 						<div class="card">
 							<div class="card-header" id="headingOne">
 								<div class="card-title collapsed d-grid" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="false" aria-controls="collapseOne1">
-									Pelayanan
-									<small>Pintu Masuk</small>
+									Perangkat
+									<small>yang digunakan</small>
 								</div>
 							</div>
 							<div id="collapseOne1" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample1" style="">
@@ -596,7 +596,7 @@ function goBack() {
 							<div class="card-header" id="headingTwo">
 								<div class="card-title d-grid collapsed" data-toggle="collapse" data-target="#collapseTwo1" aria-expanded="false" aria-controls="collapseTwo1">
 									Barrier Gate
-									<small>Data Peralatan</small> </div>
+									<small>Material</small> </div>
 							</div>
 							<div id="collapseTwo1" class="collapse" aria-labelledby="headingTwo1" data-parent="#accordionExample1">
 								<div class="card-body">
