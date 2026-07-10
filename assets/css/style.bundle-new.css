@@ -1904,7 +1904,7 @@ pre {
   height: calc(1.5em + 1.3rem + 2px);
   padding: 0.65rem .9rem;
   font-size: .9rem;
-  font-weight: 400;
+  font-weight: 460;
   line-height: 1.5;
   color: #495057;
   background-color: #fff;
@@ -11215,8 +11215,8 @@ code {
 .modal .modal-content {
   border-radius: 4px; }
   .modal .modal-content .modal-header .modal-title {
-    font-weight: 400;
-    font-size: 1.1rem;
+    font-weight: 480;
+    font-size: 1rem;
     color: #0961ae; }
     .modal .modal-content .modal-header .modal-title small {
       font-weight: 400;
