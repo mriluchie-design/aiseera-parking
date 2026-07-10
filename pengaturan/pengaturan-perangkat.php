@@ -56,7 +56,7 @@
                     <!--begin::Nav-->
                     <ul class="kt-nav">
                         <li class="kt-nav__item">
-														<a href="cetak-tarif-index.php" class="kt-nav__link">
+														<a href="cetak-index-perangkat.php" class="kt-nav__link">
 															<i class="kt-nav__link-icon fa fa-file-pdf"></i>
 															<span class="kt-nav__link-text">PDF</span>
 														</a>
@@ -264,6 +264,7 @@
 																				<span class="kt-nav__link-text">Edit</span>
 																			</a>
 																		</li>
+																		
 																		
 																		<li class="kt-nav__item">
 																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">

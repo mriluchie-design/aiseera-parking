@@ -25,7 +25,7 @@
 			
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Setup
+                    Detail
                 </h3>
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
@@ -62,31 +62,35 @@ function goBack() {
 				
 				
 			</div>
-			<div class="btn-group">
-				<button type="button" class="btn btn-success">
-					<i class="la la-check"></i>
-					<span class="kt-hidden-mobile">Save</span>
-				</button>
-				<button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				</button>
-				<div class="dropdown-menu dropdown-menu-right">
-					<ul class="kt-nav">
-						<li class="kt-nav__item">
-							<a href="#" class="kt-nav__link">
-								<i class="kt-nav__link-icon fa fa-clock"></i>
-								<span class="kt-nav__link-text">Sementara</span>
-							</a>
-						</li>
-						<li class="kt-nav__item">
-							<a href="#" class="kt-nav__link">
-								<i class="kt-nav__link-icon fa fa-check-circle"></i>
-								<span class="kt-nav__link-text">Selesai</span>
-							</a>
-						</li>
-						
-					</ul>
-				</div>
-			</div>
+			<a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
+												<i class="flaticon2-printer"></i> Export Data</button>
+
+												<!--<i class="flaticon2-plus"></i>-->
+											</a>
+											<div class="dropdown-menu dropdown-menu-fit dropdown-menu-md dropdown-menu-right">
+
+												<!--begin::Nav-->
+												<ul class="kt-nav">
+
+													<li class="kt-nav__item">
+														<a href="cetak-detail-perangkat.php" class="kt-nav__link">
+															<i class="kt-nav__link-icon fa fa-file-pdf"></i>
+															<span class="kt-nav__link-text">PDF</span>
+														</a>
+													</li>
+													<li class="kt-nav__item">
+														<a href="#" class="kt-nav__link">
+															<i class="kt-nav__link-icon fa fa-file-excel"></i>
+															<span class="kt-nav__link-text">Excel</span>
+
+														</a>
+													</li>
+
+												</ul>
+
+												<!--end::Nav-->
+											</div>
+			
 			
 				 
                
@@ -97,22 +101,7 @@ function goBack() {
 
 	<!-- begin:: Content -->
 		<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
-            <!-- begin:: Alert -->
-			
-            <div class="alert alert-elevate alert-solid-warning alert-bold" role="alert">
-                <div class="alert-icon"><i class="fa fa-info-circle"></i></div>
-                <div class="alert-text">CCTV Sedang Offline !</div>
-                <div class="alert-close">
-                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                        <span aria-hidden="true"><i class="la la-close"></i></span>
-                    </button>
-                </div>
-            </div>
-            <!-- end:: Alert -->
-
-          
-
-			
+            
 				<div class="kt-portlet__body">
 				
 					  
@@ -232,10 +221,9 @@ function goBack() {
     <td width="1%" bgcolor="#f7fcff" rowspan="2" >NO</td>
     <td width="15%" rowspan="2" bgcolor="#f7fcff" >NAMA PERANGKAT </td>
     <td colspan="2" bgcolor="#f7fcff">Qty</td>
-    <td width="1%" rowspan="2" bgcolor="#f7fcff" >AKSI</td>
-  </tr>
+    </tr>
     <tr style="text-align:center">
-      <td width="5%" bgcolor="#f7fcff" >Volume</td>
+      <td width="3%" bgcolor="#f7fcff" >Volume</td>
       <td width="2%" bgcolor="#f7fcff" >Satuan</td>
     </tr>
   
@@ -243,339 +231,116 @@ function goBack() {
     <tr>
     <td style="text-align:right">1</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-	  <option value="AK" selected>CUSTOM CASING DISPENSER SINGLE</option>
-        <option value="AK">NFC PAYMENT READER</option>
-        <option value="AK">PRINTER THERMAL</option>
-        <option value="AK">WEBCAM</option>
-        <option value="AK">BUTTON BANTUAN</option>
-        <option value="AK">DISPLAY LAYAR</option>
-        <option value="AK">MINI PC</option>
-		  <option value="AK" >HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-		  <option value="AK" >VEHICLE LOOP DETECTOR</option>
-		  <option value="AK" >CONTROLLER DISPENSER</option>
-		  <option value="AK" >SOUND SPEAKER</option>
-		  <option value="AK" >UPS</option>
-      </select>
+	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="CUSTOM CASING DISPENSER SINGLE">
+      
     </span></td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
-<tr>
+    <td style="text-align:center"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
+    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    </tr>
+	<tr>
     <td style="text-align:right">2</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-	  <option value="AK">CUSTOM CASING DISPENSER SINGLE</option>
-        <option value="AK"  selected>NFC PAYMENT READER</option>
-        <option value="AK">PRINTER THERMAL</option>
-        <option value="AK">WEBCAM</option>
-        <option value="AK">BUTTON BANTUAN</option>
-        <option value="AK">DISPLAY LAYAR</option>
-        <option value="AK">MINI PC</option>
-		  <option value="AK" >HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-		  <option value="AK" >VEHICLE LOOP DETECTOR</option>
-		  <option value="AK" >CONTROLLER DISPENSER</option>
-		  <option value="AK" >SOUND SPEAKER</option>
-		  <option value="AK" >UPS</option>
-      </select>
+	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="NFC PAYMENT READER">
+      
     </span></td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
-<tr>
+    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
+    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    </tr>
+	<tr>
     <td style="text-align:right">3</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-	  <option value="AK">CUSTOM CASING DISPENSER SINGLE</option>
-        <option value="AK">NFC PAYMENT READER</option>
-        <option value="AK"   selected>PRINTER THERMAL</option>
-        <option value="AK">WEBCAM</option>
-        <option value="AK">BUTTON BANTUAN</option>
-        <option value="AK">DISPLAY LAYAR</option>
-        <option value="AK">MINI PC</option>
-		  <option value="AK">HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-		  <option value="AK" >VEHICLE LOOP DETECTOR</option>
-		  <option value="AK" >CONTROLLER DISPENSER</option>
-		  <option value="AK" >SOUND SPEAKER</option>
-		  <option value="AK" >UPS</option>
-      </select>
+	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="PRINTER THERMAL">
+      
     </span></td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
-  <tr>
+    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
+    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    </tr>
+	<tr>
     <td style="text-align:right">4</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-	  <option>CUSTOM CASING DISPENSER SINGLE</option>
-        <option>NFC PAYMENT READER</option>
-        <option>PRINTER THERMAL</option>
-        <option selected>WEBCAM</option>
-        <option>BUTTON BANTUAN</option>
-        <option>DISPLAY LAYAR</option>
-        <option>MINI PC</option>
-		  <option>HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-		  <option>VEHICLE LOOP DETECTOR</option>
-		  <option>CONTROLLER DISPENSER</option>
-		  <option>SOUND SPEAKER</option>
-		  <option>UPS</option>
-      </select>
+	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="WEBCAM">
+      
     </span></td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
-  <tr>
+    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
+    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    </tr>
+	<tr>
     <td style="text-align:right">5</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-	  <option>CUSTOM CASING DISPENSER SINGLE</option>
-        <option>NFC PAYMENT READER</option>
-        <option>PRINTER THERMAL</option>
-        <option>WEBCAM</option>
-        <option selected>BUTTON BANTUAN</option>
-        <option>DISPLAY LAYAR</option>
-        <option>MINI PC</option>
-		  <option>HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-		  <option>VEHICLE LOOP DETECTOR</option>
-		  <option>CONTROLLER DISPENSER</option>
-		  <option>SOUND SPEAKER</option>
-		  <option>UPS</option>
-      </select>
+	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="BUTTON BANTUAN">
+      
     </span></td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
-  <tr>
+    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
+    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    </tr>
+<tr>
     <td style="text-align:right">6</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-	  <option>CUSTOM CASING DISPENSER SINGLE</option>
-        <option>NFC PAYMENT READER</option>
-        <option>PRINTER THERMAL</option>
-        <option>WEBCAM</option>
-        <option>BUTTON BANTUAN</option>
-        <option selected>DISPLAY LAYAR</option>
-        <option>MINI PC</option>
-		  <option>HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-		  <option>VEHICLE LOOP DETECTOR</option>
-		  <option>CONTROLLER DISPENSER</option>
-		  <option>SOUND SPEAKER</option>
-		  <option>UPS</option>
-      </select>
+	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="DISPLAY LAYAR">
+      
     </span></td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
-  <tr>
+    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
+    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    </tr>
+	<tr>
     <td style="text-align:right">7</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-	  <option>CUSTOM CASING DISPENSER SINGLE</option>
-        <option>NFC PAYMENT READER</option>
-        <option>PRINTER THERMAL</option>
-        <option>WEBCAM</option>
-        <option>BUTTON BANTUAN</option>
-        <option>DISPLAY LAYAR</option>
-        <option selected>MINI PC</option>
-		  <option>HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-		  <option>VEHICLE LOOP DETECTOR</option>
-		  <option>CONTROLLER DISPENSER</option>
-		  <option>SOUND SPEAKER</option>
-		  <option>UPS</option>
-      </select>
+	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="MINI PC">
+      
     </span></td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
-  <tr>
+    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
+    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    </tr>
+<tr>
     <td style="text-align:right">8</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-	  <option>CUSTOM CASING DISPENSER SINGLE</option>
-        <option>NFC PAYMENT READER</option>
-        <option>PRINTER THERMAL</option>
-        <option>WEBCAM</option>
-        <option>BUTTON BANTUAN</option>
-        <option>DISPLAY LAYAR</option>
-        <option>MINI PC</option>
-		  <option selected>HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-		  <option>VEHICLE LOOP DETECTOR</option>
-		  <option>CONTROLLER DISPENSER</option>
-		  <option>SOUND SPEAKER</option>
-		  <option>UPS</option>
-      </select>
+	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="HUB SWITCH 8 PORT MANAGEABLE CLOUD">
+      
     </span></td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
+    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
+    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    </tr>
   <tr>
     <td style="text-align:right">9</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-	  <option>CUSTOM CASING DISPENSER SINGLE</option>
-        <option>NFC PAYMENT READER</option>
-        <option>PRINTER THERMAL</option>
-        <option>WEBCAM</option>
-        <option>BUTTON BANTUAN</option>
-        <option>DISPLAY LAYAR</option>
-        <option>MINI PC</option>
-		  <option >HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-		  <option selected>VEHICLE LOOP DETECTOR</option>
-		  <option>CONTROLLER DISPENSER</option>
-		  <option>SOUND SPEAKER</option>
-		  <option>UPS</option>
-      </select>
+	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="VEHICLE LOOP DETECTOR">
+      
     </span></td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
+    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
+    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    </tr>
   <tr>
     <td style="text-align:right">10</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-	  <option>CUSTOM CASING DISPENSER SINGLE</option>
-        <option>NFC PAYMENT READER</option>
-        <option>PRINTER THERMAL</option>
-        <option>WEBCAM</option>
-        <option>BUTTON BANTUAN</option>
-        <option>DISPLAY LAYAR</option>
-        <option>MINI PC</option>
-		  <option >HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-		  <option>VEHICLE LOOP DETECTOR</option>
-		  <option selected>CONTROLLER DISPENSER</option>
-		  <option>SOUND SPEAKER</option>
-		  <option>UPS</option>
-      </select>
+	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="CONTROLLER DISPENSER">
+      
     </span></td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
+    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
+    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    </tr>
   <tr>
     <td style="text-align:right">11</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-	  <option>CUSTOM CASING DISPENSER SINGLE</option>
-        <option>NFC PAYMENT READER</option>
-        <option>PRINTER THERMAL</option>
-        <option>WEBCAM</option>
-        <option>BUTTON BANTUAN</option>
-        <option>DISPLAY LAYAR</option>
-        <option>MINI PC</option>
-		  <option >HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-		  <option>VEHICLE LOOP DETECTOR</option>
-		  <option>CONTROLLER DISPENSER</option>
-		  <option selected>SOUND SPEAKER</option>
-		  <option>UPS</option>
-      </select>
+	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="SOUND SPEAKER">
+      
     </span></td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
+    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
+    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    </tr>
   <tr>
     <td style="text-align:right">12</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-	  <option>CUSTOM CASING DISPENSER SINGLE</option>
-        <option>NFC PAYMENT READER</option>
-        <option>PRINTER THERMAL</option>
-        <option>WEBCAM</option>
-        <option>BUTTON BANTUAN</option>
-        <option>DISPLAY LAYAR</option>
-        <option>MINI PC</option>
-		  <option >HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-		  <option>VEHICLE LOOP DETECTOR</option>
-		  <option>CONTROLLER DISPENSER</option>
-		  <option>SOUND SPEAKER</option>
-		  <option selected>UPS</option>
-      </select>
+	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="UPS">
+      
     </span></td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
+    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
+    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    </tr>
+  
+  
+  
+  
+  
 
 
   </tbody>
@@ -613,51 +378,32 @@ function goBack() {
     <td width="1%" bgcolor="#f7fcff" rowspan="2" >NO</td>
     <td width="15%" rowspan="2" bgcolor="#f7fcff" >NAMA PERANGKAT </td>
     <td colspan="2" bgcolor="#f7fcff">Qty</td>
-    <td width="1%" rowspan="2" bgcolor="#f7fcff" >AKSI</td>
-  </tr>
+    </tr>
     <tr style="text-align:center">
-      <td width="5%" bgcolor="#f7fcff" >Volume</td>
+      <td width="3%" bgcolor="#f7fcff" >Volume</td>
       <td width="2%" bgcolor="#f7fcff" >Satuan</td>
     </tr>
   
     
-
 <tr>
     <td style="text-align:right">1</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">BARRIER GATE SERVO</option>
-        <option value="AK">VEHICLE LOOP DETECTOR</option>
-      </select>
+	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="BARRIER GATE SERVO">
+      
     </span></td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
+    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
+    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    </tr>
 <tr>
     <td style="text-align:right">2</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK">BARRIER GATE SERVO</option>
-        <option value="AK" selected>VEHICLE LOOP DETECTOR</option>
-      </select>
+	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="VEHICLE LOOP DETECTOR">
+      
     </span></td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
+    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
+    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    </tr>
+
 
 
 
@@ -695,51 +441,32 @@ function goBack() {
     <td width="1%" bgcolor="#f7fcff" rowspan="2" >NO</td>
     <td width="15%" rowspan="2" bgcolor="#f7fcff" >NAMA PERANGKAT </td>
     <td colspan="2" bgcolor="#f7fcff">Qty</td>
-    <td width="1%" rowspan="2" bgcolor="#f7fcff" >AKSI</td>
-  </tr>
+    </tr>
     <tr style="text-align:center">
-      <td width="5%" bgcolor="#f7fcff" >Volume</td>
+      <td width="3%" bgcolor="#f7fcff" >Volume</td>
       <td width="2%" bgcolor="#f7fcff" >Satuan</td>
     </tr>
   
     
-
 <tr>
     <td style="text-align:right">1</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">UHF READER MID RANGE</option>
-        <option value="AK">IP CAMERA</option>
-      </select>
+	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="UHF READER MID RANGE">
+      
     </span></td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
+    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
+    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    </tr>
 <tr>
     <td style="text-align:right">2</td>
     <td style="text-align:left"><span style="text-align:center">
-       <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-        <option>UHF READER MID RANGE</option>
-        <option selected>IP CAMERA</option>
-      </select>
+	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="IP CAMERA">
+      
     </span></td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
+    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
+    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    </tr>
+
 
 
 
