@@ -1567,7 +1567,7 @@
 											<div class="kt-portlet__head">
 
 											<div class="kt-portlet__head-label">
-												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-clipboard-list"></i></span>
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-user-graduate"></i></span>
 												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">TAMBAH PENDIDIKAN</h3>
 											</div>
 <div class="kt-portlet__head-toolbar">
@@ -1949,7 +1949,7 @@
 											<div class="kt-portlet__head">
 
 											<div class="kt-portlet__head-label">
-												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-clipboard-list"></i></span>
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-users"></i></span>
 												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">TAMBAH KELUARGA</h3>
 											</div>
 <div class="kt-portlet__head-toolbar">
