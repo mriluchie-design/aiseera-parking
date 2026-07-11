@@ -22,6 +22,14 @@
 								<div class="kt-subheader__toolbar">
 
 										<button type="button" class="btn btn-label-danger btn-sm" id = "buttonLogin" onclick = "displayLoginBox()"><i class="flaticon-interface-6"></i> Filter Data</button>
+										<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
+			</div>
 										<a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
 												<i class="flaticon2-printer"></i> Export Data</button>
 
@@ -104,6 +112,7 @@
 																				<optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
 					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
 					 															</optgroup>
+																				<option value="12" selected>Keseluruhan</option>
 
 					 														</select>
                             </div>
@@ -112,12 +121,12 @@
                                 <label>Departemen :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2" selected="">Direksi</option>
+                                      <option value="2">Direksi</option>
                                       <option value="4">Keuangan</option>
                                       <option value="5">Operasional</option>
                                       <option value="5">Teknologi dan Riset</option>
                                       <option value="12" >Pengembangan Usaha dan Kerjasama</option>
-									  <option value="HI">Keseluruhan</option>
+									  <option value="12" selected>Keseluruhan</option>
                                   </select>
                             </div>
 							<div class="col-lg-2">
@@ -144,7 +153,7 @@
                                       <option value="12" >Pengembangan</option>
                                       <option value="12" >Kerjasama</option>
 									  </optgroup>
-                                      <option value="12" >Keseluruhan</option>
+                                      <option value="12" selected>Keseluruhan</option>
 
                                 </select>
                             </div>
@@ -153,12 +162,12 @@
 								  <select class="form-control kt-selectpicker" data-live-search="true">
                                    
 									 <optgroup label="Direksi" class="a">
-                                      <option value="2" selected="">Direktur Utama</option>
+                                      <option value="2">Direktur Utama</option>
                                       <option value="2">Direktur Keuangan</option>
                                       <option value="2">Direktur Operasional</option>
                                       <option value="2">Direktur Teknologi dan Riset</option>
                                       <option value="2">Direktur Pengembangan Usaha dan Kerjasama</option>
-									  <option value="HI">Keseluruhan</option>
+									 <option value="12" selected>Keseluruhan</option>
 									  </optgroup>
                                      
                                   </select>
@@ -169,7 +178,7 @@
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="2">Pusat</option>
                                       <option value="3">Cabang</option>
-                                      
+                                      <option value="12" selected>Keseluruhan</option>
                                   </select>
                             </div>
                             </div>
@@ -206,104 +215,115 @@
 				</form>
 				<!--end::Form-->
 			</div>
-            <!--begin::End-->
-							<!--begin:: Widgets/Stats-->
-							<div class="kt-portlet">
-								<div class="kt-portlet__body  kt-portlet__body--fit">
-									<div class="row row-no-padding row-col-separator-lg">
-										<div class="col-md-12 col-lg-6 col-xl-3">
+			<div class="row">
+								
+								
+								
+								
+								
+								<div class="col-xl-12">
 
-											<!--begin::Total Profit-->
-											<div class="kt-widget24">
-												<div class="kt-widget24__details">
-													<div class="kt-widget24__info">
-														<h4 class="kt-widget24__title">
-															Total
-														</h4>
-														<span class="kt-widget24__desc">
-															Pegawai Kontrak
-														</span>
-													</div>
-													<span class="kt-widget24__stats kt-font-brand">
-														4
-													</span>
-												</div>
-
+									<!--begin:: Widgets/Activity-->
+									<div class="kt-portlet kt-portlet--fit kt-portlet--head-lg kt-portlet--head-overlay kt-portlet--skin-solid kt-portlet--height-fluid">
+										<div class="kt-portlet__head kt-portlet__head--noborder kt-portlet__space-x">
+											<div class="kt-portlet__head-label" style="margin-left:55px;">
+												<h3 class="kt-portlet__head-title">
+													Statistik
+												</h3>
 											</div>
-
-											<!--end::Total Profit-->
+											<div class="kt-portlet__head-toolbar" style="margin-right:55px;">
+												<a href="#" class="btn btn-label-light btn-sm dropdown-toggle" data-toggle="dropdown">
+													Keseluruhan
+												</a>
+												<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+													<ul class="kt-nav">
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">Bulan ini</span>
+															</a>
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">Tahun ini</span>
+															</a>
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-chart-bar"></i>
+																<span class="kt-nav__link-text">Keseluruhan</span>
+															</a>
+														</li>
+														
+														
+													</ul>
+												</div>
+											</div>
 										</div>
-										<div class="col-md-12 col-lg-6 col-xl-3">
-
-											<!--begin::New Feedbacks-->
-											<div class="kt-widget24">
-												<div class="kt-widget24__details">
-													<div class="kt-widget24__info">
-														<h4 class="kt-widget24__title">
-															Pegawai Kontrak
-														</h4>
-														<span class="kt-widget24__desc">
-															Pria
-														</span>
+										<div class="kt-portlet__body kt-portlet__body--fit">
+											<div class="kt-widget17">
+												<div class="kt-widget17__visual kt-widget17__visual--chart kt-portlet-fit--top kt-portlet-fit--sides" style="background-color: #0961ae">
+													<div class="kt-widget17__chart" style="height:120px;">
+														<canvas id="kt_chart_activities"></canvas>
 													</div>
-													<span class="kt-widget24__stats kt-font-success">
-														2
-													</span>
 												</div>
+												<div class="kt-widget17__stats">
+													<div class="kt-widget17__items">
+														<div class="kt-widget17__item">
+															
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Total Pegawai Kontrak
+															</span>
 
-											</div>
-
-											<!--end::New Feedbacks-->
-										</div>
-										<div class="col-md-12 col-lg-6 col-xl-3">
-
-											<!--begin::New Orders-->
-											<div class="kt-widget24">
-												<div class="kt-widget24__details">
-													<div class="kt-widget24__info">
-														<h4 class="kt-widget24__title">
-															Pegawai Kontrak
-														</h4>
-														<span class="kt-widget24__desc">
-															Wanita
-														</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:20px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">105</span>
+															
+															</span>
+														</div>
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Pria
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:20px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">35</span>
+															</span>
+														</div>
+														
+														
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Wanita
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:20px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">70</span>
+															</span>
+														</div>
+														
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Hampir Berakhir
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:20px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">70</span>
+															</span>
+														</div>
+														
+														
+														
 													</div>
-													<span class="kt-widget24__stats kt-font-danger">
-														2
-													</span>
+													
+													
 												</div>
-
 											</div>
-
-											<!--end::New Orders-->
-										</div>
-										<div class="col-md-12 col-lg-6 col-xl-3">
-
-											<!--begin::New Users-->
-											<div class="kt-widget24">
-												<div class="kt-widget24__details">
-													<div class="kt-widget24__info">
-														<h4 class="kt-widget24__title">
-															Pegawai Kontrak
-														</h4>
-														<span class="kt-widget24__desc">
-															Hampir Berakhir
-														</span>
-													</div>
-													<span class="kt-widget24__stats kt-font-warning">
-														4
-													</span>
-												</div>
-
-											</div>
-
-											<!--end::New Users-->
 										</div>
 									</div>
-								</div>
-							</div>
+									</div>
+									</div>
 
-							<!--end:: Widgets/Stats-->
+									<!--end:: Widgets/Activity-->
+            <!--begin::End-->
+							
 
 							<div class="kt-portlet kt-portlet--mobile ">
 								<div class="kt-portlet__body">
@@ -994,10 +1014,6 @@
 </div>
 
 									<!--end: Datatable -->
-								</div>
-							</div>
-
-            </div>
-
+						
 <?php require '../layouts/footer.php' ?>
 <?php require '../layouts/foot.php' ?>

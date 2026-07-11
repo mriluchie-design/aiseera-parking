@@ -30,7 +30,15 @@
 					<i class="flaticon-reply"></i> Kembali</button>
 					<!--<i class="flaticon2-plus"></i>-->
 				</a>
-				&nbsp;
+				
+			</div>
+			<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
 			</div>
 			<div class="btn-group">
 				<button type="button" class="btn btn-success">

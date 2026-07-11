@@ -28,6 +28,14 @@ function goBack() {
 </script>
 											</a>
 										</div>
+										<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
+			</div>
 								</div>
 							</div>
 						</div>
@@ -248,12 +256,11 @@ function goBack() {
                          
 											<select class="form-control kt-select2" id="kt_select2_3" name="param" multiple="multiple">
 												
-													<option>Direksi</option>
-														<option>Dewan Pengawas</option>
-														<option>Umum</option>
-														<option>Keuangan & Asset</option>
-														<option>Operasional</option>
-														<option>Pengembangan Usaha dan Kerjasama</option>
+													<option value="2" selected="">Direksi</option>
+                                      <option value="4">Keuangan</option>
+                                      <option value="5">Operasional</option>
+                                      <option value="5">Teknologi dan Riset</option>
+                                      <option value="12" >Pengembangan Usaha dan Kerjasama</option>
 													
 											</select>
 									
@@ -266,14 +273,27 @@ function goBack() {
                          
 											<select class="form-control kt-select2" id="kt_select2_2" name="param" multiple="multiple">
 												
-													<option>Umum dan Kepegawaian</option>
-														<option>Hukum dan Humas</option>
-														<option>Keuangan</option>
-														<option>Asset</option>
-														<option>Pengelolaan</option>
-														<option>Produksi</option>
-														<option>Pengembangan</option>
-														<option>Kerja Sama</option>
+													<optgroup label="Direksi" class="a">
+									  <option value="3">Direksi</option>
+									  </optgroup>
+									  
+									    <optgroup label="Keuangan" class="a">
+                                      <option value="6">Keuangan</option>
+                                      <option value="12">Asset</option>
+									  </optgroup>
+									  <optgroup label="Operasional" class="a">
+                                      <option value="4">Umum</option>
+                                      <option value="4">Kepegawaian</option>
+									  </optgroup>
+									   <optgroup label="Teknologi dan Riset" class="a">
+                                      <option value="12" >Teknologi</option>
+                                      <option value="12" >Riset</option>
+									   </optgroup>
+									   <optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
+                                      <option value="12" >Pengembangan</option>
+                                      <option value="12" >Kerjasama</option>
+									  </optgroup>
+                                      
 													
 											</select>
 									

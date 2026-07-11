@@ -20,6 +20,14 @@
 								<div class="kt-subheader__toolbar">
 
 										<button type="button" class="btn btn-label-danger btn-sm" id = "buttonLogin" onclick = "displayLoginBox()"><i class="flaticon-interface-6"></i> Filter Data</button>
+										<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
+			</div>
 										<a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
 												<i class="flaticon2-printer"></i> Export Data</button>
 
@@ -92,7 +100,7 @@
 
 					                         <select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
 					 															<optgroup label="Direksi" class="a">
-					 																<option value="AK"selected >Muhammad Nasrullah, S.Kom</option>
+					 																<option value="AK">Muhammad Nasrullah, S.Kom</option>
 					 															</optgroup>
 					 															
 																				<optgroup label="Keuangan dan Asset" class="a">
@@ -108,6 +116,7 @@
 																				<optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
 					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
 					 															</optgroup>
+																				<option value="12" selected>Keseluruhan</option>
 
 					 														</select>
 					                       </div>
@@ -916,10 +925,7 @@
 </div>
 
 									<!--end: Datatable -->
-								</div>
-							</div>
-
-            </div>
+								
 
 
 <?php require '../layouts/footer.php' ?>

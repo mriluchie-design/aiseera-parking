@@ -20,6 +20,14 @@
 								<div class="kt-subheader__toolbar">
 
 										<button type="button" class="btn btn-label-danger btn-sm" id = "buttonLogin" onclick = "displayLoginBox()"><i class="flaticon-interface-6"></i> Filter Data</button>
+										<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
+			</div>
 										<a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
 												<i class="flaticon2-printer"></i> Export Data</button>
 
@@ -108,6 +116,7 @@
 																				<optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
 					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
 					 															</optgroup>
+																				<option value="12" selected>Keseluruhan</option>
 
 					 														</select>
 					                       </div>
@@ -117,12 +126,12 @@
                                 <label>Departemen :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2" selected="">Direksi</option>
+                                      <option value="2">Direksi</option>
                                       <option value="4">Keuangan</option>
                                       <option value="5">Operasional</option>
                                       <option value="5">Teknologi dan Riset</option>
                                       <option value="12" >Pengembangan Usaha dan Kerjasama</option>
-									  <option value="HI">Keseluruhan</option>
+									  <option value="12" selected>Keseluruhan</option>
                                   </select>
                             </div>
 							<div class="col-lg-2">
@@ -149,7 +158,7 @@
                                       <option value="12" >Pengembangan</option>
                                       <option value="12" >Kerjasama</option>
 									  </optgroup>
-                                      <option value="12" >Keseluruhan</option>
+                                      <option value="12" selected>Keseluruhan</option>
 
                                 </select>
                             </div>
@@ -158,12 +167,12 @@
 								  <select class="form-control kt-selectpicker" data-live-search="true">
                                    
 									 <optgroup label="Direksi" class="a">
-                                      <option value="2" selected="">Direktur Utama</option>
+                                      <option value="2">Direktur Utama</option>
                                       <option value="2">Direktur Keuangan</option>
                                       <option value="2">Direktur Operasional</option>
                                       <option value="2">Direktur Teknologi dan Riset</option>
                                       <option value="2">Direktur Pengembangan Usaha dan Kerjasama</option>
-									  <option value="HI">Keseluruhan</option>
+									  <option value="12" selected>Keseluruhan</option>
 									  </optgroup>
                                      
                                   </select>
@@ -172,10 +181,10 @@
 							<div class="col-lg-2">
                                 <label class="">Verifikasi :</label>
 								  <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2" selected="">Disetujui</option>
+                                      <option value="2">Disetujui</option>
                                       <option value="2">Pending</option>
                                       <option value="2">Ditolak</option>
-                                      <option value="2">Keseluruhan</option>
+                                      <option value="12" selected>Keseluruhan</option>
                                   </select>
                              
                             </div>
@@ -206,17 +215,18 @@
 												<div class="col-lg-2">
 						                          <label class="">Status Pegawai :</label>
 						                          <select class="form-control kt-selectpicker" data-live-search="true">
-																							<option value="AK" selected>Tetap</option>
+																							<option value="AK">Tetap</option>
 																							<option value="HI">Kontrak</option>
-																							<option value="HI">Keseluruhan</option>
+																							<option value="12" selected>Keseluruhan</option>
 																						</select>
 						                        </div>
 												<div class="col-lg-2">
 						                          <label class="">Kantor :</label>
 						                          <select class="form-control kt-selectpicker" data-live-search="true">
-																							<option value="AK" selected>Pusat</option>
+																							<option value="AK">Pusat</option>
 																							<option value="HI">Nama Cabang</option>
 																							<option value="HI">Keseluruhan</option>
+																							<option value="12" selected>Keseluruhan</option>
 																						</select>
 						                        </div>
 						                      </div>
@@ -945,11 +955,7 @@
 </div>
 
 									<!--end: Datatable -->
-								</div>
-							</div>
-
-            </div>
-
+								
 
 <?php require '../layouts/footer.php' ?>
 <?php require '../layouts/foot.php' ?>

@@ -21,6 +21,14 @@
 								
 
 										<button type="button" class="btn btn-label-danger btn-sm" id = "buttonLogin" onclick = "displayLoginBox()"><i class="flaticon-interface-6"></i> Filter Data</button>
+										<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
+			</div>
 										<a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
 												<i class="flaticon2-printer"></i> Export Data</button>
 
@@ -89,22 +97,25 @@
 						                      <div class="form-group row">
 						                        <div class="col-lg-3">
 						                          <label>Nama Pegawai :</label>
-												  <select class="form-control kt-selectpicker form-control" data-live-search="true">
-					 															<optgroup label="Direksi">
-					 																<option value="AK"selected >Muhammad Nasrullah, S.Kom</option>
+												  <select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
+					 															<optgroup label="Direksi" class="a">
+					 																<option value="AK">Muhammad Nasrullah, S.Kom</option>
 					 															</optgroup>
-					 															<optgroup label="Umum">
-																					<option value="HI">Deddy Rafsanjani, S.Sos</option>
-					 															</optgroup>
-																				<optgroup label="Keuangan dan Asset">
+					 															
+																				<optgroup label="Keuangan dan Asset" class="a">
 					 																<option value="HI">Oklan Zulkifli, SE</option>
 					 															</optgroup>
-																				<optgroup label="Operasional">
+																				<optgroup label="Operasional" class="a">
+					 																<option value="HI">Deddy Rafsanjani, S.Sos</option>
 					 																<option value="HI">Nursiah, S.Kom</option>
 					 															</optgroup>
-																				<optgroup label="Pengembangan Usaha dan Kerjasama">
+																				<optgroup label="Teknologi dan Riset" class="a">
 					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
 					 															</optgroup>
+																				<optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
+					 															</optgroup>
+																				<option value="12" selected>Keseluruhan</option>
 
 					 														</select>
 
@@ -113,24 +124,26 @@
 						                       <div class="col-lg-2">
 						                          <label class="">Departemen :</label>
 						                          <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2" selected="">Direksi</option>
-                                      <option value="2">Dewan Pengawas</option>
-                                      <option value="3">Umum</option>
-                                      <option value="4">Keuangan dan Asset</option>
-                                      <option value="5">Operasional</option>
+                                      <option value="2">Direksi</option>
+                                      <option value="3">Operasional</option>
+                                      <option value="4">Keuangan</option>
+                                      <option value="5">Teknologi & Riset</option>
                                       <option value="12" >Pengembangan Usaha dan Kerjasama</option>
+                                      <option value="12" selected>Keseluruhan</option>
+
                                   </select>
 						                        </div>
 						                        <div class="col-lg-2">
 						                          <label>Jabatan :</label>
 						                         <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2">Dewan Pengawas</option>
-									  <optgroup label="Direksi">
-                                      <option value="2" selected="">Direktur Utama</option>
-                                      <option value="2">Direktur Umum</option>
-                                      <option value="2">Direktur Keuangan dan Asset</option>
+                                   
+									 <optgroup label="Direksi" class="a">
+                                      <option value="2">Direktur Utama</option>
+                                      <option value="2">Direktur Keuangan</option>
                                       <option value="2">Direktur Operasional</option>
+                                      <option value="2">Direktur Teknologi dan Riset</option>
                                       <option value="2">Direktur Pengembangan Usaha dan Kerjasama</option>
+									  <option value="12" selected>Keseluruhan</option>
 									  </optgroup>
                                      
                                   </select>
@@ -161,9 +174,29 @@
 																							<option value="HI">November</option>
 																							<option value="HI">Desember</option>
 																						</select>
-																						<input type="text" class="form-control form-control-sm datepicker col-lg-6 ml-3">
+																						
 																				</div>
+												
 						                        </div>
+												<div class="col-lg-2">
+						                          <label class="">Tahun :</label>
+																			
+						                          <select class="form-control kt-selectpicker col-lg-5" name="param">
+																							<option value="AK" selected>Januari</option>
+																							<option value="HI">Februari</option>
+																							<option value="HI">Maret</option>
+																							<option value="HI">April</option>
+																							<option value="HI">Mei</option>
+																							<option value="HI">Juni</option>
+																							<option value="HI">Juli</option>
+																							<option value="HI">Agustus</option>
+																							<option value="HI">September</option>
+																							<option value="HI">Oktober</option>
+																							<option value="HI">November</option>
+																							<option value="HI">Desember</option>
+																						</select>
+																						
+																				</div>
 						                      </div>
 
 						                      </div>
@@ -750,10 +783,7 @@
 </div>
 
 									<!--end: Datatable -->
-								</div>
-							</div>
-
-            </div>
+								
 
 
 <?php require '../layouts/footer.php' ?>

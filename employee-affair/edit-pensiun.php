@@ -26,7 +26,16 @@ function goBack() {
 }
 </script>
 											</a>
+											
 										</div>
+										<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
+			</div>
 								</div>
 							</div>
 						</div>
@@ -970,13 +979,13 @@ function goBack() {
 
 													<!--begin: Form Actions -->
 													<div class="kt-form__actions">
-														<button class="btn btn-secondary btn-sm kt-font-bold kt-font-transform-u" data-ktwizard-type="action-prev">
+														<button class="btn btn-secondary  kt-font-bold kt-font-transform-u" data-ktwizard-type="action-prev">
 															Kembali
 														</button>
-														<button class="btn btn-success btn-sm kt-font-bold kt-font-transform-u" data-ktwizard-type="action-submit">
+														<button class="btn btn-success  kt-font-bold kt-font-transform-u" data-ktwizard-type="action-submit">
 															Simpan
 														</button>
-														<button class="btn btn-brand btn-sm kt-font-bold kt-font-transform-u" data-ktwizard-type="action-next">
+														<button class="btn btn-brand  kt-font-bold kt-font-transform-u" data-ktwizard-type="action-next">
 															Selanjutnya
 														</button>
 													</div>

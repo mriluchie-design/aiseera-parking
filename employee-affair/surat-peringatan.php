@@ -20,6 +20,14 @@
 								<div class="kt-subheader__toolbar">
 
 										<button type="button" class="btn btn-label-danger btn-sm" id = "buttonLogin" onclick = "displayLoginBox()"><i class="flaticon-interface-6"></i> Filter Data</button>
+										<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
+			</div>
 										<a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
 												<i class="flaticon2-printer"></i> Export Data</button>
 
@@ -90,7 +98,7 @@
 						                          <label>Nama Pegawai :</label>
 												  <select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
 					 															<optgroup label="Direksi" class="a">
-					 																<option value="AK"selected >Muhammad Nasrullah, S.Kom</option>
+					 																<option value="AK">Muhammad Nasrullah, S.Kom</option>
 					 															</optgroup>
 					 															
 																				<optgroup label="Keuangan dan Asset" class="a">
@@ -106,6 +114,7 @@
 																				<optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
 					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
 					 															</optgroup>
+																				<option value="12" selected>Keseluruhan</option>
 
 					 														</select>
 
@@ -115,24 +124,41 @@
 						                       <div class="col-lg-2">
 						                          <label class="">Departemen :</label>
 						                          <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2" selected="">Direksi</option>
-                                      <option value="2">Dewan Pengawas</option>
-                                      <option value="3">Umum</option>
-                                      <option value="4">Keuangan dan Asset</option>
-                                      <option value="5">Operasional</option>
+                                      <option value="2">Direksi</option>
+                                      <option value="3">Operasional</option>
+                                      <option value="4">Keuangan</option>
+                                      <option value="5">Teknologi & Riset</option>
                                       <option value="12" >Pengembangan Usaha dan Kerjasama</option>
+                                      <option value="12" selected>Keseluruhan</option>
+
                                   </select>
 						                        </div>
 												<div class="col-lg-2">
 						                          <label class="">Divisi :</label>
 						                          <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2" selected="">Direksi</option>
-                                      <option value="2">Dewan Pengawas</option>
-                                      <option value="3">Umum</option>
-                                      <option value="4">Keuangan dan Asset</option>
-                                      <option value="5">Operasional</option>
-                                      <option value="12" >Pengembangan Usaha dan Kerjasama</option>
-                                  </select>
+                                      <optgroup label="Direksi" class="a">
+									  <option value="3">Direksi</option>
+									  </optgroup>
+									  
+									    <optgroup label="Keuangan" class="a">
+                                      <option value="6">Keuangan</option>
+                                      <option value="12">Asset</option>
+									  </optgroup>
+									  <optgroup label="Operasional" class="a">
+                                      <option value="4">Umum</option>
+                                      <option value="4">Kepegawaian</option>
+									  </optgroup>
+									   <optgroup label="Teknologi dan Riset" class="a">
+                                      <option value="12" >Teknologi</option>
+                                      <option value="12" >Riset</option>
+									   </optgroup>
+									   <optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
+                                      <option value="12" >Pengembangan</option>
+                                      <option value="12" >Kerjasama</option>
+									  </optgroup>
+                                      <option value="12" selected>Keseluruhan</option>
+
+                                </select>
 						                        </div>
 						                        
 												<div class="col-lg-2">
@@ -141,14 +167,16 @@
 																			<option value="2">Peringatan 1</option>
 																			<option value="2">Peringatan 2</option>
 																			<option value="2">Peringatan 3</option>
+																			<option value="2" selected>Keseluruhan</option>
 																	</select>
 						                        </div>
 												<div class="col-lg-1">
 						                          <label class="">Status Pegawai :</label>
 						                          <select class="form-control kt-selectpicker" data-live-search="true">
-																							<option value="AK" selected>Tetap</option>
+																							<option value="AK">Tetap</option>
 																							<option value="AK" >Kontrak</option>
-																							<option value="AK" >Honor</option>
+																							<option value="2" selected>Keseluruhan</option>
+																							
 																						</select>
 						                        </div>
 										
@@ -156,11 +184,12 @@
 												
 												<div class="col-lg-1">
 						                          <label class="">Kantor :</label>
-						                          <select class="form-control kt-selectpicker" data-live-search="true">
-																							<option value="AK" selected>Pusat</option>
-																							<option value="HI">Nama Cabang A</option>
-																							<option value="HI">Nama Cabang B</option>
-																						</select>
+						                         <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="2">Pusat</option>
+                                      <option value="2">Nama Cabang A</option>
+                                      <option value="2">Nama Cabang B</option>
+									  <option value="12" selected>Keseluruhan</option>
+                                  </select>
 						                        </div>
 						                      </div>
 
@@ -767,10 +796,7 @@
 </div>
 
 									<!--end: Datatable -->
-								</div>
-							</div>
-
-            </div>
+								
 
 
 <?php require '../layouts/footer.php' ?>

@@ -33,10 +33,19 @@ function goBack() {
 </script>
 												<!--<i class="flaticon2-plus"></i>-->
 											</a>
+											
 										
 
 
 										</div>
+										<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
+			</div>
 										<div class="btn-group">
 				<button type="button" class="btn btn-success">
 					<i class="fa fa-check-circle"></i>
@@ -196,7 +205,7 @@ function goBack() {
 						   <div class="form-group">
 
 					                         <select class="form-control kt-selectpicker form-control" name="param">
-					 															<optgroup label="Sulawesi Selatan">
+					 															<optgroup label="Sulawesi Selatan" class="a">
 					 																<option value="AK" selected>Makassar</option>
 					 																<option value="HI">Bantaeng</option>
 					 															</optgroup>
