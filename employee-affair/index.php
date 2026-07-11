@@ -46,12 +46,12 @@
 									<!--begin:: Widgets/Activity-->
 									<div class="kt-portlet kt-portlet--fit kt-portlet--head-lg kt-portlet--head-overlay kt-portlet--skin-solid kt-portlet--height-fluid">
 										<div class="kt-portlet__head kt-portlet__head--noborder kt-portlet__space-x">
-											<div class="kt-portlet__head-label">
+											<div class="kt-portlet__head-label" style="margin-left:59px;">
 												<h3 class="kt-portlet__head-title">
 													Statistik Kehadiran
 												</h3>
 											</div>
-											<div class="kt-portlet__head-toolbar">
+											<div class="kt-portlet__head-toolbar" style="margin-right:59px;">
 												<a href="#" class="btn btn-label-light btn-sm dropdown-toggle" data-toggle="dropdown">
 													Hari ini
 												</a>
@@ -69,7 +69,7 @@
 														
 													</ul>
 												</div>&nbsp;
-												<a href="#" class="btn btn-secondary kt-btn kt-btn--custom kt-btn--icon btn-sm" data-toggle="dropdown">
+												<a href="#" class="btn btn-label-light kt-btn kt-btn--custom kt-btn--icon btn-sm" data-toggle="dropdown">
                     <i class="flaticon2-printer"></i> Export Data</button>
                     <!--<i class="flaticon2-plus"></i>-->
                 </a>
@@ -79,7 +79,7 @@
 											<div class="kt-widget17">
 												<div class="kt-widget17__visual kt-widget17__visual--chart kt-portlet-fit--top kt-portlet-fit--sides" style="background-color: #0961ae">
 													<div class="kt-widget17__chart" style="height:120px;">
-														<canvas id="kt_chart_activities"></canvas>
+														
 													</div>
 												</div>
 												<div class="kt-widget17__stats">

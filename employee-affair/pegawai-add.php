@@ -46,7 +46,7 @@
 	<!--Begin::Alert-->
 	<div class="alert alert-elevate alert-solid-warning alert-bold" role="alert">
 		<div class="alert-icon"><i class="fa fa-info-circle"></i></div>
-		<div class="alert-text">Isikan Bidang yang bertandakan <span style="color:#ff0000">*</span> </div>
+		<div class="alert-text">Isikan Bidang yang bertandakan <code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> </div>
 		<div class="alert-close">
 			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
 				<span aria-hidden="true"><i class="la la-close"></i></span>
@@ -124,7 +124,7 @@
 												<div class="form-group row">
 						
 						<div class="col-lg-6">
-                          <label><span style="color:#ff0000">*</span> Nama Lengkap :</label>
+                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Nama Lengkap :</label>
                           <input type="text" class="form-control form-control-sm" placeholder="">
                         </div>
                        <div class="col-lg-3">
@@ -146,7 +146,7 @@
                       </div>
                         </div>
 						<div class="col-lg-3">
-                          <label><span style="color:#ff0000">*</span> Jenis Kelamin :</label>
+                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Jenis Kelamin :</label>
                          <select class="form-control kt-selectpicker" data-live-search="true">
 														<option data-content="<span class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</span>" class="select-option-add" value="add"></option>
 														<option selected>Pria</option>
@@ -157,7 +157,7 @@
                         </div>
 						
 						<div class="col-lg-3">
-                          <label><span style="color:#ff0000">*</span> Status :</label>
+                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Status :</label>
                         <select class="form-control kt-selectpicker" data-live-search="true">
 														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 														<option selected>Single</option>
@@ -167,7 +167,7 @@
 														</select>
                         </div>
 						<div class="col-lg-3">
-                          <label><span style="color:#ff0000">*</span> Agama :</label>
+                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Agama :</label>
                          <select class="form-control kt-selectpicker" data-live-search="true">
 														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 														<option selected>Islam</option>
@@ -184,9 +184,10 @@
 
 
 						<div class="col-lg-3">
-					                           <label class=""><span style="color:#ff0000">*</span> Tempat Kelahiran :</label>
+					                           <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Tempat Kelahiran :</label>
 					                         <select class="form-control kt-selectpicker" data-live-search="true">
-					 															<optgroup label="Sulawesi Selatan">
+					 															<optgroup label="Sulawesi Selatan" class="a">
+																				
 					 																<option value="AK">Maros</option>
 					 																<option value="AK" selected>Makassar</option>
 					 																
@@ -195,7 +196,7 @@
 					 														</select>
 					                         </div>
 						<div class="col-lg-3">
-                          <label class=""><span style="color:#ff0000">*</span> Tanggal Kelahiran :</label>
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Tanggal Kelahiran :</label>
                           <div class="form-group">
                          <div class="input-group date">
 													<input type="text" class="form-control form-control-sm" readonly="" placeholder="" id="kt_datepicker_2">
@@ -214,7 +215,7 @@
 					  <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
                      <div class="form-group row">
 					 <div class="col-lg-6">
-					                           <label class=""><span style="color:#ff0000">*</span> Alamat Lengkap :</label>
+					                           <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Alamat Lengkap :</label>
 					                         <input type="text" class="form-control form-control-sm" placeholder=""  >
 					                         </div>
 
@@ -237,34 +238,58 @@
 									 <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 									<div class="form-group row">
 					  <div class="col-lg-3">
-                          <label class=""><span style="color:#ff0000">*</span> Provinsi :</label>
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Provinsi :</label>
                            <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Biringkanaya</option>
-                                      <option value="2">Bontoala</option>
-                                      <option value="3">Kepulauan Sangkarrang</option>
-                                      <option value="4">Makassar</option>
-                                      <option value="5">Mamajang</option>
-                                      <option value="6">Manggala</option>
-                                      <option value="7">Mariso</option>
-                                      <option value="8">Panakkukang</option>
-                                      <option value="9">Rappocini</option>
-                                      <option value="10">Tallo</option>
-                                      <option value="11">Tamalanrea</option>
-                                      <option value="12">Tamalate</option>
-                                      <option value="13">Ujung Pandang</option>
-                                      <option value="14">Ujung Tanah</option>
-                                      <option value="15">Wajo</option>
+                                     
+                                      <option value="1">Aceh</option>
+                                      <option value="2">Bali</option>
+                                      <option value="3">Banten</option>
+                                      <option value="4">Bengkulu</option>
+                                      <option value="5">Daerah Istimewa Yogyakarta</option>
+                                      <option value="6">DKI Jakarta</option>
+                                      <option value="7">Gorontalo</option>
+                                      <option value="8">Jambi</option>
+                                      <option value="9">Jawa Barat</option>
+                                      <option value="10">Jawa Tengah</option>
+                                      <option value="11">Jawa Timur</option>
+                                      <option value="12">Kalimantan Barat</option>
+                                      <option value="13">Kalimantan Selatan</option>
+                                      <option value="14">Kalimantan Tengah</option>
+                                      <option value="15">Kalimantan Timur</option>
+                                      <option value="16">Kalimantan Utara</option>
+                                      <option value="17">Kepulauan Bangka Belitung</option>
+                                      <option value="18">Kepulauan Riau</option>
+                                      <option value="19">Lampung</option>
+                                      <option value="20">Maluku</option>
+                                      <option value="21">Maluku Utara</option>
+                                      <option value="22">Nusa Tenggara Barat</option>
+                                      <option value="23">Nusa Tenggara Timur</option>
+                                      <option value="24">Papua</option>
+                                      <option value="25">Papua Barat</option>
+                                      <option value="26">Papua Barat Daya</option>
+                                      <option value="27">Papua Pegunungan</option>
+                                      <option value="28">Papua Selatan</option>
+                                      <option value="29">Papua Tengah</option>
+                                      <option value="30">Riau</option>
+                                      <option value="31">Sulawesi Barat</option>
+                                      <option value="32" selected>Sulawesi Selatan</option>
+                                      <option value="33">Sulawesi Tengah</option>
+                                      <option value="34">Sulawesi Tenggara</option>
+                                      <option value="35">Sulawesi Utara</option>
+                                      <option value="36">Sumatera Barat</option>
+                                      <option value="37">Sumatera Selatan</option>
+                                      <option value="38">Sumatera Utara</option>
                                   </select>
                       </div>
 					  <div class="col-lg-3">
-                          <label class=""><span style="color:#ff0000">*</span> Kab / Kota :</label>
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Kab / Kota :</label>
                            <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected="">Makassar</option>
                                       
                                   </select>
                       </div>
 					  <div class="col-lg-3">
-                          <label class=""><span style="color:#ff0000">*</span> Kecamatan :</label>
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Kecamatan :</label>
                            <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected="">Biringkanaya</option>
                                       <option value="2">Bontoala</option>
@@ -284,7 +309,7 @@
                                   </select>
                       </div>
 					  <div class="col-lg-3">
-					                           <label><span style="color:#ff0000">*</span> Kelurahan :</label>
+					                           <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Kelurahan :</label>
                        <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected="">Bakung</option>
                                       <option value="2">Berua</option>
@@ -309,19 +334,19 @@
 						
 						
 					  <div class="col-lg-3">
-                          <label class=""><span style="color:#ff0000">*</span> No. Tlp / HP :</label>
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> No. Tlp / HP :</label>
                           <div class="form-group">
                         <input type="text" class="form-control form-control-sm" placeholder="" >
                       </div>
                       </div>
 					  <div class="col-lg-3">
-                          <label class=""><span style="color:#ff0000">*</span> Whatsapp :</label>
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Whatsapp :</label>
                           <div class="form-group">
                         <input type="text" class="form-control form-control-sm" placeholder="" >
                       </div>
                       </div>
 					  <div class="col-lg-3">
-                          <label class=""><span style="color:#ff0000">*</span> Email :</label>
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Email :</label>
                           <div class="form-group">
 																							<div class="input-group email">
 																								<input type="text" class="form-control form-control-sm" placeholder="xxx@xxx.xxx">
@@ -334,7 +359,7 @@
 																						</div>
                       </div>
 					  <div class="col-lg-3">
-                          <label class=""><span style="color:#ff0000">*</span> No. KTP / SIM :</label>
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> No. KTP / SIM :</label>
                           <input type="text" class="form-control form-control-sm" placeholder="">
                       </div>
 					  
@@ -348,11 +373,11 @@
 <div class="form-group row">
 
 						<div class="col-lg-3">
-					                           <label><span style="color:#ff0000">*</span> No. Rekening :</label>
+					                           <label>No. Rekening :</label>
                          <input type="text" class="form-control form-control-sm" placeholder="">
 					                         </div>
 						<div class="col-lg-3">
-					                           <label class=""><span style="color:#ff0000">*</span> Bank :</label>
+					                           <label class="">Bank :</label>
                           <select class="form-control kt-selectpicker" data-live-search="true">
 														<option>Mandiri</option>
 														<option>BNI</option>
@@ -365,7 +390,7 @@
 														</select>
                       </div>
 						<div class="col-lg-3">
-					                           <label><span style="color:#ff0000">*</span> Nama Pemilik Rekening :</label>
+					                           <label>Nama Pemilik Rekening :</label>
                          <input type="text" class="form-control form-control-sm" placeholder="">
 					                         </div>
 											 <div class="col-lg-3">
@@ -393,7 +418,7 @@
 												<div class="form-group row">
 
 						<div class="col-lg-12">
-                          <label><span style="color:#ff0000">*</span> Alamat Lengkap :</label>
+                          <label>Alamat Lengkap :</label>
                          <input type="text" class="form-control form-control-sm"  placeholder="">
 
                         </div>
@@ -439,21 +464,45 @@
                                 <label>Provinsi :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Biringkanaya</option>
-                                      <option value="2">Bontoala</option>
-                                      <option value="3">Kepulauan Sangkarrang</option>
-                                      <option value="4">Makassar</option>
-                                      <option value="5">Mamajang</option>
-                                      <option value="6">Manggala</option>
-                                      <option value="7">Mariso</option>
-                                      <option value="8">Panakkukang</option>
-                                      <option value="9">Rappocini</option>
-                                      <option value="10">Tallo</option>
-                                      <option value="11">Tamalanrea</option>
-                                      <option value="12">Tamalate</option>
-                                      <option value="13">Ujung Pandang</option>
-                                      <option value="14">Ujung Tanah</option>
-                                      <option value="15">Wajo</option>
+                                     
+                                      <option value="1">Aceh</option>
+                                      <option value="2">Bali</option>
+                                      <option value="3">Banten</option>
+                                      <option value="4">Bengkulu</option>
+                                      <option value="5">Daerah Istimewa Yogyakarta</option>
+                                      <option value="6">DKI Jakarta</option>
+                                      <option value="7">Gorontalo</option>
+                                      <option value="8">Jambi</option>
+                                      <option value="9">Jawa Barat</option>
+                                      <option value="10">Jawa Tengah</option>
+                                      <option value="11">Jawa Timur</option>
+                                      <option value="12">Kalimantan Barat</option>
+                                      <option value="13">Kalimantan Selatan</option>
+                                      <option value="14">Kalimantan Tengah</option>
+                                      <option value="15">Kalimantan Timur</option>
+                                      <option value="16">Kalimantan Utara</option>
+                                      <option value="17">Kepulauan Bangka Belitung</option>
+                                      <option value="18">Kepulauan Riau</option>
+                                      <option value="19">Lampung</option>
+                                      <option value="20">Maluku</option>
+                                      <option value="21">Maluku Utara</option>
+                                      <option value="22">Nusa Tenggara Barat</option>
+                                      <option value="23">Nusa Tenggara Timur</option>
+                                      <option value="24">Papua</option>
+                                      <option value="25">Papua Barat</option>
+                                      <option value="26">Papua Barat Daya</option>
+                                      <option value="27">Papua Pegunungan</option>
+                                      <option value="28">Papua Selatan</option>
+                                      <option value="29">Papua Tengah</option>
+                                      <option value="30">Riau</option>
+                                      <option value="31">Sulawesi Barat</option>
+                                      <option value="32" selected>Sulawesi Selatan</option>
+                                      <option value="33">Sulawesi Tengah</option>
+                                      <option value="34">Sulawesi Tenggara</option>
+                                      <option value="35">Sulawesi Utara</option>
+                                      <option value="36">Sumatera Barat</option>
+                                      <option value="37">Sumatera Selatan</option>
+                                      <option value="38">Sumatera Utara</option>
                                   </select>
                             </div>
 							<div class="col-lg-6">
@@ -517,7 +566,7 @@
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
 						<div class="col-lg-6">
-                          <label class=""><span style="color:#ff0000">*</span> No. Handphone :</label>
+                          <label class="">No. Handphone :</label>
                           <div class="form-group">
                         <input type="text" class="form-control form-control-sm"  placeholder="">
                       </div>
@@ -570,7 +619,7 @@
 																						<input type="text" class="form-control form-control-sm" value="Pegawai Tetap" placeholder="= Pilih Tanggal =" id="kt_datepicker_2" disabled>
 																					</div>
 																					<div class="col-lg-6">
-																						<label><span style="color:#ff0000">*</span> NIP Pegawai :</label>
+																						<label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> NIP Pegawai :</label>
 																						<input type="text" class="form-control form-control-sm" value="" placeholder="">
 																					</div>
 																					
@@ -580,7 +629,7 @@
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
                      <div class="form-group row">
 						<div class="col-lg-6">
-																						<label><span style="color:#ff0000">*</span> Masuk Kerja :</label>
+																						<label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Masuk Kerja :</label>
 																						<div class="form-group">
 																							<div class="input-group date">
 																								<input type="text" class="form-control form-control-sm" readonly="" placeholder="" id="kt_datepicker_2">
@@ -593,7 +642,7 @@
 																						</div>
 																					</div>
 						<div class="col-lg-6">
-																						<label><span style="color:#ff0000">*</span> Tanggal SK Pegawai Tetap :</label>
+																						<label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Tanggal SK Pegawai Tetap :</label>
 																						<div class="form-group">
 																							<div class="input-group date">
 																								<input type="text" class="form-control form-control-sm" readonly="" placeholder="" id="kt_datepicker_2">
@@ -611,11 +660,11 @@
 						<div class="form-group row">
 																					
 																					<div class="col-lg-6">
-																						<label><span style="color:#ff0000">*</span> No. SK Pegawai Tetap :</label>
+																						<label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> No. SK Pegawai Tetap :</label>
 																						<input type="text" class="form-control form-control-sm" value="" placeholder="" id="kt_datepicker_2" >
 																					</div>
 																					<div class="col-lg-6">
-																						<label><span style="color:#ff0000">*</span> Upload SK Pegawai Tetap :</label>
+																						<label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Upload SK Pegawai Tetap :</label>
 																						<div class="custom-file">
 													<input type="file" class="custom-file-input" id="customFile">
 													<label class="custom-file-label" for="customFile"></label>
@@ -628,31 +677,41 @@
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
                      <div class="form-group row">
 						<div class="col-lg-6">
-																						<label><span style="color:#ff0000">*</span> Departemen :</label>
+																						<label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Departemen :</label>
 																						<select class="form-control form-control kt-selectpicker" data-live-search="true">
 														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 														
-														<option selected>Direksi</option>
-														<option>Dewan Pengawas</option>
-														<option>Umum</option>
-														<option>Keuangan & Asset</option>
-														<option>Operasional</option>
-														<option>Pengembangan Usaha dan Kerjasama</option>
-														
+														<option value="2" selected="">Direksi</option>
+                                      <option value="4">Keuangan</option>
+                                      <option value="5">Operasional</option>
+                                      <option value="5">Teknologi dan Riset</option>
+                                      <option value="12" >Pengembangan Usaha dan Kerjasama</option>
 														</select>
 																					</div>
 <div class="col-lg-6">
-																						<label><span style="color:#ff0000">*</span> Divisi :</label>
+																						<label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Divisi :</label>
 																						<select class="form-control form-control kt-selectpicker" data-live-search="true">
 														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-														<option selected>Umum dan Kepegawaian</option>
-														<option>Hukum dan Humas</option>
-														<option>Keuangan</option>
-														<option>Asset</option>
-														<option>Pengelolaan</option>
-														<option>Produksi</option>
-														<option>Pengembangan</option>
-														<option>Kerja Sama</option>
+														 <optgroup label="Direksi" class="a">
+									  <option value="3" selected>Direksi</option>
+									  </optgroup>
+									  
+									    <optgroup label="Keuangan" class="a">
+                                      <option value="6">Keuangan</option>
+                                      <option value="12">Asset</option>
+									  </optgroup>
+									  <optgroup label="Operasional" class="a">
+                                      <option value="4">Umum</option>
+                                      <option value="4">Kepegawaian</option>
+									  </optgroup>
+									   <optgroup label="Teknologi dan Riset" class="a">
+                                      <option value="12" >Teknologi</option>
+                                      <option value="12" >Riset</option>
+									   </optgroup>
+									   <optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
+                                      <option value="12" >Pengembangan</option>
+                                      <option value="12" >Kerjasama</option>
+									  </optgroup>
 														
 														</select>
 																					</div>
@@ -661,9 +720,10 @@
                      <div class="form-group row">
 
 						<div class="col-lg-6">
-																						<label><span style="color:#ff0000">*</span> Kantor :</label>
+																						<label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Kantor :</label>
 																						<select class="form-control form-control kt-selectpicker" data-live-search="true">
-														<option>Pusat</option>
+																						<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+														<option selected>Pusat</option>
 														<option>Nama Cabang A</option>
 														<option>Nama Cabang B</option>
 													
@@ -671,15 +731,17 @@
 														</select>
 																					</div>
 																					<div class="col-lg-6">
-																						<label><span style="color:#ff0000">*</span> Jabatan :</label>
+																						<label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Jabatan :</label>
 																						<select class="form-control kt-selectpicker" data-live-search="true">
                               <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 							  
-                              <option value="2" selected>Direktur Utama</option>
-                              <option value="2">Direktur Umum</option>
-                              <option value="2">Direktur Keuangan dan Asset</option>
-                              <option value="2">Direktur Operasional</option>
-                              <option value="2">Direktur Pengembangan Usaha & Kerjasama</option>
+                               <optgroup label="Direksi" class="a">
+                                      <option value="2" selected="">Direktur Utama</option>
+                                      <option value="2">Direktur Keuangan</option>
+                                      <option value="2">Direktur Operasional</option>
+                                      <option value="2">Direktur Teknologi dan Riset</option>
+                                      <option value="2">Direktur Pengembangan Usaha dan Kerjasama</option>
+									  </optgroup>
 
                           </select>
 																					</div>
@@ -715,7 +777,7 @@
 											<div class="kt-portlet__content">
 												<div class="form-group row">
 																					<div class="col-lg-12">
-																						<label><span style="color:#ff0000">*</span> Cari Pegawai :</label>
+																						<label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Cari Pegawai :</label>
 																						<select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
 					 															<optgroup label="Direksi" class="a">
 					 																<option value="AK"selected >Muhammad Nasrullah, S.Kom</option>
@@ -952,10 +1014,10 @@
 											  <th width="2%" bgcolor="#f7fcff">Hubungan<br>Keluarga</th>
 											  <th width="6%" bgcolor="#f7fcff">Nama Lengkap</th>
 											  <th width="1%" bgcolor="#f7fcff">Jenis<br>Kelamin</th>
-											  <th width="4%" bgcolor="#f7fcff">Tanggal Lahir</th>
+											  <th width="1%" bgcolor="#f7fcff">Tanggal Lahir</th>
 											  <th width="1%" bgcolor="#f7fcff">Pendidikan<br>Terakhir</th>
-											  <th width="5%" bgcolor="#f7fcff">Pekerjaan </th>
-											  <th width="4%" bgcolor="#f7fcff" rowspan="2">Upload File<br> ( Akta Nikah / Akta Kelahiran )</th>
+											  <th width="10%" bgcolor="#f7fcff">Pekerjaan </th>
+											  <th width="1%" bgcolor="#f7fcff" rowspan="2">Dokumen</th>
 											  <th width="1%" bgcolor="#f7fcff" rowspan="2">Aksi</th>
 
 										  </tr>
@@ -963,201 +1025,60 @@
 										<tbody>
 											<tr>
 												<td style="text-align:center" id="kt_table_1">1</td>
-												<td style="text-align:center" nowrap><div class="form-group">
-																						<select class="form-control kt-selectpicker" data-live-search="true">
-																							<option value="AK" selected>Suami</option>
-																							<option value="HI">Istri</option>
-																							<option value="HI">Anak</option>
-																						</select>
-																					</div></td>
-												<td style="text-align:left" nowrap><input type="text" class="form-control form-control-sm" placeholder=""></td>
-												<td style="text-align:center" nowrap><div class="form-group">
-																						<select class="form-control kt-selectpicker" data-live-search="true">
-																							<option value="AK" selected>Pria</option>
-																							<option value="HI">Wanita</option>
-																						</select>
-																					</div></td>
-												<td style="text-align:left" nowrap><div class="form-group">
-																							<div class="input-group date">
-																								<input type="text" class="form-control form-control-sm" readonly="" placeholder="= Pilih Tanggal =" id="kt_datepicker_2">
-																								<div class="input-group-append">
-																									<span class="input-group-text">
-																										<i class="la la-calendar-check-o"></i>
-																									</span>
-																								</div>
-																							</div>
-																						</div></td>
-												<td style="text-align:center" nowrap><div class="form-group">
-																						<select class="form-control kt-selectpicker" data-live-search="true">
-																							<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-																							<option value="AK" selected>S3</option>
-																							<option value="HI">S2</option>
-																							<option value="HI">S1</option>
-																							<option value="HI">SMA</option>
-																							<option value="HI">SMP</option>
-																							<option value="HI">SD</option>
-																							<option value="HI">TK</option>
-																							<option value="HI">Belum Sekolah</option>
-																						</select>
-																					</div></td>
-												<td style="text-align:center" nowrap><input type="text" class="form-control form-control-sm" placeholder=""></td>
-												<td style="text-align:center" nowrap><div class="form-group m-form__group">
-												
-												<div class="custom-file">
-													<input type="file" class="custom-file-input" id="customFile">
-													<label class="custom-file-label" for="customFile">Choose file</label>
-												</div>
-											</div></td>
-											<td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+												<td style="text-align:center" nowrap>Istri</td>
+												<td style="text-align:left" nowrap>Sri Widya Ningsih, SE</td>
+												<td style="text-align:center" nowrap>Wanita</td>
+												<td style="text-align:left" nowrap>27 Desember 1985</td>
+												<td style="text-align:center" nowrap>S1</td>
+												<td style="text-align:left" nowrap>Ibu Rumah Tangga</td>
+												<td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" data-original-title="Download" data-html="true"><i class="fa fa-download"></i></button></td>
+											<td style="text-align:center" nowrap><button type="button" class="btn btn btn-outline-hover-danger btn-elevate btn-icon btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" data-original-title="Edit" data-html="true"><i class="fa fa-pen"></i></button>&nbsp;&nbsp;<button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" data-original-title="Hapus" data-html="true"><i class="fa fa-trash-alt"></i></button></td>
 
 										  </tr>
-											<tr>
+										  <tr>
 												<td style="text-align:center" id="kt_table_1">2</td>
-												<td style="text-align:center" nowrap><div class="form-group">
-																						<select class="form-control kt-selectpicker" data-live-search="true">
-																							<option value="AK" selected>Suami</option>
-																							<option value="HI">Istri</option>
-																							<option value="HI">Anak</option>
-																						</select>
-																					</div></td>
-												<td style="text-align:left" nowrap><input type="text" class="form-control form-control-sm" placeholder=""></td>
-												<td style="text-align:center" nowrap><div class="form-group">
-																						<select class="form-control kt-selectpicker" data-live-search="true">
-																							<option value="AK" selected>Pria</option>
-																							<option value="HI">Wanita</option>
-																						</select>
-																					</div></td>
-												<td style="text-align:left" nowrap><div class="form-group">
-																							<div class="input-group date">
-																								<input type="text" class="form-control form-control-sm" readonly="" placeholder="= Pilih Tanggal =" id="kt_datepicker_2">
-																								<div class="input-group-append">
-																									<span class="input-group-text">
-																										<i class="la la-calendar-check-o"></i>
-																									</span>
-																								</div>
-																							</div>
-																						</div></td>
-												<td style="text-align:center" nowrap><div class="form-group">
-																						<select class="form-control kt-selectpicker" data-live-search="true">
-																							<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-																							<option value="AK" selected>S3</option>
-																							<option value="HI">S2</option>
-																							<option value="HI">S1</option>
-																							<option value="HI">SMA</option>
-																							<option value="HI">SMP</option>
-																							<option value="HI">SD</option>
-																							<option value="HI">TK</option>
-																						
-																						</select>
-																					</div></td>
-												<td style="text-align:center" nowrap><input type="text" class="form-control form-control-sm" placeholder=""></td>
-												<td style="text-align:center" nowrap><div class="form-group m-form__group">
-												
-												<div class="custom-file">
-													<input type="file" class="custom-file-input" id="customFile">
-													<label class="custom-file-label" for="customFile">Choose file</label>
-												</div>
-											</div></td>
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+												<td style="text-align:center" nowrap>Anak</td>
+												<td style="text-align:left" nowrap>Annisa Aila Bellvania</td>
+												<td style="text-align:center" nowrap>Wanita</td>
+												<td style="text-align:left" nowrap>21 Agustus 2013</td>
+												<td style="text-align:center" nowrap>SD</td>
+												<td style="text-align:left" nowrap>Pelajar</td>
+												<td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" data-original-title="Download" data-html="true"><i class="fa fa-download"></i></button></td>
+											<td style="text-align:center" nowrap><button type="button" class="btn btn btn-outline-hover-danger btn-elevate btn-icon btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" data-original-title="Edit" data-html="true"><i class="fa fa-pen"></i></button>&nbsp;&nbsp;<button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" data-original-title="Hapus" data-html="true"><i class="fa fa-trash-alt"></i></button></td>
+
 										  </tr>
-										  <tr>
+										   <tr>
 												<td style="text-align:center" id="kt_table_1">3</td>
-												<td style="text-align:center" nowrap><div class="form-group">
-																						<select class="form-control kt-selectpicker" data-live-search="true">
-																							<option value="AK" selected>Suami</option>
-																							<option value="HI">Istri</option>
-																							<option value="HI">Anak</option>
-																						</select>
-																					</div></td>
-												<td style="text-align:left" nowrap><input type="text" class="form-control form-control-sm" placeholder=""></td>
-												<td style="text-align:center" nowrap><div class="form-group">
-																						<select class="form-control kt-selectpicker" data-live-search="true">
-																							<option value="AK" selected>Pria</option>
-																							<option value="HI">Wanita</option>
-																						</select>
-																					</div></td>
-												<td style="text-align:left" nowrap><div class="form-group">
-																							<div class="input-group date">
-																								<input type="text" class="form-control form-control-sm" readonly="" placeholder="= Pilih Tanggal =" id="kt_datepicker_2">
-																								<div class="input-group-append">
-																									<span class="input-group-text">
-																										<i class="la la-calendar-check-o"></i>
-																									</span>
-																								</div>
-																							</div>
-																						</div></td>
-												<td style="text-align:center" nowrap><div class="form-group">
-																						<select class="form-control kt-selectpicker" data-live-search="true">
-																							<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-																							<option value="AK" selected>S3</option>
-																							<option value="HI">S2</option>
-																							<option value="HI">S1</option>
-																							<option value="HI">SMA</option>
-																							<option value="HI">SMP</option>
-																							<option value="HI">SD</option>
-																							<option value="HI">TK</option>
-																							<option value="HI">Belum Sekolah</option>
-																						</select>
-																					</div></td>
-												<td style="text-align:center" nowrap><input type="text" class="form-control form-control-sm" placeholder=""></td>
-												<td style="text-align:center" nowrap><div class="form-group m-form__group">
-												
-												<div class="custom-file">
-													<input type="file" class="custom-file-input" id="customFile">
-													<label class="custom-file-label" for="customFile">Choose file</label>
-												</div>
-											</div></td>
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+												<td style="text-align:center" nowrap>Anak</td>
+												<td style="text-align:left" nowrap>Aisyah Chiara Pelangi</td>
+												<td style="text-align:center" nowrap>Wanita</td>
+												<td style="text-align:left" nowrap>11 Maret 2016</td>
+												<td style="text-align:center" nowrap>TK</td>
+												<td style="text-align:left" nowrap>Pelajar</td>
+												<td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" data-original-title="Download" data-html="true"><i class="fa fa-download"></i></button></td>
+											<td style="text-align:center" nowrap><button type="button" class="btn btn btn-outline-hover-danger btn-elevate btn-icon btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" data-original-title="Edit" data-html="true"><i class="fa fa-pen"></i></button>&nbsp;&nbsp;<button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" data-original-title="Hapus" data-html="true"><i class="fa fa-trash-alt"></i></button></td>
+
 										  </tr>
-										  <tr>
+										   <tr>
 												<td style="text-align:center" id="kt_table_1">4</td>
-												<td style="text-align:center" nowrap><div class="form-group">
-																						<select class="form-control kt-selectpicker" data-live-search="true">
-																							<option value="AK" selected>Suami</option>
-																							<option value="HI">Istri</option>
-																							<option value="HI">Anak</option>
-																						</select>
-																					</div></td>
-												<td style="text-align:left" nowrap><input type="text" class="form-control form-control-sm" placeholder=""></td>
-												<td style="text-align:center" nowrap><div class="form-group">
-																						<select class="form-control kt-selectpicker" data-live-search="true">
-																							<option value="AK" selected>Pria</option>
-																							<option value="HI">Wanita</option>
-																						</select>
-																					</div></td>
-												<td style="text-align:left" nowrap><div class="form-group">
-																							<div class="input-group date">
-																								<input type="text" class="form-control form-control-sm" readonly="" placeholder="= Pilih Tanggal =" id="kt_datepicker_2">
-																								<div class="input-group-append">
-																									<span class="input-group-text">
-																										<i class="la la-calendar-check-o"></i>
-																									</span>
-																								</div>
-																							</div>
-																						</div></td>
-												<td style="text-align:center" nowrap><div class="form-group">
-																						<select class="form-control kt-selectpicker" data-live-search="true">
-																							<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-																							<option value="AK" selected>S3</option>
-																							<option value="HI">S2</option>
-																							<option value="HI">S1</option>
-																							<option value="HI">SMA</option>
-																							<option value="HI">SMP</option>
-																							<option value="HI">SD</option>
-																							<option value="HI">TK</option>
-																							<option value="HI">Belum Sekolah</option>
-																						</select>
-																					</div></td>
-												<td style="text-align:center" nowrap><input type="text" class="form-control form-control-sm" placeholder=""></td>
-												<td style="text-align:center" nowrap><div class="form-group m-form__group">
-												
-												<div class="custom-file">
-													<input type="file" class="custom-file-input" id="customFile">
-													<label class="custom-file-label" for="customFile">Choose file</label>
-												</div>
-											</div></td>
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+												<td style="text-align:center" nowrap>Anak</td>
+												<td style="text-align:left" nowrap>Almeera Rizqia Azalia</td>
+												<td style="text-align:center" nowrap>Wanita</td>
+												<td style="text-align:left" nowrap>24 Desember 2018</td>
+												<td style="text-align:center" nowrap>TK</td>
+												<td style="text-align:left" nowrap>Pelajar</td>
+												<td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" data-original-title="Download" data-html="true"><i class="fa fa-download"></i></button></td>
+											<td style="text-align:center" nowrap><button type="button" class="btn btn btn-outline-hover-danger btn-elevate btn-icon btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" data-original-title="Edit" data-html="true"><i class="fa fa-pen"></i></button>&nbsp;&nbsp;<button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" data-original-title="Hapus" data-html="true"><i class="fa fa-trash-alt"></i></button></td>
+
 										  </tr>
+											
+										  <tfoot>
+																								<tr>
+																									<td colspan="9">
+																										<button type="button" class="btn btn-brand btn-sm float-right" data-toggle="modal" data-target="#modal_tambah_keluarga"> <i class='fa fa-plus-circle'></i> Tambah Data</button>
+																									</td>
+																								</tr>
+																							</tfoot>
 
 										</tbody>
 									</table>
@@ -1217,6 +1138,7 @@
 												<td style="text-align:center" id="kt_table_1">1</td>
 												<td style="text-align:center" nowrap><div class="form-group">
 																						<select class="form-control kt-selectpicker" data-live-search="true">
+																						<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 																							<option value="AK" selected>S3</option>
 																							<option value="HI">S2</option>
 																							<option value="HI">S1</option>
@@ -1262,6 +1184,7 @@
 												<td style="text-align:center" id="kt_table_1">2</td>
 												<td style="text-align:center" nowrap><div class="form-group">
 																						<select class="form-control kt-selectpicker" data-live-search="true">
+																						<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 																							<option value="AK" selected>S3</option>
 																							<option value="HI">S2</option>
 																							<option value="HI">S1</option>
@@ -1307,6 +1230,7 @@
 												<td style="text-align:center" id="kt_table_1">3</td>
 												<td style="text-align:center" nowrap><div class="form-group">
 																						<select class="form-control kt-selectpicker" data-live-search="true">
+																						<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 																							<option value="AK" selected>S3</option>
 																							<option value="HI">S2</option>
 																							<option value="HI">S1</option>
@@ -1352,6 +1276,7 @@
 												<td style="text-align:center" id="kt_table_1">4</td>
 												<td style="text-align:center" nowrap><div class="form-group">
 																						<select class="form-control kt-selectpicker" data-live-search="true">
+																						<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 																							<option value="AK" selected>S3</option>
 																							<option value="HI">S2</option>
 																							<option value="HI">S1</option>
@@ -1806,6 +1731,7 @@
 
 </div>
 </div>
+
 <!--begin::Modal 1-->
 									<div class="modal fade" id="modal_persetujuan_pending" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
@@ -1889,6 +1815,148 @@
 								</div>
 							</div>
 							<!--End::Modal 1-->
+							<div class="modal fade" id="modal_tambah_keluarga" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+									<div class="modal-content">
+
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-clipboard-list"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">TAMBAH KELUARGA</h3>
+											</div>
+<div class="kt-portlet__head-toolbar">
+											
+											&nbsp;
+												<button type="button" class="btn btn-secondary btn-sm btn-outline-danger" data-dismiss="modal">X</button>
+											</div>
+											
+										</div>
+										<div class="kt-portlet__body">
+											<div class="tab-content"><br>
+												
+
+<div class="form-group row">
+<div class="col-lg-5">
+														<label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Hubungan Keluarga :</label>
+														<select class="form-control kt-selectpicker" data-live-search="true">
+																						<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+																							<option value="AK" selected>Suami</option>
+																							<option value="HI">Istri</option>
+																							<option value="HI">Anak</option>
+																						</select>
+													</div>
+													<div class="col-lg-7">
+														<label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Nama Lengkap  :</label>
+														<input type="text" class="form-control form-control-sm" placeholder="" />
+													</div>
+													</div>
+<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+<div class="form-group row">
+<div class="col-lg-5">
+														<label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Jenis Kelamin :</label>
+														<select class="form-control kt-selectpicker" data-live-search="true">
+																						<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+																							<option value="AK" selected>Pria</option>
+																							<option value="HI">Wanita</option>
+																						</select>
+													</div>
+													<div class="col-lg-7">
+														<label class="kt-font-brand"><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Tanggal Lahir :</label>
+														<div class="form-group">
+																							<div class="input-group date">
+																								<input type="text" class="form-control form-control-sm" readonly="" placeholder="= Pilih Tanggal =" id="kt_datepicker_2">
+																								<div class="input-group-append">
+																									<span class="input-group-text">
+																										<i class="la la-calendar-check-o"></i>
+																									</span>
+																								</div>
+																							</div>
+																						</div>
+													</div>
+													</div>
+													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+<div class="form-group row">
+													
+													<div class="col-lg-5">
+														<label class="kt-font-brand"><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Pendidikan Terakhir :</label>
+														<select class="form-control kt-selectpicker" data-live-search="true">
+																						<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+																							<option value="AK" selected>S3</option>
+																							<option value="HI">S2</option>
+																							<option value="HI">S1</option>
+																							<option value="HI">SMA</option>
+																							<option value="HI">SMP</option>
+																							<option value="HI">SD</option>
+																							<option value="HI">TK</option>
+																						</select>
+													</div>
+<div class="col-lg-7">
+														<label class="kt-font-brand">Pekerjaan :</label>
+														<input type="text" class="form-control form-control-sm" placeholder="" />
+													</div>
+												
+
+
+
+												
+													
+													
+
+												</div>
+<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+<div class="form-group row">
+													
+													<div class="col-lg-12">
+														<label class="kt-font-brand"><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Akta Nikah / Akta Kelahiran" data-html="true">*</code> Upload File :</label>
+														<div class="form-group m-form__group">
+												
+												<div class="custom-file">
+													<input type="file" class="custom-file-input" id="customFile">
+													<label class="custom-file-label" for="customFile">Choose file</label>
+												</div>
+											</div>
+													</div>
+												
+
+
+
+												
+													
+													
+
+												</div>
+												
+												
+												
+												
+
+
+												
+													
+													
+
+												</div>
+												
+											
+									<div class="kt-portlet__foot kt-align-right">
+												<div class="">
+													<button type="button" class="btn btn-sm btn-success">
+					<i class="fa fa-check-circle"></i>Simpan</button>
+												</div>
+											</div>
+
+
+
+
+									</div>
+
+									</div>
+								</div>
+							</div>
+							</div>
 							<!--begin::Modal 1-->
 									<div class="modal fade" id="modal_persetujuan_release" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
