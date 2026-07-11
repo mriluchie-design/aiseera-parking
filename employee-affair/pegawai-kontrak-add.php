@@ -1001,7 +1001,7 @@
 									<div class="row">
 										<div class="col-lg-12">
                 <div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-				<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Keluarga</div><br>
+				
                    
                       <div class="row">
 								<div class="col-xl-12">
@@ -1112,7 +1112,6 @@
 									<div class="row">
 										<div class="col-lg-12">
                 <div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-				<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Pendidikan</div><br>
                    
                       <div class="row">
 								<div class="col-xl-12">
@@ -1224,7 +1223,6 @@
 									<div class="row">
 										<div class="col-lg-12">
                 <div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-				<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Sertifikat</div><br>
                    
                       <div class="row">
 								<div class="col-xl-12">
@@ -1297,7 +1295,6 @@
 									<div class="row">
 										<div class="col-lg-12">
                 <div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-				<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Pengalaman Kerja</div><br>
                    
                       <div class="row">
 								<div class="col-12">

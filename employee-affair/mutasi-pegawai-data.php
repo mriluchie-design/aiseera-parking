@@ -117,43 +117,55 @@
                                 <label>Departemen Asal :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2" selected="">Direksi</option>
+                                      <option value="2">Direksi</option>
                                       <option value="3">Operasional</option>
                                       <option value="4">Keuangan</option>
                                       <option value="5">Teknologi & Riset</option>
                                       <option value="12" >Pengembangan Usaha dan Kerjasama</option>
+                                      <option value="12" selected>Keseluruhan</option>
 
                                   </select>
                             </div>
 							<div class="col-lg-2">
                                 <label>Divisi Asal :</label>
 								
-                               <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="3">Direksi</option>
-                                      <option value="4">Umum</option>
-                                      <option value="4">Kepegawaian</option>
+                              <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <optgroup label="Direksi" class="a">
+									  <option value="3">Direksi</option>
+									  </optgroup>
+									  
+									    <optgroup label="Keuangan" class="a">
                                       <option value="6">Keuangan</option>
                                       <option value="12">Asset</option>
+									  </optgroup>
+									  <optgroup label="Operasional" class="a">
+                                      <option value="4">Umum</option>
+                                      <option value="4">Kepegawaian</option>
+									  </optgroup>
+									   <optgroup label="Teknologi dan Riset" class="a">
                                       <option value="12" >Teknologi</option>
                                       <option value="12" >Riset</option>
+									   </optgroup>
+									   <optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
                                       <option value="12" >Pengembangan</option>
                                       <option value="12" >Kerjasama</option>
+									  </optgroup>
+                                      <option value="12" selected>Keseluruhan</option>
 
                                 </select>
                             </div>
                             <div class="col-lg-2">
                                 <label class="">Jabatan Asal :</label>
 								   <select class="form-control kt-selectpicker" data-live-search="true">
-                  
+                                   
 									 <optgroup label="Direksi" class="a">
-                                      <option value="2" selected="">Direktur Utama</option>
+                                      <option value="2">Direktur Utama</option>
                                       <option value="2">Direktur Keuangan</option>
                                       <option value="2">Direktur Operasional</option>
-                                      <option value="2">Direktur Teknologi & Riset</option>
+                                      <option value="2">Direktur Teknologi dan Riset</option>
                                       <option value="2">Direktur Pengembangan Usaha dan Kerjasama</option>
-
+									  <option value="12" selected>Keseluruhan</option>
 									  </optgroup>
-
                                      
                                   </select>
                              
@@ -162,17 +174,19 @@
 							<div class="col-lg-2">
                                 <label class="">Kantor Asal :</label>
 								  <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2" selected="">Pusat</option>
+                                      <option value="2">Pusat</option>
                                       <option value="2">Nama Cabang A</option>
                                       <option value="2">Nama Cabang B</option>
+									  <option value="12" selected>Keseluruhan</option>
                                   </select>
                              
                             </div>
 							<div class="col-lg-1">
                                 <label class="">Status Pegawai :</label>
 								  <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2" selected="">Tetap</option>
+                                      <option value="2">Tetap</option>
                                       <option value="2">Kontrak</option>
+									  <option value="12" selected>Keseluruhan</option>
                                   </select>
                              
                             </div>
@@ -195,11 +209,12 @@
                                 <label>Departemen Baru :</label>
 								
                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2" selected="">Direksi</option>
+                                      <option value="2">Direksi</option>
                                       <option value="3">Operasional</option>
                                       <option value="4">Keuangan</option>
                                       <option value="5">Teknologi & Riset</option>
                                       <option value="12" >Pengembangan Usaha dan Kerjasama</option>
+									  <option value="12" selected>Keseluruhan</option>
 
                                   </select>
                             </div>
@@ -207,31 +222,42 @@
                                 <label>Divisi Baru :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="3">Direksi</option>
-                                      <option value="4">Umum</option>
-                                      <option value="4">Kepegawaian</option>
+                                      <optgroup label="Direksi" class="a">
+									  <option value="3">Direksi</option>
+									  </optgroup>
+									  
+									    <optgroup label="Keuangan" class="a">
                                       <option value="6">Keuangan</option>
                                       <option value="12">Asset</option>
+									  </optgroup>
+									  <optgroup label="Operasional" class="a">
+                                      <option value="4">Umum</option>
+                                      <option value="4">Kepegawaian</option>
+									  </optgroup>
+									   <optgroup label="Teknologi dan Riset" class="a">
                                       <option value="12" >Teknologi</option>
                                       <option value="12" >Riset</option>
+									   </optgroup>
+									   <optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
                                       <option value="12" >Pengembangan</option>
                                       <option value="12" >Kerjasama</option>
+									  </optgroup>
+                                      <option value="12" selected>Keseluruhan</option>
 
                                 </select>
                             </div>
 							<div class="col-lg-2">
                                 <label class="">Jabatan Baru :</label>
 								  <select class="form-control kt-selectpicker" data-live-search="true">
-                  
+                                   
 									 <optgroup label="Direksi" class="a">
-                                      <option value="2" selected="">Direktur Utama</option>
+                                      <option value="2">Direktur Utama</option>
                                       <option value="2">Direktur Keuangan</option>
                                       <option value="2">Direktur Operasional</option>
-                                      <option value="2">Direktur Teknologi & Riset</option>
+                                      <option value="2">Direktur Teknologi dan Riset</option>
                                       <option value="2">Direktur Pengembangan Usaha dan Kerjasama</option>
-
+									  <option value="12" selected>Keseluruhan</option>
 									  </optgroup>
-
                                      
                                   </select>
                              
@@ -239,9 +265,10 @@
 							<div class="col-lg-2">
                                 <label class="">Kantor Baru :</label>
 								  <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2" selected="">Pusat</option>
+                                      <option value="2">Pusat</option>
                                       <option value="2">Nama Cabang A</option>
                                       <option value="2">Nama Cabang B</option>
+									  <option value="12" selected>Keseluruhan</option>
                                   </select>
                              
                             </div>
