@@ -1893,8 +1893,8 @@
 											<div class="kt-widget6">
 												<div class="kt-widget6__body">
 												<div class="kt-widget6__item">
-														<span>IP Dispenser </span>
-														<span>192.168.0.121</span>
+														<span>Double</span>
+														<span>&nbsp;</span>
 													</div>
 													
 													<div class="kt-widget6__item">
@@ -1902,8 +1902,8 @@
 														<span>50</span>
 													</div>
 <div class="kt-widget6__item">
-														<span>&nbsp;</span>
-														<span>&nbsp;</span>
+														<span>IP Reader </span>
+														<span>192.168.0.121</span>
 													</div>
 <div class="kt-widget6__item">
 														<span>&nbsp;</span>
@@ -2184,8 +2184,8 @@
 											<div class="kt-widget6">
 												<div class="kt-widget6__body">
 												<div class="kt-widget6__item">
-														<span>IP Dispenser </span>
-														<span>192.168.0.121</span>
+														<span>Double</span>
+														<span>&nbsp;</span>
 													</div>
 													
 													<div class="kt-widget6__item">
@@ -2193,8 +2193,8 @@
 														<span>50</span>
 													</div>
 <div class="kt-widget6__item">
-														<span>&nbsp;</span>
-														<span>&nbsp;</span>
+														<span>IP Reader </span>
+														<span>192.168.0.121</span>
 													</div>
 <div class="kt-widget6__item">
 														<span>&nbsp;</span>
@@ -6026,6 +6026,26 @@
 														<label class="kt-font-danger">Keterangan :</label>
 														<textarea class="form-control" id="exampleTextarea" rows="3" placeholder=""></textarea>
 													</div>
+													
+
+
+												
+													
+													
+
+												</div>
+												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+												<div class="form-group row">
+												<div class="col-lg-12">
+														<label class="kt-font-brand">Upload Foto Perangkat :</label>
+														<div class="dropzone dropzone-default dropzone-brand dz-clickable" id="kt_dropzone_1">
+													<div class="dropzone-msg dz-message needsclick">
+														<h3 class="dropzone-msg-title">Drop files here or click to upload.</h3>
+														<span class="dropzone-msg-desc">Upload up to 10 files, File Format : JPG, PNG</span>
+													</div>
+												</div>
+													</div>
+													
 													
 
 

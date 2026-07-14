@@ -37,9 +37,9 @@ Highcharts.chart('container-cabang-pendapatan-kategori', {
     },
     legend: {
         align: 'center',
-        x: 0,
+        x: 30,
         verticalAlign: 'top',
-        y: 0,
+        y: -10,
         floating: true,
         backgroundColor: 'var(--highcharts-background-color, #ffffff)',
         borderColor: 'var(--highcharts-neutral-color-20, #cccccc)',
