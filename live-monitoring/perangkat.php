@@ -207,13 +207,13 @@
 																Jumlah Gate
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:20px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">2</span>
+																<span style="color:#ed1c24; font-size:20px;font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">2</span>
 															</span>
 														</div>
 														<div class="kt-widget17__item">
 															<span class="kt-widget17__subtitle" style="text-align:center">Masuk Mobil</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:20px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">4</span>
+																<span style="color:#ed1c24; font-size:20px;font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">4</span>
 															</span>
 														</div>
 														
@@ -223,7 +223,7 @@
 																Masuk Motor
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:20px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">4</span>
+																<span style="color:#ed1c24; font-size:20px;font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">4</span>
 															</span>
 														</div>
 														<div class="kt-widget17__item">
@@ -231,7 +231,7 @@
 																Keluar Mobil
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:20px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">4</span>
+																<span style="color:#ed1c24; font-size:20px;font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">4</span>
 															</span>
 														</div>
 														<div class="kt-widget17__item">
@@ -239,7 +239,7 @@
 																Keluar Motor
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:20px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">2</span>
+																<span style="color:#ed1c24; font-size:20px;font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">2</span>
 															</span>
 														</div>
 														<div class="kt-widget17__item">
@@ -247,7 +247,7 @@
 																Total Jalur
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:20px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">14</span>
+																<span style="color:#ed1c24; font-size:20px;font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">14</span>
 															</span>
 														</div>
 														
