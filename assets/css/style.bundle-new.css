@@ -2607,7 +2607,7 @@ fieldset:disabled a.btn {
 
 .btn-outline-secondary {
   color: #e1e1ef;
-  border-color: #e1e1ef; }
+  border-color: #0e62ae; }
   .btn-outline-secondary:hover {
     color: #212529;
     background-color: #e1e1ef;
@@ -9951,9 +9951,10 @@ button.btn {
   color: #fd397a; }
 
 .btn.btn-outline-secondary {
-  color: #494988; }
+  color: #0e62ae; }
   .show > .btn.btn-outline-secondary, .btn.btn-outline-secondary.active, .btn.btn-outline-secondary:active, .btn.btn-outline-secondary:hover {
-    background-color: #e1e1ef; }
+    background-color: #0e62ae;
+color:#fff;	}
 
 .btn.btn-elevate {
   -webkit-transition: all 0.3s ease 0s;

@@ -586,7 +586,7 @@
 									<a href="#"><i class="fa fa-angle-double-left kt-font-danger"></i></a>
 								</li>
 								<li class="kt-pagination__link--next">
-									<a href="#"><i class="fa fa-angle-left kt-font-danger"></i></a>
+									<a href="#"><i class="fa fa-angle-left kt-font-brand"></i></a>
 								</li>
 								<li>
 									<a href="#">...</a>
@@ -613,7 +613,7 @@
 									<a href="#">...</a>
 								</li>
 								<li class="kt-pagination__link--prev">
-									<a href="#"><i class="fa fa-angle-right kt-font-danger"></i></a>
+									<a href="#"><i class="fa fa-angle-right kt-font-brand"></i></a>
 								</li>
 								<li class="kt-pagination__link--last">
 									<a href="#"><i class="fa fa-angle-double-right kt-font-danger"></i></a>

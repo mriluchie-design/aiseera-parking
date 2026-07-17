@@ -48,16 +48,16 @@
 
 							<!--end: Search -->
 							<div class="kt-header__topbar-item kt-header__topbar-item--user">
-								<div class="kt-header__topbar-wrapper" data-toggle="dropdown" data-offset="0px,0px">
+								<div class="kt-header__topbar-wrapper">
 									<div class="kt-header__topbar-user">
-										<a href="#" class="btn kt-subheader__btn-dateranger" style="background: #f2f3f7 !important;">
-														<i class="flaticon2-calendar-1" style="color: #1b1864;"></i>
-														<span class="kt-subheader__btn-daterange-date" id="kt_dashboard_daterangepicker_date" style="color: #ed1c24;margin-right: 0.25rem;display: inline-block;">22 Oktober 2025&nbsp;&nbsp;&nbsp;|</span>
-														<span class="kt-subheader__btn-daterange-title" id="kt_dashboard_daterangepicker_title" style="color: #ed1c24;"><blink>9:45 WITA</blink></span>&nbsp;
+										<a href="#" class="btn kt-subheader__btn-dateranger" >
+														<i class="flaticon2-calendar-1" style="color: #0e62ae;"></i>
+														<span class="kt-subheader__btn-daterange-date kt-font-brand" id="kt_dashboard_daterangepicker_date" style="margin-right: 0.25rem;display: inline-block;">22 Oktober 2025&nbsp;&nbsp;&nbsp;|</span>
+														<span class="kt-subheader__btn-daterange-title kt-font-danger" id="kt_dashboard_daterangepicker_title"><blink>9:45 WITA</blink></span>&nbsp;
 														
 													</a>&nbsp;
 													
-													<div class="kt-portlet__head-toolbar" style="background: #f2f3f7 !important;">
+													<div class="kt-portlet__head-toolbar">
 												<a href="#" class="btn btn-label-brand btn dropdown-toggle" data-toggle="dropdown">
 													 Pilih Area
 												</a>
