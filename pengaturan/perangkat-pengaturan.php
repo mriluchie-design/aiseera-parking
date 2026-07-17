@@ -124,27 +124,75 @@
                                                                            
                                   </select>
     		                    </div>
+								<div class="col-lg-2">
+                                <label>Pembuat :</label>
+    	                       <div class="form-group">
+
+					                         <select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
+					 															<optgroup label="Direksi" class="a">
+					 																<option value="AK">Muhammad Nasrullah, S.Kom</option>
+					 															</optgroup>
+					 															
+																				<optgroup label="Keuangan" class="a">
+					 																<option value="HI">Oklan Zulkifli, SE</option>
+					 															</optgroup>
+																				<optgroup label="Operasional" class="a">
+					 																<option value="HI">Deddy Rafsanjani, S.Sos</option>
+					 																<option value="HI">Nursiah, S.Kom</option>
+					 															</optgroup>
+																				<optgroup label="Teknologi dan Riset" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
+					 															</optgroup>
+																				<optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
+					 															</optgroup>
+																				<option value="12" selected>Keseluruhan</option>
+
+					 														</select>
+					                       </div>
+        					
+                            </div>
                             
 								<div class="col-lg-2">
-                                <label>Transaksi :</label>
+                                <label>Gate :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1">Parkir Kendaraan</option>
-                                      <option value="2">Pendaftaran Member</option>
+                                      <option value="1">1</option>
+                                      <option value="2">2</option>
+                                      <option value="2">3</option>
+                                      <option value="2">4</option>
 									   <option value="4" selected>Keseluruhan</option>
                                       
                                   </select>
                             </div>
 							<div class="col-lg-2">
-                                <label>Metode Pembayaran :</label>
+                                <label>Jalur :</label>
 								
-                               <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1">eMoney</option>
-                                      <option value="2"><span class="btn btn-label-warning btn-sm">QRIS</span></option>
-                                      <option value="3"><span class="btn btn-label-success btn-sm">Virtual Account</span></option>
-                                      <option value="3"><span class="btn btn-label-danger btn-sm">Credit Card</span></option>
-                                      <option value="4" selected>Keseluruhan</option>
-                                     
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Masuk</option>
+                                      <option value="2">Keluar</option>
+									   <option value="4" selected>Keseluruhan</option>
+                                      
+                                  </select>
+                            </div>
+							<div class="col-lg-2">
+                                <label>Status :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Proses</option>
+                                      <option value="2">Selesai</option>
+									   <option value="4" selected>Keseluruhan</option>
+                                      
+                                  </select>
+                            </div>
+							<div class="col-lg-2">
+                                <label>Verifikasi :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Pending</option>
+                                      <option value="2">Disetujui</option>
+									   <option value="4" selected>Keseluruhan</option>
+                                      
                                   </select>
                             </div>
 							

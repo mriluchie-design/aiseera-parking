@@ -124,27 +124,81 @@
                                                                            
                                   </select>
     		                    </div>
+								
                             
-								<div class="col-lg-2">
-                                <label>Transaksi :</label>
+								<div class="col-lg-1">
+                                <label>Gate :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1">Parkir Kendaraan</option>
-                                      <option value="2">Pendaftaran Member</option>
+                                      <option value="1">1</option>
+                                      <option value="2">2</option>
+                                      <option value="2">3</option>
+                                      <option value="2">4</option>
 									   <option value="4" selected>Keseluruhan</option>
                                       
                                   </select>
                             </div>
-							<div class="col-lg-2">
-                                <label>Metode Pembayaran :</label>
+							<div class="col-lg-1">
+                                <label>Jalur :</label>
 								
-                               <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1">eMoney</option>
-                                      <option value="2"><span class="btn btn-label-warning btn-sm">QRIS</span></option>
-                                      <option value="3"><span class="btn btn-label-success btn-sm">Virtual Account</span></option>
-                                      <option value="3"><span class="btn btn-label-danger btn-sm">Credit Card</span></option>
-                                      <option value="4" selected>Keseluruhan</option>
-                                     
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Masuk</option>
+                                      <option value="2">Keluar</option>
+									   <option value="4" selected>Keseluruhan</option>
+                                      
+                                  </select>
+                            </div>
+							<div class="col-lg-1">
+                                <label>Team :</label>
+    	                       <div class="form-group">
+
+					                         <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Team-1</option>
+                                      <option value="2">Team-2</option>
+                                      <option value="2">Team-3</option>
+                                      <option value="2">Team-4</option>
+									   <option value="4" selected>Keseluruhan</option>
+                                      
+                                  </select>
+					                       </div>
+        					
+                            </div>
+							<div class="col-lg-2">
+                                <label class="">Tanggal Mulai :</label>
+                                <div class="input-group">
+						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="-- Pilih Tanggal --">
+						                        <div class="input-group-append">
+						                          <span class="input-group-text"><i class="la la-calendar"></i></span>
+						                        </div>
+						                      </div>
+                            </div>
+							<div class="col-lg-2">
+                                <label class="">Tanggal Selesai :</label>
+                                <div class="input-group">
+						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="-- Pilih Tanggal --">
+						                        <div class="input-group-append">
+						                          <span class="input-group-text"><i class="la la-calendar"></i></span>
+						                        </div>
+						                      </div>
+                            </div>
+							<div class="col-lg-1">
+                                <label>Status :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Proses</option>
+                                      <option value="2">Selesai</option>
+									   <option value="4" selected>Keseluruhan</option>
+                                      
+                                  </select>
+                            </div>
+							<div class="col-lg-1">
+                                <label>Verifikasi :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Pending</option>
+                                      <option value="2">Disetujui</option>
+									   <option value="4" selected>Keseluruhan</option>
+                                      
                                   </select>
                             </div>
 							
