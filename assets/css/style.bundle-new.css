@@ -13168,7 +13168,7 @@ background-color: #f5f5f5;}
       color: #ffffff; }
     .datetimepicker tbody tr > td.day.today {
       position: relative;
-      background: rgba(93, 120, 255, 0.7) !important;
+      background: #32b6e9;
       color: #ffffff !important; }
       .datetimepicker tbody tr > td.day.today:before {
         content: '';

@@ -283,7 +283,7 @@
 										<div class="kt-portlet__head kt-portlet__head--noborder kt-portlet__space-x">
 											<div class="kt-portlet__head-label" style="margin-left:55px;">
 												<h3 class="kt-portlet__head-title">
-													Permintaan Material
+													Statistik
 												</h3>
 											</div>
 											<div class="kt-portlet__head-toolbar" style="margin-right:55px;">
@@ -328,7 +328,7 @@
 														<div class="kt-widget17__item">
 															
 															<span class="kt-widget17__subtitle" style="text-align:center">
-																Total
+																Total Permintaan
 															</span>
 
 															<span class="kt-widget17__desc" style="text-align:center">
@@ -348,7 +348,7 @@
 														
 														<div class="kt-widget17__item">
 															<span class="kt-widget17__subtitle" style="text-align:center">
-																On Process
+																Proses
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
 																<span style="color:#ed1c24; font-size:20px; font-weight:500" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">2</span>
@@ -812,10 +812,7 @@
 </div>
 
 									<!--end: Datatable -->
-								</div>
-							</div>
-
-            </div>
+								
 
 
 <?php require '../layouts/footer.php' ?>

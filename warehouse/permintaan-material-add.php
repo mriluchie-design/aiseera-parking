@@ -227,7 +227,7 @@ function goBack() {
                       </div>
                       </div>
                       </div>
-					  <div class="col-lg-3">
+					  <div class="col-lg-4">
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
@@ -261,13 +261,22 @@ function goBack() {
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						  <div class="form-group row">
 						  
-						<div class="col-lg-12">
+						<div class="col-lg-6">
+                          <label class="">Tanggal Deadline :</label>
+                          <div class="input-group">
+						                        <input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="= Pilih Tanggal =">
+						                        <div class="input-group-append">
+						                          <span class="input-group-text"><i class="la la-calendar-check-o"></i></span>
+						                        </div>
+						                      </div>
+                        </div>
+						<div class="col-lg-6">
                           <label class="">Waktu Deadline :</label>
-                          <div class="input-group date">
-												<input type="text" class="form-control kt-input" placeholder="Pilih Tanggal & Jam" id="kt_datetimepicker_2">
+                          <div class="input-group timepicker">
+												<input class="form-control kt-input" id="kt_timepicker_2" readonly="" placeholder="Jam" type="text">
 												<div class="input-group-append">
 													<span class="input-group-text">
-														<i class="la la-calendar-check-o glyphicon-th"></i>
+														<i class="la la-clock-o"></i>
 													</span>
 												</div>
 											</div>
@@ -281,7 +290,7 @@ function goBack() {
                       </div>
                       </div>
 					  
-					  <div class="col-lg-3">
+					  <div class="col-lg-2">
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
