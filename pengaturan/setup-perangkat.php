@@ -220,8 +220,8 @@ function goBack() {
 						<div class="card">
 							<div class="card-header" id="headingOne">
 								<div class="card-title collapsed d-grid" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="false" aria-controls="collapseOne1">
-									Perangkat
-									<small>yang digunakan</small>
+									Dispenser
+									<small>Perangkat yang digunakan</small>
 								</div>
 							</div>
 							<div id="collapseOne1" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample1" style="">
