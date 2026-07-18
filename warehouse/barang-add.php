@@ -22,12 +22,18 @@
     <div class="kt-subheader   kt-grid__item" id="kt_subheader">
         <div class="kt-container  kt-container--fluid ">
             <div class="kt-subheader__main">
-			
-                <h3 class="kt-subheader__title">
+									<h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Form Tambah Barang
+                    Form
                 </h3>
-				
+				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
+									<div class="kt-subheader__group" id="kt_subheader_search">
+										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
+											Tambah Barang</span>
+										<form class="kt-margin-l-20" id="kt_subheader_search_form">
+
+										</form>
+									</div>
 
 
 								</div>
@@ -146,32 +152,40 @@ function goBack() {
 																										<div class="col-lg-6">
                           <label class="">Kode Barang :</label>
                           <div class="form-group">
-                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="0001SKUAK0626">
+                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="0001DSS01180626">
                       </div>
                         </div>
-						<div class="col-lg-6">
+						
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+                     <div class="form-group row">
+					 <div class="col-lg-6">
                           <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Pilih Kategori" data-html="true">*</code> Kategori :</label>
                          <select class="form-control kt-selectpicker" data-live-search="true">
 						
 														
-														<option>Kebutuhan Project</option>
-														<option>Peralatan Kerja</option>
-														<option>Peralatan Kantor</option>
-														<option>Jasa</option>
+														<option>Dispenser</option>
+														<option>Barrier Gate</option>
+														<option>Sensor</option>
 														 <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 														
 													</select>
                         </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-                     <div class="form-group row">
-						<div class="col-lg-12">
-														<label class="kt-font-danger">Pilih Project :</label>
-														 <select class="form-control form-control kt-selectpicker" data-live-search="true">
-														<option>Epass</option>
+						<div class="col-lg-6">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Pilih Jenis" data-html="true">*</code> Jenis :</label>
+                         <select class="form-control kt-selectpicker" data-live-search="true">
+						
 														
-														</select>
-													</div>
+														<option>Jaringan</option>
+														<option>Payment</option>
+														<option>Printer</option>
+														<option>Sensor</option>
+														<option>Komputer</option>
+														 <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+														
+													</select>
+                        </div>
+						
 													</div>
 													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
                      <div class="form-group row">

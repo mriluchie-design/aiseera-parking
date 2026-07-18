@@ -360,7 +360,7 @@ function goBack() {
 										<tbody>
 											<tr>
 												<td style="text-align:right">1</td>
-												<td nowrap="nowrap" style="text-align:left">0001G1INMO1ILU140626</td>
+												<td nowrap="nowrap" style="text-align:left">0001DSS01180626</td>
 												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
 												<td nowrap="nowrap" style="text-align:left">HUB SWITCH 8 PORT MANAGEABLE CLOUD</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
@@ -368,7 +368,7 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">Masuk</td>
 												<td nowrap="nowrap" style="text-align:center">Mobil - 1</td>
-												<td nowrap="nowrap" style="text-align:left">0001G1INMO1ILU140626</td>
+												<td nowrap="nowrap" style="text-align:left">0010DSS01180626</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="18 September 2026<hr>06:34:00 WITA<hr>12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-input-icon kt-input-icon--right">
 												  <input type="text" class="form-control form-control-sm" placeholder="Scan Perangkat" id="generalSearch" />
@@ -386,7 +386,7 @@ function goBack() {
 										  </tr>
 										  <tr>
 												<td style="text-align:right">2</td>
-												<td nowrap="nowrap" style="text-align:left">0002G1INMO1ILU140626</td>
+												<td nowrap="nowrap" style="text-align:left">0002DSS01180626</td>
 												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
 												<td nowrap="nowrap" style="text-align:left">NFC PAYMENT READER</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
@@ -394,7 +394,7 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">Masuk</td>
 												<td nowrap="nowrap" style="text-align:center">Mobil - 1</td>
-												<td nowrap="nowrap" style="text-align:left">0002G1INMO1ILU140626</td>
+												<td nowrap="nowrap" style="text-align:left">0011DSS01180626</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="18 September 2026<hr>06:34:00 WITA<hr>12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-input-icon kt-input-icon--right">
 												  <input type="text" class="form-control form-control-sm" placeholder="Scan Perangkat" id="generalSearch" />
@@ -411,7 +411,7 @@ function goBack() {
 										  </tr>
 <tr>
 												<td style="text-align:right">3</td>
-												<td nowrap="nowrap" style="text-align:left">0003G1INMO1ILU140626</td>
+												<td nowrap="nowrap" style="text-align:left">0003DSS01180626</td>
 												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
 												<td nowrap="nowrap" style="text-align:left">PRINTER THERMAL</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
@@ -419,7 +419,7 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">Masuk</td>
 												<td nowrap="nowrap" style="text-align:center">Mobil - 1</td>
-												<td nowrap="nowrap" style="text-align:left">0003G1INMO1ILU140626</td>
+												<td nowrap="nowrap" style="text-align:left">0012DSS01180626</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="18 September 2026<hr>06:34:00 WITA<hr>12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-input-icon kt-input-icon--right">
 												  <input type="text" class="form-control form-control-sm" placeholder="Scan Perangkat" id="generalSearch" />
@@ -436,7 +436,7 @@ function goBack() {
 										  </tr>
 <tr>
 												<td style="text-align:right">4</td>
-												<td nowrap="nowrap" style="text-align:left">0004G1INMO1ILU140626</td>
+												<td nowrap="nowrap" style="text-align:left">0001BRG01180626</td>
 												<td nowrap="nowrap" style="text-align:left">Barrier Gate</td>
 												<td nowrap="nowrap" style="text-align:left">VEHICLE LOOP DETECTOR</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
@@ -444,7 +444,7 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:center">2</td>
 												<td nowrap="nowrap" style="text-align:center">Keluar</td>
 												<td nowrap="nowrap" style="text-align:center">Mobil - 2</td>
-												<td nowrap="nowrap" style="text-align:left">0004G1INMO1ILU140626</td>
+												<td nowrap="nowrap" style="text-align:left">0005BRG01180626</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="18 September 2026<hr>06:34:00 WITA<hr>12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-input-icon kt-input-icon--right">
 												  <input type="text" class="form-control form-control-sm" placeholder="Scan Perangkat" id="generalSearch" />
@@ -461,7 +461,7 @@ function goBack() {
 										  </tr>
 <tr>
   <td style="text-align:right">5</td>
-  <td style="text-align:left" nowrap="nowrap">0005G1INMO1ILU140626</td>
+  <td style="text-align:left" nowrap="nowrap">0001SSR01180626</td>
   <td nowrap="nowrap" style="text-align:left">Sensor dan Lainnya</td>
   <td nowrap="nowrap" style="text-align:left">UHF READER MID RANGE</td>
   <td nowrap="nowrap" style="text-align:center">1</td>
@@ -469,7 +469,7 @@ function goBack() {
   <td nowrap="nowrap" style="text-align:center">1</td>
   <td nowrap="nowrap" style="text-align:center">Keluar</td>
   <td nowrap="nowrap" style="text-align:center">Mobil - 1</td>
-  <td nowrap="nowrap" style="text-align:left">0005G1INMO1ILU140626</td>
+  <td nowrap="nowrap" style="text-align:left">0005SSR01180626</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="18 September 2026<hr>06:34:00 WITA<hr>12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-input-icon kt-input-icon--right">
     <input type="text" class="form-control form-control-sm" placeholder="Scan Perangkat" id="generalSearch" />
