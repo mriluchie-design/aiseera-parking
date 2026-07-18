@@ -146,6 +146,36 @@
                                      
                                   </select>
                             </div>
+							<div class="col-lg-2">
+                                <label>Transaksi :</label>
+								
+                               <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Ya</option>
+                                      <option value="2">Tidak</option>
+									  <option value="2" selected>Keseluruhan</option>
+                                     
+                                  </select>
+                            </div>
+							<div class="col-lg-2">
+                                <label>Dispenser :</label>
+								
+                               <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Ya</option>
+                                      <option value="2">Pos Portable</option>
+									  <option value="2" selected>Keseluruhan</option>
+                                     
+                                  </select>
+                            </div>
+							<div class="col-lg-2">
+                                <label>Type Dispenser :</label>
+								
+                               <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Single</option>
+                                      <option value="2">Double</option>
+									  <option value="2" selected>Keseluruhan</option>
+                                     
+                                  </select>
+                            </div>
 								
                             
 							
