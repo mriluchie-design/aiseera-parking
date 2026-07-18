@@ -917,6 +917,140 @@
     </div>
     </div>
     </div>
+	<div class="modal fade" id="modal_edit_jalur" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+									<div class="modal-content">
+
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-clipboard-list"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">EDIT JALUR</h3>
+											</div>
+											<div class="kt-portlet__head-toolbar">
+												<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">X</button>
+											</div>
+										</div>
+										<div class="kt-portlet__body">
+											<div class="tab-content">
+												<div class="tab-pane active" id="kt_tabs_7_1" role="tabpanel">
+													
+
+												<div class="form-group row">
+												<div class="col-lg-4">
+														<label class="kt-font-brand">Lokasi :</label>
+														 <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Makassar</option>
+                                      <option value="2">Pare-Pare</option>
+                                      <option value="2">Balikpapan</option>
+                                      <option value="2">Samarinda</option>
+                                      <option value="2">Tarakan</option>
+                                      <option value="2">Nunukan</option>
+                                      <option value="2">Manado</option>
+                                      <option value="2">Bitung</option>
+                                      <option value="2">Ambon - Yos Sudarso</option>
+                                      <option value="2">Ambon - Slamet Ri<span class="btn btn-label-twitter btn-sm">Ya</span>di</option>
+                                      <option value="2">Ternate</option>
+                                      <option value="2">Sorong</option>
+                                                                           
+                                  </select>
+													</div>
+													<div class="col-lg-2">
+														<label class="kt-font-brand">Gate :</label>
+														<select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">1</option>
+                                      <option value="2">2</option>
+                                      <option value="2">3</option>
+                                      <option value="2">4</option>
+                                    
+                                     
+                                  </select>
+													</div>
+													<div class="col-lg-2">
+														<label class="kt-font-brand">Jalur :</label>
+														<select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Masuk</option>
+                                      <option value="2">Keluar</option>
+                                    
+                                     
+                                  </select>
+													</div>
+													<div class="col-lg-4">
+														<label class="kt-font-brand">Nama Jalur :</label>
+														<input type="text" class="form-control form-control-sm" placeholder="">
+													</div>
+
+
+												
+													
+													
+
+												</div>
+												
+												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+												<div class="form-group row">
+												<div class="col-lg-4">
+														<label class="kt-font-brand">Dispenser :</label>
+														<select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Ya</option>
+                                      <option value="2">Pos Portable</option>
+                                    
+                                     
+                                  </select>
+													</div>
+													<div class="col-lg-4">
+														<label class="kt-font-brand">Type Dispenser :</label>
+														<select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Single</option>
+                                      <option value="2">Double</option>
+                                    
+                                     
+                                  </select>
+													</div>
+												<div class="col-lg-4">
+														<label class="kt-font-brand">Transaksi :</label>
+														<select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Ya</option>
+                                      <option value="2">Tidak</option>
+                                    
+                                     
+                                  </select>
+													</div>
+
+
+												
+													
+													
+
+												</div>
+												
+												
+											
+									<div class="kt-portlet__foot kt-align-right">
+												<div class="">
+
+													<button type="button" class="btn btn-sm btn-success">
+					<i class="fa fa-check-circle"></i>Simpan Data</button>
+												</div>
+											</div>
+
+
+
+
+									</div>
+
+									</div>
+								</div>
+							</div>
+							<!--End::Modal 1-->
+							
+							
+									
+        </div>
+    </div>
+    </div>
+    </div>
 	<div class="modal fade" id="modal_edit_jenis_transaksi" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
 									<div class="modal-content">

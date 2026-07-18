@@ -175,7 +175,7 @@
 						                      </div>
                             </div>
 							<div class="col-lg-3">
-                                <label>PM :</label>
+                                <label>Project Manager :</label>
     	                       <div class="form-group">
 
 					                         <select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
@@ -240,7 +240,6 @@
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="1%" bgcolor="#f7fcff">ID</th>
 											  <th width="10%" bgcolor="#f7fcff">Lokasi</th>
 											  <th width="3%" bgcolor="#f7fcff">Tanggal Mulai</th>
 											  <th width="3%" bgcolor="#f7fcff">Tanggal Deadline</th>
@@ -253,7 +252,6 @@
 										<tbody>
 											<tr>
 												<td style="text-align:right">1</td>
-												<td style="text-align:left" nowrap>0001/AK/PR/0626</td>
 												<td style="text-align:left" nowrap>Makassar</td>
 												<td style="text-align:center" nowrap>1 September 2026</td>
 												<td style="text-align:center" nowrap>8 September 2026</td>
@@ -282,7 +280,6 @@
 										  </tr>
 											<tr>
 												<td style="text-align:right">2</td>
-												<td nowrap="nowrap" style="text-align:left">0002/AK/PR/0626</td>
 												<td nowrap="nowrap" style="text-align:left">Manado</td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026</td>
 												<td nowrap="nowrap" style="text-align:center">8 September 2026</td>
@@ -308,7 +305,6 @@
 										  </tr>
 											<tr>
 												<td style="text-align:right">3</td>
-												<td nowrap="nowrap" style="text-align:left">0003/AK/PR/0626</td>
 												<td nowrap="nowrap" style="text-align:left">Ternate</td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026</td>
 												<td nowrap="nowrap" style="text-align:center">8 September 2026</td>
@@ -334,7 +330,6 @@
 										  </tr>
 										  <tr>
 												<td style="text-align:right">4</td>
-												<td nowrap="nowrap" style="text-align:left">0004/AK/PR/0626</td>
 												<td nowrap="nowrap" style="text-align:left">Ambon - Yos Sudarso</td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026</td>
 												<td nowrap="nowrap" style="text-align:center">8 September 2026</td>
@@ -360,7 +355,6 @@
 										  </tr>
 										  <tr>
 										    <td style="text-align:right">5</td>
-										    <td nowrap="nowrap" style="text-align:left">0005/AK/PR/0626</td>
 										    <td nowrap="nowrap" style="text-align:left">Ambon - Slamet Riyadi</td>
 										    <td nowrap="nowrap" style="text-align:center">1 September 2026</td>
 										    <td nowrap="nowrap" style="text-align:center">8 September 2026</td>
@@ -380,7 +374,6 @@
 									      </tr>
 										  <tr>
 												<td style="text-align:right">6</td>
-												<td nowrap="nowrap" style="text-align:left">0006/AK/PR/0626</td>
 												<td nowrap="nowrap" style="text-align:left">Samarinda</td>
 												<td nowrap="nowrap" style="text-align:center">10 September 2026</td>
 												<td nowrap="nowrap" style="text-align:center">18 September 2026</td>
@@ -406,7 +399,6 @@
 										  </tr>
 <tr>
 												<td style="text-align:right">7</td>
-												<td nowrap="nowrap" style="text-align:left">0007/AK/PR/0626</td>
 												<td nowrap="nowrap" style="text-align:left">Tarakan</td>
 												<td nowrap="nowrap" style="text-align:center">10 September 2026</td>
 												<td nowrap="nowrap" style="text-align:center">18 September 2026</td>
@@ -432,7 +424,6 @@
 										  </tr>
 <tr>
   <td style="text-align:right">8</td>
-  <td nowrap="nowrap" style="text-align:left">0008/AK/PR/0626</td>
   <td nowrap="nowrap" style="text-align:left">Balikpapan</td>
   <td nowrap="nowrap" style="text-align:center">10 September 2026</td>
   <td nowrap="nowrap" style="text-align:center">18 September 2026</td>
@@ -458,7 +449,6 @@
   </tr>
 <tr>
   <td style="text-align:right">9</td>
-  <td nowrap="nowrap" style="text-align:left">0009/AK/PR/0626</td>
   <td nowrap="nowrap" style="text-align:left">Bitung</td>
   <td nowrap="nowrap" style="text-align:center">10 September 2026</td>
   <td nowrap="nowrap" style="text-align:center">18 September 2026</td>
@@ -484,7 +474,6 @@
   </tr>
 <tr>
   <td style="text-align:right">10</td>
-  <td nowrap="nowrap" style="text-align:left">0010/AK/PR/0626</td>
   <td nowrap="nowrap" style="text-align:left">Sorong</td>
   <td nowrap="nowrap" style="text-align:center">20 September 2026</td>
   <td nowrap="nowrap" style="text-align:center">28 September 2026</td>
@@ -510,7 +499,6 @@
   </tr>
 <tr>
   <td style="text-align:right">11</td>
-  <td nowrap="nowrap" style="text-align:left">0011/AK/PR/0626</td>
   <td nowrap="nowrap" style="text-align:left">Pare-Pare</td>
   <td nowrap="nowrap" style="text-align:center">20 September 2026</td>
   <td nowrap="nowrap" style="text-align:center">28 September 2026</td>
@@ -536,7 +524,6 @@
   </tr>
 <tr>
   <td style="text-align:right">12</td>
-  <td nowrap="nowrap" style="text-align:left">0012/AK/PR/0626</td>
   <td nowrap="nowrap" style="text-align:left">Kendari</td>
   <td nowrap="nowrap" style="text-align:center">20 September 2026</td>
   <td nowrap="nowrap" style="text-align:center">28 September 2026</td>
@@ -562,7 +549,6 @@
   </tr>
 <tr>
   <td style="text-align:right">13</td>
-  <td nowrap="nowrap" style="text-align:left">0013/AK/PR/0626</td>
   <td nowrap="nowrap" style="text-align:left">Nunukan</td>
   <td nowrap="nowrap" style="text-align:center">20 September 2026</td>
   <td nowrap="nowrap" style="text-align:center">28 September 2026</td>
@@ -967,24 +953,19 @@
 											
 										</div>
 
-										
 										<div class="kt-portlet__body">
-											<div class="tab-content">
-											<div class="accordion accordion-light  accordion-svg-icon" id="accordionExample7">
-												<div class="card">
-													<div class="card-header" id="headingOne7">
-														<div class="card-title" data-toggle="collapse" data-target="#collapseOne7" aria-expanded="true" aria-controls="collapseOne7">
-															<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
-																<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																	<polygon points="0 0 24 0 24 24 0 24" />
-																	<path d="M12.2928955,6.70710318 C11.9023712,6.31657888 11.9023712,5.68341391 12.2928955,5.29288961 C12.6834198,4.90236532 13.3165848,4.90236532 13.7071091,5.29288961 L19.7071091,11.2928896 C20.085688,11.6714686 20.0989336,12.281055 19.7371564,12.675721 L14.2371564,18.675721 C13.863964,19.08284 13.2313966,19.1103429 12.8242777,18.7371505 C12.4171587,18.3639581 12.3896557,17.7313908 12.7628481,17.3242718 L17.6158645,12.0300721 L12.2928955,6.70710318 Z" fill="#000000" fill-rule="nonzero" />
-																	<path d="M3.70710678,15.7071068 C3.31658249,16.0976311 2.68341751,16.0976311 2.29289322,15.7071068 C1.90236893,15.3165825 1.90236893,14.6834175 2.29289322,14.2928932 L8.29289322,8.29289322 C8.67147216,7.91431428 9.28105859,7.90106866 9.67572463,8.26284586 L15.6757246,13.7628459 C16.0828436,14.1360383 16.1103465,14.7686056 15.7371541,15.1757246 C15.3639617,15.5828436 14.7313944,15.6103465 14.3242754,15.2371541 L9.03007575,10.3841378 L3.70710678,15.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" transform="translate(9.000003, 11.999999) rotate(-270.000000) translate(-9.000003, -11.999999) " />
-																</g>
-															</svg> Project Manager
-														</div>
-													</div>
-													<div id="collapseOne7" class="collapse show" aria-labelledby="headingOne7" data-parent="#accordionExample7">
-														<div class="card-body">
+											<div class="kt-portlet__content">
+											<div class="col-xl-12">
+					<div class="accordion accordion-solid accordion-toggle-plus" id="accordionExample1">
+						<div class="card">
+							<div class="card-header" id="headingOne">
+								<div class="card-title collapsed d-grid" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="false" aria-controls="collapseOne1">
+								Project 
+									<small>Manager</small>
+								</div>
+							</div>
+							<div id="collapseOne1" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample1" style="">
+								<div class="card-body">
                               <div class="ordered-item clearfix">
   									
   									<div class="order-item-right">
@@ -1003,31 +984,22 @@
   									</div>
   								</div>
 														</div>
-												
-												
-
-									</div>
-									<div class="accordion accordion-light  accordion-svg-icon" id="accordionExample7">
-												<div class="card">
-													<div class="card-header" id="headingTwo7">
-														<div class="card-title collapsed" data-toggle="collapse" data-target="#collapseTwo7" aria-expanded="false" aria-controls="collapseTwo7">
-															<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
-																<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-																	<polygon points="0 0 24 0 24 24 0 24" />
-																	<path d="M12.2928955,6.70710318 C11.9023712,6.31657888 11.9023712,5.68341391 12.2928955,5.29288961 C12.6834198,4.90236532 13.3165848,4.90236532 13.7071091,5.29288961 L19.7071091,11.2928896 C20.085688,11.6714686 20.0989336,12.281055 19.7371564,12.675721 L14.2371564,18.675721 C13.863964,19.08284 13.2313966,19.1103429 12.8242777,18.7371505 C12.4171587,18.3639581 12.3896557,17.7313908 12.7628481,17.3242718 L17.6158645,12.0300721 L12.2928955,6.70710318 Z" fill="#000000" fill-rule="nonzero" />
-																	<path d="M3.70710678,15.7071068 C3.31658249,16.0976311 2.68341751,16.0976311 2.29289322,15.7071068 C1.90236893,15.3165825 1.90236893,14.6834175 2.29289322,14.2928932 L8.29289322,8.29289322 C8.67147216,7.91431428 9.28105859,7.90106866 9.67572463,8.26284586 L15.6757246,13.7628459 C16.0828436,14.1360383 16.1103465,14.7686056 15.7371541,15.1757246 C15.3639617,15.5828436 14.7313944,15.6103465 14.3242754,15.2371541 L9.03007575,10.3841378 L3.70710678,15.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.3" transform="translate(9.000003, 11.999999) rotate(-270.000000) translate(-9.000003, -11.999999) " />
-																</g>
-															</svg> Data Team
-														</div>
-													</div>
-													<div id="collapseTwo7" class="collapse" aria-labelledby="headingTwo7" data-parent="#accordionExample7">
-														<div class="card-body">
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingTwo">
+								<div class="card-title d-grid collapsed" data-toggle="collapse" data-target="#collapseTwo1" aria-expanded="false" aria-controls="collapseTwo1">
+									Team Teknis 
+									<small>Instalasi</small> </div>
+							</div>
+							<div id="collapseTwo1" class="collapse" aria-labelledby="headingTwo1" data-parent="#accordionExample1">
+								<div class="card-body">
                               <div class="ordered-item clearfix">
   									
   									<div class="order-item-right">
   										<a href="#" class="kt-notification__item versi-2">
 															<div class="kt-notification__item-icon">
-																<img src="../assets/img/users/300_3.jpg" alt="image" style="max-width:50px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000002<hr>Muhammad Ramadhan Lerrick, ST" data-html="true">&nbsp;&nbsp;<img src="../assets/img/users/300_14.jpg" alt="image" style="max-width:50px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003<hr>Andi Marwan Arsyad, ST" data-html="true">&nbsp;&nbsp;<img src="../assets/img/users/300_5.jpg" alt="image" style="max-width:50px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000005<hr>Wahyudi Djunaedi, ST" data-html="true">&nbsp;&nbsp;<img src="../assets/img/users/300_7.jpg" alt="image" style="max-width:50px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000007<hr>Rofiqoh Nurhasanah, ST" data-html="true">&nbsp;&nbsp;<img src="../assets/img/users/300_6.jpg" alt="image" style="max-width:50px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000008<hr>Deddy Rafsanjani, ST" data-html="true">
+																<img src="../assets/img/users/300_3.jpg" alt="image" style="max-width:50px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000002<hr>Muhammad Ramadhan, ST<hr>Electrical Engineering Supervisor" data-html="true">&nbsp;&nbsp;<img src="../assets/img/users/300_14.jpg" alt="image" style="max-width:50px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003<hr>Andi Marwan Arsyad, ST<hr>Electrical Engineering Supervisor" data-html="true">&nbsp;&nbsp;<img src="../assets/img/users/300_5.jpg" alt="image" style="max-width:50px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000005<hr>Wahyudi Djunaedi, ST<hr>Electrical Engineering" data-html="true">&nbsp;&nbsp;<img src="../assets/img/users/300_7.jpg" alt="image" style="max-width:50px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000007<hr>Rofiqoh Nurhasanah, ST<hr>Network Engineering Supervisor" data-html="true">&nbsp;&nbsp;<img src="../assets/img/users/300_6.jpg" alt="image" style="max-width:50px !important;height:auto" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000008<hr>Deddy Rafsanjani, ST<hr>Network Engineering" data-html="true">
 															</div>
 														&nbsp;
 														&nbsp;
@@ -1040,23 +1012,37 @@
   									</div>
   								</div>
 														</div>
-													</div>
-
+							</div>
+						</div>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+					</div>
+				</div>
+											
+												
+						
+                     
+						
+                     
+					  
+                     
 									</div>
 									
-								</div>
-							</div>
-							<!--End::Modal 2-->
-							
-								
-									
-								</div>
 
-							<!--End::App-->
-						</div>
-
-								<!--End:: App Content-->
-							</div>
+									</div>
+										
 
 									</div>
 								</div>

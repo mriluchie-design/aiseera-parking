@@ -474,13 +474,17 @@
 										<div class="modal-body">
 											<div class="kt-portlet kt-portlet--mobile ">
 											<div class="kt-portlet__head">
+
 											<div class="kt-portlet__head-label">
-												<span class="kt-portlet__head-icon"><i class="flaticon2-list-1"></i></span>
-												<h3 class="kt-portlet__head-title kt-font-info">FORM TAMBAH MODUL</h3>
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-clipboard-list"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">TAMBAH SUB MENU</h3>
 											</div>
-											<div class="kt-portlet__head-toolbar">
-												<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">X</button>
+<div class="kt-portlet__head-toolbar">
+											
+											&nbsp;
+												<button type="button" class="btn btn-secondary btn-sm btn-outline-danger" data-dismiss="modal">X</button>
 											</div>
+											
 										</div>
 										<div class="kt-portlet__body">
 											<div class="tab-content">

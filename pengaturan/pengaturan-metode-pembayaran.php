@@ -147,6 +147,18 @@
                                      
                                   </select>
                             </div>
+							<div class="col-lg-2">
+                                <label>Provider :</label>
+								
+                               <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Mandiri</option>
+                                      <option value="2"><span class="btn btn-label-warning btn-sm">Tapcash BNI</span></option>
+                                      <option value="3"><span class="btn btn-label-success btn-sm">Brizzi</span></option>
+                                      <option value="3"><span class="btn btn-label-danger btn-sm">BCA Flazz</span></option>
+                                      <option value="4" selected>Keseluruhan</option>
+                                     
+                                  </select>
+                            </div>
 							
 								
 							
@@ -184,7 +196,7 @@
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
+											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Transaksi</th>
 											  <th width="2%" rowspan="2" bgcolor="#f7fcff">Metode Pembayaran</th>
 											  <th width="8%" rowspan="2" bgcolor="#f7fcff">Provider</th>

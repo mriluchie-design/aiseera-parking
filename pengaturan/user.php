@@ -119,18 +119,18 @@
 											<tr style="text-align:center">
 											  <th width="1%" bgcolor="#f7fcff" id="kt_table_2">#</th>
 											  <th width="20%" bgcolor="#f7fcff">User</th>
-											  <th width="20%" bgcolor="#f7fcff">Type</th>
+											  <th width="20%" bgcolor="#f7fcff">Role</th>
 											 
 											  <th width="1%" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 										</thead>
 										<tbody>
 											<tr>
-												<td width="1%">1</td>
-												<td width="20%" align="left" valign="left" style="text-align:left">ADIT SAPUTRA</td>
-												<td width="20%" align="left" valign="left" style="text-align:left">Employee</td>
+												<td style="text-align:right">1</td>
+												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
+												<td align="left" valign="left" style="text-align:left">Superadmin</td>
 												
-												<td width="1%" style="text-align:center" nowrap><div class="kt-widget2__actions">
+												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
 																</a>
@@ -155,12 +155,11 @@
 															</div></td>
 										  </tr>
 										  <tr>
-												<td width="1%">2</td>
+												<td style="text-align:right">2</td>
+												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
+												<td align="left" valign="left" style="text-align:left">Administrator</td>
 												
-												<td width="20%" align="left" valign="left" style="text-align:left">ADI RASYID ALI, SE, MM</td>
-												<td width="20%" align="left" valign="left" style="text-align:left">Employee</td>
-												
-												<td width="1%" style="text-align:center" nowrap><div class="kt-widget2__actions">
+												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
 																</a>
@@ -184,13 +183,12 @@
 																</div>
 															</div></td>
 										  </tr>
-										   <tr>
-												<td width="1%">3</td>
+										  <tr>
+												<td style="text-align:right">3</td>
+												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
+												<td align="left" valign="left" style="text-align:left">General Manager</td>
 												
-												<td width="20%" align="left" valign="left" style="text-align:left">HERLANGGA REZA PRATAMA</td>
-												<td width="20%" align="left" valign="left" style="text-align:left">Guest</td>
-												
-												<td width="1%" style="text-align:center" nowrap><div class="kt-widget2__actions">
+												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
 																</a>
@@ -214,58 +212,93 @@
 																</div>
 															</div></td>
 										  </tr>
-										   <tr>
-										     <td>4</td>
-										     <td align="left" valign="left" style="text-align:left">LEONI HESTY KILALA</td>
-										     <td align="left" valign="left" style="text-align:left">Jukir</td>
-										     <td width="1%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
-										       <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-										         <ul class="kt-nav">
-										           <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
-										           <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
-									             </ul>
-									           </div>
-										       </div></td>
-									      </tr>
-										   <tr>
-										     <td>5</td>
-										     <td align="left" valign="left" style="text-align:left">WIRA YUDHA SAKTI. D</td>
-										     <td align="left" valign="left" style="text-align:left">Member Pribadi</td>
-										     <td width="1%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
-										       <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-										         <ul class="kt-nav">
-										           <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
-										           <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
-									             </ul>
-									           </div>
-										       </div></td>
-									      </tr>
-										   <tr>
-										     <td>6</td>
-										     <td align="left" valign="left" style="text-align:left">M. ADI WICAKSANA IRIANTO</td>
-										     <td align="left" valign="left" style="text-align:left">Member Corporate</td>
-										     <td width="1%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
-										       <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-										         <ul class="kt-nav">
-										           <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
-										           <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
-									             </ul>
-									           </div>
-										       </div></td>
-									      </tr>
-										   <tr>
-										     <td>7</td>
-										     <td align="left" valign="left" style="text-align:left">SRI NORMA JULIARTI, SE.</td>
-										     <td align="left" valign="left" style="text-align:left">Customer PLB</td>
-										     <td style="text-align:center" nowrap><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
-										       <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-										         <ul class="kt-nav">
-										           <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
-										           <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
-									             </ul>
-									           </div>
-									         </div></td>
-									      </tr>
+										 <tr>
+												<td style="text-align:right">4</td>
+												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
+												<td align="left" valign="left" style="text-align:left">Manager</td>
+												
+												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
+																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="flaticon-more-1"></i>
+																</a>
+																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+																	<ul class="kt-nav">
+																	
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																		</li>
+																		
+																	</ul>
+																</div>
+															</div></td>
+										  </tr>
+										  <tr>
+												<td style="text-align:right">5</td>
+												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
+												<td align="left" valign="left" style="text-align:left">Supervisor</td>
+												
+												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
+																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="flaticon-more-1"></i>
+																</a>
+																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+																	<ul class="kt-nav">
+																	
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																		</li>
+																		
+																	</ul>
+																</div>
+															</div></td>
+										  </tr>
+										  <tr>
+												<td style="text-align:right">6</td>
+												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
+												<td align="left" valign="left" style="text-align:left">Staff</td>
+												
+												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
+																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="flaticon-more-1"></i>
+																</a>
+																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+																	<ul class="kt-nav">
+																	
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																		</li>
+																		
+																	</ul>
+																</div>
+															</div></td>
+										  </tr>
 									    </tbody>
 									</table>
                     <!--end: Datatable -->
@@ -274,19 +307,23 @@
 							<!--End::Modal 1-->
 							<!--begin::Modal 2-->
 									<div class="modal fade" id="modal_tipe-pegawai" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
 									<div class="modal-content">
 
 										<div class="modal-body">
 											<div class="kt-portlet kt-portlet--mobile ">
 											<div class="kt-portlet__head">
+
 											<div class="kt-portlet__head-label">
-												<span class="kt-portlet__head-icon"><i class="flaticon2-list-1"></i></span>
-												<h3 class="kt-portlet__head-title kt-font-info">FORM TAMBAH USER GROUP</h3>
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-clipboard-list"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">FORM TAMBAH PENGGUNA</h3>
 											</div>
-											<div class="kt-portlet__head-toolbar">
-												<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">X</button>
+<div class="kt-portlet__head-toolbar">
+											
+											&nbsp;
+												<button type="button" class="btn btn-secondary btn-sm btn-outline-danger" data-dismiss="modal">X</button>
 											</div>
+											
 										</div>
 										<div class="kt-portlet__body">
 											<div class="tab-content">
@@ -294,21 +331,51 @@
 													
 												
 												<div class="form-group row">
-												<div class="col-lg-6">
-														<label>User Group:</label>
-														<input type="text" class="form-control form-control-sm" value="" placeholder="Isikan User Group">
+												<div class="col-lg-12">
+                                <label>Nama Pegawai :</label>
+    	                       <div class="form-group">
 
-												</div>
-												<div class="col-lg-6">
-														<label>Pilih Jabatan:</label>
+					                         <select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
+					 															<optgroup label="Direksi" class="a">
+					 																<option value="AK">Muhammad Nasrullah, S.Kom</option>
+					 															</optgroup>
+					 															
+																				<optgroup label="Keuangan" class="a">
+					 																<option value="HI">Oklan Zulkifli, SE</option>
+					 															</optgroup>
+																				<optgroup label="Operasional" class="a">
+					 																<option value="HI">Deddy Rafsanjani, S.Sos</option>
+					 																<option value="HI">Nursiah, S.Kom</option>
+					 															</optgroup>
+																				<optgroup label="Teknologi dan Riset" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
+					 															</optgroup>
+																				<optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
+					 															</optgroup>
+																				
+
+					 														</select>
+					                       </div>
+        					
+                            </div>
+                            </div>
+							<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+							<div class="form-group row">
+												<div class="col-lg-12">
+														<label>Role:</label>
 														<select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2">Dewan Pengawas</option>
-									  <optgroup label="Direksi">
-                                      <option value="2" selected="">Direktur Utama</option>
-                                      <option value="2">Direktur Umum</option>
-                                      <option value="2">Direktur Keuangan dan Asset</option>
+                                      <option value="2">Superadmin</option>
+                                      <option value="2">Administrator</option>
+                                      <option value="2">Direktur Utama</option>
+                                      <option value="2">Direktur Keuangan</option>
+                                      <option value="2">Direktur Teknologi dan Riset</option>
                                       <option value="2">Direktur Operasional</option>
                                       <option value="2">Direktur Pengembangan Usaha dan Kerjasama</option>
+                                      <option value="2">General Manager</option>
+                                      <option value="2">Manager</option>
+                                      <option value="2">Supervisor</option>
+                                      <option value="2">Staff</option>
 									  </optgroup>
                                      
                                   </select>
@@ -320,20 +387,7 @@
 												
 
 												</div>
-												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-												<div class="form-group row">
-												<div class="col-lg-6">
-														<label>Label:</label>
-														<input type="text" class="form-control form-control-sm" value="" placeholder="Isikan Label">
-
-												</div>
 												
-												
-
-
-												
-
-												</div>
 												
 												
 									<div class="kt-portlet__foot kt-align-right">
