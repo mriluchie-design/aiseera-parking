@@ -150,7 +150,7 @@ function goBack() {
 						<div class="col-lg-12">
                           <label class="">Tanggal Mulai :</label>
                           <div class="input-group date">
-											<input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="Select date" id="kt_datepicker_2">
+											<input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="= Pilih Tanggal =" id="kt_datepicker_2">
 											<div class="input-group-append">
 												<span class="input-group-text">
 													<i class="la la-calendar-check-o"></i>
@@ -166,7 +166,7 @@ function goBack() {
 						<div class="col-lg-12">
                           <label class="">Tanggal Deadline :</label>
                           <div class="input-group date">
-											<input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="Select date" id="kt_datepicker_2">
+											<input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="= Pilih Tanggal =" id="kt_datepicker_2">
 											<div class="input-group-append">
 												<span class="input-group-text">
 													<i class="la la-calendar-check-o"></i>

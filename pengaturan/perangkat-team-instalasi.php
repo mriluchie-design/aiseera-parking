@@ -150,7 +150,7 @@
 							<div class="col-lg-2">
                                 <label class="">Tanggal Mulai :</label>
                                 <div class="input-group">
-						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="-- Pilih Tanggal --">
+						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" placeholder="-- Pilih Tanggal --">
 						                        <div class="input-group-append">
 						                          <span class="input-group-text"><i class="la la-calendar"></i></span>
 						                        </div>
@@ -159,7 +159,7 @@
 							<div class="col-lg-2">
                                 <label class="">Tanggal Deadline :</label>
                                 <div class="input-group">
-						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="-- Pilih Tanggal --">
+						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" placeholder="-- Pilih Tanggal --">
 						                        <div class="input-group-append">
 						                          <span class="input-group-text"><i class="la la-calendar"></i></span>
 						                        </div>
@@ -168,7 +168,7 @@
 							<div class="col-lg-2">
                                 <label class="">Tanggal Selesai :</label>
                                 <div class="input-group">
-						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="-- Pilih Tanggal --">
+						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" placeholder="-- Pilih Tanggal --">
 						                        <div class="input-group-append">
 						                          <span class="input-group-text"><i class="la la-calendar"></i></span>
 						                        </div>

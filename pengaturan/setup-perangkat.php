@@ -135,15 +135,6 @@ function goBack() {
                           <label class="">Lokasi :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Makassar">
                         </div>
-						<div class="col-lg-3">
-                          <label class="">Dispenser :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Ya">
-                        </div>
-						<div class="col-lg-3">
-                          <label class="">Transaksi :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Ya">
-                        </div>
-						
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
@@ -162,6 +153,23 @@ function goBack() {
 						
 						
                         </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-3">
+                          <label class="">Dispenser :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Ya">
+                        </div>
+						<div class="col-lg-3">
+                          <label class="">Tipe Dispenser :</label>
+                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Single">
+                        </div>
+						<div class="col-lg-3">
+                          <label class="">Transaksi :</label>
+                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Ya">
+                        </div>
+						
+                        </div>
+						
                         <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						 </div>
 						<div class="form-group row">

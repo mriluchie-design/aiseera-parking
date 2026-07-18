@@ -366,7 +366,7 @@ function goBack() {
 										<tbody>
 											<tr>
 												<td style="text-align:right">1</td>
-												<td nowrap="nowrap" style="text-align:left">0001G1INMO1ILU140626</td>
+												<td nowrap="nowrap" style="text-align:left">0001DSS01180626</td>
 												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
 												<td nowrap="nowrap" style="text-align:left">HUB SWITCH 8 PORT MANAGEABLE CLOUD</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
@@ -386,7 +386,7 @@ function goBack() {
 										  </tr>
 										  <tr>
 												<td style="text-align:right">2</td>
-												<td nowrap="nowrap" style="text-align:left">0002G1INMO1ILU140626</td>
+												<td nowrap="nowrap" style="text-align:left">0002DSS01180626</td>
 												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
 												<td nowrap="nowrap" style="text-align:left">NFC PAYMENT READER</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
@@ -405,7 +405,7 @@ function goBack() {
 										  </tr>
 <tr>
 												<td style="text-align:right">3</td>
-												<td nowrap="nowrap" style="text-align:left">0003G1INMO1ILU140626</td>
+												<td nowrap="nowrap" style="text-align:left">0003DSS01180626</td>
 												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
 												<td nowrap="nowrap" style="text-align:left">PRINTER THERMAL</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
@@ -424,7 +424,7 @@ function goBack() {
 										  </tr>
 <tr>
 												<td style="text-align:right">4</td>
-												<td nowrap="nowrap" style="text-align:left">0004G1INMO1ILU140626</td>
+												<td nowrap="nowrap" style="text-align:left">0001BRG01180626</td>
 												<td nowrap="nowrap" style="text-align:left">Barrier Gate</td>
 												<td nowrap="nowrap" style="text-align:left">VEHICLE LOOP DETECTOR</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
@@ -443,7 +443,7 @@ function goBack() {
 										  </tr>
 <tr>
   <td style="text-align:right">5</td>
-  <td nowrap="nowrap" style="text-align:left">0005G1INMO1ILU140626</td>
+  <td nowrap="nowrap" style="text-align:left">0001SSR01180626</td>
   <td nowrap="nowrap" style="text-align:left">Sensor dan Lainnya</td>
   <td nowrap="nowrap" style="text-align:left">UHF READER MID RANGE</td>
   <td nowrap="nowrap" style="text-align:center">1</td>
