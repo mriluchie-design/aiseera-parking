@@ -64,8 +64,8 @@ function goBack() {
 			</div>
 			<div class="btn-group">
 				<button type="button" class="btn btn-success">
-					<i class="la la-check"></i>
-					<span class="kt-hidden-mobile">Save</span>
+					<i class="fa fa-check-circle"></i>
+					<span class="kt-hidden-mobile">Simpan</span>
 				</button>
 				<button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				</button>
@@ -120,7 +120,7 @@ function goBack() {
 					  <div class="form-group row">
 				
 					  
-					  <div class="col-lg-4">
+					  <div class="col-lg-2">
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
@@ -131,42 +131,46 @@ function goBack() {
 						
 					 
 						
-						<div class="col-lg-6">
+						<div class="col-lg-12">
                           <label class="">Lokasi :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Makassar">
                         </div>
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
-						<div class="col-lg-3">
+						<div class="col-lg-6">
                           <label class="">Gate :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1">
                         </div>
-						<div class="col-lg-3">
+						<div class="col-lg-6">
                           <label class="">Jalur :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Masuk">
                         </div>
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
 						<div class="col-lg-6">
                           <label class="">Nama Jalur :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Mobil - 1">
+                        </div>
+						<div class="col-lg-6">
+                          <label class="">Transaksi :</label>
+                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Ya">
                         </div>
 						
 						
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
-						<div class="col-lg-3">
+						<div class="col-lg-6">
                           <label class="">Dispenser :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Ya">
                         </div>
-						<div class="col-lg-3">
+						<div class="col-lg-6">
                           <label class="">Tipe Dispenser :</label>
                            <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Single">
                         </div>
-						<div class="col-lg-3">
-                          <label class="">Transaksi :</label>
-                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Ya">
-                        </div>
+						
 						
                         </div>
 						
@@ -202,7 +206,7 @@ function goBack() {
 													</div>
                         </div>
                         </div>
-						<div class="col-lg-8">
+						<div class="col-lg-10">
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
@@ -239,6 +243,9 @@ function goBack() {
   <tbody><tr style="text-align:center">
     <td width="1%" bgcolor="#f7fcff" rowspan="2" >NO</td>
     <td width="15%" rowspan="2" bgcolor="#f7fcff" >NAMA PERANGKAT </td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Part Code</td>
+    <td width="5%" rowspan="2" bgcolor="#f7fcff" >Kategori</td>
+    <td width="5%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
     <td colspan="2" bgcolor="#f7fcff">Qty</td>
     <td width="1%" rowspan="2" bgcolor="#f7fcff" >AKSI</td>
   </tr>
@@ -251,21 +258,29 @@ function goBack() {
     <tr>
     <td style="text-align:right">1</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-	  <option value="AK" selected>CUSTOM CASING DISPENSER SINGLE</option>
-        <option value="AK">NFC PAYMENT READER</option>
-        <option value="AK">PRINTER THERMAL</option>
-        <option value="AK">WEBCAM</option>
-        <option value="AK">BUTTON BANTUAN</option>
-        <option value="AK">DISPLAY LAYAR</option>
-        <option value="AK">MINI PC</option>
-		  <option value="AK" >HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-		  <option value="AK" >VEHICLE LOOP DETECTOR</option>
-		  <option value="AK" >CONTROLLER DISPENSER</option>
-		  <option value="AK" >SOUND SPEAKER</option>
-		  <option value="AK" >UPS</option>
-      </select>
+      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
+        <option value="1" disabled>Cari/Pilih Barang...</option>
+        <optgroup label="Dispenser" class="a">
+          <option value="2" data-subtext="000101180726" selected>CUSTOM CASING DISPENSER SINGLE</option>
+          <option value="3" data-subtext="000201180726">NFC PAYMENT READER</option>
+          <option value="4" data-subtext="000301180726">PRINTER THERMAL</option>
+          <option value="5" data-subtext="000401180726">WEBCAM</option>
+          <option value="5" data-subtext="000501180726">BUTTON BANTUAN</option>
+          <option value="5" data-subtext="000601180726">DISPLAY LAYAR</option>
+          <option value="5" data-subtext="000701180726">MINI PC</option>
+          <option value="5" data-subtext="000801180726">HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
+          <option value="5" data-subtext="000901180726">VLD DISPENSER</option>
+          <option value="5" data-subtext="001001180726">CONTROLLER DISPENSER</option>
+          <option value="5" data-subtext="001101180726">SOUND SPEAKER</option>
+          <option value="5" data-subtext="001201180726">UPS</option>
+          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
+          </optgroup>
+        </select>
+      
     </span></td>
+    <td nowrap="nowrap" style="text-align:left">000101180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Casing</td>
     <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
     <td><span style="text-align:center">
       <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
@@ -279,21 +294,28 @@ function goBack() {
 <tr>
     <td style="text-align:right">2</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-	  <option value="AK">CUSTOM CASING DISPENSER SINGLE</option>
-        <option value="AK"  selected>NFC PAYMENT READER</option>
-        <option value="AK">PRINTER THERMAL</option>
-        <option value="AK">WEBCAM</option>
-        <option value="AK">BUTTON BANTUAN</option>
-        <option value="AK">DISPLAY LAYAR</option>
-        <option value="AK">MINI PC</option>
-		  <option value="AK" >HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-		  <option value="AK" >VEHICLE LOOP DETECTOR</option>
-		  <option value="AK" >CONTROLLER DISPENSER</option>
-		  <option value="AK" >SOUND SPEAKER</option>
-		  <option value="AK" >UPS</option>
-      </select>
+      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
+        <option value="1" disabled>Cari/Pilih Barang...</option>
+        <optgroup label="Dispenser" class="a">
+          <option value="2" data-subtext="000101180726" >CUSTOM CASING DISPENSER SINGLE</option>
+          <option value="3" data-subtext="000201180726" selected>NFC PAYMENT READER</option>
+          <option value="4" data-subtext="000301180726">PRINTER THERMAL</option>
+          <option value="5" data-subtext="000401180726">WEBCAM</option>
+          <option value="5" data-subtext="000501180726">BUTTON BANTUAN</option>
+          <option value="5" data-subtext="000601180726">DISPLAY LAYAR</option>
+          <option value="5" data-subtext="000701180726">MINI PC</option>
+          <option value="5" data-subtext="000801180726">HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
+          <option value="5" data-subtext="000901180726">VLD DISPENSER</option>
+          <option value="5" data-subtext="001001180726">CONTROLLER DISPENSER</option>
+          <option value="5" data-subtext="001101180726">SOUND SPEAKER</option>
+          <option value="5" data-subtext="001201180726">UPS</option>
+          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
+          </optgroup>
+        </select>
     </span></td>
+    <td nowrap="nowrap" style="text-align:left">000201180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Payment</td>
     <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
     <td><span style="text-align:center">
       <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
@@ -307,21 +329,28 @@ function goBack() {
 <tr>
     <td style="text-align:right">3</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-	  <option value="AK">CUSTOM CASING DISPENSER SINGLE</option>
-        <option value="AK">NFC PAYMENT READER</option>
-        <option value="AK"   selected>PRINTER THERMAL</option>
-        <option value="AK">WEBCAM</option>
-        <option value="AK">BUTTON BANTUAN</option>
-        <option value="AK">DISPLAY LAYAR</option>
-        <option value="AK">MINI PC</option>
-		  <option value="AK">HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-		  <option value="AK" >VEHICLE LOOP DETECTOR</option>
-		  <option value="AK" >CONTROLLER DISPENSER</option>
-		  <option value="AK" >SOUND SPEAKER</option>
-		  <option value="AK" >UPS</option>
-      </select>
+      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
+        <option value="1" disabled>Cari/Pilih Barang...</option>
+        <optgroup label="Dispenser" class="a">
+          <option value="2" data-subtext="000101180726" >CUSTOM CASING DISPENSER SINGLE</option>
+          <option value="3" data-subtext="000201180726">NFC PAYMENT READER</option>
+          <option value="4" data-subtext="000301180726" selected>PRINTER THERMAL</option>
+          <option value="5" data-subtext="000401180726">WEBCAM</option>
+          <option value="5" data-subtext="000501180726">BUTTON BANTUAN</option>
+          <option value="5" data-subtext="000601180726">DISPLAY LAYAR</option>
+          <option value="5" data-subtext="000701180726">MINI PC</option>
+          <option value="5" data-subtext="000801180726">HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
+          <option value="5" data-subtext="000901180726">VLD DISPENSER</option>
+          <option value="5" data-subtext="001001180726">CONTROLLER DISPENSER</option>
+          <option value="5" data-subtext="001101180726">SOUND SPEAKER</option>
+          <option value="5" data-subtext="001201180726">UPS</option>
+          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
+          </optgroup>
+        </select>
     </span></td>
+    <td nowrap="nowrap" style="text-align:left">000301180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Printer</td>
     <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
     <td><span style="text-align:center">
       <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
@@ -335,21 +364,28 @@ function goBack() {
   <tr>
     <td style="text-align:right">4</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-	  <option>CUSTOM CASING DISPENSER SINGLE</option>
-        <option>NFC PAYMENT READER</option>
-        <option>PRINTER THERMAL</option>
-        <option selected>WEBCAM</option>
-        <option>BUTTON BANTUAN</option>
-        <option>DISPLAY LAYAR</option>
-        <option>MINI PC</option>
-		  <option>HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-		  <option>VEHICLE LOOP DETECTOR</option>
-		  <option>CONTROLLER DISPENSER</option>
-		  <option>SOUND SPEAKER</option>
-		  <option>UPS</option>
-      </select>
+      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
+        <option value="1" disabled>Cari/Pilih Barang...</option>
+        <optgroup label="Dispenser" class="a">
+          <option value="2" data-subtext="000101180726">CUSTOM CASING DISPENSER SINGLE</option>
+          <option value="3" data-subtext="000201180726">NFC PAYMENT READER</option>
+          <option value="4" data-subtext="000301180726">PRINTER THERMAL</option>
+          <option value="5" data-subtext="000401180726" selected>WEBCAM</option>
+          <option value="5" data-subtext="000501180726">BUTTON BANTUAN</option>
+          <option value="5" data-subtext="000601180726">DISPLAY LAYAR</option>
+          <option value="5" data-subtext="000701180726">MINI PC</option>
+          <option value="5" data-subtext="000801180726">HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
+          <option value="5" data-subtext="000901180726">VLD DISPENSER</option>
+          <option value="5" data-subtext="001001180726">CONTROLLER DISPENSER</option>
+          <option value="5" data-subtext="001101180726">SOUND SPEAKER</option>
+          <option value="5" data-subtext="001201180726">UPS</option>
+          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
+          </optgroup>
+        </select>
     </span></td>
+    <td nowrap="nowrap" style="text-align:left">000401180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Webcam</td>
     <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
     <td><span style="text-align:center">
       <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
@@ -363,21 +399,28 @@ function goBack() {
   <tr>
     <td style="text-align:right">5</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-	  <option>CUSTOM CASING DISPENSER SINGLE</option>
-        <option>NFC PAYMENT READER</option>
-        <option>PRINTER THERMAL</option>
-        <option>WEBCAM</option>
-        <option selected>BUTTON BANTUAN</option>
-        <option>DISPLAY LAYAR</option>
-        <option>MINI PC</option>
-		  <option>HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-		  <option>VEHICLE LOOP DETECTOR</option>
-		  <option>CONTROLLER DISPENSER</option>
-		  <option>SOUND SPEAKER</option>
-		  <option>UPS</option>
-      </select>
+      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
+        <option value="1" disabled>Cari/Pilih Barang...</option>
+        <optgroup label="Dispenser" class="a">
+          <option value="2" data-subtext="000101180726">CUSTOM CASING DISPENSER SINGLE</option>
+          <option value="3" data-subtext="000201180726">NFC PAYMENT READER</option>
+          <option value="4" data-subtext="000301180726">PRINTER THERMAL</option>
+          <option value="5" data-subtext="000401180726">WEBCAM</option>
+          <option value="5" data-subtext="000501180726" selected>BUTTON BANTUAN</option>
+          <option value="5" data-subtext="000601180726">DISPLAY LAYAR</option>
+          <option value="5" data-subtext="000701180726">MINI PC</option>
+          <option value="5" data-subtext="000801180726">HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
+          <option value="5" data-subtext="000901180726">VLD DISPENSER</option>
+          <option value="5" data-subtext="001001180726">CONTROLLER DISPENSER</option>
+          <option value="5" data-subtext="001101180726">SOUND SPEAKER</option>
+          <option value="5" data-subtext="001201180726">UPS</option>
+          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
+          </optgroup>
+        </select>
     </span></td>
+    <td nowrap="nowrap" style="text-align:left">000501180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Button</td>
     <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
     <td><span style="text-align:center">
       <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
@@ -391,21 +434,28 @@ function goBack() {
   <tr>
     <td style="text-align:right">6</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-	  <option>CUSTOM CASING DISPENSER SINGLE</option>
-        <option>NFC PAYMENT READER</option>
-        <option>PRINTER THERMAL</option>
-        <option>WEBCAM</option>
-        <option>BUTTON BANTUAN</option>
-        <option selected>DISPLAY LAYAR</option>
-        <option>MINI PC</option>
-		  <option>HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-		  <option>VEHICLE LOOP DETECTOR</option>
-		  <option>CONTROLLER DISPENSER</option>
-		  <option>SOUND SPEAKER</option>
-		  <option>UPS</option>
-      </select>
+      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
+        <option value="1" disabled>Cari/Pilih Barang...</option>
+        <optgroup label="Dispenser" class="a">
+          <option value="2" data-subtext="000101180726">CUSTOM CASING DISPENSER SINGLE</option>
+          <option value="3" data-subtext="000201180726">NFC PAYMENT READER</option>
+          <option value="4" data-subtext="000301180726">PRINTER THERMAL</option>
+          <option value="5" data-subtext="000401180726">WEBCAM</option>
+          <option value="5" data-subtext="000501180726">BUTTON BANTUAN</option>
+          <option value="5" data-subtext="000601180726" selected>DISPLAY LAYAR</option>
+          <option value="5" data-subtext="000701180726">MINI PC</option>
+          <option value="5" data-subtext="000801180726">HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
+          <option value="5" data-subtext="000901180726">VLD DISPENSER</option>
+          <option value="5" data-subtext="001001180726">CONTROLLER DISPENSER</option>
+          <option value="5" data-subtext="001101180726">SOUND SPEAKER</option>
+          <option value="5" data-subtext="001201180726">UPS</option>
+          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
+          </optgroup>
+        </select>
     </span></td>
+    <td nowrap="nowrap" style="text-align:left">000601180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Display</td>
     <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
     <td><span style="text-align:center">
       <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
@@ -419,21 +469,28 @@ function goBack() {
   <tr>
     <td style="text-align:right">7</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-	  <option>CUSTOM CASING DISPENSER SINGLE</option>
-        <option>NFC PAYMENT READER</option>
-        <option>PRINTER THERMAL</option>
-        <option>WEBCAM</option>
-        <option>BUTTON BANTUAN</option>
-        <option>DISPLAY LAYAR</option>
-        <option selected>MINI PC</option>
-		  <option>HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-		  <option>VEHICLE LOOP DETECTOR</option>
-		  <option>CONTROLLER DISPENSER</option>
-		  <option>SOUND SPEAKER</option>
-		  <option>UPS</option>
-      </select>
+      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
+        <option value="1" disabled>Cari/Pilih Barang...</option>
+        <optgroup label="Dispenser" class="a">
+          <option value="2" data-subtext="000101180726" >CUSTOM CASING DISPENSER SINGLE</option>
+          <option value="3" data-subtext="000201180726">NFC PAYMENT READER</option>
+          <option value="4" data-subtext="000301180726">PRINTER THERMAL</option>
+          <option value="5" data-subtext="000401180726">WEBCAM</option>
+          <option value="5" data-subtext="000501180726">BUTTON BANTUAN</option>
+          <option value="5" data-subtext="000601180726">DISPLAY LAYAR</option>
+          <option value="5" data-subtext="000701180726" selected>MINI PC</option>
+          <option value="5" data-subtext="000801180726">HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
+          <option value="5" data-subtext="000901180726">VLD DISPENSER</option>
+          <option value="5" data-subtext="001001180726">CONTROLLER DISPENSER</option>
+          <option value="5" data-subtext="001101180726">SOUND SPEAKER</option>
+          <option value="5" data-subtext="001201180726">UPS</option>
+          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
+          </optgroup>
+        </select>
     </span></td>
+    <td nowrap="nowrap" style="text-align:left">000701180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Mini PC</td>
     <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
     <td><span style="text-align:center">
       <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
@@ -447,21 +504,28 @@ function goBack() {
   <tr>
     <td style="text-align:right">8</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-	  <option>CUSTOM CASING DISPENSER SINGLE</option>
-        <option>NFC PAYMENT READER</option>
-        <option>PRINTER THERMAL</option>
-        <option>WEBCAM</option>
-        <option>BUTTON BANTUAN</option>
-        <option>DISPLAY LAYAR</option>
-        <option>MINI PC</option>
-		  <option selected>HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-		  <option>VEHICLE LOOP DETECTOR</option>
-		  <option>CONTROLLER DISPENSER</option>
-		  <option>SOUND SPEAKER</option>
-		  <option>UPS</option>
-      </select>
+      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
+        <option value="1" disabled>Cari/Pilih Barang...</option>
+        <optgroup label="Dispenser" class="a">
+          <option value="2" data-subtext="000101180726">CUSTOM CASING DISPENSER SINGLE</option>
+          <option value="3" data-subtext="000201180726">NFC PAYMENT READER</option>
+          <option value="4" data-subtext="000301180726">PRINTER THERMAL</option>
+          <option value="5" data-subtext="000401180726">WEBCAM</option>
+          <option value="5" data-subtext="000501180726">BUTTON BANTUAN</option>
+          <option value="5" data-subtext="000601180726">DISPLAY LAYAR</option>
+          <option value="5" data-subtext="000701180726">MINI PC</option>
+          <option value="5" data-subtext="000801180726" selected>HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
+          <option value="5" data-subtext="000901180726">VLD DISPENSER</option>
+          <option value="5" data-subtext="001001180726">CONTROLLER DISPENSER</option>
+          <option value="5" data-subtext="001101180726">SOUND SPEAKER</option>
+          <option value="5" data-subtext="001201180726">UPS</option>
+          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
+          </optgroup>
+        </select>
     </span></td>
+    <td nowrap="nowrap" style="text-align:left">000801180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Switch</td>
     <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
     <td><span style="text-align:center">
       <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
@@ -475,21 +539,28 @@ function goBack() {
   <tr>
     <td style="text-align:right">9</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-	  <option>CUSTOM CASING DISPENSER SINGLE</option>
-        <option>NFC PAYMENT READER</option>
-        <option>PRINTER THERMAL</option>
-        <option>WEBCAM</option>
-        <option>BUTTON BANTUAN</option>
-        <option>DISPLAY LAYAR</option>
-        <option>MINI PC</option>
-		  <option >HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-		  <option selected>VEHICLE LOOP DETECTOR</option>
-		  <option>CONTROLLER DISPENSER</option>
-		  <option>SOUND SPEAKER</option>
-		  <option>UPS</option>
-      </select>
+      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
+        <option value="1" disabled>Cari/Pilih Barang...</option>
+        <optgroup label="Dispenser" class="a">
+          <option value="2" data-subtext="000101180726">CUSTOM CASING DISPENSER SINGLE</option>
+          <option value="3" data-subtext="000201180726">NFC PAYMENT READER</option>
+          <option value="4" data-subtext="000301180726">PRINTER THERMAL</option>
+          <option value="5" data-subtext="000401180726">WEBCAM</option>
+          <option value="5" data-subtext="000501180726">BUTTON BANTUAN</option>
+          <option value="5" data-subtext="000601180726">DISPLAY LAYAR</option>
+          <option value="5" data-subtext="000701180726">MINI PC</option>
+          <option value="5" data-subtext="000801180726">HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
+          <option value="5" data-subtext="000901180726" selected>VLD DISPENSER</option>
+          <option value="5" data-subtext="001001180726">CONTROLLER DISPENSER</option>
+          <option value="5" data-subtext="001101180726">SOUND SPEAKER</option>
+          <option value="5" data-subtext="001201180726">UPS</option>
+          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
+          </optgroup>
+        </select>
     </span></td>
+    <td nowrap="nowrap" style="text-align:left">000901180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">VLD</td>
     <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
     <td><span style="text-align:center">
       <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
@@ -503,21 +574,28 @@ function goBack() {
   <tr>
     <td style="text-align:right">10</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-	  <option>CUSTOM CASING DISPENSER SINGLE</option>
-        <option>NFC PAYMENT READER</option>
-        <option>PRINTER THERMAL</option>
-        <option>WEBCAM</option>
-        <option>BUTTON BANTUAN</option>
-        <option>DISPLAY LAYAR</option>
-        <option>MINI PC</option>
-		  <option >HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-		  <option>VEHICLE LOOP DETECTOR</option>
-		  <option selected>CONTROLLER DISPENSER</option>
-		  <option>SOUND SPEAKER</option>
-		  <option>UPS</option>
-      </select>
+      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
+        <option value="1" disabled>Cari/Pilih Barang...</option>
+        <optgroup label="Dispenser" class="a">
+          <option value="2" data-subtext="000101180726">CUSTOM CASING DISPENSER SINGLE</option>
+          <option value="3" data-subtext="000201180726">NFC PAYMENT READER</option>
+          <option value="4" data-subtext="000301180726">PRINTER THERMAL</option>
+          <option value="5" data-subtext="000401180726">WEBCAM</option>
+          <option value="5" data-subtext="000501180726">BUTTON BANTUAN</option>
+          <option value="5" data-subtext="000601180726">DISPLAY LAYAR</option>
+          <option value="5" data-subtext="000701180726">MINI PC</option>
+          <option value="5" data-subtext="000801180726">HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
+          <option value="5" data-subtext="000901180726">VLD DISPENSER</option>
+          <option value="5" data-subtext="001001180726" selected>CONTROLLER DISPENSER</option>
+          <option value="5" data-subtext="001101180726">SOUND SPEAKER</option>
+          <option value="5" data-subtext="001201180726">UPS</option>
+          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
+          </optgroup>
+        </select>
     </span></td>
+    <td nowrap="nowrap" style="text-align:left">001001180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Controller</td>
     <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
     <td><span style="text-align:center">
       <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
@@ -531,21 +609,28 @@ function goBack() {
   <tr>
     <td style="text-align:right">11</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-	  <option>CUSTOM CASING DISPENSER SINGLE</option>
-        <option>NFC PAYMENT READER</option>
-        <option>PRINTER THERMAL</option>
-        <option>WEBCAM</option>
-        <option>BUTTON BANTUAN</option>
-        <option>DISPLAY LAYAR</option>
-        <option>MINI PC</option>
-		  <option >HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-		  <option>VEHICLE LOOP DETECTOR</option>
-		  <option>CONTROLLER DISPENSER</option>
-		  <option selected>SOUND SPEAKER</option>
-		  <option>UPS</option>
-      </select>
+      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
+        <option value="1" disabled>Cari/Pilih Barang...</option>
+        <optgroup label="Dispenser" class="a">
+          <option value="2" data-subtext="000101180726">CUSTOM CASING DISPENSER SINGLE</option>
+          <option value="3" data-subtext="000201180726">NFC PAYMENT READER</option>
+          <option value="4" data-subtext="000301180726">PRINTER THERMAL</option>
+          <option value="5" data-subtext="000401180726">WEBCAM</option>
+          <option value="5" data-subtext="000501180726">BUTTON BANTUAN</option>
+          <option value="5" data-subtext="000601180726">DISPLAY LAYAR</option>
+          <option value="5" data-subtext="000701180726">MINI PC</option>
+          <option value="5" data-subtext="000801180726">HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
+          <option value="5" data-subtext="000901180726">VLD DISPENSER</option>
+          <option value="5" data-subtext="001001180726">CONTROLLER DISPENSER</option>
+          <option value="5" data-subtext="001101180726" selected>SOUND SPEAKER</option>
+          <option value="5" data-subtext="001201180726">UPS</option>
+          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
+          </optgroup>
+        </select>
     </span></td>
+    <td nowrap="nowrap" style="text-align:left">001101180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Speaker</td>
     <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
     <td><span style="text-align:center">
       <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
@@ -559,21 +644,28 @@ function goBack() {
   <tr>
     <td style="text-align:right">12</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-	  <option>CUSTOM CASING DISPENSER SINGLE</option>
-        <option>NFC PAYMENT READER</option>
-        <option>PRINTER THERMAL</option>
-        <option>WEBCAM</option>
-        <option>BUTTON BANTUAN</option>
-        <option>DISPLAY LAYAR</option>
-        <option>MINI PC</option>
-		  <option >HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-		  <option>VEHICLE LOOP DETECTOR</option>
-		  <option>CONTROLLER DISPENSER</option>
-		  <option>SOUND SPEAKER</option>
-		  <option selected>UPS</option>
-      </select>
+      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
+        <option value="1" disabled>Cari/Pilih Barang...</option>
+        <optgroup label="Dispenser" class="a">
+          <option value="2" data-subtext="000101180726">CUSTOM CASING DISPENSER SINGLE</option>
+          <option value="3" data-subtext="000201180726">NFC PAYMENT READER</option>
+          <option value="4" data-subtext="000301180726">PRINTER THERMAL</option>
+          <option value="5" data-subtext="000401180726">WEBCAM</option>
+          <option value="5" data-subtext="000501180726">BUTTON BANTUAN</option>
+          <option value="5" data-subtext="000601180726">DISPLAY LAYAR</option>
+          <option value="5" data-subtext="000701180726">MINI PC</option>
+          <option value="5" data-subtext="000801180726">HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
+          <option value="5" data-subtext="000901180726">VLD DISPENSER</option>
+          <option value="5" data-subtext="001001180726">CONTROLLER DISPENSER</option>
+          <option value="5" data-subtext="001101180726">SOUND SPEAKER</option>
+          <option value="5" data-subtext="001201180726" selected>UPS</option>
+          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
+          </optgroup>
+        </select>
     </span></td>
+    <td nowrap="nowrap" style="text-align:left">001201180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">UPS</td>
     <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
     <td><span style="text-align:center">
       <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
@@ -620,6 +712,9 @@ function goBack() {
   <tbody><tr style="text-align:center">
     <td width="1%" bgcolor="#f7fcff" rowspan="2" >NO</td>
     <td width="15%" rowspan="2" bgcolor="#f7fcff" >NAMA PERANGKAT </td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Part Code</td>
+    <td width="5%" rowspan="2" bgcolor="#f7fcff" >Kategori</td>
+    <td width="5%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
     <td colspan="2" bgcolor="#f7fcff">Qty</td>
     <td width="1%" rowspan="2" bgcolor="#f7fcff" >AKSI</td>
   </tr>
@@ -629,15 +724,22 @@ function goBack() {
     </tr>
   
     
-
-<tr>
+    <tr>
     <td style="text-align:right">1</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">BARRIER GATE SERVO</option>
-        <option value="AK">VEHICLE LOOP DETECTOR</option>
-      </select>
+      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
+        <option value="1" disabled>Cari/Pilih Barang...</option>
+        <optgroup label="Dispenser" class="a">
+          <option value="2" data-subtext="001301180726" selected>BARRIER GATE SERVO</option>
+          <option value="5" data-subtext="001401180726">VLD BARRIER GATE</option>
+          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
+          </optgroup>
+        </select>
+      
     </span></td>
+    <td nowrap="nowrap" style="text-align:left">001301180726</td>
+    <td style="text-align:left">Barrier Gate</td>
+    <td style="text-align:left">Barrier Gate</td>
     <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
     <td><span style="text-align:center">
       <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
@@ -651,11 +753,18 @@ function goBack() {
 <tr>
     <td style="text-align:right">2</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK">BARRIER GATE SERVO</option>
-        <option value="AK" selected>VEHICLE LOOP DETECTOR</option>
-      </select>
+      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
+        <option value="1" disabled>Cari/Pilih Barang...</option>
+        <optgroup label="Dispenser" class="a">
+          <option value="2" data-subtext="001301180726" >BARRIER GATE SERVO</option>
+          <option value="5" data-subtext="001401180726" selected>VLD BARRIER GATE</option>
+          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
+          </optgroup>
+        </select>
     </span></td>
+    <td nowrap="nowrap" style="text-align:left">001401180726</td>
+    <td style="text-align:left">Barrier Gate</td>
+    <td style="text-align:left">VLD</td>
     <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
     <td><span style="text-align:center">
       <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
@@ -666,7 +775,6 @@ function goBack() {
     </span></td>
     <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
   </tr>
-
 
 
   </tbody>
@@ -702,6 +810,9 @@ function goBack() {
   <tbody><tr style="text-align:center">
     <td width="1%" bgcolor="#f7fcff" rowspan="2" >NO</td>
     <td width="15%" rowspan="2" bgcolor="#f7fcff" >NAMA PERANGKAT </td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Part Code</td>
+    <td width="5%" rowspan="2" bgcolor="#f7fcff" >Kategori</td>
+    <td width="5%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
     <td colspan="2" bgcolor="#f7fcff">Qty</td>
     <td width="1%" rowspan="2" bgcolor="#f7fcff" >AKSI</td>
   </tr>
@@ -711,15 +822,24 @@ function goBack() {
     </tr>
   
     
-
-<tr>
+    <tr>
     <td style="text-align:right">1</td>
     <td style="text-align:left"><span style="text-align:center">
-      <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">UHF READER MID RANGE</option>
-        <option value="AK">IP CAMERA</option>
-      </select>
+      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
+        <option value="1" disabled>Cari/Pilih Barang...</option>
+        <optgroup label="Dispenser" class="a">
+          <option value="2" data-subtext="001501180726" selected>UHF READER MID RANGE</option>
+          <option value="5" data-subtext="001601180726">IP CAMERA</option>
+          <option value="5" data-subtext="001701180726">ANPR CAMERA</option>
+          <option value="5" data-subtext="001801180726">QUADBEAM</option>
+          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
+          </optgroup>
+        </select>
+      
     </span></td>
+    <td nowrap="nowrap" style="text-align:left">001501180726</td>
+    <td style="text-align:left">Sensor dan Lainnya</td>
+    <td style="text-align:left">Sensor</td>
     <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
     <td><span style="text-align:center">
       <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
@@ -733,11 +853,20 @@ function goBack() {
 <tr>
     <td style="text-align:right">2</td>
     <td style="text-align:left"><span style="text-align:center">
-       <select name="select8" class="form-control kt-selectpicker" data-live-search="true">
-        <option>UHF READER MID RANGE</option>
-        <option selected>IP CAMERA</option>
-      </select>
+      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
+        <option value="1" disabled>Cari/Pilih Barang...</option>
+        <optgroup label="Dispenser" class="a">
+          <option value="2" data-subtext="001501180726" >UHF READER MID RANGE</option>
+          <option value="5" data-subtext="001601180726" selected>IP CAMERA</option>
+          <option value="5" data-subtext="001701180726">ANPR CAMERA</option>
+          <option value="5" data-subtext="001801180726">QUADBEAM</option>
+          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
+          </optgroup>
+        </select>
     </span></td>
+    <td nowrap="nowrap" style="text-align:left">001601180726</td>
+    <td style="text-align:left">Sensor dan Lainnya</td>
+    <td style="text-align:left">IP Camera</td>
     <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
     <td><span style="text-align:center">
       <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
@@ -748,7 +877,60 @@ function goBack() {
     </span></td>
     <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
   </tr>
-
+  <tr>
+    <td style="text-align:right">3</td>
+    <td style="text-align:left"><span style="text-align:center">
+      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
+        <option value="1" disabled>Cari/Pilih Barang...</option>
+        <optgroup label="Dispenser" class="a">
+          <option value="2" data-subtext="001501180726" >UHF READER MID RANGE</option>
+          <option value="5" data-subtext="001601180726" >IP CAMERA</option>
+          <option value="5" data-subtext="001701180726" selected>ANPR CAMERA</option>
+          <option value="5" data-subtext="001801180726">QUADBEAM</option>
+          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
+          </optgroup>
+        </select>
+    </span></td>
+    <td nowrap="nowrap" style="text-align:left">001701180726</td>
+    <td style="text-align:left">Sensor dan Lainnya</td>
+    <td style="text-align:left">ANPR Camera</td>
+    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
+    <td><span style="text-align:center">
+      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
+        <option value="AK" selected="selected">Unit</option>
+        <option value="AK">Pieces</option>
+        <option value="AK">Lembar</option>
+      </select>
+    </span></td>
+    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+  </tr>
+  <tr>
+    <td style="text-align:right">4</td>
+    <td style="text-align:left"><span style="text-align:center">
+      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
+        <option value="1" disabled>Cari/Pilih Barang...</option>
+        <optgroup label="Dispenser" class="a">
+          <option value="2" data-subtext="001501180726" >UHF READER MID RANGE</option>
+          <option value="5" data-subtext="001601180726" >IP CAMERA</option>
+          <option value="5" data-subtext="001701180726" >ANPR CAMERA</option>
+          <option value="5" data-subtext="001801180726" selected>QUADBEAM</option>
+          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
+          </optgroup>
+        </select>
+    </span></td>
+    <td nowrap="nowrap" style="text-align:left">001801180726</td>
+    <td style="text-align:left">Sensor dan Lainnya</td>
+    <td style="text-align:left">Sensor</td>
+    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
+    <td><span style="text-align:center">
+      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
+        <option value="AK" selected="selected">Unit</option>
+        <option value="AK">Pieces</option>
+        <option value="AK">Lembar</option>
+      </select>
+    </span></td>
+    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+  </tr>
 
 
   </tbody>

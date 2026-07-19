@@ -25,9 +25,16 @@
 			
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Form Penerimaan Barang
+                    Form 
                 </h3>
-				
+				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
+									<div class="kt-subheader__group" id="kt_subheader_search">
+										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
+											Penerimaan Barang</span>
+										<form class="kt-margin-l-20" id="kt_subheader_search_form">
+
+										</form>
+									</div>
 
 
 								</div>
@@ -60,8 +67,25 @@ function goBack() {
 					<i class="fa fa-check-circle"></i>
 					<span class="kt-hidden-mobile">Simpan</span>
 				</button>
-				
-				
+				<button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				</button>
+				<div class="dropdown-menu dropdown-menu-right">
+					<ul class="kt-nav">
+						<li class="kt-nav__item">
+							<a href="#" class="kt-nav__link">
+								<i class="kt-nav__link-icon fa fa-clock"></i>
+								<span class="kt-nav__link-text">Sementara</span>
+							</a>
+						</li>
+						<li class="kt-nav__item">
+							<a href="#" class="kt-nav__link">
+								<i class="kt-nav__link-icon fa fa-check-circle"></i>
+								<span class="kt-nav__link-text">Selesai</span>
+							</a>
+						</li>
+						
+					</ul>
+				</div>
 			</div>
 			
 				 
@@ -96,7 +120,7 @@ function goBack() {
 				
 					  
 					  
-					  <div class="col-xl-9">
+					  <div class="col-xl-12">
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid-full" id="kt_page_portlet">
@@ -109,12 +133,12 @@ function goBack() {
 											<ul class="nav nav-pills nav-fill" role="tablist">
 												<li class="nav-item m-tabs__item">
 													<a class="nav-link m-tabs__link active" data-toggle="tab" href="#m_tabs_6_1" role="tab">
-														<i class="fa fa-boxes"></i> Penerimaan Barang
+														<i class="fa fa-file-alt"></i>Data Barang Masuk
 													</a>
 												</li>
 												<li class="nav-item m-tabs__item">
 													<a class="nav-link m-tabs__link" data-toggle="tab" href="#m_tabs_6_2" role="tab">
-														<i class="fa fa-file-alt"></i> Referensi Dokumen
+														<i class="fa fa-boxes"></i> Material
 													</a>
 												</li>
 												<!--<li class="nav-item m-tabs__item">
@@ -131,7 +155,7 @@ function goBack() {
 															<div class="kt-portlet__content"><br>
 																<div class="form-group row">
 						
-						<div class="col-lg-3">
+						<div class="col-lg-2">
                           <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Terima Dari :</label>
                          <select class="form-control kt-selectpicker" data-live-search="true">
 														<option>Pegawai</option>
@@ -141,41 +165,26 @@ function goBack() {
 														
 														</select>
                         </div>
-						<div class="col-lg-3">
-                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Pegawai :</label>
-                          <select class="form-control kt-selectpicker form-control" data-live-search="true" disabled>
-					 															<optgroup label="Direksi">
-					 																<option value="AK"selected >Muhammad Nasrullah, S.Kom</option>
-					 															</optgroup>
-					 															<optgroup label="Umum">
-																					<option value="HI">Deddy Rafsanjani, S.Sos</option>
-					 															</optgroup>
-																				<optgroup label="Keuangan dan Asset">
-					 																<option value="HI">Oklan Zulkifli, SE</option>
-					 															</optgroup>
-																				<optgroup label="Operasional">
-					 																<option value="HI">Nursiah, S.Kom</option>
-					 															</optgroup>
-																				<optgroup label="Pengembangan Usaha dan Kerjasama">
-					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
-					 															</optgroup>
-
-					 														</select>
-                        </div>
-						<div class="col-lg-3">
-                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Vendor :</label>
-                         <select class="form-control kt-selectpicker" data-live-search="true" disabled>
-														<option>PT. Aksi Kode Indonesia</option>
-														<option>PT. Dili Jaya Indonesia</option>
+						<div class="col-lg-2">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Pegawai / Vendor / Lainnya :</label>
+                           <select class="form-control kt-selectpicker" data-live-search="true">
+														<option>Pegawai</option>
+														<option>Vendor</option>
 														<option>Lainnya</option>
 														
-														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+														
 														</select>
                         </div>
-						<div class="col-lg-3">
-                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Lainnya :</label>
-                         <input type="text" class="form-control form-control-sm" placeholder="" disabled>
-                        </div>
+						<div class="col-lg-2">
+                          <label>Referensi PO :</label>
+                          <div class="kt-input-icon kt-input-icon--right">
+        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
+        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
+    		                            <span><i class="la la-search"></i></span>
+    		                        </span>
+    		                    </div>
+    		                    </div>
+						
 						
 						
 											</div>
@@ -195,62 +204,70 @@ function goBack() {
 														<div class="kt-portlet__body">
 															<div class="kt-portlet__content">
 																<br>
-																<div class="form-group row">
-						<div class="col-lg-3">
-                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Referensi PO :</label>
-                          <div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
-        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
-    		                            <span><i class="la la-search"></i></span>
-    		                        </span>
-    		                    </div>
-    		                    </div>
-						<div class="col-lg-3">
-                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Vendor :</label>
-                          <input type="text" class="form-control form-control-sm" placeholder="" disabled>
-                        </div>
-						<div class="col-lg-3">
-                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Kategori :</label>
-                          <input type="text" class="form-control form-control-sm" placeholder="" disabled>
-                        </div>
-						<div class="col-lg-3">
-                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Project :</label>
-                          <input type="text" class="form-control form-control-sm" placeholder="" disabled>
-                        </div>
-						
-                      
-                      </div>
 																
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-                     
+																
+						
+                     <div class="form-group row">
+							<div class="col-xl-10">&nbsp;
+ 
+ 
+										</div>
+   
+ <div class="col-xl-2" style="text-align:right; padding-right:20px;">
+ <a href="#" class="btn btn-brand" data-toggle="modal" data-target="#modal_tambah_barang">
+											<i class="fa fa-plus-circle"></i>Tambah Data
+										</a>
+ 
+										</div>
+
+										
+										
+										</div>
 					 <div class="col-lg-12">
 																<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
 										<thead>
+										
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
 											  <th colspan="4" bgcolor="#f7fcff">Barang</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Volume</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Satuan</th>
+											  <th colspan="2" bgcolor="#f7fcff">Penyimpanan</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">QC</th>
-											  <th width="10%" rowspan="2" bgcolor="#f7fcff">Foto</th>
+											  <th width="7%" rowspan="2" bgcolor="#f7fcff">Foto</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 											<tr style="text-align:center">
-											  <th width="1%" bgcolor="#f7fcff">Kode</th>
+											  <th width="1%" bgcolor="#f7fcff">Kode Barang</th>
 											  <th width="8%" bgcolor="#f7fcff">Nama</th>
 											  <th width="5%" bgcolor="#f7fcff">Kategori</th>
 											  <th width="3%" bgcolor="#f7fcff">Tanggal Pembelian</th>
-										  </tr>
+											  <th width="1%" bgcolor="#f7fcff">Lemari</th>
+											  <th width="1%" bgcolor="#f7fcff">Rak</th>
+									      </tr>
 										</thead>
 										<tbody>
+										
 											<tr>
 												<td id="kt_table_1">1</td>
-												<td nowrap="nowrap" style="text-align:center"><img src="../assets/img/qrcode.jpg" width="30" height="30"></td>
+												<td nowrap="nowrap" style="text-align:center">0001NET01180726</td>
 												<td nowrap="nowrap" style="text-align:left">HUB SWITCH 8 PORT MANAGEABLE CLOUD</td>
 												<td nowrap="nowrap" style="text-align:left">Kebutuhan Project</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">Unit</td>
+												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
+														<option>1</option>
+														<option>2</option>
+														
+														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+														</select></td>
+												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
+														<option>1</option>
+														<option>2</option>
+														
+														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+														</select></td>
 												<td nowrap="nowrap" style="text-align:center"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
 															    <input type="checkbox" checked="checked">
 															    <span></span> </label></td>
@@ -271,12 +288,22 @@ function goBack() {
 										  </tr>
 										  <tr>
 												<td id="kt_table_1">2</td>
-												<td nowrap="nowrap" style="text-align:center"><img src="../assets/img/qrcode.jpg" width="30" height="30" /></td>
+												<td nowrap="nowrap" style="text-align:center">0001NPR01180726</td>
 												<td nowrap="nowrap" style="text-align:left">NFC PAYMENT READER</td>
 												<td nowrap="nowrap" style="text-align:left">Kebutuhan Project</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">Unit</td>
+												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
+												  <option>1</option>
+												  <option>2</option>
+												  <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
+												  </select></td>
+												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
+												  <option>1</option>
+												  <option>2</option>
+												  <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
+												  </select></td>
 												<td nowrap="nowrap" style="text-align:center"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
 															    <input type="checkbox" checked="checked">
 															    <span></span> </label></td>
@@ -296,12 +323,22 @@ function goBack() {
 										  </tr>
 <tr>
 												<td id="kt_table_1">3</td>
-												<td nowrap="nowrap" style="text-align:center"><img src="../assets/img/qrcode.jpg" alt="" width="30" height="30" /></td>
+												<td nowrap="nowrap" style="text-align:center">0001PTH01180726</td>
 												<td nowrap="nowrap" style="text-align:left">PRINTER THERMAL</td>
 												<td nowrap="nowrap" style="text-align:left">Kebutuhan Project</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">Unit</td>
+												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
+												  <option>1</option>
+												  <option>2</option>
+												  <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
+												  </select></td>
+												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
+												  <option>1</option>
+												  <option>2</option>
+												  <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
+												  </select></td>
 												<td nowrap="nowrap" style="text-align:center"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
 												  <input type="checkbox" checked="checked" />
 												  <span></span></label></td>
@@ -321,12 +358,22 @@ function goBack() {
 										  </tr>
 <tr>
 												<td id="kt_table_1">4</td>
-												<td nowrap="nowrap" style="text-align:center"><img src="../assets/img/qrcode.jpg" alt="" width="30" height="30" /></td>
+												<td nowrap="nowrap" style="text-align:center">0001KOM01180726</td>
 												<td nowrap="nowrap" style="text-align:left">VEHICLE LOOP DETECTOR</td>
 												<td nowrap="nowrap" style="text-align:left">Kebutuhan Project</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">Unit</td>
+												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
+												  <option>1</option>
+												  <option>2</option>
+												  <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
+												  </select></td>
+												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
+												  <option>1</option>
+												  <option>2</option>
+												  <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
+												  </select></td>
 												<td nowrap="nowrap" style="text-align:center"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
 												  <input type="checkbox" checked="checked" />
 												  <span></span></label></td>
@@ -346,12 +393,22 @@ function goBack() {
 										  </tr>
 <tr>
   <td id="kt_table_4">5</td>
-  <td nowrap="nowrap" style="text-align:center"><span style="text-align:center"><img src="../assets/img/qrcode.jpg" alt="" width="30" height="30" /></span></td>
+  <td nowrap="nowrap" style="text-align:center">0001URM01180726</span></td>
   <td nowrap="nowrap" style="text-align:left">UHF READER MID RANGE</td>
   <td nowrap="nowrap" style="text-align:left">Kebutuhan Project</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026</td>
   <td nowrap="nowrap" style="text-align:center">1</td>
   <td nowrap="nowrap" style="text-align:center">Unit</td>
+  <td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
+    <option>1</option>
+    <option>2</option>
+    <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
+  </select></td>
+  <td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
+    <option>1</option>
+    <option>2</option>
+    <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
+  </select></td>
   <td nowrap="nowrap" style="text-align:center"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
 															    <input type="checkbox" checked="checked">
 															    <span></span> </label></td>
@@ -370,6 +427,7 @@ function goBack() {
 												  </div></td>
 </tr>
 </tbody>
+
 									</table>
 															</div>
 															</div>
@@ -445,100 +503,7 @@ function goBack() {
 
 
 										</div>
-					  <div class="col-xl-3">
-
-									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Gudang</div><br><br>
-										<div class="kt-portlet__body">
-											<div class="kt-portlet__content">
-												<div class="form-group row">
-						
-						<div class="col-lg-12">
-                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Lokasi Gudang :</label>
-                           <select class="form-control kt-selectpicker" data-live-search="true">
-														<option>Makassar</option>
-														<option>Ambon</option>
-														
-														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-														</select>
-                        </div>
-						
-						
-						
-						
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-						<div class="col-lg-6">
-                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Lemari :</label>
-                           <select class="form-control kt-selectpicker" data-live-search="true">
-														<option>1</option>
-														<option>2</option>
-														
-														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-														</select>
-                        </div>
-						<div class="col-lg-6">
-                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Rak :</label>
-                           <select class="form-control kt-selectpicker" data-live-search="true">
-														<option>1</option>
-														<option>2</option>
-														
-														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-														</select>
-                        </div>
-						
-						
-						
-						
-                        </div>
-						
-						
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-						
-						<div class="col-lg-12">
-                          <label class="">Penanggung Jawab :</label>
-                          <select class="form-control kt-selectpicker form-control" data-live-search="true">
-					 															<optgroup label="Direksi">
-					 																<option value="AK"selected >Muhammad Nasrullah, S.Kom</option>
-					 															</optgroup>
-					 															<optgroup label="Umum">
-																					<option value="HI">Deddy Rafsanjani, S.Sos</option>
-					 															</optgroup>
-																				<optgroup label="Keuangan dan Asset">
-					 																<option value="HI">Oklan Zulkifli, SE</option>
-					 															</optgroup>
-																				<optgroup label="Operasional">
-					 																<option value="HI">Nursiah, S.Kom</option>
-					 															</optgroup>
-																				<optgroup label="Pengembangan Usaha dan Kerjasama">
-					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
-					 															</optgroup>
-
-					 														</select>
-                        </div>
-						
-						
-						
-						
-                        </div>
-						
-						
-						
-
-
-
-
-											</div>
-
-										</div>
-
-									</div>
-									
-
-									</div>
+					  
 					 
 									
 									

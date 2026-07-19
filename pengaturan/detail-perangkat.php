@@ -109,7 +109,7 @@ function goBack() {
 					  <div class="form-group row">
 				
 					  
-					  <div class="col-lg-4">
+					  <div class="col-lg-2">
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
@@ -120,37 +120,49 @@ function goBack() {
 						
 					 
 						
-						<div class="col-lg-6">
+						<div class="col-lg-12">
                           <label class="">Lokasi :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Makassar">
                         </div>
-						<div class="col-lg-3">
-                          <label class="">Dispenser :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Ya">
-                        </div>
-						<div class="col-lg-3">
-                          <label class="">Transaksi :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Ya">
-                        </div>
-						
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
-						<div class="col-lg-3">
+						<div class="col-lg-6">
                           <label class="">Gate :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1">
                         </div>
-						<div class="col-lg-3">
+						<div class="col-lg-6">
                           <label class="">Jalur :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Masuk">
                         </div>
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
 						<div class="col-lg-6">
                           <label class="">Nama Jalur :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Mobil - 1">
                         </div>
+						<div class="col-lg-6">
+                          <label class="">Transaksi :</label>
+                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Ya">
+                        </div>
 						
 						
                         </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-6">
+                          <label class="">Dispenser :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Ya">
+                        </div>
+						<div class="col-lg-6">
+                          <label class="">Tipe Dispenser :</label>
+                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Single">
+                        </div>
+						
+						
+                        </div>
+						
                         <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						 </div>
 						<div class="form-group row">
@@ -183,7 +195,7 @@ function goBack() {
 													</div>
                         </div>
                         </div>
-						<div class="col-lg-8">
+						<div class="col-lg-10">
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
@@ -220,121 +232,124 @@ function goBack() {
   <tbody><tr style="text-align:center">
     <td width="1%" bgcolor="#f7fcff" rowspan="2" >NO</td>
     <td width="15%" rowspan="2" bgcolor="#f7fcff" >NAMA PERANGKAT </td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Part Code</td>
+    <td width="5%" rowspan="2" bgcolor="#f7fcff" >Kategori</td>
+    <td width="5%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
     <td colspan="2" bgcolor="#f7fcff">Qty</td>
     </tr>
     <tr style="text-align:center">
-      <td width="3%" bgcolor="#f7fcff" >Volume</td>
+      <td width="1%" bgcolor="#f7fcff" >Volume</td>
       <td width="2%" bgcolor="#f7fcff" >Satuan</td>
     </tr>
   
     
     <tr>
     <td style="text-align:right">1</td>
-    <td style="text-align:left"><span style="text-align:center">
-	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="CUSTOM CASING DISPENSER SINGLE">
-      
-    </span></td>
-    <td style="text-align:center"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    <td style="text-align:left">CUSTOM CASING DISPENSER SINGLE</td>
+    <td nowrap="nowrap" style="text-align:left">000101180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Casing</td>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
     </tr>
 	<tr>
     <td style="text-align:right">2</td>
-    <td style="text-align:left"><span style="text-align:center">
-	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="NFC PAYMENT READER">
-      
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    <td style="text-align:left">NFC PAYMENT READER</td>
+    <td nowrap="nowrap" style="text-align:left">000201180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Payment</td>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
     </tr>
 	<tr>
     <td style="text-align:right">3</td>
-    <td style="text-align:left"><span style="text-align:center">
-	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="PRINTER THERMAL">
-      
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    <td style="text-align:left">PRINTER THERMAL</td>
+    <td nowrap="nowrap" style="text-align:left">000301180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Printer</td>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
     </tr>
 	<tr>
     <td style="text-align:right">4</td>
-    <td style="text-align:left"><span style="text-align:center">
-	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="WEBCAM">
-      
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    <td style="text-align:left">WEBCAM</td>
+    <td nowrap="nowrap" style="text-align:left">000401180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Webcam</td>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
     </tr>
 	<tr>
     <td style="text-align:right">5</td>
-    <td style="text-align:left"><span style="text-align:center">
-	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="BUTTON BANTUAN">
-      
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    <td style="text-align:left">BUTTON BANTUAN</td>
+    <td nowrap="nowrap" style="text-align:left">000501180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Button</td>
+   <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
     </tr>
 <tr>
     <td style="text-align:right">6</td>
-    <td style="text-align:left"><span style="text-align:center">
-	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="DISPLAY LAYAR">
-      
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    <td style="text-align:left">DISPLAY LAYAR</td>
+    <td nowrap="nowrap" style="text-align:left">000601180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Display</td>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
     </tr>
 	<tr>
     <td style="text-align:right">7</td>
-    <td style="text-align:left"><span style="text-align:center">
-	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="MINI PC">
-      
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    <td style="text-align:left">MINI PC</td>
+    <td nowrap="nowrap" style="text-align:left">000701180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Mini PC</td>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
     </tr>
 <tr>
     <td style="text-align:right">8</td>
-    <td style="text-align:left"><span style="text-align:center">
-	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="HUB SWITCH 8 PORT MANAGEABLE CLOUD">
-      
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    <td style="text-align:left">HUB SWITCH 8 PORT MANAGEABLE CLOUD</td>
+    <td nowrap="nowrap" style="text-align:left">000801180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Switch</td>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
     </tr>
   <tr>
     <td style="text-align:right">9</td>
-    <td style="text-align:left"><span style="text-align:center">
-	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="VEHICLE LOOP DETECTOR">
-      
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    <td style="text-align:left">VLD DISPENSER</td>
+    <td nowrap="nowrap" style="text-align:left">000901180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">VLD</td>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
     </tr>
   <tr>
     <td style="text-align:right">10</td>
-    <td style="text-align:left"><span style="text-align:center">
-	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="CONTROLLER DISPENSER">
-      
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    <td style="text-align:left">CONTROLLER DISPENSER</td>
+    <td nowrap="nowrap" style="text-align:left">001001180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Controller</td>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
     </tr>
   <tr>
     <td style="text-align:right">11</td>
-    <td style="text-align:left"><span style="text-align:center">
-	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="SOUND SPEAKER">
-      
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    <td style="text-align:left">SOUND SPEAKER</td>
+    <td nowrap="nowrap" style="text-align:left">001101180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Speaker</td>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
     </tr>
   <tr>
     <td style="text-align:right">12</td>
-    <td style="text-align:left"><span style="text-align:center">
-	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="UPS">
-      
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    <td style="text-align:left">UPS</td>
+    <td nowrap="nowrap" style="text-align:left">001201180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">UPS</td>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
     </tr>
   
   
@@ -377,31 +392,34 @@ function goBack() {
   <tbody><tr style="text-align:center">
     <td width="1%" bgcolor="#f7fcff" rowspan="2" >NO</td>
     <td width="15%" rowspan="2" bgcolor="#f7fcff" >NAMA PERANGKAT </td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Part Code</td>
+    <td width="5%" rowspan="2" bgcolor="#f7fcff" >Kategori</td>
+    <td width="5%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
     <td colspan="2" bgcolor="#f7fcff">Qty</td>
     </tr>
     <tr style="text-align:center">
-      <td width="3%" bgcolor="#f7fcff" >Volume</td>
+      <td width="1%" bgcolor="#f7fcff" >Volume</td>
       <td width="2%" bgcolor="#f7fcff" >Satuan</td>
     </tr>
   
     
 <tr>
     <td style="text-align:right">1</td>
-    <td style="text-align:left"><span style="text-align:center">
-	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="BARRIER GATE SERVO">
-      
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    <td style="text-align:left">BARRIER GATE SERVO</td>
+    <td style="text-align:left">001301180726</td>
+    <td style="text-align:left">Barrier Gate</td>
+    <td style="text-align:left">Barrier Gate</td>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
     </tr>
 <tr>
     <td style="text-align:right">2</td>
-    <td style="text-align:left"><span style="text-align:center">
-	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="VEHICLE LOOP DETECTOR">
-      
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    <td style="text-align:left">VLD BARRIER GATE</td>
+    <td style="text-align:left">001401180726</td>
+    <td style="text-align:left">Barrier Gate</td>
+    <td style="text-align:left">VLD</td>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
     </tr>
 
 
@@ -440,31 +458,52 @@ function goBack() {
   <tbody><tr style="text-align:center">
     <td width="1%" bgcolor="#f7fcff" rowspan="2" >NO</td>
     <td width="15%" rowspan="2" bgcolor="#f7fcff" >NAMA PERANGKAT </td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Part Code</td>
+    <td width="5%" rowspan="2" bgcolor="#f7fcff" >Kategori</td>
+    <td width="5%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
     <td colspan="2" bgcolor="#f7fcff">Qty</td>
     </tr>
     <tr style="text-align:center">
-      <td width="3%" bgcolor="#f7fcff" >Volume</td>
+      <td width="1%" bgcolor="#f7fcff" >Volume</td>
       <td width="2%" bgcolor="#f7fcff" >Satuan</td>
     </tr>
   
     
 <tr>
     <td style="text-align:right">1</td>
-    <td style="text-align:left"><span style="text-align:center">
-	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="UHF READER MID RANGE">
-      
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    <td style="text-align:left">UHF READER MID RANGE</td>
+    <td style="text-align:left">001501180726</td>
+    <td style="text-align:left">Sensor dan Lainnya</td>
+    <td style="text-align:left">Sensor</td>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
     </tr>
 <tr>
     <td style="text-align:right">2</td>
-    <td style="text-align:left"><span style="text-align:center">
-	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="IP CAMERA">
-      
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+    <td style="text-align:left">IP CAMERA</td>
+    <td style="text-align:left">001601180726</td>
+    <td style="text-align:left">Sensor dan Lainnya</td>
+    <td style="text-align:left">IP Camera</td>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
+    </tr>
+	<tr>
+    <td style="text-align:right">3</td>
+    <td style="text-align:left">ANPR CAMERA</td>
+    <td style="text-align:left">001701180726</td>
+    <td style="text-align:left">Sensor dan Lainnya</td>
+    <td style="text-align:left">ANPR Camera</td>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
+    </tr>
+	<tr>
+    <td style="text-align:right">4</td>
+    <td style="text-align:left">QUADBEAM</td>
+    <td style="text-align:left">001801180726</td>
+    <td style="text-align:left">Sensor dan Lainnya</td>
+    <td style="text-align:left">Sensor</td>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
     </tr>
 
 

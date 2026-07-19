@@ -64,8 +64,8 @@ function goBack() {
 			</div>
 			<div class="btn-group">
 				<button type="button" class="btn btn-success">
-					<i class="la la-check"></i>
-					<span class="kt-hidden-mobile">Save</span>
+					<i class="fa fa-check-circle"></i>
+					<span class="kt-hidden-mobile">Simpan</span>
 				</button>
 				<button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				</button>
@@ -139,9 +139,26 @@ function goBack() {
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
 						<div class="col-lg-6">
-                          <label class="">Transaksi :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Ya">
+                          <label class="">Gate :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1">
                         </div>
+						<div class="col-lg-6">
+                          <label class="">Jalur :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Masuk">
+                        </div>
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-6">
+                          <label class="">Nama Jalur :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Mobil - 1">
+                        </div>
+						<div class="col-lg-6">
+                          <label class="">Transaksi :</label>
+                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Ya">
+                        </div>
+						
+						
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
@@ -150,33 +167,13 @@ function goBack() {
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Ya">
                         </div>
 						<div class="col-lg-6">
-                          <label class="">Type Dispenser :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Single">
+                          <label class="">Tipe Dispenser :</label>
+                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Single">
                         </div>
 						
 						
                         </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-						<div class="col-lg-6">
-                          <label class="">Gate :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1">
-                        </div>
-						<div class="col-lg-6">
-                          <label class="">Jalur :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Masuk">
-                        </div>
 						
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-						<div class="col-lg-12">
-                          <label class="">Nama Jalur :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Mobil - 1">
-                        </div>
-						
-						
-                        </div>
                         <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						 </div>
 						<div class="form-group row">
@@ -227,8 +224,8 @@ function goBack() {
 						<div class="card">
 							<div class="card-header" id="headingOne">
 								<div class="card-title collapsed d-grid" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="false" aria-controls="collapseOne1">
-									Perangkat
-									<small>yang digunakan</small>
+									Dispenser
+									<small>Perangkat yang digunakan</small>
 								</div>
 							</div>
 							<div id="collapseOne1" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample1" style="">
@@ -245,25 +242,29 @@ function goBack() {
 
   <tbody><tr style="text-align:center">
     <td width="1%" bgcolor="#f7fcff" rowspan="2" >NO</td>
-    <td width="18%" rowspan="2" bgcolor="#f7fcff" >NAMA PERANGKAT </td>
+    <td width="15%" rowspan="2" bgcolor="#f7fcff" >NAMA PERANGKAT </td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Part Code</td>
+    <td width="7%" rowspan="2" bgcolor="#f7fcff" >Kategori</td>
+    <td width="5%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
     <td colspan="2" bgcolor="#f7fcff">Qty</td>
-    <td width="8%" rowspan="2" bgcolor="#f7fcff" >QR Code<br>Perangkat</td>
-    <td width="1%" rowspan="2" bgcolor="#f7fcff" >By</td>
-    <td width="1%" rowspan="2" bgcolor="#f7fcff" >AKSI</td>
+    <td width="10%" rowspan="2" bgcolor="#f7fcff" >QR Code<br>Perangkat</td>
+    <td width="2%" rowspan="2" bgcolor="#f7fcff" >Installer</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Aksi</td>
   </tr>
     <tr style="text-align:center">
-      <td width="3%" bgcolor="#f7fcff" >Volume</td>
+      <td width="1%" bgcolor="#f7fcff" >Vol</td>
       <td width="2%" bgcolor="#f7fcff" >Satuan</td>
     </tr>
   
     
     <tr>
     <td style="text-align:right">1</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="CUSTOM CASING DISPENSER SINGLE" />
-    </span></td>
-    <td style="text-align:center"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1" /></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit" /></td>
+    <td style="text-align:left">CUSTOM CASING DISPENSER SINGLE</td>
+    <td nowrap="nowrap" style="text-align:left">000101180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Casing</td>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
       <input type="text" class="form-control form-control-sm" placeholder="1231231231233" disabled id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
@@ -303,13 +304,14 @@ function goBack() {
   </tr>
 <tr>
     <td style="text-align:right">2</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="NFC PAYMENT READER" />
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1" /></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit" /></td>
+    <td style="text-align:left">NFC PAYMENT READER</td>
+    <td nowrap="nowrap" style="text-align:left">000201180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Payment</td>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan QRCode Disini..." id="generalSearch" />
+      <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
     <td style="text-align:center" nowrap>-</td>
     <td style="text-align:center" nowrap><div class="kt-widget2__actions">
@@ -347,13 +349,14 @@ function goBack() {
   </tr>
 <tr>
     <td style="text-align:right">3</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="PRINTER THERMAL" />
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1" /></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit" /></td>
+    <td style="text-align:left">PRINTER THERMAL</td>
+    <td nowrap="nowrap" style="text-align:left">000301180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Printer</td>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan QRCode Disini..." id="generalSearch" />
+      <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
     <td style="text-align:center" nowrap>-</td>
     <td style="text-align:center" nowrap><div class="kt-widget2__actions">
@@ -391,13 +394,14 @@ function goBack() {
   </tr>
   <tr>
     <td style="text-align:right">4</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="WEBCAM" />
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1" /></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit" /></td>
+    <td style="text-align:left">WEBCAM</td>
+    <td nowrap="nowrap" style="text-align:left">000401180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Webcam</td>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan QRCode Disini..." id="generalSearch" />
+      <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
     <td style="text-align:center" nowrap>-</td>
     <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -412,13 +416,14 @@ function goBack() {
     </tr>
   <tr>
     <td style="text-align:right">5</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="BUTTON BANTUAN" />
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1" /></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit" /></td>
+    <td style="text-align:left">BUTTON BANTUAN</td>
+    <td nowrap="nowrap" style="text-align:left">000501180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Button</td>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan QRCode Disini..." id="generalSearch" />
+      <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
     <td style="text-align:center" nowrap>-</td>
     <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -433,13 +438,14 @@ function goBack() {
     </tr>
   <tr>
     <td style="text-align:right">6</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="DISPLAY LAYAR" />
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1" /></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit" /></td>
+    <td style="text-align:left">DISPLAY LAYAR</td>
+    <td nowrap="nowrap" style="text-align:left">000601180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Display</td>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan QRCode Disini..." id="generalSearch" />
+      <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
     <td style="text-align:center" nowrap>-</td>
     <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -454,13 +460,14 @@ function goBack() {
     </tr>
   <tr>
     <td style="text-align:right">7</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="MINI PC" />
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1" /></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit" /></td>
+    <td style="text-align:left">MINI PC</td>
+    <td nowrap="nowrap" style="text-align:left">000701180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Mini PC</td>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan QRCode Disini..." id="generalSearch" />
+      <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
     <td style="text-align:center" nowrap>-</td>
     <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -475,13 +482,14 @@ function goBack() {
     </tr>
   <tr>
     <td style="text-align:right">8</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="HUB SWITCH 8 PORT MANAGEABLE CLOUD" />
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1" /></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit" /></td>
+    <td style="text-align:left">HUB SWITCH 8 PORT MANAGEABLE CLOUD</td>
+    <td nowrap="nowrap" style="text-align:left">000801180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Switch</td>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan QRCode Disini..." id="generalSearch" />
+      <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
     <td style="text-align:center" nowrap>-</td>
     <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -496,13 +504,14 @@ function goBack() {
     </tr>
   <tr>
     <td style="text-align:right">9</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="VEHICLE LOOP DETECTOR" />
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1" /></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit" /></td>
+    <td style="text-align:left">VLD DISPENSER</td>
+    <td nowrap="nowrap" style="text-align:left">000901180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">VLD</td>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan QRCode Disini..." id="generalSearch" />
+      <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
     <td style="text-align:center" nowrap>-</td>
     <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -517,13 +526,14 @@ function goBack() {
     </tr>
   <tr>
     <td style="text-align:right">10</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="CONTROLLER DISPENSER" />
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1" /></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit" /></td>
+    <td style="text-align:left">CONTROLLER DISPENSER</td>
+    <td nowrap="nowrap" style="text-align:left">001001180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Controller</td>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan QRCode Disini..." id="generalSearch" />
+      <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
     <td style="text-align:center" nowrap>-</td>
     <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -538,13 +548,14 @@ function goBack() {
     </tr>
   <tr>
     <td style="text-align:right">11</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="SOUND SPEAKER" />
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1" /></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit" /></td>
+    <td style="text-align:left">SOUND SPEAKER</td>
+    <td nowrap="nowrap" style="text-align:left">001101180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Speaker</td>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan QRCode Disini..." id="generalSearch" />
+      <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
     <td style="text-align:center" nowrap>-</td>
     <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -559,13 +570,14 @@ function goBack() {
     </tr>
   <tr>
     <td style="text-align:right">12</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="UPS" />
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1" /></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit" /></td>
+    <td style="text-align:left">UPS</td>
+    <td nowrap="nowrap" style="text-align:left">001201180726</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">UPS</td>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan QRCode Disini..." id="generalSearch" />
+      <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
     <td style="text-align:center" nowrap>-</td>
     <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -613,26 +625,29 @@ function goBack() {
 
   <tbody><tr style="text-align:center">
     <td width="1%" bgcolor="#f7fcff" rowspan="2" >NO</td>
-    <td width="18%" rowspan="2" bgcolor="#f7fcff" >NAMA PERANGKAT </td>
+    <td width="15%" rowspan="2" bgcolor="#f7fcff" >NAMA PERANGKAT </td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Part Code</td>
+    <td width="7%" rowspan="2" bgcolor="#f7fcff" >Kategori</td>
+    <td width="5%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
     <td colspan="2" bgcolor="#f7fcff">Qty</td>
-    <td width="8%" rowspan="2" bgcolor="#f7fcff">QR Code Perangkat</td>
-    <td width="1%" rowspan="2" bgcolor="#f7fcff">By</td>
-    <td width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</td>
-    </tr>
+    <td width="10%" rowspan="2" bgcolor="#f7fcff" >QR Code<br>Perangkat</td>
+    <td width="2%" rowspan="2" bgcolor="#f7fcff" >Installer</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Aksi</td>
+  </tr>
     <tr style="text-align:center">
-      <td width="3%" bgcolor="#f7fcff" >Volume</td>
+      <td width="1%" bgcolor="#f7fcff" >Vol</td>
       <td width="2%" bgcolor="#f7fcff" >Satuan</td>
     </tr>
   
     
 <tr>
-    <td style="text-align:right">1</td>
-    <td style="text-align:left"><span style="text-align:center">
-	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="BARRIER GATE SERVO">
-      
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+  <td style="text-align:right">1</td>
+  <td style="text-align:left">BARRIER GATE SERVO</td>
+  <td style="text-align:left">001301180726</td>
+  <td style="text-align:left">Barrier Gate</td>
+  <td style="text-align:left">Barrier Gate</td>
+  <td style="text-align:right">1</td>
+  <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
       <input type="text" class="form-control form-control-sm" placeholder="123123123123" disabled id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
@@ -671,13 +686,13 @@ function goBack() {
 															</div></td>
     </tr>
 <tr>
-    <td style="text-align:right">2</td>
-    <td style="text-align:left"><span style="text-align:center">
-	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="VEHICLE LOOP DETECTOR">
-      
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+  <td style="text-align:right">2</td>
+  <td style="text-align:left">VLD BARRIER GATE</td>
+  <td style="text-align:left">001401180726</td>
+  <td style="text-align:left">Barrier Gate</td>
+  <td style="text-align:left">VLD</td>
+  <td style="text-align:right">1</td>
+  <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
       <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
@@ -751,26 +766,29 @@ function goBack() {
 
   <tbody><tr style="text-align:center">
     <td width="1%" bgcolor="#f7fcff" rowspan="2" >NO</td>
-    <td width="18%" rowspan="2" bgcolor="#f7fcff" >NAMA PERANGKAT </td>
+    <td width="15%" rowspan="2" bgcolor="#f7fcff" >NAMA PERANGKAT </td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Part Code</td>
+    <td width="7%" rowspan="2" bgcolor="#f7fcff" >Kategori</td>
+    <td width="5%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
     <td colspan="2" bgcolor="#f7fcff">Qty</td>
-    <td width="8%" rowspan="2" bgcolor="#f7fcff">QR Code Perangkat</td>
-    <td width="1%" rowspan="2" bgcolor="#f7fcff">By</td>
-    <td width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</td>
-    </tr>
+    <td width="10%" rowspan="2" bgcolor="#f7fcff" >QR Code<br>Perangkat</td>
+    <td width="2%" rowspan="2" bgcolor="#f7fcff" >Installer</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Aksi</td>
+  </tr>
     <tr style="text-align:center">
-      <td width="3%" bgcolor="#f7fcff" >Volume</td>
+      <td width="1%" bgcolor="#f7fcff" >Vol</td>
       <td width="2%" bgcolor="#f7fcff" >Satuan</td>
     </tr>
   
     
 <tr>
-    <td style="text-align:right">1</td>
-    <td style="text-align:left"><span style="text-align:center">
-	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="UHF READER MID RANGE">
-      
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+  <td style="text-align:right">1</td>
+  <td style="text-align:left">UHF READER MID RANGE</td>
+  <td style="text-align:left">001501180726</td>
+  <td style="text-align:left">Sensor dan Lainnya</td>
+  <td style="text-align:left">Sensor</td>
+  <td style="text-align:right">1</td>
+  <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
       <input type="text" class="form-control form-control-sm" placeholder="123123123123" disabled id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
@@ -809,13 +827,13 @@ function goBack() {
 															</div></td>
     </tr>
 <tr>
-    <td style="text-align:right">2</td>
-    <td style="text-align:left"><span style="text-align:center">
-	<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="IP CAMERA">
-      
-    </span></td>
-    <td style="text-align:right"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1"></td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit"></td>
+  <td style="text-align:right">2</td>
+  <td style="text-align:left">IP CAMERA</td>
+  <td style="text-align:left">001601180726</td>
+  <td style="text-align:left">Sensor dan Lainnya</td>
+  <td style="text-align:left">IP Camera</td>
+  <td style="text-align:right">1</td>
+  <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
       <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
@@ -853,6 +871,50 @@ function goBack() {
 																</div>
 															</div></td>
     </tr>
+<tr>
+  <td style="text-align:right">3</td>
+  <td style="text-align:left">ANPR CAMERA</td>
+  <td style="text-align:left">001701180726</td>
+  <td style="text-align:left">Sensor dan Lainnya</td>
+  <td style="text-align:left">ANPR Camera</td>
+  <td style="text-align:right">1</td>
+  <td style="text-align:left">Unit</td>
+  <td nowrap="nowrap" style="text-align:center"><div class="kt-input-icon kt-input-icon--right">
+    <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
+    <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span></span></div></td>
+  <td nowrap="nowrap" style="text-align:center">-</td>
+  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+    <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+      <ul class="kt-nav">
+        <li class="kt-nav__item"> <a href="instalasi-perangkat-spesifikasi.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Spesifikasi</span> </a> </li>
+        <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+        <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+      </ul>
+    </div>
+  </div></td>
+  </tr>
+<tr>
+  <td style="text-align:right">4</td>
+  <td style="text-align:left">QUADBEAM</td>
+  <td style="text-align:left">001801180726</td>
+  <td style="text-align:left">Sensor dan Lainnya</td>
+  <td style="text-align:left">Sensor</td>
+  <td style="text-align:right">1</td>
+  <td style="text-align:left">Unit</td>
+  <td nowrap="nowrap" style="text-align:center"><div class="kt-input-icon kt-input-icon--right">
+    <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
+    <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span></span></div></td>
+  <td nowrap="nowrap" style="text-align:center">-</td>
+  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+    <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+      <ul class="kt-nav">
+        <li class="kt-nav__item"> <a href="instalasi-perangkat-spesifikasi.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Spesifikasi</span> </a> </li>
+        <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+        <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+      </ul>
+    </div>
+  </div></td>
+  </tr>
 
 
 

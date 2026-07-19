@@ -64,8 +64,8 @@ function goBack() {
 			</div>
 			<div class="btn-group">
 				<button type="button" class="btn btn-success">
-					<i class="la la-check"></i>
-					<span class="kt-hidden-mobile">Save</span>
+					<i class="fa fa-check-circle"></i>
+					<span class="kt-hidden-mobile">Simpan</span>
 				</button>
 				<button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				</button>

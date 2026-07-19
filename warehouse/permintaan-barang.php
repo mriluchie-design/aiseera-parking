@@ -24,7 +24,7 @@
             <div class="kt-subheader__main">
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Permintaan Material
+                    Permintaan Barang
                 </h3>
 				
 
@@ -399,8 +399,8 @@
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
 											  <th width="3%" rowspan="2" bgcolor="#f7fcff">Gudang<br>Penerima</th>
-											  <th colspan="5" bgcolor="#f7fcff">Permintaan Material</th>
-											  <th colspan="2" bgcolor="#f7fcff">Penerimaan Material</th>
+											  <th colspan="5" bgcolor="#f7fcff">Permintaan Barang</th>
+											  <th colspan="2" bgcolor="#f7fcff">Penerimaan Barang</th>
 											  
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Validasi</th>
 											  <th width="4%" rowspan="2" bgcolor="#f7fcff">Progress</th>
@@ -426,7 +426,7 @@
 												  <hr />
 												  06:50:00 WITA</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">MM.062026.01.001</td>
+												<td nowrap="nowrap" style="text-align:center">PM.062026.01.001</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 												  23:50:00 WITA</td>
@@ -457,7 +457,7 @@
 												  <hr />
 												  06:50:00 WITA</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">MM.062026.01.001</td>
+												<td nowrap="nowrap" style="text-align:center">PM.062026.01.001</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 												  23:50:00 WITA</td>

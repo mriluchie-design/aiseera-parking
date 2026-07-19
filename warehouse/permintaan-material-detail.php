@@ -150,8 +150,8 @@ function goBack() {
 						
 					  
 						<div class="col-lg-12">
-                           <label class="">Lokasi :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Makassar">
+                           <label class="">Penerima :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Gudang Makassar">
                         </div>
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>

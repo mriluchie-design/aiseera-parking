@@ -344,25 +344,25 @@
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Gudang</th>
-											  <th colspan="9" bgcolor="#feffed">Barang / Material</th>
-											  <th colspan="3" bgcolor="#f7fcff">Stok</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Kondisi</th>
+											  <th colspan="9" bgcolor="#f7fcff">Barang / Material</th>
+											  <th colspan="3" bgcolor="#feffed">Stok</th>
+											  <th width="1%" rowspan="2" bgcolor="#feffed">Kondisi</th>
 											  <th width="3%" rowspan="2" bgcolor="#f7fcff">PIC</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 											<tr style="text-align:center">
-											  <th width="1%" bgcolor="#feffed">Foto</th>
-											  <th width="1%" bgcolor="#feffed">Kategori</th>
-											  <th width="1%" bgcolor="#feffed">Jenis</th>
-											  <th width="1%" bgcolor="#feffed">QR Code</th>
-											  <th width="10%" bgcolor="#feffed">Nama</th>
-											  <th width="2%" bgcolor="#feffed">Tanggal Pembelian</th>
-											  <th width="2%" bgcolor="#feffed">Tanggal Expired</th>
-											  <th width="1%" bgcolor="#feffed">Lemari</th>
-											  <th width="1%" bgcolor="#feffed">Rak</th>
-											  <th width="1%" bgcolor="#f7fcff">Vol</th>
-											  <th width="1%" bgcolor="#f7fcff">Satuan</th>
-											  <th width="1%" bgcolor="#f7fcff">Status</th>
+											  <th width="1%" bgcolor="#f7fcff">Foto</th>
+											  <th width="1%" bgcolor="#f7fcff">Part Code</th>
+											  <th width="1%" bgcolor="#f7fcff">Kategori</th>
+											  <th width="1%" bgcolor="#f7fcff">Jenis</th>
+											  <th width="1%" bgcolor="#f7fcff">QR Code</th>
+											  <th width="10%" bgcolor="#f7fcff">Nama</th>
+											  <th width="2%" bgcolor="#f7fcff">Tanggal Expired</th>
+											  <th width="1%" bgcolor="#f7fcff">Lemari</th>
+											  <th width="1%" bgcolor="#f7fcff">Rak</th>
+											  <th width="1%" bgcolor="#feffed">Vol</th>
+											  <th width="1%" bgcolor="#feffed">Satuan</th>
+											  <th width="1%" bgcolor="#feffed">Status</th>
 									      </tr>
 										</thead>
 										<tbody>
@@ -370,11 +370,11 @@
 												<td id="kt_table_4" style="text-align:right">1</td>
 												<td style="text-align:center" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center"><img src="../assets/img/illustrations/camera.png" width="40" height="40"></td>
+												<td nowrap="nowrap" style="text-align:left">000101180726</td>
 												<td nowrap="nowrap" style="text-align:left">Dispenser</td>
 												<td nowrap="nowrap" style="text-align:left">Jaringan</td>
-												<td nowrap="nowrap" style="text-align:left">0001DSS01180626</td>
+												<td nowrap="nowrap" style="text-align:left">0001DSS01180726</td>
 												<td nowrap="nowrap" style="text-align:left">HUB SWITCH 8 PORT MANAGEABLE CLOUD</td>
-												<td nowrap="nowrap" style="text-align:center">24 September 2026</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2031</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
@@ -400,11 +400,11 @@
 												<td id="kt_table_4" style="text-align:right">2</td>
 												<td nowrap="nowrap" style="text-align:center">Makassar</td>
 												<td nowrap="nowrap" style="text-align:center"><img src="../assets/img/illustrations/camera.png" width="40" height="40"></td>
+												<td nowrap="nowrap" style="text-align:left">000201180726</td>
 												<td nowrap="nowrap" style="text-align:left">Dispenser</td>
 												<td nowrap="nowrap" style="text-align:left">Payment</td>
-												<td nowrap="nowrap" style="text-align:left">0002DSS01180626</td>
+												<td nowrap="nowrap" style="text-align:left">0002DSS01180726</td>
 												<td nowrap="nowrap" style="text-align:left">NFC PAYMENT READER</td>
-												<td nowrap="nowrap" style="text-align:center">24 September 2026</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2031</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">2</td>
@@ -429,11 +429,11 @@
 												<td id="kt_table_4" style="text-align:right">3</td>
 												<td nowrap="nowrap" style="text-align:center">Makassar</td>
 												<td nowrap="nowrap" style="text-align:center"><img src="../assets/img/illustrations/camera.png" width="40" height="40"></td>
+												<td nowrap="nowrap" style="text-align:left">000301180726</td>
 												<td nowrap="nowrap" style="text-align:left">Dispenser</td>
 												<td nowrap="nowrap" style="text-align:left">Printer</td>
-												<td nowrap="nowrap" style="text-align:left">0003DSS01180626</td>
+												<td nowrap="nowrap" style="text-align:left">0003DSS01180726</td>
 												<td nowrap="nowrap" style="text-align:left">PRINTER THERMAL</td>
-												<td nowrap="nowrap" style="text-align:center">24 September 2026</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2031</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">3</td>
@@ -458,11 +458,11 @@
 												<td id="kt_table_4" style="text-align:right">4</td>
 												<td style="text-align:center" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center"><img src="../assets/img/illustrations/camera.png" width="40" height="40"></td>
+												<td nowrap="nowrap" style="text-align:left">000401180726</td>
 												<td nowrap="nowrap" style="text-align:left">Barrier Gate</td>
 												<td nowrap="nowrap" style="text-align:left">Sensor</td>
-												<td nowrap="nowrap" style="text-align:left">0001BRG01180626</td>
+												<td nowrap="nowrap" style="text-align:left">0001BRG01180726</td>
 												<td nowrap="nowrap" style="text-align:left">VEHICLE LOOP DETECTOR</td>
-												<td nowrap="nowrap" style="text-align:center">24 September 2026</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2031</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">4</td>
@@ -487,12 +487,12 @@
   <td id="kt_table_4" style="text-align:right">5</td>
   <td style="text-align:center" nowrap="nowrap">Makassar</td>
   <td nowrap="nowrap" style="text-align:center"><img src="../assets/img/illustrations/camera.png" width="40" height="40"></td>
+  <td nowrap="nowrap" style="text-align:left">000501180726</td>
   <td nowrap="nowrap" style="text-align:left">Sensor</td>
   <td nowrap="nowrap" style="text-align:left">Sensor</td>
-  <td nowrap="nowrap" style="text-align:left">0001SSR01180626</td>
+  <td nowrap="nowrap" style="text-align:left">0001SSR01180726</td>
   <td nowrap="nowrap" style="text-align:left">UHF READER MID RANGE</td>
-  <td nowrap="nowrap" style="text-align:center">24 September 2026</td>
-												<td nowrap="nowrap" style="text-align:center">24 September 2031</td>
+  <td nowrap="nowrap" style="text-align:center">24 September 2031</td>
 												<td nowrap="nowrap" style="text-align:center">2</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 	  <td nowrap="nowrap" style="text-align:right">1</td>
@@ -516,12 +516,12 @@
   <td id="kt_table_4" style="text-align:right">6</td>
   <td style="text-align:center" nowrap="nowrap">Makassar</td>
   <td nowrap="nowrap" style="text-align:center"><img src="../assets/img/illustrations/camera.png" width="40" height="40"></td>
+  <td nowrap="nowrap" style="text-align:left">000601180726</td>
   <td nowrap="nowrap" style="text-align:left">Dispenser</td>
   <td nowrap="nowrap" style="text-align:left">Komputer</td>
-  <td nowrap="nowrap" style="text-align:left">0004DSS01180626</td>
+  <td nowrap="nowrap" style="text-align:left">0004DSS01180726</td>
   <td nowrap="nowrap" style="text-align:left">Komputer PC Desktop i5</td>
-  <td nowrap="nowrap" style="text-align:center">24 September 2026</td>
-												<td nowrap="nowrap" style="text-align:center">24 September 2031</td>
+  <td nowrap="nowrap" style="text-align:center">24 September 2031</td>
 												<td nowrap="nowrap" style="text-align:center">3</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 	  <td nowrap="nowrap" style="text-align:right">0</td>

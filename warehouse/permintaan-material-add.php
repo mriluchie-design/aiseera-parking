@@ -30,7 +30,7 @@
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Permintaan Material</span>
+											Permintaan Barang</span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
 										</form>
@@ -68,8 +68,8 @@ function goBack() {
 			</div>
 			<div class="btn-group">
 				<button type="button" class="btn btn-success">
-					<i class="la la-check"></i>
-					<span class="kt-hidden-mobile">Save</span>
+					<i class="fa fa-check-circle"></i>
+					<span class="kt-hidden-mobile">Simpan</span>
 				</button>
 				<button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 				</button>
@@ -142,7 +142,7 @@ function goBack() {
 												</li>
 												<li class="nav-item m-tabs__item">
 													<a class="nav-link m-tabs__link" data-toggle="tab" href="#m_tabs_6_2" role="tab">
-														<i class="fa fa-boxes"></i> Data Material
+														<i class="fa fa-boxes"></i> Data Barang
 													</a>
 												</li>
 												<!--<li class="nav-item m-tabs__item">
@@ -174,8 +174,8 @@ function goBack() {
 						
 					  
 						<div class="col-lg-12">
-                           <label class="">Lokasi :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Makassar">
+                           <label class="">Penerima :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Gudang Makassar">
                         </div>
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
@@ -337,23 +337,40 @@ function goBack() {
 																<br>
 																
 																
-						
+					<div class="form-group row">
+							<div class="col-xl-10">&nbsp;
+ 
+ 
+										</div>
+   
+ <div class="col-xl-2" style="text-align:right; padding-right:10px;">
+ <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal_tambah_material">
+											<i class="fa fa-plus-circle"></i>Tambah Barang
+										</a>
+ 
+										</div>
+
+										
+										
+										</div>	
+										<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
                      <div class="form-group row">
 					 <div class="col-lg-12">
 																<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th colspan="5" bgcolor="#f7fcff">Permintaan Material</th>
+											  <th colspan="5" bgcolor="#f7fcff">Permintaan Barang</th>
 											  <th colspan="3" bgcolor="#f7fcff">Lokasi </th>
 											  <th colspan="2" bgcolor="#f7fcff">Instalasi </th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Maksud Permintaan</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 											<tr style="text-align:center">
-											  <th width="1%" bgcolor="#f7fcff">QR Code<br>Material</th>
-											  <th width="1%" bgcolor="#f7fcff">Kategori<br />Material</th>
-											  <th width="8%" bgcolor="#f7fcff">Nama</th>
-											  <th width="1%" bgcolor="#f7fcff">Volume</th>
+											  <th width="1%" bgcolor="#f7fcff">QR Code<br>Barang</th>
+											  <th width="1%" bgcolor="#f7fcff">Kategori</th>
+											  <th width="12%" bgcolor="#f7fcff">Nama</th>
+											  <th width="1%" bgcolor="#f7fcff">Vol</th>
 											  <th width="1%" bgcolor="#f7fcff">Satuan</th>
 											  <th width="1%" bgcolor="#f7fcff">Gate</th>
 											  <th width="1%" bgcolor="#f7fcff">Jalur</th>
@@ -377,6 +394,7 @@ function goBack() {
 												  <hr />
 												  06:50:00 WITA</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center">Service</td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -402,6 +420,7 @@ function goBack() {
 												  <hr />
 												  06:50:00 WITA</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center">Service</td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -426,6 +445,7 @@ function goBack() {
 												  <hr />
 												  06:50:00 WITA</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center">Service</td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -450,6 +470,7 @@ function goBack() {
 												  <hr />
 												  06:50:00 WITA</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center">Service</td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -474,6 +495,7 @@ function goBack() {
     <hr />
     06:50:00 WITA</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+  <td nowrap="nowrap" style="text-align:center">Service</td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -485,13 +507,7 @@ function goBack() {
 												  </div></td>
 </tr>
 </tbody>
-<tfoot>
-																								<tr>
-																									<td colspan="12">
-																										<button type="button" class="btn btn-success btn-sm float-right" data-toggle="modal" data-target="#modal_tambah_material"> <i class='fa fa-plus-circle'></i> Tambah Data</button>
-																									</td>
-																								</tr>
-																							</tfoot>
+
 									</table>
 															</div>
 															</div>
@@ -592,7 +608,7 @@ function goBack() {
 
 											<div class="kt-portlet__head-label">
 												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-boxes"></i></span>
-												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">TAMBAH PERMINTAAN MATERIAL</h3>
+												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">TAMBAH PERMINTAAN BARANG</h3>
 											</div>
 <div class="kt-portlet__head-toolbar">
 											
@@ -608,7 +624,7 @@ function goBack() {
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Perangkat</div><br><br>
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Barang</div><br><br>
 										 <div class="kt-portlet__body">
                       
 						<div class="form-group row">
@@ -622,7 +638,11 @@ function goBack() {
 													
 													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 <div class="form-group row">
-<div class="col-lg-12">
+<div class="col-lg-6">
+														<label class="kt-font-brand">Part Code :</label>
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="0001DSS01180626" />
+													</div>
+													<div class="col-lg-6">
 														<label class="kt-font-brand">QR Code :</label>
 														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="0001DSS01180626" />
 													</div>
@@ -630,29 +650,12 @@ function goBack() {
 													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 													<div class="form-group row">
 													<div class="col-lg-12">
-														<label class="kt-font-brand">Kategori Material :</label>
+														<label class="kt-font-brand">Kategori Barang :</label>
 														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Dispenser Single" />
 													</div>
 													</div>
 													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-<div class="form-group row">
-													
-													<div class="col-lg-12">
-														<label class="kt-font-brand">Nama Barang :</label>
-														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="HUB SWITCH 8 PORT MANAGEABLE CLOUD" />
-													</div>
-
-												
-
-
-
-												
-													
-													
-
-												</div>
-<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-<div class="form-group row">
+													<div class="form-group row">
 													
 													<div class="col-lg-3">
 														<label class="kt-font-brand">Gate :</label>
@@ -667,6 +670,38 @@ function goBack() {
 														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Mobil - 1" />
 													</div>
 													</div>
+													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+<div class="form-group row">
+													
+													<div class="col-lg-12">
+														<label class="kt-font-brand">Nama Barang :</label>
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="HUB SWITCH 8 PORT MANAGEABLE CLOUD" />
+													</div>
+												</div>
+												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+												<div class="form-group row">
+													
+													<div class="col-lg-12">
+														<label class="kt-font-brand">Maksud Permintaan :</label>
+														<select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected>Service</option>
+                                      <option value="1" selected>Permintaan Baru</option>
+                                      <option value="2">Penggantian</option>
+                                                                           
+                                  </select>
+													</div>
+
+												
+
+
+
+												
+													
+													
+
+												</div>
+<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+
 													
 													
 						 
