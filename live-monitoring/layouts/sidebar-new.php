@@ -98,6 +98,7 @@
 										<ul class="kt-menu__subnav">
 											<li class="kt-menu__item" aria-haspopup="true"><a href="perangkat.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Perangkat</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="cctv.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">CCTV</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="monitoring-room.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Monitoring Room</span></a></li>
 											
 										</ul>
 									</div>

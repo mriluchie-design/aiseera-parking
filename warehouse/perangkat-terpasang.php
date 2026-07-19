@@ -159,7 +159,17 @@
 								<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
 								<div class="col-lg-2">
-                                <label>Part Code :</label>
+                                <label>No. SKU :</label>
+								
+                                <div class="kt-input-icon kt-input-icon--right">
+        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
+        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
+    		                            <span><i class="la la-search"></i></span>
+    		                        </span>
+    		                    </div>
+    		                    </div>
+								<div class="col-lg-2">
+                                <label>Kode Barang :</label>
 								
                                 <div class="kt-input-icon kt-input-icon--right">
         							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
@@ -172,10 +182,10 @@
                                 <label>Kategori Barang :</label>
 								
                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1">Mobil - 1</option>
-                                      <option value="1">Mobil - 2</option>
-                                      <option value="1">Motor - 1</option>
-                                      <option value="1">Mobil - 2</option>
+                                      <option value="1">Dispenser</option>
+                                      <option value="1">Barrier Gate</option>
+                                      <option value="1">Sensor dan Lainnya</option>
+                                      <option value="1">Consumable</option>
 									  <option value="2" selected>Keseluruhan</option>
                                      
                                   </select>
@@ -184,24 +194,15 @@
                                 <label>Jenis :</label>
 								
                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1">Mobil - 1</option>
-                                      <option value="1">Mobil - 2</option>
-                                      <option value="1">Motor - 1</option>
-                                      <option value="1">Mobil - 2</option>
+                                      <option value="1">Dispenser</option>
+                                      <option value="1">Payment</option>
+                                      <option value="1">Printer</option>
+                                      <option value="1">Webcam</option>
 									  <option value="2" selected>Keseluruhan</option>
                                      
                                   </select>
                             </div>
-								<div class="col-lg-2">
-                                <label>QR Code :</label>
 								
-                                <div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
-        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
-    		                            <span><i class="la la-search"></i></span>
-    		                        </span>
-    		                    </div>
-    		                    </div>
 								<div class="col-lg-2">
                                 <label>Nama Barang :</label>
 								
@@ -396,10 +397,10 @@
 											  <th width="1%" bgcolor="#f7fcff">Gate</th>
 											  <th width="1%" bgcolor="#f7fcff">Jalur</th>
 											  <th width="1%" bgcolor="#f7fcff">Nama Jalur</th>
-											  <th width="1%" bgcolor="#f7fcff">Part Code</th>
 											  <th width="1%" bgcolor="#f7fcff">Kategori</th>
+											  <th width="1%" bgcolor="#f7fcff">Nomor SKU</th>
+											  <th width="1%" bgcolor="#f7fcff">Kode Barang</th>
 											  <th width="1%" bgcolor="#f7fcff">Jenis</th>
-											  <th width="1%" bgcolor="#f7fcff">QR Code</th>
 											  <th width="10%" bgcolor="#f7fcff">Nama Barang</th>
 											  <th width="1%" bgcolor="#f7fcff">Installer</th>
 											  
@@ -413,11 +414,11 @@
 												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 												<td style="text-align:left" nowrap>Mobil - 1</td>
-												<td nowrap="nowrap" style="text-align:left">000101180726</td>
-												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
-												<td style="text-align:left">Casing</td>
-												<td nowrap="nowrap" style="text-align:left">0001DSS01180726</td>
-												<td style="text-align:left">CUSTOM CASING DISPENSER SINGLE</td>
+												<td nowrap="nowrap" style="text-align:left">Dispenser</td>
+												<td nowrap="nowrap" style="text-align:left">0001010726</td>
+												<td nowrap="nowrap" style="text-align:left">000101010726</td>
+												<td nowrap="nowrap" style="text-align:left">Dispenser</td>
+												<td nowrap="nowrap" style="text-align:left">Custom Casing Dispenser Single</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -438,11 +439,11 @@
 												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 												<td style="text-align:left" nowrap>Mobil - 1</td>
-												<td nowrap="nowrap" style="text-align:left">000201180726</td>
-												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
-												<td style="text-align:left">Payment</td>
-												<td nowrap="nowrap" style="text-align:left">0002DSS01180726</td>
-												<td style="text-align:left">NFC PAYMENT READER</td>
+												<td nowrap="nowrap" style="text-align:left">Dispenser</td>
+												<td nowrap="nowrap" style="text-align:left">0002010726</td>
+												<td nowrap="nowrap" style="text-align:left">000102010726</td>
+												<td nowrap="nowrap" style="text-align:left">Payment</td>
+												<td width="198">Payment Reader</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -463,11 +464,11 @@
 												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 												<td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-												<td nowrap="nowrap" style="text-align:left">000301180726</td>
-												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
-												<td style="text-align:left">Printer</td>
-												<td nowrap="nowrap" style="text-align:left">0003DSS01180726</td>
-												<td style="text-align:left">PRINTER THERMAL</td>
+												<td nowrap="nowrap" style="text-align:left">Dispenser</td>
+												<td nowrap="nowrap" style="text-align:left">0003010726</td>
+												<td nowrap="nowrap" style="text-align:left">000103010726</td>
+												<td nowrap="nowrap" style="text-align:left">Printer</td>
+												<td>Printer Thermal</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -486,11 +487,11 @@
 												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 												<td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-												<td nowrap="nowrap" style="text-align:left">000401180726</td>
-												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
-												<td style="text-align:left">Webcam</td>
-												<td nowrap="nowrap" style="text-align:left">0001BRG01180726</td>
-												<td style="text-align:left">WEBCAM</td>
+												<td nowrap="nowrap" style="text-align:left">Dispenser</td>
+												<td nowrap="nowrap" style="text-align:left">0004010726</td>
+												<td nowrap="nowrap" style="text-align:left">000104010726</td>
+												<td nowrap="nowrap" style="text-align:left">Webcam</td>
+												<td>Webcam</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -509,11 +510,11 @@
 												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 												<td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-												<td nowrap="nowrap" style="text-align:left">000501180726</td>
-												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
-												<td style="text-align:left">Button</td>
-												<td nowrap="nowrap" style="text-align:left">0001SSR01180726</td>
-												<td style="text-align:left">BUTTON BANTUAN</td>
+												<td nowrap="nowrap" style="text-align:left">Dispenser</td>
+												<td nowrap="nowrap" style="text-align:left">0005010726</td>
+												<td nowrap="nowrap" style="text-align:left">000105010726</td>
+												<td nowrap="nowrap" style="text-align:left">Button</td>
+												<td>Button Bantuan</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -532,11 +533,11 @@
   <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
   <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
   <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-  <td nowrap="nowrap" style="text-align:left">000601180726</td>
-  <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
-  <td style="text-align:left">Display</td>
-  <td nowrap="nowrap" style="text-align:left">0004DSS01180726</td>
-  <td style="text-align:left">DISPLAY LAYAR</td>
+  <td nowrap="nowrap" style="text-align:left">Dispenser</td>
+  <td nowrap="nowrap" style="text-align:left">0006010726</td>
+  <td nowrap="nowrap" style="text-align:left">000106010726</td>
+  <td nowrap="nowrap" style="text-align:left">Monitor</td>
+  <td>Display Layar</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -555,11 +556,11 @@
 												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 												<td style="text-align:left" nowrap>Mobil - 1</td>
-												<td nowrap="nowrap" style="text-align:left">000701180726</td>
-												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
-												<td style="text-align:left">Mini PC</td>
-												<td nowrap="nowrap" style="text-align:left">0001DSS01180726</td>
-												<td style="text-align:left">MINI PC</td>
+												<td nowrap="nowrap" style="text-align:left">Dispenser</td>
+												<td nowrap="nowrap" style="text-align:left">0007010726</td>
+												<td nowrap="nowrap" style="text-align:left">000107010726</td>
+												<td nowrap="nowrap" style="text-align:left">Mini PC</td>
+												<td width="198">Mini PC</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -580,11 +581,11 @@
 												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 												<td style="text-align:left" nowrap>Mobil - 1</td>
-												<td nowrap="nowrap" style="text-align:left">000801180726</td>
-												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
-												<td style="text-align:left">Switch</td>
-												<td nowrap="nowrap" style="text-align:left">0002DSS01180726</td>
-												<td style="text-align:left">HUB SWITCH 8 PORT MANAGEABLE CLOUD</td>
+												<td nowrap="nowrap" style="text-align:left">Dispenser</td>
+												<td nowrap="nowrap" style="text-align:left">0008010726</td>
+												<td nowrap="nowrap" style="text-align:left">000108010726</td>
+												<td nowrap="nowrap" style="text-align:left">Jaringan</td>
+												<td>Hub Switch 8 Port Manageable    Cloud</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -605,11 +606,11 @@
 												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 												<td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-												<td nowrap="nowrap" style="text-align:left">000901180726</td>
-												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
-												<td style="text-align:left">VLD</td>
-												<td nowrap="nowrap" style="text-align:left">0003DSS01180726</td>
-												<td style="text-align:left">VLD DISPENSER</td>
+												<td nowrap="nowrap" style="text-align:left">Dispenser</td>
+												<td nowrap="nowrap" style="text-align:left">0009010726</td>
+												<td nowrap="nowrap" style="text-align:left">000109010726</td>
+												<td nowrap="nowrap" style="text-align:left">Sensor</td>
+												<td>VLD Dispenser</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -629,11 +630,11 @@
 												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 												<td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-												<td nowrap="nowrap" style="text-align:left">001001180726</td>
-												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
-												<td style="text-align:left">Controller</td>
-												<td nowrap="nowrap" style="text-align:left">0001BRG01180726</td>
-												<td style="text-align:left">CONTROLLER DISPENSER</td>
+												<td nowrap="nowrap" style="text-align:left">Dispenser</td>
+												<td nowrap="nowrap" style="text-align:left">0010010726</td>
+												<td nowrap="nowrap" style="text-align:left">000110010726</td>
+												<td nowrap="nowrap" style="text-align:left">Controller</td>
+												<td>Controller Dispenser</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -652,11 +653,11 @@
 												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 												<td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-												<td nowrap="nowrap" style="text-align:left">001101180726</td>
-												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
-												<td style="text-align:left">Speaker</td>
-												<td nowrap="nowrap" style="text-align:left">0001SSR01180726</td>
-												<td style="text-align:left">SOUND SPEAKER</td>
+												<td nowrap="nowrap" style="text-align:left">Dispenser</td>
+												<td nowrap="nowrap" style="text-align:left">0011010726</td>
+												<td nowrap="nowrap" style="text-align:left">000111010726</td>
+												<td nowrap="nowrap" style="text-align:left">Speaker</td>
+												<td>Sound Speaker</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -675,11 +676,11 @@
   <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
   <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
   <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-  <td nowrap="nowrap" style="text-align:left">001201180726</td>
-  <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
-  <td style="text-align:left">UPS</td>
-  <td nowrap="nowrap" style="text-align:left">0004DSS01180726</td>
-  <td style="text-align:left">UPS</td>
+  <td nowrap="nowrap" style="text-align:left">Dispenser</td>
+  <td nowrap="nowrap" style="text-align:left">0012010726</td>
+  <td nowrap="nowrap" style="text-align:left">000112010726</td>
+  <td nowrap="nowrap" style="text-align:left">UPS</td>
+  <td>Ups</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -698,11 +699,11 @@
   <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
   <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
   <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-  <td nowrap="nowrap" style="text-align:left">001301180726</td>
-  <td style="text-align:left">Barrier Gate</td>
-  <td style="text-align:left">Barrier Gate</td>
-  <td nowrap="nowrap" style="text-align:left">&nbsp;</td>
-  <td style="text-align:left">BARRIER GATE SERVO</td>
+  <td nowrap="nowrap" style="text-align:left">Barrier Gate</td>
+  <td nowrap="nowrap" style="text-align:left">0013010726</td>
+  <td nowrap="nowrap" style="text-align:left">000113010726</td>
+  <td nowrap="nowrap" style="text-align:left">Barrier Gate</td>
+  <td width="198">Barrier    Gate Servo</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026&lt;hr&gt;07:36:00 WITA&lt;hr&gt;12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -721,11 +722,11 @@
   <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
   <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
   <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-  <td nowrap="nowrap" style="text-align:left">001401180726</td>
-  <td style="text-align:left">Barrier Gate</td>
-  <td style="text-align:left">VLD</td>
-  <td nowrap="nowrap" style="text-align:left">&nbsp;</td>
-  <td style="text-align:left">VLD BARRIER GATE</td>
+  <td nowrap="nowrap" style="text-align:left">Barrier Gate</td>
+  <td nowrap="nowrap" style="text-align:left">0014010726</td>
+  <td nowrap="nowrap" style="text-align:left">000213010726</td>
+  <td nowrap="nowrap" style="text-align:left">Sensor</td>
+  <td>VLD  Barrier Gate</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026&lt;hr&gt;07:36:00 WITA&lt;hr&gt;12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -745,11 +746,11 @@
   <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
   <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
   <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-  <td nowrap="nowrap" style="text-align:left">001501180726</td>
-  <td style="text-align:left">Sensor dan Lainnya</td>
-  <td style="text-align:left">Sensor</td>
-  <td nowrap="nowrap" style="text-align:left">&nbsp;</td>
-  <td style="text-align:left">UHF READER MID RANGE</td>
+  <td nowrap="nowrap" style="text-align:left">Barrier Gate</td>
+  <td nowrap="nowrap" style="text-align:left">0015010726</td>
+  <td nowrap="nowrap" style="text-align:left">000210010726</td>
+  <td nowrap="nowrap" style="text-align:left">Controller</td>
+  <td>Controller Barrier Gate</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026&lt;hr&gt;07:36:00 WITA&lt;hr&gt;12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -769,11 +770,11 @@
   <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
   <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
   <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-  <td nowrap="nowrap" style="text-align:left">001601180726</td>
-  <td style="text-align:left">Sensor dan Lainnya</td>
-  <td style="text-align:left">IP Camera</td>
-  <td nowrap="nowrap" style="text-align:left">&nbsp;</td>
-  <td style="text-align:left">IP CAMERA</td>
+  <td nowrap="nowrap" style="text-align:left">Sensor dan Lainnya</td>
+  <td nowrap="nowrap" style="text-align:left">0016010726</td>
+  <td nowrap="nowrap" style="text-align:left">000114010726</td>
+  <td nowrap="nowrap" style="text-align:left">UHF Reader</td>
+  <td>UHF Reader Mid Range</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026&lt;hr&gt;07:36:00 WITA&lt;hr&gt;12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -792,11 +793,11 @@
   <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
   <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
   <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-  <td nowrap="nowrap" style="text-align:left">001701180726</td>
-  <td style="text-align:left">Sensor dan Lainnya</td>
-  <td style="text-align:left">ANPR Camera</td>
-  <td nowrap="nowrap" style="text-align:left">&nbsp;</td>
-  <td style="text-align:left">ANPR CAMERA</td>
+  <td nowrap="nowrap" style="text-align:left">Sensor dan Lainnya</td>
+  <td nowrap="nowrap" style="text-align:left">0017010726</td>
+  <td nowrap="nowrap" style="text-align:left">000115010726</td>
+  <td nowrap="nowrap" style="text-align:left">IP Camera</td>
+  <td>IP Camera</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026&lt;hr&gt;07:36:00 WITA&lt;hr&gt;12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -815,11 +816,58 @@
   <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
   <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
   <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-  <td nowrap="nowrap" style="text-align:left">001801180726</td>
-  <td style="text-align:left">Sensor dan Lainnya</td>
-  <td style="text-align:left">Sensor</td>
-  <td nowrap="nowrap" style="text-align:left">&nbsp;</td>
-  <td style="text-align:left">QUADBEAM</td>
+  <td nowrap="nowrap" style="text-align:left">Sensor dan Lainnya</td>
+  <td nowrap="nowrap" style="text-align:left">0018010726</td>
+  <td nowrap="nowrap" style="text-align:left">000215010726</td>
+  <td nowrap="nowrap" style="text-align:left">ANPR Camera</td>
+  <td>ANPR Camera</td>
+  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026&lt;hr&gt;07:36:00 WITA&lt;hr&gt;12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+    <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+      <ul class="kt-nav">
+        <li class="kt-nav__item"> <a href="permintaan-material-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
+        <li class="kt-nav__item"> <a href="permintaan-material-proses.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-boxes"></i> <span class="kt-nav__link-text">Proses Permintaan</span></a></li>
+        <li class="kt-nav__item"> <a href="permintaan-material-cetak.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Permintaan</span></a></li>
+        <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+      </ul>
+    </div>
+  </div></td>
+  </tr>
+
+<tr>
+  <td id="kt_table_4" style="text-align:right">19</td>
+  <td nowrap="nowrap" style="text-align:left">Makassar</td>
+  <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
+  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
+  <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
+  <td nowrap="nowrap" style="text-align:left">Sensor dan Lainnya</td>
+  <td nowrap="nowrap" style="text-align:left">0021010726</td>
+  <td nowrap="nowrap" style="text-align:left">000217010726</td>
+  <td nowrap="nowrap" style="text-align:left">Tiang</td>
+  <td>Tiang Kamera Mobil</td>
+  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026&lt;hr&gt;07:36:00 WITA&lt;hr&gt;12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+    <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+      <ul class="kt-nav">
+        <li class="kt-nav__item"> <a href="permintaan-material-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
+        <li class="kt-nav__item"> <a href="permintaan-material-proses.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-boxes"></i> <span class="kt-nav__link-text">Proses Permintaan</span></a></li>
+        <li class="kt-nav__item"> <a href="permintaan-material-cetak.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Permintaan</span></a></li>
+        <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+      </ul>
+    </div>
+  </div></td>
+  </tr>
+<tr>
+  <td id="kt_table_3" style="text-align:right">20</td>
+  <td nowrap="nowrap" style="text-align:left">Makassar</td>
+  <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
+  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
+  <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
+  <td nowrap="nowrap" style="text-align:left">Sensor dan Lainnya</td>
+  <td nowrap="nowrap" style="text-align:left">0022010726</td>
+  <td nowrap="nowrap" style="text-align:left">000317010726</td>
+  <td nowrap="nowrap" style="text-align:left">Tiang</td>
+  <td>Tiang Quadbeam</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026&lt;hr&gt;07:36:00 WITA&lt;hr&gt;12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">

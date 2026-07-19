@@ -880,8 +880,8 @@ function goBack() {
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
-						<div class="col-lg-6">
-                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Lemari :</label>
+						<div class="col-lg-3">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Rak :</label>
                            <select class="form-control kt-selectpicker" data-live-search="true">
 														<option>1</option>
 														<option>2</option>
@@ -889,9 +889,19 @@ function goBack() {
 														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 														</select>
                         </div>
-						<div class="col-lg-6">
-                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Rak :</label>
+						<div class="col-lg-3">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Row :</label>
                            <select class="form-control kt-selectpicker" data-live-search="true">
+														<option>1</option>
+														<option>2</option>
+														
+														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+														</select>
+                        </div>
+						<div class="col-lg-3">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Box :</label>
+                           <select class="form-control kt-selectpicker" data-live-search="true">
+														<option>-</option>
 														<option>1</option>
 														<option>2</option>
 														
