@@ -90,29 +90,8 @@
 </svg></span><span class="kt-menu__link-text">Operasional</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
 									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
 										<ul class="kt-menu__subnav">
-										<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Manual</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
-															<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
-																<ul class="kt-menu__subnav">
-											<li class="kt-menu__item" aria-haspopup="true"><a href="manual-kendaraan-masuk.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Masuk</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="manual-kendaraan-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Keluar</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="manual-kendaraan-berangkat.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Berangkat</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="manual-muatan-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Muatan Kapal</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="manual-kendaraan-bermuatan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pass Kade</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="operator-pass-orang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pass Orang</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="free-pass.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Free Pass</span></a></li>
+										
 											
-										</ul>
-															</div>
-														</li>
-											<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Cetak Karcis</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
-															<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
-																<ul class="kt-menu__subnav">
-											<li class="kt-menu__item" aria-haspopup="true"><a href="karcis-mati-lampu-masuk.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Jalur Masuk</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="karcis-mati-lampu-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Jalur Keluar</span></a></li>
-											
-										</ul>
-															</div>
-														</li>
 														<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Form</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
 															<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
 																<ul class="kt-menu__subnav">
