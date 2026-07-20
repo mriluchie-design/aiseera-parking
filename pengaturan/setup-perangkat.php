@@ -230,452 +230,159 @@ function goBack() {
 							</div>
 							<div id="collapseOne1" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample1" style="">
 								<div class="card-body">
+								
 									<div class="row">
+									
 										<div class="col-xl-12">
 											<!--begin::Portlet-->
 											<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
 												<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Perangkat</div><br><br>
 												<div class="kt-portlet__body">
 													<div class="kt-portlet__content">
+													
 													<div class="form-group row">
 													<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
 
   <tbody><tr style="text-align:center">
-    <td width="1%" bgcolor="#f7fcff" rowspan="2" >NO</td>
-    <td width="15%" rowspan="2" bgcolor="#f7fcff" >NAMA PERANGKAT </td>
-    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Part Code</td>
-    <td width="5%" rowspan="2" bgcolor="#f7fcff" >Kategori</td>
-    <td width="5%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
+    <td width="1%" bgcolor="#f7fcff" rowspan="2" >No</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Kode SKU</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Kategori</td>
+    <td width="6%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
+    <td width="15%" rowspan="2" bgcolor="#f7fcff" >Nama Barang</td>
     <td colspan="2" bgcolor="#f7fcff">Qty</td>
-    <td width="1%" rowspan="2" bgcolor="#f7fcff" >AKSI</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Aksi</td>
   </tr>
     <tr style="text-align:center">
-      <td width="5%" bgcolor="#f7fcff" >Volume</td>
-      <td width="2%" bgcolor="#f7fcff" >Satuan</td>
+      <td width="1%" bgcolor="#f7fcff" >Vol</td>
+      <td width="1%" bgcolor="#f7fcff" >Satuan</td>
     </tr>
   
     
     <tr>
     <td style="text-align:right">1</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
-        <option value="1" disabled>Cari/Pilih Barang...</option>
-        <optgroup label="Dispenser" class="a">
-          <option value="2" data-subtext="000101180726" selected>CUSTOM CASING DISPENSER SINGLE</option>
-          <option value="3" data-subtext="000201180726">NFC PAYMENT READER</option>
-          <option value="4" data-subtext="000301180726">PRINTER THERMAL</option>
-          <option value="5" data-subtext="000401180726">WEBCAM</option>
-          <option value="5" data-subtext="000501180726">BUTTON BANTUAN</option>
-          <option value="5" data-subtext="000601180726">DISPLAY LAYAR</option>
-          <option value="5" data-subtext="000701180726">MINI PC</option>
-          <option value="5" data-subtext="000801180726">HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-          <option value="5" data-subtext="000901180726">VLD DISPENSER</option>
-          <option value="5" data-subtext="001001180726">CONTROLLER DISPENSER</option>
-          <option value="5" data-subtext="001101180726">SOUND SPEAKER</option>
-          <option value="5" data-subtext="001201180726">UPS</option>
-          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
-          </optgroup>
-        </select>
-      
-    </span></td>
-    <td nowrap="nowrap" style="text-align:left">000101180726</td>
-    <td style="text-align:left">Dispenser</td>
+    <td nowrap="nowrap" style="text-align:left">000101010726</td>
     <td style="text-align:left">Casing</td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+    <td style="text-align:left">Casing</td>
+    <td style="text-align:left">Custom Casing Dispenser Single</td>
+    <td nowrap="nowrap" style="text-align:right">1</td>
+    <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
   </tr>
 <tr>
     <td style="text-align:right">2</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
-        <option value="1" disabled>Cari/Pilih Barang...</option>
-        <optgroup label="Dispenser" class="a">
-          <option value="2" data-subtext="000101180726" >CUSTOM CASING DISPENSER SINGLE</option>
-          <option value="3" data-subtext="000201180726" selected>NFC PAYMENT READER</option>
-          <option value="4" data-subtext="000301180726">PRINTER THERMAL</option>
-          <option value="5" data-subtext="000401180726">WEBCAM</option>
-          <option value="5" data-subtext="000501180726">BUTTON BANTUAN</option>
-          <option value="5" data-subtext="000601180726">DISPLAY LAYAR</option>
-          <option value="5" data-subtext="000701180726">MINI PC</option>
-          <option value="5" data-subtext="000801180726">HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-          <option value="5" data-subtext="000901180726">VLD DISPENSER</option>
-          <option value="5" data-subtext="001001180726">CONTROLLER DISPENSER</option>
-          <option value="5" data-subtext="001101180726">SOUND SPEAKER</option>
-          <option value="5" data-subtext="001201180726">UPS</option>
-          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
-          </optgroup>
-        </select>
-    </span></td>
-    <td nowrap="nowrap" style="text-align:left">000201180726</td>
-    <td style="text-align:left">Dispenser</td>
-    <td style="text-align:left">Payment</td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+    <td nowrap="nowrap" style="text-align:left">000201010726</td>
+    <td style="text-align:left">Reader</td>
+    <td style="text-align:left">Payment Reader</td>
+    <td style="text-align:left">Payment Reader</td>
+    <td nowrap="nowrap" style="text-align:right">1</td>
+    <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
   </tr>
 <tr>
     <td style="text-align:right">3</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
-        <option value="1" disabled>Cari/Pilih Barang...</option>
-        <optgroup label="Dispenser" class="a">
-          <option value="2" data-subtext="000101180726" >CUSTOM CASING DISPENSER SINGLE</option>
-          <option value="3" data-subtext="000201180726">NFC PAYMENT READER</option>
-          <option value="4" data-subtext="000301180726" selected>PRINTER THERMAL</option>
-          <option value="5" data-subtext="000401180726">WEBCAM</option>
-          <option value="5" data-subtext="000501180726">BUTTON BANTUAN</option>
-          <option value="5" data-subtext="000601180726">DISPLAY LAYAR</option>
-          <option value="5" data-subtext="000701180726">MINI PC</option>
-          <option value="5" data-subtext="000801180726">HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-          <option value="5" data-subtext="000901180726">VLD DISPENSER</option>
-          <option value="5" data-subtext="001001180726">CONTROLLER DISPENSER</option>
-          <option value="5" data-subtext="001101180726">SOUND SPEAKER</option>
-          <option value="5" data-subtext="001201180726">UPS</option>
-          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
-          </optgroup>
-        </select>
-    </span></td>
-    <td nowrap="nowrap" style="text-align:left">000301180726</td>
-    <td style="text-align:left">Dispenser</td>
+    <td nowrap="nowrap" style="text-align:left">000401010726</td>
     <td style="text-align:left">Printer</td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
+    <td style="text-align:left">Thermal</td>
+    <td style="text-align:left">TMT82X Lan Port</td>
+    <td nowrap="nowrap" style="text-align:right">1</td>
+    <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+    </tr>
   <tr>
     <td style="text-align:right">4</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
-        <option value="1" disabled>Cari/Pilih Barang...</option>
-        <optgroup label="Dispenser" class="a">
-          <option value="2" data-subtext="000101180726">CUSTOM CASING DISPENSER SINGLE</option>
-          <option value="3" data-subtext="000201180726">NFC PAYMENT READER</option>
-          <option value="4" data-subtext="000301180726">PRINTER THERMAL</option>
-          <option value="5" data-subtext="000401180726" selected>WEBCAM</option>
-          <option value="5" data-subtext="000501180726">BUTTON BANTUAN</option>
-          <option value="5" data-subtext="000601180726">DISPLAY LAYAR</option>
-          <option value="5" data-subtext="000701180726">MINI PC</option>
-          <option value="5" data-subtext="000801180726">HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-          <option value="5" data-subtext="000901180726">VLD DISPENSER</option>
-          <option value="5" data-subtext="001001180726">CONTROLLER DISPENSER</option>
-          <option value="5" data-subtext="001101180726">SOUND SPEAKER</option>
-          <option value="5" data-subtext="001201180726">UPS</option>
-          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
-          </optgroup>
-        </select>
-    </span></td>
-    <td nowrap="nowrap" style="text-align:left">000401180726</td>
+    <td nowrap="nowrap" style="text-align:left">000501010726</td>
     <td style="text-align:left">Dispenser</td>
     <td style="text-align:left">Webcam</td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
+    <td style="text-align:left">Logitech Webcam C270</td>
+    <td nowrap="nowrap" style="text-align:right">1</td>
+    <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+    </tr>
   <tr>
     <td style="text-align:right">5</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
-        <option value="1" disabled>Cari/Pilih Barang...</option>
-        <optgroup label="Dispenser" class="a">
-          <option value="2" data-subtext="000101180726">CUSTOM CASING DISPENSER SINGLE</option>
-          <option value="3" data-subtext="000201180726">NFC PAYMENT READER</option>
-          <option value="4" data-subtext="000301180726">PRINTER THERMAL</option>
-          <option value="5" data-subtext="000401180726">WEBCAM</option>
-          <option value="5" data-subtext="000501180726" selected>BUTTON BANTUAN</option>
-          <option value="5" data-subtext="000601180726">DISPLAY LAYAR</option>
-          <option value="5" data-subtext="000701180726">MINI PC</option>
-          <option value="5" data-subtext="000801180726">HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-          <option value="5" data-subtext="000901180726">VLD DISPENSER</option>
-          <option value="5" data-subtext="001001180726">CONTROLLER DISPENSER</option>
-          <option value="5" data-subtext="001101180726">SOUND SPEAKER</option>
-          <option value="5" data-subtext="001201180726">UPS</option>
-          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
-          </optgroup>
-        </select>
-    </span></td>
-    <td nowrap="nowrap" style="text-align:left">000501180726</td>
-    <td style="text-align:left">Dispenser</td>
+    <td nowrap="nowrap" style="text-align:left">000601010726</td>
     <td style="text-align:left">Button</td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
+    <td style="text-align:left">Bantuan</td>
+    <td style="text-align:left">Button Bantuan</td>
+    <td nowrap="nowrap" style="text-align:right">1</td>
+    <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+    </tr>
   <tr>
     <td style="text-align:right">6</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
-        <option value="1" disabled>Cari/Pilih Barang...</option>
-        <optgroup label="Dispenser" class="a">
-          <option value="2" data-subtext="000101180726">CUSTOM CASING DISPENSER SINGLE</option>
-          <option value="3" data-subtext="000201180726">NFC PAYMENT READER</option>
-          <option value="4" data-subtext="000301180726">PRINTER THERMAL</option>
-          <option value="5" data-subtext="000401180726">WEBCAM</option>
-          <option value="5" data-subtext="000501180726">BUTTON BANTUAN</option>
-          <option value="5" data-subtext="000601180726" selected>DISPLAY LAYAR</option>
-          <option value="5" data-subtext="000701180726">MINI PC</option>
-          <option value="5" data-subtext="000801180726">HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-          <option value="5" data-subtext="000901180726">VLD DISPENSER</option>
-          <option value="5" data-subtext="001001180726">CONTROLLER DISPENSER</option>
-          <option value="5" data-subtext="001101180726">SOUND SPEAKER</option>
-          <option value="5" data-subtext="001201180726">UPS</option>
-          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
-          </optgroup>
-        </select>
-    </span></td>
-    <td nowrap="nowrap" style="text-align:left">000601180726</td>
-    <td style="text-align:left">Dispenser</td>
-    <td style="text-align:left">Display</td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
+    <td nowrap="nowrap" style="text-align:left">000801010726</td>
+    <td style="text-align:left">Monitor</td>
+    <td style="text-align:left">Dispenser Single</td>
+    <td style="text-align:left">Monitor AOC 22B20JH2</td>
+    <td nowrap="nowrap" style="text-align:right">1</td>
+    <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+    </tr>
   <tr>
     <td style="text-align:right">7</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
-        <option value="1" disabled>Cari/Pilih Barang...</option>
-        <optgroup label="Dispenser" class="a">
-          <option value="2" data-subtext="000101180726" >CUSTOM CASING DISPENSER SINGLE</option>
-          <option value="3" data-subtext="000201180726">NFC PAYMENT READER</option>
-          <option value="4" data-subtext="000301180726">PRINTER THERMAL</option>
-          <option value="5" data-subtext="000401180726">WEBCAM</option>
-          <option value="5" data-subtext="000501180726">BUTTON BANTUAN</option>
-          <option value="5" data-subtext="000601180726">DISPLAY LAYAR</option>
-          <option value="5" data-subtext="000701180726" selected>MINI PC</option>
-          <option value="5" data-subtext="000801180726">HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-          <option value="5" data-subtext="000901180726">VLD DISPENSER</option>
-          <option value="5" data-subtext="001001180726">CONTROLLER DISPENSER</option>
-          <option value="5" data-subtext="001101180726">SOUND SPEAKER</option>
-          <option value="5" data-subtext="001201180726">UPS</option>
-          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
-          </optgroup>
-        </select>
-    </span></td>
-    <td nowrap="nowrap" style="text-align:left">000701180726</td>
-    <td style="text-align:left">Dispenser</td>
+    <td nowrap="nowrap" style="text-align:left">001001010726</td>
     <td style="text-align:left">Mini PC</td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
+    <td style="text-align:left">Asus NUC</td>
+    <td style="text-align:left">Asus NUC 14MNK15 - DDR5 8Gb +NVME 256Gb</td>
+    <td nowrap="nowrap" style="text-align:right">1</td>
+    <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+    </tr>
   <tr>
     <td style="text-align:right">8</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
-        <option value="1" disabled>Cari/Pilih Barang...</option>
-        <optgroup label="Dispenser" class="a">
-          <option value="2" data-subtext="000101180726">CUSTOM CASING DISPENSER SINGLE</option>
-          <option value="3" data-subtext="000201180726">NFC PAYMENT READER</option>
-          <option value="4" data-subtext="000301180726">PRINTER THERMAL</option>
-          <option value="5" data-subtext="000401180726">WEBCAM</option>
-          <option value="5" data-subtext="000501180726">BUTTON BANTUAN</option>
-          <option value="5" data-subtext="000601180726">DISPLAY LAYAR</option>
-          <option value="5" data-subtext="000701180726">MINI PC</option>
-          <option value="5" data-subtext="000801180726" selected>HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-          <option value="5" data-subtext="000901180726">VLD DISPENSER</option>
-          <option value="5" data-subtext="001001180726">CONTROLLER DISPENSER</option>
-          <option value="5" data-subtext="001101180726">SOUND SPEAKER</option>
-          <option value="5" data-subtext="001201180726">UPS</option>
-          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
-          </optgroup>
-        </select>
-    </span></td>
-    <td nowrap="nowrap" style="text-align:left">000801180726</td>
-    <td style="text-align:left">Dispenser</td>
-    <td style="text-align:left">Switch</td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
+    <td nowrap="nowrap" style="text-align:left">001201010726</td>
+    <td style="text-align:left">Jaringan</td>
+    <td style="text-align:left">Hub Switch Gigabit Manage</td>
+    <td style="text-align:left">Ruijie Reyee RG-ES208GC</td>
+    <td nowrap="nowrap" style="text-align:right">1</td>
+    <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+    </tr>
   <tr>
     <td style="text-align:right">9</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
-        <option value="1" disabled>Cari/Pilih Barang...</option>
-        <optgroup label="Dispenser" class="a">
-          <option value="2" data-subtext="000101180726">CUSTOM CASING DISPENSER SINGLE</option>
-          <option value="3" data-subtext="000201180726">NFC PAYMENT READER</option>
-          <option value="4" data-subtext="000301180726">PRINTER THERMAL</option>
-          <option value="5" data-subtext="000401180726">WEBCAM</option>
-          <option value="5" data-subtext="000501180726">BUTTON BANTUAN</option>
-          <option value="5" data-subtext="000601180726">DISPLAY LAYAR</option>
-          <option value="5" data-subtext="000701180726">MINI PC</option>
-          <option value="5" data-subtext="000801180726">HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-          <option value="5" data-subtext="000901180726" selected>VLD DISPENSER</option>
-          <option value="5" data-subtext="001001180726">CONTROLLER DISPENSER</option>
-          <option value="5" data-subtext="001101180726">SOUND SPEAKER</option>
-          <option value="5" data-subtext="001201180726">UPS</option>
-          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
-          </optgroup>
-        </select>
-    </span></td>
-    <td nowrap="nowrap" style="text-align:left">000901180726</td>
-    <td style="text-align:left">Dispenser</td>
+    <td nowrap="nowrap" style="text-align:left">002201010726</td>
+    <td style="text-align:left">Sensor</td>
     <td style="text-align:left">VLD</td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
+    <td style="text-align:left">VLD Dispenser</td>
+    <td nowrap="nowrap" style="text-align:right">1</td>
+    <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+    </tr>
   <tr>
     <td style="text-align:right">10</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
-        <option value="1" disabled>Cari/Pilih Barang...</option>
-        <optgroup label="Dispenser" class="a">
-          <option value="2" data-subtext="000101180726">CUSTOM CASING DISPENSER SINGLE</option>
-          <option value="3" data-subtext="000201180726">NFC PAYMENT READER</option>
-          <option value="4" data-subtext="000301180726">PRINTER THERMAL</option>
-          <option value="5" data-subtext="000401180726">WEBCAM</option>
-          <option value="5" data-subtext="000501180726">BUTTON BANTUAN</option>
-          <option value="5" data-subtext="000601180726">DISPLAY LAYAR</option>
-          <option value="5" data-subtext="000701180726">MINI PC</option>
-          <option value="5" data-subtext="000801180726">HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-          <option value="5" data-subtext="000901180726">VLD DISPENSER</option>
-          <option value="5" data-subtext="001001180726" selected>CONTROLLER DISPENSER</option>
-          <option value="5" data-subtext="001101180726">SOUND SPEAKER</option>
-          <option value="5" data-subtext="001201180726">UPS</option>
-          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
-          </optgroup>
-        </select>
-    </span></td>
-    <td nowrap="nowrap" style="text-align:left">001001180726</td>
-    <td style="text-align:left">Dispenser</td>
+    <td nowrap="nowrap" style="text-align:left">002701010726</td>
     <td style="text-align:left">Controller</td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Controller Dispenser</td>
+    <td nowrap="nowrap" style="text-align:right">1</td>
+    <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+    </tr>
   <tr>
     <td style="text-align:right">11</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
-        <option value="1" disabled>Cari/Pilih Barang...</option>
-        <optgroup label="Dispenser" class="a">
-          <option value="2" data-subtext="000101180726">CUSTOM CASING DISPENSER SINGLE</option>
-          <option value="3" data-subtext="000201180726">NFC PAYMENT READER</option>
-          <option value="4" data-subtext="000301180726">PRINTER THERMAL</option>
-          <option value="5" data-subtext="000401180726">WEBCAM</option>
-          <option value="5" data-subtext="000501180726">BUTTON BANTUAN</option>
-          <option value="5" data-subtext="000601180726">DISPLAY LAYAR</option>
-          <option value="5" data-subtext="000701180726">MINI PC</option>
-          <option value="5" data-subtext="000801180726">HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-          <option value="5" data-subtext="000901180726">VLD DISPENSER</option>
-          <option value="5" data-subtext="001001180726">CONTROLLER DISPENSER</option>
-          <option value="5" data-subtext="001101180726" selected>SOUND SPEAKER</option>
-          <option value="5" data-subtext="001201180726">UPS</option>
-          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
-          </optgroup>
-        </select>
-    </span></td>
-    <td nowrap="nowrap" style="text-align:left">001101180726</td>
-    <td style="text-align:left">Dispenser</td>
+    <td nowrap="nowrap" style="text-align:left">004801010726</td>
     <td style="text-align:left">Speaker</td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
+    <td style="text-align:left">Logitech</td>
+    <td style="text-align:left">CTSL100</td>
+    <td nowrap="nowrap" style="text-align:right">1</td>
+    <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+    </tr>
   <tr>
     <td style="text-align:right">12</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
-        <option value="1" disabled>Cari/Pilih Barang...</option>
-        <optgroup label="Dispenser" class="a">
-          <option value="2" data-subtext="000101180726">CUSTOM CASING DISPENSER SINGLE</option>
-          <option value="3" data-subtext="000201180726">NFC PAYMENT READER</option>
-          <option value="4" data-subtext="000301180726">PRINTER THERMAL</option>
-          <option value="5" data-subtext="000401180726">WEBCAM</option>
-          <option value="5" data-subtext="000501180726">BUTTON BANTUAN</option>
-          <option value="5" data-subtext="000601180726">DISPLAY LAYAR</option>
-          <option value="5" data-subtext="000701180726">MINI PC</option>
-          <option value="5" data-subtext="000801180726">HUB SWITCH 8 PORT MANAGEABLE CLOUD</option>
-          <option value="5" data-subtext="000901180726">VLD DISPENSER</option>
-          <option value="5" data-subtext="001001180726">CONTROLLER DISPENSER</option>
-          <option value="5" data-subtext="001101180726">SOUND SPEAKER</option>
-          <option value="5" data-subtext="001201180726" selected>UPS</option>
-          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
-          </optgroup>
-        </select>
-    </span></td>
-    <td nowrap="nowrap" style="text-align:left">001201180726</td>
-    <td style="text-align:left">Dispenser</td>
+    <td nowrap="nowrap" style="text-align:left">004901010726</td>
     <td style="text-align:left">UPS</td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
+    <td style="text-align:left">APC</td>
+    <td style="text-align:left">APC 1200</td>
+    <td nowrap="nowrap" style="text-align:right">1</td>
+    <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+    </tr>
+  <tr>
+    <td colspan="8" style="text-align:right"><a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal_tambah_material">
+											<i class="fa fa-plus-circle"></i>Tambah Barang
+										</a></td>
+    </tr>
 
 
   </tbody>
@@ -710,72 +417,45 @@ function goBack() {
 													<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
 
   <tbody><tr style="text-align:center">
-    <td width="1%" bgcolor="#f7fcff" rowspan="2" >NO</td>
-    <td width="15%" rowspan="2" bgcolor="#f7fcff" >NAMA PERANGKAT </td>
-    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Part Code</td>
-    <td width="5%" rowspan="2" bgcolor="#f7fcff" >Kategori</td>
-    <td width="5%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
+    <td width="1%" bgcolor="#f7fcff" rowspan="2" >No</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Kode SKU</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Kategori</td>
+    <td width="6%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
+    <td width="15%" rowspan="2" bgcolor="#f7fcff" >Nama Barang</td>
     <td colspan="2" bgcolor="#f7fcff">Qty</td>
-    <td width="1%" rowspan="2" bgcolor="#f7fcff" >AKSI</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Aksi</td>
   </tr>
     <tr style="text-align:center">
-      <td width="5%" bgcolor="#f7fcff" >Volume</td>
-      <td width="2%" bgcolor="#f7fcff" >Satuan</td>
+      <td width="1%" bgcolor="#f7fcff" >Vol</td>
+      <td width="1%" bgcolor="#f7fcff" >Satuan</td>
     </tr>
   
     
     <tr>
     <td style="text-align:right">1</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
-        <option value="1" disabled>Cari/Pilih Barang...</option>
-        <optgroup label="Dispenser" class="a">
-          <option value="2" data-subtext="001301180726" selected>BARRIER GATE SERVO</option>
-          <option value="5" data-subtext="001401180726">VLD BARRIER GATE</option>
-          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
-          </optgroup>
-        </select>
-      
-    </span></td>
-    <td nowrap="nowrap" style="text-align:left">001301180726</td>
+    <td style="text-align:left">003001010726</td>
+    <td nowrap="nowrap" style="text-align:left">Barrier Gate</td>
     <td style="text-align:left">Barrier Gate</td>
-    <td style="text-align:left">Barrier Gate</td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
+    <td style="text-align:left">Barrier Gate Servo</td>
+    <td nowrap="nowrap" style="text-align:right">1</td>
+    <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+    </tr>
 <tr>
     <td style="text-align:right">2</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
-        <option value="1" disabled>Cari/Pilih Barang...</option>
-        <optgroup label="Dispenser" class="a">
-          <option value="2" data-subtext="001301180726" >BARRIER GATE SERVO</option>
-          <option value="5" data-subtext="001401180726" selected>VLD BARRIER GATE</option>
-          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
-          </optgroup>
-        </select>
-    </span></td>
-    <td nowrap="nowrap" style="text-align:left">001401180726</td>
-    <td style="text-align:left">Barrier Gate</td>
+    <td style="text-align:left">003501010726</td>
+    <td nowrap="nowrap" style="text-align:left">Barrier Gate</td>
     <td style="text-align:left">VLD</td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
-
+    <td style="text-align:left">VLD Hitam Matrix Barrier Gate</td>
+    <td nowrap="nowrap" style="text-align:right">1</td>
+    <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+    </tr>
+<tr>
+    <td colspan="8" style="text-align:right"><a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal_tambah_material">
+											<i class="fa fa-plus-circle"></i>Tambah Barang
+										</a></td>
+    </tr>
 
   </tbody>
 </table>
@@ -808,129 +488,55 @@ function goBack() {
 													<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
 
   <tbody><tr style="text-align:center">
-    <td width="1%" bgcolor="#f7fcff" rowspan="2" >NO</td>
-    <td width="15%" rowspan="2" bgcolor="#f7fcff" >NAMA PERANGKAT </td>
-    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Part Code</td>
-    <td width="5%" rowspan="2" bgcolor="#f7fcff" >Kategori</td>
-    <td width="5%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
+    <td width="1%" bgcolor="#f7fcff" rowspan="2" >No</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Kode SKU</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Kategori</td>
+    <td width="6%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
+    <td width="15%" rowspan="2" bgcolor="#f7fcff" >Nama Barang</td>
     <td colspan="2" bgcolor="#f7fcff">Qty</td>
-    <td width="1%" rowspan="2" bgcolor="#f7fcff" >AKSI</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Aksi</td>
   </tr>
     <tr style="text-align:center">
-      <td width="5%" bgcolor="#f7fcff" >Volume</td>
-      <td width="2%" bgcolor="#f7fcff" >Satuan</td>
+      <td width="1%" bgcolor="#f7fcff" >Vol</td>
+      <td width="1%" bgcolor="#f7fcff" >Satuan</td>
     </tr>
   
     
     <tr>
-    <td style="text-align:right">1</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
-        <option value="1" disabled>Cari/Pilih Barang...</option>
-        <optgroup label="Dispenser" class="a">
-          <option value="2" data-subtext="001501180726" selected>UHF READER MID RANGE</option>
-          <option value="5" data-subtext="001601180726">IP CAMERA</option>
-          <option value="5" data-subtext="001701180726">ANPR CAMERA</option>
-          <option value="5" data-subtext="001801180726">QUADBEAM</option>
-          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
-          </optgroup>
-        </select>
-      
-    </span></td>
-    <td nowrap="nowrap" style="text-align:left">001501180726</td>
-    <td style="text-align:left">Sensor dan Lainnya</td>
-    <td style="text-align:left">Sensor</td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
+      <td style="text-align:right">1</td>
+      <td style="text-align:left">002601010726</td>
+      <td nowrap="nowrap" style="text-align:left">Sensor</td>
+      <td style="text-align:left">Member Mid Range</td>
+      <td style="text-align:left">Electron HW-VX6330K V2</td>
+      <td nowrap="nowrap" style="text-align:right">1</td>
+      <td nowrap="nowrap" style="text-align:left">Unit</td>
+      <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+    </tr>
+    <tr>
+      <td style="text-align:right">2</td>
+      <td style="text-align:left">003601010726</td>
+      <td nowrap="nowrap" style="text-align:left">Camera</td>
+      <td style="text-align:left">IP Camera</td>
+      <td style="text-align:left">HIKVISION IP Camera 4MP</td>
+      <td nowrap="nowrap" style="text-align:right">1</td>
+      <td nowrap="nowrap" style="text-align:left">Unit</td>
+      <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+    </tr>
+    <tr>
+      <td style="text-align:right">3</td>
+      <td style="text-align:left">003701010726</td>
+      <td nowrap="nowrap" style="text-align:left">Camera</td>
+      <td style="text-align:left">ANPR Camera</td>
+      <td style="text-align:left">HIKVISION ANPR Camera 4MP</td>
+      <td nowrap="nowrap" style="text-align:right">1</td>
+      <td nowrap="nowrap" style="text-align:left">Unit</td>
+      <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+    </tr>
 <tr>
-    <td style="text-align:right">2</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
-        <option value="1" disabled>Cari/Pilih Barang...</option>
-        <optgroup label="Dispenser" class="a">
-          <option value="2" data-subtext="001501180726" >UHF READER MID RANGE</option>
-          <option value="5" data-subtext="001601180726" selected>IP CAMERA</option>
-          <option value="5" data-subtext="001701180726">ANPR CAMERA</option>
-          <option value="5" data-subtext="001801180726">QUADBEAM</option>
-          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
-          </optgroup>
-        </select>
-    </span></td>
-    <td nowrap="nowrap" style="text-align:left">001601180726</td>
-    <td style="text-align:left">Sensor dan Lainnya</td>
-    <td style="text-align:left">IP Camera</td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
-  <tr>
-    <td style="text-align:right">3</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
-        <option value="1" disabled>Cari/Pilih Barang...</option>
-        <optgroup label="Dispenser" class="a">
-          <option value="2" data-subtext="001501180726" >UHF READER MID RANGE</option>
-          <option value="5" data-subtext="001601180726" >IP CAMERA</option>
-          <option value="5" data-subtext="001701180726" selected>ANPR CAMERA</option>
-          <option value="5" data-subtext="001801180726">QUADBEAM</option>
-          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
-          </optgroup>
-        </select>
-    </span></td>
-    <td nowrap="nowrap" style="text-align:left">001701180726</td>
-    <td style="text-align:left">Sensor dan Lainnya</td>
-    <td style="text-align:left">ANPR Camera</td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
-  <tr>
-    <td style="text-align:right">4</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
-        <option value="1" disabled>Cari/Pilih Barang...</option>
-        <optgroup label="Dispenser" class="a">
-          <option value="2" data-subtext="001501180726" >UHF READER MID RANGE</option>
-          <option value="5" data-subtext="001601180726" >IP CAMERA</option>
-          <option value="5" data-subtext="001701180726" >ANPR CAMERA</option>
-          <option value="5" data-subtext="001801180726" selected>QUADBEAM</option>
-          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
-          </optgroup>
-        </select>
-    </span></td>
-    <td nowrap="nowrap" style="text-align:left">001801180726</td>
-    <td style="text-align:left">Sensor dan Lainnya</td>
-    <td style="text-align:left">Sensor</td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
+  <td colspan="8" style="text-align:right"><a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal_tambah_material">
+    <i class="fa fa-plus-circle"></i>Tambah Barang
+    </a></td>
+</tr>
 
 
   </tbody>
@@ -945,162 +551,7 @@ function goBack() {
 								</div>
 							</div>
 						</div>
-						<div class="card">
-							<div class="card-header" id="headingThree2">
-								<div class="card-title collapsed d-grid" data-toggle="collapse" data-target="#collapseThree2" aria-expanded="false" aria-controls="collapseThree2">
-									Monitoring Room
-									<small>Perangkat</small>
-								</div>
-							</div>
-							<div id="collapseThree2" class="collapse" aria-labelledby="headingThree2" data-parent="#accordionExample1">
-								<div class="card-body">
-									<div class="row">
-										<div class="col-xl-12">
-											<!--begin::Portlet-->
-											<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-												<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Perangkat</div><br><br>
-												<div class="kt-portlet__body">
-													<div class="form-group row">
-													<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
-
-  <tbody><tr style="text-align:center">
-    <td width="1%" bgcolor="#f7fcff" rowspan="2" >NO</td>
-    <td width="15%" rowspan="2" bgcolor="#f7fcff" >NAMA PERANGKAT </td>
-    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Part Code</td>
-    <td width="5%" rowspan="2" bgcolor="#f7fcff" >Kategori</td>
-    <td width="5%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
-    <td colspan="2" bgcolor="#f7fcff">Qty</td>
-    <td width="1%" rowspan="2" bgcolor="#f7fcff" >AKSI</td>
-  </tr>
-    <tr style="text-align:center">
-      <td width="5%" bgcolor="#f7fcff" >Volume</td>
-      <td width="2%" bgcolor="#f7fcff" >Satuan</td>
-    </tr>
-  
-    
-    <tr>
-    <td style="text-align:right">1</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
-        <option value="1" disabled>Cari/Pilih Barang...</option>
-        <optgroup label="Dispenser" class="a">
-          <option value="2" data-subtext="001501180726" selected>UHF READER MID RANGE</option>
-          <option value="5" data-subtext="001601180726">IP CAMERA</option>
-          <option value="5" data-subtext="001701180726">ANPR CAMERA</option>
-          <option value="5" data-subtext="001801180726">QUADBEAM</option>
-          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
-          </optgroup>
-        </select>
-      
-    </span></td>
-    <td nowrap="nowrap" style="text-align:left">001501180726</td>
-    <td style="text-align:left">Sensor dan Lainnya</td>
-    <td style="text-align:left">Sensor</td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
-<tr>
-    <td style="text-align:right">2</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
-        <option value="1" disabled>Cari/Pilih Barang...</option>
-        <optgroup label="Dispenser" class="a">
-          <option value="2" data-subtext="001501180726" >UHF READER MID RANGE</option>
-          <option value="5" data-subtext="001601180726" selected>IP CAMERA</option>
-          <option value="5" data-subtext="001701180726">ANPR CAMERA</option>
-          <option value="5" data-subtext="001801180726">QUADBEAM</option>
-          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
-          </optgroup>
-        </select>
-    </span></td>
-    <td nowrap="nowrap" style="text-align:left">001601180726</td>
-    <td style="text-align:left">Sensor dan Lainnya</td>
-    <td style="text-align:left">IP Camera</td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
-  <tr>
-    <td style="text-align:right">3</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
-        <option value="1" disabled>Cari/Pilih Barang...</option>
-        <optgroup label="Dispenser" class="a">
-          <option value="2" data-subtext="001501180726" >UHF READER MID RANGE</option>
-          <option value="5" data-subtext="001601180726" >IP CAMERA</option>
-          <option value="5" data-subtext="001701180726" selected>ANPR CAMERA</option>
-          <option value="5" data-subtext="001801180726">QUADBEAM</option>
-          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
-          </optgroup>
-        </select>
-    </span></td>
-    <td nowrap="nowrap" style="text-align:left">001701180726</td>
-    <td style="text-align:left">Sensor dan Lainnya</td>
-    <td style="text-align:left">ANPR Camera</td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
-  <tr>
-    <td style="text-align:right">4</td>
-    <td style="text-align:left"><span style="text-align:center">
-      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
-        <option value="1" disabled>Cari/Pilih Barang...</option>
-        <optgroup label="Dispenser" class="a">
-          <option value="2" data-subtext="001501180726" >UHF READER MID RANGE</option>
-          <option value="5" data-subtext="001601180726" >IP CAMERA</option>
-          <option value="5" data-subtext="001701180726" >ANPR CAMERA</option>
-          <option value="5" data-subtext="001801180726" selected>QUADBEAM</option>
-          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
-          </optgroup>
-        </select>
-    </span></td>
-    <td nowrap="nowrap" style="text-align:left">001801180726</td>
-    <td style="text-align:left">Sensor dan Lainnya</td>
-    <td style="text-align:left">Sensor</td>
-    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
-    <td><span style="text-align:center">
-      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
-        <option value="AK" selected="selected">Unit</option>
-        <option value="AK">Pieces</option>
-        <option value="AK">Lembar</option>
-      </select>
-    </span></td>
-    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
-  </tr>
-
-
-  </tbody>
-</table>
-													</div>
-												</div>
-												
-											</div>
-										</div>
-										
-									</div>
-								</div>
-							</div>
-						</div>
+						
 						
 						
 						
@@ -1148,7 +599,148 @@ function goBack() {
 					
                     <!--end: Datatable -->
 
-                    
+                    <div class="modal fade" id="modal_tambah_material" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+									<div class="modal-content">
+
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-boxes"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">TAMBAH BARANG</h3>
+											</div>
+<div class="kt-portlet__head-toolbar">
+											
+											&nbsp;
+												<button type="button" class="btn btn-secondary btn-sm btn-outline-danger" data-dismiss="modal">X</button>
+											</div>
+											
+										</div>
+										<div class="kt-portlet__body">
+											<div class="tab-content">
+										<div class="form-group row">	
+					  <div class="col-lg-12">
+
+									<!--begin::Portlet-->
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Barang</div><br><br>
+										 <div class="kt-portlet__body">
+                      
+						<div class="form-group row">
+						<div class="col-lg-6">
+														<label class="kt-font-brand"><code>*</code> Kategori :</label>
+														 <select class="form-control kt-selectpicker" data-live-search="true">
+                                      
+									  <option value="1">Casing</option>
+                                      <option value="2">Reader</option>
+                                      <option value="2">Scanner</option>
+                                      <option value="2" selected>Keseluruhan</option>
+                                                                           
+                                  </select>
+													</div>
+													<div class="col-lg-6">
+														<label class="kt-font-brand"><code>*</code> Jenis :</label>
+														<select class="form-control kt-selectpicker" data-live-search="true">
+                                      
+									  <option value="1">Casing</option>
+                                      <option value="2">Payment Reader</option>
+                                      <option value="2">Honeywel</option>
+                                      <option value="2" selected>Keseluruhan</option>
+                                                                           
+                                  </select>
+													</div>
+													</div>
+													
+													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+
+<div class="form-group row">
+													
+													<div class="col-lg-12">
+														<label class="kt-font-brand">Nama Barang :</label>
+														<select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
+        <option value="1" disabled>Cari/Pilih Barang...</option>
+        <optgroup label="Dispenser" class="a">
+          <option value="2" data-subtext="001501180726" selected>UHF READER MID RANGE</option>
+          <option value="5" data-subtext="001601180726">IP CAMERA</option>
+          <option value="5" data-subtext="001701180726">ANPR CAMERA</option>
+          <option value="5" data-subtext="001801180726">QUADBEAM</option>
+          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
+          </optgroup>
+        </select>
+													</div>
+												</div>
+												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+												<div class="form-group row">
+<div class="col-lg-6">
+														<label class="kt-font-brand">Volume :</label>
+														<input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1">
+													</div>
+													<div class="col-lg-6">
+														<label class="kt-font-brand">Satuan :</label>
+														<select name="select5" class="form-control kt-selectpicker" data-live-search="true">
+        <option value="AK" selected="selected">Unit</option>
+        <option value="AK">Pieces</option>
+        <option value="AK">Lembar</option>
+      </select>
+													</div>
+													</div>
+													
+												
+													
+						 
+						
+						  
+						
+                      </div>
+                      </div>
+                      </div>
+					  
+												
+
+
+
+
+												
+
+
+
+												
+													
+													
+
+												</div>
+												
+												
+												
+												
+
+
+												
+													
+													
+
+												</div>
+												
+											
+									<div class="kt-portlet__foot kt-align-right">
+												<div class="">
+													<button type="button" class="btn btn-sm btn-success">
+					<i class="fa fa-check-circle"></i>Simpan</button>
+												</div>
+											</div>
+
+
+
+
+									</div>
+
+									</div>
+								</div>
+							</div>
+							</div>
+							</div>
 <!--begin::Modal 1-->
 									<div class="modal fade" id="titik-parkir-tutup" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">

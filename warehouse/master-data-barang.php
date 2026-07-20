@@ -194,9 +194,9 @@
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       
-									  <option value="1">Kebutuhan Project</option>
-                                      <option value="2">Peralatan Kantor</option>
-                                      <option value="2">Peralatan Kerja</option>
+									  <option value="1">Casing</option>
+                                      <option value="2">Reader</option>
+                                      <option value="2">Scanner</option>
                                       <option value="2" selected>Keseluruhan</option>
                                                                            
                                   </select>
@@ -206,9 +206,9 @@
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       
-									  <option value="1">Kebutuhan Project</option>
-                                      <option value="2">Peralatan Kantor</option>
-                                      <option value="2">Peralatan Kerja</option>
+									  <option value="1">Casing</option>
+                                      <option value="2">Payment Reader</option>
+                                      <option value="2">Honeywel</option>
                                       <option value="2" selected>Keseluruhan</option>
                                                                            
                                   </select>
