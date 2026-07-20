@@ -945,6 +945,162 @@ function goBack() {
 								</div>
 							</div>
 						</div>
+						<div class="card">
+							<div class="card-header" id="headingThree2">
+								<div class="card-title collapsed d-grid" data-toggle="collapse" data-target="#collapseThree2" aria-expanded="false" aria-controls="collapseThree2">
+									Monitoring Room
+									<small>Perangkat</small>
+								</div>
+							</div>
+							<div id="collapseThree2" class="collapse" aria-labelledby="headingThree2" data-parent="#accordionExample1">
+								<div class="card-body">
+									<div class="row">
+										<div class="col-xl-12">
+											<!--begin::Portlet-->
+											<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+												<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Perangkat</div><br><br>
+												<div class="kt-portlet__body">
+													<div class="form-group row">
+													<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
+
+  <tbody><tr style="text-align:center">
+    <td width="1%" bgcolor="#f7fcff" rowspan="2" >NO</td>
+    <td width="15%" rowspan="2" bgcolor="#f7fcff" >NAMA PERANGKAT </td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Part Code</td>
+    <td width="5%" rowspan="2" bgcolor="#f7fcff" >Kategori</td>
+    <td width="5%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
+    <td colspan="2" bgcolor="#f7fcff">Qty</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >AKSI</td>
+  </tr>
+    <tr style="text-align:center">
+      <td width="5%" bgcolor="#f7fcff" >Volume</td>
+      <td width="2%" bgcolor="#f7fcff" >Satuan</td>
+    </tr>
+  
+    
+    <tr>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left"><span style="text-align:center">
+      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
+        <option value="1" disabled>Cari/Pilih Barang...</option>
+        <optgroup label="Dispenser" class="a">
+          <option value="2" data-subtext="001501180726" selected>UHF READER MID RANGE</option>
+          <option value="5" data-subtext="001601180726">IP CAMERA</option>
+          <option value="5" data-subtext="001701180726">ANPR CAMERA</option>
+          <option value="5" data-subtext="001801180726">QUADBEAM</option>
+          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
+          </optgroup>
+        </select>
+      
+    </span></td>
+    <td nowrap="nowrap" style="text-align:left">001501180726</td>
+    <td style="text-align:left">Sensor dan Lainnya</td>
+    <td style="text-align:left">Sensor</td>
+    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
+    <td><span style="text-align:center">
+      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
+        <option value="AK" selected="selected">Unit</option>
+        <option value="AK">Pieces</option>
+        <option value="AK">Lembar</option>
+      </select>
+    </span></td>
+    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+  </tr>
+<tr>
+    <td style="text-align:right">2</td>
+    <td style="text-align:left"><span style="text-align:center">
+      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
+        <option value="1" disabled>Cari/Pilih Barang...</option>
+        <optgroup label="Dispenser" class="a">
+          <option value="2" data-subtext="001501180726" >UHF READER MID RANGE</option>
+          <option value="5" data-subtext="001601180726" selected>IP CAMERA</option>
+          <option value="5" data-subtext="001701180726">ANPR CAMERA</option>
+          <option value="5" data-subtext="001801180726">QUADBEAM</option>
+          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
+          </optgroup>
+        </select>
+    </span></td>
+    <td nowrap="nowrap" style="text-align:left">001601180726</td>
+    <td style="text-align:left">Sensor dan Lainnya</td>
+    <td style="text-align:left">IP Camera</td>
+    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
+    <td><span style="text-align:center">
+      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
+        <option value="AK" selected="selected">Unit</option>
+        <option value="AK">Pieces</option>
+        <option value="AK">Lembar</option>
+      </select>
+    </span></td>
+    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+  </tr>
+  <tr>
+    <td style="text-align:right">3</td>
+    <td style="text-align:left"><span style="text-align:center">
+      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
+        <option value="1" disabled>Cari/Pilih Barang...</option>
+        <optgroup label="Dispenser" class="a">
+          <option value="2" data-subtext="001501180726" >UHF READER MID RANGE</option>
+          <option value="5" data-subtext="001601180726" >IP CAMERA</option>
+          <option value="5" data-subtext="001701180726" selected>ANPR CAMERA</option>
+          <option value="5" data-subtext="001801180726">QUADBEAM</option>
+          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
+          </optgroup>
+        </select>
+    </span></td>
+    <td nowrap="nowrap" style="text-align:left">001701180726</td>
+    <td style="text-align:left">Sensor dan Lainnya</td>
+    <td style="text-align:left">ANPR Camera</td>
+    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
+    <td><span style="text-align:center">
+      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
+        <option value="AK" selected="selected">Unit</option>
+        <option value="AK">Pieces</option>
+        <option value="AK">Lembar</option>
+      </select>
+    </span></td>
+    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+  </tr>
+  <tr>
+    <td style="text-align:right">4</td>
+    <td style="text-align:left"><span style="text-align:center">
+      <select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
+        <option value="1" disabled>Cari/Pilih Barang...</option>
+        <optgroup label="Dispenser" class="a">
+          <option value="2" data-subtext="001501180726" >UHF READER MID RANGE</option>
+          <option value="5" data-subtext="001601180726" >IP CAMERA</option>
+          <option value="5" data-subtext="001701180726" >ANPR CAMERA</option>
+          <option value="5" data-subtext="001801180726" selected>QUADBEAM</option>
+          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
+          </optgroup>
+        </select>
+    </span></td>
+    <td nowrap="nowrap" style="text-align:left">001801180726</td>
+    <td style="text-align:left">Sensor dan Lainnya</td>
+    <td style="text-align:left">Sensor</td>
+    <td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1"></td>
+    <td><span style="text-align:center">
+      <select name="select5" class="form-control kt-selectpicker" data-live-search="true">
+        <option value="AK" selected="selected">Unit</option>
+        <option value="AK">Pieces</option>
+        <option value="AK">Lembar</option>
+      </select>
+    </span></td>
+    <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+  </tr>
+
+
+  </tbody>
+</table>
+													</div>
+												</div>
+												
+											</div>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
 						
 						
 						

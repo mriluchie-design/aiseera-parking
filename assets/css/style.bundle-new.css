@@ -2790,6 +2790,7 @@ fieldset:disabled a.btn {
 .btn-sm, .btn-group-sm > .btn {
    padding: 0.2rem 1rem;
   font-size: 1rem;
+  font-weight: 500;
   line-height: 1.5;
   border-radius: 0.2rem; }
 
@@ -30472,7 +30473,8 @@ font-weight:400;
   .kt-badge.kt-badge--md {
     height: 24px;
     width: 24px;
-    font-size: 0.975rem; }
+    font-size: 0.975rem;
+font-weight:500;	}
   .kt-badge.kt-badge--lg {
     height: 35px;
     width: 35px;
@@ -31495,7 +31497,7 @@ font-weight:400;
   border-bottom: 1px dashed #ebedf2; }
   .kt-widget6 .kt-widget6__body .kt-widget6__item > span {
     
-    font-weight: 400;
+    font-weight: 500;
     -webkit-box-flex: 1;
     -ms-flex: 1;
     flex: 1;

@@ -237,7 +237,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">MAKASSAR</span><hr>
+										<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MAKASSAR</span><hr>
 										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">MONITORING ROOM</span>
 										
 <a href="#" class="kt-widget__title">
@@ -254,7 +254,7 @@
 								</div>
 							</div>
 							<div class="kt-widget__body" style="padding-bottom:0 !important">
-                                <br>
+                                
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="kt-timeline-v2">
@@ -415,7 +415,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">BALIKPAPAN</span><hr>
+										<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">BALIKPAPAN</span><hr>
 										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">MONITORING ROOM</span>
 										
 <a href="#" class="kt-widget__title">
@@ -432,7 +432,7 @@
 								</div>
 							</div>
 							<div class="kt-widget__body" style="padding-bottom:0 !important">
-                                <br>
+                               
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="kt-timeline-v2">
@@ -593,7 +593,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">SAMARINDA</span><hr>
+										<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">SAMARINDA</span><hr>
 										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">MONITORING ROOM</span>
 										
 <a href="#" class="kt-widget__title">
@@ -610,7 +610,7 @@
 								</div>
 							</div>
 							<div class="kt-widget__body" style="padding-bottom:0 !important">
-                                <br>
+                                
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="kt-timeline-v2">
@@ -771,7 +771,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">AMBON - YOS SUDARSO</span><hr>
+										<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">AMBON - YOS SUDARSO</span><hr>
 										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">MONITORING ROOM</span>
 										
 <a href="#" class="kt-widget__title">
@@ -788,7 +788,7 @@
 								</div>
 							</div>
 							<div class="kt-widget__body" style="padding-bottom:0 !important">
-                                <br>
+                             
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="kt-timeline-v2">
@@ -949,7 +949,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">AMBON - SLAMET RIYADI</span><hr>
+										<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">AMBON - SLAMET RIYADI</span><hr>
 										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">MONITORING ROOM</span>
 										
 <a href="#" class="kt-widget__title">
@@ -966,7 +966,7 @@
 								</div>
 							</div>
 							<div class="kt-widget__body" style="padding-bottom:0 !important">
-                                <br>
+                              
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="kt-timeline-v2">
@@ -1127,7 +1127,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">SORONG</span><hr>
+										<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">SORONG</span><hr>
 										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">MONITORING ROOM</span>
 										
 <a href="#" class="kt-widget__title">
@@ -1144,7 +1144,7 @@
 								</div>
 							</div>
 							<div class="kt-widget__body" style="padding-bottom:0 !important">
-                                <br>
+                            
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="kt-timeline-v2">
@@ -1305,7 +1305,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">BITUNG</span><hr>
+										<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">BITUNG</span><hr>
 										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">MONITORING ROOM</span>
 										
 <a href="#" class="kt-widget__title">
@@ -1322,7 +1322,7 @@
 								</div>
 							</div>
 							<div class="kt-widget__body" style="padding-bottom:0 !important">
-                                <br>
+                               
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="kt-timeline-v2">
@@ -1483,7 +1483,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">MANADO</span><hr>
+										<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">MANADO</span><hr>
 										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">MONITORING ROOM</span>
 										
 <a href="#" class="kt-widget__title">
@@ -1500,7 +1500,7 @@
 								</div>
 							</div>
 							<div class="kt-widget__body" style="padding-bottom:0 !important">
-                                <br>
+                                
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="kt-timeline-v2">
@@ -1666,7 +1666,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">NUNUKAN</span><hr>
+										<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">NUNUKAN</span><hr>
 										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">MONITORING ROOM</span>
 										
 <a href="#" class="kt-widget__title">
@@ -1683,7 +1683,7 @@
 								</div>
 							</div>
 							<div class="kt-widget__body" style="padding-bottom:0 !important">
-                                <br>
+                               
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="kt-timeline-v2">
@@ -1844,7 +1844,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">TERNATE</span><hr>
+										<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">TERNATE</span><hr>
 										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">MONITORING ROOM</span>
 										
 <a href="#" class="kt-widget__title">
@@ -1861,7 +1861,7 @@
 								</div>
 							</div>
 							<div class="kt-widget__body" style="padding-bottom:0 !important">
-                                <br>
+                               
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="kt-timeline-v2">
@@ -2022,7 +2022,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">TARAKAN</span><hr>
+										<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">TARAKAN</span><hr>
 										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">MONITORING ROOM</span>
 										
 <a href="#" class="kt-widget__title">
@@ -2039,7 +2039,7 @@
 								</div>
 							</div>
 							<div class="kt-widget__body" style="padding-bottom:0 !important">
-                                <br>
+                              
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="kt-timeline-v2">
@@ -2200,7 +2200,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">KENDARI</span><hr>
+										<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">KENDARI</span><hr>
 										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">MONITORING ROOM</span>
 										
 <a href="#" class="kt-widget__title">
@@ -2217,7 +2217,7 @@
 								</div>
 							</div>
 							<div class="kt-widget__body" style="padding-bottom:0 !important">
-                                <br>
+                              
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="kt-timeline-v2">
@@ -2378,7 +2378,7 @@
 							<div class="kt-widget__head d-flex">
 								<div class="kt-widget__label">
 									<div class="kt-widget__info kt-padding-0 kt-margin-l">
-										<span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">PARE-PARE</span><hr>
+										<span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">PARE-PARE</span><hr>
 										<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">MONITORING ROOM</span>
 										
 <a href="#" class="kt-widget__title">
@@ -2395,7 +2395,7 @@
 								</div>
 							</div>
 							<div class="kt-widget__body" style="padding-bottom:0 !important">
-                                <br>
+                             
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="kt-timeline-v2">

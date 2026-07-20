@@ -180,18 +180,17 @@
 					<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
 										<thead>
 											<tr style="text-align:center">
-											  <th width="2%" bgcolor="#f7fcff">Kategori</th>
-											  <th width="2%" bgcolor="#f7fcff">Sub Kategori</th>
-											  <th width="15%" bgcolor="#f7fcff">Sub Sub Kategori</th>
+											  <th width="1%" bgcolor="#f7fcff">No</th>
+											  <th width="1%" bgcolor="#f7fcff">Kategori</th>
+											  <th width="35%" bgcolor="#f7fcff">Jenis</th>
 											  <th width="1%" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 										</thead>
 										<tbody>
 											<tr>
-												<td style="text-align:left" nowrap>Kebutuhan Project</td>
-												<td nowrap="nowrap" style="text-align:left">Peralatan Listrik</td>
-												<td nowrap="nowrap" style="text-align:left">Tools</td>
-												
+											  <td id="kt_table_1" style="text-align:right">1</td>
+											  <td style="text-align:left" nowrap>Dispenser</td>
+												<td nowrap="nowrap" style="text-align:left">Dispenser</td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
@@ -210,14 +209,14 @@
 																				<span class="kt-nav__link-text">Hapus</span>
 																			</a>
 																		</li>
-																	</ul>
+												</ul>
 									          </div>
 										      </div></td>
 										  </tr>
 											<tr>
-											  <td nowrap="nowrap" style="text-align:left">Kebutuhan Project</td>
-											  <td nowrap="nowrap" style="text-align:left">Peralatan Jaringan</td>
-											  <td nowrap="nowrap" style="text-align:left">Tools</td>
+											  <td id="kt_table_1" style="text-align:right">2</td>
+											  <td nowrap="nowrap" style="text-align:left">Dispenser</td>
+											  <td nowrap="nowrap" style="text-align:left">Payment</td>
 											  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
@@ -241,10 +240,9 @@
 										      </div></td>
 										  </tr>
 										  <tr>
-												<td style="text-align:left" nowrap>Peralatan Kantor</td>
-												<td nowrap="nowrap" style="text-align:left">Elektronik</td>
-												<td nowrap="nowrap" style="text-align:left">TV</td>
-											
+										    <td id="kt_table_1" style="text-align:right">3</td>
+										    <td nowrap="nowrap" style="text-align:left">Dispenser</td>
+												<td nowrap="nowrap" style="text-align:left">Printer</td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
@@ -268,9 +266,9 @@
 										      </div></td>
 										  </tr>
 										  <tr>
-												<td style="text-align:left" nowrap>Peralatan Kerja</td>
-												<td nowrap="nowrap" style="text-align:left">Peralatan Teknis</td>
-												<td nowrap="nowrap" style="text-align:left">Tools</td>
+										    <td id="kt_table_1" style="text-align:right">4</td>
+										    <td nowrap="nowrap" style="text-align:left">Dispenser</td>
+												<td nowrap="nowrap" style="text-align:left">Webcam</td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
@@ -293,6 +291,253 @@
 									          </div>
 										      </div></td>
 										  </tr>
+										  <tr>
+										    <td id="kt_table_1" style="text-align:right">5</td>
+										    <td nowrap="nowrap" style="text-align:left">Dispenser</td>
+										    <td nowrap="nowrap" style="text-align:left">Button</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_kategori" data-skin="brand" data-html="true"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_1" style="text-align:right">6</td>
+										    <td nowrap="nowrap" style="text-align:left">Dispenser</td>
+										    <td nowrap="nowrap" style="text-align:left">Monitor</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_kategori" data-skin="brand" data-html="true"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_1" style="text-align:right">7</td>
+										    <td nowrap="nowrap" style="text-align:left">Dispenser</td>
+										    <td nowrap="nowrap" style="text-align:left">Mini PC</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_kategori" data-skin="brand" data-html="true"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_1" style="text-align:right">8</td>
+										    <td nowrap="nowrap" style="text-align:left">Dispenser</td>
+										    <td nowrap="nowrap" style="text-align:left">Jaringan</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_kategori" data-skin="brand" data-html="true"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_1" style="text-align:right">9</td>
+										    <td nowrap="nowrap" style="text-align:left">Dispenser</td>
+										    <td nowrap="nowrap" style="text-align:left">Sensor</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_kategori" data-skin="brand" data-html="true"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_1" style="text-align:right">10</td>
+										    <td nowrap="nowrap" style="text-align:left">Dispenser</td>
+										    <td nowrap="nowrap" style="text-align:left">Controller</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_kategori" data-skin="brand" data-html="true"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_1" style="text-align:right">11</td>
+										    <td nowrap="nowrap" style="text-align:left">Dispenser</td>
+										    <td nowrap="nowrap" style="text-align:left">Speaker</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_kategori" data-skin="brand" data-html="true"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_1" style="text-align:right">12</td>
+										    <td nowrap="nowrap" style="text-align:left">Dispenser</td>
+										    <td nowrap="nowrap" style="text-align:left">UPS</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_kategori" data-skin="brand" data-html="true"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_1" style="text-align:right">13</td>
+										    <td style="text-align:left" nowrap>Barrier Gate</td>
+										    <td nowrap="nowrap" style="text-align:left">Barrier Gate</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_kategori" data-skin="brand" data-html="true"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_1" style="text-align:right">14</td>
+										    <td style="text-align:left" nowrap>Barrier Gate</td>
+										    <td nowrap="nowrap" style="text-align:left">Sensor</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_kategori" data-skin="brand" data-html="true"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_6" style="text-align:right">15</td>
+										    <td style="text-align:left" nowrap>Barrier Gate</td>
+										    <td nowrap="nowrap" style="text-align:left">Controller</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_kategori" data-skin="brand" data-html="true"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_5" style="text-align:right">16</td>
+										    <td style="text-align:left" nowrap>Sensor dan Lainnya</td>
+										    <td nowrap="nowrap" style="text-align:left">Sensor</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_kategori" data-skin="brand" data-html="true"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_4" style="text-align:right">17</td>
+										    <td style="text-align:left" nowrap>Sensor dan Lainnya</td>
+										    <td nowrap="nowrap" style="text-align:left">Tiang</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_kategori" data-skin="brand" data-html="true"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_3" style="text-align:right">18</td>
+										    <td style="text-align:left" nowrap>Sensor dan Lainnya</td>
+										    <td nowrap="nowrap" style="text-align:left">UHF Reader</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_kategori" data-skin="brand" data-html="true"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_4" style="text-align:right">19</td>
+										    <td style="text-align:left" nowrap>Sensor dan Lainnya</td>
+										    <td nowrap="nowrap" style="text-align:left">IP Camera</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_kategori" data-skin="brand" data-html="true"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_3" style="text-align:right">20</td>
+										    <td nowrap="nowrap" style="text-align:left">Sensor dan Lainnya</td>
+										    <td nowrap="nowrap" style="text-align:left">ANPR Camera</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_kategori" data-skin="brand" data-html="true"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_3" style="text-align:right">21</td>
+										    <td nowrap="nowrap" style="text-align:left">Monitoring Room</td>
+										    <td nowrap="nowrap" style="text-align:left">Server</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_kategori" data-skin="brand" data-html="true"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_4" style="text-align:right">22</td>
+										    <td style="text-align:left" nowrap>Monitoring Room</td>
+										    <td nowrap="nowrap" style="text-align:left">Jaringan</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_kategori" data-skin="brand" data-html="true"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_3" style="text-align:right">23</td>
+										    <td style="text-align:left" nowrap>Monitoring Room</td>
+										    <td nowrap="nowrap" style="text-align:left">NVR</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_kategori" data-skin="brand" data-html="true"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
 									    </tbody>
 									</table>
                     <!--end: Datatable -->
@@ -378,7 +623,7 @@
 
 												<div class="form-group row">
 												<div class="col-lg-12">
-														<label class="kt-font-brand">Nama Kategori :</label>
+														<label class="kt-font-brand">Nama :</label>
 														<input type="text" class="form-control form-control-sm" placeholder="">
 													</div>
 													</div>
@@ -388,26 +633,17 @@
 														<label class="kt-font-brand">Kategori Induk :</label>
 														 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="2">Tidak Ada</option>
-									  <option value="1" selected="">Kebutuhan Project</option>
-                                      <option value="2">Peralatan Kantor</option>
-                                      <option value="2">Peralatan Kerja</option>
-                                      <option value="2">Tidak Ada</option>
+									  <option value="2" selected>Dispenser</option>
+									  <option value="1">Barrier Gate</option>
+                                      <option value="2">Sensor dan Lainnya</option>
+                                      <option value="2">Monitoring Room</option>
 									  
                                                                            
                                   </select>
 													</div>
 													<div class="col-lg-6">
-														<label class="kt-font-brand">Sub Kategori :</label>
-														 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2">Tidak Ada</option>
-									  <option value="1" selected="">Peralatan Jaringan</option>
-                                      <option value="2">Peralatan Listrik</option>
-                                      <option value="2">Peralatan Teknis</option>
-                                      <option value="2">Peralatan Teknis</option>
-									  
-									  
-                                                                           
-                                  </select>
+														<label class="kt-font-brand">Jenis :</label>
+														 <input type="text" class="form-control form-control-sm" placeholder="">
 													</div>
 
 
@@ -417,92 +653,7 @@
 
 												</div>
 												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-												<div class="form-group row">
-													
-														<div class="col-lg-3">
-															<label class="kt-option">
-																<span class="kt-option__control">
-																	<span class="kt-radio kt-radio--brand kt-radio--check-bold">
-																		<input type="radio" name="kt_option_1" value="1">
-																		<span></span>
-																	</span>
-																</span>
-																<span class="kt-option__label">
-																	<span class="kt-option__head">
-																		
-																		<span class="btn btn-label-brand btn-sm kt-option__focus">
-																			&nbsp;
-																		</span>
-																	</span>
-																	
-																</span>
-															</label>
-														</div>
-														<div class="col-lg-3">
-															<label class="kt-option">
-																<span class="kt-option__control">
-																	<span class="kt-radio kt-radio--brand kt-radio--check-bold">
-																		<input type="radio" name="kt_option_1" value="1">
-																		<span></span>
-																	</span>
-																</span>
-																<span class="kt-option__label">
-																	<span class="kt-option__head">
-																		
-																		<span class="btn btn-label-danger btn-sm kt-option__focus">
-																			&nbsp;
-																		</span>
-																	</span>
-																	
-																</span>
-															</label>
-														</div>
-														<div class="col-lg-3">
-															<label class="kt-option">
-																<span class="kt-option__control">
-																	<span class="kt-radio kt-radio--brand kt-radio--check-bold">
-																		<input type="radio" name="kt_option_1" value="1">
-																		<span></span>
-																	</span>
-																</span>
-																<span class="kt-option__label">
-																	<span class="kt-option__head">
-																		
-																		<span class="btn btn-label-warning btn-sm kt-option__focus">
-																			&nbsp;
-																		</span>
-																	</span>
-																	
-																</span>
-															</label>
-														</div>
-														<div class="col-lg-3">
-															<label class="kt-option">
-																<span class="kt-option__control">
-																	<span class="kt-radio kt-radio--brand kt-radio--check-bold">
-																		<input type="radio" name="kt_option_1" value="1">
-																		<span></span>
-																	</span>
-																</span>
-																<span class="kt-option__label">
-																	<span class="kt-option__head">
-																		
-																		<span class="btn btn-label-success btn-sm kt-option__focus">
-																			&nbsp;
-																		</span>
-																	</span>
-																	
-																</span>
-															</label>
-														</div>
-													
-
-
 												
-													
-													
-
-												</div>&nbsp;
 												
 											
 									<div class="kt-portlet__foot kt-align-right">

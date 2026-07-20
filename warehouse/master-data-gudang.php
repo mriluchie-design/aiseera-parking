@@ -187,8 +187,8 @@
 											<tr>
 												<td style="text-align:right" nowrap>1</td>
 												<td nowrap="nowrap" style="text-align:left">Makassar</td>
-												<td nowrap="nowrap" style="text-align:left">MJ6</td>
-												<td nowrap="nowrap" style="text-align:left">Makassar - J6</td>
+												<td nowrap="nowrap" style="text-align:left">MHO</td>
+												<td nowrap="nowrap" style="text-align:left">Utama</td>
 												<td nowrap="nowrap" style="text-align:center">&nbsp;</td>
 												
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -274,7 +274,7 @@
 												<td style="text-align:right" nowrap>4</td>
 												<td nowrap="nowrap" style="text-align:left">Manado</td>
 												<td nowrap="nowrap" style="text-align:left">MDO</td>
-												<td nowrap="nowrap" style="text-align:left">Gudang Manado</td>
+												<td nowrap="nowrap" style="text-align:left">Manado</td>
 												<td nowrap="nowrap" style="text-align:center">&nbsp;</td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">

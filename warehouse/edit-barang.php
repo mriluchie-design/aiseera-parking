@@ -24,12 +24,12 @@
             <div class="kt-subheader__main">
 									<h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Form
+                    EDIT
                 </h3>
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Tambah Barang</span>
+											Barang</span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
 										</form>
