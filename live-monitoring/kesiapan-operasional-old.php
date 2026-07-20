@@ -1,13 +1,30 @@
 <?php require '../layouts/head.php' ?>
 <?php require 'layouts/header.php' ?>
+<!-- Menyisipkan library Google Maps -->
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
 
+    <script>
+        // fungsi initialize untuk mempersiapkan peta
+        function initialize() {
+        var propertiPeta = {
+            center:new google.maps.LatLng(-5.16081,119.395713),
+            zoom:15,
+            mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+        
+        var peta = new google.maps.Map(document.getElementById("googleMap"), propertiPeta);
+        }
+
+        // event jendela di-load  
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
     <!-- begin:: Content Head -->
     <div class="kt-subheader   kt-grid__item" id="kt_subheader">
         <div class="kt-container  kt-container--fluid ">
             <div class="kt-subheader__main">
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Monitoring
+                    Dashboard Monitoring
                 </h3>
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
@@ -52,17 +69,27 @@
 				
 				
 			</div>
-              
             </div>
-			
         </div>
     </div>
-	<!-- end:: Content Head -->
+    <!-- end:: Content Head -->
 
 	<!-- begin:: Content -->
-	<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
+		<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
+            <!-- begin:: Alert -->
+            <div class="alert alert-elevate alert-solid-warning alert-bold" role="alert">
+                <div class="alert-icon"><i class="fa fa-info-circle"></i></div>
+                <div class="alert-text">A simple primary alert—check it out!</div>
+                <div class="alert-close">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true"><i class="la la-close"></i></span>
+                    </button>
+                </div>
+            </div>
+            <!-- end:: Alert -->
 
-        <div class="kt-portlet" id = "login_Box_Div" >
+            <!--begin::Filter-->
+			<div class="kt-portlet" id = "login_Box_Div" >
 				<div class="kt-portlet__head">
 					<div class="kt-portlet__head-label">
 						<h3 class="kt-portlet__head-title">
@@ -174,12 +201,14 @@
 				</form>
 				<!--end::Form-->
 			</div>
-
-        <!--Begin::Section-->
-								<div class="kt-portlet__body">
-		<div class="row">
-
-			<div class="col-xl-12">
+            <!--begin::End-->
+<div class="row">
+								
+								
+								
+								
+								
+								<div class="col-xl-12">
 
 									<!--begin:: Widgets/Activity-->
 									<div class="kt-portlet kt-portlet--fit kt-portlet--head-lg kt-portlet--head-overlay kt-portlet--skin-solid kt-portlet--height-fluid">
@@ -274,14 +303,15 @@
 									<!--end:: Widgets/Activity-->
 								</div>
 
+							<!--End::Section-->
+
+							
+
+						
+						</div>
 			
-			
-			
-			</div>
-			
-			
-			
-<div class="kt-portlet kt-portlet--mobile ">
+
+			<div class="kt-portlet kt-portlet--mobile ">
 				<div class="kt-portlet__body">
 					<!--begin: Datatable -->
 					<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
@@ -1027,7 +1057,9 @@
 						</div>
                     <!-- end:: pageline -->
 
-               <!--begin::Modal 1-->
+                </div>
+            </div>
+			<!--begin::Modal 1-->
 									<div class="modal fade" id="modal_jalur_keluar_offline" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 									<div class="modal-content">
@@ -12504,26 +12536,53 @@
 									<!--end: Datatable -->
 								</div>
 								</div>
-								</div>
-								</div>
-								</div>
 
 						<!-- end:: Content -->
 
 <!-- End Samarinda -->
-	
-		
-
-		<!--End::Section-->
-
-	
-
-<?php require '../layouts/footer.php' ?>
+						
 
 
-<script src="../assets/dist/bootstrap-datepicker/dist/js/bootstrap-datepicker.min.js" type="text/javascript"></script>
-<script src="../assets/js/pages/crud/forms/widgets/bootstrap-datepicker.js" type="text/javascript"></script>
-<script src="../assets/dist/bootstrap-select/dist/js/bootstrap-select.js" type="text/javascript"></script>
-<script src="../assets/js/pages/crud/forms/widgets/bootstrap-select.js" type="text/javascript"></script>
 
-<?php require '../layouts/foot.php' ?>
+                
+       
+						<?php require '../layouts/footer.php' ?>
+						<script src="https://code.highcharts.com/highcharts.js"></script>
+						<script src="https://code.highcharts.com/modules/exporting.js"></script>
+						<script src="https://code.highcharts.com/modules/export-data.js"></script>
+						<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+						<script src="../assets/js/chart/highchart.js" type="text/javascript"></script>
+						<script src="../assets/js/chart/highchart-kendaraan-masukvskeluar.js" type="text/javascript"></script>
+						<?php require '../layouts/foot.php' ?>
+						<?php require './layouts/script.php' ?>
+						<script>
+$(document).READY(function(){
+$(".btn-collapse-onboarding").click(function(){
+	$(".show-large-tb").hide(1000);
+});
+$("#btnShowHide").click(function(){
+	$("#divShowHide").toggle();
+});
+$("#btnShowHide2").click(function(){
+	$("#divShowHide2").toggle();
+});
+$("#btnShowHide3").click(function(){
+	$("#divShowHide3").toggle();
+});
+$("#btnShowHide4").click(function(){
+	$("#divShowHide4").toggle();
+});
+$("#btnShowHide5").click(function(){
+	$("#divShowHide5").toggle();
+});
+$("#btnShowHide6").click(function(){
+	$("#divShowHide6").toggle();
+});
+$("#btnShowHide7").click(function(){
+	$("#divShowHide7").toggle();
+});
+$("#btnShowHide8").click(function(){
+	$("#divShowHide8").toggle();
+});
+});
+</script>
