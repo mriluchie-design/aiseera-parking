@@ -148,6 +148,18 @@
                                      
                                   </select>
                             </div>
+							<div class="col-lg-2">
+                                <label>Perangkat :</label>
+								
+                               <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Dispenser Single</option>
+                                      <option value="1">Dispenser Double</option>
+                                      <option value="1">Barrier Gate</option>
+                                      <option value="1">Sensor</option>
+									  <option value="2" selected>Keseluruhan</option>
+                                     
+                                  </select>
+                            </div>
 							
                             
 								
@@ -326,7 +338,7 @@
 														<div class="kt-widget17__item">
 															
 															<span class="kt-widget17__subtitle" style="text-align:center">
-																Total Perangkat
+																Total
 															</span>
 
 															<span class="kt-widget17__desc" style="text-align:center">
@@ -336,7 +348,7 @@
 														</div>
 														<div class="kt-widget17__item">
 															<span class="kt-widget17__subtitle" style="text-align:center">
-																Selesai
+																Dispenser Single
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
 																<span style="color:#ed1c24; font-size:20px; font-weight:500" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">3</span>
@@ -346,7 +358,7 @@
 														
 														<div class="kt-widget17__item">
 															<span class="kt-widget17__subtitle" style="text-align:center">
-																Proses
+																Dispenser Double
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
 																<span style="color:#ed1c24; font-size:20px; font-weight:500" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">2</span>
@@ -354,7 +366,15 @@
 														</div>
 														<div class="kt-widget17__item">
 															<span class="kt-widget17__subtitle" style="text-align:center">
-																Ditolak
+																Barrier Gate
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:20px; font-weight:500" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">0</span>
+															</span>
+														</div>
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Sensor
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
 																<span style="color:#ed1c24; font-size:20px; font-weight:500" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">0</span>
@@ -392,19 +412,22 @@
 					<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
 										<thead>
 											<tr style="text-align:center">
-											  <th width="1%" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="5%" bgcolor="#f7fcff">Lokasi<br></th>
-											  <th width="1%" bgcolor="#f7fcff">Gate</th>
-											  <th width="1%" bgcolor="#f7fcff">Jalur</th>
-											  <th width="1%" bgcolor="#f7fcff">Nama Jalur</th>
-											  <th width="1%" bgcolor="#f7fcff">Kategori</th>
-											  <th width="1%" bgcolor="#f7fcff">Nomor SKU</th>
-											  <th width="1%" bgcolor="#f7fcff">Kode Barang</th>
-											  <th width="1%" bgcolor="#f7fcff">Jenis</th>
-											  <th width="10%" bgcolor="#f7fcff">Nama Barang</th>
-											  <th width="1%" bgcolor="#f7fcff">Installer</th>
-											  
-											  <th width="1%" bgcolor="#f7fcff">Aksi</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
+											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Lokasi<br></th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Gate</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Jalur</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Nama Jalur</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Nomor SKU</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Kode Barang</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Kategori</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Jenis</th>
+											  <th width="25%" rowspan="2" bgcolor="#f7fcff">Nama Barang</th>
+											  <th colspan="2" bgcolor="#f7fcff">Installer</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
+										  </tr>
+											<tr style="text-align:center">
+											  <th width="3%" bgcolor="#f7fcff">By</th>
+											  <th width="3%" bgcolor="#f7fcff">Perangkat</th>
 										  </tr>
 										</thead>
 										<tbody>
@@ -414,19 +437,19 @@
 												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 												<td style="text-align:left" nowrap>Mobil - 1</td>
-												<td nowrap="nowrap" style="text-align:left">Dispenser</td>
-												<td nowrap="nowrap" style="text-align:left">0001010726</td>
 												<td nowrap="nowrap" style="text-align:left">000101010726</td>
-												<td nowrap="nowrap" style="text-align:left">Dispenser</td>
+												<td nowrap="nowrap" style="text-align:left">0001010107260001</td>
+												<td nowrap="nowrap" style="text-align:left">Casing</td>
+												<td nowrap="nowrap" style="text-align:left">Casing</td>
 												<td nowrap="nowrap" style="text-align:left">Custom Casing Dispenser Single</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
-												      <li class="kt-nav__item"> <a href="permintaan-material-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="permintaan-material-proses.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-dolly"></i> <span class="kt-nav__link-text">Proses Permintaan</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="permintaan-material-penerimaan.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-dolly-flatbed"></i> <span class="kt-nav__link-text">Penerimaan Material</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="permintaan-material-cetak.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Permintaan</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="detail-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="history-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-history"></i> <span class="kt-nav__link-text">Lihat History</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="edit-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
 												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
 											        </ul>
 											      </div>
@@ -439,19 +462,19 @@
 												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 												<td style="text-align:left" nowrap>Mobil - 1</td>
-												<td nowrap="nowrap" style="text-align:left">Dispenser</td>
-												<td nowrap="nowrap" style="text-align:left">0002010726</td>
-												<td nowrap="nowrap" style="text-align:left">000102010726</td>
-												<td nowrap="nowrap" style="text-align:left">Payment</td>
+												<td nowrap="nowrap" style="text-align:left">000201010726</td>
+												<td nowrap="nowrap" style="text-align:left">0002010107260001</td>
+												<td nowrap="nowrap" style="text-align:left">Reader</td>
+												<td nowrap="nowrap" style="text-align:left">Payment Reader</td>
 												<td width="198">Payment Reader</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
-												      <li class="kt-nav__item"> <a href="permintaan-material-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="permintaan-material-proses.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-dolly"></i> <span class="kt-nav__link-text">Proses Permintaan</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="permintaan-material-penerimaan.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-dolly-flatbed"></i> <span class="kt-nav__link-text">Penerimaan Material</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="permintaan-material-cetak.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Permintaan</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="detail-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="history-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-history"></i> <span class="kt-nav__link-text">Lihat History</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="edit-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
 												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
 											        </ul>
 											      </div>
@@ -459,258 +482,265 @@
 
 										  </tr>
 										  <tr>
-												<td style="text-align:right" id="kt_table_1">3</td>
+										    <td id="kt_table_1" style="text-align:right">3</td>
+										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
+										    <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
+										    <td nowrap="nowrap" style="text-align:left">000301010726</td>
+										    <td nowrap="nowrap" style="text-align:left">0003010107260001</td>
+										    <td nowrap="nowrap" style="text-align:left">Scanner</td>
+										    <td nowrap="nowrap" style="text-align:left">Honeywel</td>
+										    <td>HF680 Orbit</td>
+										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026&lt;hr&gt;07:36:00 WITA&lt;hr&gt;12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+										    <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+										      <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item"> <a href="detail-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
+										          <li class="kt-nav__item"> <a href="history-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-history"></i> <span class="kt-nav__link-text">Lihat History</span></a></li>
+										          <li class="kt-nav__item"> <a href="edit-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td id="kt_table_1" style="text-align:right">4</td>
 												<td nowrap="nowrap" style="text-align:left">Makassar</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 												<td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-												<td nowrap="nowrap" style="text-align:left">Dispenser</td>
-												<td nowrap="nowrap" style="text-align:left">0003010726</td>
-												<td nowrap="nowrap" style="text-align:left">000103010726</td>
+												<td nowrap="nowrap" style="text-align:left">000401010726</td>
+												<td nowrap="nowrap" style="text-align:left">0004010107260001</td>
 												<td nowrap="nowrap" style="text-align:left">Printer</td>
-												<td>Printer Thermal</td>
+												<td nowrap="nowrap" style="text-align:left">Thermal</td>
+												<td>TMT82X Lan Port</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
+												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
-												      <li class="kt-nav__item"> <a href="permintaan-material-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="permintaan-material-proses.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-boxes"></i> <span class="kt-nav__link-text">Proses Permintaan</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="permintaan-material-cetak.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Permintaan</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="detail-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
+												      <li class="kt-nav__item"> <a href="history-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-history"></i> <span class="kt-nav__link-text">Lihat History</span></a></li>
+												      <li class="kt-nav__item"> <a href="edit-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
 											        </ul>
 											      </div>
 												  </div></td>
 										  </tr>
 <tr>
-												<td style="text-align:right" id="kt_table_1">4</td>
+  <td id="kt_table_1" style="text-align:right">5</td>
 												<td nowrap="nowrap" style="text-align:left">Makassar</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 												<td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-												<td nowrap="nowrap" style="text-align:left">Dispenser</td>
-												<td nowrap="nowrap" style="text-align:left">0004010726</td>
-												<td nowrap="nowrap" style="text-align:left">000104010726</td>
+												<td nowrap="nowrap" style="text-align:left">000501010726</td>
+												<td nowrap="nowrap" style="text-align:left">0005010107260001</td>
 												<td nowrap="nowrap" style="text-align:left">Webcam</td>
-												<td>Webcam</td>
+												<td nowrap="nowrap" style="text-align:left">Webcam</td>
+												<td>Logitech Webcam C270</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
+												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-												  <ul class="kt-nav">
-												      <li class="kt-nav__item"> <a href="permintaan-material-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="permintaan-material-proses.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-boxes"></i> <span class="kt-nav__link-text">Proses Permintaan</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="permintaan-material-cetak.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Permintaan</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+												    <ul class="kt-nav">
+												      <li class="kt-nav__item"> <a href="detail-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
+												      <li class="kt-nav__item"> <a href="history-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-history"></i> <span class="kt-nav__link-text">Lihat History</span></a></li>
+												      <li class="kt-nav__item"> <a href="edit-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
 											        </ul>
 											      </div>
 												  </div></td>
 										  </tr>
 <tr>
-												<td style="text-align:right" id="kt_table_1">5</td>
+  <td id="kt_table_1" style="text-align:right">6</td>
 												<td style="text-align:left" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 												<td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-												<td nowrap="nowrap" style="text-align:left">Dispenser</td>
-												<td nowrap="nowrap" style="text-align:left">0005010726</td>
-												<td nowrap="nowrap" style="text-align:left">000105010726</td>
+												<td nowrap="nowrap" style="text-align:left">000601010726</td>
+												<td nowrap="nowrap" style="text-align:left">0006010107260001</td>
 												<td nowrap="nowrap" style="text-align:left">Button</td>
-												<td>Button Bantuan</td>
+												<td nowrap="nowrap" style="text-align:left">Bantuan</td>
+												<td nowrap="nowrap" style="text-align:left">Button Bantuan</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
+												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
-												      <li class="kt-nav__item"> <a href="permintaan-material-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="permintaan-material-proses.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-boxes"></i> <span class="kt-nav__link-text">Proses Permintaan</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="permintaan-material-cetak.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Permintaan</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="detail-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
+												      <li class="kt-nav__item"> <a href="history-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-history"></i> <span class="kt-nav__link-text">Lihat History</span></a></li>
+												      <li class="kt-nav__item"> <a href="edit-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
 											        </ul>
 											      </div>
 												  </div></td>
 										  </tr>
 <tr>
-  <td style="text-align:right" id="kt_table_1">6</td>
+  <td id="kt_table_1" style="text-align:right">7</td>
   <td style="text-align:left" nowrap="nowrap">Makassar</td>
   <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
   <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
   <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-  <td nowrap="nowrap" style="text-align:left">Dispenser</td>
-  <td nowrap="nowrap" style="text-align:left">0006010726</td>
-  <td nowrap="nowrap" style="text-align:left">000106010726</td>
+  <td nowrap="nowrap" style="text-align:left">000801010726</td>
+  <td nowrap="nowrap" style="text-align:left">0008010107260001</td>
   <td nowrap="nowrap" style="text-align:left">Monitor</td>
-  <td>Display Layar</td>
+  <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
+  <td nowrap="nowrap" style="text-align:left">Monitor AOC 22B20JH2</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
-												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-												    <ul class="kt-nav">
-												      <li class="kt-nav__item"> <a href="permintaan-material-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="permintaan-material-proses.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-boxes"></i> <span class="kt-nav__link-text">Proses Permintaan</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="permintaan-material-cetak.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Permintaan</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
-											        </ul>
-											      </div>
-												  </div></td>
-</tr>
-<tr>
-												<td style="text-align:right" id="kt_table_1">7</td>
-												<td style="text-align:left" nowrap>Makassar</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
-												<td style="text-align:left" nowrap>Mobil - 1</td>
-												<td nowrap="nowrap" style="text-align:left">Dispenser</td>
-												<td nowrap="nowrap" style="text-align:left">0007010726</td>
-												<td nowrap="nowrap" style="text-align:left">000107010726</td>
-												<td nowrap="nowrap" style="text-align:left">Mini PC</td>
-												<td width="198">Mini PC</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
-												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-												    <ul class="kt-nav">
-												      <li class="kt-nav__item"> <a href="permintaan-material-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="permintaan-material-proses.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-dolly"></i> <span class="kt-nav__link-text">Proses Permintaan</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="permintaan-material-penerimaan.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-dolly-flatbed"></i> <span class="kt-nav__link-text">Penerimaan Material</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="permintaan-material-cetak.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Permintaan</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
-											        </ul>
-											      </div>
-												  </div></td>
-
-										  </tr>
-										  <tr>
-												<td style="text-align:right" id="kt_table_1">8</td>
-												<td style="text-align:left" nowrap>Makassar</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
-												<td style="text-align:left" nowrap>Mobil - 1</td>
-												<td nowrap="nowrap" style="text-align:left">Dispenser</td>
-												<td nowrap="nowrap" style="text-align:left">0008010726</td>
-												<td nowrap="nowrap" style="text-align:left">000108010726</td>
-												<td nowrap="nowrap" style="text-align:left">Jaringan</td>
-												<td>Hub Switch 8 Port Manageable    Cloud</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
-												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-												    <ul class="kt-nav">
-												      <li class="kt-nav__item"> <a href="permintaan-material-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="permintaan-material-proses.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-dolly"></i> <span class="kt-nav__link-text">Proses Permintaan</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="permintaan-material-penerimaan.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-dolly-flatbed"></i> <span class="kt-nav__link-text">Penerimaan Material</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="permintaan-material-cetak.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Permintaan</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
-											        </ul>
-											      </div>
-												  </div></td>
-
-										  </tr>
-										  <tr>
-												<td style="text-align:right" id="kt_table_1">9</td>
-												<td nowrap="nowrap" style="text-align:left">Makassar</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
-												<td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-												<td nowrap="nowrap" style="text-align:left">Dispenser</td>
-												<td nowrap="nowrap" style="text-align:left">0009010726</td>
-												<td nowrap="nowrap" style="text-align:left">000109010726</td>
-												<td nowrap="nowrap" style="text-align:left">Sensor</td>
-												<td>VLD Dispenser</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
-												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-												    <ul class="kt-nav">
-												      <li class="kt-nav__item"> <a href="permintaan-material-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="permintaan-material-proses.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-boxes"></i> <span class="kt-nav__link-text">Proses Permintaan</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="permintaan-material-cetak.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Permintaan</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
-											        </ul>
-											      </div>
-												  </div></td>
-										  </tr>
-<tr>
-												<td style="text-align:right" id="kt_table_1">10</td>
-												<td nowrap="nowrap" style="text-align:left">Makassar</td>
-
-												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
-												<td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-												<td nowrap="nowrap" style="text-align:left">Dispenser</td>
-												<td nowrap="nowrap" style="text-align:left">0010010726</td>
-												<td nowrap="nowrap" style="text-align:left">000110010726</td>
-												<td nowrap="nowrap" style="text-align:left">Controller</td>
-												<td>Controller Dispenser</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
-												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-												  <ul class="kt-nav">
-												      <li class="kt-nav__item"> <a href="permintaan-material-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="permintaan-material-proses.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-boxes"></i> <span class="kt-nav__link-text">Proses Permintaan</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="permintaan-material-cetak.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Permintaan</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
-											        </ul>
-											      </div>
-												  </div></td>
-										  </tr>
-<tr>
-												<td style="text-align:right" id="kt_table_1">11</td>
-												<td style="text-align:left" nowrap>Makassar</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
-												<td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-												<td nowrap="nowrap" style="text-align:left">Dispenser</td>
-												<td nowrap="nowrap" style="text-align:left">0011010726</td>
-												<td nowrap="nowrap" style="text-align:left">000111010726</td>
-												<td nowrap="nowrap" style="text-align:left">Speaker</td>
-												<td>Sound Speaker</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
-												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-												    <ul class="kt-nav">
-												      <li class="kt-nav__item"> <a href="permintaan-material-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="permintaan-material-proses.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-boxes"></i> <span class="kt-nav__link-text">Proses Permintaan</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="permintaan-material-cetak.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Permintaan</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
-											        </ul>
-											      </div>
-												  </div></td>
-										  </tr>
-<tr>
-  <td style="text-align:right" id="kt_table_1">12</td>
-  <td style="text-align:left" nowrap="nowrap">Makassar</td>
-  <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
-  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
-  <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-  <td nowrap="nowrap" style="text-align:left">Dispenser</td>
-  <td nowrap="nowrap" style="text-align:left">0012010726</td>
-  <td nowrap="nowrap" style="text-align:left">000112010726</td>
-  <td nowrap="nowrap" style="text-align:left">UPS</td>
-  <td>Ups</td>
-  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
-												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-												    <ul class="kt-nav">
-												      <li class="kt-nav__item"> <a href="permintaan-material-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="permintaan-material-proses.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-boxes"></i> <span class="kt-nav__link-text">Proses Permintaan</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="permintaan-material-cetak.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Permintaan</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
-											        </ul>
-											      </div>
-												  </div></td>
-</tr>
-<tr>
-  <td id="kt_table_1" style="text-align:right">13</td>
-  <td nowrap="nowrap" style="text-align:left">Makassar</td>
-  <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
-  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
-  <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-  <td nowrap="nowrap" style="text-align:left">Barrier Gate</td>
-  <td nowrap="nowrap" style="text-align:left">0013010726</td>
-  <td nowrap="nowrap" style="text-align:left">000113010726</td>
-  <td nowrap="nowrap" style="text-align:left">Barrier Gate</td>
-  <td width="198">Barrier    Gate Servo</td>
-  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026&lt;hr&gt;07:36:00 WITA&lt;hr&gt;12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+  <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
       <ul class="kt-nav">
-        <li class="kt-nav__item"> <a href="permintaan-material-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
-        <li class="kt-nav__item"> <a href="permintaan-material-proses.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-boxes"></i> <span class="kt-nav__link-text">Proses Permintaan</span></a></li>
-        <li class="kt-nav__item"> <a href="permintaan-material-cetak.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Permintaan</span></a></li>
+        <li class="kt-nav__item"> <a href="detail-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
+        <li class="kt-nav__item"> <a href="history-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-history"></i> <span class="kt-nav__link-text">Lihat History</span></a></li>
+        <li class="kt-nav__item"> <a href="edit-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+        <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+      </ul>
+    </div>
+  </div></td>
+  </tr>
+<tr>
+  <td id="kt_table_1" style="text-align:right">8</td>
+												<td style="text-align:left" nowrap>Makassar</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
+												<td style="text-align:left" nowrap>Mobil - 1</td>
+												<td nowrap="nowrap" style="text-align:left">001001010726</td>
+												<td nowrap="nowrap" style="text-align:left">0010010107260001</td>
+												<td nowrap="nowrap" style="text-align:left">Mini PC</td>
+												<td nowrap="nowrap" style="text-align:left">Asus NUC</td>
+												<td nowrap="nowrap" style="text-align:left">Asus NUC 14MNK15 - DDR5 8Gb +NVME 256Gb</td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
+												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+												    <ul class="kt-nav">
+												      <li class="kt-nav__item"> <a href="detail-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
+												      <li class="kt-nav__item"> <a href="history-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-history"></i> <span class="kt-nav__link-text">Lihat History</span></a></li>
+												      <li class="kt-nav__item"> <a href="edit-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+											        </ul>
+											      </div>
+												  </div></td>
+										  </tr>
+										  <tr>
+										    <td id="kt_table_1" style="text-align:right">9</td>
+												<td style="text-align:left" nowrap>Makassar</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
+												<td style="text-align:left" nowrap>Mobil - 1</td>
+												<td nowrap="nowrap" style="text-align:left">001201010726</td>
+												<td nowrap="nowrap" style="text-align:left">0012010107260001</td>
+												<td nowrap="nowrap" style="text-align:left">Jaringan</td>
+												<td nowrap="nowrap" style="text-align:left">Hub Switch Gigabit Manage</td>
+												<td nowrap="nowrap" style="text-align:left">Ruijie Reyee RG-ES208GC</td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
+												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+												    <ul class="kt-nav">
+												      <li class="kt-nav__item"> <a href="detail-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
+												      <li class="kt-nav__item"> <a href="history-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-history"></i> <span class="kt-nav__link-text">Lihat History</span></a></li>
+												      <li class="kt-nav__item"> <a href="edit-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+											        </ul>
+											      </div>
+												  </div></td>
+										  </tr>
+										  <tr>
+										    <td id="kt_table_1" style="text-align:right">10</td>
+												<td nowrap="nowrap" style="text-align:left">Makassar</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
+												<td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
+												<td nowrap="nowrap" style="text-align:left">002201010726</td>
+												<td nowrap="nowrap" style="text-align:left">0022010107260001</td>
+												<td nowrap="nowrap" style="text-align:left">Sensor</td>
+												<td nowrap="nowrap" style="text-align:left">VLD</td>
+												<td nowrap="nowrap" style="text-align:left">VLD Dispenser</td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
+												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+												    <ul class="kt-nav">
+												      <li class="kt-nav__item"> <a href="detail-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
+												      <li class="kt-nav__item"> <a href="history-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-history"></i> <span class="kt-nav__link-text">Lihat History</span></a></li>
+												      <li class="kt-nav__item"> <a href="edit-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+											        </ul>
+											      </div>
+												  </div></td>
+										  </tr>
+<tr>
+  <td id="kt_table_1" style="text-align:right">11</td>
+												<td nowrap="nowrap" style="text-align:left">Makassar</td>
+
+												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
+												<td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
+												<td nowrap="nowrap" style="text-align:left">002701010726</td>
+												<td nowrap="nowrap" style="text-align:left">0027010107260001</td>
+												<td nowrap="nowrap" style="text-align:left">Controller</td>
+												<td nowrap="nowrap" style="text-align:left">Dispenser</td>
+												<td nowrap="nowrap" style="text-align:left">Controller Dispenser</td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
+												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+												    <ul class="kt-nav">
+												      <li class="kt-nav__item"> <a href="detail-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
+												      <li class="kt-nav__item"> <a href="history-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-history"></i> <span class="kt-nav__link-text">Lihat History</span></a></li>
+												      <li class="kt-nav__item"> <a href="edit-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+											        </ul>
+											      </div>
+												  </div></td>
+										  </tr>
+<tr>
+  <td id="kt_table_1" style="text-align:right">12</td>
+												<td style="text-align:left" nowrap>Makassar</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
+												<td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
+												<td nowrap="nowrap" style="text-align:left">001101010726</td>
+												<td nowrap="nowrap" style="text-align:left">0011010107260001</td>
+												<td nowrap="nowrap" style="text-align:left">Speaker</td>
+												<td nowrap="nowrap" style="text-align:left">Speaker</td>
+												<td>Logitech Speaker</td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
+												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+												    <ul class="kt-nav">
+												      <li class="kt-nav__item"> <a href="detail-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
+												      <li class="kt-nav__item"> <a href="history-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-history"></i> <span class="kt-nav__link-text">Lihat History</span></a></li>
+												      <li class="kt-nav__item"> <a href="edit-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+											        </ul>
+											      </div>
+												  </div></td>
+										  </tr>
+<tr>
+  <td id="kt_table_1" style="text-align:right">13</td>
+  <td style="text-align:left" nowrap="nowrap">Makassar</td>
+  <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
+  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
+  <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
+  <td nowrap="nowrap" style="text-align:left">011101010726</td>
+  <td nowrap="nowrap" style="text-align:left">0111010107260001</td>
+  <td nowrap="nowrap" style="text-align:left">UPS</td>
+  <td nowrap="nowrap" style="text-align:left">UPS</td>
+  <td>APC 1200</td>
+  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+  <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
+  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+    <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+      <ul class="kt-nav">
+        <li class="kt-nav__item"> <a href="detail-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
+        <li class="kt-nav__item"> <a href="history-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-history"></i> <span class="kt-nav__link-text">Lihat History</span></a></li>
+        <li class="kt-nav__item"> <a href="edit-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
         <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
       </ul>
     </div>
@@ -722,166 +752,170 @@
   <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
   <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
   <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
+  <td nowrap="nowrap" style="text-align:left">003001010726</td>
+  <td nowrap="nowrap" style="text-align:left">0030010107260001</td>
   <td nowrap="nowrap" style="text-align:left">Barrier Gate</td>
-  <td nowrap="nowrap" style="text-align:left">0014010726</td>
-  <td nowrap="nowrap" style="text-align:left">000213010726</td>
+  <td nowrap="nowrap" style="text-align:left">Barrier Gate</td>
+  <td nowrap="nowrap" style="text-align:left">Barrier Gate Servo</td>
+  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026&lt;hr&gt;07:36:00 WITA&lt;hr&gt;12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+  <td nowrap="nowrap" style="text-align:left">Barrier Gate</td>
+  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+    <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+      <ul class="kt-nav">
+        <li class="kt-nav__item"> <a href="detail-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
+        <li class="kt-nav__item"> <a href="history-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-history"></i> <span class="kt-nav__link-text">Lihat History</span></a></li>
+        <li class="kt-nav__item"> <a href="edit-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+        <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+      </ul>
+    </div>
+  </div></td>
+  </tr>
+<tr>
+  <td id="kt_table_6" style="text-align:right">15</td>
+  <td nowrap="nowrap" style="text-align:left">Makassar</td>
+  <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
+  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
+  <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
+  <td nowrap="nowrap" style="text-align:left">002301010726</td>
+  <td nowrap="nowrap" style="text-align:left">0023010107260001</td>
   <td nowrap="nowrap" style="text-align:left">Sensor</td>
-  <td>VLD  Barrier Gate</td>
+  <td nowrap="nowrap" style="text-align:left">VLD</td>
+  <td nowrap="nowrap" style="text-align:left">VLD Barrier Gate Matrix</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026&lt;hr&gt;07:36:00 WITA&lt;hr&gt;12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
-    <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-      <ul class="kt-nav">
-        <li class="kt-nav__item"> <a href="permintaan-material-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
-        <li class="kt-nav__item"> <a href="permintaan-material-proses.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-dolly"></i> <span class="kt-nav__link-text">Proses Permintaan</span></a></li>
-        <li class="kt-nav__item"> <a href="permintaan-material-penerimaan.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-dolly-flatbed"></i> <span class="kt-nav__link-text">Penerimaan Material</span></a></li>
-        <li class="kt-nav__item"> <a href="permintaan-material-cetak.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Permintaan</span></a></li>
-        <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
-      </ul>
-    </div>
-  </div></td>
-  </tr>
-<tr>
-  <td style="text-align:right" id="kt_table_6">15</td>
-  <td nowrap="nowrap" style="text-align:left">Makassar</td>
-  <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
-  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
-  <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
   <td nowrap="nowrap" style="text-align:left">Barrier Gate</td>
-  <td nowrap="nowrap" style="text-align:left">0015010726</td>
-  <td nowrap="nowrap" style="text-align:left">000210010726</td>
+  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+    <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+      <ul class="kt-nav">
+        <li class="kt-nav__item"> <a href="detail-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
+        <li class="kt-nav__item"> <a href="history-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-history"></i> <span class="kt-nav__link-text">Lihat History</span></a></li>
+        <li class="kt-nav__item"> <a href="edit-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+        <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+      </ul>
+    </div>
+  </div></td>
+  </tr>
+<tr>
+  <td id="kt_table_5" style="text-align:right">16</td>
+  <td nowrap="nowrap" style="text-align:left">Makassar</td>
+  <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
+  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
+  <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
+  <td nowrap="nowrap" style="text-align:left">002801010726</td>
+  <td nowrap="nowrap" style="text-align:left">0028010107260001</td>
   <td nowrap="nowrap" style="text-align:left">Controller</td>
-  <td>Controller Barrier Gate</td>
+  <td nowrap="nowrap" style="text-align:left">Barrier Gate</td>
+  <td nowrap="nowrap" style="text-align:left">Controller Barrier Gate</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026&lt;hr&gt;07:36:00 WITA&lt;hr&gt;12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+  <td nowrap="nowrap" style="text-align:left">Barrier Gate</td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
       <ul class="kt-nav">
-        <li class="kt-nav__item"> <a href="permintaan-material-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
-        <li class="kt-nav__item"> <a href="permintaan-material-proses.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-dolly"></i> <span class="kt-nav__link-text">Proses Permintaan</span></a></li>
-        <li class="kt-nav__item"> <a href="permintaan-material-penerimaan.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-dolly-flatbed"></i> <span class="kt-nav__link-text">Penerimaan Material</span></a></li>
-        <li class="kt-nav__item"> <a href="permintaan-material-cetak.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Permintaan</span></a></li>
+        <li class="kt-nav__item"> <a href="detail-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
+        <li class="kt-nav__item"> <a href="history-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-history"></i> <span class="kt-nav__link-text">Lihat History</span></a></li>
+        <li class="kt-nav__item"> <a href="edit-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
         <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
       </ul>
     </div>
   </div></td>
   </tr>
 <tr>
-  <td style="text-align:right" id="kt_table_5">16</td>
+  <td id="kt_table_4" style="text-align:right">17</td>
   <td nowrap="nowrap" style="text-align:left">Makassar</td>
   <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
   <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
   <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-  <td nowrap="nowrap" style="text-align:left">Sensor dan Lainnya</td>
-  <td nowrap="nowrap" style="text-align:left">0016010726</td>
-  <td nowrap="nowrap" style="text-align:left">000114010726</td>
-  <td nowrap="nowrap" style="text-align:left">UHF Reader</td>
-  <td>UHF Reader Mid Range</td>
+  <td nowrap="nowrap" style="text-align:left">002601010726</td>
+  <td nowrap="nowrap" style="text-align:left">0026010107260001</td>
+  <td nowrap="nowrap" style="text-align:left">Sensor</td>
+  <td nowrap="nowrap" style="text-align:left">Member Mid Range</td>
+  <td nowrap="nowrap" style="text-align:left">Electron HW-VX6330K V2</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026&lt;hr&gt;07:36:00 WITA&lt;hr&gt;12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+  <td nowrap="nowrap" style="text-align:left">Sensor</td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
       <ul class="kt-nav">
-        <li class="kt-nav__item"> <a href="permintaan-material-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
-        <li class="kt-nav__item"> <a href="permintaan-material-proses.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-boxes"></i> <span class="kt-nav__link-text">Proses Permintaan</span></a></li>
-        <li class="kt-nav__item"> <a href="permintaan-material-cetak.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Permintaan</span></a></li>
+        <li class="kt-nav__item"> <a href="detail-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
+        <li class="kt-nav__item"> <a href="history-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-history"></i> <span class="kt-nav__link-text">Lihat History</span></a></li>
+        <li class="kt-nav__item"> <a href="edit-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
         <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
       </ul>
     </div>
   </div></td>
   </tr>
 <tr>
-  <td style="text-align:right" id="kt_table_4">17</td>
+  <td id="kt_table_3" style="text-align:right">18</td>
   <td nowrap="nowrap" style="text-align:left">Makassar</td>
   <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
   <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
   <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-  <td nowrap="nowrap" style="text-align:left">Sensor dan Lainnya</td>
-  <td nowrap="nowrap" style="text-align:left">0017010726</td>
-  <td nowrap="nowrap" style="text-align:left">000115010726</td>
+  <td nowrap="nowrap" style="text-align:left">003601010726</td>
+  <td nowrap="nowrap" style="text-align:left">0036010107260001</td>
+  <td nowrap="nowrap" style="text-align:left">Camera</td>
   <td nowrap="nowrap" style="text-align:left">IP Camera</td>
-  <td>IP Camera</td>
+  <td nowrap="nowrap" style="text-align:left">HIKVISION IP Camera 4MP </td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026&lt;hr&gt;07:36:00 WITA&lt;hr&gt;12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+  <td nowrap="nowrap" style="text-align:left">Sensor</td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
       <ul class="kt-nav">
-        <li class="kt-nav__item"> <a href="permintaan-material-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
-        <li class="kt-nav__item"> <a href="permintaan-material-proses.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-boxes"></i> <span class="kt-nav__link-text">Proses Permintaan</span></a></li>
-        <li class="kt-nav__item"> <a href="permintaan-material-cetak.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Permintaan</span></a></li>
+        <li class="kt-nav__item"> <a href="detail-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
+        <li class="kt-nav__item"> <a href="history-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-history"></i> <span class="kt-nav__link-text">Lihat History</span></a></li>
+        <li class="kt-nav__item"> <a href="edit-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
         <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
       </ul>
     </div>
   </div></td>
   </tr>
-<tr>
-  <td style="text-align:right" id="kt_table_3">18</td>
-  <td nowrap="nowrap" style="text-align:left">Makassar</td>
-  <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
-  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
-  <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-  <td nowrap="nowrap" style="text-align:left">Sensor dan Lainnya</td>
-  <td nowrap="nowrap" style="text-align:left">0018010726</td>
-  <td nowrap="nowrap" style="text-align:left">000215010726</td>
-  <td nowrap="nowrap" style="text-align:left">ANPR Camera</td>
-  <td>ANPR Camera</td>
-  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026&lt;hr&gt;07:36:00 WITA&lt;hr&gt;12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
-    <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-      <ul class="kt-nav">
-        <li class="kt-nav__item"> <a href="permintaan-material-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
-        <li class="kt-nav__item"> <a href="permintaan-material-proses.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-boxes"></i> <span class="kt-nav__link-text">Proses Permintaan</span></a></li>
-        <li class="kt-nav__item"> <a href="permintaan-material-cetak.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Permintaan</span></a></li>
-        <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
-      </ul>
-    </div>
-  </div></td>
-  </tr>
-
 <tr>
   <td id="kt_table_4" style="text-align:right">19</td>
   <td nowrap="nowrap" style="text-align:left">Makassar</td>
   <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
   <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
   <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-  <td nowrap="nowrap" style="text-align:left">Sensor dan Lainnya</td>
-  <td nowrap="nowrap" style="text-align:left">0021010726</td>
-  <td nowrap="nowrap" style="text-align:left">000217010726</td>
-  <td nowrap="nowrap" style="text-align:left">Tiang</td>
-  <td>Tiang Kamera Mobil</td>
+  <td nowrap="nowrap" style="text-align:left">003701010726</td>
+  <td nowrap="nowrap" style="text-align:left">0037010107260001</td>
+  <td nowrap="nowrap" style="text-align:left">Camera</td>
+  <td nowrap="nowrap" style="text-align:left">ANPR Camera</td>
+  <td nowrap="nowrap" style="text-align:left">HIKVISION ANPR Camera 4MP</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026&lt;hr&gt;07:36:00 WITA&lt;hr&gt;12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+  <td nowrap="nowrap" style="text-align:left">Sensor</td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
       <ul class="kt-nav">
-        <li class="kt-nav__item"> <a href="permintaan-material-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
-        <li class="kt-nav__item"> <a href="permintaan-material-proses.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-boxes"></i> <span class="kt-nav__link-text">Proses Permintaan</span></a></li>
-        <li class="kt-nav__item"> <a href="permintaan-material-cetak.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Permintaan</span></a></li>
-        <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
-      </ul>
-    </div>
-  </div></td>
-  </tr>
-<tr>
-  <td id="kt_table_3" style="text-align:right">20</td>
-  <td nowrap="nowrap" style="text-align:left">Makassar</td>
-  <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
-  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
-  <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-  <td nowrap="nowrap" style="text-align:left">Sensor dan Lainnya</td>
-  <td nowrap="nowrap" style="text-align:left">0022010726</td>
-  <td nowrap="nowrap" style="text-align:left">000317010726</td>
-  <td nowrap="nowrap" style="text-align:left">Tiang</td>
-  <td>Tiang Quadbeam</td>
-  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026&lt;hr&gt;07:36:00 WITA&lt;hr&gt;12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
-    <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-      <ul class="kt-nav">
-        <li class="kt-nav__item"> <a href="permintaan-material-detail.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
-        <li class="kt-nav__item"> <a href="permintaan-material-proses.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-boxes"></i> <span class="kt-nav__link-text">Proses Permintaan</span></a></li>
-        <li class="kt-nav__item"> <a href="permintaan-material-cetak.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Permintaan</span></a></li>
+        <li class="kt-nav__item"> <a href="detail-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
+        <li class="kt-nav__item"> <a href="history-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-history"></i> <span class="kt-nav__link-text">Lihat History</span></a></li>
+        <li class="kt-nav__item"> <a href="edit-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
         <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
       </ul>
     </div>
   </div></td>
   </tr>
 
-  </tbody>
+<tr>
+  <td id="kt_table_3" style="text-align:right">20</td>
+  <td nowrap="nowrap" style="text-align:left">Makassar</td>
+  <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
+  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
+  <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
+  <td nowrap="nowrap" style="text-align:left">004301010726</td>
+  <td nowrap="nowrap" style="text-align:left">0043010107260001</td>
+  <td nowrap="nowrap" style="text-align:left">Tiang</td>
+  <td nowrap="nowrap" style="text-align:left">Tiang Mobil</td>
+  <td nowrap="nowrap" style="text-align:left">Tiang Kamera dan Sensor Member</td>
+  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026&lt;hr&gt;07:36:00 WITA&lt;hr&gt;12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+  <td nowrap="nowrap" style="text-align:left">Sensor</td>
+  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+    <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+      <ul class="kt-nav">
+        <li class="kt-nav__item"> <a href="detail-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span></a></li>
+        <li class="kt-nav__item"> <a href="history-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-history"></i> <span class="kt-nav__link-text">Lihat History</span></a></li>
+        <li class="kt-nav__item"> <a href="edit-perangkat-terpasang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+        <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+      </ul>
+    </div>
+  </div></td>
+  </tr>
+</tbody>
 									</table>
                     <!--end: Datatable -->
 
