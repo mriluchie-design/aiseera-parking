@@ -17,18 +17,97 @@
 								<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Operator Gate System </span>
+											Monitoring System </span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
 										</form>
 									</div>
 
 								</div>
+								<div class="kt-subheader__toolbar">
+                <button type="button" class="btn btn-label-danger btn-sm" id = "buttonLogin" onclick = "displayLoginBox()"><i class="flaticon-interface-6"></i> Filter Data</button>
+				
+                <a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
+                    <i class="flaticon2-printer"></i> Export Data</button>
+                    <!--<i class="flaticon2-plus"></i>-->
+                </a>
+                <div class="dropdown-menu dropdown-menu-fit dropdown-menu-md dropdown-menu-right">
+                    <!--begin::Nav-->
+                    <ul class="kt-nav">
+                        <li class="kt-nav__item">
+                            <a href="#" class="kt-nav__link">
+                                <i class="kt-nav__link-icon fa fa-file-pdf"></i><span class="kt-nav__link-text">PDF</span>
+                            </a>
+                          </li>
+                        <li class="kt-nav__item">
+                            <a href="#" class="kt-nav__link">
+                                <i class="kt-nav__link-icon fa fa-file-excel"></i><span class="kt-nav__link-text">Excel</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!--end::Nav-->
+                </div>
+				<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
+			</div>
 							</div>
+						</div>
 						</div>
 						
 
             <div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
+			<div class="kt-portlet" id = "login_Box_Div" >
+            <div class="kt-portlet__head">
+                <div class="kt-portlet__head-label">
+                    <h3 class="kt-portlet__head-title">
+                        Filter Data
+                    </h3>
+                </div>
+            </div>
+            <!--begin::Form-->
+            <form class="kt-form">
+                <div class="kt-portlet__body">
+                    <div class="form-group row">
+					<div class="col-lg-2">
+                                <label>Cabang :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Makassar</option>
+                                      <option value="2">Pare-Pare</option>
+                                      <option value="2">Balikpapan</option>
+                                      <option value="2">Samarinda</option>
+                                      <option value="2">Tarakan</option>
+                                      <option value="2">Nunukan</option>
+                                      <option value="2">Manado</option>
+                                      <option value="2">Bitung</option>
+                                      <option value="2">Ambon - Yos Sudarso</option>
+                                      <option value="2">Ambon - Slamet Riyadi</option>
+                                      <option value="2">Ternate</option>
+                                      <option value="2">Sorong</option>
+                                      <option value="2">Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
+                        
+                        
+                        
+                       
+                    </div>
+                    <div class="kt-portlet__foot text-center">
+                        <div class="kt-form__actions">
+                            <button type="reset" class="btn btn-secondary btn-sm">Reset</button>
+                            <button type="reset" class="btn btn-primary btn-sm"><i class="flaticon-interface-6"></i>Filter Data</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <!--end::Form-->
+        </div>
 			<div class="row">
 								
 
@@ -257,37 +336,14 @@
 										<div class="kt-portlet__head kt-portlet__head--noborder kt-portlet__space-x">
 											<div class="kt-portlet__head-label">
 												<h3 class="kt-portlet__head-title">
-													Permintaan Bantuan
+													Monitoring Room
 												</h3>
 											</div>
 											<div class="kt-portlet__head-toolbar">
 												<a href="#" class="btn btn-label-light btn-sm dropdown-toggle" data-toggle="dropdown">
 													Hari ini
 												</a>
-												<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-													<ul class="kt-nav">
-														<li class="kt-nav__item">
-															<a href="#" class="kt-nav__link">
-																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
-																<span class="kt-nav__link-text">Bulan ini</span>
-															</a>
-														</li>
-														<li class="kt-nav__item">
-															<a href="#" class="kt-nav__link">
-																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
-																<span class="kt-nav__link-text">Tahun ini</span>
-															</a>
-														</li>
-														<li class="kt-nav__item">
-															<a href="#" class="kt-nav__link">
-																<i class="kt-nav__link-icon fa fa-chart-bar"></i>
-																<span class="kt-nav__link-text">Keseluruhan</span>
-															</a>
-														</li>
-														
-														
-													</ul>
-												</div>
+												
 											</div>
 										</div>
 										<div class="kt-portlet__body kt-portlet__body--fit">
@@ -298,34 +354,7 @@
 													</div>
 												</div>
 												<div class="kt-widget17__stats">
-													<div class="kt-widget17__items">
-														<div class="kt-widget17__item">
-															<div class="row mt-6">
-											<div class="col-lg-8" style="font-size:.955rem; color:#374163; text-transform:italic">
-												<span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">GATE - 1</span><hr>
-											
-																<span class="btn btn-twitter btn-sm">MASUK</span>&nbsp;<span class="btn btn-label-brand btn-sm">MOBIL - 1</span> 
-														
-											</div>
-											
-											<div class="col-lg-4" style="margin-top:15px;" >
-												<button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#modal_bantuan" data-html="true">Menunggu</button>
-											</div>
-										</div>
-										
-										
-														</div>
-														
-														
-														
-														
-														
-														
-														
-														
-														
-														
-													</div>
+													
 													<div class="kt-widget17__items">
 														
 														
@@ -346,18 +375,102 @@
 														
 														
 														<div class="kt-widget17__item">
-															<div class="row mt-6">
-											<div class="col-lg-8" style="font-size:.955rem; color:#374163; text-transform:italic">
-												<span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">GATE - 2</span><hr>
-											
-																<span class="btn btn-label-warning btn-sm">KELUAR</span>&nbsp;<span class="btn btn-label-brand btn-sm">MOBIL - 1</span> 
+															<div class="row">
+                                    <div class="col-md-10">
+                                        <div class="kt-timeline-v2">
+        									<div class="kt-timeline-v2__items">
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Server
+        											</div>
+        										</div>
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+        											<div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												NVR CCTV
+        											</div>
+													
+        										</div>
+
+        										<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-brand"></i>
+        											</div>
+                              <div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												Hub / Switch
+        											</div>
+        										</div>
+												<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+                              <div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												PC
+        											</div>
+        										</div>
+												
+<div class="kt-timeline-v2__item">
+        											<span class="kt-timeline-v2__item-time"><span class="btn btn-success btn-sm">Online</span></span>
+        											<div class="kt-timeline-v2__item-cricle">
+        												<i class="fa fa-genderless kt-font-success"></i>
+        											</div>
+                              <div class="kt-timeline-v2__item-text kt-timeline-v2__item-text--bold">
+        												CCTV
+        											</div>
+        										</div>
+        									</div>
+
+        								</div>
+                      </div>
+					  
+									<div class="col-md-2" style="border-left:1px solid #eee">
+											<div class="kt-widget6">
+												<div class="kt-widget6__body">
+												<div class="kt-widget6__item" style="margin-top:-3px;">
+														<a href="#" class="btn btn-label-danger btn-icon btn-sm" data-toggle="modal" data-target="#modal_maintenance" data-original-title="Maintenance" data-html="true"><i class="la la-bell"></i></a>
 														
+													</div>
+													
+													<div class="kt-widget6__item" style="margin-top:-5px;">
+														<a href="#" class="btn btn-label-danger btn-icon btn-sm" data-toggle="modal" data-target="#modal_maintenance" data-original-title="Maintenance" data-html="true"><i class="la la-bell"></i></a>
+														
+													</div>
+													<div class="kt-widget6__item" style="margin-top:-5px;">
+														<a href="#" class="btn btn-label-danger btn-icon btn-sm" data-toggle="modal" data-target="#modal_maintenance" data-original-title="Maintenance" data-html="true"><i class="la la-bell"></i></a>
+														
+													</div>
+													<div class="kt-widget6__item" style="margin-top:-5px;">
+														<a href="#" class="btn btn-label-danger btn-icon btn-sm" data-toggle="modal" data-target="#modal_maintenance" data-original-title="Maintenance" data-html="true"><i class="la la-bell"></i></a>
+														
+													</div>
+													<div class="kt-widget6__item" style="margin-top:-5px;">
+														<a href="#" class="btn btn-label-danger btn-icon btn-sm" data-toggle="modal" data-target="#modal_maintenance" data-original-title="Maintenance" data-html="true"><i class="la la-bell"></i></a>
+														
+													</div>
+
+
+
+													
+													
+													
+												</div>
 											</div>
-											
-											<div class="col-lg-4" style="margin-top:15px;" >
-												<button type="button" class="btn btn-danger btn-sm" data-toggle="modal" data-target="#modal_bantuan" data-html="true">Menunggu</button>
-											</div>
-										</div>
+                                    </div>
+					 
+					  
+					  
+                   
+
+                                </div>
 										
 										
 														</div>
