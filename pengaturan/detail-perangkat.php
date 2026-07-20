@@ -232,12 +232,14 @@ function goBack() {
   <tbody><tr style="text-align:center">
     <td width="1%" bgcolor="#f7fcff" rowspan="2" >No</td>
     <td width="1%" rowspan="2" bgcolor="#f7fcff" >Kode SKU</td>
-    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Kategori</td>
-    <td width="6%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
-    <td width="15%" rowspan="2" bgcolor="#f7fcff" >Nama Barang</td>
+    <td colspan="3" bgcolor="#f7fcff" >Barang</td>
     <td colspan="2" bgcolor="#f7fcff">Qty</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff">Perangkat</td>
     </tr>
     <tr style="text-align:center">
+      <td width="1%" bgcolor="#f7fcff" >Kategori</td>
+      <td width="6%" bgcolor="#f7fcff" >Jenis</td>
+      <td width="15%" bgcolor="#f7fcff" >Nama</td>
       <td width="1%" bgcolor="#f7fcff" >Vol</td>
       <td width="1%" bgcolor="#f7fcff" >Satuan</td>
     </tr>
@@ -250,7 +252,8 @@ function goBack() {
     <td style="text-align:left">Casing</td>
     <td style="text-align:left">Custom Casing Dispenser Single</td>
     <td nowrap="nowrap" style="text-align:right">1</td>
-    <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:center">Unit</td>
+    <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
     </tr>
 <tr>
     <td style="text-align:right">2</td>
@@ -259,7 +262,8 @@ function goBack() {
     <td style="text-align:left">Payment Reader</td>
     <td style="text-align:left">Payment Reader</td>
     <td nowrap="nowrap" style="text-align:right">1</td>
-    <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:center">Unit</td>
+    <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
     </tr>
 <tr>
     <td style="text-align:right">3</td>
@@ -268,7 +272,8 @@ function goBack() {
     <td style="text-align:left">Thermal</td>
     <td style="text-align:left">TMT82X Lan Port</td>
     <td nowrap="nowrap" style="text-align:right">1</td>
-    <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:center">Unit</td>
+    <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
     </tr>
   <tr>
     <td style="text-align:right">4</td>
@@ -277,7 +282,8 @@ function goBack() {
     <td style="text-align:left">Webcam</td>
     <td style="text-align:left">Logitech Webcam C270</td>
     <td nowrap="nowrap" style="text-align:right">1</td>
-    <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:center">Unit</td>
+    <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
     </tr>
   <tr>
     <td style="text-align:right">5</td>
@@ -286,7 +292,8 @@ function goBack() {
     <td style="text-align:left">Bantuan</td>
     <td style="text-align:left">Button Bantuan</td>
     <td nowrap="nowrap" style="text-align:right">1</td>
-    <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:center">Unit</td>
+    <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
     </tr>
   <tr>
     <td style="text-align:right">6</td>
@@ -295,7 +302,8 @@ function goBack() {
     <td style="text-align:left">Dispenser Single</td>
     <td style="text-align:left">Monitor AOC 22B20JH2</td>
     <td nowrap="nowrap" style="text-align:right">1</td>
-    <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:center">Unit</td>
+    <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
     </tr>
   <tr>
     <td style="text-align:right">7</td>
@@ -304,7 +312,8 @@ function goBack() {
     <td style="text-align:left">Asus NUC</td>
     <td style="text-align:left">Asus NUC 14MNK15 - DDR5 8Gb +NVME 256Gb</td>
     <td nowrap="nowrap" style="text-align:right">1</td>
-    <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:center">Unit</td>
+    <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
     </tr>
   <tr>
     <td style="text-align:right">8</td>
@@ -313,16 +322,19 @@ function goBack() {
     <td style="text-align:left">Hub Switch Gigabit Manage</td>
     <td style="text-align:left">Ruijie Reyee RG-ES208GC</td>
     <td nowrap="nowrap" style="text-align:right">1</td>
-    <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:center">Unit</td>
+    <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
     </tr>
   <tr>
     <td style="text-align:right">9</td>
     <td nowrap="nowrap" style="text-align:left">002201010726</td>
     <td style="text-align:left">Sensor</td>
     <td style="text-align:left">VLD</td>
+
     <td style="text-align:left">VLD Dispenser</td>
     <td nowrap="nowrap" style="text-align:right">1</td>
-    <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:center">Unit</td>
+    <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
     </tr>
   <tr>
     <td style="text-align:right">10</td>
@@ -331,7 +343,8 @@ function goBack() {
     <td style="text-align:left">Dispenser</td>
     <td style="text-align:left">Controller Dispenser</td>
     <td nowrap="nowrap" style="text-align:right">1</td>
-    <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:center">Unit</td>
+    <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
     </tr>
   <tr>
     <td style="text-align:right">11</td>
@@ -340,7 +353,8 @@ function goBack() {
     <td style="text-align:left">Logitech</td>
     <td style="text-align:left">CTSL100</td>
     <td nowrap="nowrap" style="text-align:right">1</td>
-    <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:center">Unit</td>
+    <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
     </tr>
   <tr>
     <td style="text-align:right">12</td>
@@ -349,7 +363,8 @@ function goBack() {
     <td style="text-align:left">APC</td>
     <td style="text-align:left">APC 1200</td>
     <td nowrap="nowrap" style="text-align:right">1</td>
-    <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:center">Unit</td>
+    <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
     </tr>
   
 
@@ -388,12 +403,14 @@ function goBack() {
   <tbody><tr style="text-align:center">
     <td width="1%" bgcolor="#f7fcff" rowspan="2" >No</td>
     <td width="1%" rowspan="2" bgcolor="#f7fcff" >Kode SKU</td>
-    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Kategori</td>
-    <td width="6%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
-    <td width="15%" rowspan="2" bgcolor="#f7fcff" >Nama Barang</td>
+    <td colspan="3" bgcolor="#f7fcff" >Barang</td>
     <td colspan="2" bgcolor="#f7fcff">Qty</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff">Perangkat</td>
     </tr>
     <tr style="text-align:center">
+      <td width="1%" bgcolor="#f7fcff" >Kategori</td>
+      <td width="6%" bgcolor="#f7fcff" >Jenis</td>
+      <td width="15%" bgcolor="#f7fcff" >Nama</td>
       <td width="1%" bgcolor="#f7fcff" >Vol</td>
       <td width="1%" bgcolor="#f7fcff" >Satuan</td>
     </tr>
@@ -406,7 +423,8 @@ function goBack() {
     <td style="text-align:left">Barrier Gate</td>
     <td style="text-align:left">Barrier Gate Servo</td>
     <td nowrap="nowrap" style="text-align:right">1</td>
-    <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:center">Unit</td>
+    <td nowrap="nowrap" style="text-align:left">Barrier Gate</td>
     </tr>
 <tr>
   <td style="text-align:right">2</td>
@@ -415,7 +433,8 @@ function goBack() {
   <td style="text-align:left">VLD</td>
   <td style="text-align:left">VLD Hitam Matrix Barrier Gate</td>
   <td nowrap="nowrap" style="text-align:right">1</td>
-  <td nowrap="nowrap" style="text-align:left">Unit</td>
+  <td nowrap="nowrap" style="text-align:center">Unit</td>
+  <td nowrap="nowrap" style="text-align:left">Barrier Gate</td>
   </tr>
 </tbody>
 </table>
@@ -447,15 +466,17 @@ function goBack() {
 													<div class="form-group row">
 													<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
 
-  <tbody><tr style="text-align:center">
+   <tbody><tr style="text-align:center">
     <td width="1%" bgcolor="#f7fcff" rowspan="2" >No</td>
     <td width="1%" rowspan="2" bgcolor="#f7fcff" >Kode SKU</td>
-    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Kategori</td>
-    <td width="6%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
-    <td width="15%" rowspan="2" bgcolor="#f7fcff" >Nama Barang</td>
+    <td colspan="3" bgcolor="#f7fcff" >Barang</td>
     <td colspan="2" bgcolor="#f7fcff">Qty</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff">Perangkat</td>
     </tr>
     <tr style="text-align:center">
+      <td width="1%" bgcolor="#f7fcff" >Kategori</td>
+      <td width="6%" bgcolor="#f7fcff" >Jenis</td>
+      <td width="15%" bgcolor="#f7fcff" >Nama</td>
       <td width="1%" bgcolor="#f7fcff" >Vol</td>
       <td width="1%" bgcolor="#f7fcff" >Satuan</td>
     </tr>
@@ -468,7 +489,8 @@ function goBack() {
       <td style="text-align:left">Member Mid Range</td>
       <td style="text-align:left">Electron HW-VX6330K V2</td>
       <td nowrap="nowrap" style="text-align:right">1</td>
-      <td nowrap="nowrap" style="text-align:left">Unit</td>
+      <td nowrap="nowrap" style="text-align:center">Unit</td>
+      <td nowrap="nowrap" style="text-align:left">Sensor</td>
     </tr>
     <tr>
       <td style="text-align:right">2</td>
@@ -477,7 +499,8 @@ function goBack() {
       <td style="text-align:left">IP Camera</td>
       <td style="text-align:left">HIKVISION IP Camera 4MP</td>
       <td nowrap="nowrap" style="text-align:right">1</td>
-      <td nowrap="nowrap" style="text-align:left">Unit</td>
+      <td nowrap="nowrap" style="text-align:center">Unit</td>
+      <td nowrap="nowrap" style="text-align:left">Sensor</td>
     </tr>
     <tr>
       <td style="text-align:right">3</td>
@@ -486,7 +509,8 @@ function goBack() {
       <td style="text-align:left">ANPR Camera</td>
       <td style="text-align:left">HIKVISION ANPR Camera 4MP</td>
       <td nowrap="nowrap" style="text-align:right">1</td>
-      <td nowrap="nowrap" style="text-align:left">Unit</td>
+      <td nowrap="nowrap" style="text-align:center">Unit</td>
+      <td nowrap="nowrap" style="text-align:left">Sensor</td>
     </tr>
 </tbody>
 </table>

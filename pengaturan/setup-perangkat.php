@@ -250,6 +250,7 @@ function goBack() {
     <td width="6%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
     <td width="15%" rowspan="2" bgcolor="#f7fcff" >Nama Barang</td>
     <td colspan="2" bgcolor="#f7fcff">Qty</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Perangkat</td>
     <td width="1%" rowspan="2" bgcolor="#f7fcff" >Aksi</td>
   </tr>
     <tr style="text-align:center">
@@ -266,6 +267,7 @@ function goBack() {
     <td style="text-align:left">Custom Casing Dispenser Single</td>
     <td nowrap="nowrap" style="text-align:right">1</td>
     <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td style="text-align:left" nowrap>Dispenser Single</td>
     <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
   </tr>
 <tr>
@@ -276,6 +278,7 @@ function goBack() {
     <td style="text-align:left">Payment Reader</td>
     <td nowrap="nowrap" style="text-align:right">1</td>
     <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td style="text-align:left" nowrap>Dispenser Single</td>
     <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
   </tr>
 <tr>
@@ -286,6 +289,7 @@ function goBack() {
     <td style="text-align:left">TMT82X Lan Port</td>
     <td nowrap="nowrap" style="text-align:right">1</td>
     <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
     <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
     </tr>
   <tr>
@@ -296,6 +300,7 @@ function goBack() {
     <td style="text-align:left">Logitech Webcam C270</td>
     <td nowrap="nowrap" style="text-align:right">1</td>
     <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
     <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
     </tr>
   <tr>
@@ -306,6 +311,7 @@ function goBack() {
     <td style="text-align:left">Button Bantuan</td>
     <td nowrap="nowrap" style="text-align:right">1</td>
     <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
     <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
     </tr>
   <tr>
@@ -316,6 +322,7 @@ function goBack() {
     <td style="text-align:left">Monitor AOC 22B20JH2</td>
     <td nowrap="nowrap" style="text-align:right">1</td>
     <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
     <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
     </tr>
   <tr>
@@ -326,6 +333,7 @@ function goBack() {
     <td style="text-align:left">Asus NUC 14MNK15 - DDR5 8Gb +NVME 256Gb</td>
     <td nowrap="nowrap" style="text-align:right">1</td>
     <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
     <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
     </tr>
   <tr>
@@ -336,6 +344,7 @@ function goBack() {
     <td style="text-align:left">Ruijie Reyee RG-ES208GC</td>
     <td nowrap="nowrap" style="text-align:right">1</td>
     <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
     <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
     </tr>
   <tr>
@@ -346,6 +355,7 @@ function goBack() {
     <td style="text-align:left">VLD Dispenser</td>
     <td nowrap="nowrap" style="text-align:right">1</td>
     <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
     <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
     </tr>
   <tr>
@@ -356,6 +366,7 @@ function goBack() {
     <td style="text-align:left">Controller Dispenser</td>
     <td nowrap="nowrap" style="text-align:right">1</td>
     <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
     <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
     </tr>
   <tr>
@@ -366,6 +377,7 @@ function goBack() {
     <td style="text-align:left">CTSL100</td>
     <td nowrap="nowrap" style="text-align:right">1</td>
     <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
     <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
     </tr>
   <tr>
@@ -376,10 +388,11 @@ function goBack() {
     <td style="text-align:left">APC 1200</td>
     <td nowrap="nowrap" style="text-align:right">1</td>
     <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
     <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
     </tr>
   <tr>
-    <td colspan="8" style="text-align:right"><a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal_tambah_material">
+    <td colspan="9" style="text-align:right"><a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal_tambah_material_dispenser">
 											<i class="fa fa-plus-circle"></i>Tambah Barang
 										</a></td>
     </tr>
@@ -423,6 +436,7 @@ function goBack() {
     <td width="6%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
     <td width="15%" rowspan="2" bgcolor="#f7fcff" >Nama Barang</td>
     <td colspan="2" bgcolor="#f7fcff">Qty</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Perangkat</td>
     <td width="1%" rowspan="2" bgcolor="#f7fcff" >Aksi</td>
   </tr>
     <tr style="text-align:center">
@@ -439,6 +453,7 @@ function goBack() {
     <td style="text-align:left">Barrier Gate Servo</td>
     <td nowrap="nowrap" style="text-align:right">1</td>
     <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:left">Barrier Gate</td>
     <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
     </tr>
 <tr>
@@ -449,10 +464,11 @@ function goBack() {
     <td style="text-align:left">VLD Hitam Matrix Barrier Gate</td>
     <td nowrap="nowrap" style="text-align:right">1</td>
     <td nowrap="nowrap" style="text-align:left">Unit</td>
+    <td nowrap="nowrap" style="text-align:left">Barrier Gate</td>
     <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
     </tr>
 <tr>
-    <td colspan="8" style="text-align:right"><a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal_tambah_material">
+    <td colspan="9" style="text-align:right"><a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal_tambah_material_barrier">
 											<i class="fa fa-plus-circle"></i>Tambah Barang
 										</a></td>
     </tr>
@@ -494,6 +510,7 @@ function goBack() {
     <td width="6%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
     <td width="15%" rowspan="2" bgcolor="#f7fcff" >Nama Barang</td>
     <td colspan="2" bgcolor="#f7fcff">Qty</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Perangkat</td>
     <td width="1%" rowspan="2" bgcolor="#f7fcff" >Aksi</td>
   </tr>
     <tr style="text-align:center">
@@ -510,6 +527,7 @@ function goBack() {
       <td style="text-align:left">Electron HW-VX6330K V2</td>
       <td nowrap="nowrap" style="text-align:right">1</td>
       <td nowrap="nowrap" style="text-align:left">Unit</td>
+      <td nowrap="nowrap" style="text-align:left">Sensor</td>
       <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
     </tr>
     <tr>
@@ -520,6 +538,7 @@ function goBack() {
       <td style="text-align:left">HIKVISION IP Camera 4MP</td>
       <td nowrap="nowrap" style="text-align:right">1</td>
       <td nowrap="nowrap" style="text-align:left">Unit</td>
+      <td nowrap="nowrap" style="text-align:left">Sensor</td>
       <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
     </tr>
     <tr>
@@ -530,10 +549,11 @@ function goBack() {
       <td style="text-align:left">HIKVISION ANPR Camera 4MP</td>
       <td nowrap="nowrap" style="text-align:right">1</td>
       <td nowrap="nowrap" style="text-align:left">Unit</td>
+      <td nowrap="nowrap" style="text-align:left">Sensor</td>
       <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
     </tr>
 <tr>
-  <td colspan="8" style="text-align:right"><a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal_tambah_material">
+  <td colspan="9" style="text-align:right"><a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal_tambah_material_sensor">
     <i class="fa fa-plus-circle"></i>Tambah Barang
     </a></td>
 </tr>
@@ -599,7 +619,7 @@ function goBack() {
 					
                     <!--end: Datatable -->
 
-                    <div class="modal fade" id="modal_tambah_material" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal fade" id="modal_tambah_material_dispenser" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
 									<div class="modal-content">
 
@@ -629,6 +649,329 @@ function goBack() {
 										 <div class="kt-portlet__body">
                       
 						<div class="form-group row">
+						<div class="col-lg-6">
+														<label class="kt-font-brand"><code>*</code> Perangkat :</label>
+														 <select class="form-control kt-selectpicker" data-live-search="true">
+                                      
+                                      <option value="2">Dispenser Double</option>
+                                      <option value="2" selected>Dispenser Single</option>
+                                                                           
+                                  </select>
+													</div>
+													
+													</div>
+													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+													<div class="form-group row">
+						<div class="col-lg-6">
+														<label class="kt-font-brand"><code>*</code> Kategori :</label>
+														 <select class="form-control kt-selectpicker" data-live-search="true">
+                                      
+									  <option value="1">Casing</option>
+                                      <option value="2">Reader</option>
+                                      <option value="2">Scanner</option>
+                                      <option value="2" selected>Keseluruhan</option>
+                                                                           
+                                  </select>
+													</div>
+													<div class="col-lg-6">
+														<label class="kt-font-brand"><code>*</code> Jenis :</label>
+														<select class="form-control kt-selectpicker" data-live-search="true">
+                                      
+									  <option value="1">Casing</option>
+                                      <option value="2">Payment Reader</option>
+                                      <option value="2">Honeywel</option>
+                                      <option value="2" selected>Keseluruhan</option>
+                                                                           
+                                  </select>
+													</div>
+													</div>
+													
+													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+
+<div class="form-group row">
+													
+													<div class="col-lg-12">
+														<label class="kt-font-brand">Nama Barang :</label>
+														<select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
+        <option value="1" disabled>Cari/Pilih Barang...</option>
+        <optgroup label="Dispenser" class="a">
+          <option value="2" data-subtext="001501180726" selected>UHF READER MID RANGE</option>
+          <option value="5" data-subtext="001601180726">IP CAMERA</option>
+          <option value="5" data-subtext="001701180726">ANPR CAMERA</option>
+          <option value="5" data-subtext="001801180726">QUADBEAM</option>
+          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
+          </optgroup>
+        </select>
+													</div>
+												</div>
+												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+												<div class="form-group row">
+<div class="col-lg-6">
+														<label class="kt-font-brand">Volume :</label>
+														<input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1">
+													</div>
+													<div class="col-lg-6">
+														<label class="kt-font-brand">Satuan :</label>
+														<select name="select5" class="form-control kt-selectpicker" data-live-search="true">
+        <option value="AK" selected="selected">Unit</option>
+        <option value="AK">Pieces</option>
+        <option value="AK">Lembar</option>
+      </select>
+													</div>
+													</div>
+													
+												
+													
+						 
+						
+						  
+						
+                      </div>
+                      </div>
+                      </div>
+					  
+												
+
+
+
+
+												
+
+
+
+												
+													
+													
+
+												</div>
+												
+												
+												
+												
+
+
+												
+													
+													
+
+												</div>
+												
+											
+									<div class="kt-portlet__foot kt-align-right">
+												<div class="">
+													<button type="button" class="btn btn-sm btn-success">
+					<i class="fa fa-check-circle"></i>Simpan</button>
+												</div>
+											</div>
+
+
+
+
+									</div>
+
+									</div>
+								</div>
+							</div>
+							</div>
+							</div>
+							<div class="modal fade" id="modal_tambah_material_barrier" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+									<div class="modal-content">
+
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-boxes"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">TAMBAH BARANG</h3>
+											</div>
+<div class="kt-portlet__head-toolbar">
+											
+											&nbsp;
+												<button type="button" class="btn btn-secondary btn-sm btn-outline-danger" data-dismiss="modal">X</button>
+											</div>
+											
+										</div>
+										<div class="kt-portlet__body">
+											<div class="tab-content">
+										<div class="form-group row">	
+					  <div class="col-lg-12">
+
+									<!--begin::Portlet-->
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Barang</div><br><br>
+										 <div class="kt-portlet__body">
+                      
+						<div class="form-group row">
+						<div class="col-lg-6">
+														<label class="kt-font-brand"><code>*</code> Perangkat :</label>
+														 <select class="form-control kt-selectpicker" data-live-search="true">
+                                      
+                                     
+                                      <option value="2" selected>Barrier Gate</option>
+                                                                           
+                                  </select>
+													</div>
+													
+													</div>
+													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+													<div class="form-group row">
+						<div class="col-lg-6">
+														<label class="kt-font-brand"><code>*</code> Kategori :</label>
+														 <select class="form-control kt-selectpicker" data-live-search="true">
+                                      
+									  <option value="1">Casing</option>
+                                      <option value="2">Reader</option>
+                                      <option value="2">Scanner</option>
+                                      <option value="2" selected>Keseluruhan</option>
+                                                                           
+                                  </select>
+													</div>
+													<div class="col-lg-6">
+														<label class="kt-font-brand"><code>*</code> Jenis :</label>
+														<select class="form-control kt-selectpicker" data-live-search="true">
+                                      
+									  <option value="1">Casing</option>
+                                      <option value="2">Payment Reader</option>
+                                      <option value="2">Honeywel</option>
+                                      <option value="2" selected>Keseluruhan</option>
+                                                                           
+                                  </select>
+													</div>
+													</div>
+													
+													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+
+<div class="form-group row">
+													
+													<div class="col-lg-12">
+														<label class="kt-font-brand">Nama Barang :</label>
+														<select data-size="7" data-live-search="true" class="form-control kt-selectpicker">
+        <option value="1" disabled>Cari/Pilih Barang...</option>
+        <optgroup label="Dispenser" class="a">
+          <option value="2" data-subtext="001501180726" selected>UHF READER MID RANGE</option>
+          <option value="5" data-subtext="001601180726">IP CAMERA</option>
+          <option value="5" data-subtext="001701180726">ANPR CAMERA</option>
+          <option value="5" data-subtext="001801180726">QUADBEAM</option>
+          <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-search'></i> Cari Barang Lainnya</a>" class="select-option-add" value="add"></option>
+          </optgroup>
+        </select>
+													</div>
+												</div>
+												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+												<div class="form-group row">
+<div class="col-lg-6">
+														<label class="kt-font-brand">Volume :</label>
+														<input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1">
+													</div>
+													<div class="col-lg-6">
+														<label class="kt-font-brand">Satuan :</label>
+														<select name="select5" class="form-control kt-selectpicker" data-live-search="true">
+        <option value="AK" selected="selected">Unit</option>
+        <option value="AK">Pieces</option>
+        <option value="AK">Lembar</option>
+      </select>
+													</div>
+													</div>
+													
+												
+													
+						 
+						
+						  
+						
+                      </div>
+                      </div>
+                      </div>
+					  
+												
+
+
+
+
+												
+
+
+
+												
+													
+													
+
+												</div>
+												
+												
+												
+												
+
+
+												
+													
+													
+
+												</div>
+												
+											
+									<div class="kt-portlet__foot kt-align-right">
+												<div class="">
+													<button type="button" class="btn btn-sm btn-success">
+					<i class="fa fa-check-circle"></i>Simpan</button>
+												</div>
+											</div>
+
+
+
+
+									</div>
+
+									</div>
+								</div>
+							</div>
+							</div>
+							</div>
+							<div class="modal fade" id="modal_tambah_material_sensor" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+									<div class="modal-content">
+
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-boxes"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">TAMBAH BARANG</h3>
+											</div>
+<div class="kt-portlet__head-toolbar">
+											
+											&nbsp;
+												<button type="button" class="btn btn-secondary btn-sm btn-outline-danger" data-dismiss="modal">X</button>
+											</div>
+											
+										</div>
+										<div class="kt-portlet__body">
+											<div class="tab-content">
+										<div class="form-group row">	
+					  <div class="col-lg-12">
+
+									<!--begin::Portlet-->
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Barang</div><br><br>
+										 <div class="kt-portlet__body">
+                      
+						<div class="form-group row">
+						<div class="col-lg-6">
+														<label class="kt-font-brand"><code>*</code> Perangkat :</label>
+														 <select class="form-control kt-selectpicker" data-live-search="true">
+                                      
+                                     
+                                      <option value="2" selected>Sensor</option>
+                                                                           
+                                  </select>
+													</div>
+													
+													</div>
+													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+													<div class="form-group row">
 						<div class="col-lg-6">
 														<label class="kt-font-brand"><code>*</code> Kategori :</label>
 														 <select class="form-control kt-selectpicker" data-live-search="true">
