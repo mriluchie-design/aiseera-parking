@@ -264,7 +264,7 @@
 															</span>
 
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:24px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">13</span>
+																<span style="color:#ed1c24; font-size:20px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">13</span>
 															
 															</span>
 														</div>
@@ -273,7 +273,7 @@
 																Terlayani
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">23</span>
+																<span style="color:#ed1c24; font-size:20px;font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">23</span>
 															</span>
 														</div>
 														
@@ -283,7 +283,7 @@
 																Belum Terlayani
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:24px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">0</span>
+																<span style="color:#ed1c24; font-size:20px;font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">0</span>
 															</span>
 														</div>
 														
@@ -1467,6 +1467,9 @@ function goBack() {
 							</div>
 							<!--End::Modal 2-->
         </div>
+        </div>
+        </div>
+
 
 <?php require '../layouts/footer.php' ?>
 <?php require '../layouts/foot.php' ?>

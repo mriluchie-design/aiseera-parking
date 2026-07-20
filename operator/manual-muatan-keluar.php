@@ -25,7 +25,7 @@
 			
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Input Manual
+                    Input
                 </h3>
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
@@ -100,7 +100,161 @@ function goBack() {
 				
 					  
 					 
+					  <div class="form-group row">
+<div class="col-lg-8">
+
+									<!--begin::Portlet-->
+										<div class="kt-portlet kt-portlet--height-fluid--half kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Operator</div><br><br>
+										 <div class="kt-portlet__body">
+                      <div class="form-group row">
 					  
+						
+					  
+						<div class="col-lg-3">
+                          <label class="">Nama Petugas :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom">
+                        </div>
+						<div class="col-lg-3">
+                          <label class="">Jabatan :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Operator Gate">
+                        </div>
+						<div class="col-lg-1">
+                          <label class="">Karcis :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="50">
+                        </div>
+						<div class="col-lg-3">
+                          <label class="">IP Operator :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="192.168.88.100">
+                        </div>
+						<div class="col-lg-1">
+                          <label class="">Status :</label><br>
+                          <span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
+                        </div>
+						
+                        </div>
+						
+						
+						
+						
+                      </div>
+                      </div>
+			
+
+									<!--begin::Portlet-->
+										<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Kendaraan Berangkat</div><br><br>
+										 <div class="kt-portlet__body">
+                      <div class="form-group row">
+					  <div class="col-lg-6" >
+                          <label>Scan Kartu e-Money / Karcis :</label>
+                          <div class="kt-input-icon kt-input-icon--right">
+        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
+        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
+    		                            <span><i class="la la-search"></i></span>
+    		                        </span>
+    		                    </div>
+                        </div>
+						
+						<div class="col-lg-3" >
+                          <label style="color:#a2050c">Kendaraan :</label>
+                          <select class="form-control kt-selectpicker" data-live-search="true">
+                                        <option value="2">Motor</option>
+										<option value="2" selected="">Sedan / Jeep / Minibus</option>
+										<option value="2">Truck</option>
+										<option value="2">Tronton</option>
+										<option value="2">Trailer</option>
+										
+										<option value="2">Sepeda</option>
+										<option value="2">Gerobak</option>
+									  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+                                  </select>
+                        </div>
+						<div class="col-lg-2">
+                          <label class="">Plat Kendaraan :</label>
+                          <input type="text" class="form-control form-control-sm" placeholder="DD 1111 LU" disabled>
+                        </div>
+						
+						
+						
+					  
+						
+						
+						
+						
+						
+                      </div>
+                      </div>
+                      </div>
+					  
+					  
+					  
+					  
+                      </div>
+<div class="col-lg-2">
+
+									<!--begin::Portlet-->
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Foto Job Delivery</div><br><br>
+										 <div class="kt-portlet__body">
+                      <div class="form-group row" style="text-align:center">
+																					<div class="col-lg-12">
+																											<div>&nbsp;</div>
+																											<div class="kt-avatar kt-avatar--outline kt-avatar--circle-" id="kt_user_edit_avatar">
+																												<div class="kt-avatar__holder" style="background-image: url(&quot;http://keenthemes.com/metronic/preview/default/custom/user/../assets/media/users/300_20.jpg&quot;);"></div>
+																												<label class="kt-avatar__upload" data-toggle="kt-tooltip" title="" data-original-title="Upload Foto">
+																													<i class="fa fa-pen"></i>
+																													<input type="file" name="profile_avatar" accept=".png, .jpg, .jpeg">
+																												</label>
+																												<span class="kt-avatar__cancel" data-toggle="kt-tooltip" title="" data-original-title="Batal">
+																													<i class="fa fa-times"></i>
+																												</span>
+																											</div>
+																										</div>
+																					
+																					
+																					
+																				</div>
+																				</div>
+						
+						
+                      </div>
+					 
+					  
+                      </div>
+					  <div class="col-lg-2">
+
+									<!--begin::Portlet-->
+										
+					  <div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Foto Kendaraan</div><br><br>
+										 <div class="kt-portlet__body">
+                      <div class="form-group row" style="text-align:center">
+																					<div class="col-lg-12">
+																											<div>&nbsp;</div>
+																											<div class="kt-avatar kt-avatar--outline kt-avatar--circle-" id="kt_user_edit_avatar">
+																												<div class="kt-avatar__holder" style="background-image: url(&quot;http://keenthemes.com/metronic/preview/default/custom/user/../assets/media/users/300_20.jpg&quot;);"></div>
+																												<label class="kt-avatar__upload" data-toggle="kt-tooltip" title="" data-original-title="Upload Foto">
+																													<i class="fa fa-pen"></i>
+																													<input type="file" name="profile_avatar" accept=".png, .jpg, .jpeg">
+																												</label>
+																												<span class="kt-avatar__cancel" data-toggle="kt-tooltip" title="" data-original-title="Batal">
+																													<i class="fa fa-times"></i>
+																												</span>
+																											</div>
+																										</div>
+																					
+																					
+																					
+																				</div>
+																				</div>
+						
+						
+                      </div>
+					  
+                      </div>
+					  
+                      </div>
 					  <div class="form-group row">
 					  <div class="col-lg-4">
 
