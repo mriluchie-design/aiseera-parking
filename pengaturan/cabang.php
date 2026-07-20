@@ -108,19 +108,18 @@
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="20%" bgcolor="#f7fcff">Nama Kantor</th>
+											  <th width="2%" bgcolor="#f7fcff">Kode<br>Cabang</th>
+											  <th width="10%" bgcolor="#f7fcff">Nama Cabang</th>
 											  <th width="20%" bgcolor="#f7fcff">Alamat Kantor</th>
-											  <th width="2%" bgcolor="#f7fcff">Status</th>
 											  <th width="1%" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 										</thead>
 										<tbody>
 											<tr>
-												<td>1</td>
-												<td align="left" valign="left" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
-												<td align="left" valign="left" style="text-align:left">Jl. soekarno No. 1 Mampu Wajo, Mampu, Kec. Makassar, Kota Makassar, Sulawesi Selatan 90164</td>
-												<td align="center" valign="center" style="text-align:center">Pusat</td>
-												
+												<td align="right">1</td>
+												<td align="center" valign="center" style="text-align:center">MKS</td>
+												<td align="left" valign="left" style="text-align:left">Cabang Makassar</td>
+												<td align="left" valign="left" style="text-align:left">Jl. soekarno No. 1 Kota Makassar, Sulawesi Selatan 90164</td>
 												<td width="1%" style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -146,11 +145,10 @@
 															</div></td>
 										  </tr>
 										  <tr>
-												<td>2</td>
-												<td align="left" valign="left" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4 Makassar</td>
-												<td align="left" valign="left" style="text-align:left">Jl. soekarno No. 1 Mampu Wajo, Mampu, Kec. Makassar, Kota Makassar, Sulawesi Selatan 90164</td>
-												<td align="center" valign="center" style="text-align:center">Cabang</td>
-												
+												<td align="right">2</td>
+												<td align="center" valign="center" style="text-align:center">BPP</td>
+												<td align="left" valign="left" style="text-align:left">Cabang Balikpapan</td>
+												<td align="left" valign="left" style="text-align:left"></td>
 												<td width="1%" style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -175,6 +173,174 @@
 																</div>
 															</div></td>
 										  </tr>
+										  <tr>
+										    <td align="right">3</td>
+										    <td align="center" valign="center" style="text-align:center">SMD</td>
+										    <td align="left" valign="left" style="text-align:left">Cabang Samarinda</td>
+										    <td align="left" valign="left" style="text-align:left">&nbsp;</td>
+										    <td width="1%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+										      <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td align="right">4</td>
+										    <td align="center" valign="center" style="text-align:center">AYS</td>
+										    <td align="left" valign="left" style="text-align:left">Cabang Ambon - Yos Sudarso</td>
+										    <td align="left" valign="left" style="text-align:left">&nbsp;</td>
+										    <td width="1%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+										      <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td align="right">5</td>
+										    <td align="center" valign="center" style="text-align:center">ASR</td>
+										    <td align="left" valign="left" style="text-align:left">Cabang Ambon - Slamet Riyadi</td>
+										    <td align="left" valign="left" style="text-align:left">&nbsp;</td>
+										    <td width="1%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+										      <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td align="right">6</td>
+										    <td align="center" valign="center" style="text-align:center">SRG</td>
+										    <td align="left" valign="left" style="text-align:left">Cabang Sorong</td>
+										    <td align="left" valign="left" style="text-align:left">&nbsp;</td>
+										    <td width="1%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+										      <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td align="right">7</td>
+										    <td align="center" valign="center" style="text-align:center">BTG</td>
+										    <td align="left" valign="left" style="text-align:left">Cabang Bitung</td>
+										    <td align="left" valign="left" style="text-align:left">&nbsp;</td>
+										    <td width="1%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+										      <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td align="right">8</td>
+										    <td align="center" valign="center" style="text-align:center">MDO</td>
+										    <td align="left" valign="left" style="text-align:left">Cabang Manado</td>
+										    <td align="left" valign="left" style="text-align:left">&nbsp;</td>
+										    <td width="1%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+										      <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td align="right">9</td>
+										    <td align="center" valign="center" style="text-align:center">NNK</td>
+										    <td align="left" valign="left" style="text-align:left">Cabang Nunukan</td>
+										    <td align="left" valign="left" style="text-align:left">&nbsp;</td>
+										    <td width="1%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+										      <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td align="right">10</td>
+										    <td align="center" valign="center" style="text-align:center">TRT</td>
+										    <td align="left" valign="left" style="text-align:left">Cabang Ternate</td>
+										    <td align="left" valign="left" style="text-align:left">&nbsp;</td>
+										    <td width="1%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+										      <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td align="right">11</td>
+										    <td align="center" valign="center" style="text-align:center">TRK</td>
+										    <td align="left" valign="left" style="text-align:left">Cabang Tarakan</td>
+										    <td align="left" valign="left" style="text-align:left">&nbsp;</td>
+										    <td width="1%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+										      <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td align="right">12</td>
+										    <td align="center" valign="center" style="text-align:center">KDR</td>
+										    <td align="left" valign="left" style="text-align:left">Cabang Kendari</td>
+										    <td align="left" valign="left" style="text-align:left">&nbsp;</td>
+										    <td width="1%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+										      <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td align="right">13</td>
+										    <td align="center" valign="center" style="text-align:center">PRP</td>
+										    <td align="left" valign="left" style="text-align:left">Cabang Pare-Pare</td>
+										    <td align="left" valign="left" style="text-align:left">&nbsp;</td>
+										    <td width="1%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+										      <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
+										  <tr>
+										    <td align="right">14</td>
+										    <td align="center" valign="center" style="text-align:center">PRP</td>
+										    <td align="left" valign="left" style="text-align:left">Cabang Pare-Pare</td>
+										    <td align="left" valign="left" style="text-align:left">&nbsp;</td>
+										    <td width="1%" nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+										      <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
+										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
+									            </ul>
+									          </div>
+										      </div></td>
+									      </tr>
 											
 										</tbody>
 									</table>
@@ -431,52 +597,50 @@
 							<!--End::Modal 1-->
 							<!--begin::Modal 2-->
 									<div class="modal fade" id="modal_kantor" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
 									<div class="modal-content">
 
 										<div class="modal-body">
 											<div class="kt-portlet kt-portlet--mobile ">
 											<div class="kt-portlet__head">
+
 											<div class="kt-portlet__head-label">
-												<span class="kt-portlet__head-icon"><i class="flaticon2-list-1"></i></span>
-												<h3 class="kt-portlet__head-title kt-font-info">FORM TAMBAH KANTOR</h3>
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-building"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">TAMBAH CABANG</h3>
 											</div>
-											<div class="kt-portlet__head-toolbar">
-												<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">X</button>
+<div class="kt-portlet__head-toolbar">
+											
+											&nbsp;
+												<button type="button" class="btn btn-secondary btn-sm btn-outline-danger" data-dismiss="modal">X</button>
 											</div>
+											
 										</div>
 										<div class="kt-portlet__body">
 											<div class="tab-content">
 												<div class="tab-pane active" id="kt_tabs_7_1" role="tabpanel">
 													<div class="form-group row">
-												<div class="col-lg-5">
-														<label>Nama Kantor:</label>
+												<div class="col-lg-4">
+														<label>Kode Cabang :</label>
+														<div class="form-group">
+
+					                         <input type="text" class="form-control form-control-sm" placeholder="Misalnya : XYZ">
+					                       </div>
+					                       </div>
+										   <div class="col-lg-8">
+														<label>Nama Cabang :</label>
 														<input type="text" class="form-control form-control-sm" placeholder="Isikan Data">
 
 												</div>
-<div class="col-lg-5">
+												</div>
+												
+												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+												<div class="form-group row">
+												<div class="col-lg-12">
 														<label>Alamat Kantor:</label>
 														<input type="text" class="form-control form-control-sm" placeholder="Isikan Data">
 
 												</div>
-												<div class="col-lg-2">
-														<label>Status :</label>
-														<div class="form-group">
-
-					                         <select class="form-control kt-selectpicker form-control" name="param">
-					 															<optgroup label="Sulawesi Selatan">
-					 																<option value="AK" selected>Pusat</option>
-					 																<option value="HI">Cabang</option>
-					 															</optgroup>
-					 															
-					 														</select>
-					                       </div>
-
 												</div>
-												
-
-												</div>
-												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 												
 												
 												
