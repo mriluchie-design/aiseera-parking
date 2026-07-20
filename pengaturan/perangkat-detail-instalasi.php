@@ -237,11 +237,11 @@ function goBack() {
 													<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
 
   <tbody><tr style="text-align:center">
-    <td width="1%" bgcolor="#f7fcff" rowspan="2" >NO</td>
-    <td width="15%" rowspan="2" bgcolor="#f7fcff" >NAMA PERANGKAT </td>
-    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Part Code</td>
-    <td width="7%" rowspan="2" bgcolor="#f7fcff" >Kategori</td>
-    <td width="5%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >No</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Kode SKU</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Kategori</td>
+    <td width="10%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
+    <td width="15%" rowspan="2" bgcolor="#f7fcff" >Nama Barang</td>
     <td colspan="2" bgcolor="#f7fcff">Qty</td>
     <td width="10%" rowspan="2" bgcolor="#f7fcff" >QR Code<br>Perangkat</td>
     <td width="2%" rowspan="2" bgcolor="#f7fcff" >Installer</td>
@@ -255,10 +255,10 @@ function goBack() {
     
     <tr>
       <td style="text-align:right">1</td>
-      <td style="text-align:left">CUSTOM CASING DISPENSER SINGLE</td>
-      <td nowrap="nowrap" style="text-align:left">000101180726</td>
-      <td style="text-align:left">Dispenser</td>
+      <td nowrap="nowrap" style="text-align:left">000101010726</td>
       <td style="text-align:left">Casing</td>
+      <td style="text-align:left">Casing</td>
+      <td style="text-align:left">Custom Casing Dispenser Single</td>
       <td style="text-align:right">1</td>
       <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
@@ -300,10 +300,10 @@ function goBack() {
   </tr>
 <tr>
   <td style="text-align:right">2</td>
-  <td style="text-align:left">NFC PAYMENT READER</td>
-  <td nowrap="nowrap" style="text-align:left">000201180726</td>
-  <td style="text-align:left">Dispenser</td>
-  <td style="text-align:left">Payment</td>
+  <td nowrap="nowrap" style="text-align:left">000201010726</td>
+  <td style="text-align:left">Reader</td>
+  <td style="text-align:left">Payment Reader</td>
+  <td style="text-align:left">Payment Reader</td>
   <td style="text-align:right">1</td>
   <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
@@ -345,10 +345,10 @@ function goBack() {
   </tr>
 <tr>
   <td style="text-align:right">3</td>
-  <td style="text-align:left">PRINTER THERMAL</td>
-  <td nowrap="nowrap" style="text-align:left">000301180726</td>
-  <td style="text-align:left">Dispenser</td>
+  <td nowrap="nowrap" style="text-align:left">000401010726</td>
   <td style="text-align:left">Printer</td>
+  <td style="text-align:left">Thermal</td>
+  <td style="text-align:left">TMT82X Lan Port</td>
   <td style="text-align:right">1</td>
   <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
@@ -390,10 +390,10 @@ function goBack() {
   </tr>
   <tr>
     <td style="text-align:right">4</td>
-    <td style="text-align:left">WEBCAM</td>
-    <td nowrap="nowrap" style="text-align:left">000401180726</td>
+    <td nowrap="nowrap" style="text-align:left">000501010726</td>
     <td style="text-align:left">Dispenser</td>
     <td style="text-align:left">Webcam</td>
+    <td style="text-align:left">Logitech Webcam C270</td>
     <td style="text-align:right">1</td>
     <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
@@ -435,10 +435,10 @@ function goBack() {
   </tr>
   <tr>
     <td style="text-align:right">5</td>
-    <td style="text-align:left">BUTTON BANTUAN</td>
-    <td nowrap="nowrap" style="text-align:left">000501180726</td>
-    <td style="text-align:left">Dispenser</td>
+    <td nowrap="nowrap" style="text-align:left">000601010726</td>
     <td style="text-align:left">Button</td>
+    <td style="text-align:left">Bantuan</td>
+    <td style="text-align:left">Button Bantuan</td>
     <td style="text-align:right">1</td>
     <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
@@ -480,10 +480,10 @@ function goBack() {
   </tr>
   <tr>
     <td style="text-align:right">6</td>
-    <td style="text-align:left">DISPLAY LAYAR</td>
-    <td nowrap="nowrap" style="text-align:left">000601180726</td>
-    <td style="text-align:left">Dispenser</td>
-    <td style="text-align:left">Display</td>
+    <td nowrap="nowrap" style="text-align:left">000801010726</td>
+    <td style="text-align:left">Monitor</td>
+    <td style="text-align:left">Dispenser Single</td>
+    <td style="text-align:left">Monitor AOC 22B20JH2</td>
     <td style="text-align:right">1</td>
     <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
@@ -525,10 +525,10 @@ function goBack() {
   </tr>
   <tr>
     <td style="text-align:right">7</td>
-    <td style="text-align:left">MINI PC</td>
-    <td nowrap="nowrap" style="text-align:left">000701180726</td>
-    <td style="text-align:left">Dispenser</td>
+    <td nowrap="nowrap" style="text-align:left">001001010726</td>
     <td style="text-align:left">Mini PC</td>
+    <td style="text-align:left">Asus NUC</td>
+    <td style="text-align:left">Asus NUC 14MNK15 - DDR5 8Gb +NVME 256Gb</td>
     <td style="text-align:right">1</td>
     <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
@@ -570,10 +570,10 @@ function goBack() {
   </tr>
   <tr>
     <td style="text-align:right">8</td>
-    <td style="text-align:left">HUB SWITCH 8 PORT MANAGEABLE CLOUD</td>
-    <td nowrap="nowrap" style="text-align:left">000801180726</td>
-    <td style="text-align:left">Dispenser</td>
-    <td style="text-align:left">Switch</td>
+    <td nowrap="nowrap" style="text-align:left">001201010726</td>
+    <td style="text-align:left">Jaringan</td>
+    <td style="text-align:left">Hub Switch Gigabit Manage</td>
+    <td style="text-align:left">Ruijie Reyee RG-ES208GC</td>
     <td style="text-align:right">1</td>
     <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
@@ -615,10 +615,10 @@ function goBack() {
   </tr>
   <tr>
     <td style="text-align:right">9</td>
-    <td style="text-align:left">VLD DISPENSER</td>
-    <td nowrap="nowrap" style="text-align:left">000901180726</td>
-    <td style="text-align:left">Dispenser</td>
+    <td nowrap="nowrap" style="text-align:left">002201010726</td>
+    <td style="text-align:left">Sensor</td>
     <td style="text-align:left">VLD</td>
+    <td style="text-align:left">VLD Dispenser</td>
     <td style="text-align:right">1</td>
     <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
@@ -660,10 +660,10 @@ function goBack() {
   </tr>
   <tr>
     <td style="text-align:right">10</td>
-    <td style="text-align:left">CONTROLLER DISPENSER</td>
-    <td nowrap="nowrap" style="text-align:left">001001180726</td>
-    <td style="text-align:left">Dispenser</td>
+    <td nowrap="nowrap" style="text-align:left">002701010726</td>
     <td style="text-align:left">Controller</td>
+    <td style="text-align:left">Dispenser</td>
+    <td style="text-align:left">Controller Dispenser</td>
     <td style="text-align:right">1</td>
     <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
@@ -705,10 +705,10 @@ function goBack() {
   </tr>
   <tr>
     <td style="text-align:right">11</td>
-    <td style="text-align:left">SOUND SPEAKER</td>
-    <td nowrap="nowrap" style="text-align:left">001101180726</td>
-    <td style="text-align:left">Dispenser</td>
+    <td nowrap="nowrap" style="text-align:left">004801010726</td>
     <td style="text-align:left">Speaker</td>
+    <td style="text-align:left">Logitech</td>
+    <td style="text-align:left">CTSL100</td>
     <td style="text-align:right">1</td>
     <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
@@ -750,10 +750,10 @@ function goBack() {
   </tr>
   <tr>
     <td style="text-align:right">12</td>
+    <td nowrap="nowrap" style="text-align:left">004901010726</td>
     <td style="text-align:left">UPS</td>
-    <td nowrap="nowrap" style="text-align:left">001201180726</td>
-    <td style="text-align:left">Dispenser</td>
-    <td style="text-align:left">UPS</td>
+    <td style="text-align:left">APC</td>
+    <td style="text-align:left">APC 1200</td>
     <td style="text-align:right">1</td>
     <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
@@ -827,11 +827,11 @@ function goBack() {
 													<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
 
   <tbody><tr style="text-align:center">
-    <td width="1%" bgcolor="#f7fcff" rowspan="2" >NO</td>
-    <td width="15%" rowspan="2" bgcolor="#f7fcff" >NAMA PERANGKAT </td>
-    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Part Code</td>
-    <td width="7%" rowspan="2" bgcolor="#f7fcff" >Kategori</td>
-    <td width="5%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >No</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Kode SKU</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Kategori</td>
+    <td width="10%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
+    <td width="15%" rowspan="2" bgcolor="#f7fcff" >Nama Barang</td>
     <td colspan="2" bgcolor="#f7fcff">Qty</td>
     <td width="10%" rowspan="2" bgcolor="#f7fcff" >QR Code<br>Perangkat</td>
     <td width="2%" rowspan="2" bgcolor="#f7fcff" >Installer</td>
@@ -845,10 +845,10 @@ function goBack() {
     
 <tr>
   <td style="text-align:right">1</td>
-  <td style="text-align:left">BARRIER GATE SERVO</td>
-  <td style="text-align:left">001301180726</td>
+  <td style="text-align:left">003001010726</td>
+  <td nowrap="nowrap" style="text-align:left">Barrier Gate</td>
   <td style="text-align:left">Barrier Gate</td>
-  <td style="text-align:left">Barrier Gate</td>
+  <td style="text-align:left">Barrier Gate Servo</td>
   <td style="text-align:right">1</td>
   <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
@@ -890,10 +890,10 @@ function goBack() {
   </tr>
 <tr>
   <td style="text-align:right">2</td>
-  <td style="text-align:left">VLD BARRIER GATE</td>
-  <td style="text-align:left">001401180726</td>
-  <td style="text-align:left">Barrier Gate</td>
+  <td style="text-align:left">003501010726</td>
+  <td nowrap="nowrap" style="text-align:left">Barrier Gate</td>
   <td style="text-align:left">VLD</td>
+  <td style="text-align:left">VLD Hitam Matrix Barrier Gate</td>
   <td style="text-align:right">1</td>
   <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
@@ -968,11 +968,11 @@ function goBack() {
 													<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
 
   <tbody><tr style="text-align:center">
-    <td width="1%" bgcolor="#f7fcff" rowspan="2" >NO</td>
-    <td width="15%" rowspan="2" bgcolor="#f7fcff" >NAMA PERANGKAT </td>
-    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Part Code</td>
-    <td width="7%" rowspan="2" bgcolor="#f7fcff" >Kategori</td>
-    <td width="5%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >No</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Kode SKU</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >Kategori</td>
+    <td width="10%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
+    <td width="15%" rowspan="2" bgcolor="#f7fcff" >Nama Barang</td>
     <td colspan="2" bgcolor="#f7fcff">Qty</td>
     <td width="10%" rowspan="2" bgcolor="#f7fcff" >QR Code<br>Perangkat</td>
     <td width="2%" rowspan="2" bgcolor="#f7fcff" >Installer</td>
@@ -986,10 +986,10 @@ function goBack() {
     
 <tr>
   <td style="text-align:right">1</td>
-  <td style="text-align:left">UHF READER MID RANGE</td>
-  <td style="text-align:left">001501180726</td>
-  <td style="text-align:left">Sensor dan Lainnya</td>
-  <td style="text-align:left">Sensor</td>
+  <td style="text-align:left">002601010726</td>
+  <td nowrap="nowrap" style="text-align:left">Sensor</td>
+  <td style="text-align:left">Member Mid Range</td>
+  <td style="text-align:left">Electron HW-VX6330K V2</td>
   <td style="text-align:right">1</td>
   <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
@@ -1031,10 +1031,10 @@ function goBack() {
   </tr>
 <tr>
   <td style="text-align:right">2</td>
-  <td style="text-align:left">IP CAMERA</td>
-  <td style="text-align:left">001601180726</td>
-  <td style="text-align:left">Sensor dan Lainnya</td>
+  <td style="text-align:left">003601010726</td>
+  <td nowrap="nowrap" style="text-align:left">Camera</td>
   <td style="text-align:left">IP Camera</td>
+  <td style="text-align:left">HIKVISION IP Camera 4MP</td>
   <td style="text-align:right">1</td>
   <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
@@ -1076,10 +1076,10 @@ function goBack() {
   </tr>
 <tr>
   <td style="text-align:right">3</td>
-  <td style="text-align:left">ANPR CAMERA</td>
-  <td style="text-align:left">001701180726</td>
-  <td style="text-align:left">Sensor dan Lainnya</td>
+  <td style="text-align:left">003701010726</td>
+  <td nowrap="nowrap" style="text-align:left">Camera</td>
   <td style="text-align:left">ANPR Camera</td>
+  <td style="text-align:left">HIKVISION ANPR Camera 4MP</td>
   <td style="text-align:right">1</td>
   <td style="text-align:left">Unit</td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-input-icon kt-input-icon--right">
@@ -1094,35 +1094,9 @@ function goBack() {
         <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
         </ul>
       </div>
-  </div></td>
-  </tr>
-<tr>
-  <td style="text-align:right">4</td>
-  <td style="text-align:left">QUADBEAM</td>
-  <td style="text-align:left">001801180726</td>
-  <td style="text-align:left">Sensor dan Lainnya</td>
-  <td style="text-align:left">Sensor</td>
-  <td style="text-align:right">1</td>
-  <td style="text-align:left">Unit</td>
-  <td nowrap="nowrap" style="text-align:center"><div class="kt-input-icon kt-input-icon--right">
-    <input type="text" class="form-control form-control-sm" placeholder="1231231231233" disabled="disabled" id="generalSearch" />
-    <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span></span></div></td>
-  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="10 September 2026 - 14:34 WITA&lt;hr&gt;Muhammad Nasrullah, S.Kom&lt;hr&gt;123123123" data-html="true"><img src="../assets/media/users/100_6.jpg" alt="image" /></a></td>
-  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
-    <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-      <ul class="kt-nav">
-        <li class="kt-nav__item"> <a href="instalasi-perangkat-spesifikasi.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Spesifikasi</span> </a> </li>
-        <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
-        <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
-        </ul>
-      </div>
-  </div></td>
-  </tr>
-
-
-
-
-  </tbody>
+    </div></td>
+</tr>
+</tbody>
 </table>
 													</div>
 												</div>
