@@ -411,8 +411,9 @@ function goBack() {
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Status</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">QR Code</th>
 											  <th width="15%" rowspan="2" bgcolor="#f7fcff">Nama Barang</th>
-											  <th colspan="2" bgcolor="#f7fcff">Installer / Pemohon</th>
-										  </tr>
+											  <th colspan="2" bgcolor="#f7fcff">Installer</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Foto</th>
+								          </tr>
 											<tr style="text-align:center">
 											  <th width="1%" bgcolor="#f7fcff">By</th>
 											  <th width="1%" bgcolor="#f7fcff">Perangkat</th>
@@ -427,7 +428,8 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:left">Custom Casing Dispenser Single</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
-										  </tr>
+												<td style="text-align:center" nowrap=""><button type="button" data-toggle="modal" data-target="#modal_foto" data-skin="brand" data-html="true" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
+									      </tr>
 											<tr>
 											  <td id="kt_table_4" style="text-align:right">2</td>
 											  <td nowrap="nowrap" style="text-align:center">25 September 2027<hr />11:47:00 WITA</td>
@@ -436,7 +438,8 @@ function goBack() {
 											  <td>Payment Reader</td>
 											  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026&lt;hr&gt;07:36:00 WITA&lt;hr&gt;12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 											  <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
-										  </tr>
+											  <td style="text-align:center" nowrap=""><button type="button" data-toggle="modal" data-target="#modal_foto" data-skin="brand" data-html="true" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
+									      </tr>
 									      <tr>
 									        <td id="kt_table_4" style="text-align:right">3</td>
 										      <td nowrap="nowrap" style="text-align:center">25 September 2027<hr />12:47:00 WITA</td>
@@ -445,6 +448,7 @@ function goBack() {
 										      <td>Payment Reader</td>
 										      <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026&lt;hr&gt;07:36:00 WITA&lt;hr&gt;12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 										      <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
+										      <td style="text-align:center" nowrap=""><button type="button" data-toggle="modal" data-target="#modal_foto" data-skin="brand" data-html="true" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 									      </tr>
 </tbody>
 									</table>
@@ -1001,8 +1005,8 @@ function goBack() {
 							</div>
 							</div>
 <!--begin::Modal 1-->
-									<div class="modal fade" id="titik-parkir-tutup" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+									<div class="modal fade" id="modal_foto" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
 									<div class="modal-content">
 
 										<div class="modal-body">
@@ -1010,7 +1014,7 @@ function goBack() {
 											<div class="kt-portlet__head">
 											<div class="kt-portlet__head-label">
 												<span class="kt-portlet__head-icon" style="font-size:25px;"><i class="kt-font-danger flaticon2-list"></i></span>
-												<h3 class="kt-portlet__head-title kt-font-bold">FORM LAPORAN TITIK PARKIR TUTUP</h3>
+												<h3 class="kt-portlet__head-title kt-font-bold">FOTO</h3>
 											</div>
 											<div class="kt-portlet__head-toolbar">
 											
@@ -1021,172 +1025,92 @@ function goBack() {
 
 										
 										<div class="kt-portlet__body">
-											<div class="tab-content">
-												<div class="m-portlet m-portlet--tabs">
-									
-									<div class="m-portlet__body">
-										<div class="tab-content">
-											<div class="tab-pane active" id="m_tabs_6_1" role="tabpanel">
-												<div class="row">
-									<div class="col-xl-7">
-
-									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Jukir</div><br>
-										<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
-												<div class="form-group row">
-                       <div class="col-lg-12">
-					   <label>Nama Lengkap</label>
-                         <input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="Nama Jukir">
-
-                        </div>
-						
-						
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-						<div class="col-lg-6">
-					   <label>Zona</label>
-                         <input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="Nama Jukir">
-
-                        </div>
-						<div class="col-lg-6">
-                          <label>Wilayah :</label>
-                          <input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="000 000 000">
-                        </div>
-						
-											</div>
-											<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-						<div class="col-lg-12">
-					   <label>Nama Titik Parkir</label>
-                         <input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="Nama Jukir">
-
-                        </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-						<div class="col-lg-12">
-                          <label>Alamat Titik Parkir :</label>
-                          <input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="000 000 000">
-                        </div>
-						
-											</div>
-									
-										</div>
-										</div>
-										</div>
-										
-										</div>
-										
-
-
-									<div class="col-xl-5">
-
-									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-half kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Keterangan</div><br><br>
-										<div class="kt-portlet__body">
-											<div class="kt-portlet__content">
-												<div class="form-group row">
-                       <div class="col-lg-12">
-					   
-                         <textarea class="form-control" id="exampleTextarea" rows="2" placeholder="Isikan Keterangan Anda"></textarea>
-
-                        </div>
-						
-						
-                        </div>
-						
-									
-										</div>
-										</div>
-										</div>
-									<div class="kt-portlet kt-portlet--height-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Upload Foto</div><br><br>
-										<div class="kt-portlet__body">
-											<div class="kt-portlet__content">
-												<div class="form-group row">
-                       <div class="col-lg-12">
-					   <div class="dropzone dropzone-default dropzone-brand dz-clickable" id="kt_dropzone_1">
-													<div class="dropzone-msg dz-message needsclick">
-														<h3 class="dropzone-msg-title">Drop files here or click to upload.</h3>
-														<span class="dropzone-msg-desc">Upload up to 10 files, File Format : PDF</span>
-													</div>
-												</div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						
-						
-											</div>
-									
-										</div>
-										
-
-									</div>
-									
-
-									
-									</div>
-									
+											<div class="col-xl-12">
+					<div class="accordion accordion-solid accordion-toggle-plus" id="accordionExample1">
+						<div class="card">
+							<div class="card-header" id="headingOne">
+								<div class="card-title collapsed d-grid" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="false" aria-controls="collapseOne1">
+								Sebelum  
 									
 								</div>
-								</div>
-								<div class="col-xl-12">
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Kolektor</div><br><br>
-										<div class="kt-portlet__body">
-											<div class="kt-portlet__content">
-												<div class="form-group row">
-                       <div class="col-lg-6">
-					   <label>NIP Pegawai</label>
-                         <input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="Nama Kasir">
-
-                        </div>
-                       
-						<div class="col-lg-6">
-                          <label>Nama Kolektor :</label>
-                          <input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="000 000 000">
-                        </div>
+							</div>
+							<div id="collapseOne1" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample1" style="">
+								<div class="card-body">
+                              <div class="ordered-item clearfix">
+  									
+  									<div class="order-item-right">
+  										<a href="#" class="kt-notification__item versi-2">
+															<div class="kt-notification__item-icon">
+																<img src="../assets/img/blog/blog3.jpg" alt="image" style="max-width:165px !important;height:150px" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">&nbsp;&nbsp;<img src="../assets/img/blog/blog3.jpg" alt="image" style="max-width:165px !important;height:150px" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">
+															</div>
+														&nbsp;
+														&nbsp;
+															
+														</a>
+														
+														
+  										<div class="clearfix"></div>
+  										
+  									</div>
+  								</div>
+														</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingTwo">
+								<div class="card-title d-grid collapsed" data-toggle="collapse" data-target="#collapseTwo1" aria-expanded="false" aria-controls="collapseTwo1">
+									Setelah 
+									 </div>
+							</div>
+							<div id="collapseTwo1" class="collapse" aria-labelledby="headingTwo1" data-parent="#accordionExample1">
+								<div class="card-body">
+                              <div class="ordered-item clearfix">
+  									
+  									<div class="order-item-right">
+  										<a href="#" class="kt-notification__item versi-2">
+															<div class="kt-notification__item-icon">
+																<img src="../assets/img/blog/blog3.jpg" alt="image" style="max-width:165px !important;height:150px" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">&nbsp;&nbsp;<img src="../assets/img/blog/blog3.jpg" alt="image" style="max-width:165px !important;height:150px" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">
+															</div>
+														&nbsp;
+														&nbsp;
+															
+														</a>
+														
+														
+  										<div class="clearfix"></div>
+  										
+  									</div>
+  								</div>
+														</div>
+							</div>
+						</div>
 						
-                        </div>
 						
 						
-                        </div>
 						
-									
-										</div>
-										</div>
-										</div>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+					</div>
+				</div>
+											
+												
+						
+                     
+						
+                     
+					  
+                     
 									</div>
-												
-									<div class="kt-portlet__foot kt-align-center">
-												<div class="">
-
-													
 									
-												
-													<div class="btn-group">
-				<button type="button" class="btn btn-brand btn-sm">
-					<i class="fa fa-check-circle"></i>
-					<span class="kt-hidden-mobile">Simpan</span>
-				</button>
-				
-				
-			</div>
-												</div>
-											</div>
-												
-												
-
-									<!--end::Portlet-->
-												</div>
-											</div>
-											</div>
-
-									</div>
 
 									</div>
 								</div>
@@ -1196,6 +1120,7 @@ function goBack() {
 								</div>
 							</div>
 							<!--End::Modal 1-->
+							
 							<!--begin::Modal 1-->
 									<div class="modal fade" id="modal_persetujuan_release" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
@@ -1277,6 +1202,7 @@ function goBack() {
 								</div>
 							</div>
 							<!--End::Modal 1-->
+
 							<!--begin::Modal 2-->
 									<div class="modal fade" id="kt_modal_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
