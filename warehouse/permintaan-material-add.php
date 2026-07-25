@@ -174,8 +174,8 @@ function goBack() {
 						
 					  
 						<div class="col-lg-12">
-                           <label class="">Penerima :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Gudang Makassar">
+                           <label class="">Gudang Tujuan :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Makassar Gate 1">
                         </div>
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
@@ -685,7 +685,7 @@ function goBack() {
 														<label class="kt-font-brand">Maksud Permintaan :</label>
 														<select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected>Service</option>
-                                      <option value="1" selected>Permintaan Baru</option>
+                                      <option value="1">Permintaan Baru</option>
                                       <option value="2">Penggantian</option>
                                                                            
                                   </select>
@@ -800,6 +800,207 @@ function goBack() {
 							</div>
 							</div>
 							<!--End::Modal 1-->
+							<div class="modal fade" id="modal_history_barang" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+									<div class="modal-content">
+
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-boxes"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">TAMBAH PERMINTAAN BARANG</h3>
+											</div>
+<div class="kt-portlet__head-toolbar">
+											
+											&nbsp;
+												<button type="button" class="btn btn-secondary btn-sm btn-outline-danger" data-dismiss="modal">X</button>
+											</div>
+											
+										</div>
+										<div class="kt-portlet__body">
+											<div class="tab-content">
+										<div class="form-group row">	
+					  <div class="col-lg-7">
+
+									<!--begin::Portlet-->
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Barang</div><br><br>
+										 <div class="kt-portlet__body">
+                      
+						<div class="form-group row">
+						<div class="col-lg-12">
+														<label class="kt-font-brand"><code>*</code> Scan QR Code :</label>
+														<div class="kt-input-icon kt-input-icon--right">
+      <input type="text" class="form-control form-control-sm" placeholder="Scan Perangkat" id="generalSearch">
+      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div>
+													</div>
+													</div>
+													
+													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+<div class="form-group row">
+<div class="col-lg-6">
+														<label class="kt-font-brand">Part Code :</label>
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="0001DSS01180626" />
+													</div>
+													<div class="col-lg-6">
+														<label class="kt-font-brand">QR Code :</label>
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="0001DSS01180626" />
+													</div>
+													</div>
+													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+													<div class="form-group row">
+													<div class="col-lg-12">
+														<label class="kt-font-brand">Kategori Barang :</label>
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Dispenser Single" />
+													</div>
+													</div>
+													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+													<div class="form-group row">
+													
+													<div class="col-lg-3">
+														<label class="kt-font-brand">Gate :</label>
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1" />
+													</div>
+													<div class="col-lg-3">
+														<label class="kt-font-brand">Jalur :</label>
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Masuk" />
+													</div>
+													<div class="col-lg-6">
+														<label class="kt-font-brand">Nama Jalur :</label>
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Mobil - 1" />
+													</div>
+													</div>
+													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+<div class="form-group row">
+													
+													<div class="col-lg-12">
+														<label class="kt-font-brand">Nama Barang :</label>
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="HUB SWITCH 8 PORT MANAGEABLE CLOUD" />
+													</div>
+												</div>
+												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+												<div class="form-group row">
+													
+													<div class="col-lg-12">
+														<label class="kt-font-brand">Maksud Permintaan :</label>
+														<select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected>Service</option>
+                                      <option value="1">Permintaan Baru</option>
+                                      <option value="2">Penggantian</option>
+                                                                           
+                                  </select>
+													</div>
+
+												
+
+
+
+												
+													
+													
+
+												</div>
+<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+
+													
+													
+						 
+						
+						  
+						
+                      </div>
+                      </div>
+                      </div>
+					  <div class="col-lg-5">
+
+									<!--begin::Portlet-->
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Petugas Instalasi</div><br><br>
+										 <div class="kt-portlet__body">
+                      
+						<div class="form-group row">
+<div class="col-lg-12">
+														<label class="kt-font-brand">Tanggal Instalasi :</label>
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="24 September 2026" />
+													</div>
+													</div>
+													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+<div class="form-group row">
+													<div class="col-lg-12">
+														<label class="kt-font-brand">Waktu Instalasi :</label>
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="06:50:00 WITA" />
+													</div>
+													</div>
+													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+<div class="form-group row">
+													
+													<div class="col-lg-12">
+														<label class="kt-font-brand">NIP :</label>
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="00000000000" />
+													</div>
+												</div>
+												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+												<div class="form-group row">
+													
+													<div class="col-lg-12">
+														<label class="kt-font-brand">Nama :</label>
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom" />
+													</div>
+												</div>
+												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						 
+						
+						  
+						
+                      </div>
+                      </div>
+                      </div>
+												
+
+
+
+
+												
+
+
+
+												
+													
+													
+
+												</div>
+												
+												
+												
+												
+
+
+												
+													
+													
+
+												</div>
+												
+											
+									<div class="kt-portlet__foot kt-align-right">
+												<div class="">
+													<button type="button" class="btn btn-sm btn-success">
+					<i class="fa fa-check-circle"></i>Simpan</button>
+												</div>
+											</div>
+
+
+
+
+									</div>
+
+									</div>
+								</div>
+							</div>
+							</div>
+							</div>
 							<!--begin::Modal 1-->
 									<div class="modal fade" id="modal_persetujuan_release" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered modal-md" role="document">

@@ -398,8 +398,9 @@
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="3%" rowspan="2" bgcolor="#f7fcff">Gudang<br>Penerima</th>
-											  <th colspan="5" bgcolor="#f7fcff">Permintaan Barang</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Pengirim</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Tujuan</th>
+											  <th colspan="4" bgcolor="#f7fcff">Permintaan Barang</th>
 											  <th colspan="2" bgcolor="#f7fcff">Penerimaan Barang</th>
 											  
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Validasi</th>
@@ -411,7 +412,6 @@
 											  <th width="1%" bgcolor="#f7fcff">Nomor</th>
 											  <th width="1%" bgcolor="#f7fcff">Waktu</th>
 											  <th width="1%" bgcolor="#f7fcff">By</th>
-											  <th width="1%" bgcolor="#f7fcff">Referensi</th>
 											  <th width="1%" bgcolor="#f7fcff">Deadline</th>
 											  <th width="1%" bgcolor="#f7fcff">By</th>
 											  <th width="1%" bgcolor="#f7fcff">Waktu</th>
@@ -420,13 +420,13 @@
 										<tbody>
 											<tr>
 												<td style="text-align:right" id="kt_table_1">1</td>
-												<td style="text-align:left" nowrap>Makassar</td>
+												<td style="text-align:center" nowrap>-</td>
+												<td style="text-align:left" nowrap>Makassar Gate 1</td>
 												<td nowrap="nowrap" style="text-align:center">PR.062026.01.001</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 												  06:50:00 WITA</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">PM.062026.01.001</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 												  23:50:00 WITA</td>
@@ -451,13 +451,13 @@
 										  </tr>
 										  <tr>
 												<td style="text-align:right" id="kt_table_1">2</td>
-												<td style="text-align:left" nowrap>Makassar</td>
+												<td style="text-align:left" nowrap>Makassar J6</td>
+												<td style="text-align:left" nowrap>Makassar Gate 2</td>
 												<td nowrap="nowrap" style="text-align:center">PR.062026.01.002</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 												  06:50:00 WITA</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">PM.062026.01.001</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 												  23:50:00 WITA</td>
@@ -484,14 +484,14 @@
 										  </tr>
 										  <tr>
 												<td style="text-align:right" id="kt_table_1">3</td>
-												<td nowrap="nowrap" style="text-align:left">Makassar</td>
+												<td nowrap="nowrap" style="text-align:left">Makassar Gate 1</td>
+												<td nowrap="nowrap" style="text-align:left">Makassar Gate 2</td>
 
 												<td nowrap="nowrap" style="text-align:center">PR.062026.01.003</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 												  06:50:00 WITA</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">-</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 												  22:50:00 WITA</td>
@@ -518,13 +518,13 @@
 										  </tr>
 <tr>
 												<td style="text-align:right" id="kt_table_1">4</td>
-												<td nowrap="nowrap" style="text-align:left">Makassar</td>
+												<td nowrap="nowrap" style="text-align:left">Makassar Gate 2</td>
+												<td nowrap="nowrap" style="text-align:left">Makassar Gate 1</td>
 												<td nowrap="nowrap" style="text-align:center">PR.062026.01.004</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 												  06:50:00 WITA</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">-</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 												  21:50:00 WITA</td>
@@ -551,13 +551,13 @@
 										  </tr>
 <tr>
 												<td style="text-align:right" id="kt_table_1">5</td>
-												<td style="text-align:left" nowrap>Makassar</td>
+												<td style="text-align:left" nowrap>Makassar J6</td>
+												<td style="text-align:left" nowrap>Makassar Gate 2</td>
 												<td nowrap="nowrap" style="text-align:center">PR.062026.01.005</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 												  06:50:00 WITA</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">-</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 												  20:50:00 WITA</td>
@@ -585,13 +585,13 @@
 										  </tr>
 <tr>
   <td style="text-align:right" id="kt_table_1">6</td>
-  <td style="text-align:left" nowrap="nowrap">Makassar</td>
+  <td style="text-align:left" nowrap="nowrap">Makassar J6</td>
+  <td style="text-align:left" nowrap="nowrap">Makassar Gate 1</td>
   <td nowrap="nowrap" style="text-align:center">PR.062026.01.006</td>
   <td nowrap="nowrap" style="text-align:center">24 September 2026
     <hr />
     06:50:00 WITA</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-  <td nowrap="nowrap" style="text-align:center">-</td>
   <td nowrap="nowrap" style="text-align:center">24 September 2026
     <hr />
     19:50:00 WITA</td>
