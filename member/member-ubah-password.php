@@ -173,8 +173,8 @@ function goBack() {
                     <div class="kt-portlet__body">
                       <div class="row">
 										<div class="col-lg-6">
-                <div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-				<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Login</div><br>
+                <div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+				<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Login</div><br><br>
 
                     <div class="kt-portlet__body">
                       <div class="row">
@@ -266,8 +266,8 @@ function goBack() {
 
           </div>
 		  <div class="col-lg-6">
-                <div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-				<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Ubah Data</div><br>
+                <div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+				<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Ubah Data</div><br><br>
 
                     <div class="kt-portlet__body">
                       <div class="row">

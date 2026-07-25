@@ -93,8 +93,8 @@ function goBack() {
 				<div class="col-xl-6">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Diri</div><br>
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Diri</div><br><br>
 										<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
 												<div class="form-group row">
@@ -251,8 +251,8 @@ function goBack() {
 										<div class="col-xl-4">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Alamat</div><br>
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Alamat</div><br><br>
 										<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
 												<div class="form-group row">
@@ -295,22 +295,45 @@ function goBack() {
                                 <label>Provinsi :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Biringkanaya</option>
-                                      <option value="2">Bontoala</option>
-                                      <option value="3">Kepulauan Sangkarrang</option>
-                                      <option value="4">Makassar</option>
-                                      <option value="5">Mamajang</option>
-                                      <option value="6">Manggala</option>
-                                      <option value="7">Mariso</option>
-                                      <option value="8">Panakkukang</option>
-                                      <option value="9">Rappocini</option>
-                                      <option value="10">Tallo</option>
-                                      <option value="11">Tamalanrea</option>
-                                      <option value="12">Tamalate</option>
-                                      <option value="13">Ujung Pandang</option>
-                                      <option value="14">Ujung Tanah</option>
-                                      <option value="15">Wajo</option>
-									  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+                                     
+                                      <option value="1">Aceh</option>
+                                      <option value="2">Bali</option>
+                                      <option value="3">Banten</option>
+                                      <option value="4">Bengkulu</option>
+                                      <option value="5">Daerah Istimewa Yogyakarta</option>
+                                      <option value="6">DKI Jakarta</option>
+                                      <option value="7">Gorontalo</option>
+                                      <option value="8">Jambi</option>
+                                      <option value="9">Jawa Barat</option>
+                                      <option value="10">Jawa Tengah</option>
+                                      <option value="11">Jawa Timur</option>
+                                      <option value="12">Kalimantan Barat</option>
+                                      <option value="13">Kalimantan Selatan</option>
+                                      <option value="14">Kalimantan Tengah</option>
+                                      <option value="15">Kalimantan Timur</option>
+                                      <option value="16">Kalimantan Utara</option>
+                                      <option value="17">Kepulauan Bangka Belitung</option>
+                                      <option value="18">Kepulauan Riau</option>
+                                      <option value="19">Lampung</option>
+                                      <option value="20">Maluku</option>
+                                      <option value="21">Maluku Utara</option>
+                                      <option value="22">Nusa Tenggara Barat</option>
+                                      <option value="23">Nusa Tenggara Timur</option>
+                                      <option value="24">Papua</option>
+                                      <option value="25">Papua Barat</option>
+                                      <option value="26">Papua Barat Daya</option>
+                                      <option value="27">Papua Pegunungan</option>
+                                      <option value="28">Papua Selatan</option>
+                                      <option value="29">Papua Tengah</option>
+                                      <option value="30">Riau</option>
+                                      <option value="31">Sulawesi Barat</option>
+                                      <option value="32" selected>Sulawesi Selatan</option>
+                                      <option value="33">Sulawesi Tengah</option>
+                                      <option value="34">Sulawesi Tenggara</option>
+                                      <option value="35">Sulawesi Utara</option>
+                                      <option value="36">Sumatera Barat</option>
+                                      <option value="37">Sumatera Selatan</option>
+                                      <option value="38">Sumatera Utara</option>
                                   </select>
                             </div>
 							<div class="col-lg-6">
@@ -390,8 +413,8 @@ function goBack() {
 									<div class="col-xl-2">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Foto Member</div><br>
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Foto Member</div><br><br>
 										<div class="kt-portlet__body">
 																								<div class="kt-portlet__content">
 																									<div class="form-group row">

@@ -158,8 +158,8 @@ function goBack() {
 								<div class="col-xl-6">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Diri</div><br>
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Diri</div><br><br>
 										<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
 												<div class="form-group row">
@@ -300,8 +300,8 @@ function goBack() {
 										<div class="col-xl-4">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Alamat</div><br>
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Alamat</div><br><br>
 										<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
 												<div class="form-group row">
@@ -344,22 +344,45 @@ function goBack() {
                                 <label>Provinsi :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Biringkanaya</option>
-                                      <option value="2">Bontoala</option>
-                                      <option value="3">Kepulauan Sangkarrang</option>
-                                      <option value="4">Makassar</option>
-                                      <option value="5">Mamajang</option>
-                                      <option value="6">Manggala</option>
-                                      <option value="7">Mariso</option>
-                                      <option value="8">Panakkukang</option>
-                                      <option value="9">Rappocini</option>
-                                      <option value="10">Tallo</option>
-                                      <option value="11">Tamalanrea</option>
-                                      <option value="12">Tamalate</option>
-                                      <option value="13">Ujung Pandang</option>
-                                      <option value="14">Ujung Tanah</option>
-                                      <option value="15">Wajo</option>
-									  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+                                     
+                                      <option value="1">Aceh</option>
+                                      <option value="2">Bali</option>
+                                      <option value="3">Banten</option>
+                                      <option value="4">Bengkulu</option>
+                                      <option value="5">Daerah Istimewa Yogyakarta</option>
+                                      <option value="6">DKI Jakarta</option>
+                                      <option value="7">Gorontalo</option>
+                                      <option value="8">Jambi</option>
+                                      <option value="9">Jawa Barat</option>
+                                      <option value="10">Jawa Tengah</option>
+                                      <option value="11">Jawa Timur</option>
+                                      <option value="12">Kalimantan Barat</option>
+                                      <option value="13">Kalimantan Selatan</option>
+                                      <option value="14">Kalimantan Tengah</option>
+                                      <option value="15">Kalimantan Timur</option>
+                                      <option value="16">Kalimantan Utara</option>
+                                      <option value="17">Kepulauan Bangka Belitung</option>
+                                      <option value="18">Kepulauan Riau</option>
+                                      <option value="19">Lampung</option>
+                                      <option value="20">Maluku</option>
+                                      <option value="21">Maluku Utara</option>
+                                      <option value="22">Nusa Tenggara Barat</option>
+                                      <option value="23">Nusa Tenggara Timur</option>
+                                      <option value="24">Papua</option>
+                                      <option value="25">Papua Barat</option>
+                                      <option value="26">Papua Barat Daya</option>
+                                      <option value="27">Papua Pegunungan</option>
+                                      <option value="28">Papua Selatan</option>
+                                      <option value="29">Papua Tengah</option>
+                                      <option value="30">Riau</option>
+                                      <option value="31">Sulawesi Barat</option>
+                                      <option value="32" selected>Sulawesi Selatan</option>
+                                      <option value="33">Sulawesi Tengah</option>
+                                      <option value="34">Sulawesi Tenggara</option>
+                                      <option value="35">Sulawesi Utara</option>
+                                      <option value="36">Sumatera Barat</option>
+                                      <option value="37">Sumatera Selatan</option>
+                                      <option value="38">Sumatera Utara</option>
                                   </select>
                             </div>
 							<div class="col-lg-6">
@@ -439,8 +462,8 @@ function goBack() {
 									<div class="col-xl-2">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Foto Member</div><br>
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Foto Member</div><br><br>
 										<div class="kt-portlet__body">
 																								<div class="kt-portlet__content">
 																									<div class="form-group row">
@@ -495,7 +518,7 @@ function goBack() {
 														<div class="col-xl-12">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+									<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Transaksi</div><br><br>
 										<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
@@ -530,22 +553,22 @@ function goBack() {
 								<div class="col-xl-12">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Transaksi</div><br><br>
 										<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
 											<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_2">
 
   <tbody><tr style="text-align:center">
-    <td width="1%" bgcolor="#0961ae" style="color:#fff;">NO</td>
-    <td width="6%" bgcolor="#0961ae" style="color:#fff;">KENDARAAN</td>
-    <td width="6%" bgcolor="#0961ae" style="color:#fff;">URAIAN </td>
-    <td width="1%" colspan="2" bgcolor="#0961ae" style="color:#fff;">JUMLAH<br>KENDARAAN</td>
-    <td width="9%" bgcolor="#0961ae" style="color:#fff;">NO PLAT<br>KENDARAAN</td>
-    <td width="1%" colspan="2" bgcolor="#0961ae" style="color:#fff;">DURASI</td>
-    <td width="10%" bgcolor="#0961ae" style="color:#fff;">TARIF SATUAN</td>
-    <td width="10%" bgcolor="#0961ae" style="color:#fff;">JUMLAH</td>
-    <td width="3%" bgcolor="#0961ae" style="color:#fff;">AKSI</td>
+    <td width="1%" bgcolor="#f7fcff">NO</td>
+    <td width="6%" bgcolor="#f7fcff">KENDARAAN</td>
+    <td width="6%" bgcolor="#f7fcff">URAIAN </td>
+    <td width="1%" colspan="2" bgcolor="#f7fcff">JUMLAH<br>KENDARAAN</td>
+    <td width="9%" bgcolor="#f7fcff">NO PLAT<br>KENDARAAN</td>
+    <td width="1%" colspan="2" bgcolor="#f7fcff">DURASI</td>
+    <td width="10%" bgcolor="#f7fcff">TARIF SATUAN</td>
+    <td width="10%" bgcolor="#f7fcff">JUMLAH</td>
+    <td width="3%" bgcolor="#f7fcff">AKSI</td>
   </tr>
   <tr style="text-align:center">
     <td bgcolor="#f5f5f5">a</td>
@@ -563,29 +586,29 @@ function goBack() {
     <td colspan="10"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Biaya Membership Parkir"></td>
   </tr>
   <tr>
-    <td bgcolor="#feffed" style="text-align:right">1</td>
-    <td bgcolor="#feffed"><select name="select2" class="form-control kt-selectpicker" data-live-search="true">
+    <td bgcolor="#f0fff1" style="text-align:right">1</td>
+    <td bgcolor="#f0fff1"><select name="select2" class="form-control kt-selectpicker" data-live-search="true">
       <option value="AK" selected="selected">Motor</option>
       <option value="AK">Mobil</option>
       <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
     </select></td>
-    <td bgcolor="#feffed"><select name="select" class="form-control kt-selectpicker" data-live-search="true">
+    <td bgcolor="#f0fff1"><select name="select" class="form-control kt-selectpicker" data-live-search="true">
       <option value="AK" selected>Motor</option>
 	  <option value="AK">Pegawai/Instansi/Others</option>
 	  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
     </select></td>
-    <td bgcolor="#feffed"><select class="form-control kt-selectpicker" data-live-search="true">
+    <td bgcolor="#f0fff1"><select class="form-control kt-selectpicker" data-live-search="true">
       <option value="AK">1</option>
       <option value="HI">2</option>
       <option value="HI" selected="selected">3</option>
       <option value="HI">4</option>
       <option value="HI">5</option>
     </select></td>
-    <td bgcolor="#feffed"><select class="form-control kt-selectpicker" data-live-search="true">
+    <td bgcolor="#f0fff1"><select class="form-control kt-selectpicker" data-live-search="true">
       <option value="AK">Unit</option>
     </select></td>
-    <td colspan="5" bgcolor="#feffed">&nbsp;</td>
-    <td bgcolor="#feffed" style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+    <td colspan="5" bgcolor="#f0fff1">&nbsp;</td>
+    <td bgcolor="#f0fff1" style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
     </tr>
   <tr>
     <td style="text-align:right">1.1</td>
@@ -694,30 +717,30 @@ function goBack() {
     <td style="text-align:center">&nbsp;</td>
     </tr>
   <tr>
-    <td bgcolor="#feffed" style="text-align:right">2</td>
-    <td bgcolor="#feffed"><select name="select3" class="form-control kt-selectpicker" data-live-search="true">
+    <td bgcolor="#f0fff1" style="text-align:right">2</td>
+    <td bgcolor="#f0fff1"><select name="select3" class="form-control kt-selectpicker" data-live-search="true">
       <option value="AK" selected="selected">Mobil</option>
       <option value="AK">Motor</option>
       <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
     </select></td>
-    <td bgcolor="#feffed"><select name="select" class="form-control kt-selectpicker" data-live-search="true">
+    <td bgcolor="#f0fff1"><select name="select" class="form-control kt-selectpicker" data-live-search="true">
       <option value="AK">Pegawai/Instansi/Others</option>
       <option value="AK" selected>Sedan/Jeep/Pick Up</option>
       <option value="AK">Truck/Tronton/Trailer</option>
 	  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
     </select></td>
-    <td bgcolor="#feffed"><select class="form-control kt-selectpicker" data-live-search="true">
+    <td bgcolor="#f0fff1"><select class="form-control kt-selectpicker" data-live-search="true">
       <option value="AK">1</option>
       <option value="HI">2</option>
       <option value="HI" selected="selected">3</option>
       <option value="HI">4</option>
       <option value="HI">5</option>
     </select></td>
-    <td bgcolor="#feffed"><select class="form-control kt-selectpicker" data-live-search="true">
+    <td bgcolor="#f0fff1"><select class="form-control kt-selectpicker" data-live-search="true">
       <option value="AK">Unit</option>
     </select></td>
-    <td colspan="5" bgcolor="#feffed">&nbsp;</td>
-    <td bgcolor="#feffed" style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button>
+    <td colspan="5" bgcolor="#f0fff1">&nbsp;</td>
+    <td bgcolor="#f0fff1" style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button>
       <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
     </tr>
   <tr>
@@ -823,30 +846,30 @@ function goBack() {
     <td style="text-align:center">&nbsp;</td>
     </tr>
   <tr>
-    <td bgcolor="#feffed" style="text-align:right">3</td>
-    <td bgcolor="#feffed"><select name="select4" class="form-control kt-selectpicker" data-live-search="true">
+    <td bgcolor="#f0fff1" style="text-align:right">3</td>
+    <td bgcolor="#f0fff1"><select name="select4" class="form-control kt-selectpicker" data-live-search="true">
       <option value="AK" selected="selected">Mobil</option>
       <option value="AK">Motor</option>
       <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
     </select></td>
-    <td bgcolor="#feffed"><select name="select" class="form-control kt-selectpicker" data-live-search="true">
+    <td bgcolor="#f0fff1"><select name="select" class="form-control kt-selectpicker" data-live-search="true">
       <option value="AK">Pegawai/Instansi/Others</option>
       <option value="AK" >Sedan/Jeep/Pick Up</option>
       <option value="AK" selected>Truck/Tronton/Trailer</option>
 	  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
     </select></td>
-    <td bgcolor="#feffed"><select class="form-control kt-selectpicker" data-live-search="true">
+    <td bgcolor="#f0fff1"><select class="form-control kt-selectpicker" data-live-search="true">
       <option value="AK">1</option>
       <option value="HI">2</option>
       <option value="HI" selected="selected">3</option>
       <option value="HI">4</option>
       <option value="HI">5</option>
     </select></td>
-    <td bgcolor="#feffed"><select class="form-control kt-selectpicker" data-live-search="true">
+    <td bgcolor="#f0fff1"><select class="form-control kt-selectpicker" data-live-search="true">
       <option value="AK">Unit</option>
     </select></td>
-    <td colspan="5" bgcolor="#feffed">&nbsp;</td>
-    <td bgcolor="#feffed" style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button>
+    <td colspan="5" bgcolor="#f0fff1">&nbsp;</td>
+    <td bgcolor="#f0fff1" style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button>
       <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
     </tr>
   <tr>
@@ -1154,7 +1177,7 @@ function goBack() {
 														<button class="btn btn-success btn-md btn-tall btn-wide kt-font-bold kt-font-transform-u" data-ktwizard-type="action-submit">
 															Simpan
 														</button>
-														<button class="btn btn-brand btn-md btn-tall btn-wide kt-font-bold kt-font-transform-u" data-ktwizard-type="action-next">
+														<button class="btn btn-success btn-md btn-tall btn-wide kt-font-bold kt-font-transform-u" data-ktwizard-type="action-next">
 															Selanjutnya
 														</button>
 													</div>
@@ -1526,30 +1549,16 @@ function goBack() {
           </div>
         </div>
             </div>
+            </div>
+            </div>
+            </div>
 
 
 									<!--End::Portlet-->
-								</div>
-
-									<!--end:: Widgets/Notifications-->
-								</div>
-							</div>
-						</div>
-
-						<!-- end:: Content -->
-					</div>
-
-						<!-- end:: Content -->
-					</div>
-
-  </div>
-</div>
+							
 
 									<!--end: Datatable -->
-								</div>
-							</div>
-
-            </div>
+								
 <!--begin::Page Scripts(used by this page) -->
 
 <?php require '../layouts/footer.php' ?>

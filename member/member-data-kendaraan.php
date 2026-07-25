@@ -176,20 +176,20 @@ function goBack() {
 <div class="col-xl-12">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Membership</div><br><br>
 										<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
 												<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_2">
 
   <tbody><tr style="text-align:center">
-    <td width="1%" bgcolor="#0961ae" style="color:#fff;">NO</td>
-    <td width="7%" bgcolor="#0961ae" style="color:#fff;">KATEGORI</td>
-    <td width="6%" bgcolor="#0961ae" style="color:#fff;">STICKER</td>
-    <td width="4%" bgcolor="#0961ae" style="color:#fff;">NO PLAT<br>KENDARAAN</td>
-    <td width="5%" bgcolor="#0961ae" style="color:#fff;">TANGGAL<br>REGISTRASI</td>
-    <td width="5%" bgcolor="#0961ae" style="color:#fff;">BERLAKU<br>HINGGA</td>
-    <td width="1%" bgcolor="#0961ae" style="color:#fff;">STATUS</td>
+    <td width="1%" bgcolor="#f7fcff">NO</td>
+    <td width="7%" bgcolor="#f7fcff">KATEGORI</td>
+    <td width="6%" bgcolor="#f7fcff">STICKER</td>
+    <td width="4%" bgcolor="#f7fcff">NO PLAT<br>KENDARAAN</td>
+    <td width="5%" bgcolor="#f7fcff">TANGGAL<br>REGISTRASI</td>
+    <td width="5%" bgcolor="#f7fcff">BERLAKU<br>HINGGA</td>
+    <td width="1%" bgcolor="#f7fcff">STATUS</td>
     </tr>
   <tr style="text-align:center">
     <td bgcolor="#f5f5f5">a</td>

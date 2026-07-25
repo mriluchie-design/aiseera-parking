@@ -74,7 +74,7 @@
 								<div class="col-xl-5">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Perusahaan</div><br><br>
 										 <div class="kt-portlet__body">
 											<div class="kt-portlet__content">
@@ -252,7 +252,7 @@
 								<div class="col-xl-5">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Penanggung Jawab</div><br><br>
 										 <div class="kt-portlet__body">
 											<div class="kt-portlet__content">
@@ -420,8 +420,8 @@
 <div class="col-xl-2">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Logo Perusahaan</div><br>
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Logo Perusahaan</div><br><br>
 										<div class="kt-portlet__body">
 																								<div class="kt-portlet__content">
 																									<div class="form-group row">
@@ -471,30 +471,9 @@
 							<!--end:: Portlet-->
 
 
-          </div>
-
-
-								</div>
-
-
-								<!--End:: App Content-->
-							</div>
-
-							<!--End::App-->
-						</div>
-
-						<!-- end:: Content -->
-					</div>
-
-
-  </div>
-</div>
-
+         
 									<!--end: Datatable -->
-								</div>
-							</div>
-
-            </div>
+							
 <!--begin::Page Scripts(used by this page) -->
 
 <?php require '../layouts/footer.php' ?>
