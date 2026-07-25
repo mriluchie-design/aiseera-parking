@@ -919,13 +919,9 @@ function goBack() {
   </div>
   </div>
   </div>
-</div>
 
 									<!--end: Datatable -->
-								</div>
-							</div>
-
-            </div>
+								
 									
 
 <?php require '../layouts/footer.php' ?>

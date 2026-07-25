@@ -166,8 +166,8 @@ function goBack() {
 								<div class="col-xl-6">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Diri</div><br>
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Diri</div><br><br>
 										<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
 												<div class="form-group row">
@@ -282,8 +282,8 @@ function goBack() {
 										<div class="col-xl-4">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Alamat</div><br>
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Alamat</div><br><br>
 										<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
 												<div class="form-group row">
@@ -368,7 +368,7 @@ function goBack() {
 									<div class="col-xl-2">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Foto Member</div><br><br>
 										<div class="kt-portlet__body">
 																								<div class="kt-portlet__content">
@@ -420,7 +420,7 @@ function goBack() {
 														<div class="col-xl-12">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+									<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Transaksi</div><br><br>
 										<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
@@ -455,20 +455,20 @@ function goBack() {
 								<div class="col-xl-12">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Transaksi</div><br><br>
 										<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
 											<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_2">
 
   <tbody><tr style="text-align:center">
-    <td width="1%" bgcolor="#0961ae" style="color:#fff;">NO</td>
-    <td width="10%" bgcolor="#0961ae" style="color:#fff;">URAIAN </td>
-    <td width="3%" colspan="2" bgcolor="#0961ae" style="color:#fff;">JUMLAH<br>KENDARAAN</td>
-    <td width="3%" bgcolor="#0961ae" style="color:#fff;">NO PLAT<br>KENDARAAN</td>
-    <td width="4%" colspan="2" bgcolor="#0961ae" style="color:#fff;">DURASI</td>
-    <td width="6%" bgcolor="#0961ae" style="color:#fff;">TARIF SATUAN</td>
-    <td width="6%" bgcolor="#0961ae" style="color:#fff;">JUMLAH</td>
+    <td width="1%" bgcolor="#f7fcff">NO</td>
+    <td width="10%" bgcolor="#f7fcff">URAIAN </td>
+    <td width="3%" colspan="2" bgcolor="#f7fcff">JUMLAH<br>KENDARAAN</td>
+    <td width="3%" bgcolor="#f7fcff">NO PLAT<br>KENDARAAN</td>
+    <td width="4%" colspan="2" bgcolor="#f7fcff">DURASI</td>
+    <td width="6%" bgcolor="#f7fcff">TARIF SATUAN</td>
+    <td width="6%" bgcolor="#f7fcff">JUMLAH</td>
     </tr>
   <tr style="text-align:center">
     <td bgcolor="#f5f5f5">a</td>
@@ -484,11 +484,11 @@ function goBack() {
     <td colspan="8"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Biaya Membership Parkir"></td>
   </tr>
   <tr>
-    <td bgcolor="#feffed" style="text-align:right">1</td>
-    <td bgcolor="#feffed"><input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="Sepeda Motor"></td>
-    <td bgcolor="#feffed"><input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="1"></td>
-    <td bgcolor="#feffed"><input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="Unit"></td>
-    <td colspan="5" bgcolor="#feffed">&nbsp;</td>
+    <td bgcolor="#f0fff1" style="text-align:right">1</td>
+    <td bgcolor="#f0fff1"><input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="Sepeda Motor"></td>
+    <td bgcolor="#f0fff1"><input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="1"></td>
+    <td bgcolor="#f0fff1"><input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="Unit"></td>
+    <td colspan="5" bgcolor="#f0fff1">&nbsp;</td>
     </tr>
   <tr>
     <td style="text-align:right">1.1</td>
@@ -689,7 +689,7 @@ function goBack() {
 														<button class="btn btn-success btn-md btn-tall btn-wide kt-font-bold kt-font-transform-u" data-ktwizard-type="action-submit">
 															Simpan
 														</button>
-														<button class="btn btn-brand btn-md btn-tall btn-wide kt-font-bold kt-font-transform-u" data-ktwizard-type="action-next">
+														<button class="btn btn-success btn-md btn-tall btn-wide kt-font-bold kt-font-transform-u" data-ktwizard-type="action-next">
 															Selanjutnya
 														</button>
 													</div>
@@ -1072,19 +1072,11 @@ function goBack() {
 						</div>
 
 						<!-- end:: Content -->
-					</div>
-
-						<!-- end:: Content -->
-					</div>
-
-  </div>
-</div>
+					
+					
 
 									<!--end: Datatable -->
-								</div>
-							</div>
 
-            </div>
 <!--begin::Page Scripts(used by this page) -->
 
 <?php require '../layouts/footer.php' ?>

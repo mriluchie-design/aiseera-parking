@@ -471,7 +471,7 @@ function goBack() {
 					  
 					  
 					  
-					  <div class="col-lg-2">
+					  <div class="col-lg-4">
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--success">
@@ -885,13 +885,9 @@ function goBack() {
   </div>
   </div>
   </div>
-</div>
 
 									<!--end: Datatable -->
-								</div>
-							</div>
-
-            </div>
+								
 									
 
 <?php require '../layouts/footer.php' ?>
