@@ -234,7 +234,7 @@ function goBack() {
 
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">History Jabatan</div><br>
 							<div>&nbsp;</div>
 										<div class="kt-portlet__body">
@@ -285,7 +285,7 @@ function goBack() {
 
                       </div>
                     </div>
-					<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+					<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">History Teguran / Pelanggaran</div><br>
 							<div>&nbsp;</div>
 										<div class="kt-portlet__body">
@@ -360,20 +360,7 @@ function goBack() {
 							</div>
 
 							<!--End::App-->
-						</div>
-
-						<!-- end:: Content -->
-					</div>
-
-
-  </div>
-</div>
-
-									<!--end: Datatable -->
-								</div>
-							</div>
-
-            </div>
+						
 <!--begin::Page Scripts(used by this page) -->
 		<script src="../assets/js/pages/dashboard.js" type="text/javascript"></script>
 		<script src="../assets/js/scripts.bundle.js" type="text/javascript"></script>
