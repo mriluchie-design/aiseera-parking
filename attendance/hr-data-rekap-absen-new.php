@@ -570,40 +570,40 @@
 											  <td width="1%" align="center" valign="middle" bgcolor="#F3F8FF" style="text-align:center">-</td>
 										  </tr>
 											<tr>
-											  <td bgcolor="#fafaec" colspan="4" id="kt_table_11">&nbsp;</td>
-											  <td bgcolor="#fafaec" style="text-align:left" nowrap>Status Kehadiran</td>
-											  <td bgcolor="#fafaec" align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--unified-light kt-badge--sm kt-badge--inline">Lembur</span></td>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Selasa" data-html="true">Alpa</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Rabu" data-html="true">Alpa</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Kamis" data-html="true">Hadir</span></th>
-											  <th bgcolor="#fafaec">Cepat Pulang</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-info kt-badge--sm kt-badge--inline">Cuti</span></th>
-											  <th bgcolor="#fafaec">Kerja Hari Libur</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--primary kt-badge--sm kt-badge--inline">Dinas</span></th>
-											  <th bgcolor="#fafaec">Izin Telat Datang</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline">Terlambat</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-danger kt-badge--sm kt-badge--inline">Izin</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec">&nbsp;</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec">&nbsp;</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec">&nbsp;</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <td bgcolor="#fafaec" colspan="10" align="center" valign="middle" style="text-align:center">&nbsp;</td>
+											  <td bgcolor="#fdfdec" colspan="4" id="kt_table_11">&nbsp;</td>
+											  <td bgcolor="#fdfdec" style="text-align:left" nowrap>Status Kehadiran</td>
+											  <td bgcolor="#fdfdec" align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--unified-light kt-badge--sm kt-badge--inline">Lembur</span></td>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Selasa" data-html="true">Alpa</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Rabu" data-html="true">Alpa</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Kamis" data-html="true">Hadir</span></th>
+											  <th bgcolor="#fdfdec">Cepat Pulang</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--unified-info kt-badge--sm kt-badge--inline">Cuti</span></th>
+											  <th bgcolor="#fdfdec">Kerja Hari Libur</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--primary kt-badge--sm kt-badge--inline">Dinas</span></th>
+											  <th bgcolor="#fdfdec">Izin Telat Datang</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline">Terlambat</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--unified-danger kt-badge--sm kt-badge--inline">Izin</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec">&nbsp;</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec">&nbsp;</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec">&nbsp;</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <td bgcolor="#fdfdec" colspan="10" align="center" valign="middle" style="text-align:center">&nbsp;</td>
 										  </tr>
 											<tr>
 												<td rowspan="6" id="kt_table_1">2</td>
@@ -827,40 +827,40 @@
 											  <td width="1%" align="center" valign="middle" bgcolor="#F3F8FF" style="text-align:center">-</td>
 										  </tr>
 											<tr>
-											  <td bgcolor="#fafaec" colspan="4" id="kt_table_11">&nbsp;</td>
-											  <td bgcolor="#fafaec" style="text-align:left" nowrap>Status Kehadiran</td>
-											  <td bgcolor="#fafaec" align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--unified-light kt-badge--sm kt-badge--inline">Lembur</span></td>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Selasa" data-html="true">Alpa</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Rabu" data-html="true">Alpa</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Kamis" data-html="true">Hadir</span></th>
-											  <th bgcolor="#fafaec">Cepat Pulang</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-info kt-badge--sm kt-badge--inline">Cuti</span></th>
-											  <th bgcolor="#fafaec">&nbsp;</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--primary kt-badge--sm kt-badge--inline">Dinas</span></th>
-											  <th bgcolor="#fafaec">Izin Telat Datang</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline">Terlambat</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-danger kt-badge--sm kt-badge--inline">Izin</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec">&nbsp;</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec">&nbsp;</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec">&nbsp;</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <td bgcolor="#fafaec" colspan="10" align="center" valign="middle" style="text-align:center">&nbsp;</td>
+											  <td bgcolor="#fdfdec" colspan="4" id="kt_table_11">&nbsp;</td>
+											  <td bgcolor="#fdfdec" style="text-align:left" nowrap>Status Kehadiran</td>
+											  <td bgcolor="#fdfdec" align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--unified-light kt-badge--sm kt-badge--inline">Lembur</span></td>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Selasa" data-html="true">Alpa</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Rabu" data-html="true">Alpa</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Kamis" data-html="true">Hadir</span></th>
+											  <th bgcolor="#fdfdec">Cepat Pulang</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--unified-info kt-badge--sm kt-badge--inline">Cuti</span></th>
+											  <th bgcolor="#fdfdec">&nbsp;</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--primary kt-badge--sm kt-badge--inline">Dinas</span></th>
+											  <th bgcolor="#fdfdec">Izin Telat Datang</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline">Terlambat</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--unified-danger kt-badge--sm kt-badge--inline">Izin</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec">&nbsp;</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec">&nbsp;</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec">&nbsp;</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <td bgcolor="#fdfdec" colspan="10" align="center" valign="middle" style="text-align:center">&nbsp;</td>
 										  </tr>
 											<tr>
 											  <td colspan="46" id="kt_table_3" bgcolor="#e6f5fc">Umum</td>
@@ -1087,40 +1087,40 @@
 											  <td width="1%" align="center" valign="middle" bgcolor="#F3F8FF" style="text-align:center">-</td>
 										  </tr>
 											<tr>
-											  <td bgcolor="#fafaec" colspan="4" id="kt_table_11">&nbsp;</td>
-											  <td bgcolor="#fafaec" style="text-align:left" nowrap>Status Kehadiran</td>
-											  <td bgcolor="#fafaec" align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--unified-light kt-badge--sm kt-badge--inline">Lembur</span></td>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Selasa" data-html="true">Alpa</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Rabu" data-html="true">Alpa</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Kamis" data-html="true">Hadir</span></th>
-											  <th bgcolor="#fafaec">Cepat Pulang</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-info kt-badge--sm kt-badge--inline">Cuti</span></th>
-											  <th bgcolor="#fafaec">&nbsp;</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--primary kt-badge--sm kt-badge--inline">Dinas</span></th>
-											  <th bgcolor="#fafaec">Izin Telat Datang</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline">Terlambat</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-danger kt-badge--sm kt-badge--inline">Izin</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec">&nbsp;</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec">&nbsp;</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec">&nbsp;</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <td bgcolor="#fafaec" colspan="10" align="center" valign="middle" style="text-align:center">&nbsp;</td>
+											  <td bgcolor="#fdfdec" colspan="4" id="kt_table_11">&nbsp;</td>
+											  <td bgcolor="#fdfdec" style="text-align:left" nowrap>Status Kehadiran</td>
+											  <td bgcolor="#fdfdec" align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--unified-light kt-badge--sm kt-badge--inline">Lembur</span></td>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Selasa" data-html="true">Alpa</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Rabu" data-html="true">Alpa</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Kamis" data-html="true">Hadir</span></th>
+											  <th bgcolor="#fdfdec">Cepat Pulang</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--unified-info kt-badge--sm kt-badge--inline">Cuti</span></th>
+											  <th bgcolor="#fdfdec">&nbsp;</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--primary kt-badge--sm kt-badge--inline">Dinas</span></th>
+											  <th bgcolor="#fdfdec">Izin Telat Datang</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline">Terlambat</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--unified-danger kt-badge--sm kt-badge--inline">Izin</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec">&nbsp;</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec">&nbsp;</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec">&nbsp;</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <td bgcolor="#fdfdec" colspan="10" align="center" valign="middle" style="text-align:center">&nbsp;</td>
 										  </tr>
 										  <tr>
 												<td rowspan="6" id="kt_table_1">4</td>
@@ -1344,40 +1344,40 @@
 										    <td width="1%" align="center" valign="middle" bgcolor="#F3F8FF" style="text-align:center">-</td>
 									      </tr>
 										 <tr>
-											  <td bgcolor="#fafaec" colspan="4" id="kt_table_11">&nbsp;</td>
-											  <td bgcolor="#fafaec" style="text-align:left" nowrap>Status Kehadiran</td>
-											  <td bgcolor="#fafaec" align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--unified-light kt-badge--sm kt-badge--inline">Lembur</span></td>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Selasa" data-html="true">Alpa</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Rabu" data-html="true">Alpa</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Kamis" data-html="true">Hadir</span></th>
-											  <th bgcolor="#fafaec">Cepat Pulang</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-info kt-badge--sm kt-badge--inline">Cuti</span></th>
-											  <th bgcolor="#fafaec">&nbsp;</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--primary kt-badge--sm kt-badge--inline">Dinas</span></th>
-											  <th bgcolor="#fafaec">Izin Telat Datang</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline">Terlambat</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-danger kt-badge--sm kt-badge--inline">Izin</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec">&nbsp;</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec">&nbsp;</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec">&nbsp;</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <td bgcolor="#fafaec" colspan="10" align="center" valign="middle" style="text-align:center">&nbsp;</td>
+											  <td bgcolor="#fdfdec" colspan="4" id="kt_table_11">&nbsp;</td>
+											  <td bgcolor="#fdfdec" style="text-align:left" nowrap>Status Kehadiran</td>
+											  <td bgcolor="#fdfdec" align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--unified-light kt-badge--sm kt-badge--inline">Lembur</span></td>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Selasa" data-html="true">Alpa</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Rabu" data-html="true">Alpa</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Kamis" data-html="true">Hadir</span></th>
+											  <th bgcolor="#fdfdec">Cepat Pulang</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--unified-info kt-badge--sm kt-badge--inline">Cuti</span></th>
+											  <th bgcolor="#fdfdec">&nbsp;</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--primary kt-badge--sm kt-badge--inline">Dinas</span></th>
+											  <th bgcolor="#fdfdec">Izin Telat Datang</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline">Terlambat</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--unified-danger kt-badge--sm kt-badge--inline">Izin</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec">&nbsp;</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec">&nbsp;</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec">&nbsp;</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <td bgcolor="#fdfdec" colspan="10" align="center" valign="middle" style="text-align:center">&nbsp;</td>
 										  </tr>
 
                                           <tr>
@@ -1605,40 +1605,40 @@
                                             <td width="1%" align="center" valign="middle" bgcolor="#F3F8FF" style="text-align:center">-</td>
                                           </tr>
                                           <tr>
-											  <td bgcolor="#fafaec" colspan="4" id="kt_table_11">&nbsp;</td>
-											  <td bgcolor="#fafaec" style="text-align:left" nowrap>Status Kehadiran</td>
-											  <td bgcolor="#fafaec" align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--unified-light kt-badge--sm kt-badge--inline">Lembur</span></td>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Selasa" data-html="true">Alpa</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Rabu" data-html="true">Alpa</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Kamis" data-html="true">Hadir</span></th>
-											  <th bgcolor="#fafaec">Cepat Pulang</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-info kt-badge--sm kt-badge--inline">Cuti</span></th>
-											  <th bgcolor="#fafaec">&nbsp;</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--primary kt-badge--sm kt-badge--inline">Dinas</span></th>
-											  <th bgcolor="#fafaec">Izin Telat Datang</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline">Terlambat</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-danger kt-badge--sm kt-badge--inline">Izin</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec">&nbsp;</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec">&nbsp;</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec">&nbsp;</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <td bgcolor="#fafaec" colspan="10" align="center" valign="middle" style="text-align:center">&nbsp;</td>
+											  <td bgcolor="#fdfdec" colspan="4" id="kt_table_11">&nbsp;</td>
+											  <td bgcolor="#fdfdec" style="text-align:left" nowrap>Status Kehadiran</td>
+											  <td bgcolor="#fdfdec" align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--unified-light kt-badge--sm kt-badge--inline">Lembur</span></td>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Selasa" data-html="true">Alpa</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Rabu" data-html="true">Alpa</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Kamis" data-html="true">Hadir</span></th>
+											  <th bgcolor="#fdfdec">Cepat Pulang</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--unified-info kt-badge--sm kt-badge--inline">Cuti</span></th>
+											  <th bgcolor="#fdfdec">&nbsp;</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--primary kt-badge--sm kt-badge--inline">Dinas</span></th>
+											  <th bgcolor="#fdfdec">Izin Telat Datang</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline">Terlambat</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--unified-danger kt-badge--sm kt-badge--inline">Izin</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec">&nbsp;</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec">&nbsp;</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec">&nbsp;</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <td bgcolor="#fdfdec" colspan="10" align="center" valign="middle" style="text-align:center">&nbsp;</td>
 										  </tr>
 <tr>
 												<td rowspan="6" id="kt_table_1">6</td>
@@ -1862,40 +1862,40 @@
   <td width="1%" align="center" valign="middle" bgcolor="#F3F8FF" style="text-align:center">-</td>
   </tr>
 <tr>
-											  <td bgcolor="#fafaec" colspan="4" id="kt_table_11">&nbsp;</td>
-											  <td bgcolor="#fafaec" style="text-align:left" nowrap>Status Kehadiran</td>
-											  <td bgcolor="#fafaec" align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--unified-light kt-badge--sm kt-badge--inline">Lembur</span></td>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Selasa" data-html="true">Alpa</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Rabu" data-html="true">Alpa</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Kamis" data-html="true">Hadir</span></th>
-											  <th bgcolor="#fafaec">Cepat Pulang</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-info kt-badge--sm kt-badge--inline">Cuti</span></th>
-											  <th bgcolor="#fafaec">&nbsp;</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--primary kt-badge--sm kt-badge--inline">Dinas</span></th>
-											  <th bgcolor="#fafaec">Izin Telat Datang</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline">Terlambat</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--unified-danger kt-badge--sm kt-badge--inline">Izin</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec">&nbsp;</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec">&nbsp;</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec">&nbsp;</th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <th bgcolor="#fafaec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
-											  <td bgcolor="#fafaec" colspan="10" align="center" valign="middle" style="text-align:center">&nbsp;</td>
+											  <td bgcolor="#fdfdec" colspan="4" id="kt_table_11">&nbsp;</td>
+											  <td bgcolor="#fdfdec" style="text-align:left" nowrap>Status Kehadiran</td>
+											  <td bgcolor="#fdfdec" align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--unified-light kt-badge--sm kt-badge--inline">Lembur</span></td>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Selasa" data-html="true">Alpa</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--danger kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Rabu" data-html="true">Alpa</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Kamis" data-html="true">Hadir</span></th>
+											  <th bgcolor="#fdfdec">Cepat Pulang</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--unified-info kt-badge--sm kt-badge--inline">Cuti</span></th>
+											  <th bgcolor="#fdfdec">&nbsp;</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--primary kt-badge--sm kt-badge--inline">Dinas</span></th>
+											  <th bgcolor="#fdfdec">Izin Telat Datang</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline">Terlambat</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--unified-danger kt-badge--sm kt-badge--inline">Izin</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec">&nbsp;</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec">&nbsp;</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec">&nbsp;</th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <th bgcolor="#fdfdec"><span class="kt-badge kt-badge--success kt-badge--sm kt-badge--inline">Hadir</span></th>
+											  <td bgcolor="#fdfdec" colspan="10" align="center" valign="middle" style="text-align:center">&nbsp;</td>
 										  </tr>
 
 										  

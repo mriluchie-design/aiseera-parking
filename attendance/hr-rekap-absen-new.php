@@ -621,65 +621,96 @@
 											<div class="kt-portlet kt-portlet--mobile ">
 											<div class="kt-portlet__head">
 											<div class="kt-portlet__head-label">
-												<span class="kt-portlet__head-icon"><i class="flaticon2-list-1"></i></span>
-												<h3 class="kt-portlet__head-title kt-font-info">LAPORAN ABSEN PEGAWAI</h3>
+												<span class="kt-portlet__head-icon" style="font-size:25px;"><i class="kt-font-brand fa fa-barcode"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger">DATA ABSEN</h3>
 											</div>
 											<div class="kt-portlet__head-toolbar">
-											
-											<div class="dropdown-menu dropdown-menu-fit dropdown-menu-md dropdown-menu-right">
-
-												<!--begin::Nav-->
-												<ul class="kt-nav">
-
-													
-
-												</ul>
-
-												<!--end::Nav-->
-											</div>&nbsp;
 												<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">X</button>
 											</div>
 										</div>
+										<div class="row">
 										<div class="kt-portlet__body">
 											<div class="tab-content">
-												<div class="tab-pane active" id="kt_tabs_7_1" role="tabpanel">
-													<table width="806" class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
-  <tr>
-    <td width="13%" rowspan="3"><a href="#" style="text-align:center" class="kt-media"><img src="../assets/img/users/100_15.jpg" alt="image" style="max-width:100px !important;height:auto" /></a></td>
-    <td width="15%">Nama Pegawai</td>
-    <td width="2%">:</td>
-    <td width="32%">Ir. ASRARUDIN MAMONTO, MM</td>
-    <td width="1%" rowspan="3">&nbsp;</td>
-    <td width="16%">Status Absen</td>
-    <td width="4%">:</td>
-    <td width="17%"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">Hadir</span></td>
-  </tr>
-  <tr>
-    <td>NPP</td>
-    <td>:</td>
-    <td>238700506047</td>
-    <td>Total Jam Kerja</td>
-    <td>:</td>
-    <td>09:00:00</td>
-  </tr>
-  <tr>
-    <td>Jabatan</td>
-    <td>:</td>
-    <td>Kepala Divisi Umum</td>
-    <td>Total  Lembur</td>
-    <td>:</td>
-    <td>00:00:00</td>
-  </tr>
-  <tr>
-    <td colspan="8"></td>
-  </tr>
-</table>
-<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
+											<div class="form-group row">
+											<div class="col-lg-2">
+
+									<!--begin::Portlet-->
+										
+					  
+							
+										
+                     
+																					<div class="col-lg-12">
+																											<div>&nbsp;</div>
+																											<a href="#" style="text-align:center" class="kt-media"><img src="../assets/img/users/100_15.jpg" alt="image" style="max-width:100px !important;height:auto" /></a>
+																										</div>
+																					
+																					
+																					
+																				
+																				
+						
+						
+                     
+					  
+                      </div>
+<div class="col-lg-10">
+
+									<!--begin::Portlet-->
+										
+						
+										 <div class="kt-portlet__body">
+                      <div class="form-group row">
+						<div class="col-lg-3">
+                          <label class="">NPP :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="000000000001">
+                        </div>
+						<div class="col-lg-3">
+                          <label class="">Total Jam Kerja :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="09:00:00">
+                        </div>
+						<div class="col-lg-3">
+                          <label class="">Total Lembur :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="09:00:00">
+                        </div>
+						<div class="col-lg-2">
+                          <label class="">Status :</label><br>
+                          <span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">Hadir</span>
+                        </div>
+						
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+                     <div class="form-group row">
+						<div class="col-lg-6">
+                          <label class="">Nama Pegawai :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom">
+                        </div>
+						<div class="col-lg-6">
+                          <label class="">Jabatan :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Direktur Teknologi & Riset">
+                        </div>
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+                    
+                      </div>
+                      </div>
+					  <div class="col-xl-12">
+					<div class="accordion accordion-solid accordion-toggle-plus" id="accordionExample1">
+						<div class="card">
+							<div class="card-header" id="headingOne">
+								<div class="card-title collapsed d-grid" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="false" aria-controls="collapseOne1">
+								Data Absen  
+									<small>Masuk dan Keluar</small>
+								</div>
+							</div>
+							<div id="collapseOne1" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample1" style="">
+								<div class="card-body">
+                              <table class="table table-responsive table-striped- table-checkable" id="kt_table_1">
   
   <tr>
     <td colspan="3" align="center" bgcolor="#f7fcff">Absen Masuk</td>
     <td width="2%" rowspan="6">&nbsp;</td>
-    <td colspan="3" align="center" bgcolor="#f7fcff">Absen Pulang</td>
+    <td colspan="3" align="center" bgcolor="#f7fcff">Absen Keluar</td>
   </tr>
   <tr>
     <td width="15%">Jam Masuk</td>
@@ -708,22 +739,37 @@
   <tr>
     <td>Lokasi</td>
     <td>:</td>
-    <td>Jl. Adhyaksa Baru Ruko Zamrud 2 Blok H No.8/20</td>
+    <td>Jl. Toddopuli Raya Timur Kompleks Villa Surya Mas Blok J No.6</td>
     <td>Lokasi </td>
     <td>:</td>
-    <td>Jl. Adhyaksa Baru Ruko Zamrud 2 Blok H No.8/20</td>
+    <td>Jl. Toddopuli Raya Timur Kompleks Villa Surya Mas Blok J No.6</td>
   </tr>
   <tr>
     <td>Foto</td>
     <td>:</td>
-    <td><button type="reset" class="btn btn-primary btn-sm"><i class="flaticon-eye"></i>Lihat Foto</button></td>
+    <td><button type="reset" class="btn btn-label-brand btn-sm"><i class="flaticon-eye"></i>Lihat Foto</button></td>
     <td>Foto</td>
     <td>:</td>
-    <td><button type="reset" class="btn btn-primary btn-sm"><i class="flaticon-eye"></i>Lihat Foto</button></td>
+    <td><button type="reset" class="btn btn-label-brand btn-sm"><i class="flaticon-eye"></i>Lihat Foto</button></td>
   </tr>
-  <tr>
-    <td colspan="7">&nbsp;</td>
-  </tr>
+  
+  
+</table>
+														</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card-header" id="headingTwo">
+								<div class="card-title d-grid collapsed" data-toggle="collapse" data-target="#collapseTwo1" aria-expanded="false" aria-controls="collapseTwo1">
+									Data Lembur 
+									<small>Masuk dan Keluar</small>
+									 </div>
+							</div>
+							<div id="collapseTwo1" class="collapse" aria-labelledby="headingTwo1" data-parent="#accordionExample1">
+								<div class="card-body">
+                              <table class="table table-responsive table-striped- table-checkable" id="kt_table_1">
+  
+  
   <tr>
     <td colspan="3" align="center" bgcolor="#f7fcff">Lembur Masuk</td>
     <td rowspan="6">&nbsp;</td>
@@ -756,23 +802,119 @@
   <tr>
     <td>Lokasi </td>
     <td>:</td>
-    <td>Jl. Adhyaksa Baru Ruko Zamrud 2 Blok H No.8/20</td>
+    <td>Jl. Toddopuli Raya Timur Kompleks Villa Surya Mas Blok J No.6</td>
     <td>Lokasi </td>
     <td>:</td>
-    <td>Jl. Adhyaksa Baru Ruko Zamrud 2 Blok H No.8/20</td>
+    <td>Jl. Toddopuli Raya Timur Kompleks Villa Surya Mas Blok J No.6</td>
   </tr>
   <tr>
     <td>Foto</td>
     <td>:</td>
-    <td><button type="reset" class="btn btn-primary btn-sm"><i class="flaticon-eye"></i>Lihat Foto</button></td>
+    <td><button type="reset" class="btn btn-label-brand btn-sm"><i class="flaticon-eye"></i>Lihat Foto</button></td>
     <td>Foto</td>
     <td>:</td>
-    <td><button type="reset" class="btn btn-primary btn-sm"><i class="flaticon-eye"></i>Lihat Foto</button></td>
+    <td><button type="reset" class="btn btn-label-brand btn-sm"><i class="flaticon-eye"></i>Lihat Foto</button></td>
   </tr>
 </table>
+														</div>
+							</div>
+						</div>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+					</div>
+				</div>
+					  <div class="col-lg-3">
+
+									<!--begin::Portlet-->
+										
+					  
+							
+										
+                     
+																					<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--success">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Absen Masuk</div><br><br>
+										 <div class="kt-portlet__body">
+                      <a href="#" style="text-align:center" class="kt-media"><img src="../assets/img/users/100_15.jpg" alt="image" style="max-width:200px !important;height:auto" /></a>
+                      </div>
+                      </div>
+                      </div>
+					  <div class="col-lg-3">
+
+									<!--begin::Portlet-->
+										
+					  
+							
+										
+                     
+																					<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--success">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Absen Keluar</div><br><br>
+										 <div class="kt-portlet__body">
+                      <a href="#" style="text-align:center" class="kt-media"><img src="../assets/img/users/100_15.jpg" alt="image" style="max-width:200px !important;height:auto" /></a>
+                      </div>
+                      </div>
+                      </div>
+					  <div class="col-lg-3">
+
+									<!--begin::Portlet-->
+										
+					  
+							
+										
+                     
+																					<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--primary">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Lembur Masuk</div><br><br>
+										 <div class="kt-portlet__body">
+                      <a href="#" style="text-align:center" class="kt-media"><img src="../assets/img/users/100_15.jpg" alt="image" style="max-width:200px !important;height:auto" /></a>
+                      </div>
+                      </div>
+                      </div>
+					  <div class="col-lg-3">
+
+									<!--begin::Portlet-->
+										
+					  
+							
+										
+                     
+																					<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--primary">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Lembur Keluar</div><br><br>
+										 <div class="kt-portlet__body">
+                      <a href="#" style="text-align:center" class="kt-media"><img src="../assets/img/users/100_15.jpg" alt="image" style="max-width:200px !important;height:auto" /></a>
+                      </div>
+                      </div>
+					  
+                    
+
+					  
+                    
+
+					  
+
+			
+
+									<!--begin::Portlet-->
+										
+
+
+					  
+					  
+												
+
 
 												
-												</div>
+										
 
 												
 
@@ -787,6 +929,8 @@
 
 
 									</div>
+								</div>
+								</div>
 								</div>
 								</div>
 								</div>

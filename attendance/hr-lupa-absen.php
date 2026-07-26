@@ -356,7 +356,7 @@
 										<tbody>
 											
 										  <tr>
-												<td id="kt_table_1">1</td>
+												<td style="text-align:right">1</td>
 												<td style="text-align:center">12 Oktober 2019</td>
 												<td>Datang</td>
 												<td style="text-align:center">12 Oktober 2019<br />
@@ -408,7 +408,7 @@
 															</div></td>
 										  </tr>
 										  <tr>
-												<td id="kt_table_1">2</td>
+												<td style="text-align:right">2</td>
 												<td style="text-align:center">12 Oktober 2019</td>
 												<td>Pulang</td>
 												<td style="text-align:center">12 Oktober 2019<br />
@@ -458,7 +458,7 @@
 															</div></td>
 										  </tr>
 										  <tr>
-												<td id="kt_table_1">3</td>
+												<td style="text-align:right">3</td>
 												<td style="text-align:center">12 Oktober 2019</td>
 												<td>Lembur Masuk</td>
 												<td style="text-align:center">12 Oktober 2019<br />

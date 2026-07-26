@@ -26,21 +26,116 @@ License: You must have a valid license purchased only from themeforest(the above
 											Dashboard
 
 									</h3>
+									
 								<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Attendance </span>
+											Absensi </span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
 										</form>
 									</div>
 
+
 								</div>
+								<div class="kt-subheader__toolbar">
+			
+                <button type="button" class="btn btn-label-danger btn-sm" id = "buttonLogin" onclick = "displayLoginBox()"><i class="flaticon-interface-6"></i> Filter Data</button>
+                <a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
+                    <i class="flaticon2-printer"></i> Export Data</button>
+                    <!--<i class="flaticon2-plus"></i>-->
+                </a>
+                <div class="dropdown-menu dropdown-menu-fit dropdown-menu-md dropdown-menu-right">
+                    <!--begin::Nav-->
+                    <ul class="kt-nav">
+                        <li class="kt-nav__item">
+                            <a href="#" class="kt-nav__link">
+                                <i class="kt-nav__link-icon fa fa-file-pdf"></i><span class="kt-nav__link-text">PDF</span>
+                            </a>
+                          </li>
+                        <li class="kt-nav__item">
+                            <a href="#" class="kt-nav__link">
+                                <i class="kt-nav__link-icon fa fa-file-excel"></i><span class="kt-nav__link-text">Excel</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!--end::Nav-->
+                </div>
+				<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
+			</div>
 							</div>
+							
+						</div>
 						</div>
 						
 
             <div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
+			<div class="kt-portlet" id = "login_Box_Div" >
+            <div class="kt-portlet__head">
+                <div class="kt-portlet__head-label">
+                    <h3 class="kt-portlet__head-title">
+                        Filter Data
+                    </h3>
+                </div>
+            </div>
+            <!--begin::Form-->
+            <form class="kt-form">
+					<div class="kt-portlet__body">
+                        <div class="form-group row">
+						<div class="col-lg-2">
+                                <label>Lokasi :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Makassar</option>
+                                      <option value="2">Pare-Pare</option>
+                                      <option value="2">Balikpapan</option>
+                                      <option value="2">Samarinda</option>
+                                      <option value="2">Tarakan</option>
+                                      <option value="2">Nunukan</option>
+                                      <option value="2">Manado</option>
+                                      <option value="2">Bitung</option>
+                                      <option value="2">Ambon - Yos Sudarso</option>
+                                      <option value="2">Ambon - Slamet Riyadi</option>
+                                      <option value="2">Ternate</option>
+                                      <option value="2">Sorong</option>
+                                      <option value="2">Keseluruhan</option>
+                                                                           
+                                  </select>
+    		                    </div>
+								
+                             
+							
+							
+							
+							
+    		                    </div>
+								
+                            
+							
+                            
+							
+							
+							
+							<br>
+							
+							
+						
+					<div class="kt-portlet__foot text-center">
+						<div class="kt-form__actions">
+							<button type="reset" class="btn btn-secondary btn-sm">Reset</button>
+							<button type="reset" class="btn btn-primary btn-sm"><i class="flaticon-interface-6"></i>Filter Data</button>
+						</div>
+					</div>
+					</div>
+				</form>
+            <!--end::Form-->
+        </div>
 			<div class="row">
 								
 										
@@ -77,11 +172,7 @@ License: You must have a valid license purchased only from themeforest(the above
 														
 														
 													</ul>
-												</div>&nbsp;
-												<a href="#" class="btn btn-secondary kt-btn kt-btn--custom kt-btn--icon btn-sm" data-toggle="dropdown">
-                    <i class="flaticon2-printer"></i> Export Data</button>
-                    <!--<i class="flaticon2-plus"></i>-->
-                </a>
+												</div>
 											</div>
 										</div>
 										<div class="kt-portlet__body kt-portlet__body--fit">
@@ -108,7 +199,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																Hadir
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:16px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">105</span> Orang
+																<span style="color:#ed1c24; font-size:16px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">105</span> Orang
 															</span>
 														</div>
 														</div>
@@ -128,7 +219,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																Alpa
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:16px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_alpa">10</span> Orang
+																<span style="color:#ed1c24; font-size:16px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_alpa">10</span> Orang
 															</span>
 														</div>
 														</div>
@@ -148,7 +239,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																Sakit
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:16px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_sakit">2</span> Orang
+																<span style="color:#ed1c24; font-size:16px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_sakit">2</span> Orang
 															</span>
 														</div>
 														</div>
@@ -169,7 +260,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																Izin
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:16px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_izin">2</span> Orang
+																<span style="color:#ed1c24; font-size:16px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_izin">2</span> Orang
 															</span>
 														</div>
 														</div>
@@ -191,7 +282,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																Cuti
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:16px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_cuti">2</span> Orang
+																<span style="color:#ed1c24; font-size:16px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_cuti">2</span> Orang
 															</span>
 														</div>
 														</div>
@@ -213,7 +304,7 @@ License: You must have a valid license purchased only from themeforest(the above
 																Terlambat
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:16px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_terlambat">12</span> Orang
+																<span style="color:#ed1c24; font-size:16px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_terlambat">12</span> Orang
 															</span>
 														</div>
 														</div>
@@ -382,7 +473,7 @@ License: You must have a valid license purchased only from themeforest(the above
 
 								
 						</div>
-
+<div>&nbsp;</div>
 						<?php require '../layouts/footer.php' ?>
 						<script src="https://code.highcharts.com/highcharts.js"></script>
 						<script src="https://code.highcharts.com/modules/exporting.js"></script>
