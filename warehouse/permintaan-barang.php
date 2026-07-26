@@ -40,7 +40,7 @@
                     <!--begin::Nav-->
                     <ul class="kt-nav">
                         <li class="kt-nav__item">
-                            <a href="cetak-rekap-kendaraan-masuk.php" class="kt-nav__link">
+                            <a href="cetak-rekap-permintaan-barang.php" class="kt-nav__link">
 															<i class="kt-nav__link-icon fa fa-file-pdf"></i>
 															<span class="kt-nav__link-text">PDF</span>
 														</a>

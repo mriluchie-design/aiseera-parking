@@ -153,7 +153,78 @@
 											</ul>
 									</div>
 								</li>
+<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><span class="kt-menu__link-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect opacity="0.200000003" x="0" y="0" width="24" height="24"/>
+        <path d="M4.5,7 L9.5,7 C10.3284271,7 11,7.67157288 11,8.5 C11,9.32842712 10.3284271,10 9.5,10 L4.5,10 C3.67157288,10 3,9.32842712 3,8.5 C3,7.67157288 3.67157288,7 4.5,7 Z M13.5,15 L18.5,15 C19.3284271,15 20,15.6715729 20,16.5 C20,17.3284271 19.3284271,18 18.5,18 L13.5,18 C12.6715729,18 12,17.3284271 12,16.5 C12,15.6715729 12.6715729,15 13.5,15 Z" fill="#000000" opacity="0.3"/>
+        <path d="M17,11 C15.3431458,11 14,9.65685425 14,8 C14,6.34314575 15.3431458,5 17,5 C18.6568542,5 20,6.34314575 20,8 C20,9.65685425 18.6568542,11 17,11 Z M6,19 C4.34314575,19 3,17.6568542 3,16 C3,14.3431458 4.34314575,13 6,13 C7.65685425,13 9,14.3431458 9,16 C9,17.6568542 7.65685425,19 6,19 Z" fill="#000000"/>
+    </g>
+</svg></span><span class="kt-menu__link-text">Persetujuan</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
+									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
+										<ul class="kt-menu__subnav">
+										<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Keuangan</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
+															<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
+																<ul class="kt-menu__subnav">
+																	<li class="kt-menu__item" aria-haspopup="true"><a href="persetujuan-setoran-operator.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Setoran Operator</span></a></li>
 
+																</ul>
+															</div>
+														</li>
+										<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Warehouse</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
+															<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
+																<ul class="kt-menu__subnav">
+																	<li class="kt-menu__item" aria-haspopup="true"><a href="persetujuan-permintaan-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Permintaan Barang</span></a></li>
+																	<li class="kt-menu__item" aria-haspopup="true"><a href="persetujuan-barang-masuk.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Barang Masuk</span></a></li>
+																	<li class="kt-menu__item" aria-haspopup="true"><a href="persetujuan-barang-keluar.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Barang Keluar</span></a></li>
+																	<li class="kt-menu__item" aria-haspopup="true"><a href="persetujuan-pesan-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pesan Barang</span></a></li>
+																	<li class="kt-menu__item" aria-haspopup="true"><a href="persetujuan-retur-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Retur Barang</span></a></li>
+																	<li class="kt-menu__item" aria-haspopup="true"><a href="persetujuan-transfer-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Transfer Barang</span></a></li>
+																	<li class="kt-menu__item" aria-haspopup="true"><a href="persetujuan-hapus-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Penghapusan Barang</span></a></li>
+
+																</ul>
+															</div>
+														</li>														
+										<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Absensi</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
+															<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
+																<ul class="kt-menu__subnav">
+																	<li class="kt-menu__item" aria-haspopup="true"><a href="persetujuan-lupa-absen.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Lupa Absen</span></a></li>
+																	<li class="kt-menu__item" aria-haspopup="true"><a href="persetujuan-lembur.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Lembur</span></a></li>
+																	<li class="kt-menu__item" aria-haspopup="true"><a href="persetujuan-cuti.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Cuti</span></a></li>
+																	<li class="kt-menu__item" aria-haspopup="true"><a href="persetujuan-izin.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Izin</span></a></li>
+
+																</ul>
+															</div>
+														</li>
+										<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kepegawaian</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
+															<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
+																<ul class="kt-menu__subnav">
+																	<li class="kt-menu__item" aria-haspopup="true"><a href="persetujuan-mutasi-pegawai.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Mutasi Pegawai</span></a></li>
+																	<li class="kt-menu__item" aria-haspopup="true"><a href="persetujuan-pegawai-resign.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pegawai Resign</span></a></li>
+																	<li class="kt-menu__item" aria-haspopup="true"><a href="persetujuan-pegawai-pensiun.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pegawai Pensiun</span></a></li>
+																	<li class="kt-menu__item" aria-haspopup="true"><a href="persetujuan-peraturan-perusahaan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Peraturan Perusahaan</span></a></li>
+																	<li class="kt-menu__item" aria-haspopup="true"><a href="persetujuan-peraturan-direksi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Peraturan Direksi</span></a></li>
+																	<li class="kt-menu__item" aria-haspopup="true"><a href="persetujuan-sop.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Standar Operasional</span></a></li>
+																	<li class="kt-menu__item" aria-haspopup="true"><a href="persetujuan-kontrak-kerja.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kontrak Kerja Pegawai</span></a></li>
+																	<li class="kt-menu__item" aria-haspopup="true"><a href="persetujuan-keterangan-kerja.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Keterangan Kerja</span></a></li>
+																	<li class="kt-menu__item" aria-haspopup="true"><a href="persetujuan-pengalaman-kerja.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pengalaman Kerja</span></a></li>
+																	<li class="kt-menu__item" aria-haspopup="true"><a href="persetujuan-peringatan-pegawai.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Peringatan Pegawai</span></a></li>
+																	<li class="kt-menu__item" aria-haspopup="true"><a href="persetujuan-keterangan-penghasilan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Keterangan Penghasilan</span></a></li>
+
+																</ul>
+															</div>
+														</li>
+										<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kinerja</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
+															<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
+																<ul class="kt-menu__subnav">
+																	<li class="kt-menu__item" aria-haspopup="true"><a href="persetujuan-tugas.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Tugas</span></a></li>
+																	<li class="kt-menu__item" aria-haspopup="true"><a href="persetujuan-penilaian-pegawai.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Penilaian Pegawai</span></a></li>
+
+																</ul>
+															</div>
+														</li>
+											</ul>
+									</div>
+								</li>
 								
 
 
