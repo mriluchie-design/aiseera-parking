@@ -157,8 +157,8 @@ function goBack() {
 												<td class="text-center">01521531355135</td>
 												<td class="text-center">QRIS</td>
 												<td class="text-center">OVO</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/keluar-mobil.png" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/job-delivery.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:100px; height:60px;" src="../assets/media/kendaraan/keluar-mobil.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:100px; height:60px;" src="../assets/media/kendaraan/job-delivery.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">Selesai</td>
 									      </tr>
 										  <tr>
@@ -177,8 +177,8 @@ function goBack() {
 												<td class="text-center">01521531355135</td>
 												<td class="text-center">QRIS</td>
 												<td class="text-center">DANA</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-motor-masuk.png" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/job-delivery.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:100px; height:60px;" src="../assets/media/kendaraan/foto-motor-masuk.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:100px; height:60px;" src="../assets/media/kendaraan/job-delivery.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">Parkir</td>
 										  </tr>
 
@@ -198,8 +198,8 @@ function goBack() {
 												<td class="text-center">01521531355135</td>
 												<td class="text-center">e-Money</td>
 												<td class="text-center">Mandiri</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-motor-masuk-2.png" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/job-delivery.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:100px; height:60px;" src="../assets/media/kendaraan/foto-motor-masuk-2.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:100px; height:60px;" src="../assets/media/kendaraan/job-delivery.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">Parkir</td>
 										  </tr>
 <tr>
@@ -218,8 +218,8 @@ function goBack() {
   <td class="text-center">01521531355135</td>
   <td class="text-center">e-Money</td>
 <td class="text-center">BCA Flazz</td>
-<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-mobil-masuk.png" alt="image" /></a></td>
-  <td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/job-delivery.jpg" alt="image" /></a></td>
+<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:100px; height:60px;" src="../assets/media/kendaraan/foto-mobil-masuk.png" alt="image" /></a></td>
+  <td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:100px; height:60px;" src="../assets/media/kendaraan/job-delivery.jpg" alt="image" /></a></td>
   <td nowrap="nowrap" style="text-align:center">Selesai</td>
   </tr>
 </tbody>

@@ -442,7 +442,7 @@
 											  <th width="1%" bgcolor="#feffed">Gate</th>
 											  <th width="3%" bgcolor="#feffed">Jalur</th>
 											  <th width="5%" bgcolor="#feffed">Nama Jalur</th>
-											  <th width="7%" bgcolor="#feffed">Pembayaran</th>
+											  <th width="5%" bgcolor="#feffed">Pembayaran</th>
 											  <th width="3%" bgcolor="#feffed">OP</th>
 											  <th width="1%" bgcolor="#f7fcff">Webcam</th>
 											  <th width="1%" bgcolor="#f7fcff">Kendaraan</th>
@@ -450,7 +450,7 @@
 										</thead>
 										<tbody>
 											<tr>
-												<td id="kt_table_1">1</td>
+												<td style="text-align:right">1</td>
 												<td style="text-align:center" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">000001INTEM0626</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Reguler</span></td>
@@ -479,7 +479,7 @@
 
 										  </tr>
 										  <tr>
-												<td id="kt_table_1">2</td>
+												<td style="text-align:right">2</td>
 												<td nowrap="nowrap" style="text-align:center">Makassar</td>
 
 												<td nowrap="nowrap" style="text-align:center">000001INTQR0626</td>
@@ -506,7 +506,7 @@
 												  </div></td>
 										  </tr>
 <tr>
-												<td id="kt_table_1">3</td>
+												<td style="text-align:right">3</td>
 												<td nowrap="nowrap" style="text-align:center">Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">000002INTQR0626</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Reguler</span></td>
@@ -532,7 +532,7 @@
 												  </div></td>
 										  </tr>
 <tr>
-												<td id="kt_table_1">4</td>
+												<td style="text-align:right">4</td>
 												<td style="text-align:center" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">000001INMEM0626</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true">Member</span></td>
@@ -560,7 +560,7 @@
 												  </div></td>
 										  </tr>
 <tr>
-  <td id="kt_table_4">5</td>
+  <td style="text-align:right">5</td>
   <td style="text-align:center" nowrap="nowrap">Makassar</td>
   <td nowrap="nowrap" style="text-align:center">000002INMEM0626</td>
   <td nowrap="nowrap" style="text-align:left"><span class="btn btn-label-twitter btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123215&lt;hr&gt;Muhammad Ramadhan, ST" data-html="true">Member</span></td>

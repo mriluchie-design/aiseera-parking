@@ -157,27 +157,48 @@
                             </div>
 							
 							<div class="col-lg-1">
-                                <label>Gate Keluar :</label>
+                                <label>Gate :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">1</option>
+                                      <option value="1">1</option>
                                       <option value="2">2</option>
                                       <option value="2">3</option>
                                       <option value="2">4</option>
-									  <option value="2">Keseluruhan</option>
+									  <option value="2" selected>Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
+							<div class="col-lg-1">
+                                <label>Jalur :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Masuk</option>
+                                      <option value="2">Keluar</option>
+									  <option value="2" selected>Keseluruhan</option>
                                                                            
                                   </select>
                             </div>
 							
 							<div class="col-lg-2">
-                                <label>Nama Jalur Keluar :</label>
+                                <label>Nama Jalur :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected>Mobil - 1</option>
+                                      <option value="1">Mobil - 1</option>
                                       <option value="1">Mobil - 2</option>
                                       <option value="1">Motor - 1</option>
                                       <option value="1">Motor - 2</option>
-									  <option value="2">Keseluruhan</option>
+									  <option value="2" selected>Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
+							<div class="col-lg-1">
+                                <label>Status Transaksi :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Selesai</option>
+                                      <option value="1">Denda</option>
+                                      <option value="2">Member</option>
+                                      <option value="2">Keseluruhan</option>
                                                                            
                                   </select>
                             </div>
@@ -218,18 +239,20 @@
                                 <label>Pembayaran :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">e-Money</option>
+                                      <option value="1" disabled>- Pilih Metode Pembayaran -</option>
+									  <option value="1">e-Money</option>
                                       <option value="1">QRIS</option>
                                       <option value="2">Tunai</option>
-                                      <option value="2">Keseluruhan</option>
+                                      <option value="2" selected>Keseluruhan</option>
                                                                            
                                   </select>
                             </div>
-								<div class="col-lg-2">
-                                <label>Provider Pembayaran :</label>
+								<div class="col-lg-1">
+                                <label>Provider :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Mandiri</option>
+                                      <option value="1" disabled>- Pilih Provider -</option>
+									  <option value="1">Mandiri</option>
                                       <option value="1">BCA Flazz</option>
                                       <option value="1">Brizzi</option>
                                       <option value="1">BNI Tap Cash</option>
@@ -238,21 +261,22 @@
                                       <option value="1">Shoope Pay</option>
                                       <option value="1">BCA</option>
                                       <option value="1">Livin Mandiri</option>
-                                      <option value="2">Keseluruhan</option>
+                                      <option value="2" selected>Keseluruhan</option>
                                                                            
                                   </select>
                             </div>
-							<div class="col-lg-1">
-                                <label>Status Transaksi :</label>
+							<div class="col-lg-2">
+                                <label>Operator :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Selesai</option>
-                                      <option value="1">Denda</option>
-                                      <option value="2">Member</option>
-                                      <option value="2">Keseluruhan</option>
+                                      <option value="1" disabled>- Pilih Operator -</option>
+                                      <option value="1" >Muhammad Nasrullah, S.Kom</option>
+                                      <option value="1">Muhammad Ramadhan, S.T</option>
+                                      <option value="2" selected>Keseluruhan</option>
                                                                            
                                   </select>
                             </div>
+							
 							
                             </div>
                             

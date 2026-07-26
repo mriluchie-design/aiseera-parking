@@ -149,7 +149,7 @@ function goBack() {
 										</thead>
 										<tbody>
 											<tr>
-												<td id="kt_table_1">1</td>
+												<td style="text-align:right">1</td>
 												<td style="text-align:center" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
 												<td nowrap="nowrap" style="text-align:center">Reguler</td>
@@ -175,12 +175,12 @@ function goBack() {
 												  e-Money
   <hr />
 												  Mandiri</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/masuk-mobil-1.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:100px; height:60px;" src="../assets/media/kendaraan/masuk-mobil-1.png" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">Selesai</td>
 										  </tr>
 										 
 <tr>
-												<td id="kt_table_1">2</td>
+												<td style="text-align:right">2</td>
 												<td nowrap="nowrap" style="text-align:center">Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
 												<td nowrap="nowrap" style="text-align:center">Reguler</td>
@@ -203,11 +203,11 @@ function goBack() {
 												  QRIS
   <hr />
 												  OVO</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/foto-motor-masuk-webcam-2.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:100px; height:60px;" src="../assets/media/kendaraan/foto-motor-masuk-webcam-2.png" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">Denda</td>
 										  </tr>
 <tr>
-												<td id="kt_table_1">3</td>
+												<td style="text-align:right">3</td>
 												<td style="text-align:center" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">12321355123123211<hr>Muhammad Nasrullah, S.Kom</td>
 												<td nowrap="nowrap" style="text-align:center">Member</td>
@@ -224,11 +224,11 @@ function goBack() {
 												  <hr />
 												  15:36:00 WITA</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/masuk-1.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:100px; height:60px;" src="../assets/media/kendaraan/masuk-1.png" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">Member</td>
 										  </tr>
 <tr>
-  <td id="kt_table_4">4</td>
+  <td style="text-align:right">4</td>
   <td style="text-align:center" nowrap="nowrap">Makassar</td>
   <td nowrap="nowrap" style="text-align:center">12321355123123211<hr>Muhammad Nasrullah, S.Kom</td>
   <td nowrap="nowrap" style="text-align:center">Member</td>
@@ -245,7 +245,7 @@ function goBack() {
 												  <hr />
 												  15:36:00 WITA</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/keluar-mobil-2.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:100px; height:60px;" src="../assets/media/kendaraan/keluar-mobil-2.png" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">Member</td>
 										  </tr>
 </tbody>

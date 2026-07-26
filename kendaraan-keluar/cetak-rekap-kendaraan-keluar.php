@@ -129,9 +129,9 @@ function goBack() {
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
+											  <th width="4%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
 											  <th colspan="7" bgcolor="#f7fcff">Kendaraan Masuk</th>
-											  <th colspan="4" bgcolor="#feffed">Kendaraan Keluar</th>
+											  <th colspan="5" bgcolor="#feffed">Kendaraan Keluar</th>
 											  <th width="1%" rowspan="2" bgcolor="#feffed">Durasi Parkir</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Foto Keluar</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Status</th>
@@ -139,21 +139,22 @@ function goBack() {
 											<tr style="text-align:center">
 											  <th width="1%" bgcolor="#f7fcff">Kategori</th>
 											  <th width="1%" bgcolor="#f7fcff">Jenis</th>
-											  <th width="1%" bgcolor="#f7fcff">Member</th>
+											  <th width="1%" bgcolor="#f7fcff">ID Sticker</th>
 											  <th width="1%" bgcolor="#f7fcff">No. Plat</th>
 											  <th width="1%" bgcolor="#f7fcff">Waktu Masuk</th>
-											  <th width="7%" bgcolor="#f7fcff">Gate</th>
+											  <th width="10%" bgcolor="#f7fcff">Gate</th>
 											  <th width="7%" bgcolor="#f7fcff">Pembayaran</th>
 											  <th width="1%" bgcolor="#feffed">No. Plat</th>
 											  <th width="1%" bgcolor="#feffed">Waktu Keluar</th>
 											  <th width="7%" bgcolor="#feffed">Gate</th>
-											  <th width="7%" bgcolor="#feffed">Pembayaran</th>
-									      </tr>
+											  <th width="5%" bgcolor="#feffed">Pembayaran</th>
+											  <th width="1%" bgcolor="#feffed">OP</th>
+								          </tr>
 										</thead>
 										<tbody>
 											<tr>
-												<td id="kt_table_1">1</td>
-												<td style="text-align:center" nowrap>Makassar</td>
+												<td style="text-align:right">1</td>
+												<td style="text-align:left" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">Reguler</td>
 												<td nowrap="nowrap" style="text-align:left">Mobil</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
@@ -180,15 +181,16 @@ function goBack() {
 												  e-Money
   <hr />
 												  Mandiri</td>
+												<td class="text-center"><span style="text-align:center">-</span></td>
 												<td style="text-align:center" nowrap>01 Jam
 												  <hr />10 Menit<hr />
 												  01 Detik</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/keluar-mobil.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:100px; height:60px;" src="../assets/media/kendaraan/keluar-mobil.png" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">Selesai</td>
 									      </tr>
 										  <tr>
-												<td id="kt_table_1">2</td>
-												<td nowrap="nowrap" style="text-align:center">Makassar</td>
+												<td style="text-align:right">2</td>
+												<td nowrap="nowrap" style="text-align:left">Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">Reguler</td>
 												<td nowrap="nowrap" style="text-align:left">Motor</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
@@ -199,39 +201,40 @@ function goBack() {
 												<td style="text-align:center">2<hr />Masuk
 												  <hr>Motor - 1</td>
 												<td class="text-center"> 000002PGTQR0626
-<hr />
-												  QRIS
   <hr />
+												  QRIS
+												  <hr />
 												  OVO</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LLU</td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
 												  16:47:00 WITA</td>
-												<td style="text-align:center">2<hr />Keluar
+												<td style="text-align:center">-<hr />-
 												  <hr />
-										    Motor - 1</td>
+										    -</td>
 												<td class="text-center"> 000006PGTQR0626
-<hr />
-												  QRIS
   <hr />
+												  QRIS
+												  <hr />
 												  OVO</td>
+												<td nowrap="nowrap" style="text-align:center">12321355123123211
+												  <hr />
+												  Muhammad Nasrullah, S.Kom</td>
 												<td style="text-align:center" nowrap>01 Jam
 												  <hr />
 												  10 Menit
 												  <hr />
 											    60 Detik</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-motor-masuk.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:100px; height:60px;" src="../assets/media/kendaraan/foto-motor-masuk.png" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">Denda</td>
 										  </tr>
 
 <tr>
-												<td id="kt_table_1">3</td>
-												<td style="text-align:center" nowrap>Makassar</td>
+												<td style="text-align:right">3</td>
+												<td style="text-align:left" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">Member</td>
 												<td nowrap="nowrap" style="text-align:left">Sedan/Jeep/Pick Up</td>
-												<td nowrap="nowrap" style="text-align:center">12321355123123214
-												  <hr />
-												  Muhammad Nasrullah, S.Kom</td>
+												<td nowrap="nowrap" style="text-align:center">12321355123123214</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
@@ -247,22 +250,21 @@ function goBack() {
 												  <hr />
 	  Motor - 2</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
+												<td nowrap="nowrap" style="text-align:center">-</td>
 												<td style="text-align:center" nowrap>01 Jam
 												  <hr />
 												  10 Menit
 												  <hr />
 											    60 Detik</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-motor-masuk-2.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:100px; height:60px;" src="../assets/media/kendaraan/foto-motor-masuk-2.png" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">Member</td>
 										  </tr>
 <tr>
-  <td id="kt_table_4">4</td>
-  <td style="text-align:center" nowrap="nowrap">Makassar</td>
+  <td style="text-align:right">4</td>
+  <td style="text-align:left" nowrap="nowrap">Makassar</td>
   <td nowrap="nowrap" style="text-align:center">Member</td>
   <td nowrap="nowrap" style="text-align:left">Truck/Tronton/Trailer</td>
-  <td nowrap="nowrap" style="text-align:center">12321355123123215
-    <hr />
-    Muhammad Ramadhan, ST</td>
+  <td nowrap="nowrap" style="text-align:center">12321355123123215</td>
   <td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
   <td nowrap="nowrap" style="text-align:center">1 September 2026
     <hr />
@@ -278,12 +280,13 @@ function goBack() {
     <hr />
     Mobil - 2</td>
   <td nowrap="nowrap" style="text-align:center">-</td>
+  <td nowrap="nowrap" style="text-align:center">-</td>
   <td style="text-align:center" nowrap="nowrap">01 Jam
     <hr />
     10 Menit
     <hr />
     60 Detik</td>
-  <td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-mobil-masuk.png" alt="image" /></a></td>
+  <td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:100px; height:60px;" src="../assets/media/kendaraan/foto-mobil-masuk.png" alt="image" /></a></td>
   <td nowrap="nowrap" style="text-align:center">Member</td>
   </tr>
 </tbody>

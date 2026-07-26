@@ -131,7 +131,7 @@ function goBack() {
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
 											  <th colspan="6" bgcolor="#f7fcff">Kendaraan Masuk</th>
-											  <th colspan="4" bgcolor="#feffed">Kendaraan Keluar</th>
+											  <th colspan="5" bgcolor="#feffed">Kendaraan Keluar</th>
 											  <th width="1%" rowspan="2" bgcolor="#feffed">Durasi Parkir</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Foto Keluar</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Status</th>
@@ -147,7 +147,8 @@ function goBack() {
 											  <th width="1%" bgcolor="#feffed">Waktu Keluar</th>
 											  <th width="7%" bgcolor="#feffed">Gate</th>
 											  <th width="7%" bgcolor="#feffed">Pembayaran</th>
-									      </tr>
+											  <th width="7%" bgcolor="#feffed">OP</th>
+								          </tr>
 										</thead>
 										<tbody>
 											<tr>
@@ -174,10 +175,13 @@ function goBack() {
 												  <hr />
 												  Mobil - 1</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="text-center">Free Pass</span></td>
+												<td nowrap="nowrap" style="text-align:center">12321355123123211
+												  <hr />
+												  Muhammad Nasrullah, S.Kom</td>
 												<td style="text-align:center" nowrap>01 Jam
 												  <hr />10 Menit<hr />
 												  01 Detik</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/keluar-mobil.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:100px; height:60px;" src="../assets/media/kendaraan/keluar-mobil.png" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">Selesai</td>
 									      </tr>
 										  <tr>
@@ -204,12 +208,15 @@ function goBack() {
 												  <hr />
 										    Motor - 1</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="text-center">Free Pass</span></td>
+												<td nowrap="nowrap" style="text-align:center">12321355123123211
+                                                  <hr />
+Muhammad Nasrullah, S.Kom</td>
 												<td style="text-align:center" nowrap>01 Jam
 												  <hr />
 												  10 Menit
 												  <hr />
 											    60 Detik</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-motor-masuk.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:100px; height:60px;" src="../assets/media/kendaraan/foto-motor-masuk.png" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">Denda</td>
 										  </tr>
 
@@ -233,12 +240,15 @@ function goBack() {
 												  <hr />
 	  Motor - 2</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="text-center">Free Pass</span></td>
+												<td nowrap="nowrap" style="text-align:center">12321355123123211
+                                                  <hr />
+Muhammad Nasrullah, S.Kom</td>
 												<td style="text-align:center" nowrap>01 Jam
 												  <hr />
 												  10 Menit
 												  <hr />
 											    60 Detik</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-motor-masuk-2.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:100px; height:60px;" src="../assets/media/kendaraan/foto-motor-masuk-2.png" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">Member</td>
 										  </tr>
 <tr>
@@ -261,12 +271,15 @@ function goBack() {
     <hr />
     Mobil - 2</td>
   <td nowrap="nowrap" style="text-align:center"><span class="text-center">Free Pass</span></td>
+  <td nowrap="nowrap" style="text-align:center">12321355123123211
+    <hr />
+Muhammad Nasrullah, S.Kom</td>
   <td style="text-align:center" nowrap="nowrap">01 Jam
     <hr />
     10 Menit
     <hr />
     60 Detik</td>
-  <td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-mobil-masuk.png" alt="image" /></a></td>
+  <td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:100px; height:60px;" src="../assets/media/kendaraan/foto-mobil-masuk.png" alt="image" /></a></td>
   <td nowrap="nowrap" style="text-align:center">Member</td>
   </tr>
 </tbody>

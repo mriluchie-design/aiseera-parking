@@ -107,7 +107,7 @@ function goBack() {
     <td colspan="7">&nbsp;</td>
   </tr>
 </table>
-<table align="center" border="1" cellpadding="5" style="width: 1450px; margin-top:10px; position:relative;top:90px; text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px;">
+<table align="center" border="1" cellpadding="5" style="width: 1450px; margin-top:10px; position:relative;top:90px; text-align:justify; line-height:1.5; font-family: Roboto; font-size: 12px;">
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
@@ -129,7 +129,7 @@ function goBack() {
 										</thead>
 										<tbody>
 											<tr>
-												<td id="kt_table_1">1</td>
+												<td style="text-align:right">1</td>
 												<td style="text-align:center" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">12321355123123211
 												  <hr />
@@ -141,10 +141,10 @@ function goBack() {
 												<td class="text-center">01521531355135</td>
 												<td class="text-center">QRIS</td>
 												<td class="text-center">OVO</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/keluar-mobil.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:100px; height:60px;" src="../assets/media/kendaraan/keluar-mobil.png" alt="image" /></a></td>
 										  </tr>
 										  <tr>
-												<td id="kt_table_1">2</td>
+												<td style="text-align:right">2</td>
 												<td nowrap="nowrap" style="text-align:center">Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">12321355123123211
 												  <hr />
@@ -158,11 +158,11 @@ function goBack() {
 												<td class="text-center">01521531355135</td>
 												<td class="text-center">QRIS</td>
 												<td class="text-center">QRIS</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/foto-motor-masuk.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:100px; height:60px;" src="../assets/media/kendaraan/foto-motor-masuk.png" alt="image" /></a></td>
 										  </tr>
 
 <tr>
-												<td id="kt_table_1">3</td>
+												<td style="text-align:right">3</td>
 												<td style="text-align:center" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">12321355123123211
 												  <hr />
@@ -176,10 +176,10 @@ function goBack() {
 												<td class="text-center">01521531355135</td>
 												<td class="text-center">e-Money</td>
 												<td class="text-center">Mandiri</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/foto-motor-masuk-2.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:100px; height:60px;" src="../assets/media/kendaraan/foto-motor-masuk-2.png" alt="image" /></a></td>
 										  </tr>
 <tr>
-  <td id="kt_table_4">4</td>
+  <td style="text-align:right">4</td>
   <td style="text-align:center" nowrap="nowrap">Makassar</td>
   <td nowrap="nowrap" style="text-align:center">12321355123123211
     <hr />
@@ -193,7 +193,7 @@ function goBack() {
   <td class="text-center">01521531355135</td>
   <td class="text-center">e-Money</td>
 <td class="text-center">BCA Flazz</td>
-<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/foto-mobil-masuk.png" alt="image" /></a></td>
+<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:100px; height:60px;" src="../assets/media/kendaraan/foto-mobil-masuk.png" alt="image" /></a></td>
   </tr>
 </tbody>
 									</table>
