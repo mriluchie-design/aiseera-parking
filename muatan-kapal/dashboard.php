@@ -369,10 +369,11 @@
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
+											  <th width="7%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">ID Transaksi</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Operator</th>
 											  <th colspan="5" bgcolor="#feffed">Kendaraan Muatan Kapal</th>
-											  <th colspan="3" bgcolor="#f7fcff">Pembayaran</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Pembayaran</th>
 											  <th colspan="2" bgcolor="#f7fcff">Foto</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Status</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
@@ -383,17 +384,15 @@
 											  <th width="1%" bgcolor="#feffed">No. Plat</th>
 											  <th width="1%" bgcolor="#feffed">Karcis / eMoney</th>
 											  <th width="1%" bgcolor="#feffed">Waktu Keluar</th>
-											  <th width="1%" bgcolor="#f7fcff">Reff ID</th>
-											  <th width="1%" bgcolor="#f7fcff">Metode</th>
-											  <th width="1%" bgcolor="#f7fcff">Provider</th>
 											  <th width="1%" bgcolor="#f7fcff">Kendaraan</th>
 											  <th width="1%" bgcolor="#f7fcff">Job Delivery</th>
 										  </tr>
 										</thead>
 										<tbody>
 											<tr>
-												<td id="kt_table_1">1</td>
-												<td style="text-align:center" nowrap>Makassar</td>
+												<td style="text-align:right">1</td>
+												<td style="text-align:left" nowrap>Makassar</td>
+												<td nowrap="nowrap" style="text-align:center">000001MKTEM0626</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123212&lt;hr&gt;Muhammad Ramadhan, ST" data-html="true"><img src="../assets/media/users/100_5.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Reguler</span></td>
 												<td nowrap="nowrap" style="text-align:left">Mobil</td>
@@ -402,11 +401,9 @@
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
 												  16:46:00 WITA</td>
-												<td class="text-center">01521531355135</td>
-												<td class="text-center">QRIS</td>
-												<td class="text-center">OVO</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/keluar-mobil.png" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/job-delivery.jpg" alt="image" /></a></td>
+												<td class="text-center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Card ID : 12321355123123211&lt;hr&gt;Reff ID : 000005PGTEM0626&lt;hr&gt;e-Money&lt;hr&gt;Mandiri" data-html="true">e-Money</span></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:120px; height:80px;" src="../assets/media/kendaraan/keluar-mobil.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:120px; height:80px;" src="../assets/media/kendaraan/job-delivery.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-danger btn-sm">Parkir</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -419,8 +416,9 @@
 												  </div></td>
 										  </tr>
 										  <tr>
-												<td id="kt_table_1">2</td>
-												<td nowrap="nowrap" style="text-align:center">Makassar</td>
+												<td style="text-align:right">2</td>
+												<td nowrap="nowrap" style="text-align:left">Makassar</td>
+												<td nowrap="nowrap" style="text-align:center">000001MKTQR0626</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"> <img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Reguler</span></td>
 												<td nowrap="nowrap" style="text-align:left">Motor</td>
@@ -429,11 +427,9 @@
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
 												  15:36:00 WITA</td>
-												<td class="text-center">01521531355135</td>
-												<td class="text-center">QRIS</td>
-												<td class="text-center">DANA</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-motor-masuk.png" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/job-delivery.jpg" alt="image" /></a></td>
+												<td class="text-center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : -&lt;hr&gt;Reff ID : 000006PGTQR0626&lt;hr&gt;QRIS&lt;hr&gt;DANA" data-html="true">QRIS</span></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:120px; height:80px;" src="../assets/media/kendaraan/foto-motor-masuk.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:120px; height:80px;" src="../assets/media/kendaraan/job-delivery.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-danger btn-sm">Parkir</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -447,8 +443,9 @@
 										  </tr>
 
 <tr>
-												<td id="kt_table_1">3</td>
-												<td style="text-align:center" nowrap>Makassar</td>
+												<td style="text-align:right">3</td>
+												<td style="text-align:left" nowrap>Makassar</td>
+												<td nowrap="nowrap" style="text-align:center">000001MKTEM0626</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123212&lt;hr&gt;Muhammad Ramadhan, ST" data-html="true"> <img src="../assets/media/users/100_5.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Reguler</span></td>
 												<td nowrap="nowrap" style="text-align:left">Mobil</td>
@@ -457,11 +454,9 @@
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
 												  15:36:00 WITA</td>
-												<td class="text-center">01521531355135</td>
-												<td class="text-center">e-Money</td>
-												<td class="text-center">Mandiri</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-motor-masuk-2.png" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/job-delivery.jpg" alt="image" /></a></td>
+												<td class="text-center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Card ID : 12321355123123211&lt;hr&gt;Reff ID : 000005PGTEM0626&lt;hr&gt;e-Money&lt;hr&gt;Mandiri" data-html="true">e-Money</span></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:120px; height:80px;" src="../assets/media/kendaraan/foto-motor-masuk-2.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:120px; height:80px;" src="../assets/media/kendaraan/job-delivery.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Keluar Gate<hr/>1 September 2026<hr />17:36:00 WITA" data-html="true">Selesai</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -474,8 +469,9 @@
 												  </div></td>
 										  </tr>
 <tr>
-  <td id="kt_table_4">4</td>
-  <td style="text-align:center" nowrap="nowrap">Makassar</td>
+  <td style="text-align:right">4</td>
+  <td style="text-align:left" nowrap="nowrap">Makassar</td>
+  <td nowrap="nowrap" style="text-align:center">000002MKTQR0626</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123212&lt;hr&gt;Muhammad Ramadhan, ST" data-html="true"> <img src="../assets/media/users/100_5.jpg" alt="image" /></a></td>
   <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Reguler</span></td>
   <td nowrap="nowrap" style="text-align:left">Motor</td>
@@ -484,11 +480,9 @@
   <td nowrap="nowrap" style="text-align:center">1 September 2026
     <hr />
     15:36:00 WITA</td>
-  <td class="text-center">01521531355135</td>
-  <td class="text-center">e-Money</td>
-<td class="text-center">BCA Flazz</td>
-<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/foto-mobil-masuk.png" alt="image" /></a></td>
-  <td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:150px; height:100px;" src="../assets/media/kendaraan/job-delivery.jpg" alt="image" /></a></td>
+  <td class="text-center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : -&lt;hr&gt;Reff ID : 000006PGTQR0626&lt;hr&gt;QRIS&lt;hr&gt;DANA" data-html="true">QRIS</span></td>
+  <td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:120px; height:80px;" src="../assets/media/kendaraan/foto-mobil-masuk.png" alt="image" /></a></td>
+  <td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:120px; height:80px;" src="../assets/media/kendaraan/job-delivery.jpg" alt="image" /></a></td>
   <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Keluar Gate<hr>1 September 2026
 												  <hr />
 												  15:36:00 WITA" data-html="true">Selesai</span></td>

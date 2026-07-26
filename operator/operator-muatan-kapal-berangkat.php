@@ -437,14 +437,13 @@
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
-											  <th colspan="7" bgcolor="#f7fcff">Kendaraan Masuk</th>
+											  <th width="9%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
+											  <th colspan="6" bgcolor="#f7fcff">Kendaraan Masuk</th>
 											  <th colspan="5" bgcolor="#feffed">Kendaraan Berangkat</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Status Transaksi</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 											<tr style="text-align:center">
-											  <th width="1%" bgcolor="#f7fcff">Member</th>
 											  <th width="1%" bgcolor="#f7fcff">Kategori</th>
 											  <th width="1%" bgcolor="#f7fcff">Jenis</th>
 											  <th width="2%" bgcolor="#f7fcff">No. Plat</th>
@@ -452,7 +451,7 @@
 											  <th width="12%" bgcolor="#f7fcff">Gate / Jalur</th>
 											  <th width="12%" bgcolor="#f7fcff">Pembayaran</th>
 											  <th width="8%" bgcolor="#feffed">OP</th>
-											  <th width="1%" bgcolor="#feffed">eMoney / Karcis / Sticker</th>
+											  <th width="1%" bgcolor="#feffed">ID Transaksi</th>
 											  <th width="1%" bgcolor="#feffed">Waktu</th>
 											  <th width="12%" bgcolor="#feffed">Pembayaran</th>
 											  <th width="1%" bgcolor="#feffed">Foto</th>
@@ -460,9 +459,8 @@
 										</thead>
 										<tbody>
 											<tr>
-												<td id="kt_table_1">1</td>
-												<td style="text-align:center" nowrap>Makassar</td>
-												<td nowrap="nowrap" style="text-align:center">-</td>
+												<td style="text-align:right">1</td>
+												<td style="text-align:left" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Reguler</span></td>
 												<td nowrap="nowrap" style="text-align:left">Mobil</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
@@ -473,7 +471,7 @@
 												  <hr>Mobil - 1</td>
 												<td class="text-center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Card ID :12321355123123211<hr>Reff ID : 01521531355135&lt;hr&gt;e-Money&lt;hr&gt;Mandiri" data-html="true">e-Money</span></td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">12321355123123211</td>
+												<td nowrap="nowrap" style="text-align:center">000001GOTEM0626</td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
 												  15:36:00 WITA</td>
@@ -492,9 +490,8 @@
 										  </tr>
 										 
 <tr>
-												<td id="kt_table_1">2</td>
-												<td nowrap="nowrap" style="text-align:center">Makassar</td>
-												<td nowrap="nowrap" style="text-align:center">-</td>
+												<td style="text-align:right">2</td>
+												<td nowrap="nowrap" style="text-align:left">Makassar</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Reguler</span></td>
 												<td nowrap="nowrap" style="text-align:left">Motor</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LLU</td>
@@ -503,7 +500,7 @@
 												  <hr>Motor - 1</td>
 												<td class="text-center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="QR ID : 000001INTQR0626<hr>Reff ID : 01521531355136&lt;hr&gt;QRIS&lt;hr&gt;OVO" data-html="true">QRIS</span></td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">12321355123123213</td>
+												<td nowrap="nowrap" style="text-align:center">000001GOTQR0626</td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
 												  15:36:00 WITA</td>
@@ -521,10 +518,9 @@
 												  </div></td>
 										  </tr>
 <tr>
-												<td id="kt_table_1">3</td>
-												<td style="text-align:center" nowrap>Makassar</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"> <img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Member</span></td>
+												<td style="text-align:right">3</td>
+												<td style="text-align:left" nowrap>Makassar</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sticker : 12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true">Member</span></td>
 												<td nowrap="nowrap" style="text-align:left">Sedan/Jeep/Pick Up</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
@@ -534,7 +530,7 @@
 												  <hr>Motor - 2</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">12321355123123214</td>
+												<td nowrap="nowrap" style="text-align:center">000001GOMEM0626</td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
 												  15:36:00 WITA</td>
@@ -552,10 +548,9 @@
 												  </div></td>
 										  </tr>
 <tr>
-  <td id="kt_table_4">4</td>
-  <td style="text-align:center" nowrap="nowrap">Makassar</td>
-  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123215&lt;hr&gt;Muhammad Ramadhan, ST" data-html="true"> <img src="../assets/media/users/100_5.jpg" alt="image" /></a></td>
-  <td nowrap="nowrap" style="text-align:left"><span class="btn btn-label-twitter btn-sm">Member</span></td>
+  <td style="text-align:right">4</td>
+  <td style="text-align:left" nowrap="nowrap">Makassar</td>
+  <td nowrap="nowrap" style="text-align:left"><span class="btn btn-label-twitter btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sticker : 12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true">Member</span></td>
   <td nowrap="nowrap" style="text-align:left">Truck/Tronton/Trailer</td>
   <td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
   <td nowrap="nowrap" style="text-align:center">1 September 2026
@@ -565,7 +560,7 @@
     <hr>Mobil - 2</td>
   <td nowrap="nowrap" style="text-align:center">-</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">12321355123123215</td>
+												<td nowrap="nowrap" style="text-align:center">000002GOMEM0626</td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026
 												  <hr />
 												  15:36:00 WITA</td>

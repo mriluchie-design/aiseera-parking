@@ -97,7 +97,7 @@ function goBack() {
 					  <div class="col-lg-12">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--warning">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Member</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
@@ -529,7 +529,7 @@ function goBack() {
 					  <div class="col-lg-12">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--warning">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Gate Keluar</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">

@@ -315,7 +315,7 @@ function goBack() {
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Operator Gate">
                         </div>
 						<div class="col-lg-1">
-                          <label class="">Status Karcis :</label>
+                          <label class="">Sisa Karcis :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="50">
                         </div>
 						<div class="col-lg-2">

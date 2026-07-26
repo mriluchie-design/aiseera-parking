@@ -132,7 +132,7 @@
                                   </select>
     		                    </div>
 								<div class="col-lg-2">
-                                <label>Jenis :</label>
+                                <label>Kendaraan :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1">Mobil</option>
@@ -427,7 +427,7 @@
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
+											  <th width="9%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">ID Transaksi</th>
 											  <th colspan="9" bgcolor="#feffed">Kendaraan Masuk</th>
 											  <th colspan="2" bgcolor="#f7fcff">Foto</th>
@@ -441,9 +441,9 @@
 											  <th width="3%" bgcolor="#feffed">Waktu</th>
 											  <th width="1%" bgcolor="#feffed">Gate</th>
 											  <th width="3%" bgcolor="#feffed">Jalur</th>
-											  <th width="5%" bgcolor="#feffed">Nama Jalur</th>
-											  <th width="5%" bgcolor="#feffed">Pembayaran</th>
-											  <th width="3%" bgcolor="#feffed">OP</th>
+											  <th width="6%" bgcolor="#feffed">Nama Jalur</th>
+											  <th width="7%" bgcolor="#feffed">Pembayaran</th>
+											  <th width="5%" bgcolor="#feffed">OP</th>
 											  <th width="1%" bgcolor="#f7fcff">Webcam</th>
 											  <th width="1%" bgcolor="#f7fcff">Kendaraan</th>
 										  </tr>
@@ -451,7 +451,7 @@
 										<tbody>
 											<tr>
 												<td style="text-align:right">1</td>
-												<td style="text-align:center" nowrap>Makassar</td>
+												<td style="text-align:left" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">000001INTEM0626</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Reguler</span></td>
 												<td nowrap="nowrap" style="text-align:left">Mobil</td>
@@ -480,7 +480,7 @@
 										  </tr>
 										  <tr>
 												<td style="text-align:right">2</td>
-												<td nowrap="nowrap" style="text-align:center">Makassar</td>
+												<td nowrap="nowrap" style="text-align:left">Makassar</td>
 
 												<td nowrap="nowrap" style="text-align:center">000001INTQR0626</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Reguler</span></td>
@@ -507,7 +507,7 @@
 										  </tr>
 <tr>
 												<td style="text-align:right">3</td>
-												<td nowrap="nowrap" style="text-align:center">Makassar</td>
+												<td nowrap="nowrap" style="text-align:left">Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">000002INTQR0626</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Reguler</span></td>
 												<td nowrap="nowrap" style="text-align:left">Motor</td>
@@ -533,7 +533,7 @@
 										  </tr>
 <tr>
 												<td style="text-align:right">4</td>
-												<td style="text-align:center" nowrap>Makassar</td>
+												<td style="text-align:left" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">000001INMEM0626</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true">Member</span></td>
 												<td nowrap="nowrap" style="text-align:left">Sedan/Jeep/Pick Up</td>
@@ -561,7 +561,7 @@
 										  </tr>
 <tr>
   <td style="text-align:right">5</td>
-  <td style="text-align:center" nowrap="nowrap">Makassar</td>
+  <td style="text-align:left" nowrap="nowrap">Makassar</td>
   <td nowrap="nowrap" style="text-align:center">000002INMEM0626</td>
   <td nowrap="nowrap" style="text-align:left"><span class="btn btn-label-twitter btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123215&lt;hr&gt;Muhammad Ramadhan, ST" data-html="true">Member</span></td>
   <td nowrap="nowrap" style="text-align:left">Truck/Tronton/Trailer</td>

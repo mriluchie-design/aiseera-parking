@@ -101,17 +101,29 @@ function goBack() {
 				
 					  
 					  
-					  <div class="col-lg-6">
+					  <div class="col-lg-5">
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Kendaraan Keluar</div><br><br>
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Free Pass</div><br><br>
 										 <div class="kt-portlet__body">
                       
 						<div class="form-group row">
+						<div class="col-lg-12" >
+                          <label style="color:#a2050c">Scan Kartu e-Money / Karcis Masuk :</label>
+                          <div class="kt-input-icon kt-input-icon--right">
+        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
+        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
+    		                            <span><i class="la la-search"></i></span>
+    		                        </span>
+    		                    </div>
+                        </div>
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
                       <div class="col-lg-4">
                           <label class="">ID Transaksi :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="001TRTUGM0526">
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="000001FP0626">
 																  </div>
 						<div class="col-lg-4" >
                           <label>Tanggal Keluar :</label>
@@ -141,15 +153,7 @@ function goBack() {
 						<div class="form-group row">
 					  
 						
-					  <div class="col-lg-4" >
-                          <label style="color:#a2050c">Scan Kartu e-Money / Karcis :</label>
-                          <div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
-        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
-    		                            <span><i class="la la-search"></i></span>
-    		                        </span>
-    		                    </div>
-                        </div>
+					 
 						<div class="col-lg-4" >
                           <label style="color:#a2050c">Kategori Free Pass :</label>
                           <select class="form-control kt-selectpicker" data-live-search="true">
@@ -174,14 +178,15 @@ function goBack() {
 									  <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
                                   </select>
                         </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
 						<div class="col-lg-4">
                           <label>Plat Kendaraan :</label>
                           <input type="text" class="form-control form-control-sm" placeholder="">
                         </div>
-						<div class="col-lg-8">
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						
+						<div class="col-lg-12">
                           <label style="color:#a2050c">Keterangan Free Pass :</label>
                           <input type="text" class="form-control form-control-sm" placeholder="">
                         </div>
@@ -199,7 +204,82 @@ function goBack() {
                       </div>
                       </div>
                       </div>
-					  <div class="col-lg-6">
+					  <div class="col-lg-4">
+
+									<!--begin::Portlet-->
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Kendaraan Masuk</div><br><br>
+										 <div class="kt-portlet__body">
+                      
+						<div class="form-group row">
+					  
+						<div class="col-lg-6" >
+                          <label>Tanggal Masuk :</label>
+                          <div class="input-group date">
+													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" disabled>
+													<div class="input-group-append">
+														<span class="input-group-text">
+															<i class="la la-calendar-check-o"></i>
+														</span>
+													</div>
+												</div>
+                        </div>
+						
+						<div class="col-lg-6">
+                          <label>Jam Masuk :</label>
+                          <div class="input-group timepicker">
+													<input class="form-control form-control-sm" id="kt_timepicker_2" readonly="" placeholder="07:44:00" type="text" disabled>
+													<div class="input-group-append">
+														<span class="input-group-text">
+															<i class="la la-clock-o"></i>
+														</span>
+													</div>
+												</div>
+                        </div>
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						  <div class="form-group row">
+						<div class="col-lg-3" >
+                          <label>Gate :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1">
+                        </div>
+						<div class="col-lg-3" >
+                          <label>Jalur :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Masuk">
+                        </div>
+						<div class="col-lg-6" >
+                          <label>Nama Jalur :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Mobil - 1">
+                        </div>
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						
+						
+					  
+						
+						<div class="col-lg-6" >
+                          <label>Kendaraan :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Mobil">
+                        </div>
+						
+						<div class="col-lg-6">
+                          <label class="">Plat Kendaraan :</label>
+                          <input type="text" class="form-control form-control-sm" placeholder="DD 1111 LU" disabled>
+                        </div>
+						
+                        </div>
+						
+						
+						
+						
+						
+						  
+						
+                      </div>
+                      </div>
+                      </div>
+					  <div class="col-lg-3">
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
@@ -209,23 +289,26 @@ function goBack() {
 					  
 						
 					  
-						<div class="col-lg-6">
+						<div class="col-lg-12">
                           <label class="">Nama Petugas :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom">
                         </div>
-						<div class="col-lg-6">
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-12">
                           <label class="">Jabatan :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Operator Gate">
                         </div>
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
-						<div class="col-lg-6">
-                          <label class="">Status Karcis :</label>
+						<div class="col-lg-3">
+                          <label class="">Sisa Karcis :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="50">
                         </div>
-						<div class="col-lg-3">
-                          <label class="">IP Komputer Operator :</label>
+						<div class="col-lg-6">
+                          <label class="">IP Operator :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="192.168.88.100">
                         </div>
 						<div class="col-lg-3">

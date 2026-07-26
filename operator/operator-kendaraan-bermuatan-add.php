@@ -110,7 +110,7 @@ function goBack() {
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
 						<div class="col-lg-6" >
-                          <label>Scan Kartu e-Money :</label>
+                          <label>Scan Kartu e-Money / Karcis :</label>
                           <div class="kt-input-icon kt-input-icon--right">
         							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
         							<span class="kt-input-icon__icon kt-input-icon__icon--right">
@@ -288,7 +288,7 @@ function goBack() {
 					  
 						
 					  
-						<div class="col-lg-2">
+						<div class="col-lg-3">
                           <label class="">Nama Petugas :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom">
                         </div>
@@ -297,8 +297,16 @@ function goBack() {
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Operator Gate">
                         </div>
 						<div class="col-lg-1">
-                          <label class="">Status Karcis :</label>
+                          <label class="">Sisa Karcis :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="50">
+                        </div>
+						<div class="col-lg-2">
+                          <label class="">IP Operator :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="192.168.88.100">
+                        </div>
+						<div class="col-lg-1">
+                          <label class="">Status :</label><br>
+                          <span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
                         </div>
 						<div class="col-lg-2">
                           <label class="">IP Printer :</label>

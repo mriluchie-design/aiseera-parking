@@ -118,8 +118,8 @@ function goBack() {
                           <label class="">Jabatan :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Operator Gate">
                         </div>
-						<div class="col-lg-1">
-                          <label class="">Karcis :</label>
+						<div class="col-lg-2">
+                          <label class="">Sisa Karcis :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="50">
                         </div>
 						<div class="col-lg-3">

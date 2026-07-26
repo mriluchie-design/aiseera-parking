@@ -112,15 +112,15 @@ function goBack() {
                           <label class="">Nama Petugas :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom">
                         </div>
-						<div class="col-lg-3">
+						<div class="col-lg-2">
                           <label class="">Jabatan :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Operator Gate">
                         </div>
 						<div class="col-lg-1">
-                          <label class="">Karcis :</label>
+                          <label class="">Sisa Karcis :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="50">
                         </div>
-						<div class="col-lg-3">
+						<div class="col-lg-2">
                           <label class="">IP Operator :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="192.168.88.100">
                         </div>
@@ -129,11 +129,20 @@ function goBack() {
                           <span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
                         </div>
 						
+						<div class="col-lg-2">
+                          <label class="">IP Barrier Gate :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="192.168.88.100">
+                        </div>
+						<div class="col-lg-1">
+                          <label class="">Status :</label><br>
+                          <span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
                         </div>
 						
 						
 						
 						
+						
+                      </div>
                       </div>
                       </div>
 			
@@ -151,17 +160,8 @@ function goBack() {
       <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span></span></div>
                         </div>
-						<div class="col-lg-1">
-                          <label>&nbsp;</label>
-                          <div><a href="#" class="btn btn-label-warning btn-sm m-btn 	m-btn m-btn--icon">
-															<span>
-																<i class="fa fa-search"></i>
-																<span>Cari</span>
-															</span>
-														</a>
-                        </div>
-                        </div>
-						<div class="col-lg-2">
+						
+						<div class="col-lg-3">
                           <label class="">Nama Member :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom">
                         </div>
@@ -237,9 +237,9 @@ function goBack() {
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
 						<div class="col-lg-12" >
-                          <label>Scan Kartu e-Money :</label>
+                          <label>Scan Kartu e-Money / Karcis :</label>
                           <div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan Kartu e-Money..." id="generalSearch" />
+      <input type="text" class="form-control form-control-sm" placeholder="Scan Disini ..." id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span></span></div>
                         </div>
 						
