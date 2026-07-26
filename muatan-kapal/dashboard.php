@@ -137,9 +137,9 @@
                                 <label>Kategori :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Reguler</option>
+                                      <option value="1">Reguler</option>
                                       <option value="2">Member</option>
-                                      <option value="2">Keseluruhan</option>
+                                      <option value="2" selected>Keseluruhan</option>
                                                                            
                                   </select>
     		                    </div>
@@ -150,12 +150,12 @@
                                 <label>Jenis :</label>
 								
                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Mobil</option>
+                                      <option value="1">Mobil</option>
 									  <option value="2">Sepeda Motor</option>
-                                      <option value="1" >Pegawai/Instansi/Others</option>
+                                      <option value="1">Pegawai/Instansi/Others</option>
                                       <option value="2">Sedan/Jeep/Pick Up</option>
                                       <option value="2">Truck/Tronton/Trailer</option>
-									  <option value="2">Keseluruhan</option>
+									  <option value="2" selected>Keseluruhan</option>
                                                                            
                                   </select>
     		                    </div>
@@ -172,9 +172,9 @@
                                 <label>Status :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Selesai</option>
+                                      <option value="1">Selesai</option>
                                       <option value="1">Parkir</option>
-                                      <option value="2">Keseluruhan</option>
+                                      <option value="2" selected>Keseluruhan</option>
                                                                            
                                   </select>
                             </div>
@@ -206,10 +206,10 @@
                                 <label>Pembayaran :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">e-Money</option>
+                                      <option value="1">e-Money</option>
                                       <option value="1">QRIS</option>
                                       <option value="2">Tunai</option>
-                                      <option value="2">Keseluruhan</option>
+                                      <option value="2" selected>Keseluruhan</option>
                                                                            
                                   </select>
                             </div>
@@ -217,7 +217,7 @@
                                 <label>Provider Pembayaran :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Mandiri</option>
+                                      <option value="1">Mandiri</option>
                                       <option value="1">BCA Flazz</option>
                                       <option value="1">Brizzi</option>
                                       <option value="1">BNI Tap Cash</option>
@@ -226,7 +226,7 @@
                                       <option value="1">Shoope Pay</option>
                                       <option value="1">BCA</option>
                                       <option value="1">Livin Mandiri</option>
-                                      <option value="2">Keseluruhan</option>
+                                      <option value="2" selected>Keseluruhan</option>
                                                                            
                                   </select>
                             </div>
