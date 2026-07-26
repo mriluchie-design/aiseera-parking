@@ -28,9 +28,7 @@
 													</script>
 												<!--<i class="flaticon2-plus"></i>-->
 											</a>
-											&nbsp;
-
-
+											
 										</div>
 										<div class="btn-group">
 				<button type="button" class="btn btn-success">

@@ -178,12 +178,31 @@
                   <div class="kt-portlet__body">
 										<ul class="nav nav-pills nav-fill" role="tablist">
 											<li class="nav-item dropdown">
-													<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="background:#ef5325 !important; color:#fff !important">2019</a>
-													<div class="dropdown-menu">
-														<a class="dropdown-item" data-toggle="tab" href="#">2018</a>
-														<a class="dropdown-item" data-toggle="tab" href="#">2017</a>
-														<a class="dropdown-item" data-toggle="tab" href="#">2016</a>
-													</div>
+													<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="background:#4AB3F4 !important; color:#fff !important">2026</a>
+													<div class="dropdown-menu dropdown-menu-fit dropdown-menu-left">
+													<ul class="kt-nav">
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">2025</span>
+															</a>
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">2024</span>
+															</a>
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-chart-bar"></i>
+																<span class="kt-nav__link-text">Keseluruhan</span>
+															</a>
+														</li>
+														
+														
+													</ul>
+												</div>
 												</li>
 												<li class="nav-item">
 													<a class="nav-link" data-toggle="tab" href="#kt_tabs_3_1">Januari</a>
