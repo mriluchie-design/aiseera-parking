@@ -7,14 +7,20 @@
 						<div class="kt-subheader   kt-grid__item" id="kt_subheader">
 							<div class="kt-container  kt-container--fluid ">
 								<div class="kt-subheader__main">
-									<h3 class="kt-subheader__title">
-										<span class="kt-portlet__head-icon">
-											<i class="kt-font-brand flaticon2-list-1"></i>
-										</span>
-										&nbsp;
-										&nbsp;
-											Detail Cuti
-									</h3>
+			
+                <h3 class="kt-subheader__title">
+                    <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
+                    Detail 
+                </h3>
+				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
+									<div class="kt-subheader__group" id="kt_subheader_search">
+										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
+											Cuti</span>
+										<form class="kt-margin-l-20" id="kt_subheader_search_form">
+
+										</form>
+									</div>
+
 
 								</div>
 								<div class="kt-subheader__toolbar">
@@ -28,11 +34,18 @@ function goBack() {
 </script>
 												<!--<i class="flaticon2-plus"></i>-->
 											</a>
-											&nbsp;
+										
 
 
 										</div>
-										
+										<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
+			</div>
 										</div>
 										</div>
 						</div>
@@ -59,66 +72,56 @@ function goBack() {
 
                     <div class="kt-portlet__body">
                       <div class="row">
-								<div class="col-xl-9">
+								<div class="col-xl-6">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Pegawai</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
-                        <div class="col-lg-3">
-                          <label>Nama Pegawai :</label>
-                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom">
-                        </div>
-
-                        <div class="col-lg-3">
-                          <label>NIP Pegawai :</label>
-                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="238 004 032">
-                        </div>
-
-                        <div class="col-lg-3">
+					  <div class="col-lg-4">
                           <label>Kantor :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Pusat">
                         </div>
-						 <div class="col-lg-3">
+						<div class="col-lg-4">
+                          <label>NIP Pegawai :</label>
+                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="238 004 032">
+                        </div>
+                        <div class="col-lg-4">
+                          <label>Nama Pegawai :</label>
+                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom">
+                        </div>
+                        </div>
+
+                        
+
+                         <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+					  <div class="form-group row">
+						 <div class="col-lg-4">
                           <label>Status Pegawai :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Pegawai Tetap">
                         </div>
-                      </div>
-                      <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-					  <div class="form-group row">
-                       <div class="col-lg-3">
+                     
+                       <div class="col-lg-4">
                           <label class="">Departemen :</label>
                           <div class="form-group">
-                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Pengembangan Usaha & Kerja Sama">
+                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Teknologi & Riset">
                       </div>
                         </div>
-                        <div class="col-lg-3">
+                        <div class="col-lg-4">
                           <label class="">Divisi :</label>
                           <div class="form-group">
                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Pengembangan">
                       </div>
                         </div>
-                        <div class="col-lg-6">
+                        </div>
+						 <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+                     <div class="form-group row">
+                        <div class="col-lg-8">
                           <label class="">Jabatan :</label>
                           <div class="form-group">
                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Kepala Seksi Pemetaan dan Pengembangan">
                       </div>
-                        </div>
-                      </div>
-					  <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-                     <div class="form-group row">
-                        <div class="col-lg-3">
-                          <label>Jenis Cuti :</label>
-                      <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Cuti Tahunan">
-                        </div>
-                        <div class="col-lg-3">
-                          <label class="">Tanggal Cuti :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="17/07/2025 - 18/07/2025">
-                        </div>
-                        <div class="col-lg-3">
-                          <label class="">Tujuan Cuti :</label>
-                          <textarea class="form-control" id="exampleTextarea" rows="2" placeholder="Khilaf" disabled=""></textarea>
                         </div>
 						<div class="col-lg-3">
                           <label class="">Surat Permohonan Cuti :</label>
@@ -129,6 +132,22 @@ function goBack() {
                 </a>
                       </div>
                         </div>
+                      </div>
+					  <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+                     <div class="form-group row">
+                        <div class="col-lg-4">
+                          <label>Jenis Cuti :</label>
+                      <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Cuti Tahunan">
+                        </div>
+                        <div class="col-lg-4">
+                          <label class="">Tanggal Cuti :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="17/07/2025 - 18/07/2025">
+                        </div>
+                        <div class="col-lg-4">
+                          <label class="">Tujuan Cuti :</label>
+                          <textarea class="form-control" id="exampleTextarea" rows="2" placeholder="Khilaf" disabled=""></textarea>
+                        </div>
+						
 						
 						
 						
@@ -138,53 +157,7 @@ function goBack() {
 							<!--end:: Portlet-->
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Pegawai Pengganti</div><br>
-							<div>&nbsp;</div>
-										<div class="kt-portlet__body">
-											<div class="form-group row">
-                        <div class="col-lg-3">
-                          <label>Nama Pegawai :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom">
-                        </div>
-						<div class="col-lg-3">
-                          <label>NIP Pegawai :</label>
-                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="238 004 032">
-                        </div>
-
-                        <div class="col-lg-3">
-                          <label>Kantor :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Pusat">
-                        </div>
-						<div class="col-lg-3">
-                          <label>Status Pegawai :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Pegawai Tetap">
-                        </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-                        <div class="col-lg-3">
-                          <label class="">Departemen :</label>
-                          <div class="form-group">
-                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Umum">
-                      </div>
-                        </div>
-						 <div class="col-lg-3">
-                          <label class="">Bagian :</label>
-                          <div class="form-group">
-                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Umum dan Kepegawaian">
-                      </div>
-                        </div>
-						<div class="col-lg-6">
-                          <label class="">Jabatan :</label>
-                          <div class="form-group">
-                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Kepala Bagian Umum dan Kepegawaian">
-                      </div>
-                        </div>
-                      </div>
-
-                      </div>
-                    </div>
+										
 							<!--end:: Portlet-->
 										</div>
 										<div class="col-xl-3">
@@ -194,7 +167,81 @@ function goBack() {
 							<!--end:: Portlet-->
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Saldo Cuti</div><br>
+							<div>&nbsp;</div>
+										<div class="kt-portlet__body">
+											<div class="form-group row">
+                        <div class="col-lg-12">
+                          <label>Quota Cuti Tahunan :</label>
+                          <div class="progress">
+                          <div class="progress-bar progress-bar-striped progress-bar-animated  bg-info" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">12 Hari</div>
+                        </div>
+                        </div>
+                      </div>
+
+                      <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+                      <div class="form-group row">
+                        <div class="col-lg-12">
+                          <label>Cuti Tahunan Belum Digunakan :</label>
+                          <div class="progress">
+                          <div class="progress-bar progress-bar-striped progress-bar-animated  bg-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">6 Hari</div>
+                        </div>
+                        </div>
+                        </div>
+						 <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+                      <div class="form-group row">
+                        <div class="col-lg-12">
+                          <label>Cuti Tahunan Telah Terpakai :</label>
+                          <div class="progress">
+                          <div class="progress-bar progress-bar-striped progress-bar-animated  bg-warning" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">6 Hari</div>
+                        </div>
+                        </div>
+                      </div>
+					  <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<label><span class="kt-badge kt-badge--danger kt-badge--inline">Riwayat Cuti Tahun ini :</span></label>
+                <!--Begin::Timeline 3 -->
+											<div class="kt-timeline-v2">
+												<div class="kt-timeline-v2__items  kt-padding-top-25 kt-padding-bottom-30">
+													<div class="kt-timeline-v2__item">
+														<span class="kt-timeline-v2__item-time">21/10/2019<br>23/10/2019</span>
+														<div class="kt-timeline-v2__item-cricle">
+															<i class="fa fa-genderless kt-font-danger"></i>
+														</div>
+														<div class="kt-timeline-v2__item-text  kt-padding-top-5">
+															Temanin Teman yang punya teman pergi shopping
+														</div>
+													</div>
+													<div class="kt-timeline-v2__item">
+														<span class="kt-timeline-v2__item-time">21/10/2019<br>23/10/2019</span>
+														<div class="kt-timeline-v2__item-cricle">
+															<i class="fa fa-genderless kt-font-info"></i>
+														</div>
+														<div class="kt-timeline-v2__item-text  kt-padding-top-5">
+															Temanin Teman yang punya teman pergi shopping
+														</div>
+													</div>
+
+												</div>
+											</div>
+
+											<!--End::Timeline 3 -->
+									</div>
+						
+                      </div>
+										
+										
+					  
+                    </div>
+					<div class="col-xl-3">
+
+									<!--begin::Portlet-->
+										
+							<!--end:: Portlet-->
+
+									<!--begin::Portlet-->
+										
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Verifikasi</div><br><br>
 										<div class="kt-portlet__body">
 
@@ -260,70 +307,63 @@ function goBack() {
 											<!--End::Timeline 3 -->
 										</div>
 									</div>
-										<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Saldo Cuti</div><br>
+										
+					  
+                    </div>
+					<div class="col-xl-12">
+
+									<!--begin::Portlet-->
+										
+							<!--end:: Portlet-->
+
+									<!--begin::Portlet-->
+										<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Pegawai Pengganti</div><br>
 							<div>&nbsp;</div>
 										<div class="kt-portlet__body">
 											<div class="form-group row">
-                        <div class="col-lg-12">
-                          <label>Quota Cuti Tahunan :</label>
-                          <div class="progress">
-                          <div class="progress-bar progress-bar-striped progress-bar-animated  bg-info" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">12 Hari</div>
+                        <div class="col-lg-2">
+                          <label>Nama Pegawai :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom">
                         </div>
+						<div class="col-lg-1">
+                          <label>NIP Pegawai :</label>
+                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="000000000">
                         </div>
-                      </div>
 
-                      <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-                      <div class="form-group row">
-                        <div class="col-lg-12">
-                          <label>Cuti Tahunan Belum Digunakan :</label>
-                          <div class="progress">
-                          <div class="progress-bar progress-bar-striped progress-bar-animated  bg-success" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">6 Hari</div>
+                        <div class="col-lg-1">
+                          <label>Kantor :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Pusat">
                         </div>
+						<div class="col-lg-1">
+                          <label>Status Pegawai :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Tetap">
                         </div>
-                        </div>
-						 <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-                      <div class="form-group row">
-                        <div class="col-lg-12">
-                          <label>Cuti Tahunan Telah Terpakai :</label>
-                          <div class="progress">
-                          <div class="progress-bar progress-bar-striped progress-bar-animated  bg-warning" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">6 Hari</div>
-                        </div>
-                        </div>
-                      </div>
-					  <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<label><span class="kt-badge kt-badge--danger kt-badge--inline">Riwayat Cuti Tahun ini :</span></label>
-                <!--Begin::Timeline 3 -->
-											<div class="kt-timeline-v2">
-												<div class="kt-timeline-v2__items  kt-padding-top-25 kt-padding-bottom-30">
-													<div class="kt-timeline-v2__item">
-														<span class="kt-timeline-v2__item-time">21/10/2019<br>23/10/2019</span>
-														<div class="kt-timeline-v2__item-cricle">
-															<i class="fa fa-genderless kt-font-danger"></i>
-														</div>
-														<div class="kt-timeline-v2__item-text  kt-padding-top-5">
-															Temanin Teman yang punya teman pergi shopping
-														</div>
-													</div>
-													<div class="kt-timeline-v2__item">
-														<span class="kt-timeline-v2__item-time">21/10/2019<br>23/10/2019</span>
-														<div class="kt-timeline-v2__item-cricle">
-															<i class="fa fa-genderless kt-font-info"></i>
-														</div>
-														<div class="kt-timeline-v2__item-text  kt-padding-top-5">
-															Temanin Teman yang punya teman pergi shopping
-														</div>
-													</div>
-
-												</div>
-											</div>
-
-											<!--End::Timeline 3 -->
-									</div>
 						
+                        <div class="col-lg-2">
+                          <label class="">Departemen :</label>
+                          <div class="form-group">
+                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Umum">
                       </div>
-					  
+                        </div>
+						 <div class="col-lg-2">
+                          <label class="">Bagian :</label>
+                          <div class="form-group">
+                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Umum dan Kepegawaian">
+                      </div>
+                        </div>
+						<div class="col-lg-3">
+                          <label class="">Jabatan :</label>
+                          <div class="form-group">
+                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Kepala Bagian Umum dan Kepegawaian">
+                      </div>
+                        </div>
+                      </div>
+
+                      </div>
                     </div>
+							<!--end:: Portlet-->
+										</div>
 							<!--end:: Portlet-->
 										</div>
 
@@ -340,6 +380,7 @@ function goBack() {
 
 
           </div>
+		  
         </div>
             </div>
 

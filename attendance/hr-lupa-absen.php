@@ -49,7 +49,10 @@
 
 												<!--end::Nav-->
 											</div>
-
+<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
 											<a href="lupa-absen-form.php" class="btn btn-info btn-sm">
 												<i class="fa fa-plus-circle"></i> Buat Lupa Absen</button>
 												<!--<i class="flaticon2-plus"></i>-->
@@ -87,24 +90,37 @@
 																<form class="kt-form">
 																	<div class="kt-portlet__body">
 						                      <div class="form-group row">
+											  <div class="col-lg-2">
+						                          <label>Kantor :</label>
+																		<select class="form-control kt-selectpicker" data-live-search="true">
+						                              <option value="2">Pusat</option>
+						                              <option value="3">Nama Cabang A</option>
+						                              <option value="3">Nama Cabang B</option>
+						                              <option value="3" selected>Keseluruhan</option>
+
+						                          </select>
+						                        </div>
 						                        <div class="col-lg-2">
 						                          <label>Nama Pegawai :</label>
-												  <select class="form-control kt-selectpicker form-control" data-live-search="true">
-					 															<optgroup label="Direksi">
-					 																<option value="AK"selected >Muhammad Nasrullah, S.Kom</option>
+												  <select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
+					 															<optgroup label="Direksi" class="a">
+					 																<option value="AK">Muhammad Nasrullah, S.Kom</option>
 					 															</optgroup>
-					 															<optgroup label="Umum">
-																					<option value="HI">Deddy Rafsanjani, S.Sos</option>
-					 															</optgroup>
-																				<optgroup label="Keuangan dan Asset">
+					 															
+																				<optgroup label="Keuangan" class="a">
 					 																<option value="HI">Oklan Zulkifli, SE</option>
 					 															</optgroup>
-																				<optgroup label="Operasional">
+																				<optgroup label="Operasional" class="a">
+					 																<option value="HI">Deddy Rafsanjani, S.Sos</option>
 					 																<option value="HI">Nursiah, S.Kom</option>
 					 															</optgroup>
-																				<optgroup label="Pengembangan Usaha dan Kerjasama">
+																				<optgroup label="Teknologi dan Riset" class="a">
 					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
 					 															</optgroup>
+																				<optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
+					 															</optgroup>
+																				<option value="12" selected>Keseluruhan</option>
 
 					 														</select>
 						                        </div>
@@ -115,6 +131,8 @@
 						                              <option value="3">Pulang</option>
 						                              <option value="3">Lembur Masuk</option>
 						                              <option value="3">Lembur Keluar</option>
+						                              <option value="3" selected>Keseluruhan</option>
+													  
 
 						                          </select>
 						                        </div>
@@ -122,12 +140,12 @@
 <div class="col-lg-2">
 						                          <label>Departemen :</label>
 																		<select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2" selected="">Direksi</option>
-                                      <option value="2">Dewan Pengawas</option>
-                                      <option value="3">Umum</option>
-                                      <option value="4">Keuangan dan Asset</option>
+                                      <option value="2">Direksi</option>
+                                      <option value="4">Keuangan</option>
                                       <option value="5">Operasional</option>
-                                      <option value="12" >Pengembangan Usaha dan Kerjasama</option>
+                                      <option value="5">Teknologi dan Riset</option>
+                                      <option value="12">Pengembangan Usaha dan Kerjasama</option>
+									  <option value="HI" selected>Keseluruhan</option>
                                   </select>
 						                        </div>
 												
@@ -137,25 +155,18 @@
 																		<select class="form-control kt-selectpicker" data-live-search="true">
 						                              <option value="2">Tetap</option>
 						                              <option value="3">Kontrak</option>
-						                              <option value="3">Honor</option>
+						                              <option value="3" selected>Keseluruhan</option>
 
 						                          </select>
 						                        </div>
-												<div class="col-lg-2">
-						                          <label>Kantor :</label>
-																		<select class="form-control kt-selectpicker" data-live-search="true">
-						                              <option value="2">Pusat</option>
-						                              <option value="3">Nama Cabang A</option>
-						                              <option value="3">Nama Cabang B</option>
-
-						                          </select>
-						                        </div>
+												
 												<div class="col-lg-2">
 						                          <label>Status :</label>
 																		<select class="form-control kt-selectpicker" data-live-search="true">
 						                              <option value="2">Disetujui</option>
 						                              <option value="3">Pending</option>
 						                              <option value="3">Ditolak</option>
+						                              <option value="3" selected>Keseluruhan</option>
 
 						                          </select>
 						                        </div>
@@ -219,6 +230,18 @@
 															<a href="#" class="kt-nav__link">
 																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
 																<span class="kt-nav__link-text">Bulan ini</span>
+															</a>
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">Tahun ini</span>
+															</a>
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-chart-bar"></i>
+																<span class="kt-nav__link-text">Keseluruhan</span>
 															</a>
 														</li>
 														

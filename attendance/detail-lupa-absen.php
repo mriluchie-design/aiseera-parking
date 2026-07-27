@@ -7,31 +7,45 @@
 						<div class="kt-subheader   kt-grid__item" id="kt_subheader">
 							<div class="kt-container  kt-container--fluid ">
 								<div class="kt-subheader__main">
-									<h3 class="kt-subheader__title">
-										<span class="kt-portlet__head-icon">
-											<i class="kt-font-brand flaticon2-list-1"></i>
-										</span>
-										&nbsp;
-										&nbsp;
-											Detail Lupa Absen
-									</h3>
+			
+                <h3 class="kt-subheader__title">
+                    <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
+                    Detail 
+                </h3>
+				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
+									<div class="kt-subheader__group" id="kt_subheader_search">
+										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
+											Lupa Absen</span>
+										<form class="kt-margin-l-20" id="kt_subheader_search_form">
+
+										</form>
+									</div>
+
 
 								</div>
 								<div class="kt-subheader__toolbar">
-									<div class="dropdown dropdown-inline" ddata-placement="left">
-											<a href="hr-lupa-absen.php" class="btn btn-label-brand btn-sm" data-toggle="dropdown" onclick="goBack()">
+			
+			<div class="dropdown dropdown-inline" ddata-placement="left">
+				<a href="#.php" class="btn btn-label-brand btn-sm" data-toggle="dropdown" onclick="goBack()">
 												<i class="flaticon-reply"></i> Kembali</button>
-													<script>
-													function goBack() {
-													  window.history.back();
-													}
-													</script>
+<script>
+function goBack() {
+  window.history.back();
+}
+</script>
 												<!--<i class="flaticon2-plus"></i>-->
 											</a>
-											&nbsp;
-
-
-										</div>
+				
+			</div>
+			
+			<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
+			</div>
 										
 										</div>
 										</div>
@@ -65,7 +79,7 @@
 								<div class="col-xl-5">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Pegawai</div><br><br>
 										<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
@@ -138,7 +152,7 @@
 								<div class="col-xl-4">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Lupa Absen</div><br><br>
 										<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
@@ -199,7 +213,7 @@
 									
 
 										
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Verifikasi</div><br><br>
 										<div class="kt-portlet__body">
 

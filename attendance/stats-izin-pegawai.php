@@ -13,7 +13,7 @@
 										</span>
 										&nbsp;
 										&nbsp;
-											Data Cuti
+											Data Izin Pegawai
 									</h3>
 
 								</div>
@@ -48,7 +48,14 @@
 
 												<!--end::Nav-->
 											</div>
-
+<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
+			</div>
 											
 
 										</div>
@@ -81,54 +88,89 @@
 																<form class="kt-form">
 																	<div class="kt-portlet__body">
 						                      <div class="form-group row">
-											  
+											  <div class="col-lg-2">
+						                          <label>Kantor :</label>
+																		<select class="form-control kt-selectpicker" data-live-search="true">
+						                              <option value="2">Pusat</option>
+						                              <option value="3">Nama Cabang A</option>
+						                              <option value="3">Nama Cabang B</option>
+						                              <option value="3" selected>Keseluruhan</option>
+
+						                          </select>
+						                        </div>
 													 <div class="col-lg-3">
 							                          <label>Cari Pegawai :</label>
-													  <select class="form-control kt-selectpicker form-control" data-live-search="true">
-					 															<optgroup label="Direksi">
-					 																<option value="AK"selected >Muhammad Nasrullah, S.Kom</option>
+													  <select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
+					 															<optgroup label="Direksi" class="a">
+					 																<option value="AK">Muhammad Nasrullah, S.Kom</option>
 					 															</optgroup>
-					 															<optgroup label="Umum">
-																					<option value="HI">Deddy Rafsanjani, S.Sos</option>
-					 															</optgroup>
-																				<optgroup label="Keuangan dan Asset">
+					 															
+																				<optgroup label="Keuangan" class="a">
 					 																<option value="HI">Oklan Zulkifli, SE</option>
 					 															</optgroup>
-																				<optgroup label="Operasional">
+																				<optgroup label="Operasional" class="a">
+					 																<option value="HI">Deddy Rafsanjani, S.Sos</option>
 					 																<option value="HI">Nursiah, S.Kom</option>
 					 															</optgroup>
-																				<optgroup label="Pengembangan Usaha dan Kerjasama">
+																				<optgroup label="Teknologi dan Riset" class="a">
 					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
 					 															</optgroup>
+																				<optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
+					 															</optgroup>
+																				<option value="12" selected>Keseluruhan</option>
 
 					 														</select>
 
 							                        </div>
 													<div class="col-lg-2">
-							                          <label class="">Departemen :</label>
-							                          <div class="form-group">
-							                       <select class="form-control kt-selectpicker" data-live-search="true" tabindex="-98">
-																							<option value="2" selected>Direksi</option>
-																							<option value="3">Umum</option>
-																							<option value="4">Keuangan & Asset</option>
-																							<option value="5">Operasional</option>
-																							<option value="6">Pengembangan Usaha & Kerja Sama</option>
-																							
-																					</select>
-							                      </div>
-							                        </div>
+						                          <label>Departemen :</label>
+																		 <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="2">Direksi</option>
+                                      <option value="4">Keuangan</option>
+                                      <option value="5">Operasional</option>
+                                      <option value="5">Teknologi dan Riset</option>
+                                      <option value="12">Pengembangan Usaha dan Kerjasama</option>
+									  <option value="HI" selected>Keseluruhan</option>
+                                  </select>
+						                        </div>
+												<div class="col-lg-2">
+						                          <label>Divisi :</label>
+																		  <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <optgroup label="Direksi" class="a">
+									  <option value="3">Direksi</option>
+									  </optgroup>
+									  
+									    <optgroup label="Keuangan" class="a">
+                                      <option value="6">Keuangan</option>
+                                      <option value="12">Asset</option>
+									  </optgroup>
+									  <optgroup label="Operasional" class="a">
+                                      <option value="4">Umum</option>
+                                      <option value="4">Kepegawaian</option>
+									  </optgroup>
+									   <optgroup label="Teknologi dan Riset" class="a">
+                                      <option value="12" >Teknologi</option>
+                                      <option value="12" >Riset</option>
+									   </optgroup>
+									   <optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
+                                      <option value="12" >Pengembangan</option>
+                                      <option value="12" >Kerjasama</option>
+									  </optgroup>
+                                      <option value="12" selected>Keseluruhan</option>
+
+                                </select>
+						                        </div>
 													<div class="col-lg-2">
-							                          <label class="">Status Pegawai :</label>
-							                          <div class="form-group">
-							                       <select class="form-control kt-selectpicker" data-live-search="true" tabindex="-98">
-																							<option value="2">Tetap</option>
-																							<option value="3">Kontrak</option>
-																							<option value="3">Honor</option>
-																							
-																							
-																					</select>
-							                      </div>
-							                        </div>
+						                          <label>Status Pegawai :</label>
+																		<select class="form-control kt-selectpicker" data-live-search="true">
+						                              <option value="2">Tetap</option>
+						                              <option value="3">Kontrak</option>
+						                              <option value="3" selected>Keseluruhan</option>
+
+						                          </select>
+						                        </div>
+												
 										
 											  
 												
@@ -148,60 +190,29 @@
 																	</div>
 														
 <!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Statistik Cuti</div><br>
+										<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Statistik Izin</div><br><br>
 							
 									
                       
-							<div class="kt-portlet kt-portlet--mobile ">
-							
+						
 								<div class="kt-portlet__body">
 									<!--begin: Datatable -->
 									<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
 										<thead style="text-align:center">
 											<tr>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">#</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Data Pegawai</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Status Pegawai</th>
-											  <th colspan="3" bgcolor="#f7fcff">Cuti<br>Tahunan</th>
-											  <th colspan="3" bgcolor="#f7fcff">Cuti<br>Melahirkan</span></th>
-											  <th colspan="3" bgcolor="#f7fcff">Cuti<br>Sakit</span></th>
-											  <th colspan="3" bgcolor="#f7fcff">Cuti<br>Menikah</span></th>
-											  <th colspan="3" bgcolor="#f7fcff">Cuti<br>Menikahkan Anak</span></th>
-											  <th colspan="3" bgcolor="#f7fcff">Cuti<br>Khitanan Anak</span></th>
-											  <th colspan="3" bgcolor="#f7fcff">Cuti<br>Istri Melahirkan</span></th>
-											  <th colspan="3" bgcolor="#f7fcff">Cuti<br>Duka</span></th>
-											  <th colspan="3" bgcolor="#f7fcff">Cuti<br>Keluarga Sakit</span></th>
-											  <th colspan="3" bgcolor="#f7fcff">Cuti<br>Umrah</span></th>
-											  <th colspan="3" bgcolor="#f7fcff">Cuti<br>Haji</span></th>
+											  <th colspan="3" bgcolor="#f7fcff"> Pegawai</th>
+											  <th colspan="3" bgcolor="#f7fcff">Terlambat<br>Datang</th>
+											  <th colspan="3" bgcolor="#f7fcff">Cepat<br>Pulang</span></th>
+											  <th colspan="3" bgcolor="#f7fcff">Izin<br>Jam Kerja</span></th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 											<tr>
-												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Kuota">K</span></th>
-												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Terpakai">T</span></th>
-												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Sisa">S</span></th>
-												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Kuota">K</span></th>
-												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Terpakai">T</span></th>
-												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Sisa">S</span></th>
-												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Kuota">K</span></th>
-												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Terpakai">T</span></th>
-												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Sisa">S</span></th>
-												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Kuota">K</span></th>
-												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Terpakai">T</span></th>
-												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Sisa">S</span></th>
-												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Kuota">K</span></th>
-												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Terpakai">T</span></th>
-												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Sisa">S</span></th>
-												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Kuota">K</span></th>
-												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Terpakai">T</span></th>
-												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Sisa">S</span></th>
-												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Kuota">K</span></th>
-												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Terpakai">T</span></th>
-												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Sisa">S</span></th>
-												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Kuota">K</span></th>
-												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Terpakai">T</span></th>
-												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Sisa">S</span></th>
-												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Kuota">K</span></th>
+											  <th width="1%" bgcolor="#f7fcff">Foto</th>
+											  <th width="10%" bgcolor="#f7fcff">Nama</th>
+											  <th width="1%" bgcolor="#f7fcff">Status</th>
+											  <th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Kuota">K</span></th>
 												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Terpakai">T</span></th>
 												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Sisa">S</span></th>
 												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Kuota">K</span></th>
@@ -214,268 +225,131 @@
 										</thead>
 										<tbody>
 											<tr>
-											  <td colspan="37" bgcolor="#fdfdec"><b>Bagian Umum</b></td>
+											  <td colspan="14" bgcolor="#fdfdec"><b>Direksi</b></td>
 										  </tr>
 											<tr>
-												<td align="center">1</td>
-												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Ir. ASRARUDIN MAMONTO, MM<hr>238 005 047<hr>Kepala Bagian Umum" data-html="true">
-														<img src="../assets/media/users/100_12.jpg" alt="image">
+												<td align="right">1</td>
+												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001<hr>Direktur Utama" data-html="true">
+														<img src="../assets/media/users/100_15.jpg" alt="image">
 													</a></td>
+												<td style="text-align:left">Muhammad Nasrullah, S.Kom</td>
 												
 												
 												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">6</td>
+												<td style="text-align:center">0</td>
 												<td style="text-align:center">6</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center"><button type="button" class="btn btn-outline-brand btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
+												<td style="text-align:center">6</td>
+												<td style="text-align:center">0</td>
+												<td style="text-align:center">6</td>
+												<td style="text-align:center">6</td>
+												<td style="text-align:center">0</td>
+												<td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 									      </tr>
 										  <tr>
-												<td align="center">2</td>
-												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="SRI SUHARTINI,SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_10.jpg" alt="image">
+												<td align="right">2</td>
+												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000002<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+														<img src="../assets/media/users/100_1.jpg" alt="image">
 													</a></td>
+												<td style="text-align:left">Muhammad Ramadhan Lerrick, ST</td>
 												
 												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">6</td>
+												<td style="text-align:center">0</td>
 												<td style="text-align:center">6</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center"><button type="button" class="btn btn-outline-brand btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
+												<td style="text-align:center">6</td>
+												<td style="text-align:center">0</td>
+												<td style="text-align:center">6</td>
+												<td style="text-align:center">6</td>
+												<td style="text-align:center">0</td>
+												<td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 									      </tr>
 											<tr>
-											  <td colspan="37" bgcolor="#fdfdec"><b>Bagian Keuangan</b></td>
+											  <td colspan="14" bgcolor="#fdfdec"><b>Keuangan</b></td>
 										  </tr>
 											<tr>
-												<td align="center">1</td>
-												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Ir. ASRARUDIN MAMONTO, MM<hr>238 005 047<hr>Kepala Bagian Umum" data-html="true">
-														<img src="../assets/media/users/100_12.jpg" alt="image">
+												<td align="right">1</td>
+												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003<hr>Direktur Utama" data-html="true">
+														<img src="../assets/media/users/100_3.jpg" alt="image">
 													</a></td>
+												<td style="text-align:left">Deddy Rafsanjani, S.Sos</td>
 												
 												
 												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">6</td>
+												<td style="text-align:center">0</td>
 												<td style="text-align:center">6</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center"><button type="button" class="btn btn-outline-brand btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
+												<td style="text-align:center">6</td>
+												<td style="text-align:center">0</td>
+												<td style="text-align:center">6</td>
+												<td style="text-align:center">6</td>
+												<td style="text-align:center">0</td>
+												<td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 									      </tr>
 										  <tr>
-												<td align="center">2</td>
-												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="SRI SUHARTINI,SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_10.jpg" alt="image">
+												<td align="right">2</td>
+												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000004<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+														<img src="../assets/media/users/100_5.jpg" alt="image">
 													</a></td>
+												<td style="text-align:left">Oklan Zulkifli, SE</td>
 												
 												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">6</td>
+												<td style="text-align:center">0</td>
 												<td style="text-align:center">6</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center"><button type="button" class="btn btn-outline-brand btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
+												<td style="text-align:center">6</td>
+												<td style="text-align:center">0</td>
+												<td style="text-align:center">6</td>
+												<td style="text-align:center">6</td>
+												<td style="text-align:center">0</td>
+												<td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 									      </tr>
 										  <tr>
-											  <td colspan="37" bgcolor="#fdfdec"><b>Bagian Operasional</b></td>
+											  <td colspan="14" bgcolor="#fdfdec"><b>Operasional</b></td>
 										  </tr>
 											<tr>
-												<td align="center">1</td>
-												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Ir. ASRARUDIN MAMONTO, MM<hr>238 005 047<hr>Kepala Bagian Umum" data-html="true">
-														<img src="../assets/media/users/100_12.jpg" alt="image">
+												<td align="right">1</td>
+												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000005<hr>Direktur Utama" data-html="true">
+														<img src="../assets/media/users/100_6.jpg" alt="image">
 													</a></td>
+												<td style="text-align:left">Nursiah, S.Kom</td>
 												
 												
+
 												<td style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Kontrak</button></td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">6</td>
+												<td style="text-align:center">0</td>
 												<td style="text-align:center">6</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center"><button type="button" class="btn btn-outline-brand btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
+												<td style="text-align:center">6</td>
+												<td style="text-align:center">0</td>
+												<td style="text-align:center">6</td>
+												<td style="text-align:center">6</td>
+												<td style="text-align:center">0</td>
+												<td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 									      </tr>
 										  <tr>
-												<td align="center">2</td>
-												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="SRI SUHARTINI,SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_10.jpg" alt="image">
+												<td align="right">2</td>
+												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000006<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+														<img src="../assets/media/users/100_7.jpg" alt="image">
 													</a></td>
+												<td style="text-align:left">Akmal Baharuddin</td>
 												
 												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">6</td>
+												<td style="text-align:center">0</td>
 												<td style="text-align:center">6</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center">&nbsp;</td>
-												<td style="text-align:center"><button type="button" class="btn btn-outline-brand btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
+												<td style="text-align:center">6</td>
+												<td style="text-align:center">0</td>
+												<td style="text-align:center">6</td>
+												<td style="text-align:center">6</td>
+												<td style="text-align:center">0</td>
+												<td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 									      </tr>
 									      
 										</tbody>
