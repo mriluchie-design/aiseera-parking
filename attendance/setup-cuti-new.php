@@ -32,6 +32,10 @@
                     </ul>
                     <!--end::Nav-->
                 </div>
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
 				<a href="add-cuti.php" class="btn btn-info btn-sm">
 												<i class="fa fa-plus-circle"></i> Tambah Data</button>
 												<!--<i class="flaticon2-plus"></i>-->
@@ -159,7 +163,7 @@
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="15%" rowspan="2" bgcolor="#f7fcff">Jenis Cuti</th>
+											  <th width="10%" rowspan="2" bgcolor="#f7fcff">Jenis Cuti</th>
 											  <th width="1%" colspan="2" rowspan="2" bgcolor="#f7fcff">Budget</th>
 											  <th colspan="2" bgcolor="#f7fcff">Dibuat Oleh</th>
 											  <th colspan="2" bgcolor="#f7fcff">Tanggal</th>
@@ -168,7 +172,7 @@
 										  </tr>
 											<tr style="text-align:center">
 											  <th width="1%" bgcolor="#f7fcff">Foto</th>
-											  <th width="7%" bgcolor="#f7fcff">Nama</th>
+											  <th width="5%" bgcolor="#f7fcff">Nama</th>
 											  <th width="3%" bgcolor="#f7fcff">Dibuat</th>
 											  <th width="3%" bgcolor="#f7fcff">Diubah</th>
 										  </tr>
@@ -726,12 +730,19 @@
 								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
 									<div class="modal-content">
 
-										<div class="modal-header">
-										<span class="modal-title" id="exampleModalLabel"><i class="flaticon2-list-1" style="color:#ef5325"></i>&nbsp;&nbsp;<span style="color:#0961ae";>BERLAKU UNTUK</span></span>
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-											<span aria-hidden="true">&times;</span>
-										</button>
-									</div>
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon" style="font-size:25px;"><i class="kt-font-danger flaticon-interface-1"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-bold">TAMBAH JENIS LUPA ABSEN</h3>
+											</div>
+											<div class="kt-portlet__head-toolbar">
+											
+											&nbsp;
+												<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">X</button>
+											</div>
+										</div>
 
 										
 										<div class="kt-portlet__body">

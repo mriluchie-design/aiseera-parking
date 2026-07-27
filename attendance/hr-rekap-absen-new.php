@@ -617,6 +617,7 @@
                   </form>
                   </div>
 						</div>
+						<div>&nbsp;</div>
 
 									<!--end: Datatable -->
 									<!--begin::Modal 2-->
