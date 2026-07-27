@@ -32,6 +32,14 @@
                     </ul>
                     <!--end::Nav-->
                 </div>
+				<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
+			</div>
 				<button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal_agama"><i class="fa fa-plus"></i>Tambah Data</button>
                 
 				
@@ -109,7 +117,7 @@
 										<tbody>
 											<tr>
 												<td width="1%">1</td>
-												<td width="8%" align="left" valign="left" style="text-align:left">Lupa Absen Datang</td>
+												<td width="8%" align="left" valign="left" style="text-align:left">Absen Datang</td>
 												
 												<td width="1%" style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
@@ -137,7 +145,7 @@
 										  </tr>
 											<tr>
 												<td width="1%">2</td>
-												<td width="8%" align="left" valign="left" style="text-align:left">Lupa Absen Pulang</td>
+												<td width="8%" align="left" valign="left" style="text-align:left">Absen Pulang</td>
 												
 												<td width="1%" style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
@@ -165,7 +173,7 @@
 										  </tr>
 										  <tr>
 												<td width="1%">3</td>
-												<td width="8%" align="left" valign="left" style="text-align:left">Lupa Absen Lembur Masuk</td>
+												<td width="8%" align="left" valign="left" style="text-align:left">Lembur Masuk</td>
 												
 												<td width="1%" style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
@@ -193,7 +201,7 @@
 										  </tr>
 										  <tr>
 												<td width="1%">4</td>
-												<td width="8%" align="left" valign="left" style="text-align:left">Lupa Absen Lembur Keluar</td>
+												<td width="8%" align="left" valign="left" style="text-align:left">Lembur Keluar</td>
 												
 												<td width="1%" style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
@@ -482,10 +490,12 @@
 											<div class="kt-portlet kt-portlet--mobile ">
 											<div class="kt-portlet__head">
 											<div class="kt-portlet__head-label">
-												<span class="kt-portlet__head-icon"><i class="flaticon2-list-1"></i></span>
-												<h3 class="kt-portlet__head-title kt-font-info">FORM TAMBAH JENIS LUPA ABSEN</h3>
+												<span class="kt-portlet__head-icon" style="font-size:25px;"><i class="kt-font-danger flaticon-interface-1"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-bold">TAMBAH JENIS LUPA ABSEN</h3>
 											</div>
 											<div class="kt-portlet__head-toolbar">
+											
+											&nbsp;
 												<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">X</button>
 											</div>
 										</div>
