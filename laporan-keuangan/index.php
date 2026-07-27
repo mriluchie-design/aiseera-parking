@@ -69,7 +69,7 @@
                 <div class="kt-portlet__body">
                     <div class="form-group row">
 					<div class="col-lg-2">
-                                <label>Cabang :</label>
+                                <label>Lokasi :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected="">Makassar</option>

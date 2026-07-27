@@ -283,8 +283,8 @@ License: You must have a valid license purchased only from themeforest(the above
                                   </tr>
                                 <tr>
                                     
-                                    <td valign=" top" style="text-align: center; border: 0px solid #ccc">Kepala Bagian Keuangan &amp; Asset</td>
-                                    <td valign=" top" style="text-align: center; border: 0px solid #ccc">Direktur Keuangan &amp; Asset</td>
+                                    <td valign=" top" style="text-align: center; border: 0px solid #ccc">Kepala Bagian Keuangan</td>
+                                    <td valign=" top" style="text-align: center; border: 0px solid #ccc">Direktur Keuangan</td>
                                   </tr>
                                 <tr>
                                   
