@@ -74,6 +74,7 @@
 											<li class="kt-menu__item" aria-haspopup="true"><a href="operator-kendaraan-bermuatan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pass Kade</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="operator-pass-orang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pass Orang</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="operator-free-pass.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Free Pass</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="operator-kendaraan-parkir.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kendaraan Parkir</span></a></li>
 											
 											
 										</ul>
