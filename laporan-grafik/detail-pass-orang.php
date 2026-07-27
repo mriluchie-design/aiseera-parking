@@ -92,7 +92,7 @@ function goBack() {
 				
 					  
 					  <div class="form-group row">
-				<div class="col-lg-6">
+				<div class="col-lg-3">
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
@@ -106,7 +106,7 @@ function goBack() {
 						<div class="col-lg-6" >
                           <label>Tanggal Masuk :</label>
                           <div class="input-group date">
-													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" disabled>
+													<input type="text" class="form-control form-control-sm" placeholder="5 Mei 2026" id="kt_datepicker_2" disabled>
 													<div class="input-group-append">
 														<span class="input-group-text">
 															<i class="la la-calendar-check-o"></i>
@@ -118,7 +118,7 @@ function goBack() {
 						<div class="col-lg-6">
                           <label>Jam Masuk :</label>
                           <div class="input-group timepicker">
-													<input class="form-control form-control-sm" id="kt_timepicker_2" readonly="" placeholder="07:44:00" type="text" disabled>
+													<input class="form-control form-control-sm" id="kt_timepicker_2" placeholder="07:44:00" type="text" disabled>
 													<div class="input-group-append">
 														<span class="input-group-text">
 															<i class="la la-clock-o"></i>
@@ -136,11 +136,11 @@ function goBack() {
 						
 						
 						
-						<div class="col-lg-4">
+						<div class="col-lg-6">
                           <label class="">Plat Kendaraan :</label>
                           <input type="text" class="form-control form-control-sm" placeholder="DD 1111 LU" disabled>
                         </div>
-						<div class="col-lg-2">
+						<div class="col-lg-6">
                           <label class="">Volume :</label>
                           <div class="input-group">
 													<input type="text" class="form-control form-control-sm kt-input-sm" placeholder="1" aria-describedby="basic-addon2" disabled>
@@ -235,14 +235,7 @@ function goBack() {
 						
                       </div>
                       </div>
-					  
-					  
-					  
-                      </div>
-					  <div class="form-group row">
-				
-					  
-					  <div class="col-lg-12">
+					  <div class="col-lg-3">
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
@@ -252,23 +245,29 @@ function goBack() {
 					  
 						
 					  
-						<div class="col-lg-2">
+						<div class="col-lg-12">
                           <label class="">Nama Petugas :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom">
                         </div>
-						<div class="col-lg-2">
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-12">
                           <label class="">Jabatan :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Operator Gate">
                         </div>
-						<div class="col-lg-1">
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-4">
                           <label class="">Status Karcis :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="50">
                         </div>
-						<div class="col-lg-2">
+						<div class="col-lg-5">
                           <label class="">IP Operator :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="192.168.88.100">
                         </div>
-						<div class="col-lg-1">
+						<div class="col-lg-3">
                           <label class="">Status :</label><br>
                           <span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
                         </div>
@@ -285,6 +284,14 @@ function goBack() {
 					  
 					  
                       </div>
+					  
+					  
+					  
+                      </div>
+					  <div class="form-group row">
+				
+					  
+					  
 
                      
 					<!--begin: Datatable -->

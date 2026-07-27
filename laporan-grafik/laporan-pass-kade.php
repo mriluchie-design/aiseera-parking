@@ -24,7 +24,7 @@
             <div class="kt-subheader__main">
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Laporan Kendaraan 
+                    Laporan
                 </h3>
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
@@ -156,38 +156,21 @@
 						                      </div>
                             </div>
 							
-							<div class="col-lg-1">
-                                <label>Pembayaran :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">e-Money</option>
-                                      <option value="1">QRIS</option>
-                                      <option value="2">Tunai</option>
-                                      <option value="2">Keseluruhan</option>
-                                                                           
-                                  </select>
-                            </div>
-								<div class="col-lg-2">
-                                <label>Provider Pembayaran :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Mandiri</option>
-                                      <option value="1">BCA Flazz</option>
-                                      <option value="1">Brizzi</option>
-                                      <option value="1">BNI Tap Cash</option>
-                                      <option value="1">OVO</option>
-                                      <option value="1">DANA</option>
-                                      <option value="1">Shoope Pay</option>
-                                      <option value="1">BCA</option>
-                                      <option value="1">Livin Mandiri</option>
-                                      <option value="2">Keseluruhan</option>
-                                                                           
-                                  </select>
-                            </div>
+							
                             </div>
 							<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
 							<div class="col-lg-2">
+                                <label>ID Transaksi :</label>
+								
+                                <div class="kt-input-icon kt-input-icon--right">
+        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
+        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
+    		                            <span><i class="la la-search"></i></span>
+    		                        </span>
+    		                    </div>
+    		                    </div>
+								<div class="col-lg-2">
                                 <label>Karcis / e-Money :</label>
 								
                                 <div class="kt-input-icon kt-input-icon--right">
@@ -207,6 +190,44 @@
     		                        </span>
     		                    </div>
     		                    </div>
+								<div class="col-lg-2">
+                                <label>ID Pembayaran :</label>
+								
+                                <div class="kt-input-icon kt-input-icon--right">
+        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
+        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
+    		                            <span><i class="la la-search"></i></span>
+    		                        </span>
+    		                    </div>
+    		                    </div>
+								<div class="col-lg-2">
+                                <label>Pembayaran :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">e-Money</option>
+                                      <option value="1">QRIS</option>
+                                      <option value="2">Tunai</option>
+                                      <option value="2"  selected="">Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
+								<div class="col-lg-2">
+                                <label>Provider Pembayaran :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Mandiri</option>
+                                      <option value="1">BCA Flazz</option>
+                                      <option value="1">Brizzi</option>
+                                      <option value="1">BNI Tap Cash</option>
+                                      <option value="1">OVO</option>
+                                      <option value="1">DANA</option>
+                                      <option value="1">Shoope Pay</option>
+                                      <option value="1">BCA</option>
+                                      <option value="1">Livin Mandiri</option>
+                                      <option value="2"  selected="">Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
 							
                             </div>
                             
@@ -241,12 +262,12 @@
 									<!--begin:: Widgets/Activity-->
 									<div class="kt-portlet kt-portlet--fit kt-portlet--head-lg kt-portlet--head-overlay kt-portlet--skin-solid kt-portlet--height-fluid">
 										<div class="kt-portlet__head kt-portlet__head--noborder kt-portlet__space-x">
-											<div class="kt-portlet__head-label">
+											<div class="kt-portlet__head-label" style="margin-left:55px;">
 												<h3 class="kt-portlet__head-title">
-													Kendaraan Pass Kade
+													Statistik
 												</h3>
 											</div>
-											<div class="kt-portlet__head-toolbar">
+											<div class="kt-portlet__head-toolbar" style="margin-right:55px;">
 												<a href="#" class="btn btn-label-light btn-sm dropdown-toggle" data-toggle="dropdown">
 													Hari ini
 												</a>
@@ -301,7 +322,7 @@
 																Mobil
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:20px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">35</span>
+																<span style="color:#ed1c24; font-size:20px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">35</span>
 															</span>
 														</div>
 														
@@ -311,7 +332,7 @@
 																Motor
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#ed1c24; font-size:20px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">70</span>
+																<span style="color:#ed1c24; font-size:20px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">70</span>
 															</span>
 														</div>
 														<div class="kt-widget17__item">
@@ -319,7 +340,7 @@
 																Transaksi
 															</span>
 															<span class="kt-widget17__desc" style="text-align:center">
-																<span style="color:#0b841c; font-size:20px;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">Rp. 10.000.000,-</span>
+																<span style="color:#0b841c; font-size:20px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">Rp. 10.000.000,-</span>
 															</span>
 														</div>
 														
@@ -354,16 +375,16 @@
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
+											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">ID Transaksi</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Operator</th>
-											  <th colspan="7" bgcolor="#feffed">Kendaraan Pass Kade</th>
+											  <th colspan="6" bgcolor="#feffed">Kendaraan Pass Kade</th>
 											  <th colspan="3" bgcolor="#f7fcff">Pembayaran</th>
 											  <th bgcolor="#f7fcff">Foto</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 									      </tr>
 											<tr style="text-align:center">
-											  <th width="1%" bgcolor="#feffed">Kendaraan</th>
-											  <th width="1%" bgcolor="#feffed">Gol</th>
+											  <th width="3%" bgcolor="#feffed">Kendaraan</th>
 											  <th width="1%" bgcolor="#feffed">No. Plat</th>
 											  <th width="1%" bgcolor="#feffed">Karcis / eMoney</th>
 											  <th colspan="2" bgcolor="#feffed">Volume<br>Muatan</th>
@@ -376,11 +397,11 @@
 										</thead>
 										<tbody>
 											<tr>
-												<td id="kt_table_1">1</td>
-												<td style="text-align:center" nowrap>Makassar</td>
+												<td style="text-align:right">1</td>
+												<td style="text-align:left" nowrap>Makassar</td>
+												<td nowrap="nowrap" style="text-align:center">000001KDTQR0626</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123212&lt;hr&gt;Muhammad Ramadhan, ST" data-html="true"><img src="../assets/media/users/100_5.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:left">Mobil</td>
-												<td nowrap="nowrap" style="text-align:left">IVA</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
 												<td nowrap="nowrap" style="text-align:center">12321355123123212</td>
 												<td width="1%" nowrap="nowrap" style="text-align:center">1</td>
@@ -401,11 +422,11 @@
 												  </div></td>
 										  </tr>
 										  <tr>
-												<td id="kt_table_1">2</td>
-												<td nowrap="nowrap" style="text-align:center">Makassar</td>
+												<td style="text-align:right">2</td>
+												<td nowrap="nowrap" style="text-align:left">Makassar</td>
+												<td nowrap="nowrap" style="text-align:center">000002KDTQR0626</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"> <img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:left">Motor</td>
-												<td nowrap="nowrap" style="text-align:left">II</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LLU</td>
 												<td nowrap="nowrap" style="text-align:center">12321355123123212</td>
 												<td nowrap="nowrap" style="text-align:center">2</td>
@@ -429,11 +450,11 @@
 										  </tr>
 
 <tr>
-												<td id="kt_table_1">3</td>
-												<td style="text-align:center" nowrap>Makassar</td>
+												<td style="text-align:right">3</td>
+												<td style="text-align:left" nowrap>Makassar</td>
+												<td nowrap="nowrap" style="text-align:center">000001KDTEM0626</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123212&lt;hr&gt;Muhammad Ramadhan, ST" data-html="true"> <img src="../assets/media/users/100_5.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:left">Truck</td>
-												<td nowrap="nowrap" style="text-align:left">VB</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
 												<td nowrap="nowrap" style="text-align:center">12321355123123212</td>
 												<td nowrap="nowrap" style="text-align:center">3</td>
@@ -456,11 +477,11 @@
 												  </div></td>
 										  </tr>
 <tr>
-  <td id="kt_table_4">4</td>
-  <td style="text-align:center" nowrap="nowrap">Makassar</td>
+  <td style="text-align:right">4</td>
+  <td style="text-align:left" nowrap="nowrap">Makassar</td>
+  <td nowrap="nowrap" style="text-align:center">000002KDTEM0626</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123212&lt;hr&gt;Muhammad Ramadhan, ST" data-html="true"> <img src="../assets/media/users/100_5.jpg" alt="image" /></a></td>
   <td nowrap="nowrap" style="text-align:left">Truck</td>
-  <td nowrap="nowrap" style="text-align:left">VB</td>
   <td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
   <td nowrap="nowrap" style="text-align:center">12321355123123212</td>
   <td nowrap="nowrap" style="text-align:center">4</td>

@@ -104,7 +104,7 @@ function goBack() {
 						
 						
                         
-						<div class="col-lg-2">
+						<div class="col-lg-3">
                           <label class="">Nama Member :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom">
                         </div>
@@ -152,10 +152,10 @@ function goBack() {
 						
 						<div class="form-group row">
 					  
-						<div class="col-lg-7" >
+						<div class="col-lg-6" >
                           <label>Tanggal Masuk :</label>
                           <div class="input-group date">
-													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" disabled>
+													<input type="text" class="form-control form-control-sm" placeholder="5 Mei 2026" id="kt_datepicker_2" disabled>
 													<div class="input-group-append">
 														<span class="input-group-text">
 															<i class="la la-calendar-check-o"></i>
@@ -164,10 +164,10 @@ function goBack() {
 												</div>
                         </div>
 						
-						<div class="col-lg-5">
+						<div class="col-lg-6">
                           <label>Jam Masuk :</label>
                           <div class="input-group timepicker">
-													<input class="form-control form-control-sm" id="kt_timepicker_2" readonly="" placeholder="07:44:00" type="text" disabled>
+													<input class="form-control form-control-sm" id="kt_timepicker_2" placeholder="07:44:00" type="text" disabled>
 													<div class="input-group-append">
 														<span class="input-group-text">
 															<i class="la la-clock-o"></i>
@@ -182,11 +182,11 @@ function goBack() {
                           <label>Gate :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1">
                         </div>
-						<div class="col-lg-4" >
+						<div class="col-lg-3" >
                           <label>Jalur :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Masuk">
                         </div>
-						<div class="col-lg-5" >
+						<div class="col-lg-6" >
                           <label>Nama Jalur :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Mobil - 1">
                         </div>
@@ -194,18 +194,15 @@ function goBack() {
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
 						
-						<div class="col-lg-3" >
-                          <label>Gol :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="I">
-                        </div>
+						
 					  
 						
-						<div class="col-lg-4" >
+						<div class="col-lg-6" >
                           <label>Kendaraan :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Mobil">
                         </div>
 						
-						<div class="col-lg-5">
+						<div class="col-lg-6">
                           <label class="">Plat Kendaraan :</label>
                           <input type="text" class="form-control form-control-sm" placeholder="DD 1111 LU" disabled>
                         </div>
@@ -337,7 +334,7 @@ function goBack() {
 						<div class="col-lg-7" >
                           <label>Tanggal Keluar :</label>
                           <div class="input-group date">
-													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" disabled>
+													<input type="text" class="form-control form-control-sm" placeholder="5 Mei 2026" id="kt_datepicker_2" disabled>
 													<div class="input-group-append">
 														<span class="input-group-text">
 															<i class="la la-calendar-check-o"></i>
@@ -349,7 +346,7 @@ function goBack() {
 						<div class="col-lg-5">
                           <label>Jam Keluar :</label>
                           <div class="input-group timepicker">
-													<input class="form-control form-control-sm" id="kt_timepicker_2" readonly="" placeholder="09:44:00" type="text" disabled>
+													<input class="form-control form-control-sm" id="kt_timepicker_2" placeholder="09:44:00" type="text" disabled>
 													<div class="input-group-append">
 														<span class="input-group-text">
 															<i class="la la-clock-o"></i>
@@ -471,7 +468,7 @@ function goBack() {
 					  
 					  
 					  
-					  <div class="col-lg-2">
+					  <div class="col-lg-4">
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--success">
@@ -528,7 +525,7 @@ function goBack() {
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="192.168.88.100">
                         </div>
 						<div class="col-lg-1">
-                          <label class="">Status :</label><br>
+                          <label class="">Operator :</label><br>
                           <span class="kt-timeline-v2__item-time"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Online</span>
                         </div>
 						

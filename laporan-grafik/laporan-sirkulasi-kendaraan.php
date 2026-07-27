@@ -120,12 +120,15 @@
                                                                            
                                   </select>
     		                    </div>
-                            <div class="col-lg-1">
+                            <div class="col-lg-2">
                                 <label>Kategori :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected="">Reguler</option>
-                                      <option value="2">Member</option>
+									  <option value="2">Member</option>
+                                      <option value="1">Denda</option>
+                                      <option value="1">Muatan Kapal</option>
+                                      <option value="1">Free Pass</option>
                                       <option value="2">Keseluruhan</option>
                                                                            
                                   </select>
@@ -157,7 +160,7 @@
                             </div>
 							
 							<div class="col-lg-1">
-                                <label>Gate Keluar :</label>
+                                <label>Gate Masuk :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected="">1</option>
@@ -166,25 +169,26 @@
                                                                            
                                   </select>
                             </div>
+							
 							<div class="col-lg-1">
-                                <label>Jalur :</label>
+                                <label>Jalur Masuk :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Keluar</option>
-                                      <option value="2">Masuk</option>
+                                      <option value="1" selected>Mobil 1</option>
+                                      <option value="1">Mobil 2</option>
+                                      <option value="1">Motor 1</option>
+                                      <option value="1">Motor 2</option>
 									  <option value="2">Keseluruhan</option>
                                                                            
                                   </select>
                             </div>
 							<div class="col-lg-2">
-                                <label>Nama Jalur :</label>
+                                <label>Operator :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1">Mobil 1</option>
-                                      <option value="1">Mobil 2</option>
-                                      <option value="1">Motor 1</option>
-                                      <option value="1">Motor 2</option>
-									  <option value="2" selected>Keseluruhan</option>
+                                      <option value="1" selected="">Muhammad Nasrullah, S.Kom</option>
+                                      <option value="1">Muhammad Ramadhan, S.T</option>
+                                      <option value="2">Keseluruhan</option>
                                                                            
                                   </select>
                             </div>
@@ -202,8 +206,18 @@
     		                        </span>
     		                    </div>
     		                    </div>
-								<div class="col-lg-3">
+								<div class="col-lg-2">
                                 <label>No. Plat :</label>
+								
+                                <div class="kt-input-icon kt-input-icon--right">
+        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
+        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
+    		                            <span><i class="la la-search"></i></span>
+    		                        </span>
+    		                    </div>
+    		                    </div>
+								<div class="col-lg-2">
+                                <label>ID Transaksi :</label>
 								
                                 <div class="kt-input-icon kt-input-icon--right">
         							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
@@ -222,6 +236,46 @@
 						                      </div>
                             </div>
 							<div class="col-lg-1">
+                                <label>Gate Keluar :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">1</option>
+                                      <option value="2">2</option>
+									  <option value="2">Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
+							
+							<div class="col-lg-1">
+                                <label>Jalur Keluar :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected>Mobil 1</option>
+                                      <option value="1">Mobil 2</option>
+                                      <option value="1">Motor 1</option>
+                                      <option value="1">Motor 2</option>
+									  <option value="2">Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
+							<div class="col-lg-2">
+                                <label>Sirkulasi :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Selesai</option>
+                                      <option value="2">Member</option>
+                                      <option value="2">Berangkat</option>
+                                      <option value="2">Parkir</option>
+                                      <option value="2">Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
+							
+                            </div>
+							<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+                            <div class="form-group row">
+							
+							<div class="col-lg-2">
                                 <label>Pembayaran :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
@@ -249,22 +303,9 @@
                                                                            
                                   </select>
                             </div>
-							<div class="col-lg-1">
-                                <label>Status Transaksi :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Selesai</option>
-                                      <option value="1">Member</option>
-                                      <option value="1">Berangkat</option>
-                                      <option value="2">Denda</option>
-                                      <option value="2">Parkir</option>
-                                      <option value="2">Keseluruhan</option>
-                                                                           
-                                  </select>
-                            </div>
+							
 							
                             </div>
-                            
 							
                             
 							
