@@ -35,11 +35,18 @@ function goBack() {
 </script>
 												<!--<i class="flaticon2-plus"></i>-->
 											</a>
-											&nbsp;
+											
 
 
 										</div>
-										
+										<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
+			</div>
 										</div>
 										</div>
 						</div>
@@ -63,7 +70,7 @@ function goBack() {
 <div class="col-xl-5">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Pemberi Tugas</div><br><br>
 										<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
@@ -124,7 +131,7 @@ function goBack() {
 <div class="col-xl-4">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Lembur</div><br><br>
 										<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
@@ -133,7 +140,7 @@ function goBack() {
 						<div class="col-lg-6">
                           <label class="">Tanggal Lembur :</label>
 						                          <div class="input-group date" >
-													<input type="text" class="form-control form-control-sm" readonly="" disabled placeholder="13 November 2025" id="kt_datepicker_2" disabled >
+													<input type="text" class="form-control form-control-sm" disabled placeholder="13 November 2025" id="kt_datepicker_2" disabled >
 													<div class="input-group-append" >
 														<span class="input-group-text" >
 															<i class="la la-calendar-check-o"></i>
@@ -160,7 +167,7 @@ function goBack() {
 						<div class="col-lg-6">
                           <label class="">Waktu Mulai Lembur :</label>
                           <div class="input-group timepicker">
-													<input class="form-control form-control-sm" id="kt_timepicker_2" readonly="" disabled  placeholder="17:30 WITA" type="text">
+													<input class="form-control form-control-sm" id="kt_timepicker_2" disabled  placeholder="17:30 WITA" type="text">
 													<div class="input-group-append">
 														<span class="input-group-text">
 															<i class="la la-clock-o"></i>
@@ -171,7 +178,7 @@ function goBack() {
 						<div class="col-lg-6">
                           <label class="">Waktu Selesai Lembur :</label>
                           <div class="input-group timepicker">
-													<input class="form-control form-control-sm" id="kt_timepicker_2" readonly="" disabled placeholder="22:30 WITA" type="text">
+													<input class="form-control form-control-sm" id="kt_timepicker_2" disabled placeholder="22:30 WITA" type="text">
 													<div class="input-group-append">
 														<span class="input-group-text">
 															<i class="la la-clock-o"></i>
@@ -212,7 +219,7 @@ function goBack() {
 								<div class="col-xl-3">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Verifikasi</div><br><br>
 										<div class="kt-portlet__body">
 
@@ -295,7 +302,7 @@ function goBack() {
 <div class="col-xl-9">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Pegawai Pelaksana</div><br><br>
 										<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
@@ -391,7 +398,7 @@ function goBack() {
 										<div class="col-xl-3">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Tembusan Surat</div><br><br>
 										<div class="kt-portlet__body">
 											<div class="kt-portlet__content">

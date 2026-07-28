@@ -37,6 +37,14 @@ function goBack() {
 											</a>
 											
 										</div>
+										<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
+			</div>
 								</div>
 							</div>
 						</div>
@@ -63,49 +71,55 @@ function goBack() {
 										
                     <div class="kt-portlet__body">
                       <div class="row">
-								<div class="col-xl-5">
+								<div class="col-xl-4">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Pegawai</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
-                        <div class="col-lg-12">
+                        <div class="col-lg-6">
                           <label>Nama Pegawai :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom">
+                        </div>
+						<div class="col-lg-6">
+                          <label>Status Pegawai :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Tetap">
                         </div>
                         </div>
 <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 					  <div class="form-group row">
+					  <div class="col-lg-6">
+                          <label class="">Kantor :</label>
+                          <div class="form-group">
+                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Pusat">
+                      </div>
+                        </div>
                         <div class="col-lg-6">
                           <label>NIP Pegawai :</label>
                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="238 004 032">
                         </div>
 
-                        <div class="col-lg-6">
-                          <label>Status Pegawai :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Tetap">
-                        </div>
+                        
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 					  <div class="form-group row">
-                       <div class="col-lg-12">
-                          <label class="">Departemen :</label>
+                      
+						<div class="col-lg-6">
+                          <label class="">Department :</label>
                           <div class="form-group">
-                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Pengembangan Usaha & Kerja Sama">
+                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Pengembangan">
                       </div>
                         </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-					  <div class="form-group row">
-                        <div class="col-lg-12">
+						<div class="col-lg-6">
                           <label class="">Divisi :</label>
                           <div class="form-group">
                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Pengembangan">
                       </div>
                         </div>
-                        
-                      </div>
+                        </div>
+						
+						
 					  <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 					  
 					  <div class="form-group row">
@@ -125,10 +139,10 @@ function goBack() {
 
 									
 										</div>
-										<div class="col-xl-4">
+										<div class="col-xl-3">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Izin</div><br><br>
 										 <div class="kt-portlet__body">
                       
@@ -160,7 +174,7 @@ function goBack() {
 															<i class="la la-exclamation-circle"></i>
 														</span>
 													</div>
-													<input class="form-control form-control-sm" id="kt_timepicker_1" readonly="" value="10:30:20 AM" type="text" disabled>
+													<input class="form-control form-control-sm" id="kt_timepicker_1" value="10:30:20 AM" type="text" disabled>
 												</div>
                         </div>
 						<div class="col-lg-6">
@@ -171,7 +185,7 @@ function goBack() {
 															<i class="la la-exclamation-circle"></i>
 														</span>
 													</div>
-													<input class="form-control form-control-sm" id="kt_timepicker_1" readonly="" value="10:30:20 AM" type="text" disabled>
+													<input class="form-control form-control-sm" id="kt_timepicker_1" value="10:30:20 AM" type="text" disabled>
 												</div>
                         </div>
                         </div>
@@ -180,7 +194,7 @@ function goBack() {
 					  <div class="form-group row">
                         <div class="col-lg-12">
                           <label class="">Tujuan Izin :</label>
-                          <textarea class="form-control" id="exampleTextarea" rows="6" disabled></textarea>
+                          <textarea class="form-control" id="exampleTextarea" rows="3" disabled></textarea>
                         </div>
                       </div>
                       </div>
@@ -194,10 +208,10 @@ function goBack() {
 
 								
 								
-								<div class="col-xl-3">
+								<div class="col-xl-2">
 
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Statistik Izin</div><br>
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Statistik Izin</div><br><br>
 										<div class="kt-portlet__body">
                       <div class="form-group row">
                         <div class="col-lg-12">
@@ -227,6 +241,22 @@ function goBack() {
                         </div>
                       </div>
                         <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						
+                <!--Begin::Timeline 3 -->
+											
+
+											<!--End::Timeline 3 -->
+									</div>
+
+									<!--end::Portlet-->
+								</div>
+								</div>
+								<div class="col-xl-3">
+
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<br>
+										<div class="kt-portlet__body">
+                      
 						<label><span class="kt-badge kt-badge--danger kt-badge--inline">Riwayat Izin Tahun ini :</span></label>
                 <!--Begin::Timeline 3 -->
 											<div class="kt-timeline-v2">
@@ -259,6 +289,7 @@ function goBack() {
 									<!--end::Portlet-->
 								</div>
 								</div>
+								
 								
 								</div>
 

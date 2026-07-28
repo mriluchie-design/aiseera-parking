@@ -47,7 +47,14 @@
 
 				<!--end::Nav-->
 			</div>
-
+<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
+			</div>
 			<a href="pegawai-cuti-add.php" class="btn btn-info btn-sm">
 				<i class="fa fa-file-signature"></i>Pengajuan Cuti</button>
 				<!--<i class="flaticon2-plus"></i>-->
@@ -142,100 +149,150 @@
 	</div>
 	<!--begin:: Widgets/Stats-->
 
-	<div class="kt-portlet">
-		<div class="kt-portlet__body  kt-portlet__body--fit">
-			<div class="row row-no-padding row-col-separator-lg">
-				<div class="col-md-12 col-lg-6 col-xl-3">
+	<div class="row">
+							<div class="col-xl-12">
 
-					<!--begin::Total Profit-->
-					<div class="kt-widget24">
-						<div class="kt-widget24__details">
-							<div class="kt-widget24__info">
-								<h4 class="kt-widget24__title">
-									Total
-								</h4>
-								<span class="kt-widget24__desc">
-									Keseluruhan Cuti
-								</span>
-							</div>
-							<span class="kt-widget24__stats kt-font-brand">
-								4
-							</span>
-						</div>
-
-					</div>
-
-					<!--end::Total Profit-->
-				</div>
-				<div class="col-md-12 col-lg-6 col-xl-3">
-
-					<!--begin::New Feedbacks-->
-					<div class="kt-widget24">
-						<div class="kt-widget24__details">
-							<div class="kt-widget24__info">
-								<h4 class="kt-widget24__title">
-									Disetujui
-								</h4>
-								<span class="kt-widget24__desc">
-									Cuti yang telah disetujui
-								</span>
-							</div>
-							<span class="kt-widget24__stats kt-font-success">
-								1
-							</span>
-						</div>
-
-					</div>
-
-					<!--end::New Feedbacks-->
-				</div>
-				<div class="col-md-12 col-lg-6 col-xl-3">
-
-					<!--begin::New Orders-->
-					<div class="kt-widget24">
-						<div class="kt-widget24__details">
-							<div class="kt-widget24__info">
-								<h4 class="kt-widget24__title">
-									Ditolak
-								</h4>
-								<span class="kt-widget24__desc">
-									Cuti yang telah ditolak
-								</span>
-							</div>
-							<span class="kt-widget24__stats kt-font-danger">
-								1
-							</span>
-						</div>
-
-					</div>
-
-					<!--end::New Orders-->
-				</div>
-				<div class="col-md-12 col-lg-6 col-xl-3">
-
-					<!--begin::New Users-->
-					<div class="kt-widget24">
-						<div class="kt-widget24__details">
-							<div class="kt-widget24__info">
-								<h4 class="kt-widget24__title">
-									Pending
-								</h4>
-								<span class="kt-widget24__desc">
-									Cuti yang menunggu persetujuan
-								</span>
-							</div>
-							<span class="kt-widget24__stats kt-font-warning">
-								2
-							</span>
-						</div>
-
-					</div>
-
-					<!--end::New Users-->
-				</div>
-			</div>
-		</div>
-	</div>
+									<!--begin:: Widgets/Activity-->
+									<div class="kt-portlet kt-portlet--fit kt-portlet--head-lg kt-portlet--head-overlay kt-portlet--skin-solid kt-portlet--height-fluid">
+										<div class="kt-portlet__head kt-portlet__head--noborder kt-portlet__space-x">
+											<div class="kt-portlet__head-label" style="margin-left:55px;">
+												<h3 class="kt-portlet__head-title">
+													Statistik
+												</h3>
+											</div>
+											<div class="kt-portlet__head-toolbar" style="margin-right:55px;">
+												<a href="#" class="btn btn-label-light btn-sm dropdown-toggle" data-toggle="dropdown">
+													Hari ini
+												</a>
+												<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+													<ul class="kt-nav">
+														
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">Bulan ini</span>
+															</a>
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">Tahun ini</span>
+															</a>
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-chart-bar"></i>
+																<span class="kt-nav__link-text">Keseluruhan</span>
+															</a>
+														</li>
+														
+														
+														
+													</ul>
+												</div>
+												
+											</div>
+										</div>
+										<div class="kt-portlet__body kt-portlet__body--fit">
+											<div class="kt-widget17">
+												<div class="kt-widget17__visual kt-widget17__visual--chart kt-portlet-fit--top kt-portlet-fit--sides" style="background-color: #0961ae">
+													<div class="kt-widget17__chart" style="height:120px;">
+														<canvas id="kt_chart_activities"></canvas>
+													</div>
+												</div>
+												<div class="kt-widget17__stats">
+												<div class="row">
+												<div class="col-lg-3">
+													<div class="kt-widget17__items">
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__icon" style="text-align:center">
+																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--success">
+																	<g id="Stockholm-icons-/-General-/-Smile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+        <rect id="Combined-Shape" fill="#000000" opacity="0.3" x="2" y="2" width="20" height="20" rx="10"></rect>
+        <path d="M6.16794971,14.5547002 C5.86159725,14.0951715 5.98577112,13.4743022 6.4452998,13.1679497 C6.90482849,12.8615972 7.52569784,12.9857711 7.83205029,13.4452998 C8.9890854,15.1808525 10.3543313,16 12,16 C13.6456687,16 15.0109146,15.1808525 16.1679497,13.4452998 C16.4743022,12.9857711 17.0951715,12.8615972 17.5547002,13.1679497 C18.0142289,13.4743022 18.1384028,14.0951715 17.8320503,14.5547002 C16.3224187,16.8191475 14.3543313,18 12,18 C9.64566871,18 7.67758127,16.8191475 6.16794971,14.5547002 Z" id="Path-56" fill="#000000"></path>
+    </g>
+																</svg> </span>
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Total
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:17px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">105</span>
+															</span>
+														</div>
+														</div>
+														</div>
+														<div class="col-lg-3">
+													<div class="kt-widget17__items">
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__icon" style="text-align:center">
+																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--danger">
+																	<g id="Stockholm-icons-/-General-/-Smile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+        <rect id="Combined-Shape" fill="#000000" opacity="0.3" x="2" y="2" width="20" height="20" rx="10"></rect>
+        <path d="M6.16794971,14.5547002 C5.86159725,14.0951715 5.98577112,13.4743022 6.4452998,13.1679497 C6.90482849,12.8615972 7.52569784,12.9857711 7.83205029,13.4452998 C8.9890854,15.1808525 10.3543313,16 12,16 C13.6456687,16 15.0109146,15.1808525 16.1679497,13.4452998 C16.4743022,12.9857711 17.0951715,12.8615972 17.5547002,13.1679497 C18.0142289,13.4743022 18.1384028,14.0951715 17.8320503,14.5547002 C16.3224187,16.8191475 14.3543313,18 12,18 C9.64566871,18 7.67758127,16.8191475 6.16794971,14.5547002 Z" id="Path-56" fill="#000000"></path>
+    </g>
+																</svg> </span>
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Disetujui
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:17px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_alpa">10</span>
+															</span>
+														</div>
+														</div>
+														</div>
+														<div class="col-lg-3">
+													<div class="kt-widget17__items">
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__icon" style="text-align:center">
+																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--warning">
+																	<g id="Stockholm-icons-/-General-/-Sad" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+        <rect id="Combined-Shape" fill="#000000" opacity="0.3" x="2" y="2" width="20" height="20" rx="10"></rect>
+        <path d="M6.16794971,14.5547002 C5.86159725,14.0951715 5.98577112,13.4743022 6.4452998,13.1679497 C6.90482849,12.8615972 7.52569784,12.9857711 7.83205029,13.4452998 C8.9890854,15.1808525 10.3543313,16 12,16 C13.6456687,16 15.0109146,15.1808525 16.1679497,13.4452998 C16.4743022,12.9857711 17.0951715,12.8615972 17.5547002,13.1679497 C18.0142289,13.4743022 18.1384028,14.0951715 17.8320503,14.5547002 C16.3224187,16.8191475 14.3543313,18 12,18 C9.64566871,18 7.67758127,16.8191475 6.16794971,14.5547002 Z" id="Path-56" fill="#000000" transform="translate(12.000000, 15.499947) scale(1, -1) translate(-12.000000, -15.499947) "></path>
+    </g>
+																</svg> </span>
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Ditolak
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:17px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_sakit">2</span> 
+															</span>
+														</div>
+														</div>
+														</div>
+														<div class="col-lg-3">
+													<div class="kt-widget17__items">
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__icon" style="text-align:center">
+																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--brand">
+																	<g id="Stockholm-icons-/-Files-/-File" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+        <path d="M5.85714286,2 L13.7364114,2 C14.0910962,2 14.4343066,2.12568431 14.7051108,2.35473959 L19.4686994,6.3839416 C19.8056532,6.66894833 20,7.08787823 20,7.52920201 L20,20.0833333 C20,21.8738751 19.9795521,22 18.1428571,22 L5.85714286,22 C4.02044787,22 4,21.8738751 4,20.0833333 L4,3.91666667 C4,2.12612489 4.02044787,2 5.85714286,2 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero" opacity="0.3"></path>
+        <rect id="Rectangle" fill="#000000" x="6" y="11" width="9" height="2" rx="1"></rect>
+        <rect id="Rectangle-Copy" fill="#000000" x="6" y="15" width="5" height="2" rx="1"></rect>
+    </g>
+																</svg> </span>
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Pending
+															</span>
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:17px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_izin">2</span>
+															</span>
+														</div>
+														</div>
+														</div>
+														
+														
+													
+												</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									</div>
+									</div>
 
 	<!--end:: Widgets/Stats-->
 
@@ -247,7 +304,7 @@
 
 			</div>
 			<div class="kt-portlet__head-toolbar">
-				<a href="#" class="btn btn-outline-brand btn-sm" data-toggle="modal" data-target="#saldo-cuti">
+				<a href="#" class="btn btn-label-brand btn-sm" data-toggle="modal" data-target="#saldo-cuti">
 					<i class="fa fa-question-circle"></i>Saldo Cuti
 				</a>
 			</div>
@@ -278,13 +335,13 @@
 				</thead>
 				<tbody>
 					<tr>
-						<td id="kt_table_1">1</td>
-						<td width="1%" id="kt_table_1">006TOHRXI2022</td>
+						<td align="right">1</td>
+						<td align="left">006TOHRXI2022</td>
 						<td>Cuti Tahunan</td>
 						<td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 						<td align="center" valign="middle" style="text-align:center">12 Oktober 2019</td>
 						<td align="center" valign="middle" style="text-align:center">12 Oktober 2019</td>
-						<td style="text-align:left">Cuti Alasan Penting </td>
+						<td style="text-align:center">-</td>
 						<td style="text-align:center">12</td>
 						<td style="text-align:center">6</td>
 						<td style="text-align:center">6</td>
@@ -321,13 +378,13 @@
 						</td>
 					</tr>
 					<tr>
-						<td id="kt_table_1">2</td>
-						<td width="1%" id="kt_table_1">005TOHRXI2022</td>
+						<td align="right">2</td>
+						<td align="left">005TOHRXI2022</td>
 						<td>Cuti Menikah</td>
 						<td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 						<td align="center" valign="middle" style="text-align:center">12 Oktober 2019</td>
 						<td align="center" valign="middle" style="text-align:center">12 Oktober 2019</td>
-						<td style="text-align:left">Cuti Alasan Penting </td>
+						<td style="text-align:center">-</td>
 						<td style="text-align:center">12</td>
 						<td style="text-align:center">3</td>
 						<td style="text-align:center">9</td>
@@ -364,13 +421,13 @@
 						</td>
 					</tr>
 					<tr>
-						<td id="kt_table_1">3</td>
-						<td width="1%" id="kt_table_1">004TOHRXI2022</td>
+						<td align="right">3</td>
+						<td align="left">004TOHRXI2022</td>
 						<td>Cuti Bersalin</td>
 						<td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 						<td align="center" valign="middle" style="text-align:center">12 Oktober 2019</td>
 						<td align="center" valign="middle" style="text-align:center">12 Oktober 2019</td>
-						<td style="text-align:left">Cuti Alasan Penting </td>
+						<td style="text-align:center">-</td>
 						<td style="text-align:center">12</td>
 						<td style="text-align:center">5</td>
 						<td style="text-align:center">7</td>
@@ -407,13 +464,13 @@
 						</td>
 					</tr>
 					<tr>
-						<td id="kt_table_1">4</td>
-						<td width="1%" id="kt_table_1">003TOHRXI2022</td>
+						<td align="right">4</td>
+						<td align="left">003TOHRXI2022</td>
 						<td>Cuti Menikahkan Anak</td>
 						<td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 						<td align="center" valign="middle" style="text-align:center">12 Oktober 2019</td>
 						<td align="center" valign="middle" style="text-align:center">12 Oktober 2019</td>
-						<td style="text-align:left">Cuti Alasan Penting </td>
+						<td style="text-align:center">-</td>
 						<td style="text-align:center">12</td>
 						<td style="text-align:center">3</td>
 						<td style="text-align:center">9</td>
@@ -450,13 +507,13 @@
 						</td>
 					</tr>
 					<tr>
-						<td id="kt_table_1">5</td>
-						<td width="1%" id="kt_table_1">002TOHRXI2022</td>
+						<td align="right">5</td>
+						<td align="left">002TOHRXI2022</td>
 						<td>Cuti Menikahkan Anak</td>
 						<td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 						<td align="center" valign="middle" style="text-align:center">12 Oktober 2019</td>
 						<td align="center" valign="middle" style="text-align:center">12 Oktober 2019</td>
-						<td style="text-align:left">Cuti Alasan Penting </td>
+						<td style="text-align:center">-</td>
 						<td style="text-align:center">12</td>
 						<td style="text-align:center">5</td>
 						<td style="text-align:center">7</td>
@@ -495,13 +552,13 @@
 						</td>
 					</tr>
 					<tr>
-						<td id="kt_table_1">6</td>
-						<td width="1%" id="kt_table_1">001TOHRXI2022</td>
+						<td align="right">6</td>
+						<td align="left">001TOHRXI2022</td>
 						<td>Cuti Menikahkan Anak</td>
 						<td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 						<td align="center" valign="middle" style="text-align:center">12 Oktober 2019</td>
 						<td align="center" valign="middle" style="text-align:center">12 Oktober 2019</td>
-						<td style="text-align:left">Cuti Alasan Penting </td>
+						<td style="text-align:center">-</td>
 						<td style="text-align:center">12</td>
 						<td style="text-align:center">7</td>
 						<td style="text-align:center">5</td>
@@ -598,89 +655,109 @@
 					</ul>
 				</div>
 			</div>
-			<div class="modal fade" id="saldo-cuti" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-				<div class="modal-dialog modal-dialog-centered" role="document">
-					<div class="modal-content">
-						<div class="modal-header">
-							<h5 class="modal-title" id="exampleModalLabel">Saldo Cuti</h5>
-							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-							</button>
-						</div>
-						<div class="modal-body">
+			<div class="modal fade" id="saldo-cuti" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+									<div class="modal-content">
+
+										<div class="modal-body">
+											
+											<div class="kt-portlet__head">
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon-interface-4"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">SALDO CUTI</h3>
+											</div>
+											<div class="kt-portlet__head-toolbar">
+												<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">X</button>
+											</div>
+										</div>
 							<div class="kt-portlet__body">
 											<!--begin::widget 12-->
-											<div class="kt-widget4">
-												<div class="kt-widget4__item">
-													<span class="kt-widget4__icon">
-														<i class="flaticon-calendar kt-font-info"></i>
-													</span>
-													<a href="#" class="kt-widget4__title kt-widget4__title--light">
-														Cuti Alasan Penting
-													</a>
-													<span class="kt-widget4__number kt-font-info">Sisa Saldo <b><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">12 Hari</span></b></span>
-												</div>
-												<div class="kt-widget4__item">
-													<span class="kt-widget4__icon">
-														<i class="flaticon-calendar kt-font-success"></i>
-													</span>
-													<a href="#" class="kt-widget4__title kt-widget4__title--light">
-														Cuti Bersalin
-													</a>
-													<span class="kt-widget4__number kt-font-info">Sisa Saldo <b><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">12 Hari</span></b></span>
-												</div>
-												<div class="kt-widget4__item">
-													<span class="kt-widget4__icon">
-														<i class="flaticon2-calendar kt-font-danger"></i>
-													</span>
-													<a href="#" class="kt-widget4__title kt-widget4__title--light">
-														Cuti Besar
-													</a>
-													<span class="kt-widget4__number kt-font-info">Sisa Saldo <b><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">12 Hari</span></b></span>
-												</div>
-												<div class="kt-widget4__item">
-													<span class="kt-widget4__icon">
-														<i class="flaticon2-calendar kt-font-primary"></i>
-													</span>
-													<a href="#" class="kt-widget4__title kt-widget4__title--light">
-														Cuti Khusus
-													</a>
-													<span class="kt-widget4__number kt-font-info">Sisa Saldo <b><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">12 Hari</span></b></span>
-												</div>
-												<div class="kt-widget4__item">
-													<span class="kt-widget4__icon">
-														<i class="flaticon2-calendar kt-font-brand"></i>
-													</span>
-													<a href="#" class="kt-widget4__title kt-widget4__title--light">
-														Cuti Sakit
-													</a>
-													<span class="kt-widget4__number kt-font-info">Sisa Saldo <b><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">12 Hari</span></b></span>
-												</div>
-												<div class="kt-widget4__item">
-													<span class="kt-widget4__icon">
-														<i class="flaticon2-calendar kt-font-warning"></i>
-													</span>
-													<a href="#" class="kt-widget4__title kt-widget4__title--light">
-														Cuti Tahunan
-													</a>
-													<span class="kt-widget4__number kt-font-info">Sisa Saldo <b><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">12 Hari</span></b></span>
-
-												</div>
-												<div class="kt-widget4__item">
-													<span class="kt-widget4__icon">
-														<i class="flaticon2-calendar kt-font-success"></i>
-													</span>
-													<a href="#" class="kt-widget4__title kt-widget4__title--light">
-														Cuti Menikah
-													</a>
-													<span class="kt-widget4__number kt-font">Sisa Saldo <b><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">12 Hari</span></b></span>
-												</div>
-											</div>
-
-											<!--end::Widget 12-->
-										</div>
-						</div>
+											<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
+										<thead style="text-align:center">
+											<tr>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">#</th>
+											  <th width="8%" rowspan="2" bgcolor="#f7fcff"> Uraian</th>
+											  <th colspan="3" bgcolor="#f7fcff">Status</th>
+										  </tr>
+											<tr>
+											  <th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Kuota">K</span></th>
+												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Terpakai">T</span></th>
+												<th width="1%" bgcolor="#f7fcff"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="Sisa">S</span></th>
+											</tr>
+										</thead>
+										<tbody>
+										<tr>
+											  <td align="right">1</td>
+											  <td style="text-align:left">Cuti Tahunan&nbsp;&nbsp;<code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Khusus Masa Kerja 1 Tahun" data-html="true">*</code></td>
+											  <td style="text-align:center">12</td>
+											  <td style="text-align:center">0</td>
+											  <td style="text-align:center">12</td>
+										  </tr>
+										  <tr>
+											  <td align="right">2</td>
+											  <td style="text-align:left">Cuti Besar&nbsp;&nbsp;<code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Khusus Masa Kerja 6 Tahun" data-html="true">*</code></td>
+											  <td style="text-align:center">30</td>
+											  <td style="text-align:center">0</td>
+											  <td style="text-align:center">30</td>
+										  </tr>
+											<tr>
+											  <td align="right">3</td>
+											  <td style="text-align:left">Cuti Bersalin&nbsp;&nbsp;<code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code></td>
+											  <td style="text-align:center">45</td>
+											  <td style="text-align:center">0</td>
+											  <td style="text-align:center">45</td>
+										  </tr>
+											<tr>
+											  <td align="right">4</td>
+											  <td style="text-align:left">Cuti Sakit&nbsp;&nbsp;<code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Surat Keterangan Dokter" data-html="true">*</code></td>
+											  <td style="text-align:center">12</td>
+											  <td style="text-align:center">0</td>
+											  <td style="text-align:center">12</td>
+										  </tr>
+										  <tr>
+											  <td align="right">5</td>
+											  <td style="text-align:left">Cuti Ibadah&nbsp;&nbsp;<code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Khusus Masa Kerja 1 Tahun" data-html="true">*</code></td>
+											  <td style="text-align:center">50</td>
+											  <td style="text-align:center">0</td>
+											  <td style="text-align:center">50</td>
+										  </tr>
+											
+											<tr>
+											  <td align="right">6</td>
+											  <td style="text-align:left">Cuti Menikah</td>
+											  <td style="text-align:center">3</td>
+											  <td style="text-align:center">0</td>
+											  <td style="text-align:center">3</td>
+										  </tr>
+										  <tr>
+											  <td align="right">7</td>
+											  <td style="text-align:left">Cuti Anak Menikah</td>
+											  <td style="text-align:center">2</td>
+											  <td style="text-align:center">0</td>
+											  <td style="text-align:center">2</td>
+										  </tr>
+										  <tr>
+											  <td align="right">8</td>
+											  <td style="text-align:left">Cuti Anak Khitanan</td>
+											  <td style="text-align:center">2</td>
+											  <td style="text-align:center">0</td>
+											  <td style="text-align:center">2</td>
+										  </tr>
+										  <tr>
+											  <td align="right">9</td>
+											  <td style="text-align:left">Cuti Duka</td>
+											  <td style="text-align:center">2</td>
+											  <td style="text-align:center">0</td>
+											  <td style="text-align:center">2</td>
+										  </tr>
+									      
+										</tbody>
+									</table>
+						
 					</div>
 				</div>
+			</div>
+			</div>
 			</div>
 			<!--begin::Modal 1-->
 									<div class="modal fade" id="modal_persetujuan_pending" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">

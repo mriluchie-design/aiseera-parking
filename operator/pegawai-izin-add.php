@@ -35,6 +35,14 @@ function goBack() {
 
 										</div>
 										<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
+			</div>
+										<div class="btn-group">
 				<button type="button" class="btn btn-success">
 					<i class="fa fa-check-circle"></i>
 					<span class="kt-hidden-mobile">Simpan</span>
@@ -71,7 +79,7 @@ function goBack() {
 								<div class="col-xl-5">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Pegawai</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
@@ -132,7 +140,7 @@ function goBack() {
 										<div class="col-xl-4">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Izin</div><br><br>
 										 <div class="kt-portlet__body">
                       
@@ -205,7 +213,7 @@ function goBack() {
 								
 								<div class="col-xl-3">
 
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Izin</div><br>
 										<div class="kt-portlet__body">
                       <div class="form-group row">

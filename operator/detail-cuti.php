@@ -28,11 +28,18 @@ function goBack() {
 </script>
 												<!--<i class="flaticon2-plus"></i>-->
 											</a>
-											&nbsp;
+											
 
 
 										</div>
-										
+										<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
+			</div>
 										</div>
 										</div>
 						</div>
@@ -62,7 +69,7 @@ function goBack() {
 								<div class="col-xl-9">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Pegawai</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
@@ -138,7 +145,7 @@ function goBack() {
 							<!--end:: Portlet-->
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Pegawai Pengganti</div><br>
 							<div>&nbsp;</div>
 										<div class="kt-portlet__body">
@@ -194,7 +201,7 @@ function goBack() {
 							<!--end:: Portlet-->
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							
 										
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Saldo Cuti</div><br>

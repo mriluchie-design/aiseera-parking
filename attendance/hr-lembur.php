@@ -48,10 +48,14 @@
 
 												<!--end::Nav-->
 											</div>
-<button type="button" class="btn btn-label-google btn-sm">
+<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
 					<i class="fa fa-book-reader"></i>
 					<span class="kt-hidden-mobile">Bantuan</span>
 				</button>
+				
+				
+			</div>
 											<a href="lembur-form.php" class="btn btn-info btn-sm">
 												<i class="fa fa-plus-circle"></i>Buat Lembur</button>
 												<!--<i class="flaticon2-plus"></i>-->
