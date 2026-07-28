@@ -134,7 +134,7 @@
 												<td>1</td>
 												<td align="left" valign="left" style="text-align:left">Peraturan Perusahaan</td>
 												<td align="left" valign="left" style="text-align:left">001/IM-HRD/XI/2019</td>
-												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_16.jpg" alt="image">
 													</a></td>
 												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
@@ -171,7 +171,7 @@
 												<td>2</td>
 												<td align="left" valign="left" style="text-align:left">Peraturan Direksi</td>
 												<td align="left" valign="left" style="text-align:left">001/IM-HRD/XI/2019</td>
-												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_16.jpg" alt="image">
 													</a></td>
 												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
@@ -208,7 +208,7 @@
 												<td>3</td>
 												<td align="left" valign="left" style="text-align:left">Surat Peringatan Pegawai</td>
 												<td align="left" valign="left" style="text-align:left">088/80.2/PERUMDA-PMR/ST/XII/2022</td>
-												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_16.jpg" alt="image">
 													</a></td>
 												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
@@ -245,7 +245,7 @@
 												<td>4</td>
 												<td align="left" valign="left" style="text-align:left">SK Mutasi</td>
 												<td align="left" valign="left" style="text-align:left">088/20.S-Kep.Dir/PERUMDA-PMR/VIII/2022</td>
-												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_16.jpg" alt="image">
 													</a></td>
 												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
@@ -282,7 +282,7 @@
 												<td>5</td>
 												<td align="left" valign="left" style="text-align:left">SK Pensiun</td>
 												<td align="left" valign="left" style="text-align:left">088/20-S.Kep.Dir/PERUMDA-PMR/VII/2022</td>
-												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_16.jpg" alt="image">
 													</a></td>
 												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
@@ -319,7 +319,7 @@
 												<td>6</td>
 												<td align="left" valign="left" style="text-align:left">SK Pegawai Tetap</td>
 												<td align="left" valign="left" style="text-align:left">80.l-Peg/001/VIII/2022</td>
-												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_16.jpg" alt="image">
 													</a></td>
 												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
@@ -356,7 +356,7 @@
 												<td>7</td>
 												<td align="left" valign="left" style="text-align:left">Surat Perjanjian Kontrak Kerja</td>
 												<td align="left" valign="left" style="text-align:left">001/80-KK/PERUMDA-PMR/X/2022</td>
-												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_16.jpg" alt="image">
 													</a></td>
 												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
@@ -393,7 +393,7 @@
 												<td>8</td>
 												<td align="left" valign="left" style="text-align:left">Surat Keterangan Bekerja</td>
 												<td align="left" valign="left" style="text-align:left">055/80/PERUMDA.PMR/VII/2020</td>
-												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_16.jpg" alt="image">
 													</a></td>
 												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
@@ -430,7 +430,7 @@
 												<td>9</td>
 												<td align="left" valign="left" style="text-align:left">ID Permohonan Keterangan Bekerja</td>
 												<td align="left" valign="left" style="text-align:left">003/RSKK/PERUMDA-PMR/XII/2022</td>
-												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_16.jpg" alt="image">
 													</a></td>
 												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
@@ -467,7 +467,7 @@
 												<td>10</td>
 												<td align="left" valign="left" style="text-align:left">Surat Pengalaman Kerja</td>
 												<td align="left" valign="left" style="text-align:left">007/HR/PMR/IX/2019</td>
-												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_16.jpg" alt="image">
 													</a></td>
 												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
@@ -504,7 +504,7 @@
 												<td>11</td>
 												<td align="left" valign="left" style="text-align:left">Surat Keterangan Penghasilan</td>
 												<td align="left" valign="left" style="text-align:left">004/SKP/PMR/VIII/2023</td>
-												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_16.jpg" alt="image">
 													</a></td>
 												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>

@@ -297,7 +297,7 @@
 												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000002<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
-												<td id="kt_table_1" style="text-align:left">Sri Suhartini, SE</td>
+												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
 												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
@@ -595,7 +595,7 @@
 												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000002<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
-												<td id="kt_table_1" style="text-align:left">Sri Suhartini, SE</td>
+												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
 												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
@@ -893,7 +893,7 @@
 												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000002<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
-												<td id="kt_table_1" style="text-align:left">Sri Suhartini, SE</td>
+												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
 												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
@@ -1192,7 +1192,7 @@
 												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000002<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
-												<td id="kt_table_1" style="text-align:left">Sri Suhartini, SE</td>
+												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
 												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
@@ -1491,7 +1491,7 @@
 												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000002<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
-												<td id="kt_table_1" style="text-align:left">Sri Suhartini, SE</td>
+												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
 												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
@@ -1789,7 +1789,7 @@
 												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000002<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
-												<td id="kt_table_1" style="text-align:left">Sri Suhartini, SE</td>
+												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
 												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
@@ -2086,7 +2086,7 @@
 												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000002<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
-												<td id="kt_table_1" style="text-align:left">Sri Suhartini, SE</td>
+												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
 												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
@@ -2384,7 +2384,7 @@
 												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000002<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
-												<td id="kt_table_1" style="text-align:left">Sri Suhartini, SE</td>
+												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
 												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>

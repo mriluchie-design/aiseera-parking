@@ -200,7 +200,7 @@
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000004" data-html="true">
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
-												<td id="kt_table_1">Sri Suhartini, SE</td>
+												<td id="kt_table_1">Yuni Saslia, SE</td>
 												<td style="text-align:left">Pengembangan Usaha dan Kerjasama</td>
 												<td style="text-align:left">Pengembangan</td>
 												<td style="text-align:left">Kepala Seksi Pemetaan dan Pengembangan</td>
@@ -244,7 +244,7 @@
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003" data-html="true">
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
-												<td id="kt_table_1">Sri Suhartini, SE</td>
+												<td id="kt_table_1">Yuni Saslia, SE</td>
 												<td style="text-align:left">Pengembangan Usaha dan Kerjasama</td>
 												<td style="text-align:left">Pengembangan</td>
 												<td style="text-align:left">Kepala Seksi Pemetaan dan Pengembangan</td>
@@ -287,7 +287,7 @@
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000002" data-html="true">
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
-												<td id="kt_table_1">Sri Suhartini, SE</td>
+												<td id="kt_table_1">Yuni Saslia, SE</td>
 												<td style="text-align:left">Pengembangan Usaha dan Kerjasama</td>
 												<td style="text-align:left">Pengembangan</td>
 												<td style="text-align:left">Kepala Seksi Pemetaan dan Pengembangan</td>
@@ -330,7 +330,7 @@
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001" data-html="true">
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
-												<td id="kt_table_1">Sri Suhartini, SE</td>
+												<td id="kt_table_1">Yuni Saslia, SE</td>
 												<td style="text-align:left">Pengembangan Usaha dan Kerjasama</td>
 												<td style="text-align:left">Pengembangan</td>
 												<td style="text-align:left">Kepala Seksi Pemetaan dan Pengembangan</td>

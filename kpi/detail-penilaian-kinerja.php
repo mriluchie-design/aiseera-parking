@@ -12,7 +12,7 @@
 										</span>
 										&nbsp;
 										&nbsp;
-											Penilaian Kinerja Pegawai - Sri Suhartini, SE
+											Penilaian Kinerja Pegawai - Yuni Saslia, SE
 
 									</h3>
 

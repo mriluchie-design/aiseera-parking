@@ -134,7 +134,7 @@
 												<td>1</td>
 												<td align="left" valign="left" style="text-align:left">NIP PEGAWAI TETAP</td>
 												<td align="left" valign="left" style="text-align:left">000 000 000</td>
-												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_16.jpg" alt="image">
 													</a></td>
 												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
@@ -171,7 +171,7 @@
 												<td>2</td>
 												<td align="left" valign="left" style="text-align:left">NIP PEGAWAI KONTRAK</td>
 												<td align="left" valign="left" style="text-align:left">000 000 000</td>
-												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_16.jpg" alt="image">
 													</a></td>
 												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
@@ -208,7 +208,7 @@
 												<td>3</td>
 												<td align="left" valign="left" style="text-align:left">NIP CALON PEGAWAI</td>
 												<td align="left" valign="left" style="text-align:left">000 000 000</td>
-												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_16.jpg" alt="image">
 													</a></td>
 												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
@@ -245,7 +245,7 @@
 												<td>4</td>
 												<td align="left" valign="left" style="text-align:left">NIP PEGAWAI HONOR</td>
 												<td align="left" valign="left" style="text-align:left">000 000 000</td>
-												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_16.jpg" alt="image">
 													</a></td>
 												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
@@ -282,7 +282,7 @@
 												<td>5</td>
 												<td align="left" valign="left" style="text-align:left">ID PEGAWAI RESIGN</td>
 												<td align="left" valign="left" style="text-align:left">001PR823</td>
-												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_16.jpg" alt="image">
 													</a></td>
 												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
@@ -319,7 +319,7 @@
 												<td>6</td>
 												<td align="left" valign="left" style="text-align:left">ID PERMOHONAN SURAT KETERANGAN KERJA</td>
 												<td align="left" valign="left" style="text-align:left">001PSKK823</td>
-												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_16.jpg" alt="image">
 													</a></td>
 												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
@@ -356,7 +356,7 @@
 												<td>7</td>
 												<td align="left" valign="left" style="text-align:left">ID LUPA ABSEN</td>
 												<td align="left" valign="left" style="text-align:left">001LA823</td>
-												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_16.jpg" alt="image">
 													</a></td>
 												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
@@ -393,7 +393,7 @@
 												<td>8</td>
 												<td align="left" valign="left" style="text-align:left">ID PERMOHONAN LEMBUR</td>
 												<td align="left" valign="left" style="text-align:left">001PL823</td>
-												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_16.jpg" alt="image">
 													</a></td>
 												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
@@ -430,7 +430,7 @@
 												<td>9</td>
 												<td align="left" valign="left" style="text-align:left">ID CUTI</td>
 												<td align="left" valign="left" style="text-align:left">001CP823</td>
-												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_16.jpg" alt="image">
 													</a></td>
 												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
@@ -467,7 +467,7 @@
 												<td>10</td>
 												<td align="left" valign="left" style="text-align:left">ID PERMOHONAN CUTI</td>
 												<td align="left" valign="left" style="text-align:left">001PC823</td>
-												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_16.jpg" alt="image">
 													</a></td>
 												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
@@ -504,7 +504,7 @@
 												<td>11</td>
 												<td align="left" valign="left" style="text-align:left">ID IZIN</td>
 												<td align="left" valign="left" style="text-align:left">001IP823</td>
-												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_16.jpg" alt="image">
 													</a></td>
 												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
@@ -541,7 +541,7 @@
 												<td>12</td>
 												<td align="left" valign="left" style="text-align:left">ID PERMOHONAN IZIN</td>
 												<td align="left" valign="left" style="text-align:left">001PIP823</td>
-												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_16.jpg" alt="image">
 													</a></td>
 												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
@@ -578,7 +578,7 @@
 												<td>13</td>
 												<td align="left" valign="left" style="text-align:left">ID TASKING PEGAWAI</td>
 												<td align="left" valign="left" style="text-align:left">001TP823</td>
-												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="center" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_16.jpg" alt="image">
 													</a></td>
 												<td align="left" valign="left" style="text-align:left">Muhammad Nasrullah, S.Kom</td>

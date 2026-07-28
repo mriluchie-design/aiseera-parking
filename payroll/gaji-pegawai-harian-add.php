@@ -338,7 +338,7 @@
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" >
 														<img src="../assets/media/users/100_16.jpg" alt="image">
 													</a></td>
-												<td style="text-align:left" nowrap>Sri Suhartini, SE</td>
+												<td style="text-align:left" nowrap>Yuni Saslia, SE</td>
 												<td style="text-align:center" nowrap>238 004 032</td>
 												<td style="text-align:center" nowrap>Umum</td>
 												<td style="text-align:center" nowrap>Umum dan Kepegawaian</td>

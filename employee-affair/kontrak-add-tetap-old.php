@@ -195,7 +195,7 @@ function goBack() {
                           <label>Cari Nama Pegawai Kontrak :</label>
 						  <select class="form-control kt-selectpicker" data-live-search="true">
 								<optgroup label="- Bagian Umum">
-                              <option value="AK">Sri Suhartini, SE</option>
+                              <option value="AK">Yuni Saslia, SE</option>
                               <option value="HI">Muhammad Nasrullah, S.Kom</option>
                             </select>
                         </div>
@@ -284,7 +284,7 @@ function goBack() {
                               <option value="3">000 000 005 - Zulfadli Syahrir</option>
 							  <optgroup label="- Umum dan Kepegawaian">
                               <option value="3">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-                              <option value="3">238 004 032 - Sri Suhartini, SE</option>
+                              <option value="3">238 004 032 - Yuni Saslia, SE</option>
 
                           </select>
 																						
@@ -486,7 +486,7 @@ function goBack() {
                           <label>Cari Nama Pegawai Kontrak :</label>
 						  <select class="form-control kt-selectpicker" data-live-search="true">
 								<optgroup label="- Bagian Umum">
-                              <option value="AK">Sri Suhartini, SE</option>
+                              <option value="AK">Yuni Saslia, SE</option>
                               <option value="HI">Muhammad Nasrullah, S.Kom</option>
                             </select>
                         </div>
@@ -575,7 +575,7 @@ function goBack() {
                               <option value="3">000 000 005 - Zulfadli Syahrir</option>
 							  <optgroup label="- Umum dan Kepegawaian">
                               <option value="3">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-                              <option value="3">238 004 032 - Sri Suhartini, SE</option>
+                              <option value="3">238 004 032 - Yuni Saslia, SE</option>
 
                           </select>
 																						

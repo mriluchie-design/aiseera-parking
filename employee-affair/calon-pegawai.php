@@ -86,22 +86,22 @@
 					 															</optgroup>
 					 															<optgroup label="Umum">
 					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-																					<option value="HI">000 000 007 - Sri Suhartini, SE</option>
+																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 																				<optgroup label="Keuangan dan Asset">
 					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-																					<option value="HI">000 000 007 - Sri Suhartini, SE</option>
+																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 																				<optgroup label="Operasional">
 					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-																					<option value="HI">000 000 007 - Sri Suhartini, SE</option>
+																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 																				<optgroup label="Pengembangan Usaha dan Kerjasama">
 					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-																					<option value="HI">000 000 007 - Sri Suhartini, SE</option>
+																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 
@@ -760,7 +760,7 @@
 														<img src="../assets/media/users/100_16.jpg" alt="image">
 													</a></td>
 
-												<td width="3%" style="text-align:left" nowrap>Sri Suhartini, SE</td>
+												<td width="3%" style="text-align:left" nowrap>Yuni Saslia, SE</td>
 												<td width="1%" style="text-align:center" nowrap>238 004 032</td>
 												<td width="1%" style="text-align:center" nowrap>Umum</td>
 												<td width="3%" style="text-align:center" nowrap>Umum dan Kepegawaian</td>

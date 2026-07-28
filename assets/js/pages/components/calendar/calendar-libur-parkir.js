@@ -44,7 +44,7 @@ var KTCalendarBasic = function() {
                 navLinks: true,
                 events: [
                     {
-                        title: 'Sri Suhartini, SE',
+                        title: 'Yuni Saslia, SE',
                         start: YESTERDAY,
                         end: TOMORROW,
                         description: '<div class="kt-widget kt-widget--user-profile-4">	<div class="kt-widget__head"><div class="kt-widget__media"><img class="kt-widget__img kt-hidden-" src="../assets/media/users/100_16.jpg" alt="image"></div><div class="kt-widget__content text-center"><div class="kt-widget__section mb-3"><a href="#" class="kt-widget__username">Sri Suhartini,SE\

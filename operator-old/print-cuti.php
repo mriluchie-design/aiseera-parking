@@ -120,7 +120,7 @@ function goBack() {
                 <tbody><tr>
                     <td style="padding:5px;line-height: 80%;">Nama Pegawai</td>
                     <td style="padding:5px;line-height: 80%;">:</td>
-                    <td style="padding:5px;line-height: 80%;">Sri Suhartini, SE</td>
+                    <td style="padding:5px;line-height: 80%;">Yuni Saslia, SE</td>
                 </tr>
                 <tr>
                     <td style="padding:5px;line-height: 80%;">NIP</td>
@@ -156,7 +156,7 @@ function goBack() {
         <br>
         <br>
         <br>
-        <p style="text-decoration: underline;font-weight: bold">Sri Suhartini, SE</p><div style="line-height: 80%;">[ Jabatan Pegawai ]</div><br>
+        <p style="text-decoration: underline;font-weight: bold">Yuni Saslia, SE</p><div style="line-height: 80%;">[ Jabatan Pegawai ]</div><br>
     </div>
 	
 	<table align="center" class="footnote-1" width="650px" style="margin-top:450px; margin-bottom:20px; padding-top:5px; padding-bottom:20px;">

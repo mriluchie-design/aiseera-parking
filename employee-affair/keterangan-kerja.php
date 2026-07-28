@@ -227,7 +227,7 @@
 												
 												
 												<td style="text-align:left">Kelengkapan Administrasi Pengurusan SKCK</td>
-												<td style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"> <img src="../assets/media/users/100_16.jpg" alt="image" /> </a></td>
+												<td style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"> <img src="../assets/media/users/100_16.jpg" alt="image" /> </a></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
 														
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">

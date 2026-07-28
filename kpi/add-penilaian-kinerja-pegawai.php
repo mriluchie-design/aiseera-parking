@@ -163,7 +163,7 @@
 												
 													<div class="col-lg-7">
 														<label>Nama Pegawai :</label>
-														 <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Sri Suhartini, SE">
+														 <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Yuni Saslia, SE">
 													</div>
 <div class="col-lg-5">
 														<label>NIP Pegawai :</label>
@@ -298,7 +298,7 @@
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="SRI SUHARTINI,SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
-												<td align="center" valign="middle" style="text-align:left">Sri Suhartini, SE</td>
+												<td align="center" valign="middle" style="text-align:left">Yuni Saslia, SE</td>
 												<td id="kt_table_1">238 004 032</td>
 												<td id="kt_table_1" style="text-align:center">IV/A</td>
 												<td id="kt_table_1" style="text-align:left">Kepala Seksi Administrasi Kepegawaian</td>
@@ -336,7 +336,7 @@
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="SRI SUHARTINI,SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
-												<td align="center" valign="middle" style="text-align:left">Sri Suhartini, SE</td>
+												<td align="center" valign="middle" style="text-align:left">Yuni Saslia, SE</td>
 												<td id="kt_table_1">238 004 032</td>
 												<td id="kt_table_1" style="text-align:center">IV/A</td>
 												<td id="kt_table_1" style="text-align:left">Kepala Seksi Administrasi Kepegawaian</td>
@@ -373,7 +373,7 @@
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="SRI SUHARTINI,SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
-												<td align="center" valign="middle" style="text-align:left">Sri Suhartini, SE</td>
+												<td align="center" valign="middle" style="text-align:left">Yuni Saslia, SE</td>
 												<td id="kt_table_1">238 004 032</td>
 												<td id="kt_table_1" style="text-align:center">IV/A</td>
 												<td id="kt_table_1" style="text-align:left">Kepala Seksi Administrasi Kepegawaian</td>
@@ -410,7 +410,7 @@
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="SRI SUHARTINI,SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
-												<td align="center" valign="middle" style="text-align:left">Sri Suhartini, SE</td>
+												<td align="center" valign="middle" style="text-align:left">Yuni Saslia, SE</td>
 												<td id="kt_table_1">238 004 032</td>
 												<td id="kt_table_1" style="text-align:center">IV/A</td>
 												<td id="kt_table_1" style="text-align:left">Kepala Seksi Administrasi Kepegawaian</td>

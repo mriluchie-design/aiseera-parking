@@ -503,7 +503,7 @@
 																<td colspan="35" bgcolor="#feffe2">Umum</td>
 															</tr>
 															<tr>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 																		<img src="../assets/media/users/100_16.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Umum dan Kepegawaian</td>
@@ -542,7 +542,7 @@
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
 															</tr>
 															<tr>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 																		<img src="../assets/media/users/100_10.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Umum dan Kepegawaian</td>
@@ -581,7 +581,7 @@
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
 															</tr>
 															<tr>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 																		<img src="../assets/media/users/100_10.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Umum dan Kepegawaian</td>
@@ -620,7 +620,7 @@
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
 															</tr>
 															<tr>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 																		<img src="../assets/media/users/100_10.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Hukum dan Humas</td>
@@ -659,7 +659,7 @@
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
 															</tr>
 															<tr>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 																		<img src="../assets/media/users/100_10.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Hukum dan Humas</td>
@@ -701,7 +701,7 @@
 																<td colspan="35" bgcolor="#feffe2">Keuangan dan Asset</td>
 															</tr>
 															<tr>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 																		<img src="../assets/media/users/100_10.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Keuangan</td>
@@ -740,7 +740,7 @@
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
 															</tr>
 															<tr>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 																		<img src="../assets/media/users/100_10.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Keuangan</td>
@@ -779,7 +779,7 @@
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
 															</tr>
 															<tr>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 																		<img src="../assets/media/users/100_10.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Asset</td>
@@ -818,7 +818,7 @@
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
 															</tr>
 															<tr>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 																		<img src="../assets/media/users/100_10.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Asset</td>
@@ -860,7 +860,7 @@
 																<td colspan="35" bgcolor="#feffe2">Operasional</td>
 															</tr>
 															<tr>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 																		<img src="../assets/media/users/100_10.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Pengelolaan</td>
@@ -899,7 +899,7 @@
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
 															</tr>
 															<tr>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 																		<img src="../assets/media/users/100_10.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Pengelolaan</td>
@@ -938,7 +938,7 @@
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
 															</tr>
 															<tr>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 																		<img src="../assets/media/users/100_10.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Produksi</td>
@@ -977,7 +977,7 @@
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
 															</tr>
 															<tr>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 																		<img src="../assets/media/users/100_10.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Produksi</td>
@@ -1019,7 +1019,7 @@
 																<td colspan="35" bgcolor="#feffe2">Pengembangan Usaha dan Kerjasama</td>
 															</tr>
 															<tr>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 																		<img src="../assets/media/users/100_10.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Pengembangan</td>
@@ -1058,7 +1058,7 @@
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
 															</tr>
 															<tr>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 																		<img src="../assets/media/users/100_10.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Pengembangan</td>
@@ -1097,7 +1097,7 @@
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
 															</tr>
 															<tr>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 																		<img src="../assets/media/users/100_10.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Kerjasama</td>
@@ -1136,7 +1136,7 @@
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
 															</tr>
 															<tr>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+																<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>238 004 032<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 																		<img src="../assets/media/users/100_10.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Kerjasama</td>

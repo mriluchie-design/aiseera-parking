@@ -148,7 +148,7 @@ function goBack() {
   </tr>
   <tr>
     <td style="text-align: right">7.</td>
-    <td>Sri Suhartini, SE</td>
+    <td>Yuni Saslia, SE</td>
     <td>Kepala Seksi Administrasi Kepegawaian</td>
   </tr>
   <tr>

@@ -92,22 +92,22 @@
 					 															</optgroup>
 					 															<optgroup label="Umum">
 					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-																					<option value="HI">000 000 007 - Sri Suhartini, SE</option>
+																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 																				<optgroup label="Keuangan dan Asset">
 					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-																					<option value="HI">000 000 007 - Sri Suhartini, SE</option>
+																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 																				<optgroup label="Operasional">
 					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-																					<option value="HI">000 000 007 - Sri Suhartini, SE</option>
+																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 																				<optgroup label="Pengembangan Usaha dan Kerjasama">
 					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-																					<option value="HI">000 000 007 - Sri Suhartini, SE</option>
+																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 
@@ -547,7 +547,7 @@
 															  <td colspan="45" align="center" valign="middle" bgcolor="#008fd1" style="text-align:left; color: #FFF;">Umum<span style="text-align: left"></span></td>
 														  </tr>
 															<tr>
-															  <td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE&lt;hr&gt;238 004 032&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"><img src="../assets/media/users/100_16.jpg" alt="image" /> </a></td>
+															  <td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE&lt;hr&gt;238 004 032&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"><img src="../assets/media/users/100_16.jpg" alt="image" /> </a></td>
 															  <td align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">Kontrak</span></td>
 															  <td align="center" valign="middle" style="text-align:center">&nbsp;</td>
 															  <td align="center" valign="middle" style="text-align:center">&nbsp;</td>
@@ -594,7 +594,7 @@
 															  <td align="center" valign="middle" style="text-align:center">&nbsp;</td>
 												          </tr>
 															<tr>
-															  <td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE&lt;hr&gt;238 004 032&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"><img src="../assets/media/users/100_10.jpg" alt="image" /> </a></td>
+															  <td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE&lt;hr&gt;238 004 032&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"><img src="../assets/media/users/100_10.jpg" alt="image" /> </a></td>
 															  <td align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--warning kt-badge--md kt-badge--inline">Harian</span></td>
 															  <td align="center" valign="middle" style="text-align:center">&nbsp;</td>
 															  <td align="center" valign="middle" style="text-align:center">&nbsp;</td>
@@ -641,7 +641,7 @@
 															  <td align="center" valign="middle" style="text-align:center">&nbsp;</td>
 													      </tr>
 															<tr>
-															  <td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE&lt;hr&gt;238 004 032&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"><img src="../assets/media/users/100_10.jpg" alt="image" /></a></td>
+															  <td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE&lt;hr&gt;238 004 032&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"><img src="../assets/media/users/100_10.jpg" alt="image" /></a></td>
 															  <td align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">Honor</span></td>
 															  <td align="center" valign="middle" style="text-align:center">&nbsp;</td>
 															  <td align="center" valign="middle" style="text-align:center">&nbsp;</td>
@@ -690,7 +690,7 @@
 															  <td align="center" valign="middle" style="text-align:center">&nbsp;</td>
 													      </tr>
 															<tr>
-															  <td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE&lt;hr&gt;238 004 032&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"><img src="../assets/media/users/100_10.jpg" alt="image" /></a></td>
+															  <td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE&lt;hr&gt;238 004 032&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"><img src="../assets/media/users/100_10.jpg" alt="image" /></a></td>
 															  <td align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Tetap</span></td>
 															  <td align="center" valign="middle" style="text-align:center">&nbsp;</td>
 															  <td align="center" valign="middle" style="text-align:center">&nbsp;</td>

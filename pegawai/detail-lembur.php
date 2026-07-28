@@ -236,7 +236,7 @@ function goBack() {
 											<div class="form-group row">
                         <div class="col-lg-6">
                           <label>Nama Pegawai :</label>
-                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Sri Suhartini, SE">
+                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Yuni Saslia, SE">
                         </div>
 						<div class="col-lg-3">
                           <label>NIP Pegawai :</label>
@@ -278,7 +278,7 @@ function goBack() {
 											<div class="form-group row">
                         <div class="col-lg-6">
                           <label>Nama Pegawai :</label>
-                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Sri Suhartini, SE">
+                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Yuni Saslia, SE">
                         </div>
 						<div class="col-lg-3">
                           <label>NIP Pegawai :</label>
@@ -322,7 +322,7 @@ function goBack() {
 											<div class="form-group row">
                         <div class="col-lg-6">
                           <label>Nama Pegawai :</label>
-                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Sri Suhartini, SE">
+                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Yuni Saslia, SE">
                         </div>
 						<div class="col-lg-3">
                           <label>NIP Pegawai :</label>

@@ -18,7 +18,7 @@
 <span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Sri Suhartini, SE </span>
+											Yuni Saslia, SE </span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
 										</form>
@@ -175,7 +175,7 @@ function goBack() {
 												
 													<div class="col-lg-6">
 														<label>Nama Pegawai :</label>
-														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Sri Suhartini, SE">
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Yuni Saslia, SE">
 													</div>
 													<div class="col-lg-3">
 														<label>NIP :</label>
@@ -228,7 +228,7 @@ function goBack() {
 												
 													<div class="col-lg-6">
 														<label>Nama Pegawai :</label>
-														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Sri Suhartini, SE">
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Yuni Saslia, SE">
 													</div>
 													<div class="col-lg-3">
 														<label>NIP :</label>

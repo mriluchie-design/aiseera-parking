@@ -124,22 +124,22 @@ License: You must have a valid license purchased only from themeforest(the above
 					 															</optgroup>
 					 															<optgroup label="Umum">
 					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-																					<option value="HI">000 000 007 - Sri Suhartini, SE</option>
+																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 																				<optgroup label="Keuangan dan Asset">
 					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-																					<option value="HI">000 000 007 - Sri Suhartini, SE</option>
+																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 																				<optgroup label="Operasional">
 					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-																					<option value="HI">000 000 007 - Sri Suhartini, SE</option>
+																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 																				<optgroup label="Pengembangan Usaha dan Kerjasama">
 					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-																					<option value="HI">000 000 007 - Sri Suhartini, SE</option>
+																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 

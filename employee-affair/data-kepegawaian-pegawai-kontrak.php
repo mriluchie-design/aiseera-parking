@@ -284,7 +284,7 @@ function goBack() {
                      <div class="form-group row">
 						<div class="col-lg-6">
 																						<label>Atasan Langsung :</label>
-																					<input type="text" class="form-control form-control-sm" value="Sri Suhartini, SE" placeholder="31 Desember 2022" id="kt_datepicker_2" disabled>
+																					<input type="text" class="form-control form-control-sm" value="Yuni Saslia, SE" placeholder="31 Desember 2022" id="kt_datepicker_2" disabled>
 																					</div>
 <div class="col-lg-6">
 																						<label>Kantor :</label>
@@ -312,7 +312,7 @@ function goBack() {
 												<div class="form-group row">
 																					<div class="col-lg-12">
 																						<label>Nama Pegawai :</label>
-																						<input type="text" class="form-control form-control-sm" value="Sri Suhartini, SE" placeholder="= Pilih Tanggal =" id="kt_datepicker_2" disabled>
+																						<input type="text" class="form-control form-control-sm" value="Yuni Saslia, SE" placeholder="= Pilih Tanggal =" id="kt_datepicker_2" disabled>
 																					</div>
 																					
 																					

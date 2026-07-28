@@ -85,7 +85,7 @@ function goBack() {
 											  <td width="2%" rowspan="5" style="text-align:left">&nbsp;</td>
 											  <td width="22%" style="text-align:left">Nama Pegawai</td>
 											  <td width="4%" nowrap="nowrap" style="text-align:center">:</td>
-											  <td nowrap="nowrap" style="text-align:left">Sri Suhartini, SE</td>
+											  <td nowrap="nowrap" style="text-align:left">Yuni Saslia, SE</td>
 										  </tr>
 											<tr>
 											  <td id="kt_table_14" style="text-align:left">NIP</td>

@@ -278,7 +278,7 @@ function goBack() {
   </tr>
   <tr>
     <td style="text-align:center">7</td>
-    <td style="text-align:center"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Sri Suhartini, SE">
+    <td style="text-align:center"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Yuni Saslia, SE">
     <td style="text-align:center"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="238 004 032">
 	</td>
     <td style="text-align:center"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Umum"></td>
@@ -493,7 +493,7 @@ function goBack() {
   <tr>
     <td style="text-align:center">&nbsp;</td>
      <td style="text-align:center" width="1%">g</td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Sri Suhartini, SE" /></td>
+    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Yuni Saslia, SE" /></td>
     <td style="text-align:left">
       <input type="text" style="text-align:left"  class="form-control form-control-sm" disabled="disabled" placeholder="Kepala Seksi Administrasi Kepegawaian" style="text-align:center">
       </div></td>
@@ -689,7 +689,7 @@ function goBack() {
   <tr>
     <td style="text-align:center">&nbsp;</td>
      <td style="text-align:center" width="1%">g</td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Sri Suhartini, SE" /></td>
+    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Yuni Saslia, SE" /></td>
     <td style="text-align:left">
       <input type="text" style="text-align:left" class="form-control form-control-sm" disabled="disabled" placeholder="Kepala Seksi Administrasi Kepegawaian" style="text-align:center">
       </div></td>
@@ -885,7 +885,7 @@ function goBack() {
   <tr>
     <td style="text-align:center">&nbsp;</td>
      <td style="text-align:center" width="1%">g</td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Sri Suhartini, SE" /></td>
+    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Yuni Saslia, SE" /></td>
     <td style="text-align:left">
       <input type="text" style="text-align:left" class="form-control form-control-sm" disabled="disabled" placeholder="Kepala Seksi Administrasi Kepegawaian" style="text-align:center">
       </div></td>
@@ -1081,7 +1081,7 @@ function goBack() {
   <tr>
     <td style="text-align:center">&nbsp;</td>
      <td style="text-align:center" width="1%">g</td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Sri Suhartini, SE" /></td>
+    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Yuni Saslia, SE" /></td>
     <td style="text-align:left">
       <input type="text" style="text-align:left" class="form-control form-control-sm" disabled="disabled" placeholder="Kepala Seksi Administrasi Kepegawaian" style="text-align:center">
       </div></td>
@@ -1277,7 +1277,7 @@ function goBack() {
   <tr>
     <td style="text-align:center">&nbsp;</td>
      <td style="text-align:center" width="1%">g</td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Sri Suhartini, SE" /></td>
+    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Yuni Saslia, SE" /></td>
     <td style="text-align:left">
       <input type="text" style="text-align:left" class="form-control form-control-sm" disabled="disabled" placeholder="Kepala Seksi Administrasi Kepegawaian" style="text-align:center">
       </div></td>
@@ -1545,7 +1545,7 @@ function goBack() {
   <tr>
     <td style="text-align:center">&nbsp;</td>
      <td style="text-align:center" width="1%">g</td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Sri Suhartini, SE" /></td>
+    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Yuni Saslia, SE" /></td>
     <td style="text-align:left">
       <input type="text" style="text-align:left" class="form-control form-control-sm" disabled="disabled" placeholder="Kepala Seksi Administrasi Kepegawaian" style="text-align:center">
       </div></td>

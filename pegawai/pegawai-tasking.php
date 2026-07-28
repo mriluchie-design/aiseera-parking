@@ -89,22 +89,22 @@
 					 															</optgroup>
 					 															<optgroup label="Umum">
 					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-																					<option value="HI">000 000 007 - Sri Suhartini, SE</option>
+																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 																				<optgroup label="Keuangan dan Asset">
 					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-																					<option value="HI">000 000 007 - Sri Suhartini, SE</option>
+																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 																				<optgroup label="Operasional">
 					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-																					<option value="HI">000 000 007 - Sri Suhartini, SE</option>
+																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 																				<optgroup label="Pengembangan Usaha dan Kerjasama">
 					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-																					<option value="HI">000 000 007 - Sri Suhartini, SE</option>
+																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 
@@ -175,22 +175,22 @@
 					 															</optgroup>
 					 															<optgroup label="Umum">
 					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-																					<option value="HI">000 000 007 - Sri Suhartini, SE</option>
+																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 																				<optgroup label="Keuangan dan Asset">
 					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-																					<option value="HI">000 000 007 - Sri Suhartini, SE</option>
+																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 																				<optgroup label="Operasional">
 					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-																					<option value="HI">000 000 007 - Sri Suhartini, SE</option>
+																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 																				<optgroup label="Pengembangan Usaha dan Kerjasama">
 					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-																					<option value="HI">000 000 007 - Sri Suhartini, SE</option>
+																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 
@@ -294,7 +294,7 @@
 												<td id="kt_table_1">1</td>
 												<td id="kt_table_1">002/TASK/PMR/VIII/2023</td>
 												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_9.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
@@ -340,7 +340,7 @@
 												<td id="kt_table_1">2</td>
 												<td id="kt_table_1">001/TASK/PMR/VIII/2023</td>
 												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_14.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
@@ -386,7 +386,7 @@
 												<td id="kt_table_1">3</td>
 												<td id="kt_table_1">001/TASK/PMR/VIII/2023</td>
 												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_14.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Muhammad Nasrullah, S.Kom</td>

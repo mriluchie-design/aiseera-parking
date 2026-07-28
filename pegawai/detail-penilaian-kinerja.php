@@ -12,7 +12,7 @@
 										</span>
 										&nbsp;
 										&nbsp;
-											Penilaian Kinerja Pegawai - Sri Suhartini, SE
+											Penilaian Kinerja Pegawai - Yuni Saslia, SE
 
 									</h3>
 
@@ -170,7 +170,7 @@ function goBack() {
 												<td width="2%" rowspan="3" id="kt_table_1" style="text-align:center">&nbsp;</td>
 												<td width="13%" nowrap style="text-align:left">Nama Pegawai</td>
 												<td width="2%" nowrap style="text-align:left">:</td>
-												<td width="10%" nowrap style="text-align:left">Sri Suhartini, SE</td>
+												<td width="10%" nowrap style="text-align:left">Yuni Saslia, SE</td>
 												<td width="1%" rowspan="3" nowrap style="text-align:left">&nbsp;</td>
 												<td width="15%" nowrap style="text-align:left">Pangkat / Golongan</td>
 												<td width="2%" nowrap style="text-align:left">:</td>
@@ -588,7 +588,7 @@ function goBack() {
 												<td width="2%" rowspan="3" id="kt_table_1" style="text-align:center">&nbsp;</td>
 												<td width="13%" nowrap style="text-align:left">Nama Pegawai</td>
 												<td width="2%" nowrap style="text-align:left">:</td>
-												<td width="10%" nowrap style="text-align:left">Sri Suhartini, SE</td>
+												<td width="10%" nowrap style="text-align:left">Yuni Saslia, SE</td>
 												<td width="1%" rowspan="3" nowrap style="text-align:left">&nbsp;</td>
 												<td width="15%" nowrap style="text-align:left">Pangkat / Golongan</td>
 												<td width="2%" nowrap style="text-align:left">:</td>

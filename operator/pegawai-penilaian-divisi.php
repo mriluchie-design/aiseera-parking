@@ -97,22 +97,22 @@
 					 															</optgroup>
 					 															<optgroup label="Umum">
 					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-																					<option value="HI">000 000 007 - Sri Suhartini, SE</option>
+																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 																				<optgroup label="Keuangan dan Asset">
 					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-																					<option value="HI">000 000 007 - Sri Suhartini, SE</option>
+																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 																				<optgroup label="Operasional">
 					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-																					<option value="HI">000 000 007 - Sri Suhartini, SE</option>
+																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 																				<optgroup label="Pengembangan Usaha dan Kerjasama">
 					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-																					<option value="HI">000 000 007 - Sri Suhartini, SE</option>
+																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 
@@ -183,22 +183,22 @@
 					 															</optgroup>
 					 															<optgroup label="Umum">
 					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-																					<option value="HI">000 000 007 - Sri Suhartini, SE</option>
+																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 																				<optgroup label="Keuangan dan Asset">
 					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-																					<option value="HI">000 000 007 - Sri Suhartini, SE</option>
+																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 																				<optgroup label="Operasional">
 					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-																					<option value="HI">000 000 007 - Sri Suhartini, SE</option>
+																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 																				<optgroup label="Pengembangan Usaha dan Kerjasama">
 					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
-																					<option value="HI">000 000 007 - Sri Suhartini, SE</option>
+																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 
@@ -315,16 +315,16 @@
 												<td id="kt_table_1">1</td>
 												<td id="kt_table_1">Januari 2023</td>
 												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_9.jpg" alt="image">
 													</a></td>
-												<td id="kt_table_1" style="text-align:left">Sri Suhartini, SE</td>
+												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
 												<td id="kt_table_1" style="text-align:center">238 004 032</td>
 												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
-												<td id="kt_table_1" style="text-align:left">Sri Suhartini, SE</td>
+												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
 												<td id="kt_table_1" style="text-align:center">238 004 032</td>
 												<td id="kt_table_1" style="text-align:center"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Tetap</span></td>
 												<td id="kt_table_1" style="text-align:center">Pengembangan Usaha dan Kerjasama</td>
@@ -377,16 +377,16 @@
 												<td id="kt_table_1">2</td>
 												<td id="kt_table_1">Februari 2023</td>
 												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_14.jpg" alt="image">
 													</a></td>
-												<td id="kt_table_1" style="text-align:left">Sri Suhartini, SE</td>
+												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
 												<td id="kt_table_1" style="text-align:center">238 004 032</td>
 												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_15.jpg" alt="image">
 													</a></td>
-												<td id="kt_table_1" style="text-align:left">Sri Suhartini, SE</td>
+												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
 												<td id="kt_table_1" style="text-align:center">238 004 032</td>
 												<td id="kt_table_1" style="text-align:center"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">Honor</span></td>
 												<td id="kt_table_1" style="text-align:center">Pengembangan Usaha dan Kerjasama</td>
