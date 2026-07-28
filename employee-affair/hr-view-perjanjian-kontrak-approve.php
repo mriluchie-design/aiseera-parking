@@ -115,7 +115,7 @@ function goBack() {
 							  <td width="9" valign="top">:</td>
 							  <td width="8">&nbsp;</td>
 							  <td width="415"><div align="justify"><p>Direktur Utama PT. Pelabuhan Indonesia (Persero) Regional 4 Berdasarkan  <br />
-						      Peraturan Pemerintah No. 54  Tahun 2017 tentang Badan Usaha Milik Negara. Dalam hal ini bertindak untuk dan  atas nama Perusahaan Umum Daerah Parkir Makassar Raya, yang untuk selanjutnya  disebut PIHAK PERTAMA. </p></div></td>
+						      Peraturan Pemerintah No. 54  Tahun 2017 tentang Badan Usaha Milik Negara. Dalam hal ini bertindak untuk dan  atas nama PT. Pelabuhan Indonesia (Persero) Regional 4, yang untuk selanjutnya  disebut PIHAK PERTAMA. </p></div></td>
   </tr>
 							<tr>
 							  <td valign="top">2.</td>
@@ -1142,7 +1142,7 @@ function goBack() {
 							<tr>
 							  <td valign="top" style="text-align: left">3.</td>
 							  <td valign="top">&nbsp;</td>
-							  <td colspan="10" valign="top" style="text-align: left">Segala biaya yang  dikeluarkan sehubungan dengan pelaksanaan Surat Perjanjian ini dibebankan pada  Anggaran Belanja Perusahaan Umum Daerah Parkir Makassar Raya Tahun 2022.</td>
+							  <td colspan="10" valign="top" style="text-align: left">Segala biaya yang  dikeluarkan sehubungan dengan pelaksanaan Surat Perjanjian ini dibebankan pada  Anggaran Belanja PT. Pelabuhan Indonesia (Persero) Regional 4 Tahun 2022.</td>
   </tr>
 							<tr>
 							  <td valign="top" style="text-align: left">4.</td>
@@ -1333,7 +1333,7 @@ function goBack() {
 							  <td colspan="11" valign="top"><hr /></td>
   </tr>
 							<tr>
-							  <td colspan="11" valign="top"><span style="text-align:justify; line-height:1.5; font-family: Bookman Old Style; font-size: 10px;"><i>Sesuai dengan ketentuan yang berlaku, Perusahaan Umum Daerah Parkir Makassar Raya mengatur bahwa surat ini telah ditandatangani dan diverifikasi secara elektronik, sehingga tidak diperlukan tanda tangan basah pada Surat ini</i></span></td>
+							  <td colspan="11" valign="top"><span style="text-align:justify; line-height:1.5; font-family: Bookman Old Style; font-size: 10px;"><i>Sesuai dengan ketentuan yang berlaku, PT. Pelabuhan Indonesia (Persero) Regional 4 mengatur bahwa surat ini telah ditandatangani dan diverifikasi secara elektronik, sehingga tidak diperlukan tanda tangan basah pada Surat ini</i></span></td>
   </tr>
 							<tr>
 							  <td colspan="12" valign="top">&nbsp;</td>

@@ -218,17 +218,17 @@ function goBack() {
                      <div class="form-group row">
 						<div class="col-lg-4">
 					   <label>Department :</label>
-                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Perumda Parkir Makassar Raya atau Online">
+                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Operasional">
 
                         </div>
 						<div class="col-lg-4">
 					   <label>Divisi :</label>
-                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Perumda Parkir Makassar Raya atau Online">
+                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Operasional">
 
                         </div>
 						<div class="col-lg-4">
 					   <label>Jabatan :</label>
-                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Perumda Parkir Makassar Raya atau Online">
+                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Supervisor Operasional">
 
                         </div>
                         </div>
@@ -682,17 +682,17 @@ function goBack() {
                      <div class="form-group row">
 						<div class="col-lg-4">
 					   <label>Department :</label>
-                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Perumda Parkir Makassar Raya atau Online">
+                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Operasional">
 
                         </div>
 						<div class="col-lg-4">
 					   <label>Divisi :</label>
-                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Perumda Parkir Makassar Raya atau Online">
+                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Operasional">
 
                         </div>
 						<div class="col-lg-4">
 					   <label>Jabatan :</label>
-                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Perumda Parkir Makassar Raya atau Online">
+                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Supervisor Operasional">
 
                         </div>
                         </div>

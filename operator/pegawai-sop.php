@@ -49,7 +49,14 @@
 
 												<!--end::Nav-->
 											</div>
-											
+											<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
+			</div>
 
 
 										</div>
@@ -210,7 +217,9 @@
 														<img src="../assets/media/users/100_16.jpg" alt="image">
 													</a></td>
 												
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-success btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_release" data-skin="brand" title="Disetujui" data-html="true"><i class="fa flaticon2-check-mark"></i></button></td>
+												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release" data-html="true">
+															<i class="fa flaticon2-check-mark"></i>
+														</span></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>

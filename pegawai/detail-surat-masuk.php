@@ -104,7 +104,7 @@
 						<table align="center" border="0" cellpadding="1" style="width: 720px;text-align:justify; line-height:2.0">
 							<tr>
 								<th class="text-center">
-									<span class="col-lg-12 kt-font-boldest" style="border-bottom:2px solid #ccc">KEPUTUSAN DIREKSI PERUSAHAAN UMUM DAERAH PARKIR MAKASSAR RAYA</span><br />Nomor : 088/20.S-Kep.Dir/PERUMDA-PMR/VIII/2022
+									<span class="col-lg-12 kt-font-boldest" style="border-bottom:2px solid #ccc">KEPUTUSAN DIREKSI PT. Pelabuhan Indonesia (Persero) Regional 4</span><br />Nomor : 088/20.S-Kep.Dir/PERUMDA-PMR/VIII/2022
 								</th>
 							</tr>
 							<tr>

@@ -67,6 +67,15 @@ function goBack() {
 					</li>
 				</ul>
 				<!--end::Nav-->
+			
+			</div>
+			<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
 			</div>
 		</div>
 

@@ -120,7 +120,7 @@
 							  <td valign="top">:</td>
 							  <td colspan="3" valign="top">Permohonan Biaaya</td>
 							  <td valign="top">&nbsp;</td>
-							  <td colspan="2" valign="top">Perumda Parkir Makassar Raya</td>
+							  <td colspan="2" valign="top">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
   </tr>
 							<tr>
 							  <td valign="top">&nbsp;</td>
@@ -251,7 +251,7 @@
 							  <td colspan="11" valign="top"><hr /></td>
   </tr>
 							<tr>
-							   <td colspan="11" valign="top"><span style="text-align:justify; line-height:1.5; font-family: Bookman Old Style; font-size: 10px;"><i>Sesuai dengan ketentuan yang berlaku, Perusahaan Umum Daerah Parkir Makassar Raya mengatur bahwa surat ini telah ditandatangani dan diverifikasi secara elektronik, sehingga tidak diperlukan tanda tangan basah pada Surat ini</i></span></td>
+							   <td colspan="11" valign="top"><span style="text-align:justify; line-height:1.5; font-family: Bookman Old Style; font-size: 10px;"><i>Sesuai dengan ketentuan yang berlaku, PT. Pelabuhan Indonesia (Persero) Regional 4 mengatur bahwa surat ini telah ditandatangani dan diverifikasi secara elektronik, sehingga tidak diperlukan tanda tangan basah pada Surat ini</i></span></td>
   </tr>
 							<tr>
 							  <td valign="top">&nbsp;</td>
@@ -425,7 +425,7 @@
                               <option value="3">000 000 003 - Christofher Rio Aviary</option>
                               <option value="3">000 000 004 - Mu’amar Nor Amin</option>
                               <option value="3">000 000 005 - Zulfadli Syahrir</option>
-                              <option value="3">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
+                              <option value="3">000 000 006 - Muhammad Nasrullah, S.Kom</option>
 
                           </select>
 																						

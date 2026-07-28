@@ -224,7 +224,7 @@ function goBack() {
                 <td>&nbsp;</td>
                 <td colspan="2" valign="center" style="position: relative;top:-5px;text-align:left; padding-left:10px; padding-top:10px;">
                     <span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Sesuai
-                            dengan ketentuan yang berlaku, Perusahaan Umum Daerah Parkir Makassar Raya mengatur
+                            dengan ketentuan yang berlaku, PT. Pelabuhan Indonesia (Persero) Regional 4 mengatur
                             bahwa
                             surat ini telah ditandatangani dan diverifikasi secara elektronik, sehingga
                             tidak

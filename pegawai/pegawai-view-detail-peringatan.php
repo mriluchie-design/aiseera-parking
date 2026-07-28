@@ -790,7 +790,7 @@ function goBack() {
 						<table align="center" border="0" cellpadding="1" style="width: 600px; text-align:justify; line-height:1.5; font-family: Bookman Old Style; font-size: 12px;">
 							<tr>
 								<th colspan="6" class="text-center">
-									<span style="text-align: center"><span style="font-family: Bookman Old Style; font-size: 12px;"><u>KEPUTUSAN DIREKSI PERUSAHAAN UMUM DAERAH PARKIR MAKASSAR RAYA</b></u></span><br /><span style="font-family: Bookman Old Style; font-size: 12px; margin-bottom:3rem">
+									<span style="text-align: center"><span style="font-family: Bookman Old Style; font-size: 12px;"><u>KEPUTUSAN DIREKSI PT. Pelabuhan Indonesia (Persero) Regional 4</b></u></span><br /><span style="font-family: Bookman Old Style; font-size: 12px; margin-bottom:3rem">
 														<b>Nomor : 088/20.S-Kep.Dir/PERUMDA-PMR/VIII/2022</b></span>
 								</th>
 							</tr>
@@ -815,7 +815,7 @@ function goBack() {
 								<td colspan="6"><p align="center"><span style="font-family: Bookman Old Style; font-size: 12px;"><b>Dengan Rahmat Tuhan Yang Maha Esa</b></span></p></td>
 							</tr>
 							<tr>
-							  <td colspan="6"><p align="center"><span style="font-family: Bookman Old Style; font-size: 12px;"><b>DIREKSI PERUSAHAAN UMUM DAERAH PARKIR MAKASSAR RAYA</b></span></p></td>
+							  <td colspan="6"><p align="center"><span style="font-family: Bookman Old Style; font-size: 12px;"><b>DIREKSI PT. Pelabuhan Indonesia (Persero) Regional 4</b></span></p></td>
   </tr>
 							<tr>
 							  <td colspan="6">&nbsp;</td>
@@ -834,7 +834,7 @@ function goBack() {
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">b.</td>
 							  <td>&nbsp;</td>
-							  <td>bahwa berdasarkan pertimbangan sebagaimana dimaksud pada  huruf a diatas dipandang perlu ditetapkan dengan Keputusan Direksi Perusahaan Umum  Daerah Parkir Makassar Raya tentang Pengangkatan Tenaga Kontrak Kerja Waktu  Terbatas (Tenaga Pendukung) pada Perusahaan Umum Daerah Parkir Makassar Raya  Kota Makassar Tahun 2023. </td>
+							  <td>bahwa berdasarkan pertimbangan sebagaimana dimaksud pada  huruf a diatas dipandang perlu ditetapkan dengan Keputusan Direksi Perusahaan Umum  Daerah Parkir Makassar Raya tentang Pengangkatan Tenaga Kontrak Kerja Waktu  Terbatas (Tenaga Pendukung) pada PT. Pelabuhan Indonesia (Persero) Regional 4  Kota Makassar Tahun 2023. </td>
   </tr>
 							<tr>
 							  <td colspan="6" valign="top">&nbsp;</td>
@@ -898,7 +898,7 @@ function goBack() {
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">6.</td>
 							  <td>&nbsp;</td>
-							  <td>Peraturan Daerah Kota Makassar Nomor 10 Tahun 2000 tentang Pokok-Pokok Badan Pengawas Direksi dan Kepegawaian PD.Parkir Makassar Raya;</td>
+							  <td>Peraturan Daerah Kota Makassar Nomor 10 Tahun 2000 tentang Pokok-Pokok Badan Pengawas Direksi dan Kepegawaian PT. Pelabuhan Indonesia (Persero) Regional 4;</td>
   </tr>
 							<tr>
 							  <td valign="top">&nbsp;</td>
@@ -906,7 +906,7 @@ function goBack() {
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">7.</td>
 							  <td>&nbsp;</td>
-							  <td>Peraturan Daerah Kota Makassar  Nomor 16 Tahun 2006 tentang Perubahan atas Peraturan Daerah Kota Makassar Nomor 5 Tahun 1999 tentang pendirian Perusahaan Daerah Parkir Makassar Raya Kotamadya Daerah Tingkat II Ujung Pandang;</td>
+							  <td>Peraturan Daerah Kota Makassar  Nomor 16 Tahun 2006 tentang Perubahan atas Peraturan Daerah Kota Makassar Nomor 5 Tahun 1999 tentang pendirian PT. Pelabuhan Indonesia (Persero) Regional 4 Kotamadya Daerah Tingkat II Ujung Pandang;</td>
   </tr>
 							<tr>
 							  <td valign="top">&nbsp;</td>
@@ -987,7 +987,7 @@ function goBack() {
 							  <td width="10" valign="top"></td>
 							  <td width="1">&nbsp;</td>
 							  <td colspan="4"><span style="font-family: Bookman Old Style; font-size: 12px; margin-bottom:3rem">
-														<b>KEPUTUSAN DIREKSI PERUSAHAAN UMUM DAERAH PARKIR MAKASSAR RAYA  TENTANG  PENGANGKATAN TENAGA KONTRAK KERJA WAKTU TERBATAS (TENAGA PENDUKUNG) PADA PERUSAHAAN UMUM DAERAH PARKIR MAKASSAR RAYA KOTA MAKASSAR TAHUN 2023</b></td>
+														<b>KEPUTUSAN DIREKSI PT. Pelabuhan Indonesia (Persero) Regional 4  TENTANG  PENGANGKATAN TENAGA KONTRAK KERJA WAKTU TERBATAS (TENAGA PENDUKUNG) PADA PT. Pelabuhan Indonesia (Persero) Regional 4 KOTA MAKASSAR TAHUN 2023</b></td>
   </tr>
 							<tr>
 							  <td colspan="9" valign="top">&nbsp;</td>
@@ -998,7 +998,7 @@ function goBack() {
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top"></td>
 							  <td>&nbsp;</td>
-							  <td colspan="4">Mengangkat Tenaga Kontrak Kerja Waktu Terbatas (Tenaga Pendukung) pada Perusahaan Umum Daerah Parkir Makassar Raya Kota Makassar Tahun 2023, sebagaimana namanya tercantum dalam Lampiran Keputusan ini yang merupakan satu kesatuan yang tidak terpisahkan dengan Keputusan ini; </td>
+							  <td colspan="4">Mengangkat Tenaga Kontrak Kerja Waktu Terbatas (Tenaga Pendukung) pada PT. Pelabuhan Indonesia (Persero) Regional 4 Kota Makassar Tahun 2023, sebagaimana namanya tercantum dalam Lampiran Keputusan ini yang merupakan satu kesatuan yang tidak terpisahkan dengan Keputusan ini; </td>
   </tr>
 							<tr>
 							  <td valign="top">KEDUA</td>
@@ -1006,7 +1006,7 @@ function goBack() {
 							  <td valign="top">&nbsp;</td>
 							  <td width="10" valign="top">&nbsp;</td>
 							  <td>&nbsp;</td>
-							  <td colspan="4">Hak dan Kewajiban Tenaga Kontrak Kerja Waktu Terbatas (Tenaga Pendukung) sebagaimana dimaksud dalam Diktum KESATU, dituangkan dalam Surat Perjanjian Kesepakatan Kerja Waktu terbatas yang ditandatangani oleh yang bersangkutan dengan Direksi Perusahaan Umum Daerah Parkir Makassar Raya Kota Makassar;   
+							  <td colspan="4">Hak dan Kewajiban Tenaga Kontrak Kerja Waktu Terbatas (Tenaga Pendukung) sebagaimana dimaksud dalam Diktum KESATU, dituangkan dalam Surat Perjanjian Kesepakatan Kerja Waktu terbatas yang ditandatangani oleh yang bersangkutan dengan Direksi PT. Pelabuhan Indonesia (Persero) Regional 4 Kota Makassar;   
 
 
 </span></td>
@@ -1017,7 +1017,7 @@ function goBack() {
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">&nbsp;</td>
 							  <td>&nbsp;</td>
-							  <td colspan="4">Segala Biaya yang timbul dari pelaksanaan Keputusan ini, akan dibebankan pada  Anggaran Belanja Perusahaan Umum Daerah Parkir Makassar Raya Kota Makassar Tahun Anggaran 2023;</td>
+							  <td colspan="4">Segala Biaya yang timbul dari pelaksanaan Keputusan ini, akan dibebankan pada  Anggaran Belanja PT. Pelabuhan Indonesia (Persero) Regional 4 Kota Makassar Tahun Anggaran 2023;</td>
   </tr>
 							<tr>
 							  <td valign="top">KEEMPAT</td>
@@ -1025,7 +1025,7 @@ function goBack() {
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">&nbsp;</td>
 							  <td>&nbsp;</td>
-							  <td colspan="4">Ketentuan yang berkaitan dengan teknis pelaksanaan Keputusan ini akan diatur lebih lanjut dalam Surat Keputusan Direksi Perusahaan Umum Daerah Parkir Makassar Raya Kota Makassar;</td>
+							  <td colspan="4">Ketentuan yang berkaitan dengan teknis pelaksanaan Keputusan ini akan diatur lebih lanjut dalam Surat Keputusan Direksi PT. Pelabuhan Indonesia (Persero) Regional 4 Kota Makassar;</td>
   </tr>
 							<tr>
 							  <td valign="top">KELIMA</td>
@@ -1081,7 +1081,7 @@ function goBack() {
 							  <td colspan="9">1. Walikota Makassar;</td>
   </tr>
 							<tr>
-							  <td colspan="9">2.	Dewan Pengawas Perusahaan Umum Daerah Parkir Makassar Raya</td>
+							  <td colspan="9">2.	Direksi PT. Pelabuhan Indonesia (Persero)</td>
   </tr>
 							<tr>
 								<td colspan="9">3.	Pertinggal.</td>
