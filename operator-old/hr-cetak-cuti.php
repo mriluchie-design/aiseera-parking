@@ -82,7 +82,7 @@ function goBack() {
 						<div align="left">
 							<span style="font-family: Roboto; font-size: 12px; margin-bottom:3rem">
 								Kepada Yth,<br>
-								<b>Direktur Umum PERUMDA Parkir Makassar Raya</b><br>
+								<b>Direktur Umum PT. Pelabuhan Indonesia (Persero) Regional 4</b><br>
 								Di -<br>
 								<span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Makassar
 						</div>

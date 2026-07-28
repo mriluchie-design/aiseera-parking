@@ -93,7 +93,7 @@ function goBack() {
 <tr>
   <td width="146" style="text-align: left">SUDAH TERIMA DARI</td>
   <td width="8" colspan="-1" style="text-align: center">:</td>
-  <td colspan="3">PERUMDA PARKIR MAKASSAR RAYA</td>
+  <td colspan="3">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 </tr>
 <tr>
   <td style="text-align: left">UANG SEJUMLAH</td>
@@ -114,7 +114,7 @@ function goBack() {
 <tr>
   <td style="text-align: right"></td>
   <td colspan="-1">&nbsp;</td>
-  <td colspan="3" style="text-align: left">Direktur Utama Perumda Parkir Makassar Raya An. Muhammad Nasrullah, S.Kom Sesuai SPPD Terlampir</td>
+  <td colspan="3" style="text-align: left">Direktur Utama PT. Pelabuhan Indonesia (Persero) Regional 4 An. Muhammad Nasrullah, S.Kom Sesuai SPPD Terlampir</td>
 </tr>
 <tr>
   <td style="text-align: right"></td>

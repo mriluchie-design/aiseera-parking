@@ -110,7 +110,7 @@ function goBack() {
 							  <td valign="top">:</td>
 							  <td colspan="3" valign="top">Permohonan Biaaya</td>
 							  <td valign="top">&nbsp;</td>
-							  <td colspan="2" valign="top">Perumda Parkir Makassar Raya</td>
+							  <td colspan="2" valign="top">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
   </tr>
 							<tr>
 							  <td valign="top">&nbsp;</td>

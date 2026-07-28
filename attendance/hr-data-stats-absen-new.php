@@ -718,7 +718,7 @@
     <td width="13%" rowspan="3"><a href="#" style="text-align:center" class="kt-media"><img src="../assets/img/users/100_15.jpg" alt="image" style="max-width:100px !important;height:auto" /></a></td>
     <td width="15%">Nama Pegawai</td>
     <td width="2%">:</td>
-    <td width="32%">Ir. ASRARUDIN MAMONTO, MM</td>
+    <td width="32%">Muhammad Nasrullah, S.Kom</td>
     <td width="1%" rowspan="3">&nbsp;</td>
     <td width="16%">Status Absen</td>
     <td width="4%">:</td>

@@ -137,7 +137,7 @@
 										  </tr>
 											<tr>
 												<td width="1%">2</td>
-												<td width="8%" align="left" valign="left" style="text-align:left">Dewan Pengawas Perumda Parkir Makassar Raya</td>
+												<td width="8%" align="left" valign="left" style="text-align:left">Dewan Pengawas PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 												
 												<td width="1%" style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">

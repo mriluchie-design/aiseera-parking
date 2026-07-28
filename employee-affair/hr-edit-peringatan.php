@@ -1067,7 +1067,7 @@ function goBack() {
     <td width="84"><b>Daftar</b></td>
     <td width="8">:</td>
     <td width="4">&nbsp;</td>
-    <td width="437">Lampiran Keputusan Direksi PERUMDA Parkir Makassar Raya</td>
+    <td width="437">Lampiran Keputusan Direksi PT. Pelabuhan Indonesia (Persero) Regional 4</td>
   </tr>
 							<tr>
 							  <td><b>Nomor</b></td>
@@ -1144,7 +1144,7 @@ function goBack() {
   <tr>
 							  <td valign="center" style="text-align: right">12&nbsp;</td>
 							  <td valign="center">&nbsp;Tempat Bekerja</td>
-							  <td valign="center">&nbsp;PERUMDA Parkir Makassar Raya</td>
+							  <td valign="center">&nbsp;PT. Pelabuhan Indonesia (Persero) Regional 4</td>
   </tr>
   <tr>
 							  <td valign="center" style="text-align: right">13&nbsp;</td>
@@ -1176,7 +1176,7 @@ function goBack() {
   <tr>
     <td valign="center" style="text-align: right">&nbsp;</td>
     <td valign="center">&nbsp;</td>
-    <td colspan="3" valign="center">PERUMDA Parkir Makassar Raya</td>
+    <td colspan="3" valign="center">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
   </tr>
   <tr>
     <td valign="center" style="text-align: right">&nbsp;</td>

@@ -94,7 +94,7 @@ function goBack() {
 							  <td colspan="6">&nbsp;</td>
   </tr>
 							<tr>
-							  <td colspan="6"><p align="center"><span style="font-family: Bookman Old Style; font-size: 12px;"><b>KESEPAKATAN KERJA ANTARA PERUMDA PARKIR MAKASSAR RAYA</b></span><br />
+							  <td colspan="6"><p align="center"><span style="font-family: Bookman Old Style; font-size: 12px;"><b>KESEPAKATAN KERJA ANTARA PT. Pelabuhan Indonesia (Persero) Regional 4</b></span><br />
 							    <span style="font-family: Bookman Old Style; font-size: 12px;"><b>DENGAN TENAGA KONTRAK WAKTU TERBATAS</b></span><br />
 						      <span style="font-family: Bookman Old Style; font-size: 12px;"><b>TAHUN ANGGARAN : 2022</b></span></p></td>
 							</tr>
@@ -114,7 +114,7 @@ function goBack() {
 							  <td width="7" valign="top">&nbsp;</td>
 							  <td width="9" valign="top">:</td>
 							  <td width="8">&nbsp;</td>
-							  <td width="415"><div align="justify"><p>Direktur Utama PERUMDA Parkir Makassar Raya Berdasarkan  <br />
+							  <td width="415"><div align="justify"><p>Direktur Utama PT. Pelabuhan Indonesia (Persero) Regional 4 Berdasarkan  <br />
 						      Peraturan Pemerintah No. 54  Tahun 2017 tentang Badan Usaha Milik Negara. Dalam hal ini bertindak untuk dan  atas nama Perusahaan Umum Daerah Parkir Makassar Raya, yang untuk selanjutnya  disebut PIHAK PERTAMA. </p></div></td>
   </tr>
 							<tr>
@@ -414,7 +414,7 @@ function goBack() {
 							<tr>
 							  <td valign="top">2.</td>
 							  <td valign="top">&nbsp;</td>
-							  <td colspan="6" valign="top">Cuti bersalin dapat diberikan kepada PIHAK KEDUA (WANITA)  untuk persalinan anak pertama dan kedua selama 45 (empat puluh lima) hari kerja  sebelum dan sesudah persalinan terhitung sejak pertama diangkat berdasarkan  Surat Keputusan Direksi PERUMDA Parkir Makassar Raya sebagai Tenaga Kontrak waktu  terbatas ;</td>
+							  <td colspan="6" valign="top">Cuti bersalin dapat diberikan kepada PIHAK KEDUA (WANITA)  untuk persalinan anak pertama dan kedua selama 45 (empat puluh lima) hari kerja  sebelum dan sesudah persalinan terhitung sejak pertama diangkat berdasarkan  Surat Keputusan Direksi PT. Pelabuhan Indonesia (Persero) Regional 4 sebagai Tenaga Kontrak waktu  terbatas ;</td>
   </tr>
 							<tr>
 							  <td valign="top">3.</td>
@@ -1184,7 +1184,7 @@ function goBack() {
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">&nbsp;</td>
-							  <td colspan="3" valign="top" style="text-align: center"><strong>DIREKSI PERUMDA PARKIR MAKASSAR RAYA</strong></td>
+							  <td colspan="3" valign="top" style="text-align: center"><strong>DIREKSI PT. Pelabuhan Indonesia (Persero) Regional 4</strong></td>
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">&nbsp;</td>

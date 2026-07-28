@@ -815,7 +815,7 @@
                               <option value="3">000 000 003 - Christofher Rio Aviary</option>
                               <option value="3">000 000 004 - Mu’amar Nor Amin</option>
                               <option value="3">000 000 005 - Zulfadli Syahrir</option>
-                              <option value="3">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
+                              <option value="3">000 000 006 - Muhammad Nasrullah, S.Kom</option>
 
                           </select>
 																						

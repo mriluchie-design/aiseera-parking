@@ -420,7 +420,7 @@ function goBack() {
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">1.</td>
 							  <td valign="top">&nbsp;</td>
-							  <td colspan="6" valign="top"><p>Berdasarkan hasil Monitoring  dan Evaluasi terhadap pelaksanaan tugas menunjukan bahwa Saudari tidak  pernah masuk kantor dan tidak menjalankan tugas selama 10 hari berturut-turut selaku  staf Keuangan PERUMDA Parkir Makassar Raya.</p></td>
+							  <td colspan="6" valign="top"><p>Berdasarkan hasil Monitoring  dan Evaluasi terhadap pelaksanaan tugas menunjukan bahwa Saudari tidak  pernah masuk kantor dan tidak menjalankan tugas selama 10 hari berturut-turut selaku  staf Keuangan PT. Pelabuhan Indonesia (Persero) Regional 4.</p></td>
   </tr>
 							<tr>
 							  <td valign="top">&nbsp;</td>
@@ -434,7 +434,7 @@ function goBack() {
 							  <td colspan="11" valign="top">&nbsp;</td>
   </tr>
 							<tr>
-							  <td colspan="11" valign="top"><p>Demikian  Surat Teguran ini dibuat untuk diketahui dan sekaligus menjadi bahan  pertimbangan Direksi PERUMDA Parkir Makassar Raya dalam pengambilan keputusan  selanjutnya.<br />
+							  <td colspan="11" valign="top"><p>Demikian  Surat Teguran ini dibuat untuk diketahui dan sekaligus menjadi bahan  pertimbangan Direksi PT. Pelabuhan Indonesia (Persero) Regional 4 dalam pengambilan keputusan  selanjutnya.<br />
 						      </p></td>
   </tr>
 							<tr>
@@ -923,7 +923,7 @@ function goBack() {
     <td width="84"><b>Daftar</b></td>
     <td width="8">:</td>
     <td width="4">&nbsp;</td>
-    <td width="437">Lampiran Keputusan Direksi PERUMDA Parkir Makassar Raya</td>
+    <td width="437">Lampiran Keputusan Direksi PT. Pelabuhan Indonesia (Persero) Regional 4</td>
   </tr>
 							<tr>
 							  <td><b>Nomor</b></td>
@@ -1000,7 +1000,7 @@ function goBack() {
   <tr>
 							  <td valign="center" style="text-align: right">12&nbsp;</td>
 							  <td valign="center">&nbsp;Tempat Bekerja</td>
-							  <td valign="center">&nbsp;PERUMDA Parkir Makassar Raya</td>
+							  <td valign="center">&nbsp;PT. Pelabuhan Indonesia (Persero) Regional 4</td>
   </tr>
   <tr>
 							  <td valign="center" style="text-align: right">13&nbsp;</td>
@@ -1032,7 +1032,7 @@ function goBack() {
   <tr>
     <td valign="center" style="text-align: right">&nbsp;</td>
     <td valign="center">&nbsp;</td>
-    <td colspan="3" valign="center">PERUMDA Parkir Makassar Raya</td>
+    <td colspan="3" valign="center">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
   </tr>
   <tr>
     <td valign="center" style="text-align: right">&nbsp;</td>

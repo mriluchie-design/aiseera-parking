@@ -56,7 +56,7 @@ License: You must have a valid license purchased only from themeforest(the above
 							<div class="kt-portlet">
 										<div class="kt-portlet__head kt-portlet__head--noborder  kt-ribbon kt-ribbon--brand kt-ribbon--shadow kt-ribbon--left kt-ribbon--round">
 											<div class="kt-ribbon__target" style="top: 12px; right: -2px;">
-												 Perumda Parkir Makassar Raya
+												 PT. Pelabuhan Indonesia (Persero) Regional 4
 											</div>
 											
 										</div>

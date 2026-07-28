@@ -609,7 +609,7 @@ function goBack() {
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">&nbsp;</td>
-							  <td valign="top"><u><b>Ir. Asrarudin Mamonto, MM</b></u></td>
+							  <td valign="top"><u><b>Muhammad Nasrullah, S.Kom</b></u></td>
   </tr>
 							<tr>
 							  <td valign="top">&nbsp;</td>

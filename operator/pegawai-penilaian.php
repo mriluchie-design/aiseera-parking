@@ -88,22 +88,22 @@
 																					<option value="HI">000 000 005 - Zulfadli Syahrir</option>
 					 															</optgroup>
 					 															<optgroup label="Umum">
-					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
+					 																<option value="HI">000 000 006 - Muhammad Nasrullah, S.Kom</option>
 																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 																				<optgroup label="Keuangan dan Asset">
-					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
+					 																<option value="HI">000 000 006 - Muhammad Nasrullah, S.Kom</option>
 																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 																				<optgroup label="Operasional">
-					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
+					 																<option value="HI">000 000 006 - Muhammad Nasrullah, S.Kom</option>
 																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 																				<optgroup label="Pengembangan Usaha dan Kerjasama">
-					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
+					 																<option value="HI">000 000 006 - Muhammad Nasrullah, S.Kom</option>
 																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
@@ -174,22 +174,22 @@
 																					<option value="HI">000 000 005 - Zulfadli Syahrir</option>
 					 															</optgroup>
 					 															<optgroup label="Umum">
-					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
+					 																<option value="HI">000 000 006 - Muhammad Nasrullah, S.Kom</option>
 																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 																				<optgroup label="Keuangan dan Asset">
-					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
+					 																<option value="HI">000 000 006 - Muhammad Nasrullah, S.Kom</option>
 																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 																				<optgroup label="Operasional">
-					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
+					 																<option value="HI">000 000 006 - Muhammad Nasrullah, S.Kom</option>
 																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
 																				<optgroup label="Pengembangan Usaha dan Kerjasama">
-					 																<option value="HI">000 000 006 - Ir. Asrarudin Mamonto, MM</option>
+					 																<option value="HI">000 000 006 - Muhammad Nasrullah, S.Kom</option>
 																					<option value="HI">000 000 007 - Yuni Saslia, SE</option>
 					 																
 					 															</optgroup>
