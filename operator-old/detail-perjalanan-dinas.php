@@ -979,7 +979,7 @@ function goBack() {
                     <tr style="border:1px solid black;">
                         <td style="text-align:right; padding-right:5px; border:1px solid black;" width="5%">2.</td>
                       <td style="border:1px solid black; padding-left:5px;" width="90">Nama / Nip. Pegawai yang diperintah<br>mengadakan perjalanan dinas</td>
-                        <td style="border:1px solid black; padding-left:5px;" width="137">Yulianti Tomu, SE, M.Trap </td>
+                        <td style="border:1px solid black; padding-left:5px;" width="137">Muhammad Nasrullah, S.Kom, M.Trap </td>
                     </tr>
                     <tr style="border:1px solid black;">
                         <td style="text-align:right; padding-right:5px; border:1px solid black;" width="5%">3.</td>

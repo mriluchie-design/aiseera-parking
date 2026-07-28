@@ -330,7 +330,7 @@ function goBack() {
 												<div class="form-group row">
 																					<div class="col-lg-12">
 																						<label>Nama Pegawai :</label>
-																						<input type="text" class="form-control form-control-sm" value="Ir. Asraruddin Mamonto, MM" placeholder="31 Desember 2022" id="kt_datepicker_2" disabled>
+																						<input type="text" class="form-control form-control-sm" value="Ir. Muhammad Nasrullah, S.Kom, MM" placeholder="31 Desember 2022" id="kt_datepicker_2" disabled>
 																						
 																					</div>
 																					

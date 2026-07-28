@@ -370,7 +370,7 @@ function goBack() {
   </tr>
 							<tr>
 							  <td width="11" valign="top">1.</td>
-							  <td width="124" valign="top">Yulianti Tomu, SE</td>
+							  <td width="124" valign="top">Muhammad Nasrullah, S.Kom</td>
 							  <td width="7" valign="top">&nbsp;</td>
 							  <td width="9" valign="top">:</td>
 							  <td width="8">&nbsp;</td>
@@ -1508,7 +1508,7 @@ function goBack() {
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">&nbsp;</td>
-							  <td colspan="3" valign="top"><p align="center"><strong><u>YULIANTI TOMU, SE</u></strong></p></td>
+							  <td colspan="3" valign="top"><p align="center"><strong><u>Muhammad Nasrullah, S.Kom</u></strong></p></td>
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top"><strong>YUNUS TULAK, S.IP</strong></td>
@@ -2678,7 +2678,7 @@ function goBack() {
 							  <td colspan="3" style="text-align: left">&nbsp;</td>
   </tr>
 							<tr>
-							  <td colspan="3" style="text-align: left"><span style="font-family: Bookman Old Style; font-size: 12px; margin-bottom:3rem"><u><b>Yulianti Tomu, SE</b></u></td>
+							  <td colspan="3" style="text-align: left"><span style="font-family: Bookman Old Style; font-size: 12px; margin-bottom:3rem"><u><b>Muhammad Nasrullah, S.Kom</b></u></td>
   </tr>
 							<tr>
 							  <td colspan="3" style="text-align: left">Direktur Utama</td>
@@ -2850,7 +2850,7 @@ function goBack() {
   <tr>
     <td valign="center" style="text-align: right">&nbsp;</td>
     <td valign="center">&nbsp;</td>
-    <td colspan="3" valign="center" style="text-align: left"><u><b>Yulianti Tomu, SE</b></u></td>
+    <td colspan="3" valign="center" style="text-align: left"><u><b>Muhammad Nasrullah, S.Kom</b></u></td>
   </tr>
   <tr>
     <td valign="center" style="text-align: right">&nbsp;</td>

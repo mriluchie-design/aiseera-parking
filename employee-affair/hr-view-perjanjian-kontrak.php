@@ -110,7 +110,7 @@ function goBack() {
   </tr>
 							<tr>
 							  <td width="11" valign="top">1.</td>
-							  <td width="124" valign="top">Yulianti Tomu, SE</td>
+							  <td width="124" valign="top">Muhammad Nasrullah, S.Kom</td>
 							  <td width="7" valign="top">&nbsp;</td>
 							  <td width="9" valign="top">:</td>
 							  <td width="8">&nbsp;</td>
@@ -1296,7 +1296,7 @@ function goBack() {
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">&nbsp;</td>
-							  <td colspan="3" valign="top"><p align="center"><strong><u>YULIANTI TOMU, SE</u></strong></p></td>
+							  <td colspan="3" valign="top"><p align="center"><strong><u>Muhammad Nasrullah, S.Kom</u></strong></p></td>
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top"><strong>YUNUS TULAK, S.IP</strong></td>

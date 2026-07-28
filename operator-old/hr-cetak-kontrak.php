@@ -29,7 +29,7 @@ License: You must have a valid license purchased only from themeforest(the above
 								<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Yulianti Tomu, SE </span>
+											Muhammad Nasrullah, S.Kom </span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 										</form>
 									</div>
@@ -374,7 +374,7 @@ function goBack() {
   </tr>
 							<tr>
 							  <td colspan="3"><span style="font-family: Bookman Old Style; font-size: 12px; margin-bottom:3rem">
-														<u><b>Yulianti Tomu, SE</b></u></td>
+														<u><b>Muhammad Nasrullah, S.Kom</b></u></td>
   </tr>
 							<tr>
 							  <td colspan="3">Direktur Utama</td>
@@ -546,7 +546,7 @@ function goBack() {
   <tr>
     <td valign="center" style="text-align: right">&nbsp;</td>
     <td valign="center">&nbsp;</td>
-    <td colspan="3" valign="center"><u><b>Yulianti Tomu, SE</b></u></td>
+    <td colspan="3" valign="center"><u><b>Muhammad Nasrullah, S.Kom</b></u></td>
   </tr>
   <tr>
     <td valign="center" style="text-align: right">&nbsp;</td>

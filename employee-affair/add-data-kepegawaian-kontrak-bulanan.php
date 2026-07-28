@@ -357,7 +357,7 @@
 																						<label>Atasan Langsung :</label>
 																						<select class="form-control kt-select2 form-control-sm" id="kt_select2_2" name="param">
 					 															<optgroup label="Direksi">
-					 																<option value="AK" selected>000 000 001 - Yulianti Tomu, SE</option>
+					 																<option value="AK" selected>000 000 001 - Muhammad Nasrullah, S.Kom</option>
 					 																<option value="AK" >Direktur Keuangan & Asset</option>
 					 																<option value="AK" >Direktur Operasional</option>
 					 																<option value="AK" >Direktur Pengembangan Usaha & Kerja Sama</option>

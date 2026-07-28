@@ -114,7 +114,7 @@ function goBack() {
 <tr>
   <td style="text-align: right"></td>
   <td colspan="-1">&nbsp;</td>
-  <td colspan="3" style="text-align: left">Direktur Utama Perumda Parkir Makassar Raya An. Yulianti Tomu, SE Sesuai SPPD Terlampir</td>
+  <td colspan="3" style="text-align: left">Direktur Utama Perumda Parkir Makassar Raya An. Muhammad Nasrullah, S.Kom Sesuai SPPD Terlampir</td>
 </tr>
 <tr>
   <td style="text-align: right"></td>
@@ -139,7 +139,7 @@ function goBack() {
 							  <td height="75" valign="middle" style="text-align: center; border: 1px solid #ccc"><img src="../assets/img/qrcode.jpg" width="50" height="50"></td>
      </tr>
 							<tr>
-							  <td valign="top" style="text-align: center; border: 1px solid #ccc">YULIANTI TOMU, SE</td>
+							  <td valign="top" style="text-align: center; border: 1px solid #ccc">Muhammad Nasrullah, S.Kom</td>
 							  <td valign="top" style="text-align: center; border: 1px solid #ccc">ROSNANI, S.IP</td>
 							  <td valign="top" style="text-align: center; border: 1px solid #ccc">NAMA PEGAWAI</td>
      </tr>

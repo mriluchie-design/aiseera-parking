@@ -18,7 +18,7 @@
 									<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Yulianti Tomu, SE </span>
+											Muhammad Nasrullah, S.Kom </span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 										</form>
 									</div>
@@ -84,7 +84,7 @@ function goBack() {
 												<div class="form-group row">
 						<div class="col-lg-9">
                           <label>Nama Pegawai :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Yulianti Tomu, SE">
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom">
                         </div>
                        <div class="col-lg-3">
                           <label class="">NIP Pegawai :</label>

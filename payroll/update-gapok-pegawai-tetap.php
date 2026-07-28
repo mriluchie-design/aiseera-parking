@@ -75,7 +75,7 @@ function goBack() {
                       <div class="form-group row">
                         <div class="col-lg-4">
                           <label>Nama Pegawai :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Yulianti Tomu, SE">
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom">
                         </div>
 
                         <div class="col-lg-2">

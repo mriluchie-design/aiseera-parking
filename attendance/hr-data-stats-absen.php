@@ -84,7 +84,7 @@
 						                          <label>Nama Pegawai :</label>
 												  <select class="form-control kt-selectpicker form-control" data-live-search="true">
 					 															<optgroup label="Direksi">
-					 																<option value="AK"selected >000 000 001 - Yulianti Tomu, SE</option>
+					 																<option value="AK"selected >000 000 001 - Muhammad Nasrullah, S.Kom</option>
 																					<option value="HI">000 000 002 - Rizal Asjadad</option>
 																					<option value="HI">000 000 003 - Christofher Rio Aviary</option>
 																					<option value="HI">000 000 004 - Mu’amar Nor Amin</option>
@@ -306,7 +306,7 @@
 																<td colspan="45" bgcolor="#008fd1"><span style="text-align:left; color: #FFF;">Direksi</span></td>
 															</tr>
 															<tr>
-																<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yulianti Tomu, SE<hr>000 000 001<hr>Direktur Utama" data-html="true">
+																<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Muhammad Nasrullah, S.Kom<hr>000 000 001<hr>Direktur Utama" data-html="true">
 																		<img src="../assets/media/users/100_15.jpg" alt="image">
 																	</a></td>
 																<td align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Tetap</span></td>
@@ -1919,7 +1919,7 @@
 															</a></td>
     <td width="15%">Nama Pegawai</td>
     <td width="1%">:</td>
-    <td width="30%">Yulianti Tomu, SE</td>
+    <td width="30%">Muhammad Nasrullah, S.Kom</td>
     <td width="2%" rowspan="2">&nbsp;</td>
     <td width="18%">Kantor</td>
     <td width="1%">:</td>

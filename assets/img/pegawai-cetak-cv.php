@@ -29,7 +29,7 @@ License: You must have a valid license purchased only from themeforest(the above
 								<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Yulianti Tomu, SE </span>
+											Muhammad Nasrullah, S.Kom </span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
 										</form>
@@ -113,7 +113,7 @@ function goBack() {
 							  <td width="12" valign="top">&nbsp;</td>
 							  <td width="151" valign="top">Nama Lengkap</td>
 							  <td valign="top" style="text-align: center">:</td>
-							  <td colspan="3" valign="top">Yulianti Tomu, SE</td>
+							  <td colspan="3" valign="top">Muhammad Nasrullah, S.Kom</td>
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">&nbsp;</td>
   </tr>

@@ -87,7 +87,7 @@ function goBack() {
 							  <td valign="top">Pemberi Perintah</td>
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top" style="text-align: center">:</td>
-							  <td width="444" valign="top">Yulianti Tomu, SE</td>
+							  <td width="444" valign="top">Muhammad Nasrullah, S.Kom</td>
   </tr>
 							<tr>
 							  <td valign="top">NIP</td>

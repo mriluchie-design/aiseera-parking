@@ -78,7 +78,7 @@
 
 					                         <select class="form-control kt-selectpicker form-control" data-live-search="true">
 					 															<optgroup label="Direksi">
-					 																<option value="AK"selected >000 000 001 - Yulianti Tomu, SE</option>
+					 																<option value="AK"selected >000 000 001 - Muhammad Nasrullah, S.Kom</option>
 																					<option value="HI">000 000 002 - Rizal Asjadad</option>
 																					<option value="HI">000 000 003 - Christofher Rio Aviary</option>
 																					<option value="HI">000 000 004 - Mu’amar Nor Amin</option>
@@ -307,7 +307,7 @@
 														<img src="../assets/media/users/100_15.jpg" alt="image">
 													</a></td>
 
-												<td width="3%" style="text-align:left" nowrap>Yulianti Tomu, SE</td>
+												<td width="3%" style="text-align:left" nowrap>Muhammad Nasrullah, S.Kom</td>
 												<td width="1%" style="text-align:center" nowrap>000 000 001</td>
 												<td width="1%" style="text-align:center" nowrap>Direksi</td>
 												<td width="3%" style="text-align:center" nowrap>Direksi</td>

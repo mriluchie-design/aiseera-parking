@@ -277,7 +277,7 @@ function goBack() {
 																						<label>Cari Pegawai :</label>
 																						<select class="form-control kt-selectpicker" data-live-search="true">\
 																						<optgroup label="- Direksi">
-                              <option value="2">000 000 001 - Yulianti Tomu, SE</option>
+                              <option value="2">000 000 001 - Muhammad Nasrullah, S.Kom</option>
                               <option value="2">000 000 002 - Rizal Asjadad</option>
                               <option value="3">000 000 003 - Christofher Rio Aviary</option>
                               <option value="3">000 000 004 - Mu’amar Nor Amin</option>
@@ -568,7 +568,7 @@ function goBack() {
 																						<label>Cari Pegawai :</label>
 																						<select class="form-control kt-selectpicker" data-live-search="true">\
 																						<optgroup label="- Direksi">
-                              <option value="2">000 000 001 - Yulianti Tomu, SE</option>
+                              <option value="2">000 000 001 - Muhammad Nasrullah, S.Kom</option>
                               <option value="2">000 000 002 - Rizal Asjadad</option>
                               <option value="3">000 000 003 - Christofher Rio Aviary</option>
                               <option value="3">000 000 004 - Mu’amar Nor Amin</option>

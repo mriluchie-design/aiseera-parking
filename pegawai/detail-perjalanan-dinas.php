@@ -126,7 +126,7 @@ function goBack() {
                       <div class="form-group row">
                        <div class="col-lg-2">
                           <label>Pemberi Tugas :</label>
-                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Yulianti Tomu, SE">
+                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom">
                         </div>
 
                         <div class="col-lg-2">
@@ -202,7 +202,7 @@ function goBack() {
   </tr>
   <tr>
     <td style="text-align:center">1</td>
-    <td style="text-align:center"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Yulianti Tomu, SE"></td>
+    <td style="text-align:center"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom"></td>
     <td style="text-align:center"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="000 000 001"></td>
     <td style="text-align:center"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Direksi"></td>
     <td style="text-align:center"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Direksi"></td>
@@ -349,7 +349,7 @@ function goBack() {
   <tr>
     <td style="text-align:center">&nbsp;</td>
     <td style="text-align:center" width="1%">a</td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Yulianti Tomu, SE" /></td>
+    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom" /></td>
     <td style="text-align:left">
       <input type="text" style="text-align:left" class="form-control form-control-sm" disabled="disabled" placeholder="Direktur Utama" style="text-align:center">
       </div></td>
@@ -545,7 +545,7 @@ function goBack() {
   <tr>
     <td style="text-align:center">&nbsp;</td>
     <td width="1%" style="text-align:center">a</td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Yulianti Tomu, SE" /></td>
+    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom" /></td>
     <td style="text-align:left">
       <input type="text" style="text-align:left" class="form-control form-control-sm" disabled="disabled" placeholder="Direktur Utama" style="text-align:center">
       </div></td>
@@ -741,7 +741,7 @@ function goBack() {
   <tr>
     <td style="text-align:center">&nbsp;</td>
     <td width="1%" style="text-align:center">a</td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Yulianti Tomu, SE" /></td>
+    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom" /></td>
     <td style="text-align:left">
       <input type="text" style="text-align:left" class="form-control form-control-sm" disabled="disabled" placeholder="Direktur Utama" style="text-align:center">
       </div></td>
@@ -937,7 +937,7 @@ function goBack() {
   <tr>
     <td style="text-align:center">&nbsp;</td>
     <td width="1%" style="text-align:center">a</td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Yulianti Tomu, SE" /></td>
+    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom" /></td>
     <td style="text-align:left">
       <input type="text" style="text-align:left" class="form-control form-control-sm" disabled="disabled" placeholder="Direktur Utama" style="text-align:center">
       </div></td>
@@ -1133,7 +1133,7 @@ function goBack() {
   <tr>
     <td style="text-align:center">&nbsp;</td>
     <td width="1%" style="text-align:center">a</td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Yulianti Tomu, SE" /></td>
+    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom" /></td>
     <td style="text-align:left">
       <input type="text" style="text-align:left" class="form-control form-control-sm" disabled="disabled" placeholder="Direktur Utama" style="text-align:center">
       </div></td>
@@ -1329,7 +1329,7 @@ function goBack() {
   <tr>
     <td style="text-align:center">&nbsp;</td>
     <td width="1%" style="text-align:center">a</td>
-    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Yulianti Tomu, SE" /></td>
+    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom" /></td>
     <td style="text-align:left">
       <input type="text" style="text-align:left" class="form-control form-control-sm" disabled="disabled" placeholder="Direktur Utama" style="text-align:center">
       </div></td>

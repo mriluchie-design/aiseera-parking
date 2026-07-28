@@ -81,7 +81,7 @@
 						                          <label>Pejabat Penilai :</label>
 												  <select class="form-control kt-selectpicker form-control" data-live-search="true">
 					 															<optgroup label="Direksi">
-					 																<option value="AK"selected >000 000 001 - Yulianti Tomu, SE</option>
+					 																<option value="AK"selected >000 000 001 - Muhammad Nasrullah, S.Kom</option>
 																					<option value="HI">000 000 002 - Rizal Asjadad</option>
 																					<option value="HI">000 000 003 - Christofher Rio Aviary</option>
 																					<option value="HI">000 000 004 - Mu’amar Nor Amin</option>
@@ -167,7 +167,7 @@
 						                          <label>Pegawai yang Dinilai :</label>
 												  <select class="form-control kt-selectpicker form-control" data-live-search="true">
 					 															<optgroup label="Direksi">
-					 																<option value="AK"selected >000 000 001 - Yulianti Tomu, SE</option>
+					 																<option value="AK"selected >000 000 001 - Muhammad Nasrullah, S.Kom</option>
 																					<option value="HI">000 000 002 - Rizal Asjadad</option>
 																					<option value="HI">000 000 003 - Christofher Rio Aviary</option>
 																					<option value="HI">000 000 004 - Mu’amar Nor Amin</option>
@@ -297,7 +297,7 @@
 												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_9.jpg" alt="image">
 													</a></td>
-												<td id="kt_table_1" style="text-align:left">Yulianti Tomu, SE</td>
+												<td id="kt_table_1" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
 												<td id="kt_table_1" style="text-align:left">238 004 032</td>
 												<td id="kt_table_1" style="text-align:left">Direktur Utama</td>
 												<td style="text-align:left">Menghadiri Koordinasi Pembahasan Parkir pada Mall Ratu Indah</td>
@@ -343,7 +343,7 @@
 												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_14.jpg" alt="image">
 													</a></td>
-												<td id="kt_table_1" style="text-align:left">Yulianti Tomu, SE</td>
+												<td id="kt_table_1" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
 												<td id="kt_table_1" style="text-align:left">238 004 032</td>
 												<td id="kt_table_1" style="text-align:left">Direktur Utama</td>
 												<td style="text-align:left">Menyiapkan Dokumen Administrasi Tender</td>
@@ -389,7 +389,7 @@
 												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Sri Suhartini, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_14.jpg" alt="image">
 													</a></td>
-												<td id="kt_table_1" style="text-align:left">Yulianti Tomu, SE</td>
+												<td id="kt_table_1" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
 												<td id="kt_table_1" style="text-align:left">238 004 032</td>
 												<td id="kt_table_1" style="text-align:left">Direktur Utama</td>
 												<td style="text-align:left">Menyiapkan Dokumen Administrasi Pajak</td>

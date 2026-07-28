@@ -240,7 +240,7 @@
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="SRI SUHARTINI,SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_15.jpg" alt="image">
 													</a></td>
-												<td style="text-align:left" nowrap>Yulianti Tomu, SE</td>
+												<td style="text-align:left" nowrap>Muhammad Nasrullah, S.Kom</td>
 												<td style="text-align:center" nowrap>000 000 001</td>
 												<td style="text-align:center" nowrap>Direksi</td>
 												<td style="text-align:center" nowrap>Direksi</td>
