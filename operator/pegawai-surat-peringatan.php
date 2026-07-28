@@ -150,18 +150,17 @@
 										<thead style="text-align:center">
 											<tr>
 												<th width="1%" rowspan="2" bgcolor="#f7fcff">#</th>
-												<th width="3%" rowspan="2" bgcolor="#f7fcff">No. SP pegawai</th>
+												<th width="3%" rowspan="2" bgcolor="#f7fcff">Nomor<br>Surat Peringatan</th>
 												
-												<th width="3%" rowspan="2" bgcolor="#f7fcff">Tanggal SP Pegawai</th>
-												<th width="3%" rowspan="2" bgcolor="#f7fcff">Jenis Peringatan</th>
+												<th width="3%" rowspan="2" bgcolor="#f7fcff">Tanggal<br>Surat Peringatan</th>
+												<th width="3%" rowspan="2" bgcolor="#f7fcff">Jenis<br>Peringatan</th>
 												<th colspan="3" bgcolor="#f7fcff">Dibuat Oleh</th>
 												<th width="10%" rowspan="2" bgcolor="#f7fcff">Keterangan</th>
 												<th width="1%" rowspan="2" bgcolor="#f7fcff">Verifikasi</th>
 												<th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 											</tr>
 											<tr>
-											  <th width="1%" bgcolor="#f7fcff">Foto</th>
-											  <th width="1%" bgcolor="#f7fcff">Nama Pegawai</th>
+											  <th colspan="2" bgcolor="#f7fcff"> Pegawai</th>
 											  <th width="1%" bgcolor="#f7fcff">Kantor</th>
 										  </tr>
 										</thead>
@@ -172,10 +171,10 @@
 												
 												<td style="text-align:center">1 November 2019</td>
 												<td style="text-align:center">Peringatan Pertama</td>
-												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/300_21.jpg" alt="image">
 													</a></td>
-												<td style="text-align:left" nowrap>Muhammad Ramadhan Lerrick, ST</td>
+												<td width="1%" nowrap style="text-align:left">Muhammad Ramadhan Lerrick, ST</td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
 												<td style="text-align:center" nowrap>&nbsp;</td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release" data-html="true">
@@ -211,6 +210,7 @@
 												<td style="text-align:center">1 November 2020</td>
 												<td style="text-align:center">Peringatan Pertama</td>
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+
 														<img src="../assets/media/users/100_9.jpg" alt="image">
 													</a></td>
 												<td style="text-align:left" nowrap>Oklan Zulkifli, SE</td>

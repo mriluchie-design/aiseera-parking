@@ -121,8 +121,21 @@
 							                        </div>
 													<div class="col-lg-2">
 							                          <label class="">Tujuan Permohonan :</label>
-							                          <textarea class="form-control" id="exampleTextarea" rows="1"></textarea>
+							                          <div class="kt-input-icon kt-input-icon--right">
+        							<input type="text" class="form-control form-control-sm" placeholder="Search..." id="generalSearch">
+        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
+    		                            <span><i class="la la-search"></i></span>
+    		                        </span>
+    		                    </div>
 							                        </div>
+													<div class="col-lg-2">
+						                          <label class="">Status :</label>
+																			<select class="form-control kt-selectpicker" data-live-search="true">
+																			<option value="2">Disetujui</option>
+																			<option value="2">Proses</option>
+																			<option value="2">Ditolak</option>
+																	</select>
+						                        </div>
 							                        
 							                      </div>
 							                      
@@ -158,23 +171,22 @@
 												<th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 											</tr>
 											<tr>
-											  <th width="1%" bgcolor="#f7fcff">Foto</th>
-											  <th width="1%" bgcolor="#f7fcff">Nama Pegawai</th>
+											  <th colspan="2" bgcolor="#f7fcff"> Pegawai</th>
 											  <th width="1%" bgcolor="#f7fcff">Kantor</th>
 										  </tr>
 										</thead>
 										<tbody>
 											<tr>
-												<td id="kt_table_1">1</td>
+												<td align="right">1</td>
 												<td id="kt_table_1">003/PSKK/XII/2022</td>
 												<td id="kt_table_1">003/SKK/XII/2022</td>
 												
 												<td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 												<td style="text-align:left">Kelengkapan Administrasi Pengurusan SKCK</td>
-												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td width="1%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/300_21.jpg" alt="image">
 													</a></td>
-												<td style="text-align:left" nowrap>Muhammad Ramadhan Lerrick, ST</td>
+												<td width="1%" nowrap style="text-align:left">Muhammad Ramadhan Lerrick, ST</td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
 												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
 															<i class="fa flaticon2-check-mark"></i>

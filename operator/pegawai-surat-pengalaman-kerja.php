@@ -84,7 +84,16 @@
 						                       
 						                        
 												
-												
+												<div class="col-lg-2">
+						                          <label>Nomor Surat :</label>
+																		<div class="kt-input-icon kt-input-icon--right">
+        							<input type="text" class="form-control form-control-sm" placeholder="Search..." id="generalSearch">
+        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
+    		                            <span><i class="la la-search"></i></span>
+    		                        </span>
+    		                    </div>
+								
+						                        </div>
 												<div class="col-lg-2">
 						                          <label class="">Tanggal Resign :</label>
 																			<div class="input-group">
@@ -133,10 +142,10 @@
 										</thead>
 										<tbody>
 											<tr>
-												<td id="kt_table_1">1</td>
-												<td style="text-align:left">007/HR/PMR/IX/2019</td>
-												<td style="text-align:left">4 September 2018</td>
-												<td style="text-align:left">4 September 2018</td>
+												<td align="right">1</td>
+												<td style="text-align:left">007/HR/PMR/IX/2026</td>
+												<td style="text-align:center">4 September 2026</td>
+												<td style="text-align:center">4 September 2026</td>
 												<td style="text-align:left">Telah bekerja selama 12 bulan</td>
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/300_21.jpg" alt="image">
