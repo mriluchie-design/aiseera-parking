@@ -286,7 +286,7 @@ function goBack() {
                       <div class="form-group row">
                        <div class="col-lg-12">
                           <label>Berdasarkan :</label>
-						  <input type="text" class="form-control form-control-sm" placeholder="Surat Keputusan Direksi Perusahaan Umum Daerah Parkir Makassar">
+						  <input type="text" class="form-control form-control-sm" placeholder="Surat Keputusan Direksi PT. Pelabuhan Indonesia (Persero) Regional 4 Makassar">
 						 
 
                         </div>
@@ -354,7 +354,7 @@ function goBack() {
 							  <td colspan="6">&nbsp;</td>
   </tr>
 							<tr>
-							  <td colspan="6"><p align="center"><span style="font-family: Bookman Old Style; font-size: 12px;"><b>KESEPAKATAN KERJA ANTARA PERUMDA PARKIR MAKASSAR RAYA</b></span><br />
+							  <td colspan="6"><p align="center"><span style="font-family: Bookman Old Style; font-size: 12px;"><b>KESEPAKATAN KERJA ANTARA PT. Pelabuhan Indonesia (Persero) Regional 4</b></span><br />
 							    <span style="font-family: Bookman Old Style; font-size: 12px;"><b>DENGAN TENAGA KONTRAK WAKTU TERBATAS</b></span><br />
 						      <span style="font-family: Bookman Old Style; font-size: 12px;"><b>TAHUN ANGGARAN : 2022</b></span></p></td>
 							</tr>
@@ -374,8 +374,8 @@ function goBack() {
 							  <td width="7" valign="top">&nbsp;</td>
 							  <td width="9" valign="top">:</td>
 							  <td width="8">&nbsp;</td>
-							  <td width="415"><div align="justify"><p>Direktur Utama PERUMDA Parkir Makassar Raya Berdasarkan  <br />
-						      Peraturan Pemerintah No. 54  Tahun 2017 tentang Badan Usaha Milik Negara. Dalam hal ini bertindak untuk dan  atas nama Perusahaan Umum Daerah Parkir Makassar Raya, yang untuk selanjutnya  disebut PIHAK PERTAMA. </p></div></td>
+							  <td width="415"><div align="justify"><p>Direktur Utama PT. Pelabuhan Indonesia (Persero) Regional 4 Berdasarkan  <br />
+						      Peraturan Pemerintah No. 54  Tahun 2017 tentang Badan Usaha Milik Negara. Dalam hal ini bertindak untuk dan  atas nama PT. Pelabuhan Indonesia (Persero) Regional 4, yang untuk selanjutnya  disebut PIHAK PERTAMA. </p></div></td>
   </tr>
 							<tr>
 							  <td valign="top">2.</td>
@@ -426,7 +426,7 @@ function goBack() {
 							  <td>&nbsp;</td>
   </tr>
 							<tr>
-							  <td colspan="6" valign="top"><div align="justify"><p>Bahwa berdasarkan Surat Keputusan Direksi Perusahaan Umum Daerah Parkir Makassar Nomor : 154/20-S.Kep.Dir/PERUMDA-PMR/X/2022, Tanggal 31 Oktober  2022, <strong>PIHAK PERTAMA</strong> dan <strong>PIHAK KEDUA</strong> sepakat untuk mengadakan  kesepakatan kerja waktu terbatas dengan syarat-syarat dan ketentuan sebagai  berikut :</p></div></td>
+							  <td colspan="6" valign="top"><div align="justify"><p>Bahwa berdasarkan Surat Keputusan Direksi PT. Pelabuhan Indonesia (Persero) Regional 4 Makassar Nomor : 154/20-S.Kep.Dir/PERUMDA-PMR/X/2022, Tanggal 31 Oktober  2022, <strong>PIHAK PERTAMA</strong> dan <strong>PIHAK KEDUA</strong> sepakat untuk mengadakan  kesepakatan kerja waktu terbatas dengan syarat-syarat dan ketentuan sebagai  berikut :</p></div></td>
   </tr>
 							<tr>
 							  <td valign="top">&nbsp;</td>
@@ -451,7 +451,7 @@ function goBack() {
 							  <td>&nbsp;</td>
   </tr>
 							<tr>
-							  <td colspan="6" valign="top"><p><strong>PIHAK PERTAMA</strong> setuju menerima, sebagaimana <strong>PIHAK  KEDUA</strong> bersedia dan sanggup untuk menjadi Tenaga Kontrak pada Perusahaan  Umum Daerah Parkir Makassar Raya untuk Jangka waktu pekerjaan terhitung mulai  tanggal 01 November 2022 s/d 31 Desember 2022.</p></td>
+							  <td colspan="6" valign="top"><p><strong>PIHAK PERTAMA</strong> setuju menerima, sebagaimana <strong>PIHAK  KEDUA</strong> bersedia dan sanggup untuk menjadi Tenaga Kontrak pada Perusahaan  Umum Daerah PT. Pelabuhan Indonesia (Persero) Regional 4 untuk Jangka waktu pekerjaan terhitung mulai  tanggal 01 November 2022 s/d 31 Desember 2022.</p></td>
   </tr>
 							<tr>
 							  <td valign="top">&nbsp;</td>
@@ -477,7 +477,7 @@ function goBack() {
   </tr>
 							<tr>
 							  <td valign="top">(1).</td>
-							  <td colspan="5" valign="top">PIHAK KEDUA sebagai tenaga pendukung pada  Perusahaan Umum Daerah Parkir  Makassar Raya dengan status sebagai Tenaga Kontrak Kerja Waktu Terbatas, diberi  Gaji / Upah oleh PIHAK PERTAMA dan ditambah penghasilan lainnya berdasarkan  ketentuan Perusahaan yang berlaku. </td>
+							  <td colspan="5" valign="top">PIHAK KEDUA sebagai tenaga pendukung pada  PT. Pelabuhan Indonesia (Persero) Regional 4  Makassar Raya dengan status sebagai Tenaga Kontrak Kerja Waktu Terbatas, diberi  Gaji / Upah oleh PIHAK PERTAMA dan ditambah penghasilan lainnya berdasarkan  ketentuan Perusahaan yang berlaku. </td>
   </tr>
 							<tr>
 							  <td valign="top">(2).</td>
@@ -530,7 +530,7 @@ function goBack() {
 							<tr>
 							  <td valign="top">(4).</td>
 							  <td valign="top"><p>&nbsp;</p></td>
-							  <td colspan="6" valign="top">Jam  mulai dan berakhir kerja adalah sesuai ketentuan jam kerja Perusahaan Umum  Daerah Parkir Makassar Raya.</td>
+							  <td colspan="6" valign="top">Jam  mulai dan berakhir kerja adalah sesuai ketentuan jam kerja PT. Pelabuhan Indonesia (Persero) Regional 4.</td>
   </tr>
 							<tr>
 							  <td valign="top">&nbsp;</td>
@@ -674,7 +674,7 @@ function goBack() {
 							<tr>
 							  <td valign="top">2.</td>
 							  <td valign="top">&nbsp;</td>
-							  <td colspan="6" valign="top">Cuti bersalin dapat diberikan kepada PIHAK KEDUA (WANITA)  untuk persalinan anak pertama dan kedua selama 45 (empat puluh lima) hari kerja  sebelum dan sesudah persalinan terhitung sejak pertama diangkat berdasarkan  Surat Keputusan Direksi PERUMDA Parkir Makassar Raya sebagai Tenaga Kontrak waktu  terbatas ;</td>
+							  <td colspan="6" valign="top">Cuti bersalin dapat diberikan kepada PIHAK KEDUA (WANITA)  untuk persalinan anak pertama dan kedua selama 45 (empat puluh lima) hari kerja  sebelum dan sesudah persalinan terhitung sejak pertama diangkat berdasarkan  Surat Keputusan Direksi PT. Pelabuhan Indonesia (Persero) Regional 4 sebagai Tenaga Kontrak waktu  terbatas ;</td>
   </tr>
 							<tr>
 							  <td valign="top">3.</td>
@@ -1402,7 +1402,7 @@ function goBack() {
 							<tr>
 							  <td valign="top" style="text-align: left">3.</td>
 							  <td valign="top">&nbsp;</td>
-							  <td colspan="10" valign="top" style="text-align: left">Segala biaya yang  dikeluarkan sehubungan dengan pelaksanaan Surat Perjanjian ini dibebankan pada  Anggaran Belanja Perusahaan Umum Daerah Parkir Makassar Raya Tahun 2022.</td>
+							  <td colspan="10" valign="top" style="text-align: left">Segala biaya yang  dikeluarkan sehubungan dengan pelaksanaan Surat Perjanjian ini dibebankan pada  Anggaran Belanja PT. Pelabuhan Indonesia (Persero) Regional 4 Tahun 2022.</td>
   </tr>
 							<tr>
 							  <td valign="top" style="text-align: left">4.</td>
@@ -1444,7 +1444,7 @@ function goBack() {
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">&nbsp;</td>
-							  <td colspan="3" valign="top" style="text-align: center"><strong>DIREKSI PERUMDA PARKIR MAKASSAR RAYA</strong></td>
+							  <td colspan="3" valign="top" style="text-align: center"><strong>DIREKSI PT. Pelabuhan Indonesia (Persero) Regional 4</strong></td>
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">&nbsp;</td>
@@ -1593,7 +1593,7 @@ function goBack() {
 							  <td colspan="11" valign="top"><hr /></td>
   </tr>
 							<tr>
-							  <td colspan="11" valign="top"><span style="text-align:justify; line-height:1.5; font-family: Bookman Old Style; font-size: 10px;"><i>Sesuai dengan ketentuan yang berlaku, Perusahaan Umum Daerah Parkir Makassar Raya mengatur bahwa surat ini telah ditandatangani dan diverifikasi secara elektronik, sehingga tidak diperlukan tanda tangan basah pada Surat ini</i></span></td>
+							  <td colspan="11" valign="top"><span style="text-align:justify; line-height:1.5; font-family: Bookman Old Style; font-size: 10px;"><i>Sesuai dengan ketentuan yang berlaku, PT. Pelabuhan Indonesia (Persero) Regional 4 mengatur bahwa surat ini telah ditandatangani dan diverifikasi secara elektronik, sehingga tidak diperlukan tanda tangan basah pada Surat ini</i></span></td>
   </tr>
 							<tr>
 							  <td colspan="12" valign="top">&nbsp;</td>
@@ -1952,7 +1952,7 @@ function goBack() {
 																								</tr>
 																								<tr data-repeater-item>
 																								  <td style="text-align:center">4</td>
-																									<td style="text-align:left"><textarea class="form-control" id="exampleTextarea" rows="2" placeholder="Jam mulai dan berakhir kerja adalah sesuai ketentuan jam kerja Perusahaan Umum Daerah Parkir Makassar Raya."></textarea></td>
+																									<td style="text-align:left"><textarea class="form-control" id="exampleTextarea" rows="2" placeholder="Jam mulai dan berakhir kerja adalah sesuai ketentuan jam kerja PT. Pelabuhan Indonesia (Persero) Regional 4."></textarea></td>
 																									<td style="text-align:center"><a href="javascript:;" data-repeater-delete="" class="btn btn-outline-hover-danger btn-sm btn-icon" data-toggle="dropdown"><i class="fa flaticon2-trash"></i></a></td>
                                             
 																								</tr>
@@ -2237,7 +2237,7 @@ function goBack() {
 																								</tr>
 																								<tr data-repeater-item>
 																								  <td style="text-align:center">2</td>
-																									<td style="text-align:left"><textarea class="form-control" id="exampleTextarea" rows="6" placeholder="Cuti bersalin dapat diberikan kepada PIHAK KEDUA (WANITA) untuk persalinan anak pertama dan kedua selama 45 (empat puluh lima) hari kerja sebelum dan sesudah persalinan terhitung sejak pertama diangkat berdasarkan Surat Keputusan Direksi PERUMDA Parkir Makassar Raya sebagai Tenaga Kontrak waktu terbatas ;"></textarea></td>
+																									<td style="text-align:left"><textarea class="form-control" id="exampleTextarea" rows="6" placeholder="Cuti bersalin dapat diberikan kepada PIHAK KEDUA (WANITA) untuk persalinan anak pertama dan kedua selama 45 (empat puluh lima) hari kerja sebelum dan sesudah persalinan terhitung sejak pertama diangkat berdasarkan Surat Keputusan Direksi PT. Pelabuhan Indonesia (Persero) Regional 4 sebagai Tenaga Kontrak waktu terbatas ;"></textarea></td>
 																									<td style="text-align:center"><a href="javascript:;" data-repeater-delete="" class="btn btn-outline-hover-danger btn-sm btn-icon" data-toggle="dropdown"><i class="fa flaticon2-trash"></i></a></td>
                                             
                                                                                                     
@@ -2436,7 +2436,7 @@ function goBack() {
 						<table align="center" border="0" cellpadding="1" style="width: 600px; text-align:justify; line-height:1.5; font-family: Bookman Old Style; font-size: 12px;">
 							<tr>
 								<th colspan="6" class="text-center">
-									<span style="text-align: center"><span style="font-family: Bookman Old Style; font-size: 12px;"><u>KEPUTUSAN DIREKSI PERUSAHAAN UMUM DAERAH PARKIR MAKASSAR RAYA</b></u></span><br /><span style="font-family: Bookman Old Style; font-size: 12px; margin-bottom:3rem">
+									<span style="text-align: center"><span style="font-family: Bookman Old Style; font-size: 12px;"><u>KEPUTUSAN DIREKSI PT. Pelabuhan Indonesia (Persero) Regional 4</b></u></span><br /><span style="font-family: Bookman Old Style; font-size: 12px; margin-bottom:3rem">
 														<b>Nomor : 80.l-Peg/001/VIII/2022</b></span>
 								</th>
 							</tr>
@@ -2451,7 +2451,7 @@ function goBack() {
   </tr>
 							<tr>
 							  <td colspan="6"><p align="center"><span style="font-family: Bookman Old Style; font-size: 12px;"><b>PENGANGKATAN PEGAWAI</b></span><br />
-							    <span style="font-family: Bookman Old Style; font-size: 12px;"><b>PADA PERUSAHAAN UMUM DAERAH PARKIR</b></span><br />
+							    <span style="font-family: Bookman Old Style; font-size: 12px;"><b>PADA PT. Pelabuhan Indonesia (Persero) Regional 4</b></span><br />
 						      <span style="font-family: Bookman Old Style; font-size: 12px;"><b>MAKASSAR RAYA KOTA MAKASSAR TAHUN 2023</b></span></p></td>
 							</tr>
 							<tr>
@@ -2461,7 +2461,7 @@ function goBack() {
 								<td colspan="6"><div align="center"><span style="font-family: Bookman Old Style; font-size: 12px;"><b>Dengan Rahmat Tuhan Yang Maha Esa</b></span></div></td>
 							</tr>
 							<tr>
-							  <td colspan="6"><p align="center"><span style="font-family: Bookman Old Style; font-size: 12px;"><b>DIREKSI PERUSAHAAN UMUM DAERAH PARKIR MAKASSAR RAYA</b></span></p></td>
+							  <td colspan="6"><p align="center"><span style="font-family: Bookman Old Style; font-size: 12px;"><b>DIREKSI PT. Pelabuhan Indonesia (Persero) Regional 4</b></span></p></td>
   </tr>
 							<tr>
 							  <td colspan="6">&nbsp;</td>
@@ -2472,7 +2472,7 @@ function goBack() {
 							  <td valign="top">:</td>
 							  <td width="10" valign="top">a.</td>
 							  <td>&nbsp;</td>
-							  <td>bahwa sesuai ketentuan Peraturan Daerah No. 10 Tahun 2000 tentang Ketentuan badan Pengawas, Direksi dan Pegawai Perumda Parkir Makassar Raya, calon pegawai perusahaan yang namanya  tersebut  dalam  lajur  2 (dua) selama masa percobaan sejak tanggal sebagimana  tersebut  dalam  laJur 6 (enam) dari daftar  lampiran  keputusan  ini,  temyata  telah memenuhi syarat dan dipandang cakap untuk diangkat menjadi Pegawai PD. Parkir Makassar Raya.</td>
+							  <td>bahwa sesuai ketentuan Peraturan Daerah No. 10 Tahun 2000 tentang Ketentuan badan Pengawas, Direksi dan Pegawai PT. Pelabuhan Indonesia (Persero) Regional 4, calon pegawai perusahaan yang namanya  tersebut  dalam  lajur  2 (dua) selama masa percobaan sejak tanggal sebagimana  tersebut  dalam  laJur 6 (enam) dari daftar  lampiran  keputusan  ini,  temyata  telah memenuhi syarat dan dipandang cakap untuk diangkat menjadi Pegawai PD. PT. Pelabuhan Indonesia (Persero) Regional 4.</td>
   </tr>
 							<tr>
 							  <td valign="top">&nbsp;</td>
@@ -2480,7 +2480,7 @@ function goBack() {
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">b.</td>
 							  <td>&nbsp;</td>
-							  <td>bahwa untuk maksud pada huruf a diatas dituangkan dalam Surat Keputusan Direksi Perumda Parkir Makassar Raya.</td>
+							  <td>bahwa untuk maksud pada huruf a diatas dituangkan dalam Surat Keputusan Direksi PT. Pelabuhan Indonesia (Persero) Regional 4.</td>
   </tr>
 							<tr>
 							  <td colspan="6" valign="top">&nbsp;</td>
@@ -2549,7 +2549,7 @@ function goBack() {
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">6.</td>
 							  <td>&nbsp;</td>
-							  <td>Peraturan Daerah Nomor 5 Tentang Tentang Pembentukan Perusahaan Umum Daerah Parkir Makassar Raya ( Lembaran Daerah Kota Makassar Nomor 19 Tahun 1999 Seri D Nomor 6)</td>
+							  <td>Peraturan Daerah Nomor 5 Tentang Tentang Pembentukan PT. Pelabuhan Indonesia (Persero) Regional 4 ( Lembaran Daerah Kota Makassar Nomor 19 Tahun 1999 Seri D Nomor 6)</td>
   </tr>
 							<tr>
 							  <td valign="top">&nbsp;</td>
@@ -2557,7 +2557,7 @@ function goBack() {
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">7.</td>
 							  <td>&nbsp;</td>
-							  <td>Peraturan Daerah Makassar No. 10 Tahun 2000 tentang Ketentuan Pokok Badan Pengawas, Direksi dan Kepegawaian Perusahaan Umum Daerah Parkir Makassar Raya. (Lembaran daerah nomor 2 tahun 2000 seri D Nomor 2)</td>
+							  <td>Peraturan Daerah Makassar No. 10 Tahun 2000 tentang Ketentuan Pokok Badan Pengawas, Direksi dan Kepegawaian PT. Pelabuhan Indonesia (Persero) Regional 4. (Lembaran daerah nomor 2 tahun 2000 seri D Nomor 2)</td>
   </tr>
 							<tr>
 							  <td valign="top">&nbsp;</td>
@@ -2565,7 +2565,7 @@ function goBack() {
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">8.</td>
 							  <td>&nbsp;</td>
-							  <td>Keputusan Walikota Makassar No.736/S.Kep/137/2000 Tentang Penugasan Pengelolaan Perparkiran dalam Wilayah Kota Makassar kepada Perusahaan Umum Daerah Parkir Makassar Raya.</td>
+							  <td>Keputusan Walikota Makassar No.736/S.Kep/137/2000 Tentang Penugasan Pengelolaan Perparkiran dalam Wilayah Kota Makassar kepada PT. Pelabuhan Indonesia (Persero) Regional 4.</td>
   </tr>
 							<tr>
 							  <td valign="top">&nbsp;</td>
@@ -2573,7 +2573,7 @@ function goBack() {
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">9.</td>
 							  <td>&nbsp;</td>
-							  <td>Keputusan Walikota Makassar No.7040 tahun 1999 Tentang Struktur Organisasi dan tata kerja Perusahaan Daerah Parkir Makassar Raya Kota Makassar (Lembaran Daerah Kota Makassar Nomor 24 Tahun 1999 seri D Nomor 11).</td>
+							  <td>Keputusan Walikota Makassar No.7040 tahun 1999 Tentang Struktur Organisasi dan tata kerja PT. Pelabuhan Indonesia (Persero) Regional 4 Kota Makassar (Lembaran Daerah Kota Makassar Nomor 24 Tahun 1999 seri D Nomor 11).</td>
   </tr>
 							
 							<tr>
@@ -2585,7 +2585,7 @@ function goBack() {
 								<td>&nbsp;</td>
 								<td>&nbsp;</td>
 							  <td>&nbsp;</td>
-								<td valign="middle">Persetujuan Dewan Pengawas Perusahaan Umum Daerah Parkir Makassar Raya</td>
+								<td valign="middle">Persetujuan Direksi PT. Pelabuhan Indonesia (Persero)</td>
 							</tr>
 							<tr>
 								<td colspan="6">&nbsp;</td>
@@ -2618,7 +2618,7 @@ function goBack() {
 							  <td width="3" valign="top">:</td>
 							  <td width="10" valign="top"></td>
 							  <td width="1">&nbsp;</td>
-							  <td colspan="4" style="text-align: left"><span style="font-family: Bookman Old Style; font-size: 12px; margin-bottom:3rem"><b>KEPUTUSAN DIREKSI PERUSAHAAN DAERAH PARKIR MAKASSAR RAYA TENTANG PENGANGKATAN PEGAWAI PERUSAHAAN UMUM DAERAH PARKIR MAKASSAR RAYA.</b></td>
+							  <td colspan="4" style="text-align: left"><span style="font-family: Bookman Old Style; font-size: 12px; margin-bottom:3rem"><b>KEPUTUSAN DIREKSI PT. Pelabuhan Indonesia (Persero) Regional 4 TENTANG PENGANGKATAN PEGAWAI PT. Pelabuhan Indonesia (Persero) Regional 4.</b></td>
   </tr>
 							<tr>
 							  <td colspan="9" valign="top">&nbsp;</td>
@@ -2629,7 +2629,7 @@ function goBack() {
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top"></td>
 							  <td>&nbsp;</td>
-							  <td colspan="4" style="text-align: left">Calon pegawai yang namanya tersebut pada lampiran surat keputusan ini dalam lajur 2 (dua) diangkat menjadi Pegawai Perusahaan Umum Daerah Parkir Makassar Raya, dalam golongsn/ruang pada lajur  7 (tujuh)  dan  diberikan Gaji pokok sebagaimana tersebut dalam lajur 9 (sembilan) terhitung mulai tanggal tertera dalam lajur 10 (sepuluh) serta penghasilan lainnya sesuai ketentuan yang berlaku.</td>
+							  <td colspan="4" style="text-align: left">Calon pegawai yang namanya tersebut pada lampiran surat keputusan ini dalam lajur 2 (dua) diangkat menjadi Pegawai PT. Pelabuhan Indonesia (Persero) Regional 4, dalam golongsn/ruang pada lajur  7 (tujuh)  dan  diberikan Gaji pokok sebagaimana tersebut dalam lajur 9 (sembilan) terhitung mulai tanggal tertera dalam lajur 10 (sepuluh) serta penghasilan lainnya sesuai ketentuan yang berlaku.</td>
   </tr>
 							<tr>
 							  <td valign="top" style="text-align: left">KEDUA</td>
@@ -2666,7 +2666,7 @@ function goBack() {
 							  <td colspan="3" style="text-align: left">Direksi Perusahaan Umum Daerah </td>
   </tr>
 							<tr>
-							  <td colspan="3" style="text-align: left">Parkir Makassar Raya</td>
+							  <td colspan="3" style="text-align: left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
   </tr>
 							<tr>
 							  <td colspan="3" style="text-align: left">&nbsp;</td>
@@ -2693,7 +2693,7 @@ function goBack() {
 							  <td colspan="9" style="text-align: left">1. Bapak Walikota Makassar di Makassar;</td>
   </tr>
 							<tr>
-							  <td colspan="9" style="text-align: left">2. Dewan Pengawas Perusahaan Umum Daerah Parkir Makassar Raya</td>
+							  <td colspan="9" style="text-align: left">2. Direksi PT. Pelabuhan Indonesia (Persero)</td>
   </tr>
 							<tr>
 								<td colspan="9" style="text-align: left">3.	Pertinggal.</td>
@@ -2720,7 +2720,7 @@ function goBack() {
     <td width="84"><b>Daftar</b></td>
     <td width="8">:</td>
     <td width="4">&nbsp;</td>
-    <td width="437">Lampiran Keputusan Direksi PERUMDA Parkir Makassar Raya</td>
+    <td width="437">Lampiran Keputusan Direksi PT. Pelabuhan Indonesia (Persero) Regional 4</td>
   </tr>
 							<tr>
 							  <td><b>Nomor</b></td>
@@ -2797,7 +2797,7 @@ function goBack() {
   <tr>
 							  <td valign="center" style="text-align: right">12&nbsp;</td>
 							  <td valign="center">&nbsp;Tempat Bekerja</td>
-							  <td valign="center">&nbsp;PERUMDA Parkir Makassar Raya</td>
+							  <td valign="center">&nbsp;PT. Pelabuhan Indonesia (Persero) Regional 4</td>
   </tr>
   <tr>
 							  <td valign="center" style="text-align: right">13&nbsp;</td>
@@ -2830,7 +2830,7 @@ function goBack() {
   </tr>
   <tr>
     <td valign="center" style="text-align: right">&nbsp;</td>
-    <td colspan="3" valign="center" style="text-align: left">PERUMDA Parkir Makassar Raya</td>
+    <td colspan="3" valign="center" style="text-align: left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
   </tr>
   <tr>
     <td valign="center" style="text-align: right">&nbsp;</td>
@@ -2870,7 +2870,7 @@ function goBack() {
 							  <td colspan="5"><hr /></td>
   </tr>
 							<tr>
-							  <td colspan="5"><span style="text-align:justify; line-height:1.5; font-family: Bookman Old Style; font-size: 10px;"><i>Sesuai dengan ketentuan yang berlaku, Perusahaan Umum Daerah Parkir Makassar Raya mengatur bahwa surat ini telah ditandatangani dan diverifikasi secara elektronik, sehingga tidak diperlukan tanda tangan basah pada Surat ini</i></span></td>
+							  <td colspan="5"><span style="text-align:justify; line-height:1.5; font-family: Bookman Old Style; font-size: 10px;"><i>Sesuai dengan ketentuan yang berlaku, PT. Pelabuhan Indonesia (Persero) Regional 4 mengatur bahwa surat ini telah ditandatangani dan diverifikasi secara elektronik, sehingga tidak diperlukan tanda tangan basah pada Surat ini</i></span></td>
   </tr>
 							<tr>
 							  <td colspan="5">&nbsp;</td>

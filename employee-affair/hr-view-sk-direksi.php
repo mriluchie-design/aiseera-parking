@@ -315,7 +315,7 @@ function goBack() {
 							  <td width="3" valign="top">&nbsp;</td>
 							  <td width="17" valign="top">4.</td>
 							  <td valign="top">&nbsp;</td>
-							  <td colspan="6" valign="top">SK. Direksi PD. Parkir Makassar Raya Nomor : 091/20-S.Kep.Dir/PD.PMR/XII/2018 Tentang Kedisiplinan dan Pemberian Sanksi Pemotongan Tunjangan Tidak Tetap Transport dan Makan Serta Tunjangan Kinerja Pegawai PT. Pelabuhan Indonesia (Persero) Regional 4.</td>
+							  <td colspan="6" valign="top">SK. Direksi PD. PT. Pelabuhan Indonesia (Persero) Regional 4 Nomor : 091/20-S.Kep.Dir/PD.PMR/XII/2018 Tentang Kedisiplinan dan Pemberian Sanksi Pemotongan Tunjangan Tidak Tetap Transport dan Makan Serta Tunjangan Kinerja Pegawai PT. Pelabuhan Indonesia (Persero) Regional 4.</td>
   </tr>
 							<tr>
 							  <td colspan="11" valign="top">&nbsp;</td>
@@ -605,7 +605,7 @@ function goBack() {
 							  <td width="3" valign="top">&nbsp;</td>
 							  <td width="17" valign="top">4.</td>
 							  <td valign="top">&nbsp;</td>
-							  <td colspan="6" valign="top">SK. Direksi PD. Parkir Makassar Raya Nomor : 091/20-S.Kep.Dir/PD.PMR/XII/2018 Tentang Kedisiplinan dan Pemberian Sanksi Pemotongan Tunjangan Tidak Tetap Transport dan Makan Serta Tunjangan Kinerja Pegawai PT. Pelabuhan Indonesia (Persero) Regional 4.</td>
+							  <td colspan="6" valign="top">SK. Direksi PD. PT. Pelabuhan Indonesia (Persero) Regional 4 Nomor : 091/20-S.Kep.Dir/PD.PMR/XII/2018 Tentang Kedisiplinan dan Pemberian Sanksi Pemotongan Tunjangan Tidak Tetap Transport dan Makan Serta Tunjangan Kinerja Pegawai PT. Pelabuhan Indonesia (Persero) Regional 4.</td>
   </tr>
 							<tr>
 							  <td colspan="11" valign="top">&nbsp;</td>
@@ -871,7 +871,7 @@ function goBack() {
   </tr>
 							<tr>
 							  <td colspan="6"><p align="center"><span style="font-family: Bookman Old Style; font-size: 12px;"><b>PENGANGKATAN TENAGA KONTRAK KERJA WAKTU TERBATAS</b></span><br />
-							    <span style="font-family: Bookman Old Style; font-size: 12px;"><b>(TENAGA PENDUKUNG) PADA PERUSAHAAN UMUM DAERAH PARKIR</b></span><br />
+							    <span style="font-family: Bookman Old Style; font-size: 12px;"><b>(TENAGA PENDUKUNG) PADA PT. Pelabuhan Indonesia (Persero) Regional 4</b></span><br />
 						      <span style="font-family: Bookman Old Style; font-size: 12px;"><b>MAKASSAR RAYA KOTA MAKASSAR TAHUN 2023</b></span></p></td>
 							</tr>
 							<tr>
@@ -892,7 +892,7 @@ function goBack() {
 							  <td valign="top">:</td>
 							  <td width="10" valign="top">a.</td>
 							  <td>&nbsp;</td>
-							  <td>bahwa  untuk menunjang kelancaran pelaksanaan tugas-tugas Perusahaan Umum Daerah  Parkir Makassar Raya Kota Makassar, maka dipandang perlu mengangkat tenaga Kontrak  Kerja waktu terbatas (Tenaga Pendukung) sesuai dengan kebutuhan tiap Bagian  dengan memperhatikan Analisis beban kerja dan kemampuan keuangan perusahaan.   </td>
+							  <td>bahwa  untuk menunjang kelancaran pelaksanaan tugas-tugas PT. Pelabuhan Indonesia (Persero) Regional 4 Kota Makassar, maka dipandang perlu mengangkat tenaga Kontrak  Kerja waktu terbatas (Tenaga Pendukung) sesuai dengan kebutuhan tiap Bagian  dengan memperhatikan Analisis beban kerja dan kemampuan keuangan perusahaan.   </td>
   </tr>
 							<tr>
 							  <td valign="top">&nbsp;</td>
@@ -900,7 +900,7 @@ function goBack() {
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">b.</td>
 							  <td>&nbsp;</td>
-							  <td>bahwa berdasarkan pertimbangan sebagaimana dimaksud pada  huruf a diatas dipandang perlu ditetapkan dengan Keputusan Direksi Perusahaan Umum  Daerah Parkir Makassar Raya tentang Pengangkatan Tenaga Kontrak Kerja Waktu  Terbatas (Tenaga Pendukung) pada PT. Pelabuhan Indonesia (Persero) Regional 4  Kota Makassar Tahun 2023. </td>
+							  <td>bahwa berdasarkan pertimbangan sebagaimana dimaksud pada  huruf a diatas dipandang perlu ditetapkan dengan Keputusan Direksi PT. Pelabuhan Indonesia (Persero) Regional 4 tentang Pengangkatan Tenaga Kontrak Kerja Waktu  Terbatas (Tenaga Pendukung) pada PT. Pelabuhan Indonesia (Persero) Regional 4  Kota Makassar Tahun 2023. </td>
   </tr>
 							<tr>
 							  <td colspan="6" valign="top">&nbsp;</td>
@@ -1119,7 +1119,7 @@ function goBack() {
 							  <td colspan="3">Direksi Perusahaan Umum Daerah </td>
   </tr>
 							<tr>
-							  <td colspan="3">Parkir Makassar Raya</td>
+							  <td colspan="3">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
   </tr>
 							<tr>
 							  <td colspan="3">&nbsp;</td>

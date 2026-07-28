@@ -238,7 +238,7 @@ function goBack() {
 																									<tbody data-repeater-list="">
 																								<tr data-repeater-item>
 																								  <td style="text-align:center">1</td>
-																									<td style="text-align:left"><textarea class="form-control" id="exampleTextarea" rows="6" placeholder="bahwa sesuai ketentuan Peraturan Daerah  No. 10 Tahun 2000 tentang Ketentuan badan Pengawas, Direksi dan Pegawai PT. Pelabuhan Indonesia (Persero) Regional 4, calon pegawai perusahaan yang namanya  tersebut  dalam  lajur  2 (dua) selama masa percobaan sejak tanggal sebagimana  tersebut  dalam  laJur 6 (enam) dari daftar  lampiran  keputusan  ini,  temyata  telah memenuhi syarat dan dipandang cakap untuk diangkat menjadi Pegawai PD. Parkir Makassar Raya."></textarea></td>
+																									<td style="text-align:left"><textarea class="form-control" id="exampleTextarea" rows="6" placeholder="bahwa sesuai ketentuan Peraturan Daerah  No. 10 Tahun 2000 tentang Ketentuan badan Pengawas, Direksi dan Pegawai PT. Pelabuhan Indonesia (Persero) Regional 4, calon pegawai perusahaan yang namanya  tersebut  dalam  lajur  2 (dua) selama masa percobaan sejak tanggal sebagimana  tersebut  dalam  laJur 6 (enam) dari daftar  lampiran  keputusan  ini,  temyata  telah memenuhi syarat dan dipandang cakap untuk diangkat menjadi Pegawai PD. PT. Pelabuhan Indonesia (Persero) Regional 4."></textarea></td>
 																									<td style="text-align:center"><a href="javascript:;" data-repeater-delete="" class="btn btn-outline-hover-danger btn-sm btn-icon" data-toggle="dropdown"><i class="fa flaticon2-trash"></i></a></td>
                                             
                                                                                                     
@@ -694,7 +694,7 @@ function goBack() {
   </tr>
 							<tr>
 							  <td colspan="6"><p align="center"><span style="font-family: Bookman Old Style; font-size: 12px;"><b>PENGANGKATAN PEGAWAI</b></span><br />
-							    <span style="font-family: Bookman Old Style; font-size: 12px;"><b>PADA PERUSAHAAN UMUM DAERAH PARKIR</b></span><br />
+							    <span style="font-family: Bookman Old Style; font-size: 12px;"><b>PADA PT. Pelabuhan Indonesia (Persero) Regional 4</b></span><br />
 						      <span style="font-family: Bookman Old Style; font-size: 12px;"><b>MAKASSAR RAYA KOTA MAKASSAR TAHUN 2023</b></span></p></td>
 							</tr>
 							<tr>
@@ -715,7 +715,7 @@ function goBack() {
 							  <td valign="top">:</td>
 							  <td width="10" valign="top">a.</td>
 							  <td>&nbsp;</td>
-							  <td>bahwa sesuai ketentuan Peraturan Daerah No. 10 Tahun 2000 tentang Ketentuan badan Pengawas, Direksi dan Pegawai PT. Pelabuhan Indonesia (Persero) Regional 4, calon pegawai perusahaan yang namanya  tersebut  dalam  lajur  2 (dua) selama masa percobaan sejak tanggal sebagimana  tersebut  dalam  laJur 6 (enam) dari daftar  lampiran  keputusan  ini,  temyata  telah memenuhi syarat dan dipandang cakap untuk diangkat menjadi Pegawai PD. Parkir Makassar Raya.</td>
+							  <td>bahwa sesuai ketentuan Peraturan Daerah No. 10 Tahun 2000 tentang Ketentuan badan Pengawas, Direksi dan Pegawai PT. Pelabuhan Indonesia (Persero) Regional 4, calon pegawai perusahaan yang namanya  tersebut  dalam  lajur  2 (dua) selama masa percobaan sejak tanggal sebagimana  tersebut  dalam  laJur 6 (enam) dari daftar  lampiran  keputusan  ini,  temyata  telah memenuhi syarat dan dipandang cakap untuk diangkat menjadi Pegawai PD. PT. Pelabuhan Indonesia (Persero) Regional 4.</td>
   </tr>
 							<tr>
 							  <td valign="top">&nbsp;</td>
@@ -942,7 +942,7 @@ function goBack() {
 							  <td colspan="3">Direksi Perusahaan Umum Daerah </td>
   </tr>
 							<tr>
-							  <td colspan="3">Parkir Makassar Raya</td>
+							  <td colspan="3">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
   </tr>
 							<tr>
 							  <td colspan="3">&nbsp;</td>

@@ -178,7 +178,9 @@
 												<td style="text-align:left" nowrap>Muhammad Ramadhan Lerrick, ST</td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
 												<td style="text-align:center" nowrap>&nbsp;</td>
-											  <td style="text-align:center" nowrap><button type="button" class="btn btn-success btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_release" data-skin="brand" title="Disetujui" data-html="true"><i class="fa flaticon2-check-mark"></i></button></td>
+											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release" data-html="true">
+															<i class="fa flaticon2-check-mark"></i>
+														</span></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -214,9 +216,9 @@
 												<td style="text-align:left" nowrap>Oklan Zulkifli, SE</td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
 												<td style="text-align:center" nowrap>&nbsp;</td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="Disetujui<br>31 Desember 2018 - 14:30 WITA" data-html="true">
-													   <i class="fa flaticon2-check-mark"></i>
-												   </span></td>
+											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release" data-html="true">
+															<i class="fa flaticon2-check-mark"></i>
+														</span></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>

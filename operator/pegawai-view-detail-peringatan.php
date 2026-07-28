@@ -163,7 +163,7 @@ function goBack() {
 											<div class="col-xl-4">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Surat Peringatan</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
@@ -204,7 +204,7 @@ function goBack() {
 											<div class="col-xl-8">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Penerima</div>
 							<br>
 							<br>
@@ -301,7 +301,7 @@ function goBack() {
 										 <div class="col-xl-4">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Dasar</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
@@ -341,7 +341,7 @@ function goBack() {
 										</div>
 										<div class="col-xl-4">
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Isi Pelanggaran</div><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
@@ -383,7 +383,7 @@ function goBack() {
 
   <div class="col-xl-4">
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Tembusan Surat</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
@@ -722,7 +722,7 @@ function goBack() {
   </tr>
 							<tr>
 							  <td colspan="6"><p align="center"><span style="font-family: Bookman Old Style; font-size: 12px;"><b>PENGANGKATAN TENAGA KONTRAK KERJA WAKTU TERBATAS</b></span><br />
-							    <span style="font-family: Bookman Old Style; font-size: 12px;"><b>(TENAGA PENDUKUNG) PADA PERUSAHAAN UMUM DAERAH PARKIR</b></span><br />
+							    <span style="font-family: Bookman Old Style; font-size: 12px;"><b>(TENAGA PENDUKUNG) PADA PT. Pelabuhan Indonesia (Persero) Regional 4</b></span><br />
 						      <span style="font-family: Bookman Old Style; font-size: 12px;"><b>MAKASSAR RAYA KOTA MAKASSAR TAHUN 2023</b></span></p></td>
 							</tr>
 							<tr>
@@ -743,7 +743,7 @@ function goBack() {
 							  <td valign="top">:</td>
 							  <td width="10" valign="top">a.</td>
 							  <td>&nbsp;</td>
-							  <td>bahwa  untuk menunjang kelancaran pelaksanaan tugas-tugas Perusahaan Umum Daerah  Parkir Makassar Raya Kota Makassar, maka dipandang perlu mengangkat tenaga Kontrak  Kerja waktu terbatas (Tenaga Pendukung) sesuai dengan kebutuhan tiap Bagian  dengan memperhatikan Analisis beban kerja dan kemampuan keuangan perusahaan.   </td>
+							  <td>bahwa  untuk menunjang kelancaran pelaksanaan tugas-tugas PT. Pelabuhan Indonesia (Persero) Regional 4 Kota Makassar, maka dipandang perlu mengangkat tenaga Kontrak  Kerja waktu terbatas (Tenaga Pendukung) sesuai dengan kebutuhan tiap Bagian  dengan memperhatikan Analisis beban kerja dan kemampuan keuangan perusahaan.   </td>
   </tr>
 							<tr>
 							  <td valign="top">&nbsp;</td>
@@ -751,7 +751,7 @@ function goBack() {
 							  <td valign="top">&nbsp;</td>
 							  <td valign="top">b.</td>
 							  <td>&nbsp;</td>
-							  <td>bahwa berdasarkan pertimbangan sebagaimana dimaksud pada  huruf a diatas dipandang perlu ditetapkan dengan Keputusan Direksi Perusahaan Umum  Daerah Parkir Makassar Raya tentang Pengangkatan Tenaga Kontrak Kerja Waktu  Terbatas (Tenaga Pendukung) pada PT. Pelabuhan Indonesia (Persero) Regional 4  Kota Makassar Tahun 2023. </td>
+							  <td>bahwa berdasarkan pertimbangan sebagaimana dimaksud pada  huruf a diatas dipandang perlu ditetapkan dengan Keputusan Direksi PT. Pelabuhan Indonesia (Persero) Regional 4 tentang Pengangkatan Tenaga Kontrak Kerja Waktu  Terbatas (Tenaga Pendukung) pada PT. Pelabuhan Indonesia (Persero) Regional 4  Kota Makassar Tahun 2023. </td>
   </tr>
 							<tr>
 							  <td colspan="6" valign="top">&nbsp;</td>
@@ -967,10 +967,10 @@ function goBack() {
 							  <td><u>30 Desember 2022</u></td>
   </tr>
 							<tr>
-							  <td colspan="3">Direksi Perusahaan Umum Daerah </td>
+							  <td colspan="3">Direksi</td>
   </tr>
 							<tr>
-							  <td colspan="3">Parkir Makassar Raya</td>
+							  <td colspan="3">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
   </tr>
 							<tr>
 							  <td colspan="3">&nbsp;</td>
@@ -1177,7 +1177,7 @@ function goBack() {
 															Kembali
 														</button>
 														
-														<button class="btn btn-brand btn-md btn-tall btn-wide kt-font-bold kt-font-transform-u" data-ktwizard-type="action-next">
+														<button class="btn btn-success btn-md btn-tall btn-wide kt-font-bold kt-font-transform-u" data-ktwizard-type="action-next">
 															Selanjutnya
 														</button>
 													</div>
@@ -1560,19 +1560,8 @@ function goBack() {
 						</div>
 
 						<!-- end:: Content -->
-					</div>
-
-						<!-- end:: Content -->
-					</div>
-
-  </div>
-</div>
-
-									<!--end: Datatable -->
-								</div>
-							</div>
-
-            </div>
+					
+								
 <!--begin::Page Scripts(used by this page) -->
 
 <?php require '../layouts/footer.php' ?>

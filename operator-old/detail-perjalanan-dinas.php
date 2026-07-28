@@ -986,7 +986,7 @@ function goBack() {
                       <td style="border:1px solid black; padding-left:5px;" width="90">Jabatan, Pangkat dan Golongan dari<br>Pegawai yang diperintahkan </td>
                         <td style="border:1px solid black; padding-left:5px;" width="137">
                             Direktur Utama 2022-2025 Perumda
-                            Parkir Makassar Raya</td>
+                            PT. Pelabuhan Indonesia (Persero) Regional 4</td>
                     </tr>
                     <tr style="border:1px solid black;">
                         <td style="text-align:right; padding-right:5px; border:1px solid black;" width="5%">4.</td>

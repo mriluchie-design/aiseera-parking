@@ -166,7 +166,7 @@ function goBack() {
 							  <td>&nbsp;</td>
   </tr>
 							<tr>
-							  <td colspan="6" valign="top"><div align="justify"><p>Bahwa berdasarkan Surat Keputusan Direksi Perusahaan Umum Daerah Parkir Makassar Nomor : 154/20-S.Kep.Dir/PERUMDA-PMR/X/2022, Tanggal 31 Oktober  2022, <strong>PIHAK PERTAMA</strong> dan <strong>PIHAK KEDUA</strong> sepakat untuk mengadakan  kesepakatan kerja waktu terbatas dengan syarat-syarat dan ketentuan sebagai  berikut :</p></div></td>
+							  <td colspan="6" valign="top"><div align="justify"><p>Bahwa berdasarkan Surat Keputusan Direksi PT. Pelabuhan Indonesia (Persero) Regional 4 Makassar Nomor : 154/20-S.Kep.Dir/PERUMDA-PMR/X/2022, Tanggal 31 Oktober  2022, <strong>PIHAK PERTAMA</strong> dan <strong>PIHAK KEDUA</strong> sepakat untuk mengadakan  kesepakatan kerja waktu terbatas dengan syarat-syarat dan ketentuan sebagai  berikut :</p></div></td>
   </tr>
 							<tr>
 							  <td valign="top">&nbsp;</td>
@@ -191,7 +191,7 @@ function goBack() {
 							  <td>&nbsp;</td>
   </tr>
 							<tr>
-							  <td colspan="6" valign="top"><p><strong>PIHAK PERTAMA</strong> setuju menerima, sebagaimana <strong>PIHAK  KEDUA</strong> bersedia dan sanggup untuk menjadi Tenaga Kontrak pada Perusahaan  Umum Daerah Parkir Makassar Raya untuk Jangka waktu pekerjaan terhitung mulai  tanggal 01 November 2022 s/d 31 Desember 2022.</p></td>
+							  <td colspan="6" valign="top"><p><strong>PIHAK PERTAMA</strong> setuju menerima, sebagaimana <strong>PIHAK  KEDUA</strong> bersedia dan sanggup untuk menjadi Tenaga Kontrak pada Perusahaan  Umum Daerah PT. Pelabuhan Indonesia (Persero) Regional 4 untuk Jangka waktu pekerjaan terhitung mulai  tanggal 01 November 2022 s/d 31 Desember 2022.</p></td>
   </tr>
 							<tr>
 							  <td valign="top">&nbsp;</td>
@@ -217,7 +217,7 @@ function goBack() {
   </tr>
 							<tr>
 							  <td valign="top">(1).</td>
-							  <td colspan="5" valign="top">PIHAK KEDUA sebagai tenaga pendukung pada  Perusahaan Umum Daerah Parkir  Makassar Raya dengan status sebagai Tenaga Kontrak Kerja Waktu Terbatas, diberi  Gaji / Upah oleh PIHAK PERTAMA dan ditambah penghasilan lainnya berdasarkan  ketentuan Perusahaan yang berlaku. </td>
+							  <td colspan="5" valign="top">PIHAK KEDUA sebagai tenaga pendukung pada  PT. Pelabuhan Indonesia (Persero) Regional 4  Makassar Raya dengan status sebagai Tenaga Kontrak Kerja Waktu Terbatas, diberi  Gaji / Upah oleh PIHAK PERTAMA dan ditambah penghasilan lainnya berdasarkan  ketentuan Perusahaan yang berlaku. </td>
   </tr>
 							<tr>
 							  <td valign="top">(2).</td>
@@ -270,7 +270,7 @@ function goBack() {
 							<tr>
 							  <td valign="top">(4).</td>
 							  <td valign="top"><p>&nbsp;</p></td>
-							  <td colspan="6" valign="top">Jam  mulai dan berakhir kerja adalah sesuai ketentuan jam kerja Perusahaan Umum  Daerah Parkir Makassar Raya.</td>
+							  <td colspan="6" valign="top">Jam  mulai dan berakhir kerja adalah sesuai ketentuan jam kerja PT. Pelabuhan Indonesia (Persero) Regional 4.</td>
   </tr>
 							<tr>
 							  <td valign="top">&nbsp;</td>

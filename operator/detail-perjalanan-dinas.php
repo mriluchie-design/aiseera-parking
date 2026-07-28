@@ -400,7 +400,7 @@ function goBack() {
 																									<tbody data-repeater-list="">
 																								<tr data-repeater-item>
 																								  <td style="text-align:center">1</td>
-																									<td style="text-align:left"><textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Peraturan Daerah Kota Makassar Nomor 2 Tahun 2021 tentang Pendirian Perusahaan Umum Daerah Parkir Makassar Raya" disabled></textarea></td>
+																									<td style="text-align:left"><textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Peraturan Daerah Kota Makassar Nomor 2 Tahun 2021 tentang Pendirian PT. Pelabuhan Indonesia (Persero) Regional 4" disabled></textarea></td>
 																									
                                             
                                                                                                     
@@ -414,7 +414,7 @@ function goBack() {
 																								</tr>
 																								<tr data-repeater-item>
 																								  <td style="text-align:center">3</td>
-																									<td style="text-align:left"><textarea class="form-control" id="exampleTextarea" rows="3" placeholder="SK. Walikota No. 7040 Tahun 1999 tentang Struktur Organisasi dan Tata Kerja Perusahaan Daerah Parkir Makassar Raya" disabled></textarea></td>
+																									<td style="text-align:left"><textarea class="form-control" id="exampleTextarea" rows="3" placeholder="SK. Walikota No. 7040 Tahun 1999 tentang Struktur Organisasi dan Tata Kerja PT. Pelabuhan Indonesia (Persero) Regional 4" disabled></textarea></td>
 																									
                                             
                                                                                                     
@@ -986,7 +986,7 @@ function goBack() {
                       <td style="border:1px solid black; padding-left:5px;" width="90">Jabatan, Pangkat dan Golongan dari<br>Pegawai yang diperintahkan </td>
                         <td style="border:1px solid black; padding-left:5px;" width="137">
                             Direktur Utama 2022-2025 Perumda
-                            Parkir Makassar Raya</td>
+                            PT. Pelabuhan Indonesia (Persero) Regional 4</td>
                     </tr>
                     <tr style="border:1px solid black;">
                         <td style="text-align:right; padding-right:5px; border:1px solid black;" width="5%">4.</td>
@@ -1016,7 +1016,7 @@ function goBack() {
                     <tr style="border:1px solid black;">
                         <td style="text-align:right; padding-right:5px; border:1px solid black;" width="5%">7.</td>
                         <td style="border:1px solid black; padding-left:5px;" width="90">Perhitungan Biaya Perjalanan</td>
-                        <td style="border:1px solid black; padding-left:5px;" width="137">Atas Beban : Perumda Parkir Makassar Raya</td>
+                        <td style="border:1px solid black; padding-left:5px;" width="137">Atas Beban : PT. Pelabuhan Indonesia (Persero) Regional 4</td>
                     </tr>
                     <tr style="border:1px solid black;">
                         <td style="text-align:right; padding-right:5px; border:1px solid black;" width="5%">8.</td>
@@ -1171,7 +1171,7 @@ function goBack() {
                 <td>&nbsp;</td>
                 <td colspan="2" valign="center" style="position: relative;top:-5px;text-align:left; padding-left:10px; padding-top:10px;">
                     <span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Sesuai
-                            dengan ketentuan yang berlaku, Perusahaan Umum Daerah Parkir Makassar Raya mengatur
+                            dengan ketentuan yang berlaku, PT. Pelabuhan Indonesia (Persero) Regional 4 mengatur
                             bahwa
                             surat ini telah ditandatangani dan diverifikasi secara elektronik, sehingga
                             tidak
@@ -1311,7 +1311,7 @@ function goBack() {
                 <td>&nbsp;</td>
                 <td colspan="2" valign="center" style="position: relative;top:-5px;text-align:left; padding-left:10px; padding-top:10px;">
                     <span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Sesuai
-                            dengan ketentuan yang berlaku, Perusahaan Umum Daerah Parkir Makassar Raya mengatur
+                            dengan ketentuan yang berlaku, PT. Pelabuhan Indonesia (Persero) Regional 4 mengatur
                             bahwa
                             surat ini telah ditandatangani dan diverifikasi secara elektronik, sehingga
                             tidak
@@ -1430,7 +1430,7 @@ function goBack() {
   </tr>
   <tr>
     <td>6</td>
-    <td>Ir. Asrarudin Mamonto, MM</td>
+    <td>Muhammad Nasrullah, S.Kom</td>
     <td>Kepala Bagian Umum dan Kepegawaian</td>
   </tr>
   <tr>
@@ -1627,7 +1627,7 @@ function goBack() {
                 <td>&nbsp;</td>
                 <td colspan="2" valign="center" style="position: relative;top:-5px;text-align:left; padding-left:10px; padding-top:10px;">
                     <span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Sesuai
-                            dengan ketentuan yang berlaku, Perusahaan Umum Daerah Parkir Makassar Raya mengatur
+                            dengan ketentuan yang berlaku, PT. Pelabuhan Indonesia (Persero) Regional 4 mengatur
                             bahwa
                             surat ini telah ditandatangani dan diverifikasi secara elektronik, sehingga
                             tidak
