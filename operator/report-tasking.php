@@ -69,7 +69,7 @@ function goBack() {
 					<div class="col-lg-12">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Laporan Hasil Tugas</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
@@ -109,26 +109,9 @@ function goBack() {
 																								
 																								
 																								
-																								<tr data-repeater-item>
-																								  <td style="text-align:center">3</td>
-																									<td style="text-align:center"><input type="text" class="form-control form-control-sm" placeholder="Isikan Uraian Kegiatan"></td>
-																									<td style="text-align:center"><div class="custom-file">
-													<input type="file" class="custom-file-input" id="customFile">
-													<label class="custom-file-label" for="customFile"></label>
-												</div></td>
-																									<td style="text-align:center">
-																										 <div class="progress">
-													<div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 20%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">0%</div>
-																									</td>
-																								</tr>
+																								
 																							</tbody>
-																							<tfoot>
-																								<tr>
-																									<td colspan="4">
-																										<button type="button" class="btn btn-success btn-sm float-right" href="javascript:;" data-repeater-create=""> <i class="fa fa-plus"></i> Tambah Data</button>
-																									</td>
-																								</tr>
-																							</tfoot>
+																							
 																						</table>
 						
 

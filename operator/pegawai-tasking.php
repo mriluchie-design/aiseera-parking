@@ -344,43 +344,36 @@
                         <table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="m_table_1">
 										<thead style="text-align:center">
 											<tr>
-												<th width="1%" bgcolor="#f7fcff" rowspan="2">#</th>
-												<th width="4%" bgcolor="#f7fcff" rowspan="2">Nomor Tugas</th>
-												
-											  <th colspan="4" bgcolor="#f7fcff">Pemberi Tugas</th>
-											  <th width="15%" bgcolor="#feffed" rowspan="2">Uraian Tugas</th>
-											  <th width="5%" bgcolor="#feffed" rowspan="2">Kategori</th>
-												<th width="5%" bgcolor="#feffed" rowspan="2">Tanggal Awal<br>
+												<th width="1%" bgcolor="#f7fcff">#</th>
+												<th width="3%" bgcolor="#f7fcff">Nomor Tugas</th>
+												<th width="5%" bgcolor="#f7fcff">Kategori</th>
+											  <th colspan="2" bgcolor="#f7fcff">Pemberi Tugas</th>
+											  <th width="15%" bgcolor="#feffed">Uraian Tugas</th>
+											  <th width="7%" bgcolor="#feffed">Tanggal Awal<br>
 											  Tugas</th>
-												<th width="5%" bgcolor="#feffed" rowspan="2">Tanggal Akhir<br>Tugas</th>
-												<th width="2%" bgcolor="#feffed" rowspan="2">Bobot</th>
-												<th width="4%" bgcolor="#feffed" rowspan="2">Status</th>
-												<th width="1%" bgcolor="#f7fcff" rowspan="2">Aksi</th>
+												<th width="7%" bgcolor="#feffed">Tanggal Akhir<br>Tugas</th>
+												<th width="2%" bgcolor="#feffed">Bobot</th>
+												<th width="7%" bgcolor="#feffed">Progress</th>
+												<th width="4%" bgcolor="#feffed">Status</th>
+												<th width="1%" bgcolor="#f7fcff">Aksi</th>
 											</tr>
-											<tr>
-											  <th width="2%" bgcolor="#f7fcff">Foto</th>
-											  <th width="5%" bgcolor="#f7fcff">Nama Pegawai</th>
-											  <th width="3%" bgcolor="#f7fcff">NIP</th>
-											  <th width="5%" bgcolor="#f7fcff">Jabatan</th>
-										    </tr>
 										</thead>
 										<tbody>
 											<tr>
-												<td id="kt_table_1">1</td>
+												<td align="right">1</td>
 												<td id="kt_table_1">002/TASK/PMR/VIII/2023</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td style="text-align:left">Operasional</td>
+												<td width="3%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000000<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_9.jpg" alt="image">
 													</a></td>
-												<td id="kt_table_1" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
-												<td id="kt_table_1" style="text-align:left">238 004 032</td>
-												<td id="kt_table_1" style="text-align:left">Direktur Utama</td>
+												<td width="10%" id="kt_table_1" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
 												<td style="text-align:left">Menghadiri Koordinasi Pembahasan Parkir pada Mall Ratu Indah</td>
-												<td style="text-align:left">Operasional</td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">10</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Diterima</span></td>
+											  <td style="text-align:center" nowrap=""> <div class="progress">
+													<div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div></div></td>
+											  <td style="text-align:center"><span class="btn btn-label-brand btn-sm">Progress</span></td>
 											  
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 														<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
@@ -395,7 +388,7 @@
 																	  </a>
 															    </li>
 																<li class="kt-nav__item">
-																	<a href="terima-tasking.php" class="kt-nav__link">
+																	<a href="#" class="kt-nav__link" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="" data-html="true">
 																		<i class="kt-nav__link-icon fa fa-clipboard-check"></i>
 																		<span class="kt-nav__link-text">Terima Tugas</span>
 																	</a>
@@ -412,21 +405,20 @@
 													</div></td>
 										  </tr>
 										  <tr>
-												<td id="kt_table_1">2</td>
+												<td align="right">2</td>
 												<td id="kt_table_1">001/TASK/PMR/VIII/2023</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_14.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
-												<td id="kt_table_1" style="text-align:left">238 004 032</td>
-												<td id="kt_table_1" style="text-align:left">Direktur Utama</td>
-												<td style="text-align:left">Menyiapkan Dokumen Administrasi Tender</td>
 												<td style="text-align:left">Administrasi</td>
+												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000000<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+														<img src="../assets/media/users/100_14.jpg" alt="image">
+													</a></td>
+												<td id="kt_table_1" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
+												<td style="text-align:left">Menyiapkan Dokumen Administrasi Tender</td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">10</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">Progress</span></td>
+											  <td style="text-align:center" nowrap=""> <div class="progress">
+													<div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div></div></td>
+											  <td style="text-align:center"><span class="btn btn-label-brand btn-sm">Progress</span></td>
 											  
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 														<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
@@ -441,7 +433,7 @@
 																	  </a>
 															    </li>
 																<li class="kt-nav__item">
-																	<a href="terima-tasking.php" class="kt-nav__link">
+																	<a href="#" class="kt-nav__link" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="" data-html="true">
 																		<i class="kt-nav__link-icon fa fa-clipboard-check"></i>
 																		<span class="kt-nav__link-text">Terima Tugas</span>
 																	</a>
@@ -458,21 +450,20 @@
 													</div></td>
 										  </tr>
 										  <tr>
-												<td id="kt_table_1">3</td>
+												<td align="right">3</td>
 												<td id="kt_table_1">001/TASK/PMR/VIII/2023</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td style="text-align:left">Keuangan</td>
+												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000000<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_14.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
-												<td id="kt_table_1" style="text-align:left">238 004 032</td>
-												<td id="kt_table_1" style="text-align:left">Direktur Utama</td>
-												<td style="text-align:left">Menyiapkan Dokumen Administrasi Pajak</td>
-												<td style="text-align:left">Keuangan</td>
+												<td style="text-align:left">Menyiapkan Dokumen Administrasi</td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">10</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">Progress</span></td>
+											  <td style="text-align:center" nowrap=""> <div class="progress">
+													<div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div></div></td>
+											  <td style="text-align:center"><span class="btn btn-label-success btn-sm">Selesai</span></td>
 											  
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 														<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
@@ -487,7 +478,7 @@
 																	  </a>
 															    </li>
 																<li class="kt-nav__item">
-																	<a href="terima-tasking.php" class="kt-nav__link">
+																	<a href="#" class="kt-nav__link" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="" data-html="true">
 																		<i class="kt-nav__link-icon fa fa-clipboard-check"></i>
 																		<span class="kt-nav__link-text">Terima Tugas</span>
 																	</a>
@@ -565,25 +556,145 @@
 
                 </div>
                       </div>
+<div class="modal fade" id="modal_persetujuan_pending" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+									<div class="modal-content">
 
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-list-alt"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger">VERIFIKASI</h3>
+											</div>
+											<div class="kt-portlet__head-toolbar">
+											
+											&nbsp;
+												<button type="button" class="btn btn-secondary btn-sm btn-outline-danger" data-dismiss="modal">X</button>
+											</div>
+										</div>
 
+										<div class="kt-portlet__body">
+											<div class="tab-content">
+												<div class="m-portlet m-portlet--tabs">
+									
+									<div class="m-portlet__body">
+										<div class="tab-content">
+											<div class="tab-pane active" id="m_tabs_6_1" role="tabpanel">
+												<div class="kt-grid__item kt-grid__item--fluid kt-app__content">
+									<div class="row">
+										<div class="col-lg-12">
+                      <div class="row">
+								<div class="col-xl-12">
 
+									<!--begin::Portlet-->
+										
+							
+										<div class="kt-portlet__body">
+											<div class="kt-portlet__content">
+												<div class="form-group row">
+						
+						<div class="col-lg-12">
+                         
+                                <div class="kt-form__actions" align="center">
+							<button type="reset" class="btn btn-secondary" data-toggle="modal" data-target="#modal_assign_tugas" data-skin="brand" title="" data-html="true"><i class="fa fa-file-export"></i>Alihkan</button>&nbsp;
+							<button type="reset" class="btn btn-success kt_sweetalert_demo_setuju" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title=""><i class="fa fa-check-circle"></i>Terima</button>
+						</div>
+                        </div>
+						
+						
+						
+						
+						
+					  
+                     
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <div class="modal fade" id="modal_assign_tugas" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+									<div class="modal-content">
 
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-list-alt"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger">ASSIGN TUGAS</h3>
+											</div>
+											<div class="kt-portlet__head-toolbar">
+											
+											&nbsp;
+												<button type="button" class="btn btn-secondary btn-sm btn-outline-danger" data-dismiss="modal">X</button>
+											</div>
+										</div>
 
+										<div class="kt-portlet__body">
+											<div class="form-group row">
+												<div class="col-lg-12">
+                                <label>Cari Pegawai :</label>
+    	                       <div class="form-group">
 
+					                         <select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
+					 															<optgroup label="Direksi" class="a">
+					 																<option value="AK">Muhammad Nasrullah, S.Kom</option>
+					 															</optgroup>
+					 															
+																				<optgroup label="Keuangan dan Asset" class="a">
+					 																<option value="HI">Oklan Zulkifli, SE</option>
+					 															</optgroup>
+																				<optgroup label="Operasional" class="a">
+					 																<option value="HI">Deddy Rafsanjani, S.Sos</option>
+					 																<option value="HI">Nursiah, S.Kom</option>
+					 															</optgroup>
+																				<optgroup label="Teknologi dan Riset" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
+					 															</optgroup>
+																				<optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
+					 															</optgroup>
+																				<option value="12" selected>Keseluruhan</option>
 
-
-
-
-
-
+					 														</select>
+                            </div>
+                          
+							
+						 <div class="kt-portlet__foot kt-align-center">
+												<div class="">
+<button type="button" class="btn btn-sm btn-secondary">
+					<i class="fa fa-times-circle"></i>Reset</button>
+													<button type="button" class="btn btn-sm btn-success">
+					<i class="fa fa-check-circle"></i>Kirim</button>
+												</div>
+											</div>
+												
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  </div>
   </div>
 
 									<!--end: Datatable -->
-								</div>
-							</div>
-
-            </div>
+								
 
 
 <?php require '../layouts/footer.php' ?>
