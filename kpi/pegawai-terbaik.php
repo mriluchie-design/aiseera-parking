@@ -18,7 +18,7 @@
 <span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Periode Desember 2022 </span>
+											Periode : Desember 2026 </span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
 										</form>
@@ -253,8 +253,8 @@
 							
 
 							<!--end:: Widgets/Stats-->
-<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Divisi Umum dan Kepegawaian</div><br>
+<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Umum</div><br>
 							<div>&nbsp;</div>
 										<div class="kt-portlet__body">
 											
@@ -552,8 +552,8 @@
 
                 </div>
                       </div>
-<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Divisi Hukum dan Humas</div><br>
+<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Kepegawaian</div><br>
 							<div>&nbsp;</div>
 										<div class="kt-portlet__body">
                         <table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="m_table_1">
@@ -850,8 +850,8 @@
 
                 </div>
                       </div>
-<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Divisi Keuangan</div><br>
+<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Keuangan</div><br>
 							<div>&nbsp;</div>
 										<div class="kt-portlet__body">
                         <table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="m_table_1">
@@ -1148,8 +1148,8 @@
 
                 </div>
                       </div>
-<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Divisi Asset</div><br>
+<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Asset</div><br>
 							<div>&nbsp;</div>
 										<div class="kt-portlet__body">
 											<div class="form-group row">
@@ -1448,8 +1448,8 @@
                 </div>
                       </div>
                       </div>
-<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Divisi Pengelolaan</div><br>
+<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Operasional</div><br>
 							<div>&nbsp;</div>
 										<div class="kt-portlet__body">
                         <table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="m_table_1">
@@ -1746,8 +1746,8 @@
 
                 </div>
                       </div>
-<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Divisi Produksi</div><br>
+<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Teknologi</div><br>
 							<div>&nbsp;</div>
 										<div class="kt-portlet__body">
                         <table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="m_table_1">
@@ -2043,8 +2043,8 @@
 
                 </div>
                       </div>
-<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Divisi Pengembangan</div><br>
+<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Riset</div><br>
 							<div>&nbsp;</div>
 										<div class="kt-portlet__body">
                         <table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="m_table_1">
@@ -2341,8 +2341,8 @@
 
                 </div>
                       </div>
-<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Divisi Kerja Sama</div><br>
+<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Kerja Sama</div><br>
 							<div>&nbsp;</div>
 										<div class="kt-portlet__body">
                         <table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="m_table_1">

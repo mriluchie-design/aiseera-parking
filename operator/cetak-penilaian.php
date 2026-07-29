@@ -75,49 +75,50 @@ function goBack() {
 
 							<div class="tab-content" style="background:#f2f3f8;overflow:scroll;height:auto">
 							<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid mt-3">
-								<div class="bg-white w-50 ml-auto mr-auto">
+								<div class="bg-white w-75 ml-auto mr-auto">
 	
 						<div>&nbsp;</div>
-						<table width="600" style="position:relative;top:100px;" align="center" cellspacing="1" id="kt_table_1">
+						<table width="900" style="position:relative;top:100px;" align="center" cellspacing="1" id="kt_table_1">
 										<tbody>
 											<tr>
-											  <td width="10%" rowspan="5" style="text-align:center"><img src="../assets/media/users/100_7.jpg" alt="image"></td>
-											  <td width="2%" rowspan="5" style="text-align:left">&nbsp;</td>
-											  <td width="22%" style="text-align:left">Nama Pegawai</td>
-											  <td width="4%" nowrap="nowrap" style="text-align:center">:</td>
-											  <td nowrap="nowrap" style="text-align:left">Yuni Saslia, SE</td>
-										  </tr>
+											  <td width="10%" rowspan="3" style="text-align:center"><img src="../assets/media/users/100_7.jpg" alt="image"></td>
+											  <td width="2%" rowspan="3" style="text-align:left">&nbsp;</td>
+											  <td width="12%" style="text-align:left; border-bottom:1px solid #ccc;">Nama Pegawai</td>
+											  <td width="4%" nowrap="nowrap" style="text-align:center; border-bottom:1px solid #ccc;">:</td>
+											  <td nowrap="nowrap" style="text-align:left; border-bottom:1px solid #ccc;">Yuni Saslia, SE</td>
+											  <td nowrap="nowrap" width="5%" style="text-align:left">&nbsp;</td>
+											  <td nowrap="nowrap" style="text-align:left;border-bottom:1px solid #ccc;">Kantor</td>
+											  <td nowrap="nowrap" style="text-align:left;border-bottom:1px solid #ccc;">:</td>
+											  <td nowrap="nowrap" style="text-align:left;border-bottom:1px solid #ccc;">Ambon - Slamet Riyadi</td>
+									      </tr>
 											<tr>
-											  <td id="kt_table_14" style="text-align:left">NIP</td>
-											  <td nowrap="nowrap" style="text-align:center">:</td>
-											  <td nowrap="nowrap" style="text-align:left">238 004 032</td>
-										  </tr>
+											  <td id="kt_table_14" style="text-align:left; border-bottom:1px solid #ccc;">NIP</td>
+											  <td nowrap="nowrap" style="text-align:center; border-bottom:1px solid #ccc;">:</td>
+											  <td nowrap="nowrap" style="text-align:left; border-bottom:1px solid #ccc;">238 004 032</td>
+											  <td nowrap="nowrap" style="text-align:left">&nbsp;</td>
+											  <td nowrap="nowrap" style="text-align:left; border-bottom:1px solid #ccc;">Periode Bulan</td>
+											  <td nowrap="nowrap" style="text-align:left; border-bottom:1px solid #ccc;">:</td>
+											  <td nowrap="nowrap" style="text-align:left; border-bottom:1px solid #ccc;">Januari</td>
+									      </tr>
 											<tr>
-											  <td id="kt_table_12" style="text-align:left">Jabatan</td>
-											  <td nowrap="nowrap" style="text-align:center">:</td>
-											  <td nowrap="nowrap" style="text-align:left">Kepala Seksi Administrasi Kepegawaian</td>
-										  </tr>
-											<tr>
-											  <td nowrap="nowrap" style="text-align:left">Kantor</td>
-											  <td nowrap="nowrap" style="text-align:center">:</td>
-											  <td nowrap="nowrap" style="text-align:left">Pusat</td>
-										  </tr>
-											<tr>
-											  <td nowrap="nowrap" style="text-align:left">Periode Penilaian</td>
-											  <td nowrap="nowrap" style="text-align:center">:</td>
-											  <td nowrap="nowrap" style="text-align:left">1/12/2022 - 31/12/2022</td>
-										  </tr>
-
+											  <td id="kt_table_12" style="text-align:left; border-bottom:1px solid #ccc;">Jabatan</td>
+											  <td nowrap="nowrap" style="text-align:center; border-bottom:1px solid #ccc;">:</td>
+											  <td nowrap="nowrap" style="text-align:left; border-bottom:1px solid #ccc;">Kepala Seksi Administrasi Kepegawaian</td>
+											  <td nowrap="nowrap" style="text-align:left">&nbsp;</td>
+											  <td nowrap="nowrap" style="text-align:left; border-bottom:1px solid #ccc;">Periode Tahun</td>
+											  <td nowrap="nowrap" style="text-align:left; border-bottom:1px solid #ccc;">:</td>
+											  <td nowrap="nowrap" style="text-align:left; border-bottom:1px solid #ccc;">2026</td>
+									      </tr>
 										</tbody>
 									</table>
 									<div>&nbsp;</div>
-						<table width="600" style="position:relative;top:100px; margin-bottom:-100px;" align="center" cellspacing="2" class="table-bordered table-checkable" id="kt_table_1">
+						<table width="900" style="position:relative;top:100px; margin-bottom:-100px;" align="center" cellspacing="2" class="table-bordered table-checkable" id="kt_table_1">
 										<thead>
 											<tr style="text-align:center">
 											  <th width="15%" colspan="2" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">ELEMENT INDIKATOR PENILAIAN</th>
-											  <th width="4%" colspan="2" bgcolor="#f7fcff">RENTANG SKOR</th>
-											  <th width="2%" rowspan="2" bgcolor="#f7fcff">NILAI<br>HASIL</th>
-											  <th width="2%" rowspan="2" bgcolor="#f7fcff">% SKOR</th>
+											  <th width="15%" colspan="2" bgcolor="#f7fcff">RENTANG SKOR</th>
+											  <th width="7%" rowspan="2" bgcolor="#f7fcff">NILAI<br>HASIL</th>
+											  <th width="7%" rowspan="2" bgcolor="#f7fcff">% SKOR</th>
 										  </tr>
 											<tr style="text-align:center">
 											  <th width="5%" bgcolor="#f7fcff">ATRIBUT PENGUKUR</th>
@@ -126,7 +127,7 @@ function goBack() {
 										</thead>
 										<tbody>
 											<tr>
-												<td height="30" colspan="6" bgcolor="#feffed" id="kt_table_1" style="text-align:left">Tingkat Kehadiran</td>
+												<td height="30" colspan="6" bgcolor="#feffed" id="kt_table_1" style="text-align:left"><strong>&nbsp;&nbsp;Tingkat Kehadiran</td>
 										  </tr>
 											<tr>
 											  <td width="3%" rowspan="4" id="kt_table_1" style="text-align:center">1</td>
@@ -212,15 +213,15 @@ function goBack() {
 										    <td colspan="6" id="kt_table_27" style="text-align:center">&nbsp;</td>
 									      </tr>
 										  <tr>
-										    <td height="30" colspan="4" bgcolor="#f7fcff" id="kt_table_26" style="text-align:left">TOTAL SKOR</td>
-										    <td nowrap bgcolor="#f7fcff" style="text-align:center">12</td>
-										    <td nowrap bgcolor="#f7fcff" style="text-align:center">100</td>
+										    <td height="30" colspan="4" bgcolor="#f7fcff" id="kt_table_26" style="text-align:left"><strong>&nbsp;&nbsp;TOTAL SKOR</td>
+										    <td nowrap bgcolor="#f7fcff" style="text-align:center"><strong>12</td>
+										    <td nowrap bgcolor="#f7fcff" style="text-align:center"><strong>100</td>
 									      </tr>
 										  <tr>
 										    <td colspan="6" id="kt_table_25" style="text-align:center">&nbsp;</td>
 									      </tr>
 										  <tr>
-										    <td height="30" colspan="6" bgcolor="#feffed" id="kt_table_24" style="text-align:left"><strong>Efektifitas &amp; Efisiensi Kerja</strong><span style="text-align: left"></span></td>
+										    <td height="30" colspan="6" bgcolor="#feffed" id="kt_table_24" style="text-align:left"><strong>&nbsp;&nbsp;Efektifitas &amp; Efisiensi Kerja</strong><span style="text-align: left"></span></td>
 									      </tr>
 										  <tr>
 										    <td rowspan="4" id="kt_table_23" style="text-align:center">1</td>
@@ -326,28 +327,22 @@ function goBack() {
 										    <td colspan="6" id="kt_table_11" style="text-align:center">&nbsp;</td>
 									      </tr>
 										  <tr>
-										    <td height="30" colspan="4" bgcolor="#f7fcff" id="kt_table_5" style="text-align:left">TOTAL SKOR</td>
-										    <td nowrap bgcolor="#f7fcff" style="text-align:center">15</td>
-										    <td nowrap bgcolor="#f7fcff" style="text-align:center">100</td>
+										    <td height="30" colspan="4" bgcolor="#f7fcff" id="kt_table_5" style="text-align:left"><strong>&nbsp;&nbsp;TOTAL SKOR</strong></td>
+										    <td nowrap bgcolor="#f7fcff" style="text-align:center"><strong>15</td>
+										    <td nowrap bgcolor="#f7fcff" style="text-align:center"><strong>100</td>
 									      </tr>
 										  <tr>
-										    <td height="30" colspan="4" bgcolor="#f7fcff" id="kt_table_4" style="text-align:left">GRAND TOTAL SKOR PENILAIAN KINERJA</td>
-										    <td nowrap bgcolor="#f7fcff" style="text-align:center">27</td>
-										    <td nowrap bgcolor="#f7fcff" style="text-align:center">100</td>
+										    <td height="30" colspan="4" bgcolor="#0475bc" id="kt_table_4" style="text-align:left; color:#fff;"><strong>&nbsp;&nbsp;GRAND TOTAL SKOR PENILAIAN PRESTASI KINERJA</td>
+										    <td nowrap bgcolor="#0475bc" style="text-align:center; color:#fff;"><strong>27</td>
+										    <td nowrap bgcolor="#0475bc" style="text-align:center; color:#fff;"><strong>100</td>
 									      </tr>
-										  <tr>
-										    <td colspan="6" id="kt_table_7" style="text-align:center">&nbsp;</td>
-									      </tr>
-										  <tr>
-										    <td height="30" colspan="2" bgcolor="#f7fcff" id="kt_table_3" style="text-align:left">TUNJANGAN KINERJA YANG DITERIMA</td>
-										    <td colspan="2" nowrap="nowrap" bgcolor="#f7fcff" style="text-align:center">Rp. 5.000.000,-</td>
-										    <td colspan="2" nowrap bgcolor="#f7fcff" style="text-align:center">Rp. 5.000.000,-</td>
-									      </tr>
+										 
+										 
 
 										</tbody>
 									</table>
 									<div>&nbsp;</div>
-						<table align="center" class="footnote-1" width="650px" style="margin-top:250px; margin-bottom:20px; padding-top:5px; padding-bottom:20px;">
+						<table align="center" class="footnote-1" width="900px" style="margin-top:250px; margin-bottom:20px; padding-top:5px; padding-bottom:20px;">
         <thead>
             <tr><th></th>
             <th></th>
@@ -373,7 +368,7 @@ function goBack() {
                     <span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Sesuai
                             dengan ketentuan Peraturan Perusahaan yang berlaku, Perusahaan mengatur
                             bahwa
-                            Dokumen ini telah ditandatangani dan diverifikasi secara elektronik, sehingga
+                            Dokumen ini telah ditandatangani dan diverifikasi secara elektronik<br>sehingga
                             tidak
                             diperlukan
                             tanda tangan basah pada Dokumen ini.</i></span></td>
@@ -393,15 +388,15 @@ function goBack() {
     </table>
   
 					</div>
-						<div class="bg-white w-50 ml-auto mr-auto">
+						<div class="bg-white w-75 ml-auto mr-auto">
 	
-						<table width="600" style="position:relative; top:100px; margin-bottom:-100px;" align="center" cellspacing="2" class="table-bordered table-checkable" id="kt_table_1">
+						<table width="900" style="position:relative; top:100px; margin-bottom:-100px;" align="center" cellspacing="2" class="table-bordered table-checkable" id="kt_table_1">
 										<thead>
 											<tr style="text-align:center">
 											  <th width="15%" colspan="2" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">ELEMENT INDIKATOR PENILAIAN</th>
-											  <th width="4%" colspan="2" bgcolor="#f7fcff">RENTANG SKOR</th>
-											  <th width="2%" rowspan="2" bgcolor="#f7fcff">NILAI<br>HASIL</th>
-											  <th width="2%" rowspan="2" bgcolor="#f7fcff">% SKOR</th>
+											  <th width="15%" colspan="2" bgcolor="#f7fcff">RENTANG SKOR</th>
+											  <th width="7%" rowspan="2" bgcolor="#f7fcff">NILAI<br>HASIL</th>
+											  <th width="7%" rowspan="2" bgcolor="#f7fcff">% SKOR</th>
 										  </tr>
 											<tr style="text-align:center">
 											  <th width="5%" bgcolor="#f7fcff">ATRIBUT PENGUKUR</th>
@@ -410,10 +405,10 @@ function goBack() {
 										</thead>
 										<tbody>
 											<tr>
-												<td height="30" colspan="6" bgcolor="#feffed" id="kt_table_1" style="text-align:left">Tingkat Kehadiran</td>
+												<td height="30" colspan="6" bgcolor="#feffed" id="kt_table_1" style="text-align:left">&nbsp;&nbsp;<strong>Tingkat Kehadiran</td>
 										  </tr>
 											<tr>
-											  <td width="1%" rowspan="4" id="kt_table_1" style="text-align:center">1</td>
+											  <td width="3%" rowspan="4" id="kt_table_1" style="text-align:center">1</td>
 											  <td rowspan="4" nowrap="nowrap" style="text-align:left">Jumlah Kehadiran</td>
 											  <td style="text-align:center" nowrap>&gt;90%</td>
 											  <td style="text-align:center" nowrap>3</td>
@@ -496,15 +491,15 @@ function goBack() {
 										    <td colspan="6" id="kt_table_27" style="text-align:center">&nbsp;</td>
 									      </tr>
 										  <tr>
-										    <td height="30" colspan="4" bgcolor="#f7fcff" id="kt_table_26" style="text-align:left">TOTAL SKOR</td>
-										    <td nowrap bgcolor="#f7fcff" style="text-align:center">12</td>
-										    <td nowrap bgcolor="#f7fcff" style="text-align:center">100</td>
+										    <td height="30" colspan="4" bgcolor="#f7fcff" id="kt_table_26" style="text-align:left">&nbsp;&nbsp;<strong>TOTAL SKOR</td>
+										    <td nowrap bgcolor="#f7fcff" style="text-align:center"><strong>12</td>
+										    <td nowrap bgcolor="#f7fcff" style="text-align:center"><strong>100</td>
 									      </tr>
 										  <tr>
 										    <td colspan="6" id="kt_table_25" style="text-align:center">&nbsp;</td>
 									      </tr>
 										  <tr>
-										    <td height="30" colspan="6" bgcolor="#feffed" id="kt_table_24" style="text-align:left"><strong>Efektifitas &amp; Efisiensi Kerja</strong><span style="text-align: left"></span></td>
+										    <td height="30" colspan="6" bgcolor="#feffed" id="kt_table_24" style="text-align:left">&nbsp;&nbsp;<strong>Efektifitas &amp; Efisiensi Kerja</strong><span style="text-align: left"></span></td>
 									      </tr>
 										  <tr>
 										    <td rowspan="4" id="kt_table_23" style="text-align:center">1</td>
@@ -610,28 +605,28 @@ function goBack() {
 										    <td colspan="6" id="kt_table_11" style="text-align:center">&nbsp;</td>
 									      </tr>
 										  <tr>
-										    <td height="30" colspan="4" bgcolor="#f7fcff" id="kt_table_5" style="text-align:left">TOTAL SKOR</td>
-										    <td nowrap bgcolor="#f7fcff" style="text-align:center">15</td>
-										    <td nowrap bgcolor="#f7fcff" style="text-align:center">100</td>
+										    <td height="30" colspan="4" bgcolor="#f7fcff" id="kt_table_5" style="text-align:left">&nbsp;&nbsp;<strong>TOTAL SKOR</td>
+										    <td nowrap bgcolor="#f7fcff" style="text-align:center"><strong>15</td>
+										    <td nowrap bgcolor="#f7fcff" style="text-align:center"><strong>100</td>
 									      </tr>
 										  <tr>
-										    <td height="30" colspan="4" bgcolor="#f7fcff" id="kt_table_4" style="text-align:left">GRAND TOTAL SKOR PENILAIAN KINERJA</td>
-										    <td nowrap bgcolor="#f7fcff" style="text-align:center">27</td>
-										    <td nowrap bgcolor="#f7fcff" style="text-align:center">100</td>
+										    <td height="30" colspan="4" bgcolor="#0475bc"  id="kt_table_4" style="text-align:left; color:#fff;">&nbsp;&nbsp;<strong>GRAND TOTAL SKOR PENILAIAN KINERJA</td>
+										    <td nowrap bgcolor="#0475bc" style="text-align:center;  color:#fff;"><strong>27</td>
+										    <td nowrap bgcolor="#0475bc" style="text-align:center;  color:#fff;"><strong>100</td>
 									      </tr>
 										  <tr>
 										    <td colspan="6" id="kt_table_7" style="text-align:center">&nbsp;</td>
 									      </tr>
 										  <tr>
-										    <td height="30" colspan="2" bgcolor="#f7fcff" id="kt_table_3" style="text-align:left">TUNJANGAN KINERJA YANG DITERIMA</td>
-										    <td colspan="2" nowrap="nowrap" bgcolor="#f7fcff" style="text-align:center">Rp. 5.000.000,-</td>
-										    <td colspan="2" nowrap bgcolor="#f7fcff" style="text-align:center">Rp. 5.000.000,-</td>
+										    <td height="30" colspan="4" bgcolor="#0475bc" id="kt_table_3" style="text-align:left; color:#fff;"><strong>&nbsp;&nbsp;TUNJANGAN KINERJA YANG DITERIMA
+									        <div style="display: flex; justify-content: space-between; align-items: center;"></div></td>
+										    <td colspan="2" nowrap bgcolor="#0475bc" style="text-align:center; color:#fff;"><strong><div style="display: flex; justify-content: space-between; align-items: center;"><span>Rp.</span> <span>5.000.000,-</span></div></td>
 									      </tr>
 
 										</tbody>
 									</table>
 									<div>&nbsp;</div>
-						<table align="center" class="footnote-1" width="650px" style="margin-top:250px; margin-bottom:20px; padding-top:5px; padding-bottom:20px;">
+						<table align="center" class="footnote-1" width="900px" style="margin-top:250px; margin-bottom:20px; padding-top:5px; padding-bottom:20px;">
         <thead>
             <tr><th></th>
             <th></th>
@@ -657,7 +652,7 @@ function goBack() {
                     <span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Sesuai
                             dengan ketentuan Peraturan Perusahaan yang berlaku, Perusahaan mengatur
                             bahwa
-                            Dokumen ini telah ditandatangani dan diverifikasi secara elektronik, sehingga
+                            Dokumen ini telah ditandatangani dan diverifikasi secara elektronik<br>sehingga
                             tidak
                             diperlukan
                             tanda tangan basah pada Dokumen ini.</i></span></td>

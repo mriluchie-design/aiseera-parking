@@ -87,155 +87,105 @@
 																<form class="kt-form">
 																	<div class="kt-portlet__body">
 						                      <div class="form-group row">
+											  
+												<div class="col-lg-1">
+						                          <label>Tahun :</label>
+																			<select class="form-control kt-selectpicker" data-live-search="true">
+			                                      <option value="2">2026</option>
+			                                      <option value="3">2025</option>
+			                                      <option value="3" selected>Keseluruhan</option>
+
+			                                  </select>
+						                        </div>
+												<div class="col-lg-1">
+						                          <label>Bulan :</label>
+																			<select class="form-control kt-selectpicker" data-live-search="true">
+			                                      <option value="2">Januari</option>
+			                                      <option value="3">Februari</option>
+			                                      <option value="3" selected>Keseluruhan</option>
+
+			                                  </select>
+						                        </div>
 												 <div class="col-lg-3">
 						                          <label>Pejabat Penilai :</label>
-												  <select class="form-control kt-selectpicker form-control" data-live-search="true">
-					 															<optgroup label="Direksi">
-					 																<option value="AK"selected >Muhammad Nasrullah, S.Kom</option>
+												  <select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
+					 															<optgroup label="Direksi" class="a">
+					 																<option value="AK">Muhammad Nasrullah, S.Kom</option>
 					 															</optgroup>
-					 															<optgroup label="Umum">
-																					<option value="HI">Deddy Rafsanjani, S.Sos</option>
-					 															</optgroup>
-																				<optgroup label="Keuangan dan Asset">
+					 															
+																				<optgroup label="Keuangan" class="a">
 					 																<option value="HI">Oklan Zulkifli, SE</option>
 					 															</optgroup>
-																				<optgroup label="Operasional">
+																				<optgroup label="Operasional" class="a">
+					 																<option value="HI">Deddy Rafsanjani, S.Sos</option>
 					 																<option value="HI">Nursiah, S.Kom</option>
 					 															</optgroup>
-																				<optgroup label="Pengembangan Usaha dan Kerjasama">
+																				<optgroup label="Teknologi dan Riset" class="a">
 					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
 					 															</optgroup>
-
-					 														</select>
-
-						                        </div>
-												
-						                        <div class="col-lg-3">
-						                          <label>Department Penilai :</label>
-												  <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2" selected="">Direksi</option>
-                                      <option value="2">Dewan Pengawas</option>
-                                      <option value="3">Umum</option>
-                                      <option value="4">Keuangan dan Asset</option>
-                                      <option value="5">Operasional</option>
-                                      <option value="12" >Pengembangan Usaha dan Kerjasama</option>
-                                  </select>
-
-						                        </div>
-												 <div class="col-lg-3">
-						                          <label>Jabatan Penilai :</label>
-												  <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2">Dewan Pengawas</option>
-									  <optgroup label="Direksi">
-                                      <option value="2" selected="">Direktur Utama</option>
-                                      <option value="2">Direktur Umum</option>
-                                      <option value="2">Direktur Keuangan dan Asset</option>
-                                      <option value="2">Direktur Operasional</option>
-                                      <option value="2">Direktur Pengembangan Usaha dan Kerjasama</option>
-									  </optgroup>
-                                     
-                                  </select>
-
-						                        </div>
-												
-												<div class="col-lg-1">
-						                          <label>Status Pegawai :</label>
-																			<select class="form-control kt-selectpicker" data-live-search="true">
-			                                      <option value="2" selected="">Pegawai Tetap</option>
-			                                      <option value="2">Pegawai Kontrak</option>
-			                                      <option value="2">Pegawai Honor</option>
-
-			                                  </select>
-						                        </div>
-												
-												<div class="col-lg-2">
-						                          <label>Status Penilaian :</label>
-																			<select class="form-control kt-selectpicker" data-live-search="true">
-			                                      <option value="2" selected="">Menunggu Persetujuan</option>
-			                                      <option value="3">Disetujui</option>
-			                                      <option value="3">Ditolak</option>
-
-			                                  </select>
-						                        </div>
-												
-						                        </div>
-												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-<div class="form-group row">
-												 <div class="col-lg-3">
-						                          <label>Pegawai yang Dinilai :</label>
-												  <select class="form-control kt-selectpicker form-control" data-live-search="true">
-					 															<optgroup label="Direksi">
-					 																<option value="AK"selected >Muhammad Nasrullah, S.Kom</option>
-					 															</optgroup>
-					 															<optgroup label="Umum">
-																					<option value="HI">Deddy Rafsanjani, S.Sos</option>
-					 															</optgroup>
-																				<optgroup label="Keuangan dan Asset">
-					 																<option value="HI">Oklan Zulkifli, SE</option>
-					 															</optgroup>
-																				<optgroup label="Operasional">
-					 																<option value="HI">Nursiah, S.Kom</option>
-					 															</optgroup>
-																				<optgroup label="Pengembangan Usaha dan Kerjasama">
+																				<optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
 					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
 					 															</optgroup>
+																				<option value="12" selected>Keseluruhan</option>
 
 					 														</select>
-
-						                        </div>
-												
-						                        <div class="col-lg-3">
-						                          <label>Department yang Dinilai :</label>
-												  <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2" selected="">Direksi</option>
-                                      <option value="2">Dewan Pengawas</option>
-                                      <option value="3">Umum</option>
-                                      <option value="4">Keuangan dan Asset</option>
-                                      <option value="5">Operasional</option>
-                                      <option value="12" >Pengembangan Usaha dan Kerjasama</option>
-                                  </select>
 
 						                        </div>
 												<div class="col-lg-3">
-						                          <label>Jabatan yang Dinilai :</label>
-												  <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2">Dewan Pengawas</option>
-									  <optgroup label="Direksi">
-                                      <option value="2" selected="">Direktur Utama</option>
-                                      <option value="2">Direktur Umum</option>
-                                      <option value="2">Direktur Keuangan dan Asset</option>
-                                      <option value="2">Direktur Operasional</option>
-                                      <option value="2">Direktur Pengembangan Usaha dan Kerjasama</option>
-									  </optgroup>
-                                     
-                                  </select>
+						                          <label>Pegawai Dinilai :</label>
+												  <select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
+					 															<optgroup label="Direksi" class="a">
+					 																<option value="AK">Muhammad Nasrullah, S.Kom</option>
+					 															</optgroup>
+					 															
+																				<optgroup label="Keuangan" class="a">
+					 																<option value="HI">Oklan Zulkifli, SE</option>
+					 															</optgroup>
+																				<optgroup label="Operasional" class="a">
+					 																<option value="HI">Deddy Rafsanjani, S.Sos</option>
+					 																<option value="HI">Nursiah, S.Kom</option>
+					 															</optgroup>
+																				<optgroup label="Teknologi dan Riset" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
+					 															</optgroup>
+																				<optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
+					 															</optgroup>
+																				<option value="12" selected>Keseluruhan</option>
+
+					 														</select>
 
 						                        </div>
 												
-												<div class="col-lg-1">
-						                          <label>Kantor :</label>
+						                       <div class="col-lg-2">
+						                          <label>Mutu :</label>
 																			<select class="form-control kt-selectpicker" data-live-search="true">
-			                                      <option value="2" selected="">Pusat</option>
-			                                      <option value="2">Cabang</option>
+			                                      <option value="2">Baik</option>
+			                                      <option value="3">Atensi</option>
+			                                      <option value="3" selected>Keseluruhan</option>
 
 			                                  </select>
 						                        </div>
 												
-												<div class="col-lg-2">
-						                          <label class="">Tanggal Penilaian :</label>
-						                          <div class="input-group">
-						                        <input type="text" class="form-control kt_daterangepicker_2" readonly="" placeholder="Select date range">
-						                        <div class="input-group-append">
-						                          <span class="input-group-text"><i class="la la-calendar-check-o"></i></span>
+												<div class="col-lg-1">
+						                          <label>Verifikasi :</label>
+																			<select class="form-control kt-selectpicker" data-live-search="true">
+			                                      
+			                                      <option value="3">Disetujui</option>
+			                                      <option value="3">Pending</option>
+			                                      <option value="3">Ditolak</option>
+												  <option value="2" selected>Keseluruhan</option>
+
+			                                  </select>
 						                        </div>
-						                      </div>
+												
 						                        </div>
-						                        </div>
+												
 						                      </div>
 
 																	<div class="kt-portlet__foot text-center">
 																		<div class="kt-form__actions">
-																			<button type="reset" class="btn btn-outline-brand btn-sm">Reset</button>
+																			<button type="reset" class="btn btn-secondary btn-sm">Reset</button>
 																			<button type="reset" class="btn btn-primary btn-sm"><i class="flaticon-interface-6"></i>Filter Data</button>
 
 																		</div>
@@ -245,142 +195,195 @@
 																<!--end::Form-->
 															</div>
 							<!--begin:: Widgets/Stats-->
-							<div class="kt-portlet">
-								<div class="kt-portlet__body  kt-portlet__body--fit">
-									<div class="row row-no-padding row-col-separator-lg">
-										<div class="col-md-12 col-lg-6 col-xl-2">
+							<div class="row">
+							<div class="col-xl-12">
 
-											<!--begin::Total Profit-->
-											<div class="kt-widget24">
-												<div class="kt-widget24__details">
-													<div class="kt-widget24__info">
-														<h4 class="kt-widget24__title">
-															Total Pegawai
-														</h4>
-														<span class="kt-widget24__desc">
-															Total Keseluruhan Pegawai
-														</span>
-													</div>
-													<span class="kt-widget24__stats kt-font-brand">
-														44
-													</span>
+									<!--begin:: Widgets/Activity-->
+									<div class="kt-portlet kt-portlet--fit kt-portlet--head-lg kt-portlet--head-overlay kt-portlet--skin-solid kt-portlet--height-fluid">
+										<div class="kt-portlet__head kt-portlet__head--noborder kt-portlet__space-x">
+											<div class="kt-portlet__head-label" style="margin-left:55px;">
+												<h3 class="kt-portlet__head-title">
+													Statistik
+												</h3>
+											</div>
+											<div class="kt-portlet__head-toolbar" style="margin-right:55px;">
+												<a href="#" class="btn btn-label-light btn-sm dropdown-toggle" data-toggle="dropdown">
+													Bulan ini
+												</a>
+												<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+													<ul class="kt-nav">
+														
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">2026</span>
+															</a>
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon flaticon-event-calendar-symbol"></i>
+																<span class="kt-nav__link-text">2025</span>
+															</a>
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-chart-bar"></i>
+																<span class="kt-nav__link-text">Keseluruhan</span>
+															</a>
+														</li>
+														
+														
+														
+													</ul>
 												</div>
-
+												
 											</div>
-											</div>
-											<div class="col-md-12 col-lg-6 col-xl-2">
-
-											<!--begin::Total Profit-->
-											<div class="kt-widget24">
-												<div class="kt-widget24__details">
-													<div class="kt-widget24__info">
-														<h4 class="kt-widget24__title">
-															Sudah Dinilai
-														</h4>
-														<span class="kt-widget24__desc">
-															Pegawai yang sudah Dinilai
-														</span>
-													</div>
-													<span class="kt-widget24__stats kt-font-brand">
-														3
-													</span>
-												</div>
-
-											</div>
-
-											<!--end::Total Profit-->
-										</div><div class="col-md-12 col-lg-6 col-xl-2">
-
-											<!--begin::Total Profit-->
-											<div class="kt-widget24">
-												<div class="kt-widget24__details">
-													<div class="kt-widget24__info">
-														<h4 class="kt-widget24__title">
-															Belum Dinilai
-														</h4>
-														<span class="kt-widget24__desc">
-															Pegawai yang belum Dinilai
-														</span>
-													</div>
-													<span class="kt-widget24__stats kt-font-brand">
-														41
-													</span>
-												</div>
-
-											</div>
-
-											<!--end::Total Profit-->
 										</div>
-										
-										<div class="col-md-12 col-lg-6 col-xl-2">
-
-											<!--begin::New Feedbacks-->
-											<div class="kt-widget24">
-												<div class="kt-widget24__details">
-													<div class="kt-widget24__info">
-														<h4 class="kt-widget24__title">
-															Disetujui
-														</h4>
-														<span class="kt-widget24__desc">
-															Penilaian yang disetujui
-														</span>
+										<div class="kt-portlet__body kt-portlet__body--fit">
+											<div class="kt-widget17">
+												<div class="kt-widget17__visual kt-widget17__visual--chart kt-portlet-fit--top kt-portlet-fit--sides" style="background-color: #0961ae">
+													<div class="kt-widget17__chart" style="height:120px;">
+														<canvas id="kt_chart_activities"></canvas>
 													</div>
-													<span class="kt-widget24__stats kt-font-success">
-														1
-													</span>
 												</div>
-
-											</div>
-
-											<!--end::New Feedbacks-->
-										</div>
-										<div class="col-md-12 col-lg-6 col-xl-2">
-
-											<!--begin::New Orders-->
-											<div class="kt-widget24">
-												<div class="kt-widget24__details">
-													<div class="kt-widget24__info">
-														<h4 class="kt-widget24__title">
-															Pending
-														</h4>
-														<span class="kt-widget24__desc">
-															Penilaian yang pending
-														</span>
-													</div>
-													<span class="kt-widget24__stats kt-font-danger">
-														2
-													</span>
+												<div class="kt-widget17__stats">
+												<div class="row">
+												<div class="col-lg-2">
+													<div class="kt-widget17__items">
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__icon" style="text-align:center">
+																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--brand">
+																	<g id="Stockholm-icons-/-Files-/-File" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+        <path d="M5.85714286,2 L13.7364114,2 C14.0910962,2 14.4343066,2.12568431 14.7051108,2.35473959 L19.4686994,6.3839416 C19.8056532,6.66894833 20,7.08787823 20,7.52920201 L20,20.0833333 C20,21.8738751 19.9795521,22 18.1428571,22 L5.85714286,22 C4.02044787,22 4,21.8738751 4,20.0833333 L4,3.91666667 C4,2.12612489 4.02044787,2 5.85714286,2 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero" opacity="0.3"></path>
+        <rect id="Rectangle" fill="#000000" x="6" y="11" width="9" height="2" rx="1"></rect>
+        <rect id="Rectangle-Copy" fill="#000000" x="6" y="15" width="5" height="2" rx="1"></rect>
+    </g>
+																</svg> </span>
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Total
+															</span>
+															<span class="kt-widget17__desc kt-font-success" style="text-align:center">
+																<span style="font-size:17px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">12</span>
+															</span>
+														</div>
+														</div>
+														</div>
+														<div class="col-lg-2">
+													<div class="kt-widget17__items">
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__icon" style="text-align:center">
+																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--success">
+																	<g id="Stockholm-icons-/-General-/-Smile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+        <rect id="Combined-Shape" fill="#000000" opacity="0.3" x="2" y="2" width="20" height="20" rx="10"></rect>
+        <path d="M6.16794971,14.5547002 C5.86159725,14.0951715 5.98577112,13.4743022 6.4452998,13.1679497 C6.90482849,12.8615972 7.52569784,12.9857711 7.83205029,13.4452998 C8.9890854,15.1808525 10.3543313,16 12,16 C13.6456687,16 15.0109146,15.1808525 16.1679497,13.4452998 C16.4743022,12.9857711 17.0951715,12.8615972 17.5547002,13.1679497 C18.0142289,13.4743022 18.1384028,14.0951715 17.8320503,14.5547002 C16.3224187,16.8191475 14.3543313,18 12,18 C9.64566871,18 7.67758127,16.8191475 6.16794971,14.5547002 Z" id="Path-56" fill="#000000"></path>
+    </g>
+																</svg> </span>
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Baik
+															</span>
+															<span class="kt-widget17__desc kt-font-success" style="text-align:center">
+																<span style="font-size:17px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_alpa">10</span>
+															</span>
+														</div>
+														</div>
+														</div>
+														<div class="col-lg-2">
+													<div class="kt-widget17__items">
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__icon" style="text-align:center">
+																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--warning">
+																	<g id="Stockholm-icons-/-General-/-Sad" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+        <rect id="Combined-Shape" fill="#000000" opacity="0.3" x="2" y="2" width="20" height="20" rx="10"></rect>
+        <path d="M6.16794971,14.5547002 C5.86159725,14.0951715 5.98577112,13.4743022 6.4452998,13.1679497 C6.90482849,12.8615972 7.52569784,12.9857711 7.83205029,13.4452998 C8.9890854,15.1808525 10.3543313,16 12,16 C13.6456687,16 15.0109146,15.1808525 16.1679497,13.4452998 C16.4743022,12.9857711 17.0951715,12.8615972 17.5547002,13.1679497 C18.0142289,13.4743022 18.1384028,14.0951715 17.8320503,14.5547002 C16.3224187,16.8191475 14.3543313,18 12,18 C9.64566871,18 7.67758127,16.8191475 6.16794971,14.5547002 Z" id="Path-56" fill="#000000" transform="translate(12.000000, 15.499947) scale(1, -1) translate(-12.000000, -15.499947) "></path>
+    </g>
+																</svg> </span>
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Atensi
+															</span>
+															<span class="kt-widget17__desc kt-font-danger" style="text-align:center">
+																<span style="font-size:17px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_sakit">2</span> 
+															</span>
+														</div>
+														</div>
+														
+														</div>
+														<div class="col-lg-2">
+													<div class="kt-widget17__items">
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__icon" style="text-align:center">
+																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--brand">
+																	<g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect x="0" y="0" width="24" height="24"/>
+        <path d="M18,2 L20,2 C21.6568542,2 23,3.34314575 23,5 L23,19 C23,20.6568542 21.6568542,22 20,22 L18,22 L18,2 Z" fill="#000000" opacity="0.3"/>
+        <path d="M5,2 L17,2 C18.6568542,2 20,3.34314575 20,5 L20,19 C20,20.6568542 18.6568542,22 17,22 L5,22 C4.44771525,22 4,21.5522847 4,21 L4,3 C4,2.44771525 4.44771525,2 5,2 Z M12,11 C13.1045695,11 14,10.1045695 14,9 C14,7.8954305 13.1045695,7 12,7 C10.8954305,7 10,7.8954305 10,9 C10,10.1045695 10.8954305,11 12,11 Z M7.00036205,16.4995035 C6.98863236,16.6619875 7.26484009,17 7.4041679,17 C11.463736,17 14.5228466,17 16.5815,17 C16.9988413,17 17.0053266,16.6221713 16.9988413,16.5 C16.8360465,13.4332455 14.6506758,12 11.9907452,12 C9.36772908,12 7.21569918,13.5165724 7.00036205,16.4995035 Z" fill="#000000"/>
+    </g>
+																</svg> </span>
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Total Pegawai
+															</span>
+															<span class="kt-widget17__desc kt-font-success" style="text-align:center">
+																<span style="font-size:17px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_sakit">100</span> 
+															</span>
+														</div>
+														</div>
+														
+														</div>
+														<div class="col-lg-2">
+													<div class="kt-widget17__items">
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__icon" style="text-align:center">
+																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--success">
+																	<g id="Stockholm-icons-/-Files-/-File-done" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+        <path d="M5.85714286,2 L13.7364114,2 C14.0910962,2 14.4343066,2.12568431 14.7051108,2.35473959 L19.4686994,6.3839416 C19.8056532,6.66894833 20,7.08787823 20,7.52920201 L20,20.0833333 C20,21.8738751 19.9795521,22 18.1428571,22 L5.85714286,22 C4.02044787,22 4,21.8738751 4,20.0833333 L4,3.91666667 C4,2.12612489 4.02044787,2 5.85714286,2 Z M10.875,15.75 C11.1145833,15.75 11.3541667,15.6541667 11.5458333,15.4625 L15.3791667,11.6291667 C15.7625,11.2458333 15.7625,10.6708333 15.3791667,10.2875 C14.9958333,9.90416667 14.4208333,9.90416667 14.0375,10.2875 L10.875,13.45 L9.62916667,12.2041667 C9.29375,11.8208333 8.67083333,11.8208333 8.2875,12.2041667 C7.90416667,12.5875 7.90416667,13.1625 8.2875,13.5458333 L10.2041667,15.4625 C10.3958333,15.6541667 10.6354167,15.75 10.875,15.75 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero" opacity="0.3"></path>
+        <path d="M10.875,15.75 C10.6354167,15.75 10.3958333,15.6541667 10.2041667,15.4625 L8.2875,13.5458333 C7.90416667,13.1625 7.90416667,12.5875 8.2875,12.2041667 C8.67083333,11.8208333 9.29375,11.8208333 9.62916667,12.2041667 L10.875,13.45 L14.0375,10.2875 C14.4208333,9.90416667 14.9958333,9.90416667 15.3791667,10.2875 C15.7625,10.6708333 15.7625,11.2458333 15.3791667,11.6291667 L11.5458333,15.4625 C11.3541667,15.6541667 11.1145833,15.75 10.875,15.75 Z" id="check-path" fill="#000000"></path>
+    </g>
+																</svg> </span>
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Sudah Penilaian
+															</span>
+															<span class="kt-widget17__desc kt-font-success" style="text-align:center">
+																<span style="font-size:17px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_sakit">2</span> 
+															</span>
+														</div>
+														</div>
+														
+														</div>
+														<div class="col-lg-2">
+													<div class="kt-widget17__items">
+														<div class="kt-widget17__item">
+															<span class="kt-widget17__icon" style="text-align:center">
+																<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon kt-svg-icon--danger">
+																	<g id="Stockholm-icons-/-Files-/-Deleted-file" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <polygon id="Shape" points="0 0 24 0 24 24 0 24"></polygon>
+        <path d="M5.85714286,2 L13.7364114,2 C14.0910962,2 14.4343066,2.12568431 14.7051108,2.35473959 L19.4686994,6.3839416 C19.8056532,6.66894833 20,7.08787823 20,7.52920201 L20,20.0833333 C20,21.8738751 19.9795521,22 18.1428571,22 L5.85714286,22 C4.02044787,22 4,21.8738751 4,20.0833333 L4,3.91666667 C4,2.12612489 4.02044787,2 5.85714286,2 Z" id="Combined-Shape" fill="#000000" fill-rule="nonzero" opacity="0.3"></path>
+        <path d="M10.5857864,13 L9.17157288,11.5857864 C8.78104858,11.1952621 8.78104858,10.5620972 9.17157288,10.1715729 C9.56209717,9.78104858 10.1952621,9.78104858 10.5857864,10.1715729 L12,11.5857864 L13.4142136,10.1715729 C13.8047379,9.78104858 14.4379028,9.78104858 14.8284271,10.1715729 C15.2189514,10.5620972 15.2189514,11.1952621 14.8284271,11.5857864 L13.4142136,13 L14.8284271,14.4142136 C15.2189514,14.8047379 15.2189514,15.4379028 14.8284271,15.8284271 C14.4379028,16.2189514 13.8047379,16.2189514 13.4142136,15.8284271 L12,14.4142136 L10.5857864,15.8284271 C10.1952621,16.2189514 9.56209717,16.2189514 9.17157288,15.8284271 C8.78104858,15.4379028 8.78104858,14.8047379 9.17157288,14.4142136 L10.5857864,13 Z" id="Combined-Shape" fill="#000000"></path>
+    </g>
+																</svg> </span>
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Belum Penilaian
+															</span>
+															<span class="kt-widget17__desc kt-font-danger" style="text-align:center">
+																<span style="color:#ed1c24; font-size:17px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_sakit">98</span> 
+															</span>
+														</div>
+														</div>
+														
+														</div>
+														
+														
+													
 												</div>
-
-											</div>
-
-											<!--end::New Orders-->
-										</div>
-										<div class="col-md-12 col-lg-6 col-xl-2">
-
-											<!--begin::New Users-->
-											<div class="kt-widget24">
-												<div class="kt-widget24__details">
-													<div class="kt-widget24__info">
-														<h4 class="kt-widget24__title">
-															Ditolak
-														</h4>
-														<span class="kt-widget24__desc">
-															Penilaian yang ditolak
-														</span>
-													</div>
-													<span class="kt-widget24__stats kt-font-warning">
-														0
-													</span>
 												</div>
-
 											</div>
-
-											<!--end::New Users-->
 										</div>
 									</div>
-								</div>
-								</div>
+									</div>
+									</div>
+							
 
 							<!--end:: Widgets/Stats-->
 
@@ -391,6 +394,8 @@
 										<thead style="text-align:center">
 											<tr>
 												<th width="1%" bgcolor="#f7fcff" rowspan="2">#</th>
+												<th width="1%" bgcolor="#f7fcff" rowspan="2">Tahun</th>
+												<th width="1%" bgcolor="#f7fcff" rowspan="2">Bulan</th>
 												
 											  <th colspan="4" bgcolor="#f7fcff">Pejabat Penilai</th>
 												<th colspan="4" bgcolor="#feffed">Pegawai yang Dinilai</th>
@@ -400,12 +405,10 @@
 												<th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 											</tr>
 											<tr>
-											  <th width="1%" bgcolor="#f7fcff">Foto</th>
-											  <th width="7%" bgcolor="#f7fcff">Nama Pegawai</th>
+											  <th colspan="2" bgcolor="#f7fcff">Pegawai</th>
 											  <th width="1%" bgcolor="#f7fcff">Status Pegawai</th>
 											  <th width="1%" bgcolor="#f7fcff">Kantor</th>
-											  <th width="1%" bgcolor="#feffed">Foto</th>
-												<th width="7%" bgcolor="#feffed">Nama Pegawai</th>
+											  <th colspan="2" bgcolor="#feffed">Pegawai</th>
 												<th width="1%" bgcolor="#feffed">Status Pegawai</th>
 												<th width="1%" bgcolor="#feffed">Kantor</th>
 											</tr>
@@ -413,17 +416,19 @@
 										<tbody>
 											<tr>
 												<td id="kt_table_1" style="text-align:right">1</td>
+												<td id="kt_table_1" style="text-align:center">2026</td>
+												<td id="kt_table_1" style="text-align:left">Januari</td>
 												
-												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000000<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_9.jpg" alt="image">
 													</a></td>
-												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
+												<td width="7%" id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
 												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000000<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
-												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
+												<td width="7%" id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
 												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
@@ -460,14 +465,16 @@
 										  </tr>
 											<tr>
 												<td id="kt_table_1" style="text-align:right">2</td>
+												<td id="kt_table_1" style="text-align:center">2026</td>
+												<td id="kt_table_1" style="text-align:left">Januari</td>
 												
-												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000000<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_12.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
 												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000000<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_13.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
@@ -507,19 +514,21 @@
 										  </tr>
 										  <tr>
 												<td id="kt_table_1" style="text-align:right">3</td>
+												<td id="kt_table_1" style="text-align:center">2026</td>
+												<td id="kt_table_1" style="text-align:left">Januari</td>
 												
-												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000000<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_14.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
 												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
-												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Yuni Saslia, SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td style="text-align:center" nowrap=""><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
+												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000000<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_15.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
 												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
-											  <td style="text-align:center" nowrap=""><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
+											  <td style="text-align:center" nowrap=""><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  
 												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
@@ -833,10 +842,7 @@
 </div>
 
 									<!--end: Datatable -->
-								</div>
-							</div>
-
-            </div>
+								
 
 
 <?php require '../layouts/footer.php' ?>

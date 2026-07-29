@@ -65,10 +65,10 @@
 												</div>
 												<div class="kt-wizard-v4__nav-label">
 													<div class="kt-wizard-v4__nav-label-title">
-														Setup Penilaian
+														Detail 
 													</div>
 													<div class="kt-wizard-v4__nav-label-desc">
-														Kinerja Pegawai
+														Penilaian Kinerja
 													</div>
 												</div>
 													<div class="kt-wizard-v4__nav-number kt-block-center">
@@ -83,10 +83,10 @@
 												</div>
 												<div class="kt-wizard-v4__nav-label">
 													<div class="kt-wizard-v4__nav-label-title">
-														Pegawai Penerima 
+														Pegawai
 													</div>
 													<div class="kt-wizard-v4__nav-label-desc">
-														Penilaian Kinerja
+														yang akan dinilai
 													</div>
 												</div>
 													<div class="kt-wizard-v4__nav-number kt-block-center">
@@ -148,65 +148,7 @@
 														<div class="kt-form__section kt-form__section--first">
 
 											<div class="row">
-								<div class="col-xl-6">
-
-									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Anda</div>
-							<br>
-										<div class="kt-portlet__body">
-											<div class="kt-portlet__content">
-											<div class="form-group row">
-
-												
-												
-													<div class="col-lg-7">
-														<label>Nama Pegawai :</label>
-														 <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Yuni Saslia, SE">
-													</div>
-<div class="col-lg-5">
-														<label>NIP Pegawai :</label>
-														 <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="238 004 032">
-													</div>
-
-
-
-												</div>
-												</div>
-												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-												<div class="row">
-												<div class="col-lg-7">
-														<label>Department :</label>
-														 <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Pengembangan Usaha dan Kerjasama">
-													</div>
-												<div class="col-lg-5">
-														<label>Status Pegawai :</label>
-														 <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Tetap">
-													</div>
-													</div>
-
-
-												
-													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-												<div class="row">
-												<div class="col-lg-12">
-														<label>Jabatan :</label>
-														 <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Kepala Seksi Administrasi Kepegawaian">
-													</div>
-												
-
-												</div>
-												</div>
-												
-												
-									</div>
-
-									<!--end::Portlet-->
-
-
-
-								</div>
-								<div class="col-xl-6">
+											<div class="col-xl-4">
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
@@ -218,13 +160,29 @@
 
 												
 												
-													<div class="col-lg-12">
-														<label>Periode Penilaian :</label>
-														<div class="input-group">
-<input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="Pilih Rentang Tanggal">
-<div class="input-group-append">
- <span class="input-group-text"><i class="la la-calendar-check-o"></i></span></div> </div>
+													<div class="col-lg-6">
+														<label>Tahun :</label>
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2026">
 													</div>
+													<div class="col-lg-6">
+														<label>Bulan :</label>
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Januari">
+													</div>
+
+
+
+
+												</div>
+												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+												<div class="form-group row">
+
+												
+												
+													<div class="col-lg-12">
+														<label>Kantor :</label>
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Ambon - Yos Sudarso">
+													</div>
+													
 
 
 
@@ -240,6 +198,66 @@
 
 
 								</div>
+								<div class="col-xl-8">
+
+									<!--begin::Portlet-->
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Anda</div>
+							<br>
+										<div class="kt-portlet__body">
+											<div class="kt-portlet__content">
+											<div class="form-group row">
+
+												
+												
+													<div class="col-lg-4">
+														<label>Nama Pegawai :</label>
+														 <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Yuni Saslia, SE">
+													</div>
+<div class="col-lg-2">
+														<label>NIP Pegawai :</label>
+														 <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="000000000000">
+													</div>
+													<div class="col-lg-2">
+														<label>Status Pegawai :</label>
+														 <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Tetap">
+													</div>
+													<div class="col-lg-4">
+														<label>Department :</label>
+														 <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Pengembangan Usaha dan Kerjasama">
+													</div>
+
+
+
+												</div>
+												</div>
+												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+												<div class="row">
+												<div class="col-lg-6">
+														<label>Divisi :</label>
+														 <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Pengembangan Usaha dan Kerjasama">
+													</div>
+													<div class="col-lg-6">
+														<label>Jabatan :</label>
+														 <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Pengembangan Usaha dan Kerjasama">
+													</div>
+												
+													</div>
+
+
+												
+													
+												</div>
+												
+												
+									</div>
+
+									<!--end::Portlet-->
+
+
+
+								</div>
+								
 								
 								
 								
@@ -262,7 +280,7 @@
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Daftar Pegawai Penerima Penilaian</div><br>
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Daftar Pegawai yang akan dinilai</div><br>
 							<br>
 										<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
@@ -271,39 +289,35 @@
 												<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
 										<thead>
 											<tr style="text-align:center">
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Tahun</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Periode Penilaian</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Foto</th>
-											  <th width="10%" rowspan="2" bgcolor="#f7fcff">Nama Pegawai</th>
-											  <th width="5%" rowspan="2" bgcolor="#f7fcff">NIP</th>
-											  <th width="2%" rowspan="2" bgcolor="#f7fcff">Pangkat <br>/ Golongan</th>
-											  <th width="10%" rowspan="2" bgcolor="#f7fcff">Jabatan</th>
-											  <th width="8%" rowspan="2" bgcolor="#f7fcff">Department</th>
-											  
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Kantor</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Status Pegawai</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Status</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
+											  <th width="1%" bgcolor="#f7fcff" id="kt_table_2">#</th>
+											  <th width="1%" bgcolor="#f7fcff">Tahun</th>
+											  <th width="1%" bgcolor="#f7fcff">Bulan</th>
+											  <th colspan="2" bgcolor="#f7fcff">Pegawai</th>
+											  <th width="5%" bgcolor="#f7fcff">NIP</th>
+											  <th width="8%" bgcolor="#f7fcff">Department</th>
+											  <th width="10%" bgcolor="#f7fcff">Divisi</th>
+											  <th width="10%" bgcolor="#f7fcff">Jabatan</th>
+											  <th width="1%" bgcolor="#f7fcff">Kantor</th>
+											  <th width="1%" bgcolor="#f7fcff">Status Pegawai</th>
+											  <th width="1%" bgcolor="#f7fcff">Status</th>
+											  <th width="1%" bgcolor="#f7fcff">Aksi</th>
 											  
 										  </tr>
 											
 										</thead>
 										<tbody>
 											<tr>
-												<td id="kt_table_1" style="text-align:right">1</td>
-												<td nowrap="nowrap" style="text-align:center">2022</td>
-												<td nowrap="nowrap" style="text-align:center">1/01/2022 - 31/01/2022</td>
-												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="SRI SUHARTINI,SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_10.jpg" alt="image">
-													</a></td>
-												<td align="center" valign="middle" style="text-align:left">Yuni Saslia, SE</td>
-												<td id="kt_table_1">238 004 032</td>
-												<td id="kt_table_1" style="text-align:center">IV/A</td>
-												<td id="kt_table_1" style="text-align:left">Kepala Seksi Administrasi Kepegawaian</td>
-												<td style="text-align:left">Umum</td>
-												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
+											  <td id="kt_table_1" style="text-align:right">1</td>
+											  <td nowrap="nowrap" style="text-align:center">2026</td>
+											  <td nowrap="nowrap" style="text-align:center">Januari</td>
+											  <td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000000&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"> <img src="../assets/media/users/100_10.jpg" alt="image" /> </a></td>
+											  <td align="center" valign="middle" style="text-align:left">Yuni Saslia, SE</td>
+											  <td id="kt_table_1">000000000000</td>
+											  <td style="text-align:left">Umum</td>
+											  <td style="text-align:left">Umum</td>
+											  <td id="kt_table_1" style="text-align:left">Kepala Seksi Administrasi Kepegawaian</td>
+											  <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
+											  <td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 												<td width="1%" style="text-align:center"><span class="kt-badge kt-badge--warning kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="Belum Ada Penilaian" data-html="true">
 															<i class="fa fa-clock kt_sweetalert_demo_9" data-html="true"></i>
 														</span></td>
@@ -326,118 +340,69 @@
 																</div>
 															</div></td>
 												
-												
 										  </tr>
 											<tr>
-												<td id="kt_table_1" style="text-align:right">2</td>
-												<td nowrap="nowrap" style="text-align:center">2022</td>
-												<td nowrap="nowrap" style="text-align:center">1/01/2022 - 31/01/2022</td>
-												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="SRI SUHARTINI,SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_10.jpg" alt="image">
-													</a></td>
-												<td align="center" valign="middle" style="text-align:left">Yuni Saslia, SE</td>
-												<td id="kt_table_1">238 004 032</td>
-												<td id="kt_table_1" style="text-align:center">IV/A</td>
-												<td id="kt_table_1" style="text-align:left">Kepala Seksi Administrasi Kepegawaian</td>
-												<td style="text-align:left">Umum</td>
-												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
-												<td width="1%" style="text-align:center"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="Sudah Diberi Penilaian<hr>31 Desember 2022<br>09:00:00 WITA" data-html="true">
-															<i class="fa flaticon2-check-mark"></i>
-														</span></td>
-												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Penilaian Kinerja</span>
-																			</a>
-																		</li>
-																		
-																		
-																		
-																	</ul>
-																</div>
-															</div></td>
-												
+											  <td id="kt_table_1" style="text-align:right">2</td>
+											  <td nowrap="nowrap" style="text-align:center">2026</td>
+											  <td nowrap="nowrap" style="text-align:center">Januari</td>
+											  <td width="3%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000000&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"> <img src="../assets/media/users/100_10.jpg" alt="image" /> </a></td>
+											  <td width="10%" align="center" valign="middle" style="text-align:left">Yuni Saslia, SE</td>
+											  <td id="kt_table_1">000000000001</td>
+											  <td style="text-align:left">Umum</td>
+											  <td style="text-align:left">Umum</td>
+											  <td id="kt_table_1" style="text-align:left">Kepala Seksi Administrasi Kepegawaian</td>
+											  <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
+											  <td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
+											  <td style="text-align:center"><span class="kt-badge kt-badge--warning kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="Belum Ada Penilaian" data-html="true"> <i class="fa fa-clock kt_sweetalert_demo_9" data-html="true"></i> </span></td>
+											  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+											    <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+											      <ul class="kt-nav">
+											        <li class="kt-nav__item"> <a href="buat-penilaian-kinerja.php" class="kt-nav__link"> <i class="kt-nav__link-icon flaticon-statistics"></i> <span class="kt-nav__link-text">Buat Penilaian Kinerja</span> </a> </li>
+										          </ul>
+										        </div>
+											    </div></td>
 										  </tr>
 											<tr>
-												<td id="kt_table_1" style="text-align:right">3</td>
-												<td nowrap="nowrap" style="text-align:center">2022</td>
-												<td nowrap="nowrap" style="text-align:center">1/01/2022 - 31/01/2022</td>
-												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="SRI SUHARTINI,SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_10.jpg" alt="image">
-													</a></td>
-												<td align="center" valign="middle" style="text-align:left">Yuni Saslia, SE</td>
-												<td id="kt_table_1">238 004 032</td>
-												<td id="kt_table_1" style="text-align:center">IV/A</td>
-												<td id="kt_table_1" style="text-align:left">Kepala Seksi Administrasi Kepegawaian</td>
-												<td style="text-align:left">Umum</td>
-												<td style="text-align:center" nowrap=""><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang B">Cabang</span></td>
-												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
-												<td width="1%" style="text-align:center"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="Sudah Diberi Penilaian<hr>31 Desember 2022<br>09:00:00 WITA" data-html="true">
-															<i class="fa flaticon2-check-mark"></i>
-														</span></td>
-												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Penilaian Kinerja</span>
-																			</a>
-																		</li>
-																		
-																		
-																		
-																	</ul>
-																</div>
-															</div></td>
-												
+											  <td id="kt_table_1" style="text-align:right">3</td>
+											  <td nowrap="nowrap" style="text-align:center">2026</td>
+											  <td nowrap="nowrap" style="text-align:center">Januari</td>
+											  <td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000000&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"> <img src="../assets/media/users/100_10.jpg" alt="image" /> </a></td>
+											  <td align="center" valign="middle" style="text-align:left">Yuni Saslia, SE</td>
+											  <td id="kt_table_1">000000000002</td>
+											  <td style="text-align:left">Umum</td>
+											  <td style="text-align:left">Umum</td>
+											  <td id="kt_table_1" style="text-align:left">Kepala Seksi Administrasi Kepegawaian</td>
+											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang B">Cabang</span></td>
+											  <td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
+											  <td style="text-align:center"><span class="kt-badge kt-badge--warning kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="Belum Ada Penilaian" data-html="true"> <i class="fa fa-clock kt_sweetalert_demo_9" data-html="true"></i> </span></td>
+											  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+											    <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+											      <ul class="kt-nav">
+											        <li class="kt-nav__item"> <a href="buat-penilaian-kinerja.php" class="kt-nav__link"> <i class="kt-nav__link-icon flaticon-statistics"></i> <span class="kt-nav__link-text">Buat Penilaian Kinerja</span> </a> </li>
+										          </ul>
+										        </div>
+											    </div></td>
 										  </tr>
 										  <tr>
-												<td id="kt_table_1" style="text-align:right">4</td>
-												<td nowrap="nowrap" style="text-align:center">2022</td>
-												<td nowrap="nowrap" style="text-align:center">1/01/2022 - 31/01/2022</td>
-												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="SRI SUHARTINI,SE<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_10.jpg" alt="image">
-													</a></td>
-												<td align="center" valign="middle" style="text-align:left">Yuni Saslia, SE</td>
-												<td id="kt_table_1">238 004 032</td>
-												<td id="kt_table_1" style="text-align:center">IV/A</td>
-												<td id="kt_table_1" style="text-align:left">Kepala Seksi Administrasi Kepegawaian</td>
-												<td style="text-align:left">Umum</td>
-												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
-												<td width="1%" style="text-align:center"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="Sudah Diberi Penilaian<hr>31 Desember 2022<br>09:00:00 WITA" data-html="true">
-															<i class="fa flaticon2-check-mark"></i>
-														</span></td>
-												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Penilaian Kinerja</span>
-																			</a>
-																		</li>
-																		
-																		
-																		
-																	</ul>
-																</div>
-															</div></td>
-												
+										    <td id="kt_table_1" style="text-align:right">4</td>
+										    <td nowrap="nowrap" style="text-align:center">2026</td>
+										    <td nowrap="nowrap" style="text-align:center">Januari</td>
+										    <td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000000&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"> <img src="../assets/media/users/100_10.jpg" alt="image" /> </a></td>
+										    <td align="center" valign="middle" style="text-align:left">Yuni Saslia, SE</td>
+										    <td id="kt_table_1">000000000003</td>
+										    <td style="text-align:left">Umum</td>
+										    <td style="text-align:left">Umum</td>
+										    <td id="kt_table_1" style="text-align:left">Kepala Seksi Administrasi Kepegawaian</td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
+										    <td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
+										    <td style="text-align:center"><span class="kt-badge kt-badge--warning kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="Belum Ada Penilaian" data-html="true"> <i class="fa fa-clock kt_sweetalert_demo_9" data-html="true"></i> </span></td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+										          <li class="kt-nav__item"> <a href="buat-penilaian-kinerja.php" class="kt-nav__link"> <i class="kt-nav__link-icon flaticon-statistics"></i> <span class="kt-nav__link-text">Buat Penilaian Kinerja</span> </a> </li>
+									            </ul>
+									          </div>
+										      </div></td>
 										  </tr>
 										</tbody>
 									</table>
