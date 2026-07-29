@@ -238,7 +238,7 @@
 													</a></td>
 												<td style="text-align:left" nowrap>Muhammad Nasrullah, S.Kom</td>
 												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 												<td nowrap="nowrap" style="text-align:left">Keterlambatan</td>
 												<td nowrap="nowrap" style="text-align:left"><div class="input-group input-group-sm">
 																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
@@ -289,7 +289,7 @@
 													</a></td>
 												<td style="text-align:left" nowrap>Oklan Zulkifli, SE</td>
 												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Kontrak</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 												<td nowrap="nowrap" style="text-align:left">Absen</td>
 												<td nowrap="nowrap" style="text-align:left"><div class="input-group input-group-sm">
 																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
@@ -340,7 +340,7 @@
 													</a></td>
 												<td style="text-align:left" nowrap>Deddy Rafsanjani, S.Sos</td>
 												<td style="text-align:center" nowrap=""><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Honor</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 												<td nowrap="nowrap" style="text-align:left">PPH 21</td>
 												<td nowrap="nowrap" style="text-align:left"><div class="input-group input-group-sm">
 																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
@@ -440,7 +440,7 @@
 										    <td width="3%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"> <img src="../assets/img/users/100_15.jpg" alt="image" /> </a></td>
 										    <td nowrap="nowrap" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-										    <td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+										    <td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 										    <td nowrap="nowrap" style="text-align:left">JKK</td>
 										    <td nowrap="nowrap" style="text-align:left"><div class="input-group input-group-sm">
 										      <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
@@ -486,7 +486,7 @@
 										    <td width="3%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"> <img src="../assets/media/users/100_9.jpg" alt="image" /> </a></td>
 										    <td nowrap="nowrap" style="text-align:left">Oklan Zulkifli, SE</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-										    <td style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Kontrak</button></td>
+										    <td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 										    <td nowrap="nowrap" style="text-align:left">JKM</td>
 										    <td nowrap="nowrap" style="text-align:left"><div class="input-group input-group-sm">
 										      <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
@@ -532,7 +532,7 @@
 										    <td width="3%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Umum&lt;hr&gt;Umum&lt;hr&gt;Kepala Seksi Administrasi Kepegawaian" data-html="true"> <img src="../assets/media/users/100_8.jpg" alt="image" /> </a></td>
 										    <td nowrap="nowrap" style="text-align:left">Deddy Rafsanjani, S.Sos</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
-										    <td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Honor</button></td>
+										    <td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 										    <td nowrap="nowrap" style="text-align:left">BPJS Kesehatan</td>
 										    <td nowrap="nowrap" style="text-align:left"><div class="input-group input-group-sm">
 										      <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>

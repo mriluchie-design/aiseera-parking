@@ -308,7 +308,7 @@
 																		<img src="../assets/media/users/100_15.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Muhammad Nasrullah, S.Kom</td>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-success btn-sm">Tetap</span></td>
+																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 																<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--unified-success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Cuti" data-html="true"></button></td>
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
@@ -347,7 +347,7 @@
 																		<img src="../assets/media/users/dirum.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Direksi</td>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-success btn-sm">Tetap</span></td>
+																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 																<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--unified-success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Cuti" data-html="true"></button></td>
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
@@ -386,7 +386,7 @@
 																		<img src="../assets/media/users/dirops.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Direksi</td>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-success btn-sm">Tetap</span></td>
+																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 																<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--unified-success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Cuti" data-html="true"></button></td>
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
@@ -425,7 +425,7 @@
 																		<img src="../assets/media/users/dirkeu.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Direksi</td>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-success btn-sm">Tetap</span></td>
+																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 																<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--unified-success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Cuti" data-html="true"></button></td>
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
@@ -464,7 +464,7 @@
 																		<img src="../assets/media/users/dirjasa.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Direksi</td>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-success btn-sm">Tetap</span></td>
+																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 																<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--unified-success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Cuti" data-html="true"></button></td>
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
@@ -507,7 +507,7 @@
 																		<img src="../assets/media/users/100_16.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Umum dan Kepegawaian</td>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-brand btn-sm">Kontrak</span></td>
+																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 																<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
@@ -546,7 +546,7 @@
 																		<img src="../assets/media/users/100_10.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Umum dan Kepegawaian</td>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-brand btn-sm">Kontrak</span></td>
+																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
 																<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
@@ -624,7 +624,7 @@
 																		<img src="../assets/media/users/100_10.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Hukum dan Humas</td>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-success btn-sm">Tetap</span></td>
+																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
 																<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
@@ -663,7 +663,7 @@
 																		<img src="../assets/media/users/100_10.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Hukum dan Humas</td>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-success btn-sm">Tetap</span></td>
+																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang B">Cabang</span></td>
 																<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
@@ -705,7 +705,7 @@
 																		<img src="../assets/media/users/100_10.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Keuangan</td>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-brand btn-sm">Kontrak</span></td>
+																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 																<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
@@ -783,7 +783,7 @@
 																		<img src="../assets/media/users/100_10.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Asset</td>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-success btn-sm">Tetap</span></td>
+																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 																<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
@@ -822,7 +822,7 @@
 																		<img src="../assets/media/users/100_10.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Asset</td>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-success btn-sm">Tetap</span></td>
+																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 																<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
@@ -864,7 +864,7 @@
 																		<img src="../assets/media/users/100_10.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Pengelolaan</td>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-brand btn-sm">Kontrak</span></td>
+																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 																<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
@@ -942,7 +942,7 @@
 																		<img src="../assets/media/users/100_10.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Produksi</td>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-success btn-sm">Tetap</span></td>
+																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 																<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
@@ -981,7 +981,7 @@
 																		<img src="../assets/media/users/100_10.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Produksi</td>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-success btn-sm">Tetap</span></td>
+																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 																<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
@@ -1023,7 +1023,7 @@
 																		<img src="../assets/media/users/100_10.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Pengembangan</td>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-brand btn-sm">Kontrak</span></td>
+																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 																<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
@@ -1101,7 +1101,7 @@
 																		<img src="../assets/media/users/100_10.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Kerjasama</td>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-success btn-sm">Tetap</span></td>
+																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 																<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
@@ -1140,7 +1140,7 @@
 																		<img src="../assets/media/users/100_10.jpg" alt="image">
 																	</a></td>
 																<td width="20%" align="center" valign="middle" style="text-align:center">Kerjasama</td>
-																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-success btn-sm">Tetap</span></td>
+																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 																<td width="1%" align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 																<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>
 																	<td align="center" valign="middle" style="text-align:center"><button type="button" class="btn kt-badge kt-badge--success kt-badge--dot kt-badge--xl" data-toggle="kt-tooltip" data-placement="right" data-skin="brand" title="" data-original-title="Jam Masuk : 08:00:00 </br> Jam Pulang : 17:00:00 </br> Jam Kerja : 10:00:00 <hr> Masuk Lembur : -</br> Pulang Lembur : - </br> Jumlah Lembur : -" data-html="true"></button></td>

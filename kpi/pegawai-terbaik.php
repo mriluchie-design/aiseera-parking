@@ -298,7 +298,7 @@
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">25</td>
@@ -348,7 +348,7 @@
 														<img src="../assets/media/users/100_13.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Akmal Baharuddin</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Kontrak</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">75</td>
@@ -398,7 +398,7 @@
 														<img src="../assets/media/users/100_2.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Nursiah, S.Kom</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Honor</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">25</td>
@@ -450,7 +450,7 @@
 														<img src="../assets/media/users/100_9.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Andi Arif Mappagiling</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Honor</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">25</td>
@@ -596,7 +596,7 @@
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">25</td>
@@ -646,7 +646,7 @@
 														<img src="../assets/media/users/100_13.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Akmal Baharuddin</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Kontrak</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">75</td>
@@ -696,7 +696,7 @@
 														<img src="../assets/media/users/100_2.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Nursiah, S.Kom</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Honor</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">25</td>
@@ -748,7 +748,7 @@
 														<img src="../assets/media/users/100_9.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Andi Arif Mappagiling</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Honor</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">25</td>
@@ -894,7 +894,7 @@
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">25</td>
@@ -944,7 +944,7 @@
 														<img src="../assets/media/users/100_13.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Akmal Baharuddin</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Kontrak</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">75</td>
@@ -994,7 +994,7 @@
 														<img src="../assets/media/users/100_2.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Nursiah, S.Kom</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Honor</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">25</td>
@@ -1046,7 +1046,7 @@
 														<img src="../assets/media/users/100_9.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Andi Arif Mappagiling</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Honor</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">25</td>
@@ -1193,7 +1193,7 @@
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">25</td>
@@ -1243,7 +1243,7 @@
 														<img src="../assets/media/users/100_13.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Akmal Baharuddin</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Kontrak</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">75</td>
@@ -1293,7 +1293,7 @@
 														<img src="../assets/media/users/100_2.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Nursiah, S.Kom</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Honor</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">25</td>
@@ -1345,7 +1345,7 @@
 														<img src="../assets/media/users/100_9.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Andi Arif Mappagiling</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Honor</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">25</td>
@@ -1492,7 +1492,7 @@
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">25</td>
@@ -1542,7 +1542,7 @@
 														<img src="../assets/media/users/100_13.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Akmal Baharuddin</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Kontrak</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">75</td>
@@ -1592,7 +1592,7 @@
 														<img src="../assets/media/users/100_2.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Nursiah, S.Kom</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Honor</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">25</td>
@@ -1644,7 +1644,7 @@
 														<img src="../assets/media/users/100_9.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Andi Arif Mappagiling</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Honor</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">25</td>
@@ -1790,7 +1790,7 @@
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">25</td>
@@ -1840,7 +1840,7 @@
 														<img src="../assets/media/users/100_13.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Akmal Baharuddin</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Kontrak</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">75</td>
@@ -1890,7 +1890,7 @@
 														<img src="../assets/media/users/100_2.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Nursiah, S.Kom</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Honor</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">25</td>
@@ -1942,7 +1942,7 @@
 														<img src="../assets/media/users/100_9.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Andi Arif Mappagiling</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Honor</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">25</td>
@@ -2087,7 +2087,7 @@
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">25</td>
@@ -2137,7 +2137,7 @@
 														<img src="../assets/media/users/100_13.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Akmal Baharuddin</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Kontrak</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">75</td>
@@ -2187,7 +2187,7 @@
 														<img src="../assets/media/users/100_2.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Nursiah, S.Kom</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Honor</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">25</td>
@@ -2239,7 +2239,7 @@
 														<img src="../assets/media/users/100_9.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Andi Arif Mappagiling</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Honor</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">25</td>
@@ -2385,7 +2385,7 @@
 														<img src="../assets/media/users/100_10.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">25</td>
@@ -2435,7 +2435,7 @@
 														<img src="../assets/media/users/100_13.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Akmal Baharuddin</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Kontrak</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">75</td>
@@ -2485,7 +2485,7 @@
 														<img src="../assets/media/users/100_2.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Nursiah, S.Kom</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Honor</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">25</td>
@@ -2537,7 +2537,7 @@
 														<img src="../assets/media/users/100_9.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Andi Arif Mappagiling</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Honor</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">25</td>

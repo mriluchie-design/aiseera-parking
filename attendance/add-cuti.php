@@ -286,7 +286,7 @@ function goBack() {
 												<td style="text-align:center">000000000001</td>
 												
 												<td style="text-align:left">Direktur Utama</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 												<td style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="12"></td>
 												<td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="12"></td>
@@ -302,7 +302,7 @@ function goBack() {
 												<td style="text-align:center">000000000002</td>
 												
 												<td style="text-align:left">Direktur Umum</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Kontrak</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 												<td style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="12"></td>
 												<td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="12"></td>
@@ -318,7 +318,7 @@ function goBack() {
 												<td style="text-align:center">000000000003</td>
 												
 												<td style="text-align:left">Direktur Keuangan dan Asset</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Honor</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 												<td style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="12"></td>
 												<td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="12"></td>
@@ -334,7 +334,7 @@ function goBack() {
 												<td style="text-align:center">000000000004</td>
 												
 												<td style="text-align:left">Direktur Operasional</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 												<td style="text-align:center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
 												<td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="12"></td>
 												<td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="12"></td>
@@ -350,7 +350,7 @@ function goBack() {
 												<td style="text-align:center">000000000005</td>
 												
 												<td style="text-align:left">Direktur Pengembangan Usaha dan Kerjasama</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Kontrak</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 												<td style="text-align:center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang B">Cabang</span></td>
 												<td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="12"></td>
 												<td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="12"></td>
@@ -369,7 +369,7 @@ function goBack() {
 												<td style="text-align:center">000000000006</td>
 												
 												<td style="text-align:left">HR Staff</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 												<td style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td style="text-align:center">12</td>
 												<td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="12"></td>
@@ -385,7 +385,7 @@ function goBack() {
 												<td style="text-align:center">000000000007</td>
 												
 												<td style="text-align:left">HR Staff</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 												<td style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td style="text-align:center">12</td>
 												<td style="text-align:center"><input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="12"></td>

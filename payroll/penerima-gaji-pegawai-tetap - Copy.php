@@ -251,7 +251,7 @@ function goBack() {
 													</a></td>
 												<td style="text-align:left" nowrap>Muhammad Nasrullah, S.Kom</td>
 												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 												<td nowrap="nowrap" style="text-align:left"><div class="input-group input-group-sm">
 																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
 																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000.000" aria-describedby="basic-addon1" />
@@ -318,7 +318,7 @@ function goBack() {
 													</a></td>
 												<td style="text-align:left" nowrap>Oklan Zulkifli, SE</td>
 												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Kontrak</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 												<td nowrap="nowrap" style="text-align:left"><div class="input-group input-group-sm">
 																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
 																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000.000" aria-describedby="basic-addon1" />
@@ -385,7 +385,7 @@ function goBack() {
 													</a></td>
 												<td style="text-align:left" nowrap>Deddy Rafsanjani, S.Sos</td>
 												<td style="text-align:center" nowrap=""><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Honor</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 												<td nowrap="nowrap" style="text-align:left"><div class="input-group input-group-sm">
 																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
 																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000.000" aria-describedby="basic-addon1" />
@@ -452,7 +452,7 @@ function goBack() {
 													</a></td>
 												<td style="text-align:left" nowrap>Muhammad Ramadhan Lerrick, ST</td>
 												<td style="text-align:center" nowrap=""><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang B">Cabang</span></td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 												<td nowrap="nowrap" style="text-align:left"><div class="input-group input-group-sm">
 																					    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
 																					    <input style="text-align:right" type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2.000.000.000" aria-describedby="basic-addon1" />

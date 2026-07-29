@@ -324,7 +324,7 @@
 														<img src="../assets/img/users/100_15.jpg" alt="image">
 													</a></td>
 												<td width="14%" align="center" valign="middle" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 												<td style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td style="text-align:left">Lembur IM System</td>
 											  <td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
@@ -362,7 +362,7 @@
 														<img src="../assets/img/users/100_15.jpg" alt="image">
 													</a></td>
 												<td width="14%" align="center" valign="middle" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 												<td style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td style="text-align:left">Lembur IM System</td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
@@ -402,7 +402,7 @@
 														<img src="../assets/img/users/100_2.jpg" alt="image">
 													</a></td>
 												<td width="14%" align="center" valign="middle" style="text-align:left">Nursiah, S.Kom</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 												<td style="text-align:center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang B">Cabang</span></td>
 												<td style="text-align:left">Lembur IM System</td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_ditolak" data-html="true">
@@ -442,7 +442,7 @@
 														<img src="../assets/img/users/100_13.jpg" alt="image">
 													</a></td>
 												<td width="14%" align="center" valign="middle" style="text-align:left">Dhani Lamborghini, S.Kom</td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 												<td style="text-align:center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
 												<td style="text-align:left">Lembur IM System</td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_ditolak" data-html="true">

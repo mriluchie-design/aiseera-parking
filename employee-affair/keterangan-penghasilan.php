@@ -248,7 +248,7 @@
 												<td style="text-align:left" id="kt_table_1">Oklan Zulkifli, SE</td>
 												
 												<td style="text-align:center" nowrap=""><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center" nowrap=""><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 												<td style="text-align:center">Januari 2020</td>
 											  <td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
@@ -293,7 +293,7 @@
 												<td style="text-align:left" id="kt_table_1">Deddy Rafsanjani, S.Sos</td>
 												
 												<td style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Kontrak</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 												<td style="text-align:center">Januari 2020</td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
 															<i class="fa flaticon2-check-mark"></i>
@@ -340,7 +340,7 @@
 												<td style="text-align:left" id="kt_table_1">Akmal Baharuddin</td>
 												
 												<td style="text-align:center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Honor</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 												<td style="text-align:center">Januari 2020</td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
 															<i class="fa flaticon2-check-mark"></i>
@@ -387,7 +387,7 @@
 												<td style="text-align:left" id="kt_table_1">Muhammad Ramadhan Lerrick, ST</td>
 												
 												<td style="text-align:center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang B">Cabang</span></td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 												<td style="text-align:center">Januari 2020</td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_ditolak" data-html="true">
 															<i class="fa flaticon2-delete"></i>

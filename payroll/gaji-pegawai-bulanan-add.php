@@ -246,7 +246,7 @@
 												<td style="text-align:center" nowrap>Direksi</td>
 												<td style="text-align:left" nowrap>Direktur Umum</td>
 												<td style="text-align:center" nowrap=""><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 												</tr>
 											<tr>
 												<td id="kt_table_1" style="text-align:right">3</td>
@@ -261,7 +261,7 @@
 												<td style="text-align:center" nowrap>Direksi</td>
 												<td style="text-align:left" nowrap>Direktur Operasional</td>
 												<td style="text-align:center" nowrap=""><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 											</tr>
 										  <tr>
 												<td id="kt_table_1" style="text-align:right">4</td>
@@ -276,7 +276,7 @@
 												<td style="text-align:center" nowrap>Direksi</td>
 												<td style="text-align:left" nowrap>Direktur Keuangan dan Asset</td>
 												<td style="text-align:center" nowrap=""><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 											</tr>
 											<tr>
 												<td id="kt_table_1" style="text-align:right">5</td>
@@ -291,7 +291,7 @@
 												<td style="text-align:center" nowrap>Direksi</td>
 												<td style="text-align:left" nowrap>Direktur Pengembangan Usaha & Kerjasama</td>
 												<td style="text-align:center" nowrap=""><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 											</tr>
 											<tr>
 												<td id="kt_table_1" style="text-align:right">6</td>
@@ -300,13 +300,13 @@
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" >
 														<img src="../assets/media/users/300_21.jpg" alt="image">
 													</a></td>
-												<td style="text-align:left" nowrap>Ir. Asrarudin Mamonto, MM</td>
+												<td style="text-align:left" nowrap>Muhammad Nasrullah, S.Kom</td>
 												<td style="text-align:center" nowrap>000 000 006</td>
 												<td style="text-align:center" nowrap>Umum</td>
 												<td style="text-align:center" nowrap>Umum</td>
 												<td style="text-align:left" nowrap>Kepala Bagian Umum</td>
 												<td style="text-align:center" nowrap=""><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 											</tr>
 											<tr>
 												<td id="kt_table_1" style="text-align:right">7</td>
@@ -321,7 +321,7 @@
 												<td style="text-align:center" nowrap>Umum dan Kepegawaian</td>
 												<td style="text-align:left" nowrap>Kepala Seksi Administrasi Kepegawaian</td>
 												<td style="text-align:center" nowrap=""><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 											</tr>
 										</tbody>
 									</table>

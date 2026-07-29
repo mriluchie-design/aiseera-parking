@@ -304,7 +304,7 @@
 												<td id="kt_table_1" style="text-align:left">Kepala Seksi Administrasi Kepegawaian</td>
 												<td style="text-align:left">Umum</td>
 												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 												<td width="1%" style="text-align:center"><span class="kt-badge kt-badge--warning kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="Belum Ada Penilaian" data-html="true">
 															<i class="fa fa-clock kt_sweetalert_demo_9" data-html="true"></i>
 														</span></td>
@@ -342,7 +342,7 @@
 												<td id="kt_table_1" style="text-align:left">Kepala Seksi Administrasi Kepegawaian</td>
 												<td style="text-align:left">Umum</td>
 												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Kontrak</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 												<td width="1%" style="text-align:center"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="Sudah Diberi Penilaian<hr>31 Desember 2022<br>09:00:00 WITA" data-html="true">
 															<i class="fa flaticon2-check-mark"></i>
 														</span></td>
@@ -379,7 +379,7 @@
 												<td id="kt_table_1" style="text-align:left">Kepala Seksi Administrasi Kepegawaian</td>
 												<td style="text-align:left">Umum</td>
 												<td style="text-align:center" nowrap=""><span class="kt-badge kt-badge--warning kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang B">Cabang</span></td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 												<td width="1%" style="text-align:center"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="Sudah Diberi Penilaian<hr>31 Desember 2022<br>09:00:00 WITA" data-html="true">
 															<i class="fa flaticon2-check-mark"></i>
 														</span></td>
@@ -416,7 +416,7 @@
 												<td id="kt_table_1" style="text-align:left">Kepala Seksi Administrasi Kepegawaian</td>
 												<td style="text-align:left">Umum</td>
 												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Honor</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 												<td width="1%" style="text-align:center"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="kt-tooltip" data-skin="brand" title="Sudah Diberi Penilaian<hr>31 Desember 2022<br>09:00:00 WITA" data-html="true">
 															<i class="fa flaticon2-check-mark"></i>
 														</span></td>

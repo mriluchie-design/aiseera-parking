@@ -264,7 +264,7 @@
 													</a></td>
 												
 												
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">6</td>
@@ -306,7 +306,7 @@
 														<img src="../assets/media/users/100_1.jpg" alt="image">
 													</a></td>
 												
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">6</td>
@@ -352,7 +352,7 @@
 													</a></td>
 												
 												
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">6</td>
@@ -394,7 +394,7 @@
 														<img src="../assets/media/users/100_5.jpg" alt="image">
 													</a></td>
 												
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">6</td>
@@ -440,7 +440,7 @@
 													</a></td>
 												
 												
-												<td style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Kontrak</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">6</td>
@@ -482,7 +482,7 @@
 														<img src="../assets/media/users/100_7.jpg" alt="image">
 													</a></td>
 												
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">6</td>

@@ -318,7 +318,7 @@
 																		<img src="../assets/media/users/100_15.jpg" alt="image">
 																	</a></td>
 																<td rowspan="6" align="center" valign="middle" style="text-align:center">Muhammad Nasrullah, S.Kom</td>
-																<td rowspan="6" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-success btn-sm">Tetap</span></td>
+																<td rowspan="6" align="center" valign="middle" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 																<td rowspan="6" align="center" valign="middle" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 																<td align="center" valign="middle" style="text-align:center">Masuk</td>
 																	<td align="center" valign="middle" style="text-align:center">08:00:00</td>

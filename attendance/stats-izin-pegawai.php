@@ -235,7 +235,7 @@
 												<td style="text-align:left">Muhammad Nasrullah, S.Kom</td>
 												
 												
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">0</td>
@@ -254,7 +254,7 @@
 													</a></td>
 												<td style="text-align:left">Muhammad Ramadhan Lerrick, ST</td>
 												
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">0</td>
@@ -277,7 +277,7 @@
 												<td style="text-align:left">Deddy Rafsanjani, S.Sos</td>
 												
 												
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">0</td>
@@ -296,7 +296,7 @@
 													</a></td>
 												<td style="text-align:left">Oklan Zulkifli, SE</td>
 												
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">0</td>
@@ -320,7 +320,7 @@
 												
 												
 
-												<td style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Kontrak</button></td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">0</td>
@@ -339,7 +339,7 @@
 													</a></td>
 												<td style="text-align:left">Akmal Baharuddin</td>
 												
-												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
+												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">6</td>
 												<td style="text-align:center">0</td>
