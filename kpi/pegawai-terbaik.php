@@ -92,155 +92,128 @@
 																<form class="kt-form">
 																	<div class="kt-portlet__body">
 						                      <div class="form-group row">
+											  <div class="col-lg-2">
+                                <label>Kantor :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Pusat</option>
+                                      <option value="1">Makassar</option>
+                                      <option value="2">Pare-Pare</option>
+                                      <option value="2">Balikpapan</option>
+                                      <option value="2">Samarinda</option>
+                                      <option value="2">Tarakan</option>
+                                      <option value="2">Nunukan</option>
+                                      <option value="2">Manado</option>
+                                      <option value="2">Bitung</option>
+                                      <option value="2">Ambon - Yos Sudarso</option>
+                                      <option value="2">Ambon - Slamet Riyadi</option>
+                                      <option value="2">Ternate</option>
+                                      <option value="2">Sorong</option>
+                                      <option value="2">Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
+												<div class="col-lg-1">
+						                          <label>Tahun :</label>
+																			<select class="form-control kt-selectpicker" data-live-search="true">
+			                                      <option value="2">2026</option>
+			                                      <option value="3">2025</option>
+			                                      <option value="3" selected>Keseluruhan</option>
+
+			                                  </select>
+						                        </div>
+												<div class="col-lg-1">
+						                          <label>Bulan :</label>
+																			<select class="form-control kt-selectpicker" data-live-search="true">
+			                                      <option value="2">Januari</option>
+			                                      <option value="3">Februari</option>
+			                                      <option value="3" selected>Keseluruhan</option>
+
+			                                  </select>
+						                        </div>
 												 <div class="col-lg-3">
 						                          <label>Pejabat Penilai :</label>
-												  <select class="form-control kt-selectpicker form-control" data-live-search="true">
-					 															<optgroup label="Direksi">
-					 																<option value="AK"selected >Muhammad Nasrullah, S.Kom</option>
+												  <select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
+					 															<optgroup label="Direksi" class="a">
+					 																<option value="AK">Muhammad Nasrullah, S.Kom</option>
 					 															</optgroup>
-					 															<optgroup label="Umum">
-																					<option value="HI">Deddy Rafsanjani, S.Sos</option>
-					 															</optgroup>
-																				<optgroup label="Keuangan dan Asset">
+					 															
+																				<optgroup label="Keuangan" class="a">
 					 																<option value="HI">Oklan Zulkifli, SE</option>
 					 															</optgroup>
-																				<optgroup label="Operasional">
+																				<optgroup label="Operasional" class="a">
+					 																<option value="HI">Deddy Rafsanjani, S.Sos</option>
 					 																<option value="HI">Nursiah, S.Kom</option>
 					 															</optgroup>
-																				<optgroup label="Pengembangan Usaha dan Kerjasama">
+																				<optgroup label="Teknologi dan Riset" class="a">
 					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
 					 															</optgroup>
-
-					 														</select>
-
-						                        </div>
-												
-						                        <div class="col-lg-3">
-						                          <label>Department Penilai :</label>
-												  <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2" selected="">Direksi</option>
-                                      <option value="2">Dewan Pengawas</option>
-                                      <option value="3">Umum</option>
-                                      <option value="4">Keuangan dan Asset</option>
-                                      <option value="5">Operasional</option>
-                                      <option value="12" >Pengembangan Usaha dan Kerjasama</option>
-                                  </select>
-
-						                        </div>
-												 <div class="col-lg-3">
-						                          <label>Jabatan Penilai :</label>
-												  <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2">Dewan Pengawas</option>
-									  <optgroup label="Direksi">
-                                      <option value="2" selected="">Direktur Utama</option>
-                                      <option value="2">Direktur Umum</option>
-                                      <option value="2">Direktur Keuangan dan Asset</option>
-                                      <option value="2">Direktur Operasional</option>
-                                      <option value="2">Direktur Pengembangan Usaha dan Kerjasama</option>
-									  </optgroup>
-                                     
-                                  </select>
-
-						                        </div>
-												
-												<div class="col-lg-1">
-						                          <label>Status Pegawai :</label>
-																			<select class="form-control kt-selectpicker" data-live-search="true">
-			                                      <option value="2" selected="">Pegawai Tetap</option>
-			                                      <option value="2">Pegawai Kontrak</option>
-			                                      <option value="2">Pegawai Honor</option>
-
-			                                  </select>
-						                        </div>
-												
-												<div class="col-lg-2">
-						                          <label>Status Penilaian :</label>
-																			<select class="form-control kt-selectpicker" data-live-search="true">
-			                                      <option value="2" selected="">Menunggu Persetujuan</option>
-			                                      <option value="3">Disetujui</option>
-			                                      <option value="3">Ditolak</option>
-
-			                                  </select>
-						                        </div>
-												
-						                        </div>
-												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-<div class="form-group row">
-												 <div class="col-lg-3">
-						                          <label>Pegawai yang Dinilai :</label>
-												  <select class="form-control kt-selectpicker form-control" data-live-search="true">
-					 															<optgroup label="Direksi">
-					 																<option value="AK"selected >Muhammad Nasrullah, S.Kom</option>
-					 															</optgroup>
-					 															<optgroup label="Umum">
-																					<option value="HI">Deddy Rafsanjani, S.Sos</option>
-					 															</optgroup>
-																				<optgroup label="Keuangan dan Asset">
-					 																<option value="HI">Oklan Zulkifli, SE</option>
-					 															</optgroup>
-																				<optgroup label="Operasional">
-					 																<option value="HI">Nursiah, S.Kom</option>
-					 															</optgroup>
-																				<optgroup label="Pengembangan Usaha dan Kerjasama">
+																				<optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
 					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
 					 															</optgroup>
+																				<option value="12" selected>Keseluruhan</option>
 
 					 														</select>
-
-						                        </div>
-												
-						                        <div class="col-lg-3">
-						                          <label>Department yang Dinilai :</label>
-												  <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2" selected="">Direksi</option>
-                                      <option value="2">Dewan Pengawas</option>
-                                      <option value="3">Umum</option>
-                                      <option value="4">Keuangan dan Asset</option>
-                                      <option value="5">Operasional</option>
-                                      <option value="12" >Pengembangan Usaha dan Kerjasama</option>
-                                  </select>
 
 						                        </div>
 												<div class="col-lg-3">
-						                          <label>Jabatan yang Dinilai :</label>
-												  <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="2">Dewan Pengawas</option>
-									  <optgroup label="Direksi">
-                                      <option value="2" selected="">Direktur Utama</option>
-                                      <option value="2">Direktur Umum</option>
-                                      <option value="2">Direktur Keuangan dan Asset</option>
-                                      <option value="2">Direktur Operasional</option>
-                                      <option value="2">Direktur Pengembangan Usaha dan Kerjasama</option>
-									  </optgroup>
-                                     
-                                  </select>
+						                          <label>Pegawai Dinilai :</label>
+												  <select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
+					 															<optgroup label="Direksi" class="a">
+					 																<option value="AK">Muhammad Nasrullah, S.Kom</option>
+					 															</optgroup>
+					 															
+																				<optgroup label="Keuangan" class="a">
+					 																<option value="HI">Oklan Zulkifli, SE</option>
+					 															</optgroup>
+																				<optgroup label="Operasional" class="a">
+					 																<option value="HI">Deddy Rafsanjani, S.Sos</option>
+					 																<option value="HI">Nursiah, S.Kom</option>
+					 															</optgroup>
+																				<optgroup label="Teknologi dan Riset" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
+					 															</optgroup>
+																				<optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
+					 															</optgroup>
+																				<option value="12" selected>Keseluruhan</option>
+
+					 														</select>
 
 						                        </div>
 												
-												<div class="col-lg-1">
-						                          <label>Kantor :</label>
+						                       <div class="col-lg-1">
+						                          <label>Mutu :</label>
 																			<select class="form-control kt-selectpicker" data-live-search="true">
-			                                      <option value="2" selected="">Pusat</option>
-			                                      <option value="2">Cabang</option>
+			                                      <option value="2">Baik</option>
+			                                      
+			                                      <option value="3">Cukup</option>
+			                                      <option value="3">Kurang</option>
+												  <option value="3">Atensi</option>
+			                                      <option value="3" selected>Keseluruhan</option>
 
 			                                  </select>
 						                        </div>
 												
-												<div class="col-lg-2">
-						                          <label class="">Tanggal Penilaian :</label>
-						                          <div class="input-group">
-						                        <input type="text" class="form-control kt_daterangepicker_2" readonly="" placeholder="Select date range">
-						                        <div class="input-group-append">
-						                          <span class="input-group-text"><i class="la la-calendar-check-o"></i></span>
+												<div class="col-lg-1">
+						                          <label>Verifikasi :</label>
+																			<select class="form-control kt-selectpicker" data-live-search="true">
+			                                      
+			                                      <option value="3">Disetujui</option>
+			                                      <option value="3">Pending</option>
+			                                      <option value="3">Ditolak</option>
+												  <option value="2" selected>Keseluruhan</option>
+
+			                                  </select>
 						                        </div>
-						                      </div>
+												
 						                        </div>
-						                        </div>
+												
 						                      </div>
 
 																	<div class="kt-portlet__foot text-center">
 																		<div class="kt-form__actions">
-																			<button type="reset" class="btn btn-outline-brand btn-sm">Reset</button>
+																			<button type="reset" class="btn btn-secondary btn-sm">Reset</button>
 																			<button type="reset" class="btn btn-primary btn-sm"><i class="flaticon-interface-6"></i>Filter Data</button>
 
 																		</div>
@@ -254,7 +227,7 @@
 
 							<!--end:: Widgets/Stats-->
 <div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Umum</div><br>
+							
 							<div>&nbsp;</div>
 										<div class="kt-portlet__body">
 											
@@ -262,10 +235,13 @@
 										<thead style="text-align:center">
 											<tr>
 												<th width="1%" bgcolor="#f7fcff" rowspan="2">#</th>
+												<th width="1%" bgcolor="#f7fcff" rowspan="2">Tahun</th>
+												<th width="1%" bgcolor="#f7fcff" rowspan="2">Bulan</th>
+												<th width="1%" bgcolor="#f7fcff" rowspan="2">Kantor</th>
 												
 											  <th colspan="2" bgcolor="#f7fcff">Pejabat Penilai</th>
-												<th colspan="4" bgcolor="#feffed">Pegawai yang Dinilai</th>
-												<th width="5%" bgcolor="#f7fcff" rowspan="2">Waktu<br>
+												<th colspan="3" bgcolor="#feffed">Pegawai yang Dinilai</th>
+												<th width="7%" bgcolor="#f7fcff" rowspan="2">Waktu<br>
 											  Penilaian</th>
 												<th colspan="2" bgcolor="#feffed">Prestasi Kerja (%)</th>
 												<th colspan="2" bgcolor="#feffed">Beban Kerja (%)</th>
@@ -275,11 +251,10 @@
 											</tr>
 											<tr>
 											  <th width="2%" bgcolor="#f7fcff">Foto</th>
-											  <th width="8%" bgcolor="#f7fcff">Nama Pegawai</th>
+											  <th width="12%" bgcolor="#f7fcff">Nama Pegawai</th>
 											  <th width="2%" bgcolor="#feffed">Foto</th>
-												<th width="8%" bgcolor="#feffed">Nama Pegawai</th>
+												<th width="10%" bgcolor="#feffed">Nama Pegawai</th>
 												<th width="1%" bgcolor="#feffed">Status Pegawai</th>
-												<th width="1%" bgcolor="#feffed">Kantor</th>
 												<th width="2%" bgcolor="#feffed">Tingkat Kehadiran</th>
 												<th width="2%" bgcolor="#feffed">Efektifitas &amp; Efisiensi</th>
 												<th width="2%" bgcolor="#feffed">Besaran Aktifitas</th>
@@ -289,7 +264,9 @@
 										<tbody>
 											<tr>
 												<td id="kt_table_1" style="text-align:right">1</td>
-												
+												<td id="kt_table_1" style="text-align:right">2026</td>
+												<td id="kt_table_1" style="text-align:right">Januari</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001<hr>Direktur Utama" data-html="true">
 														<img src="../assets/media/users/100_15.jpg" alt="image">
 													</a></td>
@@ -299,7 +276,6 @@
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
 												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">25</td>
 											  <td style="text-align:center">0</td>
@@ -339,7 +315,9 @@
 										  </tr>
 											<tr>
 												<td id="kt_table_1" style="text-align:right">2</td>
-												
+												<td id="kt_table_1" style="text-align:right">2026</td>
+												<td id="kt_table_1" style="text-align:right">Januari</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_12.jpg" alt="image">
 													</a></td>
@@ -349,7 +327,6 @@
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Akmal Baharuddin</td>
 												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">75</td>
 											  <td style="text-align:center">100</td>
@@ -389,7 +366,9 @@
 										  </tr>
 										  <tr>
 												<td id="kt_table_1" style="text-align:right">3</td>
-												
+												<td id="kt_table_1" style="text-align:right">2026</td>
+												<td id="kt_table_1" style="text-align:right">Januari</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000005<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_8.jpg" alt="image">
 													</a></td>
@@ -399,7 +378,6 @@
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Nursiah, S.Kom</td>
 												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">25</td>
 											  <td style="text-align:center">25</td>
@@ -441,7 +419,9 @@
 										  </tr>
 										  <tr>
 												<td id="kt_table_1" style="text-align:right">4</td>
-												
+												<td id="kt_table_1" style="text-align:right">2026</td>
+												<td id="kt_table_1" style="text-align:right">Januari</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000007<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/300_21.jpg" alt="image">
 													</a></td>
@@ -451,7 +431,324 @@
 													</a></td>
 												<td id="kt_table_1" style="text-align:left">Andi Arif Mappagiling</td>
 												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
+											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
+											  <td style="text-align:center">25</td>
+											  <td style="text-align:center">25</td>
+											  <td style="text-align:center">25</td>
+											  <td style="text-align:center">25</td>
+											  <td style="text-align:center"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">Atensi</span></td>
+											  
+												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
+															<i class="fa flaticon2-check-mark"></i>
+														</span></td>
+												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
+																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="flaticon-more-1"></i>
+																</a>
+																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+																	<ul class="kt-nav">
+																	<li class="kt-nav__item">
+																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Lihat Detail</span>
+																			</a>
+																		</li>
+																		<li class="kt-nav__item">
+																			<a href="cetak-penilaian.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
+																				<span class="kt-nav__link-text">Cetak Penilaian</span>
+																			</a>
+																		</li>
+																		
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																		</li>
+																	</ul>
+																</div>
+															</div></td>
+										  </tr>
+										  <tr>
+												<td id="kt_table_1" style="text-align:right">5</td>
+												<td id="kt_table_1" style="text-align:right">2026</td>
+												<td id="kt_table_1" style="text-align:right">Januari</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
+												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000007<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+														<img src="../assets/media/users/300_21.jpg" alt="image">
+													</a></td>
+												<td id="kt_table_1" style="text-align:left">Muhammad Ramadhan Lerrick, ST</td>
+												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000008<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+														<img src="../assets/media/users/100_9.jpg" alt="image">
+													</a></td>
+												<td id="kt_table_1" style="text-align:left">Andi Arif Mappagiling</td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
+											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
+											  <td style="text-align:center">25</td>
+											  <td style="text-align:center">25</td>
+											  <td style="text-align:center">25</td>
+											  <td style="text-align:center">25</td>
+											  <td style="text-align:center"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">Atensi</span></td>
+											  
+												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
+															<i class="fa flaticon2-check-mark"></i>
+														</span></td>
+												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
+																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="flaticon-more-1"></i>
+																</a>
+																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+																	<ul class="kt-nav">
+																	<li class="kt-nav__item">
+																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Lihat Detail</span>
+																			</a>
+																		</li>
+																		<li class="kt-nav__item">
+																			<a href="cetak-penilaian.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
+																				<span class="kt-nav__link-text">Cetak Penilaian</span>
+																			</a>
+																		</li>
+																		
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																		</li>
+																	</ul>
+																</div>
+															</div></td>
+										  </tr>
+										  <tr>
+												<td id="kt_table_1" style="text-align:right">6</td>
+												<td id="kt_table_1" style="text-align:right">2026</td>
+												<td id="kt_table_1" style="text-align:right">Januari</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
+												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000007<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+														<img src="../assets/media/users/300_21.jpg" alt="image">
+													</a></td>
+												<td id="kt_table_1" style="text-align:left">Muhammad Ramadhan Lerrick, ST</td>
+												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000008<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+														<img src="../assets/media/users/100_9.jpg" alt="image">
+													</a></td>
+												<td id="kt_table_1" style="text-align:left">Andi Arif Mappagiling</td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
+											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
+											  <td style="text-align:center">25</td>
+											  <td style="text-align:center">25</td>
+											  <td style="text-align:center">25</td>
+											  <td style="text-align:center">25</td>
+											  <td style="text-align:center"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">Atensi</span></td>
+											  
+												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
+															<i class="fa flaticon2-check-mark"></i>
+														</span></td>
+												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
+																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="flaticon-more-1"></i>
+																</a>
+																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+																	<ul class="kt-nav">
+																	<li class="kt-nav__item">
+																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Lihat Detail</span>
+																			</a>
+																		</li>
+																		<li class="kt-nav__item">
+																			<a href="cetak-penilaian.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
+																				<span class="kt-nav__link-text">Cetak Penilaian</span>
+																			</a>
+																		</li>
+																		
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																		</li>
+																	</ul>
+																</div>
+															</div></td>
+										  </tr>
+										  <tr>
+												<td id="kt_table_1" style="text-align:right">7</td>
+												<td id="kt_table_1" style="text-align:right">2026</td>
+												<td id="kt_table_1" style="text-align:right">Januari</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
+												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000007<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+														<img src="../assets/media/users/300_21.jpg" alt="image">
+													</a></td>
+												<td id="kt_table_1" style="text-align:left">Muhammad Ramadhan Lerrick, ST</td>
+												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000008<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+														<img src="../assets/media/users/100_9.jpg" alt="image">
+													</a></td>
+												<td id="kt_table_1" style="text-align:left">Andi Arif Mappagiling</td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
+											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
+											  <td style="text-align:center">25</td>
+											  <td style="text-align:center">25</td>
+											  <td style="text-align:center">25</td>
+											  <td style="text-align:center">25</td>
+											  <td style="text-align:center"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">Atensi</span></td>
+											  
+												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
+															<i class="fa flaticon2-check-mark"></i>
+														</span></td>
+												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
+																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="flaticon-more-1"></i>
+																</a>
+																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+																	<ul class="kt-nav">
+																	<li class="kt-nav__item">
+																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Lihat Detail</span>
+																			</a>
+																		</li>
+																		<li class="kt-nav__item">
+																			<a href="cetak-penilaian.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
+																				<span class="kt-nav__link-text">Cetak Penilaian</span>
+																			</a>
+																		</li>
+																		
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																		</li>
+																	</ul>
+																</div>
+															</div></td>
+										  </tr>
+										  <tr>
+												<td id="kt_table_1" style="text-align:right">8</td>
+												<td id="kt_table_1" style="text-align:right">2026</td>
+												<td id="kt_table_1" style="text-align:right">Januari</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
+												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000007<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+														<img src="../assets/media/users/300_21.jpg" alt="image">
+													</a></td>
+												<td id="kt_table_1" style="text-align:left">Muhammad Ramadhan Lerrick, ST</td>
+												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000008<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+														<img src="../assets/media/users/100_9.jpg" alt="image">
+													</a></td>
+												<td id="kt_table_1" style="text-align:left">Andi Arif Mappagiling</td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
+											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
+											  <td style="text-align:center">25</td>
+											  <td style="text-align:center">25</td>
+											  <td style="text-align:center">25</td>
+											  <td style="text-align:center">25</td>
+											  <td style="text-align:center"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">Atensi</span></td>
+											  
+												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
+															<i class="fa flaticon2-check-mark"></i>
+														</span></td>
+												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
+																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="flaticon-more-1"></i>
+																</a>
+																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+																	<ul class="kt-nav">
+																	<li class="kt-nav__item">
+																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Lihat Detail</span>
+																			</a>
+																		</li>
+																		<li class="kt-nav__item">
+																			<a href="cetak-penilaian.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
+																				<span class="kt-nav__link-text">Cetak Penilaian</span>
+																			</a>
+																		</li>
+																		
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																		</li>
+																	</ul>
+																</div>
+															</div></td>
+										  </tr>
+										  <tr>
+												<td id="kt_table_1" style="text-align:right">9</td>
+												<td id="kt_table_1" style="text-align:right">2026</td>
+												<td id="kt_table_1" style="text-align:right">Januari</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
+												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000007<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+														<img src="../assets/media/users/300_21.jpg" alt="image">
+													</a></td>
+												<td id="kt_table_1" style="text-align:left">Muhammad Ramadhan Lerrick, ST</td>
+												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000008<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+														<img src="../assets/media/users/100_9.jpg" alt="image">
+													</a></td>
+												<td id="kt_table_1" style="text-align:left">Andi Arif Mappagiling</td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
+											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
+											  <td style="text-align:center">25</td>
+											  <td style="text-align:center">25</td>
+											  <td style="text-align:center">25</td>
+											  <td style="text-align:center">25</td>
+											  <td style="text-align:center"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">Atensi</span></td>
+											  
+												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
+															<i class="fa flaticon2-check-mark"></i>
+														</span></td>
+												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
+																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="flaticon-more-1"></i>
+																</a>
+																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+																	<ul class="kt-nav">
+																	<li class="kt-nav__item">
+																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Lihat Detail</span>
+																			</a>
+																		</li>
+																		<li class="kt-nav__item">
+																			<a href="cetak-penilaian.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
+																				<span class="kt-nav__link-text">Cetak Penilaian</span>
+																			</a>
+																		</li>
+																		
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																		</li>
+																	</ul>
+																</div>
+															</div></td>
+										  </tr>
+										  <tr>
+												<td id="kt_table_1" style="text-align:right">10</td>
+												<td id="kt_table_1" style="text-align:right">2026</td>
+												<td id="kt_table_1" style="text-align:right">Januari</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
+												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000007<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+														<img src="../assets/media/users/300_21.jpg" alt="image">
+													</a></td>
+												<td id="kt_table_1" style="text-align:left">Muhammad Ramadhan Lerrick, ST</td>
+												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000008<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+														<img src="../assets/media/users/100_9.jpg" alt="image">
+													</a></td>
+												<td id="kt_table_1" style="text-align:left">Andi Arif Mappagiling</td>
+												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
 											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
 											  <td style="text-align:center">25</td>
 											  <td style="text-align:center">25</td>
@@ -552,2090 +849,13 @@
 
                 </div>
                       </div>
-<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Kepegawaian</div><br>
-							<div>&nbsp;</div>
-										<div class="kt-portlet__body">
-                        <table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="m_table_1">
-										<thead style="text-align:center">
-											<tr>
-												<th width="1%" bgcolor="#f7fcff" rowspan="2">#</th>
-												
-											  <th colspan="2" bgcolor="#f7fcff">Pejabat Penilai</th>
-												<th colspan="4" bgcolor="#feffed">Pegawai yang Dinilai</th>
-												<th width="5%" bgcolor="#f7fcff" rowspan="2">Waktu<br>
-											  Penilaian</th>
-												<th colspan="2" bgcolor="#feffed">Prestasi Kerja (%)</th>
-												<th colspan="2" bgcolor="#feffed">Beban Kerja (%)</th>
-												<th width="2%" bgcolor="#feffed" rowspan="2">Mutu</th>
-												<th width="1%" rowspan="2" bgcolor="#f7fcff">Verifikasi</th>
-												<th width="1%" bgcolor="#f7fcff" rowspan="2">Aksi</th>
-											</tr>
-											<tr>
-											  <th width="2%" bgcolor="#f7fcff">Foto</th>
-											  <th width="8%" bgcolor="#f7fcff">Nama Pegawai</th>
-											  <th width="2%" bgcolor="#feffed">Foto</th>
-												<th width="8%" bgcolor="#feffed">Nama Pegawai</th>
-												<th width="1%" bgcolor="#feffed">Status Pegawai</th>
-												<th width="1%" bgcolor="#feffed">Kantor</th>
-												<th width="2%" bgcolor="#feffed">Tingkat Kehadiran</th>
-												<th width="2%" bgcolor="#feffed">Efektifitas &amp; Efisiensi</th>
-												<th width="2%" bgcolor="#feffed">Besaran Aktifitas</th>
-												<th width="4%" bgcolor="#feffed">Besaran Tanggung Jawab Dikelola</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td id="kt_table_1" style="text-align:right">1</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001<hr>Direktur Utama" data-html="true">
-														<img src="../assets/media/users/100_15.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000002<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_10.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
-												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">0</td>
-											  <td style="text-align:center">0</td>
-											  <td style="text-align:center">0</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Baik</span></td>
-											  
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-penilaian.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Cetak Penilaian</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div></td>
-										  </tr>
-											<tr>
-												<td id="kt_table_1" style="text-align:right">2</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_12.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Oklan Zulkifli, SE</td>
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000004<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_13.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Akmal Baharuddin</td>
-												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
-											  <td style="text-align:center">75</td>
-											  <td style="text-align:center">100</td>
-											  <td style="text-align:center">75</td>
-											  <td style="text-align:center">75</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">Cukup</span></td>
-											  
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-penilaian.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Cetak Penilaian</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div></td>
-										  </tr>
-										  <tr>
-												<td id="kt_table_1" style="text-align:right">3</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000005<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_8.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Deddy Rafsanjani, S.Sos</td>
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000006<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_2.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Nursiah, S.Kom</td>
-												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--warning kt-badge--md kt-badge--inline">Kurang</span></td>
-											  
-												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
-															<i class="fa flaticon2-check-mark"></i>
-														</span></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-penilaian.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Cetak Penilaian</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div></td>
-										  </tr>
-										  <tr>
-												<td id="kt_table_1" style="text-align:right">4</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000007<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/300_21.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Muhammad Ramadhan Lerrick, ST</td>
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000008<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_9.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Andi Arif Mappagiling</td>
-												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">Atensi</span></td>
-											  
-												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
-															<i class="fa flaticon2-check-mark"></i>
-														</span></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-penilaian.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Cetak Penilaian</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div></td>
-										  </tr>
-										</tbody>
-									</table>
 
 
-<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-					<div class="kt-pagination  kt-pagination--danger">
-						<select class="form-control kt-font-danger" style="width: 60px">
-								<option value="10">10</option>
-								<option value="20">20</option>
-								<option value="30">30</option>
-								<option value="50">50</option>
-								<option value="100">100</option>
-							</select>
-							<span class="pagination__desc">
-								Menampilkan 10 dari 230 Data
-							</span>
-							<div class="kt-pagination__toolbar">
-								<ul class="kt-pagination__links">
-								<li class="kt-pagination__link--first">
-									<a href="#"><i class="fa fa-angle-double-left kt-font-danger"></i></a>
-								</li>
-								<li class="kt-pagination__link--next">
-									<a href="#"><i class="fa fa-angle-left kt-font-danger"></i></a>
-								</li>
-								<li>
-									<a href="#">...</a>
-								</li>
-								<li>
-									<a href="#">29</a>
-								</li>
-								<li class="kt-pagination__link--active">
-									<a href="#">30</a>
-								</li>
-								<li>
-									<a href="#">31</a>
-								</li>
-								<li>
-									<a href="#">32</a>
-								</li>
-								<li>
-									<a href="#">33</a>
-								</li>
-								<li>
-									<a href="#">34</a>
-								</li>
-								<li>
-									<a href="#">...</a>
-								</li>
-								<li class="kt-pagination__link--prev">
-									<a href="#"><i class="fa fa-angle-right kt-font-danger"></i></a>
-								</li>
-								<li class="kt-pagination__link--last">
-									<a href="#"><i class="fa fa-angle-double-right kt-font-danger"></i></a>
-								</li>
-							</ul>
-							</div>
-						</div>
-                    <!-- end:: pageline -->
-
-                </div>
-                      </div>
-<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Keuangan</div><br>
-							<div>&nbsp;</div>
-										<div class="kt-portlet__body">
-                        <table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="m_table_1">
-										<thead style="text-align:center">
-											<tr>
-												<th width="1%" bgcolor="#f7fcff" rowspan="2">#</th>
-												
-											  <th colspan="2" bgcolor="#f7fcff">Pejabat Penilai</th>
-												<th colspan="4" bgcolor="#feffed">Pegawai yang Dinilai</th>
-												<th width="5%" bgcolor="#f7fcff" rowspan="2">Waktu<br>
-											  Penilaian</th>
-												<th colspan="2" bgcolor="#feffed">Prestasi Kerja (%)</th>
-												<th colspan="2" bgcolor="#feffed">Beban Kerja (%)</th>
-												<th width="2%" bgcolor="#feffed" rowspan="2">Mutu</th>
-												<th width="1%" rowspan="2" bgcolor="#f7fcff">Verifikasi</th>
-												<th width="1%" bgcolor="#f7fcff" rowspan="2">Aksi</th>
-											</tr>
-											<tr>
-											  <th width="2%" bgcolor="#f7fcff">Foto</th>
-											  <th width="8%" bgcolor="#f7fcff">Nama Pegawai</th>
-											  <th width="2%" bgcolor="#feffed">Foto</th>
-												<th width="8%" bgcolor="#feffed">Nama Pegawai</th>
-												<th width="1%" bgcolor="#feffed">Status Pegawai</th>
-												<th width="1%" bgcolor="#feffed">Kantor</th>
-												<th width="2%" bgcolor="#feffed">Tingkat Kehadiran</th>
-												<th width="2%" bgcolor="#feffed">Efektifitas &amp; Efisiensi</th>
-												<th width="2%" bgcolor="#feffed">Besaran Aktifitas</th>
-												<th width="4%" bgcolor="#feffed">Besaran Tanggung Jawab Dikelola</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td id="kt_table_1" style="text-align:right">1</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001<hr>Direktur Utama" data-html="true">
-														<img src="../assets/media/users/100_15.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000002<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_10.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
-												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">0</td>
-											  <td style="text-align:center">0</td>
-											  <td style="text-align:center">0</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Baik</span></td>
-											  
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-penilaian.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Cetak Penilaian</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div></td>
-										  </tr>
-											<tr>
-												<td id="kt_table_1" style="text-align:right">2</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_12.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Oklan Zulkifli, SE</td>
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000004<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_13.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Akmal Baharuddin</td>
-												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
-											  <td style="text-align:center">75</td>
-											  <td style="text-align:center">100</td>
-											  <td style="text-align:center">75</td>
-											  <td style="text-align:center">75</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">Cukup</span></td>
-											  
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-penilaian.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Cetak Penilaian</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div></td>
-										  </tr>
-										  <tr>
-												<td id="kt_table_1" style="text-align:right">3</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000005<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_8.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Deddy Rafsanjani, S.Sos</td>
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000006<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_2.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Nursiah, S.Kom</td>
-												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--warning kt-badge--md kt-badge--inline">Kurang</span></td>
-											  
-												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
-															<i class="fa flaticon2-check-mark"></i>
-														</span></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-penilaian.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Cetak Penilaian</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div></td>
-										  </tr>
-										  <tr>
-												<td id="kt_table_1" style="text-align:right">4</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000007<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/300_21.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Muhammad Ramadhan Lerrick, ST</td>
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000008<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_9.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Andi Arif Mappagiling</td>
-												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">Atensi</span></td>
-											  
-												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
-															<i class="fa flaticon2-check-mark"></i>
-														</span></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-penilaian.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Cetak Penilaian</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div></td>
-										  </tr>
-										</tbody>
-									</table>
 
 
-<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-					<div class="kt-pagination  kt-pagination--danger">
-						<select class="form-control kt-font-danger" style="width: 60px">
-								<option value="10">10</option>
-								<option value="20">20</option>
-								<option value="30">30</option>
-								<option value="50">50</option>
-								<option value="100">100</option>
-							</select>
-							<span class="pagination__desc">
-								Menampilkan 10 dari 230 Data
-							</span>
-							<div class="kt-pagination__toolbar">
-								<ul class="kt-pagination__links">
-								<li class="kt-pagination__link--first">
-									<a href="#"><i class="fa fa-angle-double-left kt-font-danger"></i></a>
-								</li>
-								<li class="kt-pagination__link--next">
-									<a href="#"><i class="fa fa-angle-left kt-font-danger"></i></a>
-								</li>
-								<li>
-									<a href="#">...</a>
-								</li>
-								<li>
-									<a href="#">29</a>
-								</li>
-								<li class="kt-pagination__link--active">
-									<a href="#">30</a>
-								</li>
-								<li>
-									<a href="#">31</a>
-								</li>
-								<li>
-									<a href="#">32</a>
-								</li>
-								<li>
-									<a href="#">33</a>
-								</li>
-								<li>
-									<a href="#">34</a>
-								</li>
-								<li>
-									<a href="#">...</a>
-								</li>
-								<li class="kt-pagination__link--prev">
-									<a href="#"><i class="fa fa-angle-right kt-font-danger"></i></a>
-								</li>
-								<li class="kt-pagination__link--last">
-									<a href="#"><i class="fa fa-angle-double-right kt-font-danger"></i></a>
-								</li>
-							</ul>
-							</div>
-						</div>
-                    <!-- end:: pageline -->
-
-                </div>
-                      </div>
-<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Asset</div><br>
-							<div>&nbsp;</div>
-										<div class="kt-portlet__body">
-											<div class="form-group row">
-                        <table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="m_table_1">
-										<thead style="text-align:center">
-											<tr>
-												<th width="1%" bgcolor="#f7fcff" rowspan="2">#</th>
-												
-											  <th colspan="2" bgcolor="#f7fcff">Pejabat Penilai</th>
-												<th colspan="4" bgcolor="#feffed">Pegawai yang Dinilai</th>
-												<th width="5%" bgcolor="#f7fcff" rowspan="2">Waktu<br>
-											  Penilaian</th>
-												<th colspan="2" bgcolor="#feffed">Prestasi Kerja (%)</th>
-												<th colspan="2" bgcolor="#feffed">Beban Kerja (%)</th>
-												<th width="2%" bgcolor="#feffed" rowspan="2">Mutu</th>
-												<th width="1%" rowspan="2" bgcolor="#f7fcff">Verifikasi</th>
-												<th width="1%" bgcolor="#f7fcff" rowspan="2">Aksi</th>
-											</tr>
-											<tr>
-											  <th width="2%" bgcolor="#f7fcff">Foto</th>
-											  <th width="8%" bgcolor="#f7fcff">Nama Pegawai</th>
-											  <th width="2%" bgcolor="#feffed">Foto</th>
-												<th width="8%" bgcolor="#feffed">Nama Pegawai</th>
-												<th width="1%" bgcolor="#feffed">Status Pegawai</th>
-												<th width="1%" bgcolor="#feffed">Kantor</th>
-												<th width="2%" bgcolor="#feffed">Tingkat Kehadiran</th>
-												<th width="2%" bgcolor="#feffed">Efektifitas &amp; Efisiensi</th>
-												<th width="2%" bgcolor="#feffed">Besaran Aktifitas</th>
-												<th width="4%" bgcolor="#feffed">Besaran Tanggung Jawab Dikelola</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td id="kt_table_1" style="text-align:right">1</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001<hr>Direktur Utama" data-html="true">
-														<img src="../assets/media/users/100_15.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000002<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_10.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
-												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">0</td>
-											  <td style="text-align:center">0</td>
-											  <td style="text-align:center">0</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Baik</span></td>
-											  
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-penilaian.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Cetak Penilaian</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div></td>
-										  </tr>
-											<tr>
-												<td id="kt_table_1" style="text-align:right">2</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_12.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Oklan Zulkifli, SE</td>
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000004<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_13.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Akmal Baharuddin</td>
-												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
-											  <td style="text-align:center">75</td>
-											  <td style="text-align:center">100</td>
-											  <td style="text-align:center">75</td>
-											  <td style="text-align:center">75</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">Cukup</span></td>
-											  
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-penilaian.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Cetak Penilaian</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div></td>
-										  </tr>
-										  <tr>
-												<td id="kt_table_1" style="text-align:right">3</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000005<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_8.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Deddy Rafsanjani, S.Sos</td>
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000006<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_2.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Nursiah, S.Kom</td>
-												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--warning kt-badge--md kt-badge--inline">Kurang</span></td>
-											  
-												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
-															<i class="fa flaticon2-check-mark"></i>
-														</span></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-penilaian.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Cetak Penilaian</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div></td>
-										  </tr>
-										  <tr>
-												<td id="kt_table_1" style="text-align:right">4</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000007<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/300_21.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Muhammad Ramadhan Lerrick, ST</td>
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000008<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_9.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Andi Arif Mappagiling</td>
-												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">Atensi</span></td>
-											  
-												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
-															<i class="fa flaticon2-check-mark"></i>
-														</span></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-penilaian.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Cetak Penilaian</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div></td>
-										  </tr>
-										</tbody>
-									</table>
 
 
-<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-					<div class="kt-pagination  kt-pagination--danger">
-						<select class="form-control kt-font-danger" style="width: 60px">
-								<option value="10">10</option>
-								<option value="20">20</option>
-								<option value="30">30</option>
-								<option value="50">50</option>
-								<option value="100">100</option>
-							</select>
-							<span class="pagination__desc">
-								Menampilkan 10 dari 230 Data
-							</span>
-							<div class="kt-pagination__toolbar">
-								<ul class="kt-pagination__links">
-								<li class="kt-pagination__link--first">
-									<a href="#"><i class="fa fa-angle-double-left kt-font-danger"></i></a>
-								</li>
-								<li class="kt-pagination__link--next">
-									<a href="#"><i class="fa fa-angle-left kt-font-danger"></i></a>
-								</li>
-								<li>
-									<a href="#">...</a>
-								</li>
-								<li>
-									<a href="#">29</a>
-								</li>
-								<li class="kt-pagination__link--active">
-									<a href="#">30</a>
-								</li>
-								<li>
-									<a href="#">31</a>
-								</li>
-								<li>
-									<a href="#">32</a>
-								</li>
-								<li>
-									<a href="#">33</a>
-								</li>
-								<li>
-									<a href="#">34</a>
-								</li>
-								<li>
-									<a href="#">...</a>
-								</li>
-								<li class="kt-pagination__link--prev">
-									<a href="#"><i class="fa fa-angle-right kt-font-danger"></i></a>
-								</li>
-								<li class="kt-pagination__link--last">
-									<a href="#"><i class="fa fa-angle-double-right kt-font-danger"></i></a>
-								</li>
-							</ul>
-							</div>
-						</div>
-                    <!-- end:: pageline -->
 
-                </div>
-                      </div>
-                      </div>
-<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Operasional</div><br>
-							<div>&nbsp;</div>
-										<div class="kt-portlet__body">
-                        <table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="m_table_1">
-										<thead style="text-align:center">
-											<tr>
-												<th width="1%" bgcolor="#f7fcff" rowspan="2">#</th>
-												
-											  <th colspan="2" bgcolor="#f7fcff">Pejabat Penilai</th>
-												<th colspan="4" bgcolor="#feffed">Pegawai yang Dinilai</th>
-												<th width="5%" bgcolor="#f7fcff" rowspan="2">Waktu<br>
-											  Penilaian</th>
-												<th colspan="2" bgcolor="#feffed">Prestasi Kerja (%)</th>
-												<th colspan="2" bgcolor="#feffed">Beban Kerja (%)</th>
-												<th width="2%" bgcolor="#feffed" rowspan="2">Mutu</th>
-												<th width="1%" rowspan="2" bgcolor="#f7fcff">Verifikasi</th>
-												<th width="1%" bgcolor="#f7fcff" rowspan="2">Aksi</th>
-											</tr>
-											<tr>
-											  <th width="2%" bgcolor="#f7fcff">Foto</th>
-											  <th width="8%" bgcolor="#f7fcff">Nama Pegawai</th>
-											  <th width="2%" bgcolor="#feffed">Foto</th>
-												<th width="8%" bgcolor="#feffed">Nama Pegawai</th>
-												<th width="1%" bgcolor="#feffed">Status Pegawai</th>
-												<th width="1%" bgcolor="#feffed">Kantor</th>
-												<th width="2%" bgcolor="#feffed">Tingkat Kehadiran</th>
-												<th width="2%" bgcolor="#feffed">Efektifitas &amp; Efisiensi</th>
-												<th width="2%" bgcolor="#feffed">Besaran Aktifitas</th>
-												<th width="4%" bgcolor="#feffed">Besaran Tanggung Jawab Dikelola</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td id="kt_table_1" style="text-align:right">1</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001<hr>Direktur Utama" data-html="true">
-														<img src="../assets/media/users/100_15.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000002<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_10.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
-												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">0</td>
-											  <td style="text-align:center">0</td>
-											  <td style="text-align:center">0</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Baik</span></td>
-											  
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-penilaian.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Cetak Penilaian</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div></td>
-										  </tr>
-											<tr>
-												<td id="kt_table_1" style="text-align:right">2</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_12.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Oklan Zulkifli, SE</td>
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000004<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_13.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Akmal Baharuddin</td>
-												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
-											  <td style="text-align:center">75</td>
-											  <td style="text-align:center">100</td>
-											  <td style="text-align:center">75</td>
-											  <td style="text-align:center">75</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">Cukup</span></td>
-											  
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-penilaian.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Cetak Penilaian</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div></td>
-										  </tr>
-										  <tr>
-												<td id="kt_table_1" style="text-align:right">3</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000005<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_8.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Deddy Rafsanjani, S.Sos</td>
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000006<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_2.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Nursiah, S.Kom</td>
-												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--warning kt-badge--md kt-badge--inline">Kurang</span></td>
-											  
-												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
-															<i class="fa flaticon2-check-mark"></i>
-														</span></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-penilaian.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Cetak Penilaian</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div></td>
-										  </tr>
-										  <tr>
-												<td id="kt_table_1" style="text-align:right">4</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000007<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/300_21.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Muhammad Ramadhan Lerrick, ST</td>
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000008<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_9.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Andi Arif Mappagiling</td>
-												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">Atensi</span></td>
-											  
-												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
-															<i class="fa flaticon2-check-mark"></i>
-														</span></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-penilaian.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Cetak Penilaian</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div></td>
-										  </tr>
-										</tbody>
-									</table>
-
-
-<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-					<div class="kt-pagination  kt-pagination--danger">
-						<select class="form-control kt-font-danger" style="width: 60px">
-								<option value="10">10</option>
-								<option value="20">20</option>
-								<option value="30">30</option>
-								<option value="50">50</option>
-								<option value="100">100</option>
-							</select>
-							<span class="pagination__desc">
-								Menampilkan 10 dari 230 Data
-							</span>
-							<div class="kt-pagination__toolbar">
-								<ul class="kt-pagination__links">
-								<li class="kt-pagination__link--first">
-									<a href="#"><i class="fa fa-angle-double-left kt-font-danger"></i></a>
-								</li>
-								<li class="kt-pagination__link--next">
-									<a href="#"><i class="fa fa-angle-left kt-font-danger"></i></a>
-								</li>
-								<li>
-									<a href="#">...</a>
-								</li>
-								<li>
-									<a href="#">29</a>
-								</li>
-								<li class="kt-pagination__link--active">
-									<a href="#">30</a>
-								</li>
-								<li>
-									<a href="#">31</a>
-								</li>
-								<li>
-									<a href="#">32</a>
-								</li>
-								<li>
-									<a href="#">33</a>
-								</li>
-								<li>
-									<a href="#">34</a>
-								</li>
-								<li>
-									<a href="#">...</a>
-								</li>
-								<li class="kt-pagination__link--prev">
-									<a href="#"><i class="fa fa-angle-right kt-font-danger"></i></a>
-								</li>
-								<li class="kt-pagination__link--last">
-									<a href="#"><i class="fa fa-angle-double-right kt-font-danger"></i></a>
-								</li>
-							</ul>
-							</div>
-						</div>
-                    <!-- end:: pageline -->
-
-                </div>
-                      </div>
-<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Teknologi</div><br>
-							<div>&nbsp;</div>
-										<div class="kt-portlet__body">
-                        <table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="m_table_1">
-										<thead style="text-align:center">
-											<tr>
-												<th width="1%" bgcolor="#f7fcff" rowspan="2">#</th>
-												
-											  <th colspan="2" bgcolor="#f7fcff">Pejabat Penilai</th>
-												<th colspan="4" bgcolor="#feffed">Pegawai yang Dinilai</th>
-												<th width="5%" bgcolor="#f7fcff" rowspan="2">Waktu<br>
-											  Penilaian</th>
-												<th colspan="2" bgcolor="#feffed">Prestasi Kerja (%)</th>
-												<th colspan="2" bgcolor="#feffed">Beban Kerja (%)</th>
-												<th width="2%" bgcolor="#feffed" rowspan="2">Mutu</th>
-												<th width="1%" rowspan="2" bgcolor="#f7fcff">Verifikasi</th>
-												<th width="1%" bgcolor="#f7fcff" rowspan="2">Aksi</th>
-											</tr>
-											<tr>
-											  <th width="2%" bgcolor="#f7fcff">Foto</th>
-											  <th width="8%" bgcolor="#f7fcff">Nama Pegawai</th>
-											  <th width="2%" bgcolor="#feffed">Foto</th>
-												<th width="8%" bgcolor="#feffed">Nama Pegawai</th>
-												<th width="1%" bgcolor="#feffed">Status Pegawai</th>
-												<th width="1%" bgcolor="#feffed">Kantor</th>
-												<th width="2%" bgcolor="#feffed">Tingkat Kehadiran</th>
-												<th width="2%" bgcolor="#feffed">Efektifitas &amp; Efisiensi</th>
-												<th width="2%" bgcolor="#feffed">Besaran Aktifitas</th>
-												<th width="4%" bgcolor="#feffed">Besaran Tanggung Jawab Dikelola</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td id="kt_table_1" style="text-align:right">1</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001<hr>Direktur Utama" data-html="true">
-														<img src="../assets/media/users/100_15.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000002<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_10.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
-												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">0</td>
-											  <td style="text-align:center">0</td>
-											  <td style="text-align:center">0</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Baik</span></td>
-											  
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-penilaian.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Cetak Penilaian</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div></td>
-										  </tr>
-											<tr>
-												<td id="kt_table_1" style="text-align:right">2</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_12.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Oklan Zulkifli, SE</td>
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000004<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_13.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Akmal Baharuddin</td>
-												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
-											  <td style="text-align:center">75</td>
-											  <td style="text-align:center">100</td>
-											  <td style="text-align:center">75</td>
-											  <td style="text-align:center">75</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">Cukup</span></td>
-											  
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-penilaian.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Cetak Penilaian</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div></td>
-										  </tr>
-										  <tr>
-												<td id="kt_table_1" style="text-align:right">3</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000005<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_8.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Deddy Rafsanjani, S.Sos</td>
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000006<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_2.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Nursiah, S.Kom</td>
-												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--warning kt-badge--md kt-badge--inline">Kurang</span></td>
-											  
-												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
-															<i class="fa flaticon2-check-mark"></i>
-														</span></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-penilaian.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Cetak Penilaian</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div></td>
-										  </tr>
-										  <tr>
-												<td id="kt_table_1" style="text-align:right">4</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000007<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/300_21.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Muhammad Ramadhan Lerrick, ST</td>
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000008<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_9.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Andi Arif Mappagiling</td>
-												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">Atensi</span></td>
-											  
-												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
-															<i class="fa flaticon2-check-mark"></i>
-														</span></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-penilaian.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Cetak Penilaian</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div></td>
-										  </tr>
-										</tbody>
-									</table>
-
-<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-					<div class="kt-pagination  kt-pagination--danger">
-						<select class="form-control kt-font-danger" style="width: 60px">
-								<option value="10">10</option>
-								<option value="20">20</option>
-								<option value="30">30</option>
-								<option value="50">50</option>
-								<option value="100">100</option>
-							</select>
-							<span class="pagination__desc">
-								Menampilkan 10 dari 230 Data
-							</span>
-							<div class="kt-pagination__toolbar">
-								<ul class="kt-pagination__links">
-								<li class="kt-pagination__link--first">
-									<a href="#"><i class="fa fa-angle-double-left kt-font-danger"></i></a>
-								</li>
-								<li class="kt-pagination__link--next">
-									<a href="#"><i class="fa fa-angle-left kt-font-danger"></i></a>
-								</li>
-								<li>
-									<a href="#">...</a>
-								</li>
-								<li>
-									<a href="#">29</a>
-								</li>
-								<li class="kt-pagination__link--active">
-									<a href="#">30</a>
-								</li>
-								<li>
-									<a href="#">31</a>
-								</li>
-								<li>
-									<a href="#">32</a>
-								</li>
-								<li>
-									<a href="#">33</a>
-								</li>
-								<li>
-									<a href="#">34</a>
-								</li>
-								<li>
-									<a href="#">...</a>
-								</li>
-								<li class="kt-pagination__link--prev">
-									<a href="#"><i class="fa fa-angle-right kt-font-danger"></i></a>
-								</li>
-								<li class="kt-pagination__link--last">
-									<a href="#"><i class="fa fa-angle-double-right kt-font-danger"></i></a>
-								</li>
-							</ul>
-							</div>
-						</div>
-                    <!-- end:: pageline -->
-
-                </div>
-                      </div>
-<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Riset</div><br>
-							<div>&nbsp;</div>
-										<div class="kt-portlet__body">
-                        <table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="m_table_1">
-										<thead style="text-align:center">
-											<tr>
-												<th width="1%" bgcolor="#f7fcff" rowspan="2">#</th>
-												
-											  <th colspan="2" bgcolor="#f7fcff">Pejabat Penilai</th>
-												<th colspan="4" bgcolor="#feffed">Pegawai yang Dinilai</th>
-												<th width="5%" bgcolor="#f7fcff" rowspan="2">Waktu<br>
-											  Penilaian</th>
-												<th colspan="2" bgcolor="#feffed">Prestasi Kerja (%)</th>
-												<th colspan="2" bgcolor="#feffed">Beban Kerja (%)</th>
-												<th width="2%" bgcolor="#feffed" rowspan="2">Mutu</th>
-												<th width="1%" rowspan="2" bgcolor="#f7fcff">Verifikasi</th>
-												<th width="1%" bgcolor="#f7fcff" rowspan="2">Aksi</th>
-											</tr>
-											<tr>
-											  <th width="2%" bgcolor="#f7fcff">Foto</th>
-											  <th width="8%" bgcolor="#f7fcff">Nama Pegawai</th>
-											  <th width="2%" bgcolor="#feffed">Foto</th>
-												<th width="8%" bgcolor="#feffed">Nama Pegawai</th>
-												<th width="1%" bgcolor="#feffed">Status Pegawai</th>
-												<th width="1%" bgcolor="#feffed">Kantor</th>
-												<th width="2%" bgcolor="#feffed">Tingkat Kehadiran</th>
-												<th width="2%" bgcolor="#feffed">Efektifitas &amp; Efisiensi</th>
-												<th width="2%" bgcolor="#feffed">Besaran Aktifitas</th>
-												<th width="4%" bgcolor="#feffed">Besaran Tanggung Jawab Dikelola</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td id="kt_table_1" style="text-align:right">1</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001<hr>Direktur Utama" data-html="true">
-														<img src="../assets/media/users/100_15.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000002<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_10.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
-												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">0</td>
-											  <td style="text-align:center">0</td>
-											  <td style="text-align:center">0</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Baik</span></td>
-											  
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-penilaian.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Cetak Penilaian</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div></td>
-										  </tr>
-											<tr>
-												<td id="kt_table_1" style="text-align:right">2</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_12.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Oklan Zulkifli, SE</td>
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000004<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_13.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Akmal Baharuddin</td>
-												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
-											  <td style="text-align:center">75</td>
-											  <td style="text-align:center">100</td>
-											  <td style="text-align:center">75</td>
-											  <td style="text-align:center">75</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">Cukup</span></td>
-											  
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-penilaian.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Cetak Penilaian</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div></td>
-										  </tr>
-										  <tr>
-												<td id="kt_table_1" style="text-align:right">3</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000005<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_8.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Deddy Rafsanjani, S.Sos</td>
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000006<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_2.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Nursiah, S.Kom</td>
-												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--warning kt-badge--md kt-badge--inline">Kurang</span></td>
-											  
-												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
-															<i class="fa flaticon2-check-mark"></i>
-														</span></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-penilaian.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Cetak Penilaian</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div></td>
-										  </tr>
-										  <tr>
-												<td id="kt_table_1" style="text-align:right">4</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000007<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/300_21.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Muhammad Ramadhan Lerrick, ST</td>
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000008<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_9.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Andi Arif Mappagiling</td>
-												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">Atensi</span></td>
-											  
-												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
-															<i class="fa flaticon2-check-mark"></i>
-														</span></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-penilaian.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Cetak Penilaian</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div></td>
-										  </tr>
-										</tbody>
-									</table>
-
-
-<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-					<div class="kt-pagination  kt-pagination--danger">
-						<select class="form-control kt-font-danger" style="width: 60px">
-								<option value="10">10</option>
-								<option value="20">20</option>
-								<option value="30">30</option>
-								<option value="50">50</option>
-								<option value="100">100</option>
-							</select>
-							<span class="pagination__desc">
-								Menampilkan 10 dari 230 Data
-							</span>
-							<div class="kt-pagination__toolbar">
-								<ul class="kt-pagination__links">
-								<li class="kt-pagination__link--first">
-									<a href="#"><i class="fa fa-angle-double-left kt-font-danger"></i></a>
-								</li>
-								<li class="kt-pagination__link--next">
-									<a href="#"><i class="fa fa-angle-left kt-font-danger"></i></a>
-								</li>
-								<li>
-									<a href="#">...</a>
-								</li>
-								<li>
-									<a href="#">29</a>
-								</li>
-								<li class="kt-pagination__link--active">
-									<a href="#">30</a>
-								</li>
-								<li>
-									<a href="#">31</a>
-								</li>
-								<li>
-									<a href="#">32</a>
-								</li>
-								<li>
-									<a href="#">33</a>
-								</li>
-								<li>
-									<a href="#">34</a>
-								</li>
-								<li>
-									<a href="#">...</a>
-								</li>
-								<li class="kt-pagination__link--prev">
-									<a href="#"><i class="fa fa-angle-right kt-font-danger"></i></a>
-								</li>
-								<li class="kt-pagination__link--last">
-									<a href="#"><i class="fa fa-angle-double-right kt-font-danger"></i></a>
-								</li>
-							</ul>
-							</div>
-						</div>
-                    <!-- end:: pageline -->
-
-                </div>
-                      </div>
-<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Kerja Sama</div><br>
-							<div>&nbsp;</div>
-										<div class="kt-portlet__body">
-                        <table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="m_table_1">
-										<thead style="text-align:center">
-											<tr>
-												<th width="1%" bgcolor="#f7fcff" rowspan="2">#</th>
-												
-											  <th colspan="2" bgcolor="#f7fcff">Pejabat Penilai</th>
-												<th colspan="4" bgcolor="#feffed">Pegawai yang Dinilai</th>
-												<th width="5%" bgcolor="#f7fcff" rowspan="2">Waktu<br>
-											  Penilaian</th>
-												<th colspan="2" bgcolor="#feffed">Prestasi Kerja (%)</th>
-												<th colspan="2" bgcolor="#feffed">Beban Kerja (%)</th>
-												<th width="2%" bgcolor="#feffed" rowspan="2">Mutu</th>
-												<th width="1%" rowspan="2" bgcolor="#f7fcff">Verifikasi</th>
-												<th width="1%" bgcolor="#f7fcff" rowspan="2">Aksi</th>
-											</tr>
-											<tr>
-											  <th width="2%" bgcolor="#f7fcff">Foto</th>
-											  <th width="8%" bgcolor="#f7fcff">Nama Pegawai</th>
-											  <th width="2%" bgcolor="#feffed">Foto</th>
-												<th width="8%" bgcolor="#feffed">Nama Pegawai</th>
-												<th width="1%" bgcolor="#feffed">Status Pegawai</th>
-												<th width="1%" bgcolor="#feffed">Kantor</th>
-												<th width="2%" bgcolor="#feffed">Tingkat Kehadiran</th>
-												<th width="2%" bgcolor="#feffed">Efektifitas &amp; Efisiensi</th>
-												<th width="2%" bgcolor="#feffed">Besaran Aktifitas</th>
-												<th width="4%" bgcolor="#feffed">Besaran Tanggung Jawab Dikelola</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td id="kt_table_1" style="text-align:right">1</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001<hr>Direktur Utama" data-html="true">
-														<img src="../assets/media/users/100_15.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Muhammad Nasrullah, S.Kom</td>
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000002<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_10.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Yuni Saslia, SE</td>
-												<td style="text-align:center"><span class="btn btn-label-twitter btn-sm">Tetap</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">0</td>
-											  <td style="text-align:center">0</td>
-											  <td style="text-align:center">0</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--success kt-badge--md kt-badge--inline">Baik</span></td>
-											  
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-penilaian.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Cetak Penilaian</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div></td>
-										  </tr>
-											<tr>
-												<td id="kt_table_1" style="text-align:right">2</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_12.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Oklan Zulkifli, SE</td>
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000004<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_13.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Akmal Baharuddin</td>
-												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
-											  <td style="text-align:center">75</td>
-											  <td style="text-align:center">100</td>
-											  <td style="text-align:center">75</td>
-											  <td style="text-align:center">75</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--info kt-badge--md kt-badge--inline">Cukup</span></td>
-											  
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-penilaian.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Cetak Penilaian</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div></td>
-										  </tr>
-										  <tr>
-												<td id="kt_table_1" style="text-align:right">3</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000005<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_8.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Deddy Rafsanjani, S.Sos</td>
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000006<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_2.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Nursiah, S.Kom</td>
-												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--warning kt-badge--md kt-badge--inline">Kurang</span></td>
-											  
-												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
-															<i class="fa flaticon2-check-mark"></i>
-														</span></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-penilaian.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Cetak Penilaian</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div></td>
-										  </tr>
-										  <tr>
-												<td id="kt_table_1" style="text-align:right">4</td>
-												
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000007<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/300_21.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Muhammad Ramadhan Lerrick, ST</td>
-												<td width="2%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000008<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
-														<img src="../assets/media/users/100_9.jpg" alt="image">
-													</a></td>
-												<td id="kt_table_1" style="text-align:left">Andi Arif Mappagiling</td>
-												<td style="text-align:center"><span class="btn btn-label-danger btn-sm">Kontrak</span></td>
-											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
-											  <td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center">25</td>
-											  <td style="text-align:center"><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--inline">Atensi</span></td>
-											  
-												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
-															<i class="fa flaticon2-check-mark"></i>
-														</span></td>
-												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
-																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
-																	<i class="flaticon-more-1"></i>
-																</a>
-																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-penilaian-kinerja.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa fa-eye"></i>
-																				<span class="kt-nav__link-text">Lihat Detail</span>
-																			</a>
-																		</li>
-																		<li class="kt-nav__item">
-																			<a href="cetak-penilaian.php" class="kt-nav__link">
-																				<i class="kt-nav__link-icon fa flaticon2-print"></i>
-																				<span class="kt-nav__link-text">Cetak Penilaian</span>
-																			</a>
-																		</li>
-																		
-																		<li class="kt-nav__item">
-																			<a href="#" class="kt-nav__link kt_sweetalert_demo_9" id="kt_sweetalert_demo_9">
-																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
-																				<span class="kt-nav__link-text">Hapus</span>
-																			</a>
-																		</li>
-																	</ul>
-																</div>
-															</div></td>
-										  </tr>
-										</tbody>
-									</table>
-
-
-<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-					<div class="kt-pagination  kt-pagination--danger">
-						<select class="form-control kt-font-danger" style="width: 60px">
-								<option value="10">10</option>
-								<option value="20">20</option>
-								<option value="30">30</option>
-								<option value="50">50</option>
-								<option value="100">100</option>
-							</select>
-							<span class="pagination__desc">
-								Menampilkan 10 dari 230 Data
-							</span>
-							<div class="kt-pagination__toolbar">
-								<ul class="kt-pagination__links">
-								<li class="kt-pagination__link--first">
-									<a href="#"><i class="fa fa-angle-double-left kt-font-danger"></i></a>
-								</li>
-								<li class="kt-pagination__link--next">
-									<a href="#"><i class="fa fa-angle-left kt-font-danger"></i></a>
-								</li>
-								<li>
-									<a href="#">...</a>
-								</li>
-								<li>
-									<a href="#">29</a>
-								</li>
-								<li class="kt-pagination__link--active">
-									<a href="#">30</a>
-								</li>
-								<li>
-									<a href="#">31</a>
-								</li>
-								<li>
-									<a href="#">32</a>
-								</li>
-								<li>
-									<a href="#">33</a>
-								</li>
-								<li>
-									<a href="#">34</a>
-								</li>
-								<li>
-									<a href="#">...</a>
-								</li>
-								<li class="kt-pagination__link--prev">
-									<a href="#"><i class="fa fa-angle-right kt-font-danger"></i></a>
-								</li>
-								<li class="kt-pagination__link--last">
-									<a href="#"><i class="fa fa-angle-double-right kt-font-danger"></i></a>
-								</li>
-							</ul>
-							</div>
-						</div>
-                    <!-- end:: pageline -->
 
                 <!--begin::Modal 1-->
 									<div class="modal fade" id="modal_persetujuan_pending" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
