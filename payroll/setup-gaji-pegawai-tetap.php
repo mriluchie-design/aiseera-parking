@@ -200,7 +200,7 @@
 												<td style="text-align:left" nowrap>Direksi</td>
 												<td style="text-align:left" nowrap>Direksi</td>
 												<td style="text-align:left" nowrap>Direktur Utama</td>
-												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td class="text-center"><span class="btn btn-label-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">Tetap</span></td>
 												<td nowrap="" style="text-align:center"><button type="button" class="btn btn-danger btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Belum"><i class="fa fa-clock"></i></button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
@@ -242,7 +242,7 @@
 												<td style="text-align:left" nowrap>Direksi</td>
 												<td style="text-align:left" nowrap>Direksi</td>
 												<td style="text-align:left" nowrap>Direktur Umum</td>
-												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td class="text-center"><span class="btn btn-label-success btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">Tetap</span></td>
 												<td nowrap="" style="text-align:center"><button type="button" class="btn btn-success btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Selesai<hr>Muhammad Nasrullah, S.Kom<hr>17 November 2025 - 21:34 WITA"><i class="fa flaticon2-check-mark"></i></button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
@@ -284,7 +284,7 @@
 												<td nowrap="nowrap" style="text-align:left">Umum</td>
 												<td nowrap="nowrap" style="text-align:left">Umum dan Kepegawaian</td>
 												<td nowrap="nowrap" wstyle="text-align:left">Staff Administrasi Kepegawaian</td>
-												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td class="text-center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">Kontrak</span></td>
 												<td nowrap="" style="text-align:center"><button type="button" class="btn btn-success btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Selesai<hr>Muhammad Nasrullah, S.Kom<hr>17 November 2025 - 21:34 WITA"><i class="fa flaticon2-check-mark"></i></button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
@@ -326,7 +326,7 @@
 												<td nowrap="nowrap" style="text-align:left">Umum</td>
 												<td nowrap="nowrap" style="text-align:left">Hukum dan Humas</td>
 												<td nowrap="nowrap" wstyle="text-align:left">Staff Administrasi Hukum</td>
-												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td class="text-center"><span class="btn btn-label-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">Honor</span></td>
 												<td nowrap="" style="text-align:center"><button type="button" class="btn btn-success btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Selesai<hr>Muhammad Nasrullah, S.Kom<hr>17 November 2025 - 21:34 WITA"><i class="fa flaticon2-check-mark"></i></button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
@@ -368,7 +368,7 @@
 												<td nowrap="nowrap" style="text-align:left">Keuangan dan Asset</td>
 												<td nowrap="nowrap" style="text-align:left">Keuangan</td>
 												<td nowrap="nowrap" wstyle="text-align:left">Staff Administrasi Keuangan</td>
-												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td class="text-center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">Calon Pegawai</span></td>
 												<td nowrap="" style="text-align:center"><button type="button" class="btn btn-success btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Selesai<hr>Muhammad Nasrullah, S.Kom<hr>17 November 2025 - 21:34 WITA"><i class="fa flaticon2-check-mark"></i></button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">

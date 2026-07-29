@@ -204,7 +204,7 @@
 												<td style="text-align:left">Pengembangan Usaha dan Kerjasama</td>
 												<td style="text-align:left">Pengembangan</td>
 												<td style="text-align:left">Kepala Seksi Pemetaan dan Pengembangan</td>
-												<td style="text-align:center"><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
+												<td style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td style="text-align:center">4 September 2018</td>
 												
 												
@@ -248,7 +248,7 @@
 												<td style="text-align:left">Pengembangan Usaha dan Kerjasama</td>
 												<td style="text-align:left">Pengembangan</td>
 												<td style="text-align:left">Kepala Seksi Pemetaan dan Pengembangan</td>
-												<td style="text-align:center"><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
+												<td style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td style="text-align:center">4 September 2018</td>
 												
 												
@@ -291,7 +291,7 @@
 												<td style="text-align:left">Pengembangan Usaha dan Kerjasama</td>
 												<td style="text-align:left">Pengembangan</td>
 												<td style="text-align:left">Kepala Seksi Pemetaan dan Pengembangan</td>
-												<td style="text-align:center"><button type="button" class="btn btn-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</button></td>
+												<td style="text-align:center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
 												<td style="text-align:center">4 September 2018</td>
 												
 												
@@ -334,7 +334,7 @@
 												<td style="text-align:left">Pengembangan Usaha dan Kerjasama</td>
 												<td style="text-align:left">Pengembangan</td>
 												<td style="text-align:left">Kepala Seksi Pemetaan dan Pengembangan</td>
-												<td style="text-align:center"><button type="button" class="btn btn-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang B">Cabang</button>
+												<td style="text-align:center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang B">Cabang</span>
 												<td style="text-align:center">4 September 2018</td>
 												
 												

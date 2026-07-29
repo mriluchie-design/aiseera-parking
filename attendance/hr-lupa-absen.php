@@ -392,7 +392,7 @@
 												<td nowrap="nowrap" style="text-align:left">Umum dan Kepegawaian</td>
 												<td nowrap="nowrap" wstyle="text-align:left">Staff Administrasi Kepegawaian</td>
 												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
-												<td style="text-align:center"><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
+												<td style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
 															<i class="fa flaticon2-check-mark"></i>
 														</span></td>
@@ -444,7 +444,7 @@
 												<td nowrap="nowrap" style="text-align:left">Asset</td>
 												<td nowrap="nowrap" wstyle="text-align:left">Staff Administrasi Asset</td>
 												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Honor</button></td>
-												<td style="text-align:center"><button type="button" class="btn btn-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</button></td>
+												<td style="text-align:center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
 											  <td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
@@ -494,7 +494,7 @@
 												<td nowrap="nowrap" style="text-align:left">Asset</td>
 												<td nowrap="nowrap" wstyle="text-align:left">Staff Administrasi Keuangan</td>
 												<td style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Kontrak</button></td>
-												<td style="text-align:center"><button type="button" class="btn btn-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang B">Cabang</button></td>
+												<td style="text-align:center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang B">Cabang</span></td>
 											  <td style="text-align:center" nowrap><span class="kt-badge kt-badge--danger kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_ditolak"data-html="true">
 															<i class="fa flaticon2-delete"></i>
 														</span></td>

@@ -403,7 +403,7 @@
 														<img src="../assets/media/users/300_21.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1">Muhammad Ramadhan Lerrick, ST</td>
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
+												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
 												<td style="text-align:left">Cuti Alasan Penting </td>
 												<td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
@@ -453,7 +453,7 @@
 														<img src="../assets/media/users/100_8.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1">Deddy Rafsanjani, S.Sos</td>
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
+												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Kontrak</button></td>
 												<td style="text-align:left">Cuti Alasan Penting </td>
 												<td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>
@@ -500,7 +500,7 @@
 														<img src="../assets/media/users/100_2.jpg" alt="image">
 													</a></td>
 												<td id="kt_table_1">Nursiah, S.Kom</td>
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</button></td>
+												<td style="text-align:center" nowrap><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
 												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Honor</button></td>
 												<td style="text-align:left">Cuti Alasan Penting </td>
 												<td style="text-align:center">12 Oktober 2019<br>09:00 WITA</td>

@@ -222,7 +222,7 @@
 													</a></td>
 												<td id="kt_table_1">Muhammad Nasrullah, S.Kom</td>
 												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
-												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</button></td>
+												<td style="text-align:center" nowrap=""><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
 												<td id="kt_table_1">003/SKB/XII/2022</td>
 												
 												
@@ -270,7 +270,7 @@
 													</a></td>
 												<td id="kt_table_1">Muhammad Nasrullah, S.Kom</td>
 												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-label-brand btn-sm">Kontrak</button></td>
-												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
+												<td style="text-align:center" nowrap=""><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td id="kt_table_1">003/SKB/XII/2022</td>
 												
 												
@@ -320,7 +320,7 @@
 													</a></td>
 												<td id="kt_table_1">Muhammad Nasrullah, S.Kom</td>
 												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-label-danger btn-sm">Honor</button></td>
-												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
+												<td style="text-align:center" nowrap=""><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td id="kt_table_1">003/SKB/XII/2022</td>
 												
 												
@@ -370,7 +370,7 @@
 													</a></td>
 												<td id="kt_table_1">Muhammad Nasrullah, S.Kom</td>
 												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
-												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang B">Cabang</button></td>
+												<td style="text-align:center" nowrap=""><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang B">Cabang</span></td>
 												<td id="kt_table_1">003/SKB/XII/2022</td>
 												
 												

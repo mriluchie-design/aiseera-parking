@@ -189,7 +189,7 @@
 												<td width="3%" style="text-align:center" nowrap>Direksi</td>
 												<td width="3%" style="text-align:center" nowrap>Direksi</td>
 												<td width="3%" style="text-align:left" nowrap>Direktur Utama</td>
-												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td width="3%" style="text-align:center" nowrap>24 September 2008</td>
 												<td width="1%" style="text-align:center" nowrap>Rp.</td>
 												<td width="1%" style="text-align:right" nowrap>5.000.000,-</td>
@@ -234,7 +234,7 @@
 												<td width="3%" style="text-align:center" nowrap>Direksi</td>
 												<td width="3%" style="text-align:center" nowrap>Direksi</td>
 												<td width="3%" style="text-align:left" nowrap>Direktur Umum</td>
-												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td width="3%" style="text-align:center" nowrap>24 September 2008</td>
 												<td nowrap="nowrap" style="text-align:center">Rp.</td>
 												<td nowrap="nowrap" style="text-align:right">5.000.000,-</td>
@@ -279,7 +279,7 @@
 												<td width="3%" style="text-align:center" nowrap>Direksi</td>
 												<td width="3%" style="text-align:center" nowrap>Direksi</td>
 												<td width="3%" style="text-align:left" nowrap>Direktur Operasional</td>
-												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</button></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
 												<td width="3%" style="text-align:center" nowrap>24 September 2008</td>
 												<td nowrap="nowrap" style="text-align:center">Rp.</td>
 												<td nowrap="nowrap" style="text-align:right">5.000.000,-</td>
@@ -324,7 +324,7 @@
 												<td width="3%" style="text-align:center" nowrap>Direksi</td>
 												<td width="3%" style="text-align:center" nowrap>Direksi</td>
 												<td width="3%" style="text-align:left" nowrap>Direktur Keuangan dan Asset</td>
-												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang B">Cabang</button></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang B">Cabang</span></td>
 												<td width="3%" style="text-align:center" nowrap>24 September 2008</td>
 												<td nowrap="nowrap" style="text-align:center">Rp.</td>
 												<td nowrap="nowrap" style="text-align:right">5.000.000,-</td>
@@ -370,7 +370,7 @@
 												<td width="3%" style="text-align:center" nowrap>Direksi</td>
 												<td width="3%" style="text-align:center" nowrap>Direksi</td>
 												<td width="3%" style="text-align:left" nowrap>Direktur Pengembangan Usaha & Kerjasama</td>
-												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td width="3%" style="text-align:center" nowrap>24 September 2008</td>
 												<td nowrap="nowrap" style="text-align:center">Rp.</td>
 												<td nowrap="nowrap" style="text-align:right">5.000.000,-</td>
@@ -415,7 +415,7 @@
 												<td width="3%" style="text-align:center" nowrap>Umum</td>
 												<td width="3%" style="text-align:center" nowrap>Umum</td>
 												<td width="3%" style="text-align:left" nowrap>Kepala Bagian Umum</td>
-												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td width="3%" style="text-align:center" nowrap>24 September 2008</td>
 												<td nowrap="nowrap" style="text-align:center">Rp.</td>
 												<td nowrap="nowrap" style="text-align:right">5.000.000,-</td>

@@ -219,7 +219,7 @@
 												<td style="text-align:left" nowrap>Direksi</td>
 												<td style="text-align:left" nowrap>Direksi</td>
 												<td style="text-align:left" nowrap>Direktur Utama</td>
-												<td style="text-align:center"><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
+												<td style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td style="text-align:center">4 September 2018</td>
 												<td style="text-align:center">5 September 2018</td>
 												
@@ -263,7 +263,7 @@
 												<td style="text-align:left" nowrap>Direksi</td>
 												<td style="text-align:left" nowrap>Direksi</td>
 												<td style="text-align:left" nowrap>Direktur Umum</td>
-												<td style="text-align:center"><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
+												<td style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td style="text-align:center">4 September 2018</td>
 												<td style="text-align:center">5 September 2018</td>
 												
@@ -308,7 +308,7 @@
 												<td nowrap="nowrap" style="text-align:left">Umum</td>
 												<td nowrap="nowrap" style="text-align:left">Umum dan Kepegawaian</td>
 												<td nowrap="nowrap" wstyle="text-align:left">Staff Administrasi Kepegawaian</td>
-												<td style="text-align:center"><button type="button" class="btn btn-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</button></td>
+												<td style="text-align:center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
 												<td style="text-align:center">4 September 2018</td>
 												<td style="text-align:center">5 September 2018</td>
 												
@@ -352,7 +352,7 @@
 												<td nowrap="nowrap" style="text-align:left">Umum</td>
 												<td nowrap="nowrap" style="text-align:left">Hukum dan Humas</td>
 												<td nowrap="nowrap" wstyle="text-align:left">Staff Administrasi Hukum</td>
-												<td style="text-align:center"><button type="button" class="btn btn-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang B">Cabang</button></td>
+												<td style="text-align:center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang B">Cabang</span></td>
 												<td style="text-align:center">4 September 2018</td>
 												<td style="text-align:center">5 September 2018</td>
 												

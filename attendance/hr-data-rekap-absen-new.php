@@ -361,7 +361,7 @@
 												
 
 												<td rowspan="6" nowrap style="text-align:left">Muhammad Nasrullah, S.Kom</td>
-												<td rowspan="6" nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
+												<td rowspan="6" nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td style="text-align:left" nowrap>Masuk</td>
 												<td align="center" valign="middle" style="text-align:center">08:00</td>
 												<td align="center" valign="middle" style="text-align:center">-</td>
@@ -618,7 +618,7 @@
 													</a></td>
 
 												<td rowspan="6" nowrap style="text-align:left">Oklan Zulkifli, SE</td>
-												<td rowspan="6" nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
+												<td rowspan="6" nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td nowrap="nowrap" style="text-align:left">Masuk</td>
 												<td align="center" valign="middle" style="text-align:center">08:00</td>
 												<td align="center" valign="middle" style="text-align:center">-</td>
@@ -878,7 +878,7 @@
 													</a></td>
 
 												<td rowspan="6" nowrap style="text-align:left">Deddy Rafsanjani, S.Sos</td>
-												<td rowspan="6" nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
+												<td rowspan="6" nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td nowrap="nowrap" style="text-align:left">Masuk</td>
 												<td align="center" valign="middle" style="text-align:center">08:00</td>
 												<td align="center" valign="middle" style="text-align:center">-</td>
@@ -1135,7 +1135,7 @@
 													</a></td>
 
 												<td rowspan="6" nowrap style="text-align:left">Akmal Baharuddin</td>
-												<td rowspan="6" nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</button></td>
+												<td rowspan="6" nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
 												<td nowrap="nowrap" style="text-align:left">Masuk</td>
 												<td align="center" valign="middle" style="text-align:center">08:00</td>
 												<td align="center" valign="middle" style="text-align:center">-</td>
@@ -1396,7 +1396,7 @@
 													</a></td>
 
 												<td rowspan="6" nowrap style="text-align:left">Nursiah, S.Kom</td>
-												<td rowspan="6" nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
+												<td rowspan="6" nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td nowrap="nowrap" style="text-align:left">Masuk</td>
 												<td align="center" valign="middle" style="text-align:center">08:00</td>
 												<td align="center" valign="middle" style="text-align:center">-</td>
@@ -1653,7 +1653,7 @@
 													</a></td>
 
 												<td rowspan="6" nowrap style="text-align:left">Muhammad Ramadhan Lerrick, ST</td>
-												<td rowspan="6" nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang B">Cabang</button></td>
+												<td rowspan="6" nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang B">Cabang</span></td>
 												<td nowrap="nowrap" style="text-align:left">Masuk</td>
 												<td align="center" valign="middle" style="text-align:center">08:00</td>
 												<td align="center" valign="middle" style="text-align:center">-</td>

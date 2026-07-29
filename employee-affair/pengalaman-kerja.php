@@ -202,7 +202,7 @@
 													</a></td>
 												<td style="text-align:left" nowrap>Muhammad Nasrullah, S.Kom</td>
 												
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
+												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
 												<td style="text-align:left">007/HR/PMR/IX/2019</td>
 												<td style="text-align:left">4 September 2018</td>
@@ -247,7 +247,7 @@
 													</a></td>
 												<td style="text-align:left" nowrap>Oklan Zulkifli, SE</td>
 												
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-brand btn-sm">Pusat</button></td>
+												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Pusat</span></td>
 												<td style="text-align:center"><button type="button" class="btn btn-label-danger btn-sm">Honor</button></td>
 												<td style="text-align:left">006/HR/PMR/IX/2019</td>
 												<td style="text-align:left">4 September 2018</td>
@@ -290,7 +290,7 @@
 													</a></td>
 												<td style="text-align:left" nowrap>Deddy Rafsanjani, S.Sos</td>
 												
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</button></td>
+												<td style="text-align:center" nowrap><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang A">Cabang</span></td>
 												<td style="text-align:center"><button type="button" class="btn btn-label-brand btn-sm">Kontrak</button></td>
 												<td style="text-align:left">005/HR/PMR/IX/2019</td>
 												<td style="text-align:left">4 September 2018</td>
@@ -335,7 +335,7 @@
 													</a></td>
 												<td style="text-align:left" nowrap>Muhammad Ramadhan Lerrick, ST</td>
 												
-												<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang B">Cabang</button></td>
+												<td style="text-align:center" nowrap><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true" data-original-title="Nama Cabang B">Cabang</span></td>
 												<td style="text-align:center"><button type="button" class="btn btn-label-success btn-sm">Tetap</button></td>
 												<td style="text-align:left">004/HR/PMR/IX/2019</td>
 												<td style="text-align:left">4 September 2018</td>
