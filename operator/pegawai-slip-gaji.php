@@ -48,7 +48,14 @@
 
 												<!--end::Nav-->
 											</div>
-
+<div class="btn-group">
+				<button type="button" class="btn btn-label-google btn-sm">
+					<i class="fa fa-book-reader"></i>
+					<span class="kt-hidden-mobile">Bantuan</span>
+				</button>
+				
+				
+			</div>
 										</div>
 							</div>
 						</div>
@@ -147,14 +154,14 @@
 										<thead style="text-align:center">
 											<tr>
 												<th width="1%" bgcolor="#f7fcff">#</th>
+												<th width="1%" bgcolor="#f7fcff">Tahun</th>
+												<th width="3%" bgcolor="#f7fcff">Bulan</th>
 												<th width="3%" bgcolor="#f7fcff">No. Slip Gaji</th>
-												<th width="1%" bgcolor="#f7fcff">Tipe Gaji</th>
-												<th width="7%" bgcolor="#f7fcff">Periode Gaji</th>
-												<th width="6%" colspan="2" bgcolor="#f7fcff">Pendapatan</th>
-												<th width="4%" colspan="2" bgcolor="#f7fcff">Potongan</th>
-												<th width="6%" colspan="2" bgcolor="#f7fcff">Gaji Diterima</th>
-												<th width="1%" bgcolor="#f7fcff">Waktu Pembayaran</th>
-												<th width="1%" bgcolor="#f7fcff">Status Pembayaran</th>
+												<th width="6%" bgcolor="#f7fcff">Pendapatan</th>
+												<th width="4%" bgcolor="#f7fcff">Potongan</th>
+												<th width="6%" bgcolor="#f7fcff">Gaji Diterima</th>
+												<th width="1%" bgcolor="#f7fcff">Waktu<br>Pembayaran</th>
+												<th width="1%" bgcolor="#f7fcff">Status<br>Pembayaran</th>
 												<th width="2%" bgcolor="#f7fcff">Aksi</th>
 											</tr>
 										</thead>
@@ -162,17 +169,14 @@
 
 
 										  <tr>
-												<td style="text-align:center" id="kt_table_1">1</td>
+												<td style="text-align:right" id="kt_table_1">1</td>
+												<td style="text-align:center;">2026</td>
+												<td style="text-align:left;">Januari</td>
 												<td style="text-align:center;">1/IMKEU-SG/I/2019</td>
-												<td style="text-align:center">Bulanan</td>
-												<td style="text-align:center">1 Januari 2019 s/d 31 Januari 2019</td>
-												<td style="text-align:left; border-right-color:#fff">Rp.</td>
-												<td style="text-align:right">1.000.000,-</td>
-												<td style="text-align:left; border-right-color:#fff">Rp.</td>
-												<td style="text-align:right">100.000,-</td>
-												<td style="text-align:left; border-right-color:#fff">Rp.</td>
-												<td style="text-align:right">200.000,-</td>
-												<td style="text-align:center" nowrap>12 Oktober 2019 - 09:00 WITA</td>
+												<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>8.000.000,-</span></div></td>
+												<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>800.000,-</span></div></td>
+												<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>7.200.000,-</span></div></td>
+												<td style="text-align:center" nowrap>12 Oktober 2026<br>09:00:00 WITA</td>
 											  <td style="text-align:center" nowrap><button type="button" class="btn btn-brand btn-icon btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="Terbayar<br>Mandiri - 152004444456" data-html="true"><i class="fa fa-money-bill-alt"></i></button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
@@ -197,17 +201,14 @@
 															</div></td>
 										  </tr>
 										  <tr>
-												<td style="text-align:center" id="kt_table_1">2</td>
+												<td style="text-align:right" id="kt_table_1">2</td>
+												<td style="text-align:center;">2026</td>
+												<td style="text-align:left;">Februari</td>
 												<td style="text-align:center;">1/IMKEU-SG/I/2019</td>
-												<td style="text-align:center">Mingguan</td>
-												<td style="text-align:center">1 Januari 2019 s/d 7 Januari 2019</td>
-												<td style="text-align:left; border-right-color:#fff">Rp.</td>
-												<td style="text-align:right">1.000.000,-</td>
-												<td style="text-align:left; border-right-color:#fff">Rp.</td>
-												<td style="text-align:right">100.000,-</td>
-												<td style="text-align:left; border-right-color:#fff">Rp.</td>
-												<td style="text-align:right">200.000,-</td>
-												<td style="text-align:center" nowrap>12 Oktober 2019 - 09:00 WITA</td>
+												<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>8.000.000,-</span></div></td>
+												<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>800.000,-</span></div></td>
+												<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>7.200.000,-</span></div></td>
+												<td style="text-align:center" nowrap>12 Oktober 2026<br>09:00:00 WITA</td>
 											  <td style="text-align:center" nowrap><button type="button" class="btn btn-info btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="Terbayar<br>Mandiri - 152004444456" data-html="true"><i class="fa fa-money-bill-alt"></i></button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
@@ -227,17 +228,14 @@
 															</div></td>
 										  </tr>
 										  <tr>
-												<td style="text-align:center" id="kt_table_1">3</td>
+												<td style="text-align:right" id="kt_table_1">3</td>
+												<td style="text-align:center;">2026</td>
+												<td style="text-align:left;">Maret</td>
 												<td style="text-align:center;">1/IMKEU-SG/I/2019</td>
-												<td style="text-align:center">Harian</td>
-												<td style="text-align:center">1 Januari 2019 s/d 1 Januari 2019</td>
-												<td style="text-align:left; border-right-color:#fff">Rp.</td>
-												<td style="text-align:right">1.000.000,-</td>
-												<td style="text-align:left; border-right-color:#fff">Rp.</td>
-												<td style="text-align:right">100.000,-</td>
-												<td style="text-align:left; border-right-color:#fff">Rp.</td>
-												<td style="text-align:right">200.000,-</td>
-												<td style="text-align:center" nowrap>12 Oktober 2019 - 09:00 WITA</td>
+												<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>8.000.000,-</span></div></td>
+												<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>800.000,-</span></div></td>
+												<td><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>7.200.000,-</span></div></td>
+												<td style="text-align:center" nowrap>12 Oktober 2026<br>09:00:00 WITA</td>
 											  <td style="text-align:center" nowrap><button type="button" class="btn btn-info btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="brand" title="Terbayar<br>Mandiri - 152004444456" data-html="true"><i class="fa fa-money-bill-alt"></i></button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">

@@ -18,7 +18,7 @@
 <span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Yuni Saslia, SE </span>
+											Muhammad Ramadhan Lerrick, ST </span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
 										</form>
@@ -161,10 +161,10 @@ function goBack() {
 														<div class="kt-form__section kt-form__section--first">
 <div class="row">
 								
-								<div class="col-xl-6">
+								<div class="col-xl-7">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Penerima Penghasilan</div><br>
 							<br>
 										<div class="kt-portlet__body">
@@ -215,22 +215,26 @@ function goBack() {
 								<div class="col-xl-3">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Periode Penggajian</div><br>
 							<br>
 										<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
 											<div class="form-group row">
-													<div class="col-lg-12">
-														<label>Periode Gaji :</label>
-														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1/12/2022 - 28/12/2022">
+													<div class="col-lg-6">
+														<label>Tahun :</label>
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2026">
+													</div>
+													<div class="col-lg-6">
+														<label>Bulan :</label>
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="September">
 													</div>
 												</div>
 												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 												<div class="form-group row">
 													<div class="col-lg-12">
 														<label>Last Update :</label>
-														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="3 Januari 2022">
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="31 September 2026">
 													</div>
 												</div>
 												</div>
@@ -243,10 +247,10 @@ function goBack() {
 
 
 								</div>
-								<div class="col-xl-3">
+								<div class="col-xl-2">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<br>
 							<br>
 										<div class="kt-portlet__body">
@@ -267,10 +271,10 @@ function goBack() {
 								</div>
 											
 											<div class="row">
-								<div class="col-xl-6">
+								<div class="col-xl-7">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Pendapatan</div><br>
 							<br>
 										<div class="kt-portlet__body">
@@ -381,10 +385,10 @@ function goBack() {
 
 
 								</div>
-								<div class="col-xl-6">
+								<div class="col-xl-5">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Potongan</div><br>
 							<br>
 										<div class="kt-portlet__body">
@@ -571,23 +575,27 @@ function goBack() {
     <td colspan="7" style="text-align:left">&nbsp;</td>
   </tr>
   <tr>
-    <td width="25%" style="text-align:left">Nama</td>
+    <td width="10%" style="text-align:left">Nama</td>
     <td width="2%" style="text-align:left">:</td>
     <td colspan="5" style="text-align:left">Muhammad Ramadhan Lerrick, ST</td>
   </tr>
   <tr>
     <td style="text-align:left">Jabatan</td>
     <td style="text-align:left">:</td>
-    <td colspan="5" style="text-align:left">Staff Administrasi Kepegawaian</td>
+    <td colspan="5" style="text-align:left">ME Supervisor</td>
   </tr>
   <tr>
     <td style="text-align:left">Periode</td>
     <td style="text-align:left">:</td>
-    <td colspan="5" style="text-align:left">Januari 2025</td>
+    <td colspan="5" style="text-align:left">September 2026</td>
   </tr>
   <tr>
     <td colspan="7" style="text-align:left">&nbsp;</td>
   </tr>
+  
+</table>
+<table align="center" border="0" cellpadding="1" style="width: 850px; position:relative; top:100px; text-align:justify; line-height:1.5; font-family: Tahoma; font-size: 12px;">
+  
   <tr>
     <td colspan="3" style="text-align:left; border-bottom: 1px solid #000"><strong>RINCIAN PENDAPATAN :<span style="text-align: left"></span></strong></td>
     <td width="3%" style="text-align:left">&nbsp;</td>
@@ -598,7 +606,7 @@ function goBack() {
     <td>:</td>
     <td width="17%"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>5.000.000,-</span> </div></td>
     <td width="3%">&nbsp;</td>
-    <td width="35%">- BPJS Ketenagakerjaan &amp; Kesehatan</td>
+    <td width="30%">- BPJS Ketenagakerjaan &amp; Kesehatan</td>
     <td width="1%">:</td>
     <td width="17%"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>583.840,-</span></div></td>
   </tr>
@@ -696,9 +704,10 @@ function goBack() {
     <td>&nbsp;</td>
   </tr>
   <tr>
-    <td valign="top" style="text-align:left;"><strong>TERBILANG </strong></td>
-    <td valign="top">:</td>
-    <td colspan="5"><span style="text-align:left;"><strong><em>Tiga Puluh Satu Juta Enam Ratus Empat Puluh Enam Ribu Dua Ratus Delapan Puluh Enam Rupiah</em></strong></span></td>
+    <td colspan="7" style="text-align:left;">&nbsp;</td>
+  </tr>
+  <tr style="border-top: 3px double #000; border-bottom: 3px double #000">
+    <td colspan="7" valign="top" style="text-align:left;"><span style="text-align:left;"><strong><em>Terbilang : Tiga Puluh Satu Juta Enam Ratus Empat Puluh Enam Ribu Dua Ratus Delapan Puluh Enam Rupiah</em></strong></span></td>
   </tr>
   <tr>
     <td colspan="7" style="text-align:left;">&nbsp;</td>
@@ -717,13 +726,13 @@ function goBack() {
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td width="180" valign="middle" style="text-align: center; border: 0px solid #ccc; margin-right:20px;">
+                                    <td width="250" valign="middle" style="text-align: center; border: 0px solid #ccc; margin-right:20px;">
                                         <strong>DISETUJUI</strong></td>
                                     <td width="10" rowspan="5" valign="middle" style="text-align: center; border: 0px solid #ccc; margin-right:20px;">&nbsp;</td>
                                     <td width="228" valign="middle" style="text-align: center; border: 0px solid #ccc; margin-right:20px;">
                                         <strong>DIBAYARKAN OLEH</strong></td>
                                     <td width="10" rowspan="5" valign="middle" style="text-align: center; border: 0px solid #ccc; margin-left:20px;">&nbsp;</td>
-                                    <td width="250" valign="middle" style="text-align: center; border: 0px solid #ccc; margin-left:20px;">
+                                    <td width="180" valign="middle" style="text-align: center; border: 0px solid #ccc; margin-left:20px;">
                                         <strong>PENERIMA</strong></td>
                                 </tr>
                                 <tr style="padding-top:10px">
@@ -742,14 +751,14 @@ function goBack() {
                                     </td>
                                 </tr>
                                 <tr style="margin-right:20px">
-                                    <td valign="top" style="text-align: center; border: 0px solid #ccc; font-style:underline; margin-right:20px;"><b>ADI RASYID ALI, SE</td>
-                                    <td valign="top" style="text-align: center; border: 0px solid #ccc; margin-right:20px;"><b>SRI SUHARTINI,SE</td>
-                                    <td valign=" top" style="text-align: center; border: 0px solid #ccc; margin-right:20px;"><b>MUHAMMAD RAMADHAN LERRICK, ST</td>
+                                    <td valign="top" style="text-align: center; border: 0px solid #ccc; font-style:underline; margin-right:20px;"><b>Sri Widya Ningsih, SE</td>
+                                    <td valign="top" style="text-align: center; border: 0px solid #ccc; margin-right:20px;"><b>Yuni Saslia, SE</td>
+                                    <td valign=" top" style="text-align: center; border: 0px solid #ccc; margin-right:20px;"><b>Muhammad Ramadhan Lerrick, ST</td>
                                 </tr>
                                 <tr>
-                                    <td valign="top" style="text-align: center; border: 0px solid #ccc">Direktur Utama</td>
-                                    <td valign=" top" style="text-align: center; border: 0px solid #ccc">Kasie Adm / Kepegawaian</td>
-                                    <td valign="top" style="text-align: center; border-top: 0px solid #000">Staff Administrasi Kepegawaian</td>
+                                    <td valign="top" style="text-align: center; border: 0px solid #ccc">Finance Manager</td>
+                                    <td valign=" top" style="text-align: center; border: 0px solid #ccc">Finance Staff</td>
+                                    <td valign="top" style="text-align: center; border-top: 0px solid #000">ME Supervisor</td>
                                 </tr>
                                 <tr>
                                   <td valign="top" style="text-align: center; border: 0px solid #ccc">&nbsp;</td>
@@ -940,7 +949,7 @@ function goBack() {
 															Kembali
 														</button>
 														
-														<button class="btn btn-brand btn-md btn-tall btn-wide kt-font-bold kt-font-transform-u" data-ktwizard-type="action-next">
+														<button class="btn btn-success btn-md btn-tall btn-wide kt-font-bold kt-font-transform-u" data-ktwizard-type="action-next">
 															Selanjutnya
 														</button>
 													</div>
@@ -971,17 +980,14 @@ function goBack() {
 
 
 									<!--End::Portlet-->
-								</div>
+								
 
 									<!--end:: Widgets/Notifications-->
 								
-						</div>
+						
 
 						<!-- end:: Content -->
-					</div>
-            </div>
-        </div>
-    </div>
+					
 
 <?php require '../layouts/footer.php' ?>
 <?php require '../layouts/foot.php' ?>
