@@ -19,7 +19,7 @@
 								</div>
            <div class="kt-subheader__toolbar">
 			<div class="dropdown dropdown-inline" ddata-placement="left">
-				<a href="add-penilaian-kinerja-pegawai.php" class="btn btn-label-primary btn-sm">
+				<a href="add-penilaian-kinerja-pegawai.php" class="btn btn-label-brand btn-sm">
 					<i class="flaticon-reply"></i> Kembali</button>
 					<!--<i class="flaticon2-plus"></i>-->
 				</a>
@@ -33,7 +33,6 @@
     <!-- end:: Content Head -->
 
 	<!-- begin:: Content -->
-<div class="row">
 						<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
 <div class="alert alert-elevate alert-solid-warning alert-bold" role="alert">
 														<div class="alert-icon"><i class="fa fa-info-circle"></i></div>
@@ -156,7 +155,7 @@
 										<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
 												<div class="kt-avatar kt-avatar--outline kt-avatar--circle-" id="kt_user_edit_avatar">
-																			<div class="kt-avatar__holder" style="background-image: url(&quot;../assets/media/users/100_1.jpg&quot;);"></div>
+																			<div class="kt-avatar__holder" style="background-image: url(&quot;../assets/media/users/100_2.jpg&quot;);"></div>
 
 
 																		</div>
@@ -180,29 +179,34 @@
 <div class="col-xl-10">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Pegawai</div><br>
 										<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
 												<div class="form-group row">
 
-						<div class="col-lg-4">
+						<div class="col-lg-3">
                           <label>Nama Pegawai :</label>
                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom">
 
                         </div>
 						<div class="col-lg-2">
                           <label>NIP :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="238 004 032">
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="000000000000">
                         </div>
 						
 						<div class="col-lg-2">
                           <label>Status Pegawai :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Tetap">
                         </div>
+						<div class="col-lg-1">
+                          <label>Tahun :</label>
+                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2026">
+
+                        </div>
 						<div class="col-lg-2">
-                          <label>Periode Penilaian :</label>
-                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1/12/2022 - 31/12/2022">
+                          <label>Bulan :</label>
+                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="September">
 
                         </div>
 						<div class="col-lg-2">
@@ -212,19 +216,19 @@
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
                      <div class="form-group row">
-						<div class="col-lg-4">
+						<div class="col-lg-3">
 					   <label>Department :</label>
-                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="PT. Pelabuhan Indonesia (Persero) Regional 4 atau Online">
+                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Operasional">
 
                         </div>
 						<div class="col-lg-4">
 					   <label>Divisi :</label>
-                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="PT. Pelabuhan Indonesia (Persero) Regional 4 atau Online">
+                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Operasional">
 
                         </div>
-						<div class="col-lg-4">
+						<div class="col-lg-5">
 					   <label>Jabatan :</label>
-                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="PT. Pelabuhan Indonesia (Persero) Regional 4 atau Online">
+                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Supervisor Operasional">
 
                         </div>
                         </div>
@@ -252,7 +256,7 @@
 								<div class="col-xl-12">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Penilaian - Prestasi Kerja</div>
 							<br>
 										
@@ -571,11 +575,11 @@
 												</div></td>
 									      </tr>
 										  <tr>
-										    <td colspan="2" bgcolor="#d2ffde" id="kt_table_4" style="text-align:left">GRAND TOTAL SKOR PENILAIAN PRESTASI KERJA</td>
-										    <td nowrap bgcolor="#d2ffde" style="text-align:center">27</td>
-										    <td colspan="2" nowrap="nowrap" bgcolor="#d2ffde" style="text-align:center">&nbsp;</td>
-										    <td nowrap bgcolor="#d2ffde" style="text-align:center"><input type="text" style="text-align:center" class="form-control form-control-sm" disabled="disabled" placeholder="27"></td>
-										    <td nowrap bgcolor="#d2ffde" style="text-align:center"><div class="input-group input-group-sm">
+										    <td colspan="2" bgcolor="#0475bc" id="kt_table_4" style="text-align:left; color:#fff;">GRAND TOTAL SKOR PENILAIAN PRESTASI KERJA</td>
+										    <td nowrap bgcolor="#0475bc" style="text-align:center; color:#fff;">27</td>
+										    <td colspan="2" nowrap="nowrap" bgcolor="#0475bc" style="text-align:center">&nbsp;</td>
+										    <td nowrap bgcolor="#0475bc" style="text-align:center"><input type="text" style="text-align:center" class="form-control form-control-sm" disabled="disabled" placeholder="27"></td>
+										    <td nowrap bgcolor="#0475bc" style="text-align:center"><div class="input-group input-group-sm">
 													<input type="text" class="form-control m-input" style="text-align:right" disabled="disabled" placeholder="100" aria-describedby="basic-addon2">
 													<div class="input-group-append">
 														<span class="input-group-text" id="basic-addon2">
@@ -621,7 +625,7 @@
 										<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
 												<div class="kt-avatar kt-avatar--outline kt-avatar--circle-" id="kt_user_edit_avatar">
-																			<div class="kt-avatar__holder" style="background-image: url(&quot;../assets/media/users/100_1.jpg&quot;);"></div>
+																			<div class="kt-avatar__holder" style="background-image: url(&quot;../assets/media/users/100_2.jpg&quot;);"></div>
 
 
 																		</div>
@@ -645,29 +649,34 @@
 <div class="col-xl-10">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Pegawai</div><br>
 										<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
 												<div class="form-group row">
 
-						<div class="col-lg-4">
+						<div class="col-lg-3">
                           <label>Nama Pegawai :</label>
                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom">
 
                         </div>
 						<div class="col-lg-2">
                           <label>NIP :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="238 004 032">
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="000000000000">
                         </div>
 						
 						<div class="col-lg-2">
                           <label>Status Pegawai :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Tetap">
                         </div>
+						<div class="col-lg-1">
+                          <label>Tahun :</label>
+                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="2026">
+
+                        </div>
 						<div class="col-lg-2">
-                          <label>Periode Penilaian :</label>
-                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1/12/2022 - 31/12/2022">
+                          <label>Bulan :</label>
+                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="September">
 
                         </div>
 						<div class="col-lg-2">
@@ -677,19 +686,19 @@
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
                      <div class="form-group row">
-						<div class="col-lg-4">
+						<div class="col-lg-3">
 					   <label>Department :</label>
-                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="PT. Pelabuhan Indonesia (Persero) Regional 4 atau Online">
+                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Operasional">
 
                         </div>
 						<div class="col-lg-4">
 					   <label>Divisi :</label>
-                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="PT. Pelabuhan Indonesia (Persero) Regional 4 atau Online">
+                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Operasional">
 
                         </div>
-						<div class="col-lg-4">
+						<div class="col-lg-5">
 					   <label>Jabatan :</label>
-                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="PT. Pelabuhan Indonesia (Persero) Regional 4 atau Online">
+                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Supervisor Operasional">
 
                         </div>
                         </div>
@@ -717,7 +726,7 @@
 								<div class="col-xl-12">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Penilaian - Beban Kerja</div>
 							<br>
 										<div class="kt-portlet__body">
@@ -961,13 +970,13 @@
 										    <td colspan="7" id="kt_table_7" style="text-align:center">&nbsp;</td>
 									      </tr>
 										  <tr>
-										    <td colspan="3" bgcolor="#d2f6fb" id="kt_table_3" style="text-align:left">TUNJANGAN KINERJA YANG DITERIMA</td>
-										    <td colspan="2" nowrap="nowrap" bgcolor="#d2f6fb" style="text-align:center"><div class="input-group input-group-sm">
+										    <td colspan="3" bgcolor="#0475bc" id="kt_table_3" style="text-align:left; color:#fff;">TUNJANGAN KINERJA YANG DITERIMA</td>
+										    <td colspan="2" nowrap="nowrap" bgcolor="#0475bc" style="text-align:center"><div class="input-group input-group-sm">
 														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
 														<input type="text" class="form-control form-control-sm" style="text-align:right" disabled="disabled" placeholder="5.000.000" aria-describedby="basic-addon1">
 														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 													</div></td>
-										    <td colspan="2" nowrap bgcolor="#d2f6fb" style="text-align:center"><div class="input-group input-group-sm">
+										    <td colspan="2" nowrap bgcolor="#0475bc" style="text-align:center"><div class="input-group input-group-sm">
 														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
 														<input type="text" class="form-control form-control-sm" style="text-align:right" disabled="disabled" placeholder="5.000.000" aria-describedby="basic-addon1">
 														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
@@ -1109,9 +1118,9 @@
 															Kembali
 														</button>
 														<button class="btn btn-success btn-md btn-tall btn-wide kt-font-bold kt-font-transform-u" data-ktwizard-type="action-submit">
-															Simpan Data
+															Kirim
 														</button>
-														<button class="btn btn-brand btn-md btn-tall btn-wide kt-font-bold kt-font-transform-u" data-ktwizard-type="action-next">
+														<button class="btn btn-success btn-md btn-tall btn-wide kt-font-bold kt-font-transform-u" data-ktwizard-type="action-next">
 															Selanjutnya
 														</button>
 													</div>
@@ -1153,7 +1162,6 @@
 					</div>
             </div>
         </div>
-    </div>
 
 <?php require '../layouts/footer.php' ?>
 <?php require '../layouts/foot.php' ?>

@@ -130,7 +130,7 @@ function goBack() {
 								</div>
 
 								<!--end: Form Wizard Nav -->
-								<div class="kt-portlet">
+								
 									<div class="kt-portlet__body kt-portlet__body--fit">
 										<div class="kt-grid">
 											<div class="kt-grid__item kt-grid__item--fluid kt-wizard-v4__wrapper">
@@ -565,11 +565,11 @@ function goBack() {
 												</div></td>
 									      </tr>
 										  <tr>
-										    <td colspan="2" bgcolor="#d2ffde" id="kt_table_4" style="text-align:left">GRAND TOTAL SKOR PENILAIAN PRESTASI KERJA</td>
-										    <td nowrap bgcolor="#d2ffde" style="text-align:center">27</td>
-										    <td colspan="2" nowrap="nowrap" bgcolor="#d2ffde" style="text-align:center">&nbsp;</td>
-										    <td nowrap bgcolor="#d2ffde" style="text-align:center"><input type="text" style="text-align:center" class="form-control form-control-sm" disabled="disabled" placeholder="27"></td>
-										    <td nowrap bgcolor="#d2ffde" style="text-align:center"><div class="input-group input-group-sm">
+										    <td colspan="2" bgcolor="#0475bc" id="kt_table_4" style="text-align:left; color:#fff;">GRAND TOTAL SKOR PENILAIAN PRESTASI KERJA</td>
+										    <td nowrap bgcolor="#0475bc" style="text-align:center; color:#fff;">27</td>
+										    <td colspan="2" nowrap="nowrap" bgcolor="#0475bc" style="text-align:center">&nbsp;</td>
+										    <td nowrap bgcolor="#0475bc" style="text-align:center"><input type="text" style="text-align:center" class="form-control form-control-sm" disabled="disabled" placeholder="27"></td>
+										    <td nowrap bgcolor="#0475bc" style="text-align:center"><div class="input-group input-group-sm">
 													<input type="text" class="form-control m-input" style="text-align:right" disabled="disabled" placeholder="100" aria-describedby="basic-addon2">
 													<div class="input-group-append">
 														<span class="input-group-text" id="basic-addon2">
@@ -962,13 +962,13 @@ function goBack() {
 										    <td colspan="7" id="kt_table_7" style="text-align:center">&nbsp;</td>
 									      </tr>
 										  <tr>
-										    <td colspan="3" bgcolor="#d2ffde" id="kt_table_3" style="text-align:left">TUNJANGAN KINERJA YANG DITERIMA</td>
-										    <td colspan="2" nowrap="nowrap" bgcolor="#d2ffde" style="text-align:center"><div class="input-group input-group-sm">
+										    <td colspan="3" bgcolor="#0475bc" id="kt_table_3" style="text-align:left; color:#fff;">TUNJANGAN KINERJA YANG DITERIMA</td>
+										    <td colspan="2" nowrap="nowrap" bgcolor="#0475bc" style="text-align:center"><div class="input-group input-group-sm">
 														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
 														<input type="text" class="form-control form-control-sm" style="text-align:right" disabled="disabled" placeholder="5.000.000" aria-describedby="basic-addon1">
 														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
 													</div></td>
-										    <td colspan="2" nowrap bgcolor="#d2ffde" style="text-align:center"><div class="input-group input-group-sm">
+										    <td colspan="2" nowrap bgcolor="#0475bc" style="text-align:center"><div class="input-group input-group-sm">
 														<div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon1">Rp.</span></div>
 														<input type="text" class="form-control form-control-sm" style="text-align:right" disabled="disabled" placeholder="5.000.000" aria-describedby="basic-addon1">
 														<div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon1">,-</span></div>
@@ -1133,7 +1133,7 @@ function goBack() {
 											</div>
 										</div>
 									</div>
-								</div>
+								
 							</div>
 						</div>
 

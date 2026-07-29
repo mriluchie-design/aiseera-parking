@@ -73,15 +73,15 @@ function goBack() {
 							</div>
 						</div>
 
-							<div class="tab-content" style="background:#f2f3f8;overflow:scroll;height:800px">
+							<div class="tab-content" style="background:#f2f3f8;overflow:scroll;height:auto">
 							<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid mt-3">
 								<div class="bg-white w-50 ml-auto mr-auto">
-	<img src="../assets/img/header-potrait.png" style="width:787px; display:block; margin-left:0px;margin-right:auto;margin-bottom:40px;padding-top:0px;"/>
+	
 						<div>&nbsp;</div>
-						<table width="600" style="position:relative;top:-130px;" align="center" cellspacing="1" id="kt_table_1">
+						<table width="600" style="position:relative;top:100px;" align="center" cellspacing="1" id="kt_table_1">
 										<tbody>
 											<tr>
-											  <td width="10%" rowspan="5" style="text-align:center"><img src="../assets/media/users/100_16.jpg" alt="image"></td>
+											  <td width="10%" rowspan="5" style="text-align:center"><img src="../assets/media/users/100_7.jpg" alt="image"></td>
 											  <td width="2%" rowspan="5" style="text-align:left">&nbsp;</td>
 											  <td width="22%" style="text-align:left">Nama Pegawai</td>
 											  <td width="4%" nowrap="nowrap" style="text-align:center">:</td>
@@ -111,7 +111,7 @@ function goBack() {
 										</tbody>
 									</table>
 									<div>&nbsp;</div>
-						<table width="600" style="position:relative;top:-130px; margin-bottom:-100px;" align="center" cellspacing="2" class="table-bordered table-checkable" id="kt_table_1">
+						<table width="600" style="position:relative;top:100px; margin-bottom:-100px;" align="center" cellspacing="2" class="table-bordered table-checkable" id="kt_table_1">
 										<thead>
 											<tr style="text-align:center">
 											  <th width="15%" colspan="2" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">ELEMENT INDIKATOR PENILAIAN</th>
@@ -347,7 +347,7 @@ function goBack() {
 										</tbody>
 									</table>
 									<div>&nbsp;</div>
-						<table align="center" class="footnote-1" width="650px" style="margin-top:20px; padding-top:5px; padding-bottom:20px;">
+						<table align="center" class="footnote-1" width="650px" style="margin-top:250px; margin-bottom:20px; padding-top:5px; padding-bottom:20px;">
         <thead>
             <tr><th></th>
             <th></th>
@@ -369,11 +369,11 @@ function goBack() {
                     </span>
                 </td>
                 <td>&nbsp;</td>
-                <td colspan="2" valign="center" style="position: relative;top:-5px;text-align:left; padding-left:10px; padding-top:10px;">
+               <td colspan="2" valign="left" style="text-align: center">
                     <span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Sesuai
-                            dengan ketentuan yang berlaku, Perusahaan Umum Daerah Parkir Makassar Raya mengatur
+                            dengan ketentuan Peraturan Perusahaan yang berlaku, Perusahaan mengatur
                             bahwa
-                            surat ini telah ditandatangani dan diverifikasi secara elektronik, sehingga
+                            Dokumen ini telah ditandatangani dan diverifikasi secara elektronik, sehingga
                             tidak
                             diperlukan
                             tanda tangan basah pada Dokumen ini.</i></span></td>
@@ -383,16 +383,19 @@ function goBack() {
                 <td colspan="4" style="border-bottom: 1px solid #ccc;"></td>
             </tr>
             <tr style=" width:650px;">
-              <td colspan="4" style="text-align: center;"><span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA</i></span></td>
+              <td colspan="4" style="text-align: center;"><span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA - Halaman 1 dari 1</i></span></td>
+            </tr>
+			<tr style=" width:650px;">
+              <td colspan="4" style="text-align: center;"><span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; ">&nbsp;</span></td>
             </tr>
 
         </tbody>
     </table>
-  <img src="../assets/img/footer.png" style="width:788px; display:block; margin-left:auto; margin-top: 10px; margin-right:auto;margin-bottom:20px;padding-bottom:0px" />
+  
 					</div>
 						<div class="bg-white w-50 ml-auto mr-auto">
-	<img src="../assets/img/header-potrait.png" style="width:787px; display:block; margin-left:0px;margin-right:auto;margin-bottom:40px;padding-top:0px;"/>
-						<table width="600" style="position:relative; top:-130px; margin-bottom:-100px;" align="center" cellspacing="2" class="table-bordered table-checkable" id="kt_table_1">
+	
+						<table width="600" style="position:relative; top:100px; margin-bottom:-100px;" align="center" cellspacing="2" class="table-bordered table-checkable" id="kt_table_1">
 										<thead>
 											<tr style="text-align:center">
 											  <th width="15%" colspan="2" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">ELEMENT INDIKATOR PENILAIAN</th>
@@ -628,7 +631,7 @@ function goBack() {
 										</tbody>
 									</table>
 									<div>&nbsp;</div>
-						<table align="center" class="footnote-1" width="650px" style="margin-top:20px; padding-top:5px; padding-bottom:20px;">
+						<table align="center" class="footnote-1" width="650px" style="margin-top:250px; margin-bottom:20px; padding-top:5px; padding-bottom:20px;">
         <thead>
             <tr><th></th>
             <th></th>
@@ -650,11 +653,11 @@ function goBack() {
                     </span>
                 </td>
                 <td>&nbsp;</td>
-                <td colspan="2" valign="center" style="position: relative;top:-5px;text-align:left; padding-left:10px; padding-top:10px;">
+               <td colspan="2" valign="left" style="text-align: center">
                     <span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Sesuai
-                            dengan ketentuan yang berlaku, Perusahaan Umum Daerah Parkir Makassar Raya mengatur
+                            dengan ketentuan Peraturan Perusahaan yang berlaku, Perusahaan mengatur
                             bahwa
-                            surat ini telah ditandatangani dan diverifikasi secara elektronik, sehingga
+                            Dokumen ini telah ditandatangani dan diverifikasi secara elektronik, sehingga
                             tidak
                             diperlukan
                             tanda tangan basah pada Dokumen ini.</i></span></td>
@@ -664,12 +667,15 @@ function goBack() {
                 <td colspan="4" style="border-bottom: 1px solid #ccc;"></td>
             </tr>
             <tr style=" width:650px;">
-              <td colspan="4" style="text-align: center;"><span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA</i></span></td>
+              <td colspan="4" style="text-align: center;"><span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; "><i>Document Printed By : Muhammad Nasrullah, S.Kom - 16/11/2025 - 20:39 WITA - Halaman 1 dari 1</i></span></td>
+            </tr>
+			<tr style=" width:650px;">
+              <td colspan="4" style="text-align: center;"><span style="text-align:justify; line-height:1.5; font-family: Roboto; font-size: 11px; ">&nbsp;</span></td>
             </tr>
 
         </tbody>
     </table>
-  <img src="../assets/img/footer.png" style="width:788px; display:block; margin-left:auto; margin-top: 10px; margin-right:auto;margin-bottom:20px;padding-bottom:0px" />
+  
 					</div>
 					</div>
 					

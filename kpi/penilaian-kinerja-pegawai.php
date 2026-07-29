@@ -50,7 +50,7 @@
 											</div>
 
 											<a href="add-penilaian-kinerja-pegawai.php" class="btn btn-info btn-sm">
-												<i class="fa fa-plus"></i> Buat Penilaian</button>
+												<i class="fa fa-plus-circle"></i> Buat Penilaian</button>
 												<!--<i class="flaticon2-plus"></i>-->
 											</a>
 

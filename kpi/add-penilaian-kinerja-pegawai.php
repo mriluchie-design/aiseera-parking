@@ -19,7 +19,7 @@
 								</div>
            <div class="kt-subheader__toolbar">
 			<div class="dropdown dropdown-inline" ddata-placement="left">
-				<a href="penilaian-kinerja-pegawai.php" class="btn btn-label-primary btn-sm">
+				<a href="penilaian-kinerja-pegawai.php" class="btn btn-label-brand btn-sm">
 					<i class="flaticon-reply"></i> Kembali</button>
 					<!--<i class="flaticon2-plus"></i>-->
 				</a>
@@ -33,7 +33,6 @@
     <!-- end:: Content Head -->
 
 	<!-- begin:: Content -->
-<div class="row">
 						<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
 <div class="alert alert-elevate alert-solid-warning alert-bold" role="alert">
 														<div class="alert-icon"><i class="fa fa-info-circle"></i></div>
@@ -46,11 +45,11 @@
 													</div>
 							<!--begin:: Portlet-->
               <div class="row">
-              <div class="col-lg-12">
+			  <div class="col-lg-12">
                 <div class="kt-portlet kt-portlet--height-fluid-full" id="kt_page_portlet">
 
                     <div class="kt-portlet__body">
-                      <div class="row">
+                      
 					<div class="kt-container  kt-container--fluid  kt-grid__item kt-grid__item--fluid">
 							<div class="kt-wizard-v4" id="kt_wizard_v4" data-ktwizard-state="step-first">
 
@@ -152,7 +151,7 @@
 								<div class="col-xl-6">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Anda</div>
 							<br>
 										<div class="kt-portlet__body">
@@ -210,7 +209,7 @@
 								<div class="col-xl-6">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Penilaian</div>
 							<br>
 										<div class="kt-portlet__body">
@@ -262,7 +261,7 @@
 								<div class="col-xl-12">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Daftar Pegawai Penerima Penilaian</div><br>
 							<br>
 										<div class="kt-portlet__body">
@@ -572,13 +571,13 @@
 													<!--begin: Form Actions -->
 													<div class="kt-form__actions">
 														<button class="btn btn-secondary btn-md btn-tall btn-wide kt-font-bold kt-font-transform-u" data-ktwizard-type="action-prev">
-															Previous
+															Sebelumnya
 														</button>
 														<button class="btn btn-success btn-md btn-tall btn-wide kt-font-bold kt-font-transform-u" data-ktwizard-type="action-submit">
 															Kirim
 														</button>
-														<button class="btn btn-brand btn-md btn-tall btn-wide kt-font-bold kt-font-transform-u" data-ktwizard-type="action-next">
-															Next Step
+														<button class="btn btn-success btn-md btn-tall btn-wide kt-font-bold kt-font-transform-u" data-ktwizard-type="action-next">
+															Selanjutnya
 														</button>
 													</div>
 
@@ -603,23 +602,12 @@
 
 
           </div>
-        </div>
-            </div>
+        
 
 
 									<!--End::Portlet-->
-								</div>
-
-									<!--end:: Widgets/Notifications-->
-								</div>
-							</div>
-						</div>
-
-						<!-- end:: Content -->
-					</div>
-            </div>
-        </div>
-    </div>
+								
+					
 
 <?php require '../layouts/footer.php' ?>
 <?php require '../layouts/foot.php' ?>
