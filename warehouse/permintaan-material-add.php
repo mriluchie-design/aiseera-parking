@@ -360,31 +360,35 @@ function goBack() {
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th colspan="5" bgcolor="#f7fcff">Permintaan Barang</th>
+											  <th colspan="7" bgcolor="#f7fcff">Permintaan Barang</th>
 											  <th colspan="3" bgcolor="#f7fcff">Lokasi </th>
 											  <th colspan="2" bgcolor="#f7fcff">Instalasi </th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Maksud Permintaan</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 											<tr style="text-align:center">
+											  <th width="1%" bgcolor="#f7fcff">Kode SKU</th>
 											  <th width="1%" bgcolor="#f7fcff">QR Code<br>Barang</th>
 											  <th width="1%" bgcolor="#f7fcff">Kategori</th>
-											  <th width="12%" bgcolor="#f7fcff">Nama</th>
+											  <th width="10%" bgcolor="#f7fcff">Jenis</th>
+											  <th width="14%" bgcolor="#f7fcff">Nama</th>
 											  <th width="1%" bgcolor="#f7fcff">Vol</th>
 											  <th width="1%" bgcolor="#f7fcff">Satuan</th>
 											  <th width="1%" bgcolor="#f7fcff">Gate</th>
 											  <th width="1%" bgcolor="#f7fcff">Jalur</th>
 											  <th width="1%" bgcolor="#f7fcff">Nama Jalur</th>
 											  <th width="1%" bgcolor="#f7fcff">Waktu</th>
-											  <th width="1%" bgcolor="#f7fcff">By</th>
+											  <th width="2%" bgcolor="#f7fcff">By</th>
 										  </tr>
 										</thead>
 										<tbody>
 											<tr>
 												<td style="text-align:right">1</td>
-												<td nowrap="nowrap" style="text-align:left">0001DSS01180626</td>
-												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
-												<td nowrap="nowrap" style="text-align:left">HUB SWITCH 8 PORT MANAGEABLE CLOUD</td>
+												<td nowrap="nowrap" style="text-align:left">001201010726</td>
+												<td nowrap="nowrap" style="text-align:left">0012010107260001</td>
+												<td nowrap="nowrap" style="text-align:left">Jaringan</td>
+												<td nowrap="nowrap" style="text-align:left">Hub Switch Gigabit Manage</td>
+												<td nowrap="nowrap" style="text-align:left">Ruijie Reyee RG-ES208GC</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">Unit</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
@@ -408,8 +412,10 @@ function goBack() {
 										  </tr>
 										  <tr>
 												<td style="text-align:right">2</td>
-												<td nowrap="nowrap" style="text-align:left">0002DSS01180626</td>
-												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
+												<td nowrap="nowrap" style="text-align:left">000201010726</td>
+												<td nowrap="nowrap" style="text-align:left">0002010107260001</td>
+												<td nowrap="nowrap" style="text-align:left">Reader</td>
+												<td nowrap="nowrap" style="text-align:left">Payment Reader</td>
 												<td nowrap="nowrap" style="text-align:left">NFC PAYMENT READER</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">Unit</td>
@@ -433,9 +439,11 @@ function goBack() {
 										  </tr>
 <tr>
 												<td style="text-align:right">3</td>
-												<td nowrap="nowrap" style="text-align:left">0003DSS01180626</td>
-												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
-												<td nowrap="nowrap" style="text-align:left">PRINTER THERMAL</td>
+												<td nowrap="nowrap" style="text-align:left">000401010726</td>
+												<td nowrap="nowrap" style="text-align:left">0004010107260001</td>
+												<td nowrap="nowrap" style="text-align:left">Printer</td>
+												<td nowrap="nowrap" style="text-align:left">Thermal</td>
+												<td nowrap="nowrap" style="text-align:left">TMT82X Lan Port</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">Unit</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
@@ -458,9 +466,11 @@ function goBack() {
 										  </tr>
 <tr>
 												<td style="text-align:right">4</td>
-												<td nowrap="nowrap" style="text-align:left">0001BRG01180626</td>
-												<td nowrap="nowrap" style="text-align:left">Barrier Gate</td>
-												<td nowrap="nowrap" style="text-align:left">VEHICLE LOOP DETECTOR</td>
+												<td nowrap="nowrap" style="text-align:left">002301010726</td>
+												<td nowrap="nowrap" style="text-align:left">0023010107260001</td>
+												<td nowrap="nowrap" style="text-align:left">Sensor</td>
+												<td nowrap="nowrap" style="text-align:left">VLD</td>
+												<td nowrap="nowrap" style="text-align:left">VLD Barrier Gate Matrix</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">Unit</td>
 												<td nowrap="nowrap" style="text-align:center">2</td>
@@ -483,9 +493,11 @@ function goBack() {
 										  </tr>
 <tr>
   <td style="text-align:right">5</td>
-  <td nowrap="nowrap" style="text-align:left">0001SSR01180626</td>
-  <td nowrap="nowrap" style="text-align:left">Sensor dan Lainnya</td>
-  <td nowrap="nowrap" style="text-align:left">UHF READER MID RANGE</td>
+  <td nowrap="nowrap" style="text-align:left">002601010726</td>
+  <td nowrap="nowrap" style="text-align:left">0026010107260001</td>
+  <td nowrap="nowrap" style="text-align:left">Sensor</td>
+  <td nowrap="nowrap" style="text-align:left">Member Mid Range</td>
+  <td nowrap="nowrap" style="text-align:left">Electron HW-VX6330K V2</td>
   <td nowrap="nowrap" style="text-align:center">1</td>
   <td nowrap="nowrap" style="text-align:center">Unit</td>
   <td nowrap="nowrap" style="text-align:center">1</td>
@@ -619,7 +631,9 @@ function goBack() {
 										</div>
 										<div class="kt-portlet__body">
 											<div class="tab-content">
-										<div class="form-group row">	
+											<div class="form-group row">
+											
+					  	
 					  <div class="col-lg-7">
 
 									<!--begin::Portlet-->
@@ -639,67 +653,38 @@ function goBack() {
 													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 <div class="form-group row">
 <div class="col-lg-6">
-														<label class="kt-font-brand">Part Code :</label>
-														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="0001DSS01180626" />
+														<label class="kt-font-brand">Kode SKU :</label>
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="000101010726" />
 													</div>
 													<div class="col-lg-6">
 														<label class="kt-font-brand">QR Code :</label>
-														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="0001DSS01180626" />
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="0001010107260001" />
 													</div>
 													</div>
 													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 													<div class="form-group row">
 													<div class="col-lg-12">
 														<label class="kt-font-brand">Kategori Barang :</label>
-														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Dispenser Single" />
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Casing" />
 													</div>
 													</div>
 													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 													<div class="form-group row">
+													<div class="col-lg-12">
+														<label class="kt-font-brand">Jenis Barang :</label>
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Casing" />
+													</div>
+													</div>
 													
-													<div class="col-lg-3">
-														<label class="kt-font-brand">Gate :</label>
-														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1" />
-													</div>
-													<div class="col-lg-3">
-														<label class="kt-font-brand">Jalur :</label>
-														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Masuk" />
-													</div>
-													<div class="col-lg-6">
-														<label class="kt-font-brand">Nama Jalur :</label>
-														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Mobil - 1" />
-													</div>
-													</div>
 													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 <div class="form-group row">
 													
 													<div class="col-lg-12">
 														<label class="kt-font-brand">Nama Barang :</label>
-														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="HUB SWITCH 8 PORT MANAGEABLE CLOUD" />
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Custom Casing Dispenser Single" />
 													</div>
 												</div>
-												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-												<div class="form-group row">
-													
-													<div class="col-lg-12">
-														<label class="kt-font-brand">Maksud Permintaan :</label>
-														<select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected>Service</option>
-                                      <option value="1">Permintaan Baru</option>
-                                      <option value="2">Penggantian</option>
-                                                                           
-                                  </select>
-													</div>
-
 												
-
-
-
-												
-													
-													
-
-												</div>
 <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 
 													
@@ -714,7 +699,28 @@ function goBack() {
 					  <div class="col-lg-5">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+										
+					  <div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Maksud Permintaan</div><br><br>
+										 <div class="kt-portlet__body">
+                      
+						<div class="form-group row">
+<div class="col-lg-12">
+														<label class="kt-font-brand">&nbsp;</label>
+														<select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected>Service</option>
+                                      <option value="1">Permintaan Baru</option>
+                                                                           
+                                  </select>
+													</div>
+													</div>
+													
+						
+						  
+						
+                      </div>
+                      </div>
+					  <div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Petugas Instalasi</div><br><br>
 										 <div class="kt-portlet__body">
                       
@@ -752,6 +758,41 @@ function goBack() {
 						
 						  
 						
+                      </div>
+                      </div>
+                      </div>
+					  <div class="col-lg-12">
+
+									<!--begin::Portlet-->
+										<div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Gate</div><br><br>
+										 <div class="kt-portlet__body">
+                      
+						<div class="form-group row">
+<div class="col-lg-4">
+														<label class="kt-font-brand">Lokasi :</label>
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Makassar" />
+													</div>
+													<div class="col-lg-2">
+														<label class="kt-font-brand">Gate :</label>
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1" />
+													</div>
+													<div class="col-lg-2">
+														<label class="kt-font-brand">Jalur :</label>
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Masuk" />
+													</div>
+													<div class="col-lg-4">
+														<label class="kt-font-brand">Nama Jalur :</label>
+														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Mobil - 1" />
+													</div>
+													</div>
+													
+													
+												
+						
+						  
+						
+                      </div>
                       </div>
                       </div>
                       </div>

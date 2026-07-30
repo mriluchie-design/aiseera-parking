@@ -340,7 +340,7 @@ function goBack() {
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th colspan="5" bgcolor="#f7fcff">Permintaan Material</th>
+											  <th colspan="6" bgcolor="#f7fcff">Permintaan Material</th>
 											  <th colspan="3" bgcolor="#f7fcff">Lokasi </th>
 											  <th colspan="2" bgcolor="#feffed">Stok Saat ini</th>
 											  <th colspan="2" bgcolor="#feffed">Material Dikirim</th>
@@ -350,6 +350,7 @@ function goBack() {
 											<tr style="text-align:center">
 											  <th width="1%" bgcolor="#f7fcff">QR Code<br>Material</th>
 											  <th width="1%" bgcolor="#f7fcff">Kategori<br />Material</th>
+											  <th width="8%" bgcolor="#f7fcff">Jenis</th>
 											  <th width="8%" bgcolor="#f7fcff">Nama</th>
 											  <th width="1%" bgcolor="#f7fcff">Vol</th>
 											  <th width="1%" bgcolor="#f7fcff">Satuan</th>
@@ -365,9 +366,10 @@ function goBack() {
 										<tbody>
 											<tr>
 												<td style="text-align:right">1</td>
-												<td nowrap="nowrap" style="text-align:left">0001DSS01180626</td>
-												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
-												<td nowrap="nowrap" style="text-align:left">HUB SWITCH 8 PORT MANAGEABLE CLOUD</td>
+												<td nowrap="nowrap" style="text-align:left">0012010107260001</td>
+												<td nowrap="nowrap" style="text-align:left">Jaringan</td>
+												<td nowrap="nowrap" style="text-align:left">Hub Switch Gigabit Manage</td>
+												<td nowrap="nowrap" style="text-align:left">Ruijie Reyee RG-ES208GC</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">Unit</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
@@ -391,8 +393,9 @@ function goBack() {
 										  </tr>
 										  <tr>
 												<td style="text-align:right">2</td>
-												<td nowrap="nowrap" style="text-align:left">0002DSS01180626</td>
-												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
+												<td nowrap="nowrap" style="text-align:left">0002010107260001</td>
+												<td nowrap="nowrap" style="text-align:left">Reader</td>
+												<td nowrap="nowrap" style="text-align:left">Payment Reader</td>
 												<td nowrap="nowrap" style="text-align:left">NFC PAYMENT READER</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">Unit</td>
@@ -416,9 +419,10 @@ function goBack() {
 										  </tr>
 <tr>
 												<td style="text-align:right">3</td>
-												<td nowrap="nowrap" style="text-align:left">0003DSS01180626</td>
-												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
-												<td nowrap="nowrap" style="text-align:left">PRINTER THERMAL</td>
+												<td nowrap="nowrap" style="text-align:left">0004010107260001</td>
+												<td nowrap="nowrap" style="text-align:left">Printer</td>
+												<td nowrap="nowrap" style="text-align:left">Thermal</td>
+												<td nowrap="nowrap" style="text-align:left">TMT82X Lan Port</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">Unit</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
@@ -443,9 +447,10 @@ function goBack() {
 										  </tr>
 <tr>
 												<td style="text-align:right">4</td>
-												<td nowrap="nowrap" style="text-align:left">0001BRG01180626</td>
-												<td nowrap="nowrap" style="text-align:left">Barrier Gate</td>
-												<td nowrap="nowrap" style="text-align:left">VEHICLE LOOP DETECTOR</td>
+												<td nowrap="nowrap" style="text-align:left">0023010107260001</td>
+												<td nowrap="nowrap" style="text-align:left">Sensor</td>
+												<td nowrap="nowrap" style="text-align:left">VLD</td>
+												<td nowrap="nowrap" style="text-align:left">VLD Barrier Gate Matrix</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">Unit</td>
 												<td nowrap="nowrap" style="text-align:center">2</td>
@@ -468,9 +473,10 @@ function goBack() {
 										  </tr>
 <tr>
   <td style="text-align:right">5</td>
-  <td nowrap="nowrap" style="text-align:left">0001SSR01180626</td>
-  <td nowrap="nowrap" style="text-align:left">Sensor dan Lainnya</td>
-  <td nowrap="nowrap" style="text-align:left">UHF READER MID RANGE</td>
+  <td nowrap="nowrap" style="text-align:left">0026010107260001</td>
+  <td nowrap="nowrap" style="text-align:left">Sensor</td>
+  <td nowrap="nowrap" style="text-align:left">Member Mid Range</td>
+  <td nowrap="nowrap" style="text-align:left">Electron HW-VX6330K V2</td>
   <td nowrap="nowrap" style="text-align:center">1</td>
   <td nowrap="nowrap" style="text-align:center">Unit</td>
   <td nowrap="nowrap" style="text-align:center">1</td>
