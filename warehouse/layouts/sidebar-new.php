@@ -61,18 +61,38 @@
 									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
 										<ul class="kt-menu__subnav">
 											
-											
-											<li class="kt-menu__item" aria-haspopup="true"><a href="permintaan-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Permintaan Material</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="penerimaan-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Material Masuk</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="pengeluaran-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Material Keluar</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="purchase-order.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Purchase Order</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="retur-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Retur Material</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="transfer-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Transfer Material</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="penerimaan-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Barang Masuk</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="pengeluaran-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Barang Keluar</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="pengeluaran-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Uang Muka Pembelian</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="pengeluaran-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pembayaran Pembelian</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="retur-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Retur Pembelian</span></a></li>
 											
 											
 										</ul>
 									</div>
-								</li>	
+								</li>
+<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><span class="kt-menu__link-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
+    <g id="Stockholm-icons-/-Home-/-Сupboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="bound" x="0" y="0" width="24" height="24"></rect>
+        <path d="M3.5,3 L9.5,3 C10.3284271,3 11,3.67157288 11,4.5 L11,18.5 C11,19.3284271 10.3284271,20 9.5,20 L3.5,20 C2.67157288,20 2,19.3284271 2,18.5 L2,4.5 C2,3.67157288 2.67157288,3 3.5,3 Z M9,9 C8.44771525,9 8,9.44771525 8,10 L8,12 C8,12.5522847 8.44771525,13 9,13 C9.55228475,13 10,12.5522847 10,12 L10,10 C10,9.44771525 9.55228475,9 9,9 Z" id="Combined-Shape" fill="#000000" opacity="0.3"></path>
+        <path d="M14.5,3 L20.5,3 C21.3284271,3 22,3.67157288 22,4.5 L22,18.5 C22,19.3284271 21.3284271,20 20.5,20 L14.5,20 C13.6715729,20 13,19.3284271 13,18.5 L13,4.5 C13,3.67157288 13.6715729,3 14.5,3 Z M20,9 C19.4477153,9 19,9.44771525 19,10 L19,12 C19,12.5522847 19.4477153,13 20,13 C20.5522847,13 21,12.5522847 21,12 L21,10 C21,9.44771525 20.5522847,9 20,9 Z" id="Combined-Shape-Copy" fill="#000000" transform="translate(17.500000, 11.500000) scale(-1, 1) translate(-17.500000, -11.500000) "></path>
+    </g>
+</svg></span><span class="kt-menu__link-text">Gudang Persediaan</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
+									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
+										<ul class="kt-menu__subnav">
+											
+											
+											<li class="kt-menu__item" aria-haspopup="true"><a href="permintaan-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Permintaan Barang</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="pemindahan-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pemindahan Barang</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="barang-stok-minim.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Barang Stok Minimum</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="perintah-stok-opname.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Perintah Stok Opname</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="hasil-stok-opname.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Hasil Stok Opname</span></a></li>
+											
+											
+										</ul>
+									</div>
+								</li>								
 <li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><span class="kt-menu__link-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" class="kt-svg-icon">
     <g id="Stockholm-icons-/-Shopping-/-Box#3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <rect id="bound" x="0" y="0" width="24" height="24"></rect>
@@ -126,6 +146,18 @@
 											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-kategori-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Kategori Barang</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-jenis-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Jenis Barang</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="master-data-satuan-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Satuan Barang</span></a></li>
+
+																</ul>
+															</div>
+														</li>
+											<li class="kt-menu__item  kt-menu__item--submenu" aria-haspopup="true" data-ktmenu-submenu-toggle="hover"><a href="javascript:;" class="kt-menu__link kt-menu__toggle"><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Vendor</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
+															<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
+																<ul class="kt-menu__subnav">
+																	<li class="kt-menu__item " aria-haspopup="true"><a href="vendor.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Data Vendor</span></a></li>
+																	<li class="kt-menu__item " aria-haspopup="true"><a href="tagihan-vendor.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Tagihan Vendor</span></a></li>
+																	<li class="kt-menu__item " aria-haspopup="true"><a href="pengembalian-vendor.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pengembalian</span></a></li>
+																	<li class="kt-menu__item " aria-haspopup="true"><a href="pembayaran-vendor.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pembayaran</span></a></li>
+																	<li class="kt-menu__item " aria-haspopup="true"><a href="pengeluaran-vendor.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pengeluaran</span></a></li>
 
 																</ul>
 															</div>

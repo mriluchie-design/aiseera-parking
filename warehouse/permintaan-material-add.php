@@ -363,22 +363,21 @@ function goBack() {
 											  <th colspan="7" bgcolor="#f7fcff">Permintaan Barang</th>
 											  <th colspan="3" bgcolor="#f7fcff">Lokasi </th>
 											  <th colspan="2" bgcolor="#f7fcff">Instalasi </th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Maksud Permintaan</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 											<tr style="text-align:center">
 											  <th width="1%" bgcolor="#f7fcff">Kode SKU</th>
-											  <th width="1%" bgcolor="#f7fcff">QR Code<br>Barang</th>
+											  <th width="1%" bgcolor="#f7fcff">QR Code Barang</th>
 											  <th width="1%" bgcolor="#f7fcff">Kategori</th>
-											  <th width="10%" bgcolor="#f7fcff">Jenis</th>
-											  <th width="14%" bgcolor="#f7fcff">Nama</th>
+											  <th width="8%" bgcolor="#f7fcff">Jenis</th>
+											  <th width="17%" bgcolor="#f7fcff">Nama</th>
 											  <th width="1%" bgcolor="#f7fcff">Vol</th>
 											  <th width="1%" bgcolor="#f7fcff">Satuan</th>
 											  <th width="1%" bgcolor="#f7fcff">Gate</th>
 											  <th width="1%" bgcolor="#f7fcff">Jalur</th>
-											  <th width="1%" bgcolor="#f7fcff">Nama Jalur</th>
+											  <th width="3%" bgcolor="#f7fcff">Nama Jalur</th>
 											  <th width="1%" bgcolor="#f7fcff">Waktu</th>
-											  <th width="2%" bgcolor="#f7fcff">By</th>
+											  <th width="3%" bgcolor="#f7fcff">By</th>
 										  </tr>
 										</thead>
 										<tbody>
@@ -397,8 +396,7 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 												  06:50:00 WITA</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">Service</td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_15.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -425,8 +423,7 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 												  06:50:00 WITA</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">Service</td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000002&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -452,8 +449,7 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 												  06:50:00 WITA</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">Service</td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000003&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -479,8 +475,7 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 												  06:50:00 WITA</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">Service</td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000004&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -506,8 +501,7 @@ function goBack() {
   <td nowrap="nowrap" style="text-align:center">24 September 2026
     <hr />
     06:50:00 WITA</td>
-  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-  <td nowrap="nowrap" style="text-align:center">Service</td>
+  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000005&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -648,6 +642,7 @@ function goBack() {
       <input type="text" class="form-control form-control-sm" placeholder="Scan Perangkat" id="generalSearch">
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div>
 													</div>
+													
 													</div>
 													
 													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
@@ -662,7 +657,7 @@ function goBack() {
 													</div>
 													</div>
 													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-													<div class="form-group row">
+<div class="form-group row">
 													<div class="col-lg-12">
 														<label class="kt-font-brand">Kategori Barang :</label>
 														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Casing" />
@@ -670,22 +665,22 @@ function goBack() {
 													</div>
 													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 													<div class="form-group row">
+													
 													<div class="col-lg-12">
 														<label class="kt-font-brand">Jenis Barang :</label>
 														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Casing" />
 													</div>
 													</div>
-													
 													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-<div class="form-group row">
-													
+													<div class="form-group row">
 													<div class="col-lg-12">
 														<label class="kt-font-brand">Nama Barang :</label>
 														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Custom Casing Dispenser Single" />
 													</div>
-												</div>
-												
-<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+													</div>
+													
+													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+
 
 													
 													
@@ -699,28 +694,7 @@ function goBack() {
 					  <div class="col-lg-5">
 
 									<!--begin::Portlet-->
-										
-					  <div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Maksud Permintaan</div><br><br>
-										 <div class="kt-portlet__body">
-                      
-						<div class="form-group row">
-<div class="col-lg-12">
-														<label class="kt-font-brand">&nbsp;</label>
-														<select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected>Service</option>
-                                      <option value="1">Permintaan Baru</option>
-                                                                           
-                                  </select>
-													</div>
-													</div>
-													
-						
-						  
-						
-                      </div>
-                      </div>
-					  <div class="kt-portlet kt-portlet--height-fluid-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Petugas Instalasi</div><br><br>
 										 <div class="kt-portlet__body">
                       
@@ -731,36 +705,36 @@ function goBack() {
 													</div>
 													</div>
 													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-<div class="form-group row">
+													<div class="form-group row">
 													<div class="col-lg-12">
 														<label class="kt-font-brand">Waktu Instalasi :</label>
 														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="06:50:00 WITA" />
 													</div>
 													</div>
 													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-<div class="form-group row">
-													
+													<div class="form-group row">
 													<div class="col-lg-12">
 														<label class="kt-font-brand">NIP :</label>
 														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="00000000000" />
 													</div>
-												</div>
-												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-												<div class="form-group row">
-													
+													</div>
+													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+													<div class="form-group row">
 													<div class="col-lg-12">
 														<label class="kt-font-brand">Nama :</label>
 														<input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Muhammad Nasrullah, S.Kom" />
 													</div>
-												</div>
-												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						 
+													</div>
+													
+													
+												
 						
 						  
 						
                       </div>
                       </div>
                       </div>
+					  
 					  <div class="col-lg-12">
 
 									<!--begin::Portlet-->
@@ -795,6 +769,7 @@ function goBack() {
                       </div>
                       </div>
                       </div>
+					  
                       </div>
 												
 

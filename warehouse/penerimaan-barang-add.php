@@ -158,7 +158,7 @@ function goBack() {
 						<div class="col-lg-2">
                           <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Terima Dari :</label>
                          <select class="form-control kt-selectpicker" data-live-search="true">
-														<option>Pegawai</option>
+														<option>Gudang</option>
 														<option>Vendor</option>
 														<option>Lainnya</option>
 														
@@ -168,7 +168,7 @@ function goBack() {
 						<div class="col-lg-2">
                           <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Pegawai / Vendor / Lainnya :</label>
                            <select class="form-control kt-selectpicker" data-live-search="true">
-														<option>Pegawai</option>
+														<option>Gudang</option>
 														<option>Vendor</option>
 														<option>Lainnya</option>
 														
@@ -229,7 +229,7 @@ function goBack() {
 										
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th colspan="4" bgcolor="#f7fcff">Barang</th>
+											  <th colspan="5" bgcolor="#f7fcff">Barang</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Volume</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Satuan</th>
 											  <th colspan="2" bgcolor="#f7fcff">Penyimpanan</th>
@@ -238,9 +238,11 @@ function goBack() {
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 											<tr style="text-align:center">
-											  <th width="1%" bgcolor="#f7fcff">Kode Barang</th>
+											  <th width="1%" bgcolor="#f7fcff">Kode SKU</th>
+											  <th width="1%" bgcolor="#f7fcff">Kategori<br />
+											    Material</th>
+											  <th width="8%" bgcolor="#f7fcff">Jenis</th>
 											  <th width="8%" bgcolor="#f7fcff">Nama</th>
-											  <th width="5%" bgcolor="#f7fcff">Kategori</th>
 											  <th width="3%" bgcolor="#f7fcff">Tanggal Pembelian</th>
 											  <th width="1%" bgcolor="#f7fcff">Lemari</th>
 											  <th width="1%" bgcolor="#f7fcff">Rak</th>
@@ -249,10 +251,11 @@ function goBack() {
 										<tbody>
 										
 											<tr>
-												<td id="kt_table_1">1</td>
-												<td nowrap="nowrap" style="text-align:center">0001NET01180726</td>
-												<td nowrap="nowrap" style="text-align:left">HUB SWITCH 8 PORT MANAGEABLE CLOUD</td>
-												<td nowrap="nowrap" style="text-align:left">Kebutuhan Project</td>
+											  <td id="kt_table_1">1</td>
+												<td nowrap="nowrap" style="text-align:center">000101010726</td>
+												<td nowrap="nowrap" style="text-align:left">Jaringan</td>
+												<td nowrap="nowrap" style="text-align:left">Hub Switch Gigabit Manage</td>
+												<td nowrap="nowrap" style="text-align:left">Ruijie Reyee RG-ES208GC</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">Unit</td>
@@ -261,16 +264,16 @@ function goBack() {
 														<option>2</option>
 														
 														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-														</select></td>
+												</select></td>
 												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
 														<option>1</option>
 														<option>2</option>
 														
 														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-														</select></td>
+												</select></td>
 												<td nowrap="nowrap" style="text-align:center"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
 															    <input type="checkbox" checked="checked">
-															    <span></span> </label></td>
+											      <span></span> </label></td>
 												<td style="text-align:center"><div class="custom-file">
 													<input type="file" class="custom-file-input" id="customFile">
 													<label class="custom-file-label" for="customFile"></label>
@@ -288,9 +291,10 @@ function goBack() {
 										  </tr>
 										  <tr>
 												<td id="kt_table_1">2</td>
-												<td nowrap="nowrap" style="text-align:center">0001NPR01180726</td>
+												<td nowrap="nowrap" style="text-align:center">000201010726</td>
+												<td nowrap="nowrap" style="text-align:left">Reader</td>
+												<td nowrap="nowrap" style="text-align:left">Payment Reader</td>
 												<td nowrap="nowrap" style="text-align:left">NFC PAYMENT READER</td>
-												<td nowrap="nowrap" style="text-align:left">Kebutuhan Project</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">Unit</td>
@@ -298,15 +302,15 @@ function goBack() {
 												  <option>1</option>
 												  <option>2</option>
 												  <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
-												  </select></td>
+											    </select></td>
 												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
 												  <option>1</option>
 												  <option>2</option>
 												  <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
-												  </select></td>
+											    </select></td>
 												<td nowrap="nowrap" style="text-align:center"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
 															    <input type="checkbox" checked="checked">
-															    <span></span> </label></td>
+											    <span></span> </label></td>
 												<td style="text-align:center"><div class="custom-file">
 													<input type="file" class="custom-file-input" id="customFile">
 													<label class="custom-file-label" for="customFile"></label>
@@ -319,29 +323,30 @@ function goBack() {
 												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
 											        </ul>
 											      </div>
-												  </div></td>
+											    </div></td>
 										  </tr>
 <tr>
 												<td id="kt_table_1">3</td>
-												<td nowrap="nowrap" style="text-align:center">0001PTH01180726</td>
-												<td nowrap="nowrap" style="text-align:left">PRINTER THERMAL</td>
-												<td nowrap="nowrap" style="text-align:left">Kebutuhan Project</td>
-												<td nowrap="nowrap" style="text-align:center">24 September 2026</td>
+												<td nowrap="nowrap" style="text-align:center">000301010726</td>
+												<td nowrap="nowrap" style="text-align:left">Printer</td>
+												<td nowrap="nowrap" style="text-align:left">Thermal</td>
+												<td nowrap="nowrap" style="text-align:left">TMT82X Lan Port</td>
+	  <td nowrap="nowrap" style="text-align:center">24 September 2026</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">Unit</td>
 												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
 												  <option>1</option>
 												  <option>2</option>
 												  <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
-												  </select></td>
+											    </select></td>
 												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
 												  <option>1</option>
 												  <option>2</option>
 												  <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
-												  </select></td>
+											    </select></td>
 												<td nowrap="nowrap" style="text-align:center"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
 												  <input type="checkbox" checked="checked" />
-												  <span></span></label></td>
+											    <span></span></label></td>
 												<td style="text-align:center"><div class="custom-file">
 													<input type="file" class="custom-file-input" id="customFile">
 													<label class="custom-file-label" for="customFile"></label>
@@ -354,29 +359,30 @@ function goBack() {
 												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
 											        </ul>
 											      </div>
-												  </div></td>
+											    </div></td>
 										  </tr>
 <tr>
 												<td id="kt_table_1">4</td>
-												<td nowrap="nowrap" style="text-align:center">0001KOM01180726</td>
-												<td nowrap="nowrap" style="text-align:left">VEHICLE LOOP DETECTOR</td>
-												<td nowrap="nowrap" style="text-align:left">Kebutuhan Project</td>
-												<td nowrap="nowrap" style="text-align:center">24 September 2026</td>
+												<td nowrap="nowrap" style="text-align:center">000401010726</td>
+												<td nowrap="nowrap" style="text-align:left">Sensor</td>
+												<td nowrap="nowrap" style="text-align:left">VLD</td>
+												<td nowrap="nowrap" style="text-align:left">VLD Barrier Gate Matrix</td>
+	  <td nowrap="nowrap" style="text-align:center">24 September 2026</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">Unit</td>
 												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
 												  <option>1</option>
 												  <option>2</option>
 												  <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
-												  </select></td>
+											    </select></td>
 												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
 												  <option>1</option>
 												  <option>2</option>
 												  <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
-												  </select></td>
+											    </select></td>
 												<td nowrap="nowrap" style="text-align:center"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
 												  <input type="checkbox" checked="checked" />
-												  <span></span></label></td>
+											    <span></span></label></td>
 												<td style="text-align:center"><div class="custom-file">
 													<input type="file" class="custom-file-input" id="customFile">
 													<label class="custom-file-label" for="customFile"></label>
@@ -389,14 +395,15 @@ function goBack() {
 												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
 											        </ul>
 											      </div>
-												  </div></td>
+											    </div></td>
 										  </tr>
 <tr>
   <td id="kt_table_4">5</td>
-  <td nowrap="nowrap" style="text-align:center">0001URM01180726</span></td>
-  <td nowrap="nowrap" style="text-align:left">UHF READER MID RANGE</td>
-  <td nowrap="nowrap" style="text-align:left">Kebutuhan Project</td>
-												<td nowrap="nowrap" style="text-align:center">24 September 2026</td>
+  <td nowrap="nowrap" style="text-align:center">000501010726</span></td>
+  <td nowrap="nowrap" style="text-align:left">Sensor</td>
+  <td nowrap="nowrap" style="text-align:left">Member Mid Range</td>
+  <td nowrap="nowrap" style="text-align:left">Electron HW-VX6330K V2</td>
+  <td nowrap="nowrap" style="text-align:center">24 September 2026</td>
   <td nowrap="nowrap" style="text-align:center">1</td>
   <td nowrap="nowrap" style="text-align:center">Unit</td>
   <td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
@@ -411,11 +418,11 @@ function goBack() {
   </select></td>
   <td nowrap="nowrap" style="text-align:center"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
 															    <input type="checkbox" checked="checked">
-															    <span></span> </label></td>
+      <span></span> </label></td>
   <td style="text-align:center"><div class="custom-file">
 													<input type="file" class="custom-file-input" id="customFile">
 													<label class="custom-file-label" for="customFile"></label>
-												</div></td>
+	  </div></td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -850,11 +857,7 @@ function goBack() {
 
 									<!--end: Datatable -->
 								</div>
-							</div>
-
-            </div>
-            </div>
-            </div>
+							
 									
 
 <?php require '../layouts/footer.php' ?>

@@ -98,7 +98,7 @@
 					<div class="kt-portlet__body">
                         <div class="form-group row">
 						<div class="col-lg-2">
-                                <label>Lokasi :</label>
+                                <label>Gudang Tujuan :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected="">Makassar</option>
@@ -118,6 +118,70 @@
                                   </select>
     		                    </div>
                             
+								
+								<div class="col-lg-2">
+                                <label class="">Tanggal Permintaan :</label>
+                                <div class="input-group">
+						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="-- Pilih Tanggal --">
+						                        <div class="input-group-append">
+						                          <span class="input-group-text"><i class="la la-calendar"></i></span>
+						                        </div>
+						                      </div>
+                            </div>
+							<div class="col-lg-2">
+                                <label class="">Tanggal Penerimaan :</label>
+                                <div class="input-group">
+						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="-- Pilih Tanggal --">
+						                        <div class="input-group-append">
+						                          <span class="input-group-text"><i class="la la-calendar"></i></span>
+						                        </div>
+						                      </div>
+                            </div>
+							<div class="col-lg-2">
+                                <label class="">Tanggal Deadline :</label>
+                                <div class="input-group">
+						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="-- Pilih Tanggal --">
+						                        <div class="input-group-append">
+						                          <span class="input-group-text"><i class="la la-calendar"></i></span>
+						                        </div>
+						                      </div>
+                            </div>
+							<div class="col-lg-2">
+                                <label>Validasi :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Pending</option>
+                                      <option value="2">Disetujui</option>
+									  <option value="2" selected>Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
+							<div class="col-lg-2">
+                                <label>Status :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Selesai</option>
+                                      <option value="2">Telat</option>
+                                      <option value="2">Proses</option>
+									  <option value="2" selected>Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
+							
+							
+    		                    </div>
+								<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+								<div class="col-lg-2">
+                                <label>Nomor Permintaan :</label>
+								
+                                <div class="kt-input-icon kt-input-icon--right">
+        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
+        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
+    		                            <span><i class="la la-search"></i></span>
+    		                        </span>
+    		                    </div>
+    		                    </div>
 								<div class="col-lg-2">
                                 <label>Pembuat Permintaan :</label>
     	                       <div class="form-group">
@@ -145,24 +209,6 @@
 					 														</select>
 					                       </div>
         					
-                            </div>
-								<div class="col-lg-2">
-                                <label class="">Tanggal Permintaan :</label>
-                                <div class="input-group">
-						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="-- Pilih Tanggal --">
-						                        <div class="input-group-append">
-						                          <span class="input-group-text"><i class="la la-calendar"></i></span>
-						                        </div>
-						                      </div>
-                            </div>
-							<div class="col-lg-2">
-                                <label class="">Tanggal Penerimaan :</label>
-                                <div class="input-group">
-						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="-- Pilih Tanggal --">
-						                        <div class="input-group-append">
-						                          <span class="input-group-text"><i class="la la-calendar"></i></span>
-						                        </div>
-						                      </div>
                             </div>
 							<div class="col-lg-2">
                                 <label>Penerima :</label>
@@ -192,61 +238,7 @@
 					                       </div>
         					
                             </div>
-							<div class="col-lg-1">
-                                <label>Validasi :</label>
 								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1">Pending</option>
-                                      <option value="2">Disetujui</option>
-									  <option value="2" selected>Keseluruhan</option>
-                                                                           
-                                  </select>
-                            </div>
-							<div class="col-lg-1">
-                                <label>Status :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1">Selesai</option>
-                                      <option value="2">Telat</option>
-                                      <option value="2">Proses</option>
-									  <option value="2" selected>Keseluruhan</option>
-                                                                           
-                                  </select>
-                            </div>
-							
-							
-    		                    </div>
-								<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-								<div class="col-lg-2">
-                                <label>Nomor Permintaan :</label>
-								
-                                <div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
-        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
-    		                            <span><i class="la la-search"></i></span>
-    		                        </span>
-    		                    </div>
-    		                    </div>
-								<div class="col-lg-2">
-                                <label>Nomor Referensi :</label>
-								
-                                <div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
-        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
-    		                            <span><i class="la la-search"></i></span>
-    		                        </span>
-    		                    </div>
-    		                    </div>
-								<div class="col-lg-2">
-                                <label class="">Tanggal Deadline :</label>
-                                <div class="input-group">
-						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="-- Pilih Tanggal --">
-						                        <div class="input-group-append">
-						                          <span class="input-group-text"><i class="la la-calendar"></i></span>
-						                        </div>
-						                      </div>
-                            </div>
 								
 								
 								
@@ -398,12 +390,12 @@
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Tujuan</th>
+											  <th width="2%" rowspan="2" bgcolor="#f7fcff">Gudang<br>Tujuan</th>
 											  <th colspan="4" bgcolor="#f7fcff">Permintaan Barang</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Validasi</th>
-											  <th width="4%" rowspan="2" bgcolor="#f7fcff">Progress</th>
 											  <th colspan="2" bgcolor="#f7fcff">Penerima Barang</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Status</th>
+											  <th width="3%" rowspan="2" bgcolor="#f7fcff">Progress</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 											<tr style="text-align:center">
@@ -418,7 +410,7 @@
 										<tbody>
 											<tr>
 												<td style="text-align:right" id="kt_table_1">1</td>
-												<td style="text-align:left" nowrap>Makassar Gate 1</td>
+												<td style="text-align:left" nowrap>Makassar - Gate 1</td>
 												<td nowrap="nowrap" style="text-align:center">PR.062026.01.001</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
@@ -428,13 +420,14 @@
 												  <hr />
 												  23:50:00 WITA</td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
-												<td style="text-align:center" nowrap=""> <div class="progress">
-													<div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div></div></td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 												  06:50:00 WITA</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm">Validasi</span></td>
+												<td nowrap="nowrap" style="text-align:center"><div class="progress">
+												  <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 30%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">30%</div>
+												  </div></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -450,7 +443,7 @@
 										  </tr>
 										  <tr>
 												<td style="text-align:right" id="kt_table_1">2</td>
-												<td style="text-align:left" nowrap>Makassar Gate 2</td>
+												<td style="text-align:left" nowrap>Makassar - Gate 2</td>
 												<td nowrap="nowrap" style="text-align:center">PR.062026.01.002</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
@@ -462,13 +455,14 @@
 												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
 															<i class="fa flaticon2-check-mark"></i>
 														</span></td>
-												<td style="text-align:center" nowrap=""> <div class="progress">
-													<div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div></div></td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 												  06:50:00 WITA</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Gudang</span></td>
+												<td nowrap="nowrap" style="text-align:center"><div class="progress">
+												  <div class="progress-bar progress-bar-striped progress-bar-animated bg-warning" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+												  </div></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -484,7 +478,7 @@
 										  </tr>
 										  <tr>
 												<td style="text-align:right" id="kt_table_1">3</td>
-												<td nowrap="nowrap" style="text-align:left">Makassar Gate 2</td>
+												<td nowrap="nowrap" style="text-align:left">Makassar - Gate 2</td>
 
 												<td nowrap="nowrap" style="text-align:center">PR.062026.01.003</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
@@ -497,13 +491,14 @@
 												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
 															<i class="fa flaticon2-check-mark"></i>
 														</span></td>
-												<td style="text-align:center" nowrap=""> <div class="progress">
-													<div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">100%</div></div></td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 												  06:50:00 WITA</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Selesai</span></td>
+												<td nowrap="nowrap" style="text-align:center"><div class="progress">
+												  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">100%</div>
+												  </div></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -517,7 +512,7 @@
 										  </tr>
 <tr>
 												<td style="text-align:right" id="kt_table_1">4</td>
-												<td nowrap="nowrap" style="text-align:left">Makassar Gate 1</td>
+												<td nowrap="nowrap" style="text-align:left">Makassar - Gate 1</td>
 												<td nowrap="nowrap" style="text-align:center">PR.062026.01.004</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
@@ -529,13 +524,14 @@
 												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
 															<i class="fa flaticon2-check-mark"></i>
 														</span></td>
-												<td style="text-align:center" nowrap=""> <div class="progress">
-													<div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">100%</div></div></td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 												  06:50:00 WITA</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-youtube btn-sm">Telat</span></td>
+												<td nowrap="nowrap" style="text-align:center"><div class="progress">
+												  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">100%</div>
+												  </div></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												  <ul class="kt-nav">
@@ -549,7 +545,7 @@
 										  </tr>
 <tr>
 												<td style="text-align:right" id="kt_table_1">5</td>
-												<td style="text-align:left" nowrap>Makassar Gate 2</td>
+												<td style="text-align:left" nowrap>Makassar - Gate 2</td>
 												<td nowrap="nowrap" style="text-align:center">PR.062026.01.005</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
@@ -561,14 +557,14 @@
 												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
 															<i class="fa flaticon2-check-mark"></i>
 														</span></td>
-												<td nowrap="nowrap" style="text-align:center"><div class="progress">
-												  <div class="progress-bar progress-bar-striped progress-bar-animated bg-brand" role="progressbar" style="width: 80%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">80%</div>
-												  </div></td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 												  06:50:00 WITA</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">Pengiriman</span></td>
+												<td nowrap="nowrap" style="text-align:center"><div class="progress">
+												  <div class="progress-bar progress-bar-striped progress-bar-animated bg-brand" role="progressbar" style="width: 80%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">80%</div>
+												  </div></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -582,7 +578,7 @@
 										  </tr>
 <tr>
   <td style="text-align:right" id="kt_table_1">6</td>
-  <td style="text-align:left" nowrap="nowrap">Makassar Gate 1</td>
+  <td style="text-align:left" nowrap="nowrap">Makassar - Gate 1</td>
   <td nowrap="nowrap" style="text-align:center">PR.062026.01.006</td>
   <td nowrap="nowrap" style="text-align:center">24 September 2026
     <hr />
@@ -594,13 +590,14 @@
   <td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
 															<i class="fa flaticon2-check-mark"></i>
 														</span></td>
-  <td style="text-align:center" nowrap=""> <div class="progress">
-													<div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">100%</div></div></td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
   <td nowrap="nowrap" style="text-align:center">24 September 2026
     <hr />
     06:50:00 WITA</td>
   <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Selesai</span></td>
+  <td nowrap="nowrap" style="text-align:center"><div class="progress">
+    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100">100%</div>
+  </div></td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
