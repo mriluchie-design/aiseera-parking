@@ -174,7 +174,7 @@ function goBack() {
 					  
 						
 					  
-						<div class="col-lg-4">
+						<div class="col-lg-3">
                            <label class="">Cabang :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Ambon - Slamet Riyadi">
                         </div>
@@ -182,8 +182,8 @@ function goBack() {
                            <label class="">Nomor PO :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="PO.062026.01.001">
                         </div>
-						<div class="col-lg-5">
-                           <label class="">Vendor :</label>
+						<div class="col-lg-6">
+                           <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Vendor :</label>
                           <select class="form-control kt-selectpicker" data-live-search="true">
 														<option>PT. Aksi Kode Indonesia</option>
 														
@@ -195,8 +195,8 @@ function goBack() {
 					  <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
 						
-						<div class="col-lg-4">
-                          <label class="">Tanggal Pembelian :</label>
+						<div class="col-lg-3">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Tanggal Pembelian :</label>
                           <div class="input-group date">
 													<input type="text" class="form-control form-control-sm" readonly="" placeholder="Pilih Tanggal" id="kt_datepicker_2">
 													<div class="input-group-append">
@@ -217,19 +217,42 @@ function goBack() {
 													</div>
 												</div>
                         </div>
+						<div class="col-lg-3">
+                          <label class="">Tanggal Pengiriman :</label>
+                          <div class="input-group date">
+													<input type="text" class="form-control form-control-sm" readonly="" placeholder="Pilih Tanggal" id="kt_datepicker_2">
+													<div class="input-group-append">
+														<span class="input-group-text">
+															<i class="la la-calendar-check-o"></i>
+														</span>
+													</div>
+												</div>
+                        </div>
+						<div class="col-lg-3">
+                          <label class="">Kurir :</label>
+                          <select class="form-control kt-selectpicker" data-live-search="true">
+														<option>JNE</option>
+														<option>TIKI</option>
+														<option>Lion Parcel</option>
+														<option>SiCepat</option>
+														<option>Kargo</option>
+														<option>POS Indonesia</option>
+														</select>
+                        </div>
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
-						<div class="col-lg-4">
+						<div class="col-lg-6">
                            <label class="">Pegawai :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="RO.062026.01.001">
                         </div>
-						<div class="col-lg-8">
+						<div class="col-lg-6">
                            <label class="">Jabatan :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="RO.062026.01.001">
                         </div>
-                        </div>
 						
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						
 						  
 						
@@ -252,34 +275,17 @@ function goBack() {
 						
 						  
 						<div class="col-lg-7">
-                          <label class="">Tanggal Pengiriman :</label>
-                          <div class="input-group date">
-													<input type="text" class="form-control form-control-sm" readonly="" placeholder="Pilih Tanggal" id="kt_datepicker_2">
-													<div class="input-group-append">
-														<span class="input-group-text">
-															<i class="la la-calendar-check-o"></i>
-														</span>
-													</div>
-												</div>
+                          <label class="">Ditujukan Kepada :</label>
+                          <input type="text" class="form-control form-control-sm" placeholder="">
                         </div>
-						<div class="col-lg-5">
-                          <label class="">Kurir :</label>
-                          <select class="form-control kt-selectpicker" data-live-search="true">
-														<option>JNE</option>
-														<option>TIKI</option>
-														<option>Lion Parcel</option>
-														<option>SiCepat</option>
-														<option>Kargo</option>
-														<option>POS Indonesia</option>
-														</select>
-                        </div>
+						
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						 
 						  <div class="form-group row">
 						<div class="col-lg-7">
-                          <label class="">Alamat Pengiriman :</label>
-                          <textarea class="form-control" id="exampleTextarea" rows="6" placeholder=""></textarea>
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Alamat Pengiriman :</label>
+                          <input type="text" class="form-control form-control-sm" placeholder="Jl. Toddopuli Raya Timur">
                         </div>
 						<div class="col-lg-5">
                           <label class="">Peta Lokasi :</label><br>
@@ -287,9 +293,41 @@ function goBack() {
                         </div>
                         </div>
 						
+						<div class="form-group row">
+						<div class="col-lg-12">
+                         
+                          <input type="text" class="form-control form-control-sm" placeholder="Kompleks Villa Surya Mas Blok I/14">
+                        </div>
+						
+						
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-4">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Kab / Kota :</label>
+                           <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Makassar</option>
+                                      
+                                  </select>
+                      </div>
+						<div class="col-lg-3">
+					   <label>Kode Pos :</label>
+                         <input type="text" class="form-control form-control-sm"  placeholder="">
+
+                        </div>
+						<div class="col-lg-5">
+					   <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Phone :</label>
+                         <input type="text" class="form-control form-control-sm"  placeholder="">
+
+                        </div>
+						
+						
+                        </div>
+						
 						  
 						
                       </div>
+					  
                       </div>
                       </div>
 					  <div class="col-lg-2">
@@ -502,16 +540,35 @@ function goBack() {
 									</table>
 									
 													<div class="row">
-														<div class="col-lg-4">
-														</div>
 														
+														
+														<div class="col-lg-2">
+															<div class="kt-portlet p-3" style="border-top:2px solid #5867dd">
+																<label>Sub Total</label>
+																<div class="input-group input-group-sm">
+															    <div class="input-group-prepend"><span class="input-group-text input-group-sm"id="basic-addon2">Rp.</span></div>
+															    <input style="text-align:right; type="text" class="form-control form-control-sm"  disabled placeholder="4.000.000" aria-describedby="basic-addon1">
+															    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon2">,-</span></div>
+															    </div>
+															</div>
+														</div>
+														<div class="col-lg-2">
+															<div class="kt-portlet p-3" style="border-top:2px solid #5867dd">
+																<label>Pajak</label>
+																<div class="input-group input-group-sm">
+															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon2">Rp.</span></div>
+															    <input style="text-align:right; type="text" class="form-control form-control-sm"  disabled placeholder="396.396" aria-describedby="basic-addon1">
+															    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon2">,-</span></div>
+															    </div>
+															</div>
+														</div>
 														<div class="col-lg-2">
 															<div class="kt-portlet p-3" style="border-top:2px solid #5867dd">
 																<label>Biaya Pengiriman</label>
 																<div class="input-group input-group-sm">
-															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" style="border-color:#0e62ae" id="basic-addon2">Rp.</span></div>
-															    <input style="text-align:right; border-color:#0e62ae;" type="text" class="form-control form-control-sm"  placeholder="2.000.000" aria-describedby="basic-addon1">
-															    <div class="input-group-append"><span class="input-group-text input-group-sm" style="border-color:#0e62ae" id="basic-addon2">,-</span></div>
+															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon2">Rp.</span></div>
+															    <input style="text-align:right; " type="text" class="form-control form-control-sm"  placeholder="800.000" aria-describedby="basic-addon1">
+															    <div class="input-group-append"><span class="input-group-text input-group-sm"  id="basic-addon2">,-</span></div>
 															    </div>
 															</div>
 														</div>
@@ -520,7 +577,7 @@ function goBack() {
 																<label><strong>Grand Total</strong></label>
 																<div class="input-group input-group-sm">
 															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon2">Rp.</span></div>
-															    <input style="text-align:right; type="text" class="form-control form-control-sm" disabled placeholder="6.000.000" aria-describedby="basic-addon1">
+															    <input style="text-align:right; background-color:#ebffcf;" type="text" class="form-control form-control-sm" disabled placeholder="5.196.396" aria-describedby="basic-addon1">
 															    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon2">,-</span></div>
 															    </div>
 															</div>
@@ -529,9 +586,9 @@ function goBack() {
 															<div class="kt-portlet p-3" style="border-top:2px solid #ed1c24">
 																<label>Uang Muka </label>
 																<div class="input-group input-group-sm">
-															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" style="border-color:#0e62ae" id="basic-addon2">Rp.</span></div>
-															    <input style="text-align:right; border-color:#0e62ae;" type="text" class="form-control form-control-sm"  placeholder="2.000.000" aria-describedby="basic-addon1">
-															    <div class="input-group-append"><span class="input-group-text input-group-sm" style="border-color:#0e62ae" id="basic-addon2">,-</span></div>
+															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon2">Rp.</span></div>
+															    <input style="text-align:right; " type="text" class="form-control form-control-sm"  placeholder="2.000.000" aria-describedby="basic-addon1">
+															    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon2">,-</span></div>
 															    </div>
 															</div>
 														</div>
@@ -539,8 +596,8 @@ function goBack() {
 															<div class="kt-portlet p-3" style="border-top:2px solid #0abb87">
 																<label><strong>Sisa Pembayaran</strong></label>
 																<div class="input-group input-group-sm">
-															    <div class="input-group-prepend"><span class="input-group-text input-group-sm"  id="basic-addon2">Rp.</span></div>
-															    <input style="text-align:right; type="text" class="form-control form-control-sm" disabled placeholder="4.000.000" aria-describedby="basic-addon1">
+															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon2">Rp.</span></div>
+															    <input style="text-align:right; background-color:#ebffcf;" type="text" class="form-control form-control-sm" disabled placeholder="3.196.396" aria-describedby="basic-addon1">
 															    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon2">,-</span></div>
 															    </div>
 															</div>
