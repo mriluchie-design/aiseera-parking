@@ -25,7 +25,7 @@
 			
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Detail
+                    Form 
                 </h3>
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
@@ -62,7 +62,31 @@ function goBack() {
 				
 				
 			</div>
-			
+			<div class="btn-group">
+				<button type="button" class="btn btn-success">
+					<i class="fa fa-check-circle"></i>
+					<span class="kt-hidden-mobile">Simpan</span>
+				</button>
+				<button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				</button>
+				<div class="dropdown-menu dropdown-menu-right">
+					<ul class="kt-nav">
+						<li class="kt-nav__item">
+							<a href="#" class="kt-nav__link">
+								<i class="kt-nav__link-icon fa fa-clock"></i>
+								<span class="kt-nav__link-text">Sementara</span>
+							</a>
+						</li>
+						<li class="kt-nav__item">
+							<a href="#" class="kt-nav__link">
+								<i class="kt-nav__link-icon fa fa-check-circle"></i>
+								<span class="kt-nav__link-text">Selesai</span>
+							</a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
 			
 				 
                
@@ -93,6 +117,9 @@ function goBack() {
 				
 					  
 					  <div class="form-group row">
+				
+					  
+					  
 					  <div class="col-xl-12">
 
 									<!--begin::Portlet-->
@@ -106,7 +133,7 @@ function goBack() {
 											<ul class="nav nav-pills nav-fill" role="tablist">
 												<li class="nav-item m-tabs__item">
 													<a class="nav-link m-tabs__link active" data-toggle="tab" href="#m_tabs_6_1" role="tab">
-														<i class="fa fa-file-alt"></i> Data Pesanan Pembelian
+														<i class="fa fa-file-alt"></i>Data Pesanan Pembelian
 													</a>
 												</li>
 												<li class="nav-item m-tabs__item">
@@ -283,7 +310,7 @@ function goBack() {
 											  <th colspan="6" bgcolor="#f7fcff">Pembelian Barang / Jasa</th>
 											  <th width="1%" rowspan="2" bgcolor="#feffed">QC</th>
 											  <th colspan="2" bgcolor="#feffed">Penyimpanan</th>
-											  <th width="1%" rowspan="2" bgcolor="#feffed">Foto Barang</th>
+											  <th width="10%" rowspan="2" bgcolor="#feffed">Foto Barang</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 											<tr style="text-align:center">
@@ -306,10 +333,23 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:left">Ruijie Reyee RG-ES208GC</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">Unit</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="30 September 2026<hr>11:41:00 WITA<hr>000000000001&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">1</td>
-												<td nowrap="nowrap" style="text-align:center">1</td>
-												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
+												<td nowrap="nowrap" style="text-align:center"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
+												  <input type="checkbox" checked="checked" />
+												  <span></span></label></td>
+												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
+												  <option>1</option>
+												  <option>2</option>
+												  <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
+												  </select></td>
+												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
+												  <option>1</option>
+												  <option>2</option>
+												  <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
+												  </select></td>
+												<td style="text-align:center"><div class="custom-file">
+												  <input type="file" class="custom-file-input" id="customFile" />
+												  <label class="custom-file-label" for="customFile"></label>
+												  </div></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -328,10 +368,23 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:left">NFC PAYMENT READER</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">Unit</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="30 September 2026<hr>11:41:00 WITA<hr>000000000001&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">1</td>
-												<td nowrap="nowrap" style="text-align:center">1</td>
-												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
+												<td nowrap="nowrap" style="text-align:center"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
+												  <input type="checkbox" checked="checked" />
+												  <span></span></label></td>
+												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
+												  <option>1</option>
+												  <option>2</option>
+												  <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
+												  </select></td>
+												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
+												  <option>1</option>
+												  <option>2</option>
+												  <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
+												  </select></td>
+												<td style="text-align:center"><div class="custom-file">
+												  <input type="file" class="custom-file-input" id="customFile" />
+												  <label class="custom-file-label" for="customFile"></label>
+												  </div></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -351,10 +404,23 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:left">TMT82X Lan Port</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">Unit</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="30 September 2026<hr>11:41:00 WITA<hr>000000000001&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">1</td>
-												<td nowrap="nowrap" style="text-align:center">1</td>
-												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
+												<td nowrap="nowrap" style="text-align:center"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
+												  <input type="checkbox" checked="checked" />
+												  <span></span></label></td>
+												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
+												  <option>1</option>
+												  <option>2</option>
+												  <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
+												  </select></td>
+												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
+												  <option>1</option>
+												  <option>2</option>
+												  <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
+												  </select></td>
+												<td style="text-align:center"><div class="custom-file">
+												  <input type="file" class="custom-file-input" id="customFile" />
+												  <label class="custom-file-label" for="customFile"></label>
+												  </div></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -372,10 +438,23 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:left">VLD Barrier Gate Matrix</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">Unit</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="30 September 2026<hr>11:41:00 WITA<hr>000000000001&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">1</td>
-												<td nowrap="nowrap" style="text-align:center">1</td>
-												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
+												<td nowrap="nowrap" style="text-align:center"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
+												  <input type="checkbox" checked="checked" />
+												  <span></span></label></td>
+												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
+												  <option>1</option>
+												  <option>2</option>
+												  <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
+												  </select></td>
+												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
+												  <option>1</option>
+												  <option>2</option>
+												  <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
+												  </select></td>
+												<td style="text-align:center"><div class="custom-file">
+												  <input type="file" class="custom-file-input" id="customFile" />
+												  <label class="custom-file-label" for="customFile"></label>
+												  </div></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												   <ul class="kt-nav">
@@ -393,10 +472,23 @@ function goBack() {
   <td nowrap="nowrap" style="text-align:left">Electron HW-VX6330K V2</td>
   <td nowrap="nowrap" style="text-align:center">1</td>
   <td nowrap="nowrap" style="text-align:center">Unit</td>
-  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="30 September 2026<hr>11:41:00 WITA<hr>000000000001&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-  <td nowrap="nowrap" style="text-align:center">1</td>
-  <td nowrap="nowrap" style="text-align:center">1</td>
-  <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
+  <td nowrap="nowrap" style="text-align:center"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
+    <input type="checkbox" checked="checked" />
+    <span></span></label></td>
+  <td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
+    <option>1</option>
+    <option>2</option>
+    <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
+  </select></td>
+  <td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
+    <option>1</option>
+    <option>2</option>
+    <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
+  </select></td>
+  <td style="text-align:center"><div class="custom-file">
+    <input type="file" class="custom-file-input" id="customFile" />
+    <label class="custom-file-label" for="customFile"></label>
+  </div></td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -486,10 +578,6 @@ function goBack() {
 
 
 										</div>
-				
-					  
-					  
-					  
 					  
 					 
 									
@@ -836,7 +924,8 @@ function goBack() {
   </div>
 
 									<!--end: Datatable -->
-								
+								</div>
+							
 									
 
 <?php require '../layouts/footer.php' ?>

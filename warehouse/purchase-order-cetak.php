@@ -89,7 +89,7 @@ function goBack() {
 </table>
 <table class="table-checkable" cellpadding="3" align="center" width="800" style="line-height:1.5; margin-left:60; margin-top: 50px; margin-bottom:30px; font-family: Tahoma; font-size: 12px;">
    <tr>
-     <td colspan="3" bgcolor="#0e62ae" style="text-align: center; color:#fff; border-bottom:1px solid #ccc;"><strong>DETAIL PO</strong></td>
+     <td colspan="3" bgcolor="#0e62ae" style="text-align: center; color:#fff; border-bottom:1px solid #ccc;"><strong>DETAIL</strong></td>
      <td width="3%" rowspan="6" >&nbsp;</td>
      <td colspan="3" bgcolor="#0e62ae" style="text-align: center; color:#fff; border-bottom:1px solid #ccc;"><strong>PENGIRIMAN</strong></td>
    </tr>
@@ -128,7 +128,7 @@ function goBack() {
   <tr>
     <td style="border-bottom:1px solid #ccc;"><b>Vendor</b></td>
     <td style="text-align: center;border-bottom:1px solid #ccc;">:</td>
-    <td style="border-bottom:1px solid #ccc;">PT. Aksi Kode Indonesia</td>
+    <td style="border-bottom:1px solid #ccc;">PT. Dili Jaya Indonesia</td>
     <td width="7%" style="border-bottom:1px solid #ccc;"><b>Phone</b></td>
    <td width="1%" style="text-align: center; border-bottom:1px solid #ccc;">:</td>
     <td width="20%" style="border-bottom:1px solid #ccc;">082244444436</td>

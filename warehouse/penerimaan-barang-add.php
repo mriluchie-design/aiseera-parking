@@ -138,7 +138,7 @@ function goBack() {
 												</li>
 												<li class="nav-item m-tabs__item">
 													<a class="nav-link m-tabs__link" data-toggle="tab" href="#m_tabs_6_2" role="tab">
-														<i class="fa fa-boxes"></i> Material
+														<i class="fa fa-boxes"></i> Data Barang
 													</a>
 												</li>
 												<!--<li class="nav-item m-tabs__item">
