@@ -25,7 +25,7 @@
 			
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Form 
+                    Detail 
                 </h3>
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
@@ -180,14 +180,12 @@ function goBack() {
                         </div>
 						<div class="col-lg-3">
                            <label class="">Nomor PO :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="PO.062026.01.001">
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="RO.062026.01.001">
                         </div>
 						<div class="col-lg-5">
                            <label class="">Vendor :</label>
-                          <select class="form-control kt-selectpicker" data-live-search="true">
-														<option>PT. Aksi Kode Indonesia</option>
-														
-														</select>
+						   <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="PT. Aksi Kode Indonesia">
+                          
                         </div>
 						
                         </div>
@@ -197,19 +195,12 @@ function goBack() {
 						
 						<div class="col-lg-4">
                           <label class="">Tanggal Pembelian :</label>
-                          <div class="input-group date">
-													<input type="text" class="form-control form-control-sm" readonly="" placeholder="Pilih Tanggal" id="kt_datepicker_2">
-													<div class="input-group-append">
-														<span class="input-group-text">
-															<i class="la la-calendar-check-o"></i>
-														</span>
-													</div>
-												</div>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="21 September 2026">
                         </div>
 						<div class="col-lg-3">
                           <label class="">Waktu Pembelian :</label>
                          <div class="input-group timepicker">
-													<input class="form-control form-control-sm" id="kt_timepicker_2" readonly="" placeholder="Pilih Jam" type="text">
+													<input class="form-control form-control-sm" id="kt_timepicker_2" disabled placeholder="08:30:00" type="text">
 													<div class="input-group-append">
 														<span class="input-group-text">
 															WITA
@@ -254,7 +245,7 @@ function goBack() {
 						<div class="col-lg-7">
                           <label class="">Tanggal Pengiriman :</label>
                           <div class="input-group date">
-													<input type="text" class="form-control form-control-sm" readonly="" placeholder="Pilih Tanggal" id="kt_datepicker_2">
+													<input type="text" class="form-control form-control-sm" disabled placeholder="21 September 2026" id="kt_datepicker_2">
 													<div class="input-group-append">
 														<span class="input-group-text">
 															<i class="la la-calendar-check-o"></i>
@@ -264,14 +255,8 @@ function goBack() {
                         </div>
 						<div class="col-lg-5">
                           <label class="">Kurir :</label>
-                          <select class="form-control kt-selectpicker" data-live-search="true">
-														<option>JNE</option>
-														<option>TIKI</option>
-														<option>Lion Parcel</option>
-														<option>SiCepat</option>
-														<option>Kargo</option>
-														<option>POS Indonesia</option>
-														</select>
+						  <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="POS Indonesia">
+                          
                         </div>
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
@@ -279,7 +264,7 @@ function goBack() {
 						  <div class="form-group row">
 						<div class="col-lg-7">
                           <label class="">Alamat Pengiriman :</label>
-                          <textarea class="form-control" id="exampleTextarea" rows="6" placeholder=""></textarea>
+                          <textarea class="form-control" id="exampleTextarea" rows="6" disabled placeholder="Jl. Toddopuli Raya Timur Kompleks Villa Surya Mas J/6 Makassar 90233 - Indonesia"></textarea>
                         </div>
 						<div class="col-lg-5">
                           <label class="">Peta Lokasi :</label><br>
@@ -307,10 +292,8 @@ function goBack() {
 						  
 						<div class="col-lg-12">
                           <label class="">Syarat Pembayaran :</label>
-                          <select class="form-control kt-selectpicker" data-live-search="true">
-														<option>Uang Muka</option>
-														<option selected>Lunas</option>
-														</select>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Uang Muka">
+						  
                         </div>
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
@@ -318,7 +301,7 @@ function goBack() {
 						  <div class="form-group row">
 						<div class="col-lg-12">
                          <label class="">No. Rekening :</label>
-                          <input type="text" class="form-control form-control-sm" placeholder="">
+                          <input type="text" class="form-control form-control-sm" disabled placeholder="0255804010">
                         </div>
                         </div>
 						
@@ -353,23 +336,7 @@ function goBack() {
 																<br>
 																
 																
-					<div class="form-group row">
-							<div class="col-xl-10">&nbsp;
- 
- 
-										</div>
-   
- <div class="col-xl-2" style="text-align:right; padding-right:10px;">
- <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal_tambah_material">
-											<i class="fa fa-plus-circle"></i>Tambah Barang
-										</a>
- 
-										</div>
-
-										
-										
-										</div>	
-										<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+					
                      <div class="form-group row">
 					 <div class="col-lg-12">
 																<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
@@ -405,8 +372,6 @@ function goBack() {
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
 												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" data-toggle="modal" data-target="#modal_detail_material"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Detail</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" data-toggle="modal" data-target="#modal_edit_material"> <i class="kt-nav__link-icon fa fa-history"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
 												      
 											        </ul>
 											      </div>
@@ -448,8 +413,6 @@ function goBack() {
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
 												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" data-toggle="modal" data-target="#modal_detail_material"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Detail</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" data-toggle="modal" data-target="#modal_edit_material"> <i class="kt-nav__link-icon fa fa-history"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
 												      
 											        </ul>
 											      </div>
@@ -469,8 +432,6 @@ function goBack() {
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												   <ul class="kt-nav">
 												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" data-toggle="modal" data-target="#modal_detail_material"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Detail</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" data-toggle="modal" data-target="#modal_edit_material"> <i class="kt-nav__link-icon fa fa-history"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
 												      
 											        </ul>
 											      </div>
@@ -490,8 +451,6 @@ function goBack() {
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
 												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" data-toggle="modal" data-target="#modal_detail_material"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Detail</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" data-toggle="modal" data-target="#modal_edit_material"> <i class="kt-nav__link-icon fa fa-history"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
-												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
 												      
 											        </ul>
 											      </div>
@@ -509,9 +468,9 @@ function goBack() {
 															<div class="kt-portlet p-3" style="border-top:2px solid #5867dd">
 																<label>Biaya Pengiriman</label>
 																<div class="input-group input-group-sm">
-															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" style="border-color:#0e62ae" id="basic-addon2">Rp.</span></div>
-															    <input style="text-align:right; border-color:#0e62ae;" type="text" class="form-control form-control-sm"  placeholder="2.000.000" aria-describedby="basic-addon1">
-															    <div class="input-group-append"><span class="input-group-text input-group-sm" style="border-color:#0e62ae" id="basic-addon2">,-</span></div>
+															    <div class="input-group-prepend"><span class="input-group-text input-group-sm"  id="basic-addon2">Rp.</span></div>
+															    <input style="text-align:right; " type="text" class="form-control form-control-sm"  disabled placeholder="2.000.000" aria-describedby="basic-addon1">
+															    <div class="input-group-append"><span class="input-group-text input-group-sm"  id="basic-addon2">,-</span></div>
 															    </div>
 															</div>
 														</div>
@@ -529,9 +488,9 @@ function goBack() {
 															<div class="kt-portlet p-3" style="border-top:2px solid #ed1c24">
 																<label>Uang Muka </label>
 																<div class="input-group input-group-sm">
-															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" style="border-color:#0e62ae" id="basic-addon2">Rp.</span></div>
-															    <input style="text-align:right; border-color:#0e62ae;" type="text" class="form-control form-control-sm"  placeholder="2.000.000" aria-describedby="basic-addon1">
-															    <div class="input-group-append"><span class="input-group-text input-group-sm" style="border-color:#0e62ae" id="basic-addon2">,-</span></div>
+															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon2">Rp.</span></div>
+															    <input style="text-align:right; " type="text" class="form-control form-control-sm"  disabled placeholder="2.000.000" aria-describedby="basic-addon1">
+															    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon2">,-</span></div>
 															    </div>
 															</div>
 														</div>

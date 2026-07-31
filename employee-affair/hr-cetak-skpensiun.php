@@ -86,18 +86,13 @@ function goBack() {
 								<!--End:: App Content-->
 							</div>
 									</div>
-						</div>
-						</div>
-
+						
+						
 					
-				</div>
-								</div>
+						
 
 								<!--End:: App Content-->
-							</div>
-
-							<!--End::App-->
-						</div>
+							
 
 <?php require '../layouts/footer.php' ?>
 <?php require '../layouts/foot.php' ?>

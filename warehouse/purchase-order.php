@@ -354,34 +354,34 @@
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Cabang</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Nomor<br />Pembelian Barang</th>
-											  <th colspan="6" bgcolor="#f7fcff">Pembelian Barang</th>
+											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Nomor PO<br /></th>
+											  <th colspan="6" bgcolor="#f7fcff">Data PO</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Tanggal<br>Pengiriman</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Validasi</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Status</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 											<tr style="text-align:center">
-											  <th width="1%" bgcolor="#f7fcff">Vendor</th>
 											  <th width="1%" bgcolor="#f7fcff">Waktu</th>
-											  <th width="1%" bgcolor="#f7fcff">Dibuat</th>
+											  <th width="1%" bgcolor="#f7fcff">Vendor</th>
 											  <th width="1%" bgcolor="#f7fcff">Total</th>
 											  <th width="1%" bgcolor="#f7fcff">Uang Muka</th>
 											  <th width="1%" bgcolor="#f7fcff">Sisa Pembayaran</th>
-							              </tr>
+											  <th width="1%" bgcolor="#f7fcff">Dibuat</th>
+										  </tr>
 										</thead>
 										<tbody>
 											<tr>
 												<td style="text-align:right" id="kt_table_1">1</td>
 												<td style="text-align:left" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">PO.062026.01.0001</td>
-												<td nowrap="nowrap" style="text-align:left">PT. Aksi Kode Indonesia</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026<hr>06:50:00 WITA</td>
-												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-twitter btn-sm">Auto</span></td>
+												<td nowrap="nowrap" style="text-align:left">PT. Aksi Kode Indonesia</td>
 												<td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>150.000.000,-</span></div></td>
 												<td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>100.000.000,-</span></div></td>
 												<td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>50.000.000,-</span></div></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-twitter btn-sm">Auto</span></td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 												  06:50:00 WITA</td>
@@ -404,14 +404,14 @@
 												<td nowrap="nowrap" style="text-align:left">Makassar</td>
 
 												<td nowrap="nowrap" style="text-align:center">PO.062026.01.0002</td>
-												<td nowrap="nowrap" style="text-align:left">PT. Aksi Kode Indonesia</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 											    06:50:00 WITA</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:left">PT. Aksi Kode Indonesia</td>
 												<td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>800.000,-</span></div></td>
 												<td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
 												<td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>800.000,-</span></div></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 												  06:50:00 WITA</td>
@@ -432,14 +432,14 @@
 												<td style="text-align:right" id="kt_table_1">3</td>
 												<td nowrap="nowrap" style="text-align:left">Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">PO.062026.01.0003</td>
-												<td nowrap="nowrap" style="text-align:left">PT. Aksi Kode Indonesia</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 											    06:50:00 WITA</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:left">PT. Aksi Kode Indonesia</td>
 												<td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>800.000,-</span></div></td>
 												<td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
 												<td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>800.000,-</span></div></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 												  06:50:00 WITA</td>
@@ -460,14 +460,14 @@
 												<td style="text-align:right" id="kt_table_1">4</td>
 												<td style="text-align:left" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">PO.062026.01.0004</td>
-												<td nowrap="nowrap" style="text-align:left">PT. Aksi Kode Indonesia</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 											    06:50:00 WITA</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:left">PT. Aksi Kode Indonesia</td>
 												<td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>800.000,-</span></div></td>
 												<td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
 												<td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>800.000,-</span></div></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 												  06:50:00 WITA</td>
@@ -488,14 +488,14 @@
   <td style="text-align:right" id="kt_table_1">5</td>
   <td style="text-align:left" nowrap="nowrap">Makassar</td>
   <td nowrap="nowrap" style="text-align:center">PO.062026.01.0005</td>
-  <td nowrap="nowrap" style="text-align:left">PT. Aksi Kode Indonesia</td>
   <td nowrap="nowrap" style="text-align:center">24 September 2026
     <hr />
     06:50:00 WITA</td>
-  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+  <td nowrap="nowrap" style="text-align:left">PT. Aksi Kode Indonesia</td>
   <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>800.000,-</span></div></td>
   <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>0,-</span></div></td>
   <td nowrap="nowrap" style="text-align:center"><div style="display: flex; justify-content: space-between; align-items: center;"> <span>Rp.</span> <span>800.000,-</span></div></td>
+  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
   <td nowrap="nowrap" style="text-align:center">24 September 2026
     <hr />
     06:50:00 WITA</td>
