@@ -125,136 +125,42 @@ function goBack() {
 													
 														
 														<div class="kt-portlet__body">
-															<div class="kt-portlet__content">
-																
-					  
-					  <div class="form-group row">
-				
-					  
-					  
-					  <div class="col-lg-6">
-
-									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Pemesanan</div><br><br>
-										 <div class="kt-portlet__body">
-                      
-						<div class="form-group row">
-					  
+															<div class="kt-portlet__content"><br>
+																<div class="form-group row">
 						
-					  
-						<div class="col-lg-4">
-                           <label class="">Cabang :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Ambon - Slamet Riyadi">
+						<div class="col-lg-2">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Terima Dari :</label>
+                         <select class="form-control kt-selectpicker" data-live-search="true">
+														<option>Gudang</option>
+														<option>Vendor</option>
+														<option>Lainnya</option>
+														
+														
+														</select>
                         </div>
-						<div class="col-lg-3">
-                           <label class="">Nomor PO :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="RO.062026.01.001">
+						<div class="col-lg-2">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Pegawai / Vendor / Lainnya :</label>
+                           <select class="form-control kt-selectpicker" data-live-search="true">
+														<option>Gudang</option>
+														<option>Vendor</option>
+														<option>Lainnya</option>
+														
+														
+														</select>
                         </div>
-						<div class="col-lg-5">
-                           <label class="">Vendor :</label>
-						   <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="PT. Aksi Kode Indonesia">
-                          
-                        </div>
-						
-                        </div>
-						
-					  <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-						
-						<div class="col-lg-4">
-                          <label class="">Tanggal Pembelian :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="21 September 2026">
-                        </div>
-						<div class="col-lg-3">
-                          <label class="">Waktu Pembelian :</label>
-                         <div class="input-group timepicker">
-													<input class="form-control form-control-sm" id="kt_timepicker_2" disabled placeholder="08:30:00" type="text">
-													<div class="input-group-append">
-														<span class="input-group-text">
-															WITA
-														</span>
-													</div>
-												</div>
-                        </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-						<div class="col-lg-4">
-                           <label class="">Pegawai :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="RO.062026.01.001">
-                        </div>
-						<div class="col-lg-8">
-                           <label class="">Jabatan :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="RO.062026.01.001">
-                        </div>
-                        </div>
+						<div class="col-lg-2">
+                          <label>Referensi PO :</label>
+                          <div class="kt-input-icon kt-input-icon--right">
+        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
+        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
+    		                            <span><i class="la la-search"></i></span>
+    		                        </span>
+    		                    </div>
+    		                    </div>
 						
 						
-						  
 						
-                      </div>
-                      </div>
-                      </div>
-					  
-					  
-					  <div class="col-lg-6">
-
-									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Pengiriman</div><br><br>
-										 <div class="kt-portlet__body">
-                      
-						<div class="form-group row">
-					  
-						
-					  
-						
-						  
-						<div class="col-lg-7">
-                          <label class="">Tanggal Pengiriman :</label>
-                          <div class="input-group date">
-													<input type="text" class="form-control form-control-sm" disabled placeholder="21 September 2026" id="kt_datepicker_2">
-													<div class="input-group-append">
-														<span class="input-group-text">
-															<i class="la la-calendar-check-o"></i>
-														</span>
-													</div>
-												</div>
-                        </div>
-						<div class="col-lg-5">
-                          <label class="">Kurir :</label>
-						  <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="POS Indonesia">
-                          
-                        </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						 
-						  <div class="form-group row">
-						<div class="col-lg-7">
-                          <label class="">Alamat Pengiriman :</label>
-                          <textarea class="form-control" id="exampleTextarea" rows="6" disabled placeholder="Jl. Toddopuli Raya Timur Kompleks Villa Surya Mas J/6 Makassar 90233 - Indonesia"></textarea>
-                        </div>
-						<div class="col-lg-5">
-                          <label class="">Peta Lokasi :</label><br>
-                          <button type="button" class="btn btn-sm btn-label-brand" data-toggle="modal" data-target="#modal_peta">Lihat Peta</button>
-                        </div>
-                        </div>
-						
-						  
-						
-                      </div>
-                      </div>
-                      </div>
-					 
-					  
-					  
-					  
-					  
-					 
-                      </div>
-																
-						
+											</div>
 											
 						
 						
