@@ -152,42 +152,142 @@ function goBack() {
 													
 														
 														<div class="kt-portlet__body">
-															<div class="kt-portlet__content"><br>
-																<div class="form-group row">
+															<div class="kt-portlet__content">
+																
+					  
+					  <div class="form-group row">
+				
+					  
+					  
+					  <div class="col-lg-6">
+
+									<!--begin::Portlet-->
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Penerimaan</div><br><br>
+										 <div class="kt-portlet__body">
+                      
+						<div class="form-group row">
+					  
 						
-						<div class="col-lg-2">
-                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Terima Dari :</label>
-                         <select class="form-control kt-selectpicker" data-live-search="true">
-														<option>Gudang</option>
-														<option>Vendor</option>
-														<option>Lainnya</option>
-														
-														
-														</select>
+					  
+						<div class="col-lg-4">
+                           <label class="">Cabang :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Ambon - Slamet Riyadi">
+                        </div>
+						<div class="col-lg-3">
+                           <label class="">Nomor Penerimaan :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="RO.062026.01.001">
+                        </div>
+						<div class="col-lg-3">
+                          <label class="">Tanggal Penerimaan :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="21 September 2026">
                         </div>
 						<div class="col-lg-2">
-                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Pegawai / Vendor / Lainnya :</label>
-                           <select class="form-control kt-selectpicker" data-live-search="true">
-														<option>Gudang</option>
-														<option>Vendor</option>
-														<option>Lainnya</option>
-														
-														
-														</select>
+                          <label class="">Waktu :</label>
+                         <div class="input-group timepicker">
+													<input class="form-control form-control-sm" id="kt_timepicker_2" disabled placeholder="08:30:00" type="text">
+													
+												</div>
                         </div>
-						<div class="col-lg-2">
-                          <label>Referensi PO :</label>
-                          <div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
-        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
-    		                            <span><i class="la la-search"></i></span>
-    		                        </span>
-    		                    </div>
-    		                    </div>
+						
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-4">
+                           <label class="">Pegawai Penerima :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="RO.062026.01.001">
+                        </div>
+						<div class="col-lg-8">
+                           <label class="">Jabatan :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="RO.062026.01.001">
+                        </div>
+                        </div>
 						
 						
+						  
 						
-											</div>
+                      </div>
+                      </div>
+                      </div>
+					  <div class="col-lg-6">
+
+									<!--begin::Portlet-->
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Pemberi</div><br><br>
+										 <div class="kt-portlet__body">
+                      
+						<div class="form-group row">
+					  
+						
+					  
+						
+						<div class="col-lg-5">
+                           <label class="">Diserahkan Oleh :</label>
+						   <select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
+					 															<optgroup label="Direksi" class="a">
+					 																<option value="AK">Muhammad Nasrullah, S.Kom</option>
+					 															</optgroup>
+					 															
+																				<optgroup label="Keuangan" class="a">
+					 																<option value="HI">Oklan Zulkifli, SE</option>
+					 															</optgroup>
+																				<optgroup label="Operasional" class="a">
+					 																<option value="HI">Deddy Rafsanjani, S.Sos</option>
+					 																<option value="HI">Nursiah, S.Kom</option>
+					 															</optgroup>
+																				<optgroup label="Teknologi dan Riset" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
+					 															</optgroup>
+																				<optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
+					 															</optgroup>
+																				<option value="12" disabled selected>- Pilih Pegawai -</option>
+
+					 														</select>
+                          
+                        </div>
+						<div class="col-lg-3">
+                          <label class="">NIP :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="000000000000">
+                        </div>
+						<div class="col-lg-3">
+                          <label class="">Kantor :</label>
+                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Pusat">
+                        </div>
+						
+                        </div>
+						
+					  
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-5">
+                           <label class="">Pegawai :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="RO.062026.01.001">
+                        </div>
+						<div class="col-lg-7">
+                           <label class="">Jabatan :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="RO.062026.01.001">
+                        </div>
+                        </div>
+						
+						
+						  
+						
+                      </div>
+                      </div>
+                      </div>
+					  
+					  
+					 
+					 
+					  
+					  
+					  
+					  
+					 
+                      </div>
+																
+						
 											
 						
 						
@@ -214,70 +314,65 @@ function goBack() {
 										</div>
    
  <div class="col-xl-2" style="text-align:right; padding-right:20px;">
- <a href="#" class="btn btn-brand" data-toggle="modal" data-target="#modal_tambah_barang">
-											<i class="fa fa-plus-circle"></i>Tambah Data
+ <a href="#" class="btn btn-success" data-toggle="modal" data-target="#modal_tambah_barang">
+											<i class="fa fa-plus-circle"></i>Tambah Barang
 										</a>
  
 										</div>
+										
 
 										
 										
 										</div>
+										<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 					 <div class="col-lg-12">
 																<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
 										<thead>
 										
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th colspan="5" bgcolor="#f7fcff">Barang</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Volume</th>
+											  <th colspan="6" bgcolor="#f7fcff">Barang</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Vol</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Satuan</th>
-											  <th colspan="2" bgcolor="#f7fcff">Penyimpanan</th>
+											  <th colspan="3" bgcolor="#f7fcff">Penyimpanan</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">QC</th>
-											  <th width="7%" rowspan="2" bgcolor="#f7fcff">Foto</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Kondisi</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Foto</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 											<tr style="text-align:center">
 											  <th width="1%" bgcolor="#f7fcff">Kode SKU</th>
+											  <th width="1%" bgcolor="#f7fcff">Kode Barang</th>
 											  <th width="1%" bgcolor="#f7fcff">Kategori<br />
 											    Material</th>
 											  <th width="8%" bgcolor="#f7fcff">Jenis</th>
 											  <th width="8%" bgcolor="#f7fcff">Nama</th>
 											  <th width="3%" bgcolor="#f7fcff">Tanggal Pembelian</th>
-											  <th width="1%" bgcolor="#f7fcff">Lemari</th>
 											  <th width="1%" bgcolor="#f7fcff">Rak</th>
+											  <th width="1%" bgcolor="#f7fcff">Row</th>
+											  <th width="1%" bgcolor="#f7fcff">Box</th>
 									      </tr>
 										</thead>
 										<tbody>
 										
 											<tr>
-											  <td id="kt_table_1">1</td>
-												<td nowrap="nowrap" style="text-align:center">000101010726</td>
+											  <td align="right">1</td>
+												<td nowrap="nowrap" style="text-align:center">001201010726</td>
+												<td nowrap="nowrap" style="text-align:left">0011010107260001</td>
 												<td nowrap="nowrap" style="text-align:left">Jaringan</td>
 												<td nowrap="nowrap" style="text-align:left">Hub Switch Gigabit Manage</td>
 												<td nowrap="nowrap" style="text-align:left">Ruijie Reyee RG-ES208GC</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">Unit</td>
-												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
-														<option>1</option>
-														<option>2</option>
-														
-														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-												</select></td>
-												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
-														<option>1</option>
-														<option>2</option>
-														
-														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-												</select></td>
+												<td nowrap="nowrap" style="text-align:center">1</td>
+												<td nowrap="nowrap" style="text-align:center">1</td>
+												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
 															    <input type="checkbox" checked="checked">
 											      <span></span> </label></td>
-												<td style="text-align:center"><div class="custom-file">
-													<input type="file" class="custom-file-input" id="customFile">
-													<label class="custom-file-label" for="customFile"></label>
-												</div></td>
+												<td style="text-align:center"><span type="button" class="btn btn-label-brand btn-sm">Baru</span></td>
+												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -290,31 +385,23 @@ function goBack() {
 
 										  </tr>
 										  <tr>
-												<td id="kt_table_1">2</td>
+												<td align="right">2</td>
 												<td nowrap="nowrap" style="text-align:center">000201010726</td>
+												<td nowrap="nowrap" style="text-align:left">0002010107260001</td>
 												<td nowrap="nowrap" style="text-align:left">Reader</td>
 												<td nowrap="nowrap" style="text-align:left">Payment Reader</td>
 												<td nowrap="nowrap" style="text-align:left">NFC PAYMENT READER</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">Unit</td>
-												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
-												  <option>1</option>
-												  <option>2</option>
-												  <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
-											    </select></td>
-												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
-												  <option>1</option>
-												  <option>2</option>
-												  <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
-											    </select></td>
+												<td nowrap="nowrap" style="text-align:center">1</td>
+												<td nowrap="nowrap" style="text-align:center">1</td>
+												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
 															    <input type="checkbox" checked="checked">
 											    <span></span> </label></td>
-												<td style="text-align:center"><div class="custom-file">
-													<input type="file" class="custom-file-input" id="customFile">
-													<label class="custom-file-label" for="customFile"></label>
-												</div></td>
+												<td style="text-align:center"><span type="button" class="btn btn-label-danger btn-sm">Bekas</span></td>
+												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -326,31 +413,23 @@ function goBack() {
 											    </div></td>
 										  </tr>
 <tr>
-												<td id="kt_table_1">3</td>
-												<td nowrap="nowrap" style="text-align:center">000301010726</td>
+												<td align="right">3</td>
+												<td nowrap="nowrap" style="text-align:center">000401010726</td>
+												<td nowrap="nowrap" style="text-align:left">0004010107260001</td>
 												<td nowrap="nowrap" style="text-align:left">Printer</td>
 												<td nowrap="nowrap" style="text-align:left">Thermal</td>
 												<td nowrap="nowrap" style="text-align:left">TMT82X Lan Port</td>
 	  <td nowrap="nowrap" style="text-align:center">24 September 2026</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">Unit</td>
-												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
-												  <option>1</option>
-												  <option>2</option>
-												  <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
-											    </select></td>
-												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
-												  <option>1</option>
-												  <option>2</option>
-												  <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
-											    </select></td>
+												<td nowrap="nowrap" style="text-align:center">1</td>
+												<td nowrap="nowrap" style="text-align:center">1</td>
+												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
 												  <input type="checkbox" checked="checked" />
 											    <span></span></label></td>
-												<td style="text-align:center"><div class="custom-file">
-													<input type="file" class="custom-file-input" id="customFile">
-													<label class="custom-file-label" for="customFile"></label>
-												</div></td>
+												<td style="text-align:center"><span type="button" class="btn btn-label-brand btn-sm">Baru</span></td>
+												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												   <ul class="kt-nav">
@@ -362,31 +441,23 @@ function goBack() {
 											    </div></td>
 										  </tr>
 <tr>
-												<td id="kt_table_1">4</td>
-												<td nowrap="nowrap" style="text-align:center">000401010726</td>
+												<td align="right">4</td>
+												<td nowrap="nowrap" style="text-align:center">002201010726</td>
+												<td nowrap="nowrap" style="text-align:left">0022010107260001</td>
 												<td nowrap="nowrap" style="text-align:left">Sensor</td>
 												<td nowrap="nowrap" style="text-align:left">VLD</td>
 												<td nowrap="nowrap" style="text-align:left">VLD Barrier Gate Matrix</td>
 	  <td nowrap="nowrap" style="text-align:center">24 September 2026</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">Unit</td>
-												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
-												  <option>1</option>
-												  <option>2</option>
-												  <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
-											    </select></td>
-												<td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
-												  <option>1</option>
-												  <option>2</option>
-												  <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
-											    </select></td>
+												<td nowrap="nowrap" style="text-align:center">1</td>
+												<td nowrap="nowrap" style="text-align:center">1</td>
+												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
 												  <input type="checkbox" checked="checked" />
 											    <span></span></label></td>
-												<td style="text-align:center"><div class="custom-file">
-													<input type="file" class="custom-file-input" id="customFile">
-													<label class="custom-file-label" for="customFile"></label>
-												</div></td>
+												<td style="text-align:center"><span type="button" class="btn btn-label-danger btn-sm">Bekas</span></td>
+												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -398,31 +469,23 @@ function goBack() {
 											    </div></td>
 										  </tr>
 <tr>
-  <td id="kt_table_4">5</td>
-  <td nowrap="nowrap" style="text-align:center">000501010726</span></td>
+  <td align="right">5</td>
+  <td nowrap="nowrap" style="text-align:center">002601010726</span></td>
+  <td nowrap="nowrap" style="text-align:left">0026010107260001</td>
   <td nowrap="nowrap" style="text-align:left">Sensor</td>
   <td nowrap="nowrap" style="text-align:left">Member Mid Range</td>
   <td nowrap="nowrap" style="text-align:left">Electron HW-VX6330K V2</td>
   <td nowrap="nowrap" style="text-align:center">24 September 2026</td>
   <td nowrap="nowrap" style="text-align:center">1</td>
   <td nowrap="nowrap" style="text-align:center">Unit</td>
-  <td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
-    <option>1</option>
-    <option>2</option>
-    <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
-  </select></td>
-  <td nowrap="nowrap" style="text-align:center"><select class="form-control kt-selectpicker" data-live-search="true">
-    <option>1</option>
-    <option>2</option>
-    <option data-content="&lt;a href='#' class='btn btn-sm m-button-add'&gt;&lt;i class='fa fa-plus-circle'&gt;&lt;/i&gt; Tambah Data&lt;/a&gt;" class="select-option-add" value="add"></option>
-  </select></td>
+  <td nowrap="nowrap" style="text-align:center">1</td>
+  <td nowrap="nowrap" style="text-align:center">1</td>
+  <td nowrap="nowrap" style="text-align:center">1</td>
   <td nowrap="nowrap" style="text-align:center"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
 															    <input type="checkbox" checked="checked">
       <span></span> </label></td>
-  <td style="text-align:center"><div class="custom-file">
-													<input type="file" class="custom-file-input" id="customFile">
-													<label class="custom-file-label" for="customFile"></label>
-	  </div></td>
+  <td style="text-align:center"><span type="button" class="btn btn-label-brand btn-sm">Baru</span></td>
+  <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
@@ -524,199 +587,474 @@ function goBack() {
 
                     
 <!--begin::Modal 1-->
-									<div class="modal fade" id="titik-parkir-tutup" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+									<div class="modal fade" id="modal_tambah_barang" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 									<div class="modal-content">
 
 										<div class="modal-body">
 											<div class="kt-portlet kt-portlet--mobile ">
 											<div class="kt-portlet__head">
+
 											<div class="kt-portlet__head-label">
-												<span class="kt-portlet__head-icon" style="font-size:25px;"><i class="kt-font-danger flaticon2-list"></i></span>
-												<h3 class="kt-portlet__head-title kt-font-bold">FORM LAPORAN TITIK PARKIR TUTUP</h3>
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-boxes"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">TAMBAH PENERIMAAN BARANG</h3>
 											</div>
-											<div class="kt-portlet__head-toolbar">
+<div class="kt-portlet__head-toolbar">
 											
 											&nbsp;
-												<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">X</button>
+												<button type="button" class="btn btn-secondary btn-sm btn-outline-danger" data-dismiss="modal">X</button>
 											</div>
+											
 										</div>
-
-										
 										<div class="kt-portlet__body">
 											<div class="tab-content">
-												<div class="m-portlet m-portlet--tabs">
-									
-									<div class="m-portlet__body">
-										<div class="tab-content">
-											<div class="tab-pane active" id="m_tabs_6_1" role="tabpanel">
-												<div class="row">
-									<div class="col-xl-7">
+											<div class="m-portlet m-portlet--tabs">
+									<div class="m-portlet__head">
+										<div class="m-portlet__head-tools">
+											<ul class="nav nav-pills nav-fill" role="tablist">
+												<li class="nav-item m-tabs__item">
+													<a class="nav-link m-tabs__link active" data-toggle="tab" href="#m_tabs_7_1" role="tab">
+														<i class="fa fa-boxes"></i> Rincian Barang
+													</a>
+												</li>
+												<li class="nav-item m-tabs__item">
+													<a class="nav-link m-tabs__link" data-toggle="tab" href="#m_tabs_7_2" role="tab">
+														<i class="fa fa-file-alt"></i> Spesifikasi Barang
+													</a>
+												</li>
+												
+												<li class="nav-item m-tabs__item">
+													<a class="nav-link m-tabs__link" data-toggle="tab" href="#m_tabs_7_3" role="tab">
+														<i class="fa fa-images"></i>Foto Barang
+													</a>
+												</li>
+											</ul>
+											<div class="tab-content">
+												<div class="tab-pane active" id="m_tabs_7_1" role="tabpanel">
+													
+														
+														<div class="kt-portlet__body">
+															<div class="kt-portlet__content">
+																<div class="form-group row">
+																<div class="col-xl-12">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Jukir</div><br>
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Barang</div><br><br>
 										<div class="kt-portlet__body">
-											<div class="kt-portlet__content">
-												<div class="form-group row">
-                       <div class="col-lg-12">
-					   <label>Nama Lengkap</label>
-                         <input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="Nama Jukir">
-
-                        </div>
-						
-						
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-						<div class="col-lg-6">
-					   <label>Zona</label>
-                         <input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="Nama Jukir">
-
-                        </div>
-						<div class="col-lg-6">
-                          <label>Wilayah :</label>
-                          <input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="000 000 000">
-                        </div>
-						
-											</div>
-											<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-						<div class="col-lg-12">
-					   <label>Nama Titik Parkir</label>
-                         <input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="Nama Jukir">
-
-                        </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-						<div class="col-lg-12">
-                          <label>Alamat Titik Parkir :</label>
-                          <input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="000 000 000">
-                        </div>
-						
-											</div>
+																								<div class="kt-portlet__content">
+																									<div class="form-group row">
+<div class="col-lg-8">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Cari Barang" data-html="true">*</code> Cari Barang / Jasa :</label>
+                         <select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
+								<option value="1" disabled selected>- Silahkan Pilih -</option>
+								<optgroup label="Casing" class="a">
+									<option data-subtext="000101010726">Custom Casing Dispenser Single</option>
 									
-										</div>
-										</div>
-										</div>
+								</optgroup>
+								<optgroup label="Jaringan" class="a">
+									<option data-subtext="001101010726">Ruijie Reyee RG-ES108GC</option>
+									<option data-subtext="001201010726">Ruijie Reyee RG-ES208GC</option>
+									<option data-subtext="001301010726">Ruijie Reyee RG-ES308GC</option>
+								</optgroup>
+								<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-eye'></i> Lihat Semua</a>" class="select-option-add" value="add"></option>
+								
+							</select>
+                        </div>
+<div class="col-lg-4">
+										<label class="">Barang </label><br>
+										<input data-switch="true" data-size="small" data-toggle="kt-tooltip" data-skin="brand" data-on-text="Otomatis" data-off-text="Baru" data-on-color="success" type="checkbox" checked="checked">
 										
-										</div>
-										
 
-
-									<div class="col-xl-5">
-
-									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-half kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+									</div>
+                        </div>
+<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+<div class="form-group row">
+																										<div class="col-lg-4">
+                          <label class="">Kode SKU :</label>
+                          <div class="form-group">
+                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="000101010726">
+                      </div>
+                        </div>
+						<div class="col-lg-4">
+                          <label class="">Kode Barang :</label>
+                          <div class="form-group">
+                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="000101010726001">
+                      </div>
+                        </div>
+						 <div class="col-lg-4">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Pilih Kategori" data-html="true">*</code> Kategori :</label>
+                         <select class="form-control kt-selectpicker" data-live-search="true">
+						
+														
+														<option>Dispenser</option>
+														<option>Barrier Gate</option>
+														<option>Sensor</option>
+														 <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+														
+													</select>
+                        </div>
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+                     
+                    
+						
+						
+                     <div class="form-group row">
+						<div class="col-lg-4">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Pilih Jenis" data-html="true">*</code> Jenis :</label>
+                         <select class="form-control kt-selectpicker" data-live-search="true">
+						
+														
+														<option>Jaringan</option>
+														<option>Payment</option>
+														<option>Printer</option>
+														<option>Sensor</option>
+														<option>Komputer</option>
+														 <option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+														
+													</select>
+                        </div>
+						
+                       
 							
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Keterangan</div><br><br>
-										<div class="kt-portlet__body">
-											<div class="kt-portlet__content">
-												<div class="form-group row">
-                       <div class="col-lg-12">
-					   
-                         <textarea class="form-control" id="exampleTextarea" rows="2" placeholder="Isikan Keterangan Anda"></textarea>
+						<div class="col-lg-8">
+                          <label class="">Nama Barang :</label>
+                          <div class="form-group">
+                        <input type="text" class="form-control form-control-sm" placeholder="Barrier Gate Servo">
+                      </div>
+                        </div>
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+<div class="col-lg-4" >
+                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Tanggal Pembelian :</label>
+                          <div class="input-group date">
+													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" >
+													<div class="input-group-append">
+														<span class="input-group-text">
+															<i class="la la-calendar-check-o"></i>
+														</span>
+													</div>
+												</div>
+                        </div>
+					  <div class="col-lg-4">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Kondisi :</label>
+                           <select class="form-control kt-selectpicker" data-live-search="true">
+														<option>Baru</option>
+														<option>Bekas</option>
+														
+														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+														</select>
+                        </div>
+						<div class="col-lg-2">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Volume :</label>
+                          <input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="12">
+                        </div>
+						<div class="col-lg-2">
+                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Satuan :</label>
+                         <select class="form-control kt-selectpicker" data-live-search="true">
+														<option selected>Unit</option>
+														<option>Pieces</option>
+														
+														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+														</select>
+                        </div>
+						
+						
+						
+						
+						
+                        </div>
+						
+						
+                     
+																		
+																										
+																								</div>
+																								
+																							</div>
 
-                        </div>
-						
-						
-                        </div>
-						
+									</div>
 									
-										</div>
-										</div>
-										</div>
-									<div class="kt-portlet kt-portlet--height-full kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Upload Foto</div><br><br>
+					  
+					  
+					  
+                      </div>
+																<div class="col-xl-6">
+
+									<!--begin::Portlet-->
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Pembelian</div><br><br>
 										<div class="kt-portlet__body">
+																								<div class="kt-portlet__content">
+																									<div class="form-group row">
+					  
+						<div class="col-lg-8">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Harga Pembelian :</label>
+                          <div class="input-group input-group-sm">
+															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" style="border-color:#0e62ae" id="basic-addon2">Rp.</span></div>
+															    <input style="text-align:right; border-color:#0e62ae;" type="text" class="form-control form-control-sm" placeholder="2.000.000" aria-describedby="basic-addon1">
+															    <div class="input-group-append"><span class="input-group-text input-group-sm" style="border-color:#0e62ae" id="basic-addon2">,-</span></div>
+															    </div>
+                        </div>
+						
+						
+						<div class="col-lg-4">
+                          <label>Pajak :</label>
+                         <select class="form-control kt-selectpicker" data-live-search="true">
+														<option>12%</option>
+														<option>11%</option>
+														
+														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+														</select>
+                        </div>
+                        </div>
+<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						
+						<div class="form-group row">
+						<div class="col-lg-12">
+                          <label class="">Catatan Internal :</label>
+                          <textarea class="form-control" id="exampleTextarea" rows="6" placeholder=""></textarea>
+                        </div>
+						
+						
+						
+						
+						
+						
+                        </div>
+																										
+																										
+																										
+																								</div>
+																								
+																							</div>
+
+									</div>
+									
+					  
+					  
+					  
+                      </div>
+<div class="col-xl-6">
+
+									<!--begin::Portlet-->
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Penyimpanan</div><br><br>
+										<div class="kt-portlet__body">
+																								<div class="kt-portlet__content">
+																									<div class="form-group row">
+						<div class="col-lg-4">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Rak :</label>
+                           <select class="form-control kt-selectpicker" data-live-search="true">
+														<option>1</option>
+														<option>2</option>
+														
+														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+														</select>
+                        </div>
+						<div class="col-lg-4">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Row :</label>
+                           <select class="form-control kt-selectpicker" data-live-search="true">
+														<option>1</option>
+														<option>2</option>
+														
+														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+														</select>
+                        </div>
+						<div class="col-lg-4">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Box :</label>
+                           <select class="form-control kt-selectpicker" data-live-search="true">
+														<option>-</option>
+														<option>1</option>
+														<option>2</option>
+														
+														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+														</select>
+                        </div>
+						
+						
+						
+						
+                        </div>
+<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+<div class="form-group row">
+						<div class="col-lg-8">
+										<label class="">Purchase Order</label>
+										<input data-switch="true" data-size="small" data-toggle="kt-tooltip" data-skin="brand" data-on-text="Otomatis" data-off-text="Tidak" data-on-color="success" type="checkbox" checked="checked">
+										
+
+									</div>
+									</div>
+<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+<div class="form-group row">
+						<div class="col-lg-6">
+                          <label class="">Stok Minimum :</label>
+                          <input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="1">
+                        </div>
+						<div class="col-lg-6">
+                          <label><span style="color:#ff0000">*</span> Satuan :</label>
+                         <select class="form-control kt-selectpicker" data-live-search="true">
+														<option selected>Unit</option>
+														<option>Pieces</option>
+														
+														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+														</select>
+                        </div>
+						
+						
+						
+						
+						
+                        </div>
+
+						
+																										
+																										
+																										
+																								</div>
+																								
+																							</div>
+
+									</div>
+									
+					  
+					  
+					  
+                      </div>
+											
+						
+						
+						
+					 
+                        </div>
+                        </div>
+																
+															</div>
+															</div>
+												<div class="tab-pane" id="m_tabs_7_2" role="tabpanel">
+													
+														<div class="kt-portlet__body">
+															<div class="kt-portlet__content">
+																<br>
+																<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
+										<thead>
+											<tr style="text-align:center">
+											  <th width="1%" bgcolor="#f7fcff" id="kt_table_2">#</th>
+
+											  <th width="10%" bgcolor="#f7fcff">Spesifikasi</th>
+											  <th width="10%" bgcolor="#f7fcff">Detail Spesifikasi</th>
+											  <th width="1%" bgcolor="#f7fcff">Aksi</th>
+
+										  </tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td style="text-align:center" id="kt_table_1">1</td>
+												
+												<td style="text-align:left" nowrap><input type="text" class="form-control form-control-sm" placeholder=""></td>
+												<td style="text-align:center" nowrap><textarea class="form-control" id="exampleTextarea" rows="3" placeholder=""></textarea></td>
+											  <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+										  </tr>
+										  <tr>
+												<td style="text-align:center" id="kt_table_1">2</td>
+												
+												<td style="text-align:left" nowrap><input type="text" class="form-control form-control-sm" placeholder=""></td>
+												<td style="text-align:center" nowrap><textarea class="form-control" id="exampleTextarea" rows="3" placeholder=""></textarea></td>
+											<td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+										  </tr>
+										  <tr>
+												<td style="text-align:center" id="kt_table_1">3</td>
+												
+												<td style="text-align:left" nowrap><input type="text" class="form-control form-control-sm" placeholder=""></td>
+												<td style="text-align:center" nowrap><textarea class="form-control" id="exampleTextarea" rows="3" placeholder=""></textarea></td>
+											<td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
+										  </tr>
+
+										</tbody>
+									</table>
+															</div>
+														</div>
+												</div>
+												
+												<div class="tab-pane" id="m_tabs_7_3" role="tabpanel">
+													
+														<div class="kt-portlet__body">
 											<div class="kt-portlet__content">
-												<div class="form-group row">
-                       <div class="col-lg-12">
-					   <div class="dropzone dropzone-default dropzone-brand dz-clickable" id="kt_dropzone_1">
+<br>
+												<div class="col-lg-12">
+					    
+                          <div class="dropzone dropzone-default dropzone-brand dz-clickable" id="kt_dropzone_1">
 													<div class="dropzone-msg dz-message needsclick">
 														<h3 class="dropzone-msg-title">Drop files here or click to upload.</h3>
 														<span class="dropzone-msg-desc">Upload up to 10 files, File Format : PDF</span>
 													</div>
 												</div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						
 						
+						
+                    </div>
+						
+						
+						
+						
+						
+
+
+
+
 											</div>
-									
-										</div>
-										
 
-									</div>
-									
-
-									
-									</div>
-									
-									
-								</div>
-								</div>
-								<div class="col-xl-12">
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Kolektor</div><br><br>
-										<div class="kt-portlet__body">
-											<div class="kt-portlet__content">
-												<div class="form-group row">
-                       <div class="col-lg-6">
-					   <label>NIP Pegawai</label>
-                         <input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="Nama Kasir">
-
-                        </div>
-                       
-						<div class="col-lg-6">
-                          <label>Nama Kolektor :</label>
-                          <input type="text" class="form-control form-control-sm"  disabled="disabled" placeholder="000 000 000">
-                        </div>
-						
-                        </div>
-						
-						
-                        </div>
-						
-									
 										</div>
-										</div>
-										</div>
-									</div>
+												</div>
+											</div>
+											</div>
+											</div>
+											</div>
+											
 												
-									<div class="kt-portlet__foot kt-align-center">
-												<div class="">
 
+
+
+
+												
+
+
+
+												
 													
-									
-												
-													<div class="btn-group">
-				<button type="button" class="btn btn-brand btn-sm">
-					<i class="fa fa-check-circle"></i>
-					<span class="kt-hidden-mobile">Simpan</span>
-				</button>
-				
-				
-			</div>
+													
+
 												</div>
-											</div>
+												
+												
 												
 												
 
-									<!--end::Portlet-->
+
+												
+													
+													
+
+												</div>
+												
+											
+									<div class="kt-portlet__foot kt-align-right">
+												<div class="">
+													<button type="button" class="btn btn-success">
+					<i class="fa fa-check-circle"></i>Simpan</button>
 												</div>
 											</div>
-											</div>
+
+
+
 
 									</div>
 
 									</div>
 								</div>
 							</div>
-
-									</div>
-								</div>
 							</div>
 							<!--End::Modal 1-->
 							<!--begin::Modal 1-->
