@@ -162,7 +162,7 @@ function goBack() {
 					  <div class="col-lg-6">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Penerimaan</div><br><br>
 										 <div class="kt-portlet__body">
                       
@@ -171,7 +171,7 @@ function goBack() {
 						
 					  
 						<div class="col-lg-4">
-                           <label class="">Cabang :</label>
+                           <label class="">Gudang :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Ambon - Slamet Riyadi">
                         </div>
 						<div class="col-lg-3">
@@ -212,7 +212,7 @@ function goBack() {
 					  <div class="col-lg-6">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Pemberi</div><br><br>
 										 <div class="kt-portlet__body">
                       
@@ -343,8 +343,7 @@ function goBack() {
 											<tr style="text-align:center">
 											  <th width="1%" bgcolor="#f7fcff">Kode SKU</th>
 											  <th width="1%" bgcolor="#f7fcff">Kode Barang</th>
-											  <th width="1%" bgcolor="#f7fcff">Kategori<br />
-											    Material</th>
+											  <th width="1%" bgcolor="#f7fcff">Kategori</th>
 											  <th width="8%" bgcolor="#f7fcff">Jenis</th>
 											  <th width="8%" bgcolor="#f7fcff">Nama</th>
 											  <th width="3%" bgcolor="#f7fcff">Tanggal Pembelian</th>
@@ -372,11 +371,11 @@ function goBack() {
 															    <input type="checkbox" checked="checked">
 											      <span></span> </label></td>
 												<td style="text-align:center"><span type="button" class="btn btn-label-brand btn-sm">Baru</span></td>
-												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
+												<td nowrap="nowrap" style="text-align:center"><button type="button" data-toggle="modal" data-target="#modal_foto" data-skin="brand" data-html="true" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
-												      <li class="kt-nav__item"> <a href="detail-barang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" data-toggle="modal" data-target="#modal_detail_material"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
 												      <li class="kt-nav__item"> <a href="cetak-label-barang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Label Barang</span> </a> </li>
 												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
 											        </ul>
@@ -401,11 +400,11 @@ function goBack() {
 															    <input type="checkbox" checked="checked">
 											    <span></span> </label></td>
 												<td style="text-align:center"><span type="button" class="btn btn-label-danger btn-sm">Bekas</span></td>
-												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
+												<td nowrap="nowrap" style="text-align:center"><button type="button" data-toggle="modal" data-target="#modal_foto" data-skin="brand" data-html="true" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
-												      <li class="kt-nav__item"> <a href="detail-barang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" data-toggle="modal" data-target="#modal_detail_material"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
 												      <li class="kt-nav__item"> <a href="cetak-label-barang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Label Barang</span> </a> </li>
 												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
 											        </ul>
@@ -429,11 +428,11 @@ function goBack() {
 												  <input type="checkbox" checked="checked" />
 											    <span></span></label></td>
 												<td style="text-align:center"><span type="button" class="btn btn-label-brand btn-sm">Baru</span></td>
-												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
+												<td nowrap="nowrap" style="text-align:center"><button type="button" data-toggle="modal" data-target="#modal_foto" data-skin="brand" data-html="true" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												   <ul class="kt-nav">
-												      <li class="kt-nav__item"> <a href="detail-barang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" data-toggle="modal" data-target="#modal_detail_material"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
 												      <li class="kt-nav__item"> <a href="cetak-label-barang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Label Barang</span> </a> </li>
 												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
 											        </ul>
@@ -457,11 +456,11 @@ function goBack() {
 												  <input type="checkbox" checked="checked" />
 											    <span></span></label></td>
 												<td style="text-align:center"><span type="button" class="btn btn-label-danger btn-sm">Bekas</span></td>
-												<td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
+												<td nowrap="nowrap" style="text-align:center"><button type="button" data-toggle="modal" data-target="#modal_foto" data-skin="brand" data-html="true" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
-												      <li class="kt-nav__item"> <a href="detail-barang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" data-toggle="modal" data-target="#modal_detail_material"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
 												      <li class="kt-nav__item"> <a href="cetak-label-barang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Label Barang</span> </a> </li>
 												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
 											        </ul>
@@ -485,11 +484,11 @@ function goBack() {
 															    <input type="checkbox" checked="checked">
       <span></span> </label></td>
   <td style="text-align:center"><span type="button" class="btn btn-label-brand btn-sm">Baru</span></td>
-  <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
+  <td nowrap="nowrap" style="text-align:center"><button type="button" data-toggle="modal" data-target="#modal_foto" data-skin="brand" data-html="true" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 												    <ul class="kt-nav">
-												      <li class="kt-nav__item"> <a href="detail-barang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
+												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" data-toggle="modal" data-target="#modal_detail_material"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Lihat Detail</span> </a> </li>
 												      <li class="kt-nav__item"> <a href="cetak-label-barang.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-receipt"></i> <span class="kt-nav__link-text">Cetak Label Barang</span> </a> </li>
 												      <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
 											        </ul>
@@ -519,7 +518,7 @@ function goBack() {
 																									<div class="form-group row">
 																										<div class="col-lg-12">
 					    
-                          <div class="dropzone dropzone-default dropzone-brand dz-clickable" id="kt_dropzone_1">
+                         <div class="dropzone dropzone-default dropzone-brand dz-clickable" id="kt_dropzone_2">
 													<div class="dropzone-msg dz-message needsclick">
 														<h3 class="dropzone-msg-title">Drop files here or click to upload.</h3>
 														<span class="dropzone-msg-desc">Upload up to 10 files, File Format : PDF</span>
@@ -528,7 +527,7 @@ function goBack() {
 						
 						
 						
-                    </div>
+                   
 																										</div>
 																										<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 																										
@@ -639,7 +638,7 @@ function goBack() {
 																<div class="col-xl-12">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Barang</div><br><br>
 										<div class="kt-portlet__body">
 																								<div class="kt-portlet__content">
@@ -784,7 +783,7 @@ function goBack() {
 																<div class="col-xl-6">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Pembelian</div><br><br>
 										<div class="kt-portlet__body">
 																								<div class="kt-portlet__content">
@@ -840,7 +839,7 @@ function goBack() {
 <div class="col-xl-6">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Penyimpanan</div><br><br>
 										<div class="kt-portlet__body">
 																								<div class="kt-portlet__content">
@@ -951,10 +950,10 @@ function goBack() {
 										</thead>
 										<tbody>
 											<tr>
-												<td style="text-align:center" id="kt_table_1">1</td>
+												<td style="text-align:center;" valign="top" id="kt_table_1">1</td>
 												
-												<td style="text-align:left" nowrap><input type="text" class="form-control form-control-sm" placeholder=""></td>
-												<td style="text-align:center" nowrap><textarea class="form-control" id="exampleTextarea" rows="3" placeholder=""></textarea></td>
+												<td style="text-align:left" valign="top" nowrap><input type="text" class="form-control form-control-sm" placeholder=""></td>
+												<td style="text-align:center" valign="top" nowrap><textarea class="form-control" id="exampleTextarea" rows="3" placeholder=""></textarea></td>
 											  <td style="text-align:center" nowrap><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-plus-circle"></i></button> <button type="button" class="btn btn-outline-hover-danger btn-sm btn-icon"><i class="fa fa-trash-alt"></i></button></td>
 										  </tr>
 										  <tr>
@@ -1056,6 +1055,386 @@ function goBack() {
 								</div>
 							</div>
 							</div>
+							<div class="modal fade" id="modal_detail_material" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+									<div class="modal-content">
+
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-luggage-cart"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">DETAIL BARANG</h3>
+											</div>
+<div class="kt-portlet__head-toolbar">
+											
+											&nbsp;
+												<button type="button" class="btn btn-secondary btn-sm btn-outline-danger" data-dismiss="modal">X</button>
+											</div>
+											
+										</div>
+										<div class="kt-portlet__body">
+											<div class="tab-content">
+											<div class="m-portlet m-portlet--tabs">
+									<div class="m-portlet__head">
+										<div class="m-portlet__head-tools">
+											<ul class="nav nav-pills nav-fill" role="tablist">
+												<li class="nav-item m-tabs__item">
+													<a class="nav-link m-tabs__link active" data-toggle="tab" href="#m_tabs_8_1" role="tab">
+														<i class="fa fa-boxes"></i> Rincian Barang
+													</a>
+												</li>
+												<li class="nav-item m-tabs__item">
+													<a class="nav-link m-tabs__link" data-toggle="tab" href="#m_tabs_8_2" role="tab">
+														<i class="fa fa-file-alt"></i> Spesifikasi Barang
+													</a>
+												</li>
+												
+												<li class="nav-item m-tabs__item">
+													<a class="nav-link m-tabs__link" data-toggle="tab" href="#m_tabs_8_3" role="tab">
+														<i class="fa fa-calculator"></i>Akuntansi
+													</a>
+												</li>
+											</ul>
+											<div class="tab-content">
+												<div class="tab-pane active" id="m_tabs_8_1" role="tabpanel">
+													
+														
+														<div class="kt-portlet__body">
+															<div class="kt-portlet__content">
+																<div class="form-group row">
+<div class="col-xl-12">
+
+									<!--begin::Portlet-->
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Barang</div><br><br>
+										<div class="kt-portlet__body">
+																								<div class="kt-portlet__content">
+																									
+<div class="form-group row">
+																										<div class="col-lg-4">
+                          <label class="">Kode SKU :</label>
+                          <div class="form-group">
+                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="000101010726">
+                      </div>
+                        </div>
+						<div class="col-lg-4">
+                          <label class="">Kode Barang :</label>
+                          <div class="form-group">
+                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="000101010726001">
+                      </div>
+                        </div>
+						 <div class="col-lg-4">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Pilih Kategori" data-html="true">*</code> Kategori :</label>
+                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Barrier Gate">
+                        </div>
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+                     
+                    
+						
+						
+                     <div class="form-group row">
+						<div class="col-lg-4">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Pilih Jenis" data-html="true">*</code> Jenis :</label>
+                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Barrier Gate">
+                        </div>
+						
+                       
+							
+						<div class="col-lg-8">
+                          <label class="">Nama Barang :</label>
+                          <div class="form-group">
+                        <input type="text" class="form-control form-control-sm" disabled placeholder="Barrier Gate Servo">
+                      </div>
+                        </div>
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+<div class="col-lg-4" >
+                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Tanggal Pembelian :</label>
+                          <div class="input-group date">
+													<input type="text" class="form-control form-control-sm" disabled placeholder="5 Mei 2026" id="kt_datepicker_2" >
+													<div class="input-group-append">
+														<span class="input-group-text">
+															<i class="la la-calendar-check-o"></i>
+														</span>
+													</div>
+												</div>
+                        </div>
+					  <div class="col-lg-4">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Kondisi :</label>
+                           <input type="text" class="form-control form-control-sm" disabled placeholder="Baru">
+                        </div>
+						<div class="col-lg-2">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Volume :</label>
+                          <input type="text" class="form-control form-control-sm" disabled placeholder="1">
+                        </div>
+						<div class="col-lg-2">
+                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Satuan :</label>
+                         <input type="text" class="form-control form-control-sm" disabled placeholder="Unit">
+                        </div>
+						
+						
+						
+						
+						
+                        </div>
+						
+						
+                     
+																		
+																										
+																								</div>
+																								
+																							</div>
+
+									</div>
+									
+					  
+					  
+					  
+                      </div>
+																
+																<div class="col-xl-12">
+
+									<!--begin::Portlet-->
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Harga</div><br><br>
+										<div class="kt-portlet__body">
+																								<div class="kt-portlet__content">
+																									
+                     
+                     
+						<div class="form-group row">
+						
+						
+						<div class="col-lg-5">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Harga Satuan :</label>
+                          <div class="input-group input-group-sm">
+															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon2">Rp.</span></div>
+															    <input style="text-align:right; " type="text" class="form-control form-control-sm" disabled placeholder="2.000.000" aria-describedby="basic-addon1">
+															    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon2">,-</span></div>
+															    </div>
+                        </div>
+						<div class="col-lg-2">
+                          <label>Pajak :</label>
+                         <input type="text" class="form-control form-control-sm" disabled placeholder="11%">
+                        </div>
+						<div class="col-lg-5">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Total :</label>
+                          <div class="input-group input-group-sm">
+															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon2">Rp.</span></div>
+															    <input style="text-align:right; background-color:#ebffcf;" type="text" class="form-control form-control-sm" disabled placeholder="3.196.396" aria-describedby="basic-addon1">
+															    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon2">,-</span></div>
+															    </div>
+                        </div>
+						
+						
+						
+						
+                        </div>
+                        </div>
+						
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						
+                        </div>
+						
+						
+						
+                     
+						
+                     
+																		
+																										
+																								</div>
+																								
+																							</div>
+
+								
+									
+					  
+					  
+					  
+                      </div>
+					  
+					  
+					  
+						
+						
+						
+						
+                             
+                               
+											
+											</div>
+											
+						
+						
+						
+					 
+                        </div>
+                        </div>
+																
+															</div>
+												<div class="tab-pane" id="m_tabs_8_2" role="tabpanel">
+													
+														<div class="kt-portlet__body">
+															<div class="kt-portlet__content">
+																<br>
+																<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
+										<thead>
+											<tr style="text-align:center">
+											  <th width="1%" bgcolor="#f7fcff" id="kt_table_2">#</th>
+
+											  <th width="10%" bgcolor="#f7fcff">Spesifikasi</th>
+											  <th width="10%" bgcolor="#f7fcff">Detail Spesifikasi</th>
+										  </tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td style="text-align:center" id="kt_table_1">1</td>
+												
+												<td style="text-align:left" nowrap><input type="text" class="form-control form-control-sm" disabled placeholder=""></td>
+												<td style="text-align:center" nowrap><textarea class="form-control" disabled id="exampleTextarea" rows="3" placeholder=""></textarea></td>
+										  </tr>
+										  <tr>
+												<td style="text-align:center" id="kt_table_1">2</td>
+												<td nowrap="nowrap" style="text-align:left"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="" /></td>
+												<td nowrap="nowrap" style="text-align:center"><textarea class="form-control" disabled="disabled" id="exampleTextarea" rows="3" placeholder=""></textarea></td>
+										  </tr>
+										  <tr>
+												<td style="text-align:center" id="kt_table_1">3</td>
+												<td nowrap="nowrap" style="text-align:left"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="" /></td>
+												<td nowrap="nowrap" style="text-align:center"><textarea class="form-control" disabled="disabled" id="exampleTextarea" rows="3" placeholder=""></textarea></td>
+										  </tr>
+
+										</tbody>
+									</table>
+															</div>
+														</div>
+												</div>
+												
+												<div class="tab-pane" id="m_tabs_8_3" role="tabpanel">
+													
+														<div class="kt-portlet__body">
+											<div class="kt-portlet__content">
+												<div class="form-group row">
+						
+						<div class="col-lg-4"><br>
+                          <label class="">Akun Persediaan :</label>
+						  <input type="text" class="form-control form-control-sm" disabled placeholder="110401 - Persediaan">
+                          
+                        </div>
+						<div class="col-lg-4">
+						<br>
+                          <label class="">Akun Penjualan :</label>
+                          <input type="text" class="form-control form-control-sm" disabled placeholder="400001 - Penjualan">
+						  
+                        </div>
+						<div class="col-lg-4">
+						<br>
+                          <label class="">Retur Penjualan :</label>
+						  <input type="text" class="form-control form-control-sm" disabled placeholder="400003 - Retur Penjualan">
+                          
+                        </div>
+                        </div>
+						
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						
+						<div class="col-lg-4">
+                          <label class="">Akun Diskon Penjualan :</label>
+						  <input type="text" class="form-control form-control-sm" disabled placeholder="400004 - Diskon Penjualan">
+                          
+                        </div>
+						<div class="col-lg-4">
+                          <label class="">Barang Terkirim :</label>
+						  <input type="text" class="form-control form-control-sm" disabled placeholder="110402 - Persediaan Terkirim">
+                          
+                        </div>
+						<div class="col-lg-4">
+                          <label class="">Beban Pokok Penjualan :</label>
+                          <input type="text" class="form-control form-control-sm" disabled placeholder="5101 - Beban Pokok Penjualan">
+						  
+                        </div>
+						
+						
+						
+						
+                        </div>
+						
+					
+						
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						
+						<div class="col-lg-4">
+                          <label class="">Retur Pembelian :</label>
+						  <input type="text" class="form-control form-control-sm" disabled placeholder="110401 - Persediaan">
+                          
+                        </div>
+						
+						
+						
+						
+                        </div>
+						
+						
+						
+
+
+
+
+											</div>
+
+										</div>
+												</div>
+											</div>
+											</div>
+											</div>
+											</div>
+											
+												
+
+
+
+
+												
+
+
+
+												
+													
+													
+
+												</div>
+												
+												
+												
+												
+
+
+												
+													
+													
+
+												</div>
+												
+											
+									
+
+
+
+
+									</div>
+
+									</div>
+								</div>
+							</div>
+							</div>
 							<!--End::Modal 1-->
 							<!--begin::Modal 1-->
 									<div class="modal fade" id="modal_persetujuan_release" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -1132,6 +1511,65 @@ function goBack() {
 						</div>
 
 								<!--End:: App Content-->
+							</div>
+
+									</div>
+								</div>
+							</div>
+							<div class="modal fade" id="modal_foto" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
+									<div class="modal-content">
+
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon" style="font-size:25px;"><i class="kt-font-danger flaticon2-list"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-bold">FOTO</h3>
+											</div>
+											<div class="kt-portlet__head-toolbar">
+											
+											&nbsp;
+												<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">X</button>
+											</div>
+										</div>
+
+										
+										<div class="kt-portlet__body" align="center">
+											<div class="kt-portlet__content">
+											<div class="col-xl-12">
+											<a href="#" class="kt-notification__item versi-2">
+															<div class="kt-notification__item-icon">
+																<img src="../assets/img/blog/blog3.jpg" alt="image" style="max-width:185px !important;height:150px" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">&nbsp;&nbsp;<img src="../assets/img/blog/blog3.jpg" alt="image" style="max-width:185px !important;height:150px" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">
+															</div>
+														&nbsp;
+														&nbsp;
+															
+														</a>
+														<a href="#" class="kt-notification__item versi-2">
+															<div class="kt-notification__item-icon">
+																<img src="../assets/img/blog/blog3.jpg" alt="image" style="max-width:185px !important;height:150px" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">&nbsp;&nbsp;<img src="../assets/img/blog/blog3.jpg" alt="image" style="max-width:185px !important;height:150px" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">
+															</div>
+														&nbsp;
+														&nbsp;
+															
+														</a>
+											
+					
+				</div>
+											
+												
+						
+                     
+						
+                     
+					  
+                     
+									</div>
+									
+
+									</div>
+								</div>
 							</div>
 
 									</div>

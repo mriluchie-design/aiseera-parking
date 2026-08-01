@@ -303,7 +303,7 @@ function goBack() {
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
-						<div class="col-lg-4">
+						<div class="col-lg-5">
                           <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Kab / Kota :</label>
                            <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected="">Makassar</option>
@@ -315,7 +315,7 @@ function goBack() {
                          <input type="text" class="form-control form-control-sm"  placeholder="">
 
                         </div>
-						<div class="col-lg-5">
+						<div class="col-lg-4">
 					   <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Wajib Diisi" data-html="true">*</code> Phone :</label>
                          <input type="text" class="form-control form-control-sm"  placeholder="">
 
@@ -749,7 +749,7 @@ function goBack() {
 														<div class="kt-portlet__body">
 															<div class="kt-portlet__content">
 																<div class="form-group row">
-																<div class="col-xl-6">
+<div class="col-xl-12">
 
 									<!--begin::Portlet-->
 									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
@@ -757,7 +757,7 @@ function goBack() {
 										<div class="kt-portlet__body">
 																								<div class="kt-portlet__content">
 																									<div class="form-group row">
-																									<div class="col-lg-12">
+<div class="col-lg-8">
                           <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Cari Barang" data-html="true">*</code> Cari Barang / Jasa :</label>
                          <select data-size="7" data-live-search="true" class="form-control kt-selectpicker col-lg-12 mb-6">
 								<option value="1" disabled selected>- Silahkan Pilih -</option>
@@ -770,47 +770,91 @@ function goBack() {
 									<option data-subtext="001201010726">Ruijie Reyee RG-ES208GC</option>
 									<option data-subtext="001301010726">Ruijie Reyee RG-ES308GC</option>
 								</optgroup>
-								<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-eye'></i> Lihat Semua</a>" class="select-option-add" value="add"></option>
+								<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 								
 							</select>
                         </div>
+
                         </div>
-							<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-                     
-                     <div class="form-group row">																		
-						<div class="col-lg-6">
+<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+<div class="form-group row">
+																										<div class="col-lg-4">
                           <label class="">Kode SKU :</label>
                           <div class="form-group">
-                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="003001010726">
-                      </div>
-                      </div>
-					  <div class="col-lg-6">
-                          <label class="">Kategori :</label>
-                          <div class="form-group">
-                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Barrier Gate">
+                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="000101010726">
                       </div>
                         </div>
+						<div class="col-lg-4">
+                          <label class="">Kode Barang :</label>
+                          <div class="form-group">
+                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="000101010726001">
+                      </div>
+                        </div>
+						 <div class="col-lg-4">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Pilih Kategori" data-html="true">*</code> Kategori :</label>
+                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Barrier Gate">
+                        </div>
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+                     
+                    
+						
+						
+                     <div class="form-group row">
+						<div class="col-lg-4">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Pilih Jenis" data-html="true">*</code> Jenis :</label>
+                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Barrier Gate">
                         </div>
 						
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-                     
-                     <div class="form-group row">
-						<div class="col-lg-12">
-                          <label class="">Jenis :</label>
-                          <div class="form-group">
-                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Barrier Gate">
-                      </div>
-                        </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-                     
-                     <div class="form-group row">
-						<div class="col-lg-12">
+                       
+							
+						<div class="col-lg-8">
                           <label class="">Nama Barang :</label>
                           <div class="form-group">
-                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Barrier Gate Servo">
+                        <input type="text" class="form-control form-control-sm" disabled placeholder="Barrier Gate Servo">
                       </div>
                         </div>
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+<div class="col-lg-4" >
+                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Tanggal Pembelian :</label>
+                          <div class="input-group date">
+													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" >
+													<div class="input-group-append">
+														<span class="input-group-text">
+															<i class="la la-calendar-check-o"></i>
+														</span>
+													</div>
+												</div>
+                        </div>
+					  <div class="col-lg-4">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Kondisi :</label>
+                           <select class="form-control kt-selectpicker" data-live-search="true">
+														<option>Baru</option>
+														<option>Bekas</option>
+														
+														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+														</select>
+                        </div>
+						<div class="col-lg-2">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Volume :</label>
+                          <input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="12">
+                        </div>
+						<div class="col-lg-2">
+                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Satuan :</label>
+                         <select class="form-control kt-selectpicker" data-live-search="true">
+														<option selected>Unit</option>
+														<option>Pieces</option>
+														
+														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+														</select>
+                        </div>
+						
+						
+						
+						
+						
                         </div>
 						
 						
@@ -827,83 +871,55 @@ function goBack() {
 					  
 					  
                       </div>
-																<div class="col-xl-6">
+																
+																<div class="col-xl-12">
 
 									<!--begin::Portlet-->
 									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Pemesanan</div><br><br>
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Harga</div><br><br>
 										<div class="kt-portlet__body">
 																								<div class="kt-portlet__content">
 																									
                      
-                     <div class="form-group row">
-						<div class="col-lg-12">
-                          <label class="">Vendor :</label>
-                           <select class="form-control kt-selectpicker" data-live-search="true">
-														<option>PT. Aksi Kode Indonesia</option>
-														<option>PT. Dili Jaya Indonesia</option>
-														
-														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-														</select>
-                        </div>
-						
-					  
-                        </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+                     
 						<div class="form-group row">
 						
-						<div class="col-lg-8">
-                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Volume :</label>
-                          <input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="12">
-                        </div>
-						<div class="col-lg-4">
-                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Satuan :</label>
-                         <select class="form-control kt-selectpicker" data-live-search="true">
-														<option selected>Unit</option>
-														<option>Pieces</option>
-														
-														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-														</select>
-                        </div>
 						
-						
-						
-						
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-					  
-                        
-						<div class="col-lg-8">
-                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Harga Pembelian :</label>
+						<div class="col-lg-5">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Harga Satuan :</label>
                           <div class="input-group input-group-sm">
-															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" style="border-color:#0e62ae" id="basic-addon2">Rp.</span></div>
-															    <input style="text-align:right; border-color:#0e62ae;" type="text" class="form-control form-control-sm" placeholder="2.000.000" aria-describedby="basic-addon1">
-															    <div class="input-group-append"><span class="input-group-text input-group-sm" style="border-color:#0e62ae" id="basic-addon2">,-</span></div>
+															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon2">Rp.</span></div>
+															    <input style="text-align:right; " type="text" class="form-control form-control-sm" placeholder="2.000.000" aria-describedby="basic-addon1">
+															    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon2">,-</span></div>
 															    </div>
                         </div>
-                       
-						<div class="col-lg-4">
+						<div class="col-lg-2">
                           <label>Pajak :</label>
                          <select class="form-control kt-selectpicker" data-live-search="true">
 														<option>12%</option>
-														<option>11%</option>
+														<option selected>11%</option>
 														
 														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 														</select>
                         </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-						<div class="col-lg-12">
+						<div class="col-lg-5">
                           <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Total :</label>
                           <div class="input-group input-group-sm">
-															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" style="border-color:#0e62ae" id="basic-addon2">Rp.</span></div>
-															    <input style="text-align:right; border-color:#0e62ae;" type="text" class="form-control form-control-sm" disabled placeholder="2.000.000" aria-describedby="basic-addon1">
-															    <div class="input-group-append"><span class="input-group-text input-group-sm" style="border-color:#0e62ae" id="basic-addon2">,-</span></div>
+															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon2">Rp.</span></div>
+															    <input style="text-align:right; background-color:#ebffcf;" type="text" class="form-control form-control-sm" disabled placeholder="3.196.396" aria-describedby="basic-addon1">
+															    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon2">,-</span></div>
 															    </div>
                         </div>
+						
+						
+						
+						
+                        </div>
+                        </div>
+						
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						
                         </div>
 						
 						
@@ -1416,6 +1432,386 @@ function goBack() {
 					<i class="fa fa-check-circle"></i>Simpan</button>
 												</div>
 											</div>
+
+
+
+
+									</div>
+
+									</div>
+								</div>
+							</div>
+							</div>
+							<div class="modal fade" id="modal_detail_material" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+									<div class="modal-content">
+
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-luggage-cart"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">DETAIL BARANG</h3>
+											</div>
+<div class="kt-portlet__head-toolbar">
+											
+											&nbsp;
+												<button type="button" class="btn btn-secondary btn-sm btn-outline-danger" data-dismiss="modal">X</button>
+											</div>
+											
+										</div>
+										<div class="kt-portlet__body">
+											<div class="tab-content">
+											<div class="m-portlet m-portlet--tabs">
+									<div class="m-portlet__head">
+										<div class="m-portlet__head-tools">
+											<ul class="nav nav-pills nav-fill" role="tablist">
+												<li class="nav-item m-tabs__item">
+													<a class="nav-link m-tabs__link active" data-toggle="tab" href="#m_tabs_8_1" role="tab">
+														<i class="fa fa-boxes"></i> Rincian Barang
+													</a>
+												</li>
+												<li class="nav-item m-tabs__item">
+													<a class="nav-link m-tabs__link" data-toggle="tab" href="#m_tabs_8_2" role="tab">
+														<i class="fa fa-file-alt"></i> Spesifikasi Barang
+													</a>
+												</li>
+												
+												<li class="nav-item m-tabs__item">
+													<a class="nav-link m-tabs__link" data-toggle="tab" href="#m_tabs_8_3" role="tab">
+														<i class="fa fa-calculator"></i>Akuntansi
+													</a>
+												</li>
+											</ul>
+											<div class="tab-content">
+												<div class="tab-pane active" id="m_tabs_8_1" role="tabpanel">
+													
+														
+														<div class="kt-portlet__body">
+															<div class="kt-portlet__content">
+																<div class="form-group row">
+<div class="col-xl-12">
+
+									<!--begin::Portlet-->
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Barang</div><br><br>
+										<div class="kt-portlet__body">
+																								<div class="kt-portlet__content">
+																									
+<div class="form-group row">
+																										<div class="col-lg-4">
+                          <label class="">Kode SKU :</label>
+                          <div class="form-group">
+                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="000101010726">
+                      </div>
+                        </div>
+						<div class="col-lg-4">
+                          <label class="">Kode Barang :</label>
+                          <div class="form-group">
+                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="000101010726001">
+                      </div>
+                        </div>
+						 <div class="col-lg-4">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Pilih Kategori" data-html="true">*</code> Kategori :</label>
+                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Barrier Gate">
+                        </div>
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+                     
+                    
+						
+						
+                     <div class="form-group row">
+						<div class="col-lg-4">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Pilih Jenis" data-html="true">*</code> Jenis :</label>
+                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Barrier Gate">
+                        </div>
+						
+                       
+							
+						<div class="col-lg-8">
+                          <label class="">Nama Barang :</label>
+                          <div class="form-group">
+                        <input type="text" class="form-control form-control-sm" disabled placeholder="Barrier Gate Servo">
+                      </div>
+                        </div>
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+<div class="col-lg-4" >
+                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Tanggal Pembelian :</label>
+                          <div class="input-group date">
+													<input type="text" class="form-control form-control-sm" disabled placeholder="5 Mei 2026" id="kt_datepicker_2" >
+													<div class="input-group-append">
+														<span class="input-group-text">
+															<i class="la la-calendar-check-o"></i>
+														</span>
+													</div>
+												</div>
+                        </div>
+					  <div class="col-lg-4">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Kondisi :</label>
+                           <input type="text" class="form-control form-control-sm" disabled placeholder="Baru">
+                        </div>
+						<div class="col-lg-2">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Volume :</label>
+                          <input type="text" class="form-control form-control-sm" disabled placeholder="1">
+                        </div>
+						<div class="col-lg-2">
+                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Satuan :</label>
+                         <input type="text" class="form-control form-control-sm" disabled placeholder="Unit">
+                        </div>
+						
+						
+						
+						
+						
+                        </div>
+						
+						
+                     
+																		
+																										
+																								</div>
+																								
+																							</div>
+
+									</div>
+									
+					  
+					  
+					  
+                      </div>
+																
+																<div class="col-xl-12">
+
+									<!--begin::Portlet-->
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Harga</div><br><br>
+										<div class="kt-portlet__body">
+																								<div class="kt-portlet__content">
+																									
+                     
+                     
+						<div class="form-group row">
+						
+						
+						<div class="col-lg-5">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Harga Satuan :</label>
+                          <div class="input-group input-group-sm">
+															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon2">Rp.</span></div>
+															    <input style="text-align:right; " type="text" class="form-control form-control-sm" disabled placeholder="2.000.000" aria-describedby="basic-addon1">
+															    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon2">,-</span></div>
+															    </div>
+                        </div>
+						<div class="col-lg-2">
+                          <label>Pajak :</label>
+                         <input type="text" class="form-control form-control-sm" disabled placeholder="11%">
+                        </div>
+						<div class="col-lg-5">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Total :</label>
+                          <div class="input-group input-group-sm">
+															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon2">Rp.</span></div>
+															    <input style="text-align:right; background-color:#ebffcf;" type="text" class="form-control form-control-sm" disabled placeholder="3.196.396" aria-describedby="basic-addon1">
+															    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon2">,-</span></div>
+															    </div>
+                        </div>
+						
+						
+						
+						
+                        </div>
+                        </div>
+						
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						
+                        </div>
+						
+						
+						
+                     
+						
+                     
+																		
+																										
+																								</div>
+																								
+																							</div>
+
+								
+									
+					  
+					  
+					  
+                      </div>
+					  
+					  
+					  
+						
+						
+						
+						
+                             
+                               
+											
+											</div>
+											
+						
+						
+						
+					 
+                        </div>
+                        </div>
+																
+															</div>
+												<div class="tab-pane" id="m_tabs_8_2" role="tabpanel">
+													
+														<div class="kt-portlet__body">
+															<div class="kt-portlet__content">
+																<br>
+																<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
+										<thead>
+											<tr style="text-align:center">
+											  <th width="1%" bgcolor="#f7fcff" id="kt_table_2">#</th>
+
+											  <th width="10%" bgcolor="#f7fcff">Spesifikasi</th>
+											  <th width="10%" bgcolor="#f7fcff">Detail Spesifikasi</th>
+										  </tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td style="text-align:center" id="kt_table_1">1</td>
+												
+												<td style="text-align:left" nowrap><input type="text" class="form-control form-control-sm" disabled placeholder=""></td>
+												<td style="text-align:center" nowrap><textarea class="form-control" disabled id="exampleTextarea" rows="3" placeholder=""></textarea></td>
+										  </tr>
+										  <tr>
+												<td style="text-align:center" id="kt_table_1">2</td>
+												<td nowrap="nowrap" style="text-align:left"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="" /></td>
+												<td nowrap="nowrap" style="text-align:center"><textarea class="form-control" disabled="disabled" id="exampleTextarea" rows="3" placeholder=""></textarea></td>
+										  </tr>
+										  <tr>
+												<td style="text-align:center" id="kt_table_1">3</td>
+												<td nowrap="nowrap" style="text-align:left"><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="" /></td>
+												<td nowrap="nowrap" style="text-align:center"><textarea class="form-control" disabled="disabled" id="exampleTextarea" rows="3" placeholder=""></textarea></td>
+										  </tr>
+
+										</tbody>
+									</table>
+															</div>
+														</div>
+												</div>
+												
+												<div class="tab-pane" id="m_tabs_8_3" role="tabpanel">
+													
+														<div class="kt-portlet__body">
+											<div class="kt-portlet__content">
+												<div class="form-group row">
+						
+						<div class="col-lg-4"><br>
+                          <label class="">Akun Persediaan :</label>
+						  <input type="text" class="form-control form-control-sm" disabled placeholder="110401 - Persediaan">
+                          
+                        </div>
+						<div class="col-lg-4">
+						<br>
+                          <label class="">Akun Penjualan :</label>
+                          <input type="text" class="form-control form-control-sm" disabled placeholder="400001 - Penjualan">
+						  
+                        </div>
+						<div class="col-lg-4">
+						<br>
+                          <label class="">Retur Penjualan :</label>
+						  <input type="text" class="form-control form-control-sm" disabled placeholder="400003 - Retur Penjualan">
+                          
+                        </div>
+                        </div>
+						
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						
+						<div class="col-lg-4">
+                          <label class="">Akun Diskon Penjualan :</label>
+						  <input type="text" class="form-control form-control-sm" disabled placeholder="400004 - Diskon Penjualan">
+                          
+                        </div>
+						<div class="col-lg-4">
+                          <label class="">Barang Terkirim :</label>
+						  <input type="text" class="form-control form-control-sm" disabled placeholder="110402 - Persediaan Terkirim">
+                          
+                        </div>
+						<div class="col-lg-4">
+                          <label class="">Beban Pokok Penjualan :</label>
+                          <input type="text" class="form-control form-control-sm" disabled placeholder="5101 - Beban Pokok Penjualan">
+						  
+                        </div>
+						
+						
+						
+						
+                        </div>
+						
+					
+						
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						
+						<div class="col-lg-4">
+                          <label class="">Retur Pembelian :</label>
+						  <input type="text" class="form-control form-control-sm" disabled placeholder="110401 - Persediaan">
+                          
+                        </div>
+						
+						
+						
+						
+                        </div>
+						
+						
+						
+
+
+
+
+											</div>
+
+										</div>
+												</div>
+											</div>
+											</div>
+											</div>
+											</div>
+											
+												
+
+
+
+
+												
+
+
+
+												
+													
+													
+
+												</div>
+												
+												
+												
+												
+
+
+												
+													
+													
+
+												</div>
+												
+											
+									
 
 
 
