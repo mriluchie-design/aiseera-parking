@@ -135,7 +135,7 @@ function goBack() {
 					  <div class="col-lg-6">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Penerimaan</div><br><br>
 										 <div class="kt-portlet__body">
                       
@@ -185,7 +185,7 @@ function goBack() {
 					  <div class="col-lg-6">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Pemberi</div><br><br>
 										 <div class="kt-portlet__body">
                       
@@ -267,7 +267,7 @@ function goBack() {
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Vol</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Satuan</th>
 											  <th colspan="3" bgcolor="#f7fcff">Penyimpanan</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">QC</th>
+											  <th width="2%" rowspan="2" bgcolor="#f7fcff">QC</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Kondisi</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Foto</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
@@ -299,9 +299,7 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
-												<td nowrap="nowrap" style="text-align:center"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
-															    <input type="checkbox" disabled checked="checked">
-											      <span></span> </label></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="30 September 2026&lt;hr&gt;11:41:00 WITA&lt;hr&gt;000000000001&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td style="text-align:center"><span type="button" class="btn btn-label-brand btn-sm">Baru</span></td>
 												<td nowrap="nowrap" style="text-align:center"><button type="button" data-toggle="modal" data-target="#modal_foto" data-skin="brand" data-html="true" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -328,9 +326,7 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
-												<td nowrap="nowrap" style="text-align:center"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
-															    <input type="checkbox" disabled checked="checked">
-											    <span></span> </label></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="30 September 2026&lt;hr&gt;11:41:00 WITA&lt;hr&gt;000000000001&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td style="text-align:center"><span type="button" class="btn btn-label-danger btn-sm">Bekas</span></td>
 												<td nowrap="nowrap" style="text-align:center"><button type="button" data-toggle="modal" data-target="#modal_foto" data-skin="brand" data-html="true" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -356,9 +352,7 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
-												<td nowrap="nowrap" style="text-align:center"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
-												  <input type="checkbox" disabled checked="checked" />
-											    <span></span></label></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="30 September 2026&lt;hr&gt;11:41:00 WITA&lt;hr&gt;000000000001&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td style="text-align:center"><span type="button" class="btn btn-label-brand btn-sm">Baru</span></td>
 												<td nowrap="nowrap" style="text-align:center"><button type="button" data-toggle="modal" data-target="#modal_foto" data-skin="brand" data-html="true" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -384,9 +378,7 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
 												<td nowrap="nowrap" style="text-align:center">1</td>
-												<td nowrap="nowrap" style="text-align:center"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
-												  <input type="checkbox" disabled checked="checked" />
-											    <span></span></label></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="30 September 2026&lt;hr&gt;11:41:00 WITA&lt;hr&gt;000000000001&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td style="text-align:center"><span type="button" class="btn btn-label-danger btn-sm">Bekas</span></td>
 												<td nowrap="nowrap" style="text-align:center"><button type="button" data-toggle="modal" data-target="#modal_foto" data-skin="brand" data-html="true" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -412,9 +404,7 @@ function goBack() {
   <td nowrap="nowrap" style="text-align:center">1</td>
   <td nowrap="nowrap" style="text-align:center">1</td>
   <td nowrap="nowrap" style="text-align:center">1</td>
-  <td nowrap="nowrap" style="text-align:center"><label class="kt-checkbox kt-checkbox--bold kt-checkbox--brand">
-															    <input type="checkbox" disabled checked="checked">
-      <span></span> </label></td>
+  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="30 September 2026&lt;hr&gt;11:41:00 WITA&lt;hr&gt;000000000001&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
   <td style="text-align:center"><span type="button" class="btn btn-label-brand btn-sm">Baru</span></td>
   <td nowrap="nowrap" style="text-align:center"><button type="button" data-toggle="modal" data-target="#modal_foto" data-skin="brand" data-html="true" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -443,7 +433,7 @@ function goBack() {
 																<div class="col-xl-12">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Foto Barang</div><br><br>
 										<div class="kt-portlet__body">
 																								<div class="kt-portlet__content">
@@ -530,7 +520,7 @@ function goBack() {
 											<div class="kt-portlet kt-portlet--mobile ">
 											<div class="kt-portlet__head">
 											<div class="kt-portlet__head-label">
-												<span class="kt-portlet__head-icon" style="font-size:25px;"><i class="kt-font-danger flaticon2-list"></i></span>
+												<span class="kt-portlet__head-icon" style="font-size:25px;"><i class="kt-font-brand flaticon2-list"></i></span>
 												<h3 class="kt-portlet__head-title kt-font-bold">FOTO</h3>
 											</div>
 											<div class="kt-portlet__head-toolbar">
@@ -633,7 +623,7 @@ function goBack() {
 <div class="col-xl-12">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Barang</div><br><br>
 										<div class="kt-portlet__body">
 																								<div class="kt-portlet__content">
@@ -726,7 +716,7 @@ function goBack() {
 																<div class="col-xl-12">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Harga</div><br><br>
 										<div class="kt-portlet__body">
 																								<div class="kt-portlet__content">

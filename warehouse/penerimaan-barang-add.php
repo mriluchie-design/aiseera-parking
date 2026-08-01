@@ -162,7 +162,7 @@ function goBack() {
 					  <div class="col-lg-6">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Penerimaan</div><br><br>
 										 <div class="kt-portlet__body">
                       
@@ -212,7 +212,7 @@ function goBack() {
 					  <div class="col-lg-6">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Pemberi</div><br><br>
 										 <div class="kt-portlet__body">
                       
@@ -511,7 +511,7 @@ function goBack() {
 																<div class="col-xl-12">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Foto Barang</div><br><br>
 										<div class="kt-portlet__body">
 																								<div class="kt-portlet__content">
@@ -638,7 +638,7 @@ function goBack() {
 																<div class="col-xl-12">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Barang</div><br><br>
 										<div class="kt-portlet__body">
 																								<div class="kt-portlet__content">
@@ -783,7 +783,7 @@ function goBack() {
 																<div class="col-xl-6">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Pembelian</div><br><br>
 										<div class="kt-portlet__body">
 																								<div class="kt-portlet__content">
@@ -839,7 +839,7 @@ function goBack() {
 <div class="col-xl-6">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Penyimpanan</div><br><br>
 										<div class="kt-portlet__body">
 																								<div class="kt-portlet__content">
@@ -1107,7 +1107,7 @@ function goBack() {
 <div class="col-xl-12">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Barang</div><br><br>
 										<div class="kt-portlet__body">
 																								<div class="kt-portlet__content">
@@ -1200,7 +1200,7 @@ function goBack() {
 																<div class="col-xl-12">
 
 									<!--begin::Portlet-->
-									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--info">
+									<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Harga</div><br><br>
 										<div class="kt-portlet__body">
 																								<div class="kt-portlet__content">
@@ -1524,7 +1524,7 @@ function goBack() {
 											<div class="kt-portlet kt-portlet--mobile ">
 											<div class="kt-portlet__head">
 											<div class="kt-portlet__head-label">
-												<span class="kt-portlet__head-icon" style="font-size:25px;"><i class="kt-font-danger flaticon2-list"></i></span>
+												<span class="kt-portlet__head-icon" style="font-size:25px;"><i class="kt-font-brand flaticon2-list"></i></span>
 												<h3 class="kt-portlet__head-title kt-font-bold">FOTO</h3>
 											</div>
 											<div class="kt-portlet__head-toolbar">
