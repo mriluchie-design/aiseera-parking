@@ -419,32 +419,34 @@
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
 											  <th width="7%" rowspan="2" bgcolor="#f7fcff">Gudang</th>
-											  <th colspan="3" bgcolor="#f7fcff">Penerimaan Barang</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Tipe</th>
 											  <th colspan="2" bgcolor="#f7fcff">Pemesanan Barang</th>
+											  <th colspan="3" bgcolor="#f7fcff">Penerimaan Barang</th>
 											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Catatan Penerimaan</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Status</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Validasi</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 											<tr style="text-align:center">
+											  <th width="1%" bgcolor="#f7fcff">Nomor PO</th>
+											  <th width="1%" bgcolor="#f7fcff">Vendor</th>
 											  <th width="1%" bgcolor="#f7fcff">Nomor </th>
 											  <th width="1%" bgcolor="#f7fcff">Waktu </th>
 											  <th width="2%" bgcolor="#f7fcff">QC</th>
-											  <th width="1%" bgcolor="#f7fcff">Nomor PO</th>
-											  <th width="1%" bgcolor="#f7fcff">Vendor</th>
 										  </tr>
 										</thead>
 										<tbody>
 											<tr>
 												<td style="text-align:right" id="kt_table_1">1</td>
 												<td style="text-align:left" nowrap>Makassar</td>
+												<td style="text-align:center" nowrap><span class="btn btn-twitter btn-sm">Pembelian</span></td>
+												<td nowrap="nowrap" style="text-align:center">PO.062026.01.0006</td>
+												<td nowrap="nowrap" style="text-align:left">PT. Dili Jaya Indonesia</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
 												<td nowrap="nowrap" style="text-align:center">-
 												  <hr />
 												  -</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-												<td nowrap="nowrap" style="text-align:center">PO.062026.01.0006</td>
-												<td nowrap="nowrap" style="text-align:left">PT. Dili Jaya Indonesia</td>
 												<td nowrap="nowrap" style="text-align:center">&nbsp;</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Menunggu<br>Quality control" data-html="true">QC</span></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
@@ -463,13 +465,14 @@
 											<tr>
 											  <td style="text-align:right" id="kt_table_4">2</td>
 											  <td style="text-align:left" nowrap="nowrap">Makassar</td>
+											  <td style="text-align:center" nowrap="nowrap"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">Service</span></td>
+											  <td nowrap="nowrap" style="text-align:center">-</td>
+											  <td nowrap="nowrap" style="text-align:center">-</td>
 											  <td nowrap="nowrap" style="text-align:center">WH.IN.062026.01.0005</td>
 											  <td nowrap="nowrap" style="text-align:center">24 September 2026
 											    <hr />
 											    06:50:00 WITA</td>
 											  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-											  <td nowrap="nowrap" style="text-align:center">-</td>
-											  <td nowrap="nowrap" style="text-align:center">-</td>
 											  <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
 											  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Menunggu&lt;br&gt;Validasi" data-html="true">Validasi</span></td>
 											  <td style="text-align:center" nowrap="nowrap"><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
@@ -487,15 +490,15 @@
 										  <tr>
 												<td style="text-align:right" id="kt_table_1">3</td>
 												<td nowrap="nowrap" style="text-align:left">Makassar</td>
-
+												<td nowrap="nowrap" style="text-align:left">Pembelian</td>
+												<td nowrap="nowrap" style="text-align:center">PO.062026.01.0004</td>
+												<td nowrap="nowrap" style="text-align:left">PT. Dili Jaya Indonesia</td>
 												<td nowrap="nowrap" style="text-align:center">WH.IN.062026.01.0004</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 
 												  06:50:00 WITA</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">PO.062026.01.0004</td>
-												<td nowrap="nowrap" style="text-align:left">PT. Dili Jaya Indonesia</td>
 												<td nowrap="nowrap" style="text-align:center">&nbsp;</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Selesai</span></td>
 												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
@@ -515,13 +518,14 @@
 <tr>
 												<td style="text-align:right" id="kt_table_1">4</td>
 												<td nowrap="nowrap" style="text-align:left">Makassar</td>
+												<td nowrap="nowrap" style="text-align:left">Pembelian</td>
+												<td nowrap="nowrap" style="text-align:center">PO.062026.01.0003</td>
+												<td nowrap="nowrap" style="text-align:left">PT. Dili Jaya Indonesia</td>
 												<td nowrap="nowrap" style="text-align:center">WH.IN.062026.01.0003</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 												  06:50:00 WITA</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">PO.062026.01.0003</td>
-												<td nowrap="nowrap" style="text-align:left">PT. Dili Jaya Indonesia</td>
 												<td nowrap="nowrap" style="text-align:center">&nbsp;</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Selesai</span></td>
 												<td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">
@@ -541,13 +545,14 @@
 <tr>
 												<td style="text-align:right" id="kt_table_1">5</td>
 												<td style="text-align:left" nowrap>Makassar</td>
+												<td style="text-align:left" nowrap>Pembelian</td>
+												<td nowrap="nowrap" style="text-align:center">PO.062026.01.0002</td>
+												<td nowrap="nowrap" style="text-align:left">PT. Dili Jaya Indonesia</td>
 												<td nowrap="nowrap" style="text-align:center">WH.IN.062026.01.0002</td>
 												<td nowrap="nowrap" style="text-align:center">24 September 2026
 												  <hr />
 												  06:50:00 WITA</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">PO.062026.01.0002</td>
-												<td nowrap="nowrap" style="text-align:left">PT. Dili Jaya Indonesia</td>
 												<td nowrap="nowrap" style="text-align:left">Masih Menunggu Part yang kurang</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Menunggu<br>Quality Control" data-html="true">QC</span></td>
 												<td style="text-align:center" nowrap><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
@@ -565,13 +570,14 @@
 <tr>
   <td style="text-align:right" id="kt_table_1">6</td>
   <td style="text-align:left" nowrap="nowrap">Makassar</td>
+  <td style="text-align:left" nowrap="nowrap">Pembelian</td>
+  <td nowrap="nowrap" style="text-align:center">PO.062026.01.0001</td>
+  <td nowrap="nowrap" style="text-align:left">PT. Dili Jaya Indonesia</td>
   <td nowrap="nowrap" style="text-align:center">WH.IN.062026.01.0001</td>
   <td nowrap="nowrap" style="text-align:center">24 September 2026
     <hr />
     06:50:00 WITA</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-  <td nowrap="nowrap" style="text-align:center">PO.062026.01.0001</td>
-  <td nowrap="nowrap" style="text-align:left">PT. Dili Jaya Indonesia</td>
   <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
   <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Selesai</span></td>
   <td style="text-align:center" nowrap><span class="kt-badge kt-badge--success kt-badge--md kt-badge--rounded" data-toggle="modal" data-target="#modal_persetujuan_release"data-html="true">

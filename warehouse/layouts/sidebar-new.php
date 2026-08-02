@@ -64,6 +64,7 @@
 											
 											<li class="kt-menu__item" aria-haspopup="true"><a href="penerimaan-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Barang Masuk</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="pengeluaran-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Barang Keluar</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="peminjaman-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Peminjaman Barang</span></a></li>
 											
 											
 										</ul>
@@ -80,9 +81,10 @@
 										<ul class="kt-menu__subnav">
 											
 											<li class="kt-menu__item" aria-haspopup="true"><a href="purchase-order.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pemesanan Pembelian</span></a></li>
+											
+											<li class="kt-menu__item" aria-haspopup="true"><a href="uang-muka-pembelian.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Uang Muka Pembelian</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="faktur-pembelian.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Faktur Pembelian</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="pengeluaran-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Uang Muka Pembelian</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="pengeluaran-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pembayaran Pembelian</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="pembayaran-pembelian.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Pembayaran Pembelian</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="retur-barang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Retur Pembelian</span></a></li>
 											
 											

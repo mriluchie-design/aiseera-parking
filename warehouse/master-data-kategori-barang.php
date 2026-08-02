@@ -318,8 +318,8 @@
 											<div class="kt-portlet kt-portlet--mobile ">
 											<div class="kt-portlet__head">
 											<div class="kt-portlet__head-label">
-												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-clipboard-list"></i></span>
-												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">TAMBAH KATEGORI BARANG</h3>
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon-apps"></i></span>
+												<span class="kt-portlet__head-title kt-font-danger kt-bold">TAMBAH KATEGORI BARANG</span>
 											</div>
 											<div class="kt-portlet__head-toolbar">
 												<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">X</button>
@@ -329,7 +329,7 @@
 											<div class="tab-content">
 												<div class="tab-pane active" id="kt_tabs_7_1" role="tabpanel">
 													
-
+												
 												<div class="form-group row">
 												<div class="col-lg-12">
 														<label class="kt-font-brand">Nama :</label>
@@ -342,7 +342,7 @@
 									<div class="kt-portlet__foot kt-align-right">
 												<div class="">
 
-													<button type="button" class="btn btn-sm btn-success">
+													<button type="button" class="btn btn-success">
 					<i class="fa fa-check-circle"></i>Simpan</button>
 												</div>
 											</div>

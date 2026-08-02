@@ -24,7 +24,7 @@
             <div class="kt-subheader__main">
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    History Perangkat
+                    History Barang
                 </h3>
 				
 
@@ -151,7 +151,7 @@ function goBack() {
                                <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1">Instalasi</option>
                                       <option value="1">Service</option>
-                                      <option value="1">Penggantian</option>
+                                      
 									  <option value="2" selected>Keseluruhan</option>
                                      
                                   </select>
@@ -281,33 +281,38 @@ function goBack() {
 
 									<!--end:: Widgets/Activity-->
 								</div>
-								<div class="col-lg-4">
+								
+					  <div class="col-lg-5">
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Gate</div><br><br>
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Barang</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
 						<div class="col-lg-4">
-                          <label class="">Lokasi :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Makassar">
+                          <label class="">Nomor SKU	 :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="000101010726">
                         </div>
                         
-						<div class="col-lg-4">
-                          <label class="">Gate :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1">
+						<div class="col-lg-3">
+                          <label class="">Kategori :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Barrier Gate">
                         </div>
-						<div class="col-lg-4">
-                          <label class="">Jalur :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Masuk">
+						<div class="col-lg-5">
+                          <label class="">Jenis :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Hub Switch Gigabit Manage">
                         </div>
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
+						<div class="col-lg-4">
+                          <label class="">QR Code :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="0001010107260001">
+                        </div>
                         
-						<div class="col-lg-12">
-                          <label class="">Nama Jalur :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Mobil - 1">
+						<div class="col-lg-8">
+                          <label class="">Nama Barang :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Asus NUC 14MNK15 - DDR5 8Gb +NVME 256Gb">
                         </div>
 						
 						
@@ -319,39 +324,31 @@ function goBack() {
 						
                         </div>
                       </div>
-					  <div class="col-lg-5">
+					  <div class="col-lg-4">
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Perangkat</div><br><br>
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Detail Pembelian</div><br><br>
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
-						<div class="col-lg-3">
-                          <label class="">Nomor SKU	 :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="000101010726">
+						<div class="col-lg-6">
+                          <label class="">Tanggal :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="15 September 2026">
                         </div>
                         
-						<div class="col-lg-3">
-                          <label class="">Kategori :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Barrier Gate">
-                        </div>
 						<div class="col-lg-6">
-                          <label class="">Jenis :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Hub Switch Gigabit Manage">
+                          <label class="">Nomor PO :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="PO.062026.01.0001">
                         </div>
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
-						
-                        
 						<div class="col-lg-12">
-                          <label class="">Nama Barang :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Asus NUC 14MNK15 - DDR5 8Gb +NVME 256Gb">
+                          <label class="">Vendor :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="PT. Aksi Kode Indonesia">
+                        </div>
                         </div>
 						
-						
-						
-                        </div>
 						
 						
 						 </div>
@@ -389,7 +386,7 @@ function goBack() {
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">History Perangkat</div><br><br>
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">History Barang</div><br><br>
 										 
 						<div class="form-group row">
 						
@@ -409,48 +406,64 @@ function goBack() {
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Waktu</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Status</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">QR Code</th>
-											  <th width="15%" rowspan="2" bgcolor="#f7fcff">Nama Barang</th>
-											  <th colspan="2" bgcolor="#f7fcff">Installer</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Foto</th>
-								          </tr>
+											  <th colspan="7" bgcolor="#f7fcff">Installer</th>
+											  <th colspan="5" bgcolor="#f7fcff">Service</th>
+										  </tr>
 											<tr style="text-align:center">
 											  <th width="1%" bgcolor="#f7fcff">By</th>
 											  <th width="1%" bgcolor="#f7fcff">Perangkat</th>
-										  </tr>
+											  <th width="1%" bgcolor="#f7fcff">Lokasi</th>
+											  <th width="1%" bgcolor="#f7fcff">Gate</th>
+											  <th width="1%" bgcolor="#f7fcff">Jalur</th>
+											  <th width="1%" bgcolor="#f7fcff">Nama Jalur</th>
+											  <th width="1%" bgcolor="#f7fcff">Foto</th>
+											  <th width="1%" bgcolor="#f7fcff">By</th>
+											  <th width="1%" bgcolor="#f7fcff">Tanggal Service</th>
+											  <th width="1%" bgcolor="#f7fcff">Tanggal Selesai</th>
+											  <th width="1%" bgcolor="#f7fcff">Tempat Service  / Perusahaan</th>
+											  <th width="1%" bgcolor="#f7fcff">Foto</th>
+					                      </tr>
 										</thead>
 										<tbody>
 											<tr>
 												<td style="text-align:right" id="kt_table_1">1</td>
 												<td nowrap="nowrap" style="text-align:center">25 September 2026<hr />11:47:00 WITA</td>
 												<td nowrap="nowrap" style="text-align:left">Instalasi</td>
-												<td nowrap="nowrap" style="text-align:left">0001010107260001</td>
-												<td nowrap="nowrap" style="text-align:left">Custom Casing Dispenser Single</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026<hr>07:36:00 WITA<hr>12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
-												<td style="text-align:center" nowrap=""><button type="button" data-toggle="modal" data-target="#modal_foto" data-skin="brand" data-html="true" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
-									      </tr>
+												<td nowrap="nowrap" style="text-align:left">Makassar</td>
+												<td nowrap="nowrap" style="text-align:left">1</td>
+												<td nowrap="nowrap" style="text-align:left">Masuk</td>
+												<td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
+												<td nowrap="nowrap" style="text-align:center"><button type="button" data-toggle="modal" data-target="#modal_foto" data-skin="brand" data-html="true" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
+												<td nowrap="nowrap" style="text-align:center">-</td>
+												<td nowrap="nowrap" style="text-align:center">-</td>
+												<td nowrap="nowrap" style="text-align:center">-</td>
+												<td nowrap="nowrap" style="text-align:center">-</td>
+												<td nowrap="nowrap" style="text-align:center">-</td>
+										  </tr>
 											<tr>
 											  <td id="kt_table_4" style="text-align:right">2</td>
 											  <td nowrap="nowrap" style="text-align:center">25 September 2027<hr />11:47:00 WITA</td>
 											  <td nowrap="nowrap" style="text-align:left">Service</td>
-											  <td nowrap="nowrap" style="text-align:left">0001010107260001</td>
-											  <td>Payment Reader</td>
-											  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026&lt;hr&gt;07:36:00 WITA&lt;hr&gt;12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-											  <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
-											  <td style="text-align:center" nowrap=""><button type="button" data-toggle="modal" data-target="#modal_foto" data-skin="brand" data-html="true" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
-									      </tr>
-									      <tr>
-									        <td id="kt_table_4" style="text-align:right">3</td>
-										      <td nowrap="nowrap" style="text-align:center">25 September 2027<hr />12:47:00 WITA</td>
-										      <td nowrap="nowrap" style="text-align:left">Penggantian</td>
-										      <td nowrap="nowrap" style="text-align:left">0003010107260001</td>
-										      <td>Payment Reader</td>
-										      <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="24 September 2026&lt;hr&gt;07:36:00 WITA&lt;hr&gt;12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-										      <td nowrap="nowrap" style="text-align:left">Dispenser Single</td>
-										      <td style="text-align:center" nowrap=""><button type="button" data-toggle="modal" data-target="#modal_foto" data-skin="brand" data-html="true" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
-									      </tr>
-</tbody>
+											  <td nowrap="nowrap" style="text-align:center">-</td>
+											  <td nowrap="nowrap" style="text-align:center">-</td>
+											  <td nowrap="nowrap" style="text-align:center">-</td>
+											  <td nowrap="nowrap" style="text-align:center">-</td>
+											  <td nowrap="nowrap" style="text-align:center">-</td>
+											  <td nowrap="nowrap" style="text-align:center">-</td>
+											  <td nowrap="nowrap" style="text-align:center">-</td>
+											  <td style="text-align:center" nowrap=""><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+											  <td style="text-align:center" nowrap="">25 September 2027
+											    <hr />
+										      11:47:00 WITA</td>
+											  <td style="text-align:center" nowrap="">27 September 2027
+											    <hr />
+										      11:47:00 WITA</td>
+											  <td style="text-align:left" nowrap="">PT. Perangkat Service Indonesia</td>
+											  <td nowrap="nowrap" style="text-align:center"><button type="button" data-toggle="modal" data-target="#modal_foto" data-skin="brand" data-html="true" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
+										  </tr>
+  </tbody>
 									</table>
 									<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 					<div class="kt-pagination  kt-pagination--danger">

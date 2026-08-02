@@ -24,7 +24,7 @@
             <div class="kt-subheader__main">
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Master Data
+                    Stok
                 </h3>
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
@@ -65,10 +65,7 @@
 					<i class="fa fa-book-reader"></i>
 					<span class="kt-hidden-mobile">Bantuan</span>
 				</button>
-				<a href="barang-add.php" class="btn btn-info btn-sm">
-				<i class="fa fa-plus-circle"></i>Tambah Data
-				<!--<i class="flaticon2-plus"></i>-->
-			</a>
+				
 				
 			</div>
             </div>

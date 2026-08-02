@@ -1023,14 +1023,13 @@
 												
 
 												</div>
-												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-												
+												<br>
 												
 												
 									<div class="kt-portlet__foot kt-align-center">
 												<div class="">
-<button type="reset" class="btn btn-secondary btn-sm">Batal</button>
-													<button type="reset" class="btn btn-success btn-sm"><i class="fa fa-check-circle"></i>Simpan</button>
+<button type="reset" class="btn btn-secondary">Batal</button>
+													<button type="reset" class="btn btn-success"><i class="fa fa-check-circle"></i>Simpan</button>
 												</div>
 											</div>
 
@@ -1084,14 +1083,13 @@
 												
 
 												</div>
-												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-												
+												<br>
 												
 												
 									<div class="kt-portlet__foot kt-align-center">
 												<div class="">
-<button type="reset" class="btn btn-secondary btn-sm">Batal</button>
-													<button type="reset" class="btn btn-success btn-sm"><i class="fa fa-check-circle"></i>Simpan</button>
+<button type="reset" class="btn btn-secondary">Batal</button>
+													<button type="reset" class="btn btn-success"><i class="fa fa-check-circle"></i>Simpan</button>
 												</div>
 											</div>
 

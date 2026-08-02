@@ -130,30 +130,30 @@ function goBack() {
 										  
 <tr>
   <td id="kt_table_4">1</td>
-  <td nowrap="nowrap" style="text-align:center">Makassar</td>
+  <td nowrap="nowrap" style="text-align:left">Makassar</td>
   <td nowrap="nowrap" style="text-align:left">Sepeda Motor</td>
   <td nowrap="nowrap" style="text-align:left">DD 1111 LU</td>
   <td nowrap="nowrap" style="text-align:left"><span style="text-align:center">12321355123125</span></td>
   <td nowrap="nowrap" style="text-align:left">1 Januari 2026</td>
   <td nowrap="nowrap" style="text-align:left">31 Desember 2026</td>
-  <td nowrap="nowrap" style="text-align:center"><button type="button" class="btn btn-brand btn-sm">Online</button></td>
+  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Online</span></td>
   <td style="text-align:center" nowrap="nowrap">000001MREON0626</td>
   <td style="text-align:center" nowrap="nowrap">11 September 2026 <hr>
     14:14:00 WITA</td>
   <td style="text-align:center" nowrap="nowrap">000011PGTEM0626</td>
   <td style="text-align:center" nowrap="nowrap"><span class="btn btn-label-warning btn-sm">QRIS</span></td>
   <td style="text-align:center" nowrap="nowrap">GoPay</td>
-  <td style="text-align:center" nowrap="nowrap"><button type="button" class="btn btn-success btn-sm">Aktif</button></td>
+  <td style="text-align:center" nowrap="nowrap"><span class="btn btn-label-twitter btn-sm">Aktif</span></td>
   </tr>
 												<tr>
 												<td id="kt_table_1">2</td>
-												<td nowrap="nowrap" style="text-align:center">Makassar</td>
+												<td nowrap="nowrap" style="text-align:left">Ambon - Slamet Riyadi</td>
 												<td nowrap="nowrap" style="text-align:left">Sepeda Motor</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LU</td>
 												<td nowrap="nowrap" style="text-align:left"><span style="text-align:center">12321355123125</span></td>
 												<td nowrap="nowrap" style="text-align:left">1 Januari 2025</td>
 												<td nowrap="nowrap" style="text-align:left">31 Desember 2025</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000003MP1025" data-html="true"> <img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001<hr>Muhammad Nasrullah, S.Kom" data-html="true"> <img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td style="text-align:center" nowrap="">000001MREOF0626</td>
 												<td style="text-align:center" nowrap="">11 September 2026
                                                   <hr />
@@ -161,11 +161,11 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:center">000012PGTEM0626</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm">QRIS</span></td>
 												<td nowrap="nowrap" style="text-align:center">GoPay</td>
-												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm">Renew</button></td>
+												<td style="text-align:center" nowrap=""><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline">Renew</span></td>
 												</tr>
 										  <tr>
 												<td id="kt_table_1">3</td>
-												<td style="text-align:center" nowrap>Makassar</td>
+												<td style="text-align:left" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:left">Sepeda Motor</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LU</td>
 												<td nowrap="nowrap" style="text-align:left"><span style="text-align:center">12321355123124</span></td>
@@ -179,7 +179,7 @@ function goBack() {
 												<td style="text-align:center" nowrap="">-</td>
 												<td style="text-align:center" nowrap=""><span class="btn btn-label-danger btn-sm">Tunai</span></td>
 												<td style="text-align:center" nowrap=""><span class="btn btn-label-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Penerima<hr>Yuni Saslia, SE<hr>31 September 2026<br>10:02 WITA" data-html="true">Tunai</span></td>
-												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-danger btn-sm">Berakhir</button></td>
+												<td style="text-align:center" nowrap=""><span class="btn btn-label-danger btn-sm">Berakhir</span></td>
 										  </tr>
 
 
@@ -674,22 +674,9 @@ function goBack() {
 
   </div>
   </div>
-  </div>
-</div>
 
 									<!--end: Datatable -->
-								</div>
-							</div>
-
-            </div>
-
-
-
-
-                </div>
-            </div>
-        </div>
-    </div>
+								
 
 <?php require '../layouts/footer.php' ?>
 <?php require '../layouts/foot.php' ?>
