@@ -532,6 +532,18 @@
 											  <td style="text-align:center"><button type="button" class="btn btn-outline-success btn-elevate btn-icon btn-icon btn-sm"><i class="fa fa-eye"></i></button></td>
 										  </tr>
 											<tr>
+											  <td colspan="11" id="kt_table_14" style="text-align:right">&nbsp;</td>
+										  </tr>
+											<tr>
+											  <td colspan="5" bgcolor="#f7fcff" id="kt_table_11" style="text-align:right"><b>Total</b></td>
+											  <td bgcolor="#f7fcff" style="text-align:right" id="kt_table_11">&nbsp;</td>
+											  <td bgcolor="#f7fcff" style="text-align:right" id="kt_table_11">&nbsp;</td>
+											  <td bgcolor="#f7fcff" style="text-align:right" id="kt_table_11">&nbsp;</td>
+											  <td bgcolor="#f7fcff" style="text-align:right" id="kt_table_11">&nbsp;</td>
+											  <td bgcolor="#f7fcff" style="text-align:right" id="kt_table_11">&nbsp;</td>
+											  <td bgcolor="#f7fcff">&nbsp;</td>
+										  </tr>
+											<tr>
 											  <td colspan="11" id="kt_table_7" style="text-align:right">&nbsp;</td>
 										  </tr>
 											<tr>
@@ -678,9 +690,6 @@
 											  <td colspan="11" id="kt_table_6" style="text-align:right">&nbsp;</td>
 										  </tr>
 										  <tr>
-										      <td bgcolor="" style="text-align:right" colspan="11" id="kt_table_8">&nbsp;</td>
-									      </tr>
-									      <tr>
 										    <td colspan="5" bgcolor="#f7fcff" id="kt_table_10" style="text-align:right"><b>Total</b></td>
 										    <td bgcolor="#f7fcff" style="text-align:right" id="kt_table_10">&nbsp;</td>
 										    <td bgcolor="#f7fcff" style="text-align:right" id="kt_table_10">&nbsp;</td>
