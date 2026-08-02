@@ -30,7 +30,7 @@
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											KATEGORI BARANG</span>
+											Gudang</span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
 										</form>
@@ -69,7 +69,7 @@
                     </ul>
                     <!--end::Nav-->
                 </div>
-                <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal_tambah_kategori_barang"><i class="fa fa-plus-circle"></i>Tambah Data</button>
+                <button type="button" class="btn btn-info btn-sm" data-toggle="modal" data-target="#modal_tambah_gudang"><i class="fa fa-plus-circle"></i>Tambah Data</button>
             </div>
         </div>
     </div>
@@ -105,31 +105,26 @@
                         <div class="form-group row">
 						
                             <div class="col-lg-2">
-                                <label>Kategori :</label>
+                                <label>Lokasi :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      
-									  <option value="1">Kebutuhan Project</option>
-                                      <option value="2">Peralatan Kantor</option>
-                                      <option value="2">Peralatan Kerja</option>
-                                      <option value="2" selected>Keseluruhan</option>
+                                      <option value="1" selected="">Makassar</option>
+                                      <option value="2">Pare-Pare</option>
+                                      <option value="2">Balikpapan</option>
+                                      <option value="2">Samarinda</option>
+                                      <option value="2">Tarakan</option>
+                                      <option value="2">Nunukan</option>
+                                      <option value="2">Manado</option>
+                                      <option value="2">Bitung</option>
+                                      <option value="2">Ambon - Yos Sudarso</option>
+                                      <option value="2">Ambon - Slamet Riyadi</option>
+                                      <option value="2">Ternate</option>
+                                      <option value="2">Sorong</option>
+                                      <option value="2">Keseluruhan</option>
                                                                            
                                   </select>
     		                    </div>
-								<div class="col-lg-2">
-                                <label>Sub Kategori :</label>
 								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                   
-									  <option value="1">Peralatan Jaringan</option>
-                                      <option value="2">Peralatan Listrik</option>
-                                      <option value="2" selected>Keseluruhan</option>
-                                     
-									  
-									  
-                                                                           
-                                  </select>
-    		                    </div>
 								
 							
 							
@@ -181,14 +176,21 @@
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" bgcolor="#f7fcff">No</th>
-											  <th width="35%" bgcolor="#f7fcff">Kategori</th>
+											  <th width="2%" bgcolor="#f7fcff">Lokasi</th>
+											  <th width="1%" bgcolor="#f7fcff">Kode Gudang</th>
+											  <th width="5%" bgcolor="#f7fcff">Nama Gudang</th>
+											  <th width="20%" bgcolor="#f7fcff">Alamat</th>
 											  <th width="1%" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 										</thead>
 										<tbody>
 											<tr>
-											  <td id="kt_table_1" style="text-align:right">1</td>
-											  <td style="text-align:left" nowrap>Casing</td>
+												<td style="text-align:right" nowrap>1</td>
+												<td nowrap="nowrap" style="text-align:left">Makassar</td>
+												<td nowrap="nowrap" style="text-align:left">MJ6</td>
+												<td nowrap="nowrap" style="text-align:left">Makassar - J6</td>
+												<td nowrap="nowrap" style="text-align:center">&nbsp;</td>
+												
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
@@ -207,46 +209,95 @@
 																				<span class="kt-nav__link-text">Hapus</span>
 																			</a>
 																		</li>
-												</ul>
+																	</ul>
+									          </div>
+										      </div></td>
+										  </tr>
+											<tr>
+											  <td nowrap="nowrap" style="text-align:right">2</td>
+											  <td nowrap="nowrap" style="text-align:left">Makassar</td>
+											  <td nowrap="nowrap" style="text-align:left">MJ9</td>
+											  <td nowrap="nowrap" style="text-align:left">Makassar - J9</td>
+											  <td nowrap="nowrap" style="text-align:center">&nbsp;</td>
+											  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
+										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
+										        <ul class="kt-nav">
+																	
+																		
+																		<li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_kategori" data-skin="brand" data-html="true">
+																			<a href="#" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																		</li>
+																	</ul>
 									          </div>
 										      </div></td>
 										  </tr>
 										  <tr>
-										    <td id="kt_table_1" style="text-align:right">2</td>
-										    <td style="text-align:left" nowrap>Reader</td>
-										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+												<td style="text-align:right" nowrap>3</td>
+												<td nowrap="nowrap" style="text-align:left">Makassar</td>
+												<td nowrap="nowrap" style="text-align:left">M14</td>
+												<td nowrap="nowrap" style="text-align:left">Makassar - i14</td>
+												<td nowrap="nowrap" style="text-align:center">&nbsp;</td>
+											
+												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
-										          <li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_kategori" data-skin="brand" data-html="true"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
-										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
-									            </ul>
+																	
+																		
+																		<li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_kategori" data-skin="brand" data-html="true">
+																			<a href="#" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																		</li>
+																	</ul>
 									          </div>
 										      </div></td>
-									      </tr>
+										  </tr>
 										  <tr>
-										    <td id="kt_table_5" style="text-align:right">3</td>
-										    <td style="text-align:left" nowrap>Scanner</td>
-										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
+												<td style="text-align:right" nowrap>4</td>
+												<td nowrap="nowrap" style="text-align:left">Manado</td>
+												<td nowrap="nowrap" style="text-align:left">MDO</td>
+												<td nowrap="nowrap" style="text-align:left">Gudang Manado</td>
+												<td nowrap="nowrap" style="text-align:center">&nbsp;</td>
+												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 										        <ul class="kt-nav">
-										          <li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_kategori" data-skin="brand" data-html="true"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
-										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
-									            </ul>
+																	
+																		
+																		<li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_kategori" data-skin="brand" data-html="true">
+																			<a href="#" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																		</li>
+																	</ul>
 									          </div>
 										      </div></td>
-									      </tr>
-										  <tr>
-										    <td id="kt_table_3" style="text-align:right">4</td>
-										    <td nowrap="nowrap" style="text-align:left">Printer</td>
-										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
-										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
-										        <ul class="kt-nav">
-										          <li class="kt-nav__item" data-toggle="modal" data-target="#modal_edit_kategori" data-skin="brand" data-html="true"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
-										          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
-									            </ul>
-									          </div>
-										      </div></td>
-									      </tr>
+										  </tr>
 									    </tbody>
 									</table>
                     <!--end: Datatable -->
@@ -310,7 +361,7 @@
                 </div>
             </div>
 			<!--begin::Modal 1-->
-									<div class="modal fade" id="modal_tambah_kategori_barang" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+									<div class="modal fade" id="modal_tambah_gudang" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered modal-md" role="document">
 									<div class="modal-content">
 
@@ -318,8 +369,8 @@
 											<div class="kt-portlet kt-portlet--mobile ">
 											<div class="kt-portlet__head">
 											<div class="kt-portlet__head-label">
-												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-list-alt"></i></span>
-												<span class="kt-portlet__head-title kt-font-danger kt-bold">TAMBAH KATEGORI BARANG</span>
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-clipboard-list"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger kt-bold">TAMBAH GUDANG</h3>
 											</div>
 											<div class="kt-portlet__head-toolbar">
 												<button type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">X</button>
@@ -329,21 +380,51 @@
 											<div class="tab-content">
 												<div class="tab-pane active" id="kt_tabs_7_1" role="tabpanel">
 													
-												
+
 												<div class="form-group row">
-												<div class="col-lg-12">
-														<label class="kt-font-brand">Nama :</label>
+												<div class="col-lg-6">
+														<label class="kt-font-brand">Lokasi :</label>
+														 <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Makassar</option>
+                                      <option value="2">Pare-Pare</option>
+                                      <option value="2">Balikpapan</option>
+                                      <option value="2">Samarinda</option>
+                                      <option value="2">Tarakan</option>
+                                      <option value="2">Nunukan</option>
+                                      <option value="2">Manado</option>
+                                      <option value="2">Bitung</option>
+                                      <option value="2">Ambon - Yos Sudarso</option>
+                                      <option value="2">Ambon - Slamet Riyadi</option>
+                                      <option value="2">Ternate</option>
+                                      <option value="2">Sorong</option>
+                                                                           
+                                  </select>
+													</div>
+													<div class="col-lg-6">
+														<label class="kt-font-brand">Kode Gudang :</label>
+														 <input type="text" class="form-control form-control-sm" placeholder="">
+													</div>
+												
+													</div>
+													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+													<div class="form-group row">
+													<div class="col-lg-12">
+														<label class="kt-font-brand">Nama Gudang :</label>
 														<input type="text" class="form-control form-control-sm" placeholder="">
 													</div>
-													</div>
+
+
+												
 													
 													
+
+												</div>&nbsp;
 												
 											
 									<div class="kt-portlet__foot kt-align-right">
 												<div class="">
 
-													<button type="button" class="btn btn-success">
+													<button type="button" class="btn btn-sm btn-success">
 					<i class="fa fa-check-circle"></i>Simpan</button>
 												</div>
 											</div>
@@ -423,7 +504,11 @@
         </div>
         </div>
         </div>
-       
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
   
 
 <?php require '../layouts/footer.php' ?>

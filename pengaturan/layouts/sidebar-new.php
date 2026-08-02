@@ -89,6 +89,7 @@
 </svg></span><span class="kt-menu__link-text">Instalasi</span><i class="kt-menu__ver-arrow la la-angle-right"></i></a>
 									<div class="kt-menu__submenu "><span class="kt-menu__arrow"></span>
 										<ul class="kt-menu__subnav">
+											<li class="kt-menu__item " aria-haspopup="true"><a href="dashboard-instalasi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Dashboard</span></a></li>
 											<li class="kt-menu__item " aria-haspopup="true"><a href="perangkat-instalasi.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Perangkat</span></a></li>
 											<li class="kt-menu__item " aria-haspopup="true"><a href="perangkat-terpasang.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Perangkat Terpasang</span></a></li>
 											<li class="kt-menu__item " aria-haspopup="true"><a href="instalasi-monitoring-room.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Monitoring Room</span></a></li>
