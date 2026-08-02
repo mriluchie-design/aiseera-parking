@@ -373,7 +373,7 @@
 												<td width="1%" nowrap="nowrap" style="text-align:center">Orang</td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026<hr />07:52:00 WITA</td>
 												<td class="text-center">01521531355135</td>
-												<td class="text-center"><span class="btn btn-label-linkedin btn-sm">QRIS</span></td>
+												<td class="text-center"><span class="btn btn-label-warning btn-sm">QRIS</span></td>
 												<td class="text-center">OVO</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/keluar-mobil.png" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -398,7 +398,7 @@
 												  <hr />
 											    07:53:00 WITA</td>
 												<td class="text-center">01521531355135</td>
-												<td class="text-center"><span class="btn btn-label-linkedin btn-sm">QRIS</span></td>
+												<td class="text-center"><span class="btn btn-label-warning btn-sm">QRIS</span></td>
 												<td class="text-center">DANA</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:130px; height:80px;" src="../assets/media/kendaraan/foto-motor-masuk.png" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
