@@ -162,6 +162,18 @@ function goBack() {
                           <label>Nama Barang :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Custom Casing Dispenser Single">
                         </div>
+						<div class="col-lg-1">
+                          <label>Request Order :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Otomatis">
+                        </div>
+						<div class="col-lg-1">
+                          <label>Stok Minimum :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1">
+                        </div>
+						<div class="col-lg-1">
+                          <label>Satuan :</label>
+                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Unit">
+                        </div>
                         </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">

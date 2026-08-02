@@ -504,7 +504,7 @@
 									<div class="kt-portlet__foot kt-align-right">
 												<div class="">
 
-													<button type="button" class="btn btn-sm btn-success">
+													<button type="button" class="btn btn-success">
 					<i class="fa fa-check-circle"></i>Simpan</button>
 												</div>
 											</div>

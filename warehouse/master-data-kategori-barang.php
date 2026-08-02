@@ -318,7 +318,7 @@
 											<div class="kt-portlet kt-portlet--mobile ">
 											<div class="kt-portlet__head">
 											<div class="kt-portlet__head-label">
-												<span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon-apps"></i></span>
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-list-alt"></i></span>
 												<span class="kt-portlet__head-title kt-font-danger kt-bold">TAMBAH KATEGORI BARANG</span>
 											</div>
 											<div class="kt-portlet__head-toolbar">

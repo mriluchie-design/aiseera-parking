@@ -439,7 +439,7 @@
 											<tr>
 												<td style="text-align:right" id="kt_table_1">1</td>
 												<td style="text-align:left" nowrap>Makassar</td>
-												<td style="text-align:center" nowrap><span class="btn btn-twitter btn-sm">Pembelian</span></td>
+												<td style="text-align:center" nowrap><span class="btn btn-label-brand btn-sm">Pembelian</span></td>
 												<td nowrap="nowrap" style="text-align:center">PO.062026.01.0006</td>
 												<td nowrap="nowrap" style="text-align:left">PT. Dili Jaya Indonesia</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
@@ -490,7 +490,7 @@
 										  <tr>
 												<td style="text-align:right" id="kt_table_1">3</td>
 												<td nowrap="nowrap" style="text-align:left">Makassar</td>
-												<td nowrap="nowrap" style="text-align:left">Pembelian</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Pembelian</span></td>
 												<td nowrap="nowrap" style="text-align:center">PO.062026.01.0004</td>
 												<td nowrap="nowrap" style="text-align:left">PT. Dili Jaya Indonesia</td>
 												<td nowrap="nowrap" style="text-align:center">WH.IN.062026.01.0004</td>
@@ -518,7 +518,7 @@
 <tr>
 												<td style="text-align:right" id="kt_table_1">4</td>
 												<td nowrap="nowrap" style="text-align:left">Makassar</td>
-												<td nowrap="nowrap" style="text-align:left">Pembelian</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Pembelian</span></td>
 												<td nowrap="nowrap" style="text-align:center">PO.062026.01.0003</td>
 												<td nowrap="nowrap" style="text-align:left">PT. Dili Jaya Indonesia</td>
 												<td nowrap="nowrap" style="text-align:center">WH.IN.062026.01.0003</td>
@@ -545,7 +545,7 @@
 <tr>
 												<td style="text-align:right" id="kt_table_1">5</td>
 												<td style="text-align:left" nowrap>Makassar</td>
-												<td style="text-align:left" nowrap>Pembelian</td>
+												<td style="text-align:center" nowrap><span class="btn btn-label-brand btn-sm">Pembelian</span></td>
 												<td nowrap="nowrap" style="text-align:center">PO.062026.01.0002</td>
 												<td nowrap="nowrap" style="text-align:left">PT. Dili Jaya Indonesia</td>
 												<td nowrap="nowrap" style="text-align:center">WH.IN.062026.01.0002</td>
@@ -570,7 +570,7 @@
 <tr>
   <td style="text-align:right" id="kt_table_1">6</td>
   <td style="text-align:left" nowrap="nowrap">Makassar</td>
-  <td style="text-align:left" nowrap="nowrap">Pembelian</td>
+  <td style="text-align:center" nowrap="nowrap"><span class="btn btn-label-brand btn-sm">Pembelian</span></td>
   <td nowrap="nowrap" style="text-align:center">PO.062026.01.0001</td>
   <td nowrap="nowrap" style="text-align:left">PT. Dili Jaya Indonesia</td>
   <td nowrap="nowrap" style="text-align:center">WH.IN.062026.01.0001</td>

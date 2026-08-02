@@ -622,7 +622,7 @@
 													
 
 												<div class="form-group row">
-												<div class="col-lg-6">
+												<div class="col-lg-5">
 														<label class="kt-font-brand">Kategori :</label>
 														 <select class="form-control kt-selectpicker" data-live-search="true">
                                   
@@ -634,30 +634,19 @@
                                                                            
                                   </select>
 													</div>
-												
-													</div>
-													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-													<div class="form-group row">
-													<div class="col-lg-12">
-														<label class="kt-font-brand">Nama :</label>
+													<div class="col-lg-7">
+														<label class="kt-font-brand">Jenis Barang :</label>
 														<input type="text" class="form-control form-control-sm" placeholder="">
 													</div>
-													
-
-
 												
-													
-													
-
-												</div>
-												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-												
+													</div>
+													<br>
 												
 											
 									<div class="kt-portlet__foot kt-align-right">
 												<div class="">
 
-													<button type="button" class="btn btn-sm btn-success">
+													<button type="button" class="btn btn-success">
 					<i class="fa fa-check-circle"></i>Simpan</button>
 												</div>
 											</div>

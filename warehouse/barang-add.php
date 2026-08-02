@@ -212,8 +212,15 @@ function goBack() {
 													</div>
 													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
                      <div class="form-group row">
-					 
-					  <div class="col-lg-6">
+					 <div class="col-lg-12">
+                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Isikan Nama Barang dengan Lengkap" data-html="true">*</code> Nama Barang :</label>
+                          <input type="text" class="form-control form-control-sm" placeholder="">
+                        </div>
+					  
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						 <div class="form-group row">
+						<div class="col-lg-6">
                           <label class="">Vendor :</label>
                            <select class="form-control kt-selectpicker" data-live-search="true">
 														<option>PT. ABC</option>
@@ -221,13 +228,6 @@ function goBack() {
 														
 														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 														</select>
-                        </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						 <div class="form-group row">
-						<div class="col-lg-12">
-                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Isikan Nama Barang dengan Lengkap" data-html="true">*</code> Nama Barang :</label>
-                          <input type="text" class="form-control form-control-sm" placeholder="">
                         </div>
 																										</div>
 																										<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
