@@ -113,7 +113,7 @@ License: You must have a valid license purchased only from themeforest(the above
                           Email faktur ke pelanggan Anda
                         </td>
                         <td class="text-label">
-                          Terima pembayaran lebih cepat dengan Jurnal Pay
+                          Terima pembayaran lebih cepat 
                         </td>
                       </tr>
                       <tr>

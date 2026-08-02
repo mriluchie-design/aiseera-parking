@@ -149,10 +149,10 @@ Highcharts.chart('container3', {
         type: 'column'
     },
     title: {
-        text: 'Browser market shares. January, 2018'
+        text: ''
     },
     subtitle: {
-        text: 'Click the columns to view versions. Source: <a href="http://statcounter.com" target="_blank">statcounter.com</a>'
+        text: ''
     },
     accessibility: {
         announceNewData: {
@@ -454,7 +454,7 @@ Highcharts.chart('container3', {
 Highcharts.chart('container4', {
 
     title: {
-        text: 'Logarithmic axis demo'
+        text: ''
     },
 
     xAxis: {
@@ -487,7 +487,7 @@ Highcharts.chart('container4', {
 Highcharts.chart('container5', {
 
     title: {
-        text: 'Logarithmic axis demo'
+        text: ''
     },
 
     xAxis: {
@@ -525,7 +525,7 @@ Highcharts.chart('container6', {
         type: 'pie'
     },
     title: {
-        text: 'Browser market shares in January, 2018'
+        text: ''
     },
     tooltip: {
         pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
@@ -575,7 +575,7 @@ Highcharts.chart('container6', {
 Highcharts.chart('container7', {
 
     title: {
-        text: 'Logarithmic axis demo'
+        text: ''
     },
 
     xAxis: {
