@@ -24,7 +24,7 @@
             <div class="kt-subheader__main">
 									<h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    EDIT
+                    Edit
                 </h3>
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
@@ -212,8 +212,15 @@ function goBack() {
 													</div>
 													<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
                      <div class="form-group row">
-					 
-					  <div class="col-lg-6">
+					 <div class="col-lg-12">
+                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Isikan Nama Barang dengan Lengkap" data-html="true">*</code> Nama Barang :</label>
+                          <input type="text" class="form-control form-control-sm" placeholder="">
+                        </div>
+					  
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						 <div class="form-group row">
+						<div class="col-lg-6">
                           <label class="">Vendor :</label>
                            <select class="form-control kt-selectpicker" data-live-search="true">
 														<option>PT. ABC</option>
@@ -222,12 +229,18 @@ function goBack() {
 														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 														</select>
                         </div>
+						<div class="col-lg-3">
+                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Stok :</label>
+                          <input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="12">
                         </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						 <div class="form-group row">
-						<div class="col-lg-12">
-                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="Isikan Nama Barang dengan Lengkap" data-html="true">*</code> Nama Barang :</label>
-                          <input type="text" class="form-control form-control-sm" placeholder="">
+						<div class="col-lg-3">
+                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Satuan :</label>
+                         <select class="form-control kt-selectpicker" data-live-search="true">
+														<option selected>Unit</option>
+														<option>Pieces</option>
+														
+														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
+														</select>
                         </div>
 																										</div>
 																										<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
@@ -252,7 +265,7 @@ function goBack() {
 																								<div class="kt-portlet__content">
 																									<div class="form-group row">
 					  
-						<div class="col-lg-6">
+						<div class="col-lg-5">
                           <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Harga Pembelian :</label>
                           <div class="input-group input-group-sm">
 															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" style="border-color:#0e62ae" id="basic-addon2">Rp.</span></div>
@@ -266,12 +279,12 @@ function goBack() {
                           <label>Pajak :</label>
                          <select class="form-control kt-selectpicker" data-live-search="true">
 														<option>12%</option>
-														<option>11%</option>
+														<option selected>11%</option>
 														
 														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 														</select>
                         </div>
-						<div class="col-lg-4" >
+						<div class="col-lg-5" >
                           <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Tanggal Pembelian :</label>
                           <div class="input-group date">
 													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" >
@@ -287,7 +300,7 @@ function goBack() {
 						<div class="form-group row">
 						
 						
-						<div class="col-lg-6">
+						<div class="col-lg-5">
                           <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Harga Penjualan :</label>
                           <div class="input-group input-group-sm">
 															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" style="border-color:#0e62ae" id="basic-addon2">Rp.</span></div>
@@ -301,12 +314,12 @@ function goBack() {
                           <label>Pajak :</label>
                          <select class="form-control kt-selectpicker" data-live-search="true">
 														<option>12%</option>
-														<option>11%</option>
+														<option selected>11%</option>
 														
 														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
 														</select>
                         </div>
-						<div class="col-lg-4" >
+						<div class="col-lg-5" >
                           <label>Tanggal Expired :</label>
                           <div class="input-group date">
 													<input type="text" class="form-control form-control-sm" readonly="" placeholder="5 Mei 2026" id="kt_datepicker_2" >
@@ -931,27 +944,7 @@ function goBack() {
 						
 						
                         </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
 						
-						<div class="col-lg-6">
-                          <label class=""><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Stok :</label>
-                          <input id="kt_touchspin_4" type="text" class="form-control form-control-sm bootstrap-touchspin-vertical-btn" value="" name="demo1" placeholder="12">
-                        </div>
-						<div class="col-lg-6">
-                          <label><code data-toggle="kt-tooltip" data-skin="light" title="" data-original-title="" data-html="true">*</code> Satuan :</label>
-                         <select class="form-control kt-selectpicker" data-live-search="true">
-														<option selected>Unit</option>
-														<option>Pieces</option>
-														
-														<option data-content="<a href='#' class='btn btn-sm m-button-add'><i class='fa fa-plus-circle'></i> Tambah Data</a>" class="select-option-add" value="add"></option>
-														</select>
-                        </div>
-						
-						
-						
-						
-                        </div>
 						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
 						<div class="col-lg-4">
@@ -984,24 +977,31 @@ function goBack() {
 						
 						<div class="col-lg-12">
                           <label class="">Penanggung Jawab :</label>
-                          <select class="form-control kt-selectpicker form-control" data-live-search="true">
-					 															<optgroup label="Direksi">
-					 																<option value="AK"selected >Muhammad Nasrullah, S.Kom</option>
+                          <div class="form-group">
+
+					                         <select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
+					 															<option value="1" disabled selected>Cari / Pilih Pegawai...</option>
+																				<optgroup label="Direksi" class="a">
+					 																<option value="AK">Muhammad Nasrullah, S.Kom</option>
 					 															</optgroup>
-					 															<optgroup label="Umum">
-																					<option value="HI">Deddy Rafsanjani, S.Sos</option>
-					 															</optgroup>
-																				<optgroup label="Keuangan dan Asset">
+					 															
+																				<optgroup label="Keuangan" class="a">
 					 																<option value="HI">Oklan Zulkifli, SE</option>
 					 															</optgroup>
-																				<optgroup label="Operasional">
+																				<optgroup label="Operasional" class="a">
+					 																<option value="HI">Deddy Rafsanjani, S.Sos</option>
 					 																<option value="HI">Nursiah, S.Kom</option>
 					 															</optgroup>
-																				<optgroup label="Pengembangan Usaha dan Kerjasama">
+																				<optgroup label="Teknologi dan Riset" class="a">
 					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
 					 															</optgroup>
+																				<optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
+					 															</optgroup>
+																				
 
 					 														</select>
+					                       </div>
                         </div>
 						
 						
@@ -1369,12 +1369,7 @@ function goBack() {
   </div>
 
 									<!--end: Datatable -->
-								</div>
-							</div>
-
-            </div>
-            </div>
-            </div>
+								
 									
 
 <?php require '../layouts/footer.php' ?>
