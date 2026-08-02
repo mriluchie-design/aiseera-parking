@@ -164,16 +164,6 @@
                                   </select>
                             </div>
 							<div class="col-lg-2">
-                                <label>Penerima Pembayaran :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Muhammad Nasrullah, S.Kom</option>
-                                      <option value="1">Muhammad Ramadhan, S.T</option>
-                                      <option value="2">Keseluruhan</option>
-                                                                           
-                                  </select>
-                            </div>
-							<div class="col-lg-2">
                                 <label>Provider Pembayaran :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
@@ -192,6 +182,17 @@
                                                                            
                                   </select>
                             </div>
+							<div class="col-lg-2">
+                                <label>Penerima Pembayaran :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1" selected="">Muhammad Nasrullah, S.Kom</option>
+                                      <option value="1">Muhammad Ramadhan, S.T</option>
+                                      <option value="2">Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
+							
                             </div>
                             
 							
@@ -389,7 +390,7 @@
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Cabang</th>
+											  <th width="3%" rowspan="2" bgcolor="#f7fcff">Cabang</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Sticker<br>
 										      Member</th>
 											  <th colspan="5" bgcolor="#f7fcff">Penanggung Jawab</th>
@@ -399,22 +400,22 @@
 										  </tr>
 											<tr style="text-align:center">
 											  <th width="1%" bgcolor="#f7fcff">Foto</th>
-											  <th width="9%" bgcolor="#f7fcff">Nama</th>
+											  <th width="10%" bgcolor="#f7fcff">Nama</th>
 											  <th width="1%" bgcolor="#f7fcff">Email</th>
 											  <th width="1%" bgcolor="#f7fcff">HP</th>
 											  <th width="1%" bgcolor="#f7fcff">WA</th>
 											  <th width="1%" bgcolor="#feffed">Kategori</th>
 											  <th width="2%" bgcolor="#feffed">No. Plat</th>
-											  <th width="4%" bgcolor="#feffed">Tanggal Registrasi</th>
-											  <th width="4%" bgcolor="#feffed">Aktif Hingga</th>
+											  <th width="3%" bgcolor="#feffed">Tanggal Registrasi</th>
+											  <th width="3%" bgcolor="#feffed">Aktif Hingga</th>
 											  <th width="1%" bgcolor="#feffed">Member</th>
 											  <th width="1%" bgcolor="#feffed">Pembayaran<br>Registrasi</th>
 				                          </tr>
 										</thead>
 										<tbody>
 											<tr>
-												<td id="kt_table_1">1</td>
-												<td style="text-align:center" nowrap>Makassar</td>
+												<td align="right">1</td>
+												<td style="text-align:left" nowrap>Makassar</td>
 												<td style="text-align:center" nowrap>-</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000001MP1025" data-html="true"> <img src="../assets/media/users/100_1.jpg" alt="image" /> </a></td>
 												<td nowrap="nowrap" style="text-align:left">Muhammad Nasrullah</td>
@@ -425,7 +426,7 @@
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
 												<td nowrap="nowrap" style="text-align:left">1 September 2026</td>
 												<td nowrap="nowrap" style="text-align:left">31 Desember 2026</td>
-												<td style="text-align:center" nowrap=""><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">Non Sticker</span></td>
+												<td style="text-align:center" nowrap=""><span class="btn btn-brand btn-sm">Non Sticker</span></td>
 												<td class="text-center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355135&lt;hr&gt;QRIS&lt;hr&gt;Gopay" data-html="true">QRIS</span></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
@@ -489,8 +490,8 @@
 															</div></td>
 										  </tr>
 										<tr>
-												<td id="kt_table_1">2</td>
-												<td style="text-align:center" nowrap>Makassar</td>
+												<td align="right">2</td>
+												<td style="text-align:left" nowrap>Ambon - Slamet Riyadi</td>
 												<td style="text-align:center" nowrap>-</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000001MP1025" data-html="true"> <img src="../assets/media/users/100_1.jpg" alt="image" /> </a></td>
 												<td nowrap="nowrap" style="text-align:left">Muhammad Nasrullah</td>
@@ -501,8 +502,8 @@
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
 												<td nowrap="nowrap" style="text-align:left">1 September 2026</td>
 												<td nowrap="nowrap" style="text-align:left">31 Desember 2026</td>
-												<td style="text-align:center" nowrap=""><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">Non Sticker</span></td>
-												<td class="text-center"><span class="btn btn-label-skype btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">Pending</span></td>
+												<td style="text-align:center" nowrap=""><span class="btn btn-brand btn-sm">Non Sticker</span></td>
+												<td class="text-center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">Pending</span></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -548,8 +549,8 @@
 															</div></td>
 										  </tr>
 										  <tr>
-												<td id="kt_table_1">3</td>
-												<td style="text-align:center" nowrap>Makassar</td>
+												<td align="right">3</td>
+												<td style="text-align:left" nowrap>Ambon - Yos Sudarso</td>
 												<td style="text-align:center" nowrap>12321355123124</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000002MP1025" data-html="true"> <img src="../assets/media/users/100_2.jpg" alt="image" /> </a></td>
 												<td nowrap="nowrap" style="text-align:left">Muhammad Nasrullah</td>
@@ -560,7 +561,7 @@
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LLU</td>
 												<td nowrap="nowrap" style="text-align:left">1 September 2026</td>
 												<td nowrap="nowrap" style="text-align:left">31 Desember 2026</td>
-												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-success btn-sm">Aktif</button></td>
+												<td style="text-align:center" nowrap=""><span class="btn btn-success btn-sm">Aktif</span></td>
 												<td class="text-center"><span class="btn btn-label-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Penerima<hr>Yuni Saslia, SE<hr>31 September 2026<br>10:02 WITA" data-html="true">Tunai</span></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
@@ -620,8 +621,8 @@
 										  </tr>
 
 <tr>
-												<td id="kt_table_1">4</td>
-												<td style="text-align:center" nowrap>Balikpapan</td>
+												<td align="right">4</td>
+												<td style="text-align:left" nowrap>Balikpapan</td>
 												<td style="text-align:center" nowrap>12321355123125</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000003MP1025" data-html="true"> <img src="../assets/media/users/100_3.jpg" alt="image" /> </a></td>
 												<td nowrap="nowrap" style="text-align:left">Muhammad Nasrullah</td>
@@ -632,8 +633,8 @@
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
 												<td nowrap="nowrap" style="text-align:left">1 September 2025</td>
 												<td nowrap="nowrap" style="text-align:left">31 Desember 2025</td>
-												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-danger btn-sm">Berakhir</button></td>
-												<td class="text-center"><span class="btn btn-label-skype btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">Pending</span></td>
+												<td style="text-align:center" nowrap=""><span class="btn btn-danger btn-sm">Berakhir</span></td>
+												<td class="text-center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">Pending</span></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -691,8 +692,8 @@
 															</div></td>
 										  </tr>
 <tr>
-  <td id="kt_table_4">5</td>
-  <td style="text-align:center" nowrap="nowrap">Samarinda</td>
+  <td align="right">5</td>
+  <td style="text-align:left" nowrap="nowrap">Samarinda</td>
   <td style="text-align:center" nowrap="nowrap">12321355123126</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000003MP1025" data-html="true"> <img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
   <td nowrap="nowrap" style="text-align:left">Muhammad Nasrullah</td>
@@ -703,7 +704,7 @@
   <td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
   <td nowrap="nowrap" style="text-align:left">1 September 2026</td>
   <td nowrap="nowrap" style="text-align:left">31 Desember 2026</td>
-  <td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm">Suspend</button></td>
+  <td style="text-align:center" nowrap=""><span class="kt-badge kt-badge--unified-danger kt-badge--sm kt-badge--inline">Suspend</span></td>
   <td class="text-center"><span class="btn btn-label-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Penerima<hr>Yuni Saslia, SE<hr>31 September 2026<br>10:02 WITA" data-html="true">Tunai</span></td>
   <td style="text-align:center" nowrap="nowrap"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">

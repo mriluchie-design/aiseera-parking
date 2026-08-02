@@ -420,8 +420,8 @@ function goBack() {
 										</thead>
 										<tbody>
 											<tr>
-												<td id="kt_table_1">1</td>
-												<td style="text-align:center" nowrap>Makassar</td>
+												<td align="right">1</td>
+												<td style="text-align:left" nowrap>Makassar</td>
 												<td style="text-align:center" nowrap>-</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000001MP1025" data-html="true"> <img src="../assets/media/users/100_1.jpg" alt="image" /> </a></td>
 												<td nowrap="nowrap" style="text-align:left">Muhammad Nasrullah</td>
@@ -432,7 +432,7 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
 												<td nowrap="nowrap" style="text-align:left">1 September 2026</td>
 												<td nowrap="nowrap" style="text-align:left">31 Desember 2026</td>
-												<td style="text-align:center" nowrap=""><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">Non Sticker</span></td>
+												<td style="text-align:center" nowrap=""><span class="btn btn-brand btn-sm">Non Sticker</span></td>
 												<td class="text-center"><span class="btn btn-label-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="ID Reff : 01521531355135&lt;hr&gt;QRIS&lt;hr&gt;Gopay" data-html="true">QRIS</span></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
@@ -496,8 +496,8 @@ function goBack() {
 															</div></td>
 										  </tr>
 										<tr>
-												<td id="kt_table_1">2</td>
-												<td style="text-align:center" nowrap>Makassar</td>
+												<td align="right">2</td>
+												<td style="text-align:left" nowrap>Makassar</td>
 												<td style="text-align:center" nowrap>-</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000001MP1025" data-html="true"> <img src="../assets/media/users/100_1.jpg" alt="image" /> </a></td>
 												<td nowrap="nowrap" style="text-align:left">Muhammad Nasrullah</td>
@@ -508,8 +508,8 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
 												<td nowrap="nowrap" style="text-align:left">1 September 2026</td>
 												<td nowrap="nowrap" style="text-align:left">31 Desember 2026</td>
-												<td style="text-align:center" nowrap=""><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">Non Sticker</span></td>
-												<td class="text-center"><span class="btn btn-label-skype btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">Pending</span></td>
+												<td style="text-align:center" nowrap=""><span class="btn btn-brand btn-sm">Non Sticker</span></td>
+												<td class="text-center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">Pending</span></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -555,8 +555,8 @@ function goBack() {
 															</div></td>
 										  </tr>
 										  <tr>
-												<td id="kt_table_1">3</td>
-												<td style="text-align:center" nowrap>Makassar</td>
+												<td align="right">3</td>
+												<td style="text-align:left" nowrap>Makassar</td>
 												<td style="text-align:center" nowrap>12321355123124</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000002MP1025" data-html="true"> <img src="../assets/media/users/100_2.jpg" alt="image" /> </a></td>
 												<td nowrap="nowrap" style="text-align:left">Muhammad Nasrullah</td>
@@ -567,7 +567,7 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LLU</td>
 												<td nowrap="nowrap" style="text-align:left">1 September 2026</td>
 												<td nowrap="nowrap" style="text-align:left">31 Desember 2026</td>
-												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-success btn-sm">Aktif</button></td>
+												<td style="text-align:center" nowrap=""><span class="btn btn-success btn-sm">Aktif</span></td>
 												<td class="text-center"><span class="btn btn-label-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Penerima<hr>Yuni Saslia, SE<hr>31 September 2026<br>10:02 WITA" data-html="true">Tunai</span></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
@@ -627,8 +627,8 @@ function goBack() {
 										  </tr>
 
 <tr>
-												<td id="kt_table_1">4</td>
-												<td style="text-align:center" nowrap>Balikpapan</td>
+												<td align="right">4</td>
+												<td style="text-align:left" nowrap>Balikpapan</td>
 												<td style="text-align:center" nowrap>12321355123125</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000003MP1025" data-html="true"> <img src="../assets/media/users/100_3.jpg" alt="image" /> </a></td>
 												<td nowrap="nowrap" style="text-align:left">Muhammad Nasrullah</td>
@@ -639,8 +639,8 @@ function goBack() {
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
 												<td nowrap="nowrap" style="text-align:left">1 September 2025</td>
 												<td nowrap="nowrap" style="text-align:left">31 Desember 2025</td>
-												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-danger btn-sm">Berakhir</button></td>
-												<td class="text-center"><span class="btn btn-label-skype btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">Pending</span></td>
+												<td style="text-align:center" nowrap=""><span class="btn btn-danger btn-sm">Berakhir</span></td>
+												<td class="text-center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">Pending</span></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -698,8 +698,8 @@ function goBack() {
 															</div></td>
 										  </tr>
 <tr>
-  <td id="kt_table_4">5</td>
-  <td style="text-align:center" nowrap="nowrap">Samarinda</td>
+  <td align="right">5</td>
+  <td style="text-align:left" nowrap="nowrap">Samarinda</td>
   <td style="text-align:center" nowrap="nowrap">12321355123126</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000003MP1025" data-html="true"> <img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
   <td nowrap="nowrap" style="text-align:left">Muhammad Nasrullah</td>
@@ -710,7 +710,7 @@ function goBack() {
   <td nowrap="nowrap" style="text-align:left">DD 1111 LII</td>
   <td nowrap="nowrap" style="text-align:left">1 September 2026</td>
   <td nowrap="nowrap" style="text-align:left">31 Desember 2026</td>
-  <td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm">Suspend</button></td>
+  <td style="text-align:center" nowrap=""><span class="kt-badge kt-badge--unified-danger kt-badge--sm kt-badge--inline">Suspend</span></td>
   <td class="text-center"><span class="btn btn-label-danger btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="Penerima<hr>Yuni Saslia, SE<hr>31 September 2026<br>10:02 WITA" data-html="true">Tunai</span></td>
   <td style="text-align:center" nowrap="nowrap"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -1031,14 +1031,14 @@ function goBack() {
 												
 
 												</div>
-												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+												<br>
 												
 												
 												
 									<div class="kt-portlet__foot kt-align-center">
 												<div class="">
-<button type="reset" class="btn btn-secondary btn-sm">Batal</button>
-													<button type="reset" class="btn btn-success btn-sm"><i class="fa fa-check-circle"></i>Simpan</button>
+<button type="reset" class="btn btn-secondary">Batal</button>
+													<button type="reset" class="btn btn-success"><i class="fa fa-check-circle"></i>Simpan</button>
 												</div>
 											</div>
 
@@ -1092,14 +1092,14 @@ function goBack() {
 												
 
 												</div>
-												<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+												<br>
 												
 												
 												
 									<div class="kt-portlet__foot kt-align-center">
 												<div class="">
-<button type="reset" class="btn btn-secondary btn-sm">Batal</button>
-													<button type="reset" class="btn btn-success btn-sm"><i class="fa fa-check-circle"></i>Simpan</button>
+<button type="reset" class="btn btn-secondary">Batal</button>
+													<button type="reset" class="btn btn-success"><i class="fa fa-check-circle"></i>Simpan</button>
 												</div>
 											</div>
 

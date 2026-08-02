@@ -296,10 +296,10 @@
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
+											  <th width="3%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">QR Code<br>Perusahaan</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Logo</th>
-											  <th width="15%" rowspan="2" bgcolor="#f7fcff">Nama Perusahaan</th>
+											  <th width="13%" rowspan="2" bgcolor="#f7fcff">Nama Perusahaan</th>
 											  
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Email</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">HP</th>
@@ -320,8 +320,8 @@
 										</thead>
 										<tbody>
 											<tr>
-												<td id="kt_table_1">1</td>
-												<td style="text-align:center" nowrap>Makassar</td>
+												<td align="right">1</td>
+												<td style="text-align:left" nowrap>Makassar</td>
 												<td style="text-align:center" nowrap><img src="../assets/img/qrcode.jpg" width="30" height="30"></td>
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" >
 														<img src="../assets/img/client-logos/angkasa-pura.png" alt="image">
@@ -391,8 +391,8 @@
 															</div></td>
 										  </tr>
 										  <tr>
-												<td id="kt_table_1">2</td>
-												<td style="text-align:center" nowrap>Balikpapan</td>
+												<td align="right">2</td>
+												<td style="text-align:left" nowrap>Balikpapan</td>
 												<td style="text-align:center" nowrap><img src="../assets/img/qrcode.jpg" width="30" height="30"></td>
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" >
 														<img src="../assets/img/client-logos/pertamina.svg" alt="image">
@@ -464,8 +464,8 @@
 										  </tr>
 
 <tr>
-												<td id="kt_table_1">3</td>
-												<td style="text-align:center" nowrap>Makassar</td>
+												<td align="right">3</td>
+												<td style="text-align:left" nowrap>Makassar</td>
 												<td style="text-align:center" nowrap><img src="../assets/img/qrcode.jpg" width="30" height="30"></td>
 												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" >
 														<img src="../assets/img/client-logos/bank-mandiri-logo.svg" alt="image">
