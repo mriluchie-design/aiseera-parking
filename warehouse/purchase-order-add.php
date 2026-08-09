@@ -616,9 +616,9 @@ function goBack() {
 															<div class="kt-portlet p-3" style="border-top:2px solid #5867dd">
 																<label>Biaya Pengiriman</label>
 																<div class="input-group input-group-sm">
-															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon2">Rp.</span></div>
-															    <input style="text-align:right; " type="text" class="form-control form-control-sm"  placeholder="800.000" aria-describedby="basic-addon1">
-															    <div class="input-group-append"><span class="input-group-text input-group-sm"  id="basic-addon2">,-</span></div>
+															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" style="border-color:#ff0000;" id="basic-addon2">Rp.</span></div>
+															    <input style="text-align:right; background-color:#fff; border-color:#ff0000;" type="text" class="form-control form-control-sm"  placeholder="800.000" aria-describedby="basic-addon1">
+															    <div class="input-group-append"><span class="input-group-text input-group-sm"  style="border-color:#ff0000;" id="basic-addon2">,-</span></div>
 															    </div>
 															</div>
 														</div>
@@ -636,9 +636,9 @@ function goBack() {
 															<div class="kt-portlet p-3" style="border-top:2px solid #ed1c24">
 																<label>Uang Muka </label>
 																<div class="input-group input-group-sm">
-															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" id="basic-addon2">Rp.</span></div>
-															    <input style="text-align:right; " type="text" class="form-control form-control-sm"  placeholder="2.000.000" aria-describedby="basic-addon1">
-															    <div class="input-group-append"><span class="input-group-text input-group-sm" id="basic-addon2">,-</span></div>
+															    <div class="input-group-prepend"><span class="input-group-text input-group-sm" style="border-color:#ff0000;" id="basic-addon2">Rp.</span></div>
+															    <input style="text-align:right; background-color:#fff; border-color:#ff0000; " type="text" class="form-control form-control-sm"  placeholder="2.000.000" aria-describedby="basic-addon1">
+															    <div class="input-group-append"><span class="input-group-text input-group-sm" style="border-color:#ff0000;" id="basic-addon2">,-</span></div>
 															    </div>
 															</div>
 														</div>

@@ -311,7 +311,7 @@ function goBack() {
                           
                         </div>
 						<div class="col-lg-7">
-                          <label class="">Nomor Referensi :</label>
+                          <label class="">Nomor PO / Referensi Lain :</label>
                           <div class="kt-input-icon kt-input-icon--right">
         							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
         							<span class="kt-input-icon__icon kt-input-icon__icon--right">
