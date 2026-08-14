@@ -102,7 +102,19 @@
 					<div class="kt-portlet__body">
                         <div class="form-group row">
 						<div class="col-lg-2">
-                                <label>Lokasi :</label>
+                                <label>Pusat :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Head Office</option>
+                                      <option value="2">PT. Pelabuhan Indonesia Regional 1</option>
+                                      <option value="2">PT. Pelabuhan Indonesia Regional 2</option>
+                                      <option value="2">PT. Pelabuhan Indonesia Regional 3</option>
+                                      <option value="2" selected>PT. Pelabuhan Indonesia Regional 4</option>
+                                                                           
+                                  </select>
+                            </div>
+								<div class="col-lg-2">
+                                <label>Cabang :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected="">Makassar</option>
@@ -176,7 +188,7 @@
                                   </select>
                             </div>
 							
-							<div class="col-lg-2">
+							<div class="col-lg-1">
                                 <label>Nama Jalur :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
@@ -188,18 +200,7 @@
                                                                            
                                   </select>
                             </div>
-							<div class="col-lg-1">
-                                <label>Status :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                     
-									  <option value="1">Parkir</option>
-                                      <option value="2">Keluar</option>
-                                      <option value="2">Berangkat</option>
-                                      <option value="2" selected>Keseluruhan</option>
-                                                                           
-                                  </select>
-                            </div>
+							
 							
     		                    </div>
 								<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
@@ -261,6 +262,18 @@
                                       <option value="1" disabled>- Pilih Operator -</option>
                                       <option value="1" >Muhammad Nasrullah, S.Kom</option>
                                       <option value="1">Muhammad Ramadhan, S.T</option>
+                                      <option value="2" selected>Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
+							<div class="col-lg-1">
+                                <label>Status :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                     
+									  <option value="1">Parkir</option>
+                                      <option value="2">Keluar</option>
+                                      <option value="2">Berangkat</option>
                                       <option value="2" selected>Keseluruhan</option>
                                                                            
                                   </select>

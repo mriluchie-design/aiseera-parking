@@ -127,25 +127,22 @@
                                   </select>
     		                    </div>
                             <div class="col-lg-1">
-                                <label>Kategori :</label>
+                                <label>Tipe :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Reguler</option>
-                                      <option value="2">Member</option>
-                                      <option value="2">Keseluruhan</option>
+                                      <option value="1">Pembelian</option>
+                                      <option value="2">Service</option>
+                                      <option value="2" selected>Keseluruhan</option>
                                                                            
                                   </select>
     		                    </div>
 								<div class="col-lg-2">
-                                <label>Jenis :</label>
+                                <label>Vendor :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Mobil</option>
-									  <option value="2">Sepeda Motor</option>
-                                      <option value="1" >Pegawai/Instansi/Others</option>
-                                      <option value="2">Sedan/Jeep/Pick Up</option>
-                                      <option value="2">Truck/Tronton/Trailer</option>
-									  <option value="2">Keseluruhan</option>
+                                      <option value="1">PT. Dili Jaya Indonesia</option>
+									  <option value="2">PT. Aksi Kode Indonesia</option>
+									  <option value="2" selected>Keseluruhan</option>
                                                                            
                                   </select>
     		                    </div>
@@ -158,48 +155,53 @@
 						                        </div>
 						                      </div>
                             </div>
-							<div class="col-lg-1">
-                                <label>Gate :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">1</option>
-                                      <option value="2">2</option>
-                                      <option value="2">3</option>
-                                      <option value="2">4</option>
-									  <option value="2">Keseluruhan</option>
-                                                                           
-                                  </select>
-                            </div>
-							<div class="col-lg-1">
-                                <label>Jalur :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true" disabled>
-                                      <option value="1" selected="">Masuk</option>
-                                      <option value="2">Keluar</option>
-									  <option value="2">Keseluruhan</option>
-                                                                           
-                                  </select>
-                            </div>
 							<div class="col-lg-2">
-                                <label>Nama Jalur :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected>Mobil - 1</option>
-                                      <option value="1">Mobil - 2</option>
-                                      <option value="1">Motor - 1</option>
-                                      <option value="1">Motor - 2</option>
-									  <option value="2">Keseluruhan</option>
-                                                                           
-                                  </select>
+                                <label>QC :</label>
+    	                       <div class="form-group">
+
+					                         <select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
+					 															<optgroup label="Direksi" class="a">
+					 																<option value="AK">Muhammad Nasrullah, S.Kom</option>
+					 															</optgroup>
+					 															
+																				<optgroup label="Keuangan" class="a">
+					 																<option value="HI">Oklan Zulkifli, SE</option>
+					 															</optgroup>
+																				<optgroup label="Operasional" class="a">
+					 																<option value="HI">Deddy Rafsanjani, S.Sos</option>
+					 																<option value="HI">Nursiah, S.Kom</option>
+					 															</optgroup>
+																				<optgroup label="Teknologi dan Riset" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
+					 															</optgroup>
+																				<optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
+					 															</optgroup>
+																				<option value="12" selected>Keseluruhan</option>
+
+					 														</select>
+					                       </div>
+        					
                             </div>
+							
 							<div class="col-lg-1">
                                 <label>Status :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Parkir</option>
-                                      <option value="2">Keluar</option>
-                                      <option value="2">Berangkat</option>
-                                      <option value="2">Keseluruhan</option>
+                                      <option value="1">QC</option>
+                                      <option value="2">Validasi</option>
+                                      <option value="2">Selesai</option>
+                                      <option value="2" selected>Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
+							<div class="col-lg-2">
+                                <label>Validasi :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Pending</option>
+                                      <option value="2">Selesai</option>
+                                      <option value="2" selected>Keseluruhan</option>
                                                                            
                                   </select>
                             </div>
@@ -208,7 +210,7 @@
 								<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						<div class="form-group row">
 								<div class="col-lg-2">
-                                <label>ID Transaksi :</label>
+                                <label>Nomor PO :</label>
 								
                                 <div class="kt-input-icon kt-input-icon--right">
         							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
@@ -218,7 +220,7 @@
     		                    </div>
     		                    </div>
 								<div class="col-lg-3">
-                                <label>No. Plat :</label>
+                                <label>No. Penerimaan Barang :</label>
 								
                                 <div class="kt-input-icon kt-input-icon--right">
         							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
@@ -227,34 +229,6 @@
     		                        </span>
     		                    </div>
     		                    </div>
-								<div class="col-lg-2">
-                                <label>Pembayaran :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">e-Money</option>
-                                      <option value="1">QRIS</option>
-                                      <option value="2">Tunai</option>
-                                      <option value="2">Keseluruhan</option>
-                                                                           
-                                  </select>
-                            </div>
-								<div class="col-lg-2">
-                                <label>Provider Pembayaran :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1" selected="">Mandiri</option>
-                                      <option value="1">BCA Flazz</option>
-                                      <option value="1">Brizzi</option>
-                                      <option value="1">BNI Tap Cash</option>
-                                      <option value="1">OVO</option>
-                                      <option value="1">DANA</option>
-                                      <option value="1">Shoope Pay</option>
-                                      <option value="1">BCA</option>
-                                      <option value="1">Livin Mandiri</option>
-                                      <option value="2">Keseluruhan</option>
-                                                                           
-                                  </select>
-                            </div>
 								
 								
                             </div>
