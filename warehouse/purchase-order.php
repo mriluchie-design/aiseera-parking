@@ -117,25 +117,16 @@
                                                                            
                                   </select>
     		                    </div>
-								<div class="col-lg-2">
-                                <label>Nomor Pembelian Barang :</label>
 								
-                                <div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
-        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
-    		                            <span><i class="la la-search"></i></span>
-    		                        </span>
-    		                    </div>
-    		                    </div>
 								<div class="col-lg-2">
-                                <label>Referensi Pembelian :</label>
+                                <label>Vendor :</label>
 								
-                                <div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
-        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
-    		                            <span><i class="la la-search"></i></span>
-    		                        </span>
-    		                    </div>
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">PT. Dili Jaya Indonesia</option>
+									  <option value="2">PT. Aksi Kode Indonesia</option>
+									  <option value="2" selected>Keseluruhan</option>
+                                                                           
+                                  </select>
     		                    </div>
                             
 								
@@ -148,7 +139,31 @@
 						                        </div>
 						                      </div>
                             </div>
+							
 							<div class="col-lg-2">
+                                <label>Validasi :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Disetujui</option>
+                                      <option value="2">Ditolak</option>
+                                      <option value="2" selected>Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
+							<div class="col-lg-2">
+                                <label>Status PO :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Selesai</option>
+                                      <option value="2">Progress</option>
+                                      <option value="2" selected>Keseluruhan</option>
+                                                                           
+                                  </select>
+                            </div>
+                            </div>
+							<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-2">
                                 <label>Dibuat Oleh :</label>
     	                       <div class="form-group">
 
@@ -177,27 +192,25 @@
 					                       </div>
         					
                             </div>
-							<div class="col-lg-1">
-                                <label>Validasi :</label>
+							<div class="col-lg-2">
+                                <label>Nomor PO :</label>
 								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1">Disetujui</option>
-                                      <option value="2">Ditolak</option>
-                                      <option value="2" selected>Keseluruhan</option>
-                                                                           
-                                  </select>
+                                <div class="kt-input-icon kt-input-icon--right">
+        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
+        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
+    		                            <span><i class="la la-search"></i></span>
+    		                        </span>
+    		                    </div>
+    		                    </div>
+								<div class="col-lg-2">
+                                <label class="">Tanggal Pengiriman :</label>
+                                <div class="input-group">
+						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="-- Pilih Tanggal --">
+						                        <div class="input-group-append">
+						                          <span class="input-group-text"><i class="la la-calendar"></i></span>
+						                        </div>
+						                      </div>
                             </div>
-							<div class="col-lg-1">
-                                <label>Status PO :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1">Selesai</option>
-                                      <option value="2">Progress</option>
-                                      <option value="2" selected>Keseluruhan</option>
-                                                                           
-                                  </select>
-                            </div>
-							
     		                    </div>
 								
                             
@@ -761,10 +774,7 @@
 </div>
 
 									<!--end: Datatable -->
-								</div>
-							</div>
-
-            </div>
+								
 
 
 <?php require '../layouts/footer.php' ?>

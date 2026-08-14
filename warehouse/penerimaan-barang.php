@@ -126,7 +126,7 @@
                                                                            
                                   </select>
     		                    </div>
-                            <div class="col-lg-1">
+                            <div class="col-lg-2">
                                 <label>Tipe :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
@@ -146,45 +146,11 @@
                                                                            
                                   </select>
     		                    </div>
-								<div class="col-lg-2">
-                                <label class="">Tanggal Masuk :</label>
-                                <div class="input-group">
-						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="-- Pilih Tanggal --">
-						                        <div class="input-group-append">
-						                          <span class="input-group-text"><i class="la la-calendar"></i></span>
-						                        </div>
-						                      </div>
-                            </div>
-							<div class="col-lg-2">
-                                <label>QC :</label>
-    	                       <div class="form-group">
-
-					                         <select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
-					 															<optgroup label="Direksi" class="a">
-					 																<option value="AK">Muhammad Nasrullah, S.Kom</option>
-					 															</optgroup>
-					 															
-																				<optgroup label="Keuangan" class="a">
-					 																<option value="HI">Oklan Zulkifli, SE</option>
-					 															</optgroup>
-																				<optgroup label="Operasional" class="a">
-					 																<option value="HI">Deddy Rafsanjani, S.Sos</option>
-					 																<option value="HI">Nursiah, S.Kom</option>
-					 															</optgroup>
-																				<optgroup label="Teknologi dan Riset" class="a">
-					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
-					 															</optgroup>
-																				<optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
-					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
-					 															</optgroup>
-																				<option value="12" selected>Keseluruhan</option>
-
-					 														</select>
-					                       </div>
-        					
-                            </div>
+								
+								
 							
-							<div class="col-lg-1">
+							
+							<div class="col-lg-2">
                                 <label>Status :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
@@ -219,7 +185,7 @@
     		                        </span>
     		                    </div>
     		                    </div>
-								<div class="col-lg-3">
+								<div class="col-lg-2">
                                 <label>No. Penerimaan Barang :</label>
 								
                                 <div class="kt-input-icon kt-input-icon--right">
@@ -229,7 +195,43 @@
     		                        </span>
     		                    </div>
     		                    </div>
-								
+								<div class="col-lg-2">
+                                <label class="">Tanggal Masuk :</label>
+                                <div class="input-group">
+						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="-- Pilih Tanggal --">
+						                        <div class="input-group-append">
+						                          <span class="input-group-text"><i class="la la-calendar"></i></span>
+						                        </div>
+						                      </div>
+                            </div>
+								<div class="col-lg-2">
+                                <label>QC :</label>
+    	                       <div class="form-group">
+
+					                         <select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
+					 															<optgroup label="Direksi" class="a">
+					 																<option value="AK">Muhammad Nasrullah, S.Kom</option>
+					 															</optgroup>
+					 															
+																				<optgroup label="Keuangan" class="a">
+					 																<option value="HI">Oklan Zulkifli, SE</option>
+					 															</optgroup>
+																				<optgroup label="Operasional" class="a">
+					 																<option value="HI">Deddy Rafsanjani, S.Sos</option>
+					 																<option value="HI">Nursiah, S.Kom</option>
+					 															</optgroup>
+																				<optgroup label="Teknologi dan Riset" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
+					 															</optgroup>
+																				<optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
+					 															</optgroup>
+																				<option value="12" selected>Keseluruhan</option>
+
+					 														</select>
+					                       </div>
+        					
+                            </div>
 								
                             </div>
                             
