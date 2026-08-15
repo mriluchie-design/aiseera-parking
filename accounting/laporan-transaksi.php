@@ -108,11 +108,7 @@ License: You must have a valid license purchased only from themeforest(the above
 			<div class="row">
 				<div class="col-xl-2">
 					<ul class="kt-nav" id="kt_nav" role="tablist">
-						<li class="kt-nav__item kt-nav__item--active">
-							<a href="laporan-transaksi.php" class="kt-nav__link">
-								<span class="kt-nav__link-text">Transaksi</span>
-							</a>
-						</li>
+						
 						<li class="kt-nav__item">
 							<a href="daftar-laporan.php" class="kt-nav__link">
 								<span class="kt-nav__link-text">Keuangan</span>
@@ -166,21 +162,21 @@ License: You must have a valid license purchased only from themeforest(the above
 						<div class="card">
 							<div class="card-header" id="headingOne">
 								<div class="card-title collapsed d-grid" data-toggle="collapse" data-target="#collapseOne1" aria-expanded="false" aria-controls="collapseOne1">
-									Laba Rugi
-									<small>Data Laba Rugi Perusahaan</small>
+									Kendaraan Masuk
+									
 								</div>
 							</div>
 							<div id="collapseOne1" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample1" style="">
 								<div class="card-body">
 									<div class="row">
-										<div class="col-xl-8">
+										<div class="col-xl-12">
 											<!--begin::Portlet-->
 											<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
 												<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Informasi Umum</div><br>
 												<div class="kt-portlet__body">
 													<div class="kt-portlet__content">
 													<div class="form-group row">
-													<div class="col-lg-8">
+													<div class="col-lg-5">
 														<label>Dari Tanggal :</label>
 														<div class="input-group input-group-sm mb-3">
 															<input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="01/01/2020" value="01/01/2020" id="kt_datepicker_2">
@@ -189,12 +185,32 @@ License: You must have a valid license purchased only from themeforest(the above
 														</div>
 														</div>
 														<div class="col-lg-4">
-																<label class="">Kantor : <code>*</code></label>
-																<select class="form-control kt-selectpicker" data-live-search="true" tabindex="-98">
-                                      <option value="2">Pusat</option>
-                                      <option value="2">Cabang</option>
-                                      <option value="2" selected>Semua</option>
-                                     
+																<label class="">Regional : <code>*</code></label>
+																<select class="form-control kt-selectpicker" data-live-search="true" >
+                                      <option value="1">PT. Pelabuhan Indonesia (Persero) Regional 1</option>
+                                      <option value="2">PT. Pelabuhan Indonesia (Persero) Regional 2</option>
+                                      <option value="2">PT. Pelabuhan Indonesia (Persero) Regional 3</option>
+                                      <option value="2" selected>PT. Pelabuhan Indonesia (Persero) Regional 4</option>
+                                      <option value="2">Keseluruhan</option>
+                                                                           
+                                  </select>
+													</div>
+														<div class="col-lg-3">
+																<label class="">Cabang : <code>*</code></label>
+																<select class="form-control kt-selectpicker" multiple="multiple">
+                                      <option value="1" selected="">Makassar</option>
+                                      <option value="2">Pare-Pare</option>
+                                      <option value="2">Balikpapan</option>
+                                      <option value="2">Samarinda</option>
+                                      <option value="2">Tarakan</option>
+                                      <option value="2">Nunukan</option>
+                                      <option value="2">Manado</option>
+                                      <option value="2">Bitung</option>
+                                      <option value="2">Ambon - Yos Sudarso</option>
+                                      <option value="2">Ambon - Slamet Riyadi</option>
+                                      <option value="2">Ternate</option>
+                                      <option value="2">Sorong</option>
+                                      <option value="2">Keseluruhan</option>
                                   </select>
 													</div>
 													</div>
@@ -211,38 +227,7 @@ License: You must have a valid license purchased only from themeforest(the above
 										</div>
 										</div>
 										</div>
-										<div class="col-xl-4">
-											<!--begin::Portlet-->
-											<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-												<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Kolom</div><br>
-												<div class="kt-portlet__body">
-													<div class="kt-portlet__content">
-														<div class="form-group">
-															<label>Parameter Kolom :</label>
-															<table class="table no-border table-bordered table-hover">
-																<tbody>
-																	<tr>
-																		<td></td>
-																	</tr>
-																	<tr>
-																		<td></td>
-																	</tr>
-																	<tr>
-																		<td></td>
-																	</tr>
-																	
-																</tbody>
-															</table>
-															<button type="button" class="btn btn-success btn-sm btn-icon" data-container="body" data-toggle="kt-tooltip" data-placement="top" title="Tambah"><i class="fa fa-plus" data-toggle="modal"
-																	data-target="#kt_modal_tambah"></i></button>
-															<button type="button" class="btn btn-primary btn-sm btn-icon" data-container="body" data-toggle="kt-tooltip" data-placement="top" title="Edit"><i class="fa fa-pencil-alt"></i></button>
-															<button type="button" class="btn btn-warning btn-sm btn-icon" data-container="body" data-toggle="kt-tooltip" data-placement="top" title="Hapus"><i class="fa fa-minus text-white"></i></button>
-														</div>
-													</div>
-												</div>
-											</div>
-											<!--end::Portlet-->
-										</div>
+										
 									</div>
 								</div>
 							</div>
@@ -250,8 +235,8 @@ License: You must have a valid license purchased only from themeforest(the above
 						<div class="card">
 							<div class="card-header" id="headingTwo">
 								<div class="card-title d-grid collapsed" data-toggle="collapse" data-target="#collapseTwo1" aria-expanded="false" aria-controls="collapseTwo1">
-									Neraca
-									<small>Data Neraca Perusahaan</small> </div>
+									Kendaraan Keluar
+									
 							</div>
 							<div id="collapseTwo1" class="collapse" aria-labelledby="headingTwo1" data-parent="#accordionExample1">
 								<div class="card-body">
@@ -321,11 +306,12 @@ License: You must have a valid license purchased only from themeforest(the above
 								</div>
 							</div>
 						</div>
+						</div>
 						<div class="card">
 							<div class="card-header" id="headingThree1">
 								<div class="card-title collapsed d-grid" data-toggle="collapse" data-target="#collapseThree1" aria-expanded="false" aria-controls="collapseThree1">
-									Arus Kas
-									<small>Data Arus Kas</small>
+									Member / Pass Tahunan
+									
 								</div>
 							</div>
 							<div id="collapseThree1" class="collapse" aria-labelledby="headingThree1" data-parent="#accordionExample1">
