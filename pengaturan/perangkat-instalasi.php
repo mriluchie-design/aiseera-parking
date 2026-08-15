@@ -104,8 +104,63 @@
 				<form class="kt-form">
 					<div class="kt-portlet__body">
                         <div class="form-group row">
+						<div class="col-lg-3">
+                                <label>Regional :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true" >
+                                      <option value="1">PT. Pelabuhan Indonesia (Persero) Regional 1</option>
+                                      <option value="2">PT. Pelabuhan Indonesia (Persero) Regional 2</option>
+                                      <option value="2">PT. Pelabuhan Indonesia (Persero) Regional 3</option>
+                                      <option value="2" selected>PT. Pelabuhan Indonesia (Persero) Regional 4</option>
+                                                                           
+                                  </select>
+    		                    </div>
+								<div class="col-lg-2">
+                                <label class="">Tanggal Mulai :</label>
+                                <div class="input-group">
+						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="-- Pilih Tanggal --">
+						                        <div class="input-group-append">
+						                          <span class="input-group-text"><i class="la la-calendar"></i></span>
+						                        </div>
+						                      </div>
+                            </div>
+							<div class="col-lg-2">
+                                <label class="">Tanggal Selesai :</label>
+                                <div class="input-group">
+						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="-- Pilih Tanggal --">
+						                        <div class="input-group-append">
+						                          <span class="input-group-text"><i class="la la-calendar"></i></span>
+						                        </div>
+						                      </div>
+                            </div>
+							<div class="col-lg-2">
+                                <label>Status :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Proses</option>
+                                      <option value="2">Selesai</option>
+									   <option value="4" selected>Keseluruhan</option>
+                                      
+                                  </select>
+                            </div>
+							<div class="col-lg-2">
+                                <label>Verifikasi :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Pending</option>
+                                      <option value="2">Disetujui</option>
+									   <option value="4" selected>Keseluruhan</option>
+                                      
+                                  </select>
+                            </div>
+						
+							
+							
+                            </div>
+							<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
 						<div class="col-lg-2">
-                                <label>Lokasi :</label>
+                                <label>Cabang :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1">Makassar</option>
@@ -164,43 +219,34 @@
         					
                             </div>
 							<div class="col-lg-2">
-                                <label class="">Tanggal Mulai :</label>
-                                <div class="input-group">
-						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="-- Pilih Tanggal --">
-						                        <div class="input-group-append">
-						                          <span class="input-group-text"><i class="la la-calendar"></i></span>
-						                        </div>
-						                      </div>
+                                <label>PM :</label>
+    	                       <div class="form-group">
+
+					                         <select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
+					 															<optgroup label="Direksi" class="a">
+					 																<option value="AK">Muhammad Nasrullah, S.Kom</option>
+					 															</optgroup>
+					 															
+																				<optgroup label="Keuangan" class="a">
+					 																<option value="HI">Oklan Zulkifli, SE</option>
+					 															</optgroup>
+																				<optgroup label="Operasional" class="a">
+					 																<option value="HI">Deddy Rafsanjani, S.Sos</option>
+					 																<option value="HI">Nursiah, S.Kom</option>
+					 															</optgroup>
+																				<optgroup label="Teknologi dan Riset" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
+					 															</optgroup>
+																				<optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
+					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
+					 															</optgroup>
+																				<option value="12" selected>Keseluruhan</option>
+
+					 														</select>
+					                       </div>
+        					
                             </div>
-							<div class="col-lg-2">
-                                <label class="">Tanggal Selesai :</label>
-                                <div class="input-group">
-						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="-- Pilih Tanggal --">
-						                        <div class="input-group-append">
-						                          <span class="input-group-text"><i class="la la-calendar"></i></span>
-						                        </div>
-						                      </div>
-                            </div>
-							<div class="col-lg-1">
-                                <label>Status :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1">Proses</option>
-                                      <option value="2">Selesai</option>
-									   <option value="4" selected>Keseluruhan</option>
-                                      
-                                  </select>
-                            </div>
-							<div class="col-lg-1">
-                                <label>Verifikasi :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1">Pending</option>
-                                      <option value="2">Disetujui</option>
-									   <option value="4" selected>Keseluruhan</option>
-                                      
-                                  </select>
-                            </div>
+						
 							
 								
 							
@@ -238,12 +284,13 @@
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Regional</th>
+											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Cabang</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Gate</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Jalur</th>
-											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Nama Jalur</th>
+											  <th width="3%" rowspan="2" bgcolor="#f7fcff">Nama Jalur</th>
 											  <th colspan="4" bgcolor="#f7fcff">Instalasi</th>
-											  <th width="3%" rowspan="2" bgcolor="#f7fcff">Status Instalasi</th>
+											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Status Instalasi</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Verifikasi</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
@@ -257,6 +304,7 @@
 										<tbody>
 											<tr>
 												<td id="kt_table_13" style="text-align:right">1</td>
+												<td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 												<td style="text-align:left" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
@@ -295,6 +343,7 @@
 										  </tr>
 										  <tr>
 												<td id="kt_table_13" style="text-align:right">2</td>
+												<td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 												<td style="text-align:left" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
@@ -340,6 +389,7 @@
 										  </tr>
 										  <tr>
 										    <td id="kt_table_8" style="text-align:right">3</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
@@ -385,6 +435,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_7" style="text-align:right">4</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
@@ -430,6 +481,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_6" style="text-align:right">5</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Keluar</span></td>
@@ -475,6 +527,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_5" style="text-align:right">6</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Keluar</span></td>
@@ -520,6 +573,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_4" style="text-align:right">7</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Keluar</span></td>
@@ -565,6 +619,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_3" style="text-align:right">8</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Keluar</span></td>
@@ -610,6 +665,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">9</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">2</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
@@ -655,6 +711,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">10</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">2</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
@@ -700,6 +757,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_8" style="text-align:right">11</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">2</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
@@ -745,6 +803,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_7" style="text-align:right">12</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">2</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
@@ -790,6 +849,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_6" style="text-align:right">13</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">2</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Keluar</span></td>
@@ -835,6 +895,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_5" style="text-align:right">14</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">2</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Keluar</span></td>
@@ -880,6 +941,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_4" style="text-align:right">15</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">2</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Keluar</span></td>
@@ -925,6 +987,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_3" style="text-align:right">16</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">2</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Keluar</span></td>

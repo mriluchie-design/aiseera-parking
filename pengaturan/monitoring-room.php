@@ -104,8 +104,19 @@
 				<form class="kt-form">
 					<div class="kt-portlet__body">
                         <div class="form-group row">
+						<div class="col-lg-3">
+                                <label>Regional :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true" >
+                                      <option value="1">PT. Pelabuhan Indonesia (Persero) Regional 1</option>
+                                      <option value="2">PT. Pelabuhan Indonesia (Persero) Regional 2</option>
+                                      <option value="2">PT. Pelabuhan Indonesia (Persero) Regional 3</option>
+                                      <option value="2" selected>PT. Pelabuhan Indonesia (Persero) Regional 4</option>
+                                                                           
+                                  </select>
+    		                    </div>
 						<div class="col-lg-2">
-                                <label>Lokasi :</label>
+                                <label>Cabang :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1">Makassar</option>
@@ -153,28 +164,8 @@
         					
                             </div>
                             
-								<div class="col-lg-2">
-                                <label>Gate :</label>
 								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1">1</option>
-                                      <option value="2">2</option>
-                                      <option value="2">3</option>
-                                      <option value="2">4</option>
-									   <option value="4" selected>Keseluruhan</option>
-                                      
-                                  </select>
-                            </div>
-							<div class="col-lg-2">
-                                <label>Jalur :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1">Masuk</option>
-                                      <option value="2">Keluar</option>
-									   <option value="4" selected>Keseluruhan</option>
-                                      
-                                  </select>
-                            </div>
+							
 							<div class="col-lg-2">
                                 <label>Status :</label>
 								
@@ -232,7 +223,8 @@
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="25%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Regional</th>
+											  <th width="10%" rowspan="2" bgcolor="#f7fcff">Cabang</th>
 											  <th colspan="2" bgcolor="#f7fcff">Dibuat</th>
 											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Status<br />
 											    Perangkat</th>
@@ -247,6 +239,7 @@
 										<tbody>
 											<tr>
 												<td id="kt_table_13" style="text-align:right">1</td>
+												<td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 												<td style="text-align:left" nowrap>Makassar</td>
 												<td style="text-align:center" nowrap>-</td>
 												<td style="text-align:center" nowrap>-</td>
@@ -280,6 +273,7 @@
 										  </tr>
 										  <tr>
 												<td id="kt_table_13" style="text-align:right">2</td>
+												<td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 												<td style="text-align:left" nowrap>Balikpapan</td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026 </td>
@@ -320,6 +314,7 @@
 										  </tr>
 										  <tr>
 										    <td id="kt_table_8" style="text-align:right">3</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Samarinda</td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026 </td>
@@ -360,6 +355,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_7" style="text-align:right">4</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Ambon - Yos Sudarso</td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026 </td>
@@ -400,6 +396,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_6" style="text-align:right">5</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Ambon - Slamet Riyadi</td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026 </td>
@@ -440,6 +437,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_5" style="text-align:right">6</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Sorong</td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026 </td>
@@ -480,6 +478,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_4" style="text-align:right">7</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Bitung</td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026 </td>
@@ -520,6 +519,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_3" style="text-align:right">8</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Manado</td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026 </td>
@@ -560,6 +560,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">9</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Nunukan</td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026 </td>
@@ -600,6 +601,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">10</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Ternate</td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026 </td>
@@ -640,6 +642,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_8" style="text-align:right">11</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Tarakan</td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026 </td>
@@ -680,6 +683,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_7" style="text-align:right">12</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Kendari</td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026 </td>
@@ -720,6 +724,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_6" style="text-align:right">13</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Pare-Pare</td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
 												<td nowrap="nowrap" style="text-align:center">1 September 2026 </td>

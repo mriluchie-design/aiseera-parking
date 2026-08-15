@@ -104,8 +104,63 @@
 				<form class="kt-form">
 					<div class="kt-portlet__body">
                         <div class="form-group row">
+						<div class="col-lg-3">
+                                <label>Regional :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true" >
+                                      <option value="1">PT. Pelabuhan Indonesia (Persero) Regional 1</option>
+                                      <option value="2">PT. Pelabuhan Indonesia (Persero) Regional 2</option>
+                                      <option value="2">PT. Pelabuhan Indonesia (Persero) Regional 3</option>
+                                      <option value="2" selected>PT. Pelabuhan Indonesia (Persero) Regional 4</option>
+                                                                           
+                                  </select>
+    		                    </div>
+								<div class="col-lg-2">
+                                <label class="">Tanggal Mulai :</label>
+                                <div class="input-group">
+						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="-- Pilih Tanggal --">
+						                        <div class="input-group-append">
+						                          <span class="input-group-text"><i class="la la-calendar"></i></span>
+						                        </div>
+						                      </div>
+                            </div>
+							<div class="col-lg-2">
+                                <label class="">Tanggal Selesai :</label>
+                                <div class="input-group">
+						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="-- Pilih Tanggal --">
+						                        <div class="input-group-append">
+						                          <span class="input-group-text"><i class="la la-calendar"></i></span>
+						                        </div>
+						                      </div>
+                            </div>
+							<div class="col-lg-2">
+                                <label>Status :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Proses</option>
+                                      <option value="2">Selesai</option>
+									   <option value="4" selected>Keseluruhan</option>
+                                      
+                                  </select>
+                            </div>
+							<div class="col-lg-2">
+                                <label>Verifikasi :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Pending</option>
+                                      <option value="2">Disetujui</option>
+									   <option value="4" selected>Keseluruhan</option>
+                                      
+                                  </select>
+                            </div>
+						
+							
+							
+                            </div>
+							<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
 						<div class="col-lg-2">
-                                <label>Lokasi :</label>
+                                <label>Cabang :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1">Makassar</option>
@@ -124,8 +179,47 @@
                                                                            
                                   </select>
     		                    </div>
-								<div class="col-lg-2">
-                                <label>Pembuat :</label>
+								
+                            
+								<div class="col-lg-1">
+                                <label>Gate :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">1</option>
+                                      <option value="2">2</option>
+                                      <option value="2">3</option>
+                                      <option value="2">4</option>
+									   <option value="4" selected>Keseluruhan</option>
+                                      
+                                  </select>
+                            </div>
+							<div class="col-lg-1">
+                                <label>Jalur :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Masuk</option>
+                                      <option value="2">Keluar</option>
+									   <option value="4" selected>Keseluruhan</option>
+                                      
+                                  </select>
+                            </div>
+							<div class="col-lg-1">
+                                <label>Team :</label>
+    	                       <div class="form-group">
+
+					                         <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Team-1</option>
+                                      <option value="2">Team-2</option>
+                                      <option value="2">Team-3</option>
+                                      <option value="2">Team-4</option>
+									   <option value="4" selected>Keseluruhan</option>
+                                      
+                                  </select>
+					                       </div>
+        					
+                            </div>
+							<div class="col-lg-2">
+                                <label>PM :</label>
     	                       <div class="form-group">
 
 					                         <select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
@@ -152,49 +246,7 @@
 					                       </div>
         					
                             </div>
-                            
-								<div class="col-lg-2">
-                                <label>Gate :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1">1</option>
-                                      <option value="2">2</option>
-                                      <option value="2">3</option>
-                                      <option value="2">4</option>
-									   <option value="4" selected>Keseluruhan</option>
-                                      
-                                  </select>
-                            </div>
-							<div class="col-lg-2">
-                                <label>Jalur :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1">Masuk</option>
-                                      <option value="2">Keluar</option>
-									   <option value="4" selected>Keseluruhan</option>
-                                      
-                                  </select>
-                            </div>
-							<div class="col-lg-2">
-                                <label>Status :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1">Proses</option>
-                                      <option value="2">Selesai</option>
-									   <option value="4" selected>Keseluruhan</option>
-                                      
-                                  </select>
-                            </div>
-							<div class="col-lg-2">
-                                <label>Verifikasi :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1">Pending</option>
-                                      <option value="2">Disetujui</option>
-									   <option value="4" selected>Keseluruhan</option>
-                                      
-                                  </select>
-                            </div>
+						
 							
 								
 							
@@ -232,7 +284,8 @@
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="25%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Regional</th>
+											  <th width="15%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
 											  <th colspan="4" bgcolor="#f7fcff">Instalasi</th>
 											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Status<br />
 											    Instalasi</th>
@@ -249,6 +302,7 @@
 										<tbody>
 											<tr>
 												<td id="kt_table_13" style="text-align:right">1</td>
+												<td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 												<td style="text-align:left" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Team-1</span></td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
@@ -284,6 +338,7 @@
 										  </tr>
 										  <tr>
 												<td id="kt_table_13" style="text-align:right">2</td>
+												<td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 												<td style="text-align:left" nowrap>Balikpapan</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Team-2</span></td>
 												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_4.jpg" alt="image" /></a></td>
@@ -326,6 +381,7 @@
 										  </tr>
 										  <tr>
 										    <td id="kt_table_8" style="text-align:right">3</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Samarinda</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm">Team-3</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_5.jpg" alt="image" /></a></td>
@@ -368,6 +424,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_7" style="text-align:right">4</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Ambon - Yos Sudarso</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-skype btn-sm">Team-4</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_6.jpg" alt="image" /></a></td>
@@ -410,6 +467,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_6" style="text-align:right">5</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Ambon - Slamet Riyadi</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Team-1</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
@@ -452,6 +510,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_5" style="text-align:right">6</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Sorong</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Team-2</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_4.jpg" alt="image" /></a></td>
@@ -494,6 +553,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_4" style="text-align:right">7</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Bitung</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm">Team-3</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_5.jpg" alt="image" /></a></td>
@@ -536,6 +596,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_3" style="text-align:right">8</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Manado</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-skype btn-sm">Team-4</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_6.jpg" alt="image" /></a></td>
@@ -578,6 +639,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">9</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Nunukan</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Team-1</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
@@ -620,6 +682,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">10</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Ternate</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Team-2</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_4.jpg" alt="image" /></a></td>
@@ -662,6 +725,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_8" style="text-align:right">11</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Tarakan</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm">Team-3</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_5.jpg" alt="image" /></a></td>
@@ -705,6 +769,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_7" style="text-align:right">12</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Kendari</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-skype btn-sm">Team-4</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_6.jpg" alt="image" /></a></td>
@@ -747,6 +812,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_6" style="text-align:right">13</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Pare-Pare</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Team-1</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>

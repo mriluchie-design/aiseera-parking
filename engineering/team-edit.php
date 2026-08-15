@@ -25,12 +25,12 @@
 			
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Form
+                    Edit
                 </h3>
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Tambah Team</span>
+											Team</span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
 										</form>
@@ -120,7 +120,7 @@ function goBack() {
 					  <div class="form-group row">
 				
 					  
-					  <div class="col-lg-12">
+					  <div class="col-lg-2">
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
@@ -130,26 +130,27 @@ function goBack() {
 					  
 						
 					 
-						<div class="col-lg-3">
-                          <label class="">Regional :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="PT. Pelabuhan Indonesia (Persero) Regional 4">
-                        </div>
-						<div class="col-lg-2">
-                          <label class="">Cabang :</label>
+						
+						<div class="col-lg-12">
+                          <label class="">Lokasi :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Makassar">
                         </div>
-                        
-						<div class="col-lg-3">
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-12">
                           <label class="">Nama Team :</label>
                           <input type="text" class="form-control form-control-sm" placeholder="">
                         </div>
 						
 						
-                       
-						<div class="col-lg-2">
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-12">
                           <label class="">Tanggal Mulai :</label>
                           <div class="input-group date">
-											<input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="= Pilih Tanggal =" id="kt_datepicker_2">
+											<input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="Select date" id="kt_datepicker_2">
 											<div class="input-group-append">
 												<span class="input-group-text">
 													<i class="la la-calendar-check-o"></i>
@@ -159,11 +160,13 @@ function goBack() {
                         </div>
 						
 						
-                       
-						<div class="col-lg-2">
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-12">
                           <label class="">Tanggal Deadline :</label>
                           <div class="input-group date">
-											<input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="= Pilih Tanggal =" id="kt_datepicker_2">
+											<input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="Select date" id="kt_datepicker_2">
 											<div class="input-group-append">
 												<span class="input-group-text">
 													<i class="la la-calendar-check-o"></i>
@@ -175,12 +178,39 @@ function goBack() {
 						
                         </div>
 						
-                        
+                        <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						 </div>
+						<div class="form-group row">
+								<div class="col-xl-12">
+
+									<!--begin::Portlet-->
+										
+										<div class="kt-portlet__body">
+											<div class="kt-portlet__content">
+											
+											
+												
 						
+                     
+						
+                     
+					  
+                     
+									</div>
+									
+
+									</div>
+
+
+							<!--end:: Portlet-->
+
+
+										</div>
+								
+													</div>
                         </div>
                         </div>
-						<div class="col-xl-12">
+						<div class="col-xl-10">
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Team</div><br>
 							<div>&nbsp;</div>

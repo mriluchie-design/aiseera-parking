@@ -104,8 +104,19 @@
 				<form class="kt-form">
 					<div class="kt-portlet__body">
                         <div class="form-group row">
+						<div class="col-lg-3">
+                                <label>Regional :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true" >
+                                      <option value="1">PT. Pelabuhan Indonesia (Persero) Regional 1</option>
+                                      <option value="2">PT. Pelabuhan Indonesia (Persero) Regional 2</option>
+                                      <option value="2">PT. Pelabuhan Indonesia (Persero) Regional 3</option>
+                                      <option value="2" selected>PT. Pelabuhan Indonesia (Persero) Regional 4</option>
+                                                                           
+                                  </select>
+    		                    </div>
 						<div class="col-lg-2">
-                                <label>Lokasi :</label>
+                                <label>Cabang :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1">Makassar</option>
@@ -170,7 +181,7 @@
                                      
                                   </select>
                             </div>
-								<div class="col-lg-2">
+								<div class="col-lg-1">
                                 <label>Jenis Tarif :</label>
 								
                                  <select class="form-control kt-selectpicker" data-live-search="true">
@@ -218,24 +229,26 @@
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="2%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
-											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Tipe Tarif</th>
-											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Jenis<br>Kendaraan</th>
-											  <th width="8%" rowspan="2" bgcolor="#f7fcff">Kategori Kendaraan</th>
-											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Jenis Tarif</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Regional</th>
+											  <th width="10%" rowspan="2" bgcolor="#f7fcff">Cabang</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Tipe Tarif</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Jenis<br>Kendaraan</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Kategori Kendaraan</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Jenis Tarif</th>
 											  <th colspan="3" bgcolor="#f7fcff">Tarif</th>
-											  <th width="10%" rowspan="2" bgcolor="#f7fcff">Biaya Sticker</th>
+											  <th width="6%" rowspan="2" bgcolor="#f7fcff">Biaya Sticker</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 											<tr style="text-align:center">
-											  <th width="10%" bgcolor="#f7fcff">Pokok</th>
-											  <th width="10%" bgcolor="#f7fcff">Jam Selanjutnya</th>
-											  <th width="10%" bgcolor="#f7fcff">Maksimal</th>
+											  <th width="6%" bgcolor="#f7fcff">Pokok</th>
+											  <th width="6%" bgcolor="#f7fcff">Jam Selanjutnya</th>
+											  <th width="6%" bgcolor="#f7fcff">Maksimal</th>
 									      </tr>
 										</thead>
 										<tbody>
 											<tr>
 												<td id="kt_table_13" style="text-align:right">1</td>
+												<td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 												<td style="text-align:left" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Reguler</span></td>
 												<td style="text-align:center" nowrap>Motor</td>
@@ -282,6 +295,7 @@
 										  </tr>
 										  <tr>
 												<td id="kt_table_13" style="text-align:right">2</td>
+												<td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 												<td style="text-align:left" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Reguler</span></td>
 												<td style="text-align:center" nowrap>Mobil</td>
@@ -328,6 +342,7 @@
 										  </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">3</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">Member</span></td>
 										    <td style="text-align:center" nowrap>Motor</td>
@@ -371,6 +386,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">4</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">Member</span></td>
 										    <td style="text-align:center" nowrap>Mobil</td>
@@ -414,6 +430,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">5</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">Member</span></td>
 										    <td style="text-align:center" nowrap>Mobil</td>
@@ -457,6 +474,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">6</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">Member</span></td>
 										    <td style="text-align:center" nowrap>Mobil</td>
@@ -500,6 +518,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">7</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-success btn-sm">Member</span></td>
 										    <td style="text-align:center" nowrap="nowrap">Motor</td>
@@ -522,6 +541,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">8</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">Berangkat</span></td>
 										    <td style="text-align:center" nowrap>Motor</td>
@@ -565,6 +585,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">9</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">Berangkat</span></td>
 										    <td style="text-align:center" nowrap>Mobil</td>
@@ -587,6 +608,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">10</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">Berangkat</span></td>
 										    <td style="text-align:center" nowrap>Mobil</td>
@@ -609,6 +631,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">11</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">Berangkat</span></td>
 										    <td style="text-align:center" nowrap>Mobil</td>
@@ -631,6 +654,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">12</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">Berangkat</span></td>
 										    <td style="text-align:center" nowrap>Mobil</td>
@@ -653,6 +677,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">13</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">Berangkat</span></td>
 										    <td nowrap="nowrap" style="text-align:center">Sepeda</td>
@@ -675,6 +700,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">14</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-info kt-badge--md kt-badge--inline">Berangkat</span></td>
 										    <td nowrap="nowrap" style="text-align:center">Gerobak</td>
@@ -697,6 +723,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">15</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-skype btn-sm">Muatan Kapal</span></td>
 										    <td nowrap="nowrap" style="text-align:center">Motor</td>
@@ -740,6 +767,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">16</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-skype btn-sm">Muatan Kapal</span></td>
 										    <td nowrap="nowrap" style="text-align:center">Mobil</td>
@@ -783,6 +811,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">17</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap>Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-youtube btn-sm">Free Pass</span></td>
 										    <td nowrap="nowrap" style="text-align:center">Free Pass</td>
@@ -826,6 +855,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">18</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap>Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-danger btn-sm">Denda</span></td>
 										    <td nowrap="nowrap" style="text-align:center">Motor</td>
@@ -869,6 +899,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">19</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap>Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-danger btn-sm">Denda</span></td>
 										    <td nowrap="nowrap" style="text-align:center">Mobil</td>
@@ -912,6 +943,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">20</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap="nowrap">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--primary kt-badge--md kt-badge--inline">Pass Orang</span></td>
 										    <td nowrap="nowrap" style="text-align:center">Orang</td>
@@ -934,6 +966,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">21</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap>Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">Pass Kade</span></td>
 										    <td nowrap="nowrap" style="text-align:center">Truck</td>
@@ -977,6 +1010,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">22</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap="nowrap">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">Pass Kade</span></td>
 										    <td nowrap="nowrap" style="text-align:center">Tronton</td>
@@ -999,6 +1033,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">23</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap="nowrap">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">Pass Kade</span></td>
 										    <td nowrap="nowrap" style="text-align:center">Pickup</td>
@@ -1021,6 +1056,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">24</td>
+										    <td style="text-align:left" nowrap="nowrap">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap="nowrap">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">Pass Kade</span></td>
 										    <td nowrap="nowrap" style="text-align:center">Gerobak</td>

@@ -25,12 +25,12 @@
 			
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Form
+                    Detail
                 </h3>
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Tambah Team</span>
+											Team</span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
 										</form>
@@ -62,31 +62,34 @@ function goBack() {
 				
 				
 			</div>
-			<div class="btn-group">
-				<button type="button" class="btn btn-success">
-					<i class="fa fa-check-circle"></i>
-					<span class="kt-hidden-mobile">Simpan</span>
-				</button>
-				<button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				</button>
-				<div class="dropdown-menu dropdown-menu-right">
-					<ul class="kt-nav">
-						<li class="kt-nav__item">
-							<a href="#" class="kt-nav__link">
-								<i class="kt-nav__link-icon fa fa-clock"></i>
-								<span class="kt-nav__link-text">Sementara</span>
-							</a>
-						</li>
-						<li class="kt-nav__item">
-							<a href="#" class="kt-nav__link">
-								<i class="kt-nav__link-icon fa fa-check-circle"></i>
-								<span class="kt-nav__link-text">Selesai</span>
-							</a>
-						</li>
-						
-					</ul>
-				</div>
-			</div>
+			<a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
+												<i class="flaticon2-printer"></i> Export Data</button>
+
+												<!--<i class="flaticon2-plus"></i>-->
+											</a>
+											<div class="dropdown-menu dropdown-menu-fit dropdown-menu-md dropdown-menu-right">
+
+												<!--begin::Nav-->
+												<ul class="kt-nav">
+
+													<li class="kt-nav__item">
+														<a href="#" class="kt-nav__link">
+															<i class="kt-nav__link-icon fa fa-file-pdf"></i>
+															<span class="kt-nav__link-text">PDF</span>
+														</a>
+													</li>
+													<li class="kt-nav__item">
+														<a href="#" class="kt-nav__link">
+															<i class="kt-nav__link-icon fa fa-file-excel"></i>
+															<span class="kt-nav__link-text">Excel</span>
+
+														</a>
+													</li>
+
+												</ul>
+
+												<!--end::Nav-->
+											</div>
 			
 				 
                
@@ -120,7 +123,7 @@ function goBack() {
 					  <div class="form-group row">
 				
 					  
-					  <div class="col-lg-12">
+					  <div class="col-lg-2">
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
@@ -130,57 +133,73 @@ function goBack() {
 					  
 						
 					 
-						<div class="col-lg-3">
-                          <label class="">Regional :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="PT. Pelabuhan Indonesia (Persero) Regional 4">
-                        </div>
-						<div class="col-lg-2">
-                          <label class="">Cabang :</label>
+						
+						<div class="col-lg-12">
+                          <label class="">Lokasi :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Makassar">
                         </div>
-                        
-						<div class="col-lg-3">
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-12">
                           <label class="">Nama Team :</label>
-                          <input type="text" class="form-control form-control-sm" placeholder="">
+                          <input type="text" class="form-control form-control-sm" disabled placeholder="Team-1">
                         </div>
 						
 						
-                       
-						<div class="col-lg-2">
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-12">
                           <label class="">Tanggal Mulai :</label>
-                          <div class="input-group date">
-											<input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="= Pilih Tanggal =" id="kt_datepicker_2">
-											<div class="input-group-append">
-												<span class="input-group-text">
-													<i class="la la-calendar-check-o"></i>
-												</span>
-											</div>
-										</div>
+                          <input type="text" class="form-control form-control-sm" disabled placeholder="1 September 2026">
                         </div>
 						
 						
-                       
-						<div class="col-lg-2">
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-12">
                           <label class="">Tanggal Deadline :</label>
-                          <div class="input-group date">
-											<input type="text" class="form-control form-control-sm kt_datepicker_2_modal" readonly="" placeholder="= Pilih Tanggal =" id="kt_datepicker_2">
-											<div class="input-group-append">
-												<span class="input-group-text">
-													<i class="la la-calendar-check-o"></i>
-												</span>
-											</div>
-										</div>
+                          <input type="text" class="form-control form-control-sm" disabled placeholder="10 September 2026">
                         </div>
 						
 						
                         </div>
 						
-                        
+                        <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						 </div>
+						<div class="form-group row">
+								<div class="col-xl-12">
+
+									<!--begin::Portlet-->
+										
+										<div class="kt-portlet__body">
+											<div class="kt-portlet__content">
+											
+											
+												
 						
+                     
+						
+                     
+					  
+                     
+									</div>
+									
+
+									</div>
+
+
+							<!--end:: Portlet-->
+
+
+										</div>
+								
+													</div>
                         </div>
                         </div>
-						<div class="col-xl-12">
+						<div class="col-xl-10">
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
 							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Team</div><br>
 							<div>&nbsp;</div>
@@ -196,7 +215,7 @@ function goBack() {
 																									<td width="7%" bgcolor="#f7fcff">Jabatan</td>
 																									<td width="7%" bgcolor="#f7fcff">Jabatan Team</td>
 																									
-																									<td width="1%" bgcolor="#f7fcff" style="text-align:center">Aksi</td>
+																									
 																								</tr>
 																								<thead>
 																									<tbody data-repeater-list="">
@@ -210,9 +229,7 @@ function goBack() {
     <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Direktur Utama"></td>
     <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Project Director"></td>
     
-																									<td style="text-align:center">
-																										<a href="javascript:;" data-repeater-delete="" class="btn btn-outline-hover-danger btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="default" title="" data-html="true" data-original-title="Hapus"><i class="fa flaticon2-trash"></i></a>
-																									</td>
+																									
 																								</tr>
 																								<tr>
 																								  <td style="text-align:right">2</td>
@@ -224,19 +241,11 @@ function goBack() {
     <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="ME Engineering Supervisor"></td>
    <td><input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Project Manager"></td>
     
-																									<td style="text-align:center">
-																										<a href="javascript:;" data-repeater-delete="" class="btn btn-outline-hover-danger btn-sm btn-icon" data-toggle="kt-tooltip" data-skin="default" title="" data-html="true" data-original-title="Hapus"><i class="fa flaticon2-trash"></i></a>
-																									</td>
+																									
 																								</tr>
 																								
 																							</tbody>
-																							<tfoot>
-																								<tr>
-																									<td colspan="7">
-																										<button type="button" class="btn btn-success btn-sm float-right" data-toggle="modal" data-target="#modal_tambah_team"> <i class='fa fa-plus-circle'></i> Tambah Data</button>
-																									</td>
-																								</tr>
-																							</tfoot>
+																							
 																						</table>
                                           </div>
                                           </div>

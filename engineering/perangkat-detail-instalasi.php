@@ -25,12 +25,12 @@
 			
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Instalasi
+                    Detail
                 </h3>
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
 										<span class="kt-subheader__desc" id="kt_subheader_total" style="color:#ff0000">
-											Perangkat</span>
+											Instalasi Perangkat</span>
 										<form class="kt-margin-l-20" id="kt_subheader_search_form">
 
 										</form>
@@ -62,31 +62,27 @@ function goBack() {
 				
 				
 			</div>
-			<div class="btn-group">
-				<button type="button" class="btn btn-success">
-					<i class="fa fa-check-circle"></i>
-					<span class="kt-hidden-mobile">Simpan</span>
-				</button>
-				<button type="button" class="btn btn-success dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-				</button>
-				<div class="dropdown-menu dropdown-menu-right">
-					<ul class="kt-nav">
-						<li class="kt-nav__item">
-							<a href="#" class="kt-nav__link">
-								<i class="kt-nav__link-icon fa fa-clock"></i>
-								<span class="kt-nav__link-text">Sementara</span>
-							</a>
-						</li>
-						<li class="kt-nav__item">
-							<a href="#" class="kt-nav__link">
-								<i class="kt-nav__link-icon fa fa-check-circle"></i>
-								<span class="kt-nav__link-text">Selesai</span>
-							</a>
-						</li>
-						
-					</ul>
-				</div>
-			</div>
+			<a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
+                    <i class="flaticon2-printer"></i> Export Data</button>
+                    <!--<i class="flaticon2-plus"></i>-->
+                </a>
+                <div class="dropdown-menu dropdown-menu-fit dropdown-menu-md dropdown-menu-right">
+                    <!--begin::Nav-->
+                    <ul class="kt-nav">
+                        <li class="kt-nav__item">
+														<a href="cetak-detail-instalasi-perangkat.php" class="kt-nav__link">
+															<i class="kt-nav__link-icon fa fa-file-pdf"></i>
+															<span class="kt-nav__link-text">PDF</span>
+														</a>
+													</li>
+                        <li class="kt-nav__item">
+                            <a href="#" class="kt-nav__link">
+                                <i class="kt-nav__link-icon fa fa-file-excel"></i><span class="kt-nav__link-text">Excel</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!--end::Nav-->
+                </div>
 			
 				 
                
@@ -120,7 +116,7 @@ function goBack() {
 					  <div class="form-group row">
 				
 					  
-					  <div class="col-lg-12">
+					  <div class="col-lg-2">
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
@@ -128,42 +124,45 @@ function goBack() {
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
 					  
-						<div class="col-lg-3">
-                          <label class="">Regional :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="PT. Pelabuhan Indonesia (Persero) Regional 4">
-                        </div>
+						
 					 
 						
-						<div class="col-lg-2">
-                          <label class="">Cabang :</label>
+						<div class="col-lg-12">
+                          <label class="">Lokasi :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Makassar">
                         </div>
-                        
-						<div class="col-lg-1">
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-6">
                           <label class="">Gate :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1">
                         </div>
-						<div class="col-lg-1">
+						<div class="col-lg-6">
                           <label class="">Jalur :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Masuk">
                         </div>
-                        
-						<div class="col-lg-2">
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-6">
                           <label class="">Nama Jalur :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Mobil - 1">
                         </div>
-						<div class="col-lg-1">
+						<div class="col-lg-6">
                           <label class="">Transaksi :</label>
                            <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Ya">
                         </div>
 						
 						
-                        
-						<div class="col-lg-1">
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-6">
                           <label class="">Dispenser :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Ya">
                         </div>
-						<div class="col-lg-1">
+						<div class="col-lg-6">
                           <label class="">Tipe Dispenser :</label>
                            <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Single">
                         </div>
@@ -171,12 +170,39 @@ function goBack() {
 						
                         </div>
 						
-                        
+                        <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						 </div>
+						<div class="form-group row">
+								<div class="col-xl-12">
+
+									<!--begin::Portlet-->
+										
+										<div class="kt-portlet__body">
+											<div class="kt-portlet__content">
+											
+											
+												
 						
+                     
+						
+                     
+					  
+                     
+									</div>
+									
+
+									</div>
+
+
+							<!--end:: Portlet-->
+
+
+										</div>
+								
+													</div>
                         </div>
                         </div>
-						<div class="col-lg-12">
+						<div class="col-lg-10">
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
@@ -211,287 +237,564 @@ function goBack() {
 													<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
 
   <tbody><tr style="text-align:center">
-    <td width="1%" bgcolor="#f7fcff" rowspan="2" >No</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >No</td>
     <td width="1%" rowspan="2" bgcolor="#f7fcff" >Kode SKU</td>
     <td width="1%" rowspan="2" bgcolor="#f7fcff" >Kategori</td>
     <td width="10%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
     <td width="15%" rowspan="2" bgcolor="#f7fcff" >Nama Barang</td>
     <td colspan="2" bgcolor="#f7fcff">Qty</td>
-    <td width="12%" rowspan="2" bgcolor="#f7fcff" >QR Code<br />
-      Perangkat</td>
+    <td width="10%" rowspan="2" bgcolor="#f7fcff" >QR Code<br>Perangkat</td>
     <td width="2%" rowspan="2" bgcolor="#f7fcff" >Installer</td>
     <td width="1%" rowspan="2" bgcolor="#f7fcff" >Aksi</td>
   </tr>
     <tr style="text-align:center">
       <td width="1%" bgcolor="#f7fcff" >Vol</td>
-      <td width="1%" bgcolor="#f7fcff" >Satuan</td>
+      <td width="2%" bgcolor="#f7fcff" >Satuan</td>
     </tr>
   
     
     <tr>
-    <td style="text-align:right">1</td>
-    <td nowrap="nowrap" style="text-align:left">000101010726</td>
-    <td style="text-align:left">Casing</td>
-    <td style="text-align:left">Casing</td>
-    <td style="text-align:left">Custom Casing Dispenser Single</td>
-    <td nowrap="nowrap" style="text-align:right">1</td>
-    <td nowrap="nowrap" style="text-align:left">Unit</td>
-    <td nowrap="nowrap" style="text-align:center"><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="1231231231233" disabled="disabled" id="generalSearch" />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span></span></div></td>
-    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="10 September 2026&lt;hr&gt;14:34:00 WITA&lt;hr&gt;000000000000&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_6.jpg" alt="image" /></a></td>
-    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
-      <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-        <ul class="kt-nav">
-          <li class="kt-nav__item"> <a href="instalasi-perangkat-spesifikasi.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Spesifikasi</span> </a> </li>
-          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
-          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
-        </ul>
-      </div>
-    </div></td>
-    </tr>
+      <td style="text-align:right">1</td>
+      <td nowrap="nowrap" style="text-align:left">000101010726</td>
+      <td style="text-align:left">Casing</td>
+      <td style="text-align:left">Casing</td>
+      <td style="text-align:left">Custom Casing Dispenser Single</td>
+      <td style="text-align:right">1</td>
+      <td style="text-align:left">Unit</td>
+    <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
+      <input type="text" class="form-control form-control-sm" placeholder="1231231231233" disabled id="generalSearch" />
+      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
+    <td style="text-align:center" nowrap><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="10 September 2026 - 14:34 WITA<hr>Muhammad Nasrullah, S.Kom<hr>123123123" data-html="true"><img src="../assets/media/users/100_6.jpg" alt="image" /></a></td>
+    <td style="text-align:center" nowrap><div class="kt-widget2__actions">
+																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="flaticon-more-1"></i>
+																</a>
+																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+																	<ul class="kt-nav">
+																	<li class="kt-nav__item">
+																			<a href="instalasi-perangkat-spesifikasi.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Spesifikasi</span>
+																			</a>
+																		</li>
+																		
+																		
+
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																			
+																		</li>
+																		
+																	</ul>
+																</div>
+															</div></td>
+  </tr>
 <tr>
-    <td style="text-align:right">2</td>
-    <td nowrap="nowrap" style="text-align:left">000201010726</td>
-    <td style="text-align:left">Reader</td>
-    <td style="text-align:left">Payment Reader</td>
-    <td style="text-align:left">Payment Reader</td>
-    <td nowrap="nowrap" style="text-align:right">1</td>
-    <td nowrap="nowrap" style="text-align:left">Unit</td>
-    <td nowrap="nowrap" style="text-align:center"><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span></span></div></td>
-    <td nowrap="nowrap" style="text-align:center">-</td>
-    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
-      <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-        <ul class="kt-nav">
-          <li class="kt-nav__item"> <a href="instalasi-perangkat-spesifikasi.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Spesifikasi</span> </a> </li>
-          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
-          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
-        </ul>
-      </div>
-    </div></td>
-    </tr>
+  <td style="text-align:right">2</td>
+  <td nowrap="nowrap" style="text-align:left">000201010726</td>
+  <td style="text-align:left">Reader</td>
+  <td style="text-align:left">Payment Reader</td>
+  <td style="text-align:left">Payment Reader</td>
+  <td style="text-align:right">1</td>
+  <td style="text-align:left">Unit</td>
+    <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
+      <input type="text" class="form-control form-control-sm" placeholder="1231231231233" disabled id="generalSearch" />
+      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
+    <td style="text-align:center" nowrap><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="10 September 2026 - 14:34 WITA<hr>Muhammad Nasrullah, S.Kom<hr>123123123" data-html="true"><img src="../assets/media/users/100_6.jpg" alt="image" /></a></td>
+    <td style="text-align:center" nowrap><div class="kt-widget2__actions">
+																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="flaticon-more-1"></i>
+																</a>
+																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+																	<ul class="kt-nav">
+																	<li class="kt-nav__item">
+																			<a href="instalasi-perangkat-spesifikasi.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Spesifikasi</span>
+																			</a>
+																		</li>
+																		
+																		
+
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																			
+																		</li>
+																		
+																	</ul>
+																</div>
+															</div></td>
+  </tr>
 <tr>
-    <td style="text-align:right">3</td>
-    <td nowrap="nowrap" style="text-align:left">000401010726</td>
-    <td style="text-align:left">Printer</td>
-    <td style="text-align:left">Thermal</td>
-    <td style="text-align:left">TMT82X Lan Port</td>
-    <td nowrap="nowrap" style="text-align:right">1</td>
-    <td nowrap="nowrap" style="text-align:left">Unit</td>
-    <td nowrap="nowrap" style="text-align:center"><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span></span></div></td>
-    <td nowrap="nowrap" style="text-align:center">-</td>
-    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
-      <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-        <ul class="kt-nav">
-          <li class="kt-nav__item"> <a href="instalasi-perangkat-spesifikasi.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Spesifikasi</span> </a> </li>
-          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
-          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
-        </ul>
-      </div>
-    </div></td>
-    </tr>
+  <td style="text-align:right">3</td>
+  <td nowrap="nowrap" style="text-align:left">000401010726</td>
+  <td style="text-align:left">Printer</td>
+  <td style="text-align:left">Thermal</td>
+  <td style="text-align:left">TMT82X Lan Port</td>
+  <td style="text-align:right">1</td>
+  <td style="text-align:left">Unit</td>
+    <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
+      <input type="text" class="form-control form-control-sm" placeholder="1231231231233" disabled id="generalSearch" />
+      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
+    <td style="text-align:center" nowrap><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="10 September 2026 - 14:34 WITA<hr>Muhammad Nasrullah, S.Kom<hr>123123123" data-html="true"><img src="../assets/media/users/100_6.jpg" alt="image" /></a></td>
+    <td style="text-align:center" nowrap><div class="kt-widget2__actions">
+																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="flaticon-more-1"></i>
+																</a>
+																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+																	<ul class="kt-nav">
+																	<li class="kt-nav__item">
+																			<a href="instalasi-perangkat-spesifikasi.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Spesifikasi</span>
+																			</a>
+																		</li>
+																		
+																		
+
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																			
+																		</li>
+																		
+																	</ul>
+																</div>
+															</div></td>
+  </tr>
   <tr>
     <td style="text-align:right">4</td>
     <td nowrap="nowrap" style="text-align:left">000501010726</td>
     <td style="text-align:left">Dispenser</td>
     <td style="text-align:left">Webcam</td>
     <td style="text-align:left">Logitech Webcam C270</td>
-    <td nowrap="nowrap" style="text-align:right">1</td>
-    <td nowrap="nowrap" style="text-align:left">Unit</td>
-    <td nowrap="nowrap" style="text-align:center"><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span></span></div></td>
-    <td nowrap="nowrap" style="text-align:center">-</td>
-    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
-      <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-        <ul class="kt-nav">
-          <li class="kt-nav__item"> <a href="instalasi-perangkat-spesifikasi.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Spesifikasi</span></a></li>
-          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
-          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
-        </ul>
-      </div>
-    </div></td>
-    </tr>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
+    <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
+      <input type="text" class="form-control form-control-sm" placeholder="1231231231233" disabled id="generalSearch" />
+      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
+    <td style="text-align:center" nowrap><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="10 September 2026 - 14:34 WITA<hr>Muhammad Nasrullah, S.Kom<hr>123123123" data-html="true"><img src="../assets/media/users/100_6.jpg" alt="image" /></a></td>
+    <td style="text-align:center" nowrap><div class="kt-widget2__actions">
+																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="flaticon-more-1"></i>
+																</a>
+																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+																	<ul class="kt-nav">
+																	<li class="kt-nav__item">
+																			<a href="instalasi-perangkat-spesifikasi.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Spesifikasi</span>
+																			</a>
+																		</li>
+																		
+																		
+
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																			
+																		</li>
+																		
+																	</ul>
+																</div>
+															</div></td>
+  </tr>
   <tr>
     <td style="text-align:right">5</td>
     <td nowrap="nowrap" style="text-align:left">000601010726</td>
     <td style="text-align:left">Button</td>
     <td style="text-align:left">Bantuan</td>
     <td style="text-align:left">Button Bantuan</td>
-    <td nowrap="nowrap" style="text-align:right">1</td>
-    <td nowrap="nowrap" style="text-align:left">Unit</td>
-    <td nowrap="nowrap" style="text-align:center"><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span></span></div></td>
-    <td nowrap="nowrap" style="text-align:center">-</td>
-    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
-      <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-        <ul class="kt-nav">
-          <li class="kt-nav__item"> <a href="instalasi-perangkat-spesifikasi.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Spesifikasi</span></a></li>
-          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
-          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
-        </ul>
-      </div>
-    </div></td>
-    </tr>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
+    <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
+      <input type="text" class="form-control form-control-sm" placeholder="1231231231233" disabled id="generalSearch" />
+      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
+    <td style="text-align:center" nowrap><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="10 September 2026 - 14:34 WITA<hr>Muhammad Nasrullah, S.Kom<hr>123123123" data-html="true"><img src="../assets/media/users/100_6.jpg" alt="image" /></a></td>
+    <td style="text-align:center" nowrap><div class="kt-widget2__actions">
+																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="flaticon-more-1"></i>
+																</a>
+																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+																	<ul class="kt-nav">
+																	<li class="kt-nav__item">
+																			<a href="instalasi-perangkat-spesifikasi.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Spesifikasi</span>
+																			</a>
+																		</li>
+																		
+																		
+
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																			
+																		</li>
+																		
+																	</ul>
+																</div>
+															</div></td>
+  </tr>
   <tr>
     <td style="text-align:right">6</td>
     <td nowrap="nowrap" style="text-align:left">000801010726</td>
     <td style="text-align:left">Monitor</td>
     <td style="text-align:left">Dispenser Single</td>
     <td style="text-align:left">Monitor AOC 22B20JH2</td>
-    <td nowrap="nowrap" style="text-align:right">1</td>
-    <td nowrap="nowrap" style="text-align:left">Unit</td>
-    <td nowrap="nowrap" style="text-align:center"><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span></span></div></td>
-    <td nowrap="nowrap" style="text-align:center">-</td>
-    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
-      <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-        <ul class="kt-nav">
-          <li class="kt-nav__item"> <a href="instalasi-perangkat-spesifikasi.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Spesifikasi</span></a></li>
-          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
-          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
-        </ul>
-      </div>
-    </div></td>
-    </tr>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
+    <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
+      <input type="text" class="form-control form-control-sm" placeholder="1231231231233" disabled id="generalSearch" />
+      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
+    <td style="text-align:center" nowrap><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="10 September 2026 - 14:34 WITA<hr>Muhammad Nasrullah, S.Kom<hr>123123123" data-html="true"><img src="../assets/media/users/100_6.jpg" alt="image" /></a></td>
+    <td style="text-align:center" nowrap><div class="kt-widget2__actions">
+																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="flaticon-more-1"></i>
+																</a>
+																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+																	<ul class="kt-nav">
+																	<li class="kt-nav__item">
+																			<a href="instalasi-perangkat-spesifikasi.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Spesifikasi</span>
+																			</a>
+																		</li>
+																		
+																		
+
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																			
+																		</li>
+																		
+																	</ul>
+																</div>
+															</div></td>
+  </tr>
   <tr>
     <td style="text-align:right">7</td>
     <td nowrap="nowrap" style="text-align:left">001001010726</td>
     <td style="text-align:left">Mini PC</td>
     <td style="text-align:left">Asus NUC</td>
     <td style="text-align:left">Asus NUC 14MNK15 - DDR5 8Gb +NVME 256Gb</td>
-    <td nowrap="nowrap" style="text-align:right">1</td>
-    <td nowrap="nowrap" style="text-align:left">Unit</td>
-    <td nowrap="nowrap" style="text-align:center"><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span></span></div></td>
-    <td nowrap="nowrap" style="text-align:center">-</td>
-    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
-      <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-        <ul class="kt-nav">
-          <li class="kt-nav__item"> <a href="instalasi-perangkat-spesifikasi.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Spesifikasi</span></a></li>
-          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
-          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
-        </ul>
-      </div>
-    </div></td>
-    </tr>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
+    <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
+      <input type="text" class="form-control form-control-sm" placeholder="1231231231233" disabled id="generalSearch" />
+      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
+    <td style="text-align:center" nowrap><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="10 September 2026 - 14:34 WITA<hr>Muhammad Nasrullah, S.Kom<hr>123123123" data-html="true"><img src="../assets/media/users/100_6.jpg" alt="image" /></a></td>
+    <td style="text-align:center" nowrap><div class="kt-widget2__actions">
+																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="flaticon-more-1"></i>
+																</a>
+																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+																	<ul class="kt-nav">
+																	<li class="kt-nav__item">
+																			<a href="instalasi-perangkat-spesifikasi.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Spesifikasi</span>
+																			</a>
+																		</li>
+																		
+																		
+
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																			
+																		</li>
+																		
+																	</ul>
+																</div>
+															</div></td>
+  </tr>
   <tr>
     <td style="text-align:right">8</td>
     <td nowrap="nowrap" style="text-align:left">001201010726</td>
     <td style="text-align:left">Jaringan</td>
     <td style="text-align:left">Hub Switch Gigabit Manage</td>
     <td style="text-align:left">Ruijie Reyee RG-ES208GC</td>
-    <td nowrap="nowrap" style="text-align:right">1</td>
-    <td nowrap="nowrap" style="text-align:left">Unit</td>
-    <td nowrap="nowrap" style="text-align:center"><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span></span></div></td>
-    <td nowrap="nowrap" style="text-align:center">-</td>
-    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
-      <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-        <ul class="kt-nav">
-          <li class="kt-nav__item"> <a href="instalasi-perangkat-spesifikasi.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Spesifikasi</span></a></li>
-          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
-          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
-        </ul>
-      </div>
-    </div></td>
-    </tr>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
+    <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
+      <input type="text" class="form-control form-control-sm" placeholder="1231231231233" disabled id="generalSearch" />
+      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
+    <td style="text-align:center" nowrap><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="10 September 2026 - 14:34 WITA<hr>Muhammad Nasrullah, S.Kom<hr>123123123" data-html="true"><img src="../assets/media/users/100_6.jpg" alt="image" /></a></td>
+    <td style="text-align:center" nowrap><div class="kt-widget2__actions">
+																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="flaticon-more-1"></i>
+																</a>
+																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+																	<ul class="kt-nav">
+																	<li class="kt-nav__item">
+																			<a href="instalasi-perangkat-spesifikasi.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Spesifikasi</span>
+																			</a>
+																		</li>
+																		
+																		
+
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																			
+																		</li>
+																		
+																	</ul>
+																</div>
+															</div></td>
+  </tr>
   <tr>
     <td style="text-align:right">9</td>
     <td nowrap="nowrap" style="text-align:left">002201010726</td>
     <td style="text-align:left">Sensor</td>
     <td style="text-align:left">VLD</td>
     <td style="text-align:left">VLD Dispenser</td>
-    <td nowrap="nowrap" style="text-align:right">1</td>
-    <td nowrap="nowrap" style="text-align:left">Unit</td>
-    <td nowrap="nowrap" style="text-align:center"><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span></span></div></td>
-    <td nowrap="nowrap" style="text-align:center">-</td>
-    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
-      <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-        <ul class="kt-nav">
-          <li class="kt-nav__item"> <a href="instalasi-perangkat-spesifikasi.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Spesifikasi</span></a></li>
-          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
-          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
-        </ul>
-      </div>
-    </div></td>
-    </tr>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
+    <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
+      <input type="text" class="form-control form-control-sm" placeholder="1231231231233" disabled id="generalSearch" />
+      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
+    <td style="text-align:center" nowrap><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="10 September 2026 - 14:34 WITA<hr>Muhammad Nasrullah, S.Kom<hr>123123123" data-html="true"><img src="../assets/media/users/100_6.jpg" alt="image" /></a></td>
+    <td style="text-align:center" nowrap><div class="kt-widget2__actions">
+																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="flaticon-more-1"></i>
+																</a>
+																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+																	<ul class="kt-nav">
+																	<li class="kt-nav__item">
+																			<a href="instalasi-perangkat-spesifikasi.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Spesifikasi</span>
+																			</a>
+																		</li>
+																		
+																		
+
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																			
+																		</li>
+																		
+																	</ul>
+																</div>
+															</div></td>
+  </tr>
   <tr>
     <td style="text-align:right">10</td>
     <td nowrap="nowrap" style="text-align:left">002701010726</td>
     <td style="text-align:left">Controller</td>
     <td style="text-align:left">Dispenser</td>
     <td style="text-align:left">Controller Dispenser</td>
-    <td nowrap="nowrap" style="text-align:right">1</td>
-    <td nowrap="nowrap" style="text-align:left">Unit</td>
-    <td nowrap="nowrap" style="text-align:center"><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span></span></div></td>
-    <td nowrap="nowrap" style="text-align:center">-</td>
-    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
-      <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-        <ul class="kt-nav">
-          <li class="kt-nav__item"> <a href="instalasi-perangkat-spesifikasi.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Spesifikasi</span></a></li>
-          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
-          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
-        </ul>
-      </div>
-    </div></td>
-    </tr>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
+    <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
+      <input type="text" class="form-control form-control-sm" placeholder="1231231231233" disabled id="generalSearch" />
+      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
+    <td style="text-align:center" nowrap><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="10 September 2026 - 14:34 WITA<hr>Muhammad Nasrullah, S.Kom<hr>123123123" data-html="true"><img src="../assets/media/users/100_6.jpg" alt="image" /></a></td>
+    <td style="text-align:center" nowrap><div class="kt-widget2__actions">
+																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="flaticon-more-1"></i>
+																</a>
+																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+																	<ul class="kt-nav">
+																	<li class="kt-nav__item">
+																			<a href="instalasi-perangkat-spesifikasi.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Spesifikasi</span>
+																			</a>
+																		</li>
+																		
+																		
+
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																			
+																		</li>
+																		
+																	</ul>
+																</div>
+															</div></td>
+  </tr>
   <tr>
     <td style="text-align:right">11</td>
     <td nowrap="nowrap" style="text-align:left">004801010726</td>
     <td style="text-align:left">Speaker</td>
     <td style="text-align:left">Logitech</td>
     <td style="text-align:left">CTSL100</td>
-    <td nowrap="nowrap" style="text-align:right">1</td>
-    <td nowrap="nowrap" style="text-align:left">Unit</td>
-    <td nowrap="nowrap" style="text-align:center"><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span></span></div></td>
-    <td nowrap="nowrap" style="text-align:center">-</td>
-    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
-      <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-        <ul class="kt-nav">
-          <li class="kt-nav__item"> <a href="instalasi-perangkat-spesifikasi.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Spesifikasi</span></a></li>
-          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
-          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
-        </ul>
-      </div>
-    </div></td>
-    </tr>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
+    <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
+      <input type="text" class="form-control form-control-sm" placeholder="1231231231233" disabled id="generalSearch" />
+      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
+    <td style="text-align:center" nowrap><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="10 September 2026 - 14:34 WITA<hr>Muhammad Nasrullah, S.Kom<hr>123123123" data-html="true"><img src="../assets/media/users/100_6.jpg" alt="image" /></a></td>
+    <td style="text-align:center" nowrap><div class="kt-widget2__actions">
+																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="flaticon-more-1"></i>
+																</a>
+																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+																	<ul class="kt-nav">
+																	<li class="kt-nav__item">
+																			<a href="instalasi-perangkat-spesifikasi.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Spesifikasi</span>
+																			</a>
+																		</li>
+																		
+																		
+
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																			
+																		</li>
+																		
+																	</ul>
+																</div>
+															</div></td>
+  </tr>
   <tr>
     <td style="text-align:right">12</td>
     <td nowrap="nowrap" style="text-align:left">004901010726</td>
     <td style="text-align:left">UPS</td>
     <td style="text-align:left">APC</td>
     <td style="text-align:left">APC 1200</td>
-    <td nowrap="nowrap" style="text-align:right">1</td>
-    <td nowrap="nowrap" style="text-align:left">Unit</td>
-    <td nowrap="nowrap" style="text-align:center"><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
-      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span></span></div></td>
-    <td nowrap="nowrap" style="text-align:center">-</td>
-    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i></a>
-      <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
-        <ul class="kt-nav">
-          <li class="kt-nav__item"> <a href="instalasi-perangkat-spesifikasi.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Spesifikasi</span></a></li>
-          <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span></a></li>
-          <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span></a></li>
-        </ul>
-      </div>
-    </div></td>
-    </tr>
+    <td style="text-align:right">1</td>
+    <td style="text-align:left">Unit</td>
+    <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
+      <input type="text" class="form-control form-control-sm" placeholder="1231231231233" disabled id="generalSearch" />
+      <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
+    <td style="text-align:center" nowrap><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="10 September 2026 - 14:34 WITA<hr>Muhammad Nasrullah, S.Kom<hr>123123123" data-html="true"><img src="../assets/media/users/100_6.jpg" alt="image" /></a></td>
+    <td style="text-align:center" nowrap><div class="kt-widget2__actions">
+																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
+																	<i class="flaticon-more-1"></i>
+																</a>
+																<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+																	<ul class="kt-nav">
+																	<li class="kt-nav__item">
+																			<a href="instalasi-perangkat-spesifikasi.php" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-eye"></i>
+																				<span class="kt-nav__link-text">Spesifikasi</span>
+																			</a>
+																		</li>
+																		
+																		
+
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link">
+																				<i class="kt-nav__link-icon fa fa-user-edit"></i>
+																				<span class="kt-nav__link-text">Edit</span>
+																			</a>
+																		</li>
+																		<li class="kt-nav__item">
+																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
+																				<i class="kt-nav__link-icon fa fa-trash-alt"></i>
+																				<span class="kt-nav__link-text">Hapus</span>
+																			</a>
+																			
+																		</li>
+																		
+																	</ul>
+																</div>
+															</div></td>
+  </tr>
+
+
   </tbody>
 </table>
 													</div>
@@ -524,20 +827,19 @@ function goBack() {
 													<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
 
   <tbody><tr style="text-align:center">
-    <td width="1%" bgcolor="#f7fcff" rowspan="2" >No</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >No</td>
     <td width="1%" rowspan="2" bgcolor="#f7fcff" >Kode SKU</td>
     <td width="1%" rowspan="2" bgcolor="#f7fcff" >Kategori</td>
     <td width="10%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
     <td width="15%" rowspan="2" bgcolor="#f7fcff" >Nama Barang</td>
     <td colspan="2" bgcolor="#f7fcff">Qty</td>
-    <td width="10%" rowspan="2" bgcolor="#f7fcff" >QR Code<br />
-      Perangkat</td>
+    <td width="10%" rowspan="2" bgcolor="#f7fcff" >QR Code<br>Perangkat</td>
     <td width="2%" rowspan="2" bgcolor="#f7fcff" >Installer</td>
     <td width="1%" rowspan="2" bgcolor="#f7fcff" >Aksi</td>
   </tr>
     <tr style="text-align:center">
       <td width="1%" bgcolor="#f7fcff" >Vol</td>
-      <td width="1%" bgcolor="#f7fcff" >Satuan</td>
+      <td width="2%" bgcolor="#f7fcff" >Satuan</td>
     </tr>
   
     
@@ -550,9 +852,9 @@ function goBack() {
   <td style="text-align:right">1</td>
   <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="123123123123" disabled id="generalSearch" />
+      <input type="text" class="form-control form-control-sm" placeholder="1231231231233" disabled id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
-    <td style="text-align:center" nowrap><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="10 September 2026<hr>14:34:00 WITA<hr>000000000000<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_6.jpg" alt="image" /></a></td>
+    <td style="text-align:center" nowrap><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="10 September 2026 - 14:34 WITA<hr>Muhammad Nasrullah, S.Kom<hr>123123123" data-html="true"><img src="../assets/media/users/100_6.jpg" alt="image" /></a></td>
     <td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -585,7 +887,7 @@ function goBack() {
 																	</ul>
 																</div>
 															</div></td>
-    </tr>
+  </tr>
 <tr>
   <td style="text-align:right">2</td>
   <td style="text-align:left">003501010726</td>
@@ -595,9 +897,9 @@ function goBack() {
   <td style="text-align:right">1</td>
   <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
+      <input type="text" class="form-control form-control-sm" placeholder="1231231231233" disabled id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
-    <td style="text-align:center" nowrap>-</td>
+    <td style="text-align:center" nowrap><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="10 September 2026 - 14:34 WITA<hr>Muhammad Nasrullah, S.Kom<hr>123123123" data-html="true"><img src="../assets/media/users/100_6.jpg" alt="image" /></a></td>
     <td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -630,7 +932,7 @@ function goBack() {
 																	</ul>
 																</div>
 															</div></td>
-    </tr>
+  </tr>
 
 
 
@@ -666,20 +968,19 @@ function goBack() {
 													<table class="table table-responsive table-striped- table-bordered table-hover table-checkable" id="kt_table_1">
 
   <tbody><tr style="text-align:center">
-    <td width="1%" bgcolor="#f7fcff" rowspan="2" >No</td>
+    <td width="1%" rowspan="2" bgcolor="#f7fcff" >No</td>
     <td width="1%" rowspan="2" bgcolor="#f7fcff" >Kode SKU</td>
     <td width="1%" rowspan="2" bgcolor="#f7fcff" >Kategori</td>
     <td width="10%" rowspan="2" bgcolor="#f7fcff" >Jenis</td>
     <td width="15%" rowspan="2" bgcolor="#f7fcff" >Nama Barang</td>
     <td colspan="2" bgcolor="#f7fcff">Qty</td>
-    <td width="10%" rowspan="2" bgcolor="#f7fcff" >QR Code<br />
-      Perangkat</td>
+    <td width="10%" rowspan="2" bgcolor="#f7fcff" >QR Code<br>Perangkat</td>
     <td width="2%" rowspan="2" bgcolor="#f7fcff" >Installer</td>
     <td width="1%" rowspan="2" bgcolor="#f7fcff" >Aksi</td>
   </tr>
     <tr style="text-align:center">
       <td width="1%" bgcolor="#f7fcff" >Vol</td>
-      <td width="1%" bgcolor="#f7fcff" >Satuan</td>
+      <td width="2%" bgcolor="#f7fcff" >Satuan</td>
     </tr>
   
     
@@ -692,9 +993,9 @@ function goBack() {
   <td style="text-align:right">1</td>
   <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="123123123123" disabled id="generalSearch" />
+      <input type="text" class="form-control form-control-sm" placeholder="1231231231233" disabled id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
-    <td style="text-align:center" nowrap><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="10 September 2026<hr>14:34:00 WITA<hr>000000000000<hr>Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_6.jpg" alt="image" /></a></td>
+    <td style="text-align:center" nowrap><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="10 September 2026 - 14:34 WITA<hr>Muhammad Nasrullah, S.Kom<hr>123123123" data-html="true"><img src="../assets/media/users/100_6.jpg" alt="image" /></a></td>
     <td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -727,7 +1028,7 @@ function goBack() {
 																	</ul>
 																</div>
 															</div></td>
-    </tr>
+  </tr>
 <tr>
   <td style="text-align:right">2</td>
   <td style="text-align:left">003601010726</td>
@@ -737,9 +1038,9 @@ function goBack() {
   <td style="text-align:right">1</td>
   <td style="text-align:left">Unit</td>
     <td style="text-align:center" nowrap><div class="kt-input-icon kt-input-icon--right">
-      <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
+      <input type="text" class="form-control form-control-sm" placeholder="1231231231233" disabled id="generalSearch" />
       <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span> </span> </div></td>
-    <td style="text-align:center" nowrap>-</td>
+    <td style="text-align:center" nowrap><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="10 September 2026 - 14:34 WITA<hr>Muhammad Nasrullah, S.Kom<hr>123123123" data-html="true"><img src="../assets/media/users/100_6.jpg" alt="image" /></a></td>
     <td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -772,7 +1073,7 @@ function goBack() {
 																	</ul>
 																</div>
 															</div></td>
-    </tr>
+  </tr>
 <tr>
   <td style="text-align:right">3</td>
   <td style="text-align:left">003701010726</td>
@@ -782,24 +1083,20 @@ function goBack() {
   <td style="text-align:right">1</td>
   <td style="text-align:left">Unit</td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-input-icon kt-input-icon--right">
-    <input type="text" class="form-control form-control-sm" placeholder="Scan QR Code Disini..." id="generalSearch" />
+    <input type="text" class="form-control form-control-sm" placeholder="1231231231233" disabled="disabled" id="generalSearch" />
     <span class="kt-input-icon__icon kt-input-icon__icon--right"> <span><i class="fa fa-barcode"></i></span></span></div></td>
-  <td nowrap="nowrap" style="text-align:center">-</td>
+  <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="10 September 2026 - 14:34 WITA&lt;hr&gt;Muhammad Nasrullah, S.Kom&lt;hr&gt;123123123" data-html="true"><img src="../assets/media/users/100_6.jpg" alt="image" /></a></td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
     <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
       <ul class="kt-nav">
         <li class="kt-nav__item"> <a href="instalasi-perangkat-spesifikasi.php" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-eye"></i> <span class="kt-nav__link-text">Spesifikasi</span> </a> </li>
         <li class="kt-nav__item"> <a href="#" class="kt-nav__link"> <i class="kt-nav__link-icon fa fa-user-edit"></i> <span class="kt-nav__link-text">Edit</span> </a> </li>
         <li class="kt-nav__item"> <a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9"> <i class="kt-nav__link-icon fa fa-trash-alt"></i> <span class="kt-nav__link-text">Hapus</span> </a> </li>
-      </ul>
-    </div>
-  </div></td>
-  </tr>
-
-
-
-
-  </tbody>
+        </ul>
+      </div>
+    </div></td>
+</tr>
+</tbody>
 </table>
 													</div>
 												</div>

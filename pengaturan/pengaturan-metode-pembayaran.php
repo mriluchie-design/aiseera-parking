@@ -104,8 +104,19 @@
 				<form class="kt-form">
 					<div class="kt-portlet__body">
                         <div class="form-group row">
+						<div class="col-lg-3">
+                                <label>Regional :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true" >
+                                      <option value="1">PT. Pelabuhan Indonesia (Persero) Regional 1</option>
+                                      <option value="2">PT. Pelabuhan Indonesia (Persero) Regional 2</option>
+                                      <option value="2">PT. Pelabuhan Indonesia (Persero) Regional 3</option>
+                                      <option value="2" selected>PT. Pelabuhan Indonesia (Persero) Regional 4</option>
+                                                                           
+                                  </select>
+    		                    </div>
 						<div class="col-lg-2">
-                                <label>Lokasi :</label>
+                                <label>Cabang :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1">Makassar</option>
@@ -196,6 +207,7 @@
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Regional</th>
 											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Transaksi</th>
 											  <th width="2%" rowspan="2" bgcolor="#f7fcff">Metode Pembayaran</th>
@@ -215,6 +227,7 @@
 										<tbody>
 											<tr>
 												<td id="kt_table_13" style="text-align:right">1</td>
+												<td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 												<td style="text-align:left" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">Parkir Kendaraan</td>
 												<td style="text-align:center" nowrap><span class="btn btn-label-brand btn-sm">e-Money</span></td>
@@ -250,6 +263,7 @@
 										  </tr>
 										  <tr>
 												<td id="kt_table_13" style="text-align:right">2</td>
+												<td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 												<td style="text-align:left" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center">Parkir Kendaraan</td>
 												<td style="text-align:center" nowrap><span class="btn btn-label-brand btn-sm">e-Money</span></td>
@@ -285,6 +299,7 @@
 										  </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">3</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Parkir Kendaraan</td>
 												<td style="text-align:center" nowrap><span class="btn btn-label-brand btn-sm">e-Money</span></td>
@@ -320,6 +335,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">4</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Parkir Kendaraan</td>
 												<td nowrap="" style="text-align:center"><span class="btn btn-label-brand btn-sm">e-Money</span></td>
@@ -363,6 +379,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">5</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 											<td nowrap="nowrap" style="text-align:center">Parkir Kendaraan</td>
 											<td style="text-align:center" nowrap><span class="btn btn-label-warning btn-sm">QRIS</span></td>
@@ -406,6 +423,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">6</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Parkir Kendaraan</td>
 											<td style="text-align:center" nowrap><span class="btn btn-label-warning btn-sm">QRIS</span></td>
@@ -449,6 +467,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">7</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Parkir Kendaraan</td>
 											<td style="text-align:center" nowrap><span class="btn btn-label-warning btn-sm">QRIS</span></td>
@@ -471,6 +490,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">8</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Parkir Kendaraan</td>
 											<td style="text-align:center" nowrap><span class="btn btn-label-warning btn-sm">QRIS</span></td>
@@ -514,6 +534,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">9</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Parkir Kendaraan</td>
 											<td style="text-align:center" nowrap><span class="btn btn-label-warning btn-sm">QRIS</span></td>
@@ -557,6 +578,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">10</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Parkir Kendaraan</td>
 											<td style="text-align:center" nowrap><span class="btn btn-label-warning btn-sm">QRIS</span></td>
@@ -600,6 +622,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">11</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Parkir Kendaraan</td>
 											<td style="text-align:center" nowrap><span class="btn btn-label-warning btn-sm">QRIS</span></td>
@@ -643,7 +666,8 @@
 									      </tr>
 										  <tr>
 										   <td id="kt_table_13" style="text-align:right">12</td>
-										    <td style="text-align:left" nowrap>Makassar</td>
+										   <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
+										   <td style="text-align:left" nowrap>Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Pendaftaran Member</td>
 											<td style="text-align:center" nowrap><span class="btn btn-label-success btn-sm">Virtual Account</span></td>
 											<td nowrap="nowrap" style="text-align:left">MANDIRI</td>
@@ -686,6 +710,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">13</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap>Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Pendaftaran Member</td>
 											<td style="text-align:center" nowrap><span class="btn btn-label-success btn-sm">Virtual Account</span></td>
@@ -729,6 +754,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">14</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap>Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Pendaftaran Member</td>
 											<td style="text-align:center" nowrap><span class="btn btn-label-success btn-sm">Virtual Account</span></td>
@@ -772,6 +798,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">15</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap="nowrap">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Pendaftaran Member</td>
 											<td style="text-align:center" nowrap><span class="btn btn-label-success btn-sm">Virtual Account</span></td>
@@ -794,6 +821,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">16</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap>Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Pendaftaran Member</td>
 											<td style="text-align:center" nowrap><span class="btn btn-label-success btn-sm">Virtual Account</span></td>
@@ -837,6 +865,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">17</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap="nowrap">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Pendaftaran Member</td>
 											<td style="text-align:center" nowrap><span class="btn btn-label-success btn-sm">Virtual Account</span></td>
@@ -859,6 +888,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">18</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap="nowrap">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Pendaftaran Member</td>
 											<td style="text-align:center" nowrap><span class="btn btn-label-success btn-sm">Virtual Account</span></td>
@@ -881,6 +911,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">19</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap="nowrap">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Pendaftaran Member</td>
 											<td style="text-align:center" nowrap><span class="btn btn-label-success btn-sm">Virtual Account</span></td>
@@ -903,6 +934,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">20</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap="nowrap">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Pendaftaran Member</td>
 											<td style="text-align:center" nowrap><span class="btn btn-label-danger btn-sm">Credit Card</span></td>
@@ -925,6 +957,7 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">21</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap="nowrap">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center">Pendaftaran Member</td>
 											<td style="text-align:center" nowrap><span class="btn btn-label-danger btn-sm">Credit Card</span></td>
@@ -1334,7 +1367,18 @@
                                 <div class="col-lg-12">
 								<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
                                   <div class="form-group row">
-    													<div class="col-lg-12">
+								  <div class="col-lg-6">
+                                <label>Regional :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true" >
+                                      <option value="1">PT. Pelabuhan Indonesia (Persero) Regional 1</option>
+                                      <option value="2">PT. Pelabuhan Indonesia (Persero) Regional 2</option>
+                                      <option value="2">PT. Pelabuhan Indonesia (Persero) Regional 3</option>
+                                      <option value="2" selected>PT. Pelabuhan Indonesia (Persero) Regional 4</option>
+                                                                           
+                                  </select>
+    		                    </div>
+    													<div class="col-lg-6">
 														<label class="kt-font-danger">Nama Cabang :</label>
 														 <select class="form-control kt-selectpicker" multiple="multiple">
                                       <option value="1" selected="">Makassar</option>

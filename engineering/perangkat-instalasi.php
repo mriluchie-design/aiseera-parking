@@ -25,7 +25,7 @@
 			
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Pengaturan
+                    Instalasi
                 </h3>
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
@@ -104,19 +104,8 @@
 				<form class="kt-form">
 					<div class="kt-portlet__body">
                         <div class="form-group row">
-						<div class="col-lg-3">
-                                <label>Regional :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1">PT. Pelabuhan Indonesia (Persero) Regional 1</option>
-                                      <option value="2">PT. Pelabuhan Indonesia (Persero) Regional 2</option>
-                                      <option value="2">PT. Pelabuhan Indonesia (Persero) Regional 3</option>
-                                      <option value="2" selected>PT. Pelabuhan Indonesia (Persero) Regional 4</option>
-                                                                           
-                                  </select>
-    		                    </div>
 						<div class="col-lg-2">
-                                <label>Cabang :</label>
+                                <label>Lokasi :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1">Makassar</option>
@@ -135,34 +124,7 @@
                                                                            
                                   </select>
     		                    </div>
-								<div class="col-lg-2">
-                                <label>Pembuat :</label>
-    	                       <div class="form-group">
-
-					                         <select data-size="7" data-live-search="true" class="form-control kt-selectpicker" id="tipe">
-					 															<optgroup label="Direksi" class="a">
-					 																<option value="AK">Muhammad Nasrullah, S.Kom</option>
-					 															</optgroup>
-					 															
-																				<optgroup label="Keuangan" class="a">
-					 																<option value="HI">Oklan Zulkifli, SE</option>
-					 															</optgroup>
-																				<optgroup label="Operasional" class="a">
-					 																<option value="HI">Deddy Rafsanjani, S.Sos</option>
-					 																<option value="HI">Nursiah, S.Kom</option>
-					 															</optgroup>
-																				<optgroup label="Teknologi dan Riset" class="a">
-					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
-					 															</optgroup>
-																				<optgroup label="Pengembangan Usaha dan Kerjasama" class="a">
-					 																<option value="HI">Muhammad Ramadhan Lerrick, ST</option>
-					 															</optgroup>
-																				<option value="12" selected>Keseluruhan</option>
-
-					 														</select>
-					                       </div>
-        					
-                            </div>
+								
                             
 								<div class="col-lg-1">
                                 <label>Gate :</label>
@@ -187,6 +149,39 @@
                                   </select>
                             </div>
 							<div class="col-lg-1">
+                                <label>Team :</label>
+    	                       <div class="form-group">
+
+					                         <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Team-1</option>
+                                      <option value="2">Team-2</option>
+                                      <option value="2">Team-3</option>
+                                      <option value="2">Team-4</option>
+									   <option value="4" selected>Keseluruhan</option>
+                                      
+                                  </select>
+					                       </div>
+        					
+                            </div>
+							<div class="col-lg-2">
+                                <label class="">Tanggal Mulai :</label>
+                                <div class="input-group">
+						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="-- Pilih Tanggal --">
+						                        <div class="input-group-append">
+						                          <span class="input-group-text"><i class="la la-calendar"></i></span>
+						                        </div>
+						                      </div>
+                            </div>
+							<div class="col-lg-2">
+                                <label class="">Tanggal Selesai :</label>
+                                <div class="input-group">
+						                        <input type="text" class="form-control form-control-sm kt_daterangepicker_2" readonly="" placeholder="-- Pilih Tanggal --">
+						                        <div class="input-group-append">
+						                          <span class="input-group-text"><i class="la la-calendar"></i></span>
+						                        </div>
+						                      </div>
+                            </div>
+							<div class="col-lg-1">
                                 <label>Status :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
@@ -196,7 +191,7 @@
                                       
                                   </select>
                             </div>
-							<div class="col-lg-2">
+							<div class="col-lg-1">
                                 <label>Verifikasi :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
@@ -243,32 +238,33 @@
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="3%" rowspan="2" bgcolor="#f7fcff">Regional</th>
-											  <th width="3%" rowspan="2" bgcolor="#f7fcff">Cabang</th>
+											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Gate</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Jalur</th>
 											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Nama Jalur</th>
-											  <th colspan="2" bgcolor="#f7fcff">Dibuat</th>
-											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Status<br />
-											    Perangkat</th>
+											  <th colspan="4" bgcolor="#f7fcff">Instalasi</th>
+											  <th width="3%" rowspan="2" bgcolor="#f7fcff">Status Instalasi</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Verifikasi</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 											<tr style="text-align:center">
-											  <th width="1%" bgcolor="#f7fcff">Oleh</th>
-											  <th width="1%" bgcolor="#f7fcff">Tanggal</th>
-										  </tr>
+											  <th width="1%" bgcolor="#f7fcff">Team</th>
+											  <th width="1%" bgcolor="#f7fcff">PM</th>
+											  <th width="2%" bgcolor="#f7fcff">Tanggal Mulai</th>
+											  <th width="2%" bgcolor="#f7fcff">Tanggal Selesai</th>
+								          </tr>
 										</thead>
 										<tbody>
 											<tr>
 												<td id="kt_table_13" style="text-align:right">1</td>
-												<td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 												<td style="text-align:left" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 												<td style="text-align:left" nowrap>Mobil - 1</td>
-												<td style="text-align:center" nowrap>-</td>
-												<td style="text-align:center" nowrap>-</td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Team-1</span></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center">1 September 2026</td>
+												<td nowrap="nowrap" style="text-align:center">8 September 2026</td>
 												<td nowrap="nowrap" style="text-align:center"><div class="progress">
 												  <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" role="progressbar" style="width: 10%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">0%</div>
 												  </div></td>
@@ -281,9 +277,9 @@
 																	<ul class="kt-nav">
 																	
 																		<li class="kt-nav__item">
-																			<a href="setup-perangkat.php" class="kt-nav__link">
+																			<a href="perangkat-instalasi-add.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-list-ol"></i>
-																				<span class="kt-nav__link-text">Setup Perangkat</span>
+																				<span class="kt-nav__link-text">Instalasi</span>
 																			</a>
 																		</li>
 																		
@@ -299,13 +295,14 @@
 										  </tr>
 										  <tr>
 												<td id="kt_table_13" style="text-align:right">2</td>
-												<td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 												<td style="text-align:left" nowrap>Makassar</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 												<td nowrap="nowrap" style="text-align:left">Mobil - 2</td>
-											    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026 </td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Team-2</span></td>
+												<td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_4.jpg" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center">1 September 2026</td>
+												<td nowrap="nowrap" style="text-align:center">8 September 2026</td>
 												<td nowrap="nowrap" style="text-align:center"><div class="progress">
 												  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
 												  </div></td>
@@ -318,13 +315,13 @@
 																	<ul class="kt-nav">
 																	
 																		<li class="kt-nav__item">
-																			<a href="detail-perangkat.php" class="kt-nav__link">
+																			<a href="perangkat-detail-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-eye"></i>
 																				<span class="kt-nav__link-text">Detail</span>
 																			</a>
 																		</li>
 																		<li class="kt-nav__item">
-																			<a href="edit-perangkat.php" class="kt-nav__link">
+																			<a href="perangkat-edit-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon-edit-1"></i>
 																				<span class="kt-nav__link-text">Edit</span>
 																			</a>
@@ -343,35 +340,38 @@
 										  </tr>
 										  <tr>
 										    <td id="kt_table_8" style="text-align:right">3</td>
-										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Motor - 1</td>
-										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026 </td>
-												<td nowrap="nowrap" style="text-align:center"><div class="progress">
-												  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
-												  </div></td>
-												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm">Team-3</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_5.jpg" alt="image" /></a></td>
+										    <td nowrap="nowrap" style="text-align:center">1 September 2026</td>
+										    <td nowrap="nowrap" style="text-align:center">8 September 2026</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="progress">
+										      <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+										      </div></td>
+										    <td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
 																</a>
 																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-perangkat.php" class="kt-nav__link">
+																	
+																		<li class="kt-nav__item">
+																			<a href="perangkat-detail-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-eye"></i>
 																				<span class="kt-nav__link-text">Detail</span>
 																			</a>
 																		</li>
 																		<li class="kt-nav__item">
-																			<a href="edit-perangkat.php" class="kt-nav__link">
+																			<a href="perangkat-edit-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon-edit-1"></i>
 																				<span class="kt-nav__link-text">Edit</span>
 																			</a>
 																		</li>
+																		
 																		
 																		<li class="kt-nav__item">
 																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
@@ -385,36 +385,38 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_7" style="text-align:right">4</td>
-										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Motor - 2</td>
-										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026 </td>
-												<td nowrap="nowrap" style="text-align:center"><div class="progress">
-												  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
-												  </div></td>
-												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-skype btn-sm">Team-4</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_6.jpg" alt="image" /></a></td>
+										    <td nowrap="nowrap" style="text-align:center">1 September 2026</td>
+										    <td nowrap="nowrap" style="text-align:center">8 September 2026</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="progress">
+										      <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+										      </div></td>
+										    <td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
 																</a>
 																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-perangkat.php" class="kt-nav__link">
+																	
+																		<li class="kt-nav__item">
+																			<a href="perangkat-detail-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-eye"></i>
 																				<span class="kt-nav__link-text">Detail</span>
 																			</a>
 																		</li>
-																	
 																		<li class="kt-nav__item">
-																			<a href="edit-perangkat.php" class="kt-nav__link">
+																			<a href="perangkat-edit-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon-edit-1"></i>
 																				<span class="kt-nav__link-text">Edit</span>
 																			</a>
 																		</li>
+																		
 																		
 																		<li class="kt-nav__item">
 																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
@@ -428,35 +430,38 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_6" style="text-align:right">5</td>
-										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Keluar</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026 </td>
-												<td nowrap="nowrap" style="text-align:center"><div class="progress">
-												  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
-												  </div></td>
-												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Team-1</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+										    <td nowrap="nowrap" style="text-align:center">1 September 2026</td>
+										    <td nowrap="nowrap" style="text-align:center">8 September 2026</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="progress">
+										      <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+										      </div></td>
+										    <td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
 																</a>
 																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-perangkat.php" class="kt-nav__link">
+																	
+																		<li class="kt-nav__item">
+																			<a href="perangkat-detail-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-eye"></i>
 																				<span class="kt-nav__link-text">Detail</span>
 																			</a>
 																		</li>
 																		<li class="kt-nav__item">
-																			<a href="edit-perangkat.php" class="kt-nav__link">
+																			<a href="perangkat-edit-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon-edit-1"></i>
 																				<span class="kt-nav__link-text">Edit</span>
 																			</a>
 																		</li>
+																		
 																		
 																		<li class="kt-nav__item">
 																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
@@ -470,35 +475,38 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_5" style="text-align:right">6</td>
-										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Keluar</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Mobil - 2</td>
-										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026 </td>
-												<td nowrap="nowrap" style="text-align:center"><div class="progress">
-												  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
-												  </div></td>
-												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Team-2</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_4.jpg" alt="image" /></a></td>
+										    <td nowrap="nowrap" style="text-align:center">1 September 2026</td>
+										    <td nowrap="nowrap" style="text-align:center">8 September 2026</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="progress">
+										      <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+										      </div></td>
+										    <td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
 																</a>
 																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-perangkat.php" class="kt-nav__link">
+																	
+																		<li class="kt-nav__item">
+																			<a href="perangkat-detail-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-eye"></i>
 																				<span class="kt-nav__link-text">Detail</span>
 																			</a>
 																		</li>
 																		<li class="kt-nav__item">
-																			<a href="edit-perangkat.php" class="kt-nav__link">
+																			<a href="perangkat-edit-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon-edit-1"></i>
 																				<span class="kt-nav__link-text">Edit</span>
 																			</a>
 																		</li>
+																		
 																		
 																		<li class="kt-nav__item">
 																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
@@ -512,35 +520,38 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_4" style="text-align:right">7</td>
-										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Keluar</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Motor - 1</td>
-										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026 </td>
-												<td nowrap="nowrap" style="text-align:center"><div class="progress">
-												  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
-												  </div></td>
-												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm">Team-3</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_5.jpg" alt="image" /></a></td>
+										    <td nowrap="nowrap" style="text-align:center">1 September 2026</td>
+										    <td nowrap="nowrap" style="text-align:center">8 September 2026</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="progress">
+										      <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+										      </div></td>
+										    <td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
 																</a>
 																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-perangkat.php" class="kt-nav__link">
+																	
+																		<li class="kt-nav__item">
+																			<a href="perangkat-detail-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-eye"></i>
 																				<span class="kt-nav__link-text">Detail</span>
 																			</a>
 																		</li>
 																		<li class="kt-nav__item">
-																			<a href="edit-perangkat.php" class="kt-nav__link">
+																			<a href="perangkat-edit-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon-edit-1"></i>
 																				<span class="kt-nav__link-text">Edit</span>
 																			</a>
 																		</li>
+																		
 																		
 																		<li class="kt-nav__item">
 																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
@@ -554,35 +565,38 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_3" style="text-align:right">8</td>
-										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--dark kt-badge--md kt-badge--inline">1</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Keluar</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Motor - 2</td>
-										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026 </td>
-												<td nowrap="nowrap" style="text-align:center"><div class="progress">
-												  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
-												  </div></td>
-												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-skype btn-sm">Team-4</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_6.jpg" alt="image" /></a></td>
+										    <td nowrap="nowrap" style="text-align:center">1 September 2026</td>
+										    <td nowrap="nowrap" style="text-align:center">8 September 2026</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="progress">
+										      <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+										      </div></td>
+										    <td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
 																</a>
 																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-perangkat.php" class="kt-nav__link">
+																	
+																		<li class="kt-nav__item">
+																			<a href="perangkat-detail-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-eye"></i>
 																				<span class="kt-nav__link-text">Detail</span>
 																			</a>
 																		</li>
 																		<li class="kt-nav__item">
-																			<a href="edit-perangkat.php" class="kt-nav__link">
+																			<a href="perangkat-edit-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon-edit-1"></i>
 																				<span class="kt-nav__link-text">Edit</span>
 																			</a>
 																		</li>
+																		
 																		
 																		<li class="kt-nav__item">
 																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
@@ -596,35 +610,38 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">9</td>
-										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">2</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026 </td>
-												<td nowrap="nowrap" style="text-align:center"><div class="progress">
-												  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
-												  </div></td>
-												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Team-1</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+										    <td nowrap="nowrap" style="text-align:center">1 September 2026</td>
+										    <td nowrap="nowrap" style="text-align:center">8 September 2026</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="progress">
+										      <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+										      </div></td>
+										    <td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
 																</a>
 																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-perangkat.php" class="kt-nav__link">
+																	
+																		<li class="kt-nav__item">
+																			<a href="perangkat-detail-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-eye"></i>
 																				<span class="kt-nav__link-text">Detail</span>
 																			</a>
 																		</li>
 																		<li class="kt-nav__item">
-																			<a href="edit-perangkat.php" class="kt-nav__link">
+																			<a href="perangkat-edit-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon-edit-1"></i>
 																				<span class="kt-nav__link-text">Edit</span>
 																			</a>
 																		</li>
+																		
 																		
 																		<li class="kt-nav__item">
 																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
@@ -638,35 +655,38 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_13" style="text-align:right">10</td>
-										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">2</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Mobil - 2</td>
-										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026 </td>
-												<td nowrap="nowrap" style="text-align:center"><div class="progress">
-												  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
-												  </div></td>
-												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Team-2</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_4.jpg" alt="image" /></a></td>
+										    <td nowrap="nowrap" style="text-align:center">1 September 2026</td>
+										    <td nowrap="nowrap" style="text-align:center">8 September 2026</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="progress">
+										      <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+										      </div></td>
+										    <td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
 																</a>
 																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-perangkat.php" class="kt-nav__link">
+																	
+																		<li class="kt-nav__item">
+																			<a href="perangkat-detail-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-eye"></i>
 																				<span class="kt-nav__link-text">Detail</span>
 																			</a>
 																		</li>
 																		<li class="kt-nav__item">
-																			<a href="edit-perangkat.php" class="kt-nav__link">
+																			<a href="perangkat-edit-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon-edit-1"></i>
 																				<span class="kt-nav__link-text">Edit</span>
 																			</a>
 																		</li>
+																		
 																		
 																		<li class="kt-nav__item">
 																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
@@ -680,35 +700,38 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_8" style="text-align:right">11</td>
-										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">2</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Motor - 1</td>
-										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026 </td>
-												<td nowrap="nowrap" style="text-align:center"><div class="progress">
-												  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
-												  </div></td>
-												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm">Team-3</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_5.jpg" alt="image" /></a></td>
+										    <td nowrap="nowrap" style="text-align:center">1 September 2026</td>
+										    <td nowrap="nowrap" style="text-align:center">8 September 2026</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="progress">
+										      <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+										      </div></td>
+										    <td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
 																</a>
 																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-perangkat.php" class="kt-nav__link">
+																	
+																		<li class="kt-nav__item">
+																			<a href="perangkat-detail-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-eye"></i>
 																				<span class="kt-nav__link-text">Detail</span>
 																			</a>
 																		</li>
 																		<li class="kt-nav__item">
-																			<a href="edit-perangkat.php" class="kt-nav__link">
+																			<a href="perangkat-edit-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon-edit-1"></i>
 																				<span class="kt-nav__link-text">Edit</span>
 																			</a>
 																		</li>
+																		
 																		
 																		<li class="kt-nav__item">
 																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
@@ -722,35 +745,38 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_7" style="text-align:right">12</td>
-										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">2</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-brand btn-sm">Masuk</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Motor - 2</td>
-										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026 </td>
-												<td nowrap="nowrap" style="text-align:center"><div class="progress">
-												  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
-												  </div></td>
-												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-skype btn-sm">Team-4</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_6.jpg" alt="image" /></a></td>
+										    <td nowrap="nowrap" style="text-align:center">1 September 2026</td>
+										    <td nowrap="nowrap" style="text-align:center">8 September 2026</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="progress">
+										      <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+										      </div></td>
+										    <td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
 																</a>
 																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-perangkat.php" class="kt-nav__link">
+																	
+																		<li class="kt-nav__item">
+																			<a href="perangkat-detail-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-eye"></i>
 																				<span class="kt-nav__link-text">Detail</span>
 																			</a>
 																		</li>
 																		<li class="kt-nav__item">
-																			<a href="edit-perangkat.php" class="kt-nav__link">
+																			<a href="perangkat-edit-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon-edit-1"></i>
 																				<span class="kt-nav__link-text">Edit</span>
 																			</a>
 																		</li>
+																		
 																		
 																		<li class="kt-nav__item">
 																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
@@ -764,35 +790,38 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_6" style="text-align:right">13</td>
-										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">2</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Keluar</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Mobil - 1</td>
-										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026 </td>
-												<td nowrap="nowrap" style="text-align:center"><div class="progress">
-												  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
-												  </div></td>
-												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm">Team-1</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
+										    <td nowrap="nowrap" style="text-align:center">1 September 2026</td>
+										    <td nowrap="nowrap" style="text-align:center">8 September 2026</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="progress">
+										      <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+										      </div></td>
+										    <td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
 																</a>
 																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-perangkat.php" class="kt-nav__link">
+																	
+																		<li class="kt-nav__item">
+																			<a href="perangkat-detail-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-eye"></i>
 																				<span class="kt-nav__link-text">Detail</span>
 																			</a>
 																		</li>
 																		<li class="kt-nav__item">
-																			<a href="edit-perangkat.php" class="kt-nav__link">
+																			<a href="perangkat-edit-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon-edit-1"></i>
 																				<span class="kt-nav__link-text">Edit</span>
 																			</a>
 																		</li>
+																		
 																		
 																		<li class="kt-nav__item">
 																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
@@ -806,35 +835,38 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_5" style="text-align:right">14</td>
-										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">2</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Keluar</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Mobil - 2</td>
-										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026 </td>
-												<td nowrap="nowrap" style="text-align:center"><div class="progress">
-												  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
-												  </div></td>
-												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Team-2</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_4.jpg" alt="image" /></a></td>
+										    <td nowrap="nowrap" style="text-align:center">1 September 2026</td>
+										    <td nowrap="nowrap" style="text-align:center">8 September 2026</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="progress">
+										      <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+										      </div></td>
+										    <td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
 																</a>
 																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-perangkat.php" class="kt-nav__link">
+																	
+																		<li class="kt-nav__item">
+																			<a href="perangkat-detail-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-eye"></i>
 																				<span class="kt-nav__link-text">Detail</span>
 																			</a>
 																		</li>
 																		<li class="kt-nav__item">
-																			<a href="edit-perangkat.php" class="kt-nav__link">
+																			<a href="perangkat-edit-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon-edit-1"></i>
 																				<span class="kt-nav__link-text">Edit</span>
 																			</a>
 																		</li>
+																		
 																		
 																		<li class="kt-nav__item">
 																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
@@ -848,35 +880,38 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_4" style="text-align:right">15</td>
-										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">2</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Keluar</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Motor - 1</td>
-										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026 </td>
-												<td nowrap="nowrap" style="text-align:center"><div class="progress">
-												  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
-												  </div></td>
-												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-warning btn-sm">Team-3</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_5.jpg" alt="image" /></a></td>
+										    <td nowrap="nowrap" style="text-align:center">1 September 2026</td>
+										    <td nowrap="nowrap" style="text-align:center">8 September 2026</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="progress">
+										      <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+										      </div></td>
+										    <td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
 																</a>
 																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-perangkat.php" class="kt-nav__link">
+																	
+																		<li class="kt-nav__item">
+																			<a href="perangkat-detail-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-eye"></i>
 																				<span class="kt-nav__link-text">Detail</span>
 																			</a>
 																		</li>
 																		<li class="kt-nav__item">
-																			<a href="edit-perangkat.php" class="kt-nav__link">
+																			<a href="perangkat-edit-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon-edit-1"></i>
 																				<span class="kt-nav__link-text">Edit</span>
 																			</a>
 																		</li>
+																		
 																		
 																		<li class="kt-nav__item">
 																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
@@ -890,35 +925,38 @@
 									      </tr>
 										  <tr>
 										    <td id="kt_table_3" style="text-align:right">16</td>
-										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td nowrap="nowrap" style="text-align:left">Makassar</td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="kt-badge kt-badge--unified-success kt-badge--md kt-badge--inline">2</span></td>
 										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Keluar</span></td>
 										    <td nowrap="nowrap" style="text-align:left">Motor - 2</td>
-										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123214&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-												<td nowrap="nowrap" style="text-align:center">1 September 2026 </td>
-												<td nowrap="nowrap" style="text-align:center"><div class="progress">
-												  <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
-												  </div></td>
-												<td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
+										    <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-skype btn-sm">Team-4</span></td>
+										    <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_6.jpg" alt="image" /></a></td>
+										    <td nowrap="nowrap" style="text-align:center">1 September 2026</td>
+										    <td nowrap="nowrap" style="text-align:center">8 September 2026</td>
+										    <td nowrap="nowrap" style="text-align:center"><div class="progress">
+										      <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">100%</div>
+										      </div></td>
+										    <td style="text-align:center" nowrap=""><button type="button" class="btn btn-warning btn-sm btn-icon" data-toggle="modal" data-target="#modal_persetujuan_pending" data-skin="brand" title="Menunggu Persetujuan" data-html="true"><i class="fa fa-clock"></i></button></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
 																</a>
 																<div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
 																	<ul class="kt-nav">
-																	<li class="kt-nav__item">
-																			<a href="detail-perangkat.php" class="kt-nav__link">
+																	
+																		<li class="kt-nav__item">
+																			<a href="perangkat-detail-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa fa-eye"></i>
 																				<span class="kt-nav__link-text">Detail</span>
 																			</a>
 																		</li>
 																		<li class="kt-nav__item">
-																			<a href="edit-perangkat.php" class="kt-nav__link">
+																			<a href="perangkat-edit-instalasi.php" class="kt-nav__link">
 																				<i class="kt-nav__link-icon fa flaticon-edit-1"></i>
 																				<span class="kt-nav__link-text">Edit</span>
 																			</a>
 																		</li>
+																		
 																		
 																		<li class="kt-nav__item">
 																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">

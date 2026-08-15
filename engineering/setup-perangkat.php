@@ -120,7 +120,7 @@ function goBack() {
 					  <div class="form-group row">
 				
 					  
-					  <div class="col-lg-12">
+					  <div class="col-lg-2">
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
@@ -128,42 +128,45 @@ function goBack() {
 										 <div class="kt-portlet__body">
                       <div class="form-group row">
 					  
-						<div class="col-lg-3">
-                          <label class="">Regional :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="PT. Pelabuhan Indonesia (Persero) Regional 4">
-                        </div>
+						
 					 
 						
-						<div class="col-lg-2">
-                          <label class="">Cabang :</label>
+						<div class="col-lg-12">
+                          <label class="">Lokasi :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Makassar">
                         </div>
-                        
-						<div class="col-lg-1">
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-6">
                           <label class="">Gate :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="1">
                         </div>
-						<div class="col-lg-1">
+						<div class="col-lg-6">
                           <label class="">Jalur :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Masuk">
                         </div>
-                        
-						<div class="col-lg-2">
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-6">
                           <label class="">Nama Jalur :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Mobil - 1">
                         </div>
-						<div class="col-lg-1">
+						<div class="col-lg-6">
                           <label class="">Transaksi :</label>
                            <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Ya">
                         </div>
 						
 						
-                        
-						<div class="col-lg-1">
+                        </div>
+						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+						<div class="col-lg-6">
                           <label class="">Dispenser :</label>
                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Ya">
                         </div>
-						<div class="col-lg-1">
+						<div class="col-lg-6">
                           <label class="">Tipe Dispenser :</label>
                            <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Single">
                         </div>
@@ -171,12 +174,39 @@ function goBack() {
 						
                         </div>
 						
-                        
+                        <div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
 						 </div>
+						<div class="form-group row">
+								<div class="col-xl-12">
+
+									<!--begin::Portlet-->
+										
+										<div class="kt-portlet__body">
+											<div class="kt-portlet__content">
+											
+											
+												
 						
+                     
+						
+                     
+					  
+                     
+									</div>
+									
+
+									</div>
+
+
+							<!--end:: Portlet-->
+
+
+										</div>
+								
+													</div>
                         </div>
                         </div>
-						<div class="col-lg-12">
+						<div class="col-lg-10">
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
@@ -583,7 +613,6 @@ function goBack() {
 					  
 					  
                       </div>
-					  
 
                      
 					<!--begin: Datatable -->

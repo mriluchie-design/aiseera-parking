@@ -25,7 +25,7 @@
 			
                 <h3 class="kt-subheader__title">
                     <span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list-1"></i></span>&nbsp;&nbsp;
-                    Master Data
+                    Setup
                 </h3>
 				<span class="kt-subheader__separator kt-subheader__separator--v"></span>
 									<div class="kt-subheader__group" id="kt_subheader_search">
@@ -103,8 +103,19 @@
 				<form class="kt-form">
 					<div class="kt-portlet__body">
                         <div class="form-group row">
-						<div class="col-lg-2">
-                                <label>Lokasi :</label>
+						<div class="col-lg-3">
+                                <label>Regional :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">PT. Pelabuhan Indonesia (Persero) Regional 1</option>
+                                      <option value="2">PT. Pelabuhan Indonesia (Persero) Regional 2</option>
+                                      <option value="2">PT. Pelabuhan Indonesia (Persero) Regional 3</option>
+                                      <option value="2" selected>PT. Pelabuhan Indonesia (Persero) Regional 4</option>
+                                                                           
+                                  </select>
+    		                    </div>
+								<div class="col-lg-2">
+                                <label>Cabang :</label>
 								
                                 <select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected="">Makassar</option>
@@ -163,14 +174,16 @@
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="2%" bgcolor="#f7fcff">Lokasi</th>
+											  <th width="2%" bgcolor="#f7fcff">Regional</th>
+											  <th width="2%" bgcolor="#f7fcff">Cabang</th>
 											  <th width="20%" bgcolor="#f7fcff">Gate</th>
 											  <th width="1%" bgcolor="#f7fcff">Aksi</th>
 										  </tr>
 										</thead>
 										<tbody>
 											<tr>
-												<td id="kt_table_1">1</td>
+												<td align="right">1</td>
+												<td style="text-align:left" nowrap>PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 												<td style="text-align:left" nowrap>Makassar</td>
 												<td style="text-align:left" nowrap>1</td>
 												
@@ -197,7 +210,8 @@
 										      </div></td>
 										  </tr>
 										  <tr>
-												<td id="kt_table_1">2</td>
+												<td align="right">2</td>
+												<td style="text-align:left" nowrap>PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 												<td style="text-align:left" nowrap>Makassar</td>
 												<td style="text-align:left" nowrap>2</td>
 											
@@ -224,7 +238,8 @@
 										      </div></td>
 										  </tr>
 										  <tr>
-										    <td id="kt_table_11">3</td>
+										    <td align="right">3</td>
+										    <td style="text-align:left" nowrap>PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap>Balikpapan</td>
 										    <td style="text-align:left" nowrap>1</td>
 										   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -250,7 +265,8 @@
 										      </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_10">4</td>
+										    <td align="right">4</td>
+										    <td style="text-align:left" nowrap>PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap>Balikpapan</td>
 										    <td style="text-align:left" nowrap>2</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -276,7 +292,8 @@
 										      </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_10">5</td>
+										    <td align="right">5</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap>Balikpapan</td>
 										    <td style="text-align:left" nowrap>3</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -302,7 +319,8 @@
 										      </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_10">6</td>
+										    <td align="right">6</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap>Samarinda</td>
 										    <td style="text-align:left" nowrap>1</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -328,7 +346,8 @@
 										      </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_10">7</td>
+										    <td align="right">7</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap>Samarinda</td>
 										    <td style="text-align:left" nowrap>2</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -354,7 +373,8 @@
 										      </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_21">8</td>
+										    <td align="right">8</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap>Ambon - Yos Sudarso</td>
 										    <td style="text-align:left" nowrap>1</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -380,7 +400,8 @@
 										      </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_20">9</td>
+										    <td align="right">9</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap>Ambon - Slamet Riyadi</td>
 										    <td style="text-align:left" nowrap>1</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -406,7 +427,8 @@
 										      </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_19">10</td>
+										    <td align="right">10</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap>Sorong</td>
 										    <td style="text-align:left" nowrap>1</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -432,7 +454,8 @@
 										      </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_18">11</td>
+										    <td align="right">11</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap>Sorong</td>
 										    <td style="text-align:left" nowrap>2</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -458,7 +481,8 @@
 										      </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_17">12</td>
+										    <td align="right">12</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap>Bitung</td>
 										    <td nowrap="nowrap" style="text-align:left">1</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -484,7 +508,8 @@
 										      </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_16">13</td>
+										    <td align="right">13</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap>Bitung</td>
 										    <td nowrap="nowrap" style="text-align:left">2</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -510,7 +535,8 @@
 										      </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_15">14</td>
+										    <td align="right">14</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap>Bitung</td>
 										    <td nowrap="nowrap" style="text-align:left">3</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -536,7 +562,8 @@
 										      </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_14">15</td>
+										    <td align="right">15</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap>Manado</td>
 										    <td nowrap="nowrap" style="text-align:left">1</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -562,7 +589,8 @@
 										      </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_13">16</td>
+										    <td align="right">16</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap>Manado</td>
 										    <td nowrap="nowrap" style="text-align:left">2</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -588,7 +616,8 @@
 										      </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_12">17</td>
+										    <td align="right">17</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap>Manado</td>
 										    <td nowrap="nowrap" style="text-align:left">3</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -614,7 +643,8 @@
 										      </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_22">18</td>
+										    <td align="right">18</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap>Nunukan</td>
 										    <td style="text-align:left" nowrap>1</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -640,7 +670,8 @@
 										      </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_9">19</td>
+										    <td align="right">19</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap>Ternate</td>
 										    <td style="text-align:left" nowrap>1</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -666,7 +697,8 @@
 										      </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_8">20</td>
+										    <td align="right">20</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap>Tarakan</td>
 										    <td style="text-align:left" nowrap>1</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -692,7 +724,8 @@
 										      </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_7">21</td>
+										    <td align="right">21</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap>Kendari</td>
 										    <td style="text-align:left" nowrap>1</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -718,7 +751,8 @@
 										      </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_6">22</td>
+										    <td align="right">22</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap>Pare-Pare</td>
 										    <td style="text-align:left" nowrap>1</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -732,6 +766,7 @@
 																				<span class="kt-nav__link-text">Edit</span>
 																			</a>
 																		</li>
+
 																		
 																		<li class="kt-nav__item">
 																			<a href="#" class="kt-nav__link" id="kt_sweetalert_demo_9">
@@ -744,7 +779,8 @@
 										      </div></td>
 									      </tr>
 										  <tr>
-										    <td id="kt_table_5">23</td>
+										    <td align="right">23</td>
+										    <td nowrap="nowrap" style="text-align:left">PT. Pelabuhan Indonesia (Persero) Regional 4</td>
 										    <td style="text-align:left" nowrap>Pare-Pare</td>
 										    <td style="text-align:left" nowrap>2</td>
 										    <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
@@ -853,8 +889,22 @@
 													
 
 												<div class="form-group row">
-												<div class="col-lg-6">
-														<label class="kt-font-brand">Lokasi :</label>
+												<div class="col-lg-12">
+                                <label>Regional :</label>
+								
+                                <select class="form-control kt-selectpicker" data-live-search="true" >
+                                      <option value="1">PT. Pelabuhan Indonesia (Persero) Regional 1</option>
+                                      <option value="2">PT. Pelabuhan Indonesia (Persero) Regional 2</option>
+                                      <option value="2">PT. Pelabuhan Indonesia (Persero) Regional 3</option>
+                                      <option value="2" selected>PT. Pelabuhan Indonesia (Persero) Regional 4</option>
+                                                                           
+                                  </select>
+    		                    </div>
+    		                    </div>
+								<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
+						<div class="form-group row">
+													<div class="col-lg-6">
+														<label class="kt-font-brand">Cabang :</label>
 														<select class="form-control kt-selectpicker" data-live-search="true">
                                       <option value="1" selected="">Makassar</option>
                                       <option value="2">Pare-Pare</option>
