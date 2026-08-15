@@ -101,18 +101,7 @@
 				<form class="kt-form">
 					<div class="kt-portlet__body">
                         <div class="form-group row">
-						<div class="col-lg-2">
-                                <label>Pusat :</label>
-								
-                                <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1">Head Office</option>
-                                      <option value="2">PT. Pelabuhan Indonesia Regional 1</option>
-                                      <option value="2">PT. Pelabuhan Indonesia Regional 2</option>
-                                      <option value="2">PT. Pelabuhan Indonesia Regional 3</option>
-                                      <option value="2" selected>PT. Pelabuhan Indonesia Regional 4</option>
-                                                                           
-                                  </select>
-                            </div>
+						
 								<div class="col-lg-2">
                                 <label>Cabang :</label>
 								

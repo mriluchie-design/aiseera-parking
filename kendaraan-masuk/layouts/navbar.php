@@ -59,7 +59,7 @@
 													
 													<div class="kt-portlet__head-toolbar">
 												<a href="#" class="btn btn-label-brand btn dropdown-toggle" data-toggle="dropdown">
-													 Pilih Area
+													 Regional
 												</a>
 												<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 													<ul class="kt-nav">
@@ -68,91 +68,128 @@
 														<li class="kt-nav__item">
 															<a href="#" class="kt-nav__link">
 																<i class="kt-nav__link-icon fa fa-building"></i>
-																<span class="kt-nav__link-text">Kantor Regional</span>
+																<span class="kt-nav__link-text">PT. Pelabuhan Indonesia (Persero) Regional 1</span>
 															</a>
 															
 														</li>
 														<li class="kt-nav__item">
 															<a href="#" class="kt-nav__link">
 																<i class="kt-nav__link-icon fa fa-building"></i>
-																<span class="kt-nav__link-text">Cabang Makassar</span>
+																<span class="kt-nav__link-text">PT. Pelabuhan Indonesia (Persero) Regional 2</span>
 															</a>
 															
 														</li>
 														<li class="kt-nav__item">
 															<a href="#" class="kt-nav__link">
 																<i class="kt-nav__link-icon fa fa-building"></i>
-																<span class="kt-nav__link-text">Cabang Pare-Pare</span>
+																<span class="kt-nav__link-text">PT. Pelabuhan Indonesia (Persero) Regional 3</span>
 															</a>
 															
 														</li>
 														<li class="kt-nav__item">
 															<a href="#" class="kt-nav__link">
 																<i class="kt-nav__link-icon fa fa-building"></i>
-																<span class="kt-nav__link-text">Cabang Balikpapan</span>
+																<span class="kt-nav__link-text">PT. Pelabuhan Indonesia (Persero) Regional 4</span>
+															</a>
+															
+														</li>
+														
+														
+													</ul>
+												</div>
+												
+												
+										</div>&nbsp;
+										<div class="kt-portlet__head-toolbar">
+												<a href="#" class="btn btn-label-brand btn dropdown-toggle" data-toggle="dropdown">
+													 Cabang
+												</a>
+												<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+													<ul class="kt-nav">
+														
+														
+														
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-building"></i>
+																<span class="kt-nav__link-text">Makassar</span>
 															</a>
 															
 														</li>
 														<li class="kt-nav__item">
 															<a href="#" class="kt-nav__link">
 																<i class="kt-nav__link-icon fa fa-building"></i>
-																<span class="kt-nav__link-text">Cabang Samarinda</span>
+																<span class="kt-nav__link-text">Pare-Pare</span>
 															</a>
 															
 														</li>
 														<li class="kt-nav__item">
 															<a href="#" class="kt-nav__link">
 																<i class="kt-nav__link-icon fa fa-building"></i>
-																<span class="kt-nav__link-text">Cabang Tarakan</span>
+																<span class="kt-nav__link-text">Balikpapan</span>
 															</a>
 															
 														</li>
 														<li class="kt-nav__item">
 															<a href="#" class="kt-nav__link">
 																<i class="kt-nav__link-icon fa fa-building"></i>
-																<span class="kt-nav__link-text">Cabang Nunukan</span>
+																<span class="kt-nav__link-text">Samarinda</span>
 															</a>
 															
 														</li>
 														<li class="kt-nav__item">
 															<a href="#" class="kt-nav__link">
 																<i class="kt-nav__link-icon fa fa-building"></i>
-																<span class="kt-nav__link-text">Cabang Manado</span>
+																<span class="kt-nav__link-text">Tarakan</span>
 															</a>
 															
 														</li>
 														<li class="kt-nav__item">
 															<a href="#" class="kt-nav__link">
 																<i class="kt-nav__link-icon fa fa-building"></i>
-																<span class="kt-nav__link-text">Cabang Bitung</span>
+																<span class="kt-nav__link-text">Nunukan</span>
 															</a>
 															
 														</li>
 														<li class="kt-nav__item">
 															<a href="#" class="kt-nav__link">
 																<i class="kt-nav__link-icon fa fa-building"></i>
-																<span class="kt-nav__link-text">Cabang Ambon - Yos Sudarso</span>
+																<span class="kt-nav__link-text">Manado</span>
 															</a>
 															
 														</li>
 														<li class="kt-nav__item">
 															<a href="#" class="kt-nav__link">
 																<i class="kt-nav__link-icon fa fa-building"></i>
-																<span class="kt-nav__link-text">Cabang Ambon - Slamet Riyadi</span>
+																<span class="kt-nav__link-text">Bitung</span>
 															</a>
 															
 														</li>
 														<li class="kt-nav__item">
 															<a href="#" class="kt-nav__link">
 																<i class="kt-nav__link-icon fa fa-building"></i>
-																<span class="kt-nav__link-text">Cabang Ternate</span>
+																<span class="kt-nav__link-text">Ambon - Yos Sudarso</span>
 															</a>
 															
 														</li>
 														<li class="kt-nav__item">
 															<a href="#" class="kt-nav__link">
 																<i class="kt-nav__link-icon fa fa-building"></i>
-																<span class="kt-nav__link-text">Cabang Sorong</span>
+																<span class="kt-nav__link-text">Ambon - Slamet Riyadi</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-building"></i>
+																<span class="kt-nav__link-text">Ternate</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-building"></i>
+																<span class="kt-nav__link-text">Sorong</span>
 															</a>
 															
 														</li>

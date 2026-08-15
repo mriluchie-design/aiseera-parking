@@ -56,10 +56,52 @@
 														<span class="kt-subheader__btn-daterange-title kt-font-danger" id="kt_dashboard_daterangepicker_title"><blink>9:45 WITA</blink></span>&nbsp;
 														
 													</a>&nbsp;
-													
 													<div class="kt-portlet__head-toolbar">
 												<a href="#" class="btn btn-label-brand btn dropdown-toggle" data-toggle="dropdown">
-													 Pilih Area
+													 Regional
+												</a>
+												<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+													<ul class="kt-nav">
+														
+														
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-building"></i>
+																<span class="kt-nav__link-text">PT. Pelabuhan Indonesia (Persero) Regional 1</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-building"></i>
+																<span class="kt-nav__link-text">PT. Pelabuhan Indonesia (Persero) Regional 2</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-building"></i>
+																<span class="kt-nav__link-text">PT. Pelabuhan Indonesia (Persero) Regional 3</span>
+															</a>
+															
+														</li>
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-building"></i>
+																<span class="kt-nav__link-text">PT. Pelabuhan Indonesia (Persero) Regional 4</span>
+															</a>
+															
+														</li>
+														
+														
+													</ul>
+												</div>
+												
+												
+										</div>&nbsp;
+													<div class="kt-portlet__head-toolbar">
+												<a href="#" class="btn btn-label-brand btn dropdown-toggle" data-toggle="dropdown">
+													 Cabang
 												</a>
 												<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
 													<ul class="kt-nav">
