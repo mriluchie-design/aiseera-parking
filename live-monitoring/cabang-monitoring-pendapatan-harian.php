@@ -381,6 +381,45 @@
 										</div>
 									</div>
 						</div>
+						<div class="col-lg-6">
+							<div class="kt-portlet kt-portlet--height-fluid">
+										<div class="kt-portlet__head">
+											<div class="kt-portlet__head-label">
+												<h3 class="kt-portlet__head-title">
+													Produksi VS Realisasi </span>
+												</h3>
+											</div>
+											<div class="kt-portlet__head-toolbar">
+												<a href="#" class="btn btn-label-brand btn-sm dropdown-toggle" data-toggle="dropdown">
+													Refresh
+												</a>
+												<div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
+													<ul class="kt-nav">
+														
+														
+														<li class="kt-nav__item">
+															<a href="#" class="kt-nav__link">
+																<i class="kt-nav__link-icon fa fa-sync-alt"></i>
+																<span class="kt-nav__link-text">Refresh Data</span>
+															</a>
+															
+														</li>
+														
+														
+														
+														
+													</ul>
+												</div>
+												
+										</div>
+										</div>
+										<div class="kt-portlet__body">
+											<figure class="highcharts-figure">
+										    <div id="container-cabang-produksi-realisasi" style="height:400px"></div>
+										</figure>
+										</div>
+									</div>
+						</div>
 						
 						
 						
@@ -412,6 +451,7 @@
 						<script src="../assets/js/chart/highchart-monitoring-pendapatan-member.js" type="text/javascript"></script>
 						<script src="../assets/js/chart/highchart-detail-pendapatan-member.js" type="text/javascript"></script>
 						<script src="../assets/js/chart/highchart-monitoring-pendapatan-kategori.js" type="text/javascript"></script>
+						<script src="../assets/js/chart/cabang-monitoring-produksi-realisasi.js" type="text/javascript"></script>
 						<?php require '../layouts/foot.php' ?>
 						<?php require './layouts/script.php' ?>
 						<script>
