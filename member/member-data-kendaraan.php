@@ -41,6 +41,26 @@ function goBack() {
 				
 				
 			</div>
+			<a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
+                    <i class="flaticon2-printer"></i> Export Data</button>
+                    <!--<i class="flaticon2-plus"></i>-->
+                </a>
+                <div class="dropdown-menu dropdown-menu-fit dropdown-menu-md dropdown-menu-right">
+                    <!--begin::Nav-->
+                    <ul class="kt-nav">
+                        <li class="kt-nav__item">
+                            <a href="cetak-member-index.php" class="kt-nav__link">
+                                <i class="kt-nav__link-icon fa fa-file-pdf"></i><span class="kt-nav__link-text">PDF</span>
+                            </a>
+                          </li>
+                        <li class="kt-nav__item">
+                            <a href="#" class="kt-nav__link">
+                                <i class="kt-nav__link-icon fa fa-file-excel"></i><span class="kt-nav__link-text">Excel</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!--end::Nav-->
+                </div>
 										</div>
 										</div>
 						</div>
