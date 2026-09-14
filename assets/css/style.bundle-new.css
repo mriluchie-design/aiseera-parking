@@ -33092,7 +33092,7 @@ font-weight:500;	}
     .kt-widget.kt-widget--user-profile-1 .kt-widget__body .kt-widget__items .kt-widget__item .kt-widget__section .kt-widget__desc {
       color: #2B3990;
       font-weight: 400;
-	  font-size:1rem;
+	  font-size:1.12rem;
       padding-left: 0.3rem; }
     .kt-widget.kt-widget--user-profile-1 .kt-widget__body .kt-widget__items .kt-widget__item:hover {
       -webkit-transition: color 0.3s ease;
