@@ -438,12 +438,12 @@
 										<thead>
 											<tr style="text-align:center">
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff" id="kt_table_2">#</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
+											  <th width="5%" rowspan="2" bgcolor="#f7fcff">Lokasi</th>
 											  <th colspan="5" bgcolor="#f7fcff">Kendaraan Masuk</th>
 											  <th colspan="5" bgcolor="#fdfdec">Kendaraan Keluar</th>
 											  <th width="1%" rowspan="2" bgcolor="#fdfdec">Durasi Parkir</th>
 											  <th width="4%" rowspan="2" bgcolor="#f7fcff">OP</th>
-											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Foto Keluar</th>
+											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Foto</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Status Transaksi</th>
 											  <th width="1%" rowspan="2" bgcolor="#f7fcff">Aksi</th>
 									      </tr>
@@ -451,19 +451,19 @@
 											  <th width="1%" bgcolor="#f7fcff">Kategori</th>
 											  <th width="1%" bgcolor="#f7fcff">Jenis</th>
 											  <th width="1%" bgcolor="#f7fcff">No. Plat</th>
-											  <th width="5%" bgcolor="#f7fcff">Gate / Jalur</th>
+											  <th width="6%" bgcolor="#f7fcff">Gate / Jalur</th>
 											  <th width="7%" bgcolor="#f7fcff">Pembayaran</th>
 											  <th width="1%" bgcolor="#fdfdec">ID Transaksi</th>
 											  <th width="1%" bgcolor="#fdfdec">No. Plat</th>
 											  <th width="1%" bgcolor="#fdfdec">Tanggal Keluar</th>
-											  <th width="5%" bgcolor="#fdfdec">Gate / Jalur</th>
+											  <th width="6%" bgcolor="#fdfdec">Gate / Jalur</th>
 											  <th width="7%" bgcolor="#fdfdec">Pembayaran</th>
 									      </tr>
 										</thead>
 										<tbody>
 											<tr>
 												<td style="text-align:right">1</td>
-												<td style="text-align:left" nowrap>Makassar</td>
+												<td style="text-align:left" nowrap>Ambon - Yos Sudarso</td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-brand btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000001INTEM0626<hr>1 September 2026<hr />15:36:00 WITA" data-html="true">Reguler</span></td>
 												<td nowrap="nowrap" style="text-align:left">Mobil</td>
 												<td nowrap="nowrap" style="text-align:left">DD 1111 LUU</td>
@@ -488,7 +488,7 @@
 												  <hr />10 Menit<hr />
 												  01 Detik</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:120px; height:80px;" src="../assets/media/kendaraan/keluar-mobil.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-outline-secondary btn-elevate btn-icon btn-icon btn-sm" data-toggle="modal" data-target="#modal_foto_keluar_mobil_2" data-html="true"><i class="fa fa-camera"></i></span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-success btn-sm">Selesai</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -529,7 +529,7 @@
 												  <hr />
 											    59 Detik</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:120px; height:80px;" src="../assets/media/kendaraan/foto-motor-masuk.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-outline-secondary btn-elevate btn-icon btn-icon btn-sm" data-toggle="modal" data-target="#modal_foto_keluar_motor_2" data-html="true"><i class="fa fa-camera"></i></span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-danger btn-sm">Denda</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -571,7 +571,7 @@
 												  <hr />
 											    59 Detik</td>
 												<td nowrap="nowrap" style="text-align:center">-</td>
-												<td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:120px; height:80px;" src="../assets/media/kendaraan/foto-motor-masuk-2.png" alt="image" /></a></td>
+												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-outline-secondary btn-elevate btn-icon btn-icon btn-sm" data-toggle="modal" data-target="#modal_foto_keluar_motor_2" data-html="true"><i class="fa fa-camera"></i></span></td>
 												<td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter btn-sm">Member</span></td>
 												<td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -612,7 +612,7 @@
     <hr />
     59 Detik</td>
   <td nowrap="nowrap" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="12321355123123211&lt;hr&gt;Muhammad Nasrullah, S.Kom" data-html="true"><img src="../assets/media/users/100_3.jpg" alt="image" /></a></td>
-  <td nowrap="nowrap" style="text-align:center"><a href="#" class="" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:120px; height:80px;" src="../assets/media/kendaraan/foto-mobil-masuk.png" alt="image" /></a></td>
+  <td nowrap="nowrap" style="text-align:center"><span class="btn btn-outline-secondary btn-elevate btn-icon btn-icon btn-sm" data-toggle="modal" data-target="#modal_foto_keluar_mobil_2" data-html="true"><i class="fa fa-camera"></i></span></td>
   <td nowrap="nowrap" style="text-align:center"><span class="btn btn-label-twitter  btn-sm">Member</span></td>
   <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 												  <div class="dropdown-menu dropdown-menu-fit dropdown-menu-right">
@@ -687,7 +687,7 @@
                 </div>
             </div>
 			<!--begin::Modal 1-->
-									<div class="modal fade" id="serah-terima-atribut" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+									<div class="modal fade" id="modal_foto_keluar_mobil_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 									<div class="modal-content">
 
@@ -695,8 +695,8 @@
 											<div class="kt-portlet kt-portlet--mobile ">
 											<div class="kt-portlet__head">
 											<div class="kt-portlet__head-label">
-												<span class="kt-portlet__head-icon"><i class="kt-font-brand flaticon2-list"></i></span>
-												<h3 class="kt-portlet__head-title kt-font-danger">SERAH TERIMA ID CARD</h3>
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-images"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger">FOTO KENDARAAN KELUAR</h3>
 											</div>
 											<div class="kt-portlet__head-toolbar">
 											
@@ -719,48 +719,10 @@
 								<div class="col-xl-12">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Mitra Jukir</div><br>
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--secondary">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">WEBCAM</div><br><br>
 										<div class="kt-portlet__body">
-											<div class="kt-portlet__content">
-												<div class="form-group row">
-						
-						<div class="col-lg-12">
-                          <label><span style="color:#ff0000">*</span> Nama Lengkap :</label>
-                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="HARIS DAENG PAWA">
-                        </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-                       <div class="col-lg-12">
-                          <label>ID Mitra :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="0000000001">
-                        </div>
-						
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-                     <div class="form-group row">
-						<div class="col-lg-12">
-                          <label class="">Zona :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Kepulauan Sangkarrang">
-                        </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-                     <div class="form-group row">
-						<div class="col-lg-4">
-                          <label><span style="color:#ff0000">*</span> Wil :</label>
-                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="I">
-                        </div>
-						<div class="col-lg-8">
-                          <label><span style="color:#ff0000">*</span> Titik Parkir :</label>
-                        <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Coto Nusantara">
-                        </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-                    
-					  
-                     
-									</div>
+											<a href="#" class="" align="center" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:250px; height:200px;" src="../assets/media/kendaraan/masuk-mobil-1.png" alt="image" /></a>
 									
 									
 									</div>
@@ -783,49 +745,10 @@
 								<div class="col-xl-12">
 
 									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Data Anda</div><br>
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--secondary">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">CCTV</div><br><br>
 										<div class="kt-portlet__body">
-											<div class="kt-portlet__content">
-												<div class="form-group row">
-						
-						<div class="col-lg-12">
-                          <label><span style="color:#ff0000">*</span> Nama Pegawai :</label>
-                           <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="HARIS DAENG PAWA">
-                        </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-						<div class="form-group row">
-                       <div class="col-lg-6">
-                          <label>NPP :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="000 000 001">
-                        </div>
-						<div class="col-lg-6">
-                          <label>Kantor :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Pusat">
-                        </div>
-						
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-                     <div class="form-group row">
-						<div class="col-lg-12">
-                          <label class="">Department :</label>
-                          <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Pengembangan Usaha & Kerja Sama">
-                        </div>
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-                     <div class="form-group row">
-						<div class="col-lg-12">
-                          <label><span style="color:#ff0000">*</span> Jabatan :</label>
-                         <input type="text" class="form-control form-control-sm" disabled="disabled" placeholder="Direktur Pengembangan Usaha & Kerjasama">
-                        </div>
-						
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-                    
-					  
-                     
-									</div>
+											<a href="#" class="" align="center" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:250px; height:200px;" src="../assets/media/kendaraan/foto-mobil-masuk.png" alt="image" /></a>
 									
 									
 									</div>
@@ -843,86 +766,8 @@
 
 
 									</div>
-									<div class="col-lg-6">
-                      <div class="row">
-								<div class="col-xl-12">
-
-									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Tanda Tangan Mitra Jukir</div><br>
-										<div class="kt-portlet__body">
-											<div class="kt-portlet__content">
-												<div class="form-group row">
-						
-						<div class="col-lg-12">
-                          <div class="swal2-content"><label for="swal2-checkbox" class="swal2-checkbox" style="display: none;"><input type="checkbox"><span class="swal2-label"></span></label><textarea class="swal2-textarea" placeholder="" style="display: flex;"></textarea><div class="swal2-validation-message" id="swal2-validation-message"></div></div>
-                        </div>
-                       
-						
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-                     
-                    
-					  
-                     
-									</div>
 									
 									
-									</div>
-
-
-									</div>
-							<!--end:: Portlet-->
-</div>
-
-
-
-										</div>
-
-
-
-
-									</div>
-									<div class="col-lg-6">
-                      <div class="row">
-								<div class="col-xl-12">
-
-									<!--begin::Portlet-->
-										<div class="kt-portlet kt-portlet--height kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--danger">
-							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">Tanda Tangan Anda</div><br>
-										<div class="kt-portlet__body">
-											<div class="kt-portlet__content">
-												<div class="form-group row">
-						
-						<div class="col-lg-12">
-                          <div class="swal2-content"><label for="swal2-checkbox" class="swal2-checkbox" style="display: none;"><input type="checkbox"><span class="swal2-label"></span></label><textarea class="swal2-textarea" placeholder="" style="display: flex;"></textarea><div class="swal2-validation-message" id="swal2-validation-message"></div></div>
-                        </div>
-                       
-						
-                        </div>
-						<div class="kt-separator kt-separator--border-dashed kt-separator--space-lg kt-separator--portlet-fit"></div>
-                     
-                    
-					  
-                     
-									</div>
-									
-									
-									</div>
-
-
-									</div>
-							<!--end:: Portlet-->
-</div>
-
-
-
-										</div>
-
-
-
-
-									</div>
 
 							<!--end:: Portlet-->
 
@@ -943,36 +788,122 @@
 									</div>
 								</div>
 												
-									<div class="kt-portlet__foot kt-align-center">
-												<div class="">
-
-													<a href="datamitraparkir.php" class="btn btn-label-brand btn-sm" data-toggle="dropdown" onclick="goBack()">
-												<i class="flaticon-reply"></i> Kembali</button>
-<script>
-function goBack() {
-  window.history.back();
-}
-</script>
-												<!--<i class="flaticon2-plus"></i>-->
-											</a>&nbsp;
-									<a href="#" class="btn btn-label-brand btn-sm">
-															<span>
-																<i class="fa fa-print"></i>
-																<span>Print ID Card</span>
-															</span>
-														</a>
+									
 												
-													<div class="btn-group">
-				<button type="button" class="btn btn-sm btn-success">
-					<i class="fa fa-check-circle"></i>
-					<span class="kt-hidden-mobile">Simpan</span>
-				</button>
-				
-				
-			</div>
-			
+												
+
+									<!--end::Portlet-->
 												</div>
 											</div>
+											</div>
+
+									</div>
+
+									</div>
+								</div>
+							</div>
+							<div class="modal fade" id="modal_foto_keluar_motor_2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+									<div class="modal-content">
+
+										<div class="modal-body">
+											<div class="kt-portlet kt-portlet--mobile ">
+											<div class="kt-portlet__head">
+											<div class="kt-portlet__head-label">
+												<span class="kt-portlet__head-icon"><i class="kt-font-brand fa fa-images"></i></span>
+												<h3 class="kt-portlet__head-title kt-font-danger">FOTO KENDARAAN KELUAR</h3>
+											</div>
+											<div class="kt-portlet__head-toolbar">
+											
+											&nbsp;
+												<button type="button" class="btn btn-secondary btn-sm btn-outline-danger" data-dismiss="modal">X</button>
+											</div>
+										</div>
+
+										<div class="kt-portlet__body">
+											<div class="tab-content">
+												<div class="m-portlet m-portlet--tabs">
+									
+									<div class="m-portlet__body">
+										<div class="tab-content">
+											<div class="tab-pane active" id="m_tabs_6_1" role="tabpanel">
+												<div class="kt-grid__item kt-grid__item--fluid kt-app__content">
+									<div class="row">
+										<div class="col-lg-6">
+                      <div class="row">
+								<div class="col-xl-12">
+
+									<!--begin::Portlet-->
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--secondary">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">WEBCAM</div><br><br>
+										<div class="kt-portlet__body">
+											<a href="#" class="" align="center" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:250px; height:200px;" src="../assets/media/kendaraan/foto-motor-masuk-webcam.png" alt="image" /></a>
+									
+									
+									</div>
+
+
+									</div>
+							<!--end:: Portlet-->
+</div>
+
+
+
+										</div>
+
+
+
+
+									</div>
+									<div class="col-lg-6">
+                      <div class="row">
+								<div class="col-xl-12">
+
+									<!--begin::Portlet-->
+										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--secondary">
+							<div class="kt-ribbon__target" style="top: 2px; right: -2px;">CCTV</div><br><br>
+										<div class="kt-portlet__body">
+											<a href="#" class="" align="center" data-toggle="kt-tooltip" data-skin="brand" title="" data-html="true"><img style="width:250px; height:200px;" src="../assets/media/kendaraan/foto-motor-masuk-2.png" alt="image" /></a>
+									
+									
+									</div>
+
+
+									</div>
+							<!--end:: Portlet-->
+</div>
+
+
+
+										</div>
+
+
+
+
+									</div>
+									
+									
+
+							<!--end:: Portlet-->
+
+
+          </div>
+
+
+
+								</div>
+											</div>
+											
+											
+											
+											
+											
+											
+										</div>
+									</div>
+								</div>
+												
+									
 												
 												
 
@@ -988,7 +919,7 @@ function goBack() {
 							</div>
 							<!--End::Modal 1-->
 							<!--begin::Modal 2-->
-									<div class="modal fade" id="serah-terima-rompi" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+									<div class="modal fade" id="foto-mobil-masuk" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 								<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 									<div class="modal-content">
 

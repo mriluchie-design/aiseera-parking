@@ -2788,7 +2788,7 @@ fieldset:disabled a.btn {
   border-radius: 0.3rem; }
 
 .btn-sm, .btn-group-sm > .btn {
-   padding: 0.5rem 1rem;
+   padding: 0.2rem 1rem;
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.5;
@@ -11364,7 +11364,7 @@ code {
   text-align: center; }
 
 .table thead th, .table thead td {
-  font-weight: 600;
+  font-weight: 500;
   border-bottom-width: 1px;
   padding-top: 1rem;
   padding-bottom: 1rem; }
@@ -25948,7 +25948,7 @@ strong {
         line-height: 1;
         text-align: center;
         margin: 10px 0 0 0;
-        font-size: 1.12rem;
+        font-size: 1.1rem;
 		line-height:1.5rem;
         font-weight: 500; }
       .kt-grid-nav > .kt-grid-nav__row > .kt-grid-nav__item .kt-grid-nav__desc {
@@ -32051,7 +32051,7 @@ font-weight:500;	}
       .kt-widget17 .kt-widget17__stats .kt-widget17__items .kt-widget17__item .kt-widget17__subtitle {
         display: block;
         margin-top: 0.75rem;
-        font-size: 1.12rem;
+        font-size: 1.1rem;
         font-weight: 500;
         color: #0961ae; }
       .kt-widget17 .kt-widget17__stats .kt-widget17__items .kt-widget17__item .kt-widget17__desc {
@@ -36001,11 +36001,11 @@ body {
     .kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__heading,
     .kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__link {
       cursor: pointer;
-      min-height: 50px; }
+      min-height: 44px; }
       .kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__heading .kt-menu__link-text,
       .kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__link .kt-menu__link-text {
         font-weight: 500;
-        font-size: 1.12rem;
+        font-size: 1rem;
         text-transform: initial; }
       .kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__heading .kt-menu__link-icon,
       .kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__link .kt-menu__link-icon {
@@ -36069,11 +36069,11 @@ body {
       .kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item > .kt-menu__heading,
       .kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item > .kt-menu__link {
         cursor: pointer;
-        min-height: 45px; }
+        min-height: 40px; }
         .kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item > .kt-menu__heading .kt-menu__link-text,
         .kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item > .kt-menu__link .kt-menu__link-text {
           font-weight: 470;
-          font-size: 1.1rem;
+          font-size: 1rem;
           text-transform: initial; }
         .kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item > .kt-menu__heading .kt-menu__link-icon,
         .kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item > .kt-menu__link .kt-menu__link-icon {

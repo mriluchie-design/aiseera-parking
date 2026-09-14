@@ -568,7 +568,7 @@ function goBack() {
     <td width="1%" colspan="2" bgcolor="#f7fcff">DURASI</td>
     <td width="10%" bgcolor="#f7fcff">TARIF SATUAN</td>
     <td width="10%" bgcolor="#f7fcff">JUMLAH</td>
-    <td width="3%" bgcolor="#f7fcff">AKSI</td>
+    <td width="5%" bgcolor="#f7fcff">AKSI</td>
   </tr>
   <tr style="text-align:center">
     <td bgcolor="#f5f5f5">a</td>

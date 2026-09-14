@@ -120,7 +120,7 @@
 											<li class="kt-menu__item" aria-haspopup="true"><a href="keterangan-kerja.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Surat Keterangan Kerja</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="pengalaman-kerja.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Surat Pengalaman Kerja</span></a></li>
 											<li class="kt-menu__item" aria-haspopup="true"><a href="surat-peringatan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Surat Peringatan Pegawai</span></a></li>
-											<li class="kt-menu__item" aria-haspopup="true"><a href="keterangan-penghasilan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Surat Keterangan Penghasilan</span></a></li>
+											<li class="kt-menu__item" aria-haspopup="true"><a href="keterangan-penghasilan.php" class="kt-menu__link "><i class="kt-menu__link-bullet kt-menu__link-bullet--line"><span></span></i><span class="kt-menu__link-text">Keterangan Penghasilan</span></a></li>
 										</ul>
 									</div>
 								</li>
