@@ -46,7 +46,7 @@ function goBack() {
 </script>
 												<!--<i class="flaticon2-plus"></i>-->
 											</a>
-											<div>&nbsp;</div>
+											
 			<a href="#" class="btn btn-label-success btn-sm" data-toggle="dropdown">
 				<i class="fa fa-print"></i> Export Data</button>
 			</a>
@@ -340,10 +340,7 @@ function goBack() {
 								</div>
 
 								<!--End:: App Content-->
-							</div>
-
-							<!--End::App-->
-						</div>
+							
 
 <?php require '../layouts/footer.php' ?>
 <?php require '../layouts/foot.php' ?>
