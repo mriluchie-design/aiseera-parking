@@ -429,14 +429,15 @@
 											<tr>
 												<th width="1%" bgcolor="#f7fcff" rowspan="2">#</th>
 												<th width="7%" bgcolor="#f7fcff" rowspan="2">No. SK Mutasi</th>
-												<th colspan="4" bgcolor="#f7fcff">Penerima Mutasi</th>
-												<th colspan="5" bgcolor="#fdfdec">Tujuan Mutasi</th>
-												<th width="10%" bgcolor="#f7fcff" rowspan="2">Waktu<br>Pengajuan</th>
+												<th width="7%" colspan="4" bgcolor="#f7fcff">Penerima Mutasi</th>
+												<th width="7%" colspan="5" bgcolor="#fdfdec">Tujuan Mutasi</th>
+												<th width="15%" bgcolor="#f7fcff" rowspan="2">Waktu<br>Pengajuan</th>
 												<th width="1%" rowspan="2" bgcolor="#f7fcff">Verifikasi</th>
 												<th width="1%" bgcolor="#f7fcff" rowspan="2">Aksi</th>
 											</tr>
 											<tr>
-											  <th colspan="2" bgcolor="#f7fcff">Detail Pegawai</th>
+											  <th width="5%" bgcolor="#f7fcff">#</th>
+											   <th width="2%" bgcolor="#f7fcff">Detail Pegawai</th>
 											  <th width="2%" bgcolor="#f7fcff">Kantor</th>
 											  <th width="2%" bgcolor="#f7fcff">Status Pegawai</th>
 											  <th width="12%" bgcolor="#fdfdec">Departemen</th>
@@ -450,7 +451,7 @@
 											<tr>
 												<td id="kt_table_1">1</td>
 												<td id="kt_table_1">088/MUTASI/VIII/2022</td>
-												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001<hr>Umum<hr>Umum<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001<hr>Umum<hr>Umum<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/img/users/100_15.jpg" alt="image">
 													</a></td>
 												<td style="text-align:left" nowrap>Muhammad Nasrullah, S.Kom</td>
@@ -501,7 +502,7 @@
 											<tr>
 												<td id="kt_table_1">2</td>
 												<td id="kt_table_1">087/MUTASI/VIII/2022</td>
-												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001<hr>Umum<hr>Umum<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001<hr>Umum<hr>Umum<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_9.jpg" alt="image">
 													</a></td>
 												<td style="text-align:left" nowrap>Oklan Zulkifli, SE</td>
@@ -550,7 +551,7 @@
 										  <tr>
 												<td id="kt_table_1">3</td>
 												<td id="kt_table_1">086/MUTASI/VIII/2022</td>
-												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001<hr>Umum<hr>Umum<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001<hr>Umum<hr>Umum<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/100_8.jpg" alt="image">
 													</a></td>
 												<td style="text-align:left" nowrap>Deddy Rafsanjani, S.Sos</td>
@@ -597,7 +598,7 @@
 										  <tr>
 												<td id="kt_table_1">4</td>
 												<td id="kt_table_1">085/MUTASI/VIII/2022</td>
-												<td width="5%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--circle" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001<hr>Umum<hr>Umum<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
+												<td width="5%" align="center" valign="middle" style="text-align:center"><a href="#" class="kt-media kt-media--sm kt-media--rounded" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="000000000001<hr>Umum<hr>Umum<hr>Kepala Seksi Administrasi Kepegawaian" data-html="true">
 														<img src="../assets/media/users/300_21.jpg" alt="image">
 													</a></td>
 												<td style="text-align:left" nowrap>Muhammad Ramadhan Lerrick, ST</td>

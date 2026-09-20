@@ -106,16 +106,18 @@ function goBack() {
 					<div class="kt-portlet__body">
                         
 						<div class="form-group row">
-								<div class="col-lg-2">
-                                <label>QR Code :</label>
+						<div class="col-lg-2">
+                                <label>Status :</label>
 								
-                                <div class="kt-input-icon kt-input-icon--right">
-        							<input type="text" class="form-control form-control-sm" placeholder="Pencarian..." id="generalSearch">
-        							<span class="kt-input-icon__icon kt-input-icon__icon--right">
-    		                            <span><i class="la la-search"></i></span>
-    		                        </span>
-    		                    </div>
-    		                    </div>
+                               <select class="form-control kt-selectpicker" data-live-search="true">
+                                      <option value="1">Instalasi</option>
+                                      <option value="1">Service</option>
+                                      
+									  <option value="2" selected>Keseluruhan</option>
+                                     
+                                  </select>
+                            </div>
+								
 								<div class="col-lg-2">
                                 <label>Installer :</label>
     	                       <div class="form-group">
@@ -145,17 +147,7 @@ function goBack() {
         					
                             </div>
 								
-								<div class="col-lg-2">
-                                <label>Status :</label>
 								
-                               <select class="form-control kt-selectpicker" data-live-search="true">
-                                      <option value="1">Instalasi</option>
-                                      <option value="1">Service</option>
-                                      
-									  <option value="2" selected>Keseluruhan</option>
-                                     
-                                  </select>
-                            </div>
 							
 								
 								
@@ -193,7 +185,7 @@ function goBack() {
 								
 								
 								
-								<div class="col-xl-3">
+								<div class="col-xl-4">
 
 									<!--begin:: Widgets/Activity-->
 									<div class="kt-portlet kt-portlet--fit kt-portlet--head-lg kt-portlet--head-overlay kt-portlet--skin-solid kt-portlet--height-fluid">
@@ -242,6 +234,17 @@ function goBack() {
 												</div>
 												<div class="kt-widget17__stats">
 													<div class="kt-widget17__items">
+													<div class="kt-widget17__item">
+															
+															<span class="kt-widget17__subtitle" style="text-align:center">
+																Instalasi
+															</span>
+
+															<span class="kt-widget17__desc" style="text-align:center">
+																<span style="color:#ed1c24; font-size:20px; font-weight:500;" class="kt-nav__link" data-toggle="modal" data-target="#modal_hadir">5</span>
+															
+															</span>
+														</div>
 														<div class="kt-widget17__item">
 															
 															<span class="kt-widget17__subtitle" style="text-align:center">
@@ -324,7 +327,7 @@ function goBack() {
 						
                         </div>
                       </div>
-					  <div class="col-lg-4">
+					  <div class="col-lg-3">
 
 									<!--begin::Portlet-->
 										<div class="kt-portlet kt-portlet--height-fluid kt-portlet__head kt-ribbon kt-ribbon--right kt-ribbon--brand">
@@ -1026,7 +1029,7 @@ function goBack() {
 											<div class="kt-portlet kt-portlet--mobile ">
 											<div class="kt-portlet__head">
 											<div class="kt-portlet__head-label">
-												<span class="kt-portlet__head-icon" style="font-size:25px;"><i class="kt-font-danger flaticon2-list"></i></span>
+												<span class="kt-portlet__head-icon" style="font-size:25px;"><i class="kt-font-danger fa fa-images"></i></span>
 												<h3 class="kt-portlet__head-title kt-font-bold">FOTO</h3>
 											</div>
 											<div class="kt-portlet__head-toolbar">
