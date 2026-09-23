@@ -503,7 +503,7 @@
 												<td nowrap="nowrap" style="text-align:left">1 September 2026</td>
 												<td nowrap="nowrap" style="text-align:left">31 Desember 2026</td>
 												<td style="text-align:center" nowrap=""><span class="btn btn-brand btn-sm">Non Sticker</span></td>
-												<td class="text-center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">Pending</span></td>
+												<td class="text-center"><span class="btn btn-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">Pending</span></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>
@@ -634,7 +634,7 @@
 												<td nowrap="nowrap" style="text-align:left">1 September 2025</td>
 												<td nowrap="nowrap" style="text-align:left">31 Desember 2025</td>
 												<td style="text-align:center" nowrap=""><span class="btn btn-danger btn-sm">Berakhir</span></td>
-												<td class="text-center"><span class="kt-badge kt-badge--brand kt-badge--sm kt-badge--inline" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">Pending</span></td>
+												<td class="text-center"><span class="btn btn-warning btn-sm" data-toggle="kt-tooltip" data-skin="brand" title="" data-original-title="" data-html="true">Pending</span></td>
 												<td style="text-align:center" nowrap><div class="kt-widget2__actions">
 																<a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown">
 																	<i class="flaticon-more-1"></i>

@@ -9266,12 +9266,12 @@ button.btn {
 
 .btn-warning {
   color: #212529;
-  background-color: #ffb822;
+  background-color: #ffe9bb;
   border-color: #ffb822;
   color: #111111; }
   .btn-warning:hover {
-    color: #212529;
-    background-color: #fbaa00;
+    color: #fff;
+    background-color: #ff6600;
     border-color: #eea200; }
   .btn-warning:focus, .btn-warning.focus {
     -webkit-box-shadow: 0 0 0 0.2rem rgba(222, 162, 35, 0.5);
@@ -10752,7 +10752,7 @@ padding:10px;	}
   .btn.btn-icon.btn-warning i {
     color: #111111; }
   .btn.btn-icon.btn-warning:focus i, .btn.btn-icon.btn-warning:hover i, .btn.btn-icon.btn-warning.active i {
-    color: #111111; }
+    color: #fff; }
   .btn.btn-icon.btn-danger i {
     color: #ffffff; }
   .btn.btn-icon.btn-danger:focus i, .btn.btn-icon.btn-danger:hover i, .btn.btn-icon.btn-danger.active i {
@@ -30620,10 +30620,10 @@ font-weight:500;	}
   .kt-badge.kt-badge--inline {
     height: 0;
     width: auto;
-    padding: 1rem 0.75rem;
+    padding: 1.3rem 0.75rem;
     border-radius: 2px; }
     .kt-badge.kt-badge--inline.kt-badge--md {
-      padding: 1rem 0.6rem; }
+      padding: 1.3rem 0.6rem; }
     .kt-badge.kt-badge--inline.kt-badge--lg {
       padding: 1rem 0.7rem; }
     .kt-badge.kt-badge--inline.kt-badge--xl {
