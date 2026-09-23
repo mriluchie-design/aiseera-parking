@@ -330,7 +330,7 @@
 										      </div></td>
 										  </tr>
 											<tr>
-											  <td nowrap="nowrap" style="text-align:left">Centi Meter</td>
+											  <td nowrap="nowrap" style="text-align:left">Centimeter</td>
 											  <td nowrap="nowrap" style="text-align:left">cm</td>
 											  <td nowrap="nowrap" style="text-align:center"><div class="kt-widget2__actions"> <a href="#" class="btn btn-clean btn-sm btn-icon btn-icon-md" data-toggle="dropdown"> <i class="flaticon-more-1"></i> </a>
 										      <div class="dropdown-menu dropdown-menu-right" x-placement="bottom-end" style="position: absolute; will-change: transform; top: 0px; left: 0px; transform: translate3d(-149px, 33px, 0px);">
@@ -504,7 +504,7 @@
 									<div class="kt-portlet__foot kt-align-right">
 												<div class="">
 
-													<button type="button" class="btn btn-sm btn-success">
+													<button type="button" class="btn btn-success">
 					<i class="fa fa-check-circle"></i>Simpan</button>
 												</div>
 											</div>
@@ -579,11 +579,6 @@
 							
 							
 									
-        </div>
-        </div>
-        </div>
-        </div>
-        </div>
         </div>
         </div>
         </div>
